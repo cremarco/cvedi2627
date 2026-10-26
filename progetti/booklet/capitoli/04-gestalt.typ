@@ -3,12 +3,11 @@
 #import "../template/piano.typ": parametri-capitolo
 
 #let testo = [
+#import "../template/figure.typ": figura-al-vivo, figura-nel-testo
 // Ordine editoriale del capitolo; le varianti restano nei rispettivi ambiti locali.
 
 #[
 #import "../template/stile.typ": sito, immagine
-#import "../template/gestalt.typ": tavola-gestalt
-
 
 
 
@@ -51,21 +50,22 @@ Lo spazio positivo è occupato dagli elementi; quello negativo si trova attorno 
 
 Nelle interfacce, la disposizione suggerisce quali elementi sono collegati: un’etichetta vicina al proprio campo, per esempio, viene letta come sua descrizione. Distanze, separazioni e rilievo visivo devono rendere riconoscibili queste relazioni. Poiché i principi possono suggerire letture diverse, occorre verificarle osservando l’uso.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/01-dalle-parti-all-insieme.svg"),
-  [Intervalli costanti suggeriscono una sequenza continua; uno spazio maggiore separa due gruppi di tre elementi.],
-  alt: "Intervalli costanti suggeriscono una sequenza continua; uno spazio maggiore separa due gruppi di tre elementi.",
-  width: 187.09pt) <fig-gestalt-73>
-
-
-
-Fonti per @fig-gestalt-73.  @gestalt-palmer2002#sito([_Palmer_ (2002).], "https://palmerlab.berkeley.edu/pdf/Palmer.pdf") @gestalt-wertheimer1923#sito([_Wertheimer_ (1923).], "https://doi.org/10.1007/BF00410640")
+#figura-nel-testo(
+  id: "fig-gestalt-73", file: path("/risorse-condivise/immagini/figure/gestalt/01-dalle-parti-all-insieme.svg"),
+  didascalia: [Intervalli costanti suggeriscono una sequenza continua; uno spazio maggiore separa due gruppi di tre elementi. @gestalt-palmer2002#sito([_Palmer_ (2002).], "https://palmerlab.berkeley.edu/pdf/Palmer.pdf") @gestalt-wertheimer1923#sito([_Wertheimer_ (1923).], "https://doi.org/10.1007/BF00410640")],
+  diritti: none, alt: "Intervalli costanti suggeriscono una sequenza continua; uno spazio maggiore separa due gruppi di tre elementi.",
+  rapporto: 363.0 / 108.0, colonne: 1,
+)
 
 
 
 // Fonte 198:4912 · C03 · 141 · DX — Black Swan: forma e contrasto
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/02-black-swan-forma-e-contrasto.png"), didascalia: [Black Swan: una composizione giocata su forma, colore e contrasto.], diritti: none, alt: "Black Swan: una composizione giocata su forma, colore e contrasto.", rapporto: 0.7542735042735043, larghezza-fonte: 363, etichetta: <fig-gestalt-74>),
-), note: [])
+#figura-al-vivo(
+  id: "fig-gestalt-74", file: path("/risorse-condivise/immagini/figure/gestalt/02-black-swan-forma-e-contrasto.png"),
+  didascalia: [Black Swan: una composizione giocata su forma, colore e contrasto.],
+  diritti: none, alt: "Black Swan: una composizione giocata su forma, colore e contrasto.",
+  rapporto: 706 / 936,
+)
 
 
 
@@ -88,7 +88,6 @@ La regione comune fu proposta da _Stephen E. Palmer_ nel 1992, dopo le formulazi
 ]
 #[
 #import "../template/stile.typ": sito, immagine
-#import "../template/gestalt.typ": tavola-gestalt
 
 
 // Fonte 3721:1964 · C03 · 144 · SX — Vicinanza (proximity)
@@ -96,10 +95,12 @@ La regione comune fu proposta da _Stephen E. Palmer_ nel 1992, dopo le formulazi
 
 A parità di altre condizioni, elementi vicini fra loro tendono a essere percepiti come appartenenti allo stesso gruppo visivo.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/03-vicinanza-proximity.svg"),
-  [Gli stessi punti, con uguale numero, dimensione e colore, appaiono distribuiti uniformemente oppure raccolti in coppie: cambiano soltanto gli intervalli.],
-  alt: "Gli stessi punti, con uguale numero, dimensione e colore, appaiono distribuiti uniformemente oppure raccolti in coppie: cambiano soltanto gli intervalli.",
-  width: 187.09pt) <fig-gestalt-75>
+#figura-nel-testo(
+  id: "fig-gestalt-75", file: path("/risorse-condivise/immagini/figure/gestalt/03-vicinanza-proximity.svg"),
+  didascalia: [Gli stessi punti, con uguale numero, dimensione e colore, appaiono distribuiti uniformemente oppure raccolti in coppie: cambiano soltanto gli intervalli.],
+  diritti: none, alt: "Gli stessi punti, con uguale numero, dimensione e colore, appaiono distribuiti uniformemente oppure raccolti in coppie: cambiano soltanto gli intervalli.",
+  rapporto: 363.0 / 240.0, colonne: 1,
+)
 
 
 
@@ -123,12 +124,12 @@ La vicinanza aiuta a capire quali elementi sono collegati. Nel web, un titolo va
 
 Nel dettaglio di Netflix, «La mia lista» è vicina alla propria riga di locandine; l’intervallo prima di «I più cercati» separa le due categorie. Anche allineamento e formato ripetuto contribuiscono alla lettura.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/04-vicinanza-nel-web.png"),
-  [Netflix: titoli vicini alle righe, spazi fra categorie. Dettaglio; vista completa nella @fig-gestalt-80.],
-  alt: "Netflix: titoli vicini alle righe, spazi fra categorie. Dettaglio; vista completa nella figura collegata.",
-  width: 388.35pt,
-  diritti: [Netflix · screenshot storico. Diritti dei rispettivi titolari.],
-  placement: top, scope: "parent") <fig-gestalt-76>
+#figura-nel-testo(
+  id: "fig-gestalt-76", file: path("/risorse-condivise/immagini/figure/gestalt/04-vicinanza-nel-web.png"),
+  didascalia: [Netflix: titoli vicini alle righe, spazi fra categorie. Dettaglio; vista completa nella @fig-gestalt-80.],
+  diritti: [Netflix · screenshot storico. Diritti dei rispettivi titolari.], alt: "Netflix: titoli vicini alle righe, spazi fra categorie. Dettaglio; vista completa nella figura collegata.",
+  rapporto: 650 / 300, colonne: 2,
+)
 
 
 
@@ -137,58 +138,68 @@ Nel dettaglio di Netflix, «La mia lista» è vicina alla propria riga di locand
 
 I piccoli simboli sono separati, ma le distanze ridotte li fanno leggere come un insieme compatto. Prima riconosciamo la U, poi possiamo esplorare i singoli elementi. La vicinanza contribuisce all’unità del marchio insieme al colore comune e al contorno complessivo.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/05-vicinanza-logo-reale.svg"),
-  [Unilever: simboli distinti riuniti nella sagoma di una U.],
-  alt: "Unilever: simboli distinti riuniti nella sagoma di una U.",
-  width: 388.35pt,
-  diritti: [Marchio Unilever. Fonte: Unilever, The logo. Lettura percettiva a fini didattici.],
-  placement: top, scope: "parent") <fig-gestalt-77>
-
-
-
-Fonti per @fig-gestalt-77. #sito([Marchio Unilever. Fonte: Unilever, The logo. Lettura percettiva a fini.], "https://www.unilever.pk/our-company/the-logo/")
+#figura-nel-testo(
+  id: "fig-gestalt-77", file: path("/risorse-condivise/immagini/figure/gestalt/05-vicinanza-logo-reale.svg"),
+  didascalia: [Unilever: simboli distinti riuniti nella sagoma di una U.#sito([Marchio Unilever. Fonte: Unilever, The logo. Lettura percettiva a fini.], "https://www.unilever.pk/our-company/the-logo/")],
+  diritti: [Marchio Unilever. Fonte: Unilever, The logo. Lettura percettiva a fini didattici.], alt: "Unilever: simboli distinti riuniti nella sagoma di una U.",
+  rapporto: 1426.0 / 1080.0, colonne: 1,
+)
 
 
 
 // Fonte 3863:2018 · C03 · 148 · SX — Vicinanza: fotografia
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/06-vicinanza-fotografia.png"), didascalia: [Gli acini più vicini si leggono come grappoli distinti; gli intervalli più ampi separano i gruppi. Anche colore, sovrapposizioni e connessioni contribuiscono al raggruppamento.], diritti: [LBM1948 · CC BY-SA 4.0 · Wikimedia Commons], alt: "Gli acini più vicini si leggono come grappoli distinti; gli intervalli più ampi separano i gruppi. Anche colore, sovrapposizioni e connessioni contribuiscono al raggruppamento.", rapporto: 1.391812865497076, larghezza-fonte: 420.0, etichetta: <fig-gestalt-78>),
-), note: [Fonti per @fig-gestalt-78. #sito([_LBM1948_ · CC BY-SA 4.0 · Wikimedia Commons], "https://commons.wikimedia.org/wiki/File:La_Rioja,_vi%C3%B1as_(2000)_06.jpg")
-
-])
+#figura-nel-testo(
+  id: "fig-gestalt-78", file: path("/risorse-condivise/immagini/figure/gestalt/06-vicinanza-fotografia.png"),
+  didascalia: [Gli acini più vicini si leggono come grappoli distinti; gli intervalli più ampi separano i gruppi. Anche colore, sovrapposizioni e connessioni contribuiscono al raggruppamento.#sito([_LBM1948_ · CC BY-SA 4.0 · Wikimedia Commons], "https://commons.wikimedia.org/wiki/File:La_Rioja,_vi%C3%B1as_(2000)_06.jpg")],
+  diritti: [LBM1948 · CC BY-SA 4.0 · Wikimedia Commons], alt: "Gli acini più vicini si leggono come grappoli distinti; gli intervalli più ampi separano i gruppi. Anche colore, sovrapposizioni e connessioni contribuiscono al raggruppamento.",
+  rapporto: 952 / 684, colonne: 1,
+)
 
 
 
 // Fonte 3897:2088 · C03 · 149 · DX — Vicinanza: altre immagini e grafiche
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/07-vicinanza-altre-immagini-e-grafiche.png"), didascalia: [Nature Valley: le chips ravvicinate suggeriscono un albero. Vicinanza e riconoscimento della forma cooperano.], diritti: [Campbell Mithun · Nature Valley Fruit Crisps.], alt: "Nature Valley: le chips ravvicinate suggeriscono un albero. Vicinanza e riconoscimento della forma cooperano.", rapporto: 0.7091666666666666, larghezza-fonte: 343.2366638183594, etichetta: <fig-gestalt-79>),
-), note: [])
+#figura-al-vivo(
+  id: "fig-gestalt-79", file: path("/risorse-condivise/immagini/figure/gestalt/07-vicinanza-altre-immagini-e-grafiche.png"),
+  didascalia: [Nature Valley: le chips ravvicinate suggeriscono un albero. Vicinanza e riconoscimento della forma cooperano.], diritti: [Campbell Mithun · Nature Valley Fruit Crisps.], alt: "Nature Valley: le chips ravvicinate suggeriscono un albero. Vicinanza e riconoscimento della forma cooperano.",
+  rapporto: 851 / 1200,
+)
 
 
 
 // Fonte 3417:1097 · C03 · 150 · SX — Vicinanza: il catalogo Netflix
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/08-vicinanza-il-catalogo-netflix.png"), didascalia: [Netflix: il titolo è vicino alla riga che descrive; lo spazio maggiore separa ciascun gruppo dal successivo.], diritti: [Netflix · screenshot storico. Diritti dei rispettivi titolari.], alt: "Netflix: il titolo è vicino alla riga che descrive; lo spazio maggiore separa ciascun gruppo dal successivo.", rapporto: 1.3148148148148149, larghezza-fonte: 420.0, etichetta: <fig-gestalt-80>),
-), note: [])
+#figura-nel-testo(
+  id: "fig-gestalt-80", file: path("/risorse-condivise/immagini/figure/gestalt/08-vicinanza-il-catalogo-netflix.png"),
+  didascalia: [Netflix: il titolo è vicino alla riga che descrive; lo spazio maggiore separa ciascun gruppo dal successivo.],
+  diritti: [Netflix · screenshot storico. Diritti dei rispettivi titolari.], alt: "Netflix: il titolo è vicino alla riga che descrive; lo spazio maggiore separa ciascun gruppo dal successivo.",
+  rapporto: 852 / 648, colonne: 2,
+)
 
 
 
 // Fonte 3692:2327 · C03 · 151 · DX — Algida: marchi nel catalogo
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/09-algida-marchi-nel-catalogo.png"), didascalia: [Algida: la vicinanza fra prodotto e marchio rende riconoscibile ogni gruppo del catalogo.], diritti: [Algida / The Magnum Ice Cream Company · screenshot ufficiale del 14 ottobre 2026.], alt: "Algida: la vicinanza fra prodotto e marchio rende riconoscibile ogni gruppo del catalogo.", rapporto: 0.46208530805687204, larghezza-fonte: 221.8009490966797, etichetta: <fig-gestalt-81>),
-), note: [Fonti per @fig-gestalt-81. #sito([Algida / The Magnum Ice Cream Company · screenshot ufficiale del 14.], "https://www.sharehappy.it/home.html")
-
-])
+#figura-nel-testo(
+  id: "fig-gestalt-81", file: path("/risorse-condivise/immagini/figure/gestalt/09-algida-marchi-nel-catalogo.png"),
+  didascalia: [Algida: la vicinanza fra prodotto e marchio rende riconoscibile ogni gruppo del catalogo.#sito([Algida / The Magnum Ice Cream Company · screenshot ufficiale del 14.], "https://www.sharehappy.it/home.html")],
+  diritti: [Algida / The Magnum Ice Cream Company · screenshot ufficiale del 14 ottobre 2026.], alt: "Algida: la vicinanza fra prodotto e marchio rende riconoscibile ogni gruppo del catalogo.",
+  rapporto: 390 / 844, colonne: 1,
+)
 
 
 
 // Fonte 3897:2106 · C03 · 152 · SX — Vicinanza: altri screenshot reali
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/10-vicinanza-altri-screenshot-reali.png"), didascalia: [GitHub: titolo, etichette e metadati ravvicinati formano ogni issue.], diritti: [Issues · microsoft/vscode · GitHub · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], alt: "GitHub: titolo, etichette e metadati ravvicinati formano ogni issue.", rapporto: 1.7777777777777777, larghezza-fonte: 420.0, etichetta: <fig-gestalt-82>),
-  (file: path("/risorse-condivise/immagini/figure/gestalt/11-vicinanza-altri-screenshot-reali.png"), didascalia: [Pane&Trita: fotografia, indirizzo e pulsante si leggono come un gruppo.], diritti: [Diritti dei rispettivi titolari.], alt: "Pane&Trita: fotografia, indirizzo e pulsante si leggono come un gruppo.", rapporto: 2.6610169491525424, larghezza-fonte: 420.0, etichetta: <fig-gestalt-83>),
-), note: [Fonti per @fig-gestalt-82, @fig-gestalt-83. #sito([Issues · microsoft/vscode · GitHub · screenshot del 15 ottobre 2026..], "https://github.com/microsoft/vscode/issues")
+#figura-nel-testo(
+  id: "fig-gestalt-82", file: path("/risorse-condivise/immagini/figure/gestalt/10-vicinanza-altri-screenshot-reali.png"),
+  didascalia: [GitHub: titolo, etichette e metadati ravvicinati formano ogni issue.#sito([Issues · microsoft/vscode · GitHub · screenshot del 15 ottobre 2026..], "https://github.com/microsoft/vscode/issues")],
+  diritti: [Issues · microsoft/vscode · GitHub · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], alt: "GitHub: titolo, etichette e metadati ravvicinati formano ogni issue.",
+  rapporto: 3840 / 2160, colonne: 2,
+)
 
-])
+#figura-nel-testo(
+  id: "fig-gestalt-83", file: path("/risorse-condivise/immagini/figure/gestalt/11-vicinanza-altri-screenshot-reali.png"),
+  didascalia: [Pane&Trita: fotografia, indirizzo e pulsante si leggono come un gruppo.],
+  diritti: [Diritti dei rispettivi titolari.], alt: "Pane&Trita: fotografia, indirizzo e pulsante si leggono come un gruppo.",
+  rapporto: 1099 / 413, colonne: 2,
+)
 
 
 
@@ -197,10 +208,12 @@ Fonti per @fig-gestalt-77. #sito([Marchio Unilever. Fonte: Unilever, The logo. L
 
 Elementi simili per forma, colore, dimensione o orientamento tendono a essere percepiti come parti di un insieme, anche se distanti.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/12-somiglianza-similarity.svg"),
-  [Nella stessa griglia, posizioni e distanze restano costanti. Alternare il colore per colonne o per righe fa emergere raggruppamenti differenti.],
-  alt: "Nella stessa griglia, posizioni e distanze restano costanti. Alternare il colore per colonne o per righe fa emergere raggruppamenti differenti.",
-  width: 187.09pt) <fig-gestalt-84>
+#figura-nel-testo(
+  id: "fig-gestalt-84", file: path("/risorse-condivise/immagini/figure/gestalt/12-somiglianza-similarity.svg"),
+  didascalia: [Nella stessa griglia, posizioni e distanze restano costanti. Alternare il colore per colonne o per righe fa emergere raggruppamenti differenti.],
+  diritti: none, alt: "Nella stessa griglia, posizioni e distanze restano costanti. Alternare il colore per colonne o per righe fa emergere raggruppamenti differenti.",
+  rapporto: 363.0 / 240.0, colonne: 1,
+)
 
 
 
@@ -224,12 +237,12 @@ Nel web, elementi che condividono una funzione possono presentare caratteristich
 
 Nella schermata di AppFlowy, le attività condividono il formato della scheda. La somiglianza segnala la loro appartenenza allo stesso sistema; colonne ed etichette aggiungono altri raggruppamenti. La coerenza va mantenuta senza appiattire le differenze: ruoli e stati distinti richiedono segnali comprensibili, che non dipendano soltanto dal colore.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/13-somiglianza-nel-web.png"),
-  [AppFlowy: le attività condividono il formato della scheda; etichette e colonne introducono ulteriori raggruppamenti.],
-  alt: "AppFlowy: le attività condividono il formato della scheda; etichette e colonne introducono ulteriori raggruppamenti.",
-  width: 388.35pt,
-  diritti: [AppFlowy · screenshot. Diritti dei rispettivi titolari.],
-  placement: top, scope: "parent") <fig-gestalt-85>
+#figura-nel-testo(
+  id: "fig-gestalt-85", file: path("/risorse-condivise/immagini/figure/gestalt/13-somiglianza-nel-web.png"),
+  didascalia: [AppFlowy: le attività condividono il formato della scheda; etichette e colonne introducono ulteriori raggruppamenti.],
+  diritti: [AppFlowy · screenshot. Diritti dei rispettivi titolari.], alt: "AppFlowy: le attività condividono il formato della scheda; etichette e colonne introducono ulteriori raggruppamenti.",
+  rapporto: 1742 / 1014, colonne: 2,
+)
 
 
 
@@ -238,64 +251,89 @@ Nella schermata di AppFlowy, le attività condividono il formato della scheda. L
 
 I quattro anelli condividono forma circolare, dimensione e spessore. La ripetizione rende immediata la loro appartenenza allo stesso insieme, anche prima di conoscere il significato storico del marchio. La sovrapposizione e l’allineamento rafforzano questo raggruppamento.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/14-somiglianza-logo-reale.png"),
-  [Audi: quattro anelli con forma e peso visivo comuni.],
-  alt: "Audi: quattro anelli con forma e peso visivo comuni.",
-  width: 330.00pt,
-  diritti: [© AUDI AG. Audi logo: New Corporate Design, immagine AL090142.],
-  placement: top, scope: "parent") <fig-gestalt-86>
-
-
-
-Fonti per @fig-gestalt-86. #sito([© AUDI AG. Audi logo: New Corporate Design, immagine AL090142.], "https://www.audi.com/en/photos/detail/audi-logo-new-corporate-design-1282")
+#figura-nel-testo(
+  id: "fig-gestalt-86", file: path("/risorse-condivise/immagini/figure/gestalt/14-somiglianza-logo-reale.png"),
+  didascalia: [Audi: quattro anelli con forma e peso visivo comuni.#sito([© AUDI AG. Audi logo: New Corporate Design, immagine AL090142.], "https://www.audi.com/en/photos/detail/audi-logo-new-corporate-design-1282")],
+  diritti: [© AUDI AG. Audi logo: New Corporate Design, immagine AL090142.], alt: "Audi: quattro anelli con forma e peso visivo comuni.",
+  rapporto: 1200 / 1200, colonne: 1,
+)
 
 
 
 // Fonte 3863:2038 · C03 · 157 · DX — Somiglianza: fotografia
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/15-somiglianza-fotografia.png"), didascalia: [Fra biglie mescolate, colori e superfici simili permettono di ritrovare famiglie visive anche quando gli elementi non sono tutti adiacenti.], diritti: [StockyPics · CC0 · Wikimedia Commons], alt: "Fra biglie mescolate, colori e superfici simili permettono di ritrovare famiglie visive anche quando gli elementi non sono tutti adiacenti.", rapporto: 1.5005861664712778, larghezza-fonte: 420.0, etichetta: <fig-gestalt-87>),
-), note: [Fonti per @fig-gestalt-87. #sito([_StockyPics_ · CC0 · Wikimedia Commons], "https://commons.wikimedia.org/wiki/File:Colorful_marbles_(21447639398).jpg")
-
-])
+#figura-nel-testo(
+  id: "fig-gestalt-87", file: path("/risorse-condivise/immagini/figure/gestalt/15-somiglianza-fotografia.png"),
+  didascalia: [Fra biglie mescolate, colori e superfici simili permettono di ritrovare famiglie visive anche quando gli elementi non sono tutti adiacenti.#sito([_StockyPics_ · CC0 · Wikimedia Commons], "https://commons.wikimedia.org/wiki/File:Colorful_marbles_(21447639398).jpg")],
+  diritti: [StockyPics · CC0 · Wikimedia Commons], alt: "Fra biglie mescolate, colori e superfici simili permettono di ritrovare famiglie visive anche quando gli elementi non sono tutti adiacenti.",
+  rapporto: 1280 / 853, colonne: 1,
+)
 
 
 
 // Fonte 3897:2127 · C03 · 158 · SX — Somiglianza: altre immagini e grafiche
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/16-somiglianza-altre-immagini-e-grafiche.png"), didascalia: [Haribo: forma e colore accomunano gli orsetti gialli; quello verde si distingue.], diritti: [Haribo, «Be Different» · autore non indicato.], alt: "Haribo: forma e colore accomunano gli orsetti gialli; quello verde si distingue.", rapporto: 0.77265625, larghezza-fonte: 373.96563720703125, etichetta: <fig-gestalt-88>),
-), note: [])
+#figura-al-vivo(
+  id: "fig-gestalt-88", file: path("/risorse-condivise/immagini/figure/gestalt/16-somiglianza-altre-immagini-e-grafiche.png"),
+  didascalia: [Haribo: forma e colore accomunano gli orsetti gialli; quello verde si distingue.],
+  diritti: [Haribo, «Be Different» · autore non indicato.], alt: "Haribo: forma e colore accomunano gli orsetti gialli; quello verde si distingue.",
+  rapporto: 989 / 1280,
+  rifilo: false,
+)
 
 
 
 // Fonte 3417:1199 · C03 · 159 · DX — Somiglianza: schede e categorie
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/17-somiglianza-schede-e-categorie.png"), didascalia: [AppFlowy: le attività condividono il formato della scheda; etichette e colonne introducono ulteriori raggruppamenti.], diritti: [AppFlowy · screenshot. Diritti dei rispettivi titolari.], alt: "AppFlowy: le attività condividono il formato della scheda; etichette e colonne introducono ulteriori raggruppamenti.", rapporto: 1.7179487179487178, larghezza-fonte: 420.0, etichetta: <fig-gestalt-89>),
-  (file: path("/risorse-condivise/immagini/figure/gestalt/18-somiglianza-schede-e-categorie.png"), didascalia: [Pane&Trita: le due schede rosse risultano più simili fra loro rispetto alla terza.], diritti: [Rispettivi diritti.], alt: "Pane&Trita: le due schede rosse risultano più simili fra loro rispetto alla terza.", rapporto: 4.193916349809886, larghezza-fonte: 420.0, etichetta: <fig-gestalt-90>),
-), note: [])
+#figura-nel-testo(
+  id: "fig-gestalt-89", file: path("/risorse-condivise/immagini/figure/gestalt/17-somiglianza-schede-e-categorie.png"),
+  didascalia: [AppFlowy: le attività condividono il formato della scheda; etichette e colonne introducono ulteriori raggruppamenti.],
+  diritti: [AppFlowy · screenshot. Diritti dei rispettivi titolari.], alt: "AppFlowy: le attività condividono il formato della scheda; etichette e colonne introducono ulteriori raggruppamenti.",
+  rapporto: 1742 / 1014, colonne: 2,
+)
+
+#figura-nel-testo(
+  id: "fig-gestalt-90", file: path("/risorse-condivise/immagini/figure/gestalt/18-somiglianza-schede-e-categorie.png"),
+  didascalia: [Pane&Trita: le due schede rosse risultano più simili fra loro rispetto alla terza.],
+  diritti: [Rispettivi diritti.], alt: "Pane&Trita: le due schede rosse risultano più simili fra loro rispetto alla terza.",
+  rapporto: 1103 / 263, colonne: 2,
+)
 
 
 
 // Fonte 3804:2037 · C03 · 160 · SX — Api&Bio: schede delle persone
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/19-api-bio-schede-delle-persone.png"), didascalia: [Api&Bio: tre persone sono presentate con lo stesso formato di immagine, ruolo e biografia.], diritti: [Api&Bio · screenshot storico. Autori non indicati nella fonte.], alt: "Api&Bio: tre persone sono presentate con lo stesso formato di immagine, ruolo e biografia.", rapporto: 2.0926243567753002, larghezza-fonte: 409.67974853515625, etichetta: <fig-gestalt-91>),
-  (file: path("/risorse-condivise/immagini/figure/gestalt/20-api-bio-schede-delle-persone.png"), didascalia: [Dettaglio: la struttura ripetuta suggerisce che le schede appartengano alla stessa famiglia.], diritti: [Api&Bio · screenshot storico. Autori non indicati nella fonte.], alt: "Dettaglio: la struttura ripetuta suggerisce che le schede appartengano alla stessa famiglia.", rapporto: 0.7032590051457976, larghezza-fonte: 170.69989013671875, etichetta: <fig-gestalt-92>),
-), note: [])
+#figura-nel-testo(
+  id: "fig-gestalt-91", file: path("/risorse-condivise/immagini/figure/gestalt/19-api-bio-schede-delle-persone.png"),
+  didascalia: [Api&Bio: tre persone sono presentate con lo stesso formato di immagine, ruolo e biografia.],
+  diritti: [Api&Bio · screenshot storico. Autori non indicati nella fonte.], alt: "Api&Bio: tre persone sono presentate con lo stesso formato di immagine, ruolo e biografia.",
+  rapporto: 1220 / 583, colonne: 2,
+)
+
+#figura-nel-testo(
+  id: "fig-gestalt-92", file: path("/risorse-condivise/immagini/figure/gestalt/20-api-bio-schede-delle-persone.png"),
+  didascalia: [Dettaglio: la struttura ripetuta suggerisce che le schede appartengano alla stessa famiglia.],
+  diritti: [Api&Bio · screenshot storico. Autori non indicati nella fonte.], alt: "Dettaglio: la struttura ripetuta suggerisce che le schede appartengano alla stessa famiglia.",
+  rapporto: 410 / 583, colonne: 2,
+)
 
 
 
 // Fonte 3897:2148 · C03 · 161 · DX — Somiglianza: altri screenshot reali
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/21-somiglianza-altri-screenshot-reali.png"), didascalia: [Trello: le schede ripetono immagine, titolo e descrizione.], diritti: [Templates | Trello · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], alt: "Trello: le schede ripetono immagine, titolo e descrizione.", rapporto: 1.7777777777777777, larghezza-fonte: 420.0, etichetta: <fig-gestalt-93>),
-  (file: path("/risorse-condivise/immagini/figure/gestalt/22-somiglianza-altri-screenshot-reali.png"), didascalia: [Amazon: titoli, riquadri e immagini ripetono formati coerenti.], diritti: [Diritti dei rispettivi titolari.], alt: "Amazon: titoli, riquadri e immagini ripetono formati coerenti.", rapporto: 2.176, larghezza-fonte: 420.0, etichetta: <fig-gestalt-94>),
-), note: [Fonti per @fig-gestalt-93, @fig-gestalt-94. #sito([Templates | Trello · screenshot del 15 ottobre 2026. Diritti dei.], "https://trello.com/templates")
+#figura-nel-testo(
+  id: "fig-gestalt-93", file: path("/risorse-condivise/immagini/figure/gestalt/21-somiglianza-altri-screenshot-reali.png"),
+  didascalia: [Trello: le schede ripetono immagine, titolo e descrizione.#sito([Templates | Trello · screenshot del 15 ottobre 2026. Diritti dei.], "https://trello.com/templates")],
+  diritti: [Templates | Trello · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], alt: "Trello: le schede ripetono immagine, titolo e descrizione.",
+  rapporto: 3840 / 2160, colonne: 2,
+)
 
-])
+#figura-nel-testo(
+  id: "fig-gestalt-94", file: path("/risorse-condivise/immagini/figure/gestalt/22-somiglianza-altri-screenshot-reali.png"),
+  didascalia: [Amazon: titoli, riquadri e immagini ripetono formati coerenti.],
+  diritti: [Diritti dei rispettivi titolari.], alt: "Amazon: titoli, riquadri e immagini ripetono formati coerenti.",
+  rapporto: 1360 / 625, colonne: 2,
+)
 
 
 ]
 #[
 #import "../template/stile.typ": sito, immagine
-#import "../template/gestalt.typ": tavola-gestalt
 
 
 // Fonte 3721:2282 · C03 · 162 · SX — Destino comune (common fate)
@@ -303,10 +341,12 @@ Fonti per @fig-gestalt-86. #sito([© AUDI AG. Audi logo: New Corporate Design, i
 
 Elementi che si muovono o cambiano in modo concorde tendono a essere percepiti come appartenenti allo stesso gruppo nel tempo.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/23-destino-comune-common-fate.svg"),
-  [Tre istanti della stessa configurazione: alcuni punti si spostano insieme, conservando le distanze interne; gli altri restano fermi. La sequenza rende osservabile il cambiamento concorde.],
-  alt: "Tre istanti della stessa configurazione: alcuni punti si spostano insieme, conservando le distanze interne; gli altri restano fermi. La sequenza rende osservabile il cambiamento concorde.",
-  width: 187.09pt) <fig-gestalt-95>
+#figura-nel-testo(
+  id: "fig-gestalt-95", file: path("/risorse-condivise/immagini/figure/gestalt/23-destino-comune-common-fate.svg"),
+  didascalia: [Tre istanti della stessa configurazione: alcuni punti si spostano insieme, conservando le distanze interne; gli altri restano fermi. La sequenza rende osservabile il cambiamento concorde.],
+  diritti: none, alt: "Tre istanti della stessa configurazione: alcuni punti si spostano insieme, conservando le distanze interne; gli altri restano fermi. La sequenza rende osservabile il cambiamento concorde.",
+  rapporto: 363.0 / 240.0, colonne: 1,
+)
 
 
 
@@ -330,16 +370,12 @@ Nel web, il movimento condiviso può rendere riconoscibile una relazione durante
 
 I tre screenshot mostrano stati reali del carousel Bootstrap. La documentazione descrive la transizione animata fra le slide; le immagini statiche ne documentano gli stati, ma non dimostrano direzione, velocità o simultaneità del movimento. Per osservare il destino comune occorre riprodurre la transizione. I contenuti devono restare comprensibili anche con le animazioni ridotte.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/24-destino-comune-nel-web.svg"),
-  [Bootstrap: tre stati reali dello stesso carousel, in ordine di acquisizione. Per osservare il movimento condiviso occorre vedere la transizione animata.],
-  alt: "Bootstrap: tre stati reali dello stesso carousel, in ordine di acquisizione. Per osservare il movimento condiviso occorre vedere la transizione animata.",
-  width: 388.35pt,
-  diritti: [Bootstrap 5.3, Carousel with captions · 14 ottobre 2026. Documentazione CC BY 3.0; codice MIT.],
-  placement: top, scope: "parent") <fig-gestalt-96>
-
-
-
-Fonti per @fig-gestalt-96. #sito([Bootstrap 5.3, Carousel with captions · 14 ottobre 2026. Documentazione CC.], "https://getbootstrap.com/docs/5.3/components/carousel/")
+#figura-nel-testo(
+  id: "fig-gestalt-96", file: path("/risorse-condivise/immagini/figure/gestalt/24-destino-comune-nel-web.svg"),
+  didascalia: [Bootstrap: tre stati reali dello stesso carousel, in ordine di acquisizione. Per osservare il movimento condiviso occorre vedere la transizione animata.#sito([Bootstrap 5.3, Carousel with captions · 14 ottobre 2026. Documentazione CC.], "https://getbootstrap.com/docs/5.3/components/carousel/")],
+  diritti: [Bootstrap 5.3, Carousel with captions · 14 ottobre 2026. Documentazione CC BY 3.0; codice MIT.], alt: "Bootstrap: tre stati reali dello stesso carousel, in ordine di acquisizione. Per osservare il movimento condiviso occorre vedere la transizione animata.",
+  rapporto: 363.0 / 233.05517578125, colonne: 2,
+)
 
 
 
@@ -348,51 +384,73 @@ Fonti per @fig-gestalt-96. #sito([Bootstrap 5.3, Carousel with captions · 14 ot
 
 Nel segmento “Thinking” i quattro punti ruotano nello stesso senso attorno a un centro comune, mantenendo quasi costanti distanze e configurazione. Il cambiamento coordinato li fa leggere come un unico gruppo in movimento. È una rotazione comune, non una traslazione con vettori paralleli. I fotogrammi documentano la sequenza; per osservare il movimento occorre aprire il filmato originale.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/25-destino-comune-logo-reale.svg"),
-  [Google Dots, stato Thinking: viste complete e dettagli della stessa rotazione comune, a 6,5000 s; 6,6167 s; 6,7667 s.],
-  alt: "Google Dots, stato Thinking: viste complete e dettagli della stessa rotazione comune, a 6,5000 s; 6,6167 s; 6,7667 s.",
-  width: 388.35pt,
-  diritti: [Google, Evolving the Google Identity, 2015. Fotogrammi dall’animazione ufficiale Google Dots.],
-  placement: top, scope: "parent") <fig-gestalt-97>
-
-
-
-Fonti per @fig-gestalt-97. #sito([Google, Evolving the Google Identity, 2015. Fotogrammi dall’animazione.], "https://design.google/library/evolving-google-identity")
+#figura-nel-testo(
+  id: "fig-gestalt-97", file: path("/risorse-condivise/immagini/figure/gestalt/25-destino-comune-logo-reale.svg"),
+  didascalia: [Google Dots, stato Thinking: viste complete e dettagli della stessa rotazione comune, a 6,5000 s; 6,6167 s; 6,7667 s.#sito([Google, Evolving the Google Identity, 2015. Fotogrammi dall’animazione.], "https://design.google/library/evolving-google-identity")],
+  diritti: [Google, Evolving the Google Identity, 2015. Fotogrammi dall’animazione ufficiale Google Dots.], alt: "Google Dots, stato Thinking: viste complete e dettagli della stessa rotazione comune, a 6,5000 s; 6,6167 s; 6,7667 s.",
+  rapporto: 363 / 199.880859375, colonne: 2,
+)
 
 
 
 // Fonte 3863:2058 · C03 · 166 · SX — Destino comune: fotografia
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/26-destino-comune-fotografia.png"), didascalia: [Posture e orientamento delle biciclette suggeriscono una direzione condivisa nel peloton. La fotografia fissa richiama il destino comune; per osservarlo direttamente serve una sequenza in movimento.], diritti: [Spielvogel · CC0 · Wikimedia Commons], alt: "Posture e orientamento delle biciclette suggeriscono una direzione condivisa nel peloton. La fotografia fissa richiama il destino comune; per osservarlo direttamente serve una sequenza in movimento.", rapporto: 1.499531396438613, larghezza-fonte: 420.0, etichetta: <fig-gestalt-98>),
-), note: [Fonti per @fig-gestalt-98. #sito([_Spielvogel_ · CC0 · Wikimedia Commons], "https://commons.wikimedia.org/wiki/File:2014-07-16_Etape_11_du_Tour_de_France._Peloton_5._Free_image_Spielvogel._No_copyright.jpg")
-
-])
+#figura-nel-testo(
+  id: "fig-gestalt-98", file: path("/risorse-condivise/immagini/figure/gestalt/26-destino-comune-fotografia.png"),
+  didascalia: [Posture e orientamento delle biciclette suggeriscono una direzione condivisa nel peloton. La fotografia fissa richiama il destino comune; per osservarlo direttamente serve una sequenza in movimento.#sito([_Spielvogel_ · CC0 · Wikimedia Commons], "https://commons.wikimedia.org/wiki/File:2014-07-16_Etape_11_du_Tour_de_France._Peloton_5._Free_image_Spielvogel._No_copyright.jpg")],
+  diritti: [Spielvogel · CC0 · Wikimedia Commons], alt: "Posture e orientamento delle biciclette suggeriscono una direzione condivisa nel peloton. La fotografia fissa richiama il destino comune; per osservarlo direttamente serve una sequenza in movimento.",
+  rapporto: 1600 / 1067, colonne: 1,
+)
 
 
 
 // Fonte 3897:2169 · C03 · 167 · DX — Destino comune: altre immagini e grafiche
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/27-destino-comune-altre-immagini-e-grafiche.png"), didascalia: [Turkish Airlines: lo stormo suggerisce una direzione condivisa. La pubblicità statica non documenta il movimento.], diritti: [Turkish Airlines, campagna pubblicitaria · autore non indicato.], alt: "Turkish Airlines: lo stormo suggerisce una direzione condivisa. La pubblicità statica non documenta il movimento.", rapporto: 1.4134275618374559, larghezza-fonte: 420.0, etichetta: <fig-gestalt-99>),
-  (file: path("/risorse-condivise/immagini/figure/gestalt/28-destino-comune-altre-immagini-e-grafiche.png"), didascalia: [Dettaglio dello stormo: orientamento e disposizione suggeriscono un insieme.], diritti: [Turkish Airlines, campagna pubblicitaria · autore non indicato.], alt: "Dettaglio dello stormo: orientamento e disposizione suggeriscono un insieme.", rapporto: 3.003003003003003, larghezza-fonte: 420.0, etichetta: <fig-gestalt-100>),
-), note: [])
+#figura-nel-testo(
+  id: "fig-gestalt-99", file: path("/risorse-condivise/immagini/figure/gestalt/27-destino-comune-altre-immagini-e-grafiche.png"),
+  didascalia: [Turkish Airlines: lo stormo suggerisce una direzione condivisa. La pubblicità statica non documenta il movimento.],
+  diritti: [Turkish Airlines, campagna pubblicitaria · autore non indicato.], alt: "Turkish Airlines: lo stormo suggerisce una direzione condivisa. La pubblicità statica non documenta il movimento.",
+  rapporto: 1600 / 1132, colonne: 2,
+)
+
+#figura-nel-testo(
+  id: "fig-gestalt-100", file: path("/risorse-condivise/immagini/figure/gestalt/28-destino-comune-altre-immagini-e-grafiche.png"),
+  didascalia: [Dettaglio dello stormo: orientamento e disposizione suggeriscono un insieme.],
+  diritti: [Turkish Airlines, campagna pubblicitaria · autore non indicato.], alt: "Dettaglio dello stormo: orientamento e disposizione suggeriscono un insieme.",
+  rapporto: 1000 / 333, colonne: 1,
+)
 
 
 
 // Fonte 3804:2047 · C03 · 168 · SX — Bootstrap: il contenuto scorre come un’unità
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/29-bootstrap-il-contenuto-scorre-come-un-unit.png"), didascalia: [Carousel Bootstrap: immagine, titolo e testo appartengono alla stessa slide.], diritti: [Bootstrap 5.3, Carousel with captions. Tre stati acquisiti il 14 ottobre 2026. Documentazione CC BY 3.0; codice MIT.], alt: "Carousel Bootstrap: immagine, titolo e testo appartengono alla stessa slide.", rapporto: 1.7777777777777777, larghezza-fonte: 420.0, etichetta: <fig-gestalt-101>),
-  (file: path("/risorse-condivise/immagini/figure/gestalt/30-bootstrap-il-contenuto-scorre-come-un-unit.svg"), didascalia: [Durante la transizione, immagine e didascalia scorrono insieme; i controlli restano fermi.], diritti: [Bootstrap 5.3, Carousel with captions. Tre stati acquisiti il 14 ottobre 2026. Documentazione CC BY 3.0; codice MIT.], alt: "Durante la transizione, immagine e didascalia scorrono insieme; i controlli restano fermi.", rapporto: 4.516483907765333, larghezza-fonte: 419.9999237060547, etichetta: <fig-gestalt-102>),
-), note: [])
+#figura-nel-testo(
+  id: "fig-gestalt-101", file: path("/risorse-condivise/immagini/figure/gestalt/29-bootstrap-il-contenuto-scorre-come-un-unit.png"),
+  didascalia: [Carousel Bootstrap: immagine, titolo e testo appartengono alla stessa slide.],
+  diritti: [Bootstrap 5.3, Carousel with captions. Tre stati acquisiti il 14 ottobre 2026. Documentazione CC BY 3.0; codice MIT.], alt: "Carousel Bootstrap: immagine, titolo e testo appartengono alla stessa slide.",
+  rapporto: 1280 / 720, colonne: 2,
+)
+
+#figura-nel-testo(
+  id: "fig-gestalt-102", file: path("/risorse-condivise/immagini/figure/gestalt/30-bootstrap-il-contenuto-scorre-come-un-unit.svg"),
+  didascalia: [Durante la transizione, immagine e didascalia scorrono insieme; i controlli restano fermi.],
+  diritti: [Bootstrap 5.3, Carousel with captions. Tre stati acquisiti il 14 ottobre 2026. Documentazione CC BY 3.0; codice MIT.], alt: "Durante la transizione, immagine e didascalia scorrono insieme; i controlli restano fermi.",
+  rapporto: 419.9999237060547 / 92.99267578125, colonne: 2,
+)
 
 
 
 // Fonte 3897:2187 · C03 · 169 · DX — Destino comune: altri screenshot reali
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/31-destino-comune-altri-screenshot-reali.png"), didascalia: [Swiper: uno stato reale della traccia durante lo stesso trascinamento.], diritti: [Swiper demo · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], alt: "Swiper: uno stato reale della traccia durante lo stesso trascinamento.", rapporto: 1.7777777777777777, larghezza-fonte: 420.0, etichetta: <fig-gestalt-103>),
-  (file: path("/risorse-condivise/immagini/figure/gestalt/32-destino-comune-altri-screenshot-reali.svg"), didascalia: [Dettagli di tre istanti consecutivi: la traccia avanza di 100 px fra gli screenshot; le distanze reciproche restano costanti.], diritti: [Swiper demo · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], alt: "Dettagli di tre istanti consecutivi: la traccia avanza di 100 px fra gli screenshot; le distanze reciproche restano costanti.", rapporto: 1.9626168224299065, larghezza-fonte: 384.0, etichetta: <fig-gestalt-104>),
-), note: [Fonti per @fig-gestalt-103, @fig-gestalt-104. #sito([Swiper demo · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], "https://swiperjs.com/demos/110-slides-per-view/core")
+#figura-nel-testo(
+  id: "fig-gestalt-103", file: path("/risorse-condivise/immagini/figure/gestalt/31-destino-comune-altri-screenshot-reali.png"),
+  didascalia: [Swiper: uno stato reale della traccia durante lo stesso trascinamento.#sito([Swiper demo · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], "https://swiperjs.com/demos/110-slides-per-view/core")<nota-fonti-fig-gestalt-103>],
+  diritti: [Swiper demo · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], alt: "Swiper: uno stato reale della traccia durante lo stesso trascinamento.",
+  rapporto: 3840 / 2160, colonne: 2,
+)
 
-])
+#figura-nel-testo(
+  id: "fig-gestalt-104", file: path("/risorse-condivise/immagini/figure/gestalt/32-destino-comune-altri-screenshot-reali.svg"),
+  didascalia: [Dettagli di tre istanti consecutivi: la traccia avanza di 100 px fra gli screenshot; le distanze reciproche restano costanti.#sito([Swiper demo · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], "https://swiperjs.com/demos/110-slides-per-view/core")],
+  diritti: [Swiper demo · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], alt: "Dettagli di tre istanti consecutivi: la traccia avanza di 100 px fra gli screenshot; le distanze reciproche restano costanti.",
+  rapporto: 420.0 / 214.0, colonne: 2,
+)
 
 
 
@@ -401,10 +459,12 @@ Fonti per @fig-gestalt-97. #sito([Google, Evolving the Google Identity, 2015. Fo
 
 Contorni allineati o che proseguono senza bruschi cambi di direzione tendono a essere percepiti come parti dello stesso percorso visivo.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/33-buona-continuazione-good-continuation.svg"),
-  [Due percorsi di punti si incrociano. La direzione regolare favorisce la lettura di due andamenti continui, invece di frammenti che cambiano bruscamente direzione.],
-  alt: "Due percorsi di punti si incrociano. La direzione regolare favorisce la lettura di due andamenti continui, invece di frammenti che cambiano bruscamente direzione.",
-  width: 187.09pt) <fig-gestalt-105>
+#figura-nel-testo(
+  id: "fig-gestalt-105", file: path("/risorse-condivise/immagini/figure/gestalt/33-buona-continuazione-good-continuation.svg"),
+  didascalia: [Due percorsi di punti si incrociano. La direzione regolare favorisce la lettura di due andamenti continui, invece di frammenti che cambiano bruscamente direzione.],
+  diritti: none, alt: "Due percorsi di punti si incrociano. La direzione regolare favorisce la lettura di due andamenti continui, invece di frammenti che cambiano bruscamente direzione.",
+  rapporto: 363.0 / 240.0, colonne: 1,
+)
 
 
 
@@ -428,12 +488,12 @@ Nel web, allineamenti e percorsi regolari possono suggerire la prosecuzione di u
 
 Nel progetto Api&Bio, il percorso puntinato prosegue fra le illustrazioni. La continuità del tratto mette in relazione parti distanti della composizione. Lo screenshot documenta una soluzione storica del progetto, non il suo funzionamento attuale. Il percorso visivo suggerito non dimostra da solo l’ordine effettivo di lettura degli utenti.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/34-buona-continuazione-nel-web.png"),
-  [Api&Bio, dettaglio dello screenshot storico: il tracciato curvo prosegue fra le illustrazioni. La vista completa è nella @fig-gestalt-110.],
-  alt: "Api&Bio, dettaglio dello screenshot storico: il tracciato curvo prosegue fra le illustrazioni. La vista completa è nella figura collegata.",
-  width: 388.35pt,
-  diritti: [Api&Bio · screenshot storico. Autori non indicati nella fonte.],
-  placement: top, scope: "parent") <fig-gestalt-106>
+#figura-nel-testo(
+  id: "fig-gestalt-106", file: path("/risorse-condivise/immagini/figure/gestalt/34-buona-continuazione-nel-web.png"),
+  didascalia: [Api&Bio, dettaglio dello screenshot storico: il tracciato curvo prosegue fra le illustrazioni. La vista completa è nella @fig-gestalt-110.],
+  diritti: [Api&Bio · screenshot storico. Autori non indicati nella fonte.], alt: "Api&Bio, dettaglio dello screenshot storico: il tracciato curvo prosegue fra le illustrazioni. La vista completa è nella figura collegata.",
+  rapporto: 664 / 384, colonne: 2,
+)
 
 
 
@@ -442,55 +502,63 @@ Nel progetto Api&Bio, il percorso puntinato prosegue fra le illustrazioni. La co
 
 Le curve e i raccordi della scrittura suggeriscono percorsi fluidi fra lettere e prolungamenti, anche nei punti più intrecciati. La buona continuazione contribuisce alla coesione del logotipo insieme alla familiarità con la parola. È una lettura della forma grafica: non descrive un percorso dello sguardo misurato.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/35-buona-continuazione-logo-reale.png"),
-  [Coca-Cola: curve e raccordi suggeriscono percorsi continui nel logotipo.],
-  alt: "Coca-Cola: curve e raccordi suggeriscono percorsi continui nel logotipo.",
-  width: 187.09pt,
-  diritti: [Marchio Coca-Cola. Logotipo storico ideato da Frank M. Robinson. Fonte immagine: sito ufficiale Coca-Cola US.],
-  placement: top, scope: "parent") <fig-gestalt-107>
-
-
-
-Fonti per @fig-gestalt-107. #sito([Marchio Coca-Cola. Logotipo storico ideato da _Frank M. Robinson_. Fonte.], "https://www.coca-colacompany.com/about-us/history/coke-lore-trademark-chronology")
+#figura-nel-testo(
+  id: "fig-gestalt-107", file: path("/risorse-condivise/immagini/figure/gestalt/35-buona-continuazione-logo-reale.png"),
+  didascalia: [Coca-Cola: curve e raccordi suggeriscono percorsi continui nel logotipo.#sito([Marchio Coca-Cola. Logotipo storico ideato da _Frank M. Robinson_. Fonte.], "https://www.coca-colacompany.com/about-us/history/coke-lore-trademark-chronology")],
+  diritti: [Marchio Coca-Cola. Logotipo storico ideato da Frank M. Robinson. Fonte immagine: sito ufficiale Coca-Cola US.], alt: "Coca-Cola: curve e raccordi suggeriscono percorsi continui nel logotipo.",
+  rapporto: 573 / 180, colonne: 1,
+)
 
 
 
 // Fonte 3863:2078 · C03 · 174 · SX — Buona continuazione: fotografia
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/36-buona-continuazione-fotografia.png"), didascalia: [Le linee della carreggiata accompagnano lo sguardo lungo la curva: i tratti successivi si leggono come un percorso continuo che prosegue in profondità.], diritti: [Captain76 · Public domain · Wikimedia Commons], alt: "Le linee della carreggiata accompagnano lo sguardo lungo la curva: i tratti successivi si leggono come un percorso continuo che prosegue in profondità.", rapporto: 0.66375, larghezza-fonte: 311.9624938964844, etichetta: <fig-gestalt-108>),
-), note: [Fonti per @fig-gestalt-108. #sito([_Captain76_ · Public domain · Wikimedia Commons], "https://commons.wikimedia.org/wiki/File:Winding_road.jpg")
-
-])
+#figura-nel-testo(
+  id: "fig-gestalt-108", file: path("/risorse-condivise/immagini/figure/gestalt/36-buona-continuazione-fotografia.png"),
+  didascalia: [Le linee della carreggiata accompagnano lo sguardo lungo la curva: i tratti successivi si leggono come un percorso continuo che prosegue in profondità. #sito([_Captain76_ · Public domain · Wikimedia Commons], "https://commons.wikimedia.org/wiki/File:Winding_road.jpg")],
+  diritti: [Captain76 · Public domain · Wikimedia Commons], alt: "Le linee della carreggiata accompagnano lo sguardo lungo la curva: i tratti successivi si leggono come un percorso continuo che prosegue in profondità.",
+  rapporto: 1062 / 1600, colonne: 1,
+)
 
 
 
 // Fonte 3897:2217 · C03 · 175 · DX — Buona continuazione: altre immagini e grafiche
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/37-buona-continuazione-altre-immagini-e-grafiche.png"), didascalia: [MINI: il cavo prosegue in curve regolari e richiama una strada.], diritti: [MINI, «While others play playlist. The MINI is its own soundtrack.» · autore non indicato.], alt: "MINI: il cavo prosegue in curve regolari e richiama una strada.", rapporto: 0.7071547420965059, larghezza-fonte: 342.2629089355469, etichetta: <fig-gestalt-109>),
-), note: [])
+#figura-al-vivo(
+  id: "fig-gestalt-109", file: path("/risorse-condivise/immagini/figure/gestalt/37-buona-continuazione-altre-immagini-e-grafiche.png"),
+  didascalia: [MINI: il cavo prosegue in curve regolari e richiama una strada.], diritti: [MINI, «While others play playlist. The MINI is its own soundtrack.» · autore non indicato.], alt: "MINI: il cavo prosegue in curve regolari e richiama una strada.",
+  rapporto: 850 / 1202,
+)
 
 
 
 // Fonte 3804:2065 · C03 · 176 · SX — Api&Bio: un percorso fra le sezioni
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/38-api-bio-un-percorso-fra-le-sezioni.png"), didascalia: [Api&Bio: un tracciato curvo attraversa le sezioni e suggerisce un percorso continuo fra testi e illustrazioni.], diritti: [Api&Bio · screenshot storico. Autori non indicati nella fonte.], alt: "Api&Bio: un tracciato curvo attraversa le sezioni e suggerisce un percorso continuo fra testi e illustrazioni.", rapporto: 0.7632183908045977, larghezza-fonte: 350.0, etichetta: <fig-gestalt-110>),
-), note: [])
+#figura-nel-testo(
+  id: "fig-gestalt-110", file: path("/risorse-condivise/immagini/figure/gestalt/38-api-bio-un-percorso-fra-le-sezioni.png"),
+  didascalia: [Api&Bio: un tracciato curvo attraversa le sezioni e suggerisce un percorso continuo fra testi e illustrazioni.],
+  diritti: [Api&Bio · screenshot storico. Autori non indicati nella fonte.], alt: "Api&Bio: un tracciato curvo attraversa le sezioni e suggerisce un percorso continuo fra testi e illustrazioni.",
+  rapporto: 664 / 870, colonne: 1,
+)
 
 
 
 // Fonte 3897:2235 · C03 · 177 · DX — Buona continuazione: altri screenshot reali
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/39-buona-continuazione-altri-screenshot-reali.png"), didascalia: [USWDS: segmenti e tappe proseguono sullo stesso asse.], diritti: [Step indicator | U.S. Web Design System (USWDS) · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], alt: "USWDS: segmenti e tappe proseguono sullo stesso asse.", rapporto: 1.7777777777777777, larghezza-fonte: 420.0, etichetta: <fig-gestalt-111>),
-  (file: path("/risorse-condivise/immagini/figure/gestalt/40-buona-continuazione-altri-screenshot-reali.png"), didascalia: [Burger King: le promozioni proseguono lungo una stessa direzione.], diritti: [Diritti dei rispettivi titolari.], alt: "Burger King: le promozioni proseguono lungo una stessa direzione.", rapporto: 2.1811023622047245, larghezza-fonte: 420.0, etichetta: <fig-gestalt-112>),
-), note: [Fonti per @fig-gestalt-111, @fig-gestalt-112. #sito([Step indicator | U.S. Web Design System (USWDS) · screenshot del 15.], "https://designsystem.digital.gov/components/step-indicator/")
+#figura-nel-testo(
+  id: "fig-gestalt-111", file: path("/risorse-condivise/immagini/figure/gestalt/39-buona-continuazione-altri-screenshot-reali.png"),
+  didascalia: [USWDS: segmenti e tappe proseguono sullo stesso asse.#sito([Step indicator | U.S. Web Design System (USWDS) · screenshot del 15.], "https://designsystem.digital.gov/components/step-indicator/")],
+  diritti: [Step indicator | U.S. Web Design System (USWDS) · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], alt: "USWDS: segmenti e tappe proseguono sullo stesso asse.",
+  rapporto: 3840 / 2160, colonne: 2,
+)
 
-])
+#figura-nel-testo(
+  id: "fig-gestalt-112", file: path("/risorse-condivise/immagini/figure/gestalt/40-buona-continuazione-altri-screenshot-reali.png"),
+  didascalia: [Burger King: le promozioni proseguono lungo una stessa direzione.],
+  diritti: [Diritti dei rispettivi titolari.], alt: "Burger King: le promozioni proseguono lungo una stessa direzione.",
+  rapporto: 1385 / 635, colonne: 2,
+)
 
 
 ]
 #[
 #import "../template/stile.typ": sito, immagine
-#import "../template/gestalt.typ": tavola-gestalt
 
 
 // Fonte 3721:2461 · C03 · 178 · SX — Chiusura (closure)
@@ -498,10 +566,12 @@ Fonti per @fig-gestalt-107. #sito([Marchio Coca-Cola. Logotipo storico ideato da
 
 Elementi disposti lungo un contorno chiuso o quasi chiuso tendono a essere organizzati come una figura unitaria, anche con interruzioni.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/41-chiusura-closure.svg"),
-  [Punti separati suggeriscono un cerchio e un quadrato. Le interruzioni lasciano riconoscibile il contorno complessivo, pur senza disegnarlo interamente.],
-  alt: "Punti separati suggeriscono un cerchio e un quadrato. Le interruzioni lasciano riconoscibile il contorno complessivo, pur senza disegnarlo interamente.",
-  width: 187.09pt) <fig-gestalt-113>
+#figura-nel-testo(
+  id: "fig-gestalt-113", file: path("/risorse-condivise/immagini/figure/gestalt/41-chiusura-closure.svg"),
+  didascalia: [Punti separati suggeriscono un cerchio e un quadrato. Le interruzioni lasciano riconoscibile il contorno complessivo, pur senza disegnarlo interamente.],
+  diritti: none, alt: "Punti separati suggeriscono un cerchio e un quadrato. Le interruzioni lasciano riconoscibile il contorno complessivo, pur senza disegnarlo interamente.",
+  rapporto: 363.0 / 240.0, colonne: 1,
+)
 
 
 
@@ -525,16 +595,12 @@ Nel web, icone e indicatori possono restare riconoscibili anche quando il contor
 
 Lo screenshot reale della documentazione Bootstrap mostra uno spinner dal contorno aperto. Il completamento percettivo sostiene il riconoscimento della forma circolare; la funzione di caricamento dipende anche dalla convenzione appresa e dall’animazione descritta nella fonte. Lo screenshot documenta la forma, mentre la rotazione va osservata nell’esempio funzionante. Forma e messaggio accessibile devono comunicare insieme lo stato dell’interfaccia.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/42-chiusura-nel-web.png"),
-  [Bootstrap, dettaglio reale dello spinner: l’arco aperto suggerisce un anello. La @fig-gestalt-119 mostra una vista completa della stessa documentazione.],
-  alt: "Bootstrap, dettaglio reale dello spinner: l’arco aperto suggerisce un anello. La la figura collegata mostra una vista completa della stessa documentazione.",
-  width: 388.35pt,
-  diritti: [Bootstrap 5.3, Spinners · screenshot del 15 ottobre 2026, DPR 3. Documentazione CC BY 3.0; codice MIT.],
-  placement: top, scope: "parent") <fig-gestalt-114>
-
-
-
-Fonti per @fig-gestalt-114. #sito([Bootstrap 5.3, Spinners · screenshot del 15 ottobre 2026, DPR 3..], "https://getbootstrap.com/docs/5.3/components/spinners/")
+#figura-nel-testo(
+  id: "fig-gestalt-114", file: path("/risorse-condivise/immagini/figure/gestalt/42-chiusura-nel-web.png"),
+  didascalia: [Bootstrap, dettaglio reale dello spinner: l’arco aperto suggerisce un anello. La @fig-gestalt-119 mostra una vista completa della stessa documentazione.#sito([Bootstrap 5.3, Spinners · screenshot del 15 ottobre 2026, DPR 3..], "https://getbootstrap.com/docs/5.3/components/spinners/")],
+  diritti: [Bootstrap 5.3, Spinners · screenshot del 15 ottobre 2026, DPR 3. Documentazione CC BY 3.0; codice MIT.], alt: "Bootstrap, dettaglio reale dello spinner: l’arco aperto suggerisce un anello. La la figura collegata mostra una vista completa della stessa documentazione.",
+  rapporto: 690 / 255, colonne: 1,
+)
 
 
 
@@ -543,58 +609,68 @@ Fonti per @fig-gestalt-114. #sito([Bootstrap 5.3, Spinners · screenshot del 15 
 
 Orecchie, occhi e zampe bastano a suggerire un panda. Il bianco della testa e del corpo non è delimitato ovunque da una linea: la percezione completa i contorni mancanti e ricostruisce una figura unitaria. Anche la conoscenza dell’animale contribuisce al riconoscimento.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/43-chiusura-logo-reale.svg"),
-  [WWF: il panda si completa oltre i tratti effettivamente disegnati.],
-  alt: "WWF: il panda si completa oltre i tratti effettivamente disegnati.",
-  width: 146.50pt,
-  diritti: [WWF® e ©1986 Panda Symbol sono di proprietà di WWF. Tutti i diritti riservati.],
-  placement: top, scope: "parent") <fig-gestalt-115>
-
-
-
-Fonti per @fig-gestalt-115. #sito([WWF® e ©1986 Panda Symbol sono di proprietà di WWF. Tutti i diritti riservati.], "https://www.worldwildlife.org/about/history-of-wwfs-panda-logo/")
+#figura-nel-testo(
+  id: "fig-gestalt-115", file: path("/risorse-condivise/immagini/figure/gestalt/43-chiusura-logo-reale.svg"),
+  didascalia: [WWF: il panda si completa oltre i tratti effettivamente disegnati.#sito([WWF® e ©1986 Panda Symbol sono di proprietà di WWF. Tutti i diritti riservati.], "https://www.worldwildlife.org/about/history-of-wwfs-panda-logo/")],
+  diritti: [WWF® e ©1986 Panda Symbol sono di proprietà di WWF. Tutti i diritti riservati.], alt: "WWF: il panda si completa oltre i tratti effettivamente disegnati.",
+  rapporto: 584.0 / 877.0, colonne: 1, altezza: 146.5pt * 877 / 584,
+)
 
 
 
 // Fonte 3863:2098 · C03 · 182 · SX — Chiusura: fotografia
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/44-chiusura-fotografia.png"), didascalia: [La rete interrompe porzioni del gatto, che viene comunque percepito come un unico animale. È un completamento amodale dietro un ostacolo, affine alla chiusura di contorni incompleti.], diritti: [Syrio · CC BY-SA 4.0 · Wikimedia Commons], alt: "La rete interrompe porzioni del gatto, che viene comunque percepito come un unico animale. È un completamento amodale dietro un ostacolo, affine alla chiusura di contorni incompleti.", rapporto: 1.3333333333333333, larghezza-fonte: 420.0, etichetta: <fig-gestalt-116>),
-), note: [Fonti per @fig-gestalt-116. #sito([_Syrio_ · CC BY-SA 4.0 · Wikimedia Commons], "https://commons.wikimedia.org/wiki/File:Scared_cat_behind_a_wire_fence.jpg")
-
-])
+#figura-nel-testo(
+  id: "fig-gestalt-116", file: path("/risorse-condivise/immagini/figure/gestalt/44-chiusura-fotografia.png"),
+  didascalia: [La rete interrompe porzioni del gatto, che viene comunque percepito come un unico animale. È un completamento amodale dietro un ostacolo, affine alla chiusura di contorni incompleti.#sito([_Syrio_ · CC BY-SA 4.0 · Wikimedia Commons], "https://commons.wikimedia.org/wiki/File:Scared_cat_behind_a_wire_fence.jpg")],
+  diritti: [Syrio · CC BY-SA 4.0 · Wikimedia Commons], alt: "La rete interrompe porzioni del gatto, che viene comunque percepito come un unico animale. È un completamento amodale dietro un ostacolo, affine alla chiusura di contorni incompleti.",
+  rapporto: 1600 / 1200, colonne: 1,
+)
 
 
 
 // Fonte 3897:2256 · C03 · 183 · DX — Chiusura: Sea & Vines
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/45-chiusura-sea-vines.png"), didascalia: [Sea & Vines: le forchette suggeriscono il profilo di un calice incompleto.], diritti: [Sea & Vines Food & Wine Festival, 2012. Autore non indicato.], alt: "Sea & Vines: le forchette suggeriscono il profilo di un calice incompleto.", rapporto: 0.7075471698113207, larghezza-fonte: 342.45281982421875, etichetta: <fig-gestalt-117>),
-), note: [])
+#figura-al-vivo(
+  id: "fig-gestalt-117", file: path("/risorse-condivise/immagini/figure/gestalt/45-chiusura-sea-vines.png"),
+  didascalia: [Sea & Vines: le forchette suggeriscono il profilo di un calice incompleto.], diritti: [Sea & Vines Food & Wine Festival, 2012. Autore non indicato.], alt: "Sea & Vines: le forchette suggeriscono il profilo di un calice incompleto.",
+  rapporto: 1125 / 1590,
+)
 
 
 
 // Fonte 3919:2088 · C03 · 184 · SX — Chiusura: Heinz
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/46-chiusura-heinz.png"), didascalia: [Heinz: fette, collo ed etichetta suggeriscono una bottiglia dal contorno irregolare.], diritti: [Heinz, pubblicità. Autore non indicato; rispettivi diritti.], alt: "Heinz: fette, collo ed etichetta suggeriscono una bottiglia dal contorno irregolare.", rapporto: 0.7311557788944724, larghezza-fonte: 353.87939453125, etichetta: <fig-gestalt-118>),
-), note: [])
+#figura-al-vivo(
+  id: "fig-gestalt-118", file: path("/risorse-condivise/immagini/figure/gestalt/46-chiusura-heinz.png"),
+  didascalia: [Heinz: fette, collo ed etichetta suggeriscono una bottiglia dal contorno irregolare.],
+  diritti: [Heinz, pubblicità. Autore non indicato; rispettivi diritti.], alt: "Heinz: fette, collo ed etichetta suggeriscono una bottiglia dal contorno irregolare.",
+  rapporto: 291 / 398,
+)
 
 
 
 // Fonte 3804:2072 · C03 · 185 · DX — Loader: contorni aperti nel web
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/47-loader-contorni-aperti-nel-web.png"), didascalia: [Bootstrap: lo spinner suggerisce un anello con un contorno aperto. La rotazione e la convenzione appresa ne comunicano la funzione di caricamento.], diritti: [Bootstrap 5.3, Spinners · screenshot del 14 ottobre 2026. Documentazione CC BY 3.0; codice MIT.], alt: "Bootstrap: lo spinner suggerisce un anello con un contorno aperto. La rotazione e la convenzione appresa ne comunicano la funzione di caricamento.", rapporto: 1.7777777777777777, larghezza-fonte: 420.0, etichetta: <fig-gestalt-119>),
-), note: [Fonti per @fig-gestalt-119. #sito([Bootstrap 5.3, Spinners · screenshot del 14 ottobre 2026. Documentazione.], "https://getbootstrap.com/docs/5.3/components/spinners/")
-
-])
+#figura-nel-testo(
+  id: "fig-gestalt-119", file: path("/risorse-condivise/immagini/figure/gestalt/47-loader-contorni-aperti-nel-web.png"),
+  didascalia: [Bootstrap: lo spinner suggerisce un anello con un contorno aperto. La rotazione e la convenzione appresa ne comunicano la funzione di caricamento.#sito([Bootstrap 5.3, Spinners · screenshot del 14 ottobre 2026. Documentazione.], "https://getbootstrap.com/docs/5.3/components/spinners/")],
+  diritti: [Bootstrap 5.3, Spinners · screenshot del 14 ottobre 2026. Documentazione CC BY 3.0; codice MIT.], alt: "Bootstrap: lo spinner suggerisce un anello con un contorno aperto. La rotazione e la convenzione appresa ne comunicano la funzione di caricamento.",
+  rapporto: 1280 / 720, colonne: 2,
+)
 
 
 
 // Fonte 3897:2277 · C03 · 186 · SX — Chiusura: altri screenshot reali
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/48-chiusura-altri-screenshot-reali.png"), didascalia: [Carbon: un arco incompleto suggerisce un anello.], diritti: [Loading | Carbon Design System · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], alt: "Carbon: un arco incompleto suggerisce un anello.", rapporto: 1.7777777777777777, larghezza-fonte: 420.0, etichetta: <fig-gestalt-120>),
-  (file: path("/risorse-condivise/immagini/figure/gestalt/49-chiusura-altri-screenshot-reali.png"), didascalia: [Dettaglio dello stesso fotogramma: il contorno interrotto resta riconoscibile.], diritti: [Loading | Carbon Design System · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], alt: "Dettaglio dello stesso fotogramma: il contorno interrotto resta riconoscibile.", rapporto: 1.0, larghezza-fonte: 200.0, etichetta: <fig-gestalt-121>),
-), note: [Fonti per @fig-gestalt-120, @fig-gestalt-121. #sito([Loading | Carbon Design System · screenshot del 15 ottobre 2026. Diritti.], "https://www.carbondesignsystem.com/building-blocks/core/components/loading/guidelines")
+#figura-nel-testo(
+  id: "fig-gestalt-120", file: path("/risorse-condivise/immagini/figure/gestalt/48-chiusura-altri-screenshot-reali.png"),
+  didascalia: [Carbon: un arco incompleto suggerisce un anello.#sito([Loading | Carbon Design System · screenshot del 15 ottobre 2026. Diritti.], "https://www.carbondesignsystem.com/building-blocks/core/components/loading/guidelines")<nota-fonti-fig-gestalt-120>],
+  diritti: [Loading | Carbon Design System · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], alt: "Carbon: un arco incompleto suggerisce un anello.",
+  rapporto: 3840 / 2160, colonne: 2,
+)
 
-])
+#figura-nel-testo(
+  id: "fig-gestalt-121", file: path("/risorse-condivise/immagini/figure/gestalt/49-chiusura-altri-screenshot-reali.png"),
+  didascalia: [Dettaglio dello stesso fotogramma: il contorno interrotto resta riconoscibile.#sito([Loading | Carbon Design System · screenshot del 15 ottobre 2026. Diritti.], "https://www.carbondesignsystem.com/building-blocks/core/components/loading/guidelines")],
+  diritti: [Loading | Carbon Design System · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], alt: "Dettaglio dello stesso fotogramma: il contorno interrotto resta riconoscibile.",
+  rapporto: 414 / 414, colonne: 1,
+)
 
 
 
@@ -603,10 +679,12 @@ Fonti per @fig-gestalt-115. #sito([WWF® e ©1986 Panda Symbol sono di propriet�
 
 Elementi disposti in modo speculare rispetto a un asse tendono a essere percepiti come parti correlate di una stessa configurazione visiva.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/50-simmetria-symmetry.svg"),
-  [Le coppie di punti corrispondono rispetto all’asse verticale. Nel confronto, gli stessi elementi perdono la disposizione speculare: simmetria e numero degli elementi sono variabili distinte.],
-  alt: "Le coppie di punti corrispondono rispetto all’asse verticale. Nel confronto, gli stessi elementi perdono la disposizione speculare: simmetria e numero degli elementi sono variabili distinte.",
-  width: 187.09pt) <fig-gestalt-122>
+#figura-nel-testo(
+  id: "fig-gestalt-122", file: path("/risorse-condivise/immagini/figure/gestalt/50-simmetria-symmetry.svg"),
+  didascalia: [Le coppie di punti corrispondono rispetto all’asse verticale. Nel confronto, gli stessi elementi perdono la disposizione speculare: simmetria e numero degli elementi sono variabili distinte.],
+  diritti: none, alt: "Le coppie di punti corrispondono rispetto all’asse verticale. Nel confronto, gli stessi elementi perdono la disposizione speculare: simmetria e numero degli elementi sono variabili distinte.",
+  rapporto: 363.0 / 240.0, colonne: 1,
+)
 
 
 
@@ -630,16 +708,12 @@ Nel web, posizioni corrispondenti ai due lati di un asse possono suggerire una c
 
 Nella pagina iniziale di Wikipedia, il globo occupa il centro e i collegamenti alle lingue si distribuiscono ai suoi lati. La corrispondenza riguarda soprattutto le posizioni: testi e lunghezze sono diversi, quindi la simmetria non è perfetta. Quando il layout cambia, va verificato come si trasformano l’asse e le relazioni fra gli elementi, senza sacrificare lettura e gerarchia.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/51-simmetria-nel-web.png"),
-  [Wikipedia: il globo centrale e le lingue si organizzano attorno a un asse verticale. Si corrispondono le posizioni, mentre i testi sono differenti.],
-  alt: "Wikipedia: il globo centrale e le lingue si organizzano attorno a un asse verticale. Si corrispondono le posizioni, mentre i testi sono differenti.",
-  width: 388.35pt,
-  diritti: [Wikipedia · screenshot del 14 ottobre 2026. © Wikimedia Foundation e rispettivi titolari.],
-  placement: top, scope: "parent") <fig-gestalt-123>
-
-
-
-Fonti per @fig-gestalt-123. #sito([Wikipedia · screenshot del 14 ottobre 2026. © Wikimedia Foundation e.], "https://www.wikipedia.org/")
+#figura-nel-testo(
+  id: "fig-gestalt-123", file: path("/risorse-condivise/immagini/figure/gestalt/51-simmetria-nel-web.png"),
+  didascalia: [Wikipedia: il globo centrale e le lingue si organizzano attorno a un asse verticale. Si corrispondono le posizioni, mentre i testi sono differenti.#sito([Wikipedia · screenshot del 14 ottobre 2026. © Wikimedia Foundation e.], "https://www.wikipedia.org/")],
+  diritti: [Wikipedia · screenshot del 14 ottobre 2026. © Wikimedia Foundation e rispettivi titolari.], alt: "Wikipedia: il globo centrale e le lingue si organizzano attorno a un asse verticale. Si corrispondono le posizioni, mentre i testi sono differenti.",
+  rapporto: 1280 / 720, colonne: 2,
+)
 
 
 
@@ -648,65 +722,81 @@ Fonti per @fig-gestalt-123. #sito([Wikipedia · screenshot del 14 ottobre 2026. 
 
 Le lettere V e W e il cerchio condividono un asse verticale. La corrispondenza fra lato destro e sinistro dà stabilità alla figura e aiuta a percepirla come un insieme ordinato. La simmetria riguarda la struttura dell’emblema, non la presenza di elementi identici affiancati.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/52-simmetria-logo-reale.png"),
-  [Volkswagen, 2019: un asse verticale organizza l’emblema.],
-  alt: "Volkswagen, 2019: un asse verticale organizza l’emblema.",
-  width: 388.35pt,
-  diritti: [© Volkswagen AG. Volkswagen unveils new brand design and logo, DB2019AL01916, 2019.],
-  placement: top, scope: "parent") <fig-gestalt-124>
-
-
-
-Fonti per @fig-gestalt-124. #sito([© Volkswagen AG. Volkswagen unveils new brand design and logo,.], "https://www.volkswagen-newsroom.com/en/images/detail/volkswagen-unveils-new-brand-design-and-logo-30063")
+#figura-nel-testo(
+  id: "fig-gestalt-124", file: path("/risorse-condivise/immagini/figure/gestalt/52-simmetria-logo-reale.png"),
+  didascalia: [Volkswagen, 2019: un asse verticale organizza l’emblema.#sito([© Volkswagen AG. Volkswagen unveils new brand design and logo,.], "https://www.volkswagen-newsroom.com/en/images/detail/volkswagen-unveils-new-brand-design-and-logo-30063")],
+  diritti: [© Volkswagen AG. Volkswagen unveils new brand design and logo, DB2019AL01916, 2019.], alt: "Volkswagen, 2019: un asse verticale organizza l’emblema.",
+  rapporto: 1600 / 900, colonne: 1,
+)
 
 
 
 // Fonte 3863:2118 · C03 · 191 · DX — Simmetria: fotografia
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/53-simmetria-fotografia.png"), didascalia: [L’asse centrale riunisce cupola, facciata e minareti in un insieme bilanciato; le corrispondenze fra destra e sinistra rafforzano la lettura unitaria dell’edificio.], diritti: [Nelson C Simon · CC BY-SA 4.0 · Wikimedia Commons], alt: "L’asse centrale riunisce cupola, facciata e minareti in un insieme bilanciato; le corrispondenze fra destra e sinistra rafforzano la lettura unitaria dell’edificio.", rapporto: 1.499531396438613, larghezza-fonte: 420.0, etichetta: <fig-gestalt-125>),
-), note: [Fonti per @fig-gestalt-125. #sito([_Nelson C Simon_ · CC BY-SA 4.0 · Wikimedia Commons], "https://commons.wikimedia.org/wiki/File:Reflection_of_the_Taj_Mahal.jpg")
-
-])
+#figura-nel-testo(
+  id: "fig-gestalt-125", file: path("/risorse-condivise/immagini/figure/gestalt/53-simmetria-fotografia.png"),
+  didascalia: [L’asse centrale riunisce cupola, facciata e minareti in un insieme bilanciato; le corrispondenze fra destra e sinistra rafforzano la lettura unitaria dell’edificio.#sito([_Nelson C Simon_ · CC BY-SA 4.0 · Wikimedia Commons], "https://commons.wikimedia.org/wiki/File:Reflection_of_the_Taj_Mahal.jpg")],
+  diritti: [Nelson C Simon · CC BY-SA 4.0 · Wikimedia Commons], alt: "L’asse centrale riunisce cupola, facciata e minareti in un insieme bilanciato; le corrispondenze fra destra e sinistra rafforzano la lettura unitaria dell’edificio.",
+  rapporto: 1600 / 1067, colonne: 1,
+)
 
 
 
 // Fonte 3897:2295 · C03 · 192 · SX — Simmetria: altre immagini e grafiche
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/54-simmetria-altre-immagini-e-grafiche.png"), didascalia: [HSBC: le forme dell’emblema si corrispondono rispetto agli assi verticale e orizzontale.], diritti: [HSBC · autore del marchio non indicato nella fonte.], alt: "HSBC: le forme dell’emblema si corrispondono rispetto agli assi verticale e orizzontale.", rapporto: 1.1620689655172414, larghezza-fonte: 337, etichetta: <fig-gestalt-126>),
-), note: [])
+#figura-nel-testo(
+  id: "fig-gestalt-126", file: path("/risorse-condivise/immagini/figure/gestalt/54-simmetria-altre-immagini-e-grafiche.png"),
+  didascalia: [HSBC: le forme dell’emblema si corrispondono rispetto agli assi verticale e orizzontale.],
+  diritti: [HSBC · autore del marchio non indicato nella fonte.], alt: "HSBC: le forme dell’emblema si corrispondono rispetto agli assi verticale e orizzontale.",
+  rapporto: 337 / 290, colonne: 1,
+)
 
 
 
 // Fonte 3692:2376 · C03 · 193 · DX — Adham Dannaway: volto e metà
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/55-adham-dannaway-volto-e-met.png"), didascalia: [_Adham Dannaway_: due metà differenti compongono un volto intorno a un asse centrale.], diritti: [© Adham Dannaway · portfolio, immagine.], alt: "Adham Dannaway: due metà differenti compongono un volto intorno a un asse centrale.", rapporto: 2.663294797687861, larghezza-fonte: 291.10894775390625, etichetta: <fig-gestalt-127>),
-  (file: path("/risorse-condivise/immagini/figure/gestalt/56-adham-dannaway-volto-e-met.png"), didascalia: [Dettaglio della stessa immagine: i tratti del volto trovano corrispondenza ai due lati; i contenuti delle metà sono differenti.], diritti: [© Adham Dannaway · portfolio, immagine.], alt: "Dettaglio della stessa immagine: i tratti del volto trovano corrispondenza ai due lati; i contenuti delle metà sono differenti.", rapporto: 0.675, larghezza-fonte: 224.5697479248047, etichetta: <fig-gestalt-128>),
-), note: [Fonti per @fig-gestalt-127, @fig-gestalt-128. #sito([© _Adham Dannaway_ · portfolio, immagine.], "https://www.adhamdannaway.com/")
+#figura-nel-testo(
+  id: "fig-gestalt-127", file: path("/risorse-condivise/immagini/figure/gestalt/55-adham-dannaway-volto-e-met.png"),
+  didascalia: [_Adham Dannaway_: due metà differenti compongono un volto intorno a un asse centrale.#sito([© _Adham Dannaway_ · portfolio, immagine.], "https://www.adhamdannaway.com/")<nota-fonti-fig-gestalt-127>],
+  diritti: [© Adham Dannaway · portfolio, immagine.], alt: "Adham Dannaway: due metà differenti compongono un volto intorno a un asse centrale.",
+  rapporto: 1843 / 692, colonne: 2,
+)
 
-])
+#figura-nel-testo(
+  id: "fig-gestalt-128", file: path("/risorse-condivise/immagini/figure/gestalt/56-adham-dannaway-volto-e-met.png"),
+  didascalia: [Dettaglio della stessa immagine: i tratti del volto trovano corrispondenza ai due lati; i contenuti delle metà sono differenti.#sito([© _Adham Dannaway_ · portfolio, immagine.], "https://www.adhamdannaway.com/")],
+  diritti: [© Adham Dannaway · portfolio, immagine.], alt: "Dettaglio della stessa immagine: i tratti del volto trovano corrispondenza ai due lati; i contenuti delle metà sono differenti.",
+  rapporto: 405 / 600, colonne: 1,
+)
 
 
 
 // Fonte 3804:2087 · C03 · 194 · SX — Wikipedia: lingue attorno a un asse
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/57-wikipedia-lingue-attorno-a-un-asse.png"), didascalia: [Wikipedia: il globo centrale e le lingue si organizzano attorno a un asse verticale.], diritti: [Wikipedia, pagina iniziale italiana. Screenshot del 14 ottobre 2026. © Wikimedia Foundation e rispettivi titolari.], alt: "Wikipedia: il globo centrale e le lingue si organizzano attorno a un asse verticale.", rapporto: 1.7777777777777777, larghezza-fonte: 407.1980895996094, etichetta: <fig-gestalt-129>),
-  (file: path("/risorse-condivise/immagini/figure/gestalt/58-wikipedia-lingue-attorno-a-un-asse.png"), didascalia: [Dettaglio: le posizioni si corrispondono ai due lati, mentre testi e lingue sono differenti.], diritti: [Wikipedia, pagina iniziale italiana. Screenshot del 14 ottobre 2026. © Wikimedia Foundation e rispettivi titolari.], alt: "Dettaglio: le posizioni si corrispondono ai due lati, mentre testi e lingue sono differenti.", rapporto: 1.018348623853211, larghezza-fonte: 213.2942352294922, etichetta: <fig-gestalt-130>),
-), note: [])
+#figura-nel-testo(
+  id: "fig-gestalt-129", file: path("/risorse-condivise/immagini/figure/gestalt/57-wikipedia-lingue-attorno-a-un-asse.png"),
+  didascalia: [Wikipedia: il globo centrale e le lingue si organizzano attorno a un asse verticale.],
+  diritti: [Wikipedia, pagina iniziale italiana. Screenshot del 14 ottobre 2026. © Wikimedia Foundation e rispettivi titolari.], alt: "Wikipedia: il globo centrale e le lingue si organizzano attorno a un asse verticale.",
+  rapporto: 1280 / 720, colonne: 2,
+)
+
+#figura-nel-testo(
+  id: "fig-gestalt-130", file: path("/risorse-condivise/immagini/figure/gestalt/58-wikipedia-lingue-attorno-a-un-asse.png"),
+  didascalia: [Dettaglio: le posizioni si corrispondono ai due lati, mentre testi e lingue sono differenti.],
+  diritti: [Wikipedia, pagina iniziale italiana. Screenshot del 14 ottobre 2026. © Wikimedia Foundation e rispettivi titolari.], alt: "Dettaglio: le posizioni si corrispondono ai due lati, mentre testi e lingue sono differenti.",
+  rapporto: 555 / 545, colonne: 2,
+)
 
 
 
 // Fonte 3897:2313 · C03 · 195 · DX — Simmetria: altri screenshot reali
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/59-simmetria-altri-screenshot-reali.png"), didascalia: [OBS: controlli uguali e centri equidistanti; i simboli sono differenti.], diritti: [Download | OBS · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], alt: "OBS: controlli uguali e centri equidistanti; i simboli sono differenti.", rapporto: 1.7777777777777777, larghezza-fonte: 420.0, etichetta: <fig-gestalt-131>),
-), note: [Fonti per @fig-gestalt-131. #sito([Download | OBS · screenshot del 15 ottobre 2026. Diritti dei rispettivi.], "https://obsproject.com/download")
-
-])
+#figura-nel-testo(
+  id: "fig-gestalt-131", file: path("/risorse-condivise/immagini/figure/gestalt/59-simmetria-altri-screenshot-reali.png"),
+  didascalia: [OBS: controlli uguali e centri equidistanti; i simboli sono differenti.#sito([Download | OBS · screenshot del 15 ottobre 2026. Diritti dei rispettivi.], "https://obsproject.com/download")],
+  diritti: [Download | OBS · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], alt: "OBS: controlli uguali e centri equidistanti; i simboli sono differenti.",
+  rapporto: 3840 / 2160, colonne: 2,
+)
 
 
 ]
 #[
 #import "../template/stile.typ": sito, immagine
-#import "../template/gestalt.typ": tavola-gestalt
 
 
 // Fonte 3721:2523 · C03 · 196 · SX — Figura e sfondo (figure–ground)
@@ -714,10 +804,12 @@ Fonti per @fig-gestalt-124. #sito([© Volkswagen AG. Volkswagen unveils new bran
 
 Nell’organizzare una scena distinguiamo figure e sfondo: i contorni possono appartenere a una forma oppure rendere riconoscibile lo spazio che la circonda.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/60-figura-e-sfondo-figure-ground.svg"),
-  [Lo stesso contorno separa un vaso centrale da due profili laterali. Invertire i colori aiuta a esplorare le possibili letture di figura e sfondo.],
-  alt: "Lo stesso contorno separa un vaso centrale da due profili laterali. Invertire i colori aiuta a esplorare le possibili letture di figura e sfondo.",
-  width: 187.09pt) <fig-gestalt-132>
+#figura-nel-testo(
+  id: "fig-gestalt-132", file: path("/risorse-condivise/immagini/figure/gestalt/60-figura-e-sfondo-figure-ground.svg"),
+  didascalia: [Lo stesso contorno separa un vaso centrale da due profili laterali. Invertire i colori aiuta a esplorare le possibili letture di figura e sfondo.],
+  diritti: none, alt: "Lo stesso contorno separa un vaso centrale da due profili laterali. Invertire i colori aiuta a esplorare le possibili letture di figura e sfondo.",
+  rapporto: 363.0 / 240.0, colonne: 1,
+)
 
 
 
@@ -741,16 +833,12 @@ Nel web, contrasto, nitidezza e sovrapposizione possono distinguere il contenuto
 
 Nello screenshot di MDN Web Docs, il campo di ricerca rimane nitido mentre la pagina sottostante è oscurata e sfocata. Questa separazione visiva distingue figura e sfondo. La schermata non documenta da sola un comportamento modale: gestione del focus, tastiera e interazione con i contenuti sottostanti richiedono una verifica funzionale.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/61-figura-e-sfondo-nel-web.png"),
-  [MDN: il campo di ricerca resta nitido davanti alla pagina oscurata e sfocata, separandosi dal contesto sottostante.],
-  alt: "MDN: il campo di ricerca resta nitido davanti alla pagina oscurata e sfocata, separandosi dal contesto sottostante.",
-  width: 388.35pt,
-  diritti: [MDN Web Docs, ricerca sulla homepage · 14 ottobre 2026. © Mozilla e contributori.],
-  placement: top, scope: "parent") <fig-gestalt-133>
-
-
-
-Fonti per @fig-gestalt-133. #sito([MDN Web Docs, ricerca sulla homepage · 14 ottobre 2026. © Mozilla e.], "https://developer.mozilla.org/")
+#figura-nel-testo(
+  id: "fig-gestalt-133", file: path("/risorse-condivise/immagini/figure/gestalt/61-figura-e-sfondo-nel-web.png"),
+  didascalia: [MDN: il campo di ricerca resta nitido davanti alla pagina oscurata e sfocata, separandosi dal contesto sottostante.#sito([MDN Web Docs, ricerca sulla homepage · 14 ottobre 2026. © Mozilla e.], "https://developer.mozilla.org/")],
+  diritti: [MDN Web Docs, ricerca sulla homepage · 14 ottobre 2026. © Mozilla e contributori.], alt: "MDN: il campo di ricerca resta nitido davanti alla pagina oscurata e sfocata, separandosi dal contesto sottostante.",
+  rapporto: 1280 / 720, colonne: 2,
+)
 
 
 
@@ -759,50 +847,66 @@ Fonti per @fig-gestalt-133. #sito([MDN Web Docs, ricerca sulla homepage · 14 ot
 
 Lo spazio chiaro fra la E e la x ha il contorno di una freccia rivolta a destra. All’inizio può essere percepito come semplice sfondo del testo; quando lo riconosciamo, acquista una forma propria. Le lettere e lo spazio negativo partecipano così alla stessa composizione.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/62-figura-e-sfondo-logo-reale.png"),
-  [FedEx: lo spazio fra E e x diventa una freccia.],
-  alt: "FedEx: lo spazio fra E e x diventa una freccia.",
-  width: 187.09pt,
-  diritti: [Marchio FedEx · Brandfolder ufficiale, collective\_eng\_2c\_pos\_rgb.png, 15 ottobre 2026.],
-  placement: top, scope: "parent") <fig-gestalt-134>
-
-
-
-Fonti per @fig-gestalt-134. #sito([Marchio FedEx · Brandfolder ufficiale, collective\_eng\_2c\_pos\_rgb.png, 15.], "https://brand.fedex.com/organizations/fedex/search")
+#figura-nel-testo(
+  id: "fig-gestalt-134", file: path("/risorse-condivise/immagini/figure/gestalt/62-figura-e-sfondo-logo-reale.png"),
+  didascalia: [FedEx: lo spazio fra E e x diventa una freccia.#sito([Marchio FedEx · Brandfolder ufficiale, collective\_eng\_2c\_pos\_rgb.png, 15.], "https://brand.fedex.com/organizations/fedex/search")],
+  diritti: [Marchio FedEx · Brandfolder ufficiale, collective\_eng\_2c\_pos\_rgb.png, 15 ottobre 2026.], alt: "FedEx: lo spazio fra E e x diventa una freccia.",
+  rapporto: 453 / 222, colonne: 1,
+)
 
 
 
 // Fonte 3863:2158 · C03 · 200 · SX — Figura e sfondo: fotografia
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/63-figura-e-sfondo-fotografia.png"), didascalia: [Le sagome scure degli uccelli emergono sull’acqua luminosa: il contrasto e il contorno condiviso separano le figure dallo sfondo.], diritti: [Sandra Uecker / USFWS Mountain Prairie · Public domain · Wikimedia Commons], alt: "Le sagome scure degli uccelli emergono sull’acqua luminosa: il contrasto e il contorno condiviso separano le figure dallo sfondo.", rapporto: 1.8099547511312217, larghezza-fonte: 420.0, etichetta: <fig-gestalt-135>),
-), note: [Fonti per @fig-gestalt-135. #sito([_Sandra Uecker_ / USFWS Mountain Prairie · Public domain · Wikimedia Commons], "https://commons.wikimedia.org/wiki/File:Bear_River_Birds_at_Sunset_(52038067851).jpg")
-
-])
+#figura-nel-testo(
+  id: "fig-gestalt-135", file: path("/risorse-condivise/immagini/figure/gestalt/63-figura-e-sfondo-fotografia.png"),
+  didascalia: [Le sagome scure degli uccelli emergono sull’acqua luminosa: il contrasto e il contorno condiviso separano le figure dallo sfondo.#sito([_Sandra Uecker_ / USFWS Mountain Prairie · Public domain · Wikimedia Commons], "https://commons.wikimedia.org/wiki/File:Bear_River_Birds_at_Sunset_(52038067851).jpg")],
+  diritti: [Sandra Uecker / USFWS Mountain Prairie · Public domain · Wikimedia Commons], alt: "Le sagome scure degli uccelli emergono sull’acqua luminosa: il contrasto e il contorno condiviso separano le figure dallo sfondo.",
+  rapporto: 1600 / 884, colonne: 1,
+)
 
 
 
 // Fonte 3897:2370 · C03 · 201 · DX — Figura e sfondo: altre immagini e grafiche
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/64-figura-e-sfondo-altre-immagini-e-grafiche.png"), didascalia: [Spartan Golf: la figura del golfista partecipa anche al profilo di un guerriero.], diritti: [Richard Fonteneau, «Spartan Golf», concept, 2010 · Logopond, progetto 91660.], alt: "Spartan Golf: la figura del golfista partecipa anche al profilo di un guerriero.", rapporto: 1.1041009463722398, larghezza-fonte: 350.0, etichetta: <fig-gestalt-136>),
-), note: [])
+#figura-nel-testo(
+  id: "fig-gestalt-136", file: path("/risorse-condivise/immagini/figure/gestalt/64-figura-e-sfondo-altre-immagini-e-grafiche.png"),
+  didascalia: [Spartan Golf: la figura del golfista partecipa anche al profilo di un guerriero.],
+  diritti: [Richard Fonteneau, «Spartan Golf», concept, 2010 · Logopond, progetto 91660.], alt: "Spartan Golf: la figura del golfista partecipa anche al profilo di un guerriero.",
+  rapporto: 350 / 317, colonne: 1,
+)
 
 
 
 // Fonte 3804:2107 · C03 · 202 · SX — MDN: la ricerca in primo piano
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/65-mdn-la-ricerca-in-primo-piano.png"), didascalia: [MDN: il campo di ricerca emerge davanti alla pagina oscurata e sfocata.], diritti: [MDN Web Docs, ricerca aperta sulla homepage. Screenshot del 14 ottobre 2026. © Mozilla e contributori; rispettivi diritti su marchi e asset.], alt: "MDN: il campo di ricerca emerge davanti alla pagina oscurata e sfocata.", rapporto: 1.7777777777777777, larghezza-fonte: 420.0, etichetta: <fig-gestalt-137>),
-  (file: path("/risorse-condivise/immagini/figure/gestalt/66-mdn-la-ricerca-in-primo-piano.png"), didascalia: [Dettaglio: contorno e contrasto separano il campo attivo dal contesto sottostante.], diritti: [MDN Web Docs, ricerca aperta sulla homepage. Screenshot del 14 ottobre 2026. © Mozilla e contributori; rispettivi diritti su marchi e asset.], alt: "Dettaglio: contorno e contrasto separano il campo attivo dal contesto sottostante.", rapporto: 3.75, larghezza-fonte: 420.0, etichetta: <fig-gestalt-138>),
-), note: [])
+#figura-nel-testo(
+  id: "fig-gestalt-137", file: path("/risorse-condivise/immagini/figure/gestalt/65-mdn-la-ricerca-in-primo-piano.png"),
+  didascalia: [MDN: il campo di ricerca emerge davanti alla pagina oscurata e sfocata.],
+  diritti: [MDN Web Docs, ricerca aperta sulla homepage. Screenshot del 14 ottobre 2026. © Mozilla e contributori; rispettivi diritti su marchi e asset.], alt: "MDN: il campo di ricerca emerge davanti alla pagina oscurata e sfocata.",
+  rapporto: 1280 / 720, colonne: 2,
+)
+
+#figura-nel-testo(
+  id: "fig-gestalt-138", file: path("/risorse-condivise/immagini/figure/gestalt/66-mdn-la-ricerca-in-primo-piano.png"),
+  didascalia: [Dettaglio: contorno e contrasto separano il campo attivo dal contesto sottostante.],
+  diritti: [MDN Web Docs, ricerca aperta sulla homepage. Screenshot del 14 ottobre 2026. © Mozilla e contributori; rispettivi diritti su marchi e asset.], alt: "Dettaglio: contorno e contrasto separano il campo attivo dal contesto sottostante.",
+  rapporto: 825 / 220, colonne: 2,
+)
 
 
 
 // Fonte 3897:2388 · C03 · 203 · DX — Figura e sfondo: altri screenshot reali
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/67-figura-e-sfondo-altri-screenshot-reali.png"), didascalia: [Tailwind: la ricerca nitida emerge davanti alla documentazione attenuata.], diritti: [Installing Tailwind CSS with Vite - Tailwind CSS · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], alt: "Tailwind: la ricerca nitida emerge davanti alla documentazione attenuata.", rapporto: 1.7777777777777777, larghezza-fonte: 414.7486877441406, etichetta: <fig-gestalt-139>),
-  (file: path("/risorse-condivise/immagini/figure/gestalt/68-figura-e-sfondo-altri-screenshot-reali.png"), didascalia: [Atelier: il volto illuminato e il testo chiaro emergono dal fondo scuro.], diritti: [Diritti dei rispettivi titolari.], alt: "Atelier: il volto illuminato e il testo chiaro emergono dal fondo scuro.", rapporto: 1.7784810126582278, larghezza-fonte: 414.7486877441406, etichetta: <fig-gestalt-140>),
-), note: [Fonti per @fig-gestalt-139, @fig-gestalt-140. #sito([Installing Tailwind CSS with Vite - Tailwind CSS · screenshot del 15.], "https://tailwindcss.com/docs/installation/using-vite")
+#figura-nel-testo(
+  id: "fig-gestalt-139", file: path("/risorse-condivise/immagini/figure/gestalt/67-figura-e-sfondo-altri-screenshot-reali.png"),
+  didascalia: [Tailwind: la ricerca nitida emerge davanti alla documentazione attenuata.#sito([Installing Tailwind CSS with Vite - Tailwind CSS · screenshot del 15.], "https://tailwindcss.com/docs/installation/using-vite")],
+  diritti: [Installing Tailwind CSS with Vite - Tailwind CSS · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], alt: "Tailwind: la ricerca nitida emerge davanti alla documentazione attenuata.",
+  rapporto: 3840 / 2160, colonne: 2,
+)
 
-])
+#figura-nel-testo(
+  id: "fig-gestalt-140", file: path("/risorse-condivise/immagini/figure/gestalt/68-figura-e-sfondo-altri-screenshot-reali.png"),
+  didascalia: [Atelier: il volto illuminato e il testo chiaro emergono dal fondo scuro.],
+  diritti: [Diritti dei rispettivi titolari.], alt: "Atelier: il volto illuminato e il testo chiaro emergono dal fondo scuro.",
+  rapporto: 562 / 316, colonne: 2,
+)
 
 
 
@@ -811,10 +915,12 @@ Fonti per @fig-gestalt-134. #sito([Marchio FedEx · Brandfolder ufficiale, colle
 
 Conoscenze e associazioni apprese contribuiscono a riconoscere forme e significati familiari, influenzando il modo in cui interpretiamo una configurazione visiva.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/69-esperienza-passata-past-experience.svg"),
-  [I punti suggeriscono una lettera incompleta. La stessa configurazione ruotata può essere meno familiare: disposizione dei tratti e conoscenza dell’alfabeto concorrono al riconoscimento.],
-  alt: "I punti suggeriscono una lettera incompleta. La stessa configurazione ruotata può essere meno familiare: disposizione dei tratti e conoscenza dell’alfabeto concorrono al riconoscimento.",
-  width: 187.09pt) <fig-gestalt-141>
+#figura-nel-testo(
+  id: "fig-gestalt-141", file: path("/risorse-condivise/immagini/figure/gestalt/69-esperienza-passata-past-experience.svg"),
+  didascalia: [I punti suggeriscono una lettera incompleta. La stessa configurazione ruotata può essere meno familiare: disposizione dei tratti e conoscenza dell’alfabeto concorrono al riconoscimento.],
+  diritti: none, alt: "I punti suggeriscono una lettera incompleta. La stessa configurazione ruotata può essere meno familiare: disposizione dei tratti e conoscenza dell’alfabeto concorrono al riconoscimento.",
+  rapporto: 363.0 / 240.0, colonne: 1,
+)
 
 
 
@@ -838,16 +944,12 @@ Nel web, molte interpretazioni dipendono da convenzioni apprese: una lente può 
 
 Nell’esempio reale del GOV.UK Design System, il rosso compare nel messaggio e nei bordi dei campi. Il testo esplicita il problema, così la segnalazione non dipende soltanto dal colore o dall’esperienza precedente. Le convenzioni vanno verificate con il pubblico previsto: la diffusione di un segno non garantisce una comprensione universale.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/70-esperienza-passata-nel-web.png"),
-  [GOV.UK: messaggio e bordi rossi richiamano una convenzione di errore; il testo precisa il problema e integra il segnale cromatico.],
-  alt: "GOV.UK: messaggio e bordi rossi richiamano una convenzione di errore; il testo precisa il problema e integra il segnale cromatico.",
-  width: 388.35pt,
-  diritti: [GOV.UK Design System, Error message · screenshot del 14 ottobre 2026. Open Government Licence v3.0.],
-  placement: top, scope: "parent") <fig-gestalt-142>
-
-
-
-Fonti per @fig-gestalt-142. #sito([GOV.UK Design System, Error message · screenshot del 14 ottobre 2026. Open.], "https://design-system.service.gov.uk/components/error-message/")
+#figura-nel-testo(
+  id: "fig-gestalt-142", file: path("/risorse-condivise/immagini/figure/gestalt/70-esperienza-passata-nel-web.png"),
+  didascalia: [GOV.UK: messaggio e bordi rossi richiamano una convenzione di errore; il testo precisa il problema e integra il segnale cromatico.#sito([GOV.UK Design System, Error message · screenshot del 14 ottobre 2026. Open.], "https://design-system.service.gov.uk/components/error-message/")],
+  diritti: [GOV.UK Design System, Error message · screenshot del 14 ottobre 2026. Open Government Licence v3.0.], alt: "GOV.UK: messaggio e bordi rossi richiamano una convenzione di errore; il testo precisa il problema e integra il segnale cromatico.",
+  rapporto: 600 / 220, colonne: 2,
+)
 
 
 
@@ -856,66 +958,88 @@ Fonti per @fig-gestalt-142. #sito([GOV.UK Design System, Error message · screen
 
 Chi conosce l’alfabeto latino può riconoscere nella figura una g minuscola; gli stessi tratti richiamano un volto sorridente. Il marchio mette in relazione due letture familiari. L’esperienza passata interviene soprattutto nel riconoscimento della lettera e dell’identità Goodwill, appresi nel tempo.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/71-esperienza-passata-logo-reale.svg"),
-  [Goodwill: marchio regionale completo e dettaglio della Smiling G. La stessa g si legge come lettera e volto sorridente.],
-  alt: "Goodwill: marchio regionale completo e dettaglio della Smiling G. La stessa g si legge come lettera e volto sorridente.",
-  width: 187.09pt,
-  diritti: [Marchio Goodwill. Smiling G: Joseph Selame, 1968. Asset: Goodwill Industries of Greater Cleveland and East Central Ohio.],
-  placement: top, scope: "parent") <fig-gestalt-143>
-
-
-
-Fonti per @fig-gestalt-143. #sito([Marchio Goodwill. Smiling G: _Joseph Selame_, 1968. Asset: Goodwill.], "https://www.goodwillnynj.org/smiling-g-turns-50/")
+#figura-nel-testo(
+  id: "fig-gestalt-143", file: path("/risorse-condivise/immagini/figure/gestalt/71-esperienza-passata-logo-reale.svg"),
+  didascalia: [Goodwill: marchio regionale completo e dettaglio della Smiling G. La stessa g si legge come lettera e volto sorridente.#sito([Marchio Goodwill. Smiling G: _Joseph Selame_, 1968. Asset: Goodwill.], "https://www.goodwillnynj.org/smiling-g-turns-50/")],
+  diritti: [Marchio Goodwill. Smiling G: Joseph Selame, 1968. Asset: Goodwill Industries of Greater Cleveland and East Central Ohio.], alt: "Goodwill: marchio regionale completo e dettaglio della Smiling G. La stessa g si legge come lettera e volto sorridente.",
+  rapporto: 363 / 227.38411712646484, colonne: 1,
+)
 
 
 
 // Fonte 3863:2178 · C03 · 208 · SX — Esperienza passata: fotografia
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/72-esperienza-passata-fotografia.png"), didascalia: [In Irlanda «STAD» significa «STOP». Chi conosce la lingua legge la parola; chi non la conosce può inferirne la funzione dal contesto stradale appreso.], diritti: [Mucklagh · CC0 · Wikimedia Commons], alt: "In Irlanda «STAD» significa «STOP». Chi conosce la lingua legge la parola; chi non la conosce può inferirne la funzione dal contesto stradale appreso.", rapporto: 1.3333333333333333, larghezza-fonte: 420.0, etichetta: <fig-gestalt-144>),
-), note: [Fonti per @fig-gestalt-144. #sito([_Mucklagh_ · CC0 · Wikimedia Commons], "https://commons.wikimedia.org/wiki/File:Road_Marking-1100839,_Dingle_Peninsula,_Co._Kerry,_Ireland.jpg")
-
-])
+#figura-nel-testo(
+  id: "fig-gestalt-144", file: path("/risorse-condivise/immagini/figure/gestalt/72-esperienza-passata-fotografia.png"),
+  didascalia: [In Irlanda «STAD» significa «STOP». Chi conosce la lingua legge la parola; chi non la conosce può inferirne la funzione dal contesto stradale appreso.#sito([_Mucklagh_ · CC0 · Wikimedia Commons], "https://commons.wikimedia.org/wiki/File:Road_Marking-1100839,_Dingle_Peninsula,_Co._Kerry,_Ireland.jpg")],
+  diritti: [Mucklagh · CC0 · Wikimedia Commons], alt: "In Irlanda «STAD» significa «STOP». Chi conosce la lingua legge la parola; chi non la conosce può inferirne la funzione dal contesto stradale appreso.",
+  rapporto: 1280 / 960, colonne: 1,
+)
 
 
 
 // Fonte 3897:2409 · C03 · 209 · DX — Esperienza passata: altre immagini e grafiche
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/73-esperienza-passata-altre-immagini-e-grafiche.png"), didascalia: [Coca-Cola: colore e marchio richiamano associazioni apprese con la marca.], diritti: [Coca-Cola, «Feel it» · autore non indicato.], alt: "Coca-Cola: colore e marchio richiamano associazioni apprese con la marca.", rapporto: 0.8305555555555556, larghezza-fonte: 401.9888916015625, etichetta: <fig-gestalt-145>),
-), note: [])
+#figura-al-vivo(
+  id: "fig-gestalt-145", file: path("/risorse-condivise/immagini/figure/gestalt/73-esperienza-passata-altre-immagini-e-grafiche.png"),
+  didascalia: [Coca-Cola: colore e marchio richiamano associazioni apprese con la marca.],
+  diritti: [Coca-Cola, «Feel it» · autore non indicato.], alt: "Coca-Cola: colore e marchio richiamano associazioni apprese con la marca.",
+  rapporto: 598 / 720,
+)
 
 
 
 // Fonte 3804:2117 · C03 · 210 · SX — GOV.UK: riconoscere un errore
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/74-gov-uk-riconoscere-un-errore.png"), didascalia: [GOV.UK: il rosso richiama una convenzione di errore; il testo precisa il problema.], diritti: [GOV.UK Design System, Error message. Screenshot del 14 ottobre 2026. OGL v3.0.], alt: "GOV.UK: il rosso richiama una convenzione di errore; il testo precisa il problema.", rapporto: 2.727272727272727, larghezza-fonte: 420.0, etichetta: <fig-gestalt-146>),
-  (file: path("/risorse-condivise/immagini/figure/gestalt/75-gov-uk-riconoscere-un-errore.png"), didascalia: [Dettaglio: i bordi rossi associano lo stato di errore ai campi della risposta.], diritti: [GOV.UK Design System, Error message. Screenshot del 14 ottobre 2026. OGL v3.0.], alt: "Dettaglio: i bordi rossi associano lo stato di errore ai campi della risposta.", rapporto: 3.3333333333333335, larghezza-fonte: 360.0, etichetta: <fig-gestalt-147>),
-), note: [])
+#figura-nel-testo(
+  id: "fig-gestalt-146", file: path("/risorse-condivise/immagini/figure/gestalt/74-gov-uk-riconoscere-un-errore.png"),
+  didascalia: [GOV.UK: il rosso richiama una convenzione di errore; il testo precisa il problema.],
+  diritti: [GOV.UK Design System, Error message. Screenshot del 14 ottobre 2026. OGL v3.0.], alt: "GOV.UK: il rosso richiama una convenzione di errore; il testo precisa il problema.",
+  rapporto: 600 / 220, colonne: 2,
+)
+
+#figura-nel-testo(
+  id: "fig-gestalt-147", file: path("/risorse-condivise/immagini/figure/gestalt/75-gov-uk-riconoscere-un-errore.png"),
+  didascalia: [Dettaglio: i bordi rossi associano lo stato di errore ai campi della risposta.],
+  diritti: [GOV.UK Design System, Error message. Screenshot del 14 ottobre 2026. OGL v3.0.], alt: "Dettaglio: i bordi rossi associano lo stato di errore ai campi della risposta.",
+  rapporto: 300 / 90, colonne: 1,
+)
 
 
 
 // Fonte 3897:2430 · C03 · 211 · DX — Esperienza passata: IKEA
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/76-esperienza-passata-ikea.png"), didascalia: [IKEA: i simboli della testata richiamano convenzioni d’uso apprese.], diritti: [IKEA Italia · screenshot reale del 15 ottobre 2026. Dettaglio ricavato dallo stesso screenshot; diritti dei rispettivi titolari.], alt: "IKEA: i simboli della testata richiamano convenzioni d’uso apprese.", rapporto: 1.7777777777777777, larghezza-fonte: 420.0, etichetta: <fig-gestalt-148>),
-  (file: path("/risorse-condivise/immagini/figure/gestalt/77-esperienza-passata-ikea.png"), didascalia: [Dettaglio della stessa testata: ricerca, profilo, preferiti e acquisti.], diritti: [IKEA Italia · screenshot reale del 15 ottobre 2026. Dettaglio ricavato dallo stesso screenshot; diritti dei rispettivi titolari.], alt: "Dettaglio della stessa testata: ricerca, profilo, preferiti e acquisti.", rapporto: 8.333333333333334, larghezza-fonte: 420.0, etichetta: <fig-gestalt-149>),
-), note: [Fonti per @fig-gestalt-148, @fig-gestalt-149. #sito([IKEA Italia · screenshot reale del 15 ottobre 2026. Dettaglio ricavato.], "https://www.ikea.com/it/it/")
+#figura-nel-testo(
+  id: "fig-gestalt-148", file: path("/risorse-condivise/immagini/figure/gestalt/76-esperienza-passata-ikea.png"),
+  didascalia: [IKEA: i simboli della testata richiamano convenzioni d’uso apprese.#sito([IKEA Italia · screenshot reale del 15 ottobre 2026. Dettaglio ricavato.], "https://www.ikea.com/it/it/")<nota-fonti-fig-gestalt-148>],
+  diritti: [IKEA Italia · screenshot reale del 15 ottobre 2026. Dettaglio ricavato dallo stesso screenshot; diritti dei rispettivi titolari.], alt: "IKEA: i simboli della testata richiamano convenzioni d’uso apprese.",
+  rapporto: 3840 / 2160, colonne: 2,
+)
 
-])
+#figura-nel-testo(
+  id: "fig-gestalt-149", file: path("/risorse-condivise/immagini/figure/gestalt/77-esperienza-passata-ikea.png"),
+  didascalia: [Dettaglio della stessa testata: ricerca, profilo, preferiti e acquisti.#sito([IKEA Italia · screenshot reale del 15 ottobre 2026. Dettaglio ricavato.], "https://www.ikea.com/it/it/")],
+  diritti: [IKEA Italia · screenshot reale del 15 ottobre 2026. Dettaglio ricavato dallo stesso screenshot; diritti dei rispettivi titolari.], alt: "Dettaglio della stessa testata: ricerca, profilo, preferiti e acquisti.",
+  rapporto: 1800 / 216, colonne: 2,
+)
 
 
 
 // Fonte 3919:2092 · C03 · 212 · SX — Esperienza passata: Oxfam
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/78-esperienza-passata-oxfam.png"), didascalia: [Oxfam: le icone social richiamano servizi già conosciuti.], diritti: [Oxfam, screenshot storico. Diritti dei rispettivi titolari.], alt: "Oxfam: le icone social richiamano servizi già conosciuti.", rapporto: 1.5256257449344457, larghezza-fonte: 420.0, etichetta: <fig-gestalt-150>),
-  (file: path("/risorse-condivise/immagini/figure/gestalt/79-esperienza-passata-oxfam.png"), didascalia: [Dettaglio dello stesso screenshot: Twitter, Facebook e YouTube.], diritti: [Oxfam, screenshot storico. Diritti dei rispettivi titolari.], alt: "Dettaglio dello stesso screenshot: Twitter, Facebook e YouTube.", rapporto: 3.895348837209302, larghezza-fonte: 335, etichetta: <fig-gestalt-151>),
-), note: [Fonti per @fig-gestalt-150, @fig-gestalt-151. #sito([Oxfam, screenshot storico. Diritti dei rispettivi titolari.], "https://www.nngroup.com/articles/anchoring-principle/")
+#figura-nel-testo(
+  id: "fig-gestalt-150", file: path("/risorse-condivise/immagini/figure/gestalt/78-esperienza-passata-oxfam.png"),
+  didascalia: [Oxfam: le icone social richiamano servizi già conosciuti.#sito([Oxfam, screenshot storico. Diritti dei rispettivi titolari.], "https://www.nngroup.com/articles/anchoring-principle/")<nota-fonti-fig-gestalt-150>],
+  diritti: [Oxfam, screenshot storico. Diritti dei rispettivi titolari.], alt: "Oxfam: le icone social richiamano servizi già conosciuti.",
+  rapporto: 1280 / 839, colonne: 2,
+)
 
-])
+#figura-nel-testo(
+  id: "fig-gestalt-151", file: path("/risorse-condivise/immagini/figure/gestalt/79-esperienza-passata-oxfam.png"),
+  didascalia: [Dettaglio dello stesso screenshot: Twitter, Facebook e YouTube.#sito([Oxfam, screenshot storico. Diritti dei rispettivi titolari.], "https://www.nngroup.com/articles/anchoring-principle/")],
+  diritti: [Oxfam, screenshot storico. Diritti dei rispettivi titolari.], alt: "Dettaglio dello stesso screenshot: Twitter, Facebook e YouTube.",
+  rapporto: 335 / 86, colonne: 1,
+)
 
 
 ]
 #[
 #import "../template/stile.typ": sito, immagine
-#import "../template/gestalt.typ": tavola-gestalt
 
 
 // Fonte 3721:2488 · C03 · 213 · DX — Regione comune (common region)
@@ -923,10 +1047,12 @@ Fonti per @fig-gestalt-143. #sito([Marchio Goodwill. Smiling G: _Joseph Selame_,
 
 Elementi collocati dentro la stessa area delimitata tendono a essere percepiti come un gruppo, anche quando altri elementi sono più vicini.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/80-regione-comune-common-region.svg"),
-  [Posizione e distanza dei punti restano identiche. Aggiungendo due contorni, gli elementi racchiusi nella stessa area formano gruppi riconoscibili.],
-  alt: "Posizione e distanza dei punti restano identiche. Aggiungendo due contorni, gli elementi racchiusi nella stessa area formano gruppi riconoscibili.",
-  width: 187.09pt) <fig-gestalt-152>
+#figura-nel-testo(
+  id: "fig-gestalt-152", file: path("/risorse-condivise/immagini/figure/gestalt/80-regione-comune-common-region.svg"),
+  didascalia: [Posizione e distanza dei punti restano identiche. Aggiungendo due contorni, gli elementi racchiusi nella stessa area formano gruppi riconoscibili.],
+  diritti: none, alt: "Posizione e distanza dei punti restano identiche. Aggiungendo due contorni, gli elementi racchiusi nella stessa area formano gruppi riconoscibili.",
+  rapporto: 363.0 / 240.0, colonne: 1,
+)
 
 
 
@@ -950,16 +1076,12 @@ Nel web, schede, pannelli e superfici di sfondo possono raccogliere informazioni
 
 Nella pagina Pricing di Notion, Free e Plus condividono una regione chiara; Business ed Enterprise sono raccolti nella regione azzurra adiacente. Spaziatura e colonne distinguono le singole proposte dentro i gruppi più ampi. Il contenitore deve corrispondere a una relazione significativa: aggiungere un riquadro a ogni elemento può rendere meno evidenti i raggruppamenti principali.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/81-regione-comune-nel-web.png"),
-  [Notion: Free e Plus condividono una regione chiara; Business ed Enterprise sono raccolti nella regione azzurra adiacente.],
-  alt: "Notion: Free e Plus condividono una regione chiara; Business ed Enterprise sono raccolti nella regione azzurra adiacente.",
-  width: 388.35pt,
-  diritti: [Notion, Pricing · screenshot del 14 ottobre 2026, versione inglese, EUR. © Notion. Valori storici nello screenshot.],
-  placement: top, scope: "parent") <fig-gestalt-153>
-
-
-
-Fonti per @fig-gestalt-153. #sito([Notion, Pricing · screenshot del 14 ottobre 2026, versione inglese, EUR. ©.], "https://www.notion.so/pricing")
+#figura-nel-testo(
+  id: "fig-gestalt-153", file: path("/risorse-condivise/immagini/figure/gestalt/81-regione-comune-nel-web.png"),
+  didascalia: [Notion: Free e Plus condividono una regione chiara; Business ed Enterprise sono raccolti nella regione azzurra adiacente.#sito([Notion, Pricing · screenshot del 14 ottobre 2026, versione inglese, EUR. ©.], "https://www.notion.so/pricing")],
+  diritti: [Notion, Pricing · screenshot del 14 ottobre 2026, versione inglese, EUR. © Notion. Valori storici nello screenshot.], alt: "Notion: Free e Plus condividono una regione chiara; Business ed Enterprise sono raccolti nella regione azzurra adiacente.",
+  rapporto: 1280 / 720, colonne: 2,
+)
 
 
 
@@ -968,68 +1090,100 @@ Fonti per @fig-gestalt-153. #sito([Notion, Pricing · screenshot del 14 ottobre 
 
 Le quattro lettere sono contenute nella stessa superficie rossa, delimitata da un contorno quadrato. Questo campo comune le raccoglie in un’unità visiva distinta da ciò che circonda il marchio. Vicinanza, sovrapposizione e stile delle lettere contribuiscono a loro volta alla lettura.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/82-regione-comune-logo-reale.svg"),
-  [LEGO: la superficie rossa riunisce il marchio in una regione comune.],
-  alt: "LEGO: la superficie rossa riunisce il marchio in una regione comune.",
-  width: 330.00pt,
-  diritti: [LEGO e il logo LEGO sono marchi del LEGO Group. ©2026 The LEGO Group.],
-  placement: top, scope: "parent") <fig-gestalt-154>
-
-
-
-Fonti per @fig-gestalt-154. #sito([LEGO e il logo LEGO sono marchi del LEGO Group. ©2026 The LEGO Group.], "https://www.lego.com/en-ch/aboutus/newsroom/lego-brand-logos-portfolio-assets")
+#figura-nel-testo(
+  id: "fig-gestalt-154", file: path("/risorse-condivise/immagini/figure/gestalt/82-regione-comune-logo-reale.svg"),
+  didascalia: [LEGO: la superficie rossa riunisce il marchio in una regione comune.#sito([LEGO e il logo LEGO sono marchi del LEGO Group. ©2026 The LEGO Group.], "https://www.lego.com/en-ch/aboutus/newsroom/lego-brand-logos-portfolio-assets")],
+  diritti: [LEGO e il logo LEGO sono marchi del LEGO Group. ©2026 The LEGO Group.], alt: "LEGO: la superficie rossa riunisce il marchio in una regione comune.",
+  rapporto: 141.732 / 141.733, colonne: 1,
+)
 
 
 
 // Fonte 3863:2138 · C03 · 217 · DX — Regione comune: fotografia
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/83-regione-comune-fotografia.png"), didascalia: [Gli scomparti del bento raccolgono ingredienti diversi: il confine del contenitore li fa leggere come gruppi, anche quando colore e forma non coincidono.], diritti: [Gamene · CC BY 2.0 · Wikimedia Commons], alt: "Gli scomparti del bento raccolgono ingredienti diversi: il confine del contenitore li fa leggere come gruppi, anche quando colore e forma non coincidono.", rapporto: 1.019108280254777, larghezza-fonte: 420.0, etichetta: <fig-gestalt-155>),
-), note: [Fonti per @fig-gestalt-155. #sito([_Gamene_ · CC BY 2.0 · Wikimedia Commons], "https://commons.wikimedia.org/wiki/File:Spring_roll_bento_(4015192611).jpg")
-
-])
+#figura-nel-testo(
+  id: "fig-gestalt-155", file: path("/risorse-condivise/immagini/figure/gestalt/83-regione-comune-fotografia.png"),
+  didascalia: [Gli scomparti del bento raccolgono ingredienti diversi: il confine del contenitore li fa leggere come gruppi, anche quando colore e forma non coincidono.#sito([_Gamene_ · CC BY 2.0 · Wikimedia Commons], "https://commons.wikimedia.org/wiki/File:Spring_roll_bento_(4015192611).jpg")],
+  diritti: [Gamene · CC BY 2.0 · Wikimedia Commons], alt: "Gli scomparti del bento raccolgono ingredienti diversi: il confine del contenitore li fa leggere come gruppi, anche quando colore e forma non coincidono.",
+  rapporto: 1280 / 1256, colonne: 1,
+)
 
 
 
 // Fonte 3897:2331 · C03 · 218 · SX — Regione comune: dashboard pubblicata su Tableau
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/84-regione-comune-dashboard-pubblicata-su-tableau.png"), didascalia: [Tableau Public: ogni pannello bianco raccoglie informazioni in una regione distinta.], diritti: [Kavin Kumar G, Car Insurance policies dashboard, Tableau Public (2022) · screenshot reale del 15 ottobre 2026; rispettivi diritti.], alt: "Tableau Public: ogni pannello bianco raccoglie informazioni in una regione distinta.", rapporto: 1.447596988998263, larghezza-fonte: 420.0, etichetta: <fig-gestalt-156>),
-  (file: path("/risorse-condivise/immagini/figure/gestalt/85-regione-comune-dashboard-pubblicata-su-tableau.png"), didascalia: [Dettaglio dello stesso screenshot: ogni pannello riunisce simbolo, nome e valore.], diritti: [Visualizzazione pubblicata su Tableau Public], alt: "Dettaglio dello stesso screenshot: ogni pannello riunisce simbolo, nome e valore.", rapporto: 4.526315789473684, larghezza-fonte: 420.0, etichetta: <fig-gestalt-157>),
-), note: [Fonti per @fig-gestalt-156, @fig-gestalt-157. #sito([_Kavin Kumar G_, Car Insurance policies dashboard, Tableau Public (2022) ·.], "https://public.tableau.com/app/profile/kavin.kumar.g/viz/CarInsurancepoliciesdashboard/viz")
+#figura-nel-testo(
+  id: "fig-gestalt-156", file: path("/risorse-condivise/immagini/figure/gestalt/84-regione-comune-dashboard-pubblicata-su-tableau.png"),
+  didascalia: [Tableau Public: ogni pannello bianco raccoglie informazioni in una regione distinta.#sito([_Kavin Kumar G_, Car Insurance policies dashboard, Tableau Public (2022) ·.], "https://public.tableau.com/app/profile/kavin.kumar.g/viz/CarInsurancepoliciesdashboard/viz")<nota-fonti-fig-gestalt-156>],
+  diritti: [Kavin Kumar G, Car Insurance policies dashboard, Tableau Public (2022) · screenshot reale del 15 ottobre 2026; rispettivi diritti.], alt: "Tableau Public: ogni pannello bianco raccoglie informazioni in una regione distinta.",
+  rapporto: 7500 / 5181, colonne: 2,
+)
 
-])
+#figura-nel-testo(
+  id: "fig-gestalt-157", file: path("/risorse-condivise/immagini/figure/gestalt/85-regione-comune-dashboard-pubblicata-su-tableau.png"),
+  didascalia: [Dettaglio dello stesso screenshot: ogni pannello riunisce simbolo, nome e valore.#footnote(<nota-fonti-fig-gestalt-156>)],
+  diritti: [Visualizzazione pubblicata su Tableau Public], alt: "Dettaglio dello stesso screenshot: ogni pannello riunisce simbolo, nome e valore.",
+  rapporto: 2580 / 570, colonne: 2,
+)
 
 
 
 // Fonte 198:4884 · C03 · 219 · DX — Regione comune: il catalogo Apple Watch
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/86-regione-comune-il-catalogo-apple-watch.png"), didascalia: [Apple Watch: fondi e confini dividono il catalogo in aree, associando immagini e informazioni alla rispettiva regione.], diritti: [© Apple · pagina Apple Watch, screenshot storico.], alt: "Apple Watch: fondi e confini dividono il catalogo in aree, associando immagini e informazioni alla rispettiva regione.", rapporto: 0.78, larghezza-fonte: 368.3890686035156, etichetta: <fig-gestalt-158>),
-), note: [])
+#figura-nel-testo(
+  id: "fig-gestalt-158", file: path("/risorse-condivise/immagini/figure/gestalt/86-regione-comune-il-catalogo-apple-watch.png"),
+  didascalia: [Apple Watch: fondi e confini dividono il catalogo in aree, associando immagini e informazioni alla rispettiva regione.],
+  diritti: [© Apple · pagina Apple Watch, screenshot storico.], alt: "Apple Watch: fondi e confini dividono il catalogo in aree, associando immagini e informazioni alla rispettiva regione.",
+  rapporto: 1014 / 1300, colonne: 2,
+)
 
 
 
 // Fonte 3692:2386 · C03 · 220 · SX — Xbox: aree verdi e fotografie
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/87-xbox-aree-verdi-e-fotografie.png"), didascalia: [Xbox: fotografie e superfici verdi raccolgono i contenuti in regioni visive distinte.], diritti: [© Microsoft / Xbox · immagine.], alt: "Xbox: fotografie e superfici verdi raccolgono i contenuti in regioni visive distinte.", rapporto: 2.0574837310195226, larghezza-fonte: 420.0, etichetta: <fig-gestalt-159>),
-  (file: path("/risorse-condivise/immagini/figure/gestalt/88-xbox-aree-verdi-e-fotografie.png"), didascalia: [Dettaglio della stessa immagine: fotografia, testo e azione condividono l’area dedicata alla singola proposta.], diritti: [© Microsoft / Xbox · immagine.], alt: "Dettaglio della stessa immagine: fotografia, testo e azione condividono l’area dedicata alla singola proposta.", rapporto: 2.0476190476190474, larghezza-fonte: 420.0, etichetta: <fig-gestalt-160>),
-), note: [])
+#figura-nel-testo(
+  id: "fig-gestalt-159", file: path("/risorse-condivise/immagini/figure/gestalt/87-xbox-aree-verdi-e-fotografie.png"),
+  didascalia: [Xbox: fotografie e superfici verdi raccolgono i contenuti in regioni visive distinte.],
+  diritti: [© Microsoft / Xbox · immagine.], alt: "Xbox: fotografie e superfici verdi raccolgono i contenuti in regioni visive distinte.",
+  rapporto: 1897 / 922, colonne: 2,
+)
+
+#figura-nel-testo(
+  id: "fig-gestalt-160", file: path("/risorse-condivise/immagini/figure/gestalt/88-xbox-aree-verdi-e-fotografie.png"),
+  didascalia: [Dettaglio della stessa immagine: fotografia, testo e azione condividono l’area dedicata alla singola proposta.],
+  diritti: [© Microsoft / Xbox · immagine.], alt: "Dettaglio della stessa immagine: fotografia, testo e azione condividono l’area dedicata alla singola proposta.",
+  rapporto: 946 / 462, colonne: 2,
+)
 
 
 
 // Fonte 3804:2097 · C03 · 221 · DX — Notion: due gruppi di piani
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/89-notion-due-gruppi-di-piani.png"), didascalia: [Notion: una regione chiara e una azzurra raccolgono due gruppi di piani.], diritti: [Notion, Pricing. Screenshot del 14 ottobre 2026, versione inglese con valuta EUR. © Notion. Valori documentati nello screenshot.], alt: "Notion: una regione chiara e una azzurra raccolgono due gruppi di piani.", rapporto: 1.7777777777777777, larghezza-fonte: 350.46209716796875, etichetta: <fig-gestalt-161>),
-  (file: path("/risorse-condivise/immagini/figure/gestalt/90-notion-due-gruppi-di-piani.png"), didascalia: [Dettaglio: il bordo comune racchiude Free e Plus; lo spazio interno distingue le due proposte.], diritti: [Notion, Pricing. Screenshot del 14 ottobre 2026, versione inglese con valuta EUR. © Notion. Valori documentati nello screenshot.], alt: "Dettaglio: il bordo comune racchiude Free e Plus; lo spazio interno distingue le due proposte.", rapporto: 1.0, larghezza-fonte: 241.36508178710938, etichetta: <fig-gestalt-162>),
-), note: [])
+#figura-nel-testo(
+  id: "fig-gestalt-161", file: path("/risorse-condivise/immagini/figure/gestalt/89-notion-due-gruppi-di-piani.png"),
+  didascalia: [Notion: una regione chiara e una azzurra raccolgono due gruppi di piani.],
+  diritti: [Notion, Pricing. Screenshot del 14 ottobre 2026, versione inglese con valuta EUR. © Notion. Valori documentati nello screenshot.], alt: "Notion: una regione chiara e una azzurra raccolgono due gruppi di piani.",
+  rapporto: 1280 / 720, colonne: 2,
+)
+
+#figura-nel-testo(
+  id: "fig-gestalt-162", file: path("/risorse-condivise/immagini/figure/gestalt/90-notion-due-gruppi-di-piani.png"),
+  didascalia: [Dettaglio: il bordo comune racchiude Free e Plus; lo spazio interno distingue le due proposte.],
+  diritti: [Notion, Pricing. Screenshot del 14 ottobre 2026, versione inglese con valuta EUR. © Notion. Valori documentati nello screenshot.], alt: "Dettaglio: il bordo comune racchiude Free e Plus; lo spazio interno distingue le due proposte.",
+  rapporto: 510 / 510, colonne: 2,
+)
 
 
 
 // Fonte 3897:2349 · C03 · 222 · SX — Regione comune: altri screenshot reali
-#tavola-gestalt((
-  (file: path("/risorse-condivise/immagini/figure/gestalt/91-regione-comune-altri-screenshot-reali.png"), didascalia: [Slack: ogni piano riunisce prezzo, pulsante e funzioni in una regione delimitata.], diritti: [Slack Pricing Plans: Find the Right Fit for Your Team | Slack · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], alt: "Slack: ogni piano riunisce prezzo, pulsante e funzioni in una regione delimitata.", rapporto: 1.7777777777777777, larghezza-fonte: 420.0, etichetta: <fig-gestalt-163>),
-  (file: path("/risorse-condivise/immagini/figure/gestalt/92-regione-comune-altri-screenshot-reali.png"), didascalia: [Pane&Trita: la superficie rossa raccoglie marchio e navigazione.], diritti: [Diritti dei rispettivi titolari.], alt: "Pane&Trita: la superficie rossa raccoglie marchio e navigazione.", rapporto: 14.23404255319149, larghezza-fonte: 420.0, etichetta: <fig-gestalt-164>),
-), note: [Fonti per @fig-gestalt-163, @fig-gestalt-164. #sito([Slack Pricing Plans: Find the Right Fit for Your Team | Slack · screenshot.], "https://slack.com/pricing")
+#figura-nel-testo(
+  id: "fig-gestalt-163", file: path("/risorse-condivise/immagini/figure/gestalt/91-regione-comune-altri-screenshot-reali.png"),
+  didascalia: [Slack: ogni piano riunisce prezzo, pulsante e funzioni in una regione delimitata.#sito([Slack Pricing Plans: Find the Right Fit for Your Team | Slack · screenshot.], "https://slack.com/pricing")],
+  diritti: [Slack Pricing Plans: Find the Right Fit for Your Team | Slack · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.], alt: "Slack: ogni piano riunisce prezzo, pulsante e funzioni in una regione delimitata.",
+  rapporto: 3840 / 2160, colonne: 2,
+)
 
-])
+#figura-nel-testo(
+  id: "fig-gestalt-164", file: path("/risorse-condivise/immagini/figure/gestalt/92-regione-comune-altri-screenshot-reali.png"),
+  didascalia: [Pane&Trita: la superficie rossa raccoglie marchio e navigazione.],
+  diritti: [Diritti dei rispettivi titolari.], alt: "Pane&Trita: la superficie rossa raccoglie marchio e navigazione.",
+  rapporto: 1338 / 94, colonne: 2,
+)
 
 
 
@@ -1042,14 +1196,12 @@ Nella riga a, gli intervalli fra i punti suggeriscono tre coppie. Nella riga b, 
 
 Quando i segnali concordano, il raggruppamento può risultare più evidente. Quando competono, la lettura dipende dalla configurazione complessiva: nessun fattore prevale sempre. Nel progetto conviene far concordare i segnali che esprimono la stessa relazione e verificare eventuali ambiguità nel compito.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/93-quando-i-principi-interagiscono.svg"),
-  [a. La vicinanza suggerisce coppie. b. Il colore sostiene le stesse coppie. c. Colore e vicinanza suggeriscono raggruppamenti diversi.],
-  alt: "a. La vicinanza suggerisce coppie. b. Il colore sostiene le stesse coppie. c. Colore e vicinanza suggeriscono raggruppamenti diversi.",
-  width: 187.09pt) <fig-gestalt-165>
-
-
-
-Fonti per @fig-gestalt-165.  @gestalt-wertheimer1938#sito([_Wertheimer_ (1923/1938).], "https://psychclassics.yorku.ca/Wertheimer/Forms/forms.htm")
+#figura-nel-testo(
+  id: "fig-gestalt-165", file: path("/risorse-condivise/immagini/figure/gestalt/93-quando-i-principi-interagiscono.svg"),
+  didascalia: [a. La vicinanza suggerisce coppie. b. Il colore sostiene le stesse coppie. c. Colore e vicinanza suggeriscono raggruppamenti diversi. @gestalt-wertheimer1938#sito([_Wertheimer_ (1923/1938).], "https://psychclassics.yorku.ca/Wertheimer/Forms/forms.htm")],
+  diritti: none, alt: "a. La vicinanza suggerisce coppie. b. Il colore sostiene le stesse coppie. c. Colore e vicinanza suggeriscono raggruppamenti diversi.",
+  rapporto: 363.0 / 184.0, colonne: 1,
+)
 
 
 
@@ -1064,14 +1216,12 @@ La buona continuazione riguarda invece la continuità di direzione dei contorni.
 
 Nelle interfacce, osserva quale relazione viene espressa da un contenitore, da una linea o dalla spaziatura; non attribuirle tutte alla continuità.
 
-#immagine(path("/risorse-condivise/immagini/figure/gestalt/94-vicinanza-regione-e-connessione.svg"),
-  [a. Punti equidistanti. b. Un contorno racchiude ciascuna coppia. c. Un tratto connette gli elementi della coppia.],
-  alt: "a. Punti equidistanti. b. Un contorno racchiude ciascuna coppia. c. Un tratto connette gli elementi della coppia.",
-  width: 187.09pt) <fig-gestalt-166>
-
-
-
-Fonti per @fig-gestalt-166.  @gestalt-palmer2002#sito([_Palmer_ (2002).], "https://palmerlab.berkeley.edu/pdf/Palmer.pdf")
+#figura-nel-testo(
+  id: "fig-gestalt-166", file: path("/risorse-condivise/immagini/figure/gestalt/94-vicinanza-regione-e-connessione.svg"),
+  didascalia: [a. Punti equidistanti. b. Un contorno racchiude ciascuna coppia. c. Un tratto connette gli elementi della coppia. @gestalt-palmer2002#sito([_Palmer_ (2002).], "https://palmerlab.berkeley.edu/pdf/Palmer.pdf")],
+  diritti: none, alt: "a. Punti equidistanti. b. Un contorno racchiude ciascuna coppia. c. Un tratto connette gli elementi della coppia.",
+  rapporto: 363.0 / 184.0, colonne: 1,
+)
 
 
 
@@ -1111,9 +1261,7 @@ Nel caso del modulo si possono confrontare due versioni dello stesso contenuto, 
 
 *Osservare e rivedere*
 
-La persona viene invitata a svolgere il compito: nel modulo, per esempio, si osservano eventuali associazioni errate fra etichette e campi, esitazioni e richieste di aiuto. Registrando anche il contesto della prova, le osservazioni diventano un riferimento per rivedere le alternative e preparano il lavoro successivo su forma e gerarchia visiva.
-
- @gestalt-wai-users#sito([W3C WAI, valutare con le persone.], "https://www.w3.org/WAI/test-evaluate/involving-users/")
+La persona viene invitata a svolgere il compito: nel modulo, per esempio, si osservano eventuali associazioni errate fra etichette e campi, esitazioni e richieste di aiuto. Registrando anche il contesto della prova, le osservazioni diventano un riferimento per rivedere le alternative e preparano il lavoro successivo su forma e gerarchia visiva.#sito([W3C WAI, valutare con le persone.], "https://www.w3.org/WAI/test-evaluate/involving-users/")
 
 
 ]

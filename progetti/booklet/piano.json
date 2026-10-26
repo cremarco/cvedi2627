@@ -1,7 +1,7 @@
 {
   "versione": 1,
   "aperture": "progetti/booklet/assets/aperture-imagegen-svg-v1",
-  "ambito": "Sette capitoli: le sei lezioni approvate e La griglia dalla Page Figma 4954:42, aggiunta su richiesta dell’utente. Numerazione editoriale da 01; i numeri03–08 delle slide restano identificatori delle fonti. Per La griglia,08 identifica soltanto il precedente percorso Slidev: la fonte corrente è la Page Figma.",
+  "ambito": "Otto capitoli: le sei lezioni approvate, Griglie e layout e Composizione e gerarchia visiva. Il capitolo 08 integra le Pages Figma 3699:2475 e 2613:1113 e i materiali individuati nella ricognizione locale, su richiesta dell’utente.",
   "capitoli": [
     {
       "numero": 1,
@@ -79,6 +79,16 @@
       "file": "capitoli/07-griglia.typ",
       "fonti": "bibliografia/07-griglia.yml",
       "stato": "in-revisione"
+    },
+    {
+      "numero": 8,
+      "codice": "08",
+      "titolo": "Composizione e gerarchia visiva",
+      "lezione": null,
+      "apertura_originale": 9,
+      "file": "capitoli/08-composizione-gerarchia.typ",
+      "fonti": "bibliografia/08-composizione-gerarchia.yml",
+      "stato": "completo"
     }
   ]
 }

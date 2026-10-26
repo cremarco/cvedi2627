@@ -5,6 +5,7 @@
 #import "campioni.typ": confronto
 #import "stile.typ": immagine
 #import "documenti.typ": tavola-documentaria
+#import "esercizi.typ": esercizio as box-esercizio
 
 #let inchiostro = rgb("2E3138")
 #let etichetta(corpo) = text(font: "DM Sans 9pt", size: 9.5pt, weight: 500,
@@ -221,8 +222,10 @@
 // I sei campi sono conservati; le righe sono spazi di scrittura, non righe di prosa.
 // La tavola chiude i Consigli prima della sezione web: non è una figura mobile.
 #let esercizio() = tavola-documentaria(fissa: true)[
-  #foglio[
-    #text(size: 14pt, weight: 900)[Il mio prossimo confronto]
+  #box-esercizio(id: "confronto-tipografico", titolo: [Il mio prossimo confronto],
+    livello: none, colonne: 1)[
+    #set text(size: 12pt, weight: 400, variations: (opsz: 14))
+    #set par(justify: false, leading: 2pt, spacing: 10pt)
     #v(14pt)
     #for campo in (
       [Testo, formato e condizioni che mantengo uguali],

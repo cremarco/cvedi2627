@@ -3,7 +3,7 @@
 #import "../template/palette.typ": accento-preliminari
 #import "../template/piano.typ": piano, stato-volume, avviso-importazione
 
-#let testo = [
+#let preliminari(con-indice: true) = [
 #colore-capitolo.update(accento-preliminari)
 // I preliminari hanno folio ed etichette PDF in numeri romani.
 #set page(numbering: "i", footer: folio(romano: true))
@@ -16,7 +16,6 @@
     Comunicazione visiva e design delle interfacce
   ]
   #v(24pt)
-  #text(size: 15pt)[Booklet · #piano.len() capitoli]
   #v(1fr)
   #v(10pt)
   #text(size: 9pt, stato-volume())
@@ -47,31 +46,24 @@
 ]
 ]
 
+#if con-indice [
 #page(columns: 1)[
   #set par(justify: false)
-  #text(font: "Sora", size: 30pt, weight: 700)[I #piano.len() capitoli]
+  #text(font: "Sora", size: 30pt, weight: 700)[Indice]
   #v(20pt)
-  // Il piano espone l’ordine completo; l’indice nativo collega il testo già importato.
-  #for voce in piano [
-    #block(above: 0pt, below: 10pt)[
-      #text(size: 15pt, weight: 600)[#voce.codice]
-      #h(8pt)#text(size: 14pt)[#voce.titolo]
-    ]
-  ]
-  #v(12pt)
-  #context if query(heading.where(outlined: true)).len() > 0 [
-  #text(size: 14pt, weight: 600)[Indice dei contenuti presenti]
-  #v(10pt)
+  // Un solo indice nativo, con destinazioni e folio del testo importato.
   #show outline.entry: set text(size: 11pt, weight: 400)
   #show outline.entry.where(level: 1): set text(size: 13pt, weight: 600)
   #outline(title: none, depth: 2)
-  ]
   #v(1fr)
   #text(size: 9pt, avviso-importazione())
+]
 ]
 // Anche l’eventuale foglio di raccordo conserva la numerazione dei preliminari.
 #pagebreak(to: "odd", weak: true)
 ]
 
+#let testo = preliminari()
+
 #show: booklet
-#testo
+#preliminari(con-indice: false)

@@ -1,0 +1,67 @@
+{
+  "status": "proposta-superata-non-integrata",
+  "date": "2026-10-25",
+  "tool": "image_gen.imagegen built-in",
+  "request": "Infografica più leggibile, dopo il rifiuto della variante artistica a totem.",
+  "chapter": "02 · Ricerca, persone e culture",
+  "data": [
+    {
+      "paese": "Austria",
+      "indice": 11
+    },
+    {
+      "paese": "Danimarca",
+      "indice": 18
+    },
+    {
+      "paese": "Nuova Zelanda",
+      "indice": 22
+    },
+    {
+      "paese": "Guatemala",
+      "indice": 95
+    },
+    {
+      "paese": "Malesia",
+      "indice": 100
+    },
+    {
+      "paese": "Slovacchia",
+      "indice": 100
+    }
+  ],
+  "palette": {
+    "paper": "#FFFFFF",
+    "ink": "#2E3138",
+    "chapterAccent": "#FFB86A",
+    "secondaryInk": "#626872"
+  },
+  "references": {
+    "edit_target": "../schema-pdi-imagegen-v1/schema-pdi-v1.png",
+    "original": "../schema-pdi-imagegen-v1/riferimento-utente.png"
+  },
+  "prompt": "prompt.txt",
+  "review": {
+    "text": "Verificati visivamente i sei paesi, i sei punteggi, i due gruppi e le etichette delle scale.",
+    "layout": "Due colonne di tre voci, barre orizzontali, etichette e valori allineati.",
+    "production": "Proposta raster. Proporzioni dei segmenti, allineamento dei righelli, font e dettagli delle bandiere richiedono misura e riallineamento in un eventuale esecutivo nativo."
+  },
+  "file": {
+    "path": "schema-pdi-infografica-v3.png",
+    "sha256": "e35a82ebe0b4e73465cf619ed7af65379dd331ba52809e408a1da707b78a2f4c",
+    "dimensions": [
+      1536,
+      1024
+    ]
+  },
+  "approval": {
+    "date": "2026-10-25",
+    "scope": "Impostazione grafica dello schema PDI: due gruppi, barre sulla stessa scala e valori in evidenza.",
+    "user_message": "ok così va bene"
+  },
+  "approvalSuperseded": {
+    "date": "2026-10-25",
+    "reason": "L’utente ha revocato la scelta della v3 e richiesto di ripartire da un nuovo screenshot dello schema originale.",
+    "newProposal": "../schema-pdi-imagegen-v4/manifest.json"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "versione": 1,
+  "stato": "asset autonomo, non inserito nel booklet attivo",
+  "richiesta": "Ricostruire la mappa WCAG 2.2 in vettoriale.",
+  "formato_mm": [
+    170,
+    240
+  ],
+  "viewBox": [
+    0,
+    0,
+    1054,
+    1492
+  ],
+  "palette": {
+    "accento": "#FFD230",
+    "accento_scuro": "#973C00",
+    "inchiostro": "#2E3138",
+    "carta": "#FFFFFF"
+  },
+  "contenuto": {
+    "principi": 4,
+    "linee_guida": 13,
+    "criteri_attivi": 86,
+    "storico_rimosso": "4.1.1",
+    "novita_wcag22": 9
+  },
+  "metodo": "Ricostruzione nativa di testo, forme e pittogrammi; nessun tracciamento automatico e nessun raster incorporato.",
+  "fonte": {
+    "percorso": "risorse-condivise/fonti/booklet/accessibilita-estensione/wcag-2.2-mappa-italiana.pdf",
+    "sha256": "7baa8e455ed5d1e074aeaa217e4b226ea6c585e1439a8596c3e731160b7a352f",
+    "url": "https://intopia.digital/wp-content/uploads/2024/05/Italian-WCAG-2.2-Map-by-Intopia.pdf",
+    "attribuzione": "Intopia e Sketch Group; traduzione Roberto Scano; rielaborazione vettoriale.",
+    "licenza": "CC BY-SA 4.0"
+  },
+  "riferimento_di_composizione": "progetti/booklet/assets/illustrazioni-palette-capitoli/originali/mappa-wcag-2.2.png",
+  "font": [
+    {
+      "famiglia": "DM Sans",
+      "percorso": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+      "licenza": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+    },
+    {
+      "famiglia": "Sora",
+      "percorso": "risorse-condivise/font/editoriali/sora-variabile.ttf",
+      "licenza": "risorse-condivise/font/editoriali/sora-licenza.txt",
+      "sha256": "84ff7096ae3ec6c8be47d906d1a0ba4de7f2ce78c615275c77301964a316e16c"
+    }
+  ],
+  "varianti": {
+    "mappa-wcag-2.2.svg": "Tutti i caratteri sono tracciati nativi; pronta per la stampa e indipendente dai font installati.",
+    "mappa-wcag-2.2-editabile.svg": "Testi, codici e gruppi semantici modificabili; font e licenze incorporati."
+  },
+  "rigenerazione": "progetti/booklet/.venv/bin/python3 progetti/booklet/assets/mappa-wcag-vettoriale/genera.py --export",
+  "dipendenze": "Python con Pillow; rsvg-convert e pdftocairo per l’esportazione.",
+  "file": [
+    {
+      "percorso": "mappa-wcag-2.2.svg",
+      "sha256": "6b97ff707bedfaffe3bf05c1453f7522a288c2d67c4cf7acd812359a7086925f",
+      "byte": 615084
+    },
+    {
+      "percorso": "mappa-wcag-2.2-editabile.svg",
+      "sha256": "8b191fd911f46df307a378663d7c97555e161bacdb6f951e410701311f3e3e45",
+      "byte": 558542
+    },
+    {
+      "percorso": "anteprima.png",
+      "sha256": "a26e3fbe0a8d743af00e5e432855bb7c00929d9e3022e479bfb4d1a91ced5b5a",
+      "byte": 512297
+    },
+    {
+      "percorso": "criteri.json",
+      "sha256": "84c26ebccedb46eac8744c620717a259e0a3eac3abab4f6603ab4832f74fb4fb",
+      "byte": 13043
+    },
+    {
+      "percorso": "genera.py",
+      "sha256": "ced8f2b8efdc027398453625475c78e0ab4fbd452e93d255f384d0a8b2d833cb",
+      "byte": 13744
+    },
+    {
+      "percorso": "verifica.json",
+      "sha256": "1f3fa5c2ff06b992f0c174adbd38620df4a65e9d1cf468a0f77a3db4f9f01dea",
+      "byte": 395
+    }
+  ],
+  "ispezione": "Ispezionate entrambe le varianti renderizzate a 1130 × 1600: stessi contenuti e composizione; i motori rasterizzano con piccoli scarti di campionamento."
+}

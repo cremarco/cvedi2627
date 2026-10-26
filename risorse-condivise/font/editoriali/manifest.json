@@ -137,6 +137,25 @@
         "glifi_verificati": "麦当劳星巴克浮世絵"
       },
       "licenza_id": "noto-sans-sc-ofl-1.1"
+    },
+    {
+      "id": "press-start-2p",
+      "percorso": "risorse-condivise/font/editoriali/press-start-2p.ttf",
+      "sha256": "034c77f1f05ec89421e4a63f0e3a4ca1ecf852cc6d2bf611f126f275728e017d",
+      "byte": 118204,
+      "famiglia": "Press Start 2P",
+      "famiglia_typst": "Press Start 2P",
+      "stile": "tondo",
+      "nome_file_originale": "PressStart2P-Regular.ttf",
+      "percorso_originale": "progetti/caffe-ttc/assets/fonts/source/PressStart2P-Regular.ttf",
+      "copia_identica_all_originale": true,
+      "ruolo": "Eccezione locale richiesta per il titolo «Un linguaggio di pochi pixel», compresa la numerazione; non sostituisce i font ordinari.",
+      "provenienza": {
+        "documentazione_locale": "progetti/caffe-ttc/assets/fonts/extra-fonts-provenienza.json",
+        "distribuzione": "https://github.com/google/fonts/tree/main/ofl/pressstart2p",
+        "url_file": "https://raw.githubusercontent.com/google/fonts/main/ofl/pressstart2p/PressStart2P-Regular.ttf"
+      },
+      "licenza_id": "press-start-2p-ofl-1.1"
     }
   ],
   "licenze": [
@@ -185,6 +204,18 @@
       "percorso_originale": null,
       "url_fonte": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
       "nota": "Licenza originale della stessa distribuzione, conservata senza modifiche."
+    },
+    {
+      "id": "press-start-2p-ofl-1.1",
+      "nome": "SIL Open Font License 1.1",
+      "identificatore_spdx": "OFL-1.1",
+      "copyright": "Copyright 2012 The Press Start 2P Project Authors (cody@zone38.net), with Reserved Font Name \"Press Start 2P\".",
+      "percorso": "risorse-condivise/font/editoriali/press-start-2p-licenza.txt",
+      "sha256": "705960c3281a5765ecc0b59bd4ed7ca59eed165748076bc2fc3e8fdbfeb944b0",
+      "byte": 4413,
+      "percorso_originale": "progetti/caffe-ttc/assets/licenses/press-start-2p-OFL.txt",
+      "copia_identica_all_originale": true,
+      "url_fonte": "https://raw.githubusercontent.com/google/fonts/main/ofl/pressstart2p/OFL.txt"
     }
   ]
 }

@@ -1,0 +1,617 @@
+{
+  "versione": 1,
+  "fonte": "risorse-condivise/fonti/booklet/accessibilita-estensione/wcag-2.2-mappa-italiana.pdf",
+  "attribuzione": "Intopia e Sketch Group; traduzione Roberto Scano; rielaborazione vettoriale.",
+  "licenza": "CC BY-SA 4.0",
+  "criteri": [
+    {
+      "id": "1.1.1",
+      "livello": "A",
+      "titolo": "Contenuti non testuali",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.2.1",
+      "livello": "A",
+      "titolo": "Solo audio e solo video (preregistrati)",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.2.2",
+      "livello": "A",
+      "titolo": "Sottotitoli (preregistrati)",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.2.3",
+      "livello": "A",
+      "titolo": "Audiodescrizione o tipo di media alternativo (preregistrato)",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.2.4",
+      "livello": "AA",
+      "titolo": "Sottotitoli (in tempo reale)",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.2.5",
+      "livello": "AA",
+      "titolo": "Audiodescrizione (preregistrata)",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.2.6",
+      "livello": "AAA",
+      "titolo": "Lingua dei segni (preregistrato)",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.2.7",
+      "livello": "AAA",
+      "titolo": "Audiodescrizione estesa (preregistrata)",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.2.8",
+      "livello": "AAA",
+      "titolo": "Tipo di media alternativo (preregistrato)",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.2.9",
+      "livello": "AAA",
+      "titolo": "Solo audio (in tempo reale)",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.3.1",
+      "livello": "A",
+      "titolo": "Informazioni e correlazioni",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.3.2",
+      "livello": "A",
+      "titolo": "Sequenza significativa",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.3.3",
+      "livello": "A",
+      "titolo": "Caratteristiche sensoriali",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.3.4",
+      "livello": "AA",
+      "titolo": "Orientamento",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.3.5",
+      "livello": "AA",
+      "titolo": "Identificare lo scopo degli input",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.3.6",
+      "livello": "AAA",
+      "titolo": "Identificare lo scopo",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.4.1",
+      "livello": "A",
+      "titolo": "Uso del colore",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.4.2",
+      "livello": "A",
+      "titolo": "Controllo del sonoro",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.4.3",
+      "livello": "AA",
+      "titolo": "Contrasto (minimo)",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.4.4",
+      "livello": "AA",
+      "titolo": "Ridimensionamento del testo",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.4.5",
+      "livello": "AA",
+      "titolo": "Immagini di testo",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.4.10",
+      "livello": "AA",
+      "titolo": "Ricalcolo del flusso",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.4.11",
+      "livello": "AA",
+      "titolo": "Contrasto in contenuti non testuali",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.4.12",
+      "livello": "AA",
+      "titolo": "Spaziatura del testo",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.4.13",
+      "livello": "AA",
+      "titolo": "Contenuto con Hover o Focus",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.4.6",
+      "livello": "AAA",
+      "titolo": "Contrasto (avanzato)",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.4.7",
+      "livello": "AAA",
+      "titolo": "Sottofondo sonoro basso o non presente",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.4.8",
+      "livello": "AAA",
+      "titolo": "Presentazione visiva",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "1.4.9",
+      "livello": "AAA",
+      "titolo": "Immagini di testo (senza eccezioni)",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.1.1",
+      "livello": "A",
+      "titolo": "Tastiera",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.1.2",
+      "livello": "A",
+      "titolo": "Nessun impedimento all’uso della tastiera",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.1.4",
+      "livello": "A",
+      "titolo": "Tasti di scelta rapida",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.1.3",
+      "livello": "AAA",
+      "titolo": "Tastiera (nessuna eccezione)",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.2.1",
+      "livello": "A",
+      "titolo": "Regolazione tempi di esecuzione",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.2.2",
+      "livello": "A",
+      "titolo": "Pausa, stop, nascondi",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.2.3",
+      "livello": "AAA",
+      "titolo": "Nessun tempo di esecuzione",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.2.4",
+      "livello": "AAA",
+      "titolo": "Interruzioni",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.2.5",
+      "livello": "AAA",
+      "titolo": "Riautenticazione",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.2.6",
+      "livello": "AAA",
+      "titolo": "Termine del tempo",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.3.1",
+      "livello": "A",
+      "titolo": "Tre lampeggiamenti o inferiore alla soglia",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.3.2",
+      "livello": "AAA",
+      "titolo": "Tre lampeggiamenti",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.3.3",
+      "livello": "AAA",
+      "titolo": "Animazione da interazioni",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.4.1",
+      "livello": "A",
+      "titolo": "Salto di blocchi",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.4.2",
+      "livello": "A",
+      "titolo": "Titolazione della pagina",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.4.3",
+      "livello": "A",
+      "titolo": "Ordine del focus",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.4.4",
+      "livello": "A",
+      "titolo": "Scopo del collegamento (nel contesto)",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.4.5",
+      "livello": "AA",
+      "titolo": "Differenti modalità",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.4.6",
+      "livello": "AA",
+      "titolo": "Intestazioni ed etichette",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.4.7",
+      "livello": "AA",
+      "titolo": "Focus visibile",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.4.11",
+      "livello": "AA",
+      "titolo": "Focus non nascosto (minimo)",
+      "nuovo": true,
+      "rimosso": false
+    },
+    {
+      "id": "2.4.8",
+      "livello": "AAA",
+      "titolo": "Posizione",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.4.9",
+      "livello": "AAA",
+      "titolo": "Scopo del collegamento (solo collegamento)",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.4.10",
+      "livello": "AAA",
+      "titolo": "Intestazioni di sezione",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.4.12",
+      "livello": "AAA",
+      "titolo": "Focus non nascosto (avanzato)",
+      "nuovo": true,
+      "rimosso": false
+    },
+    {
+      "id": "2.4.13",
+      "livello": "AAA",
+      "titolo": "Aspetto del focus",
+      "nuovo": true,
+      "rimosso": false
+    },
+    {
+      "id": "2.5.1",
+      "livello": "A",
+      "titolo": "Movimenti del puntatore",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.5.2",
+      "livello": "A",
+      "titolo": "Cancellazione delle azioni del puntatore",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.5.3",
+      "livello": "A",
+      "titolo": "Etichetta nel nome",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.5.4",
+      "livello": "A",
+      "titolo": "Azionamento da movimento",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.5.7",
+      "livello": "AA",
+      "titolo": "Movimenti di trascinamento",
+      "nuovo": true,
+      "rimosso": false
+    },
+    {
+      "id": "2.5.8",
+      "livello": "AA",
+      "titolo": "Dimensione dell’obiettivo (minimo)",
+      "nuovo": true,
+      "rimosso": false
+    },
+    {
+      "id": "2.5.5",
+      "livello": "AAA",
+      "titolo": "Dimensione dell’obiettivo (avanzato)",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "2.5.6",
+      "livello": "AAA",
+      "titolo": "Meccanismi di input simultanei",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "3.1.1",
+      "livello": "A",
+      "titolo": "Lingua della pagina",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "3.1.2",
+      "livello": "AA",
+      "titolo": "Parti in lingua",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "3.1.3",
+      "livello": "AAA",
+      "titolo": "Parole inusuali",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "3.1.4",
+      "livello": "AAA",
+      "titolo": "Abbreviazioni",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "3.1.5",
+      "livello": "AAA",
+      "titolo": "Livello di lettura",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "3.1.6",
+      "livello": "AAA",
+      "titolo": "Pronuncia",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "3.2.1",
+      "livello": "A",
+      "titolo": "Al focus",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "3.2.2",
+      "livello": "A",
+      "titolo": "All’input",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "3.2.6",
+      "livello": "A",
+      "titolo": "Aiuto coerente",
+      "nuovo": true,
+      "rimosso": false
+    },
+    {
+      "id": "3.2.3",
+      "livello": "AA",
+      "titolo": "Navigazione coerente",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "3.2.4",
+      "livello": "AA",
+      "titolo": "Identificazione coerente",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "3.2.5",
+      "livello": "AAA",
+      "titolo": "Cambiamenti su richiesta",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "3.3.1",
+      "livello": "A",
+      "titolo": "Identificazione di errori",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "3.3.2",
+      "livello": "A",
+      "titolo": "Etichette o istruzioni",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "3.3.7",
+      "livello": "A",
+      "titolo": "Inserimento ridondante",
+      "nuovo": true,
+      "rimosso": false
+    },
+    {
+      "id": "3.3.3",
+      "livello": "AA",
+      "titolo": "Suggerimenti per gli errori",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "3.3.4",
+      "livello": "AA",
+      "titolo": "Prevenzione degli errori (legali, finanziari, dati)",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "3.3.8",
+      "livello": "AA",
+      "titolo": "Autenticazione accessibile (minimo)",
+      "nuovo": true,
+      "rimosso": false
+    },
+    {
+      "id": "3.3.5",
+      "livello": "AAA",
+      "titolo": "Aiuto",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "3.3.6",
+      "livello": "AAA",
+      "titolo": "Prevenzione degli errori (tutti)",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "3.3.9",
+      "livello": "AAA",
+      "titolo": "Autenticazione accessibile (avanzato)",
+      "nuovo": true,
+      "rimosso": false
+    },
+    {
+      "id": "4.1.1",
+      "livello": "A",
+      "titolo": "Analisi sintattica - rimosso nelle WCAG 2.2",
+      "nuovo": false,
+      "rimosso": true
+    },
+    {
+      "id": "4.1.2",
+      "livello": "A",
+      "titolo": "Nome, ruolo, valore",
+      "nuovo": false,
+      "rimosso": false
+    },
+    {
+      "id": "4.1.3",
+      "livello": "AA",
+      "titolo": "Messaggi di stato",
+      "nuovo": false,
+      "rimosso": false
+    }
+  ]
+}

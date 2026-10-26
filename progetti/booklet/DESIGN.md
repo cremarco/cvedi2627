@@ -4,9 +4,141 @@
 
 Questo documento definisce il sistema editoriale del **booklet**, per i prossimi capitoli e le revisioni richieste. Non disciplina le slide, il sito del corso o gli esempi web autonomi.
 
-Il riferimento operativo è il [sistema editoriale Figma](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/Booklet?node-id=4286-534), aggiornato sulla base della Page [101 · Tipografia · Nuovo design](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/Booklet?node-id=4226-16023). Le regole combinano i componenti e le misure osservati con i commenti di Marco Cremaschi e le sue risposte esplicite. Le istruzioni dell’utente prevalgono; una modifica intenzionale al sistema aggiorna Figma e questo documento insieme. Le regole non ancora definite vanno chiarite prima di introdurle nel contratto.
+La fonte del sistema editoriale è [Figma](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/Booklet?node-id=4286-534), aggiornata sulla base della Page [101 · Tipografia · Nuovo design](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/Booklet?node-id=4226-16023). Le regole combinano i componenti e le misure osservati con i commenti di Marco Cremaschi e le sue risposte esplicite. Per l’edizione Typst valgono le varianti approvate e i componenti descritti qui: una loro modifica aggiorna questo documento, senza attestare modifiche al file Figma. Le istruzioni dell’utente prevalgono; le regole non ancora definite vanno chiarite prima di introdurle nel contratto.
 
 Le descrizioni e i conteggi degli snapshot precedenti documentano le rispettive revisioni. Non sostituiscono queste regole né attestano che tutte le pagine esistenti siano già state adeguate. Folio, progressivi delle figure e colore del capitolo di Tipografia non diventano valori universali per gli altri capitoli.
+
+## Guida operativa per le pagine Typst
+
+Il volume attivo comprende i file `capitoli/00-frontespizio-indice.typ`–`08-composizione-gerarchia.typ`; `piano.json` governa ordine, titoli, aperture e fonti. Ogni capitolo espone un unico `testo`, condiviso dal volume e dalla compilazione autonoma. Si modifica la prosa nel capitolo, il contenuto di figure ripetute nei cataloghi e il posizionamento comune in `template/`. Gli identificatori Figma e i folio storici descritti più avanti servono a riconoscere le fonti.
+
+### Scegliere il contenitore
+
+Partire dalla prosa nativa nelle due colonne. Scegliere poi il contenitore in base alla funzione della visuale; larghezza, posizione mobile e occupazione di un foglio sono decisioni distinte. Il contenitore tiene insieme immagine, didascalia e diritti; il testo successivo completa gli spazi disponibili. Non suddividere i paragrafi in righe o pagine a mano.
+
+| Scenario | API esistente e file in `template/` | Comportamento da conservare |
+| --- | --- | --- |
+| Immagine ordinaria in una colonna | `immagine()` · `figure.typ` | Larghezza predefinita `100%` della colonna; eredita il float ordinario. Etichetta nativa dopo la chiamata. |
+| Immagine o confronto largo | `immagine(placement: top, scope: "parent")`, oppure `figure()` con gli stessi parametri | Attraversa entrambe le colonne. `grid()` organizza soltanto i pannelli della visuale; una figura esterna significa un unico progressivo e una caption comune. |
+| Gruppo di figure o campioni da tenere insieme | `confronto[]` · `campioni.typ` | Float superiore a tutta gabbia, altezza del contenuto. Le figure interne con `placement: none` conservano ciascuna numero e caption. |
+| Un documento su un foglio con margini | `figura-pagina()` · `figure.typ` | Tavola mobile, gabbia ordinaria senza riserva note. `rapporto` è larghezza/altezza dell’asset: conserva l’immagine intera e la accosta alla caption dal basso. |
+| Tavola composta di testi, dettagli e figure | `tavola-documentaria[]` · `documenti.typ` | Un foglio mobile di altezza ordinaria, senza note interne; i siti restano nella prosa pertinente. Contenuto composto nel chiamante. `fissa: true` è riservato ai raccordi e alla scheda di esercizio già motivati. |
+| Immagine verticale al vivo | `figura-al-vivo()` o `schermata()` · `figure.typ` | Foglio 170 × 240 mm senza folio; caption con miniatura al piede della pagina fisica precedente. `rapporto` e `ancoraggio` descrivono soltanto scala e rifilo dell’asset. |
+| Documenti di Ricerca | `documento()` alias di `documento-mobile()` · `ricerca.typ`, `figure.typ` | Float a tutta gabbia; `altezza` limita la visuale, `rapporto` conserva le proporzioni. `intera: true` riserva l’area del corpo, mantenendo la fascia note. |
+| Metafore e grafici culturali di Ricerca | `tavola-intera()`, `grafico()` · `ricerca.typ` | Le metafore occupano una colonna, con nome e sigla nativi; i grafici conservano la larghezza necessaria ai dati. Bandiere SVG originali, testi, dati, didascalie, attribuzioni e richiami restano nativi. |
+| Pannelli Gestalt e coppie di marchi | `tavola-gestalt()` · `gestalt.typ` | Foglio mobile con la riserva note del corpo; scala comune ai pannelli, caption e progressivi distinti. Non equivale alla tavola documentaria alta 205 mm. |
+| Figura ordinaria con limite d’altezza | `figura-nel-testo()` · `figure.typ` | Una colonna se leggibile, altrimenti due; immagine integra e proporzionata, caption e diritti misurati ai corpi nativi sulla stessa pagina. La colonna usa un blocco indivisibile nel flusso, la gabbia larga un float superiore. Nessuna riserva di foglio autonomo. |
+| Sagoma accanto a un paragrafo | `sagoma()` · `sagome.typ` | `width` è una richiesta: si riduce per lasciare almeno 108 pt di testo e 8 pt di rispetto. `lato: center` richiede questo spazio su entrambi i lati e una gabbia più ampia della colonna ordinaria. Solo la regione alta quanto la figura resta unita; il seguito torna al flusso nativo. |
+| Capolettera illustrato | `capolettera()` · `sagome.typ` | Usa lo stesso flusso sul profilo alpha, sul lato sinistro, senza figura numerata o didascalia. `lettera` è l’alternativa testuale dell’iniziale; il corpo prosegue dalla seconda lettera della parola. |
+| Sagoma su un foglio o sul dorso | `sagoma-pagina()`, `sagoma-regionale()`, `sagoma-duomo()` · `doppia-pagina.typ` | Un corpo di prosa scorre nelle regioni consecutive. Le quote riguardano immagine e gabbia; la doppia parte su pagina pari. Le eccezioni alle note e al vivo restano quelle elencate sotto. |
+| Documento rettangolare sul dorso | `documentario-doppia()` · `documenti-doppi.typ` | Stesso asset su due fogli pari/dispari alla medesima scala. `sinistra` e `destra` sono testi nativi; il loro ingombro determina la quota dell’immagine. |
+| Campioni tipografici e dettagli | `campione()`, `campione-font()`, `riga-campioni()`, `dettaglio-figura()` · `campioni.typ`; `dettaglio()`, `campione-storico()` · `documenti.typ` | `campione()` e `campione-font()` sono figure numerate con `placement: none`; possono essere riunite in un confronto o una tavola. `riga-campioni()` e i dettagli non aggiungono figure numerate. `dettaglio()` è la sola finestra di ritaglio; `dettaglio-figura()` richiede il riferimento alla figura completa. |
+| Esercizio strutturato al piede | `esercizio()` · `esercizi.typ` | Float inferiore; colonne e altezza derivano dal contenuto, fondo e cornice proseguono al vivo. La fascia note resta riservata. |
+| Aperture e apparati | `capitolo()` · `stile.typ`; `pagina-bibliografia()`, `appunti()` | Si generano dalla struttura del capitolo. Apertura al vivo; Bibliografia a una colonna sulla gabbia ordinaria; Appunti con reticolo di 5 mm alto 175 mm. |
+
+Le API di catalogo mantengono queste stesse composizioni: `figura-griglia()` e `doppia-griglia()` in `griglia.typ` leggono asset e testi separati; `originale()`, `coppia-originale()` e `documento()` in `composizione.typ` selezionano le visuali del capitolo 08. Per le figure ordinarie, `figura-griglia(..., colonne: 1)` e `originale(..., colonne: 1)` selezionano esplicitamente la colonna da 66 mm, insieme alla propria didascalia. `confronto(..., colonne: 1)` di Composizione conserva i corpi nativi del contenuto; i pannelli possono disporsi in verticale per mantenere leggibili testi e dettagli. I due `documento()` e i due `confronto()` hanno moduli e firme differenti: importare quello pertinente al capitolo.
+
+### Quote condivise e modifiche manuali
+
+Il solo titolo «Un linguaggio di pochi pixel» del capitolo 01, compresa la numerazione nativa, usa **Press Start 2P 9,5 pt**, con interlinea di **14 pt**, su richiesta dell’utente. La regola è locale al titolo; indice, segnalibri e testo restano nativi. Font originale e licenza sono conservati in `risorse-condivise/font/editoriali/` e registrati nel relativo manifest.
+
+`geometria.typ` è l’unica sorgente per foglio, margini, colonne, fascia note e rispetto delle sagome. La gabbia è larga **137 mm**, le due colonne **66 mm**, l’intercolonna **5 mm**. L’altezza ordinaria è **205 mm**; `altezza-corpo` sottrae **35 mm + 8 pt** per le note, anche quando sono poche o assenti. `fondo-gabbia` è a **220 mm** dal bordo superiore. `margine-inferiore-corpo` e `discesa-folio-corpo` tengono insieme la riserva note e la posizione comune del folio. Nei nuovi componenti importare le quote e derivare le altre misure; non ricopiare valori equivalenti.
+
+Lasciare a Typst paragrafi, colonne, contatori e collegamenti. Usare coordinate soltanto per la visuale: ritaglio, profilo alpha, diagramma o grafica al vivo. Il corpo è 11/13,5 pt; gli esempi didattici dentro le figure conservano la scala propria, anche i campioni da 12 pt. Un’altezza esplicita può descrivere una fascia di glifi o un foglio documentario; non deve tagliare o precomporre la prosa.
+
+Le etichette delle figure sono univoche nel volume e i richiami restano `@fig-…` o `ref(label(...))`. I metadati `booklet-…` nei componenti alimentano controlli e destinazioni visive: si conservano durante le semplificazioni. Per spostare una figura si modifica il contenitore o il suo parametro; non si aggiungono `place.flush()`, pagine vuote o numeri scritti a mano.
+
+### Ricette minime
+
+Gli esempi seguenti si inseriscono nel `testo` di un capitolo. I percorsi `path("/…")` sono relativi alla radice del progetto Typst; caption, diritti e alternativa testuale si sostituiscono con quelli dell’asset scelto.
+
+```typst
+#import "../template/figure.typ": immagine
+
+// Una colonna; per tutta la gabbia aggiungere placement: top, scope: "parent".
+#immagine(path("/risorse-condivise/immagini/figure/tema/esempio.png"),
+  [Soggetto e dettaglio da osservare.],
+  diritti: [Titolare e condizioni verificate.],
+  alt: "Descrizione della visuale.") <fig-tema-esempio>
+
+Il confronto è visibile nella @fig-tema-esempio.
+```
+
+```typst
+#import "../template/figure.typ": figura-pagina, figura-al-vivo
+
+// Un foglio con margini; 1200/1800 è il rapporto reale di questo esempio.
+#figura-pagina(id: "fig-tema-documento",
+  file: path("/risorse-condivise/immagini/figure/tema/documento.png"),
+  rapporto: 1200 / 1800,
+  didascalia: [Documento e dettaglio utile alla lettura.],
+  diritti: [Titolare e condizioni verificate.], alt: "Descrizione del documento.")
+
+// Alternativa al vivo: usarla solo se il rifilo conserva il contenuto utile.
+#figura-al-vivo(id: "fig-tema-vivo",
+  file: path("/risorse-condivise/immagini/figure/tema/verticale.png"),
+  rapporto: 1200 / 1700, ancoraggio: (0.5, 0.5),
+  didascalia: [Soggetto della pagina successiva.],
+  diritti: [Titolare e condizioni verificate.], alt: "Descrizione della visuale.")
+```
+
+```typst
+#import "../template/documenti.typ": tavola-documentaria
+#import "../template/figure.typ": immagine
+
+// Foglio senza note interne; le figure ereditano placement: none.
+#tavola-documentaria[
+  #immagine(path("/risorse-condivise/immagini/figure/tema/dettaglio.png"),
+    [Spiegazione del documento.], alt: "Descrizione del dettaglio.") <fig-tema-tavola>
+]
+```
+
+```typst
+#import "../template/sagome.typ": sagoma
+
+#sagoma(id: "fig-tema-sagoma",
+  file: path("/risorse-condivise/immagini/figure/tema/scontorno.png"),
+  profilo: json(path("/risorse-condivise/dati/sagome/tema.json")),
+  width: 70pt, lato: right,
+  didascalia: [Soggetto della sagoma.], alt: "Descrizione della sagoma.",
+)[
+  Il solo passaggio associato alla figura scorre attorno al suo profilo.
+]
+
+Il nuovo argomento riprende fuori dal contenitore.
+```
+
+```typst
+#import "../template/esercizi.typ": esercizio
+
+#esercizio(id: "tema-esercizio", titolo: [Confrontare due soluzioni])[
+  Consegna e criteri di osservazione, in paragrafi nativi.
+]
+```
+
+### Casi presenti e confini delle eccezioni
+
+| Capitolo | Scenari da confrontare dopo una modifica comune |
+| --- | --- |
+| 00 | Frontespizio e indice a una colonna; crediti al fondo della gabbia; numeri romani e raccordo al recto del capitolo 01. |
+| 01 | Figure di colonna e larghe, gallerie, opere artistiche al vivo e quindici schermate TTC nel testo con caption sulla stessa pagina. |
+| 02 | Documenti nel testo, sei metafore in colonna e sei grafici vettoriali nativi; dati e bandiere mantengono la leggibilità. |
+| 03 | Figure native larghe, confronti con caption comune, matrice Persona Spectrum e mappa WCAG in due parti ordinarie. |
+| 04 | Fotografie e marchi in colonna, screenshot densi su due colonne; soltanto locandine e pubblicità al vivo. |
+| 05 | Cinque intervalli approvati a una colonna, ritorni a due colonne e tavole Albers: 229/231/232/233 al vivo, 230 con margini. I confini sono elencati nella sezione sulla variante Colore. |
+| 06 | Tre sagome locali; doppie regionali di cassa, Linotype e Langosteria; Duomo; Olivetti; campioni e dettagli nel testo, opere artistiche al vivo e scheda di esercizio. |
+| 07 | Apertura della prima sezione e figura nel medesimo float; figure strette e larghe nel testo, senza inserti su foglio autonomo; due doppie con prosa; passaggio a una colonna in «Una colonna, una sequenza»; esercizio e «Lettura delle fonti». |
+| 08 | Documenti singoli, coppie con progressivi distinti, confronti simulati, Cenacolo e moodboard nel flusso ordinario, cinque capoversi protetti della sola sezione 8.8 ed esercizio conclusivo. |
+
+Il raccordo di **Gutenberg** compare soltanto quando il salto alla pagina pari richiede un foglio e ripete dettagli della figura completa. **Eurostile** e **Microgramma** sono gruppi ordinari nel testo, con i dettagli e la scala dei campioni conservati prima della doppia di Langosteria. La parità delle doppie è gestita dai rispettivi componenti.
+
+Soltanto il **Duomo** arriva al vivo inferiore e usa note nelle colonne esterne; cassa e Linotype si fermano sopra la fascia note, mentre Langosteria conserva la quota del proprio asset. **Olivetti Lettera 32** parte su pagina pari e allinea il primo pixel dell’alpha al bordo sinistro; le note restano a tutta gabbia. La sagoma dell’iniziale **N** completa la prima parola del relativo paragrafo e conserva `alt: "N"`.
+
+Nel capitolo 01 la **N istoriata** di «Nel Medioevo» è il capolettera illustrato approvato dall’utente: scuola medievale con il volto del docente adattato dalla sua fotografia. La larghezza è **64 pt**, con il rispetto comune di **8 pt**; testo, fonte e nota del paragrafo restano continui. L’iniziale ha alternativa «N» e non aggiunge un progressivo di figura. Originale, prompt e provenienza contemporanea sono conservati nel manifest locale dell’asset.
+
+Le fasce dei campioni tipografici sono normalmente **54 pt**; le varianti **40, 63 e 106 pt** descrivono gli esempi esistenti. Non diventano altezze della prosa. La scheda «Il mio prossimo confronto» è una pagina fissa con sei campi; gli altri esercizi strutturati usano il box al piede. «Lettura delle fonti» di Griglie conserva testi in due colonne interne e note locali nella gabbia del corpo; la Bibliografia seguente mantiene il proprio ruolo APA.
+
+Prima di accettare una semplificazione, confrontare il volume e i capitoli autonomi con la stessa variante di lettura: paginazione, contenuto, posizioni, immagini, note e collegamenti devono restare invariati. Compilazione e controlli sono quelli della [guida operativa](README.md); l’ispezione visiva usa solo `pnpm preview:booklet --pages …` sul PDF aggiornato, al massimo otto pagine fisiche per chiamata. Aprire soltanto i PNG prodotti per quelle pagine; i PDF del booklet non si aprono né si allegano nella preview di Codex.
 
 ## Formato e gabbia
 
@@ -51,13 +183,17 @@ Sora governa aperture e sezioni; DM Sans governa lettura, sottoparagrafi, didasc
 | Note Typst | DM Sans Regular · 400 | 7,5 / 9 pt |
 | URL nelle note Typst | DM Sans Regular · 400 | 7 / 8,5 pt |
 
-Per le sette aperture attive dell’edizione Typst, i corpi, le interlinee, le spaziature e le posizioni specifiche di `progetti/booklet/assets/aperture-imagegen-svg-v1/composizioni.json` sostituiscono i due preset di apertura e numero monumentale riportati nella tabella. Titolo e codice usano Sora 700; gli altri ruoli editoriali mantengono le misure indicate.
+Per le otto aperture attive dell’edizione Typst, i corpi, le interlinee, le spaziature e le posizioni specifiche di `progetti/booklet/assets/aperture-imagegen-svg-v1/composizioni.json` sostituiscono i due preset di apertura e numero monumentale riportati nella tabella. Titolo e codice usano Sora 700; gli altri ruoli editoriali mantengono le misure indicate.
 
 Il corpo del booklet Typst è **giustificato**, con lingua italiana e sillabazione automatica, su richiesta esplicita dell’utente. Questo aggiornamento supera la precedente bandiera sinistra del modello Figma per la nuova impaginazione. Conservare la dimensione ottica e il peso effettivi: il nome «9pt Regular» di un font o subset storico non definisce da solo il corpo o l’asse ottico da applicare.
 
 Il corpo dell’edizione Typst usa **11/13,5 pt** in tutti i capitoli, comprese le regioni sagomate, su richiesta dell’utente dopo il confronto stampabile. Questo è il preset predefinito (`lettura=11-13.5`); `lettura=12-14` resta disponibile per confrontare la misura precedente. Famiglia, peso, dimensione ottica e spazio fra paragrafi restano quelli del sistema editoriale. Figure e campioni didattici, didascalie, diritti, note, folio, titoli e apparati conservano i propri ruoli e le rispettive misure.
 
 Il testo discorsivo usa uno spazio fra paragrafi di 10 pt. I sottoparagrafi occupano una colonna da 187,09 pt e distano 4 pt dal contenuto seguente. I titoli crescono in altezza con il testo; non comprimere i caratteri per farli entrare.
+
+Gli elenchi puntati usano **quadratini pieni nel colore del capitolo**, di lato **0,4 em** rispetto al corpo locale, senza contorno e centrati sull’altezza delle minuscole della prima riga. La regola condivisa in `template/stile.typ` si applica anche agli elenchi annidati, nel volume e nei capitoli autonomi; voci, rientri e spaziature restano gestiti dagli elenchi nativi Typst.
+
+Gli elenchi numerati usano **cifre in inchiostro su un riquadro pieno nel colore del capitolo**, senza contorno. Il riquadro misura **1,2 × 1,2 em** ed è centrato sulla prima riga; si allarga automaticamente per i numeri più lunghi. Le cifre sono DM Sans SemiBold 600, al **80% del corpo locale**. Numerazione, partenze e livelli restano nativi; `elenchi()` condivide le due regole e il campione `anteprime/elenchi.typ` ne mostra il risultato.
 
 Usare il grassetto per enfasi semantiche mirate. I nomi propri di persona vanno in corsivo nella prosa, nelle intestazioni, nelle didascalie e nelle note editoriali. Le citazioni e le bibliografie native conservano lo stile APA. I titoli delle opere usano corsivo o virgolette, con un criterio coerente. Conservare corsivi, simboli e notazioni pertinenti, come *em*, senza estendere accidentalmente l’enfasi ad articoli o parole adiacenti.
 
@@ -70,6 +206,14 @@ La carta è bianca `#FFFFFF`; l’inchiostro ordinario è `#2E3138`. L’accento
 Nella fonte Figma del capitolo di Tipografia l’accento è `#AFC7E8`, controllato da `capitolo/tipografia/colore` nelle collezioni `Booklet / Teston / Primitivi` ed `Editoriale`. L’alias semantico collega i componenti al primitivo. L’edizione Typst usa invece la sequenza richiesta dall’utente, documentata nella tabella dei capitoli: preliminari gray 300, poi le famiglie Tailwind da red in ordine, nella tonalità 300.
 
 Conservare il blu funzionale dei collegamenti dove previsto. La prosa mantiene il colore dell’inchiostro; l’accento non colora automaticamente interi paragrafi. Fotografie, opere, marchi e screenshot documentari conservano i colori originali.
+
+## Esercizi al piede · cornice a L tenue
+
+Gli esercizi strutturati dei capitoli 06–08 adottano il concept **cornice a L tenue** approvato dall’utente. Il box occupa tutta la larghezza del foglio e prosegue fino al bordo inferiore; testo, titolo e richiami rispettano la gabbia e restano nativi. La cornice interessa il lato sinistro e il piede, è larga **10 mm** e contiene punti di raggio **0,45 mm**, con passo **5 mm**.
+
+Fondo, cornice e punti sono miscele RGB dell’accento del capitolo con bianco: rispettivamente **8%, 22% e 45%** di accento. La prosa conserva l’inchiostro `#2E3138`. Sulle sole pagine degli esercizi, il folio mantiene posizione e misure comuni ma usa il fondo tenue, così il motivo non attraversa il numero. Il campione raster approvato e il prompt sono conservati in `assets/esercizi/`; l’esecutivo è vettoriale in `template/esercizi.typ`.
+
+Il box è un float a tutta gabbia al piede; l’altezza deriva dal contenuto e dalle colonne native. Un salto debole dopo la consegna conserva l’ordine di lettura rispetto alle sezioni successive. La fascia delle note da **35 mm** resta riservata nel corpo: soltanto il fondo prosegue dietro note e folio. La scheda «Il mio prossimo confronto» conserva il foglio autonomo, i sei campi e le righe per scrivere. Le brevi osservazioni incorporate nella prosa non diventano esercizi autonomi.
 
 ## Regole editoriali per i prossimi capitoli
 
@@ -99,13 +243,23 @@ Le etichette degli esempi costruiti per il booklet sono in italiano. Gli artefat
 
 ### Immagini e scala
 
-Scegliere dimensioni e formato in base al contenuto e alla leggibilità del dettaglio utile: una colonna, affiancamenti, gabbia intera, immagine al vivo o doppia pagina. **L’obbligo di uniformare la grandezza degli esempi riguarda soltanto il capitolo di Tipografia.** Negli altri capitoli non imporre una larghezza o una scala unica a tutte le immagini.
+Privilegiare la colonna da 66 mm quando il dettaglio utile resta leggibile. Usare le due colonne da 137 mm per testi incorporati, diagrammi densi o confronti che richiedono più spazio. Il foglio autonomo resta soltanto alle locandine, alle pubblicità e alle opere più artistiche concepite come composizione integrale; il formato di provenienza Figma non basta a giustificarlo. **L’obbligo di uniformare la grandezza degli esempi riguarda soltanto il capitolo di Tipografia.** Negli altri capitoli non imporre una larghezza o una scala unica a tutte le immagini.
+
+La selezione corrente dei formati è in `reports/typst-booklet/figure-una-colonna/`. Immagine, didascalia e diritti condividono la colonna o la gabbia scelta. Le visuali già strette conservano la scala; Futura e Barilla perdono soltanto le celle vuote del precedente contenitore. EB Garamond mantiene il corpo 36 ritagliando il solo bianco esterno. In Composizione, Takete/Maluma, i personaggi di *Up*, salienza e priorità usano pannelli in sequenza verticale. Schemi, fotografie e screenshot non ricevono più un foglio autonomo per la sola dimensione del loro originale.
 
 Collocare le immagini accanto al passaggio che le spiega, prima che il discorso cambi soggetto. Se il dettaglio analizzato è troppo piccolo, conservare la vista complessiva e affiancare o aggiungere un ingrandimento pertinente. Usare originali nitidi, proporzioni corrette e ritagli intenzionali; non tagliare etichette o parti necessarie alla spiegazione.
 
 Le immagini non ricevono cornici, ombre o angoli decorativi aggiunti. I segni interni a un’opera, a un diagramma o a un controllo illustrato appartengono al contenuto e mantengono la propria funzione.
 
+Gli schemi ricostruibili con testo, controlli e geometrie usano Typst o SVG nativi, con i font editoriali e dimensioni leggibili nella collocazione finale. Verificare che gli SVG contengano forme e contorni dei glifi effettivi: un raster incorporato conserva la propria risoluzione. I documenti, le fotografie e le illustrazioni conservano il formato pertinente alla fonte.
+
+In Accessibilità, i **17 confronti simulati** usano **34 pannelli SVG** esportati da `template/schemi-accessibilita.typ`, con DM Sans, geometrie native e nessun raster o filtro. Testi e riferimenti agli originali sono in `assets/schemi-accessibilita-vettoriali/contenuti.json`; i due stati conservano contenuti, ordine e didascalia comune. Il basso contrasto e il taglio nel caso negativo di reflow restano intenzionali. La figura dei **bersagli** usa direttamente `disegno-bersagli()` nello stesso modulo: tre casi, quadrati da 24 o 20 unità, spazi da 4 o 0 nei due casi piccoli e cerchi di diametro 24, con esiti coerenti con la distanza dei centri. Testi, didascalia e richiami restano nativi; l’SVG autonomo è esportato dallo stesso disegno. `scripts/prepara-schemi-accessibilita.py` rigenera gli esecutivi e il manifest; `--check`, incluso nelle verifiche del booklet, controlla hash degli originali, riferimenti attivi, geometria e assenza di raster incorporati. Gli asset precedenti rimangono conservati negli spazi condivisi.
+
 Gli esempi costruiti ad hoc possono usare immagini generate quando chiariscono il concetto. Le immagini documentarie conservano la propria fonte e identità; le ricostruzioni non devono apparire come documenti originali. Omettere dalle didascalie formule di produzione come «illustrazione didattica originale» e nomi dei generatori. Originali, prompt e provenienza tecnica restano nei manifest locali.
+
+**Stile comune delle illustrazioni di utenti.** Quando si crea o si rifà una rappresentazione illustrata di utenti, in qualsiasi capitolo, usare lo stile Persona Spectrum approvato dall’utente: teste senza lineamenti, contorni neri uniformi e arrotondati, corpi geometrici essenziali, mani semplificate e campiture piatte. Il riferimento è [stile-omini-utente.png](assets/illustrazioni-palette-capitoli/riferimenti/stile-omini-utente.png). Bianco, nero e grigi neutri accompagnano il colore del capitolo. La regola vale per figure isolate, scene d’uso e persone inserite nei diagrammi; conservare azioni, posture, ausili e differenze utili alla spiegazione. Usare il riferimento nei prompt di generazione o modifica. Fotografie e rappresentazioni appartenenti a opere o documenti originali conservano la propria identità e provenienza, secondo la regola documentaria precedente.
+
+Le illustrazioni editoriali di Accessibilità usano amber 300 `#FFD230`: Persona Spectrum, mappa WCAG e tre scene d’uso. Nelle scene, su richiesta dell’utente, le persone seguono lo stile del riferimento Persona Spectrum: teste senza lineamenti, contorni neri uniformi, forme essenziali e mani semplificate; le azioni e i meccanismi didattici restano riconoscibili. La mappa conserva testi e attribuzioni, con accenti scuri per i testi e inchiostro sui fondi ambra. La «a» tridimensionale di Tipografia conserva fronte scuro, materia e trasparenza, con fianco green 300 `#7BF1A8` e profilo alpha aggiornato. I nuovi asset, il riferimento dell’utente e i prompt sono in `assets/illustrazioni-palette-capitoli/`; le fonti condivise precedenti restano conservate. Il rosso funzionale degli esempi di errore, i colori esplicitamente descritti negli esercizi e i documenti originali mantengono il proprio ruolo.
 
 ### Sagome e doppie pagine
 
@@ -117,9 +271,19 @@ Per il **Duomo di Firenze** l’utente ha richiesto la composizione sul dorso, a
 
 ### Didascalie e diritti
 
+Le sei metafore delle dimensioni culturali del capitolo 02, ora in colonna, mostrano soltanto **nome della dimensione e sigla**, in DM Sans Black 14/14 pt, nella fascia bianca inferiore dell’immagine. Su richiesta dell’utente, il titolo sostituisce la didascalia descrittiva e il prefisso «Figura» con numero. Le descrizioni alternative, il contatore e i collegamenti nativi dei richiami restano conservati; la variante è limitata a queste sei metafore e non riguarda i grafici o gli esempi documentari.
+
+Le sei illustrazioni usano l’**arancione del capitolo, orange 300 `#FFB86A`**, con nero, grigi neutri e bianco. Le nuove versioni ImageGen conservano soggetti, metafore e composizione delle immagini precedenti, sostituendo gli accenti rossi con l’arancione. I PNG originali della nuova generazione, i prompt e il manifest sono in `assets/dimensioni-culturali-orange-300/`; la serie rossa e la sua provenienza restano conservate negli asset condivisi. I titoli rimangono testo Typst nativo.
+
+I **sei schemi di Hofstede** (PDI, IDV, MAS, UAI, LTO e IVR) usano il disegno vettoriale nativo `disegno-grafico()` di `template/ricerca.typ`, ricostruito dal riferimento PDI approvato e applicato a tutti i dati del catalogo condiviso. Nomi e scala usano DM Sans; i valori Sora 700 nello stesso orange 300 `#FFB86A` del capitolo, usato anche da curve puntinate e punti; i collegamenti terminano sulle posizioni calcolate esattamente dall’indice. Valori coincidenti condividono il punto sulla scala. Le bandiere sono gli **SVG originali flag-icons, MIT**, conservati in `risorse-condivise/immagini/figure/ricerca/bandiere/`, ritagliati in cerchi uniformi senza alterare i file. I 36 valori sono verificati sul Country Comparison Tool di The Culture Factor il 25 ottobre 2026. Testi, didascalie, attribuzioni, contatori e richiami restano nativi; i metadati `booklet-grafico-culturale` espongono paesi, punteggi e destinazioni per la verifica. `assets/schemi-hofstede-vettoriali/` conserva sei SVG autonomi esportati dallo stesso disegno, verifica dei dati e manifest di font e bandiere. I precedenti raster rimangono riferimenti; nessun raster è incorporato nei sei schemi attivi.
+
 La didascalia identifica il soggetto e spiega il dettaglio osservabile utile al discorso. Resta vicina alla visuale, con distacco ordinario di 8 pt, e si distingue dalla prosa attraverso il ruolo tipografico 9/10,8. Nei confronti affiancati allineare immagini e inizio delle caption quando la composizione lo consente.
 
-Quando una figura a foglio intero ha la didascalia su un’altra pagina, affiancare alla spiegazione una **miniatura dello stesso asset larga 18 mm**, senza ritaglio né cornice, separata dal testo da **3 mm**. Miniatura, numero, rimando e didascalia formano un blocco indivisibile; la miniatura non aggiunge un progressivo di figura. Didascalia e diritti conservano i ruoli **9/10,8 pt** e **8/10 pt**. Il numero della figura e il rimando «p.» sono collegati alla destinazione dell’immagine; il numero di pagina deriva dal folio della destinazione e si aggiorna dopo ogni ricomposizione, anche quando il volume riparte da 1 dopo i preliminari. La sitografia resta nelle note della pagina della didascalia. L’immagine a pieno formato conserva proporzioni e composizione, senza sovrapposizioni. Il componente comune `didascalia-separata()` di `template/figure.typ` applica questa regola; `schermata()` lo richiama per gli inserti al vivo.
+I richiami alle fonti di una figura si collocano direttamente nella didascalia, con il numero nativo della footnote in apice. Non aggiungere righe separate «Fonti per Figura…» nel corpo o sotto le tavole. Nei confronti sulla stessa pagina, le didascalie che condividono una fonte riutilizzano la medesima nota tramite `footnote(<etichetta>)`; le eventuali citazioni bibliografiche autore–anno restano conservate nella didascalia.
+
+Per le figure a pagina intera, il parametro opzionale `rapporto` di `figura-pagina()` indica larghezza/altezza dell’asset. Quando è definito, il componente dimensiona l’immagine alla massima estensione consentita dalla gabbia e dall’ingombro misurato della didascalia, conserva l’immagine intera e la allinea in basso, accanto alla caption. Il bianco residuo resta sopra la visuale; proporzioni, distacco ordinario e ruoli di didascalia e diritti rimangono quelli del sistema.
+
+Quando una figura a foglio intero ha la didascalia su un’altra pagina, affiancare alla spiegazione una **miniatura dello stesso asset alta quanto l’intero testo della caption**, con larghezza proporzionale, senza ritaglio né cornice, separata dal testo da **3 mm**. Un divisorio sottile in colore inchiostro `#2E3138`, a tutta gabbia, separa le footnote dal gruppo con miniatura e didascalia, con 8 pt di distacco sotto la riga; le eventuali note precedono il divisorio, che sostituisce il loro separatore corto. Miniatura, numero, didascalia e diritti, seguiti dal rimando «Nella pagina successiva · p. NNN →», formano un blocco indivisibile; la miniatura non aggiunge un progressivo di figura. Didascalia e diritti conservano i ruoli **9/10,8 pt** e **8/10 pt**. Il numero della figura e il rimando «p.» sono collegati alla destinazione dell’immagine; il numero di pagina deriva dal folio della destinazione e si aggiorna dopo ogni ricomposizione, anche quando il volume riparte da 1 dopo i preliminari. La sitografia resta nelle note della pagina della didascalia. L’immagine a pieno formato conserva proporzioni e composizione, senza sovrapposizioni. Il componente comune `didascalia-separata()` di `template/figure.typ` applica questa regola. Negli inserti al vivo, `didascalia-al-piede()` la colloca **vicino al margine inferiore ordinario di 20 mm della pagina fisica immediatamente precedente**. Caption e immagine sono due float consecutivi: la prosa successiva completa lo spazio sopra la didascalia, senza un salto forzato che generi pagine quasi vuote. Le eventuali note della pagina si dispongono sopra la caption, separate da 8 pt, mantenendo larghezza, misure e capienza massima della fascia approvata di 35 mm; la fascia ordinaria di 35 mm resta riservata integralmente e si aggiungono soltanto l’altezza della caption e 8 pt di distacco. La quota del float deriva dai margini della regione corrente, senza un ciclo di interrogazioni sulla posizione delle note. Questa è un’eccezione intenzionale alla posizione ordinaria delle note, limitata alle pagine con didascalie al vivo. L’inventario verifica una sola caption per immagine, pagina successiva, fondo della caption a 220 mm entro 0,1 pt, spazio fra note e caption e immagine all’origine del foglio; le note rimangono sulla pagina dei propri richiami.
 
 Il prefisso «Figura» e il relativo numero usano il ruolo Medium; la spiegazione usa Light. Conservare nomi, numeri e punteggiatura coerenti. Ogni richiamo numerato nella prosa ha un collegamento nativo alla figura corretta, da verificare dopo ogni riordino.
 
@@ -133,17 +297,25 @@ La richiesta comprende tutti i rimandi ai materiali di preparazione editoriale: 
 
 Ogni capitolo termina con una sezione intitolata **Bibliografia**, in **APA 7**, con citazioni autore–anno nel testo e riferimenti in ordine alfabetico. I riferimenti completi e recuperabili sono impaginati **a larghezza della gabbia**, in DM Sans Regular 400, opsz 9, corpo 8/10 pt a bandiera sinistra. DOI e URL bibliografici previsti da APA restano nel riferimento; i link di consultazione sono distinti e vanno nelle note. La bibliografia non segue le due colonne del corpo e non diventa un elenco di siti.
 
+Distinguere il ruolo del rimando dalla presenza di un URL. **Le note esplicative e le note sitografiche hanno soltanto un richiamo numerico in apice**; non generano una citazione autore–anno. **Le fonti bibliografiche**, fra cui articoli, libri, capitoli, atti di convegno e rapporti, mantengono il richiamo autore–anno nel testo e la voce APA in Bibliografia, anche quando sono consultabili online. Una fonte può avere entrambi i ruoli: **quando sono presenti una citazione bibliografica e un sito di consultazione in nota, conservare entrambi i richiami**. Per esempio, l’articolo di Preston conserva `(Preston, 2026)` e il numero della nota con il collegamento. Non eliminare automaticamente il richiamo APA perché esiste una nota URL e non creare automaticamente una voce bibliografica per un sito citato soltanto in nota.
+
 Le citazioni bibliografiche nel testo, parentetiche e narrative, mantengono famiglia e peso del testo circostante e usano **il rapporto 10/11 della sua misura**, cioè **10 pt nel corpo da 11 pt**, e il colore **`#626872`**, leggermente più chiaro dell’inchiostro ordinario `#2E3138`. La misura relativa segue anche il testo delle didascalie; l’interlinea resta quella del paragrafo. La presentazione si applica agli elementi `cite` nativi: contenuti, punteggiatura APA, disambiguazione, ordinamento e collegamenti alla bibliografia restano automatici. Le citazioni testuali fra virgolette conservano il proprio ruolo editoriale; bibliografia finale, sitografia e misure delle note mantengono i rispettivi apparati.
 
 La **sitografia resta nei footnote**, cioè nelle **note al piede della pagina pertinente**, con link attivi e richiami numerici in apice. La separazione fra sitografia nelle note e bibliografia alla fine di ogni capitolo è una regola permanente confermata dall’utente, da rispettare anche durante ricerche, verifiche delle fonti e uso di skill bibliografiche. Nella nuova edizione Typst usare note 7,5/9 pt e URL 7/8,5 pt, misure confermate dall’utente; le misure Figma precedenti erano rispettivamente 8/10 e 7/9 pt. Ogni nota deve avere il proprio richiamo e ogni richiamo la propria nota; dopo spostamenti o eliminazioni verificare numerazione e corrispondenza.
 
 La nota può adottare una variante breve: autore e anno, oppure autore e istituzione, nelle misure delle note approvate, affiancati all’URL sulla stessa riga. La citazione integrale resta in bibliografia. Allineare coerentemente le righe e adattare le giustezze ai contenuti, senza imporre una ripartizione fissa della larghezza.
 
+La descrizione della fonte dentro la nota è distinta dal suo richiamo nel corpo, che resta numerico. Prima della consegna verificare insieme note esplicative, siti senza riferimento bibliografico, pubblicazioni con URL e fonti presenti in entrambi gli apparati; la sola vicinanza di autore–anno e numero in apice non costituisce una duplicazione da eliminare.
+
+**Un URL, una sola voce di nota per pagina.** Se più passaggi della stessa pagina rimandano al medesimo URL, la prima nota conserva il corpo e gli altri passaggi usano `footnote(<etichetta>)` con lo stesso numero in apice. Quando note con più collegamenti si sovrappongono, raccogliere in una sola voce tutte le spiegazioni pertinenti e ogni URL una sola volta. Conservare attribuzioni, qualificazioni e informazioni di edizione; eliminare soltanto le ripetizioni identiche. La numerazione e i collegamenti restano nativi. Verificare il PDF ricomposto, compresi i richiami nelle figure e nelle sagome: `pnpm check:booklet` rifiuta lo stesso URL in voci diverse della medesima pagina, anche nei capitoli autonomi. Il controllo confronta gli URL completi, preservando query e frammenti diversi; una nuova citazione dello stesso URL su un’altra pagina **deve avere una nuova nota locale e un nuovo numero**. Ogni richiamo, compresi quelli ripetuti e quelli negli apparati, deve raggiungere una voce sulla stessa pagina fisica. Non usare `footnote(<etichetta>)` per rimandare alla nota di un’altra pagina. Il controllo strutturale e quello dei collegamenti PDF rifiutano i richiami senza voce locale; dopo ogni ricomposizione verificare insieme presenza locale e unicità dell’URL.
+
+Il registro `bibliografia/ruoli-fonti.json` distingue, per tutti i capitoli attivi, le pubblicazioni dai semplici siti. Homepage, FAQ, schede di font e di catalogo, pagine di documentazione e guide web di consultazione restano soltanto nelle note; articoli autonomi, libri, atti, rapporti, standard, documenti e opere originali identificati mantengono APA. Il registro motiva le pubblicazioni catalogate genericamente come `Web` o `online`: il formato dei metadati e la presenza di un URL non decidono il ruolo editoriale. I file delle fonti conservano anche i metadati dei siti come provenienza locale, ma quei record non sono citati e non compaiono nella bibliografia stampata. Escludere i siti anche dai preordini invisibili e dai gruppi APA: `cite(form: none)` stampa comunque la voce nell’apparato. Il controllo nativo del volume rifiuta citazioni, visibili o invisibili, di siti, nuove chiavi non classificate, richiami di nota non numerici e URL sitografici assenti dalle note del rispettivo capitolo. Le descrizioni dei siti in «Lettura delle fonti» mantengono titoli e spiegazioni, con rimandi numerici alle note esistenti.
+
 Riservare alle note lo spazio necessario e ricomporre il corpo sopra di esse, senza sovrapposizioni al folio. Fra le voci consecutive usare un distacco di 3,5 pt, conservando l’interlinea effettiva di 9 pt e la fascia approvata di 35 mm. Affiancare ai titoli dei criteri normativi codice e collegamento alla fonte ufficiale, con il riferimento pertinente anche in nota.
 
 ## Componenti e modalità di lavoro
 
-Usare frame di pagina ordinari e **componenti granulari collegati**: corpo, titoli, sezioni, immagini, didascalie, diritti, note, folio e indice. Non creare componenti di pagina intera. I contenitori correlati usano auto-layout; testi e righe seguono il contenuto senza altezza fissa che li tagli.
+Nel file Figma usare frame di pagina ordinari e **componenti granulari collegati**: corpo, titoli, sezioni, immagini, didascalie, diritti, note, folio e indice. Non creare componenti Figma di pagina intera. I contenitori correlati usano auto-layout; testi e righe seguono il contenuto senza altezza fissa che li tagli. In Typst gli stessi ruoli sono separati nei moduli di `template/`; i contenitori di tavole e pagine della guida operativa organizzano questi elementi senza appiattire il contenuto.
 
 Per cambiare la grafica usare `Go to main component`; per cambiare il contenuto usare le proprietà delle istanze e i segmenti di testo. Conservare enfasi, corsivi, link e ordine di lettura. Non sostituire un testo ricco con un’unica proprietà piatta che cancelli la formattazione.
 
@@ -179,7 +351,7 @@ Una segnalazione ricorrente richiede un controllo di tutte le occorrenze nel cap
 
 Conservare rapporti e screenshot in `reports/`. La ricognizione dei 115 commenti dell’utente, le decisioni confermate e il controllo del sistema aggiornato sono registrati in `reports/booklet-design-system/regole.json` e `verifica.json`. I manifest di `risorse-condivise/fonti/booklet/tipografia-nuovo-design/` conservano fonti e geometrie delle revisioni precedenti.
 
-## Capitolo 10 · La griglia
+## Fonte Figma · La griglia e capitolo Typst 07
 
 La Page Figma `102 · Griglia · Nuovo design` (`4954:42`) usa l’accento Salvia `#A5BDB0`, attraverso i token `chapter/griglia/colore` nelle collezioni Primitivi ed Editoriale. Il token semantico mantiene l’alias al primitivo. La nuova Tipografia termina al folio 502; seguono le 48 pagine 503–550 di Griglia e Wireframe comincia a 551.
 
@@ -199,13 +371,13 @@ Le due figure sul dorso usano `progetti/booklet/template/documenti-doppi.typ`, c
 
 ## Trasposizione in Typst · campione in valutazione
 
-Il sorgente `progetti/booklet/main.typ` legge `progetti/booklet/piano.json`, che definisce i sette capitoli richiesti, numerati **01–07**, con titoli, file, fonti e stato dell’importazione. Alle sei lezioni iniziali si aggiunge **La griglia**, dalla Page Figma corrente `4954:42`, su richiesta dell’utente. I testi restano in file distinti per capitolo; le fonti native Hayagriva `.yml` o BibLaTeX `.bib` sono separate. I numeri 03–08 delle lezioni Slidev, i codici dei capitoli Figma e i loro folio identificano le fonti; non stabiliscono la numerazione del nuovo volume.
+Il sorgente `progetti/booklet/main.typ` legge `progetti/booklet/piano.json`, che definisce gli otto capitoli richiesti, numerati **01–08**, con titoli, file, fonti e stato dell’importazione. Alle sei lezioni iniziali si aggiunge **La griglia**, dalla Page Figma corrente `4954:42`, su richiesta dell’utente. I testi restano in file distinti per capitolo; le fonti native Hayagriva `.yml` o BibLaTeX `.bib` sono separate. I numeri 03–08 delle lezioni Slidev, i codici dei capitoli Figma e i loro folio identificano le fonti; non stabiliscono la numerazione del nuovo volume.
 
-I contenuti delle sei lezioni iniziali e il capitolo **07 · La griglia** sono inclusi nel volume. La griglia importa la fonte corrente e le relative attribuzioni; testo e didascalie restano modificabili in Typst e la bibliografia APA è separata in `bibliografia/07-griglia.yml`. Lo stato `in-revisione` distingue la presenza del capitolo dalla conclusione della verifica editoriale. Tipografia comprende le sezioni 6.1–6.9 fino alla tavola corrente 490 e resta nello stato `in-revisione`, con scelte editoriali e verifiche globali ancora aperte. Colore conserva la variante di gabbia approvata. Gli inserti dei capitoli 02–04 sono verificati dopo la richiesta di conservarne il formato a pagina intera. Il documento include soltanto i file disponibili, senza pagine vuote per quelli in preparazione. Introduzione, Processo UX, Define, Linguaggio visivo e Gerarchia visiva sono esclusi dal piano. Le prove precedenti di Introduzione e Griglia, con le rispettive fonti, sono conservate in `progetti/booklet/esperimenti/capitoli-esclusi/`; la vecchia Griglia esclusa non è la fonte dell’attuale capitolo 07.
+I contenuti delle sei lezioni iniziali e il capitolo **07 · La griglia** sono inclusi nel volume. La griglia importa la fonte corrente e le relative attribuzioni; testo e didascalie restano modificabili in Typst e la bibliografia APA è separata in `bibliografia/07-griglia.yml`. Lo stato `in-revisione` distingue la presenza del capitolo dalla conclusione della verifica editoriale. Tipografia comprende le sezioni 6.1–6.9 fino alla tavola corrente 490 e resta nello stato `in-revisione`, con scelte editoriali e verifiche globali ancora aperte. Colore conserva la variante di gabbia approvata. Gli inserti dei capitoli 02–04 sono verificati dopo la richiesta di conservarne il formato a pagina intera. Il documento include soltanto i file disponibili, senza pagine vuote per quelli in preparazione. Introduzione, Processo UX e Define restano esclusi dal piano. Linguaggio visivo e Gerarchia visiva sono integrati nel capitolo 08, dopo Griglie e layout. Le prove precedenti di Introduzione e Griglia, con le rispettive fonti, sono conservate in `progetti/booklet/esperimenti/capitoli-esclusi/`; la vecchia Griglia esclusa non è la fonte dell’attuale capitolo 07.
 
 L’impaginazione usa pagine e colonne native, testo continuo, numerazione automatica e bibliografia nativa per capitolo. Le sagome usano Meander ufficiale 0.4.4 soltanto nella regione della figura e un profilo ricavato dall’alpha dell’asset; il testo successivo non ha limiti di pagina. Non importare il concept metro o coordinate delle righe Figma. Ogni capitolo è seguito da una pagina Appunti. Il codice del progetto ha commenti in italiano.
 
-Frontespizio, crediti e indice usano numeri romani minuscoli (`i`, `ii`, `iii`…), anche nel folio e nelle etichette PDF. Il primo capitolo comincia sul recto e riparte da pagina 1 con la numerazione araba ordinaria. Il salto nativo dopo l’indice conserva la parità delle pagine dei capitoli già presenti: un nuovo capitolo non deve invertire i margini speculari o rimuovere le tavole di raccordo delle doppie pagine.
+Frontespizio, crediti e indice usano numeri romani minuscoli (`i`, `ii`, `iii`…), anche nel folio e nelle etichette PDF. I preliminari contengono un solo indice nativo intitolato «Indice», con folio e collegamenti ai contenuti; l’elenco separato dei capitoli 01–08 è rimosso. L’anteprima autonoma dei preliminari contiene soltanto frontespizio e crediti, perché non importa i capitoli del volume. Il primo capitolo comincia sul recto e riparte da pagina 1 con la numerazione araba ordinaria. Il salto nativo dopo l’indice conserva la parità delle pagine dei capitoli già presenti: un nuovo capitolo non deve invertire i margini speculari o rimuovere le tavole di raccordo delle doppie pagine.
 
 Diritti e contatto appartengono una sola volta agli apparati del volume. Il blocco dell’avviso, con il riferimento normativo, è allineato al fondo della gabbia della pagina dei crediti, nel rispetto del margine inferiore. Le figure con etichette minute usano il posizionamento mobile nativo a gabbia intera, senza imporre pagine alla prosa.
 
@@ -215,7 +387,7 @@ Gli asset attivi condivisi con le slide sono in `risorse-condivise/immagini/figu
 
 Noto Sans JP completa gli script assenti nei font editoriali, a partire dai caratteri giapponesi del glossario ukiyo-e. Noto Sans SC completa i caratteri cinesi assenti anche nel font JP, come 劳 nel nome 麦当劳. Sono fallback locali con licenza OFL: prosa latina e titoli mantengono rispettivamente DM Sans e Sora.
 
-Gli esempi del bar si chiamano **Caffè TTC**. Su richiesta dell’utente usano schermate reali del sito locale, ciascuna su una pagina dedicata di 170 × 240 mm, a pieno formato e senza tab Design, selettore dello stile, folio o didascalie sovrapposte. Il viewport ha lo stesso rapporto del foglio: non ritagliare né deformare la cattura per riempirlo. Le quindici schermate attive usano la didascalia separata con miniatura e rimando automatico alla pagina dell’immagine; caption, richiamo e nota URL appartengono al testo che precede la schermata. Questi inserti riguardano soltanto le immagini richieste; la prosa continua a essere composta automaticamente. Le visuali precedenti di Caffè Luce restano in archivio. Per la sezione sulle risorse l’utente ha scelto la variante TTC «Primissimo web», senza immagini, accanto al caso documentato di Low-tech Magazine.
+Gli esempi del bar si chiamano **Caffè TTC**. Le quindici schermate reali del sito locale sono figure ordinarie nel testo, generalmente a due colonne per rendere leggibili interfacce e confronti. Conservano contenuto integrale e proporzioni, senza tab Design o selettore dello stile; didascalia, attribuzione e nota URL sono sulla stessa pagina della visuale. Le precedenti visuali Caffè Luce restano in archivio. Per la sezione sulle risorse l’utente ha scelto TTC «Primissimo web», senza immagini, accanto al caso di Low-tech Magazine.
 
 La cartella `progetti/booklet/` separa `capitoli/`, `bibliografia/`, `template/`, `anteprime/`, `scripts/`, `esperimenti/` e `build/`. Frontespizio, crediti e indice sono raccolti in `capitoli/00-frontespizio-indice.typ`. Le composizioni delle aperture sono raccolte in `template/aperture/`; i dati alpha derivati stanno in `risorse-condivise/dati/sagome/`. L’archivio delle prove grafiche è in `progetti/booklet/assets/archivio/typst/`, distinto dagli asset attivi. Le copie esattamente identiche di immagini, font e licenze sono consolidate nell’originale condiviso, conservando vecchi percorsi e hash nel manifest d’archivio.
 
@@ -223,7 +395,7 @@ Su richiesta dell’utente, `capitoli/` contiene un solo `.typ` completo per cap
 
 Le aperture attive sono **grafiche flat SVG a tutta pagina**, ricostruite dai sette concept selezionati in `progetti/booklet/assets/aperture-imagegen-svg-v1/`. Il campo radice `aperture` di `progetti/booklet/piano.json` indica questa famiglia. `numero` e `codice` identificano il capitolo corrente; il resolver legge manifest e `composizioni.json` della famiglia e seleziona il fondo di `disegni/` per numero. `apertura_originale` conserva soltanto il riferimento al motivo storico della biblioteca precedente: non seleziona più la grafica attiva.
 
-Su richiesta dell’utente, l’edizione Typst mantiene gray 300 ai preliminari e la sequenza Tailwind red, orange, amber, yellow, lime, green ed emerald 300 nei sette capitoli. I metadati e le tinte delle fonti Figma restano distinti. La colonna «Tema storico» registra la provenienza della selezione precedente.
+Su richiesta dell’utente, l’edizione Typst mantiene gray 300 ai preliminari e la sequenza Tailwind red, orange, amber, yellow, lime, green, emerald e teal 300 negli otto capitoli. I metadati e le tinte delle fonti Figma restano distinti. La colonna «Tema storico» registra la provenienza della selezione precedente.
 
 | Codice e capitolo | Lezione Slidev | Tema storico | Colore assegnato | Stato |
 | --- | --- | --- | --- | --- |
@@ -235,6 +407,7 @@ Su richiesta dell’utente, l’edizione Typst mantiene gray 300 ai preliminari 
 | 05 · Colore e significato | 07 | 10 | lime 300 · `#BBF451` | Completo |
 | 06 · Tipografia e lettura | 08 | 11 | green 300 · `#7BF1A8` | In revisione |
 | 07 · Griglie e layout | 08 (percorso storico) | 12 | emerald 300 · `#5EE9B5` | In revisione |
+| 08 · Composizione e gerarchia visiva | — (due Pages Figma) | 9 | teal 300 · `#46ECD5` | Completo |
 
 Il manifest `risorse-condivise/immagini/aperture/manifest.json` conserva le dodici grafiche precedenti e, nella sezione `palette`, l’ordine completo di 26 famiglie, i valori OKLCH ufficiali e gli equivalenti esadecimali convertiti con Typst. `template/palette.typ` continua a risolvere la tinta del capitolo corrente e quella dei preliminari. I fondi attivi hanno le campiture esatte del capitolo; numeri di sezione e folio conservano la stessa tinta. Le forme, i colori secondari e lo spettro restano modificabili nei gruppi SVG nominati e nei relativi ruoli `data-palette`.
 
@@ -246,7 +419,7 @@ L’apertura attiva di Tipografia usa il **macrosegno illustrativo ricostruito d
 
 La biblioteca in `risorse-condivise/immagini/aperture/` conserva le **dodici aperture precedenti confermate dall’utente**, compreso il contorno autentico della «a» Sora Bold e il motivo storico 12. Le rispettive composizioni, inclusa la variante del titolo di Griglie a 200 pt di giustezza e 47 pt di corpo, restano documenti della biblioteca precedente. Le versioni SVG ancora anteriori sono in `progetti/booklet/assets/archivio/typst/copertine/svg-v1/`; originali, prompt e provenienza della famiglia attiva sono nel suo manifest.
 
-Lo sfondo occupa l’intero foglio e le forme possono uscire intenzionalmente dal bordo. `progetti/booklet/anteprime/aperture.typ` usa lo stesso resolver e gli stessi dati di `main.typ`, mostrando le sette aperture attive.
+Lo sfondo occupa l’intero foglio e le forme possono uscire intenzionalmente dal bordo. `progetti/booklet/anteprime/aperture.typ` usa lo stesso resolver e gli stessi dati di `main.typ`, mostrando le otto aperture attive.
 
 Restano confermate le note **7,5/9 pt, con URL 7/8,5 pt**. La misura ridotta risponde al commento Figma #427. Il commento #403 riguarda invece la bibliografia della tavola 491 e richiede una valutazione locale, senza estendere la riduzione a tutti gli apparati. I commenti #425–426 riguardano soltanto il titolo «Consigli utili» della tavola corrente 470: ingrandimento e possibile vicinanza al bordo sono una variante locale ancora da comporre.
 
@@ -267,7 +440,9 @@ I commenti si verificano insieme al bersaglio e al testo corrente prima dell’i
 
 ### Inserti documentari e variante Colore approvati
 
-Le figure che in Figma occupavano una tavola autonoma conservano una pagina dedicata nel nuovo volume, con posizione automatica nel flusso; si mantengono insieme anche le coppie appartenenti alla stessa tavola. Il formato al vivo si conserva solo dove era attestato. Questa richiesta non ingrandisce tutte le figure: prosa e visuali delle pagine discorsive continuano a ricomporsi normalmente. Proporzioni, didascalie, diritti, richiami e folio restano conservati. Le pagine di sole figure senza note usano la gabbia ordinaria (137 mm, margini superiore 15/inferiore 20 mm e medesima posizione del folio); le pagine del corpo mantengono la fascia delle note da 35 mm. `template/pagine.typ` distingue `tavola-mobile()` dai contenitori a pagina fissa. Il componente `template/figure.typ` misura la didascalia e adatta proporzionalmente la sola immagine.
+La pagina autonoma di provenienza non determina il formato del nuovo volume. Su richiesta dell’utente, fotografie, screenshot, schemi e raccolte didattiche rientrano nel testo, privilegiando una colonna e passando a due soltanto per la leggibilità. I gruppi possono disporsi in verticale o sciogliersi in figure ordinarie, conservando ordine, ID, numero, didascalie, diritti e collegamenti. Campioni tipografici e dettagli mantengono la scala comparativa. Le sole opere artistiche e pubblicitarie selezionate conservano un foglio dedicato; i documenti nati come locandina o manifesto mantengono la composizione integrale.
+
+Gli inserti artistici e pubblicitari mantenuti al vivo usano **170 × 240 mm**, senza margini, folio o didascalie sovrapposte. Il rifilo riguarda soltanto carta e fondo esterno, mai testo, firme o parti dell’opera; `rifilo: false` conserva Haribo integralmente. `figura-al-vivo()` e `schermata()` mantengono la didascalia con miniatura al piede della pagina fisica precedente: numero, caption, diritti e rimando nativo conservano corpi e collegamenti; il divisorio da 0,4 pt separa le note dal gruppo. La selezione attuale dei formati è in `reports/typst-booklet/figure-una-colonna/`; il precedente elenco di 95 documenti più 15 schermate in `reports/typst-booklet/immagini-tutta-pagina/` è storico. In Composizione, il catalogo `risorse-condivise/dati/figure/composizione-tutta-pagina.json` continua a identificare i raster originali: la selezione artistica nel template decide quali conservano il foglio. I byte degli originali rimangono intatti.
 
 Per Colore l’utente ha approvato una colonna nelle seguenti sequenze con diagrammi larghi; altrove restano due colonne native:
 
@@ -277,14 +452,27 @@ Per Colore l’utente ha approvato una colonna nelle seguenti sequenze con diagr
 - «Consigli pratici» e il 60–30–10; ritorno a due in «Lasciati ispirare dalla natura».
 - Da «La stessa interfaccia in chiaro e scuro» a «Dal riferimento alla schermata»; ritorno a due in «Grigio tonalizzato».
 
-Le cinque tavole Albers sono inserti autonomi da 137 mm, privi di note. I titoli e i confini esatti della variante restano in `reports/typst-booklet/05-colore/gabbia-approvata.json`. Le citazioni senza testo (`cite` con `form: none`) all’inizio dei capitoli 03 e 05 assegnano i suffissi delle opere dello stesso autore/anno nell’ordine alfabetico richiesto da APA; autori, date, URL e citazioni visibili non sono sostituiti manualmente. Nel capitolo completo di Tipografia, dieci coorti autore–anno richiedono anche quattro intervalli alfabetici nativi: Typst 0.15.1/Hayagriva 0.10.1 elabora correttamente al massimo tre coorti per bibliografia (difetto #507). Il parametro `target` assegna ogni citazione a un solo intervallo; i quattro elenchi consecutivi formano un’unica bibliografia visibile. I suffissi seguono l’ordine dell’elenco, con date complete prima dei titoli a parità di anno. I dati delle fonti restano separati e invariati. Una regola di presentazione limitata alla bibliografia elimina la virgola che Typst0.15.1 aggiunge impropriamente ad alcune date con il solo anno; le date attestate non vengono completate artificialmente. Volume e anteprima isolata usano la stessa variante, risolta da `template/piano.typ`. Lo stato `in-revisione` distingue la presenza dei contenuti dalla conclusione della verifica editoriale; non dichiara il volume pronto alla pubblicazione. L’estratto precedente è conservato, invariato, in `progetti/booklet/assets/archivio/typst/estratti/06-tipografia.typ`.
+Le tre opere astratte Albers 229, 230 e 231 mantengono il formato artistico: 229 e 231 al vivo, 230 con margini per conservare le diagonali delle X. La copertina del libro e i diagrammi 232 e 233 rientrano in una colonna. Le note rimangono nella prosa pertinente. I titoli e i confini esatti della variante restano in `reports/typst-booklet/05-colore/gabbia-approvata.json`. Le citazioni senza testo (`cite` con `form: none`) all’inizio del capitolo 05 assegnano i suffissi delle opere dello stesso autore/anno nell’ordine alfabetico richiesto da APA; autori, date, URL e citazioni visibili non sono sostituiti manualmente. Tipografia conserva quattro intervalli alfabetici nativi, limitati alle pubblicazioni; dopo la separazione della sitografia le coorti autore–anno ambigue sono tre: Typst 0.15.1/Hayagriva 0.10.1 elabora correttamente al massimo tre coorti per bibliografia (difetto #507). Il parametro `target` assegna ogni citazione a un solo intervallo; i quattro elenchi consecutivi formano un’unica bibliografia visibile. I suffissi seguono l’ordine dell’elenco, con date complete prima dei titoli a parità di anno. I dati delle fonti restano separati e invariati. Una regola di presentazione limitata alla bibliografia elimina la virgola che Typst0.15.1 aggiunge impropriamente ad alcune date con il solo anno; le date attestate non vengono completate artificialmente. Volume e anteprima isolata usano la stessa variante, risolta da `template/piano.typ`. Lo stato `in-revisione` distingue la presenza dei contenuti dalla conclusione della verifica editoriale; non dichiara il volume pronto alla pubblicazione. L’estratto precedente è conservato, invariato, in `progetti/booklet/assets/archivio/typst/estratti/06-tipografia.typ`.
 
 ## Aperture SVG dai concept ImageGen · famiglia attiva
 
-La famiglia `progetti/booklet/assets/aperture-imagegen-svg-v1/`, selezionata dal campo radice `aperture` del piano, fornisce le sette aperture del volume Typst. Il resolver legge il manifest e `composizioni.json`, seleziona i fondi senza testo di `disegni/` per numero e passa le quote al componente nativo. I sette esecutivi autonomi in `svg/` contengono forme vettoriali e titolo/numero come testo Sora modificabile. Le quote seguono il campionario approvato; il titolo completo proviene dal piano unico e il relativo heading resta unico. Macrosegno illustrativo di Tipografia, codice 06 blue 600, palette esatte, campiture piatte, spettro a diciassette famiglie e due campioni corallo identici sono conservati. Originali, prompt, font e licenze restano documentati nel manifest. Le dodici aperture precedenti restano nella biblioteca storica; l’integrazione riguarda le aperture del booklet Typst e non attesta modifiche ai frame Figma o ai contenuti dei capitoli.
+La famiglia `progetti/booklet/assets/aperture-imagegen-svg-v1/`, selezionata dal campo radice `aperture` del piano, fornisce le otto aperture del volume Typst: sette ricostruzioni dai concept e l’apertura 08 nativa SVG. Il resolver legge il manifest e `composizioni.json`, seleziona i fondi senza testo di `disegni/` per numero e passa le quote al componente nativo. Gli otto esecutivi autonomi in `svg/` contengono forme vettoriali e titolo/numero come testo Sora modificabile. Le quote seguono il campionario approvato; il titolo completo proviene dal piano unico e il relativo heading resta unico. Macrosegno illustrativo di Tipografia, codice 06 blue 600, palette esatte, campiture piatte, spettro a diciassette famiglie e due campioni corallo identici sono conservati. Originali, prompt, font e licenze restano documentati nel manifest. Le dodici aperture precedenti restano nella biblioteca storica; l’integrazione riguarda le aperture del booklet Typst e non attesta modifiche ai frame Figma o ai contenuti dei capitoli.
 
 La rifinitura del campionario usa bordi condivisi, tangenti raccordate, archi ellittici esatti e un profilo unico per il nastro cromatico; le giunzioni sono verificate anche al 400%. Titoli, numeri e quote tipografiche restano quelli della ricostruzione.
 
 Nell’apertura Colore tutte le sagome usano esclusivamente archi ellittici nativi e rette; le diagonali del nastro sono tangenti comuni calcolate alle ellissi. Centri e raggi sono separati in `geometria-colore.json`, con rigenerazione attraverso `geometria-colore.py`. Le separazioni dello spettro sono rette e le irregolarità del concept raster vengono regolarizzate geometricamente.
 
 Il controllo generale regolarizza le controcurve di Ricerca e Tipografia e le tangenti dei profili di Gestalt, mantenendo i nodi della composizione. In Griglie il modulo bianco inferiore sinistro termina sullo stesso asse del quarto superiore. Il codice di Tipografia usa blue 600 `#155DFC` sul fondo green 300, per un contrasto di 3,74; contenuto, font, dimensioni e posizioni dei testi sono conservati. La verifica include gli ingombri reali dell'inchiostro, modifiche programmatiche reversibili e il confronto delle campiture fra SVG e PDF; rapporto e dettagli restano in `reports/booklet-aperture-svg-v1/`.
+
+
+## Capitolo 08 · Composizione e gerarchia visiva
+
+Il capitolo segue Griglie e layout e integra le Pages Figma `3699:2475` e `2613:1113`, conservandone i 29 esempi e le attribuzioni disponibili. La prosa sviluppa messaggio, forma e materia, funzioni delle immagini, metafore, icone, spazio, strumenti della gerarchia, attenzione, casi ed esercizio conclusivo. Le integrazioni dai materiali sono sostenute dalle pubblicazioni originali e dai siti pertinenti; i riferimenti agli elaborati preparatori restano soltanto nei manifest. I confronti simulati sono identificati nelle didascalie.
+
+La parte progettuale collega concept visivo, moodboard, variazione e verifica. Due moodboard illustrano il passaggio da riferimenti fotografici e cromatici a ipotesi su texture, tipografia e iconografia; i JPEG originali sono conservati senza ricompressione. Il controllo con sfocatura è un’ispezione preliminare dei pesi e dei raggruppamenti, distinta dalla verifica con un compito. Il confronto con l’edizione precedente, i limiti del recupero e la provenienza delle immagini restano nei manifest e nel rapporto locale.
+
+L’accento è teal 300 `#46ECD5`, successivo a emerald nella palette del progetto. L’apertura 08 è un disegno SVG nativo della famiglia attiva, con titolo e codice Sora modificabili e metadati distinti dai sette concept precedenti. I componenti comuni governano gabbia, corpi, citazioni, note, folio e apparati. Le tavole documentarie conservano una pagina dedicata; le coppie di marchi rimangono riunite. Il diagramma Takete–Maluma è una figura ordinaria nel flusso; le schermate Allbirds/Headspace usano una tavola proporzionata. Gli altri confronti sono figure mobili a gabbia intera, senza interrompere il flusso delle due colonne. `capitoli/08-composizione-gerarchia.typ` alimenta sia il volume sia il target autonomo `composizione-gerarchia`. Il capitolo conserva 38 figure e 14 pubblicazioni APA; pagine e voci di nota si aggiornano dopo la ricomposizione, mantenendo i siti pertinenti e le note locali.
+
+Nei passaggi con tavole a pagina intera, la prosa resta nei paragrafi nativi. Le frasi sospese attraverso gli inserti si risolvono con suddivisioni e raccordi editoriali; contenitori non spezzabili attorno alla prosa possono causare sovrapposizioni con questi float. **Soltanto nella sezione 8.8** sono ammessi i cinque brevi capoversi protetti da `capoverso()` in `template/composizione.typ`, per evitare frammenti fra le moodboard e il passaggio alla variazione. Ogni blocco contiene solo prosa, senza figure, titoli o note interne; l’eccezione resta locale e non si estende agli altri paragrafi del capitolo.
+
+Le due moodboard sono figure ordinarie mobili a gabbia intera di **137 mm**, con `posizione: bottom`; didascalie e diritti restano uniti alle immagini. Anche il Cenacolo conserva il flusso ordinario. Nell’esercizio conclusivo, i tre paragrafi scorrono nelle colonne native del box al piede con cornice a L tenue. Le tredici composizioni artistiche e pubblicitarie selezionate conservano il foglio: dieci al vivo e tre con margini. Fotografie di esempio, loghi, confronti e screenshot usano `figura-nel-testo()`, privilegiando una colonna e passando a due per le visuali dense. Il wrapper `colore-atmosfere.svg` usa le proporzioni naturali del raster incorporato, senza riscriverlo o ritagliarlo; dimensioni verificate, hash e provenienza sono conservati nel manifest locale.

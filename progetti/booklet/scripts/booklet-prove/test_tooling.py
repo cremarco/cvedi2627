@@ -23,9 +23,9 @@ from booklet import cli
 from booklet import assets
 from booklet import common
 from booklet.common import ROOT, digest, local_path
-from booklet.inventory import check_inventory
+from booklet.inventory import check_inventory, check_figures_in_text
 from booklet.pdf import note_links
-from booklet.regressions import separated_caption_references
+from booklet.regressions import separated_caption_references, check_top_anchored_crop, check_thumbnail_visibility
 
 
 def empty_inventory() -> dict:
@@ -35,6 +35,7 @@ def empty_inventory() -> dict:
         "regioni": [], "figure": [], "sagome": [], "ripetute": 0,
         "documenti_doppi": [],
         "didascalie_separate": [],
+        "didascalie_al_piede": [], "figure_al_vivo": [],
     }
 
 
@@ -55,6 +56,55 @@ def document_spread(side: int, page: int) -> dict:
         "scala": width / 964, "dimensioni_fonte": [964, 300],
         "figura": [{"pagina": 2, "x": 0.0, "y": 240.0}],
     }
+
+
+class FiguresInTextTests(unittest.TestCase):
+    def picture(self):
+        return {"figura": "<fig-prova>", "colonne": 1, "larghezza": 66 * common.PT_MM,
+                "altezza_visuale": 120, "altezza_totale": 170, "fondo_corpo": 516,
+                "origine": {"pagina": 4, "x": 51, "y": 100}}
+
+    def test_picture_and_caption_fit_in_body(self):
+        check_figures_in_text([self.picture()])
+
+    def test_caption_overflow_after_parent_float_is_rejected(self):
+        picture = self.picture()
+        picture["origine"]["y"] = 400
+        with self.assertRaisesRegex(ValueError, "oltre il corpo"):
+            check_figures_in_text([picture])
+
+    def test_column_picture_cannot_use_parent_width(self):
+        picture = self.picture()
+        picture["larghezza"] = 137 * common.PT_MM
+        with self.assertRaisesRegex(ValueError, "più larga"):
+            check_figures_in_text([picture])
+
+
+class RuntimeTests(unittest.TestCase):
+    def test_local_compiler_works_without_path_even_with_colon_and_spaces(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            booklet = Path(temporary) / "Booklet 2026:2027"
+            compiler = booklet / ".venv" / ("Scripts/typst.exe" if common.os.name == "nt" else "bin/typst")
+            compiler.parent.mkdir(parents=True)
+            compiler.touch()
+            with patch.object(common, "BOOKLET", booklet), patch.dict(common.os.environ, {}, clear=True), \
+                    patch.object(common.shutil, "which", return_value=None):
+                self.assertEqual(common.typst_executable(), str(compiler))
+                with patch.object(common.subprocess, "run", return_value=subprocess.CompletedProcess(
+                        [], 0, stdout="typst 0.15.1", stderr="")) as execute:
+                    self.assertEqual(common.run(["typst", "--version"]), "typst 0.15.1")
+                    self.assertEqual(execute.call_args.args[0], [str(compiler), "--version"])
+
+    def test_explicit_compiler_override_has_priority(self):
+        with patch.dict(common.os.environ, {"BOOKLET_TYPST": "/custom tools/typst"}):
+            self.assertEqual(common.typst_executable(), "/custom tools/typst")
+
+    def test_system_compiler_remains_available_without_local_installation(self):
+        with tempfile.TemporaryDirectory() as temporary, \
+                patch.object(common, "BOOKLET", Path(temporary)), \
+                patch.dict(common.os.environ, {}, clear=True), \
+                patch.object(common.shutil, "which", return_value="/system/typst"):
+            self.assertEqual(common.typst_executable(), "/system/typst")
 
 
 class DocumentSpreadTests(unittest.TestCase):
@@ -168,7 +218,7 @@ class SeparatedCaptionTests(unittest.TestCase):
                         "folio": 9, "folio_atteso": 9}
         self.link = {"pagina": 2, "rettangolo": [110., 153., 190., 162.],
                      "destinazione": {"pagina": 3, "x": 0., "y": 0.}}
-        self.texts = ["Pagina inserita", "Figura 2\nImmagine a p. 009\nDidascalia", ""]
+        self.texts = ["Pagina inserita", "Figura 2\nNella pagina successiva · p. 009 →\nDidascalia", ""]
 
     def data(self):
         data = empty_inventory()
@@ -210,16 +260,179 @@ class SeparatedCaptionTests(unittest.TestCase):
                 separated_caption_references([link], self.texts, [self.caption])
 
     def test_stale_printed_number_is_rejected_even_with_correct_metadata_and_link(self):
-        texts = ["Pagina inserita", "Figura 2\nImmagine a p. 008\nDidascalia", ""]
+        texts = ["Pagina inserita", "Figura 2\nNella pagina successiva · p. 008 →\nDidascalia", ""]
         with self.assertRaisesRegex(ValueError, "rimando stampato"):
             separated_caption_references([self.link], texts, [self.caption])
+
+
+class BleedFigureTests(unittest.TestCase):
+    def data(self):
+        data = empty_inventory()
+        top = 220 * common.PT_MM - 72
+        data["didascalie_separate"] = [{"figura": "<fig-prova>",
+            "origine": {"pagina": 2, "x": 110., "y": top + 11},
+            "immagine": {"pagina": 3, "x": 0., "y": 0.}, "folio": 9, "folio_atteso": 9}]
+        height = 72 - 8.4
+        width = height * 17 / 24
+        data["didascalie_separate"][0].update({
+            "miniatura": {"origine": {"pagina": 2, "x": 42., "y": top + 8.4},
+                          "larghezza": width, "altezza": height},
+            "testo": {"origine": {"pagina": 2, "x": 42. + width + 3 * common.PT_MM, "y": top + 8.4},
+                      "larghezza": 137 * common.PT_MM - width - 3 * common.PT_MM, "altezza": height},
+            "divisorio": {"origine": {"pagina": 2, "x": 42., "y": top},
+                          "larghezza": 137 * common.PT_MM, "spessore": .4, "distacco": 8.},
+        })
+        data["didascalie_al_piede"] = [{"figura": "<fig-prova>",
+            "origine": {"pagina": 2, "x": 42., "y": top}, "altezza": 72., "fondo": 220 * common.PT_MM,
+            "riserva": 1., "fondo_corpo": (240 - 20 - 35) * common.PT_MM - 9}]
+        data["figure_al_vivo"] = [{"figura": "<fig-prova>",
+            "origine": {"pagina": 3, "x": 0., "y": 0.}, "rapporto": 17 / 24,
+            "ancoraggio": [.5, .5], "native": [{"pagina": 3, "x": 0., "y": 0.}]}]
+        data["figure"] = [{"mobile": True, "ancore": 1, "visuale": {"pagina": 3, "x": 0., "y": 0.}}]
+        return data
+
+    def test_one_caption_at_bottom_precedes_one_native_bleed_figure(self):
+        result = check_inventory(self.data())
+        self.assertEqual((result["didascalie_al_piede"], result["figure_al_vivo"]), (1, 1))
+
+    def test_thumbnail_must_match_caption_height_and_alignment(self):
+        for key, change in (("altezza", 1.), ("larghezza", 1.)):
+            with self.subTest(key=key):
+                data = self.data()
+                data["didascalie_separate"][0]["miniatura"][key] += change
+                with self.assertRaisesRegex(ValueError, "Miniatura e didascalia"):
+                    check_inventory(data)
+        data = self.data()
+        data["didascalie_separate"][0]["testo"]["origine"]["y"] += 1
+        with self.assertRaisesRegex(ValueError, "Miniatura e didascalia"):
+            check_inventory(data)
+
+    def test_divider_must_span_editorial_width_above_caption_group(self):
+        for key in ("larghezza", "distacco"):
+            with self.subTest(key=key):
+                data = self.data()
+                data["didascalie_separate"][0]["divisorio"][key] += 1
+                with self.assertRaisesRegex(ValueError, "Il divisorio"):
+                    check_inventory(data)
+
+    def test_caption_must_be_on_immediately_previous_physical_page(self):
+        data = self.data()
+        data["didascalie_al_piede"][0]["origine"]["pagina"] = 1
+        data["didascalie_separate"][0]["origine"]["pagina"] = 1
+        with self.assertRaisesRegex(ValueError, "non precede immediatamente"):
+            check_inventory(data)
+
+    def test_caption_cannot_float_above_bottom_or_disagree_with_its_reference(self):
+        data = self.data()
+        data["didascalie_al_piede"][0]["origine"]["y"] -= 1
+        with self.assertRaisesRegex(ValueError, "non è allineata al piede"):
+            check_inventory(data)
+        data = self.data()
+        data["didascalie_al_piede"][0]["origine"]["y"] -= 1
+        data["didascalie_al_piede"][0]["fondo"] -= 1
+        with self.assertRaisesRegex(ValueError, "non è allineata al piede"):
+            check_inventory(data)
+        data = self.data()
+        data["didascalie_separate"][0]["origine"]["pagina"] = 1
+        with self.assertRaisesRegex(ValueError, "non precede immediatamente"):
+            check_inventory(data)
+
+    def test_missing_or_duplicate_caption_and_picture_are_rejected(self):
+        for key in ("didascalie_al_piede", "figure_al_vivo"):
+            for duplicate in (False, True):
+                with self.subTest(key=key, duplicate=duplicate):
+                    data = self.data()
+                    data[key] = data[key] * 2 if duplicate else []
+                    with self.assertRaises(ValueError):
+                        check_inventory(data)
+        data = self.data()
+        data["didascalie_separate"] = []
+        with self.assertRaisesRegex(ValueError, "unico rimando separato"):
+            check_inventory(data)
+
+    def test_image_must_reach_page_edge_and_match_one_native_figure(self):
+        data = self.data()
+        data["figure_al_vivo"][0]["origine"]["x"] = 1.
+        with self.assertRaisesRegex(ValueError, "non comincia sul bordo"):
+            check_inventory(data)
+        for native in ([], [{"pagina": 3, "x": 0., "y": 0.}] * 2,
+                       [{"pagina": 4, "x": 0., "y": 0.}]):
+            with self.subTest(native=native):
+                data = self.data()
+                data["figure_al_vivo"][0]["native"] = native
+                with self.assertRaisesRegex(ValueError, "Figura al vivo nativa"):
+                    check_inventory(data)
+
+    def test_invalid_geometry_and_crop_declarations_are_rejected(self):
+        for change in ({"rapporto": 0}, {"rapporto": float("nan")}, {"ancoraggio": [.5]},
+                       {"ancoraggio": [True, .5]}, {"ancoraggio": [1.1, .5]}):
+            with self.subTest(change=change):
+                data = self.data()
+                data["figure_al_vivo"][0].update(change)
+                with self.assertRaisesRegex(ValueError, "Rapporto o ancoraggio"):
+                    check_inventory(data)
+
+    def test_top_anchor_rejects_the_previously_centered_pdf_transform(self):
+        page_height = 240 * common.PT_MM
+        height = 720.2984
+        anchored = (481.88977, 0., 0., height, 0., page_height - height)
+        self.assertEqual(check_top_anchored_crop(anchored, page_height)["rifilo_superiore_mm"], 0.)
+        # Trasformazione prodotta dal vecchio image(width: ...) sulla Svezia:
+        # metà dell'eccedenza risultava tagliata sopra, pur con ancoraggio y=0.
+        centered = (481.88977, 0., 0., height, 0., -19.99176)
+        with self.assertRaisesRegex(ValueError, "ritaglia anche il bordo alto"):
+            check_top_anchored_crop(centered, page_height)
+
+    def test_thumbnail_must_be_visible_beyond_its_pdf_transform(self):
+        matrix = (51.02362, 0., 0., 72.03335, 51.02362, 92.209595)
+        full = (51.02362, 92.209595, 102.04724, 164.242945)
+        self.assertAlmostEqual(check_thumbnail_visibility(matrix, full)["larghezza_visibile_mm"], 18.)
+        # Il vecchio frame ereditava il solo punto riservato dal float:
+        # la CTM restava corretta, ma soltanto 1 pt dell'immagine era visibile.
+        clipped = (51.02362, 127.72626, 102.04724, 128.72626)
+        with self.assertRaisesRegex(ValueError, "ritagliata dal frame interno"):
+            check_thumbnail_visibility(matrix, clipped)
+
+    def test_only_one_visible_figure_can_occupy_the_bleed_page(self):
+        data = self.data()
+        data["figure"].append(deepcopy(data["figure"][0]))
+        with self.assertRaisesRegex(ValueError, "una sola figura visiva"):
+            check_inventory(data)
+
+    def test_notes_must_have_eight_points_of_clearance_above_caption(self):
+        data = self.data()
+        top = data["didascalie_al_piede"][0]["origine"]["y"]
+        data["note"] = [{"pagina": 2, "altezza": 10., "voci": [{"pagina": 2, "y": top - 17.}]}]
+        data["voci"] = data["regioni"] = []
+        # Il contratto geometrico si può esercitare senza costruire un apparato
+        # completo, che appartiene ai controlli indipendenti di check_inventory.
+        from booklet.inventory import check_bleed_figures
+        with self.assertRaisesRegex(ValueError, "8 pt di distacco"):
+            check_bleed_figures(data["didascalie_separate"], data["didascalie_al_piede"],
+                               data["figure_al_vivo"], data["note"], data["figure"])
+
+    def test_real_notes_must_fit_below_the_reserved_body_with_eight_point_gap(self):
+        from booklet.inventory import check_bleed_figures
+        for intrusion in (False, True):
+            with self.subTest(intrusion=intrusion):
+                data = self.data()
+                first_entry = data["didascalie_al_piede"][0]["fondo_corpo"] + 8 + 4.4
+                data["note"] = [{"pagina": 2, "altezza": 10.,
+                                 "voci": [{"pagina": 2, "y": first_entry - int(intrusion)}]}]
+                args = (data["didascalie_separate"], data["didascalie_al_piede"],
+                        data["figure_al_vivo"], data["note"], data["figure"])
+                if intrusion:
+                    with self.assertRaisesRegex(ValueError, "spazio riservato alla prosa"):
+                        check_bleed_figures(*args)
+                else:
+                    check_bleed_figures(*args)
 
 
 class NotesTests(unittest.TestCase):
     def setUp(self):
         origin = {"pagina": 1, "x": 40.0, "y": 50.0}
         entry = {"pagina": 1, "x": 30.0, "y": 600.0}
-        repetition = {"pagina": 2, "x": 45.0, "y": 80.0}
+        repetition = {"pagina": 1, "x": 45.0, "y": 80.0}
         self.data = {"note": [{"origine": origin, "voci": [entry],
                               "corpo": 'link(dest: "https://example.org/")'}],
                      "ripetizioni": [{"origine": repetition, "voci": [entry]}]}
@@ -236,13 +449,30 @@ class NotesTests(unittest.TestCase):
         self.annotations = [link(origin, entry), link(entry, origin),
                             link(entry, uri="https://example.org/"), link(repetition, entry)]
 
-    def test_links_and_repeated_reference_on_other_page(self):
+    def test_links_and_repeated_reference_on_same_page(self):
         self.assertEqual(note_links(self.annotations, self.data),
                          {"andata_ritorno": 1, "ripetuti": 1})
+
+    def test_cross_page_repeated_reference_is_rejected_by_inventory_and_pdf(self):
+        self.data["ripetizioni"][0]["origine"]["pagina"] = 2
+        self.annotations[3]["pagina"] = 2
+        with self.assertRaisesRegex(ValueError, "stessa pagina"):
+            note_links(self.annotations, self.data)
+        data = empty_inventory()
+        data["ripetizioni"] = self.data["ripetizioni"]
+        with self.assertRaisesRegex(ValueError, "stessa pagina"):
+            check_inventory(data)
 
     def test_duplicate_link_is_rejected(self):
         with self.assertRaisesRegex(ValueError, "2 di andata"):
             note_links(self.annotations + [self.annotations[0]], self.data)
+
+    def test_repeated_link_at_same_x_on_same_page_is_not_a_duplicate(self):
+        repeated = self.data["ripetizioni"][0]["origine"]
+        repeated.update(pagina=1, x=40.0, y=100.0)
+        self.annotations[3].update(pagina=1, rettangolo=[40.0, 95.0, 45.0, 105.0])
+        self.assertEqual(note_links(self.annotations, self.data),
+                         {"andata_ritorno": 1, "ripetuti": 1})
 
     def test_url_on_another_page_cannot_replace_missing_note_url(self):
         changed = deepcopy(self.annotations)
@@ -479,13 +709,13 @@ class OpeningSeriesTests(unittest.TestCase):
             self.check()
 
 
-@unittest.skipUnless(shutil.which("typst"), "Serve Typst per le prove pure dei profili.")
+@unittest.skipUnless(common.typst_executable(), "Serve Typst per le prove pure dei profili.")
 class TypstProfileTests(unittest.TestCase):
     """Esegue il contratto reale usato dall’anteprima, senza immagini né PDF."""
 
     def evaluate(self, expression):
         return subprocess.run([
-            "typst", "eval", "--root", str(ROOT),
+            common.typst_executable(), "eval", "--root", str(ROOT),
             '{ import path("/progetti/booklet/template/profili.typ"): *; ' + expression + ' }',
         ], capture_output=True, text=True, timeout=10)
 

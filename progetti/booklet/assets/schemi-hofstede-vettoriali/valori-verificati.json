@@ -1,0 +1,219 @@
+{
+  "source": "https://www.theculturefactor.com/country-comparison-tool",
+  "consultedOn": "2026-10-25",
+  "dimensions": [
+    {
+      "code": "IDV",
+      "title": "Individualismo e collettivismo",
+      "observations": [
+        {
+          "country": "Nigeria",
+          "italianName": "Nigeria",
+          "iso": "ng",
+          "score": 0
+        },
+        {
+          "country": "Kenya",
+          "italianName": "Kenya",
+          "iso": "ke",
+          "score": 4
+        },
+        {
+          "country": "Bangladesh",
+          "italianName": "Bangladesh",
+          "iso": "bd",
+          "score": 5
+        },
+        {
+          "country": "Sweden",
+          "italianName": "Svezia",
+          "iso": "se",
+          "score": 87
+        },
+        {
+          "country": "Denmark",
+          "italianName": "Danimarca",
+          "iso": "dk",
+          "score": 89
+        },
+        {
+          "country": "Netherlands",
+          "italianName": "Paesi Bassi",
+          "iso": "nl",
+          "score": 100
+        }
+      ]
+    },
+    {
+      "code": "MAS",
+      "title": "Motivazione al risultato e al successo",
+      "observations": [
+        {
+          "country": "Sweden",
+          "italianName": "Svezia",
+          "iso": "se",
+          "score": 5
+        },
+        {
+          "country": "Norway",
+          "italianName": "Norvegia",
+          "iso": "no",
+          "score": 8
+        },
+        {
+          "country": "Latvia",
+          "italianName": "Lettonia",
+          "iso": "lv",
+          "score": 9
+        },
+        {
+          "country": "Hungary",
+          "italianName": "Ungheria",
+          "iso": "hu",
+          "score": 88
+        },
+        {
+          "country": "Japan",
+          "italianName": "Giappone",
+          "iso": "jp",
+          "score": 95
+        },
+        {
+          "country": "Slovakia",
+          "italianName": "Slovacchia",
+          "iso": "sk",
+          "score": 100
+        }
+      ]
+    },
+    {
+      "code": "UAI",
+      "title": "Avversione all’incertezza",
+      "observations": [
+        {
+          "country": "Singapore",
+          "italianName": "Singapore",
+          "iso": "sg",
+          "score": 8
+        },
+        {
+          "country": "Denmark",
+          "italianName": "Danimarca",
+          "iso": "dk",
+          "score": 23
+        },
+        {
+          "country": "Sweden",
+          "italianName": "Svezia",
+          "iso": "se",
+          "score": 29
+        },
+        {
+          "country": "Uruguay",
+          "italianName": "Uruguay",
+          "iso": "uy",
+          "score": 98
+        },
+        {
+          "country": "Portugal",
+          "italianName": "Portogallo",
+          "iso": "pt",
+          "score": 99
+        },
+        {
+          "country": "Greece",
+          "italianName": "Grecia",
+          "iso": "gr",
+          "score": 100
+        }
+      ]
+    },
+    {
+      "code": "LTO",
+      "title": "Orientamento a lungo termine",
+      "observations": [
+        {
+          "country": "Venezuela",
+          "italianName": "Venezuela",
+          "iso": "ve",
+          "score": 0
+        },
+        {
+          "country": "Ghana",
+          "italianName": "Ghana",
+          "iso": "gh",
+          "score": 1
+        },
+        {
+          "country": "Peru",
+          "italianName": "Perù",
+          "iso": "pe",
+          "score": 5
+        },
+        {
+          "country": "Taiwan",
+          "italianName": "Taiwan",
+          "iso": "tw",
+          "score": 87
+        },
+        {
+          "country": "Hong kong",
+          "italianName": "Hong Kong",
+          "iso": "hk",
+          "score": 93
+        },
+        {
+          "country": "Japan",
+          "italianName": "Giappone",
+          "iso": "jp",
+          "score": 100
+        }
+      ]
+    },
+    {
+      "code": "IVR",
+      "title": "Indulgenza e restrizione",
+      "observations": [
+        {
+          "country": "Egypt",
+          "italianName": "Egitto",
+          "iso": "eg",
+          "score": 0
+        },
+        {
+          "country": "Pakistan",
+          "italianName": "Pakistan",
+          "iso": "pk",
+          "score": 0
+        },
+        {
+          "country": "Lebanon",
+          "italianName": "Libano",
+          "iso": "lb",
+          "score": 10
+        },
+        {
+          "country": "Puerto rico",
+          "italianName": "Portorico",
+          "iso": "pr",
+          "score": 90
+        },
+        {
+          "country": "Mexico",
+          "italianName": "Messico",
+          "iso": "mx",
+          "score": 97
+        },
+        {
+          "country": "Venezuela",
+          "italianName": "Venezuela",
+          "iso": "ve",
+          "score": 100
+        }
+      ]
+    }
+  ],
+  "result": "Tutti i 30 valori coincidono con il catalogo condiviso.",
+  "meaning": "Indici nazionali aggregati, non percentuali né profili individuali.",
+  "pdiVerification": "../schema-pdi-imagegen-v4/valori-verificati.json"
+}

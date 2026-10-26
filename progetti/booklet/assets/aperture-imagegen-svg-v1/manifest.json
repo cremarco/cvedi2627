@@ -1,7 +1,7 @@
 {
   "versione": 1,
-  "stato": "Sette aperture approvate e attive nel booklet Typst; fondi SVG con titolo e numero composti come testo nativo.",
-  "origine": "Concept ImageGen built-in della sessione del 22 ottobre 2026",
+  "stato": "8 aperture attive nel booklet Typst; fondi SVG con titolo e numero composti come testo nativo.",
+  "origine": "Sette concept ImageGen built-in del 22 ottobre 2026; apertura 08 nativa SVG aggiunta il 24 ottobre 2026 su richiesta dell’utente.",
   "piano": "progetti/booklet/piano.json",
   "font": "risorse-condivise/font/editoriali/sora-variabile.ttf",
   "licenza_font": "risorse-condivise/font/editoriali/sora-licenza.txt",
@@ -124,6 +124,22 @@
       "sha256_prompt": "4185f8b7f21c75784682ca5b61383b2dae05406684199b61c9e97f65b4cc8461",
       "sha256_svg": "0b38f338213085ecad6dcaac2a61f51dfce1af6f6cbaf66f4bf09fb375012ce9",
       "sha256_disegno": "0dfe7347e0f1fccbafa9db5782c5e4bd438431656219413f494945bed3084314",
+      "testi_editabili": [
+        "titolo-capitolo",
+        "numero-capitolo"
+      ]
+    },
+    {
+      "numero": 8,
+      "titolo": "Composizione e gerarchia visiva",
+      "svg": "svg/08-composizione.svg",
+      "disegno": "disegni/08-composizione.svg",
+      "riferimento": "originali/nativo-08-composizione.png",
+      "prompt": "prompts/nativo-08-composizione.txt",
+      "sha256_riferimento": "e4fce2e6eafcc747fdb04169c38143daeaa6f6b6bde236fc8de019ac0a913459",
+      "sha256_prompt": "265ee1eeaa2642c41d6e764a610f7d1c399f3314872750ecbc54a654f24e8ce0",
+      "sha256_svg": "f81b4eeb46b2a9a7e1138c0253d46bf7e7588346ff8f5435e3bf5d4cfc547f96",
+      "sha256_disegno": "8829b7fc8ba31c559807761878647b8dc9561f57f57a8a497ef3070bda2c4aa1",
       "testi_editabili": [
         "titolo-capitolo",
         "numero-capitolo"

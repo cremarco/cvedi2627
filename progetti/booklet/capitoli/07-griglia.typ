@@ -1,6 +1,7 @@
 // Capitolo 07: unico testo per volume e compilazione autonoma.
 #import "../template/stile.typ": booklet, capitolo
 #import "../template/piano.typ": parametri-capitolo
+#import "../template/esercizi.typ": esercizio
 
 #let testo = [
 // Capitolo 07 dalla Page Figma 4954:42, verificata il 22 ottobre 2026.
@@ -13,24 +14,10 @@
 #cite(<grigliaUnigrid>, form: none)
 #cite(<grigliaGreiman>, form: none)
 #cite(<grigliaGgs>, form: none)
-#cite(<grigliaCarbon>, form: none)
 #cite(<grigliaCssgrid>, form: none)
-#cite(<grigliaReflow>, form: none)
-#cite(<grigliaSpacing>, form: none)
-#cite(<grigliaResize>, form: none)
-#cite(<grigliaAdaptive>, form: none)
-#cite(<grigliaMacro>, form: none)
-#cite(<grigliaBreakpoints>, form: none)
-#cite(<grigliaThirds>, form: none)
 #cite(<grigliaCssunits>, form: none)
 // Preordine cronologico delle opere MDN del 2026 per i suffissi APA nativi.
-#cite(<grigliaGridFlex>, form: none)
-#cite(<grigliaObjectposition>, form: none)
-#cite(<grigliaContainer>, form: none)
-#cite(<grigliaObjectfit>, form: none)
-#cite(<grigliaMaxwidth>, form: none)
 #cite(<grigliaBoxSizing>, form: none)
-#cite(<grigliaBootstrap>, form: none)
 #cite(<grigliaImages>, form: none)
 
 #[
@@ -122,7 +109,7 @@ La ripetizione rende confrontabili le decisioni. Si può descrivere perché una 
 
 === Musica Viva, 1957
 
-#figura-griglia("365")
+#figura-griglia("365", colonne: 1, altezza: 110mm)
 
 Nel manifesto _Musica Viva_ di _Josef Müller-Brockmann_, le informazioni del concerto occupano quattro campi verticali nella parte superiore. In basso, segni obliqui di lunghezza e spessore diversi introducono un ritmo distinto. La @fig-griglia-365 conserva l'opera intera.#sito([Scheda dell'opera, MoMA.], "https://www.moma.org/collection/works/4885")
 
@@ -130,7 +117,7 @@ Si osservano gli inizi dei blocchi, le pause fra gruppi e il rapporto fra testo 
 
 === Unigrid: un sistema editoriale
 
-#figura-griglia("366")
+#figura-griglia("366", colonne: 1, altezza: 110mm)
 
 Nel 1977 _Vincent Gleason_, responsabile delle pubblicazioni del National Park Service, coinvolge _Massimo Vignelli_ nella definizione di Unigrid. Il sistema coordina formati, pieghe, tipografia e produzione delle brochure. Il primo esempio per un parco è quello di Clara Barton, del 1978.#sito([National Park Service, storia di Unigrid.], "https://www.nps.gov/subjects/hfc/a-brief-history-of-the-unigrid.htm")
 
@@ -194,7 +181,7 @@ Nel confronto della @fig-griglia-370, i campi chiari mostrano le suddivisioni; q
 // La tavola documentaria conserva i termini e i segni dell'originale del 2024.
 La @fig-griglia-2024-102-anatomia distingue colonne, righe, margini e gutter attraverso segni e colori differenti.
 
-#figura-griglia("2024-102-anatomia", pagina: true)
+#figura-griglia("2024-102-anatomia", colonne: 2, altezza: 150mm)
 
 
 === Calcolare e verificare
@@ -312,7 +299,7 @@ Gli intervalli interni a un campo fanno parte della sua larghezza, come nella fo
 
 Non esiste una sequenza universale di dodici colonne su desktop, otto su tablet e quattro su telefono. La 2x Grid di IBM, discussa più avanti, usa configurazioni da quattro, otto o sedici colonne. Queste convenzioni appartengono ai rispettivi sistemi; il contenuto può richiedere altre scelte.
 
-Bootstrap 5.3 propone invece dodici colonne per impostazione predefinita, con occupazioni e cambi di disposizione configurabili. Il suo sistema principale chiamato _grid_ è costruito con Flexbox: il nome non indica automaticamente l'uso della tecnologia CSS Grid #cite(<grigliaBootstrap>).#sito([Bootstrap 5.3, struttura e funzionamento del sistema a griglia.], "https://getbootstrap.com/docs/5.3/layout/grid/") Prima di adottarlo si controlla come dimensiona colonne e gutter, così la griglia del disegno e quella implementata descrivono le stesse relazioni.
+Bootstrap 5.3 propone invece dodici colonne per impostazione predefinita, con occupazioni e cambi di disposizione configurabili. Il suo sistema principale chiamato _grid_ è costruito con Flexbox: il nome non indica automaticamente l'uso della tecnologia CSS Grid.#sito([Bootstrap 5.3, struttura e funzionamento del sistema a griglia.], "https://getbootstrap.com/docs/5.3/layout/grid/") <sito-grigliaBootstrap> Prima di adottarlo si controlla come dimensiona colonne e gutter, così la griglia del disegno e quella implementata descrivono le stesse relazioni.
 
 // Stesso documento sui due fogli: un solo numero e una sola didascalia.
 #doppia-griglia("377",
@@ -390,7 +377,7 @@ Sullo schermo la griglia descrive un comportamento: come si ridistribuiscono i c
 
 Il viewport è l'area nella quale il browser dispone la pagina. Per il layout conta la larghezza disponibile in pixel CSS, che può cambiare con finestra, orientamento e zoom della pagina.
 
-La @fig-griglia-381 mostra ogni esempio in due larghezze: una misura resta fissa, una varia in modo fluido, due campi si ricompongono in verticale. Il progetto responsivo può combinare fluidità e cambi di disposizione: non è una categoria separata dal layout fluido.#sito([Google, macro layout responsivi.], "https://web.dev/learn/design/macro-layouts")
+La @fig-griglia-381 mostra ogni esempio in due larghezze: una misura resta fissa, una varia in modo fluido, due campi si ricompongono in verticale. Il progetto responsivo può combinare fluidità e cambi di disposizione: non è una categoria separata dal layout fluido.#sito([Google, macro layout responsivi.], "https://web.dev/learn/design/macro-layouts") <sito-grigliaMacro>
 
 #figura-griglia("2024-104-web")
 
@@ -407,14 +394,14 @@ Nella @fig-griglia-382 il menu conserva la propria misura e il campo principale 
 
 Quando lo spazio non basta, occorre un'altra disposizione della navigazione.
 
-Si chiama spesso adattivo un layout che passa fra poche larghezze prefissate, restando fisso fra le soglie. Il responsive può unire fluidità e cambi di regola: va provato anche alle larghezze intermedie.#sito([Google, layout adattivi e responsivi.], "https://web.dev/learn/design/intro")
+Si chiama spesso adattivo un layout che passa fra poche larghezze prefissate, restando fisso fra le soglie. Il responsive può unire fluidità e cambi di regola: va provato anche alle larghezze intermedie.#sito([Google, layout adattivi e responsivi.], "https://web.dev/learn/design/intro") <sito-grigliaAdaptive>
 
 Minimi, massimi e ritorno a capo pongono limiti alla fluidità: evitano righe troppo lunghe e campi troppo stretti.
 
 // Il confronto conserva l'infografica storica e ne esplicita il limite concettuale.
 La @fig-griglia-2024-105-responsive-adaptive presenta un confronto storico fra responsive e adaptive. L'associazione fra responsive e client-side, adaptive e server-side semplifica eccessivamente il tema: fluidità e configurazioni predisposte non determinano da sole dove venga eseguito il codice.
 
-#figura-griglia("2024-105-responsive-adaptive", pagina: true)
+#figura-griglia("2024-105-responsive-adaptive", colonne: 2, altezza: 150mm)
 
 // Dossi, p. 8: il limite massimo è sviluppato con un esempio autonomo,
 // verificato sulla documentazione CSS; numeri e diagramma sono scelte editoriali.
@@ -430,7 +417,7 @@ $ W = min(V - 2 m, M). $
 
 La @fig-griglia-materiali-contenitore confronta due condizioni. Con $V = 720 thin "px"$, il campo misura $672 thin "px"$ e i margini sono 24. Con $V = 1280 thin "px"$, il campo si ferma a 960 e restano 160 px per lato. Il calcolo presuppone un campo centrato, senza una barra laterale che sottragga altro spazio.
 
-La proprietà CSS `max-width` pone un limite alla larghezza. Non sceglie da sola né la centratura né i margini e non richiede necessariamente una media query #cite(<grigliaMaxwidth>).#sito([MDN, larghezza massima di un elemento.], "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/max-width") La disposizione delle schede può quindi restare uguale mentre cambia la larghezza del contenitore: raggiungere il massimo non equivale a introdurre un breakpoint.
+La proprietà CSS `max-width` pone un limite alla larghezza. Non sceglie da sola né la centratura né i margini e non richiede necessariamente una media query.#sito([MDN, larghezza massima di un elemento.], "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/max-width") <sito-grigliaMaxwidth> La disposizione delle schede può quindi restare uguale mentre cambia la larghezza del contenitore: raggiungere il massimo non equivale a introdurre un breakpoint.
 
 I numeri dell'esempio non sono una misura consigliata per ogni sito. Si scelgono insieme a leggibilità delle righe, dettaglio delle immagini e spazio necessario ai controlli.
 
@@ -441,13 +428,13 @@ I numeri dell'esempio non sono una misura consigliata per ogni sito. Si scelgono
   $240 + 240 + 24 + 24 + 24 = 552 thin "px"$ CSS nel contenitore. Sotto la soglia, le due schede passano a una per riga.
 ])
 
-Un breakpoint è una soglia alla quale cambia una regola di layout. Si cerca dove il contenuto smette di funzionare, senza assumere che ogni categoria di dispositivo richieda una soglia propria.#sito([Google, media query e adattamento.], "https://web.dev/learn/design/media-queries")
+Un breakpoint è una soglia alla quale cambia una regola di layout. Si cerca dove il contenuto smette di funzionare, senza assumere che ogni categoria di dispositivo richieda una soglia propria.#sito([Google, media query e adattamento.], "https://web.dev/learn/design/media-queries") <sito-grigliaBreakpoints>
 
 Nella @fig-griglia-383, due schede richiedono almeno 240 px CSS ciascuna, compresi bordi e spazi interni; l'intervallo è 24 e i margini laterali sono 24. Servono 552 px nel contenitore. Sotto questa larghezza le schede si impilano. La soglia coincide con quella del viewport soltanto se il contenitore ne occupa tutta la larghezza.
 
 Il pixel CSS è un'unità logica e può corrispondere a più pixel fisici dello schermo.#sito([W3C, unità CSS e pixel del dispositivo.], "https://www.w3.org/TR/css-values-3/#absolute-lengths") Si provano larghezze appena sotto e sopra la soglia, testi lunghi e ingrandimento: 552 px risolve questo esempio, non ogni interfaccia.
 
-Una media query sulla larghezza considera il viewport; una container query sulle dimensioni considera un contenitore antenato predisposto.#sito([MDN, query sulle dimensioni dei contenitori.], "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries") La stessa scheda può così assumere assetti diversi in una barra laterale e nel campo principale della stessa finestra. Si documentano la soglia e il contenitore di riferimento.
+Una media query sulla larghezza considera il viewport; una container query sulle dimensioni considera un contenitore antenato predisposto.#sito([MDN, query sulle dimensioni dei contenitori.], "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries") <sito-grigliaContainer> La stessa scheda può così assumere assetti diversi in una barra laterale e nel campo principale della stessa finestra. Si documentano la soglia e il contenitore di riferimento.
 
 // Fonte Figma 4954:74 · folio 532.
 === Golden Grid System
@@ -469,7 +456,7 @@ La @fig-griglia-2024-101-ggs mostra la presentazione originale del Golden Grid S
 
 #figura-griglia("385")
 
-La 2x Grid di IBM usa una mini unità quadrata di 8 pixel e rapporti costruiti moltiplicando o dividendo per due. Il sistema descrive griglie fisse, fluide e ibride. Nella documentazione Carbon consultata, i breakpoint prevedono 4, 8 o 16 colonne.#sito([IBM Carbon, 2x Grid; versione consultata il 21 ottobre 2026.], "https://www.carbondesignsystem.com/building-blocks/foundations/2x-grid/overview")
+La 2x Grid di IBM usa una mini unità quadrata di 8 pixel e rapporti costruiti moltiplicando o dividendo per due. Il sistema descrive griglie fisse, fluide e ibride. Nella documentazione Carbon consultata, i breakpoint prevedono 4, 8 o 16 colonne.#sito([IBM Carbon, 2x Grid; versione consultata il 21 ottobre 2026.], "https://www.carbondesignsystem.com/building-blocks/foundations/2x-grid/overview") <sito-grigliaCarbon>
 
 La @fig-griglia-385 mostra il principio di suddivisione, non tutte le specifiche del sistema. La misura di base coordina spazi e oggetti, mentre il numero di colonne può cambiare con la larghezza.
 
@@ -488,7 +475,7 @@ L'altezza segue il contenuto; il comando non viene collocato a una quota fissa c
 
 Nel web, CSS Grid coordina righe e colonne; una traccia è lo spazio fra due linee adiacenti della griglia, un'area può comprendere più celle. Flexbox organizza relazioni principalmente lungo un asse.#sito([W3C, CSS Grid Layout Module Level 1.], "https://www.w3.org/TR/css-grid-1/") Le guide del disegno non devono tradursi una per una in tracce CSS: si implementano regole capaci di accogliere anche contenuti imprevisti.
 
-Per scegliere fra i due strumenti si può osservare una raccolta di cinque schede. Con tre tracce Grid uguali, le prime tre occupano la prima riga e le altre due restano allineate alle prime due colonne. Con Flexbox, consentendo agli elementi di crescere, le due schede dell'ultima riga possono invece dividersi tutta la larghezza: ogni riga distribuisce il proprio spazio #cite(<grigliaGridFlex>).#sito([MDN, relazioni fra CSS Grid e altri metodi di layout.], "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods")
+Per scegliere fra i due strumenti si può osservare una raccolta di cinque schede. Con tre tracce Grid uguali, le prime tre occupano la prima riga e le altre due restano allineate alle prime due colonne. Con Flexbox, consentendo agli elementi di crescere, le due schede dell'ultima riga possono invece dividersi tutta la larghezza: ogni riga distribuisce il proprio spazio.#sito([MDN, relazioni fra CSS Grid e altri metodi di layout.], "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods") <sito-grigliaGridFlex>
 
 Nel catalogo, l'allineamento fra righe può rendere più facile confrontare campi omologhi. In un gruppo di azioni può essere utile che ogni riga occupi lo spazio disponibile. Conta la relazione da mantenere, insieme al comportamento con testi lunghi; il solo aspetto della prima riga non basta a scegliere.
 
@@ -507,10 +494,10 @@ Quando una scheda passa da un campo largo a uno stretto, anche l'immagine deve c
 
 Nella @fig-griglia-materiali-immagini, tre campi verticali contengono lo stesso paesaggio. Il primo conserva l'intera immagine e lascia spazio libero; il secondo riempie il campo, ma il ritaglio centrale perde il soggetto laterale. Il terzo sposta l'inquadratura per conservarlo. Il contenitore resta uguale: cambia ciò che il lettore può vedere.
 
-Con `object-fit: contain` l'immagine mantiene le proporzioni e resta interamente visibile nel campo. Con `cover` mantiene le proporzioni e riempie il campo, tagliando l'eventuale eccedenza #cite(<grigliaObjectfit>). `object-position` ne controlla l'allineamento #cite(<grigliaObjectposition>).#nota-compatta([MDN, adattamento e posizione delle immagini.],
+Con `object-fit: contain` l'immagine mantiene le proporzioni e resta interamente visibile nel campo. Con `cover` mantiene le proporzioni e riempie il campo, tagliando l'eventuale eccedenza. `object-position` ne controlla l'allineamento.#nota-compatta([MDN, adattamento e posizione delle immagini.],
   ("https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/object-fit",
    "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/object-position"),
-  etichetta: ("object-fit", "object-position")) Un punto focale utile in un formato può richiedere una scelta diversa in un altro: si controllano volti, testo nell'immagine e dettaglio discusso nella didascalia.
+  etichetta: ("object-fit", "object-position")) <sito-grigliaObjectfit> Un punto focale utile in un formato può richiedere una scelta diversa in un altro: si controllano volti, testo nell'immagine e dettaglio discusso nella didascalia.
 
 === Risoluzione e inquadratura sono due scelte
 
@@ -537,11 +524,11 @@ Si verifica sull'interfaccia implementata: si legge la sequenza del documento, s
 
 #figura-griglia("388")
 
-WCAG 2.2, criterio 1.4.10 Reflow (AA), richiede per il contenuto a scorrimento verticale una larghezza equivalente a 320 px CSS, senza perdita di informazioni o funzionalità né scorrimento in due dimensioni. Una prova equivalente parte da 1280 px CSS con zoom al 400%. L'eccezione riguarda le parti che necessitano di due dimensioni, come una mappa, non l'intera pagina.#sito([W3C WAI, 1.4.10 Reflow (AA).], "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html")
+WCAG 2.2, criterio 1.4.10 Reflow (AA), richiede per il contenuto a scorrimento verticale una larghezza equivalente a 320 px CSS, senza perdita di informazioni o funzionalità né scorrimento in due dimensioni. Una prova equivalente parte da 1280 px CSS con zoom al 400%. L'eccezione riguarda le parti che necessitano di due dimensioni, come una mappa, non l'intera pagina.#sito([W3C WAI, 1.4.10 Reflow (AA).], "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html") <sito-grigliaReflow>
 
 Nella @fig-griglia-388 lo stesso messaggio entra in un contenitore fisso e in uno che cresce. Il secondo conserva tutto il testo; il primo lo taglia.
 
-Il criterio 1.4.4 Resize Text (AA) richiede testo ingrandibile fino al 200% con le normali funzioni del browser, senza richiedere tecnologie assistive e senza perdita di contenuti o funzionalità, salvo sottotitoli dei media e immagini di testo.#sito([W3C WAI, 1.4.4 Resize Text (AA).], "https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html") Il criterio 1.4.12 Text Spacing (AA), nei contenuti che supportano tali proprietà, prova insieme questi valori minimi: interlinea 1,5 volte il corpo, spazio dopo i paragrafi 2 volte, fra lettere 0,12 e fra parole 0,16 volte.#sito([W3C WAI, 1.4.12 Text Spacing (AA).], "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html")
+Il criterio 1.4.4 Resize Text (AA) richiede testo ingrandibile fino al 200% con le normali funzioni del browser, senza richiedere tecnologie assistive e senza perdita di contenuti o funzionalità, salvo sottotitoli dei media e immagini di testo.#sito([W3C WAI, 1.4.4 Resize Text (AA).], "https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html") <sito-grigliaResize> Il criterio 1.4.12 Text Spacing (AA), nei contenuti che supportano tali proprietà, prova insieme questi valori minimi: interlinea 1,5 volte il corpo, spazio dopo i paragrafi 2 volte, fra lettere 0,12 e fra parole 0,16 volte.#sito([W3C WAI, 1.4.12 Text Spacing (AA).], "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html") <sito-grigliaSpacing>
 
 Si modificano queste quattro proprietà senza cambiare gli altri stili. Questi valori verificano l'adattamento alle preferenze dell'utente; non prescrivono lo stile iniziale. Reflow, ingrandimento e spaziatura sono prove distinte, da eseguire sul prodotto funzionante.
 ]
@@ -559,10 +546,10 @@ Una regola compositiva è un'ipotesi da mettere alla prova. Anche la sua deroga 
 
 Le proporzioni possono fornire un punto di partenza per dividere un campo. Terzi, metà e rapporti asimmetrici producono possibilità diverse; nessuno di essi stabilisce da solo dove debbano trovarsi i contenuti.
 
-La @fig-griglia-389 confronta divisioni in terzi e divisioni auree sullo stesso rettangolo. Le linee non coincidono: i terzi corrispondono a circa 33,3% e 66,7%, le divisioni auree a circa 38,2% e 61,8%.#sito([Adobe, uso e limiti della regola dei terzi.], "https://www.adobe.com/creativecloud/photography/technique/rule-of-thirds.html")
+La @fig-griglia-389 confronta divisioni in terzi e divisioni auree sullo stesso rettangolo. Le linee non coincidono: i terzi corrispondono a circa 33,3% e 66,7%, le divisioni auree a circa 38,2% e 61,8%.#sito([Adobe, uso e limiti della regola dei terzi.], "https://www.adobe.com/creativecloud/photography/technique/rule-of-thirds.html") <sito-grigliaThirds>
 
 // I due originali restano distinti; la spiegazione segnala le affermazioni non dimostrate.
-#figura-griglia("2024-107-attenzione")
+#figura-griglia("2024-107-attenzione", colonne: 1)
 
 Il documento non indica una ricerca a sostegno delle percentuali della @fig-griglia-2024-107-attenzione. Quei numeri non possono essere assunti come distribuzione generale dell'attenzione visiva.
 
@@ -607,7 +594,7 @@ Nella @fig-griglia-391, il corpo attraversa il campo mentre immagini e segni int
 // Fonte Figma 4954:82 · folio 540.
 === Uscire dalla griglia con uno scopo
 
-#figura-griglia("392")
+#figura-griglia("392", colonne: 1)
 
 Una deroga è leggibile quando si riconosce il sistema dal quale si allontana. Un titolo può superare una colonna per introdurre una sezione; una figura può andare al vivo per rendere visibile un dettaglio; un elemento inclinato può segnalare un cambio di registro.
 
@@ -680,9 +667,9 @@ La riga di categorie visibile sul desktop non compare nella vista per telefono. 
 Il confronto permette di osservare allineamenti, occupazioni e successioni, ma non rivela il numero esatto delle tracce CSS o il breakpoint usato. Le due viste sono parzialmente sovrapposte nel montaggio; ciò che resta coperto non può essere ricostruito dalla sola immagine. Si annotano queste limitazioni prima di proporre una griglia capace di riprodurre le relazioni osservate con altri contenuti.
 
 // Fonte Figma 4954:87 · folio 545.
-=== Un esercizio di ricomposizione
+#figura-griglia("397", placement: bottom)
 
-#figura-griglia("397")
+#esercizio(id: "ricomposizione", titolo: [Un esercizio di ricomposizione])[
 
 Si prepara un piccolo insieme di contenuti: titolo di un incontro, presentazione di circa 80 parole, tre appuntamenti, un'immagine e una nota di servizio. Il materiale resta uguale in tutte le varianti.
 
@@ -693,6 +680,7 @@ Si confrontano poi le proposte alla stessa dimensione. Si cerca dove una riga di
 Si traduce poi una proposta in due larghezze di contenitore, conservando titolo, appuntamenti, immagine e nota. Prima di disporre gli elementi si dichiarano margini minimi, intervalli e larghezza massima. Se si usano dodici unità, si annota quante ne occupa ogni gruppo; nella variante stretta si verifica quali gruppi debbano impilarsi per restare leggibili.
 
 La seconda prova riguarda l'immagine: si indica il dettaglio che deve restare riconoscibile e si confrontano un ridimensionamento proporzionale e un ritaglio. La consegna comprende la regola scelta e una condizione nella quale fallisce, per esempio una data su due righe o il soggetto escluso dal campo. Si corregge la regola e si ripetono entrambi i formati, così il confronto documenta anche il motivo della decisione.
+]
 
 // Fonte Figma 4954:88 · folio 546.
 === Una matrice di prove
@@ -732,10 +720,10 @@ Nella @fig-griglia-400, lo scenario di _Sara_ termina con un esito esplicito: la
 Il passaggio al wireframe sviluppa queste relazioni fra schermate. Le decisioni spaziali restano utili, ma vengono lette insieme a navigazione, priorità e feedback. Una griglia funziona quando aiuta a comporre contenuti che conservano significato anche nel passaggio da uno stato al successivo.
 ]
 #[
-// Apparato editoriale senza note: riusa la gabbia documentaria del volume.
-#import "../template/pagine.typ": pagina-documentaria
-#import "../template/editoriale.typ": titolo-apparato
-#pagina-documentaria[
+// Apparato con note locali: conserva la fascia riservata del corpo.
+#import "../template/editoriale.typ": titolo-apparato, nota-compatta
+#pagebreak(weak: true)
+#page(columns: 1)[
 #set text(size: 9pt, variations: (opsz: 9))
 #set par(justify: false, leading: 2pt, spacing: 7pt)
 // Le descrizioni bibliografiche della fonte restano prosa nativa.
@@ -769,7 +757,7 @@ Il passaggio al wireframe sviluppa queste relazioni fra schermate. Le decisioni 
 ]
 
 #block(breakable: false)[
-  #cite(<grigliaCarbon>, form: "prose")
+  #emph("Carbon Design System: 2x Grid")#nota-compatta([IBM Carbon, 2x Grid; versione consultata il 21 ottobre 2026], ("https://www.carbondesignsystem.com/building-blocks/foundations/2x-grid/overview",), etichetta: ([Carbon\/2x-grid],)) <sito-grigliaCarbon-locale-24>
 
   Documentazione ufficiale di mini unità, logica di divisione, comportamenti e breakpoint. Le misure sono specifiche del sistema Carbon.
 ]
@@ -787,37 +775,37 @@ Il passaggio al wireframe sviluppa queste relazioni fra schermate. Le decisioni 
 ]
 
 #block(breakable: false)[
-  #cite(<grigliaMacro>, form: "prose")
+  #emph("Macro layouts")#nota-compatta([Google, macro layout responsivi], ("https://web.dev/learn/design/macro-layouts",), etichetta: ([web.dev\/…\/macro-layouts],)) <sito-grigliaMacro-locale-25>
 
   Organizzazione globale della pagina e adattamento della disposizione allo spazio disponibile.
 ]
 
 #block(breakable: false)[
-  #cite(<grigliaBreakpoints>, form: "prose")
+  #emph("Media queries")#nota-compatta([Google, media query e adattamento], ("https://web.dev/learn/design/media-queries",), etichetta: ([web.dev\/…\/media-queries],)) <sito-grigliaBreakpoints-locale-26>
 
   Condizioni CSS per adattare la presentazione a larghezza, modalità di fruizione e preferenze dell'utente.
 ]
 
 #block(breakable: false)[
-  #cite(<grigliaReflow>, form: "prose")
+  #emph("Understanding Success Criterion 1.4.10: Reflow")#nota-compatta([W3C WAI, 1.4.10 Reflow (AA)], ("https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",), etichetta: ([w3.org\/…\/reflow],)) <sito-grigliaReflow-locale-27>
 
   Spiega il requisito a 320 CSS pixel per contenuti a scorrimento verticale e le eccezioni per parti che richiedono una disposizione bidimensionale.
 ]
 
 #block(breakable: false)[
-  #cite(<grigliaResize>, form: "prose")
+  #emph("Understanding Success Criterion 1.4.4: Resize Text")#nota-compatta([W3C WAI, 1.4.4 Resize Text (AA)], ("https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html",), etichetta: ([w3.org\/…\/resize-text],)) <sito-grigliaResize-locale-28>
 
   Descrive il ridimensionamento del testo fino al 200% senza perdita di informazioni o funzionalità, con le eccezioni previste dal criterio.
 ]
 
 #block(breakable: false)[
-  #cite(<grigliaSpacing>, form: "prose")
+  #emph("Understanding Success Criterion 1.4.12: Text Spacing")#nota-compatta([W3C WAI, 1.4.12 Text Spacing (AA)], ("https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html",), etichetta: ([w3.org\/…\/text-spacing],)) <sito-grigliaSpacing-locale-29>
 
   Distingue i valori di prova delle spaziature dallo stile iniziale della pagina. L'applicazione delle preferenze non deve provocare perdita di contenuti o funzionalità.
 ]
 
 #block(breakable: false)[
-  #cite(<grigliaThirds>, form: "prose")
+  #emph("How to use (& break) the rule of thirds in photography")#nota-compatta([Adobe, uso e limiti della regola dei terzi], ("https://www.adobe.com/creativecloud/photography/technique/rule-of-thirds.html",), etichetta: ([adobe.com\/…\/rule-of-thirds],)) <sito-grigliaThirds-locale-30>
 
   Divisione del campo in terzi come guida compositiva, da valutare in rapporto al soggetto.
 ]
@@ -829,13 +817,13 @@ Il passaggio al wireframe sviluppa queste relazioni fra schermate. Le decisioni 
 ]
 
 #block(breakable: false)[
-  #cite(<grigliaAdaptive>, form: "prose")
+  #emph("Introduction")#nota-compatta([Google, layout adattivi e responsivi], ("https://web.dev/learn/design/intro",), etichetta: ([web.dev\/…\/intro],)) <sito-grigliaAdaptive-locale-31>
 
   Confronta layout fissi, fluidi, adattivi e responsivi; spiega la combinazione di fluidità e cambiamenti alle soglie.
 ]
 
 #block(breakable: false)[
-  #cite(<grigliaContainer>, form: "prose")
+  #emph("CSS container queries")#nota-compatta([MDN, query sulle dimensioni dei contenitori], ("https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries",), etichetta: ([MDN\/Container\_queries],)) <sito-grigliaContainer-locale-32>
 
   Descrive l'adattamento dei componenti in base alle dimensioni di un contenitore antenato predisposto e il confronto con le media query.
 ]
@@ -847,19 +835,19 @@ Il passaggio al wireframe sviluppa queste relazioni fra schermate. Le decisioni 
 ]
 
 #block(breakable: false)[
-  #cite(<grigliaBootstrap>, form: "prose")
+  #emph("Grid system")#nota-compatta([Bootstrap 5.3, struttura e funzionamento del sistema a griglia], ("https://getbootstrap.com/docs/5.3/layout/grid/",), etichetta: ("https://getbootstrap.com/docs/5.3/layout/grid/",)) <sito-grigliaBootstrap-locale-33>
 
   Documenta la griglia configurabile a dodici colonne di Bootstrap 5.3, costruita con Flexbox. Le convenzioni del framework non sono prescrizioni universali.
 ]
 
 #block(breakable: false)[
-  #cite(<grigliaMaxwidth>, form: "prose")
+  #emph("max-width CSS property")#nota-compatta([MDN, larghezza massima di un elemento], ("https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/max-width",), etichetta: ([MDN\/max-width],)) <sito-grigliaMaxwidth-locale-34>
 
   Descrive il limite massimo della larghezza di un elemento, distinto dalla sua centratura e dalle soglie che cambiano la disposizione.
 ]
 
 #block(breakable: false)[
-  #cite(<grigliaGridFlex>, form: "prose")
+  #emph("Relationship of grid layout to other layout methods")#nota-compatta([MDN, relazioni fra CSS Grid e altri metodi di layout], ("https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods",), etichetta: ([MDN\/Relationship\_with\_other\_layout\_methods],)) <sito-grigliaGridFlex-locale-35>
 
   Confronta il coordinamento bidimensionale di Grid con le righe indipendenti di Flexbox, includendo esempi con ritorno a capo.
 ]
@@ -871,13 +859,13 @@ Il passaggio al wireframe sviluppa queste relazioni fra schermate. Le decisioni 
 ]
 
 #block(breakable: false)[
-  #cite(<grigliaObjectfit>, form: "prose")
+  #emph("object-fit CSS property")#nota-compatta([MDN, adattamento e posizione delle immagini], ("https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/object-fit", "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/object-position",), etichetta: ([MDN\/object-fit], [MDN\/object-position],)) <sito-grigliaObjectfit-locale-36>
 
   Definisce come il contenuto di un'immagine si adatta al proprio riquadro, conservando l'intero soggetto o ritagliando l'eccedenza.
 ]
 
 #block(breakable: false)[
-  #cite(<grigliaObjectposition>, form: "prose")
+  #emph("object-position CSS property")#footnote(<sito-grigliaObjectfit-locale-36>)
 
   Descrive l'allineamento dell'immagine nel riquadro: il punto focale va verificato insieme al formato e alla didascalia.
 ]

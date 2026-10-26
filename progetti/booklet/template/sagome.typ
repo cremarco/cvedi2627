@@ -21,6 +21,7 @@
   didascalia: none,
   diritti: none,
   alt: none,
+  numerata: true,
   corpo,
 ) = context {
   assert(id != none and type(id) == str and id != "",
@@ -28,6 +29,8 @@
   assert(file != none, message: "Indicare il path() dell'immagine trasparente.")
   assert(lato in (left, center, right), message: "Il lato della sagoma deve essere left, center oppure right.")
   assert(width > 0pt, message: "La larghezza della sagoma deve essere positiva.")
+  assert(numerata or (didascalia == none and diritti == none),
+    message: "Il capolettera non usa didascalia o progressivo di figura.")
   let fasce = fasce-profilo(profilo)
 
   let rispetto = rispetto-sagoma
@@ -49,11 +52,15 @@
     // Figure e label sono native: numerazione, stile della caption e richiami
     // provengono dal template del libro. Il corpo del paragrafo resta fuori.
     // La didascalia segue il paragrafo, così non ne interrompe una frase.
-    let figura = box(width: spazio.width, height: altezza-immagine)[
-      #figure(box(width: spazio.width, height: altezza-immagine)[
-        #place(top + lato, visuale)
-      ], kind: image, caption: none, placement: none)#label(id)
+    let contenuto = box(width: spazio.width, height: altezza-immagine)[
+      #place(top + lato, visuale)
     ]
+    let figura = box(width: spazio.width, height: altezza-immagine,
+      if numerata {
+        [#figure(contenuto, kind: image, caption: none, placement: none)#label(id)]
+      } else {
+        [#metadata((id: id, lettera: alt)) <booklet-capolettera>#contenuto]
+      })
     let altezza-figura = measure(figura).height
 
     // Un ostacolo sagomato segue il profilo dell'alpha. Il rispetto è aggiunto in punti dopo
@@ -109,7 +116,9 @@
         // fra parole limita però le opportunità rispetto a un paragrafo nativo:
         // con giustezze strette possono restare spazi ampi nel giustificato.
         // Le due impostazioni evitano metà parola prima e dopo la didascalia.
-        content(corpo, hyphenate: false,
+        // Il capolettera ammette la sillabazione anche nel taglio fra regioni:
+        // conserva spazi regolari nelle prime righe strette della parola iniziale.
+        content(corpo, hyphenate: not numerata,
           transform: testo => text(hyphenate: true, testo))
         opt.overflow.state(resto)
       })
@@ -136,3 +145,9 @@
         prefisso: ref(label(id))))
   }
 }
+
+// Un'iniziale illustrata sostituisce una lettera del testo, senza aggiungere
+// una figura numerata. L'alternativa testuale conserva la lettera nella lettura.
+#let capolettera(id: none, file: none, profilo: none, width: 64pt,
+  lettera: "N", corpo) = sagoma(id: id, file: file, profilo: profilo,
+  width: width, lato: left, alt: lettera, numerata: false, corpo)

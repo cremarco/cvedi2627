@@ -1,0 +1,196 @@
+{
+  "schema": "cvedi-booklet-cultural-dimensions-imagegen/v1",
+  "data": "2026-10-25",
+  "stato": "attivo-nel-booklet",
+  "capitolo": "02 · Ricerca, persone e culture",
+  "strumento": "image_gen.imagegen built-in",
+  "richiesta": "Rifare le sei immagini rispettando il colore del capitolo.",
+  "palette": {
+    "accento_riferimento": "#FFB86A",
+    "famiglia": "orange 300",
+    "altri": "nero, grigi neutri, bianco #FFFFFF"
+  },
+  "natura": "Illustrazioni concettuali sintetiche dei poli; non documentano persone o Paesi reali.",
+  "provenienza_precedente": "risorse-condivise/fonti/booklet/dimensioni-culturali-native/copertine/imagegen/manifest-v2.json",
+  "conservazione": "Gli originali della serie rossa e le relative attribuzioni restano conservati nei percorsi condivisi; i nuovi PNG sono copie identiche dei risultati del generatore.",
+  "uso": "Solo booklet Typst; nome e sigla della dimensione sono testo nativo esterno al raster.",
+  "prompt": "prompts.json",
+  "asset": [
+    {
+      "codice": "PDI",
+      "dimensione": "Distanza dal potere",
+      "percorso": "progetti/booklet/assets/dimensioni-culturali-orange-300/originali/pdi.png",
+      "originale_generato": "/Users/marco/.codex/generated_images/01a17379-c5df-7ee2-b112-4442fdf8e37a/exec-4aa0cfcc-9f79-4cc4-8ed9-379d703ce3ab.png",
+      "sha256": "fccaf008c0b14ecdccaa7c11103b1ada5ed5aa314432a24b64827fa9b7d8ee6f",
+      "byte": 1701679,
+      "dimensioni_px": [
+        1086,
+        1448
+      ],
+      "riferimento": "risorse-condivise/immagini/figure/ricerca/pdi-metafora.png",
+      "sha256_riferimento": "d4e986f8fe113550a5b0140ebd91bc59e6ca90771615c75b895ae9742e7f0887",
+      "prompt": "prompts.json#prompts.pdi",
+      "verifica": {
+        "formato_e_proporzioni": "ok",
+        "composizione_e_metafora": "ispezionate",
+        "testo_incorporato": false,
+        "quota_accenti_arancioni": 0.1926,
+        "pixel_rossi_residui": 38,
+        "arancione_modale_srgb": [
+          254,
+          174,
+          78
+        ]
+      }
+    },
+    {
+      "codice": "IDV",
+      "dimensione": "Individualismo e collettivismo",
+      "percorso": "progetti/booklet/assets/dimensioni-culturali-orange-300/originali/idv.png",
+      "originale_generato": "/Users/marco/.codex/generated_images/01a17379-c5df-7ee2-b112-4442fdf8e37a/exec-5f832631-e0cb-4a9f-9aec-5d637e48b20e.png",
+      "sha256": "91f7a37f0e255132bff6012bcf19857622601932bd7e541d0ef5178922ba9e78",
+      "byte": 1704789,
+      "dimensioni_px": [
+        1086,
+        1448
+      ],
+      "riferimento": "risorse-condivise/immagini/figure/ricerca/idv-metafora.png",
+      "sha256_riferimento": "d170e76984e61a4bd8c052b2b0fcc9011eaca0de695df90590129e6b9dd99a9b",
+      "prompt": "prompts.json#prompts.idv",
+      "verifica": {
+        "formato_e_proporzioni": "ok",
+        "composizione_e_metafora": "ispezionate",
+        "testo_incorporato": false,
+        "quota_accenti_arancioni": 0.198,
+        "pixel_rossi_residui": 90,
+        "arancione_modale_srgb": [
+          254,
+          165,
+          73
+        ]
+      }
+    },
+    {
+      "codice": "MAS",
+      "dimensione": "Motivazione al risultato e al successo",
+      "percorso": "progetti/booklet/assets/dimensioni-culturali-orange-300/originali/mas.png",
+      "originale_generato": "/Users/marco/.codex/generated_images/01a17379-c5df-7ee2-b112-4442fdf8e37a/exec-b5ce7037-9bed-4005-8945-272713880803.png",
+      "sha256": "c77654cfd15351df08d4abbe8fd484a834eb4821f1c34695f82e7d20e9eeb039",
+      "byte": 1773005,
+      "dimensioni_px": [
+        1086,
+        1448
+      ],
+      "riferimento": "risorse-condivise/immagini/figure/ricerca/mas-metafora.png",
+      "sha256_riferimento": "273a3eb99ced023467424383e161f08cea99bb89c5dad529040ee924979c8853",
+      "prompt": "prompts.json#prompts.mas",
+      "verifica": {
+        "formato_e_proporzioni": "ok",
+        "composizione_e_metafora": "ispezionate",
+        "testo_incorporato": false,
+        "quota_accenti_arancioni": 0.1782,
+        "pixel_rossi_residui": 13,
+        "arancione_modale_srgb": [
+          254,
+          172,
+          73
+        ]
+      }
+    },
+    {
+      "codice": "UAI",
+      "dimensione": "Avversione all’incertezza",
+      "percorso": "progetti/booklet/assets/dimensioni-culturali-orange-300/originali/uai.png",
+      "originale_generato": "/Users/marco/.codex/generated_images/01a17379-c5df-7ee2-b112-4442fdf8e37a/exec-bbc3e6cb-e777-482a-a262-7952611da2c5.png",
+      "sha256": "d6cfb6c54d08bb6029aa9dbba4f77589b200918fada86e83b757086221487bec",
+      "byte": 1824452,
+      "dimensioni_px": [
+        1086,
+        1448
+      ],
+      "riferimento": "risorse-condivise/immagini/figure/ricerca/uai-metafora.png",
+      "sha256_riferimento": "7cfb3bf9207de245cbf538e61ffbb035e0169bf236e97484db25a78389b3bc34",
+      "prompt": "prompts.json#prompts.uai",
+      "verifica": {
+        "formato_e_proporzioni": "ok",
+        "composizione_e_metafora": "ispezionate",
+        "testo_incorporato": false,
+        "quota_accenti_arancioni": 0.1408,
+        "pixel_rossi_residui": 7,
+        "arancione_modale_srgb": [
+          254,
+          176,
+          82
+        ]
+      }
+    },
+    {
+      "codice": "LTO",
+      "dimensione": "Orientamento a lungo termine",
+      "percorso": "progetti/booklet/assets/dimensioni-culturali-orange-300/originali/lto.png",
+      "originale_generato": "/Users/marco/.codex/generated_images/01a17379-c5df-7ee2-b112-4442fdf8e37a/exec-e1b750d0-b43d-484d-b258-412696d8530c.png",
+      "sha256": "66887be82c596fa7344d41439eed681318fd91f79b064f553a2ef8ffb3dc8c7f",
+      "byte": 1833260,
+      "dimensioni_px": [
+        1086,
+        1448
+      ],
+      "riferimento": "risorse-condivise/immagini/figure/ricerca/lto-metafora.png",
+      "sha256_riferimento": "8a0d9510ee4f230071318e27a32b84c412664708673fba7087462847083c1a67",
+      "prompt": "prompts.json#prompts.lto",
+      "verifica": {
+        "formato_e_proporzioni": "ok",
+        "composizione_e_metafora": "ispezionate",
+        "testo_incorporato": false,
+        "quota_accenti_arancioni": 0.1606,
+        "pixel_rossi_residui": 43,
+        "arancione_modale_srgb": [
+          253,
+          169,
+          78
+        ]
+      }
+    },
+    {
+      "codice": "IVR",
+      "dimensione": "Indulgenza e restrizione",
+      "percorso": "progetti/booklet/assets/dimensioni-culturali-orange-300/originali/ivr.png",
+      "originale_generato": "/Users/marco/.codex/generated_images/01a17379-c5df-7ee2-b112-4442fdf8e37a/exec-4f212824-62cd-4036-91af-3059928de256.png",
+      "sha256": "27d8b703cf076579ceebb9eba8a526416cb3c01b8370d2b5024bc491e36a3199",
+      "byte": 1753260,
+      "dimensioni_px": [
+        1086,
+        1448
+      ],
+      "riferimento": "risorse-condivise/immagini/figure/ricerca/ivr-metafora.png",
+      "sha256_riferimento": "110b8e3bea9957b5e335030ec918b8a35ccc41e42264b763d3984eec8ed90295",
+      "prompt": "prompts.json#prompts.ivr",
+      "verifica": {
+        "formato_e_proporzioni": "ok",
+        "composizione_e_metafora": "ispezionate",
+        "testo_incorporato": false,
+        "quota_accenti_arancioni": 0.2104,
+        "pixel_rossi_residui": 9,
+        "arancione_modale_srgb": [
+          253,
+          175,
+          94
+        ]
+      }
+    }
+  ],
+  "verifica_impaginazione": {
+    "target": "ricerca",
+    "pagine_fisiche": [
+      5,
+      13,
+      21,
+      29,
+      38,
+      46
+    ],
+    "anteprime": "progetti/booklet/build/anteprime-ispezione/ricerca/",
+    "esito": "Sei PNG ispezionati: immagini, titoli nativi e folio leggibili, senza sovrapposizioni.",
+    "collegamenti_e_apparati": "Verificati da pnpm check:booklet."
+  }
+}

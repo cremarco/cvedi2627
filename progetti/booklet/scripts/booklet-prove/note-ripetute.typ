@@ -9,4 +9,7 @@
 Primo richiamo#footnote[Nota unica con #link("https://example.com")[collegamento].]<nota-unica>.
 Una ripetizione#footnote(<nota-unica>) e un rimando nativo @nota-unica.
 #pagebreak()
-La ripetizione sulla pagina successiva#footnote(<nota-unica>) conserva la prima voce.
+Sulla pagina successiva lo stesso URL ha una nuova nota locale#footnote[
+  Nota locale con #link("https://example.com")[collegamento].
+]<nota-seconda-pagina>.
+Un altro richiamo su questa pagina#footnote(<nota-seconda-pagina>) riutilizza il nuovo numero.

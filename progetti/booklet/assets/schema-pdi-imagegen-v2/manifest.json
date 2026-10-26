@@ -1,0 +1,59 @@
+{
+  "status": "proposta-raster-non-integrata",
+  "date": "2026-10-25",
+  "tool": "image_gen.imagegen built-in",
+  "request": "Rendere più artistico lo schema PDI, riprendendo il linguaggio delle aperture del libro.",
+  "chapter": "02 · Ricerca, persone e culture",
+  "data": [
+    {
+      "paese": "Austria",
+      "indice": 11
+    },
+    {
+      "paese": "Danimarca",
+      "indice": 18
+    },
+    {
+      "paese": "Nuova Zelanda",
+      "indice": 22
+    },
+    {
+      "paese": "Guatemala",
+      "indice": 95
+    },
+    {
+      "paese": "Malesia",
+      "indice": 100
+    },
+    {
+      "paese": "Slovacchia",
+      "indice": 100
+    }
+  ],
+  "palette": {
+    "paper": "#FFFFFF",
+    "ink": "#2E3138",
+    "chapterAccent": "#FFB86A",
+    "secondaryInk": "#626872"
+  },
+  "references": {
+    "data": "../schema-pdi-imagegen-v1/schema-pdi-v1.png",
+    "original": "../schema-pdi-imagegen-v1/riferimento-utente.png",
+    "style": "../aperture-imagegen-svg-v1/originali/v3-02-ricerca.png"
+  },
+  "prompts": "prompts.txt",
+  "review": {
+    "text": "Verificati visivamente i sei nomi, i sei punteggi e le etichette della scala.",
+    "style": "Totem geometrici con archi e controforme, arancio, grafite, bianco e piccoli accenti rosa.",
+    "geometry": "Rifinitura ImageGen delle tre altezze minori; geometria raster ancora approssimata, da misurare e allineare in un eventuale esecutivo nativo.",
+    "production": "Proposta artistica conservata separatamente dal componente nativo e dalle attribuzioni attive."
+  },
+  "file": {
+    "path": "schema-pdi-artistico-v2.png",
+    "sha256": "6d4c42fceefb295ddfc7c14f633b536f03d77c7a351972d8c73dc289b3e8e21b",
+    "dimensions": [
+      1536,
+      1024
+    ]
+  }
+}

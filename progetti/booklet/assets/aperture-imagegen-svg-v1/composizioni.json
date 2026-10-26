@@ -155,6 +155,30 @@
         "corpo": 310,
         "spaziatura": -15
       }
+    },
+    {
+      "numero": 8,
+      "nome": "08-composizione",
+      "riferimento": "nativo-08-composizione",
+      "a_capo_dopo": 1,
+      "titolo": {
+        "x": 43,
+        "y": 410,
+        "corpo": 110,
+        "interlinea": 102,
+        "spaziatura": -2.2,
+        "limite_destro": 1012,
+        "corpi_righe": [
+          110,
+          76
+        ]
+      },
+      "codice": {
+        "x": 28,
+        "y": 272,
+        "corpo": 280,
+        "spaziatura": -14
+      }
     }
   ]
 }

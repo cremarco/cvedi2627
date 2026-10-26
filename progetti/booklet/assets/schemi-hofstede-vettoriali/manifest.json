@@ -1,0 +1,336 @@
+{
+  "versione": 1,
+  "stato": "attivo-booklet-vettoriale",
+  "origine": "Ricostruzione nativa dello schema PDI approvato, estesa alle sei dimensioni.",
+  "riferimento_grafico": "../schema-pdi-imagegen-v4/schema-pdi-rifinito-v4.png",
+  "valori_verificati": "valori-verificati.json",
+  "consultazione": "2026-10-25",
+  "catalogo": "risorse-condivise/immagini/figure/ricerca/dimensioni.json",
+  "sorgente_esportazione": "progetti/booklet/assets/schemi-hofstede-vettoriali/esporta.typ",
+  "renderer": {
+    "percorso": "progetti/booklet/template/ricerca.typ",
+    "sha256": "789a49d71aa32b5a21f9f37cfd8c4543871268e93c71325411acb399efa90d66",
+    "funzione": "disegno-grafico"
+  },
+  "generatore": "progetti/booklet/scripts/prepara-schemi-hofstede.py",
+  "font": "risorse-condivise/font/editoriali/manifest.json",
+  "bandiere": {
+    "manifest": "risorse-condivise/fonti/booklet/dimensioni-culturali-native/flags/manifest.json",
+    "origine": "https://github.com/lipis/flag-icons",
+    "commit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
+    "licenza": {
+      "id": "MIT",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/LICENSE",
+      "path": "risorse-condivise/fonti/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "sha256": "8f1195d55a2fd315a07d812328470ca9ba2abb78c8d317ff19619d5125e00cea",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    }
+  },
+  "vettoriale": true,
+  "raster_incorporati": false,
+  "colore_punteggi": "#ffb86a",
+  "gruppi_punteggi_svg": 6,
+  "testi_booklet": "Testi, valori, didascalie e attribuzioni Typst nativi; bandiere SVG originali.",
+  "schemi": [
+    {
+      "codice": "PDI",
+      "titolo": "Distanza dal potere",
+      "svg": "pdi.svg",
+      "sha256": "e24d7329e336ccc76ef29ad77d86666de15ac52a0b40b213aff1fcdc59dc3ed0",
+      "valori_bandiere": [
+        {
+          "paese": "Austria",
+          "iso": "at",
+          "punteggio": 11,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/at.svg",
+          "sha256": "c0e5cb3c1d59fd002afd6e2b0dd03787677ca3c9e7b2321f4af6d9e28256ebcd"
+        },
+        {
+          "paese": "Danimarca",
+          "iso": "dk",
+          "punteggio": 18,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/dk.svg",
+          "sha256": "d2847c0bd7a1fb97977ee51f2f618c5ebc5898dd66ef9804f187613c27bdca1a"
+        },
+        {
+          "paese": "Nuova Zelanda",
+          "iso": "nz",
+          "punteggio": 22,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/nz.svg",
+          "sha256": "794a2c8c09796090ab748a74bc35aed825e701eaddc46b138f300401ac9a25cd"
+        },
+        {
+          "paese": "Guatemala",
+          "iso": "gt",
+          "punteggio": 95,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/gt.svg",
+          "sha256": "a20814d011af90ab2e80ea88eae9928cfce824cb9b50edf7b74ce2a98a159059"
+        },
+        {
+          "paese": "Malesia",
+          "iso": "my",
+          "punteggio": 100,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/my.svg",
+          "sha256": "bb30e84a099d2d9dc286ab091bdd40ae7a8e332eb49827f2df4f11803e613667"
+        },
+        {
+          "paese": "Slovacchia",
+          "iso": "sk",
+          "punteggio": 100,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/sk.svg",
+          "sha256": "578d0693bc95214334248b47c5719dd01cfc9839bd909a726df045d499fabbb6"
+        }
+      ]
+    },
+    {
+      "codice": "IDV",
+      "titolo": "Individualismo e collettivismo",
+      "svg": "idv.svg",
+      "sha256": "5483ba9b48a0111435320cef64c4598407d4e8a66550750775a581fb0a28770e",
+      "valori_bandiere": [
+        {
+          "paese": "Nigeria",
+          "iso": "ng",
+          "punteggio": 0,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/ng.svg",
+          "sha256": "b7a2a45a6499095efce41592428ff558ec5bd83d2751858dfe5fa4589334b66f"
+        },
+        {
+          "paese": "Kenya",
+          "iso": "ke",
+          "punteggio": 4,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/ke.svg",
+          "sha256": "699163d87382eb969d8a26d4ce1a99a00264e8b7b95276abf585476506f46e82"
+        },
+        {
+          "paese": "Bangladesh",
+          "iso": "bd",
+          "punteggio": 5,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/bd.svg",
+          "sha256": "1aabb4a772651fb9a673660233d5bc6f3d78dfc71df09d567769bc97b9eb554f"
+        },
+        {
+          "paese": "Svezia",
+          "iso": "se",
+          "punteggio": 87,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/se.svg",
+          "sha256": "b3b5071e6c1d4a0e3db828bab5c7dfd68d0e90fcf3b25b15e9a2c4f96c1f79c9"
+        },
+        {
+          "paese": "Danimarca",
+          "iso": "dk",
+          "punteggio": 89,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/dk.svg",
+          "sha256": "d2847c0bd7a1fb97977ee51f2f618c5ebc5898dd66ef9804f187613c27bdca1a"
+        },
+        {
+          "paese": "Paesi Bassi",
+          "iso": "nl",
+          "punteggio": 100,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/nl.svg",
+          "sha256": "8f691f17fe70894537af8e92f2ca47761d353639b0defc15cbe561eb503ab010"
+        }
+      ]
+    },
+    {
+      "codice": "MAS",
+      "titolo": "Motivazione al risultato e al successo",
+      "svg": "mas.svg",
+      "sha256": "220fa3019d270ee1b13b81f53a66f70e1c6a96f61fbb3261f243eb31593240ae",
+      "valori_bandiere": [
+        {
+          "paese": "Svezia",
+          "iso": "se",
+          "punteggio": 5,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/se.svg",
+          "sha256": "b3b5071e6c1d4a0e3db828bab5c7dfd68d0e90fcf3b25b15e9a2c4f96c1f79c9"
+        },
+        {
+          "paese": "Norvegia",
+          "iso": "no",
+          "punteggio": 8,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/no.svg",
+          "sha256": "ceea17af051dceefd5759a824213eb40ac8a8095aa88a6874a7bbc8de637357a"
+        },
+        {
+          "paese": "Lettonia",
+          "iso": "lv",
+          "punteggio": 9,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/lv.svg",
+          "sha256": "d0d1ac1c0e301f808be3db32bcd7cdbc8986b6ec15574f557f440caed8b7bb31"
+        },
+        {
+          "paese": "Ungheria",
+          "iso": "hu",
+          "punteggio": 88,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/hu.svg",
+          "sha256": "4891ce591bf29b5b68609c29d973a30f1ef109032d8dab369208d0d5f615bc74"
+        },
+        {
+          "paese": "Giappone",
+          "iso": "jp",
+          "punteggio": 95,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/jp.svg",
+          "sha256": "bfea80baf9989383dc4bf7ca594ed95be0df0ff125bfc88d0bfa878eb0198022"
+        },
+        {
+          "paese": "Slovacchia",
+          "iso": "sk",
+          "punteggio": 100,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/sk.svg",
+          "sha256": "578d0693bc95214334248b47c5719dd01cfc9839bd909a726df045d499fabbb6"
+        }
+      ]
+    },
+    {
+      "codice": "UAI",
+      "titolo": "Avversione all’incertezza",
+      "svg": "uai.svg",
+      "sha256": "cf1a11c6431dba52ab98406dc9bcb3b220c2288c24c0b30c03cafe934dafb7a3",
+      "valori_bandiere": [
+        {
+          "paese": "Singapore",
+          "iso": "sg",
+          "punteggio": 8,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/sg.svg",
+          "sha256": "25de9044c2e2775f7ccf9c1df02dd02342f915715b22c43248452b7ae24079a5"
+        },
+        {
+          "paese": "Danimarca",
+          "iso": "dk",
+          "punteggio": 23,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/dk.svg",
+          "sha256": "d2847c0bd7a1fb97977ee51f2f618c5ebc5898dd66ef9804f187613c27bdca1a"
+        },
+        {
+          "paese": "Svezia",
+          "iso": "se",
+          "punteggio": 29,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/se.svg",
+          "sha256": "b3b5071e6c1d4a0e3db828bab5c7dfd68d0e90fcf3b25b15e9a2c4f96c1f79c9"
+        },
+        {
+          "paese": "Uruguay",
+          "iso": "uy",
+          "punteggio": 98,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/uy.svg",
+          "sha256": "47656c0bf4961a1f7233841eb78756cd45d074e7d4061b8a1217bba7754a30fe"
+        },
+        {
+          "paese": "Portogallo",
+          "iso": "pt",
+          "punteggio": 99,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/pt.svg",
+          "sha256": "a7a2cf0b44aaaaf4f3bdc0ee0fa308ec7085bdfedd3f72da1473d43fd2a569fb"
+        },
+        {
+          "paese": "Grecia",
+          "iso": "gr",
+          "punteggio": 100,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/gr.svg",
+          "sha256": "a184070f7678b06777be8ac38cb05ba41829591a6dac9b64b2b72db66aec82f5"
+        }
+      ]
+    },
+    {
+      "codice": "LTO",
+      "titolo": "Orientamento a lungo termine",
+      "svg": "lto.svg",
+      "sha256": "9108ce6f49852a73bad708f1e4bac5aa007c51ca15af14b8eb2ad53dc381d01f",
+      "valori_bandiere": [
+        {
+          "paese": "Venezuela",
+          "iso": "ve",
+          "punteggio": 0,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/ve.svg",
+          "sha256": "5712f1c63ba0bfa25a853c100cdebfd6698cce98fc2e0ba8d3fab35df541efa1"
+        },
+        {
+          "paese": "Ghana",
+          "iso": "gh",
+          "punteggio": 1,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/gh.svg",
+          "sha256": "53c55ca455293bceecfe6a5d6b12dc0bb670734c50bfd95cb21dc4ef12197405"
+        },
+        {
+          "paese": "Perù",
+          "iso": "pe",
+          "punteggio": 5,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/pe.svg",
+          "sha256": "e9dd299d453d9c173203e60f69623ef2148dbee24b2a1763328e94d4dfece05f"
+        },
+        {
+          "paese": "Taiwan",
+          "iso": "tw",
+          "punteggio": 87,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/tw.svg",
+          "sha256": "931757f06b9ee751fd1a0cc8dd7cf862e21fdcaf894d10ed7bcc68dabcca59ad"
+        },
+        {
+          "paese": "Hong Kong",
+          "iso": "hk",
+          "punteggio": 93,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/hk.svg",
+          "sha256": "d9d142b2b97ec3b8190bff3802072c1b4f15573a679eead89a0ce59986dcad0c"
+        },
+        {
+          "paese": "Giappone",
+          "iso": "jp",
+          "punteggio": 100,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/jp.svg",
+          "sha256": "bfea80baf9989383dc4bf7ca594ed95be0df0ff125bfc88d0bfa878eb0198022"
+        }
+      ]
+    },
+    {
+      "codice": "IVR",
+      "titolo": "Indulgenza e restrizione",
+      "svg": "ivr.svg",
+      "sha256": "26e4061eb06a9194882a0f4981b09ce8658d249370265d3baef2f6f48b00bfaf",
+      "valori_bandiere": [
+        {
+          "paese": "Egitto",
+          "iso": "eg",
+          "punteggio": 0,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/eg.svg",
+          "sha256": "3f85d1d2bdb03692ad68f84efff36be2f5b1b5b7438b7b7be50def3837bf532f"
+        },
+        {
+          "paese": "Pakistan",
+          "iso": "pk",
+          "punteggio": 0,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/pk.svg",
+          "sha256": "89e851c0d541d8166b297e13bed97e0cb500bdb4ae48fd83a86b606a078352a8"
+        },
+        {
+          "paese": "Libano",
+          "iso": "lb",
+          "punteggio": 10,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/lb.svg",
+          "sha256": "94b12b3f1dc43809f93516592f07bb4eb85dabbfdd6010b736f467fa64283e7f"
+        },
+        {
+          "paese": "Portorico",
+          "iso": "pr",
+          "punteggio": 90,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/pr.svg",
+          "sha256": "968c343f7074f4312871383337f26454040aaa84f304460d518da549b2549f8d"
+        },
+        {
+          "paese": "Messico",
+          "iso": "mx",
+          "punteggio": 97,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/mx.svg",
+          "sha256": "9dbc8ad8b35e52ce7cb686d5cd93bd95e4c0dd8505c184186a740148ffd34901"
+        },
+        {
+          "paese": "Venezuela",
+          "iso": "ve",
+          "punteggio": 100,
+          "asset": "risorse-condivise/immagini/figure/ricerca/bandiere/ve.svg",
+          "sha256": "5712f1c63ba0bfa25a853c100cdebfd6698cce98fc2e0ba8d3fab35df541efa1"
+        }
+      ]
+    }
+  ]
+}

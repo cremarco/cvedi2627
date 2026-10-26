@@ -13,6 +13,7 @@ from .inventory import check_inventory
 from .pdf import check_pdf
 from .preview import create_preview
 from .regressions import check_regressions
+from .sources import check_sources, check_unique_note_urls
 
 
 def report_name(action: str, *, assets_only: bool = False, target: str | None = None) -> str:
@@ -66,6 +67,7 @@ def main(argv: list[str] | None = None) -> int:
         report["font"] = check_fonts()
         report["profili"] = check_profiles()
         run([sys.executable, str(BOOKLET / "scripts/colora-aperture.py"), "--check"])
+        run([sys.executable, str(BOOKLET / "scripts/prepara-schemi-accessibilita.py"), "--check"])
         save_json(reports / "manifest-assets.json", {"manifest": manifest_index()})
         print(f"Dati verificati: {len(chapters)} capitoli, {report['font']['font']} font, "
               f"{len(report['profili'])} profili alpha; palette coerenti.", flush=True)
@@ -77,10 +79,13 @@ def main(argv: list[str] | None = None) -> int:
                 summary = compile_document(source, pdf)
                 if args.azione == "check":
                     data = inventory(source)
+                    summary["url_note"] = check_unique_note_urls(data["note"])
                     expected = read_json(PROVE / "attesi.json") if name == "booklet" else None
                     summary["struttura"] = check_inventory(data, expected)
                     summary["pdf"] = check_pdf(pdf, data)
                     if name == "booklet":
+                        summary["fonti"] = check_sources(
+                            data, read_json(BOOKLET / "bibliografia/ruoli-fonti.json"))
                         active = sum(chapter["file"] is not None for chapter in chapters)
                         require(data["capitoli"] == data["bibliografie"] == active,
                                 "Aperture o bibliografie diverse dai capitoli attivi del piano.")

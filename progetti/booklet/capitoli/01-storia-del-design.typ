@@ -3,10 +3,13 @@
 #import "../template/piano.typ": parametri-capitolo
 
 #let testo = [
+#import "../template/figure.typ": figura-al-vivo, figura-nel-testo
+#import "../template/editoriale.typ": nota-compatta
+#import "../template/sagome.typ": capolettera
 // Ordine editoriale del capitolo; le varianti restano nei rispettivi ambiti locali.
 
 // Storia del design: prosa e apparati della fonte corrente, con le revisioni verificate.
-// La prosa scorre automaticamente; soltanto le schermate richieste hanno un foglio dedicato.
+// La prosa scorre automaticamente fra le schermate e le tavole ampie su fogli dedicati.
 // Le figure richiamano bitmap canonici e i due schemi SVG correnti; la scala viene verificata nell’impaginato comune.
 
 #[
@@ -42,12 +45,22 @@ Le origini della comunicazione scritta rappresentano un punto di svolta fondamen
 
 === I manoscritti miniati medievali
 
-Nel Medioevo, una delle espressioni più importanti della comunicazione visiva fu rappresentata dai manoscritti miniati, codici copiati a mano e impreziositi da decorazioni, iniziali ornate e illustrazioni. Molti di essi erano legati alla sfera religiosa e venivano prodotti nei monasteri, dove copisti e miniatori lavoravano con grande precisione negli scriptoria. Accanto ai testi sacri, tuttavia, vennero realizzati anche manoscritti di argomento letterario, giuridico e scientifico. Attraverso la stretta unione tra scrittura e apparato figurativo, questi codici testimoniano una fase fondamentale nella storia della cultura visiva, anticipando lo sviluppo della moderna comunicazione tra parola e immagine (@fig-storia-libro-ore).#sito([The Met, foglio di un _Libro d’ore_.], "https://www.metmuseum.org/art/collection/search/32837")
+#capolettera(
+  id: "iniziale-storia-n-medievale",
+  file: path("/risorse-condivise/immagini/figure/storia-del-design/iniziale-n-scuola-medievale-docente.png"),
+  profilo: json(path("/risorse-condivise/dati/sagome/iniziale-n-scuola-medievale-docente.json")),
+  width: 64pt, lettera: "N",
+)[
+el Medioevo, una delle espressioni più importanti della comunicazione visiva fu rappresentata dai manoscritti miniati, codici copiati a mano e impreziositi da decorazioni, iniziali ornate e illustrazioni. Molti di essi erano legati alla sfera religiosa e venivano prodotti nei monasteri, dove copisti e miniatori lavoravano con grande precisione negli scriptoria. Accanto ai testi sacri, tuttavia, vennero realizzati anche manoscritti di argomento letterario, giuridico e scientifico. Attraverso la stretta unione tra scrittura e apparato figurativo, questi codici testimoniano una fase fondamentale nella storia della cultura visiva, anticipando lo sviluppo della moderna comunicazione tra parola e immagine (@fig-storia-libro-ore).#sito([The Met, foglio di un _Libro d’ore_.], "https://www.metmuseum.org/art/collection/search/32837")
+]
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/libro-ore-foglio-miniato-1390-1400-met.jpg"),
-  [Anonimo francese, foglio di un _Libro d’ore_, 1390–1400. The Met, inv. 23.21.9.],
+#figura-al-vivo(
+  id: "fig-storia-libro-ore", file: path("/risorse-condivise/immagini/figure/storia-del-design/libro-ore-foglio-miniato-1390-1400-met.jpg"),
+  didascalia: [Anonimo francese, foglio di un _Libro d’ore_, 1390–1400. The Met, inv. 23.21.9.],
   alt: "Foglio manoscritto di un Libro d’ore con iniziali, decorazioni e miniature.",
-  diritti: [Public Domain; The Met Open Access.]) <fig-storia-libro-ore>
+  diritti: [Public Domain; The Met Open Access.],
+  rapporto: 1082 / 1431, rifilo: false,
+)
 
 // Tavola 6 · 198:2437
 
@@ -61,9 +74,13 @@ Dal X al XV secolo, i manoscritti dei paesi islamici raggiunsero un livello stra
 
 La ricchezza del disegno e delle illustrazioni dei manoscritti persiani è ben visibile nella pagina che illustra il _Khamsa_ (“Il quintetto”) del grande poeta del XII secolo _Nizami_ (@fig-storia-khamsa) @ecker2019-khamsa.#sito([_Heather Ecker_, Dallas Museum of Art: _Khusraw_ al palazzo di _Shirin_ e il Khamsa di _Nizami_.], "https://blog.dma.org/2019/02/07/the-artful-overlapping-of-old-and-modern-iran/")
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/miniatura-persiana-khamsa-nizami.png"),
-  [_Khusraw al palazzo di Shirin_, miniatura da un manoscritto del _Khamsa_ di _Nizami_, ultimo quarto del XV secolo. The Keir Collection of Islamic Art, in prestito al Dallas Museum of Art, K.1.2014.738.],
-  alt: "Miniatura persiana con figure e testo, da un manoscritto del Khamsa.") <fig-storia-khamsa>
+#figura-al-vivo(
+  id: "fig-storia-khamsa",
+  file: path("/risorse-condivise/immagini/figure/storia-del-design/miniatura-persiana-khamsa-nizami.png"),
+  didascalia: [_Khusraw al palazzo di Shirin_, miniatura da un manoscritto del _Khamsa_ di _Nizami_, ultimo quarto del XV secolo. The Keir Collection of Islamic Art, in prestito al Dallas Museum of Art, K.1.2014.738.],
+  alt: "Miniatura persiana con figure e testo, da un manoscritto del Khamsa.",
+  rapporto: 0.705961152043, ancoraggio: (0.5, 0.5),
+)
 
 // Grafia Nizami attestata dalla fonte curatoriale DMA; il poeta è autore del testo, non della miniatura.
 // Omissione del riferimento regionale approvata dall’utente; la discrepanza resta nel rapporto delle fonti.
@@ -74,7 +91,7 @@ La ricchezza del disegno e delle illustrazioni dei manoscritti persiani è ben v
 
 La stampa permise di riprodurre testi e immagini in più copie, trasformando la circolazione delle informazioni. In Cina, la *stampa xilografica* si sviluppò intorno al VII secolo: si inchiostrava una *matrice* di legno incisa in rilievo e la si premeva sulla carta. La disponibilità della carta favorì questa produzione. Le radici della stampa precedono quindi di molti secoli il suo sviluppo nell’Europa del Rinascimento.
 
-Tra il 1041 e il 1048, *_Bi Sheng_* sperimentò in Cina la stampa con caratteri mobili. In Corea, il *_Jikji_* del *1377* è il più antico libro conservato stampato con *caratteri mobili metallici*. Xilografia e caratteri mobili continuarono a coesistere: la scelta del procedimento dipendeva da testi, risorse e pratiche produttive. La stampa europea ebbe un proprio sviluppo tecnico e commerciale; non va presentata come l’origine mondiale dei caratteri mobili (@fig-storia-jikji) @bnf-jikji.#sito([Bibliothèque nationale de France, _Jikji_.], "https://www.bnf.fr/en/jikji-treasure-world-printing")
+Tra il 1041 e il 1048, *_Bi Sheng_* sperimentò in Cina la stampa con caratteri mobili. In Corea, il *_Jikji_* del *1377* è il più antico libro conservato stampato con *caratteri mobili metallici*. Xilografia e caratteri mobili continuarono a coesistere: la scelta del procedimento dipendeva da testi, risorse e pratiche produttive. La stampa europea ebbe un proprio sviluppo tecnico e commerciale; non va presentata come l’origine mondiale dei caratteri mobili (@fig-storia-jikji).#sito([Bibliothèque nationale de France, _Jikji_.], "https://www.bnf.fr/en/jikji-treasure-world-printing")
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/jikji-1377-secondo-volume-gallica.jpg"),
   [Pagine del _Jikji_, stampato a Cheongju, Corea, nel 1377. BnF, Coréen 109. Fonte: Gallica.],
@@ -104,7 +121,7 @@ Questa tecnica prevedeva l’uso di punzoni in metallo per creare matrici in neg
 
 Nei primi anni della stampa europea, molti caratteri riprendevano la scrittura gotico-textura degli amanuensi. Nel 1470 *_Nicolas Jenson_* incise a Venezia un carattere romano divenuto un riferimento per la tipografia (@fig-storia-jenson).
 
-Nel 1501, il _Virgilio_ pubblicato da _Aldo Manuzio_ unì il *formato in ottavo* al *corsivo* inciso da _Francesco Griffo_, ispirato alla scrittura umanistica. Formato e carattere favorirono la *portabilità* del libro. _Manuzio_ contribuì anche a sistematizzare la punteggiatura: l’innovazione riguardava la stampa e il modo di leggere @marciana-manuzio.#sito([Biblioteca Nazionale Marciana, mostra digitale delle edizioni aldine.], "https://bibliotecanazionalemarciana.cultura.gov.it/en/library/digital-library/aldo-manutius-ten-interludes/")
+Nel 1501, il _Virgilio_ pubblicato da _Aldo Manuzio_ unì il *formato in ottavo* al *corsivo* inciso da _Francesco Griffo_, ispirato alla scrittura umanistica. Formato e carattere favorirono la *portabilità* del libro. _Manuzio_ contribuì anche a sistematizzare la punteggiatura: l’innovazione riguardava la stampa e il modo di leggere.#sito([Biblioteca Nazionale Marciana, mostra digitale delle edizioni aldine.], "https://bibliotecanazionalemarciana.cultura.gov.it/en/library/digital-library/aldo-manutius-ten-interludes/")
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/nicolas-jenson-carattere-romano-1470.png"),
   [Il carattere romano di _Nicolas Jenson_, 1470.],
@@ -114,17 +131,22 @@ Nel 1501, il _Virgilio_ pubblicato da _Aldo Manuzio_ unì il *formato in ottavo*
 
 === Stampa e finitura a mano
 
-La Bibbia di _Gutenberg_, stampata a Magonza intorno al 1454–1455, mostra come *tipografia e lavoro manuale* convivessero. Il testo veniva impresso con caratteri mobili; iniziali, titoli e indicazioni dei capitoli potevano essere completati da *rubricatori e miniatori* dopo la stampa @loc-gutenberg.#sito([Library of Congress.], "https://guides.loc.gov/gutenberg")
+La Bibbia di _Gutenberg_, stampata a Magonza intorno al 1454–1455, mostra come *tipografia e lavoro manuale* convivessero. Il testo veniva impresso con caratteri mobili; iniziali, titoli e indicazioni dei capitoli potevano essere completati da *rubricatori e miniatori* dopo la stampa.#sito([Library of Congress.], "https://guides.loc.gov/gutenberg")
 
 Queste aggiunte organizzavano la lettura e distinguevano le copie. Acquirenti e artigiani intervenivano anche su decorazione e legatura, creando esemplari con aspetti diversi.
 
 La pagina conserva quindi pratiche della cultura manoscritta mentre cambia il modo di produrre il testo. Osserva le due colonne, le iniziali ingrandite e l’ornamento: la storia della stampa riguarda anche il progetto della pagina e le attività necessarie a completarla (@fig-storia-gutenberg).#sito([Library of Congress, pagina della _Bibbia di Gutenberg_.], "https://www.loc.gov/pictures/item/2006680004/")
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/bibbia-gutenberg-pagina-miniata-1454-1455-loc.png"),
-  [Pagina miniata della Bibbia di _Gutenberg_, ca. 1454–1455. Library of Congress, Prints and Photographs Division, LC-USZ62-51844. Riproduzione in bianco e nero.],
+#figura-nel-testo(
+  id: "fig-storia-gutenberg",
+  file: path("/risorse-condivise/immagini/figure/storia-del-design/bibbia-gutenberg-pagina-miniata-1454-1455-loc.png"),
+  didascalia: [Pagina miniata della Bibbia di _Gutenberg_, ca. 1454–1455. Library of Congress, Prints and Photographs Division, LC-USZ62-51844. Riproduzione in bianco e nero.],
   alt: "Pagina della Bibbia di Gutenberg con due colonne di testo, iniziali ingrandite e ornamento, riprodotta in bianco e nero.",
   diritti: [Library of Congress: nessuna restrizione nota alla pubblicazione.],
-  placement: top) <fig-storia-gutenberg>
+  rapporto: 1102 / 1536,
+  colonne: 2,
+  altezza: 110mm,
+)
 
 // Tavola 10 · 2532:285
 
@@ -136,10 +158,14 @@ La pagina diventa così un insieme da comporre, distribuendo parole, figure e sp
 
 Il procedimento favoriva la riproduzione, lasciando spazio anche alla coloritura manuale di alcuni esemplari. Questo libro rende visibile un passaggio decisivo per la grafica editoriale: organizzare la relazione fra ciò che il lettore legge e ciò che osserva (@fig-storia-wolgemut).#sito([The Met, _Danza della morte_.], "https://www.metmuseum.org/art/collection/search/390220")
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/wolgemut-danza-morte-cronaca-norimberga-1493.jpg"),
-  [_Michael Wolgemut_, _Danza della morte_, foglio da _The Nuremberg Chronicle_, 1493. The Met, inv. 2018.839.160. Bequest of _Herbert Mitchell_, 2008.],
+#figura-al-vivo(
+  id: "fig-storia-wolgemut",
+  file: path("/risorse-condivise/immagini/figure/storia-del-design/wolgemut-danza-morte-cronaca-norimberga-1493.jpg"),
+  didascalia: [_Michael Wolgemut_, _Danza della morte_, foglio da _The Nuremberg Chronicle_, 1493. The Met, inv. 2018.839.160. Bequest of _Herbert Mitchell_, 2008.],
   alt: "Foglio della Cronaca di Norimberga con un blocco tipografico sopra la xilografia della Danza della morte.",
-  diritti: [Public Domain; CC0.]) <fig-storia-wolgemut>
+  diritti: [Public Domain; CC0.],
+  rapporto: 0.700380641653, ancoraggio: (0.5, 0.5),
+)
 
 // Tavola 11 · 198:2097
 
@@ -147,9 +173,15 @@ I tipografi adottarono presto le marche tipografiche: segni distintivi stampati 
 
 Nel Seicento si diffusero le gazzette, periodici di informazione che contribuirono allo sviluppo del giornalismo. La stampa periodica divenne anche un nuovo spazio per gli annunci pubblicitari (@fig-storia-gazzetta).
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/gazzetta-mantova-1674-02-16.jpg"),
-  [Gazzetta di Mantova del 16 febbraio 1674.],
-  alt: "Pagina della Gazzetta di Mantova del 16 febbraio 1674.") <fig-storia-gazzetta>
+#figura-nel-testo(
+  id: "fig-storia-gazzetta",
+  file: path("/risorse-condivise/immagini/figure/storia-del-design/gazzetta-mantova-1674-02-16.jpg"),
+  didascalia: [Gazzetta di Mantova del 16 febbraio 1674.],
+  alt: "Pagina della Gazzetta di Mantova del 16 febbraio 1674.",
+  rapporto: 960 / 1308,
+  colonne: 2,
+  altezza: 110mm,
+)
 
 === Illuminismo, tipografia e nuovi caratteri
 
@@ -195,9 +227,13 @@ I designer crearono manifesti sempre più colorati che decoravano le pareti dell
 
 In Francia si sviluppò un vero e proprio movimento legato ai manifesti pubblicitari; suo pioniere fu il designer *_Jules Chéret_*. Dagli anni Sessanta dell’Ottocento creò manifesti litografici su larga scala caratterizzati da colori vivaci, figure animate, superfici lavorate accostate a forme piatte e figure gioiose e dinamiche che catturavano l’essenza dello spirito della belle époque parigina di fine secolo. _Chéret_ disegnò più di mille manifesti nel corso della sua carriera (@fig-storia-cheret).
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/jules-cheret-pantomimes-lumineuses-1892.png"),
-  [“_Pantomimes Lumineuses_” di _Jules Chéret_, 1892.],
-  alt: "Manifesto a colori Pantomimes Lumineuses di Jules Chéret, 1892.") <fig-storia-cheret>
+#figura-al-vivo(
+  id: "fig-storia-cheret",
+  file: path("/risorse-condivise/immagini/figure/storia-del-design/jules-cheret-pantomimes-lumineuses-1892.png"),
+  didascalia: [“_Pantomimes Lumineuses_” di _Jules Chéret_, 1892.],
+  alt: "Manifesto a colori Pantomimes Lumineuses di Jules Chéret, 1892.",
+  rapporto: 0.72105619499, ancoraggio: (0.5, 0.5),
+)
 
 // Tavola 15 · 198:2140
 
@@ -221,9 +257,12 @@ Tra le opere più innovative del movimento si annovera il manifesto realizzato n
 
 Fu tuttavia *_Alphonse Mucha_*, giovane artista ceco attivo a Parigi, a diventare uno dei protagonisti più riconoscibili della grafica Art Nouveau. A partire dagli anni Novanta dell'Ottocento, elaborò composizioni, per lo più incentrate su figure femminili avvenenti, i cui capelli e abiti si dispiegavano in motivi ritmici, che aspiravano a una perfezione idealizzata. Nelle sue opere confluivano in equilibrio serrato elementi decorativi di ascendenza bizantina e islamica, scritte stilizzate e sinuose forme femminili. Come molti suoi contemporanei, _Mucha_ raggiunse la notorietà attraverso i manifesti, ma ricevette commissioni anche per copertine di riviste, packaging, progetti editoriali, materiali pubblicitari e persino francobolli (@fig-storia-mucha).
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/alphonse-mucha-primavera-1900.jpg"),
-  [_La Primavera_ di _Alphonse Mucha_, 1900.],
-  alt: "Manifesto La Primavera di Alphonse Mucha, con una figura femminile e motivi ornamentali.") <fig-storia-mucha>
+#figura-al-vivo(
+  id: "fig-storia-mucha", file: path("/risorse-condivise/immagini/figure/storia-del-design/alphonse-mucha-primavera-1900.jpg"),
+  didascalia: [_La Primavera_ di _Alphonse Mucha_, 1900.],
+  alt: "Manifesto La Primavera di Alphonse Mucha, con una figura femminile e motivi ornamentali.",
+  rapporto: 400 / 813, rifilo: false,
+)
 ]
 #[
 #import "../template/stile.typ": sito, immagine
@@ -235,10 +274,13 @@ Fu tuttavia *_Alphonse Mucha_*, giovane artista ceco attivo a Parigi, a diventar
 
 Nel 1907 AEG nominò *_Peter Behrens_* consulente artistico. Il suo lavoro collegava logo, pubblicità, packaging, prodotti e architettura: l’immagine dell’impresa prendeva forma attraverso molti *punti di contatto*. Il manifesto per le lampade a filamento metallico unisce il nome dell’azienda a una composizione concentrata sulla luce e sul prodotto. I Musei di Berlino considerano questo lavoro uno dei primi esempi di *corporate design*. Il caso mostra un cambiamento di scala: il designer non compone soltanto un singolo messaggio, ma costruisce relazioni riconoscibili tra artefatti diversi. La *coerenza* diventa una qualità del sistema (@fig-storia-aeg).#sito([Staatliche Museen zu Berlin, _Peter Behrens_, _AEG-Metallfadenlampe_.], "https://search.smb.museum/object/obj-931917")
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/behrens-aeg-metallfadenlampe-manifesto-1907.jpg"),
-  [_Peter Behrens_, manifesto AEG-Metallfadenlampe, 1907. Staatliche Museen zu Berlin, Kunstbibliothek. Foto: _Dietmar Katz_.],
+#figura-al-vivo(
+  id: "fig-storia-aeg", file: path("/risorse-condivise/immagini/figure/storia-del-design/behrens-aeg-metallfadenlampe-manifesto-1907.jpg"),
+  didascalia: [_Peter Behrens_, manifesto AEG-Metallfadenlampe, 1907. Staatliche Museen zu Berlin, Kunstbibliothek. Foto: _Dietmar Katz_.],
   alt: "Manifesto AEG-Metallfadenlampe di Peter Behrens con il nome dell’azienda e il prodotto illuminante.",
-  diritti: [Public Domain Mark 1.0, scheda Staatliche Museen zu Berlin.]) <fig-storia-aeg>
+  diritti: [Public Domain Mark 1.0, scheda Staatliche Museen zu Berlin.],
+  rapporto: 2709 / 3500, rifilo: false,
+)
 
 // Tavola 18 · 198:2162
 
@@ -258,13 +300,19 @@ Al contrario, _Flagg_ usava lettere in grassetto e un ritratto realistico di una
 
 Questi due manifesti mostrano approcci diversi alla propaganda visiva, senza esaurire la varietà del design grafico dell’epoca (@fig-storia-gipkens, @fig-storia-flagg).
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/julius-gipkens-kanin-felle-manifesto-1917.jpg"),
-  [Manifesto di _Julius Gipkens_, 1917.],
-  alt: "Manifesto Kanin-Felle abliefern! di Julius Gipkens, 1917, con figure ridotte a campiture piatte.") <fig-storia-gipkens>
+#figura-al-vivo(
+  id: "fig-storia-gipkens", file: path("/risorse-condivise/immagini/figure/storia-del-design/julius-gipkens-kanin-felle-manifesto-1917.jpg"),
+  didascalia: [Manifesto di _Julius Gipkens_, 1917.],
+  alt: "Manifesto Kanin-Felle abliefern! di Julius Gipkens, 1917, con figure ridotte a campiture piatte.",
+  rapporto: 448 / 685, rifilo: false,
+)
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/james-montgomery-flagg-i-want-you-1917.png"),
-  [Il manifesto di _James Montgomery Flagg_, 1917.],
-  alt: "Manifesto I Want You for U.S. Army di James Montgomery Flagg, con una figura che si rivolge alla recluta.") <fig-storia-flagg>
+#figura-al-vivo(
+  id: "fig-storia-flagg", file: path("/risorse-condivise/immagini/figure/storia-del-design/james-montgomery-flagg-i-want-you-1917.png"),
+  didascalia: [Il manifesto di _James Montgomery Flagg_, 1917.],
+  alt: "Manifesto I Want You for U.S. Army di James Montgomery Flagg, con una figura che si rivolge alla recluta.",
+  rapporto: 1095 / 1436, rifilo: false,
+)
 
 === Il Bauhaus
 
@@ -278,16 +326,21 @@ Tra i contributi più significativi alla teoria del design visivo si distinse qu
 
 _Moholy-Nagy_ promosse inoltre l'integrazione armonica di testo e immagine in un'unica composizione, nonché l'adozione di una tipografia funzionale e razionale (@fig-storia-moholy).#sito([MoMA, _László Moholy-Nagy_, _Structure of the World_.], "https://www.moma.org/collection/works/54521")
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/joost-schmidt-bauhaus-ausstellung-1923.jpg"),
-  [Manifesto “_Bauhaus-Ausstellung 1923_”.],
+#figura-al-vivo(
+  id: "fig-storia-bauhaus",
+  file: path("/risorse-condivise/immagini/figure/storia-del-design/joost-schmidt-bauhaus-ausstellung-1923.jpg"),
+  didascalia: [Manifesto “_Bauhaus-Ausstellung 1923_”.],
   alt: "Manifesto dell’esposizione Bauhaus del 1923.",
-  placement: top) <fig-storia-bauhaus>
+  rapporto: 0.691133294187, ancoraggio: (0.5, 0.5),
+)
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/moholy-nagy-structure-world-fotomontaggio-1925.jpg"),
-  [_László Moholy-Nagy_, _Structure of the World_, ca. 1925. Fotomontaggio. MoMA, inv. 508.1939.],
+#figura-al-vivo(
+  id: "fig-storia-moholy", file: path("/risorse-condivise/immagini/figure/storia-del-design/moholy-nagy-structure-world-fotomontaggio-1925.jpg"),
+  didascalia: [_László Moholy-Nagy_, _Structure of the World_, ca. 1925. Fotomontaggio. MoMA, inv. 508.1939.],
   alt: "Fotomontaggio Structure of the World di László Moholy-Nagy, circa 1925.",
   diritti: [© Artists Rights Society (ARS), New York / VG Bild-Kunst, Bonn.],
-  placement: top) <fig-storia-moholy>
+  rapporto: 1448 / 2000, rifilo: false,
+)
 
 // Tavola 20 · 198:2184
 
@@ -333,7 +386,7 @@ Il progetto mostra come la grafica possa sostenere un’attività concreta. Sequ
 
 === Isotype: rendere confrontabili i dati
 
-Nella Vienna degli anni Venti, _Otto Neurath_ e il suo gruppo svilupparono un metodo per comunicare fatti sociali ed economici attraverso immagini. *_Marie Neurath_* trasformava dati e concetti in strutture comprensibili; *_Gerd Arntz_* disegnava i pittogrammi @reading-isotype.#sito([University of Reading, Marie Neurath Collection: ruolo di transformer nel sistema Isotype.], "https://collections.reading.ac.uk/special-collections/collections/marie-neurath-collection/") Nel sistema poi chiamato *Isotype*, una quantità maggiore era rappresentata ripetendo *unità uguali*, anziché ingrandendo arbitrariamente una figura. Nell’atlante _Gesellschaft und Wirtschaft_ del 1930, ogni automobile del grafico riprodotto indica 2,5 milioni di veicoli. Immagini, disposizione e *legenda* lavorano insieme: la semplificazione orienta il confronto, mentre il valore delle unità resta esplicito. È un precedente importante della visualizzazione dei dati (@fig-storia-isotype).#sito([Gerd Arntz Web Archive, _Kraftwagenbestand der Erde_.], "https://gerdarntz.org/node/706/index.html")
+Nella Vienna degli anni Venti, _Otto Neurath_ e il suo gruppo svilupparono un metodo per comunicare fatti sociali ed economici attraverso immagini. *_Marie Neurath_* trasformava dati e concetti in strutture comprensibili; *_Gerd Arntz_* disegnava i pittogrammi.#sito([University of Reading, Marie Neurath Collection: ruolo di transformer nel sistema Isotype.], "https://collections.reading.ac.uk/special-collections/collections/marie-neurath-collection/") Nel sistema poi chiamato *Isotype*, una quantità maggiore era rappresentata ripetendo *unità uguali*, anziché ingrandendo arbitrariamente una figura. Nell’atlante _Gesellschaft und Wirtschaft_ del 1930, ogni automobile del grafico riprodotto indica 2,5 milioni di veicoli. Immagini, disposizione e *legenda* lavorano insieme: la semplificazione orienta il confronto, mentre il valore delle unità resta esplicito. È un precedente importante della visualizzazione dei dati (@fig-storia-isotype).#sito([Gerd Arntz Web Archive, _Kraftwagenbestand der Erde_.], "https://gerdarntz.org/node/706/index.html")
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/neurath-arntz-isotype-automobili-mondo-1930.jpg"),
   [_Kraftwagenbestand der Erde_, da _Gesellschaft und Wirtschaft_, 1930. _Otto Neurath_ e _Gerd Arntz_. Ogni automobile rappresenta 2,5 milioni di veicoli. _Gerd Arntz_ Web Archive.],
@@ -365,9 +418,12 @@ _Rand_ raccolse le proprie riflessioni sul progetto grafico in *_Thoughts on Des
 
 Fra i suoi *progetti storici* di identità aziendale compaiono Westinghouse, Yale, ABC, UPS e IBM. I marchi possono cambiare nel tempo: l’analisi deve considerare la versione del segno e le *regole* che ne guidano l’impiego sui diversi supporti.
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/paul-rand-subway-posters-score-1947.png"),
-  [Manifesto di _Paul Rand_ per promuovere la metro di New York (1947).],
-  alt: "Manifesto di Paul Rand del 1947 per la pubblicità nella metropolitana di New York, con geometrie che richiamano una figura e un bersaglio.") <fig-storia-rand>
+#figura-al-vivo(
+  id: "fig-storia-rand", file: path("/risorse-condivise/immagini/figure/storia-del-design/paul-rand-subway-posters-score-1947.png"),
+  didascalia: [Manifesto di _Paul Rand_ per promuovere la metro di New York (1947).],
+  alt: "Manifesto di Paul Rand del 1947 per la pubblicità nella metropolitana di New York, con geometrie che richiamano una figura e un bersaglio.",
+  rapporto: 450 / 625, rifilo: false,
+)
 
 // Tavola 26 · 198:2256
 
@@ -378,7 +434,7 @@ Fra i suoi *progetti storici* di identità aziendale compaiono Westinghouse, Yal
 Nel dopoguerra, _Henry Wolf_ e _Otto Storch_ integrarono concetto, testo, immagine e tipografia. Televisione e cinema aprirono nuovi spazi alla *grafica animata*.
 
 // Un solo raw contiene le tre aperture; non ripetere l’intera immagine per ciascun crop Figma.
-// Il raw intero segue la larghezza della colonna; la leggibilità delle tre aperture viene verificata nel capitolo.
+// Il collage conserva intere le tre aperture e segue la larghezza della colonna.
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/brodovitch-harpers-bazaar-tre-aperture-editoriali.jpg"),
   [Pagine di «_Harper’s Bazaar_», direzione artistica di _Alexey Brodovitch_.],
@@ -389,15 +445,19 @@ Nel dopoguerra, _Henry Wolf_ e _Otto Storch_ integrarono concetto, testo, immagi
 
 Negli anni Cinquanta e Sessanta, lo stile tipografico svizzero privilegiò caratteri senza grazie, composizioni asimmetriche e *griglie*. *_Josef Müller-Brockmann_* ne fu un protagonista. La griglia organizzava testo e immagini secondo relazioni ripetibili, sostenendo la *coerenza* tra pagine, manifesti e sistemi informativi (@fig-storia-musica-viva).#sito([MoMA, _Josef Müller-Brockmann_, _Musica Viva_.], "https://www.moma.org/collection/works/4885")
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/muller-brockmann-musica-viva-manifesto-1957.jpg"),
-  [_Josef Müller-Brockmann_, _Musica Viva_, 1957. Fotolitografia. MoMA, dono dell’artista.],
-  alt: "Manifesto Musica Viva di Josef Müller-Brockmann, 1957.") <fig-storia-musica-viva>
+#figura-al-vivo(
+  id: "fig-storia-musica-viva",
+  file: path("/risorse-condivise/immagini/figure/storia-del-design/muller-brockmann-musica-viva-manifesto-1957.jpg"),
+  didascalia: [_Josef Müller-Brockmann_, _Musica Viva_, 1957. Fotolitografia. MoMA, dono dell’artista.],
+  alt: "Manifesto Musica Viva di Josef Müller-Brockmann, 1957.",
+  rapporto: 0.71, ancoraggio: (0.5, 0.5),
+)
 
 // Tavola 27 · 2532:351
 
 === L’identità come programma
 
-Nel 1962 _Otl Aicher_ e il *gruppo E5* della Hochschule für Gestaltung di Ulm avviano per Lufthansa il progetto 1400. Il segno della gru, disegnato nel 1918 da _Otto Firle_ per Deutsche Luft-Reederei, viene precisato e inserito in un *programma coordinato* @lufthansa-gru.#sito([Lufthansa.], "https://www.lufthansa.com/de/en/100-years/crane")#super[, ]#sito([HfG-Archiv Ulm.], "https://hfg-archiv.museumulm.de/en/bequests/the-bequest-of-otl-aicher/")
+Nel 1962 _Otl Aicher_ e il *gruppo E5* della Hochschule für Gestaltung di Ulm avviano per Lufthansa il progetto 1400. Il segno della gru, disegnato nel 1918 da _Otto Firle_ per Deutsche Luft-Reederei, viene precisato e inserito in un *programma coordinato*.#sito([Lufthansa.], "https://www.lufthansa.com/de/en/100-years/crane")#super[, ]#sito([HfG-Archiv Ulm.], "https://hfg-archiv.museumulm.de/en/bequests/the-bequest-of-otl-aicher/")
 
 Proporzioni, colori e regole di applicazione collegano aerei, biglietti, etichette per bagagli e architettura. Criteri condivisi mantengono riconoscibile l’identità su supporti diversi, realizzati e aggiornati da persone diverse.
 
@@ -434,17 +494,23 @@ Negli anni Sessanta, *_Herb Lubalin_* sfruttò le potenzialità della fotocompos
 
 Tra i suoi lavori più noti figura il logo per la rivista “_Avant Garde_”, poi divenuto uno dei caratteri più celebri dell'epoca (@fig-storia-avant-garde).
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/herb-lubalin-avant-garde-copertina-1968.png"),
-  [Copertina di _Avant Garde_ (1968), con il logo di _H. Lubalin_.],
-  alt: "Copertina completa di Avant Garde del 1968 con il logotipo disegnato da Herb Lubalin.") <fig-storia-avant-garde>
+#figura-al-vivo(
+  id: "fig-storia-avant-garde", file: path("/risorse-condivise/immagini/figure/storia-del-design/herb-lubalin-avant-garde-copertina-1968.png"),
+  didascalia: [Copertina di _Avant Garde_ (1968), con il logo di _H. Lubalin_.],
+  alt: "Copertina completa di Avant Garde del 1968 con il logotipo disegnato da Herb Lubalin.",
+  rapporto: 1227 / 1281, rifilo: false,
+)
 
 In parallelo, la pubblicità attraversava una propria rivoluzione creativa, fondata su titoli arguti e immagini di grande impatto.
 
 *_George Lois_*, tra i più influenti designer pubblicitari del periodo, firmò oltre novanta copertine per “_Esquire_”, usando la fotografia come strumento per affrontare temi scottanti quali i diritti civili e le tensioni politiche (@fig-storia-esquire).
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/george-lois-esquire-copertina-1968.jpg"),
-  [Copertina di _G. Lois_ per “_Esquire_” (1968).],
-  alt: "Copertina fotografica di Esquire del 1968, diretta da George Lois.") <fig-storia-esquire>
+#figura-al-vivo(
+  id: "fig-storia-esquire", file: path("/risorse-condivise/immagini/figure/storia-del-design/george-lois-esquire-copertina-1968.jpg"),
+  didascalia: [Copertina di _G. Lois_ per “_Esquire_” (1968).],
+  alt: "Copertina fotografica di Esquire del 1968, diretta da George Lois.",
+  rapporto: 1920 / 2456, rifilo: false,
+)
 
 // Tavola 30 · 198:2206
 
@@ -452,7 +518,7 @@ In parallelo, la pubblicità attraversava una propria rivoluzione creativa, fond
 
 Prima del *desktop publishing*, molti layout venivano tracciati a mano. Testi composti separatamente, bozze e riproduzioni fotografiche delle immagini erano assemblati su carta o cartoncino per preparare la stampa. Gli strumenti digitali modificarono questo processo, riunendo sempre più operazioni sullo schermo.
 
-Nel 1984, *MacPaint*, programmato da _Bill Atkinson_ con il contributo progettuale di _Susan Kare_, mise a disposizione strumenti grafici azionati attraverso icone e mouse (@fig-storia-macpaint) @atkinsonHertzfeld2010-macpaint.#sito([_Bill Atkinson_ e _Andy Hertzfeld_, intervista e dimostrazione di MacPaint, registrata il 6 maggio 2010; trascrizione Computer History Museum © 2015.], "https://archive.computerhistory.org/resources/access/text/2015/12/102743021-05-01-acc.pdf") *PostScript*, sviluppato da Adobe, descriveva testo e immagini per la stampa. Nel 1985, *PageMaker* e la stampante LaserWriter contribuirono alla diffusione del *desktop publishing* sul Macintosh @chm-desktop-publishing.#sito([Computer History Museum, Desktop Publishing.], "https://www.computerhistory.org/revolution/personal-computers/17/306")
+Nel 1984, *MacPaint*, programmato da _Bill Atkinson_ con il contributo progettuale di _Susan Kare_, mise a disposizione strumenti grafici azionati attraverso icone e mouse (@fig-storia-macpaint) @atkinsonHertzfeld2010-macpaint.#sito([_Bill Atkinson_ e _Andy Hertzfeld_, intervista e dimostrazione di MacPaint, registrata il 6 maggio 2010; trascrizione Computer History Museum © 2015.], "https://archive.computerhistory.org/resources/access/text/2015/12/102743021-05-01-acc.pdf") *PostScript*, sviluppato da Adobe, descriveva testo e immagini per la stampa. Nel 1985, *PageMaker* e la stampante LaserWriter contribuirono alla diffusione del *desktop publishing* sul Macintosh.#sito([Computer History Museum, Desktop Publishing.], "https://www.computerhistory.org/revolution/personal-computers/17/306")
 
 Il cambiamento riguardava il flusso di lavoro: il designer poteva modificare impaginazione e caratteri, confrontare varianti e preparare materiali digitali per la produzione. Le nuove possibilità alimentavano anche la sperimentazione: sovrapposizioni, frammentazioni e variazioni tipografiche diventavano parte del tono della pagina.
 
@@ -467,9 +533,12 @@ Il cambiamento riguardava il flusso di lavoro: il designer poteva modificare imp
 
 Negli anni Novanta, *_David Carson_* portò una *tipografia* fortemente espressiva in riviste come _Beach Culture_ e _Ray Gun_. Sovrapposizioni, frammentazione e contrasti trasformavano la pagina in parte del *tono editoriale* (@fig-storia-ray-gun).
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/david-carson-ray-gun-copertina-1992.jpg"),
-  [Copertina di “_Ray Gun_”, sotto la direzione artistica di _D. Carson_ (1992).],
-  alt: "Copertina di Ray Gun del 1992, sotto la direzione artistica di David Carson, con tipografia espressiva.") <fig-storia-ray-gun>
+#figura-al-vivo(
+  id: "fig-storia-ray-gun", file: path("/risorse-condivise/immagini/figure/storia-del-design/david-carson-ray-gun-copertina-1992.jpg"),
+  didascalia: [Copertina di “_Ray Gun_”, sotto la direzione artistica di _D. Carson_ (1992).],
+  alt: "Copertina di Ray Gun del 1992, sotto la direzione artistica di David Carson, con tipografia espressiva.",
+  rapporto: 750 / 888, rifilo: false,
+)
 
 === Montaggio e manipolazione
 
@@ -501,7 +570,7 @@ Dall’infrastruttura alle azioni delle persone. Schema di lettura.
 
 === Il web: documenti e collegamenti
 
-Il web nacque al CERN per facilitare la *condivisione* di informazioni tra ricercatori. _Tim Berners-Lee_ propose il progetto nel 1989; alla fine del 1990 erano in funzione il primo server e il browser. Nel 1991 il software venne diffuso oltre il laboratorio. La pagina del progetto collegava descrizioni, istruzioni e risorse: l’*ipertesto* trasformava il documento in un punto di accesso a una rete di contenuti. Il browser originale permetteva anche di *modificare le pagine*. Nel 1993 CERN rese il software disponibile senza royalty @cern-storia-web.#sito([CERN, A short history of the Web.], "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/") Questo caso ricorda che l’evoluzione del web riguarda insieme navigazione, produzione dei contenuti e *apertura* degli strumenti (@fig-storia-cern).#sito([CERN, browser WorldWideWeb su NeXT, screenshot del 1993.], "https://info.cern.ch/NextBrowser1.html")
+Il web nacque al CERN per facilitare la *condivisione* di informazioni tra ricercatori. _Tim Berners-Lee_ propose il progetto nel 1989; alla fine del 1990 erano in funzione il primo server e il browser. Nel 1991 il software venne diffuso oltre il laboratorio. La pagina del progetto collegava descrizioni, istruzioni e risorse: l’*ipertesto* trasformava il documento in un punto di accesso a una rete di contenuti. Il browser originale permetteva anche di *modificare le pagine*. Nel 1993 CERN rese il software disponibile senza royalty.#sito([CERN, A short history of the Web.], "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/") Questo caso ricorda che l’evoluzione del web riguarda insieme navigazione, produzione dei contenuti e *apertura* degli strumenti (@fig-storia-cern).#sito([CERN, browser WorldWideWeb su NeXT, screenshot del 1993.], "https://info.cern.ch/NextBrowser1.html")
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/cern-browser-worldwideweb-next-1993.png"),
   [Il browser WorldWideWeb di _Tim Berners-Lee_ su un computer NeXT. Screenshot del 1993. Fonte: CERN.],
@@ -552,7 +621,7 @@ Nelle pagine seguenti distinguiamo modelli d’interazione, sistemi di progettaz
 
 Il 9 dicembre 1968, *_Douglas Engelbart_* e il suo gruppo presentarono *NLS* (oN-Line System). La dimostrazione, poi nota come “*The Mother of All Demos*”, mostrava mouse, collegamenti ipertestuali, elaborazione di testi e *lavoro collaborativo* con comunicazione audio e video. Il computer veniva proposto come strumento per organizzare conoscenza e cooperare @engelbartEnglish1968-nls.#sito([_Douglas C. Engelbart_ e _William K. English_, A research center for augmenting human intellect, 9 dicembre 1968.], "https://doi.org/10.1145/1476589.1476645") Questo evento contribuì a trasformare la percezione dei computer, presentandoli come strumenti di collaborazione e produttività e ampliando la loro funzione oltre la mera esecuzione di calcoli complessi.
 
-Lo *Xerox Alto*, realizzato al PARC nel 1973, era un *sistema di ricerca* con schermo grafico, mouse e rete. L’interfaccia dipendeva dai *programmi*: Bravo lavorava sui documenti, Gypsy sul taglia e incolla, Smalltalk su finestre e strumenti grafici. Queste esperienze contribuirono alle convenzioni sviluppate nelle interfacce successive @chm-alto.#sito([Computer History Museum, Xerox Alto: Bravo, Gypsy e Smalltalk.], "https://www.computerhistory.org/revolution/input-output/14/347")
+Lo *Xerox Alto*, realizzato al PARC nel 1973, era un *sistema di ricerca* con schermo grafico, mouse e rete. L’interfaccia dipendeva dai *programmi*: Bravo lavorava sui documenti, Gypsy sul taglia e incolla, Smalltalk su finestre e strumenti grafici. Queste esperienze contribuirono alle convenzioni sviluppate nelle interfacce successive.#sito([Computer History Museum, Xerox Alto: Bravo, Gypsy e Smalltalk.], "https://www.computerhistory.org/revolution/input-output/14/347")
 
 *Tre momenti della ricerca sulle interfacce grafiche.*
 
@@ -562,10 +631,16 @@ Lo *Xerox Alto*, realizzato al PARC nel 1973, era un *sistema di ricerca* con sc
 
 La schermata Smalltalk-80 (@fig-storia-36-1) documenta finestre e strumenti grafici.
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/smalltalk-80-interfaccia-finestre-1980.jpg"),
-  [Smalltalk-80: finestre e strumenti grafici, circa 1980. PARC Library, Computer History Museum.],
+#figura-nel-testo(
+  id: "fig-storia-36-1",
+  file: path("/risorse-condivise/immagini/figure/storia-del-design/smalltalk-80-interfaccia-finestre-1980.jpg"),
+  didascalia: [Smalltalk-80: finestre e strumenti grafici, circa 1980. PARC Library, Computer History Museum.],
   diritti: [© PARC (Palo Alto Research Center, Incorporated).],
-  alt: "Smalltalk-80: finestre e strumenti grafici, circa 1980. PARC Library, Computer History Museum.") <fig-storia-36-1>
+  alt: "Smalltalk-80: finestre e strumenti grafici, circa 1980. PARC Library, Computer History Museum.",
+  rapporto: 600 / 705,
+  colonne: 2,
+  altezza: 110mm,
+)
 
 === Il paradigma WIMP
 
@@ -580,7 +655,16 @@ La @fig-storia-37-1 riunisce finestre, icone, menu e puntatore.
   alt: "Paradigma WIMP: finestre, icone, menu e puntatore.",
   placement: bottom, scope: "parent") <fig-storia-37-1>
 
-=== Un linguaggio di pochi pixel
+#[
+  #show heading.where(level: 3): it => block(above: 14pt, below: 4pt, sticky: true)[
+    // Conserva le righe alte 14 pt del titolo ordinario anche con il font pixel.
+    #set text(font: "Press Start 2P", size: 9.5pt, weight: 400, hyphenate: false,
+      top-edge: 12.6pt, bottom-edge: -1.4pt)
+    #set par(justify: false, leading: 0pt)
+    #context counter(heading).display("1.1.1.")#h(3pt)#it.body
+  ]
+  === Un linguaggio di pochi pixel
+]
 
 Le icone del Macintosh mostrano come i limiti tecnici possano diventare materia del progetto. *_Susan Kare_* lavorava anche su carta quadrettata: ogni quadrato corrispondeva a un *pixel*. Nelle icone del sistema, le forbici suggerivano il taglio del testo e il cestino la cancellazione dei file. La figura non decorava soltanto lo schermo: traduceva un’*azione* in un segno riconoscibile. _Kare_ contribuì anche al progetto di MacPaint; _Bill Atkinson_ racconta che osservarla usare il programma gli suggeriva modifiche e nuove funzioni. Il *linguaggio visivo* e il comportamento dell’interfaccia crescevano quindi insieme, attraverso il confronto con un’utilizzatrice reale @atkinsonHertzfeld2010-macpaint.#sito([_Bill Atkinson_ e _Andy Hertzfeld_, intervista su MacPaint, registrata il 6 maggio 2010; passaggio su _Susan Kare_ a p. 9 della trascrizione © CHM 2015.], "https://archive.computerhistory.org/resources/access/text/2015/12/102743021-05-01-acc.pdf")
 
@@ -614,12 +698,18 @@ Leggi la gerarchia prodotta da titoli, link e regole del browser: il contenuto p
 
 *Esempi reali.* @fig-storia-40-1, @fig-storia-40-2, @fig-storia-40-3, @fig-storia-40-4.
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/cern-primo-sito-mobile-cattura-2026.png"),
-  [CERN · viewport stretto · archivio / tema storico#sito([CERN · viewport stretto], "https://info.cern.ch/hypertext/WWW/TheProject.html")],
-  alt: "CERN · viewport stretto archivio / tema storico · info.cern.ch") <fig-storia-40-1>
+#figura-nel-testo(
+  id: "fig-storia-40-1",
+  file: path("/risorse-condivise/immagini/figure/storia-del-design/cern-primo-sito-mobile-cattura-2026.png"),
+  didascalia: [CERN · viewport stretto · archivio / tema storico#sito([CERN · viewport stretto; The World Wide Web project.], "https://info.cern.ch/hypertext/WWW/TheProject.html") <nota-cern-viewport-progetto>],
+  alt: "CERN · viewport stretto archivio / tema storico · info.cern.ch",
+  rapporto: 480 / 660,
+  colonne: 2,
+  altezza: 110mm,
+)
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/cern-primo-sito-desktop-cattura-2026.png"),
-  [CERN · The World Wide Web project · archivio / tema storico#sito([CERN · The World Wide Web project], "https://info.cern.ch/hypertext/WWW/TheProject.html")],
+  [CERN · The World Wide Web project · archivio / tema storico#sito([CERN · viewport stretto; The World Wide Web project.], "https://info.cern.ch/hypertext/WWW/TheProject.html") <nota-layout-01-039>],
   alt: "CERN · The World Wide Web project archivio / tema storico · info.cern.ch") <fig-storia-40-2>
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/berkshire-hathaway-homepage-2026.png"),
@@ -630,10 +720,12 @@ Leggi la gerarchia prodotta da titoli, link e regole del browser: il contenuto p
   [Warner Bros. · Space Jam, 1996 · archivio / tema storico#sito([Warner Bros. · Space Jam, 1996], "https://www.spacejam.com/1996/")],
   alt: "Warner Bros. · Space Jam, 1996 archivio / tema storico · spacejam.com") <fig-storia-40-4>
 
-#schermata(path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-primo-web-home.png"),
-  [Caffè TTC · Il primo web. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Il primo web], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=html")],
-  <fig-storia-39-1>,
-  "Pagina iniziale di Caffè TTC · Il primo web: navigazione, proposte del bar e informazioni pratiche.")
+#figura-nel-testo(
+  id: "fig-storia-39-1", file: path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-primo-web-home.png"),
+  didascalia: [Caffè TTC · Il primo web. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Il primo web], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=html")],
+  alt: "Pagina iniziale di Caffè TTC · Il primo web: navigazione, proposte del bar e informazioni pratiche.",
+  rapporto: 2380 / 3360, colonne: 2, altezza: 110mm,
+)
 
 // Tavole 41–42 · Web 2.0
 
@@ -649,9 +741,15 @@ Il repertorio lucido non definisce il Web 2.0: partecipazione e aspetto dell’i
 
 *Esempi reali.* @fig-storia-42-1, @fig-storia-42-2, @fig-storia-42-3, @fig-storia-42-4.
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/jquery-mobile-tema-classic-2026.png"),
-  [OpenJS · jQuery Mobile Classic · archivio / tema storico#sito([OpenJS · jQuery Mobile Classic], "https://demos.jquerymobile.com/1.4.5/theme-classic/")],
-  alt: "OpenJS · jQuery Mobile Classic archivio / tema storico · demos.jquerymobile.com") <fig-storia-42-1>
+#figura-nel-testo(
+  id: "fig-storia-42-1",
+  file: path("/risorse-condivise/immagini/figure/storia-del-design/jquery-mobile-tema-classic-2026.png"),
+  didascalia: [OpenJS · jQuery Mobile Classic · archivio / tema storico#sito([OpenJS · jQuery Mobile Classic], "https://demos.jquerymobile.com/1.4.5/theme-classic/")],
+  alt: "OpenJS · jQuery Mobile Classic archivio / tema storico · demos.jquerymobile.com",
+  rapporto: 480 / 900,
+  colonne: 2,
+  altezza: 110mm,
+)
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/jquery-ui-themeroller-2026.png"),
   [OpenJS · jQuery UI ThemeRoller · screenshot#sito([OpenJS · jQuery UI ThemeRoller], "https://jqueryui.com/themeroller/")],
@@ -661,14 +759,22 @@ Il repertorio lucido non definisce il Web 2.0: partecipazione e aspetto dell’i
   [WordPress · Default / Kubrick · archivio / tema storico#sito([WordPress · Default / Kubrick], "https://wordpress.org/themes/default/")],
   alt: "WordPress · Default / Kubrick archivio / tema storico · wordpress.org") <fig-storia-42-3>
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/jquery-mobile-versione-1-3-2-cattura-2026.png"),
-  [OpenJS · jQuery Mobile 1.3.2 · archivio / tema storico#sito([OpenJS · jQuery Mobile 1.3.2], "https://demos.jquerymobile.com/1.3.2/")],
-  alt: "OpenJS · jQuery Mobile 1.3.2 archivio / tema storico · demos.jquerymobile.com") <fig-storia-42-4>
+#figura-nel-testo(
+  id: "fig-storia-42-4",
+  file: path("/risorse-condivise/immagini/figure/storia-del-design/jquery-mobile-versione-1-3-2-cattura-2026.png"),
+  didascalia: [OpenJS · jQuery Mobile 1.3.2 · archivio / tema storico#sito([OpenJS · jQuery Mobile 1.3.2], "https://demos.jquerymobile.com/1.3.2/")],
+  alt: "OpenJS · jQuery Mobile 1.3.2 archivio / tema storico · demos.jquerymobile.com",
+  rapporto: 480 / 900,
+  colonne: 2,
+  altezza: 110mm,
+)
 
-#schermata(path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-web-2-0-home.png"),
-  [Caffè TTC · Web 2.0. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Web 2.0], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=web2")],
-  <fig-storia-41-1>,
-  "Pagina iniziale di Caffè TTC · Web 2.0: navigazione, proposte del bar e informazioni pratiche.")
+#figura-nel-testo(
+  id: "fig-storia-41-1", file: path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-web-2-0-home.png"),
+  didascalia: [Caffè TTC · Web 2.0. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Web 2.0], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=web2")],
+  alt: "Pagina iniziale di Caffè TTC · Web 2.0: navigazione, proposte del bar e informazioni pratiche.",
+  rapporto: 2380 / 3360, colonne: 2, altezza: 110mm,
+)
 
 // Tavole 43–44 · Scheumorfismo
 
@@ -682,9 +788,15 @@ La metafora fisica offre indizi soltanto a chi la conosce. Texture e rilievi dev
 
 *Esempi reali.* @fig-storia-44-1, @fig-storia-44-2, @fig-storia-44-3, @fig-storia-44-4.
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/webamp-lettore-musicale-2026.png"),
-  [_Jordan Eldredge_ · Webamp · sito attuale#sito([_Jordan Eldredge_ · Webamp], "https://webamp.org/")],
-  alt: "Jordan Eldredge · Webamp sito attuale · webamp.org") <fig-storia-44-1>
+#figura-nel-testo(
+  id: "fig-storia-44-1",
+  file: path("/risorse-condivise/immagini/figure/storia-del-design/webamp-lettore-musicale-2026.png"),
+  didascalia: [_Jordan Eldredge_ · Webamp · sito attuale#sito([_Jordan Eldredge_ · Webamp], "https://webamp.org/")],
+  alt: "Jordan Eldredge · Webamp sito attuale · webamp.org",
+  rapporto: 560 / 936,
+  colonne: 2,
+  altezza: 110mm,
+)
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/garageband-smart-guitar-2026.png"),
   [Apple · GarageBand Smart Guitar · fonte ufficiale#sito([Apple · GarageBand Smart Guitar], "https://www.apple.com/ios/garageband/")],
@@ -698,10 +810,12 @@ La metafora fisica offre indizi soltanto a chi la conosce. Texture e rilievi dev
   [Reason Studios · rack virtuale · fonte ufficiale#sito([Reason Studios · rack virtuale], "https://www.reasonstudios.com/")],
   alt: "Reason Studios · rack virtuale fonte ufficiale · reasonstudios.com") <fig-storia-44-4>
 
-#schermata(path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-scheumorfismo-home.png"),
-  [Caffè TTC · Scheumorfismo. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Scheumorfismo], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=scheu")],
-  <fig-storia-43-1>,
-  "Pagina iniziale di Caffè TTC · Scheumorfismo: navigazione, proposte del bar e informazioni pratiche.")
+#figura-nel-testo(
+  id: "fig-storia-43-1", file: path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-scheumorfismo-home.png"),
+  didascalia: [Caffè TTC · Scheumorfismo. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Scheumorfismo], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=scheu")],
+  alt: "Pagina iniziale di Caffè TTC · Scheumorfismo: navigazione, proposte del bar e informazioni pratiche.",
+  rapporto: 2380 / 3360, colonne: 2, altezza: 110mm,
+)
 
 // Tavole 45–46 · Flat design
 
@@ -715,26 +829,34 @@ Ridurre i materiali simulati non elimina il bisogno di indizi: azioni e stati de
 
 *Esempi reali.* @fig-storia-46-1, @fig-storia-46-2, @fig-storia-46-3, @fig-storia-46-4.
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/metro-ui-tiles-componenti-2026.png"),
-  [_Serhii Pimenov_ · Metro UI Tiles · screenshot#sito([_Serhii Pimenov_ · Metro UI Tiles], "https://v4.metroui.org.ua/tiles.html")],
-  alt: "Serhii Pimenov · Metro UI Tiles screenshot · v4.metroui.org.ua") <fig-storia-46-1>
+#figura-nel-testo(
+  id: "fig-storia-46-1",
+  file: path("/risorse-condivise/immagini/figure/storia-del-design/metro-ui-tiles-componenti-2026.png"),
+  didascalia: [_Serhii Pimenov_ · Metro UI Tiles · screenshot#sito([_Serhii Pimenov_ · Metro UI Tiles], "https://v4.metroui.org.ua/tiles.html")],
+  alt: "Serhii Pimenov · Metro UI Tiles screenshot · v4.metroui.org.ua",
+  rapporto: 320 / 471,
+  colonne: 2,
+  altezza: 110mm,
+)
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/gov-uk-homepage-2026.png"),
   [Government Digital Service · GOV.UK · fonte ufficiale#sito([Government Digital Service · GOV.UK], "https://www.gov.uk/")],
   alt: "Government Digital Service · GOV.UK fonte ufficiale · gov.uk") <fig-storia-46-2>
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/designmodo-flat-ui-accesso-2026.png"),
-  [Designmodo · Flat UI, modulo di accesso · screenshot#sito([Designmodo · Flat UI, modulo di accesso], "https://designmodo.github.io/Flat-UI/")],
+  [Designmodo · Flat UI, modulo di accesso · screenshot#nota-compatta([Designmodo · Flat UI, modulo di accesso; Designmodo · Flat UI], ("https://designmodo.github.io/Flat-UI/",), etichetta: ("https://designmodo.github.io/Flat-UI/",)) <nota-url-01-57>],
   alt: "Designmodo · Flat UI, modulo di accesso screenshot · designmodo.github.io") <fig-storia-46-3>
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/designmodo-flat-ui-componenti-2026.png"),
-  [Designmodo · Flat UI · screenshot#sito([Designmodo · Flat UI], "https://designmodo.github.io/Flat-UI/")],
-  alt: "Designmodo · Flat UI screenshot · designmodo.github.io") <fig-storia-46-4>
+  [Designmodo · Flat UI · screenshot#nota-compatta([Designmodo · Flat UI, modulo di accesso; Designmodo · Flat UI], ("https://designmodo.github.io/Flat-UI/",), etichetta: ("https://designmodo.github.io/Flat-UI/",)) <nota-layout-01-058>],
+  alt: "Designmodo · Flat UI screenshot · designmodo.github.io", width: 66mm, placement: top, scope: "parent") <fig-storia-46-4>
 
-#schermata(path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-flat-design-home.png"),
-  [Caffè TTC · Flat design. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Flat design], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=flat")],
-  <fig-storia-45-1>,
-  "Pagina iniziale di Caffè TTC · Flat design: navigazione, proposte del bar e informazioni pratiche.")
+#figura-nel-testo(
+  id: "fig-storia-45-1", file: path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-flat-design-home.png"),
+  didascalia: [Caffè TTC · Flat design. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Flat design], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=flat")],
+  alt: "Pagina iniziale di Caffè TTC · Flat design: navigazione, proposte del bar e informazioni pratiche.",
+  rapporto: 2380 / 3360, colonne: 2, altezza: 110mm,
+)
 
 // Tavole 47–48 · Material Design
 
@@ -748,26 +870,34 @@ Superfici, gerarchie e transizioni appartengono a un sistema: la coerenza va ver
 
 *Esempi reali.* @fig-storia-48-1, @fig-storia-48-2, @fig-storia-48-3, @fig-storia-48-4.
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/google-material-design-3-mobile-2026.png"),
-  [Google · Material Design 3 mobile · fonte ufficiale#sito([Google · Material Design 3 mobile], "https://m3.material.io/")],
-  alt: "Google · Material Design 3 mobile fonte ufficiale · m3.material.io") <fig-storia-48-1>
+#figura-nel-testo(
+  id: "fig-storia-48-1",
+  file: path("/risorse-condivise/immagini/figure/storia-del-design/google-material-design-3-mobile-2026.png"),
+  didascalia: [Google · Material Design 3 mobile · fonte ufficiale#nota-compatta([#([Google · Material Design 3 mobile; Google · Material Design 3])], ("https://m3.material.io/",), etichetta: ("https://m3.material.io/",)) <nota-storia-material-mobile-desktop>],
+  alt: "Google · Material Design 3 mobile fonte ufficiale · m3.material.io",
+  rapporto: 480 / 900,
+  colonne: 2,
+  altezza: 110mm,
+)
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/creative-tim-material-dashboard-3-2026.png"),
   [Creative Tim · Material Dashboard 3 · screenshot#sito([Creative Tim · Material Dashboard 3], "https://demos.creative-tim.com/material-dashboard-free/pages/dashboard")],
   alt: "Creative Tim · Material Dashboard 3 screenshot · demos.creative-tim.com") <fig-storia-48-2>
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/google-material-design-3-desktop-2026.png"),
-  [Google · Material Design 3 · fonte ufficiale#sito([Google · Material Design 3], "https://m3.material.io/")],
+  [Google · Material Design 3 · fonte ufficiale#footnote(<nota-storia-material-mobile-desktop>)],
   alt: "Google · Material Design 3 fonte ufficiale · m3.material.io") <fig-storia-48-3>
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/materialize-homepage-2026.png"),
   [Materialize · homepage · screenshot#sito([Materialize · homepage], "https://materializecss.com/")],
   alt: "Materialize · homepage screenshot · materializecss.com") <fig-storia-48-4>
 
-#schermata(path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-material-design-home.png"),
-  [Caffè TTC · Material Design. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Material Design], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=material")],
-  <fig-storia-47-1>,
-  "Pagina iniziale di Caffè TTC · Material Design: navigazione, proposte del bar e informazioni pratiche.")
+#figura-nel-testo(
+  id: "fig-storia-47-1", file: path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-material-design-home.png"),
+  didascalia: [Caffè TTC · Material Design. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Material Design], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=material")],
+  alt: "Pagina iniziale di Caffè TTC · Material Design: navigazione, proposte del bar e informazioni pratiche.",
+  rapporto: 2380 / 3360, colonne: 2, altezza: 110mm,
+)
 
 // Tavole 49–50 · Neumorfismo
 ]
@@ -785,9 +915,15 @@ Il rilievo può perdere leggibilità. Testo, bordi e stati attivi richiedono un 
 
 *Esempi reali.* @fig-storia-50-1, @fig-storia-50-2, @fig-storia-50-3, @fig-storia-50-4.
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/neumorphism-io-generatore-mobile-2026.png"),
-  [_Adam Giebl_ · Neumorphism.io mobile · fonte ufficiale#sito([_Adam Giebl_ · Neumorphism.io mobile], "https://neumorphism.io/")],
-  alt: "Adam Giebl · Neumorphism.io mobile fonte ufficiale · neumorphism.io") <fig-storia-50-1>
+#figura-nel-testo(
+  id: "fig-storia-50-1",
+  file: path("/risorse-condivise/immagini/figure/storia-del-design/neumorphism-io-generatore-mobile-2026.png"),
+  didascalia: [_Adam Giebl_ · Neumorphism.io mobile · fonte ufficiale#sito([_Adam Giebl_ · Neumorphism.io mobile], "https://neumorphism.io/")],
+  alt: "Adam Giebl · Neumorphism.io mobile fonte ufficiale · neumorphism.io",
+  rapporto: 480 / 900,
+  colonne: 2,
+  altezza: 110mm,
+)
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/akaspanion-ui-neumorphism-componenti-2026.png"),
   [_AKAspanion_ · UI Neumorphism · screenshot#sito([_AKAspanion_ · UI Neumorphism], "https://akaspanion.github.io/ui-neumorphism/")],
@@ -801,16 +937,18 @@ Il rilievo può perdere leggibilità. Testo, bordi e stati attivi richiedono un 
   [_Adam Giebl_ · Neumorphism.io · fonte ufficiale#sito([_Adam Giebl_ · Neumorphism.io], "https://neumorphism.io/")],
   alt: "Adam Giebl · Neumorphism.io fonte ufficiale · neumorphism.io") <fig-storia-50-4>
 
-#schermata(path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-neumorfismo-home.png"),
-  [Caffè TTC · Neumorfismo. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Neumorfismo], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=neumo")],
-  <fig-storia-49-1>,
-  "Pagina iniziale di Caffè TTC · Neumorfismo: navigazione, proposte del bar e informazioni pratiche.")
+#figura-nel-testo(
+  id: "fig-storia-49-1", file: path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-neumorfismo-home.png"),
+  didascalia: [Caffè TTC · Neumorfismo. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Neumorfismo], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=neumo")],
+  alt: "Pagina iniziale di Caffè TTC · Neumorfismo: navigazione, proposte del bar e informazioni pratiche.",
+  rapporto: 2380 / 3360, colonne: 2, altezza: 110mm,
+)
 
 // Tavole 51–52 · Glassmorfismo
 
 === Glassmorfismo
 
-Il glassmorfismo suggerisce superfici di vetro attraverso traslucenza, sfocatura e sovrapposizioni. Il fondo resta percepibile mentre il pannello occupa un livello distinto. Nei sistemi ufficiali questi effetti hanno ruoli specifici: Fluent usa Acrylic per superfici transitorie, come menu e popover @microsoft-materiali.#sito([Microsoft Learn, Acrylic material.], "https://learn.microsoft.com/en-us/windows/apps/design/style/acrylic")#super[, ]#sito([Microsoft, Fluent 2: Material.], "https://fluent2.microsoft.design/material") La trasparenza va verificata su fondi diversi; un pannello elegante può perdere *leggibilità* quando cambiano immagini, luminosità e colori sottostanti.
+Il glassmorfismo suggerisce superfici di vetro attraverso traslucenza, sfocatura e sovrapposizioni. Il fondo resta percepibile mentre il pannello occupa un livello distinto. Nei sistemi ufficiali questi effetti hanno ruoli specifici: Fluent usa Acrylic per superfici transitorie, come menu e popover.#sito([Microsoft Learn, Acrylic material.], "https://learn.microsoft.com/en-us/windows/apps/design/style/acrylic")#super[, ]#sito([Microsoft, Fluent 2: Material.], "https://fluent2.microsoft.design/material") La trasparenza va verificata su fondi diversi; un pannello elegante può perdere *leggibilità* quando cambiano immagini, luminosità e colori sottostanti.
 
 Il fondo influenza la lettura del pannello. Trasparenza e sfocatura devono adattarsi al contenuto sottostante. L’esempio della @fig-storia-51-1 riprende i dati del bar nelle diverse varianti.
 
@@ -818,26 +956,34 @@ Il fondo influenza la lettura del pannello. Trasparenza e sfocatura devono adatt
 
 *Esempi reali.* @fig-storia-52-1, @fig-storia-52-2, @fig-storia-52-3, @fig-storia-52-4.
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/apple-music-finestra-verticale-2026.png"),
-  [Apple Music · finestra verticale · sito attuale#sito([Apple Music · finestra verticale], "https://music.apple.com/us/new")],
-  alt: "Apple Music · finestra verticale sito attuale · music.apple.com") <fig-storia-52-1>
+#figura-nel-testo(
+  id: "fig-storia-52-1",
+  file: path("/risorse-condivise/immagini/figure/storia-del-design/apple-music-finestra-verticale-2026.png"),
+  didascalia: [Apple Music · finestra verticale · sito attuale#sito([Apple Music · finestra verticale], "https://music.apple.com/us/new")],
+  alt: "Apple Music · finestra verticale sito attuale · music.apple.com",
+  rapporto: 1000 / 1250,
+  colonne: 2,
+  altezza: 110mm,
+)
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/windows-11-pannello-widgets-2021.png"),
-  [Windows 11 · Widgets, 2021 · fonte ufficiale#sito([Windows 11 · Widgets, 2021], "https://blogs.windows.com/windowsexperience/2021/06/24/introducing-windows-11/")],
+  [Windows 11 · Widgets, 2021 · fonte ufficiale#sito([Windows 11 · Widgets, 2021; Windows 11 · Start], "https://blogs.windows.com/windowsexperience/2021/06/24/introducing-windows-11/") <nota-storia-windows-11-widgets-start>],
   alt: "Windows 11 · Widgets, 2021 fonte ufficiale · blogs.windows.com") <fig-storia-52-2>
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/windows-11-menu-start-2021.png"),
-  [Windows 11 · Start · fonte ufficiale#sito([Windows 11 · Start], "https://blogs.windows.com/windowsexperience/2021/06/24/introducing-windows-11/")],
+  [Windows 11 · Start · fonte ufficiale#sito([Windows 11 · Widgets, 2021; Windows 11 · Start], "https://blogs.windows.com/windowsexperience/2021/06/24/introducing-windows-11/") <nota-layout-01-076>],
   alt: "Windows 11 · Start fonte ufficiale · blogs.windows.com") <fig-storia-52-3>
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/visionos-app-store-2026.png"),
   [visionOS · App Store · fonte ufficiale#sito([visionOS · App Store], "https://www.apple.com/apple-vision-pro/")],
   alt: "visionOS · App Store fonte ufficiale · apple.com") <fig-storia-52-4>
 
-#schermata(path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-glassmorfismo-home.png"),
-  [Caffè TTC · Glassmorfismo. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Glassmorfismo], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=glass")],
-  <fig-storia-51-1>,
-  "Pagina iniziale di Caffè TTC · Glassmorfismo: navigazione, proposte del bar e informazioni pratiche.")
+#figura-nel-testo(
+  id: "fig-storia-51-1", file: path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-glassmorfismo-home.png"),
+  didascalia: [Caffè TTC · Glassmorfismo. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Glassmorfismo], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=glass")],
+  alt: "Pagina iniziale di Caffè TTC · Glassmorfismo: navigazione, proposte del bar e informazioni pratiche.",
+  rapporto: 2380 / 3360, colonne: 2, altezza: 110mm,
+)
 
 // Tavole 53–54 · Minimalismo
 
@@ -851,9 +997,15 @@ Lo spazio negativo è una scelta: togliere elementi non significa togliere orien
 
 *Esempi reali.* @fig-storia-54-1, @fig-storia-54-2, @fig-storia-54-3, @fig-storia-54-4.
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/studio-yoke-homepage-mobile-2026.png"),
-  [Studio Yoke · mobile · sito attuale#sito([Studio Yoke · mobile], "https://www.studioyoke.co.uk/")],
-  alt: "Studio Yoke · mobile sito attuale · studioyoke.co.uk") <fig-storia-54-1>
+#figura-nel-testo(
+  id: "fig-storia-54-1",
+  file: path("/risorse-condivise/immagini/figure/storia-del-design/studio-yoke-homepage-mobile-2026.png"),
+  didascalia: [Studio Yoke · mobile · sito attuale#sito([Studio Yoke · mobile; Studio Yoke · desktop], "https://www.studioyoke.co.uk/") <nota-storia-studio-yoke-mobile-desktop>],
+  alt: "Studio Yoke · mobile sito attuale · studioyoke.co.uk",
+  rapporto: 480 / 760,
+  colonne: 2,
+  altezza: 110mm,
+)
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/kinfolk-homepage-2026.png"),
   [Kinfolk · homepage · sito attuale#sito([Kinfolk · homepage], "https://www.kinfolk.com/")],
@@ -864,13 +1016,15 @@ Lo spazio negativo è una scelta: togliere elementi non significa togliere orien
   alt: "Apple · homepage sito attuale · apple.com") <fig-storia-54-3>
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/studio-yoke-homepage-desktop-2026.png"),
-  [Studio Yoke · desktop · sito attuale#sito([Studio Yoke · desktop], "https://www.studioyoke.co.uk/")],
+  [Studio Yoke · desktop · sito attuale#sito([Studio Yoke · mobile; Studio Yoke · desktop], "https://www.studioyoke.co.uk/") <nota-storia-studio-yoke-mobile-desktop-locale-1>],
   alt: "Studio Yoke · desktop sito attuale · studioyoke.co.uk") <fig-storia-54-4>
 
-#schermata(path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-minimalismo-home.png"),
-  [Caffè TTC · Minimalismo. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Minimalismo], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=minimal")],
-  <fig-storia-53-1>,
-  "Pagina iniziale di Caffè TTC · Minimalismo: navigazione, proposte del bar e informazioni pratiche.")
+#figura-nel-testo(
+  id: "fig-storia-53-1", file: path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-minimalismo-home.png"),
+  didascalia: [Caffè TTC · Minimalismo. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Minimalismo], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=minimal")],
+  alt: "Pagina iniziale di Caffè TTC · Minimalismo: navigazione, proposte del bar e informazioni pratiche.",
+  rapporto: 2380 / 3360, colonne: 2, altezza: 110mm,
+)
 
 // Tavole 55–56 · Y2K
 
@@ -884,9 +1038,15 @@ Cromature e futurismo pop convivono con richiami al primo internet: sono reperto
 
 *Esempi reali.* @fig-storia-56-1, @fig-storia-56-2, @fig-storia-56-3, @fig-storia-56-4.
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/bratz-homepage-mobile-2026.png"),
-  [Bratz · mobile · sito attuale#sito([Bratz · mobile], "https://www.bratz.com/")],
-  alt: "Bratz · mobile sito attuale · bratz.com") <fig-storia-56-1>
+#figura-nel-testo(
+  id: "fig-storia-56-1",
+  file: path("/risorse-condivise/immagini/figure/storia-del-design/bratz-homepage-mobile-2026.png"),
+  didascalia: [Bratz · mobile · sito attuale#nota-compatta([#([Bratz · mobile; Bratz · desktop])], ("https://www.bratz.com/",), etichetta: ("https://www.bratz.com/",)) <nota-storia-bratz-mobile-desktop>],
+  alt: "Bratz · mobile sito attuale · bratz.com",
+  rapporto: 480 / 760,
+  colonne: 2,
+  altezza: 110mm,
+)
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/girls-who-code-girls-campagna-2022.png"),
   [Girls Who Code Girls · campagna 2022 · archivio / tema storico#sito([Girls Who Code Girls · campagna 2022], "https://www.girlswhocodegirls.com/")],
@@ -897,13 +1057,15 @@ Cromature e futurismo pop convivono con richiami al primo internet: sono reperto
   alt: "Cameron’s World · collage sito attuale · cameronsworld.net") <fig-storia-56-3>
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/bratz-homepage-desktop-2026.png"),
-  [Bratz · desktop · sito attuale#sito([Bratz · desktop], "https://www.bratz.com/")],
-  alt: "Bratz · desktop sito attuale · bratz.com") <fig-storia-56-4>
+  [Bratz · desktop · sito attuale#nota-compatta([#([Bratz · mobile; Bratz · desktop])], ("https://www.bratz.com/",), etichetta: ("https://www.bratz.com/",)) <nota-storia-bratz-mobile-desktop-locale-1>],
+  alt: "Bratz · desktop sito attuale · bratz.com", width: 66mm, placement: top, scope: "parent") <fig-storia-56-4>
 
-#schermata(path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-y2k-home.png"),
-  [Caffè TTC · Y2K. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Y2K], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=y2k")],
-  <fig-storia-55-1>,
-  "Pagina iniziale di Caffè TTC · Y2K: navigazione, proposte del bar e informazioni pratiche.")
+#figura-nel-testo(
+  id: "fig-storia-55-1", file: path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-y2k-home.png"),
+  didascalia: [Caffè TTC · Y2K. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Y2K], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=y2k")],
+  alt: "Pagina iniziale di Caffè TTC · Y2K: navigazione, proposte del bar e informazioni pratiche.",
+  rapporto: 2380 / 3360, colonne: 2, altezza: 110mm,
+)
 
 // Tavole 57–58 · Massimalismo
 
@@ -919,9 +1081,15 @@ Coordinare la densità è parte del progetto. Arngren, catalogo online norvegese
 
 *Esempi reali.* @fig-storia-58-1, @fig-storia-58-2, @fig-storia-58-3, @fig-storia-58-4.
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/toiletpaper-homepage-mobile-2026.png"),
-  [TOILETPAPER · mobile · sito attuale#sito([TOILETPAPER · mobile], "https://www.toiletpapermagazine.org/")],
-  alt: "TOILETPAPER · mobile sito attuale · toiletpapermagazine.org") <fig-storia-58-1>
+#figura-nel-testo(
+  id: "fig-storia-58-1",
+  file: path("/risorse-condivise/immagini/figure/storia-del-design/toiletpaper-homepage-mobile-2026.png"),
+  didascalia: [TOILETPAPER · mobile · sito attuale#sito([TOILETPAPER · mobile; TOILETPAPER · desktop], "https://www.toiletpapermagazine.org/") <nota-storia-toiletpaper-mobile-desktop>],
+  alt: "TOILETPAPER · mobile sito attuale · toiletpapermagazine.org",
+  rapporto: 480 / 760,
+  colonne: 2,
+  altezza: 110mm,
+)
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/one-and-all-sito-2019.png"),
   [ONE&ALL · 2019 · archivio / tema storico#sito([ONE&ALL · 2019], "https://www.obergine.com/news-and-blog/2019/november-2019/maximalist-web-design")],
@@ -932,13 +1100,15 @@ Coordinare la densità è parte del progetto. Arngren, catalogo online norvegese
   alt: "Arngren · catalogo sito attuale · arngren.net") <fig-storia-58-3>
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/toiletpaper-homepage-desktop-2026.png"),
-  [TOILETPAPER · desktop · sito attuale#sito([TOILETPAPER · desktop], "https://www.toiletpapermagazine.org/")],
+  [TOILETPAPER · desktop · sito attuale#sito([TOILETPAPER · mobile; TOILETPAPER · desktop], "https://www.toiletpapermagazine.org/") <nota-storia-toiletpaper-mobile-desktop-locale-1>],
   alt: "TOILETPAPER · desktop sito attuale · toiletpapermagazine.org") <fig-storia-58-4>
 
-#schermata(path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-massimalismo-home.png"),
-  [Caffè TTC · Massimalismo. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Massimalismo], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=max")],
-  <fig-storia-57-1>,
-  "Pagina iniziale di Caffè TTC · Massimalismo: navigazione, proposte del bar e informazioni pratiche.")
+#figura-nel-testo(
+  id: "fig-storia-57-1", file: path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-massimalismo-home.png"),
+  didascalia: [Caffè TTC · Massimalismo. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Massimalismo], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=max")],
+  alt: "Pagina iniziale di Caffè TTC · Massimalismo: navigazione, proposte del bar e informazioni pratiche.",
+  rapporto: 2380 / 3360, colonne: 2, altezza: 110mm,
+)
 
 // Tavole 59–60 · Brutalismo e neobrutalismo
 
@@ -952,26 +1122,34 @@ Nel neobrutalismo bordi e ombre diventano segni espliciti. Il contrasto espressi
 
 *Esempi reali.* @fig-storia-60-1, @fig-storia-60-2, @fig-storia-60-3, @fig-storia-60-4.
 
-#immagine(path("/risorse-condivise/immagini/figure/storia-del-design/gumroad-homepage-mobile-2026.png"),
-  [Gumroad · mobile · sito attuale#sito([Gumroad · mobile], "https://gumroad.com/")],
-  alt: "Gumroad · mobile sito attuale · gumroad.com") <fig-storia-60-1>
+#figura-nel-testo(
+  id: "fig-storia-60-1",
+  file: path("/risorse-condivise/immagini/figure/storia-del-design/gumroad-homepage-mobile-2026.png"),
+  didascalia: [Gumroad · mobile · sito attuale#nota-compatta([Gumroad · mobile; Gumroad · desktop], "https://gumroad.com/") <nota-storia-gumroad-mobile-desktop>],
+  alt: "Gumroad · mobile sito attuale · gumroad.com",
+  rapporto: 480 / 760,
+  colonne: 2,
+  altezza: 110mm,
+)
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/neobrutalism-components-homepage-2026.png"),
   [Neobrutalism components · sito implementato · sito attuale#sito([Neobrutalism components · sito implementato], "https://www.neobrutalism.dev/")],
   alt: "Neobrutalism components · sito implementato sito attuale · neobrutalism.dev") <fig-storia-60-2>
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/panda-css-homepage-2026.png"),
-  [Panda CSS · homepage · sito attuale#sito([Panda CSS · homepage], "https://panda-css.com/")],
+  [Panda CSS · homepage · sito attuale#nota-compatta([Panda CSS · homepage], "https://panda-css.com/")],
   alt: "Panda CSS · homepage sito attuale · panda-css.com") <fig-storia-60-3>
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/gumroad-homepage-desktop-2026.png"),
-  [Gumroad · desktop · sito attuale#sito([Gumroad · desktop], "https://gumroad.com/")],
+  [Gumroad · desktop · sito attuale#nota-compatta([Gumroad · mobile; Gumroad · desktop], "https://gumroad.com/") <nota-storia-gumroad-mobile-desktop-locale-1>],
   alt: "Gumroad · desktop sito attuale · gumroad.com") <fig-storia-60-4>
 
-#schermata(path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-neobrutalismo-home.png"),
-  [Caffè TTC · Brutalismo e neobrutalismo. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Brutalismo e neobrutalismo], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=neo")],
-  <fig-storia-59-1>,
-  "Pagina iniziale di Caffè TTC · Brutalismo e neobrutalismo: navigazione, proposte del bar e informazioni pratiche.")
+#figura-nel-testo(
+  id: "fig-storia-59-1", file: path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-neobrutalismo-home.png"),
+  didascalia: [Caffè TTC · Brutalismo e neobrutalismo. Schermata dell’esempio web; bar e contenuti sono fittizi.#sito([Caffè TTC · Brutalismo e neobrutalismo], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=neo")],
+  alt: "Pagina iniziale di Caffè TTC · Brutalismo e neobrutalismo: navigazione, proposte del bar e informazioni pratiche.",
+  rapporto: 2380 / 3360, colonne: 2, altezza: 110mm,
+)
 ]
 #[
 #import "../template/stile.typ": sito, immagine, schermata
@@ -997,7 +1175,7 @@ Scenari progettuali, osservati a ottobre 2026
 
 === Tipografia adattabile ed espressiva
 
-I *caratteri variabili* permettono di modificare peso, larghezza e altre qualità delle lettere entro gli assi previsti dal progetto. *Roboto Flex* mostra come una famiglia possa adattare titoli e testi a ruoli differenti @google-font-variabili. Material 3 Expressive combina invece forme, colore e movimento per dare maggiore identità alle interfacce @google-expressive.#sito([Google Design, Better, Easier, Emotional UX: ricerca e limiti contestuali di Material 3 Expressive.], "https://design.google/library/expressive-material-design-google-research") Una possibile direzione è un linguaggio visivo che cambia con lo spazio e le *preferenze* della persona, mantenendo gerarchie riconoscibili. L’espressività richiede misura: deformazioni e animazioni non devono ostacolare la lettura.
+I *caratteri variabili* permettono di modificare peso, larghezza e altre qualità delle lettere entro gli assi previsti dal progetto. *Roboto Flex* mostra come una famiglia possa adattare titoli e testi a ruoli differenti.#nota-compatta(text("Migrating to variable fonts"), "https://codelabs.developers.google.com/migrating-variable-fonts", etichetta: text("codelabs.developers.google.com/migrating-variable-fonts")) Material 3 Expressive combina invece forme, colore e movimento per dare maggiore identità alle interfacce @google-expressive.#sito([Google Design, Better, Easier, Emotional UX: ricerca e limiti contestuali di Material 3 Expressive.], "https://design.google/library/expressive-material-design-google-research") Una possibile direzione è un linguaggio visivo che cambia con lo spazio e le *preferenze* della persona, mantenendo gerarchie riconoscibili. L’espressività richiede misura: deformazioni e animazioni non devono ostacolare la lettura.
 
 Una gerarchia stabile permette di adattare il carattere delle lettere senza disorientare. Espressività, deformazioni e movimento vanno dosati per proteggere la lettura. La @fig-storia-62-1 mostra il laboratorio Caffè TTC su schermo ampio; la @fig-storia-62-2 documenta gli assi di Roboto Flex.
 
@@ -1008,41 +1186,45 @@ Una gerarchia stabile permette di adattare il carattere delle lettere senza diso
   diritti: [Google Developers. Contenuti del Codelab CC BY 4.0, salvo eccezioni dichiarate.],
   alt: "Assi di Roboto Flex. Google Developers.") <fig-storia-62-2>
 
-#schermata(path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-adattabile-home-desktop.png"),
-  [Caffè TTC · Tipografia adattabile, schermo ampio. Il campione usa Roboto Flex e offre controlli per variare il carattere.#sito([Caffè TTC · Tipografia adattabile], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=adattabile")],
-  <fig-storia-62-1>,
-  "Caffè TTC, laboratorio tipografico su schermo ampio: campione La tua lettura, preset e controlli degli assi di Roboto Flex.")
+#figura-nel-testo(
+  id: "fig-storia-62-1", file: path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-adattabile-home-desktop.png"),
+  didascalia: [Caffè TTC · Tipografia adattabile, schermo ampio. Il campione usa Roboto Flex e offre controlli per variare il carattere.#sito([Caffè TTC · Tipografia adattabile], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=adattabile")],
+  alt: "Caffè TTC, laboratorio tipografico su schermo ampio: campione La tua lettura, preset e controlli degli assi di Roboto Flex.",
+  rapporto: 2380 / 3360, colonne: 2, altezza: 110mm,
+)
 
 // Tavola 63 · Profondità
 
 === Profondità e materiali dinamici
 
-La *profondità* può distinguere contenuti, strumenti e stati dell’interfaccia. *Liquid Glass* organizza controlli e navigazione sopra il contenuto con un materiale dinamico @apple-materiali. Nelle linee guida di *visionOS*, finestre e volumi occupano uno spazio percepibile attraverso distanza, occlusione e ombre @apple-spazio. Questi esempi aprono una possibile direzione: superfici capaci di adattarsi al contesto e comunicare relazioni. La tridimensionalità serve quando chiarisce il compito. Testi sospesi, livelli eccessivi o trasparenze indiscriminate possono aumentare fatica e ambiguità.
+La *profondità* può distinguere contenuti, strumenti e stati dell’interfaccia. *Liquid Glass* organizza controlli e navigazione sopra il contenuto con un materiale dinamico.#nota-compatta([#text("Materials")#text("; ")Liquid Glass, chiaro; Liquid Glass, scuro], ("https://developer.apple.com/design/human-interface-guidelines/materials",), etichetta: (text("developer.apple.com/…/materials"),)) <nota-url-01-106> Nelle linee guida di *visionOS*, finestre e volumi occupano uno spazio percepibile attraverso distanza, occlusione e ombre.#nota-compatta(text("Spatial layout"), "https://developer.apple.com/design/human-interface-guidelines/spatial-layout/", etichetta: text("developer.apple.com/…/spatial-layout")) Questi esempi aprono una possibile direzione: superfici capaci di adattarsi al contesto e comunicare relazioni. La tridimensionalità serve quando chiarisce il compito. Testi sospesi, livelli eccessivi o trasparenze indiscriminate possono aumentare fatica e ambiguità.
 
 L’ipotesi Caffè TTC (@fig-storia-63-1) viene affiancata agli esempi documentari di Liquid Glass (@fig-storia-63-2, @fig-storia-63-3) e visionOS (@fig-storia-63-4, @fig-storia-63-5).
 
 
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/apple-liquid-glass-materiale-sfondo-chiaro.png"),
-  [Liquid Glass, chiaro. Apple HIG.#sito([Liquid Glass, chiaro.], "https://developer.apple.com/design/human-interface-guidelines/materials")],
+  [Liquid Glass, chiaro. Apple HIG.#nota-compatta([#text("Materials")#text("; ")Liquid Glass, chiaro; Liquid Glass, scuro], ("https://developer.apple.com/design/human-interface-guidelines/materials",), etichetta: (text("developer.apple.com/…/materials"),)) <nota-url-01-106-locale-immagini>],
   alt: "Liquid Glass, chiaro. Apple HIG.") <fig-storia-63-2>
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/apple-liquid-glass-materiale-sfondo-scuro.png"),
-  [Liquid Glass, scuro. Apple HIG.#sito([Liquid Glass, scuro.], "https://developer.apple.com/design/human-interface-guidelines/materials")],
+  [Liquid Glass, scuro. Apple HIG.#nota-compatta([#text("Materials")#text("; ")Liquid Glass, chiaro; Liquid Glass, scuro], ("https://developer.apple.com/design/human-interface-guidelines/materials",), etichetta: (text("developer.apple.com/…/materials"),)) <nota-layout-01-109>],
   alt: "Liquid Glass, scuro. Apple HIG.") <fig-storia-63-3>
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/apple-visionos-finestra-spaziale-notes.png"),
-  [Finestra in visionOS. Apple HIG.#sito([Finestra in visionOS.], "https://developer.apple.com/design/human-interface-guidelines/spatial-layout/")],
+  [Finestra in visionOS. Apple HIG.#nota-compatta([#([Finestra in visionOS; Volume in visionOS])], ("https://developer.apple.com/design/human-interface-guidelines/spatial-layout/",), etichetta: ("https://developer.apple.com/design/human-interface-guidelines/spatial-layout/",)) <nota-url-01-110>],
   alt: "Finestra in visionOS. Apple HIG.") <fig-storia-63-4>
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/apple-visionos-volume-spaziale.png"),
-  [Volume in visionOS. Apple HIG.#sito([Volume in visionOS.], "https://developer.apple.com/design/human-interface-guidelines/spatial-layout/")],
-  alt: "Volume in visionOS. Apple HIG.") <fig-storia-63-5>
+  [Volume in visionOS. Apple HIG.#footnote(<nota-url-01-110>)],
+  alt: "Volume in visionOS. Apple HIG.", width: 66mm, placement: top, scope: "parent") <fig-storia-63-5>
 
-#schermata(path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-interfaccia-spaziale-home.png"),
-  [Caffè TTC · simulazione AR. Pannelli e prodotti su piani distinti davanti a una strada fotografica sintetica; la scena non usa la fotocamera.#sito([Caffè TTC · simulazione AR], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=spaziale")],
-  <fig-storia-63-1>,
-  "Caffè TTC · simulazione AR. Pannelli e prodotti su piani distinti davanti a una strada fotografica sintetica; la scena non usa la fotocamera.")
+#figura-nel-testo(
+  id: "fig-storia-63-1", file: path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-interfaccia-spaziale-home.png"),
+  didascalia: [Caffè TTC · simulazione AR. Pannelli e prodotti su piani distinti davanti a una strada fotografica sintetica; la scena non usa la fotocamera.#sito([Caffè TTC · simulazione AR], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=spaziale")],
+  alt: "Caffè TTC · simulazione AR. Pannelli e prodotti su piani distinti davanti a una strada fotografica sintetica; la scena non usa la fotocamera.",
+  rapporto: 2380 / 3360, colonne: 2, altezza: 110mm,
+)
 
 // Tavola 64 · La conversazione del sito TTC sostituisce il precedente calcolatore fittizio.
 
@@ -1058,10 +1240,12 @@ La persona verifica e corregge la proposta prima di confermare. Stato, provenien
   [Interfacce generative. Google Research, 2025.#sito([Interfacce generative.], "https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/")],
   alt: "Interfacce generative. Google Research, 2025.") <fig-storia-64-1>
 
-#schermata(path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-interfaccia-generativa-home.png"),
-  [Caffè TTC · interfaccia generativa. La conversazione predefinita compone la pagina con i dati locali del bar: è una simulazione, con contenuti fittizi.#sito([Caffè TTC · interfaccia generativa], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=generativa")],
-  <fig-storia-generativa>,
-  "Conversazione simulata di Caffè TTC: tre richieste e tre risposte compongono la pagina con le proposte, l’indirizzo e gli orari del bar immaginario.")
+#figura-nel-testo(
+  id: "fig-storia-generativa", file: path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-interfaccia-generativa-home.png"),
+  didascalia: [Caffè TTC · interfaccia generativa. La conversazione predefinita compone la pagina con i dati locali del bar: è una simulazione, con contenuti fittizi.#sito([Caffè TTC · interfaccia generativa], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=generativa")],
+  alt: "Conversazione simulata di Caffè TTC: tre richieste e tre risposte compongono la pagina con le proposte, l’indirizzo e gli orari del bar immaginario.",
+  rapporto: 2380 / 3360, colonne: 2, altezza: 110mm,
+)
 
 // Tavola 65 · Risorse
 
@@ -1077,10 +1261,12 @@ Menu e orari restano disponibili come testo e collegamenti. Nella variante Primi
   [Sito solare di Low-tech Magazine, ottobre 2026.#sito([Sito solare di Low-tech], "https://solar.lowtechmagazine.com/")],
   alt: "Sito solare di Low-tech Magazine, ottobre 2026.") <fig-storia-65-2>
 
-#schermata(path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-primissimo-web-testuale-home.png"),
-  [Caffè TTC · Primissimo web. Pagina composta da testo e collegamenti, senza immagini. La composizione essenziale riduce le risorse visive, senza dimostrare da sola la sostenibilità del servizio.#sito([Caffè TTC · Primissimo web], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=text")],
-  <fig-storia-65-1>,
-  "Caffè TTC · Primissimo web. Pagina composta da testo e collegamenti, senza immagini. La composizione essenziale riduce le risorse visive, senza dimostrare da sola la sostenibilità del servizio.")
+#figura-nel-testo(
+  id: "fig-storia-65-1", file: path("/risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-primissimo-web-testuale-home.png"),
+  didascalia: [Caffè TTC · Primissimo web. Pagina composta da testo e collegamenti, senza immagini. La composizione essenziale riduce le risorse visive, senza dimostrare da sola la sostenibilità del servizio.#sito([Caffè TTC · Primissimo web], "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=text")],
+  alt: "Caffè TTC · Primissimo web. Pagina composta da testo e collegamenti, senza immagini. La composizione essenziale riduce le risorse visive, senza dimostrare da sola la sostenibilità del servizio.",
+  rapporto: 2380 / 3360, colonne: 2, altezza: 110mm,
+)
 
 // Tavola 66 · Criteri verificabili, non un nuovo stile imposto.
 

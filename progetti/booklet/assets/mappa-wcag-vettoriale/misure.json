@@ -1,0 +1,4227 @@
+{
+  "versione": 2,
+  "tela": [
+    1054.0,
+    1492.0
+  ],
+  "colonne": 3,
+  "corpo_criteri": 15.9,
+  "interlinea_criteri": 19.08,
+  "larghezza_colonna": 315.3333333333333,
+  "principi": [
+    {
+      "numero": 1,
+      "x": 28.0,
+      "y": 120.0,
+      "larghezza": 315.3333333333333,
+      "fondo": 1273.36
+    },
+    {
+      "numero": 2,
+      "x": 369.3333333333333,
+      "y": 120.0,
+      "larghezza": 315.3333333333333,
+      "fondo": 1405.76
+    },
+    {
+      "numero": 3,
+      "x": 710.6666666666666,
+      "y": 120.0,
+      "larghezza": 315.3333333333333,
+      "fondo": 872.4000000000001
+    },
+    {
+      "numero": 4,
+      "x": 710.6666666666666,
+      "y": 900.4000000000001,
+      "larghezza": 315.3333333333333,
+      "fondo": 1118.3600000000001
+    }
+  ],
+  "linee_guida": [
+    {
+      "id": "1.1",
+      "principio": 1,
+      "x": 28.0,
+      "y": 237.6,
+      "larghezza": 315.3333333333333,
+      "fondo": 300.28000000000003
+    },
+    {
+      "id": "1.2",
+      "principio": 1,
+      "x": 28.0,
+      "y": 300.28000000000003,
+      "larghezza": 315.3333333333333,
+      "fondo": 668.3599999999999
+    },
+    {
+      "id": "1.3",
+      "principio": 1,
+      "x": 28.0,
+      "y": 668.3599999999999,
+      "larghezza": 315.3333333333333,
+      "fondo": 857.52
+    },
+    {
+      "id": "1.4",
+      "principio": 1,
+      "x": 28.0,
+      "y": 857.52,
+      "larghezza": 315.3333333333333,
+      "fondo": 1273.36
+    },
+    {
+      "id": "2.1",
+      "principio": 2,
+      "x": 369.3333333333333,
+      "y": 221.4,
+      "larghezza": 315.3333333333333,
+      "fondo": 386.68
+    },
+    {
+      "id": "2.2",
+      "principio": 2,
+      "x": 369.3333333333333,
+      "y": 386.68,
+      "larghezza": 315.3333333333333,
+      "fondo": 594.9200000000001
+    },
+    {
+      "id": "2.3",
+      "principio": 2,
+      "x": 369.3333333333333,
+      "y": 594.9200000000001,
+      "larghezza": 315.3333333333333,
+      "fondo": 719.6400000000001
+    },
+    {
+      "id": "2.4",
+      "principio": 2,
+      "x": 369.3333333333333,
+      "y": 719.6400000000001,
+      "larghezza": 315.3333333333333,
+      "fondo": 1116.4
+    },
+    {
+      "id": "2.5",
+      "principio": 2,
+      "x": 369.3333333333333,
+      "y": 1116.4,
+      "larghezza": 315.3333333333333,
+      "fondo": 1405.76
+    },
+    {
+      "id": "3.1",
+      "principio": 3,
+      "x": 710.6666666666666,
+      "y": 221.4,
+      "larghezza": 315.3333333333333,
+      "fondo": 391.4800000000001
+    },
+    {
+      "id": "3.2",
+      "principio": 3,
+      "x": 710.6666666666666,
+      "y": 391.4800000000001,
+      "larghezza": 315.3333333333333,
+      "fondo": 561.5600000000002
+    },
+    {
+      "id": "3.3",
+      "principio": 3,
+      "x": 710.6666666666666,
+      "y": 561.5600000000002,
+      "larghezza": 315.3333333333333,
+      "fondo": 872.4000000000001
+    },
+    {
+      "id": "4.1",
+      "principio": 4,
+      "x": 710.6666666666666,
+      "y": 1034.2,
+      "larghezza": 315.3333333333333,
+      "fondo": 1118.3600000000001
+    }
+  ],
+  "criteri": [
+    {
+      "id": "1.1.1",
+      "principio": 1,
+      "linea_guida": "1.1",
+      "livello": "A",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 265.8,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "1.2.1",
+      "principio": 1,
+      "linea_guida": "1.2",
+      "livello": "A",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 328.48,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "1.2.2",
+      "principio": 1,
+      "linea_guida": "1.2",
+      "livello": "A",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 369.04,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "1.2.3",
+      "principio": 1,
+      "linea_guida": "1.2",
+      "livello": "A",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 390.52000000000004,
+      "larghezza": 315.3333333333333,
+      "altezza": 59.63999999999999,
+      "righe": 3
+    },
+    {
+      "id": "1.2.4",
+      "principio": 1,
+      "linea_guida": "1.2",
+      "livello": "AA",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 450.16,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "1.2.5",
+      "principio": 1,
+      "linea_guida": "1.2",
+      "livello": "AA",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 471.64000000000004,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "1.2.6",
+      "principio": 1,
+      "linea_guida": "1.2",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 512.2,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "1.2.7",
+      "principio": 1,
+      "linea_guida": "1.2",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 552.76,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "1.2.8",
+      "principio": 1,
+      "linea_guida": "1.2",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 593.3199999999999,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "1.2.9",
+      "principio": 1,
+      "linea_guida": "1.2",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 633.8799999999999,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "1.3.1",
+      "principio": 1,
+      "linea_guida": "1.3",
+      "livello": "A",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 696.56,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "1.3.2",
+      "principio": 1,
+      "linea_guida": "1.3",
+      "livello": "A",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 718.04,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "1.3.3",
+      "principio": 1,
+      "linea_guida": "1.3",
+      "livello": "A",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 739.52,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "1.3.4",
+      "principio": 1,
+      "linea_guida": "1.3",
+      "livello": "AA",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 761.0,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "1.3.5",
+      "principio": 1,
+      "linea_guida": "1.3",
+      "livello": "AA",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 782.48,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "1.3.6",
+      "principio": 1,
+      "linea_guida": "1.3",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 823.04,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "1.4.1",
+      "principio": 1,
+      "linea_guida": "1.4",
+      "livello": "A",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 885.72,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "1.4.2",
+      "principio": 1,
+      "linea_guida": "1.4",
+      "livello": "A",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 907.2,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "1.4.3",
+      "principio": 1,
+      "linea_guida": "1.4",
+      "livello": "AA",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 928.6800000000001,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "1.4.4",
+      "principio": 1,
+      "linea_guida": "1.4",
+      "livello": "AA",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 950.1600000000001,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "1.4.5",
+      "principio": 1,
+      "linea_guida": "1.4",
+      "livello": "AA",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 990.72,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "1.4.6",
+      "principio": 1,
+      "linea_guida": "1.4",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 1012.2,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "1.4.7",
+      "principio": 1,
+      "linea_guida": "1.4",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 1033.68,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "1.4.8",
+      "principio": 1,
+      "linea_guida": "1.4",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 1074.24,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "1.4.9",
+      "principio": 1,
+      "linea_guida": "1.4",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 1095.72,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "1.4.10",
+      "principio": 1,
+      "linea_guida": "1.4",
+      "livello": "AA",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 1136.28,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "1.4.11",
+      "principio": 1,
+      "linea_guida": "1.4",
+      "livello": "AA",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 1157.76,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "1.4.12",
+      "principio": 1,
+      "linea_guida": "1.4",
+      "livello": "AA",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 1198.32,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "1.4.13",
+      "principio": 1,
+      "linea_guida": "1.4",
+      "livello": "AA",
+      "nuovo": false,
+      "x": 28.0,
+      "y": 1219.8,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "2.1.1",
+      "principio": 2,
+      "linea_guida": "2.1",
+      "livello": "A",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 249.6,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "2.1.2",
+      "principio": 2,
+      "linea_guida": "2.1",
+      "livello": "A",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 271.08,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "2.1.3",
+      "principio": 2,
+      "linea_guida": "2.1",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 311.64,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "2.1.4",
+      "principio": 2,
+      "linea_guida": "2.1",
+      "livello": "A",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 352.2,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "2.2.1",
+      "principio": 2,
+      "linea_guida": "2.2",
+      "livello": "A",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 414.88,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "2.2.2",
+      "principio": 2,
+      "linea_guida": "2.2",
+      "livello": "A",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 455.44,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "2.2.3",
+      "principio": 2,
+      "linea_guida": "2.2",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 476.92,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "2.2.4",
+      "principio": 2,
+      "linea_guida": "2.2",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 517.48,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "2.2.5",
+      "principio": 2,
+      "linea_guida": "2.2",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 538.96,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "2.2.6",
+      "principio": 2,
+      "linea_guida": "2.2",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 560.44,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "2.3.1",
+      "principio": 2,
+      "linea_guida": "2.3",
+      "livello": "A",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 623.1200000000001,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "2.3.2",
+      "principio": 2,
+      "linea_guida": "2.3",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 663.6800000000001,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "2.3.3",
+      "principio": 2,
+      "linea_guida": "2.3",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 685.1600000000001,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "2.4.1",
+      "principio": 2,
+      "linea_guida": "2.4",
+      "livello": "A",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 747.8400000000001,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "2.4.2",
+      "principio": 2,
+      "linea_guida": "2.4",
+      "livello": "A",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 769.3200000000002,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "2.4.3",
+      "principio": 2,
+      "linea_guida": "2.4",
+      "livello": "A",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 790.8000000000002,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "2.4.4",
+      "principio": 2,
+      "linea_guida": "2.4",
+      "livello": "A",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 812.2800000000002,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "2.4.5",
+      "principio": 2,
+      "linea_guida": "2.4",
+      "livello": "AA",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 852.8400000000001,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "2.4.6",
+      "principio": 2,
+      "linea_guida": "2.4",
+      "livello": "AA",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 874.3200000000002,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "2.4.7",
+      "principio": 2,
+      "linea_guida": "2.4",
+      "livello": "AA",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 895.8000000000002,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "2.4.8",
+      "principio": 2,
+      "linea_guida": "2.4",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 917.2800000000002,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "2.4.9",
+      "principio": 2,
+      "linea_guida": "2.4",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 938.7600000000002,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "2.4.10",
+      "principio": 2,
+      "linea_guida": "2.4",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 979.3200000000002,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "2.4.11",
+      "principio": 2,
+      "linea_guida": "2.4",
+      "livello": "AA",
+      "nuovo": true,
+      "x": 369.3333333333333,
+      "y": 1000.8000000000002,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "2.4.12",
+      "principio": 2,
+      "linea_guida": "2.4",
+      "livello": "AAA",
+      "nuovo": true,
+      "x": 369.3333333333333,
+      "y": 1041.3600000000001,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "2.4.13",
+      "principio": 2,
+      "linea_guida": "2.4",
+      "livello": "AAA",
+      "nuovo": true,
+      "x": 369.3333333333333,
+      "y": 1081.92,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "2.5.1",
+      "principio": 2,
+      "linea_guida": "2.5",
+      "livello": "A",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 1144.6000000000001,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "2.5.2",
+      "principio": 2,
+      "linea_guida": "2.5",
+      "livello": "A",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 1166.0800000000002,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "2.5.3",
+      "principio": 2,
+      "linea_guida": "2.5",
+      "livello": "A",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 1206.64,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "2.5.4",
+      "principio": 2,
+      "linea_guida": "2.5",
+      "livello": "A",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 1228.1200000000001,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "2.5.5",
+      "principio": 2,
+      "linea_guida": "2.5",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 1249.6000000000001,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "2.5.6",
+      "principio": 2,
+      "linea_guida": "2.5",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 369.3333333333333,
+      "y": 1290.16,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "2.5.7",
+      "principio": 2,
+      "linea_guida": "2.5",
+      "livello": "AA",
+      "nuovo": true,
+      "x": 369.3333333333333,
+      "y": 1330.72,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "2.5.8",
+      "principio": 2,
+      "linea_guida": "2.5",
+      "livello": "AA",
+      "nuovo": true,
+      "x": 369.3333333333333,
+      "y": 1352.2,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "3.1.1",
+      "principio": 3,
+      "linea_guida": "3.1",
+      "livello": "A",
+      "nuovo": false,
+      "x": 710.6666666666666,
+      "y": 249.6,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "3.1.2",
+      "principio": 3,
+      "linea_guida": "3.1",
+      "livello": "AA",
+      "nuovo": false,
+      "x": 710.6666666666666,
+      "y": 271.08,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "3.1.3",
+      "principio": 3,
+      "linea_guida": "3.1",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 710.6666666666666,
+      "y": 292.56,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "3.1.4",
+      "principio": 3,
+      "linea_guida": "3.1",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 710.6666666666666,
+      "y": 314.04,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "3.1.5",
+      "principio": 3,
+      "linea_guida": "3.1",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 710.6666666666666,
+      "y": 335.52000000000004,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "3.1.6",
+      "principio": 3,
+      "linea_guida": "3.1",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 710.6666666666666,
+      "y": 357.00000000000006,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "3.2.1",
+      "principio": 3,
+      "linea_guida": "3.2",
+      "livello": "A",
+      "nuovo": false,
+      "x": 710.6666666666666,
+      "y": 419.68000000000006,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "3.2.2",
+      "principio": 3,
+      "linea_guida": "3.2",
+      "livello": "A",
+      "nuovo": false,
+      "x": 710.6666666666666,
+      "y": 441.1600000000001,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "3.2.3",
+      "principio": 3,
+      "linea_guida": "3.2",
+      "livello": "AA",
+      "nuovo": false,
+      "x": 710.6666666666666,
+      "y": 462.6400000000001,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "3.2.4",
+      "principio": 3,
+      "linea_guida": "3.2",
+      "livello": "AA",
+      "nuovo": false,
+      "x": 710.6666666666666,
+      "y": 484.1200000000001,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "3.2.5",
+      "principio": 3,
+      "linea_guida": "3.2",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 710.6666666666666,
+      "y": 505.60000000000014,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "3.2.6",
+      "principio": 3,
+      "linea_guida": "3.2",
+      "livello": "A",
+      "nuovo": true,
+      "x": 710.6666666666666,
+      "y": 527.0800000000002,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "3.3.1",
+      "principio": 3,
+      "linea_guida": "3.3",
+      "livello": "A",
+      "nuovo": false,
+      "x": 710.6666666666666,
+      "y": 589.7600000000002,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "3.3.2",
+      "principio": 3,
+      "linea_guida": "3.3",
+      "livello": "A",
+      "nuovo": false,
+      "x": 710.6666666666666,
+      "y": 611.2400000000002,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "3.3.3",
+      "principio": 3,
+      "linea_guida": "3.3",
+      "livello": "AA",
+      "nuovo": false,
+      "x": 710.6666666666666,
+      "y": 632.7200000000003,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "3.3.4",
+      "principio": 3,
+      "linea_guida": "3.3",
+      "livello": "AA",
+      "nuovo": false,
+      "x": 710.6666666666666,
+      "y": 654.2000000000003,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "3.3.5",
+      "principio": 3,
+      "linea_guida": "3.3",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 710.6666666666666,
+      "y": 694.7600000000002,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "3.3.6",
+      "principio": 3,
+      "linea_guida": "3.3",
+      "livello": "AAA",
+      "nuovo": false,
+      "x": 710.6666666666666,
+      "y": 716.2400000000002,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "3.3.7",
+      "principio": 3,
+      "linea_guida": "3.3",
+      "livello": "A",
+      "nuovo": true,
+      "x": 710.6666666666666,
+      "y": 756.8000000000002,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "3.3.8",
+      "principio": 3,
+      "linea_guida": "3.3",
+      "livello": "AA",
+      "nuovo": true,
+      "x": 710.6666666666666,
+      "y": 778.2800000000002,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "3.3.9",
+      "principio": 3,
+      "linea_guida": "3.3",
+      "livello": "AAA",
+      "nuovo": true,
+      "x": 710.6666666666666,
+      "y": 818.8400000000001,
+      "larghezza": 315.3333333333333,
+      "altezza": 40.559999999999995,
+      "righe": 2
+    },
+    {
+      "id": "4.1.2",
+      "principio": 4,
+      "linea_guida": "4.1",
+      "livello": "A",
+      "nuovo": false,
+      "x": 710.6666666666666,
+      "y": 1062.4,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    },
+    {
+      "id": "4.1.3",
+      "principio": 4,
+      "linea_guida": "4.1",
+      "livello": "AA",
+      "nuovo": false,
+      "x": 710.6666666666666,
+      "y": 1083.88,
+      "larghezza": 315.3333333333333,
+      "altezza": 21.479999999999997,
+      "righe": 1
+    }
+  ],
+  "testi": [
+    {
+      "testo": "WCAG 2.2",
+      "x": 28.0,
+      "y": 19.0,
+      "larghezza": 178.0,
+      "altezza": 40.8,
+      "ruolo": "titolo",
+      "criterio": null
+    },
+    {
+      "testo": "Mappa dei criteri",
+      "x": 267,
+      "y": 22.0,
+      "larghezza": 270.4,
+      "altezza": 37.199999999999996,
+      "ruolo": "titolo",
+      "criterio": null
+    },
+    {
+      "testo": "4 principi · 13 linee guida · 86 criteri attivi",
+      "x": 28.0,
+      "y": 68.6,
+      "larghezza": 314.6,
+      "altezza": 19.679999999999996,
+      "ruolo": "riepilogo",
+      "criterio": null
+    },
+    {
+      "testo": "Novità della versione 2.2",
+      "x": 854,
+      "y": 71.0,
+      "larghezza": 148.8,
+      "altezza": 15.6,
+      "ruolo": "legenda",
+      "criterio": null
+    },
+    {
+      "testo": "1",
+      "x": 40.0,
+      "y": 124.0,
+      "larghezza": 10.0,
+      "altezza": 32.4,
+      "ruolo": "numero-principio",
+      "criterio": null
+    },
+    {
+      "testo": "Percepibile",
+      "x": 72.0,
+      "y": 128.4,
+      "larghezza": 128.6,
+      "altezza": 25.92,
+      "ruolo": "titolo-principio",
+      "criterio": null
+    },
+    {
+      "testo": "Le informazioni e i componenti dell’interfaccia",
+      "x": 28.0,
+      "y": 175.0,
+      "larghezza": 285.3,
+      "altezza": 16.2,
+      "ruolo": "definizione",
+      "criterio": null
+    },
+    {
+      "testo": "utente devono essere presentati agli utenti in",
+      "x": 28.0,
+      "y": 191.2,
+      "larghezza": 282.4,
+      "altezza": 16.2,
+      "ruolo": "definizione",
+      "criterio": null
+    },
+    {
+      "testo": "modi in cui essi possano percepirli.",
+      "x": 28.0,
+      "y": 207.4,
+      "larghezza": 217.0,
+      "altezza": 16.2,
+      "ruolo": "definizione",
+      "criterio": null
+    },
+    {
+      "testo": "1.1 Alternative testuali",
+      "x": 28.0,
+      "y": 237.6,
+      "larghezza": 180.7,
+      "altezza": 20.2,
+      "ruolo": "linea-guida",
+      "criterio": null
+    },
+    {
+      "testo": "1.1.1",
+      "x": 28.0,
+      "y": 268.3,
+      "larghezza": 20.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.1.1"
+    },
+    {
+      "testo": "Contenuti non testuali",
+      "x": 89.0,
+      "y": 265.8,
+      "larghezza": 164.0,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.1.1"
+    },
+    {
+      "testo": "A",
+      "x": 324.7833333333333,
+      "y": 269.3,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.1.1"
+    },
+    {
+      "testo": "1.2 Media temporizzati",
+      "x": 28.0,
+      "y": 300.28000000000003,
+      "larghezza": 183.0,
+      "altezza": 20.2,
+      "ruolo": "linea-guida",
+      "criterio": null
+    },
+    {
+      "testo": "1.2.1",
+      "x": 28.0,
+      "y": 330.98,
+      "larghezza": 23.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.2.1"
+    },
+    {
+      "testo": "Solo audio e solo video",
+      "x": 89.0,
+      "y": 328.48,
+      "larghezza": 170.1,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.2.1"
+    },
+    {
+      "testo": "(preregistrati)",
+      "x": 89.0,
+      "y": 347.56,
+      "larghezza": 102.6,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.2.1"
+    },
+    {
+      "testo": "A",
+      "x": 324.7833333333333,
+      "y": 331.98,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.2.1"
+    },
+    {
+      "testo": "1.2.2",
+      "x": 28.0,
+      "y": 371.54,
+      "larghezza": 26.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.2.2"
+    },
+    {
+      "testo": "Sottotitoli (preregistrati)",
+      "x": 89.0,
+      "y": 369.04,
+      "larghezza": 180.1,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.2.2"
+    },
+    {
+      "testo": "A",
+      "x": 324.7833333333333,
+      "y": 372.54,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.2.2"
+    },
+    {
+      "testo": "1.2.3",
+      "x": 28.0,
+      "y": 393.02000000000004,
+      "larghezza": 27.2,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.2.3"
+    },
+    {
+      "testo": "Audiodescrizione o tipo di",
+      "x": 89.0,
+      "y": 390.52000000000004,
+      "larghezza": 193.0,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.2.3"
+    },
+    {
+      "testo": "media alternativo",
+      "x": 89.0,
+      "y": 409.6,
+      "larghezza": 128.5,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.2.3"
+    },
+    {
+      "testo": "(preregistrato)",
+      "x": 89.0,
+      "y": 428.68000000000006,
+      "larghezza": 108.3,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.2.3"
+    },
+    {
+      "testo": "A",
+      "x": 324.7833333333333,
+      "y": 394.02000000000004,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.2.3"
+    },
+    {
+      "testo": "1.2.4",
+      "x": 28.0,
+      "y": 452.66,
+      "larghezza": 27.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.2.4"
+    },
+    {
+      "testo": "Sottotitoli (in tempo reale)",
+      "x": 89.0,
+      "y": 450.16,
+      "larghezza": 195.7,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.2.4"
+    },
+    {
+      "testo": "AA",
+      "x": 320.7333333333333,
+      "y": 453.66,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.2.4"
+    },
+    {
+      "testo": "1.2.5",
+      "x": 28.0,
+      "y": 474.14000000000004,
+      "larghezza": 27.6,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.2.5"
+    },
+    {
+      "testo": "Audiodescrizione",
+      "x": 89.0,
+      "y": 471.64000000000004,
+      "larghezza": 127.7,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.2.5"
+    },
+    {
+      "testo": "(preregistrata)",
+      "x": 89.0,
+      "y": 490.72,
+      "larghezza": 107.4,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.2.5"
+    },
+    {
+      "testo": "AA",
+      "x": 320.7333333333333,
+      "y": 475.14000000000004,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.2.5"
+    },
+    {
+      "testo": "1.2.6",
+      "x": 28.0,
+      "y": 514.7,
+      "larghezza": 27.8,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.2.6"
+    },
+    {
+      "testo": "Lingua dei segni",
+      "x": 89.0,
+      "y": 512.2,
+      "larghezza": 118.0,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.2.6"
+    },
+    {
+      "testo": "(preregistrato)",
+      "x": 89.0,
+      "y": 531.2800000000001,
+      "larghezza": 108.3,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.2.6"
+    },
+    {
+      "testo": "AAA",
+      "x": 316.68333333333334,
+      "y": 515.7,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.2.6"
+    },
+    {
+      "testo": "1.2.7",
+      "x": 28.0,
+      "y": 555.26,
+      "larghezza": 26.4,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.2.7"
+    },
+    {
+      "testo": "Audiodescrizione estesa",
+      "x": 89.0,
+      "y": 552.76,
+      "larghezza": 180.8,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.2.7"
+    },
+    {
+      "testo": "(preregistrata)",
+      "x": 89.0,
+      "y": 571.84,
+      "larghezza": 107.4,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.2.7"
+    },
+    {
+      "testo": "AAA",
+      "x": 316.68333333333334,
+      "y": 556.26,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.2.7"
+    },
+    {
+      "testo": "1.2.8",
+      "x": 28.0,
+      "y": 595.8199999999999,
+      "larghezza": 27.7,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.2.8"
+    },
+    {
+      "testo": "Tipo di media alternativo",
+      "x": 89.0,
+      "y": 593.3199999999999,
+      "larghezza": 183.0,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.2.8"
+    },
+    {
+      "testo": "(preregistrato)",
+      "x": 89.0,
+      "y": 612.4,
+      "larghezza": 108.3,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.2.8"
+    },
+    {
+      "testo": "AAA",
+      "x": 316.68333333333334,
+      "y": 596.8199999999999,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.2.8"
+    },
+    {
+      "testo": "1.2.9",
+      "x": 28.0,
+      "y": 636.3799999999999,
+      "larghezza": 27.8,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.2.9"
+    },
+    {
+      "testo": "Solo audio (in tempo reale)",
+      "x": 89.0,
+      "y": 633.8799999999999,
+      "larghezza": 199.5,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.2.9"
+    },
+    {
+      "testo": "AAA",
+      "x": 316.68333333333334,
+      "y": 637.3799999999999,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.2.9"
+    },
+    {
+      "testo": "1.3 Adattabile",
+      "x": 28.0,
+      "y": 668.3599999999999,
+      "larghezza": 112.4,
+      "altezza": 20.2,
+      "ruolo": "linea-guida",
+      "criterio": null
+    },
+    {
+      "testo": "1.3.1",
+      "x": 28.0,
+      "y": 699.06,
+      "larghezza": 24.2,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.3.1"
+    },
+    {
+      "testo": "Informazioni e correlazioni",
+      "x": 89.0,
+      "y": 696.56,
+      "larghezza": 192.3,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.3.1"
+    },
+    {
+      "testo": "A",
+      "x": 324.7833333333333,
+      "y": 700.06,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.3.1"
+    },
+    {
+      "testo": "1.3.2",
+      "x": 28.0,
+      "y": 720.54,
+      "larghezza": 27.2,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.3.2"
+    },
+    {
+      "testo": "Sequenza significativa",
+      "x": 89.0,
+      "y": 718.04,
+      "larghezza": 162.9,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.3.2"
+    },
+    {
+      "testo": "A",
+      "x": 324.7833333333333,
+      "y": 721.54,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.3.2"
+    },
+    {
+      "testo": "1.3.3",
+      "x": 28.0,
+      "y": 742.02,
+      "larghezza": 27.5,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.3.3"
+    },
+    {
+      "testo": "Caratteristiche sensoriali",
+      "x": 89.0,
+      "y": 739.52,
+      "larghezza": 184.1,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.3.3"
+    },
+    {
+      "testo": "A",
+      "x": 324.7833333333333,
+      "y": 743.02,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.3.3"
+    },
+    {
+      "testo": "1.3.4",
+      "x": 28.0,
+      "y": 763.5,
+      "larghezza": 28.2,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.3.4"
+    },
+    {
+      "testo": "Orientamento",
+      "x": 89.0,
+      "y": 761.0,
+      "larghezza": 102.8,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.3.4"
+    },
+    {
+      "testo": "AA",
+      "x": 320.7333333333333,
+      "y": 764.5,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.3.4"
+    },
+    {
+      "testo": "1.3.5",
+      "x": 28.0,
+      "y": 784.98,
+      "larghezza": 27.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.3.5"
+    },
+    {
+      "testo": "Identificare lo scopo degli",
+      "x": 89.0,
+      "y": 782.48,
+      "larghezza": 190.7,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.3.5"
+    },
+    {
+      "testo": "input",
+      "x": 89.0,
+      "y": 801.5600000000001,
+      "larghezza": 38.2,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.3.5"
+    },
+    {
+      "testo": "AA",
+      "x": 320.7333333333333,
+      "y": 785.98,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.3.5"
+    },
+    {
+      "testo": "1.3.6",
+      "x": 28.0,
+      "y": 825.54,
+      "larghezza": 28.1,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.3.6"
+    },
+    {
+      "testo": "Identificare lo scopo",
+      "x": 89.0,
+      "y": 823.04,
+      "larghezza": 151.2,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.3.6"
+    },
+    {
+      "testo": "AAA",
+      "x": 316.68333333333334,
+      "y": 826.54,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.3.6"
+    },
+    {
+      "testo": "1.4 Distinguibile",
+      "x": 28.0,
+      "y": 857.52,
+      "larghezza": 129.0,
+      "altezza": 20.2,
+      "ruolo": "linea-guida",
+      "criterio": null
+    },
+    {
+      "testo": "1.4.1",
+      "x": 28.0,
+      "y": 888.22,
+      "larghezza": 24.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.4.1"
+    },
+    {
+      "testo": "Uso del colore",
+      "x": 89.0,
+      "y": 885.72,
+      "larghezza": 105.7,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.4.1"
+    },
+    {
+      "testo": "A",
+      "x": 324.7833333333333,
+      "y": 889.22,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.4.1"
+    },
+    {
+      "testo": "1.4.2",
+      "x": 28.0,
+      "y": 909.7,
+      "larghezza": 27.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.4.2"
+    },
+    {
+      "testo": "Controllo del sonoro",
+      "x": 89.0,
+      "y": 907.2,
+      "larghezza": 150.6,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.4.2"
+    },
+    {
+      "testo": "A",
+      "x": 324.7833333333333,
+      "y": 910.7,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.4.2"
+    },
+    {
+      "testo": "1.4.3",
+      "x": 28.0,
+      "y": 931.1800000000001,
+      "larghezza": 28.2,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.4.3"
+    },
+    {
+      "testo": "Contrasto (minimo)",
+      "x": 89.0,
+      "y": 928.6800000000001,
+      "larghezza": 144.7,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.4.3"
+    },
+    {
+      "testo": "AA",
+      "x": 320.7333333333333,
+      "y": 932.1800000000001,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.4.3"
+    },
+    {
+      "testo": "1.4.4",
+      "x": 28.0,
+      "y": 952.6600000000001,
+      "larghezza": 28.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.4.4"
+    },
+    {
+      "testo": "Ridimensionamento del",
+      "x": 89.0,
+      "y": 950.1600000000001,
+      "larghezza": 173.4,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.4.4"
+    },
+    {
+      "testo": "testo",
+      "x": 89.0,
+      "y": 969.2400000000001,
+      "larghezza": 38.8,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.4.4"
+    },
+    {
+      "testo": "AA",
+      "x": 320.7333333333333,
+      "y": 953.6600000000001,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.4.4"
+    },
+    {
+      "testo": "1.4.5",
+      "x": 28.0,
+      "y": 993.22,
+      "larghezza": 28.6,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.4.5"
+    },
+    {
+      "testo": "Immagini di testo",
+      "x": 89.0,
+      "y": 990.72,
+      "larghezza": 127.3,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.4.5"
+    },
+    {
+      "testo": "AA",
+      "x": 320.7333333333333,
+      "y": 994.22,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.4.5"
+    },
+    {
+      "testo": "1.4.6",
+      "x": 28.0,
+      "y": 1014.7000000000002,
+      "larghezza": 28.8,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.4.6"
+    },
+    {
+      "testo": "Contrasto (avanzato)",
+      "x": 89.0,
+      "y": 1012.2000000000002,
+      "larghezza": 156.2,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.4.6"
+    },
+    {
+      "testo": "AAA",
+      "x": 316.68333333333334,
+      "y": 1015.7000000000002,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.4.6"
+    },
+    {
+      "testo": "1.4.7",
+      "x": 28.0,
+      "y": 1036.18,
+      "larghezza": 27.4,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.4.7"
+    },
+    {
+      "testo": "Sottofondo sonoro basso o",
+      "x": 89.0,
+      "y": 1033.68,
+      "larghezza": 201.4,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.4.7"
+    },
+    {
+      "testo": "non presente",
+      "x": 89.0,
+      "y": 1052.76,
+      "larghezza": 98.2,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.4.7"
+    },
+    {
+      "testo": "AAA",
+      "x": 316.68333333333334,
+      "y": 1037.18,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.4.7"
+    },
+    {
+      "testo": "1.4.8",
+      "x": 28.0,
+      "y": 1076.74,
+      "larghezza": 28.7,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.4.8"
+    },
+    {
+      "testo": "Presentazione visiva",
+      "x": 89.0,
+      "y": 1074.24,
+      "larghezza": 148.9,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.4.8"
+    },
+    {
+      "testo": "AAA",
+      "x": 316.68333333333334,
+      "y": 1077.74,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.4.8"
+    },
+    {
+      "testo": "1.4.9",
+      "x": 28.0,
+      "y": 1098.22,
+      "larghezza": 28.8,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.4.9"
+    },
+    {
+      "testo": "Immagini di testo (senza",
+      "x": 89.0,
+      "y": 1095.72,
+      "larghezza": 179.5,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.4.9"
+    },
+    {
+      "testo": "eccezioni)",
+      "x": 89.0,
+      "y": 1114.8,
+      "larghezza": 75.8,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.4.9"
+    },
+    {
+      "testo": "AAA",
+      "x": 316.68333333333334,
+      "y": 1099.22,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.4.9"
+    },
+    {
+      "testo": "1.4.10",
+      "x": 28.0,
+      "y": 1138.78,
+      "larghezza": 34.3,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.4.10"
+    },
+    {
+      "testo": "Ricalcolo del flusso",
+      "x": 89.0,
+      "y": 1136.28,
+      "larghezza": 141.0,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.4.10"
+    },
+    {
+      "testo": "AA",
+      "x": 320.7333333333333,
+      "y": 1139.78,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.4.10"
+    },
+    {
+      "testo": "1.4.11",
+      "x": 28.0,
+      "y": 1160.26,
+      "larghezza": 29.6,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.4.11"
+    },
+    {
+      "testo": "Contrasto in contenuti non",
+      "x": 89.0,
+      "y": 1157.76,
+      "larghezza": 198.4,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.4.11"
+    },
+    {
+      "testo": "testuali",
+      "x": 89.0,
+      "y": 1176.84,
+      "larghezza": 54.5,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.4.11"
+    },
+    {
+      "testo": "AA",
+      "x": 320.7333333333333,
+      "y": 1161.26,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.4.11"
+    },
+    {
+      "testo": "1.4.12",
+      "x": 28.0,
+      "y": 1200.82,
+      "larghezza": 32.6,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.4.12"
+    },
+    {
+      "testo": "Spaziatura del testo",
+      "x": 89.0,
+      "y": 1198.32,
+      "larghezza": 147.1,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.4.12"
+    },
+    {
+      "testo": "AA",
+      "x": 320.7333333333333,
+      "y": 1201.82,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.4.12"
+    },
+    {
+      "testo": "1.4.13",
+      "x": 28.0,
+      "y": 1222.3,
+      "larghezza": 32.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "1.4.13"
+    },
+    {
+      "testo": "Contenuto con Hover o",
+      "x": 89.0,
+      "y": 1219.8,
+      "larghezza": 172.5,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.4.13"
+    },
+    {
+      "testo": "Focus",
+      "x": 89.0,
+      "y": 1238.8799999999999,
+      "larghezza": 44.3,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "1.4.13"
+    },
+    {
+      "testo": "AA",
+      "x": 320.7333333333333,
+      "y": 1223.3,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "1.4.13"
+    },
+    {
+      "testo": "2",
+      "x": 381.3333333333333,
+      "y": 124.0,
+      "larghezza": 15.4,
+      "altezza": 32.4,
+      "ruolo": "numero-principio",
+      "criterio": null
+    },
+    {
+      "testo": "Utilizzabile",
+      "x": 413.3333333333333,
+      "y": 128.4,
+      "larghezza": 124.6,
+      "altezza": 25.92,
+      "ruolo": "titolo-principio",
+      "criterio": null
+    },
+    {
+      "testo": "I componenti e la navigazione dell’interfaccia",
+      "x": 369.3333333333333,
+      "y": 175.0,
+      "larghezza": 277.7,
+      "altezza": 16.2,
+      "ruolo": "definizione",
+      "criterio": null
+    },
+    {
+      "testo": "utente devono essere utilizzabili.",
+      "x": 369.3333333333333,
+      "y": 191.2,
+      "larghezza": 201.7,
+      "altezza": 16.2,
+      "ruolo": "definizione",
+      "criterio": null
+    },
+    {
+      "testo": "2.1 Accessibile da tastiera",
+      "x": 369.3333333333333,
+      "y": 221.4,
+      "larghezza": 213.6,
+      "altezza": 20.2,
+      "ruolo": "linea-guida",
+      "criterio": null
+    },
+    {
+      "testo": "2.1.1",
+      "x": 369.3333333333333,
+      "y": 252.1,
+      "larghezza": 23.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.1.1"
+    },
+    {
+      "testo": "Tastiera",
+      "x": 430.3333333333333,
+      "y": 249.6,
+      "larghezza": 59.0,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.1.1"
+    },
+    {
+      "testo": "A",
+      "x": 666.1166666666667,
+      "y": 253.1,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.1.1"
+    },
+    {
+      "testo": "2.1.2",
+      "x": 369.3333333333333,
+      "y": 273.58,
+      "larghezza": 26.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.1.2"
+    },
+    {
+      "testo": "Nessun impedimento all’uso",
+      "x": 430.3333333333333,
+      "y": 271.08,
+      "larghezza": 207.5,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.1.2"
+    },
+    {
+      "testo": "della tastiera",
+      "x": 430.3333333333333,
+      "y": 290.15999999999997,
+      "larghezza": 95.2,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.1.2"
+    },
+    {
+      "testo": "A",
+      "x": 666.1166666666667,
+      "y": 274.58,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.1.2"
+    },
+    {
+      "testo": "2.1.3",
+      "x": 369.3333333333333,
+      "y": 314.14,
+      "larghezza": 27.2,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.1.3"
+    },
+    {
+      "testo": "Tastiera (nessuna",
+      "x": 430.3333333333333,
+      "y": 311.64,
+      "larghezza": 130.2,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.1.3"
+    },
+    {
+      "testo": "eccezione)",
+      "x": 430.3333333333333,
+      "y": 330.71999999999997,
+      "larghezza": 81.1,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.1.3"
+    },
+    {
+      "testo": "AAA",
+      "x": 658.0166666666667,
+      "y": 315.14,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.1.3"
+    },
+    {
+      "testo": "2.1.4",
+      "x": 369.3333333333333,
+      "y": 354.7,
+      "larghezza": 27.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.1.4"
+    },
+    {
+      "testo": "Tasti di scelta rapida",
+      "x": 430.3333333333333,
+      "y": 352.2,
+      "larghezza": 153.2,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.1.4"
+    },
+    {
+      "testo": "A",
+      "x": 666.1166666666667,
+      "y": 355.7,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.1.4"
+    },
+    {
+      "testo": "2.2 Adeguata disponibilità di tempo",
+      "x": 369.3333333333333,
+      "y": 386.68,
+      "larghezza": 293.6,
+      "altezza": 20.2,
+      "ruolo": "linea-guida",
+      "criterio": null
+    },
+    {
+      "testo": "2.2.1",
+      "x": 369.3333333333333,
+      "y": 417.38,
+      "larghezza": 26.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.2.1"
+    },
+    {
+      "testo": "Regolazione tempi di",
+      "x": 430.3333333333333,
+      "y": 414.88,
+      "larghezza": 153.3,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.2.1"
+    },
+    {
+      "testo": "esecuzione",
+      "x": 430.3333333333333,
+      "y": 433.96,
+      "larghezza": 83.3,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.2.1"
+    },
+    {
+      "testo": "A",
+      "x": 666.1166666666667,
+      "y": 418.38,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.2.1"
+    },
+    {
+      "testo": "2.2.2",
+      "x": 369.3333333333333,
+      "y": 457.94,
+      "larghezza": 29.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.2.2"
+    },
+    {
+      "testo": "Pausa, stop, nascondi",
+      "x": 430.3333333333333,
+      "y": 455.44,
+      "larghezza": 158.7,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.2.2"
+    },
+    {
+      "testo": "A",
+      "x": 666.1166666666667,
+      "y": 458.94,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.2.2"
+    },
+    {
+      "testo": "2.2.3",
+      "x": 369.3333333333333,
+      "y": 479.42,
+      "larghezza": 30.2,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.2.3"
+    },
+    {
+      "testo": "Nessun tempo di",
+      "x": 430.3333333333333,
+      "y": 476.92,
+      "larghezza": 125.5,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.2.3"
+    },
+    {
+      "testo": "esecuzione",
+      "x": 430.3333333333333,
+      "y": 496.0,
+      "larghezza": 83.3,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.2.3"
+    },
+    {
+      "testo": "AAA",
+      "x": 658.0166666666667,
+      "y": 480.42,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.2.3"
+    },
+    {
+      "testo": "2.2.4",
+      "x": 369.3333333333333,
+      "y": 519.98,
+      "larghezza": 30.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.2.4"
+    },
+    {
+      "testo": "Interruzioni",
+      "x": 430.3333333333333,
+      "y": 517.48,
+      "larghezza": 82.4,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.2.4"
+    },
+    {
+      "testo": "AAA",
+      "x": 658.0166666666667,
+      "y": 520.98,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.2.4"
+    },
+    {
+      "testo": "2.2.5",
+      "x": 369.3333333333333,
+      "y": 541.46,
+      "larghezza": 30.6,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.2.5"
+    },
+    {
+      "testo": "Riautenticazione",
+      "x": 430.3333333333333,
+      "y": 538.96,
+      "larghezza": 121.8,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.2.5"
+    },
+    {
+      "testo": "AAA",
+      "x": 658.0166666666667,
+      "y": 542.46,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.2.5"
+    },
+    {
+      "testo": "2.2.6",
+      "x": 369.3333333333333,
+      "y": 562.94,
+      "larghezza": 30.8,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.2.6"
+    },
+    {
+      "testo": "Termine del tempo",
+      "x": 430.3333333333333,
+      "y": 560.44,
+      "larghezza": 140.1,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.2.6"
+    },
+    {
+      "testo": "AAA",
+      "x": 658.0166666666667,
+      "y": 563.94,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.2.6"
+    },
+    {
+      "testo": "2.3 Convulsioni e reazioni fisiche",
+      "x": 369.3333333333333,
+      "y": 594.9200000000001,
+      "larghezza": 267.2,
+      "altezza": 20.2,
+      "ruolo": "linea-guida",
+      "criterio": null
+    },
+    {
+      "testo": "2.3.1",
+      "x": 369.3333333333333,
+      "y": 625.6200000000001,
+      "larghezza": 27.2,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.3.1"
+    },
+    {
+      "testo": "Tre lampeggiamenti o",
+      "x": 430.3333333333333,
+      "y": 623.1200000000001,
+      "larghezza": 159.6,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.3.1"
+    },
+    {
+      "testo": "inferiore alla soglia",
+      "x": 430.3333333333333,
+      "y": 642.2000000000002,
+      "larghezza": 136.4,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.3.1"
+    },
+    {
+      "testo": "A",
+      "x": 666.1166666666667,
+      "y": 626.6200000000001,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.3.1"
+    },
+    {
+      "testo": "2.3.2",
+      "x": 369.3333333333333,
+      "y": 666.1800000000001,
+      "larghezza": 30.2,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.3.2"
+    },
+    {
+      "testo": "Tre lampeggiamenti",
+      "x": 430.3333333333333,
+      "y": 663.6800000000001,
+      "larghezza": 145.9,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.3.2"
+    },
+    {
+      "testo": "AAA",
+      "x": 658.0166666666667,
+      "y": 667.1800000000001,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.3.2"
+    },
+    {
+      "testo": "2.3.3",
+      "x": 369.3333333333333,
+      "y": 687.6600000000001,
+      "larghezza": 30.5,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.3.3"
+    },
+    {
+      "testo": "Animazione da interazioni",
+      "x": 430.3333333333333,
+      "y": 685.1600000000001,
+      "larghezza": 188.1,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.3.3"
+    },
+    {
+      "testo": "AAA",
+      "x": 658.0166666666667,
+      "y": 688.6600000000001,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.3.3"
+    },
+    {
+      "testo": "2.4 Navigabile",
+      "x": 369.3333333333333,
+      "y": 719.6400000000001,
+      "larghezza": 115.8,
+      "altezza": 20.2,
+      "ruolo": "linea-guida",
+      "criterio": null
+    },
+    {
+      "testo": "2.4.1",
+      "x": 369.3333333333333,
+      "y": 750.3400000000001,
+      "larghezza": 27.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.4.1"
+    },
+    {
+      "testo": "Salto di blocchi",
+      "x": 430.3333333333333,
+      "y": 747.8400000000001,
+      "larghezza": 113.5,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.4.1"
+    },
+    {
+      "testo": "A",
+      "x": 666.1166666666667,
+      "y": 751.3400000000001,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.4.1"
+    },
+    {
+      "testo": "2.4.2",
+      "x": 369.3333333333333,
+      "y": 771.8200000000002,
+      "larghezza": 30.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.4.2"
+    },
+    {
+      "testo": "Titolazione della pagina",
+      "x": 430.3333333333333,
+      "y": 769.3200000000002,
+      "larghezza": 171.6,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.4.2"
+    },
+    {
+      "testo": "A",
+      "x": 666.1166666666667,
+      "y": 772.8200000000002,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.4.2"
+    },
+    {
+      "testo": "2.4.3",
+      "x": 369.3333333333333,
+      "y": 793.3000000000002,
+      "larghezza": 31.2,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.4.3"
+    },
+    {
+      "testo": "Ordine del focus",
+      "x": 430.3333333333333,
+      "y": 790.8000000000002,
+      "larghezza": 122.3,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.4.3"
+    },
+    {
+      "testo": "A",
+      "x": 666.1166666666667,
+      "y": 794.3000000000002,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.4.3"
+    },
+    {
+      "testo": "2.4.4",
+      "x": 369.3333333333333,
+      "y": 814.7800000000002,
+      "larghezza": 31.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.4.4"
+    },
+    {
+      "testo": "Scopo del collegamento",
+      "x": 430.3333333333333,
+      "y": 812.2800000000002,
+      "larghezza": 178.7,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.4.4"
+    },
+    {
+      "testo": "(nel contesto)",
+      "x": 430.3333333333333,
+      "y": 831.3600000000002,
+      "larghezza": 104.3,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.4.4"
+    },
+    {
+      "testo": "A",
+      "x": 666.1166666666667,
+      "y": 815.7800000000002,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.4.4"
+    },
+    {
+      "testo": "2.4.5",
+      "x": 369.3333333333333,
+      "y": 855.3400000000001,
+      "larghezza": 31.6,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.4.5"
+    },
+    {
+      "testo": "Differenti modalità",
+      "x": 430.3333333333333,
+      "y": 852.8400000000001,
+      "larghezza": 137.0,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.4.5"
+    },
+    {
+      "testo": "AA",
+      "x": 662.0666666666666,
+      "y": 856.3400000000001,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.4.5"
+    },
+    {
+      "testo": "2.4.6",
+      "x": 369.3333333333333,
+      "y": 876.8200000000002,
+      "larghezza": 31.8,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.4.6"
+    },
+    {
+      "testo": "Intestazioni ed etichette",
+      "x": 430.3333333333333,
+      "y": 874.3200000000002,
+      "larghezza": 179.5,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.4.6"
+    },
+    {
+      "testo": "AA",
+      "x": 662.0666666666666,
+      "y": 877.8200000000002,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.4.6"
+    },
+    {
+      "testo": "2.4.7",
+      "x": 369.3333333333333,
+      "y": 898.3000000000002,
+      "larghezza": 30.4,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.4.7"
+    },
+    {
+      "testo": "Focus visibile",
+      "x": 430.3333333333333,
+      "y": 895.8000000000002,
+      "larghezza": 98.9,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.4.7"
+    },
+    {
+      "testo": "AA",
+      "x": 662.0666666666666,
+      "y": 899.3000000000002,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.4.7"
+    },
+    {
+      "testo": "2.4.8",
+      "x": 369.3333333333333,
+      "y": 919.7800000000002,
+      "larghezza": 31.7,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.4.8"
+    },
+    {
+      "testo": "Posizione",
+      "x": 430.3333333333333,
+      "y": 917.2800000000002,
+      "larghezza": 69.4,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.4.8"
+    },
+    {
+      "testo": "AAA",
+      "x": 658.0166666666667,
+      "y": 920.7800000000002,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.4.8"
+    },
+    {
+      "testo": "2.4.9",
+      "x": 369.3333333333333,
+      "y": 941.2600000000002,
+      "larghezza": 31.8,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.4.9"
+    },
+    {
+      "testo": "Scopo del collegamento",
+      "x": 430.3333333333333,
+      "y": 938.7600000000002,
+      "larghezza": 178.7,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.4.9"
+    },
+    {
+      "testo": "(solo collegamento)",
+      "x": 430.3333333333333,
+      "y": 957.8400000000003,
+      "larghezza": 146.9,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.4.9"
+    },
+    {
+      "testo": "AAA",
+      "x": 658.0166666666667,
+      "y": 942.2600000000002,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.4.9"
+    },
+    {
+      "testo": "2.4.10",
+      "x": 369.3333333333333,
+      "y": 981.8200000000002,
+      "larghezza": 37.3,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.4.10"
+    },
+    {
+      "testo": "Intestazioni di sezione",
+      "x": 430.3333333333333,
+      "y": 979.3200000000002,
+      "larghezza": 162.4,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.4.10"
+    },
+    {
+      "testo": "AAA",
+      "x": 658.0166666666667,
+      "y": 982.8200000000002,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.4.10"
+    },
+    {
+      "testo": "2.4.11",
+      "x": 369.3333333333333,
+      "y": 1003.3000000000002,
+      "larghezza": 32.6,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.4.11"
+    },
+    {
+      "testo": "Focus non nascosto",
+      "x": 430.3333333333333,
+      "y": 1000.8000000000002,
+      "larghezza": 148.3,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.4.11"
+    },
+    {
+      "testo": "(minimo)",
+      "x": 430.3333333333333,
+      "y": 1019.8800000000002,
+      "larghezza": 66.4,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.4.11"
+    },
+    {
+      "testo": "AA",
+      "x": 662.0666666666666,
+      "y": 1004.3000000000002,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.4.11"
+    },
+    {
+      "testo": "2.4.12",
+      "x": 369.3333333333333,
+      "y": 1043.8600000000001,
+      "larghezza": 35.6,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.4.12"
+    },
+    {
+      "testo": "Focus non nascosto",
+      "x": 430.3333333333333,
+      "y": 1041.3600000000001,
+      "larghezza": 148.3,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.4.12"
+    },
+    {
+      "testo": "(avanzato)",
+      "x": 430.3333333333333,
+      "y": 1060.44,
+      "larghezza": 77.9,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.4.12"
+    },
+    {
+      "testo": "AAA",
+      "x": 658.0166666666667,
+      "y": 1044.8600000000001,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.4.12"
+    },
+    {
+      "testo": "2.4.13",
+      "x": 369.3333333333333,
+      "y": 1084.42,
+      "larghezza": 35.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.4.13"
+    },
+    {
+      "testo": "Aspetto del focus",
+      "x": 430.3333333333333,
+      "y": 1081.92,
+      "larghezza": 131.6,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.4.13"
+    },
+    {
+      "testo": "AAA",
+      "x": 658.0166666666667,
+      "y": 1085.42,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.4.13"
+    },
+    {
+      "testo": "2.5 Modalità di input",
+      "x": 369.3333333333333,
+      "y": 1116.4,
+      "larghezza": 168.4,
+      "altezza": 20.2,
+      "ruolo": "linea-guida",
+      "criterio": null
+    },
+    {
+      "testo": "2.5.1",
+      "x": 369.3333333333333,
+      "y": 1147.1000000000001,
+      "larghezza": 27.6,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.5.1"
+    },
+    {
+      "testo": "Movimenti del puntatore",
+      "x": 430.3333333333333,
+      "y": 1144.6000000000001,
+      "larghezza": 182.0,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.5.1"
+    },
+    {
+      "testo": "A",
+      "x": 666.1166666666667,
+      "y": 1148.1000000000001,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.5.1"
+    },
+    {
+      "testo": "2.5.2",
+      "x": 369.3333333333333,
+      "y": 1168.5800000000002,
+      "larghezza": 30.6,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.5.2"
+    },
+    {
+      "testo": "Cancellazione delle azioni",
+      "x": 430.3333333333333,
+      "y": 1166.0800000000002,
+      "larghezza": 187.8,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.5.2"
+    },
+    {
+      "testo": "del puntatore",
+      "x": 430.3333333333333,
+      "y": 1185.16,
+      "larghezza": 100.4,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.5.2"
+    },
+    {
+      "testo": "A",
+      "x": 666.1166666666667,
+      "y": 1169.5800000000002,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.5.2"
+    },
+    {
+      "testo": "2.5.3",
+      "x": 369.3333333333333,
+      "y": 1209.14,
+      "larghezza": 30.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.5.3"
+    },
+    {
+      "testo": "Etichetta nel nome",
+      "x": 430.3333333333333,
+      "y": 1206.64,
+      "larghezza": 139.2,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.5.3"
+    },
+    {
+      "testo": "A",
+      "x": 666.1166666666667,
+      "y": 1210.14,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.5.3"
+    },
+    {
+      "testo": "2.5.4",
+      "x": 369.3333333333333,
+      "y": 1230.6200000000001,
+      "larghezza": 31.6,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.5.4"
+    },
+    {
+      "testo": "Azionamento da movimento",
+      "x": 430.3333333333333,
+      "y": 1228.1200000000001,
+      "larghezza": 207.7,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.5.4"
+    },
+    {
+      "testo": "A",
+      "x": 666.1166666666667,
+      "y": 1231.6200000000001,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.5.4"
+    },
+    {
+      "testo": "2.5.5",
+      "x": 369.3333333333333,
+      "y": 1252.1000000000001,
+      "larghezza": 31.3,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.5.5"
+    },
+    {
+      "testo": "Dimensione dell’obiettivo",
+      "x": 430.3333333333333,
+      "y": 1249.6000000000001,
+      "larghezza": 186.7,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.5.5"
+    },
+    {
+      "testo": "(avanzato)",
+      "x": 430.3333333333333,
+      "y": 1268.68,
+      "larghezza": 77.9,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.5.5"
+    },
+    {
+      "testo": "AAA",
+      "x": 658.0166666666667,
+      "y": 1253.1000000000001,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.5.5"
+    },
+    {
+      "testo": "2.5.6",
+      "x": 369.3333333333333,
+      "y": 1292.66,
+      "larghezza": 31.5,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.5.6"
+    },
+    {
+      "testo": "Meccanismi di input",
+      "x": 430.3333333333333,
+      "y": 1290.16,
+      "larghezza": 148.7,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.5.6"
+    },
+    {
+      "testo": "simultanei",
+      "x": 430.3333333333333,
+      "y": 1309.24,
+      "larghezza": 75.5,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.5.6"
+    },
+    {
+      "testo": "AAA",
+      "x": 658.0166666666667,
+      "y": 1293.66,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.5.6"
+    },
+    {
+      "testo": "2.5.7",
+      "x": 369.3333333333333,
+      "y": 1333.22,
+      "larghezza": 30.1,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.5.7"
+    },
+    {
+      "testo": "Movimenti di trascinamento",
+      "x": 430.3333333333333,
+      "y": 1330.72,
+      "larghezza": 206.7,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.5.7"
+    },
+    {
+      "testo": "AA",
+      "x": 662.0666666666666,
+      "y": 1334.22,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.5.7"
+    },
+    {
+      "testo": "2.5.8",
+      "x": 369.3333333333333,
+      "y": 1354.7,
+      "larghezza": 31.4,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "2.5.8"
+    },
+    {
+      "testo": "Dimensione dell’obiettivo",
+      "x": 430.3333333333333,
+      "y": 1352.2,
+      "larghezza": 186.7,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.5.8"
+    },
+    {
+      "testo": "(minimo)",
+      "x": 430.3333333333333,
+      "y": 1371.28,
+      "larghezza": 66.4,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "2.5.8"
+    },
+    {
+      "testo": "AA",
+      "x": 662.0666666666666,
+      "y": 1355.7,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "2.5.8"
+    },
+    {
+      "testo": "3",
+      "x": 722.6666666666666,
+      "y": 124.0,
+      "larghezza": 16.4,
+      "altezza": 32.4,
+      "ruolo": "numero-principio",
+      "criterio": null
+    },
+    {
+      "testo": "Comprensibile",
+      "x": 754.6666666666666,
+      "y": 128.4,
+      "larghezza": 166.8,
+      "altezza": 25.92,
+      "ruolo": "titolo-principio",
+      "criterio": null
+    },
+    {
+      "testo": "Le informazioni e le operazioni dell’interfaccia",
+      "x": 710.6666666666666,
+      "y": 175.0,
+      "larghezza": 281.8,
+      "altezza": 16.2,
+      "ruolo": "definizione",
+      "criterio": null
+    },
+    {
+      "testo": "utente devono essere comprensibili.",
+      "x": 710.6666666666666,
+      "y": 191.2,
+      "larghezza": 225.7,
+      "altezza": 16.2,
+      "ruolo": "definizione",
+      "criterio": null
+    },
+    {
+      "testo": "3.1 Leggibile",
+      "x": 710.6666666666666,
+      "y": 221.4,
+      "larghezza": 99.2,
+      "altezza": 20.2,
+      "ruolo": "linea-guida",
+      "criterio": null
+    },
+    {
+      "testo": "3.1.1",
+      "x": 710.6666666666666,
+      "y": 252.1,
+      "larghezza": 24.2,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "3.1.1"
+    },
+    {
+      "testo": "Lingua della pagina",
+      "x": 771.6666666666666,
+      "y": 249.6,
+      "larghezza": 140.1,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.1.1"
+    },
+    {
+      "testo": "A",
+      "x": 1007.45,
+      "y": 253.1,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "3.1.1"
+    },
+    {
+      "testo": "3.1.2",
+      "x": 710.6666666666666,
+      "y": 273.58,
+      "larghezza": 27.2,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "3.1.2"
+    },
+    {
+      "testo": "Parti in lingua",
+      "x": 771.6666666666666,
+      "y": 271.08,
+      "larghezza": 98.0,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.1.2"
+    },
+    {
+      "testo": "AA",
+      "x": 1003.4,
+      "y": 274.58,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "3.1.2"
+    },
+    {
+      "testo": "3.1.3",
+      "x": 710.6666666666666,
+      "y": 295.06,
+      "larghezza": 27.5,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "3.1.3"
+    },
+    {
+      "testo": "Parole inusuali",
+      "x": 771.6666666666666,
+      "y": 292.56,
+      "larghezza": 105.4,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.1.3"
+    },
+    {
+      "testo": "AAA",
+      "x": 999.35,
+      "y": 296.06,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "3.1.3"
+    },
+    {
+      "testo": "3.1.4",
+      "x": 710.6666666666666,
+      "y": 316.54,
+      "larghezza": 28.2,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "3.1.4"
+    },
+    {
+      "testo": "Abbreviazioni",
+      "x": 771.6666666666666,
+      "y": 314.04,
+      "larghezza": 99.7,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.1.4"
+    },
+    {
+      "testo": "AAA",
+      "x": 999.35,
+      "y": 317.54,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "3.1.4"
+    },
+    {
+      "testo": "3.1.5",
+      "x": 710.6666666666666,
+      "y": 338.02000000000004,
+      "larghezza": 27.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "3.1.5"
+    },
+    {
+      "testo": "Livello di lettura",
+      "x": 771.6666666666666,
+      "y": 335.52000000000004,
+      "larghezza": 117.0,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.1.5"
+    },
+    {
+      "testo": "AAA",
+      "x": 999.35,
+      "y": 339.02000000000004,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "3.1.5"
+    },
+    {
+      "testo": "3.1.6",
+      "x": 710.6666666666666,
+      "y": 359.50000000000006,
+      "larghezza": 28.1,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "3.1.6"
+    },
+    {
+      "testo": "Pronuncia",
+      "x": 771.6666666666666,
+      "y": 357.00000000000006,
+      "larghezza": 73.5,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.1.6"
+    },
+    {
+      "testo": "AAA",
+      "x": 999.35,
+      "y": 360.50000000000006,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "3.1.6"
+    },
+    {
+      "testo": "3.2 Prevedibile",
+      "x": 710.6666666666666,
+      "y": 391.4800000000001,
+      "larghezza": 120.9,
+      "altezza": 20.2,
+      "ruolo": "linea-guida",
+      "criterio": null
+    },
+    {
+      "testo": "3.2.1",
+      "x": 710.6666666666666,
+      "y": 422.18000000000006,
+      "larghezza": 27.2,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "3.2.1"
+    },
+    {
+      "testo": "Al focus",
+      "x": 771.6666666666666,
+      "y": 419.68000000000006,
+      "larghezza": 59.5,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.2.1"
+    },
+    {
+      "testo": "A",
+      "x": 1007.45,
+      "y": 423.18000000000006,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "3.2.1"
+    },
+    {
+      "testo": "3.2.2",
+      "x": 710.6666666666666,
+      "y": 443.6600000000001,
+      "larghezza": 30.2,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "3.2.2"
+    },
+    {
+      "testo": "All’input",
+      "x": 771.6666666666666,
+      "y": 441.1600000000001,
+      "larghezza": 59.3,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.2.2"
+    },
+    {
+      "testo": "A",
+      "x": 1007.45,
+      "y": 444.6600000000001,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "3.2.2"
+    },
+    {
+      "testo": "3.2.3",
+      "x": 710.6666666666666,
+      "y": 465.1400000000001,
+      "larghezza": 30.5,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "3.2.3"
+    },
+    {
+      "testo": "Navigazione coerente",
+      "x": 771.6666666666666,
+      "y": 462.6400000000001,
+      "larghezza": 159.0,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.2.3"
+    },
+    {
+      "testo": "AA",
+      "x": 1003.4,
+      "y": 466.1400000000001,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "3.2.3"
+    },
+    {
+      "testo": "3.2.4",
+      "x": 710.6666666666666,
+      "y": 486.6200000000001,
+      "larghezza": 31.2,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "3.2.4"
+    },
+    {
+      "testo": "Identificazione coerente",
+      "x": 771.6666666666666,
+      "y": 484.1200000000001,
+      "larghezza": 178.6,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.2.4"
+    },
+    {
+      "testo": "AA",
+      "x": 1003.4,
+      "y": 487.6200000000001,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "3.2.4"
+    },
+    {
+      "testo": "3.2.5",
+      "x": 710.6666666666666,
+      "y": 508.10000000000014,
+      "larghezza": 30.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "3.2.5"
+    },
+    {
+      "testo": "Cambiamenti su richiesta",
+      "x": 771.6666666666666,
+      "y": 505.60000000000014,
+      "larghezza": 188.0,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.2.5"
+    },
+    {
+      "testo": "AAA",
+      "x": 999.35,
+      "y": 509.10000000000014,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "3.2.5"
+    },
+    {
+      "testo": "3.2.6",
+      "x": 710.6666666666666,
+      "y": 529.5800000000002,
+      "larghezza": 31.1,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "3.2.6"
+    },
+    {
+      "testo": "Aiuto coerente",
+      "x": 771.6666666666666,
+      "y": 527.0800000000002,
+      "larghezza": 110.3,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.2.6"
+    },
+    {
+      "testo": "A",
+      "x": 1007.45,
+      "y": 530.5800000000002,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "3.2.6"
+    },
+    {
+      "testo": "3.3 Assistenza nell’inserimento",
+      "x": 710.6666666666666,
+      "y": 561.5600000000002,
+      "larghezza": 256.2,
+      "altezza": 20.2,
+      "ruolo": "linea-guida",
+      "criterio": null
+    },
+    {
+      "testo": "3.3.1",
+      "x": 710.6666666666666,
+      "y": 592.2600000000002,
+      "larghezza": 27.5,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "3.3.1"
+    },
+    {
+      "testo": "Identificazione di errori",
+      "x": 771.6666666666666,
+      "y": 589.7600000000002,
+      "larghezza": 169.5,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.3.1"
+    },
+    {
+      "testo": "A",
+      "x": 1007.45,
+      "y": 593.2600000000002,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "3.3.1"
+    },
+    {
+      "testo": "3.3.2",
+      "x": 710.6666666666666,
+      "y": 613.7400000000002,
+      "larghezza": 30.5,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "3.3.2"
+    },
+    {
+      "testo": "Etichette o istruzioni",
+      "x": 771.6666666666666,
+      "y": 611.2400000000002,
+      "larghezza": 151.9,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.3.2"
+    },
+    {
+      "testo": "A",
+      "x": 1007.45,
+      "y": 614.7400000000002,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "3.3.2"
+    },
+    {
+      "testo": "3.3.3",
+      "x": 710.6666666666666,
+      "y": 635.2200000000003,
+      "larghezza": 30.8,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "3.3.3"
+    },
+    {
+      "testo": "Suggerimenti per gli errori",
+      "x": 771.6666666666666,
+      "y": 632.7200000000003,
+      "larghezza": 190.5,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.3.3"
+    },
+    {
+      "testo": "AA",
+      "x": 1003.4,
+      "y": 636.2200000000003,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "3.3.3"
+    },
+    {
+      "testo": "3.3.4",
+      "x": 710.6666666666666,
+      "y": 656.7000000000003,
+      "larghezza": 31.5,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "3.3.4"
+    },
+    {
+      "testo": "Prevenzione degli errori",
+      "x": 771.6666666666666,
+      "y": 654.2000000000003,
+      "larghezza": 173.0,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.3.4"
+    },
+    {
+      "testo": "(legali, finanziari, dati)",
+      "x": 771.6666666666666,
+      "y": 673.2800000000003,
+      "larghezza": 157.2,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.3.4"
+    },
+    {
+      "testo": "AA",
+      "x": 1003.4,
+      "y": 657.7000000000003,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "3.3.4"
+    },
+    {
+      "testo": "3.3.5",
+      "x": 710.6666666666666,
+      "y": 697.2600000000002,
+      "larghezza": 31.2,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "3.3.5"
+    },
+    {
+      "testo": "Aiuto",
+      "x": 771.6666666666666,
+      "y": 694.7600000000002,
+      "larghezza": 39.2,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.3.5"
+    },
+    {
+      "testo": "AAA",
+      "x": 999.35,
+      "y": 698.2600000000002,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "3.3.5"
+    },
+    {
+      "testo": "3.3.6",
+      "x": 710.6666666666666,
+      "y": 718.7400000000002,
+      "larghezza": 31.4,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "3.3.6"
+    },
+    {
+      "testo": "Prevenzione degli errori",
+      "x": 771.6666666666666,
+      "y": 716.2400000000002,
+      "larghezza": 173.0,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.3.6"
+    },
+    {
+      "testo": "(tutti)",
+      "x": 771.6666666666666,
+      "y": 735.3200000000003,
+      "larghezza": 43.1,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.3.6"
+    },
+    {
+      "testo": "AAA",
+      "x": 999.35,
+      "y": 719.7400000000002,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "3.3.6"
+    },
+    {
+      "testo": "3.3.7",
+      "x": 710.6666666666666,
+      "y": 759.3000000000002,
+      "larghezza": 30.0,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "3.3.7"
+    },
+    {
+      "testo": "Inserimento ridondante",
+      "x": 771.6666666666666,
+      "y": 756.8000000000002,
+      "larghezza": 172.9,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.3.7"
+    },
+    {
+      "testo": "A",
+      "x": 1007.45,
+      "y": 760.3000000000002,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "3.3.7"
+    },
+    {
+      "testo": "3.3.8",
+      "x": 710.6666666666666,
+      "y": 780.7800000000002,
+      "larghezza": 31.3,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "3.3.8"
+    },
+    {
+      "testo": "Autenticazione accessibile",
+      "x": 771.6666666666666,
+      "y": 778.2800000000002,
+      "larghezza": 196.9,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.3.8"
+    },
+    {
+      "testo": "(minimo)",
+      "x": 771.6666666666666,
+      "y": 797.3600000000002,
+      "larghezza": 66.4,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.3.8"
+    },
+    {
+      "testo": "AA",
+      "x": 1003.4,
+      "y": 781.7800000000002,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "3.3.8"
+    },
+    {
+      "testo": "3.3.9",
+      "x": 710.6666666666666,
+      "y": 821.3400000000001,
+      "larghezza": 31.4,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "3.3.9"
+    },
+    {
+      "testo": "Autenticazione accessibile",
+      "x": 771.6666666666666,
+      "y": 818.8400000000001,
+      "larghezza": 196.9,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.3.9"
+    },
+    {
+      "testo": "(avanzato)",
+      "x": 771.6666666666666,
+      "y": 837.9200000000002,
+      "larghezza": 77.9,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "3.3.9"
+    },
+    {
+      "testo": "AAA",
+      "x": 999.35,
+      "y": 822.3400000000001,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "3.3.9"
+    },
+    {
+      "testo": "4",
+      "x": 722.6666666666666,
+      "y": 904.4000000000001,
+      "larghezza": 17.9,
+      "altezza": 32.4,
+      "ruolo": "numero-principio",
+      "criterio": null
+    },
+    {
+      "testo": "Robusto",
+      "x": 754.6666666666666,
+      "y": 908.8000000000001,
+      "larghezza": 95.6,
+      "altezza": 25.92,
+      "ruolo": "titolo-principio",
+      "criterio": null
+    },
+    {
+      "testo": "Il contenuto deve essere abbastanza robusto per",
+      "x": 710.6666666666666,
+      "y": 955.4000000000001,
+      "larghezza": 305.4,
+      "altezza": 16.2,
+      "ruolo": "definizione",
+      "criterio": null
+    },
+    {
+      "testo": "essere interpretato in maniera affidabile da una",
+      "x": 710.6666666666666,
+      "y": 971.6000000000001,
+      "larghezza": 294.5,
+      "altezza": 16.2,
+      "ruolo": "definizione",
+      "criterio": null
+    },
+    {
+      "testo": "grande varietà di programmi utente, comprese le",
+      "x": 710.6666666666666,
+      "y": 987.8000000000001,
+      "larghezza": 303.7,
+      "altezza": 16.2,
+      "ruolo": "definizione",
+      "criterio": null
+    },
+    {
+      "testo": "tecnologie assistive.",
+      "x": 710.6666666666666,
+      "y": 1004.0000000000001,
+      "larghezza": 124.8,
+      "altezza": 16.2,
+      "ruolo": "definizione",
+      "criterio": null
+    },
+    {
+      "testo": "4.1 Compatibile",
+      "x": 710.6666666666666,
+      "y": 1034.2,
+      "larghezza": 127.3,
+      "altezza": 20.2,
+      "ruolo": "linea-guida",
+      "criterio": null
+    },
+    {
+      "testo": "4.1.2",
+      "x": 710.6666666666666,
+      "y": 1064.9,
+      "larghezza": 27.9,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "4.1.2"
+    },
+    {
+      "testo": "Nome, ruolo, valore",
+      "x": 771.6666666666666,
+      "y": 1062.4,
+      "larghezza": 140.5,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "4.1.2"
+    },
+    {
+      "testo": "A",
+      "x": 1007.45,
+      "y": 1065.9,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "4.1.2"
+    },
+    {
+      "testo": "4.1.3",
+      "x": 710.6666666666666,
+      "y": 1086.38,
+      "larghezza": 28.2,
+      "altezza": 16.08,
+      "ruolo": "codice",
+      "criterio": "4.1.3"
+    },
+    {
+      "testo": "Messaggi di stato",
+      "x": 771.6666666666666,
+      "y": 1083.88,
+      "larghezza": 129.1,
+      "altezza": 19.08,
+      "ruolo": "titolo-criterio",
+      "criterio": "4.1.3"
+    },
+    {
+      "testo": "AA",
+      "x": 1003.4,
+      "y": 1087.38,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "livello",
+      "criterio": "4.1.3"
+    },
+    {
+      "testo": "Rimosso nella 2.2",
+      "x": 710.6666666666666,
+      "y": 1150.8600000000001,
+      "larghezza": 130.0,
+      "altezza": 18.599999999999998,
+      "ruolo": "storico",
+      "criterio": null
+    },
+    {
+      "testo": "4.1.1 · Analisi sintattica (parsing)",
+      "x": 710.6666666666666,
+      "y": 1171.3600000000001,
+      "larghezza": 217.4,
+      "altezza": 17,
+      "ruolo": "storico",
+      "criterio": null
+    },
+    {
+      "testo": "Obsoleto e rimosso nelle WCAG 2.2. È riportato",
+      "x": 710.6666666666666,
+      "y": 1198.3600000000001,
+      "larghezza": 303.7,
+      "altezza": 17,
+      "ruolo": "storico",
+      "criterio": null
+    },
+    {
+      "testo": "come riferimento storico e non rientra negli 86",
+      "x": 710.6666666666666,
+      "y": 1215.3600000000001,
+      "larghezza": 300.3,
+      "altezza": 17,
+      "ruolo": "storico",
+      "criterio": null
+    },
+    {
+      "testo": "criteri attivi.",
+      "x": 710.6666666666666,
+      "y": 1232.3600000000001,
+      "larghezza": 76.6,
+      "altezza": 17,
+      "ruolo": "storico",
+      "criterio": null
+    },
+    {
+      "testo": "Come leggere la mappa",
+      "x": 710.6666666666666,
+      "y": 1284.3600000000001,
+      "larghezza": 185.2,
+      "altezza": 19.2,
+      "ruolo": "legenda",
+      "criterio": null
+    },
+    {
+      "testo": "A",
+      "x": 721.1166666666667,
+      "y": 1309.76,
+      "larghezza": 8.1,
+      "altezza": 13.68,
+      "ruolo": "legenda",
+      "criterio": null
+    },
+    {
+      "testo": "AA",
+      "x": 754.0666666666666,
+      "y": 1309.76,
+      "larghezza": 16.2,
+      "altezza": 13.68,
+      "ruolo": "legenda",
+      "criterio": null
+    },
+    {
+      "testo": "AAA",
+      "x": 787.0166666666667,
+      "y": 1309.76,
+      "larghezza": 24.3,
+      "altezza": 13.68,
+      "ruolo": "legenda",
+      "criterio": null
+    },
+    {
+      "testo": "Le sigle indicano il livello del singolo criterio.",
+      "x": 710.6666666666666,
+      "y": 1334.3600000000001,
+      "larghezza": 282.3,
+      "altezza": 17,
+      "ruolo": "legenda",
+      "criterio": null
+    },
+    {
+      "testo": "La conformità AA comprende tutti i criteri A e",
+      "x": 710.6666666666666,
+      "y": 1363.3600000000001,
+      "larghezza": 294.1,
+      "altezza": 17,
+      "ruolo": "legenda",
+      "criterio": null
+    },
+    {
+      "testo": "AA; la conformità AAA comprende A, AA e AAA.",
+      "x": 710.6666666666666,
+      "y": 1380.3600000000001,
+      "larghezza": 303.4,
+      "altezza": 17,
+      "ruolo": "legenda",
+      "criterio": null
+    },
+    {
+      "testo": "Criterio introdotto con le WCAG 2.2.",
+      "x": 734.6666666666666,
+      "y": 1413.3600000000001,
+      "larghezza": 232.6,
+      "altezza": 17,
+      "ruolo": "legenda",
+      "criterio": null
+    },
+    {
+      "testo": "Lettura per colonne: 1 → 2 → 3 → 4",
+      "x": 863.3,
+      "y": 1463.6,
+      "larghezza": 162.7,
+      "altezza": 12.48,
+      "ruolo": "ordine",
+      "criterio": null
+    }
+  ],
+  "fondo_contenuti": 1430.3600000000001,
+  "limite_contenuti": 1433.0
+}

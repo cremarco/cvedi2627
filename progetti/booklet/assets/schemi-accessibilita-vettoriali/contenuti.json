@@ -1,0 +1,349 @@
+{
+  "schema": "cvedi-accessibilita-contenuti-schemi/v1",
+  "fonte_testi": "risorse-condivise/fonti/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/prompts.json",
+  "bersagli": {
+    "titolo": "Dimensioni e spaziatura dei bersagli",
+    "originale": "risorse-condivise/immagini/figure/accessibilita/dimensioni-e-spaziatura-bersagli.svg",
+    "casi": [
+      {
+        "titolo": "24 × 24 CSS px",
+        "lato": 24,
+        "spazio": 2,
+        "sufficiente": true,
+        "esito": [
+          "Dimensione",
+          "rispettata"
+        ]
+      },
+      {
+        "titolo": "20 × 20 · spazio 4",
+        "lato": 20,
+        "spazio": 4,
+        "sufficiente": true,
+        "esito": [
+          "Spaziatura",
+          "sufficiente"
+        ]
+      },
+      {
+        "titolo": "20 × 20 · spazio 0",
+        "lato": 20,
+        "spazio": 0,
+        "sufficiente": false,
+        "esito": [
+          "Spaziatura",
+          "insufficiente"
+        ]
+      }
+    ]
+  },
+  "confronti": [
+    {
+      "nome": "contrasto-testo",
+      "titolo": "Leggere un appuntamento",
+      "testi": {
+        "titolo": "Il tuo appuntamento",
+        "data": "14 ottobre",
+        "ora": "10:00",
+        "errore": "Orario non disponibile"
+      },
+      "altezza": 157.1900826446281,
+      "originali": {
+        "barriera": "risorse-condivise/immagini/figure/accessibilita/contrasto-testo-barriera.png",
+        "scelte": "risorse-condivise/immagini/figure/accessibilita/contrasto-testo-scelte.png"
+      }
+    },
+    {
+      "nome": "contrasto-controlli",
+      "titolo": "Riconoscere una casella",
+      "testi": {
+        "etichetta": "Ricevi aggiornamenti",
+        "stato": "Selezionata"
+      },
+      "altezza": 157.1900826446281,
+      "originali": {
+        "barriera": "risorse-condivise/immagini/figure/accessibilita/contrasto-controlli-barriera.png",
+        "scelte": "risorse-condivise/immagini/figure/accessibilita/contrasto-controlli-scelte.png"
+      }
+    },
+    {
+      "nome": "adattamento",
+      "titolo": "Ingrandire una prenotazione",
+      "testi": {
+        "titolo": "Riepilogo",
+        "data": "14 ottobre",
+        "ora": "10:00",
+        "riga": "Riepilogo · 14 ottobre · 10:00",
+        "conferma": "Conferma"
+      },
+      "altezza": 157.1900826446281,
+      "originali": {
+        "barriera": "risorse-condivise/immagini/figure/accessibilita/adattamento-barriera.png",
+        "scelte": "risorse-condivise/immagini/figure/accessibilita/adattamento-scelte.png"
+      }
+    },
+    {
+      "nome": "tastiera",
+      "titolo": "Inviare un modulo senza mouse",
+      "testi": {
+        "email": "Email",
+        "corso": "Corso",
+        "design": "Design",
+        "comunicazione": "Comunicazione",
+        "invia": "Invia"
+      },
+      "altezza": 157.1900826446281,
+      "originali": {
+        "barriera": "risorse-condivise/immagini/figure/accessibilita/tastiera-barriera.png",
+        "scelte": "risorse-condivise/immagini/figure/accessibilita/tastiera-scelte.png"
+      }
+    },
+    {
+      "nome": "puntamento",
+      "titolo": "Riordinare senza trascinare",
+      "testi": {
+        "citta": [
+          "Roma",
+          "Milano",
+          "Torino"
+        ],
+        "azioni": [
+          "Su",
+          "Giù"
+        ]
+      },
+      "altezza": 157.1900826446281,
+      "originali": {
+        "barriera": "risorse-condivise/immagini/figure/accessibilita/puntamento-barriera.png",
+        "scelte": "risorse-condivise/immagini/figure/accessibilita/puntamento-scelte.png"
+      }
+    },
+    {
+      "nome": "immagini",
+      "titolo": "Descrivere ciò che serve",
+      "testi": {
+        "file": "foto_018.jpg",
+        "alternativa": "Zaino rosso,\ndue tasche frontali"
+      },
+      "altezza": 162.64462809917356,
+      "originali": {
+        "barriera": "risorse-condivise/immagini/figure/accessibilita/immagini-barriera.png",
+        "scelte": "risorse-condivise/immagini/figure/accessibilita/immagini-scelte.png"
+      }
+    },
+    {
+      "nome": "media",
+      "titolo": "Seguire un video su più canali",
+      "testi": {
+        "solo-audio": "Audio soltanto",
+        "sottotitoli": "Docente: il percorso è a destra\n[suono di notifica]"
+      },
+      "altezza": 157.1900826446281,
+      "originali": {
+        "barriera": "risorse-condivise/immagini/figure/accessibilita/media-barriera.png",
+        "scelte": "risorse-condivise/immagini/figure/accessibilita/media-scelte.png"
+      }
+    },
+    {
+      "nome": "semantica",
+      "titolo": "Aprire i dettagli di consegna",
+      "testi": {
+        "dettagli": "Dettagli consegna",
+        "consegna": "Consegna: 16 ottobre",
+        "ispezione": "Nome: Dettagli consegna\nRuolo: pulsante\nStato: espanso",
+        "mancante": "Ruolo non indicato\nStato non indicato"
+      },
+      "altezza": 157.1900826446281,
+      "originali": {
+        "barriera": "risorse-condivise/immagini/figure/accessibilita/semantica-barriera.png",
+        "scelte": "risorse-condivise/immagini/figure/accessibilita/semantica-scelte.png"
+      }
+    },
+    {
+      "nome": "feedback",
+      "titolo": "Capire che il salvataggio è riuscito",
+      "testi": {
+        "stato": "Salvataggio completato",
+        "salva": "Salva",
+        "nessun-annuncio": "Nessun annuncio"
+      },
+      "altezza": 157.29083665338646,
+      "originali": {
+        "barriera": "risorse-condivise/immagini/figure/accessibilita/feedback-barriera.png",
+        "scelte": "risorse-condivise/immagini/figure/accessibilita/feedback-scelte.png"
+      }
+    },
+    {
+      "nome": "cognitiva",
+      "titolo": "Prenotare con il contesto visibile",
+      "testi": {
+        "domanda": "Confermi?",
+        "data": "Data: 14 ottobre",
+        "ora": "Ora: 10:00",
+        "modifica": "Modifica",
+        "conferma": "Conferma"
+      },
+      "altezza": 157.1900826446281,
+      "originali": {
+        "barriera": "risorse-condivise/immagini/figure/accessibilita/cognitiva-barriera.png",
+        "scelte": "risorse-condivise/immagini/figure/accessibilita/cognitiva-scelte.png"
+      }
+    },
+    {
+      "nome": "movimento",
+      "titolo": "Fermare e riprendere la lettura",
+      "testi": {
+        "pausa": "Pausa aggiornamenti",
+        "riprendi": "Riprendi",
+        "automatico": "Aggiornamento automatico",
+        "articoli": [
+          "Aula aperta",
+          "Nuovi orari",
+          "Avviso del corso"
+        ]
+      },
+      "altezza": 157.1900826446281,
+      "originali": {
+        "barriera": "risorse-condivise/immagini/figure/accessibilita/movimento-barriera.png",
+        "scelte": "risorse-condivise/immagini/figure/accessibilita/movimento-scelte.png"
+      }
+    },
+    {
+      "nome": "moduli",
+      "titolo": "Correggere una data",
+      "testi": {
+        "etichetta": "Data dell’appuntamento",
+        "breve": "Data",
+        "valore": "14/10/26",
+        "riparazione": "Usa l’anno di quattro cifre",
+        "errore": "Errore",
+        "formato": "GG/MM/AAAA"
+      },
+      "altezza": 157.1900826446281,
+      "originali": {
+        "barriera": "risorse-condivise/immagini/figure/accessibilita/moduli-barriera.png",
+        "scelte": "risorse-condivise/immagini/figure/accessibilita/moduli-scelte.png"
+      }
+    },
+    {
+      "nome": "autenticazione",
+      "titolo": "Accedere con gli strumenti abituali",
+      "testi": {
+        "etichetta": "Password",
+        "incolla": "Incolla",
+        "consentito": "Incolla consentito",
+        "disabilitato": "Incolla disabilitato"
+      },
+      "altezza": 157.1900826446281,
+      "originali": {
+        "barriera": "risorse-condivise/immagini/figure/accessibilita/autenticazione-barriera.png",
+        "scelte": "risorse-condivise/immagini/figure/accessibilita/autenticazione-scelte.png"
+      }
+    },
+    {
+      "nome": "personalizzazione",
+      "titolo": "Adattare la lettura",
+      "testi": {
+        "testo": "Testo",
+        "comandi": "− Aa +",
+        "movimento": "Movimento ridotto",
+        "ripristina": "Ripristina",
+        "titolo": "Orari della biblioteca",
+        "orario": "Apertura dalle 9 alle 18"
+      },
+      "altezza": 157.1900826446281,
+      "originali": {
+        "barriera": "risorse-condivise/immagini/figure/accessibilita/personalizzazione-barriera.png",
+        "scelte": "risorse-condivise/immagini/figure/accessibilita/personalizzazione-scelte.png"
+      }
+    },
+    {
+      "nome": "lingua",
+      "titolo": "Riconoscere nomi e lingue",
+      "testi": {
+        "completo": "Nome completo",
+        "cognome": "Cognome",
+        "nome": "Ana María O’Neill",
+        "valore": "O’Neill",
+        "lingua": "Italiano",
+        "errore": "Solo lettere A–Z"
+      },
+      "altezza": 157.1900826446281,
+      "originali": {
+        "barriera": "risorse-condivise/immagini/figure/accessibilita/lingua-barriera.png",
+        "scelte": "risorse-condivise/immagini/figure/accessibilita/lingua-scelte.png"
+      }
+    },
+    {
+      "nome": "verifica-wcag",
+      "titolo": "Verificare un percorso completo",
+      "testi": {
+        "passi": [
+          "Accesso",
+          "Modulo",
+          "Conferma"
+        ]
+      },
+      "altezza": 199.3388429752066,
+      "originali": {
+        "barriera": "risorse-condivise/immagini/figure/accessibilita/verifica-wcag-barriera.png",
+        "scelte": "risorse-condivise/immagini/figure/accessibilita/verifica-wcag-scelte.png"
+      }
+    },
+    {
+      "nome": "valutazione",
+      "titolo": "Dall’ostacolo alla nuova prova",
+      "testi": {
+        "vago": "Il sito non funziona",
+        "righe": [
+          "Compito: prenotare",
+          "Ostacolo: menu inaccessibile",
+          "Modifica: uso da tastiera",
+          "Nuova prova: stesso percorso"
+        ]
+      },
+      "altezza": 157.1900826446281,
+      "originali": {
+        "barriera": "risorse-condivise/immagini/figure/accessibilita/valutazione-barriera.png",
+        "scelte": "risorse-condivise/immagini/figure/accessibilita/valutazione-scelte.png"
+      }
+    }
+  ],
+  "sha256_originali": {
+    "risorse-condivise/immagini/figure/accessibilita/contrasto-testo-barriera.png": "10a0d31a0b5f2756ff654f24a8497b19b36c2b671aa9f426e391caaf6eb6ba78",
+    "risorse-condivise/immagini/figure/accessibilita/contrasto-testo-scelte.png": "225fe9c168241a7927e655c5c07013e3950338e372cf09e5326189c90ff8f9e0",
+    "risorse-condivise/immagini/figure/accessibilita/contrasto-controlli-barriera.png": "c3924f87712967380e49c8e7834ebfdfb174ada735933500c6b818eea14e920b",
+    "risorse-condivise/immagini/figure/accessibilita/contrasto-controlli-scelte.png": "4c30287d9fc70c5d582717878eb5d8b1c6c8a6f17a34d5cc54d9c0adea4ddc4a",
+    "risorse-condivise/immagini/figure/accessibilita/adattamento-barriera.png": "ca2cd5d9964403791f9f252e912345dda01eac2f416dd967a7079661396aee4c",
+    "risorse-condivise/immagini/figure/accessibilita/adattamento-scelte.png": "d425e1100789bbd4dd718f3128722fc9ebf66928f8db34783d55688ab2fda2cd",
+    "risorse-condivise/immagini/figure/accessibilita/tastiera-barriera.png": "48750b02a4755c9765ef4182f53f011cd5e27457df0e18c9d78c485b30cbe0c4",
+    "risorse-condivise/immagini/figure/accessibilita/tastiera-scelte.png": "b3994f9b86ae4ac7172ee97f7c42905cb6197ca3754eff2b808f093204f19d0d",
+    "risorse-condivise/immagini/figure/accessibilita/puntamento-barriera.png": "707435f1172f6d03c373a7dd072a56fac22003409672d8133eb8fac9b219313e",
+    "risorse-condivise/immagini/figure/accessibilita/puntamento-scelte.png": "a12b45b5787ecb4083636ffef30b212496a116c5a392c9356a808f4c4e1f3a0d",
+    "risorse-condivise/immagini/figure/accessibilita/immagini-barriera.png": "5fd378faf2d2634333d7256dfc91cc24fd215997df42f0926a05336c93d0800f",
+    "risorse-condivise/immagini/figure/accessibilita/immagini-scelte.png": "3952109172c67ee266b952935f8eb51163142dfc59ef1be1a1c17dabdebe3fdf",
+    "risorse-condivise/immagini/figure/accessibilita/media-barriera.png": "c7a46e136e8c7d2d0b4911520ec5dee2c311f4db30b98ab7e1c2d55f63508803",
+    "risorse-condivise/immagini/figure/accessibilita/media-scelte.png": "9daf160b23dfdf23501c7666ab39339b620f40e155c0064231496808312ce703",
+    "risorse-condivise/immagini/figure/accessibilita/semantica-barriera.png": "e56bf57084cab75166affa2bc5c9e04030c3f7cb2c3df53f51feb28f764b9d83",
+    "risorse-condivise/immagini/figure/accessibilita/semantica-scelte.png": "7ae5e6ae9fee73b01702964544248bdbb49a189f9a60599216286e59e2811cc1",
+    "risorse-condivise/immagini/figure/accessibilita/feedback-barriera.png": "3991e9d0c9b5caaf718b802308c461d9fc9061defbf12104fc534deb10cdd6ae",
+    "risorse-condivise/immagini/figure/accessibilita/feedback-scelte.png": "0c3bb5f05c02c7905192e20e7461bd4423411843ad3ff5587587fa3fc709d5af",
+    "risorse-condivise/immagini/figure/accessibilita/cognitiva-barriera.png": "a6f0779505c3382c8ac4facb3fe342b18c56627374e9e092b0aa3d951bc10c2b",
+    "risorse-condivise/immagini/figure/accessibilita/cognitiva-scelte.png": "f7d652b12ce0a7c5475dd459d75680a85386cddef26100e5b7fe0f3ea5aa09b4",
+    "risorse-condivise/immagini/figure/accessibilita/movimento-barriera.png": "198851953f82fd0f1ad7ab03f7146fd825ea7af5f8349ae968cb91f8d1c0984f",
+    "risorse-condivise/immagini/figure/accessibilita/movimento-scelte.png": "6c22ae1cbb20baca0c32fcf21421491b7152c56ef252e942ad12630c703c77f8",
+    "risorse-condivise/immagini/figure/accessibilita/moduli-barriera.png": "7dd0c20af402b351a1bb141c46c6fc832d7fe2d0888d8b9a1cbc9a33cf32830e",
+    "risorse-condivise/immagini/figure/accessibilita/moduli-scelte.png": "9deb70fb3f51fb08cb4bcc569f16251a34350a2f42971a1184f46353e7e9e605",
+    "risorse-condivise/immagini/figure/accessibilita/autenticazione-barriera.png": "2024bb01e1aa2c13f5de9d95c4fe31df14b4be841aa702fa65e38f5b0e265481",
+    "risorse-condivise/immagini/figure/accessibilita/autenticazione-scelte.png": "e15b56eec9ca1bd1c15c6ce42f19078006d26132f104c36582b5f581ac2bd9e8",
+    "risorse-condivise/immagini/figure/accessibilita/personalizzazione-barriera.png": "edbac01c6e58922b61b94575a3569b9e36e5e9be6567851479e2c8160866be2a",
+    "risorse-condivise/immagini/figure/accessibilita/personalizzazione-scelte.png": "fdae94f3ce76611b187b41f8f9d7173d9a7c285b2c9bee8cc19046b1264ab997",
+    "risorse-condivise/immagini/figure/accessibilita/lingua-barriera.png": "ff7699e35344b940b2254215bd73b87cec8568fc044d46af4ba28cf5bd3d60b3",
+    "risorse-condivise/immagini/figure/accessibilita/lingua-scelte.png": "d29a3e8be929240dbaa89b116390edef45486a40ab6009d2f0eaed91fcf0632d",
+    "risorse-condivise/immagini/figure/accessibilita/verifica-wcag-barriera.png": "d43b65758a436e344d68809485b14510886c229bbf45bc5377e39710c0aac0ed",
+    "risorse-condivise/immagini/figure/accessibilita/verifica-wcag-scelte.png": "d1501022c726e8a9b21e1cd7d1be71a7953a058fd4d8bead873e3288d61648ca",
+    "risorse-condivise/immagini/figure/accessibilita/valutazione-barriera.png": "a42c5e00ac6b23a4e68f79d5c05e5567d521cb94ce2a2f2e30f1e17ad2d0f5de",
+    "risorse-condivise/immagini/figure/accessibilita/valutazione-scelte.png": "a80b5c01a7eef87e63165db2c30fc29aabeb3c6833462de97fe87cc742dadfc6",
+    "risorse-condivise/immagini/figure/accessibilita/dimensioni-e-spaziatura-bersagli.svg": "02eb0fe66fd6e749e93bd221c5b3da8b8e1cbefee158a605a39506ac8dc7be16"
+  }
+}

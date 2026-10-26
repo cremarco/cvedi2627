@@ -4,8 +4,10 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 from pathlib import Path
 import re
+import shutil
 import subprocess
 
 # Questo modulo risiede in progetti/booklet/scripts/booklet/: la radice resta indipendente dal cwd.
@@ -15,6 +17,7 @@ PROVE = ROOT / "progetti/booklet/scripts/booklet-prove"
 TARGETS = {
     "booklet": (BOOKLET / "main.typ", BOOKLET / "build/booklet.pdf"),
     "aperture": (BOOKLET / "anteprime/aperture.typ", BOOKLET / "build/anteprime/aperture.pdf"),
+    "elenchi": (BOOKLET / "anteprime/elenchi.typ", BOOKLET / "build/anteprime/elenchi.pdf"),
     "frontespizio-indice": (BOOKLET / "capitoli/00-frontespizio-indice.typ", BOOKLET / "build/anteprime/00-frontespizio-indice.pdf"),
     "storia-del-design": (BOOKLET / "capitoli/01-storia-del-design.typ", BOOKLET / "build/anteprime/01-storia-del-design.pdf"),
     "ricerca": (BOOKLET / "capitoli/02-ricerca.typ", BOOKLET / "build/anteprime/02-ricerca.pdf"),
@@ -23,6 +26,7 @@ TARGETS = {
     "colore": (BOOKLET / "capitoli/05-colore.typ", BOOKLET / "build/anteprime/05-colore.pdf"),
     "tipografia": (BOOKLET / "capitoli/06-tipografia.typ", BOOKLET / "build/anteprime/06-tipografia.pdf"),
     "griglia": (BOOKLET / "capitoli/07-griglia.typ", BOOKLET / "build/anteprime/07-griglia.pdf"),
+    "composizione-gerarchia": (BOOKLET / "capitoli/08-composizione-gerarchia.typ", BOOKLET / "build/anteprime/08-composizione-gerarchia.pdf"),
 }
 PT_MM = 72 / 25.4
 
@@ -59,7 +63,20 @@ def local_path(value: str, base: Path = ROOT) -> Path:
     return path
 
 
+def typst_executable() -> str | None:
+    """Il percorso esplicito funziona anche se la cartella contiene ':' o spazi."""
+    configured = os.environ.get("BOOKLET_TYPST")
+    if configured:
+        return configured
+    local = BOOKLET / ".venv" / ("Scripts/typst.exe" if os.name == "nt" else "bin/typst")
+    return str(local) if local.is_file() else shutil.which("typst")
+
+
 def run(command: list[str]) -> str:
+    if command[0] == "typst":
+        compiler = typst_executable()
+        require(compiler is not None, "Typst non trovato: installarlo nel PATH o in progetti/booklet/.venv/bin/.")
+        command = [compiler, *command[1:]]
     result = subprocess.run(command, cwd=ROOT, text=True, capture_output=True)
     diagnostics = result.stderr.strip()
     require(result.returncode == 0,

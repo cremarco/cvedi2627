@@ -1,0 +1,43 @@
+{
+  "versione": 2,
+  "esito": "ok",
+  "criteri_attivi": 86,
+  "linee_guida": 13,
+  "principi": 4,
+  "livelli": {
+    "A": 31,
+    "AA": 24,
+    "AAA": 31
+  },
+  "novita": 9,
+  "criterio_rimosso": {
+    "id": "4.1.1",
+    "livello_attivo": null,
+    "composizione": "Nota storica separata, senza badge di livello."
+  },
+  "fonti": {
+    "mappa": "risorse-condivise/fonti/booklet/accessibilita-estensione/wcag-2.2-mappa-italiana.pdf",
+    "normativa": "https://www.w3.org/Translations/WCAG22-it/",
+    "verifica": "2026-10-25"
+  },
+  "controlli": {
+    "identificatori": "Tutti gli 87 ID corrispondono alla fonte locale.",
+    "livelli": "Tutti gli 86 livelli dei criteri attivi corrispondono ai gruppi A/AA/AAA nel PDF sorgente.",
+    "novita": "Nove identificatori e relativi livelli controllati nella sezione Nuove funzionalità della traduzione italiana autorizzata W3C.",
+    "titoli_svg": "Ciascuno degli 86 titoli è presente per intero nella propria riga SVG.",
+    "ordine": "ID ordinati numericamente in ogni linea guida; ordine dei principi 1, 2, 3, 4.",
+    "gerarchia": "Nessuna linea di collegamento o maschera; badge di livello sulla singola riga.",
+    "gabbia": "Tutte le righe e i testi sono entro i propri limiti; righe non sovrapposte e contenuti entro il margine inferiore.",
+    "raster_incorporati": 0,
+    "ispezione": "Esaminato il PNG della variante in tracciati, 1130 × 1600, senza testo tagliato o sovrapposizioni."
+  },
+  "tipografia": {
+    "corpo_criteri": 15.9,
+    "interlinea": 19.08,
+    "precedente_corpo_criteri": [
+      10.0,
+      10.6
+    ]
+  },
+  "file": "anteprima-v2.png"
+}

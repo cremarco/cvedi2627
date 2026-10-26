@@ -1,0 +1,56 @@
+{
+  "strumento": "image_gen.imagegen built-in",
+  "generazioni": [
+    {
+      "id": "lettera-a-tridimensionale",
+      "input": "risorse-condivise/immagini/figure/tipografia/lettera-a-tridimensionale.png",
+      "output": "/Users/marco/.codex/generated_images/01a17517-18fb-7dd2-8845-17589832edb2/exec-323324c2-4fcd-4b9e-ae0b-d65cdc98613a.png",
+      "prompt": "Use case: precise-object-edit\nAsset type: transparent 3D typographic illustration in chapter 06 of an Italian printed booklet.\nInput image 1: edit target, the existing lowercase 3D a.\nPrimary request: recolor ONLY the pale blue extruded side and rear faces of the a to the chapter green, base color #7BF1A8. Keep realistic highlights and shadows as shades of this green.\nConstraints: preserve the exact lowercase a glyph shape, silhouette, perspective, framing, proportions, position, front black textured metal face, bevels, weathered material and lighting. Preserve the original alpha silhouette as closely as possible. No new objects or lettering. No background or cast shadow outside the object; genuinely transparent background. No blue should remain.\nText (verbatim): \"a\" (the existing sculptural glyph, not added text).",
+      "capitolo": 6,
+      "accento": "#7BF1A8"
+    },
+    {
+      "id": "scenario-scegliere-colore",
+      "input": "risorse-condivise/immagini/figure/accessibilita/scenario-scegliere-colore.png",
+      "output": "/Users/marco/.codex/generated_images/01a17517-18fb-7dd2-8845-17589832edb2/exec-5a94e247-4c58-410f-b7af-105a72af9be8.png",
+      "prompt": "Use case: style-transfer\nAsset type: landscape editorial illustration for chapter 03, Accessibilità e inclusione.\nInput image 1: edit target and reference for scene/content/framing.\nInput image 2: REQUIRED STYLE REFERENCE supplied by the user: simple faceless Persona Spectrum pictograms. Use its drawing language, not its red color.\nPrimary request: redraw all people in image 1 in the exact simplified pictogram style of image 2, and use chapter amber #FFD230 instead of red.\nStyle requirements: faceless round heads with NO eyes, NO nose, NO mouth, NO beard or facial features; simple one-line hair contour when needed; rounded uniform BLACK monoline outlines; extremely simple geometric bodies, arms and mitten-like hands; flat fills, NO gradients, NO shading or realistic anatomy. People must look like enlarged examples from the reference atlas, naturally adapted to the seated actions. Simplify props to the same graphic language. Black #111111, white and neutral gray, with amber #FFD230 as ONLY chromatic accent. White background.\nScene/content invariants: Preserve the woman, laptop, shopping interface with the three T-shirts and label outlines, check mark, plant and cup. Replace all red accents (sweater, selected T-shirt, selection border, connector, cup) with chapter amber. Preserve the selected/white/black swatch distinction.\nKeep the useful educational mechanism clear. Preserve original scene aspect ratio and overall composition. No labels, no words, no text, no decorative frames or extra objects. Crisp editorial drawing.",
+      "capitolo": 3,
+      "accento": "#FFD230",
+      "riferimento_stile": "progetti/booklet/assets/illustrazioni-palette-capitoli/riferimenti/stile-omini-utente.png"
+    },
+    {
+      "id": "scenario-usare-tastiera",
+      "input": "risorse-condivise/immagini/figure/accessibilita/scenario-usare-tastiera.png",
+      "output": "/Users/marco/.codex/generated_images/01a17517-18fb-7dd2-8845-17589832edb2/exec-0441f24b-588a-4a45-b7da-0c8f4a7414db.png",
+      "prompt": "Use case: style-transfer\nAsset type: landscape editorial illustration for chapter 03, Accessibilità e inclusione.\nInput image 1: edit target and reference for scene/content/framing.\nInput image 2: REQUIRED STYLE REFERENCE supplied by the user: simple faceless Persona Spectrum pictograms. Use its drawing language, not its red color.\nPrimary request: redraw all people in image 1 in the exact simplified pictogram style of image 2, and use chapter amber #FFD230 instead of red.\nStyle requirements: faceless round heads with NO eyes, NO nose, NO mouth, NO beard or facial features; simple one-line hair contour when needed; rounded uniform BLACK monoline outlines; extremely simple geometric bodies, arms and mitten-like hands; flat fills, NO gradients, NO shading or realistic anatomy. People must look like enlarged examples from the reference atlas, naturally adapted to the seated actions. Simplify props to the same graphic language. Black #111111, white and neutral gray, with amber #FFD230 as ONLY chromatic accent. White background.\nScene/content invariants: Preserve the woman actively typing with both hands on the laptop keyboard, form, OPEN dropdown with three options, focus outline, three focus-traversal circles and arrows, plant and book. Replace all red accents with chapter amber. Keep the focused selection and open dropdown unmistakable.\nKeep the useful educational mechanism clear. Preserve original scene aspect ratio and overall composition. No labels, no words, no text, no decorative frames or extra objects. Crisp editorial drawing.",
+      "capitolo": 3,
+      "accento": "#FFD230",
+      "riferimento_stile": "progetti/booklet/assets/illustrazioni-palette-capitoli/riferimenti/stile-omini-utente.png"
+    },
+    {
+      "id": "scenario-seguire-lezione",
+      "input": "risorse-condivise/immagini/figure/accessibilita/scenario-seguire-lezione.png",
+      "output": "/Users/marco/.codex/generated_images/01a17517-18fb-7dd2-8845-17589832edb2/exec-0edb382e-b6be-4ad0-92b9-2cdbfa613682.png",
+      "prompt": "Use case: style-transfer\nAsset type: landscape editorial illustration for chapter 03, Accessibilità e inclusione.\nInput image 1: edit target and reference for scene/content/framing.\nInput image 2: REQUIRED STYLE REFERENCE supplied by the user: simple faceless Persona Spectrum pictograms. Use its drawing language, not its red color.\nPrimary request: redraw all people in image 1 in the exact simplified pictogram style of image 2, and use chapter amber #FFD230 instead of red.\nStyle requirements: faceless round heads with NO eyes, NO nose, NO mouth, NO beard or facial features; simple one-line hair contour when needed; rounded uniform BLACK monoline outlines; extremely simple geometric bodies, arms and mitten-like hands; flat fills, NO gradients, NO shading or realistic anatomy. People must look like enlarged examples from the reference atlas, naturally adapted to the seated actions. Simplify props to the same graphic language. Black #111111, white and neutral gray, with amber #FFD230 as ONLY chromatic accent. White background.\nScene/content invariants: Preserve the woman watching a screen, teacher pointing at triangle with exactly three vertices, monitor, black caption bars with white blocks, muted audio symbol, playback progress, keyboard, mouse, plant, books and pen holder. Replace all red accents with chapter amber.\nKeep the useful educational mechanism clear. Preserve original scene aspect ratio and overall composition. No labels, no words, no text, no decorative frames or extra objects. Crisp editorial drawing.",
+      "capitolo": 3,
+      "accento": "#FFD230",
+      "riferimento_stile": "progetti/booklet/assets/illustrazioni-palette-capitoli/riferimenti/stile-omini-utente.png"
+    },
+    {
+      "id": "persona-spectrum-atlas",
+      "input": "risorse-condivise/fonti/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
+      "output": "/Users/marco/.codex/generated_images/01a17517-18fb-7dd2-8845-17589832edb2/exec-3f698e20-5937-4ebd-b462-d2616295f65a.png",
+      "prompt": "Use case: precise-object-edit\nAsset type: existing editorial educational raster in chapter 03 of an Italian printed booklet.\nInput image 1: edit target.\nPrimary request: change only the outdated red chapter accent to chapter amber #FFD230, keeping all black/gray/white areas and the white background unchanged.\nSpecific invariants: This is one sprite atlas, 3 columns by 4 rows. Preserve ALL twelve pictograms in exactly the same positions and cell spacing, with exactly the same poses, objects, conditions, number of limbs, and silhouettes. Row 1: one arm, injured arm in sling, parent holding baby. Row 2: blind person with cane, cataract with glasses, driver holding wheel. Row 3: person with hand by ear, ear infection with sound marks, busy bartender with sound waves. Row 4: nonverbal person with tablet, person wearing scarf, person speaking to microphone. Replace every red area or stroke with amber #FFD230. Do NOT invent or remove any limbs, objects or pictograms. Uniform black outlines unchanged. Keep original 1086:1448 aspect ratio and original grid placement. No cell borders or labels.\nStyle: preserve original clean black line art, proportions, framing and composition. Crisp print-quality result; no new decorations, no border, no watermark. Do not add text.",
+      "capitolo": 3,
+      "accento": "#FFD230"
+    },
+    {
+      "id": "mappa-wcag-2.2",
+      "input": "risorse-condivise/immagini/figure/accessibilita/mappa-wcag-2.2.png",
+      "output": "/Users/marco/.codex/generated_images/01a17517-18fb-7dd2-8845-17589832edb2/exec-1b806cc1-2cea-4360-ac0a-b3e3331994eb.png",
+      "prompt": "Use case: precise-object-edit\nAsset type: existing editorial educational raster in chapter 03 of an Italian printed booklet.\nInput image 1: edit target.\nPrimary request: change only the outdated red chapter accent to chapter amber #FFD230, keeping all black/gray/white areas and the white background unchanged.\nSpecific invariants: Make a precise recolor of this dense Italian WCAG 2.2 educational map; do not redraw or reinterpret it. Preserve the entire infographic, EVERY existing Italian word, number, punctuation, success criterion, A/AA/AAA badge, star, connector and drawing exactly. Replace red filled shapes (ribbon, clothes, circle, icons, badges) with chapter amber #FFD230. Red small text and red thin connectors become DARK AMBER #973C00 so they remain legible on white; white text within newly amber badges and central circle becomes black #2E3138 for contrast. Large WCAG title uses dark amber. Preserve original 1054:1492 vertical aspect ratio and all spacing. Absolutely no new text, omissions, misspellings or changes of criterion numbers.\nStyle: preserve original clean black line art, proportions, framing and composition. Crisp print-quality result; no new decorations, no border, no watermark. Do not add text.",
+      "capitolo": 3,
+      "accento": "#FFD230"
+    }
+  ]
+}

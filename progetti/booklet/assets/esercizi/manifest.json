@@ -1,0 +1,21 @@
+{
+  "tipo": "Riferimento approvato per gli esercizi del booklet Typst",
+  "scelta_utente": "Cornice a L, variante tenue tono su tono",
+  "originale": "cornice-L-tenue-riferimento.png",
+  "sha256": "aad5f5472a4e110f9c4e250d77c27e79ae71f1f1648987c26d3269f71c5c2344",
+  "prompt": "prompt-approvato.txt",
+  "strumento": "image_gen.imagegen integrato",
+  "esecuzione": "template/esercizi.typ: testo e segni vettoriali nativi; il raster non viene incorporato nel volume",
+  "palette": {
+    "base": "accento del capitolo",
+    "spazio": "rgb",
+    "fondo_accento_percento": 8,
+    "cornice_accento_percento": 22,
+    "punti_accento_percento": 45
+  },
+  "geometria": {
+    "cornice_mm": 10,
+    "passo_punti_mm": 5,
+    "raggio_punto_mm": 0.45
+  }
+}

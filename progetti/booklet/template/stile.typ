@@ -1,15 +1,33 @@
 // Sistema editoriale del booklet. Contenuti e fonti restano nei rispettivi file.
 // Le aperture usano SVG condivisi; il testo usa il flusso nativo del documento.
 #import "aperture/apertura.typ": apertura
-#import "note.typ": richiamo-nota, spazio-note, distacco-note
-#import "geometria.typ": inchiostro, pagina-larghezza, pagina-altezza, margini, intercolonna, discesa-folio
-#import "editoriale.typ": didascalia as disegna-didascalia, distacco-didascalia
+#import "note.typ": richiamo-nota
+#import "geometria.typ": (inchiostro, pagina-larghezza, pagina-altezza, margini,
+  intercolonna, discesa-folio, margine-inferiore-corpo, discesa-folio-corpo)
+#import "editoriale.typ": didascalia as disegna-didascalia, distacco-didascalia, folio-arabo
 // Queste importazioni mantengono l’API storica usata dai capitoli.
 #import "figure.typ": immagine, schermata
-#import "pagine.typ": appunti
+#import "pagine.typ": appunti, pagine-al-vivo-mobili
 #import "bibliografia.typ": pagina-bibliografia
 #import "palette.typ": accento-preliminari, accento-capitolo
+#import "esercizi.typ": sfondo-esercizi, esercizi-pagina, tinte-esercizio
 #let colore-capitolo = state("colore-capitolo", accento-preliminari)
+
+// Gli elenchi conservano voci e numerazione native; cambia soltanto il segno.
+#let elenchi(accento: accento-preliminari, corpo) = {
+  set list(marker: box(baseline: (at: bottom, shift: -0.05em),
+    square(size: 0.4em, fill: accento, stroke: none)))
+  set enum(numbering: (..numeri) => context {
+    let em = (1em).to-absolute()
+    let cifra = text(size: 0.8em, weight: 600, fill: inchiostro,
+      numeri.pos().map(str).join("."))
+    // Il quadrato si allarga solo quando servono più cifre o livelli completi.
+    box(width: calc.max(1.2 * em, measure(cifra).width + 0.3 * em), height: 1.2em,
+      baseline: (at: bottom, shift: 0.35em), fill: accento, stroke: none,
+      inset: 0pt, align(center + horizon, cifra))
+  })
+  corpo
+}
 
 // Misure del testo discorsivo. Il preset approvato è 11/13,5 pt;
 // l'input della CLI conserva il confronto con la composizione precedente.
@@ -29,12 +47,15 @@
 
 // Il folio è condiviso dalle pagine ordinarie e dalla prova delle note a tutta gabbia.
 #let folio(romano: false) = context {
+  if here().page() in pagine-al-vivo-mobili() { return }
   let lato = if calc.odd(counter(page).get().first()) { right } else { left }
   let numero = counter(page).get().first()
   let cifre = if romano { numbering("i", numero) }
-    else if numero < 10 { "00" + str(numero) }
-    else if numero < 100 { "0" + str(numero) } else { str(numero) }
-  align(lato, rect(width: 32pt, height: 22pt, fill: colore-capitolo.get(),
+    else { folio-arabo(numero) }
+  let esercizi = esercizi-pagina(here().page())
+  let fondo = if esercizi.len() == 0 { colore-capitolo.get() }
+    else { tinte-esercizio(esercizi.first().value.accento).fondo }
+  align(lato, rect(width: 32pt, height: 22pt, fill: fondo,
     stroke: none, inset: 4pt)[
     #set text(size: 12pt, weight: 500, variations: (opsz: 14))
     #set par(leading: 2pt)
@@ -64,7 +85,9 @@
   show strong: it => text(weight: 700, variations: (opsz: 14), it.body)
   set page(width: pagina-larghezza, height: pagina-altezza, binding: left,
     margin: margini(), columns: 2, footer-descent: discesa-folio,
-    footer: folio())
+    footer: folio(), background: context {
+      if here().page() not in pagine-al-vivo-mobili() { sfondo-esercizi() }
+    })
   set columns(gutter: intercolonna)
   set heading(numbering: "1.1.1.")
 
@@ -157,6 +180,7 @@
 // fonti è il path() del .bib o .yml di questo capitolo; corpo è prosa continua.
 #let capitolo(numero: 1, titolo: [], composizione: none, accento: accento-capitolo(1),
   visuale: none, fonti: none, gruppi-fonti: none, corpo) = {
+  show: elenchi.with(accento: accento)
   // Il prefisso appartiene al capitolo anche quando un richiamo è altrove.
   // Il progressivo rimane il contatore nativo, azzerato prima del corpo.
   set figure(numbering: n => str(numero) + "." + str(n))
@@ -174,8 +198,8 @@
   {
     set text(size: misure-lettura.corpo)
     set par(leading: misure-lettura.interlinea - misure-lettura.corpo)
-    set page(margin: margini(bottom: margini().bottom + spazio-note + distacco-note),
-      footer-descent: spazio-note + distacco-note + discesa-folio)
+    set page(margin: margini(bottom: margine-inferiore-corpo),
+      footer-descent: discesa-folio-corpo)
     // L'apparato originale di colonna non deve essere duplicato.
     show footnote.entry: none
     set footnote.entry(separator: none, clearance: 0pt, gap: 0pt)

@@ -12,6 +12,10 @@
 #let spazio-note = 35mm
 #let distacco-note = 8pt
 #let discesa-folio = 17pt
+#let altezza-corpo = altezza-gabbia - spazio-note - distacco-note
+#let fondo-gabbia = pagina-altezza - margine-inferiore
+#let margine-inferiore-corpo = margine-inferiore + spazio-note + distacco-note
+#let discesa-folio-corpo = spazio-note + distacco-note + discesa-folio
 #let rispetto-sagoma = 8pt
 #let minimo-testo = 108pt
 #let inchiostro = rgb("2E3138")

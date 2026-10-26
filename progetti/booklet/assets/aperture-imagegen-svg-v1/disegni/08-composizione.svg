@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1055" height="1491" viewBox="0 0 1055 1491" role="img" aria-labelledby="titolo descrizione">
+  <title id="titolo">Composizione e gerarchia visiva</title>
+  <desc id="descrizione">Un campo dominante, un cerchio e piccoli segni allineati costruiscono pesi e direzioni differenti. Titolo e numero sono composti separatamente.</desc>
+  <g data-palette="principale" fill="#46ECD5"><rect width="1055" height="1491"/></g>
+  <g data-palette="inchiostro" fill="#2E3138">
+    <rect x="43" y="712" width="568" height="736"/>
+    <circle cx="818" cy="806" r="52"/>
+    <rect x="767" y="887" width="103" height="103"/>
+    <path d="M767 1128 L818 1022 L870 1128 Z"/>
+  </g>
+  <g data-palette="carta" fill="#FFFFFF">
+    <path d="M43 712 H611 V1280 A568 568 0 0 1 43 712 Z"/>
+    <rect x="650" y="1190" width="362" height="28"/>
+    <rect x="650" y="1246" width="267" height="28"/>
+    <rect x="650" y="1302" width="171" height="28"/>
+    <rect x="650" y="1358" width="76" height="28"/>
+  </g>
+  <g data-palette="secondario" fill="#FFB86A"><circle cx="950" cy="130" r="62"/></g>
+</svg>

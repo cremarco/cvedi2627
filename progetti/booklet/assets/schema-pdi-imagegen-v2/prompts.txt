@@ -1,0 +1,27 @@
+PROMPT INIZIALE — built-in image_gen.imagegen
+
+Use case: style-transfer
+Asset type: artistic editorial data illustration for the printed Italian book CVeDI.
+Inputs: Image 1 is the existing PDI graphic to redesign; it supplies the exact country names, values and national flags. Image 2 is the actual chapter opening of this book and is the STYLE reference only: borrow its bold intersecting arcs, circular counterforms, orange/charcoal/white color blocking, tiny pink accents, monumental geometric typography and sophisticated editorial composition. Do NOT copy its text, its chapter number 02 or its exact cover layout.
+Primary request: Make the PDI scheme substantially MORE ARTISTIC. Transform it into a striking piece of geometric editorial illustration, a sculptural architectural landscape of six abstract geometric totems whose heights accurately encode the six values. The whole image should feel art-directed like a graphic design book spread. Give it the visual invention, negative space, big curved shapes and playful interlocking forms of the reference cover, while the data stays legible.
+Composition: landscape 3:2, straight-on flat artwork. White background. Small bold Sora title at upper left, exactly "Distanza dal potere"; small nearby label "PDI". Main composition below occupies most of the image: six equally wide vertical geometric totems on exactly the same horizontal baseline, in the exact given left-to-right order. A slim quantitative vertical ruler at the far left shows 0, 20, 40, 60, 80, 100 equally spaced, sharing that same baseline and maximum height. Scale heights exactly: 11%, 18%, 22%, 95%, 100%, 100% of ruler height. The tops of the last two totems align exactly at the 100 level; Guatemala ends just below at 95.
+Each totem is a compelling flat geometric sculpture built within its measured vertical envelope: orange silhouettes, dark charcoal semicircles, white circular counterforms, deliberate intersections and arch segments. Keep each sculpture visually substantial and equally wide, with a crisp readable top that establishes its value. Internal graphic cutouts and color changes must not obscure the overall measured height. Low values create a playful low cluster at left, high values a strong architectural cluster at right. Use the book cover's family of circular geometry with intelligent variation among the six sculptures. Only a few very small pink details, integrated as counterform accents. White space above the short totems forms part of the composition.
+Typography and data: place each exact score prominently in dark charcoal immediately above its corresponding sculpture, with clear separation from shapes. Each country name appears beneath its own sculpture, in clean DM Sans, with its small authentic rectangular national flag below the name. Do not enlarge or distort flags; they are subordinate accents. Text must be perfectly legible, spelled verbatim. Six sculptures, six values, six names, six flags only.
+Exact data from left to right:
+"Austria" — "11"
+"Danimarca" — "18"
+"Nuova Zelanda" — "22"
+"Guatemala" — "95"
+"Malesia" — "100"
+"Slovacchia" — "100"
+Palette: white #FFFFFF, dominant soft orange #FFB86A, dark charcoal #2E3138; a very restrained hot pink accent drawn from Image 2. National flags retain authentic colors.
+Style: crisp flat vector-like graphic art, large confident geometric gestures, Sora bold geometric typography, premium contemporary Italian editorial design. No six-row table, no long grey horizontal tracks, no dashboard cards, no ordinary office chart. No 3D, gradients, shadows, paper texture, frame, mockup, percentage signs, invented text, sources, page number or watermark. Deliver the artwork itself with clean outer margins.
+
+PROMPT DI RIFINITURA — built-in image_gen.imagegen
+
+Use case: precise-object-edit
+Edit target: the attached artistic PDI chart.
+Make ONE precise correction only: bring the height of the three low sculptures into accurate agreement with the existing vertical ruler. Preserve the entire artistic design, all color-block shapes, white counterforms, orange, charcoal and pink palette, title, typography, data labels, country names, flags, the three tall sculptures, all spacing and the white background.
+The shared baseline is the horizontal line through the bottoms of all six sculptures and the "0" ruler tick. The maximum height is the line through the tops of Malesia and Slovacchia and the "100" ruler tick. Use this shared total height H as the measurement.
+The Austria sculpture must have height exactly 0.11 H from that baseline. The Danimarca sculpture must have height exactly 0.18 H, so its top must be clearly BELOW the existing ruler's 20 tick. The Nuova Zelanda sculpture must have height exactly 0.22 H, so its top is only slightly ABOVE the 20 tick. Correct these three top levels by proportionally reducing each low sculpture's height around the fixed bottom baseline, preserving each sculpture's internal graphic design and horizontal width. Keep each bold score directly above its resized sculpture with the same gap. Keep all three tall sculptures and their correct heights 95, 100 and 100 unchanged.
+Exact unchanged text: "Distanza dal potere", "PDI", "Austria", "11", "Danimarca", "18", "Nuova Zelanda", "22", "Guatemala", "95", "Malesia", "100", "Slovacchia", "100". Vertical axis "0", "20", "40", "60", "80", "100". No other changes. Retain the same landscape 3:2 format and crisp flat vector-like rendering.

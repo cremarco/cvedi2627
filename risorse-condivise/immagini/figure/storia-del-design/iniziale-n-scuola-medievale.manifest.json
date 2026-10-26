@@ -1,0 +1,32 @@
+{
+  "versione": 1,
+  "descrizione": "Capolettera N istoriato: illustrazione contemporanea approvata dall’utente, scuola medievale e ritratto del docente.",
+  "ai_generated": true,
+  "authentic_historical_artifact": false,
+  "generazione": "imagegen integrato; prima generazione della scuola, poi adattamento del volto dalla fotografia fornita dall’utente.",
+  "data_approvazione": "2026-10-25",
+  "asset": {
+    "percorso": "risorse-condivise/immagini/figure/storia-del-design/iniziale-n-scuola-medievale-docente.png",
+    "sha256": "4a19b669efc2d55f8c4b5f784bc668b504baf6ec2c44a4b7c17b1d5c45e70968",
+    "byte": 3010601,
+    "dimensioni_px": [
+      1254,
+      1254
+    ],
+    "trasparenza": true,
+    "copia_identica_all_originale": true,
+    "originale_generato": "/Users/marco/.codex/generated_images/01a1735a-6d76-7f53-a642-1e6e3f3534ad/exec-cd68545f-084e-4a1a-9a50-58ff2b3d7d4f.png"
+  },
+  "originali": {
+    "scuola_senza_ritratto": "risorse-condivise/fonti/booklet/iniziale-n-scuola-medievale/originale-senza-ritratto.png",
+    "sha256_scuola": "28e5ff63a87c2bdd5364ccca09cdedcf7268d93eb068fdfd13cb4dedf716c72a",
+    "fotografia_volto": "/Users/marco/Downloads/IMG_1297.HEIC",
+    "nota_fotografia": "Originale personale conservato nella posizione fornita dall’utente; non copiato nel repository."
+  },
+  "prompt": [
+    "risorse-condivise/fonti/booklet/iniziale-n-scuola-medievale/generazione.json",
+    "risorse-condivise/fonti/booklet/iniziale-n-scuola-medievale/adattamento-volto.json"
+  ],
+  "uso": "Capitolo 01, N di «Nel Medioevo», capolettera senza numero di figura.",
+  "diritti": "Illustrazione generata per il progetto; uso del ritratto richiesto e approvato dall’utente. Nessuna licenza aperta assegnata."
+}

@@ -2,6 +2,12 @@
 // Il contenuto rimane nativo: enfasi, link e contatori appartengono al chiamante.
 #let distacco-didascalia = 8pt
 
+// Il contatore stampato può ripartire dopo i preliminari: non è la pagina PDF.
+#let folio-arabo(numero) = {
+  if numero < 10 { "00" + str(numero) }
+  else if numero < 100 { "0" + str(numero) } else { str(numero) }
+}
+
 // Appunti e bibliografia condividono il titolo senza introdurre un heading
 // nell'indice dei contenuti né un nuovo contatore di sezione.
 #let titolo-apparato(corpo) = text(font: "Sora", size: 20pt, weight: 800, corpo)

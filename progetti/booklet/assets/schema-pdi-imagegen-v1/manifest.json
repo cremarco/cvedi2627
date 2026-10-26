@@ -1,0 +1,65 @@
+{
+  "status": "proposta-raster-non-integrata",
+  "date": "2026-10-25",
+  "tool": "image_gen.imagegen built-in",
+  "request": "Prima prova ImageGen dello schema PDI, coerente con il sistema editoriale del booklet.",
+  "chapter": "02 · Ricerca, persone e culture",
+  "design_contract": "../../DESIGN.md",
+  "prompt": "prompt.txt",
+  "data_source": "../../../../risorse-condivise/immagini/figure/ricerca/dimensioni.json",
+  "data": [
+    {
+      "paese": "Austria",
+      "indice": 11
+    },
+    {
+      "paese": "Danimarca",
+      "indice": 18
+    },
+    {
+      "paese": "Nuova Zelanda",
+      "indice": 22
+    },
+    {
+      "paese": "Guatemala",
+      "indice": 95
+    },
+    {
+      "paese": "Malesia",
+      "indice": 100
+    },
+    {
+      "paese": "Slovacchia",
+      "indice": 100
+    }
+  ],
+  "palette": {
+    "paper": "#FFFFFF",
+    "ink": "#2E3138",
+    "chapterAccent": "#FFB86A",
+    "secondaryInk": "#626872"
+  },
+  "review": {
+    "labels_and_values": "Verificati visivamente: sei paesi e valori corretti.",
+    "layout": "Sei righe e asse comune 0–100; valori 100 su righe distinte.",
+    "production": "Proposta raster: font, colori, dettagli delle bandiere e geometria generati non attestano corrispondenza esatta agli originali. Il componente nativo attivo e le relative attribuzioni restano in template/ricerca.typ."
+  },
+  "files": [
+    {
+      "file": "schema-pdi-v1.png",
+      "sha256": "f1edcb63754d5db2f637e63fd415b9bf30ee9fd2fcc1f8a9ac04ae51eeb069a5",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "riferimento-utente.png",
+      "sha256": "29c880d380744feecc98199b0c51ee301ab3dbdb28c6831df0fca2561f7e212a",
+      "dimensions": [
+        1048,
+        626
+      ]
+    }
+  ]
+}

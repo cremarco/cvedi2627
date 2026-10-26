@@ -1,8 +1,16 @@
 // Note a tutta gabbia, con due colonne native e una fascia inferiore riservata.
 // Nessuna riga della prosa viene misurata o posizionata da questo componente.
 #import "geometria.typ": (spazio-note, distacco-note, gabbia, colonna, intercolonna,
-  pagina-altezza, margine-inferiore, margine-sinistro, inchiostro)
+  fondo-gabbia, margine-sinistro, inchiostro)
 #let larghezza-note = gabbia
+#let distacco-voci = 3.5pt
+#let testa-note = 4.4pt
+
+// Stampa e stima della caption al vivo condividono lo stesso ingombro.
+// Il controllo di capienza resta al chiamante: una stima può essere limitata.
+#let ingombro-note(altezze) = if altezze.len() == 0 { 0pt } else {
+  testa-note + altezze.sum() + distacco-voci * (altezze.len() - 1)
+}
 
 // I richiami ripetuti usano il corpo della nota originale: il numero e i link
 // devono essere gli stessi anche nelle misure delle regioni Meander.
@@ -14,7 +22,7 @@
     visitate.push(originale.body)
     let originali = query(originale.body)
     assert(originali.len() == 1 and originali.first().func() == footnote,
-      message: "Il richiamo ripetuto deve identificare una sola nota originale.")
+      message: "Il richiamo ripetuto deve identificare una sola nota originale: " + repr(originale.body))
     originale = originali.first()
   }
   originale
@@ -101,20 +109,17 @@
   let altezze = note.map(n => altezza-voce(n, larghezza: larghezza))
   // Il distacco conserva cinque note da due righe nella fascia approvata,
   // mantenendo l'interlinea effettiva di 9 pt e senza ridurre il corpo.
-  let gap = 3.5pt
-  let testa = 4.4pt
-  let totale = if note.len() == 0 { 0pt }
-    else { testa + altezze.sum() + gap * (note.len() - 1) }
+  let totale = ingombro-note(altezze)
   assert(totale <= spazio-note,
     message: "Le note della pagina " + str(pagina)
       + " superano la fascia riservata (" + repr(totale) + ").")
   let offset = ()
   let precedente = 0pt
   for (indice, altezza) in altezze.enumerate() {
-    offset.push(precedente + if indice == 0 { 0pt } else { testa })
-    precedente += altezza + gap
+    offset.push(precedente + if indice == 0 { 0pt } else { testa-note })
+    precedente += altezza + distacco-voci
   }
-  (note: note, altezze: altezze, offset: offset, totale: totale, gap: gap)
+  (note: note, altezze: altezze, offset: offset, totale: totale, gap: distacco-voci)
 }
 
 #let pagine-note-esterne() = query(<booklet-note-esterne>).map(m => m.location().page())
@@ -140,13 +145,22 @@
     let note = composizione.note
     let indice = note.position(n => n.location() == origine)
     let x = margine-sinistro(pagina) + if esterne and calc.odd(pagina) { colonna + intercolonna } else { 0pt }
-    let y = pagina-altezza - margine-inferiore - composizione.totale + composizione.offset.at(indice)
+    let didascalie = query(<booklet-didascalia-al-piede>)
+      .filter(m => m.location().page() == pagina)
+    let riserva-didascalia = if didascalie.len() == 0 { 0pt }
+      else { didascalie.first().value.altezza + distacco-note }
+    let y = (fondo-gabbia - riserva-didascalia
+      - composizione.totale + composizione.offset.at(indice))
     // Le coordinate dipendono dalla pagina reale e dalle sole note misurate.
     // Ogni voce compare nella fascia, conservando il punto logico nel suo paragrafo.
     place(top + left, dx: x - posizione.x, dy: y - posizione.y)[
       #block(width: larghezza, above: 0pt, below: 0pt)[
-        #if indice == 0 { separatore-note(larghezza) }
+        #if indice == 0 {
+          if didascalie.len() == 0 { separatore-note(larghezza) }
+            else { v(testa-note, weak: false) }
+        }
         #metadata((pagina: pagina, note: note.len(), indice: indice,
+          origine: origine, altezza_voce: composizione.altezze.at(indice),
           larghezza: larghezza, altezza: composizione.totale, spazio: spazio-note)) <booklet-note-region>
         #voce-nota(nota, larghezza: larghezza)
       ]

@@ -1,6 +1,6 @@
 # Booklet in Typst
 
-`piano.json` è l’autorità per ordine, titoli, numerazione, file e stato dei capitoli. Il booklet comprende sette capitoli, numerati **01–07**: alle sei lezioni iniziali si aggiunge **Griglie e layout**, dalla Page Figma corrente `4954:42`, su richiesta dell’utente. `main.typ` richiama i file disponibili in `capitoli/`, con le rispettive fonti in `bibliografia/`: **I sette capitoli sono inclusi**; **i capitoli 06 e 07 sono in revisione editoriale**. Il capitolo 06 conserva le sezioni 6.1–6.9 e le fonti complete; il capitolo 07 importa la fonte corrente e la propria bibliografia APA. Gli inserti a pagina intera dei capitoli 02–04 sono verificati. I capitoli in preparazione non producono pagine vuote.
+`piano.json` governa ordine, titoli, numerazione, file e stato degli otto capitoli **01–08**. Dopo **Griglie e layout**, il capitolo **Composizione e gerarchia visiva** integra le due Pages Figma `3699:2475` e `2613:1113` con i materiali della ricognizione locale. Tutti gli otto capitoli sono inclusi; i capitoli 06 e 07 restano in revisione editoriale. Testo e fonti del capitolo 08 sono in `capitoli/08-composizione-gerarchia.typ` e `bibliografia/08-composizione-gerarchia.yml`.
 
 I titoli sono brevi sintagmi nominali che identificano il contenuto. Si aggiornano soltanto nel piano, così aperture, indice e segnalibri PDF conservano lo stesso titolo completo. Gli eventuali salti di riga dell’apertura sono una scelta di presentazione e non una seconda copia del titolo. Nei titoli riformulati la congiunzione «e», anche maiuscola, resta unita alla parola seguente, per evitare una riga composta dalla sola congiunzione. «Colore e significato» mantiene il titolo e la presentazione approvati.
 
@@ -18,15 +18,16 @@ Frontespizio, crediti e indice usano numeri romani minuscoli (`i`, `ii`, `iii`�
 | 05 · Colore e significato | 07 | 10 | lime 300 · `#BBF451` | Completo |
 | 06 · Tipografia e lettura | 08 | 11 | green 300 · `#7BF1A8` | In revisione |
 | 07 · Griglie e layout | 08 (percorso storico) | 12 | emerald 300 · `#5EE9B5` | In revisione |
+| 08 · Composizione e gerarchia visiva | — (due Pages Figma) | 9 | teal 300 · `#46ECD5` | Completo |
 
-Introduzione, Processo UX, Define, Linguaggio visivo e Gerarchia visiva sono esclusi dal piano. Le vecchie prove di Introduzione e Griglia, con le fonti, restano in `esperimenti/capitoli-esclusi/`; il vecchio `12-griglia.typ` non è la fonte del nuovo capitolo 07. Per La griglia, il numero 08 identifica il percorso storico delle slide, oggi escluso dalla lezione di sola Tipografia; la fonte corrente resta la Page Figma `4954:42`. I numeri delle lezioni Slidev e i codici Figma identificano le fonti, senza fissare numeri di capitolo o folio del nuovo volume. Il vecchio concept della metropolitana è escluso.
+Introduzione, Processo UX e Define sono esclusi dal piano; Linguaggio visivo e Gerarchia visiva confluiscono nel capitolo 08. Le vecchie prove di Introduzione e Griglia, con le fonti, restano in `esperimenti/capitoli-esclusi/`; il vecchio `12-griglia.typ` non è la fonte del nuovo capitolo 07. Per La griglia, il numero 08 identifica il percorso storico delle slide, oggi escluso dalla lezione di sola Tipografia; la fonte corrente resta la Page Figma `4954:42`. I numeri delle lezioni Slidev e i codici Figma identificano le fonti, senza fissare numeri di capitolo o folio del nuovo volume. Il vecchio concept della metropolitana è escluso.
 
 ## Organizzazione
 
 ```text
 progetti/booklet/
 ├── main.typ                  Ingresso del booklet
-├── piano.json                Sette capitoli, ordine e stato editoriale
+├── piano.json                Otto capitoli, ordine e stato editoriale
 ├── capitoli/                 Un solo file completo per capitolo, compilabile da solo
 │   ├── 00-frontespizio-indice.typ
 │   ├── 01-storia-del-design.typ
@@ -35,7 +36,8 @@ progetti/booklet/
 │   ├── 04-gestalt.typ
 │   ├── 05-colore.typ
 │   ├── 06-tipografia.typ
-│   └── 07-griglia.typ
+│   ├── 07-griglia.typ
+│   └── 08-composizione-gerarchia.typ
 ├── bibliografia/             Fonti APA dei singoli capitoli
 ├── template/
 │   ├── stile.typ             Gabbia, tipografia e apparati
@@ -54,8 +56,11 @@ progetti/booklet/
 │   ├── gestalt.typ          Tavole documentarie della Gestalt
 │   ├── griglia.typ          Figure e doppie pagine del capitolo
 │   ├── consigli-tipografia.typ  Campioni dei consigli tipografici
+│   ├── composizione.typ       Catalogo e visuali del capitolo 08
+│   ├── esercizi.typ           Esercizi al piede e fondi vettoriali
 │   └── aperture/             Composizioni di titolo e numero
 ├── anteprime/aperture.typ     Campionario delle aperture attive
+├── anteprime/elenchi.typ      Campione di elenchi puntati e numerati
 ├── scripts/                  Preparazione delle sagome e dei colori
 ├── esperimenti/              Demo e capitoli esclusi dal piano
 └── build/                    PDF generati, esclusi da Git
@@ -63,13 +68,15 @@ progetti/booklet/
 
 Il comando comune è `./scripts/booklet.mjs`; `./scripts/booklet.py` è l’ingresso Python dei moduli in `./scripts/booklet/`: ambiente e asset, compilazione, inventario editoriale, PDF, regressioni e CLI. Le prove sono in `./scripts/booklet-prove/`. Gli hash degli originali vengono calcolati a blocchi; i collegamenti delle note sono indicizzati per pagina.
 
-Ogni `.typ` in `capitoli/` contiene tutto il testo del capitolo, senza inclusioni di frammenti esterni. Il file esporta `testo`, che `main.typ` importa per il volume, e applica il template quando viene compilato direttamente. `00-frontespizio-indice.typ` raccoglie anche i crediti; la sua anteprima mostra l’elenco dei capitoli, mentre l’indice analitico con i numeri di pagina si popola nel volume completo. I blocchi di contenuto conservano gli ambiti locali delle regole di pagina e delle figure. Le composizioni specifiche restano in `template/`, separate dalla prosa. Le tre fonti di Tipografia sono dichiarate una sola volta nel piano; il resolver assegna i quattro gruppi APA del capitolo. Lo stato `in-revisione` indica che il testo è presente ma la verifica editoriale non è conclusa.
+Ogni `.typ` in `capitoli/` contiene tutto il testo del capitolo, senza inclusioni di frammenti esterni. Il file esporta `testo`, che `main.typ` importa per il volume, e applica il template quando viene compilato direttamente. `00-frontespizio-indice.typ` raccoglie anche i crediti; l’anteprima autonoma contiene frontespizio e crediti. Nel volume completo segue soltanto l’indice nativo con i numeri di pagina e i collegamenti, senza un secondo elenco dei capitoli. I blocchi di contenuto conservano gli ambiti locali delle regole di pagina e delle figure. Le composizioni specifiche restano in `template/`, separate dalla prosa. Le tre fonti di Tipografia sono dichiarate una sola volta nel piano; il resolver assegna i quattro gruppi APA del capitolo. Lo stato `in-revisione` indica che il testo è presente ma la verifica editoriale non è conclusa.
 
 Le immagini e i font sono nella cartella `../../risorse-condivise/`: figure condivise con le slide in `immagini/figure/<tema>/`, biblioteca precedente in `immagini/aperture/`, font in `font/editoriali/` e profili alpha in `dati/sagome/`. Le aperture attive sono in `assets/aperture-imagegen-svg-v1/`; le prove grafiche precedenti in `assets/archivio/typst/`. La [guida agli asset](../../risorse-condivise/README.md) indica originali, manifest, licenze e copie generate.
 
 ## Aprire e compilare
 
-Aprire **questa cartella** in VS Code. La configurazione `.vscode/settings.json` di Tinymist imposta la radice del progetto al repository, due livelli sopra questa cartella e carica soltanto i font condivisi. Aprire `main.typ` per il volume oppure un file di `capitoli/` per il singolo capitolo e avviare **Typst Preview**. La versione collaudata della CLI è **Typst 0.15.1**, fissata in `.typst-version`: il comando rifiuta altre versioni. Aggiornare la versione soltanto dopo il confronto dei rendering e il superamento delle verifiche. La Preview di Tinymist usa il proprio motore: la verifica CLI rimane quella di consegna.
+I percorsi in `tinymist.fontPaths` sono relativi alla radice Typst, anche aprendo la sola cartella del booklet: evitano di inserire nei percorsi dei font il separatore `:` presente nel nome del repository. Dopo un cambiamento di queste impostazioni, eseguire «Sviluppatore: Ricarica finestra» prima di ricontrollare la diagnostica: il solo riavvio del server Tinymist può riutilizzare la configurazione caricata all’avvio dell’estensione.
+
+Aprire **questa cartella oppure la radice del repository** in VS Code. Entrambe hanno una configurazione `.vscode/settings.json` di Tinymist: impostano la radice Typst al repository e caricano soltanto i font condivisi. Aprire `main.typ` per il volume oppure un file di `capitoli/` per il singolo capitolo e avviare **Typst Preview**. La versione collaudata della CLI è **Typst 0.15.1**, fissata in `.typst-version`: il comando rifiuta altre versioni. Aggiornare la versione soltanto dopo il confronto dei rendering e il superamento delle verifiche. La Preview di Tinymist usa il proprio motore: la verifica CLI rimane quella di consegna.
 
 Nella **preview di Codex non aprire i PDF del booklet**, compresi i PDF dei capitoli: anche questi possono essere troppo grandi e provocare il crash dell’app. Compilare e verificare i PDF tramite CLI e consultare il volume completo in un lettore esterno. Le risposte di Codex mostrano soltanto PNG delle pagine interessate, senza allegati o collegamenti al PDF. Typst Preview esterno in VS Code è un ambiente distinto.
 
@@ -94,22 +101,39 @@ Digitare `/hooks`, rivedere il solo hook di progetto «Verifica anteprima bookle
 
 Con **⌘⇧B** l’attività predefinita `Typst: booklet` usa lo stesso comando della CLI e compila volume e anteprime. `Typst: anteprima aperture` compila soltanto il campionario; `Typst: verifica booklet` esegue tutti i controlli. Le impostazioni sono in `.vscode/tasks.json`.
 
-Dalla radice del repository, preparare una volta Python **3.10 o successivo** con le dipendenze collaudate per immagini e PDF:
+Dalla radice del repository, preparare una volta Python **3.10 o successivo** con le dipendenze collaudate per immagini e PDF. Su questo Mac `python3` è la versione di sistema 3.9: usare l’interprete aggiornato `python3.12`. Poiché il nome del repository contiene `:`, che Python non accetta durante la creazione di un venv, per una nuova installazione creare l’ambiente fuori dal repository e collegarlo:
 
 ```sh
-python3 -m venv progetti/booklet/.venv
+python3.12 -m venv "$HOME/.venvs/cvedi-booklet"
+ln -s "$HOME/.venvs/cvedi-booklet" progetti/booklet/.venv
 progetti/booklet/.venv/bin/python3 -m pip install -r progetti/booklet/requirements.txt
 pnpm build:booklet
 pnpm check:booklet
 ```
 
-Su Windows usare `progetti/booklet/.venv/Scripts/python.exe` per l’installazione. Il runner sceglie `BOOKLET_PYTHON` quando impostato, altrimenti il Python del venv locale e infine `python3`. Non è necessario attivare il venv. La versione Typst deve essere disponibile nel `PATH`.
+Su Windows usare `progetti/booklet/.venv/Scripts/python.exe` per l’installazione. Il runner sceglie `BOOKLET_PYTHON` quando impostato, altrimenti il Python del venv locale e infine `python3`. Non è necessario attivare il venv. Per Typst il resolver usa prima `BOOKLET_TYPST`, poi l’eseguibile locale `.venv/bin/typst` (`.venv/Scripts/typst.exe` su Windows), infine il `PATH`; verifica sempre la versione **0.15.1**. L’eseguibile locale viene invocato mediante il percorso completo, senza aggiungere la cartella del repository al `PATH`: spazi e `:` nel nome non interrompono la ricerca. Il venv e gli eseguibili locali sono esclusi da Git.
 
 Entrambi i comandi verificano piano, temi, percorsi, font e licenze con hash, dimensioni e contenuto dei profili alpha, poi compilano `main.typ`, il campionario delle aperture e gli otto file autonomi di `capitoli/`. Qualsiasi avviso Typst causa un fallimento. `check:booklet` controlla inoltre inventario delle figure, note e voci singole sulla pagina del richiamo, bibliografie, ancore delle figure mobili, metadati e parità delle doppie pagine, destinazioni interne dei PDF. Le regressioni isolate verificano i contorni dei glifi a peso 700/800/900, le note ripetute, le date APA con solo anno/senza data/data completa, i profili alpha e l’overflow delle sagome con e senza note, anche su pagina pari e dispari. Le prove Python verificano inoltre i controlli stessi: link mancanti o duplicati, gruppi di pagine incompleti, profili malformati e conservazione dei rapporti completi durante una compilazione parziale. Il controllo dei link certifica la presenza delle destinazioni nel PDF; non verifica la raggiungibilità degli URL in rete o la conformità completa del PDF accessibile.
 
-I PDF restano in `build/`; il rapporto e l’indice generato dei manifest stanno in `../../reports/typst-booklet/check/`. Il controllo completo conserva `verifica.json`; compilazioni, controlli dei soli dati e ingressi singoli usano rapporti distinti, così una prova parziale non sostituisce l’ultimo controllo completo. I conteggi di figure e note attesi sono in `./scripts/booklet-prove/attesi.json`: aggiornarli soltanto dopo inserimenti o rimozioni intenzionali. Nessun numero di pagine è fissato. Per i soli dati usare `pnpm check:booklet --assets-only`. Per un ingresso usare `pnpm build:booklet --target NOME`: i nomi disponibili sono `booklet`, `aperture`, `frontespizio-indice`, `storia-del-design`, `ricerca`, `accessibilita`, `gestalt`, `colore`, `tipografia` e `griglia`.
+I PDF restano in `build/`; il rapporto e l’indice generato dei manifest stanno in `../../reports/typst-booklet/check/`. Il controllo completo conserva `verifica.json`; compilazioni, controlli dei soli dati e ingressi singoli usano rapporti distinti, così una prova parziale non sostituisce l’ultimo controllo completo. I conteggi di figure e note attesi sono in `./scripts/booklet-prove/attesi.json`: aggiornarli soltanto dopo inserimenti o rimozioni intenzionali. Nessun numero di pagine è fissato. Per i soli dati usare `pnpm check:booklet --assets-only`. Per un ingresso usare `pnpm build:booklet --target NOME`: i nomi disponibili sono `booklet`, `aperture`, `elenchi`, `frontespizio-indice`, `storia-del-design`, `ricerca`, `accessibilita`, `gestalt`, `colore`, `tipografia`, `griglia` e `composizione-gerarchia`.
+
+Il campione `elenchi` usa gli stessi stili nativi dei capitoli, con un confronto fra punti e numeri e il passaggio da una a due cifre. Per mostrarlo in Codex, dopo la compilazione usare `pnpm preview:booklet --target elenchi --pages 1`.
 
 La prova `flusso.typ` verifica che il testo successivo riempia la pagina precedente alle tavole mobili di Ricerca, Gestalt e dei componenti documentari, conservando ordine, numerazione e destinazioni PDF dei richiami. Un controllo negativo riproduce la barriera `place.flush()` e deve essere rilevato. I campioni composti soltanto con testo verificano anche l’ancora visiva di blocco, senza dipendere dalla presenza di un’immagine.
+
+Per gli inserti al vivo, `flusso-al-vivo.typ` verifica che i paragrafi successivi riempiano sopra la caption, allineata a 220 mm, e che le note conservino 8 pt di distacco dalla prosa e dalla didascalia. `esclusivita-al-vivo.typ` controlla due coppie con figure ordinarie di colonna prima e dopo: i fogli delle immagini non possono contenere altre figure, note o folio. `didascalia-separata.typ` verifica anche il rifilo superiore, l’altezza della miniatura uguale al testo, il divisorio a tutta gabbia e la visibilità integrale attraverso le clip effettive del PDF. Il controllo PDF verifica su tutti gli inserti del volume l’assenza di prosa, didascalie, note e folio nei fogli al vivo.
+
+Per un refactor senza cambiamenti visivi è disponibile anche il confronto esatto di tutti i PDF già compilati. Richiede `pypdfium2` nello stesso ambiente Python (dipendenza opzionale, usata soltanto dal confronto). Dalla radice, dopo un `pnpm check:booklet` riuscito, salvare il riferimento; dopo le modifiche ripetere il check e confrontare:
+
+```sh
+progetti/booklet/.venv/bin/python3 -m pip install pypdfium2
+PYTHONPATH=progetti/booklet/scripts progetti/booklet/.venv/bin/python3 -m booklet.comparison snapshot /tmp/booklet-prima.json
+# Modificare i sorgenti, poi aggiornare PDF e inventari.
+pnpm check:booklet
+PYTHONPATH=progetti/booklet/scripts progetti/booklet/.venv/bin/python3 -m booklet.comparison compare /tmp/booklet-prima.json --output reports/typst-booklet/refactor-posizionamento/confronto.json
+```
+
+Lo snapshot conserva firme per ogni pagina: formato, testo, trasformazioni e posizioni, destinazioni dei link e pixel renderizzati; confronta anche gli inventari editoriali. Ogni differenza fa fallire il confronto. PDFium e la sua versione devono coincidere fra le due esecuzioni. Il raster viene elaborato in memoria, una pagina alla volta con lato massimo 1600 px: non crea anteprime o copie dei PDF. L’ispezione visiva continua a usare soltanto `preview:booklet`.
 
 Per l’aggiornamento continuo usare Typst Preview oppure `typst watch --root . --ignore-system-fonts --font-path risorse-condivise/font/editoriali progetti/booklet/main.typ progetti/booklet/build/booklet.pdf`. La prima compilazione scarica **Meander 0.4.4** e la dipendenza hy-dro-gen dal registro ufficiale; le successive usano la cache locale. Il nuovo template importa il pacchetto ufficiale senza modifiche. La copia in `esperimenti/vendor/` appartiene soltanto alle vecchie demo.
 
@@ -131,26 +155,21 @@ Scrivere le formule con il markup matematico nativo: `$a > b > 0$` nel testo, `$
 
 ### Scegliere il componente
 
-| Contenuto o tipo di pagina | Componente e responsabilità |
-| --- | --- |
-| Prosa, sezioni e sottoparagrafi | Markup Typst nativo; `stile.typ` definisce le regole comuni. |
-| Figura nel flusso o mobile a gabbia intera | `figure.typ`: `immagine()`, con `placement` e `scope` nativi. |
-| Documento mobile con altezza limitata o gabbia riservata | `figure.typ`: `documento-mobile()`; i wrapper di Ricerca e della mappa WCAG conservano rapporto, allineamento e riserva specifici. |
-| Un’unica figura su un foglio autonomo mobile | `figure.typ`: `figura-pagina()`, misura caption e diritti e adatta l’immagine. |
-| Più documenti sullo stesso foglio mobile | `documenti.typ`: `tavola-documentaria()`, contenuti composti con i componenti granulari; `fissa: true` conserva i raccordi intenzionali. |
-| Figura a foglio intero con didascalia su un’altra pagina | `figure.typ`: `didascalia-separata()`, con miniatura e rimando automatico alla pagina dell’immagine. |
-| Schermata Caffè TTC al vivo | `figure.typ`: `schermata()`, che usa `didascalia-separata()` nella prosa precedente. |
-| Campione tipografico, confronto o dettaglio | `campioni.typ`; `documenti.typ` conserva i ritagli degli originali. |
-| Immagine trasparente accanto a un paragrafo | `sagome.typ`: `sagoma()`, con prosecuzione nativa del testo. |
-| Sagoma su uno o due fogli | `doppia-pagina.typ`: `sagoma-pagina()` o `sagoma-regionale()`; `sagoma-duomo()` conserva il solo preset del Duomo. |
-| Bibliografia e Appunti | `bibliografia.typ` e `pagine.typ`, fuori dalla fascia delle note del corpo. |
-| Note e profili alpha | `note.typ` e `profili.typ`, condivisi da flusso ordinario e sagome. |
+I sei grafici di Hofstede condividono `disegno-grafico()` in `template/ricerca.typ`: il volume mantiene testi e geometrie nativi con bandiere SVG originali flag-icons. `assets/schemi-hofstede-vettoriali/` contiene le esportazioni SVG autonome dello stesso disegno, con titoli e descrizioni accessibili. Per rigenerarle dalla radice usare `progetti/booklet/.venv/bin/python3 progetti/booklet/scripts/prepara-schemi-hofstede.py`; aggiungere `--check` per verificare dati, asset, licenza e assenza di raster senza riscrivere i file. I valori sono confrontati con le verifiche online del 25 ottobre 2026; gli originali precedenti restano conservati.
+
+La [mappa dei contenitori in DESIGN.md](DESIGN.md#scegliere-il-contenitore) distingue tutti i casi attivi: figure di colonna e larghe, tavole documentarie e Gestalt, documenti di Ricerca, inserti al vivo, sagome, doppie pagine, campioni ed esercizi. La stessa guida contiene ricette minime con import e percorsi, quote condivise ed eccezioni per capitolo. Usarla come riferimento unico per le nuove pagine.
 
 `geometria.typ` raccoglie le quote; `editoriale.typ` i ruoli di caption, diritti, dettagli e titoli degli apparati. I componenti descrivono il contenuto e il suo comportamento; i sorgenti dei capitoli mantengono prosa, riferimenti e ordine editoriale. Per i nuovi moduli verificare lo [scope di import e include](https://typst.app/docs/reference/scripting/#modules) e delle [regole di stile](https://typst.app/docs/reference/styling/): l’uscita da un ambito può cambiare il flusso delle pagine anche con gli stessi valori di `page`.
 
 Noto Sans JP completa i caratteri giapponesi assenti nei font editoriali, come quelli del glossario ukiyo-e. Noto Sans SC completa quelli cinesi assenti anche nel font JP, per esempio 劳 nel nome 麦当劳. Originali e licenze OFL sono nella cartella dei font condivisi; DM Sans e Sora conservano i propri ruoli.
 
-Per una citazione usare `@chiave`, con la voce nel file di fonti del capitolo. Typst accetta nativamente **Hayagriva YAML** (`.yml`) e **BibLaTeX** (`.bib`): Storia usa `bibliografia/01-storia-del-design.yml`, Tipografia usa `bibliografia/06-tipografia.bib`, `06-tipografia-articoli.yml` e `06-tipografia-opere.yml`. Lo stile nativo **APA 7** genera autore–anno e bibliografia alfabetica. DOI e URL bibliografici previsti da APA rimangono nel riferimento. I collegamenti di consultazione usano invece `#sito([Descrizione], "https://…")` e diventano note al piede. Non scrivere a mano l’elenco bibliografico. Ogni capitolo termina con bibliografia a gabbia intera e una pagina Appunti.
+Per una citazione bibliografica (articoli, libri, capitoli, atti di convegno, rapporti e altre pubblicazioni) usare `@chiave`, con la voce nel file di fonti del capitolo. Typst accetta nativamente **Hayagriva YAML** (`.yml`) e **BibLaTeX** (`.bib`): Storia usa `bibliografia/01-storia-del-design.yml`, Tipografia usa `bibliografia/06-tipografia.bib`, `06-tipografia-articoli.yml` e `06-tipografia-opere.yml`. Lo stile nativo **APA 7** genera autore–anno e bibliografia alfabetica. DOI e URL bibliografici previsti da APA rimangono nel riferimento. I collegamenti di consultazione usano invece `#sito([Descrizione], "https://…")` e diventano note al piede. Non scrivere a mano l’elenco bibliografico. Ogni capitolo termina con bibliografia a gabbia intera e una pagina Appunti.
+
+**Note e bibliografia sono due apparati distinti.** Le spiegazioni in `#footnote[...]` e i siti in `sito()` o `nota-compatta()` producono soltanto numeri in apice nel testo. Un sito citato soltanto in nota non richiede `@chiave`. Se una fonte ha anche un riferimento bibliografico, conservare sia la citazione APA sia il numero della nota URL: per esempio, `@preston2026-graphic.#sito(...)` è intenzionale. La presenza dell’URL non basta a decidere se togliere una citazione; verificare il ruolo della fonte. Il testo descrittivo dentro la nota resta distinto dal richiamo numerico.
+
+Per ripetere un URL sulla stessa pagina, assegnare un'etichetta alla nota originale (`#sito([Fonte], "https://…") <nota-fonte>`) e usare `#footnote(<nota-fonte>)` negli altri punti. Una pagina deve avere una sola voce per URL. Se più note condividono parte dei collegamenti, unirne descrizioni e URL distinti nella nota comune e aggiornare tutti i richiami. Non scrivere i numeri a mano. Il controllo CLI di volume e capitoli autonomi verifica gli URL nelle voci della pagina effettiva, compresi quelli delle note con più fonti; ripetere il controllo dopo modifiche al flusso. Le diverse query e ancore mantengono la propria identità. **Ogni richiamo deve avere la nota sulla stessa pagina fisica.** Se l’URL ricompare in un’altra pagina, scrivere una nuova nota locale e lasciare assegnare un nuovo numero al contatore nativo. Riutilizzare un’etichetta solo fra richiami della medesima pagina. Questo vale anche per figure, sagome e apparati di lettura delle fonti: i controlli strutturali e dei link PDF rifiutano i rimandi a note di altre pagine.
+
+Classificare ogni nuova fonte in `bibliografia/ruoli-fonti.json`: `pubblicazioni` ammette i richiami APA; `siti` contiene soltanto i collegamenti da mantenere nelle note. Il registro motiva anche articoli e documenti pubblicati online, distinti dalle semplici pagine web. I metadati originari dei siti restano nei file `.bib` e `.yml` per conservarne la provenienza; la bibliografia stampata include soltanto le pubblicazioni effettivamente citate. Per i siti eliminare anche eventuali citazioni con `form: none` e chiavi nei preordini APA. `pnpm check:booklet` verifica tutte le citazioni native del volume, anche quelle invisibili, i numeri delle note e la presenza degli URL sitografici nelle note del rispettivo capitolo. Le note URL delle pubblicazioni restano consentite insieme alla citazione APA.
 
 Per Tipografia, `../../risorse-condivise/dati/fonti/tipografia/riferimenti-figma.json` conserva le dodici tavole originali degli apparati; `riconciliazione.json`, nella stessa cartella, documenta il ruolo dei rimandi nella nuova edizione. Distingue opere citate, consultazioni nelle note, provenienza delle immagini, fonti alternative e risorse ulteriori non usate. Una diversa URL non significa automaticamente un’opera mancante o una copia della stessa pagina. I riferimenti agli esemplari di una collezione non vanno attribuiti alle fotografie di un’altra. Le limitazioni delle risorse archiviate restano esplicite nel registro.
 
@@ -172,9 +191,9 @@ Il template corregge i normali richiami alle figure mobili per il [difetto Typst
 
 Le note delle figure mobili a gabbia intera vanno nel paragrafo che le richiama: Typst può perdere le note inserite direttamente in una figura con `scope: "parent"`. Le didascalie restano accanto alle immagini, mentre URL e richiamo della nota seguono la prosa.
 
-Per le figure a foglio intero con didascalia su un’altra pagina usare il componente comune `didascalia-separata()` di `template/figure.typ`: la miniatura dello stesso asset misura **18 mm in larghezza**, conserva l’immagine intera senza cornici e lascia **3 mm** al testo. Il blocco indivisibile comprende miniatura, numero della figura, rimando «p.» e didascalia; non crea un altro progressivo. Caption e diritti mantengono rispettivamente **9/10,8 pt** e **8/10 pt**. Numero della figura e numero della pagina sono collegati alla destinazione dell’immagine. Il folio deriva dalla destinazione e si aggiorna dopo la ricomposizione, anche nel volume con preliminari romani e ripartenza araba da 1: non scrivere numeri di pagina manuali né ricavarli aggiungendo 1 alla pagina della caption. La nota sitografica resta al piede della pagina della didascalia.
+Per le figure a foglio intero con didascalia su un’altra pagina usare il componente comune `didascalia-separata()` di `template/figure.typ`: la miniatura dello stesso asset ha **la stessa altezza dell’intero blocco di testo**, conserva le proporzioni e l’immagine intera senza cornici e lascia **3 mm** al testo. Un divisorio sottile in colore inchiostro `#2E3138` a tutta gabbia precede il gruppo di **8 pt**; le eventuali note stanno sopra il divisorio. Il blocco indivisibile comprende miniatura, numero della figura, didascalia e diritti, quindi il rimando «Nella pagina successiva · p. NNN →» sull’ultima riga; non crea un altro progressivo. Caption e diritti mantengono rispettivamente **9/10,8 pt** e **8/10 pt**. Numero della figura e numero della pagina sono collegati alla destinazione dell’immagine. Il folio deriva dalla destinazione e si aggiorna dopo la ricomposizione, anche nel volume con preliminari romani e ripartenza araba da 1: non scrivere numeri di pagina manuali né ricavarli aggiungendo 1 alla pagina della caption. La nota sitografica resta al piede della pagina della didascalia.
 
-Per gli screenshot Caffè TTC richiesti a piena pagina usare `schermata(file, didascalia, etichetta, alt)`, che richiama `didascalia-separata()`: caption modificabile, miniatura, rimando e nota URL precedono una pagina senza margini, folio o apparati. Le quindici schermate attive usano questa composizione. Passare l’etichetta come argomento, per esempio `<fig-ttc-flat>`, e richiamarla con `@fig-ttc-flat`. Se la spiegazione è condivisa fra più viste, ciascuna immagine conserva comunque una miniatura con il proprio numero e rimando. Le immagini a pieno formato hanno il rapporto del foglio 17:24 e restano integre, senza ritagli, deformazioni o sovrapposizioni. Le catture escludono tab Design e selettore dello stile, conservando i controlli propri dell’esempio; i sorgenti del sito rimangono immutati.
+Le quindici schermate Caffè TTC usano figure ordinarie nel testo con caption e nota URL sulla stessa pagina. Scegliere una colonna se il dettaglio rimane leggibile, altrimenti due; le schermate complete del sito richiedono generalmente la gabbia larga. `figura-nel-testo(id: ..., file: ..., didascalia: ..., diritti: ..., alt: ..., rapporto: ..., colonne: 1)` conserva proporzioni e font editoriali senza riservare un foglio. Gli originali restano integri e le catture escludono tab Design e selettore dello stile.
 
 Per le slide, `pnpm prepare:assets` genera copie identiche in `progetti/slide/public/images/shared/`. È già richiamato prima di sviluppo, build ed esportazione. Non modificare le copie generate: cambiare l’originale in `risorse-condivise/immagini/`. `node scripts/build/shared-assets.mjs --check` verifica l’identità dei file. Le immagini precedenti già usate dalle slide sono conservate; la migrazione dei riferimenti avverrà con i rispettivi contenuti.
 
@@ -182,7 +201,7 @@ Per le slide, `pnpm prepare:assets` genera copie identiche in `progetti/slide/pu
 
 `template/sagome.typ` usa il profilo alpha della figura e Meander soltanto nella regione che la circonda; il seguito torna al normale flusso Typst. Il testo non ha un numero prefissato di righe o pagine. La didascalia segue il paragrafo associato alla sagoma, così non ne interrompe una frase. Passare quel paragrafo alla funzione e proseguire poi con prosa ordinaria.
 
-Le immagini documentarie che occupavano una tavola autonoma conservano il formato a pagina intera, con posizione mobile nel volume. `template/figure.typ` espone `figura-pagina(id: ..., file: ..., didascalia: ..., diritti: ..., alt: ...)`: misura la didascalia e adatta proporzionalmente l’immagine alla gabbia ordinaria, con folio. `tavola-mobile()` in `template/pagine.typ` riserva un foglio nel flusso senza interrompere il testo precedente. Gli inserti privi di note recuperano il margine inferiore ordinario; gli URL restano nella prosa pertinente.
+Il foglio autonomo si sceglie per la funzione artistica dell’opera, senza ereditare automaticamente la tavola della fonte. `figura-pagina()` conserva soltanto gli inserti selezionati con margini e folio; fotografie, screenshot, campioni e schemi rientrano nel flusso con `figura-nel-testo()` a una o due colonne. Proporzioni, originali, didascalie, diritti e URL si conservano. La verifica dell’inventario controlla anche le quote fisiche del gruppo immagine e caption, per impedirne l’invasione nella fascia delle note.
 
 Per il Duomo, `template/doppia-pagina.typ` espone `sagoma-duomo()`, con le quote e l’eccezione delle note raccolte in `preset-duomo`. Una sola immagine attraversa il dorso di due pagine affiancate, alla stessa scala e allineata al bordo inferiore. Il componente assicura pagina pari a sinistra e dispari a destra. Il capitolo contiene un unico blocco di paragrafi modificabili: Meander li distribuisce fra le quattro colonne seguendo l’alpha, poi il testo continua nelle colonne native senza un limite di pagine. La didascalia comune è nella colonna esterna sinistra. Solo queste due pagine usano note nelle colonne esterne da 66 mm, nella fascia di 35 mm confermata dall’utente; il resto del volume conserva le note a tutta gabbia. Per nuove composizioni usare `sagoma-regionale()`, con `larghezza` e `inizio-immagine` esplicite e note ordinarie per impostazione predefinita; `sagoma-pagina()` applica lo stesso motore a un foglio singolo. Le altre sagome sul dorso si fermano sopra la fascia delle note. Il contenitore usa pagine native per la sola coppia, così il seguito e i paragrafi successivi continuano senza un nuovo salto di pagina.
 
@@ -202,7 +221,7 @@ La sillabazione di Typst resta attiva nei frammenti composti, ma Meander restitu
 
 ## Aperture vettoriali a tutta pagina
 
-`anteprime/aperture.typ` legge `piano.json` e mostra le stesse sette aperture attive del volume. Il campo radice `aperture` del piano vale `progetti/booklet/assets/aperture-imagegen-svg-v1`: `template/piano.typ` legge `manifest.json` e `composizioni.json` della famiglia, seleziona la grafica per numero e usa i fondi senza testo di `disegni/`. Gli SVG autonomi con testo editabile restano in `svg/`; il booklet non li usa come pagine appiattite.
+`anteprime/aperture.typ` legge `piano.json` e mostra le stesse otto aperture attive del volume. Il campo radice `aperture` del piano vale `progetti/booklet/assets/aperture-imagegen-svg-v1`: `template/piano.typ` legge `manifest.json` e `composizioni.json` della famiglia, seleziona la grafica per numero e usa i fondi senza testo di `disegni/`. Gli SVG autonomi con testo editabile restano in `svg/`; il booklet non li usa come pagine appiattite.
 
 Il confronto dell’integrazione è in `../../reports/typst-booklet/aperture-integrazione/`: registra destinazioni dell’indice, pagine interessate, identità visiva rispetto al campionario e testo nativo. `aperture-dal-volume.pdf` è l’estratto delle sole sette aperture, consultabile in un lettore esterno.
 
@@ -210,7 +229,7 @@ Il confronto dell’integrazione è in `../../reports/typst-booklet/aperture-int
 
 Per modificare le forme usare `./assets/aperture-imagegen-svg-v1/disegni/`; per la composizione tipografica aggiornare `composizioni.json`. `componi.py` nella stessa famiglia rigenera gli SVG autonomi e gli hash del manifest. Originali, prompt, font, licenze e comandi di verifica sono descritti nel relativo [README](./assets/aperture-imagegen-svg-v1/README.md). Il volume e il campionario Typst leggono direttamente gli stessi dati e fondi.
 
-Frontespizio, crediti e indice mantengono gray 300; i sette capitoli conservano red, orange, amber, yellow, lime, green ed emerald 300. `template/palette.typ` continua a risolvere le tinte dalla sezione `palette` del manifest storico in `../../risorse-condivise/immagini/aperture/`, con l’intera sequenza di 26 famiglie. I fondi attivi usano i colori esatti; accenti secondari, segmenti del nastro di Colore e due campioni corallo identici mantengono i propri ruoli `data-palette`. Il codice 06 di Tipografia usa blue 600 `#155DFC` sul fondo green 300; il macrosegno è la forma illustrativa ricostruita dal concept, distinta dal glifo autentico Sora della biblioteca precedente. Titoli e numeri usano invece il font Sora autentico.
+Frontespizio, crediti e indice mantengono gray 300; gli otto capitoli conservano red, orange, amber, yellow, lime, green, emerald e teal 300. `template/palette.typ` continua a risolvere le tinte dalla sezione `palette` del manifest storico in `../../risorse-condivise/immagini/aperture/`, con l’intera sequenza di 26 famiglie. I fondi attivi usano i colori esatti; accenti secondari, segmenti del nastro di Colore e due campioni corallo identici mantengono i propri ruoli `data-palette`. Il codice 06 di Tipografia usa blue 600 `#155DFC` sul fondo green 300; il macrosegno è la forma illustrativa ricostruita dal concept, distinta dal glifo autentico Sora della biblioteca precedente. Titoli e numeri usano invece il font Sora autentico.
 
 La biblioteca in `../../risorse-condivise/immagini/aperture/` conserva le dodici grafiche precedenti e le loro composizioni, comprese la variante del titolo di Griglie a 200 pt e la «a» autentica di Sora Bold. I file `capitoli-01-06.typ`, `capitoli-07-10.typ` e `capitoli-11-12.typ` appartengono a quel sistema storico; non selezionano le sette aperture correnti. `python3 progetti/booklet/scripts/colora-aperture.py --check` controlla la biblioteca storica; senza `--check` ne riallinea gli SVG ai dati originali del manifest. Le tinte delle fonti Figma restano dati distinti, compresa la Salvia della Griglia.
 
@@ -244,7 +263,7 @@ La bibliografia dell’anteprima di Tipografia combina nativamente `06-tipografi
 
 Typst 0.15.1 include Hayagriva 0.10.1, che [disambigua soltanto tre coorti autore–anno per bibliografia](https://github.com/typst/hayagriva/issues/507). Il capitolo di Tipografia usa perciò `bibliografia/06-tipografia-gruppi.typ`: quattro intervalli contigui di chiavi, con al massimo tre coorti ciascuno. `template/bibliografia.typ` assegna le citazioni con il parametro nativo `target` e stampa le parti consecutive sotto un solo titolo. Dati bibliografici e citazioni visibili rimangono nei file originali. Il preordine delle sole coorti ambigue usa `cite(form: none)`; i suffissi seguono l’ordine dell’elenco nativo, comprese le date complete W3C del 2024. Aggiungendo una fonte a questo capitolo, inserire anche la sua chiave nell’intervallo appropriato. La variante è attiva sia nel volume sia nell’anteprima isolata, attraverso lo stesso resolver del piano.
 
-Le dodici grafiche precedenti confermate dall’utente restano nella biblioteca storica; il volume e il campionario attivo usano le sette ricostruzioni della famiglia `aperture-imagegen-svg-v1`. Restano confermate le note 7,5/9 pt con URL 7/8,5 pt. Le versioni SVG precedenti sono conservate in `./assets/archivio/typst/copertine/svg-v1/`.
+Le dodici grafiche precedenti confermate dall’utente restano nella biblioteca storica; il volume e il campionario attivo usano le sette ricostruzioni e l’apertura 08 nativa della famiglia `aperture-imagegen-svg-v1`. Restano confermate le note 7,5/9 pt con URL 7/8,5 pt. Le versioni SVG precedenti sono conservate in `./assets/archivio/typst/copertine/svg-v1/`.
 
 ## Esperimenti precedenti
 
@@ -252,8 +271,19 @@ Le dodici grafiche precedenti confermate dall’utente restano nella biblioteca 
 
 `esperimenti/capitoli-esclusi/` conserva i sorgenti di Introduzione e Griglia e le rispettive bibliografie. Restano prove consultabili e non vengono inclusi da `main.typ` o aggiunti al piano attivo.
 
-I PDF ordinari sono `build/booklet.pdf`, le otto anteprime dei preliminari e dei capitoli e il campionario delle aperture in `build/anteprime/`. Le verifiche isolate si rigenerano in `build/verifiche/`; i PDF delle vecchie demo e dei campioni A/B superati sono rimossi. I temporanei e i rapporti restano in `../../reports/typst-booklet/`.
+I PDF ordinari sono `build/booklet.pdf`, le nove anteprime dei preliminari e dei capitoli e il campionario delle aperture in `build/anteprime/`. Le verifiche isolate si rigenerano in `build/verifiche/`; i PDF delle vecchie demo e dei campioni A/B superati sono rimossi. I temporanei e i rapporti restano in `../../reports/typst-booklet/`.
 
 La [documentazione delle demo](esperimenti/README.md) conserva istruzioni, fonti e attribuzioni dei relativi asset.
 
 Documentazione: [Typst](https://typst.app/docs/), [bibliografie multiple](https://typst.app/docs/reference/model/bibliography/#multiple-bibliographies), [Meander](https://typst.app/universe/package/meander/), [Tinymist](https://myriad-dreamin.github.io/tinymist/config/vscode.html).
+
+
+## Composizione e gerarchia visiva
+
+Compilazione isolata: `pnpm build:booklet --target composizione-gerarchia`. Ispezione del PDF già compilato: `pnpm preview:booklet --target composizione-gerarchia --pages 1-8`. Il target conserva la stessa prosa del volume, bibliografia APA e Appunti. Il capitolo conserva **38 figure e 14 pubblicazioni APA**; paginazione e voci di nota seguono la ricomposizione, conservando i siti pertinenti e le note locali. Include ancoraggio/relais, formato narrativo del quadro, concept visivo, moodboard e controllo con sfocatura. Le due moodboard conservano i JPEG originali senza ricompressione. Attribuzioni, provenienze, snapshot e selezione dei materiali restano nei manifest di `../../risorse-condivise/fonti/booklet/composizione-gerarchia/` e `../../risorse-condivise/immagini/figure/composizione/`. Il comando `scripts/prepara-composizione.py` rigenera le composizioni dagli originali. La verifica dei commenti dei due capitoli e i controlli di impaginazione sono in `../../reports/typst-booklet/08-composizione-gerarchia/`.
+
+La prosa attorno alle tavole a pagina intera usa paragrafi nativi; i raccordi fra inserti sono risolti nel testo. L’unica eccezione è in **8.8**: cinque brevi capoversi usano `capoverso()` per evitare frammenti fra le moodboard e il passaggio alla variazione. Questi blocchi non contengono figure, titoli o note interne e non si applicano agli altri paragrafi. Le moodboard sono float ordinari a tutta gabbia di **137 mm**, in basso (`posizione: bottom`). L’esercizio conclusivo usa `esercizi.typ`: box al piede con cornice a L tenue e tre paragrafi nelle colonne native, senza un `colbreak()` manuale.
+
+`figura-pagina()` accetta il parametro opzionale `rapporto` (larghezza/altezza): quando definito, mantiene l’immagine intera alla massima dimensione disponibile e la accosta in basso alla caption misurata. Il wrapper `colore-atmosfere.svg` è corretto alle proporzioni naturali del raster incorporato, senza ritagli né alterazioni dei byte; dimensioni, hash e dettaglio del trattamento sono nel manifest della fonte. Il contratto editoriale e i limiti dell’eccezione dei capoversi sono in `DESIGN.md`.
+
+Il formato al vivo è riservato alle locandine, alle pubblicità e alle opere artistiche selezionate per la composizione integrale. Queste usano `figura-al-vivo(id: ..., file: ..., didascalia: ..., diritti: ..., alt: ..., rapporto: ..., ancoraggio: (..., ...))`; `rifilo: false` conserva interamente le opere con testi ai bordi. Caption con miniatura e rimando restano sulla pagina fisica precedente, con note, quote e collegamenti verificati dall’inventario. Le altre visuali usano figure ordinarie: una colonna come prima scelta, due soltanto per testi, dettagli e confronti. Il registro corrente è in `../../reports/typst-booklet/figure-una-colonna/`; il vecchio elenco in `immagini-tutta-pagina/` resta storico. Non inserire `place.flush()` o pagine vuote per correggere il flusso.

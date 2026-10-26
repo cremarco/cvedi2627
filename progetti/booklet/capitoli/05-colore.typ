@@ -3,6 +3,9 @@
 #import "../template/piano.typ": parametri-capitolo
 
 #let testo = [
+#import "../template/figure.typ": figura-al-vivo, figura-nel-testo
+#import "../template/colore.typ": schema-armonia
+#import "../template/editoriale.typ": nota-compatta
 // Ordine editoriale del capitolo; le varianti restano nei rispettivi ambiti locali.
 // Cultura e Albers condividono lo stesso ambito di pagina: separarli chiuderebbe il flusso prima del previsto.
 // Le varianti a una colonna comprendono il ritorno a due; le regole IKEA restano nel loro blocco.
@@ -72,10 +75,10 @@ I diagrammi usano dodici campioni, punti selezionati più grandi e collegamenti 
 
 Uno schema monocromatico parte da una sola tinta e ne varia saturazione e valore. La continuità cromatica può unificare l’interfaccia; le differenze fra superfici, contenuti e azioni devono restare riconoscibili (@fig-colore-199).#sito([Adobe Color, ruota cromatica e costruzione della palette.], "https://color.adobe.com/create/color-wheel")
 
-#immagine(path("/risorse-condivise/immagini/figure/colore/schema-monocromatico.svg"),
+#schema-armonia(path("/risorse-condivise/immagini/figure/colore/schema-monocromatico.svg"),
   [Schema monocromatico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i tre campioni interni variano saturazione e valore.],
   alt: "Schema monocromatico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i tre campioni interni variano saturazione e valore.",
-  width: 137mm) <fig-colore-199>
+  legenda: [Una sola tinta · $S$ e $V$ variano]) <fig-colore-199>
 
 I tre campioni interni mantengono $H = 210°$ e cambiano $S$ e $V$. Una palette monocromatica non impone a testo, sfondo e pulsanti la stessa intensità. Neutri e spazi vuoti contribuiscono alla gerarchia; ogni coppia di testo e sfondo richiede una verifica del contrasto.
 
@@ -96,10 +99,10 @@ B · Netlife Research concentra il campo sul verde; testo scuro e aree chiare di
 
 Uno schema analogo seleziona tinte vicine sulla ruota. In questo esempio HSV, ciano, azzurro e blu occupano tre posizioni consecutive. La vicinanza delle tinte sostiene la continuità visiva senza annullare le differenze (@fig-colore-201).#sito([Adobe Color, ruota cromatica e costruzione della palette.], "https://color.adobe.com/create/color-wheel")
 
-#immagine(path("/risorse-condivise/immagini/figure/colore/schema-analogo.svg"),
+#schema-armonia(path("/risorse-condivise/immagini/figure/colore/schema-analogo.svg"),
   [Schema analogo sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.],
   alt: "Schema analogo sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.",
-  width: 137mm) <fig-colore-201>
+  legenda: [$H = 180°, 210°, 240°$ · tinte vicine]) <fig-colore-201>
 
 Scegli una dominante e usa le tinte adiacenti per superfici o accenti. Saturazione, valore e quantità aiutano a separare le funzioni. Se i colori hanno luminanza simile, un titolo o un controllo può restare poco leggibile anche in una palette coerente.
 
@@ -120,10 +123,10 @@ B · In Omnium luce e volume dell’illustrazione sviluppano passaggi fra tinte 
 
 Uno schema complementare accosta due tinte opposte sulla ruota adottata. Nell’esempio HSV, arancione e azzurro sono distanti 180°. La relazione rende evidente la differenza di tinta, ma non misura il contrasto di luminanza (@fig-colore-203).#sito([Adobe Color, ruota cromatica e costruzione della palette.], "https://color.adobe.com/create/color-wheel")
 
-#immagine(path("/risorse-condivise/immagini/figure/colore/schema-complementare.svg"),
+#schema-armonia(path("/risorse-condivise/immagini/figure/colore/schema-complementare.svg"),
   [Schema complementare sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.],
   alt: "Schema complementare sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.",
-  width: 137mm) <fig-colore-203>
+  legenda: [$H = 30°$ e $210°$ · distanza $180°$]) <fig-colore-203>
 
 Assegna quantità e funzioni diverse ai due colori: una dominante può occupare il fondo e l’opposto può identificare un accento. Verifica le coppie effettive di testo e superficie. I complementari cambiano con il riferimento: qui la costruzione è HSV.
 
@@ -145,10 +148,10 @@ B · The Ancient World combina blu petrolio e toni caldi del paesaggio. Una sche
 
 Lo schema complementare divergente usa una tinta e le due adiacenti al suo opposto. Rispetto alla coppia complementare aggiunge una seconda direzione di accento. Nel diagramma, arancione, ciano e blu formano la terna selezionata (@fig-colore-205).#sito([Adobe Color, ruota cromatica e costruzione della palette.], "https://color.adobe.com/create/color-wheel")
 
-#immagine(path("/risorse-condivise/immagini/figure/colore/schema-complementare-divergente.svg"),
+#schema-armonia(path("/risorse-condivise/immagini/figure/colore/schema-complementare-divergente.svg"),
   [Schema complementare divergente sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.],
   alt: "Schema complementare divergente sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.",
-  width: 137mm) <fig-colore-205>
+  legenda: [$H = 30°, 180°, 240°$ · ai lati dell’opposto]) <fig-colore-205>
 
 La base e i due accenti non devono competere con la stessa intensità. Varia saturazione, valore e quantità in funzione del contenuto. Prima di assegnare colori a errori, conferme o focus, controlla che tali stati restino distinguibili e siano spiegati anche dal testo.
 
@@ -169,10 +172,10 @@ B · Skin Health Alliance distribuisce viola chiaro, giallo e verde scuro fra fo
 
 Uno schema triadico seleziona tre tinte equidistanti sulla ruota. Nel riferimento HSV gli intervalli sono di 120°. La geometria definisce la relazione fra le tinte; saturazione, valore e quantità restano scelte progettuali ulteriori (@fig-colore-207).#sito([Adobe Color, ruota cromatica e costruzione della palette.], "https://color.adobe.com/create/color-wheel")
 
-#immagine(path("/risorse-condivise/immagini/figure/colore/schema-triadico.svg"),
+#schema-armonia(path("/risorse-condivise/immagini/figure/colore/schema-triadico.svg"),
   [Schema triadico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.],
   alt: "Schema triadico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.",
-  width: 137mm) <fig-colore-207>
+  legenda: [$H = 30°, 150°, 270°$ · intervalli di $120°$]) <fig-colore-207>
 
 Scegli una tinta dominante e assegna alle altre ruoli riconoscibili. Una triade non richiede tre aree uguali o tre accenti ugualmente intensi. Verifica ogni coppia necessaria alla lettura e all’interazione: la distanza angolare non garantisce il contrasto.
 
@@ -420,7 +423,7 @@ Nel progetto distingui il colore di marca, il tema della campagna e i segnali fu
 
 === Il colore di un dato è una convenzione
 
-Nelle interfacce finanziarie, rosso e verde possono indicare andamenti opposti. Il significato operativo della tinta dipende dalla convenzione del prodotto e dalle abitudini del pubblico.#sito([CGSE, Trader Terminal User Manual (2021), § 5.1.4, PDF p. 13.], "https://cgse.com.hk/chines/sites/default/files/gtp-user-manual-trader-terminal-20211022b.pdf")#sito([MagicTrader Plus Android v3.0 (2012), § 40e, PDF p. 21.], "https://www.cmbwinglungbank.com/wlb_corporate/files/hk/upload/about-us/service-guide/10.10.1.9.4-CnSecTeleStoQuoUsrGuiAnd.pdf")
+Nelle interfacce finanziarie, rosso e verde possono indicare andamenti opposti. Il significato operativo della tinta dipende dalla convenzione del prodotto e dalle abitudini del pubblico.#nota-compatta([CGSE, Trader Terminal User Manual (2021), § 5.1.4, PDF p. 13], ("https://cgse.com.hk/chines/sites/default/files/gtp-user-manual-trader-terminal-20211022b.pdf",), etichetta: ("https://cgse.com.hk/chines/sites/default/files/gtp-user-manual-trader-terminal-20211022b.pdf",)) <nota-url-05-18>#sito([MagicTrader Plus Android v3.0 (2012), § 40e, PDF p. 21.], "https://www.cmbwinglungbank.com/wlb_corporate/files/hk/upload/about-us/service-guide/10.10.1.9.4-CnSecTeleStoQuoUsrGuiAnd.pdf")
 
 *Convenzione locale.* Il manuale MagicTrader Plus distingue lo stile di Hong Kong da quello della Cina continentale. Anche all’interno della stessa area geografica, prodotti e mercati possono adottare corrispondenze diverse: una sola convenzione «asiatica» non descrive questi casi.
 
@@ -430,7 +433,7 @@ Nelle interfacce finanziarie, rosso e verde possono indicare andamenti opposti. 
 
 === Due convenzioni, due letture del grafico
 
-I due grafici del manuale CGSE mostrano convenzioni cromatiche opposte. Le etichette italiane rendono esplicita la corrispondenza fra andamento e colore (@fig-colore-225).#sito([CGSE, Trader Terminal User Manual (2021), § 5.1.4, PDF p. 13.], "https://cgse.com.hk/chines/sites/default/files/gtp-user-manual-trader-terminal-20211022b.pdf")
+I due grafici del manuale CGSE mostrano convenzioni cromatiche opposte. Le etichette italiane rendono esplicita la corrispondenza fra andamento e colore (@fig-colore-225).#footnote(<nota-url-05-18>)
 
 #immagine(path("/risorse-condivise/immagini/figure/colore/cgse-convenzioni-grafici.svg"),
   [CGSE Trader Terminal, manuale 2021, §5.1.4, PDF p. 13. Screenshot storici originali CGSE / Infocast Finance; lettere e traduzione didattica aggiunte.],
@@ -458,7 +461,7 @@ Il risultato riguarda quel compito sperimentale. Nel progetto di un’interfacci
 
 === Un fiore, un rito, un riferimento culturale
 
-Un colore acquista significato anche attraverso gli oggetti, le pratiche e le occasioni in cui compare. Il cempasúchil, un fiore giallo o arancione, partecipa alle ofrendas del Día de los Muertos in Messico.#sito([INAH, Cempasúchil y mariposas: símbolos del regreso de las almas.], "https://www.inah.gob.mx/foto-del-dia/cempasuchil-y-mariposas-simbolos-del-regreso-de-las-almas")#sito([Google Doodles, Day of the Dead 2024, opera e intervista a _Lucia Sarabia_.], "https://doodles.google/doodle/day-of-the-dead-2024/")
+Un colore acquista significato anche attraverso gli oggetti, le pratiche e le occasioni in cui compare. Il cempasúchil, un fiore giallo o arancione, partecipa alle ofrendas del Día de los Muertos in Messico.#sito([INAH, Cempasúchil y mariposas: símbolos del regreso de las almas.], "https://www.inah.gob.mx/foto-del-dia/cempasuchil-y-mariposas-simbolos-del-regreso-de-las-almas")#nota-compatta([Google Doodles, Day of the Dead 2024, opera e intervista a _Lucia Sarabia_], ("https://doodles.google/doodle/day-of-the-dead-2024/",), etichetta: ("https://doodles.google/doodle/day-of-the-dead-2024/",)) <nota-url-05-23>
 
 *L’oggetto.* Non si osserva soltanto una tinta astratta: la forma del fiore, i petali e il profumo rendono riconoscibile un oggetto legato alla ricorrenza.
 
@@ -470,7 +473,7 @@ Un colore acquista significato anche attraverso gli oggetti, le pratiche e le oc
 
 === Il riferimento culturale entra nell’interfaccia
 
-Il 1 novembre 2024 Google ha pubblicato un Doodle di _Lucia Sarabia_ dedicato al Día de los Muertos. Fiori di cempasúchil e cani della tradizione compongono il marchio per l’occasione (@fig-colore-227).#sito([Google Doodles, Day of the Dead 2024, opera e intervista a _Lucia Sarabia_.], "https://doodles.google/doodle/day-of-the-dead-2024/")
+Il 1 novembre 2024 Google ha pubblicato un Doodle di _Lucia Sarabia_ dedicato al Día de los Muertos. Fiori di cempasúchil e cani della tradizione compongono il marchio per l’occasione (@fig-colore-227).#footnote(<nota-url-05-23>)
 
 #immagine(path("/risorse-condivise/immagini/figure/colore/google-day-of-the-dead-2024.png"),
   [_Day of the Dead 2024_, Google Doodles, 1 novembre 2024. Illustrazione di _Lucia Sarabia_; Archivio ufficiale consultato il 16 ottobre 2026.],
@@ -512,10 +515,13 @@ Questa relatività percettiva distingue il colore fisico dalla sua apparenza nel
 
 _Interaction of Color_ propone confronti pratici per sviluppare la sensibilità alle relazioni cromatiche. Osservare e modificare gli accostamenti è parte del metodo di apprendimento (@fig-colore-228).
 
-#immagine(path("/risorse-condivise/immagini/figure/colore/albers-interaction-of-color-copertina.png"),
-  [Copertina di _Interaction of Color_ di _Josef Albers_.],
+#figura-nel-testo(
+  id: "fig-colore-228", file: path("/risorse-condivise/immagini/figure/colore/albers-interaction-of-color-copertina.png"),
+  didascalia: [Copertina di _Interaction of Color_ di _Josef Albers_.],
   alt: "Copertina di Interaction of Color di Josef Albers.",
-  width: calc.min(66mm, 180pt * 158 / 242)) <fig-colore-228>
+  rapporto: 158 / 242,
+  colonne: 1,
+)
 
 === La relatività del colore
 
@@ -523,21 +529,22 @@ _Interaction of Color_ propone confronti pratici per sviluppare la sensibilità 
 _“I piccoli viola interni sono, di fatto, identici. Ma quello superiore sembra invece uguale al viola più chiaro sul fondo”_ @coloreAlbers2013.
 ]
 
-Confronta prima l’apparenza dei due campioni, poi verifica che il valore sia identico. Coprire temporaneamente gli sfondi aiuta a osservare la differenza fra il colore del campione e la sua apparenza. Nell’interfaccia, prova lo stesso testo o la stessa icona su superfici diverse (@fig-colore-229).#sito([_Josef Albers_, Interazione del colore, Il Saggiatore, 2013; originale 1963.], "https://www.ilsaggiatore.com/libro/interazione-del-colore")
+Confronta prima l’apparenza dei due campioni, poi verifica che il valore sia identico. Coprire temporaneamente gli sfondi aiuta a osservare la differenza fra il colore del campione e la sua apparenza. Nell’interfaccia, prova lo stesso testo o la stessa icona su superfici diverse (@fig-colore-229).#sito([_Josef Albers_, Interazione del colore, Il Saggiatore, 2013; originale 1963.], "https://www.ilsaggiatore.com/libro/interazione-del-colore")<nota-url-05-30>
 
 // Tavola originale a piena gabbia, senza note: la caption resta nativa.
-#tavola-documentaria[
-#immagine(path("/risorse-condivise/immagini/figure/colore/albers-superfici-sovrapposte.svg"),
-  [_Interazione del colore_: superfici sovrapposte e contrasti cromatici.],
+#figura-al-vivo(
+  id: "fig-colore-229",
+  file: path("/risorse-condivise/immagini/figure/colore/albers-superfici-sovrapposte.svg"),
+  didascalia: [_Interazione del colore_: superfici sovrapposte e contrasti cromatici.],
   alt: "Interazione del colore: superfici sovrapposte e contrasti cromatici.",
-  width: 137mm) <fig-colore-229>
-]
+  rapporto: 0.751868469743, ancoraggio: (0.5, 0.5),
+)
 
 === Gli sfondi invertiti
 
 Osservando con attenzione il tratto superiore che unisce le due X possiamo dedurre che il colore è uguale. Sembrano esserci soltanto due colori sulla tavola, ma in realtà ce ne sono tre, perché il colore della X non è uguale né a quello del rettangolo a sinistra, né a quello di destra @coloreAlbers2013.
 
-Segui il campione continuo attraverso i due sfondi oppure maschera una parte della tavola. L’esercizio rende visibile il rapporto fra campione e contesto. Quando cambi una superficie del progetto, ricontrolla anche gli elementi che vi si sovrappongono (@fig-colore-230).#sito([_Josef Albers_, Interazione del colore, Il Saggiatore, 2013; originale 1963.], "https://www.ilsaggiatore.com/libro/interazione-del-colore")
+Segui il campione continuo attraverso i due sfondi oppure maschera una parte della tavola. L’esercizio rende visibile il rapporto fra campione e contesto. Quando cambi una superficie del progetto, ricontrolla anche gli elementi che vi si sovrappongono (@fig-colore-230).#footnote(<nota-url-05-30>)
 
 // Tavola originale a piena gabbia, senza note: la caption resta nativa.
 #tavola-documentaria[
@@ -553,15 +560,16 @@ Focalizzando lo sguardo sui singoli rettangoli interni, si nota come i loro colo
 
 I colori di fondo sembrano sottrarsi al colore dei piccoli rettangoli sovrapposti @coloreAlbers2013.
 
-Qui «sottrazione» descrive una relazione percettiva fra campioni e sfondi. Non è la sintesi sottrattiva degli inchiostri CMYK. Confronta separatamente i campioni interni e poi torna all’insieme per osservare come cambia il giudizio sull’accostamento (@fig-colore-231).#sito([_Josef Albers_, Interazione del colore, Il Saggiatore, 2013; originale 1963.], "https://www.ilsaggiatore.com/libro/interazione-del-colore")
+Qui «sottrazione» descrive una relazione percettiva fra campioni e sfondi. Non è la sintesi sottrattiva degli inchiostri CMYK. Confronta separatamente i campioni interni e poi torna all’insieme per osservare come cambia il giudizio sull’accostamento (@fig-colore-231).#footnote(<nota-url-05-30>)
 
 // Tavola originale a piena gabbia, senza note: la caption resta nativa.
-#tavola-documentaria[
-#immagine(path("/risorse-condivise/immagini/figure/colore/albers-campi-cromatici-quadrati.svg"),
-  [_Interazione del colore_: relazioni tra campi cromatici e piccoli quadrati.],
+#figura-al-vivo(
+  id: "fig-colore-231",
+  file: path("/risorse-condivise/immagini/figure/colore/albers-campi-cromatici-quadrati.svg"),
+  didascalia: [_Interazione del colore_: relazioni tra campi cromatici e piccoli quadrati.],
   alt: "Interazione del colore: relazioni tra campi cromatici e piccoli quadrati.",
-  width: 137mm) <fig-colore-231>
-]
+  rapporto: 0.750373679631, ancoraggio: (0.5, 0.5),
+)
 
 === Il contrasto successivo
 
@@ -571,13 +579,15 @@ L’effetto dipende dall’adattamento del sistema visivo allo stimolo e dai mec
 
 Il contrasto simultaneo riguarda colori presenti nello stesso momento; quello successivo emerge dopo l’esposizione a uno stimolo. Nell’esercizio conta quindi anche la sequenza di osservazione, oltre ai colori e allo sfondo (@fig-colore-232).
 
-// Tavola originale a piena gabbia, senza note: la caption resta nativa.
-#tavola-documentaria[
-#immagine(path("/risorse-condivise/immagini/figure/colore/albers-forma-colore-sfondo.svg"),
-  [Contrasto tra forma, colore e sfondo in due campi visivi.],
+// Esercizio schematico compatto in una colonna, con caption nativa.
+#figura-nel-testo(
+  id: "fig-colore-232",
+  file: path("/risorse-condivise/immagini/figure/colore/albers-forma-colore-sfondo.svg"),
+  didascalia: [Contrasto tra forma, colore e sfondo in due campi visivi.],
   alt: "Contrasto tra forma, colore e sfondo in due campi visivi.",
-  width: 137mm) <fig-colore-232>
-]
+  rapporto: 0.750373679631,
+  colonne: 1,
+)
 
 === L’effetto _Bezold_
 
@@ -587,13 +597,15 @@ Nell’esempio, lo stesso rosso appare più chiaro quando è intrecciato con il 
 
 Confronta la tavola da vicino e da più lontano: quanto incidono i dettagli bianchi e neri sulla lettura dell’insieme? Ripeti il confronto a dimensioni diverse. Anche pattern e dettagli minuti di un’interfaccia vanno valutati nella scala di utilizzo (@fig-colore-233).
 
-// Tavola originale a piena gabbia, senza note: la caption resta nativa.
-#tavola-documentaria[
-#immagine(path("/risorse-condivise/immagini/figure/colore/albers-contrasto-sfondo.svg"),
-  [La percezione del contrasto cambia con il colore dello sfondo.],
+// Esercizio schematico compatto in una colonna, con caption nativa.
+#figura-nel-testo(
+  id: "fig-colore-233",
+  file: path("/risorse-condivise/immagini/figure/colore/albers-contrasto-sfondo.svg"),
+  didascalia: [La percezione del contrasto cambia con il colore dello sfondo.],
   alt: "La percezione del contrasto cambia con il colore dello sfondo.",
-  width: 137mm) <fig-colore-233>
-]
+  rapporto: 0.750373679631,
+  colonne: 1,
+)
 
 // La distribuzione cromatica si osserva in una figura ampia.
 ]

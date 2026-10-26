@@ -13,9 +13,12 @@ def note_links(annotations: list[dict], data: dict) -> dict:
     """Riconcilia coordinate native con link PDF, compreso l'offset Typst di 10 pt."""
     def reaches(annotation: dict, source: dict, target: dict) -> bool:
         destination = annotation["destinazione"]
+        # Richiami della stessa nota possono avere la stessa ascissa su righe
+        # diverse: anche l'altezza deve identificare il collegamento corretto.
         return (annotation["pagina"] == source["pagina"] and destination is not None
                 and destination["pagina"] == target["pagina"]
                 and abs(annotation["rettangolo"][0] - source["x"]) < 0.1
+                and annotation["rettangolo"][1] - 0.1 <= source["y"] <= annotation["rettangolo"][3] + 0.1
                 and abs(destination["x"] - target["x"]) < 0.1
                 and abs(destination["y"] - (target["y"] - 10)) < 0.1)
 
@@ -45,6 +48,8 @@ def note_links(annotations: list[dict], data: dict) -> dict:
         require(expected <= actual, f"URL mancanti nella voce della nota {i}: {sorted(expected - actual)}")
     for i, repetition in enumerate(data["ripetizioni"], start=1):
         require(len(repetition["voci"]) == 1, f"Il richiamo ripetuto {i} non ha una voce unica.")
+        require(repetition["origine"]["pagina"] == repetition["voci"][0]["pagina"],
+                f"Il richiamo ripetuto {i} deve avere la nota sulla stessa pagina.")
         count = sum(reaches(annotation, repetition["origine"], repetition["voci"][0])
                     for annotation in by_page[repetition["origine"]["pagina"]])
         require(count == 1, f"Il richiamo ripetuto {i} non raggiunge la voce originale.")
@@ -105,6 +110,11 @@ def check_pdf(path: Path, data: dict | None = None) -> dict:
     result = {"pagine": len(reader.pages), "link_interni": internal, "link_esterni": external}
     if data is not None:
         result["link_note"] = note_links(annotations, data)
+        bleed_pages = [picture["origine"]["pagina"] for picture in data.get("figure_al_vivo", [])]
+        require(all(not (reader.pages[number - 1].extract_text() or "").strip()
+                    for number in bleed_pages),
+                "Un foglio al vivo contiene prosa, didascalie, note o folio sovrapposti.")
+        result["fogli_al_vivo_senza_testo"] = len(bleed_pages)
     require(digest(path) == initial_hash, f"Il PDF è cambiato durante il controllo: {path.name}")
     result["sha256"] = initial_hash
     return result

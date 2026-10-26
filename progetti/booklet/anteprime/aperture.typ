@@ -5,7 +5,7 @@
 #import "../template/piano.typ": piano, dati-capitolo
 #show: booklet
 
-#set document(title: "CVeDI · Aperture dei sette capitoli")
+#set document(title: "CVeDI · Aperture dei capitoli")
 #assert(piano.len() > 0, message: "Il campionario richiede almeno un capitolo nel piano.")
 
 // Il ciclo riguarda soltanto i dati delle copertine; la prosa dei capitoli

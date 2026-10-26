@@ -1,7 +1,7 @@
 // Documento rettangolare unico sul dorso: nessun profilo alpha e nessun
 // motore di testo sagomato. Le due pagine mostrano lo stesso asset integro.
-#import "geometria.typ": (pagina-larghezza, pagina-altezza, margine-superiore,
-  margine-inferiore, margine-sinistro, gabbia)
+#import "geometria.typ": (pagina-larghezza, margine-superiore,
+  fondo-gabbia, margine-sinistro, gabbia)
 #import "pagine.typ": pagina-documentaria
 #import "editoriale.typ": didascalia as stampa-didascalia, contenuto-didascalia
 
@@ -30,7 +30,7 @@
       prefisso: [Figura #numbering(figure.numbering, numero)])
     let altezza-caption = measure(prova-caption, width: gabbia).height
     let quota-caption = quota + altezza + 12pt
-    assert(quota-caption + altezza-caption <= pagina-altezza - margine-inferiore,
+    assert(quota-caption + altezza-caption <= fondo-gabbia,
       message: "Testo e didascalia non lasciano spazio alla figura sulla doppia pagina.")
     for lato in range(2) {
       pagina-documentaria[

@@ -1,0 +1,138 @@
+{
+  "versione": 2,
+  "stato": "asset autonomo rivisto, non inserito nel booklet attivo",
+  "richiesta": "Rifare la mappa correggendo gli errori e modificando la composizione per renderla più leggibile.",
+  "formato_mm": [
+    170,
+    240
+  ],
+  "viewBox": [
+    0,
+    0,
+    1054,
+    1492
+  ],
+  "palette": {
+    "accento": "#FFD230",
+    "accento_scuro": "#973C00",
+    "inchiostro": "#2E3138",
+    "carta": "#FFFFFF"
+  },
+  "contenuto": {
+    "principi": 4,
+    "linee_guida": 13,
+    "criteri_attivi": 86,
+    "storico_rimosso": "4.1.1",
+    "novita_wcag22": 9
+  },
+  "metodo": "Composizione nativa su tre colonne, senza connettori; criteri in ordine numerico e badge di livello per ogni riga. Il principio 4 segue il 3 nella terza colonna.",
+  "fonte": {
+    "percorso": "risorse-condivise/fonti/booklet/accessibilita-estensione/wcag-2.2-mappa-italiana.pdf",
+    "sha256": "7baa8e455ed5d1e074aeaa217e4b226ea6c585e1439a8596c3e731160b7a352f",
+    "url": "https://intopia.digital/wp-content/uploads/2024/05/Italian-WCAG-2.2-Map-by-Intopia.pdf",
+    "attribuzione": "Intopia e Sketch Group; traduzione Roberto Scano; rielaborazione vettoriale.",
+    "licenza": "CC BY-SA 4.0"
+  },
+  "riferimento_di_composizione": "progetti/booklet/assets/illustrazioni-palette-capitoli/originali/mappa-wcag-2.2.png",
+  "font": [
+    {
+      "famiglia": "DM Sans",
+      "percorso": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+      "licenza": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+    },
+    {
+      "famiglia": "Sora",
+      "percorso": "risorse-condivise/font/editoriali/sora-variabile.ttf",
+      "licenza": "risorse-condivise/font/editoriali/sora-licenza.txt",
+      "sha256": "84ff7096ae3ec6c8be47d906d1a0ba4de7f2ce78c615275c77301964a316e16c"
+    }
+  ],
+  "varianti": {
+    "mappa-wcag-2.2-v2.svg": "Variante definitiva in tracciati nativi, indipendente dai font installati.",
+    "mappa-wcag-2.2-v2-editabile.svg": "Testi e gruppi semantici modificabili, font e licenze incorporati.",
+    "mappa-wcag-2.2.svg": "Alias della versione definitiva v2.",
+    "mappa-wcag-2.2-editabile.svg": "Alias della versione editabile v2."
+  },
+  "rigenerazione": "progetti/booklet/.venv/bin/python3 progetti/booklet/assets/mappa-wcag-vettoriale/genera.py --export",
+  "dipendenze": "Python con Pillow; rsvg-convert e pdftocairo per l’esportazione.",
+  "file": [
+    {
+      "percorso": "mappa-wcag-2.2-v2.svg",
+      "sha256": "393e61d5bee92a289a7859fb25a35335e0d320efa6bee0fe78d31e5af54becda",
+      "byte": 567425
+    },
+    {
+      "percorso": "mappa-wcag-2.2-v2-editabile.svg",
+      "sha256": "4dee82e162862059b9306a4faa1671da9ffbf83bd0dc80c36b05ebab0e5bc485",
+      "byte": 577179
+    },
+    {
+      "percorso": "anteprima-v2.png",
+      "sha256": "baacbf7731c27630a020a381fb4594830af3896cc2bdd7fab86a1b5e5fb81304",
+      "byte": 696773
+    },
+    {
+      "percorso": "mappa-wcag-2.2.svg",
+      "sha256": "393e61d5bee92a289a7859fb25a35335e0d320efa6bee0fe78d31e5af54becda",
+      "byte": 567425
+    },
+    {
+      "percorso": "mappa-wcag-2.2-editabile.svg",
+      "sha256": "4dee82e162862059b9306a4faa1671da9ffbf83bd0dc80c36b05ebab0e5bc485",
+      "byte": 577179
+    },
+    {
+      "percorso": "anteprima.png",
+      "sha256": "baacbf7731c27630a020a381fb4594830af3896cc2bdd7fab86a1b5e5fb81304",
+      "byte": 696773
+    },
+    {
+      "percorso": "criteri.json",
+      "sha256": "79c696b85873dc47f15350a71d478b0bb30e5452145ec22f4580127fb842887d",
+      "byte": 15191
+    },
+    {
+      "percorso": "genera.py",
+      "sha256": "7ce1a5d84e554d00a13f31aa5ecb8ed04f412b231ebada47dc4e5145ddc5a542",
+      "byte": 15512
+    },
+    {
+      "percorso": "misure.json",
+      "sha256": "7d4e600ce7fb52bd9b02cc5f3de5f181582b8db7a2016ce84ac487f6d75ed259",
+      "byte": 93475
+    },
+    {
+      "percorso": "verifica.json",
+      "sha256": "38f0fa2cc8d8d8e0d5551d9757df5479ba9aef1c6ef347717cae806d3677921a",
+      "byte": 1617
+    }
+  ],
+  "ispezione": "PNG della variante definitiva in tracciati, 1130 × 1600; nessun testo tagliato, righe sovrapposte o connettore ambiguo.",
+  "tipografia": {
+    "corpo_criteri": 15.9,
+    "interlinea_criteri": 19.08,
+    "font": "DM Sans",
+    "titoli_principi": "Sora 700",
+    "dimensioni_di_misura": "Unità del viewBox 1054 × 1492, con formato fisico 170 × 240 mm."
+  },
+  "fonte_normativa": {
+    "url": "https://www.w3.org/Translations/WCAG22-it/",
+    "consultazione": "2026-10-25",
+    "uso": "Controllo della numerazione, dei nove criteri nuovi con i loro livelli, del criterio 4.1.1 obsoleto e dei livelli di conformità."
+  },
+  "correzioni": [
+    "Eliminati collegamenti spezzati o sovrapposti al testo.",
+    "Eliminato il cerchio centrale che sottraeva spazio ai criteri.",
+    "Aumentato il corpo dei criteri e uniformata la misura.",
+    "Ripristinato l’ordine numerico e indicato il livello sulla singola riga.",
+    "Il 4.1.1 rimosso è una nota storica separata e non ha badge A/AA/AAA.",
+    "Verificati tutti gli 86 livelli sul PDF sorgente e tutti i titoli nello SVG."
+  ],
+  "precedente_conservata": "archivio/radiale-v1/",
+  "verifica": "verifica.json",
+  "attribuzione_editoriale": {
+    "collocazione": "Manifest e metadati SVG; riga visibile al piede rimossa su richiesta dell’utente.",
+    "testo": "Intopia e Sketch Group; traduzione Roberto Scano; rielaborazione vettoriale. CC BY-SA 4.0."
+  }
+}

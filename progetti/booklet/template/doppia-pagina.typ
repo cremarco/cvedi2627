@@ -3,7 +3,7 @@
 #import "@preview/meander:0.4.4" as meander
 #import "note.typ": voce-nota, composizione-note, separatore-note, richiamo-solo, richiamo-nota as richiamo-ordinario
 #import "geometria.typ": (pagina-larghezza, pagina-altezza, margine-interno, margine-esterno,
-  margine-superiore, margine-inferiore, margine-sinistro, spazio-note, distacco-note,
+  margine-superiore, fondo-gabbia, margine-sinistro, spazio-note, distacco-note,
   rispetto-sagoma, minimo-testo, colonna, intercolonna, gabbia)
 #import "editoriale.typ": didascalia as stampa-didascalia
 #import "profili.typ": fasce-profilo, fascia-a-quota, bordo-alpha-sinistro
@@ -40,7 +40,7 @@
   let minimo = minimo-testo
   let larghezza-pagina = pagina-larghezza
   let alto = margine-superiore
-  let basso = pagina-altezza - margine-inferiore - spazio-note - distacco-note
+  let basso = fondo-gabbia - spazio-note - distacco-note
   let altezza-corpo = basso - alto
   let altezza-immagine = larghezza * profilo.altezza_px / profilo.larghezza_px
   let origine-immagine = inizio-immagine
@@ -147,7 +147,7 @@
             // si fermano sopra la fascia e mantengono note a tutta gabbia.
             let totale = composizione.totale
             place(top + left, dx: if note-esterne and calc.odd(pagina) { colonna + intercolonna } else { 0pt },
-              dy: pagina-altezza - margine-inferiore - margine-superiore - totale,
+              dy: fondo-gabbia - margine-superiore - totale,
               block(width: larghezza-voci, height: totale, above: 0pt, below: 0pt)[
                 #separatore-note(larghezza-voci)
                 #for (indice, nota) in note.enumerate() {

@@ -1,7 +1,7 @@
 // Contenitori delle pagine speciali. La prosa continua resta nelle pagine
 // e nelle colonne native del capitolo; questi componenti non la suddividono.
 #import "geometria.typ": (pagina-larghezza, pagina-altezza, margini, discesa-folio,
-  gabbia, altezza-gabbia)
+  gabbia, altezza-gabbia, altezza-corpo)
 #import "editoriale.typ": titolo-apparato
 
 // Documento autonomo senza note: recupera il margine inferiore ordinario,
@@ -32,12 +32,45 @@
   ])
 ]
 
-// L'immagine occupa il foglio; didascalia e fonti appartengono alla prosa
-// precedente. Gli apparati sono spenti soltanto su questo inserto.
-#let pagina-al-vivo(corpo) = {
-  pagebreak(weak: true)
-  page(width: pagina-larghezza, height: pagina-altezza, margin: 0pt, columns: 1,
-    header: none, footer: none, background: none, foreground: none, corpo)
+// Le pagine mobili conservano la geometria del corpo per poter scorrere nella
+// coda dei float. Il disegno si estende invece fino ai quattro bordi fisici.
+// Il marker permette agli apparati del documento di riconoscere il foglio.
+#let pagine-al-vivo-mobili() = {
+  query(<booklet-pagina-al-vivo-mobile>).map(m => m.location().page())
+}
+
+#let pagina-al-vivo-mobile(corpo) = {
+  place(top, scope: "parent", float: true, clearance: 0pt)[
+    #set figure(placement: none, scope: "column")
+    // L'intera gabbia del corpo deve essere libera: l'altezza residua fornita
+    // da layout potrebbe permettere di condividere il foglio con un altro float.
+    #block(width: gabbia, height: altezza-corpo,
+      above: 0pt, below: 0pt)[
+      #context {
+        let posizione = here().position()
+        place(top + left, dx: -posizione.x, dy: -posizione.y)[
+          #block(width: pagina-larghezza, height: pagina-altezza,
+            above: 0pt, below: 0pt)[
+            #metadata(true) <booklet-pagina-al-vivo-mobile>
+            #corpo
+          ]
+        ]
+      }
+    ]
+  ]
+  // Typst 0.15.1 forza il primo float di colonna anche nella regione vuota
+  // lasciata da un float parent a foglio intero. La riserva nativa occupa
+  // quello slot senza disegnare contenuto; le figure successive proseguono
+  // sul foglio seguente. Nel corpo a una colonna la riserva non serve.
+  context {
+    if page.columns > 1 {
+      figure(block(width: 1pt, height: 1pt, above: 0pt, below: 0pt)[
+        #metadata(true) <booklet-al-vivo-barriera>
+        #rect(width: 0pt, height: 0pt, fill: none, stroke: none)
+      ], kind: "booklet-riserva-colonna", placement: top, scope: "column",
+        caption: none, numbering: none, supplement: none, outlined: false)
+    }
+  }
 }
 
 // La pagina puntinata segue l'apparato bibliografico di ogni capitolo.

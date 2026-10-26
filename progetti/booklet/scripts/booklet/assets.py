@@ -7,16 +7,16 @@ import base64
 from math import isfinite
 from pathlib import Path
 import re
-import shutil
 import sys
 import xml.etree.ElementTree as ET
 
-from .common import BOOKLET, ROOT, digest, local_path, read_json, require, run
+from .common import BOOKLET, ROOT, digest, local_path, read_json, require, run, typst_executable
 
 
 def check_environment() -> str:
     require(sys.version_info >= (3, 10), "Serve Python 3.10 o successivo.")
-    require(shutil.which("typst") is not None, "Typst non trovato nel PATH.")
+    require(typst_executable() is not None,
+            "Typst non trovato: installarlo nel PATH o in progetti/booklet/.venv/bin/.")
     expected = (BOOKLET / ".typst-version").read_text(encoding="utf-8").strip()
     version = run(["typst", "--version"]).strip()
     require(re.match(r"typst " + re.escape(expected) + r"(?:\s|$)", version) is not None,

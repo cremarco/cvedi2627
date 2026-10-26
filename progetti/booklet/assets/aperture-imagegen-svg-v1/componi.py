@@ -47,7 +47,7 @@ def main():
         })
         completo.append(node("title", {"id": "titolo"}, titolo))
         completo.append(node("desc", {"id": "descrizione"},
-            "Apertura ricostruita dal concept ImageGen. Disegno vettoriale, "
+            ("Apertura nativa della famiglia editoriale. " if c.get("riferimento", "").startswith("nativo-") else "Apertura ricostruita dal concept ImageGen. ") + "Disegno vettoriale, "
             "titolo e numero modificabili come testo. Font Sora, licenza OFL 1.1."))
         completo.append(node("style", {"id": "font-portabile"}, font_css))
         geometria = node("g", {"id": "disegno"})
@@ -89,8 +89,8 @@ def main():
             "sha256_disegno": hashlib.sha256(source.read_bytes()).hexdigest(),
             "testi_editabili": ["titolo-capitolo", "numero-capitolo"]})
     manifest = {
-        "versione": 1, "stato": "Sette aperture approvate e attive nel booklet Typst; fondi SVG con titolo e numero composti come testo nativo.",
-        "origine": "Concept ImageGen built-in della sessione del 22 ottobre 2026",
+        "versione": 1, "stato": f"{len(esiti)} aperture attive nel booklet Typst; fondi SVG con titolo e numero composti come testo nativo.",
+        "origine": "Sette concept ImageGen built-in del 22 ottobre 2026; apertura 08 nativa SVG aggiunta il 24 ottobre 2026 su richiesta dell’utente.",
         "piano": "progetti/booklet/piano.json", "font": composizioni["font"],
         "licenza_font": composizioni["licenza_font"],
         "note": [

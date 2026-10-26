@@ -1,13 +1,15 @@
 // Tavole dei principi percettivi: ogni pannello conserva figura, numero e diritti propri.
 // Il contenitore comune regola la scala senza aggiungere un secondo contatore.
 #import "editoriale.typ": contenuto-didascalia, didascalia as componi-didascalia
+#import "note.typ": richiamo-solo
 
 // Prosa corrente Figma, riletta il 21 ottobre 2026. Flusso continuo; riferimenti nativi.
-// Le tavole Gestalt avevano margini: nessuna visuale viene portata al vivo.
+// Le tavole composte conservano i margini; i documenti verticali selezionati
+// nel capitolo usano figura-al-vivo con didascalia separata.
 // Il contenitore mobile non è una figura e non incrementa il contatore.
-#import "geometria.typ": spazio-note, distacco-note, gabbia, altezza-gabbia
+#import "geometria.typ": gabbia, altezza-corpo
 #let tavola-gestalt(elementi, note: []) = {
-  let altezza = altezza-gabbia - spazio-note - distacco-note - 1pt
+  let altezza = altezza-corpo - 1pt
   let larghezza = gabbia
   place(top, scope: "parent", float: true, clearance: 0pt)[
     #layout(spazio => context {
@@ -16,10 +18,12 @@
       // La tavola non incrementa il contatore: ogni pannello è una figura nativa.
       // Il numero misurato segue lo stesso ordine logico, anche quando il float si sposta.
       let precedente = counter(figure.where(kind: image)).get().first()
-      let didascalie = elementi.enumerate().map(((indice, elemento)) => measure(
+      let didascalie = elementi.enumerate().map(((indice, elemento)) => measure({
+        // La prova misura soltanto i richiami: le voci appartengono alla caption reale.
+        show footnote: richiamo-solo
         componi-didascalia(caption(elemento),
-          prefisso: [Figura #numbering(figure.numbering, precedente + indice + 1)]),
-        width: larghezza).height)
+          prefisso: [Figura #numbering(figure.numbering, precedente + indice + 1)])
+      }, width: larghezza).height)
       let intervallo = 14pt
       let ha-note = note != []
       let altezza-note = if ha-note { 20pt } else { 0pt }

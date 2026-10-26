@@ -58,7 +58,6 @@
   for voce in estratti { voci.push([un estratto di #voce.titolo]) }
   for voce in revisione { voci.push([#voce.titolo in revisione]) }
   for voce in preparazione { voci.push([#voce.titolo in preparazione]) }
-  [Edizione in preparazione: #voci.join([ e ]).]
 }
 
 #let avviso-importazione() = {
@@ -68,10 +67,6 @@
   if incompleti.len() > 0 {
     let titoli = incompleti.map(c => c.titolo).join(", ", last: " e ")
     avvisi.push([L’importazione completa di #titoli è in preparazione.])
-  }
-  if revisione.len() > 0 {
-    let titoli = revisione.map(c => c.titolo).join(", ", last: " e ")
-    avvisi.push([La revisione editoriale di #titoli è in corso.])
   }
   avvisi.join([ ])
 }

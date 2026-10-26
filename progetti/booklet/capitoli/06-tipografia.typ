@@ -3,6 +3,11 @@
 #import "../template/piano.typ": parametri-capitolo
 
 #let testo = [
+#import "../template/figure.typ": figura-al-vivo, figura-nel-testo
+#import "../template/figure.typ": figura-pagina
+#import "../template/editoriale.typ": nota-compatta, contenuto-didascalia
+#import "../template/geometria.typ": colonna, gabbia
+#import "../template/campioni.typ": confronto
 // Capitolo completo: tutto il testo modificabile è raccolto in questo file.
 // Volume e anteprima leggono lo stesso assemblaggio e le fonti del piano.
 #[
@@ -28,11 +33,11 @@
 
 #sagoma(
   id: "fig-tipo-lettera-materia",
-  file: path("/risorse-condivise/immagini/figure/tipografia/lettera-a-tridimensionale.png"),
-  profilo: json(path("/risorse-condivise/dati/sagome/lettera-a-tridimensionale.json")),
+  file: path("/progetti/booklet/assets/illustrazioni-palette-capitoli/originali/lettera-a-tridimensionale.png"),
+  profilo: json(path("/progetti/booklet/assets/illustrazioni-palette-capitoli/derivati/lettera-a-tridimensionale.json")),
   width: 70pt,
   didascalia: [La lettera come oggetto: forma, controforma, materia e ombra.],
-  alt: "Lettera a minuscola tridimensionale, scontornata, con superficie scura e fianco azzurro.",
+  alt: "Lettera a minuscola tridimensionale, scontornata, con superficie scura e fianco verde.",
 )[
 Le parole arrivano al lettore attraverso forme visibili. Prima ancora di riconoscere una frase, incontriamo lettere sottili o robuste, regolari o irrequiete, familiari o insolite. La tipografia prende in carico questa presenza: *sceglie e coordina i caratteri*, ne regola la dimensione e le distanze, rende il linguaggio disponibile alla lettura. La sua funzione pratica convive con una funzione espressiva. La stessa espressione può assumere un tono riservato, istituzionale o giocoso attraverso un diverso disegno delle lettere, senza che cambi il suo significato letterale.
 ]
@@ -77,7 +82,7 @@ Il _Sutra del Diamante_, datato *11 maggio 868*, mostra un esempio di stampa xil
   width: 137mm, placement: top, scope: "parent",
 ) <fig-tipo-sutra-diamante>
 
-Le esperienze asiatiche precedono la tipografia europea. In Cina l’inventore _Bi Sheng_ sperimenta caratteri mobili in ceramica nell’XI secolo. In Corea, il secondo volume del _Jikji_ fu stampato nel tempio Heungdeok-sa di Cheongju nel luglio 1377 con tipi metallici. L’UNESCO lo riconosce come la più antica testimonianza conservata di stampa con caratteri mobili metallici. La parola «conservata» è essenziale: identifica un documento che possiamo studiare, senza trasformarlo automaticamente nel primo tentativo mai realizzato. La @fig-tipo-jikji mostra una doppia pagina del volume conservato dalla Bibliothèque nationale de France @t06-bnf-jikji.#nota-compatta([BnF, Jikji; UNESCO, Memory of the World, iscrizione 2001.], ("https://www.bnf.fr/en/jikji-treasure-world-printing", "https://www.unesco.org/en/memory-world/baegun-hwasang-chorok-buljo-jikji-simche-yojeol-volii-second-volume-anthology-great-buddhist-priests"))
+Le esperienze asiatiche precedono la tipografia europea. In Cina l’inventore _Bi Sheng_ sperimenta caratteri mobili in ceramica nell’XI secolo. In Corea, il secondo volume del _Jikji_ fu stampato nel tempio Heungdeok-sa di Cheongju nel luglio 1377 con tipi metallici. L’UNESCO lo riconosce come la più antica testimonianza conservata di stampa con caratteri mobili metallici. La parola «conservata» è essenziale: identifica un documento che possiamo studiare, senza trasformarlo automaticamente nel primo tentativo mai realizzato. La @fig-tipo-jikji mostra una doppia pagina del volume conservato dalla Bibliothèque nationale de France.#nota-compatta([BnF, Jikji; UNESCO, Memory of the World, iscrizione 2001.], ("https://www.bnf.fr/en/jikji-treasure-world-printing", "https://www.unesco.org/en/memory-world/baegun-hwasang-chorok-buljo-jikji-simche-yojeol-volii-second-volume-anthology-great-buddhist-priests"))
 
 Questi precedenti impediscono di presentare _Johannes Gutenberg_, tipografo attivo a Magonza nel Quattrocento, come l’inventore mondiale della stampa o la sua Bibbia come il primo libro stampato in assoluto. Non obbligano però a immaginare una trasmissione diretta di cui non abbiamo dimostrazione. Le esperienze vanno riconosciute nei rispettivi contesti, nei materiali impiegati e nei sistemi di scrittura a cui rispondevano. La vicenda europea avrà conseguenze specifiche sulla produzione e circolazione dei libri, all’interno di una storia della stampa molto più ampia.
 
@@ -89,18 +94,18 @@ Questi precedenti impediscono di presentare _Johannes Gutenberg_, tipografo atti
 
 === Il sistema di _Gutenberg_
 
-A Magonza, intorno alla metà del Quattrocento, _Johannes Gutenberg_ mette a punto un sistema capace di produrre tipi metallici uniformi e intercambiabili e di usarli per la stampa dei libri. La sua importanza riguarda l’integrazione di più operazioni: ottenere i caratteri, comporre il testo, preparare gli inchiostri e imprimere il foglio con il torchio. La Bibbia che porta il suo nome fu probabilmente completata nel 1455. La Library of Congress la descrive come il primo grande libro dell’Europa occidentale stampato con caratteri mobili metallici @t06-loc-gutenberg.#sito([Library of Congress, The Gutenberg Bible.], "https://www.loc.gov/exhibits/bibles/the-gutenberg-bible.html")
+A Magonza, intorno alla metà del Quattrocento, _Johannes Gutenberg_ mette a punto un sistema capace di produrre tipi metallici uniformi e intercambiabili e di usarli per la stampa dei libri. La sua importanza riguarda l’integrazione di più operazioni: ottenere i caratteri, comporre il testo, preparare gli inchiostri e imprimere il foglio con il torchio. La Bibbia che porta il suo nome fu probabilmente completata nel 1455. La Library of Congress la descrive come il primo grande libro dell’Europa occidentale stampato con caratteri mobili metallici.#sito([Library of Congress, The Gutenberg Bible.], "https://www.loc.gov/exhibits/bibles/the-gutenberg-bible.html")
 
 // L’inserto segue la presentazione della Bibbia, prima dei tipi metallici.
 La pagina della Bibbia di _Gutenberg_ (@fig-tipo-bibbia) mostra il rapporto tra il testo stampato con tipi mobili, l’iniziale e la decorazione. Il carattere riprende il gotico librario; la finitura ornamentale della pagina documenta la continuità con la lavorazione manuale.
 
 // Inserto documentario a pagina intera, come nella tavola Figma 340.
-#figura-pagina(
-  id: "fig-tipo-bibbia",
-  file: path("/risorse-condivise/immagini/figure/storia-del-design/bibbia-gutenberg-pagina-miniata-1454-1455-loc.png"),
+#figura-al-vivo(
+  id: "fig-tipo-bibbia", file: path("/risorse-condivise/immagini/figure/storia-del-design/bibbia-gutenberg-pagina-miniata-1454-1455-loc.png"),
   didascalia: [Bibbia di _Gutenberg_: il testo a tipi mobili convive con la finitura ornamentale della pagina. Riproduzione fotografica.],
   diritti: [Library of Congress, LC-USZ62-51844.],
   alt: "Pagina della Bibbia di Gutenberg con testo gotico in due colonne, capilettera decorati e motivi ornamentali.",
+  rapporto: 0.717447916667, ancoraggio: (0, 0.5),
 )
 
 // Il salto nativo può generare un foglio di raccordo per aprire la coppia
@@ -160,13 +165,13 @@ I caratteri della Bibbia riprendono il gotico librario. Le forme angolose e dens
 
 La diffusione della stampa crea una rete di officine e competenze. Venezia diviene uno dei luoghi decisivi per l’elaborazione del libro a stampa: alle attività dei tipografi si intrecciano quelle di librai, incisori, correttori e studiosi. La forma del carattere dipende quindi anche dai testi da pubblicare e dai lettori a cui vengono destinati. Non esiste un’unica strada dal manoscritto alla stampa: la scelta fra forme gotiche e romane risponde a tradizioni e pubblici differenti.
 
-Nel 1470 lo stampatore francese _Nicolas Jenson_ stampa a Venezia il _De evangelica praeparatione_ di _Eusebio di Cesarea_, autore cristiano del IV secolo, con un romano che diventerà un riferimento nella storia del disegno dei caratteri (@fig-tipo-jenson). La scheda catalografica online di #cite(<t06-jenson>, form: "prose") descrive l’esemplare conservato dalla biblioteca e ne registra data, luogo di stampa e identificazione del tipo impiegato.#nota-compatta([Morgan Library, scheda dell’opera; _Atalanta/WeiaR_, fotografia di un diverso esemplare.], ("https://www.themorgan.org/incunables/134238", "https://commons.wikimedia.org/wiki/File:JensonEusebius.jpg")) Il confronto con il gotico rende visibile una diversa interpretazione delle lettere: forme più aperte, proporzioni riconducibili alla cultura umanistica e un andamento che conserva la memoria del gesto della penna. Non si tratta di rendere ogni segno geometrico o identico agli altri, ma di trovare una parentela coerente fra forme diverse. La durata di questo modello non consiste nella conservazione immobile di una sagoma. Nei secoli successivi altri progettisti studieranno le stampe di _Jenson_ e ne ricaveranno nuove interpretazioni. Quando un font contemporaneo richiama un modello veneziano, si colloca in questa storia di letture e adattamenti. Per riconoscere il legame occorre osservare il disegno effettivo delle lettere, distinguendo l’opera quattrocentesca dal suo recupero moderno. Un nome storico può indicare una fonte d’ispirazione senza garantire la riproduzione fedele del tipo originale.
+Nel 1470 lo stampatore francese _Nicolas Jenson_ stampa a Venezia il _De evangelica praeparatione_ di _Eusebio di Cesarea_, autore cristiano del IV secolo, con un romano che diventerà un riferimento nella storia del disegno dei caratteri (@fig-tipo-jenson). La scheda catalografica online di The Morgan Library & Museum descrive l’esemplare conservato dalla biblioteca e ne registra data, luogo di stampa e identificazione del tipo impiegato.#nota-compatta([Morgan Library, scheda dell’opera; _Atalanta/WeiaR_, fotografia di un diverso esemplare.], ("https://www.themorgan.org/incunables/134238", "https://commons.wikimedia.org/wiki/File:JensonEusebius.jpg")) Il confronto con il gotico rende visibile una diversa interpretazione delle lettere: forme più aperte, proporzioni riconducibili alla cultura umanistica e un andamento che conserva la memoria del gesto della penna. Non si tratta di rendere ogni segno geometrico o identico agli altri, ma di trovare una parentela coerente fra forme diverse. La durata di questo modello non consiste nella conservazione immobile di una sagoma. Nei secoli successivi altri progettisti studieranno le stampe di _Jenson_ e ne ricaveranno nuove interpretazioni. Quando un font contemporaneo richiama un modello veneziano, si colloca in questa storia di letture e adattamenti. Per riconoscere il legame occorre osservare il disegno effettivo delle lettere, distinguendo l’opera quattrocentesca dal suo recupero moderno. Un nome storico può indicare una fonte d’ispirazione senza garantire la riproduzione fedele del tipo originale.
 
 ]
 
 // Gli esempi chiariscono il recupero di un modello; i campioni già presenti
 // rimangono nel loro contesto, collegati da riferimenti automatici.
-Il Golden di _William Morris_, designer e scrittore inglese dell’Ottocento, riprende i romani di _Jenson_ con un nuovo disegno (@fig-tipo-morris-caratteri) @t06-morris-archive. EB Garamond è invece il progetto digitale in tondo e corsivo ispirato ai modelli cinquecenteschi di _Claude Garamont_, incisore francese (@fig-tipo-278a) @t06-eb-garamond. Modello storico, reinterpretazione e stile usato restano distinti: il nome non identifica da solo il file contemporaneo.#nota-compatta([William Morris Archive, Golden Type; EB Garamond, descrizione del progetto digitale e fonti storiche.], ("https://morrisarchive.lib.uiowa.edu/exhibits/show/bookarts/kelmscottpress/typefaces", "https://github.com/google/fonts/blob/main/ofl/ebgaramond/DESCRIPTION.en_us.html"))
+Il Golden di _William Morris_, designer e scrittore inglese dell’Ottocento, riprende i romani di _Jenson_ con un nuovo disegno (@fig-tipo-morris-caratteri). EB Garamond è invece il progetto digitale in tondo e corsivo ispirato ai modelli cinquecenteschi di _Claude Garamont_, incisore francese (@fig-tipo-278a) @t06-eb-garamond. Modello storico, reinterpretazione e stile usato restano distinti: il nome non identifica da solo il file contemporaneo.#nota-compatta([William Morris Archive, Golden Type; EB Garamond, descrizione del progetto digitale e fonti storiche.], ("https://morrisarchive.lib.uiowa.edu/exhibits/show/bookarts/kelmscottpress/typefaces", "https://github.com/google/fonts/blob/main/ofl/ebgaramond/DESCRIPTION.en_us.html"))
 
 // Il documento segue la coppia sagomata nel flusso ordinario. La gabbia intera
 // rende leggibili i dettagli dei tipi e non interrompe la sagoma della cassa.
@@ -207,32 +212,37 @@ Il Golden di _William Morris_, designer e scrittore inglese dell’Ottocento, ri
 
 === _Manuzio_ e _Griffo_: romano e corsivo
 
-Alla fine del Quattrocento e all’inizio del Cinquecento il lavoro dell’editore e umanista _Aldo Manuzio_ collega la scelta delle opere alla progettazione della loro forma materiale. L’editore promuove la pubblicazione di testi greci, latini e volgari e si avvale di studiosi e incisori. Il romano preparato per il _De Aetna_ dell’umanista veneziano _Pietro Bembo_, pubblicato nel 1496 secondo la datazione moderna, viene commissionato a _Francesco Griffo_, incisore di punzoni bolognese. La forma del carattere nasce dunque da una collaborazione: l’editore definisce un programma e il punzonista traduce le esigenze in un alfabeto riproducibile @t06-marciana.#sito([Biblioteca Nazionale Marciana, _Aldo Manutius_: ten interludes.], "https://bibliotecanazionalemarciana.cultura.gov.it/en/library/digital-library/aldo-manutius-ten-interludes/")
+Alla fine del Quattrocento e all’inizio del Cinquecento il lavoro dell’editore e umanista _Aldo Manuzio_ collega la scelta delle opere alla progettazione della loro forma materiale. L’editore promuove la pubblicazione di testi greci, latini e volgari e si avvale di studiosi e incisori. Il romano preparato per il _De Aetna_ dell’umanista veneziano _Pietro Bembo_, pubblicato nel 1496 secondo la datazione moderna, viene commissionato a _Francesco Griffo_, incisore di punzoni bolognese. La forma del carattere nasce dunque da una collaborazione: l’editore definisce un programma e il punzonista traduce le esigenze in un alfabeto riproducibile.#sito([Biblioteca Nazionale Marciana, _Aldo Manutius_: ten interludes.], "https://bibliotecanazionalemarciana.cultura.gov.it/en/library/digital-library/aldo-manutius-ten-interludes/")
 
 Il corsivo inciso da _Griffo_ compare in una breve iscrizione nel 1500 ed è usato nell’edizione aldina del poeta latino _Virgilio_, pubblicata nell’aprile 1501. La serie dei libri portatili prosegue nel maggio dello stesso anno con le opere di _Orazio_, poeta latino (@fig-tipo-orazio). Il modello è legato alla scrittura umanistica corsiva, ma non è una sua copia meccanica: una forma tracciata dalla penna deve essere ripensata per funzionare come tipo separato e ripetibile. Per questo è più corretto parlare del *corsivo inciso da _Griffo_ per _Manuzio_*, distinguendo il contributo del disegnatore e incisore da quello dell’editore.
 
 Anche il formato contribuisce all’esperienza del libro. L’*ottavo* indica una struttura ottenuta dalla piegatura del foglio in otto carte, cioè sedici pagine; non definisce una misura fissa in centimetri. I libri piccoli e i manoscritti portatili esistevano già: l’innovazione aldina consiste nell’affermazione di una serie editoriale riconoscibile, in cui il formato maneggevole si accompagna a testi e caratteri attentamente scelti. Il corsivo, che oggi usiamo spesso per un’enfasi interna alla frase, poteva allora sostenere interi testi. La sua storia mostra che anche la funzione di una variante tipografica cambia nel tempo.
 
-#immagine(path("/risorse-condivise/immagini/figure/tipografia/orazio-manuzio-1501-miniatura.jpg"),
-  [_Orazio_, _Carmina_, Venezia, _Aldo Manuzio_, maggio 1501: apertura delle _Odi_ in corsivo di _Francesco Griffo_, esemplare miniato per _Mino Rossi_.],
+#figura-al-vivo(
+  id: "fig-tipo-orazio", file: path("/risorse-condivise/immagini/figure/tipografia/orazio-manuzio-1501-miniatura.jpg"),
+  didascalia: [_Orazio_, _Carmina_, Venezia, _Aldo Manuzio_, maggio 1501: apertura delle _Odi_ in corsivo di _Francesco Griffo_, esemplare miniato per _Mino Rossi_.],
   diritti: [Collezione T. Kimball Brooker; riproduzione Sotheby’s, _Bibliotheca Brookeriana_, lotto 780, 2024.],
   alt: "Pagina miniata delle Odi di Orazio, con titolo maiuscolo e versi nel corsivo inciso da Griffo.",
-  width: 220pt, placement: top, scope: "parent") <fig-tipo-orazio>
+  rapporto: 1298 / 2000, rifilo: false,
+)
 
 Nel volume di _Orazio_ pubblicato da _Aldo Manuzio_ a Venezia nel maggio 1501, il titolo in maiuscolo e i versi in corsivo svolgono ruoli diversi (@fig-tipo-orazio). I dettagli ingrandiscono la stessa pagina: *non sono ricostruzioni con un font digitale*. Il corsivo è inciso da _Francesco Griffo_; la miniatura appartiene all’esemplare per _Mino Rossi_.#nota-compatta([Sotheby’s, Bibliotheca Brookeriana, lotto 780 (2024): _Orazio_, maggio 1501.], "https://www.sothebys.com/en/buy/auction/2024/bibliotheca-brookeriana-a-renaissance-library-the-aldine-collection-d-m/horatius-flaccus-horatius-venice-aldo-1501") I documenti completi mostrano il romano del _De Aetna_ e il corsivo delle _Bucoliche_ (@fig-tipo-de-aetna; @fig-tipo-virgilio).
 
-// Il facsimile resta nel flusso delle colonne accanto alla spiegazione.
+// Il facsimile largo resta nel flusso accanto alla spiegazione.
 // Typst sceglie la prima colonna utile: nessuna riga della prosa è assegnata.
-#immagine(path("/risorse-condivise/immagini/figure/tipografia/bembo-de-aetna-1496-apertura.jpg"),
-  [_Bembo_, _De Aetna_, 1496 (1495 m.v.). Venezia, _Aldo Manuzio_.],
+#figura-nel-testo(
+  id: "fig-tipo-de-aetna", file: path("/risorse-condivise/immagini/figure/tipografia/bembo-de-aetna-1496-apertura.jpg"),
+  didascalia: [_Bembo_, _De Aetna_, 1496 (1495 m.v.). Venezia, _Aldo Manuzio_.],
   diritti: [BNCF, Ald.1.1.40; scansione © 2010 ProQuest.],
   alt: "Pagina del De Aetna di Pietro Bembo, stampata da Manuzio nel romano di Griffo.",
-  width: 187.09pt, placement: top) <fig-tipo-de-aetna>
+  rapporto: 1394 / 2156,
+  colonne: 2, altezza: 140mm,
+)
 
 // I valori dei due ritagli provengono dal contesto Figma della tavola 343.
 // Viene spostata soltanto la fotografia dentro una finestra; il testo resta libero.
-#tavola-documentaria[
-  #campione-storico(titolo: [Maiuscole del titolo · _Orazio_ 1501],
+#confronto[
+#campione-storico(titolo: [Maiuscole del titolo · _Orazio_ 1501],
     didascalia: [Dettaglio della @fig-tipo-orazio: «HORATII», dal titolo delle _Odi di Orazio_, Venezia, _Aldo Manuzio_, 1501. Collezione _T. Kimball Brooker_; riproduzione Sotheby’s, lotto 780, 2024.])[
     #dettaglio(path("/risorse-condivise/immagini/figure/tipografia/orazio-manuzio-1501-miniatura.jpg"),
       width: 284.595pt, height: 54pt, originale-width: 1894.378pt, originale-height: 2918.919pt,
@@ -245,16 +255,12 @@ Nel volume di _Orazio_ pubblicato da _Aldo Manuzio_ a Venezia nel maggio 1501, i
       width: 207.9pt, height: 54pt, originale-width: 1752.3pt, originale-height: 2700pt,
       dx: -877.5pt, dy: -940.95pt, alt: "Dettaglio fotografico delle parole atavis edite nel corsivo di Griffo.")
   ]
-  #v(18pt)
-  #align(center)[
-    #block(width: 187.09pt)[
-      #immagine(path("/risorse-condivise/immagini/figure/tipografia/virgilio-manuzio-1501-bucoliche.jpg"),
+]
+
+#immagine(path("/risorse-condivise/immagini/figure/tipografia/virgilio-manuzio-1501-bucoliche.jpg"),
       [_Virgilio_, Venezia, _Manuzio_, aprile 1501: _Bucoliche_.],
       diritti: [John Rylands Library, The University of Manchester Library.],
       alt: "Apertura delle Bucoliche di Virgilio nell’edizione aldina del 1501.") <fig-tipo-virgilio>
-    ]
-  ]
-]
 ]
 #[
 // Tavole correnti 344–345: doppia pagina del Duomo approvata dall’utente.
@@ -274,7 +280,7 @@ Nel volume di _Orazio_ pubblicato da _Aldo Manuzio_ a Venezia nel maggio 1501, i
 )[
 === Firenze: tipi, officine e cultura editoriale
 
-Il caso fiorentino (@fig-duomo) mostra un’altra dimensione della storia tipografica: la *disponibilità dei caratteri* è una condizione concreta della produzione culturale. Nel Cinquecento _Lorenzo Torrentino_ lavora come stampatore ducale e pubblica opere che appartengono alla vita letteraria, artistica e istituzionale della città. Fra le produzioni più note vi è la prima edizione delle _Vite_ del pittore e architetto _Giorgio Vasari_, nel 1550, conservata anche nella Biblioteca degli Uffizi. La successiva versione ampliata del 1568 sarà stampata dai Giunti: la distinzione fra le due edizioni evita di attribuire a un’unica officina oggetti diversi @basagniVasari.#nota-compatta([Uffizi, Vite 1550/1568: posseduto (§ 6.3) e scheda del 1568.], ("https://pdf.uffizi.it/1777886745656-cartacollezioni-2.pdf", "https://www.uffizi.it/opere/vasari-giunti"))
+Il caso fiorentino (@fig-duomo) mostra un’altra dimensione della storia tipografica: la *disponibilità dei caratteri* è una condizione concreta della produzione culturale. Nel Cinquecento _Lorenzo Torrentino_ lavora come stampatore ducale e pubblica opere che appartengono alla vita letteraria, artistica e istituzionale della città. Fra le produzioni più note vi è la prima edizione delle _Vite_ del pittore e architetto _Giorgio Vasari_, nel 1550, conservata anche nella Biblioteca degli Uffizi. La successiva versione ampliata del 1568 sarà stampata dai Giunti: la distinzione fra le due edizioni evita di attribuire a un’unica officina oggetti diversi.#nota-compatta([Uffizi, Vite 1550/1568: posseduto (§ 6.3) e scheda del 1568.], ("https://pdf.uffizi.it/1777886745656-cartacollezioni-2.pdf", "https://www.uffizi.it/opere/vasari-giunti"))
 
 _Torrentino_ non inaugura la stampa a Firenze, dove le officine erano attive da decenni. Il suo interesse per questo percorso riguarda invece l’incontro fra una committenza, una selezione di opere e i mezzi necessari per comporle. Pubblicare testi latini o greci richiede di procurarsi serie di segni adeguate, oltre alle competenze per usarle. *Le lettere sono beni materiali*: si acquistano, si trasferiscono e si consumano, e la loro disponibilità apre o limita ciò che un’officina può realizzare.
 
@@ -283,7 +289,7 @@ Un libro storico può quindi essere letto anche come testimonianza del suo *appa
 
 Nel corso del Settecento i caratteri romani vengono reinterpretati attraverso rapporti sempre diversi fra spessore, asse e terminazioni. _William Caslon_, fonditore inglese, conserva il contrasto e l’energia dei modelli precedenti. Il foglio di campioni del 1734 permette di considerare il suo lavoro come un repertorio di caratteri destinati alla stampa, prima che come un nome scelto oggi da un menu. Parlare di _Caslon_ significa infatti confrontarsi con una produzione storica, a cui numerose versioni successive si sono ispirate.
 
-Lo stampatore inglese _John Baskerville_ cerca a Birmingham segni più nitidi. Il suo _Virgilio_ del 1757 è il primo libro della sua officina. La ricerca comprende il disegno delle lettere, ma anche inchiostri, carta e *qualità dell’impressione*: un tratto sottile può essere efficace solo se il processo di riproduzione lo conserva. La Cadbury Research Library documenta l’impiego della carta velina, più liscia, e gli esperimenti di _Baskerville_ per ottenere una stampa nera e definita. La forma non può quindi essere separata completamente dalle condizioni in cui viene resa visibile @birminghamBaskerville.#sito([University of Birmingham, Cadbury Research Library, «Baskerville».], "https://www.birmingham.ac.uk/facilities/cadbury/rarebooks/fine-printing-private-press/baskerville")
+Lo stampatore inglese _John Baskerville_ cerca a Birmingham segni più nitidi. Il suo _Virgilio_ del 1757 è il primo libro della sua officina. La ricerca comprende il disegno delle lettere, ma anche inchiostri, carta e *qualità dell’impressione*: un tratto sottile può essere efficace solo se il processo di riproduzione lo conserva. La Cadbury Research Library documenta l’impiego della carta velina, più liscia, e gli esperimenti di _Baskerville_ per ottenere una stampa nera e definita. La forma non può quindi essere separata completamente dalle condizioni in cui viene resa visibile.#sito([University of Birmingham, Cadbury Research Library, «Baskerville».], "https://www.birmingham.ac.uk/facilities/cadbury/rarebooks/fine-printing-private-press/baskerville")
 
 Fra Settecento e Ottocento i _Didot_, famiglia di tipografi francesi, e il tipografo _Giambattista Bodoni_ a Parma sviluppano interpretazioni con *forti contrasti*, *assi prevalentemente verticali* e grazie sottili. Il _Manuale tipografico_ di _Bodoni_, pubblicato postumo nel 1818, rende evidente la vastità del suo lavoro @bodoni1818. La @fig-bodoni permette di osservare il carattere nel contesto di una pagina autentica, invece di ridurlo a poche lettere isolate.#sito([Biblioteca Bodoni, Universidad de Salamanca.], "https://bibliotecabodoni.usal.es/libro/manuale-tipografico-1")
 
@@ -317,12 +323,10 @@ I frontespizi e il colophon permettono di confrontare le responsabilità editori
 
 // La spiegazione resta insieme ai documenti a cui si riferisce.
 // Il testo è ordinario e modificabile: nessuna riga o quota di pagina è imposta.
-#tavola-documentaria[
-  Nel _Manuale tipografico_ di _Giambattista Bodoni_, pubblicato postumo a Parma nel 1818, tondo e corsivo mostrano ritmo e costruzione diversi. I due dettagli provengono dalla stessa apertura riprodotta nella @fig-bodoni. Il confronto riguarda i caratteri stampati nel documento storico, non una loro versione digitale. Il foglio di _Caslon_ del 1734 e il frontespizio del _Virgilio_ di _Baskerville_ (@fig-tipo-caslon; @fig-tipo-baskerville) documentano altri due repertori del Settecento.
+Nel _Manuale tipografico_ di _Giambattista Bodoni_, pubblicato postumo a Parma nel 1818, tondo e corsivo mostrano ritmo e costruzione diversi. I due dettagli provengono dalla stessa apertura riprodotta nella @fig-bodoni. Il confronto riguarda i caratteri stampati nel documento storico, non una loro versione digitale. Il foglio di _Caslon_ del 1734 e il frontespizio del _Virgilio_ di _Baskerville_ (@fig-tipo-caslon; @fig-tipo-baskerville) documentano altri due repertori del Settecento.
 
-  #v(10pt)
-
-  #campione-storico(titolo: [_Bodoni_ · Tondo · 1818],
+#confronto[
+#campione-storico(titolo: [_Bodoni_ · Tondo · 1818],
     didascalia: [Dettaglio della @fig-bodoni: «Quousque», dal _Manuale tipografico_, vol. I, Parma, 1818, pubblicato postumo. Riproduzione Biblioteca Bodoni, Università di Salamanca.])[
     #dettaglio(path("/risorse-condivise/immagini/figure/tipografia/bodoni-manuale-1818-frontespizio.jpg"),
       width: 154.286pt, height: 54pt, originale-width: 1131.429pt, originale-height: 856.286pt,
@@ -335,18 +339,25 @@ I frontespizi e il colophon permettono di confrontare le responsabilità editori
       width: 270pt, height: 54pt, originale-width: 1320pt, originale-height: 999pt,
       dx: -819pt, dy: -523.5pt, alt: "diu etiam furor, dettaglio fotografico in corsivo dal Manuale di Bodoni.")
   ]
-  #v(14pt)
-  #grid(columns: (1fr, 1fr), gutter: 5mm,
-    [#immagine(path("/risorse-condivise/immagini/figure/tipografia/caslon-campioni-1734-columbia.jpg"),
-      [_William Caslon_, foglio di campioni, 1734 (Ironmonger-Row).],
-      diritti: [Columbia University Libraries, RBML.],
-      width: 138.975pt, alt: "Foglio di campioni di William Caslon del 1734.") <fig-tipo-caslon>],
-    [#immagine(path("/risorse-condivise/immagini/figure/tipografia/baskerville-virgilio-1757-frontespizio.jpg"),
-      [_Virgilio_, 1757: frontespizio. Stampa _John Baskerville_, Birmingham.],
-      diritti: [Columbia University Libraries, RBML.],
-      width: 138.607pt, alt: "Frontespizio del Virgilio stampato da Baskerville a Birmingham nel 1757.") <fig-tipo-baskerville>],
-  )
 ]
+
+#figura-nel-testo(
+  id: "fig-tipo-caslon", file: path("/risorse-condivise/immagini/figure/tipografia/caslon-campioni-1734-columbia.jpg"),
+  didascalia: [_William Caslon_, foglio di campioni, 1734 (Ironmonger-Row).],
+  diritti: [Columbia University Libraries, RBML.],
+  alt: "Foglio di campioni di William Caslon del 1734.",
+  rapporto: 1635 / 2000,
+  colonne: 2, altezza: 140mm,
+)
+
+#figura-nel-testo(
+  id: "fig-tipo-baskerville", file: path("/risorse-condivise/immagini/figure/tipografia/baskerville-virgilio-1757-frontespizio.jpg"),
+  didascalia: [_Virgilio_, 1757: frontespizio. Stampa _John Baskerville_, Birmingham.],
+  diritti: [Columbia University Libraries, RBML.],
+  alt: "Frontespizio del Virgilio stampato da Baskerville a Birmingham nel 1757.",
+  rapporto: 1223 / 1500,
+  colonne: 1,
+)
 
 Le etichette «antico», «transizionale» e «moderno» aiuteranno più avanti a descrivere queste differenze. Qui conta riconoscere una trasformazione graduale, non una gara in cui il nuovo disegno rende sbagliato il precedente. Un carattere contemporaneo ispirato a _Bodoni_ deve inoltre essere identificato con la propria versione: condividerne il nome non basta a renderlo uguale ai tipi incisi nella sua officina.
 ]
@@ -369,7 +380,7 @@ Le etichette «antico», «transizionale» e «moderno» aiuteranno più avanti 
 L’espansione di manifesti, avvisi e pubblicità nell’Ottocento amplia la gamma dei compiti assegnati alle lettere. Accanto al testo da leggere da vicino compaiono segni destinati a essere riconosciuti a distanza e in tempi brevi. Le fonderie propongono forme più pesanti, più strette, più larghe e più elaborate. Le _fat faces_ sono caratteri con grazie che esasperano il contrasto: *aste molto spesse e filetti sottili* rendono le lettere massicce senza uniformare tutti i tratti.#sito([_Ilene Strizver_, Guide to Typestyles: Didone Typefaces, sezione Bodoni Poster. Monotype / MyFonts.], "https://www.myfonts.com/pages/fontscom-learning-fontology-level-1-type-families-didone") Altre forme, con grazie squadrate o prive di grazie, trovano nuovi spazi nella comunicazione commerciale. La *tipografia display* esiste dunque molto prima dei computer e non coincide con un singolo stile decorativo.
 ]
 
-Per i *grandi corpi*, cioè le dimensioni elevate dei caratteri necessarie ai manifesti, il legno offre vantaggi pratici rispetto al metallo: i blocchi risultano più leggeri e meno costosi da produrre (@fig-tipo-legno-materia). La raccolta del grafico _Rob Roy Kelly_ dell’Università del Texas documenta questo repertorio e permette di mettere in rapporto i blocchi con le loro prove di stampa. Nella @fig-tipo-legno-campione la forte altezza e la ridotta larghezza non sono un incidente: sono un modo di costruire una voce visiva che può salire molto senza occupare la stessa quantità di spazio in orizzontale @t06-woodtype.#sito([Rob Roy Kelly American Wood Type Collection, University of Texas at Austin, What is Wood Type?], "https://rrk.finearts.utexas.edu/info/what-is-wood-type/")
+Per i *grandi corpi*, cioè le dimensioni elevate dei caratteri necessarie ai manifesti, il legno offre vantaggi pratici rispetto al metallo: i blocchi risultano più leggeri e meno costosi da produrre (@fig-tipo-legno-materia). La raccolta del grafico _Rob Roy Kelly_ dell’Università del Texas documenta questo repertorio e permette di mettere in rapporto i blocchi con le loro prove di stampa. Nella @fig-tipo-legno-campione la forte altezza e la ridotta larghezza non sono un incidente: sono un modo di costruire una voce visiva che può salire molto senza occupare la stessa quantità di spazio in orizzontale.#sito([Rob Roy Kelly American Wood Type Collection, University of Texas at Austin, What is Wood Type?], "https://rrk.finearts.utexas.edu/info/what-is-wood-type/")
 
 #immagine(path("/risorse-condivise/immagini/figure/tipografia/caratteri-legno-campione-117.jpg"),
   [Tipi di legno No. 117 e relativa prova di stampa: forme strette e alte per i grandi corpi. Il gruppo tridimensionale della @fig-tipo-legno-materia è un’illustrazione di studio dei blocchi tipografici.],
@@ -403,8 +414,6 @@ Il carattere diventa così una presenza della città. L’ampiezza delle variant
 // L'illustrazione della fonte attraversa il dorso. Le note restano a tutta gabbia.
 // La scelta sulla fotografia mancante è ancora in attesa della risposta umana.
 // Le citazioni in prosa usano la forma narrativa APA nativa, anche senza data.
-#cite(<t06-lanston>, form: none)
-#cite(<t06-linotype>, form: none)
 #sagoma-regionale(
   id: "fig-tipo-linotype",
   file: path("/risorse-condivise/immagini/figure/tipografia/linotype-illustrazione.png"),
@@ -419,24 +428,24 @@ Il carattere diventa così una presenza della città. L’ampiezza delle variant
 )[
 === Linotype e composizione meccanica
 
-La crescente richiesta di testi stampati spinge a meccanizzare anche il lavoro che precede l’impressione. La Linotype dell’inventore tedesco _Ottmar Mergenthaler_, introdotta commercialmente nel 1886, riunisce selezione delle matrici, giustificazione e fusione delle righe. Premendo i tasti, l’operatore fa scendere le matrici dei segni necessari; una volta completata la riga, il metallo fuso produce una barra che porta l’intera linea stampante. Le matrici vengono poi separate e ricondotte ai loro alloggiamenti per essere utilizzate di nuovo. La @fig-tipo-linotype illustra questa tipologia di macchina. Il #cite(<t06-linotype>, form: "prose") ne conserva un esemplare del 1892.#sito([Science Museum Group, Early Linotype composing machine, 1892.], "https://collection.sciencemuseumgroup.org.uk/objects/co37924/early-linotype-composing-machine-1892")
+La crescente richiesta di testi stampati spinge a meccanizzare anche il lavoro che precede l’impressione. La Linotype dell’inventore tedesco _Ottmar Mergenthaler_, introdotta commercialmente nel 1886, riunisce selezione delle matrici, giustificazione e fusione delle righe. Premendo i tasti, l’operatore fa scendere le matrici dei segni necessari; una volta completata la riga, il metallo fuso produce una barra che porta l’intera linea stampante. Le matrici vengono poi separate e ricondotte ai loro alloggiamenti per essere utilizzate di nuovo. La @fig-tipo-linotype illustra questa tipologia di macchina. Il Science Museum Group ne conserva un esemplare del 1892.#sito([Science Museum Group, Early Linotype composing machine, 1892.], "https://collection.sciencemuseumgroup.org.uk/objects/co37924/early-linotype-composing-machine-1892")
 
 Il nome descrive questa logica: una linea di tipi diventa una sola unità di metallo. La barra, detta _slug_, è diversa dalle matrici che l’hanno generata. È questa sequenza, illustrata nel manuale della Mergenthaler Linotype Company, a rendere più rapida la preparazione del testo. La macchina non inventa una nuova lingua delle lettere: trasferisce una parte della composizione in un sistema meccanico e impone condizioni produttive con cui anche il disegno dei caratteri deve confrontarsi @t06-rogers1925.#nota-compatta([_Rogers_, manuale Linotype (1925); Smithsonian, Mergenthaler Linotype Company Records.], ("https://www.linotype.org/OnLineDocs/LinotypeInstructionBook-1925/LIB-contents.pdf", "https://collections.si.edu/search/detail/ead_collection%3Asova-nmah-ac-0666"))
 
-Il sistema *Monotype* affronta la composizione con una soluzione differente: una tastiera prepara un nastro perforato che comanda una fonditrice, capace di produrre singoli tipi e disporli in righe. Il #cite(<t06-lanston>, form: "prose") conserva una macchina Lanston del 1897 che documenta questa logica. La differenza rispetto alla Linotype riguarda quindi l’unità fusa: il carattere singolo oppure la riga intera. In entrambi i casi il comando meccanico prepara il testo da stampare; non va confuso con il procedimento che trasferisce l’inchiostro sul foglio.#sito([Science Museum Group, Composition caster, Lanston Monotype Corporation, 1897.], "https://collection.sciencemuseumgroup.org.uk/objects/co8989730/composition-caster-by-the-lanston-monotype-corporation-ltd-1897")
+Il sistema *Monotype* affronta la composizione con una soluzione differente: una tastiera prepara un nastro perforato che comanda una fonditrice, capace di produrre singoli tipi e disporli in righe. Il Science Museum Group conserva una macchina Lanston del 1897 che documenta questa logica. La differenza rispetto alla Linotype riguarda quindi l’unità fusa: il carattere singolo oppure la riga intera. In entrambi i casi il comando meccanico prepara il testo da stampare; non va confuso con il procedimento che trasferisce l’inchiostro sul foglio.#sito([Science Museum Group, Composition caster, Lanston Monotype Corporation, 1897.], "https://collection.sciencemuseumgroup.org.uk/objects/co8989730/composition-caster-by-the-lanston-monotype-corporation-ltd-1897")
 
 Da qui occorre tenere separati due percorsi. La *fotocomposizione* registra i segni con la luce su carta o pellicola fotosensibile, anziché fondere righe.#nota-compatta([USITC, Publication 2281 (1990), p. 7: fotocomposizione su materiale fotosensibile.], "https://www.usitc.gov/publications/701_731/pub2281.pdf") La *composizione digitale* prepara poi il testo come dati. L’offset è un procedimento di stampa indiretta: l’immagine inchiostrata passa dalla lastra a un cilindro rivestito di gomma e poi al foglio. Riguarda quindi il trasferimento dell’immagine sul supporto. Perciò non è corretto affermare che l’offset «sostituì la Linotype» come se fossero due macchine concorrenti per la stessa operazione. Un testo composto in un file può essere destinato a una lastra per la stampa offset oppure a una macchina digitale. La storia delle tecnologie procede attraverso intrecci e coesistenze: una fase prepara il contenuto, un’altra lo rende visibile sulla carta.
 
 === _William Morris_ e il revival tipografico
 
-L’industrializzazione non produce una sola idea di progresso. _William Morris_, designer e scrittore inglese, fonda la Kelmscott Press nel 1891. Studia i libri del Quattrocento per migliorare la stampa. Golden, Troy e Chaucer sono i suoi caratteri: Golden è un romano ispirato a _Nicolas Jenson_, stampatore a Venezia nel XV secolo; Troy è gotico e Chaucer ne è una versione più piccola. Il #cite(<t06-morris-archive>, form: "prose") dell’Università dell’Iowa conserva i libri della stamperia.#sito([William Morris Archive, University of Iowa, Typefaces.], "https://morrisarchive.lib.uiowa.edu/exhibits/show/bookarts/kelmscottpress/typefaces")
+L’industrializzazione non produce una sola idea di progresso. _William Morris_, designer e scrittore inglese, fonda la Kelmscott Press nel 1891. Studia i libri del Quattrocento per migliorare la stampa. Golden, Troy e Chaucer sono i suoi caratteri: Golden è un romano ispirato a _Nicolas Jenson_, stampatore a Venezia nel XV secolo; Troy è gotico e Chaucer ne è una versione più piccola. Il William Morris Archive dell’Università dell’Iowa conserva i libri della stamperia.#sito([William Morris Archive, University of Iowa, Typefaces.], "https://morrisarchive.lib.uiowa.edu/exhibits/show/bookarts/kelmscottpress/typefaces")
 
 Il riferimento storico non consiste nel prelevare una lettera e ripeterla senza modifiche. _Morris_ osserva le stampe, le fa ingrandire fotograficamente e ridisegna le forme; i punzoni vengono incisi da _Edward Prince_, punzonista per le stamperie d’arte. La collaborazione fra chi concepisce il carattere e chi realizza gli strumenti resta determinante. Il passato diventa un materiale da interpretare, mentre tecnologie relativamente recenti, come la fotografia, rendono possibile studiarlo con una precisione diversa.
 
 Il ridisegno dei tipi antichi di _Morris_ mostra due strade. Un revival tipografico può cercare fedeltà documentaria, oppure può assumere un modello come punto di partenza per un nuovo impiego. In entrambi i casi occorre dichiarare quale fonte si sta osservando e quale trasformazione è stata compiuta. Una versione digitale di un carattere storico deve affrontare schermi, repertori e dimensioni che il suo modello non conosceva. L’interesse della storia sta anche in questo: mostra che conservare una tradizione e inventare nuove forme sono attività che possono procedere insieme, purché non si confondano l’originale e la sua reinterpretazione.
 ]
 
-Il documento della Kelmscott Press del 16 febbraio 1897 confronta Golden, Troy e Chaucer (@fig-tipo-morris-caratteri). La pagina di _The Well at the World’s End_, stampata dalla Kelmscott Press nel 1896 (@fig-tipo-kelmscott), mostra l’iniziale ornata e il testo gotico in due colonne. Il progetto di _William Morris_ riprende modelli antichi e li rielabora nel contesto produttivo di fine Ottocento @t06-kelmscott.#sito([The Metropolitan Museum of Art, _William Morris_, The Well at the World’s End, 1896.], "https://www.metmuseum.org/art/collection/search/354288")
+Il documento della Kelmscott Press del 16 febbraio 1897 confronta Golden, Troy e Chaucer (@fig-tipo-morris-caratteri). La pagina di _The Well at the World’s End_, stampata dalla Kelmscott Press nel 1896 (@fig-tipo-kelmscott), mostra l’iniziale ornata e il testo gotico in due colonne. Il progetto di _William Morris_ riprende modelli antichi e li rielabora nel contesto produttivo di fine Ottocento.#sito([The Metropolitan Museum of Art, _William Morris_, The Well at the World’s End, 1896.], "https://www.metmuseum.org/art/collection/search/354288")
 
 #figure(
   dettaglio(path("/risorse-condivise/immagini/figure/tipografia/morris-kelmscott-tre-caratteri-1897.jpg"),
@@ -445,12 +454,12 @@ Il documento della Kelmscott Press del 16 febbraio 1897 confronta Golden, Troy e
   kind: image, caption: [Documento Kelmscott Press, 16 febbraio 1897. _William Morris_; pubblico dominio.],
 ) <fig-tipo-morris-caratteri>
 
-#figura-pagina(
-  id: "fig-tipo-kelmscott",
-  file: path("/risorse-condivise/immagini/figure/tipografia/morris-kelmscott-well-worlds-end-1896.png"),
+#figura-al-vivo(
+  id: "fig-tipo-kelmscott", file: path("/risorse-condivise/immagini/figure/tipografia/morris-kelmscott-well-worlds-end-1896.png"),
   didascalia: [_William Morris_, _The Well at the World’s End_, Kelmscott Press, 1896. Iniziale ornata e testo gotico in due colonne; dettaglio della pagina destra.],
   diritti: [The Metropolitan Museum of Art, 17.3.2641(13), Harris Brisbane Dick Fund, 1917. Public Domain.],
   alt: "Pagina della Kelmscott Press con iniziale decorata, testo gotico su due colonne e bordo ornamentale.",
+  rapporto: 0.72706595906, ancoraggio: (0, 0.5),
 )
 ]
 #[
@@ -468,12 +477,13 @@ Il documento della Kelmscott Press del 16 febbraio 1897 confronta Golden, Troy e
 
 Nel primo Novecento le avanguardie rendono esplicita la forza visiva della parola stampata. Il lettore incontra lettere che cambiano dimensione, peso, inclinazione e direzione; la forma partecipa *al ritmo e al tono* del testo. In _Zang Tumb Tumb_, pubblicato nel 1914, _Filippo Tommaso Marinetti_, poeta e promotore del Futurismo, rievoca l’assedio di Adrianopoli attraverso una scrittura legata all’onomatopea e alle parole in libertà. Il designer _Cesare Cavanna_ cura la veste tipografica dell’opera, come documenta la scheda del MoMA: anche in un’opera fortemente associata al suo autore letterario, la responsabilità della forma merita di essere identificata. Nella copertina (@fig-tipo-250) la ripetizione di «Tumb» e i salti di corpo fanno percepire il titolo come *una sequenza sonora*. Il Futurismo esalta macchine e velocità dell’industrializzazione; il manifesto di _Marinetti_ (1909) celebra militarismo e patriottismo. _Zang Tumb Tumb_ rievoca l’assedio di Adrianopoli nella prima guerra balcanica (1912–13), prima della Grande Guerra. Corpi e direzioni traducono esplosioni e rumori in ritmo visivo: la forma non è neutra @t06-zang.#sito([The Museum of Modern Art, Zang Tumb Tumb, 1914.], "https://www.moma.org/collection/works/31450")
 
-#immagine(path("/risorse-condivise/immagini/figure/tipografia/storia/marinetti-zang-tumb-tumb-1914.jpg"),
-  [_Zang Tumb Tumb_, 1914: corpo, inclinazione e ripetizione del titolo costruiscono un ritmo visivo. _Filippo Tommaso Marinetti_; tipografia di _Cesare Cavanna_; Edizioni Futuriste di Poesia, Milano.],
+#figura-al-vivo(
+  id: "fig-tipo-250", file: path("/risorse-condivise/immagini/figure/tipografia/storia/marinetti-zang-tumb-tumb-1914.jpg"),
+  didascalia: [_Zang Tumb Tumb_, 1914: corpo, inclinazione e ripetizione del titolo costruiscono un ritmo visivo. _Filippo Tommaso Marinetti_; tipografia di _Cesare Cavanna_; Edizioni Futuriste di Poesia, Milano.],
   diritti: [MoMA, dono della Judith Rothschild Foundation.],
   alt: "Zang Tumb Tumb, 1914: corpo, inclinazione e ripetizione del titolo costruiscono un ritmo visivo. Filippo Tommaso Marinetti; tipografia di Cesare Cavanna; Edizioni Futuriste di Poesia, Milano.",
-  width: 154.379pt,
-) <fig-tipo-250>
+  rapporto: 1437 / 2000, rifilo: false,
+)
 
 
 _Fortunato Depero_, artista futurista attivo nella grafica pubblicitaria, continua a esplorare il rapporto fra parola, immagine e promozione nel _Depero futurista_ del 1927, noto come _Libro imbullonato_ (@fig-tipo-251). Il Mart documenta l’uso audace dei caratteri e il confronto concreto con le possibilità dell’officina; il MoMA conserva l’opera come libro illustrato stampato tipograficamente. Le lettere possono assumere un ruolo quasi corporeo, parlare attraverso la loro massa o trasformarsi in figura. La lezione non è che ogni testo debba sorprendere: è che il carattere può essere il *principale materiale espressivo* di un’opera. La sua funzione va valutata in relazione a ciò che il lettore è chiamato a fare @t06-depero.#nota-compatta([MoMA, Depero Futurista (1927); Mart, Depero dalla A alla Z, Editoria.], ("https://www.moma.org/collection/works/13429", "https://www.mart.tn.it/opere-archivi/depero-dalla-a-alla-z-128038"))
@@ -487,7 +497,7 @@ _Fortunato Depero_, artista futurista attivo nella grafica pubblicitaria, contin
 
 === L’alfabeto come progetto moderno
 
-La ricerca moderna non riguarda soltanto l’espressività di una parola isolata. Riguarda anche la possibilità di ripensare *l’alfabeto come un sistema*. Nel 1925 _Herbert Bayer_, grafico e docente al Bauhaus, elabora il progetto Universal: le lettere senza grazie e le costruzioni semplificate propongono una diversa coerenza formale. Il foglio originale conservato dalla Letterform Archive mostra anche varianti di alcuni segni. La @fig-tipo-252 permette di guardare all’esperimento nella sua materialità, come disegno a inchiostro e gouache su cartone. Il nome «Universal» esprime *un’ambizione storica*, non una leggibilità garantita per ogni persona e lingua. Il foglio del 1925 mostra un progetto e le sue varianti. Per ricavarne un font occorre scegliere fra le varianti, completare il repertorio necessario (per esempio accenti, cifre e punteggiatura), regolare le spaziature e verificare parole e righe a più dimensioni. Se si sviluppano più pesi o stili, occorre coordinarli. La traduzione digitale comporta quindi nuove scelte, non la semplice copia del disegno @t06-bayer.#sito([Letterform Archive, _Herbert Bayer_, Original lettering for Universal Type, 1925.], "https://exhibitions.letterformarchive.org/bauhaus/artworks/original-lettering-for-universal-type") Negli stessi anni il disegnatore di caratteri tedesco _Paul Renner_ sviluppa Futura (@fig-tipo-255a), pubblicato dalla fonderia Bauer nel 1927. La presenza di forme geometriche lo avvicina al clima della modernità, ma non autorizza ad attribuirlo a _Bayer_ o a definirlo un prodotto del Bauhaus. I due casi condividono domande e contesto, conservando *autori e processi distinti* @t06-futura.#sito([Monotype, Will the real Futura please stand up?], "https://www.monotype.com/resources/expertise/will-real-futura-please-stand")
+La ricerca moderna non riguarda soltanto l’espressività di una parola isolata. Riguarda anche la possibilità di ripensare *l’alfabeto come un sistema*. Nel 1925 _Herbert Bayer_, grafico e docente al Bauhaus, elabora il progetto Universal: le lettere senza grazie e le costruzioni semplificate propongono una diversa coerenza formale. Il foglio originale conservato dalla Letterform Archive mostra anche varianti di alcuni segni. La @fig-tipo-252 permette di guardare all’esperimento nella sua materialità, come disegno a inchiostro e gouache su cartone. Il nome «Universal» esprime *un’ambizione storica*, non una leggibilità garantita per ogni persona e lingua. Il foglio del 1925 mostra un progetto e le sue varianti. Per ricavarne un font occorre scegliere fra le varianti, completare il repertorio necessario (per esempio accenti, cifre e punteggiatura), regolare le spaziature e verificare parole e righe a più dimensioni. Se si sviluppano più pesi o stili, occorre coordinarli. La traduzione digitale comporta quindi nuove scelte, non la semplice copia del disegno.#sito([Letterform Archive, _Herbert Bayer_, Original lettering for Universal Type, 1925.], "https://exhibitions.letterformarchive.org/bauhaus/artworks/original-lettering-for-universal-type") Negli stessi anni il disegnatore di caratteri tedesco _Paul Renner_ sviluppa Futura (@fig-tipo-255a), pubblicato dalla fonderia Bauer nel 1927. La presenza di forme geometriche lo avvicina al clima della modernità, ma non autorizza ad attribuirlo a _Bayer_ o a definirlo un prodotto del Bauhaus. I due casi condividono domande e contesto, conservando *autori e processi distinti* @t06-futura.#sito([Monotype, Will the real Futura please stand up?], "https://www.monotype.com/resources/expertise/will-real-futura-please-stand")
 
 #immagine(path("/risorse-condivise/immagini/figure/tipografia/storia/bayer-universal-1925.png"),
   [_Original lettering for Universal Type_, 1925. Il foglio conserva costruzioni e varianti del progetto di alfabeto. _Herbert Bayer_, Dessau; inchiostro e gouache su cartone.],
@@ -517,14 +527,15 @@ La ricerca moderna non riguarda soltanto l’espressività di una parola isolata
 ]
 
 
-Anche _Jan Tschichold_, tipografo e teorico della Nuova Tipografia, partecipa al dibattito con _Elementare Typographie_ nel 1925. Il suo programma attribuisce ai caratteri un *ruolo funzionale e comunicativo*, in rapporto alle possibilità della produzione moderna. Qui «moderno» non indica uno stile unico: _Bayer_ ripensa l’alfabeto, _Renner_ sviluppa Futura e _Tschichold_ propone regole per comporre la pagina. Le classificazioni successive descriveranno le forme dei caratteri; non basteranno, da sole, a spiegare questi diversi obiettivi progettuali. La @fig-tipo-253 conserva il documento con cui questa proposta viene presentata al pubblico dei tipografi @t06-tschichold.#sito([Deutsche Nationalbibliothek, Elementary typography.], "https://mediengeschichte.dnb.de/DBSMZBN/Content/EN/TheAestheticsOfTheBook/09-jan-tschichold-elementare-typografie-en.html")
+Anche _Jan Tschichold_, tipografo e teorico della Nuova Tipografia, partecipa al dibattito con _Elementare Typographie_ nel 1925. Il suo programma attribuisce ai caratteri un *ruolo funzionale e comunicativo*, in rapporto alle possibilità della produzione moderna. Qui «moderno» non indica uno stile unico: _Bayer_ ripensa l’alfabeto, _Renner_ sviluppa Futura e _Tschichold_ propone regole per comporre la pagina. Le classificazioni successive descriveranno le forme dei caratteri; non basteranno, da sole, a spiegare questi diversi obiettivi progettuali. La @fig-tipo-253 conserva il documento con cui questa proposta viene presentata al pubblico dei tipografi.#sito([Deutsche Nationalbibliothek, Elementary typography.], "https://mediengeschichte.dnb.de/DBSMZBN/Content/EN/TheAestheticsOfTheBook/09-jan-tschichold-elementare-typografie-en.html")
 
-#immagine(path("/risorse-condivise/immagini/figure/tipografia/storia/tschichold-elementare-typographie-1925.jpg"),
-  [_Elementare Typographie_, ottobre 1925: minuscole senza grazie e pesi marcati. Supplemento di _Typographische Mitteilungen_. _Jan Tschichold_.],
+#figura-al-vivo(
+  id: "fig-tipo-253", file: path("/risorse-condivise/immagini/figure/tipografia/storia/tschichold-elementare-typographie-1925.jpg"),
+  didascalia: [_Elementare Typographie_, ottobre 1925: minuscole senza grazie e pesi marcati. Supplemento di _Typographische Mitteilungen_. _Jan Tschichold_.],
   diritti: [Deutsches Buch- und Schriftmuseum, Deutsche Nationalbibliothek, Leipzig.],
   alt: "Elementare Typographie, ottobre 1925: minuscole senza grazie e pesi marcati. Supplemento di Typographische Mitteilungen. Jan Tschichold.",
-  width: 150.647pt,
-) <fig-tipo-253>
+  rapporto: 390 / 520, rifilo: false,
+)
 
 
 === Quando le lettere diventano un segno politico
@@ -557,24 +568,26 @@ Il medesimo regime usò dunque prima la Fraktur e poi l’Antiqua. Le forme dell
 
 Un diverso linguaggio della propaganda è visibile nel manifesto _Let’s Fulfill the Plan of Great Works_ del 1930 di _Gustav Klutsis_, artista lettone attivo nella propaganda sovietica, conservato al MoMA (@fig-tipo-255). Le parole in cirillico presentano forme senza grazie, compatte e di peso marcato; le differenze di corpo rendono evidenti alcune parti dello slogan. Qui osserviamo la tipografia come presenza di un *messaggio politico specifico*, senza attribuire a tutti i caratteri geometrici o privi di grazie il medesimo significato. Leggere il documento significa distinguere il disegno delle lettere dall’ideologia che lo impiega e identificare precisamente autore, data e funzione @t06-klutsis.#sito([The Museum of Modern Art, Let’s Fulfill the Plan of Great Works, 1930.], "https://www.moma.org/collection/works/6487")
 
-#immagine(path("/risorse-condivise/immagini/figure/tipografia/storia/klutsis-piano-grandi-opere-1930.jpg"),
-  [_Gustav Klutsis_, _Let’s Fulfill the Plan of Great Works_, 1930. Le parole in cirillico e i contrasti di corpo fanno parte di un preciso messaggio politico.],
+#figura-al-vivo(
+  id: "fig-tipo-255", file: path("/risorse-condivise/immagini/figure/tipografia/storia/klutsis-piano-grandi-opere-1930.jpg"),
+  didascalia: [_Gustav Klutsis_, _Let’s Fulfill the Plan of Great Works_, 1930. Le parole in cirillico e i contrasti di corpo fanno parte di un preciso messaggio politico.],
   diritti: [MoMA, 357.1937, Purchase Fund, Jan Tschichold Collection. © Artists Rights Society.],
   alt: "Gustav Klutsis, Let’s Fulfill the Plan of Great Works, 1930. Le parole in cirillico e i contrasti di corpo fanno parte di un preciso messaggio politico.",
-  width: 150.601pt,
-) <fig-tipo-255>
+  rapporto: 1415 / 2000, rifilo: false,
+)
 
 
 === La tipografia svizzera
 
-Nel secondo dopoguerra il lavoro di progettisti svizzeri contribuisce alla diffusione internazionale di una tipografia che privilegia repertori essenziali e caratteri senza grazie. È una scelta storicamente riconoscibile, spesso collegata a un’idea di precisione e controllo. Non significa però che il sans serif sia privo di personalità: la selezione di un carattere, il suo peso e il rapporto fra maiuscole e minuscole continuano a *costruire un tono*. Il manifesto _beethoven_ (1955) del grafico svizzero _Josef Müller-Brockmann_ offre un esempio di minuscole compatte e controllate. Il carattere sostiene il contenuto culturale senza illustrare letteralmente la musica né ricorrere a un alfabeto decorativo (@fig-tipo-256). La Fondazione Müller-Brockmann documenta la discussione con il committente sulle minuscole: una scelta che oggi può sembrare ovvia era parte del progetto @t06-muller.#sito([Shizuko Yoshikawa and Josef Müller-Brockmann Foundation, _Josef Müller-Brockmann_.], "https://www.shizukoyoshikawa.ch/ja/josef-mueller-brockmann/")
+Nel secondo dopoguerra il lavoro di progettisti svizzeri contribuisce alla diffusione internazionale di una tipografia che privilegia repertori essenziali e caratteri senza grazie. È una scelta storicamente riconoscibile, spesso collegata a un’idea di precisione e controllo. Non significa però che il sans serif sia privo di personalità: la selezione di un carattere, il suo peso e il rapporto fra maiuscole e minuscole continuano a *costruire un tono*. Il manifesto _beethoven_ (1955) del grafico svizzero _Josef Müller-Brockmann_ offre un esempio di minuscole compatte e controllate. Il carattere sostiene il contenuto culturale senza illustrare letteralmente la musica né ricorrere a un alfabeto decorativo (@fig-tipo-256). La Fondazione Müller-Brockmann documenta la discussione con il committente sulle minuscole: una scelta che oggi può sembrare ovvia era parte del progetto.#sito([Shizuko Yoshikawa and Josef Müller-Brockmann Foundation, _Josef Müller-Brockmann_.], "https://www.shizukoyoshikawa.ch/ja/josef-mueller-brockmann/")
 
-#immagine(path("/risorse-condivise/immagini/figure/tipografia/storia/muller-brockmann-beethoven-1955.png"),
-  [_beethoven_, 22 febbraio 1955: titolo in minuscolo senza grazie nel manifesto per la Tonhalle-Gesellschaft Zürich. _Josef Müller-Brockmann_.],
+#figura-al-vivo(
+  id: "fig-tipo-256", file: path("/risorse-condivise/immagini/figure/tipografia/storia/muller-brockmann-beethoven-1955.png"),
+  didascalia: [_beethoven_, 22 febbraio 1955: titolo in minuscolo senza grazie nel manifesto per la Tonhalle-Gesellschaft Zürich. _Josef Müller-Brockmann_.],
   diritti: [Shizuko Yoshikawa and Josef Müller-Brockmann Foundation.],
   alt: "beethoven, 22 febbraio 1955: titolo in minuscolo senza grazie nel manifesto per la Tonhalle-Gesellschaft Zürich. Josef Müller-Brockmann.",
-  width: 115.911pt,
-) <fig-tipo-256>
+  rapporto: 3263 / 4687, rifilo: false,
+)
 
 
 Nel 1957 il disegnatore di caratteri svizzero _Max Miedinger_ sviluppa con _Eduard Hoffmann_, direttore della fonderia Haas, il carattere che diventerà Helvetica (@fig-tipo-256a). Il suo ampio impiego ne accresce familiarità e riconoscibilità, ma *non lo rende una soluzione universale*. La storia di un carattere comprende le funzioni per cui nasce e quelle che gli vengono affidate in seguito. Quando entra nelle identità aziendali, nella segnaletica o negli schermi, può ricevere nuove versioni e correzioni. L’idea di «neutralità» va quindi letta come un’intenzione comunicativa o una *percezione contestuale*, non come una proprietà scientifica presente in tutte le lettere prive di grazie @t06-helvetica.#sito([Monotype, The complicated legacy of Helvetica.], "https://www.monotype.com/resources/articles/complicated-legacy-helvetica")
@@ -607,7 +620,7 @@ _Susan Kare_, grafica statunitense autrice di icone e font per il Macintosh, rac
 ] <fig-tipo-chicago>
 
 
-_Zuzana Licko_, disegnatrice di caratteri e cofondatrice di Emigre, assume a sua volta le condizioni della bassa risoluzione come un materiale progettuale. La famiglia Lo-Res di Emigre riunisce nel 2001 lavori iniziati nel 1985. Nella @fig-tipo-257 gradini e blocchi non sono difetti da nascondere, ma *tratti dell’identità del carattere*. L’immagine è tratta da uno *specimen*, una presentazione di campioni che mostra il disegno e le possibilità d’uso di un carattere. È una presentazione contemporanea di quella ricerca, non uno screenshot del 1985 @t06-lores.#sito([Emigre, Lo-Res Font Family.], "https://www.emigre.com/Fonts/Lo-Res")
+_Zuzana Licko_, disegnatrice di caratteri e cofondatrice di Emigre, assume a sua volta le condizioni della bassa risoluzione come un materiale progettuale. La famiglia Lo-Res di Emigre riunisce nel 2001 lavori iniziati nel 1985. Nella @fig-tipo-257 gradini e blocchi non sono difetti da nascondere, ma *tratti dell’identità del carattere*. L’immagine è tratta da uno *specimen*, una presentazione di campioni che mostra il disegno e le possibilità d’uso di un carattere. È una presentazione contemporanea di quella ricerca, non uno screenshot del 1985.#sito([Emigre, Lo-Res Font Family.], "https://www.emigre.com/Fonts/Lo-Res")
 
 #immagine(path("/risorse-condivise/immagini/figure/tipografia/storia/licko-lo-res-specimen.png"),
   [Lo-Res: costruzione per pixel in uno specimen attuale di progetti avviati nel 1985 e riuniti nella famiglia del 2001.],
@@ -616,7 +629,7 @@ _Zuzana Licko_, disegnatrice di caratteri e cofondatrice di Emigre, assume a sua
 ) <fig-tipo-257>
 
 
-Nel 1985 l’incontro fra il Macintosh, PageMaker di Aldus, il linguaggio PostScript di Adobe e la stampante LaserWriter favorisce l’affermazione del *desktop publishing*. Una parte crescente della composizione tipografica diventa accessibile sul personal computer: scegliere il carattere, controllare le righe e correggere il testo può avvenire nello stesso ambiente. Il Computer History Museum documenta questo passaggio; la documentazione Aldus del 1987 mostra già controlli di crenatura, interlinea e sillabazione. Non è la fine dei mestieri della stampa, ma un cambiamento nella distribuzione degli strumenti e delle decisioni sul testo @t06-chm-dtp @t06-aldus1987.#footnote[Computer History Museum, Desktop Publishing: #text(size: 7pt)[#link("https://www.computerhistory.org/revolution/personal-computers/17/306")]. Documentazione Aldus, circa 1987: #text(size: 7pt)[#link("https://archive.computerhistory.org/resources/text/Aldus/aldus.folder.1987.102659290.pdf")].]
+Nel 1985 l’incontro fra il Macintosh, PageMaker di Aldus, il linguaggio PostScript di Adobe e la stampante LaserWriter favorisce l’affermazione del *desktop publishing*. Una parte crescente della composizione tipografica diventa accessibile sul personal computer: scegliere il carattere, controllare le righe e correggere il testo può avvenire nello stesso ambiente. Il Computer History Museum documenta questo passaggio; la documentazione Aldus del 1987 mostra già controlli di crenatura, interlinea e sillabazione. Non è la fine dei mestieri della stampa, ma un cambiamento nella distribuzione degli strumenti e delle decisioni sul testo @t06-aldus1987.#footnote[Computer History Museum, Desktop Publishing: #text(size: 7pt)[#link("https://www.computerhistory.org/revolution/personal-computers/17/306")]. Documentazione Aldus, circa 1987: #text(size: 7pt)[#link("https://archive.computerhistory.org/resources/text/Aldus/aldus.folder.1987.102659290.pdf")].]
 
 Parallelamente, i font a contorni descrivono la forma attraverso *coordinate e curve*. Per mostrarla su uno schermo, il software la ridimensiona e la converte in una griglia di pixel: questo passaggio è la rasterizzazione. La diffusione di strumenti digitali amplia le possibilità di disegno, di distribuzione e di composizione. Un file può contenere numerosi glifi e funzioni, e una famiglia variabile può definire un campo di variazioni. La storia non termina con la scomparsa dei vincoli: cambiano i vincoli, mentre restano da decidere proporzioni, differenze e qualità della lettura. Per descriverle con precisione, il passo successivo è entrare nell’anatomia delle lettere.
 ]
@@ -628,7 +641,7 @@ Parallelamente, i font a contorni descrivono la forma attraverso *coordinate e c
 
 == Anatomia delle lettere
 
-Dopo aver incontrato lettere prodotte con strumenti e finalità differenti, serve un lessico che permetta di confrontarle. *L’anatomia dei caratteri* dà un nome alle loro parti e alle relazioni che le tengono insieme. Parlare di un’asta, di una controforma o di un terminale è più preciso che definire una lettera soltanto «elegante» o «moderna». Il vocabolario non sostituisce l’osservazione: permette di indicare dove si trova la differenza che stiamo osservando @t06-monotype-glossario.#sito([Monotype, The A–Z of typographic terms.], "https://www.monotype.com/resources/typographic-terms")
+Dopo aver incontrato lettere prodotte con strumenti e finalità differenti, serve un lessico che permetta di confrontarle. *L’anatomia dei caratteri* dà un nome alle loro parti e alle relazioni che le tengono insieme. Parlare di un’asta, di una controforma o di un terminale è più preciso che definire una lettera soltanto «elegante» o «moderna». Il vocabolario non sostituisce l’osservazione: permette di indicare dove si trova la differenza che stiamo osservando.#sito([Monotype, The A–Z of typographic terms.], "https://www.monotype.com/resources/typographic-terms")
 
 Molti termini usano metafore del corpo: la lettera può avere una pancia, una gamba, una spalla o un orecchio. Queste parole sono strumenti descrittivi. Non implicano che ogni segno contenga tutte le parti. Una g a due occhielli offre dettagli che una g a un solo occhio non possiede; un carattere privo di grazie non può mostrarle come se fossero state semplicemente nascoste. Anche *la terminologia varia* fra scuole e lingue: per questo i campioni accompagnano i nomi italiani con il termine inglese quando aiuta a riconoscere la voce nei software e nella letteratura. La mappa (@fig-tipo-258) introduce un percorso dall’insieme al dettaglio. Le guide rendono confrontabili le altezze, mentre gli agganci segnalano parti disegnate e spazi interni. Nei campioni successivi il blu non inventa una nuova forma: evidenzia una porzione dei *contorni del font*. Si può così passare dal campione al singolo glifo e tornare al campione, verificando che il dettaglio analizzato appartenga davvero al carattere mostrato @t06-roboto-serif.#sito([Commercial Type e _Greg Gazdowicz_, Roboto Serif: file e licenza.], "https://github.com/google/fonts/tree/main/ofl/robotoserif")
 
@@ -851,7 +864,7 @@ La distinzione ha una conseguenza concreta. Dire che un testo è composto in Gar
 ] <fig-tipo-278a>
 
 
-Nella tipografia di metallo, una fonte era legata anche a un corpo e a uno stile determinati. Il file scalabile ha reso molto più elastico questo rapporto, senza cancellare il lavoro di disegno. Quando selezioniamo una voce nel menu del programma non scegliamo soltanto un aspetto, ma un sistema di possibilità. Conoscere quel sistema permette di valutare fin dall’inizio se saprà sostenere titoli, citazioni, numeri, accenti e lingue del progetto @t06-monotype-glossario.#sito([Monotype, The A–Z of typographic terms.], "https://www.monotype.com/resources/typographic-terms")
+Nella tipografia di metallo, una fonte era legata anche a un corpo e a uno stile determinati. Il file scalabile ha reso molto più elastico questo rapporto, senza cancellare il lavoro di disegno. Quando selezioniamo una voce nel menu del programma non scegliamo soltanto un aspetto, ma un sistema di possibilità. Conoscere quel sistema permette di valutare fin dall’inizio se saprà sostenere titoli, citazioni, numeri, accenti e lingue del progetto.#sito([Monotype, The A–Z of typographic terms.], "https://www.monotype.com/resources/typographic-terms")
 
 === Caratteri e glifi
 
@@ -911,7 +924,7 @@ La convenzione non impedisce l’invenzione: fornisce le forme apprese con cui i
 
 === New Alphabet e Swift: i vincoli tecnici
 
-New Alphabet e Swift mostrano risposte diverse ai vincoli tecnici (@fig-tipo-279b e @fig-tipo-279c). Nel 1967 il grafico olandese _Wim Crouwel_ sviluppò New Alphabet come esperimento sulle limitazioni dei tubi a raggi catodici, usati negli schermi e nella fotocomposizione: una costruzione fortemente regolata sostituiva molte curve convenzionali con segmenti e raccordi angolari. Il risultato spostava il problema dal riconoscere subito le lettere all’immaginare un diverso rapporto fra alfabeto e macchina. The Foundry Types lo descrive come una *provocazione teorica* destinata ad alimentare la discussione, non come una proposta universale per leggere testi correnti @t06-new-alphabet.#sito([The Foundry Types, New Alphabet.], "https://www.thefoundrytypes.com/fonts/new-alphabet/")
+New Alphabet e Swift mostrano risposte diverse ai vincoli tecnici (@fig-tipo-279b e @fig-tipo-279c). Nel 1967 il grafico olandese _Wim Crouwel_ sviluppò New Alphabet come esperimento sulle limitazioni dei tubi a raggi catodici, usati negli schermi e nella fotocomposizione: una costruzione fortemente regolata sostituiva molte curve convenzionali con segmenti e raccordi angolari. Il risultato spostava il problema dal riconoscere subito le lettere all’immaginare un diverso rapporto fra alfabeto e macchina. The Foundry Types lo descrive come una *provocazione teorica* destinata ad alimentare la discussione, non come una proposta universale per leggere testi correnti.#sito([The Foundry Types, New Alphabet.], "https://www.thefoundrytypes.com/fonts/new-alphabet/")
 
 #campione(titolo: [New Alphabet], fascia: 63pt,
   didascalia: [New Alphabet (1967), dettaglio.], diritti: [_Wim Crouwel_ / The Foundry Types.])[
@@ -1025,13 +1038,13 @@ Forma verticale e larghezza sono due proprietà indipendenti: possono combinarsi
 
 === Unicode e copertura linguistica
 
-Unicode assegna codici ai caratteri: U+0041 identifica la A latina maiuscola. Cambiando font *cambia il glifo, non il carattere*. Un font OpenType contiene forme e regole: f e i possono diventare una legatura, ma nel testo restano due lettere. Altre regole scelgono varianti e posizionano accenti. La resa nasce dall’incontro fra *testo codificato*, font disponibili e motore di composizione. Il quadratino tofu può segnalare un *glifo non disponibile*. Se manca È, il sistema può cercarla in un font di riserva, con peso o proporzioni diversi; senza una forma adatta può mostrare il riquadro. È diverso da una *codifica errata*: i byte UTF-8 di «è», letti come Latin-1, producono «Ã¨». Qui sono i dati a essere interpretati male. Prima di cambiare font va identificata la causa. La verifica comincia da parole complete, nomi propri e segni meno frequenti, non soltanto dal titolo della pagina. È utile includere diacritici, valute, punteggiatura e tutte le lingue previste. Il repertorio latino di base non basta a garantire una corretta versione polacca o turca, né la disponibilità del cirillico assicura quella del greco. La copertura va letta nella documentazione e confermata nella *composizione effettiva*, perché numero dei glifi e numero delle lingue supportate descrivono aspetti differenti @t06-unicode-fonts.#nota-compatta([Unicode Consortium, Fonts and Keyboards; Glossary, caratteri e glifi.], ("https://www.unicode.org/faq/font_keyboard.html", "https://unicode.org/glossary/"))
+Unicode assegna codici ai caratteri: U+0041 identifica la A latina maiuscola. Cambiando font *cambia il glifo, non il carattere*. Un font OpenType contiene forme e regole: f e i possono diventare una legatura, ma nel testo restano due lettere. Altre regole scelgono varianti e posizionano accenti. La resa nasce dall’incontro fra *testo codificato*, font disponibili e motore di composizione. Il quadratino tofu può segnalare un *glifo non disponibile*. Se manca È, il sistema può cercarla in un font di riserva, con peso o proporzioni diversi; senza una forma adatta può mostrare il riquadro. È diverso da una *codifica errata*: i byte UTF-8 di «è», letti come Latin-1, producono «Ã¨». Qui sono i dati a essere interpretati male. Prima di cambiare font va identificata la causa. La verifica comincia da parole complete, nomi propri e segni meno frequenti, non soltanto dal titolo della pagina. È utile includere diacritici, valute, punteggiatura e tutte le lingue previste. Il repertorio latino di base non basta a garantire una corretta versione polacca o turca, né la disponibilità del cirillico assicura quella del greco. La copertura va letta nella documentazione e confermata nella *composizione effettiva*, perché numero dei glifi e numero delle lingue supportate descrivono aspetti differenti.#nota-compatta([Unicode Consortium, Fonts and Keyboards; Glossary, caratteri e glifi.], ("https://www.unicode.org/faq/font_keyboard.html", "https://unicode.org/glossary/"))
 
 === Le famiglie multiscript
 
 Una famiglia multiscript cerca una relazione fra *sistemi di scrittura differenti*. La coerenza può riguardare il peso visivo, il contrasto, il trattamento dei terminali o la destinazione d’uso, ma non richiede che ogni segno assomigli a una lettera latina. Ogni scrittura possiede forme, convenzioni e ritmi che vanno rispettati. Tradurre una frase comporta quindi anche una nuova prova tipografica.
 
-Noto (@fig-tipo-288b), progetto sviluppato da Google con numerosi collaboratori e Monotype, riunisce famiglie destinate a molte scritture e prende il nome dall’obiettivo di ridurre i segni mancanti. Non è un singolo file che risolve automaticamente ogni lingua: si selezionano le famiglie pertinenti e se ne controllano composizione e compatibilità. Una parola latina, una sequenza di caratteri giapponesi e un testo arabo possono avere densità e altezze apparenti diverse allo stesso corpo nominale @t06-noto.#nota-compatta([Google Fonts, Noto; repository Noto Latin-Greek-Cyrillic.], ("https://fonts.google.com/noto", "https://github.com/notofonts/latin-greek-cyrillic"))
+Noto (@fig-tipo-288b), progetto sviluppato da Google con numerosi collaboratori e Monotype, riunisce famiglie destinate a molte scritture e prende il nome dall’obiettivo di ridurre i segni mancanti. Non è un singolo file che risolve automaticamente ogni lingua: si selezionano le famiglie pertinenti e se ne controllano composizione e compatibilità. Una parola latina, una sequenza di caratteri giapponesi e un testo arabo possono avere densità e altezze apparenti diverse allo stesso corpo nominale.#nota-compatta([Google Fonts, Noto; repository Noto Latin-Greek-Cyrillic.], ("https://fonts.google.com/noto", "https://github.com/notofonts/latin-greek-cyrillic"))
 
 #immagine(path("/risorse-condivise/immagini/figure/tipografia/font/noto-tre-repertori-dettagli.svg"),
   [Noto Sans e Noto Sans Arabic: dettagli dei repertori latino, greco e arabo, non traduzioni.],
@@ -1074,15 +1087,19 @@ Il formato del file *non costituisce una categoria estetica*. OpenType è una sp
 
 L’espressione web-safe indica tradizionalmente famiglie la cui presenza era considerata probabile su molte piattaforme diffuse. Non è una garanzia universale: sistemi, versioni e installazioni possono offrire risorse differenti. Per questo il progetto prevede una sequenza di *famiglie di riserva*, o font stack, conclusa da una famiglia generica come serif o sans-serif. Il browser cerca i segni necessari fra le risorse disponibili, mentre un webfont può fornire un file specifico. Anche usando lo stesso nome, però, versioni del font e sistemi di resa possono produrre differenze nelle misure e nell’aspetto. La verifica deve quindi comprendere sia il font previsto sia le alternative: la disponibilità probabile non assicura una composizione identica su tutti i dispositivi.
 
-Occorre conservare anche provenienza, versione e condizioni d’uso. Avere un font installato consente gli *usi previsti dalla sua licenza*, ma non implica automaticamente il diritto di distribuirne il file insieme a un sito o a un’applicazione. Comporre un’immagine, incorporare un font in un documento e trasferire la risorsa ad altri sono operazioni diverse, da confrontare con le condizioni della risorsa specifica @t06-font-redistribution.#sito([Microsoft Typography, Font redistribution FAQ.], "https://learn.microsoft.com/en-us/typography/fonts/font-faq")
+Occorre conservare anche provenienza, versione e condizioni d’uso. Avere un font installato consente gli *usi previsti dalla sua licenza*, ma non implica automaticamente il diritto di distribuirne il file insieme a un sito o a un’applicazione. Comporre un’immagine, incorporare un font in un documento e trasferire la risorsa ad altri sono operazioni diverse, da confrontare con le condizioni della risorsa specifica.#sito([Microsoft Typography, Font redistribution FAQ.], "https://learn.microsoft.com/en-us/typography/fonts/font-faq")
 
 I font con licenza aperta offrono possibilità esplicite, senza essere privi di regole. EB Garamond, usato nei campioni di questo capitolo, è distribuito con SIL Open Font License 1.1: nella ridistribuzione *si conservano gli avvisi* e la licenza applicabili; il documento composto non deve adottare per questo la stessa licenza. Registrare questi dati insieme agli asset permette di riprodurre le scelte e di aggiornare il progetto senza sostituzioni casuali. Il font diventa così una parte documentata del lavoro, al pari delle immagini e dei testi. Il campione della @fig-tipo-280-licenza conserva i contorni della risorsa documentata @t06-ofl2007.#sito([SIL International, Open Font License 1.1, 2007.], "https://openfontlicense.org/open-font-license-official-text/")
 
-#immagine(path("/risorse-condivise/immagini/figure/tipografia/font/eb-garamond-regular-aag.svg"),
-  [EB Garamond Regular: Aag, corpo 36. Contorni autentici.],
-  diritti: [Georg Duffner e Octavio Pardo; SIL OFL 1.1.],
-  alt: "EB Garamond Regular: Aag, corpo 36. Contorni autentici.",
-  width: 137mm, placement: top, scope: "parent",
+// La finestra elimina soltanto il bianco a destra: il corpo 36 resta alla scala originale.
+#figure(
+  dettaglio(path("/risorse-condivise/immagini/figure/tipografia/font/eb-garamond-regular-aag.svg"),
+    width: colonna, height: gabbia * 70 / 389,
+    originale-width: gabbia, originale-height: gabbia * 70 / 389,
+    alt: "EB Garamond Regular: Aag, corpo 36. Contorni autentici."),
+  kind: image, placement: top, scope: "column",
+  caption: contenuto-didascalia([EB Garamond Regular: Aag, corpo 36. Contorni autentici.],
+    diritti: [Georg Duffner e Octavio Pardo; SIL OFL 1.1.]),
 ) <fig-tipo-280-licenza>
 
 
@@ -1142,7 +1159,7 @@ Il tipografo e critico _Maximilien Vox_ propose nel 1954 una lettura più artico
 
 Non costituiscono però una tassonomia universale condivisa da tutte le culture. Nel 2021 ATypI *ha ritirato il proprio sostegno* al sistema Vox-ATypI, sottolineandone l’insufficienza rispetto alla diversità delle scritture del mondo. Conoscere una classificazione storica significa quindi comprenderne anche il punto di vista. La presentiamo come *strumento situato*: aiuta a riconoscere una tradizione, mentre altri repertori e progetti contemporanei richiedono criteri ulteriori. Le tavole @fig-tipo-291a, @fig-tipo-291b e @fig-tipo-291c offrono applicazioni contemporanee dei tre sistemi @t06-atypi2021.#sito([ATypI, ritiro del sostegno alla classificazione Vox-ATypI, 2021.], "https://atypi.org/2021/04/27/atypi-de-adopted-the-vox-atypi-typeface-classification-system/")
 
-#tavola-documentaria[
+#confronto[
 #figure([
 #text(size: 14pt, weight: 900)[_Thibaudeau_ · quattro gruppi principali]
 #v(8pt)
@@ -1154,8 +1171,9 @@ Non costituiscono però una tassonomia universale condivisa da tutte le culture.
 ))
 ], kind: image, caption: [Applicazioni didattiche contemporanee, non esemplari scelti da _Thibaudeau_. Le scritture e le fantasie aggiuntive sono illustrate da Brush Script MT e da New Alphabet nella @fig-tipo-291c.
   #v(4pt)#testo-diritti[Versioni digitali: EB Garamond (SIL OFL 1.1) e font macOS.]]) <fig-tipo-291a>
+]
 
-#v(14pt)
+#confronto[
 #figure([
 #text(size: 14pt, weight: 900)[_Vox_ · nove classi originarie]
 #v(8pt)
@@ -1178,7 +1196,6 @@ Non costituiscono però una tassonomia universale condivisa da tutte le culture.
 ))
 ], kind: image, caption: [Esempi morfologici: le edizioni digitali non sono originali del 1954. _Jenson_: ritaglio della @fig-tipo-jenson. Copperplate e Bradley Hand illustrano, senza equivalenze rigide, origine incisoria e gesto manuale.
   #v(4pt)#testo-diritti[Foto Atalanta/WeiaR, CC BY-SA 4.0. Font macOS; EB Garamond: SIL OFL 1.1. Sistema: ATypI, 2021.]]) <fig-tipo-291b>
-
 ]
 
 #confronto[
@@ -1235,9 +1252,9 @@ Il nome *didoni* unisce i nomi _Didot_ e _Bodoni_, due riferimenti di questa tra
 
 La parola “moderno”, usata storicamente per questi disegni, può ingannare se la si confonde con “disegnato oggi”. Descrive una posizione nella storia del carattere latino. Un didone può essere contemporaneo per data e impiego, oppure una digitalizzazione di un modello precedente. Il campione non va giudicato per la sola etichetta: osserviamo quanto siano sottili i filetti, come terminino le curve e quali dimensioni rendano effettivamente percepibile il disegno. Il confronto chiarisce differenze morfologiche, senza stabilire una graduatoria fra antico e moderno.
 
-Times New Roman collega la tradizione serif a un programma di economia e lettura nel giornale. Comparve nel Times di Londra nel 1932, attraverso i disegni di _Victor Lardent_, grafico del Times, sotto la direzione di _Stanley Morison_, consulente tipografico di Monotype, e la successiva elaborazione della fonderia. Le sue forme compatte conservano riferimenti oldstyle pur rispondendo a esigenze differenti. La diffusione successiva non lo rende automaticamente “neutro”, scadente o inadatto ai libri: un giudizio sul suo impiego deve considerare testo, versione e contesto, anziché trasformare la familiarità del nome in un difetto del disegno @t06-times.#sito([Microsoft Typography, Times New Roman.], "https://learn.microsoft.com/en-us/typography/font-list/times-new-roman")
+Times New Roman collega la tradizione serif a un programma di economia e lettura nel giornale. Comparve nel Times di Londra nel 1932, attraverso i disegni di _Victor Lardent_, grafico del Times, sotto la direzione di _Stanley Morison_, consulente tipografico di Monotype, e la successiva elaborazione della fonderia. Le sue forme compatte conservano riferimenti oldstyle pur rispondendo a esigenze differenti. La diffusione successiva non lo rende automaticamente “neutro”, scadente o inadatto ai libri: un giudizio sul suo impiego deve considerare testo, versione e contesto, anziché trasformare la familiarità del nome in un difetto del disegno.#sito([Microsoft Typography, Times New Roman.], "https://learn.microsoft.com/en-us/typography/font-list/times-new-roman")
 
-Georgia offre un confronto utile. Negli anni Novanta il progettista britannico _Matthew Carter_ riprese elementi dello Scotch Roman, aumentando l’altezza delle minuscole, alleggerendo le capitali e mantenendo le ascendenti sopra di esse per affrontare la resa sullo schermo. Le cifre non allineate e il corsivo, con forme proprie di a e g, contribuiscono alla sua identità. Non è quindi un Times New Roman ingrandito: *redistribuisce le relazioni fra le parti* della lettera. Le origini per lo schermo spiegano alcune scelte, senza limitarne l’uso al digitale o garantire lo stesso risultato su ogni dispositivo. Il confronto della @fig-tipo-292a mostra i due disegni digitali allo stesso corpo @t06-georgia.#sito([Microsoft Typography, Georgia.], "https://learn.microsoft.com/en-us/typography/font-list/georgia")
+Georgia offre un confronto utile. Negli anni Novanta il progettista britannico _Matthew Carter_ riprese elementi dello Scotch Roman, aumentando l’altezza delle minuscole, alleggerendo le capitali e mantenendo le ascendenti sopra di esse per affrontare la resa sullo schermo. Le cifre non allineate e il corsivo, con forme proprie di a e g, contribuiscono alla sua identità. Non è quindi un Times New Roman ingrandito: *redistribuisce le relazioni fra le parti* della lettera. Le origini per lo schermo spiegano alcune scelte, senza limitarne l’uso al digitale o garantire lo stesso risultato su ogni dispositivo. Il confronto della @fig-tipo-292a mostra i due disegni digitali allo stesso corpo.#sito([Microsoft Typography, Georgia.], "https://learn.microsoft.com/en-us/typography/font-list/georgia")
 
 #immagine(path("/risorse-condivise/immagini/figure/tipografia/classificazioni/times-new-roman-georgia-aag.svg"),
   [Times New Roman Regular e Georgia Regular, corpo 36. Contorni delle versioni digitali, distinti dai campioni storici.],
@@ -1271,11 +1288,11 @@ I sans umanistici conservano in modo più esplicito una relazione con il gesto s
 
 Per riconoscere le differenze, osserviamo a e g, la curva della o, il braccio della r e le aperture di c ed e. Sono indizi da collegare, senza ridurre un carattere a una sola lettera. Alcune famiglie contemporanee uniscono scheletro geometrico e terminali umanistici oppure sviluppano varianti diverse entro un programma comune. Il sans serif non porta dunque con sé una personalità neutra o una superiorità tecnica automatica: la scelta dipende dal disegno specifico e dal rapporto che costruisce con parole, destinatari e contesto (@fig-tipo-293).
 
-Futura, Franklin Gothic e Helvetica occupano posizioni differenti in quest’area. Nel Futura di _Paul Renner_ le forme geometriche convivono con *proporzioni classiche delle capitali* e correzioni ottiche: la costruzione circolare non esaurisce il disegno. Franklin Gothic, legato a _Morris Fuller Benton_, progettista della fonderia American Type Founders, e alla tradizione americana, conserva invece una modulazione più riconoscibile dei tratti. Le successive riedizioni ITC ne ampliano pesi e repertorio e modificano alcuni rapporti, fra cui l’altezza delle minuscole. Helvetica rappresenta un altro sviluppo: compattezza e continuità del ritmo si accompagnano a soluzioni specifiche, osservabili nella a e nella g a due occhi. Non significa che il suo alfabeto usi soltanto orizzontali e verticali: lettere come A, K, N e V mantengono diagonali evidenti. Anche le versioni denominate Helvetica vanno distinte: Helvetica Now, per esempio, articola il progetto in *dimensioni ottiche Micro, Text e Display* @t06-franklin.#sito([Microsoft Typography, Franklin Gothic.], "https://learn.microsoft.com/en-us/typography/font-list/franklin-gothic")
+Futura, Franklin Gothic e Helvetica occupano posizioni differenti in quest’area. Nel Futura di _Paul Renner_ le forme geometriche convivono con *proporzioni classiche delle capitali* e correzioni ottiche: la costruzione circolare non esaurisce il disegno. Franklin Gothic, legato a _Morris Fuller Benton_, progettista della fonderia American Type Founders, e alla tradizione americana, conserva invece una modulazione più riconoscibile dei tratti. Le successive riedizioni ITC ne ampliano pesi e repertorio e modificano alcuni rapporti, fra cui l’altezza delle minuscole. Helvetica rappresenta un altro sviluppo: compattezza e continuità del ritmo si accompagnano a soluzioni specifiche, osservabili nella a e nella g a due occhi. Non significa che il suo alfabeto usi soltanto orizzontali e verticali: lettere come A, K, N e V mantengono diagonali evidenti. Anche le versioni denominate Helvetica vanno distinte: Helvetica Now, per esempio, articola il progetto in *dimensioni ottiche Micro, Text e Display*.#sito([Microsoft Typography, Franklin Gothic.], "https://learn.microsoft.com/en-us/typography/font-list/franklin-gothic")
 
-I caratteri Johnston e Gill Sans mostrano un’altra via alla costruzione del sans. Johnston, disegnato dal calligrafo britannico _Edward Johnston_ e introdotto nella rete londinese nel 1916, appartiene a un programma di riconoscibilità della segnaletica; Gill Sans, disegnato da _Eric Gill_ e pubblicato da Monotype dal 1928, sviluppa una propria interpretazione umanistica. Nelle forme di Gill Sans sono particolarmente riconoscibili la g a due occhi e la gamba espansa della R. La relazione storica fra i due caratteri non li rende identici, né consente di attribuire a Gill Sans la commissione originaria per la metropolitana. Il confronto mostra come proporzioni e memoria del gesto possano caratterizzare un alfabeto anche quando le grazie sono assenti @t06-gill.#nota-compatta([Monotype, Gill Sans; TfL, The lettering of London, Johnston (1916).], ("https://www.myfonts.com/collections/gill-sans-font-monotype-imaging/", "https://tfl.gov.uk/info-for/media/press-releases/2016/november/-tfl-partners-with-two-global-brands-to-bring-the-lettering-of-london-to-life"))
+I caratteri Johnston e Gill Sans mostrano un’altra via alla costruzione del sans. Johnston, disegnato dal calligrafo britannico _Edward Johnston_ e introdotto nella rete londinese nel 1916, appartiene a un programma di riconoscibilità della segnaletica; Gill Sans, disegnato da _Eric Gill_ e pubblicato da Monotype dal 1928, sviluppa una propria interpretazione umanistica. Nelle forme di Gill Sans sono particolarmente riconoscibili la g a due occhi e la gamba espansa della R. La relazione storica fra i due caratteri non li rende identici, né consente di attribuire a Gill Sans la commissione originaria per la metropolitana. Il confronto mostra come proporzioni e memoria del gesto possano caratterizzare un alfabeto anche quando le grazie sono assenti.#nota-compatta([Monotype, Gill Sans; TfL, The lettering of London, Johnston (1916).], ("https://www.myfonts.com/collections/gill-sans-font-monotype-imaging/", "https://tfl.gov.uk/info-for/media/press-releases/2016/november/-tfl-partners-with-two-global-brands-to-bring-the-lettering-of-london-to-life"))
 
-Verdana, infine, rende visibile il ruolo del mezzo nel dettaglio di un sans. _Carter_ ne disegnò forme e spaziature generose per le condizioni dei piccoli testi sullo schermo, mentre _Tom Rickner_, specialista della resa digitale dei font, curò l’hinting. *Lettere facilmente confondibili*, come I, l e la cifra 1, furono differenziate con particolare attenzione. L’ampiezza non è un ingombro da correggere comprimendo il font, ma parte di quell’equilibrio. Il progetto non dimostra però che una famiglia nata per lo schermo sia inutilizzabile sulla carta, né che ogni sans raggiunga la stessa distinguibilità: la prova va riferita a quei segni, alle condizioni di resa e al compito di lettura @t06-verdana.#sito([Microsoft Typography, Verdana.], "https://learn.microsoft.com/en-us/typography/font-list/verdana")
+Verdana, infine, rende visibile il ruolo del mezzo nel dettaglio di un sans. _Carter_ ne disegnò forme e spaziature generose per le condizioni dei piccoli testi sullo schermo, mentre _Tom Rickner_, specialista della resa digitale dei font, curò l’hinting. *Lettere facilmente confondibili*, come I, l e la cifra 1, furono differenziate con particolare attenzione. L’ampiezza non è un ingombro da correggere comprimendo il font, ma parte di quell’equilibrio. Il progetto non dimostra però che una famiglia nata per lo schermo sia inutilizzabile sulla carta, né che ogni sans raggiunga la stessa distinguibilità: la prova va riferita a quei segni, alle condizioni di resa e al compito di lettura.#sito([Microsoft Typography, Verdana.], "https://learn.microsoft.com/en-us/typography/font-list/verdana")
 
 #confronto[
 #figure([
@@ -1520,7 +1537,7 @@ Il confronto della frase «I will always find you» rende immediato questo passa
 #immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/marchi/stessa-frase-due-registri-lettering.png"),
   [La stessa frase, «I will always find you», assume toni diversi con forme tonde e segni angolosi. Il confronto va interpretato nel contesto, insieme a dimensione, spazi e supporto.],
   alt: "La stessa frase, «I will always find you», assume toni diversi con forme tonde e segni angolosi. Il confronto va interpretato nel contesto, insieme a dimensione, spazi e supporto.",
-  width: 137mm, placement: top, scope: "parent",
+  width: 100%, placement: top, scope: "column",
 ) <fig-tipo-304>
 
 #[
@@ -1572,7 +1589,7 @@ Tiffany & Co. permette di distinguere la scelta di un modello tipografico dalla 
   #v(4pt)#testo-diritti[Paula Scher / Pentagram per Tiffany & Co.]
 ]) <fig-tipo-306a>
 
-Pentagram documenta anche la riduzione della scritta sulle confezioni e il ricorso alla stampa a caldo. Qui il disegno del segno e il *procedimento di riproduzione* si incontrano: un tratto sottile può apparire diverso se stampato con inchiostro, impresso o visualizzato a schermo @t06-tiffany.#sito([Pentagram, Tiffany & Co.; progetto diretto da _Paula Scher_.], "https://www.pentagram.com/work/tiffany-co")
+Pentagram documenta anche la riduzione della scritta sulle confezioni e il ricorso alla stampa a caldo. Qui il disegno del segno e il *procedimento di riproduzione* si incontrano: un tratto sottile può apparire diverso se stampato con inchiostro, impresso o visualizzato a schermo.#sito([Pentagram, Tiffany & Co.; progetto diretto da _Paula Scher_.], "https://www.pentagram.com/work/tiffany-co")
 
 La testata _Vogue_ offre un confronto utile (@fig-tipo-306b). Le maiuscole con forte *contrasto fra aste e filetti* appartengono a una tradizione tipografica riconoscibile nell’editoria di moda. Conviene analizzare la specifica testata riprodotta, anziché affermare che tutte le edizioni e tutti i periodi abbiano impiegato invariabilmente lo stesso font. La continuità che percepiamo dipende da lettere particolari e dalla loro ripetizione, oltre che dalla cultura editoriale in cui le abbiamo incontrate.#sito([Vogue, testata e sito della rivista.], "https://www.vogue.com/")
 
@@ -1596,7 +1613,7 @@ Una scritta senza grazie può presentare *geometrie molto diverse*. La documenta
 
 La sequenza storica interessa qui per il passaggio fra disegni tipografici. Non ogni variante del marchio coincide con un font impiegato senza modifiche, e una somiglianza non permette di ricostruire il lavoro sul segno. Anche quando la fonte dichiara una famiglia, lo spazio fra le lettere e le eventuali *correzioni del logotipo* vanno osservati nell’esecutivo. Il disegno registrato è il documento da confrontare.
 
-Nel nome Diadora (@fig-tipo-307b) con lettere estese e squadrate notiamo invece un altro modo di costruire la geometria. Le curve si raccordano a lati quasi rettilinei; l’espansione orizzontale conferisce un andamento largo, mentre gli angoli ammorbidiscono la chiusura delle forme. L’accostamento con uno specimen Eurostile aiuta a riconoscere questa famiglia di soluzioni, ma non autorizza a dichiarare identico ogni contorno del marchio.  Perciò descriviamo il lettering senza trasformare l’identificazione proposta da fonti secondarie in una certezza di produzione. I campioni della @fig-tipo-eurostile-microgramma distinguono il documento storico e la versione digitale. Eurostile costituisce comunque un riferimento storico pertinente. _Aldo Novarese_ lo sviluppò per Nebiolo nel 1962, ampliando il precedente Microgramma con le minuscole @t06-eurostile.#sito([Archivio Tipografico, Eurostile: Nebiolo, _Aldo Novarese_, 1962.], "https://archiviotipografico.it/en/collections/movable-type/eurostile/") Il campione completo nella @fig-tipo-microgramma-documento documenta invece la versione digitale di Microgramma pubblicata da URW @t06-microgramma-urw.#sito([URW Type Foundry, Microgramma: scheda della famiglia digitale su MyFonts.], "https://www.myfonts.com/collections/microgramma-font-urw/") Il caso permette di mettere in relazione la cultura delle forme squadrate con una soluzione concreta, mantenendo separati il *carattere* documentato e l’applicazione *da verificare*. Nel progetto questa distinzione è pratica: partire da una famiglia e intervenire sul nome può generare un logotipo nuovo, che conserva *una parentela formale* senza coincidere con la semplice composizione del font.
+Nel nome Diadora (@fig-tipo-307b) con lettere estese e squadrate notiamo invece un altro modo di costruire la geometria. Le curve si raccordano a lati quasi rettilinei; l’espansione orizzontale conferisce un andamento largo, mentre gli angoli ammorbidiscono la chiusura delle forme. L’accostamento con uno specimen Eurostile aiuta a riconoscere questa famiglia di soluzioni, ma non autorizza a dichiarare identico ogni contorno del marchio.  Perciò descriviamo il lettering senza trasformare l’identificazione proposta da fonti secondarie in una certezza di produzione. I campioni della @fig-tipo-eurostile-microgramma distinguono il documento storico e la versione digitale. Eurostile costituisce comunque un riferimento storico pertinente. _Aldo Novarese_ lo sviluppò per Nebiolo nel 1962, ampliando il precedente Microgramma con le minuscole.#sito([Archivio Tipografico, Eurostile: Nebiolo, _Aldo Novarese_, 1962.], "https://archiviotipografico.it/en/collections/movable-type/eurostile/") Il campione completo nella @fig-tipo-microgramma-documento documenta invece la versione digitale di Microgramma pubblicata da URW.#sito([URW Type Foundry, Microgramma: scheda della famiglia digitale su MyFonts.], "https://www.myfonts.com/collections/microgramma-font-urw/") Il caso permette di mettere in relazione la cultura delle forme squadrate con una soluzione concreta, mantenendo separati il *carattere* documentato e l’applicazione *da verificare*. Nel progetto questa distinzione è pratica: partire da una famiglia e intervenire sul nome può generare un logotipo nuovo, che conserva *una parentela formale* senza coincidere con la semplice composizione del font.
 
 #immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/marchi/diadora-logotipo-squadrato.png"),
   [Diadora: lettere estese e squadrate.],
@@ -1633,10 +1650,10 @@ Nel nome Diadora (@fig-tipo-307b) con lettere estese e squadrate notiamo invece 
 #import "../template/documenti.typ": tavola-documentaria
 #import "../template/campioni.typ": campione
 
-// Il documento completo conserva il contesto del dettaglio precedente e occupa
-// il foglio che serve ad allineare la doppia pagina seguente. Nessuna prosa divisa.
-#tavola-documentaria(fissa: true)[
-    #immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/marchi/eurostile-campionario-nebiolo.png"),
+// Il documento completo conserva il contesto del dettaglio precedente nel flusso.
+// La doppia pagina seguente gestisce autonomamente la propria parità.
+#confronto[
+#immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/marchi/eurostile-campionario-nebiolo.png"),
       [Eurostile: il campionario Nebiolo completo permette di osservare il rapporto fra le varianti. Il dettaglio «Incomunicabili» è mostrato nella @fig-tipo-eurostile-microgramma.],
       diritti: [Nebiolo; riproduzione Archivio Tipografico.],
       alt: "Due pagine del campionario storico Eurostile, con parole, corpi e larghezze differenti.",
@@ -1647,12 +1664,12 @@ Nel nome Diadora (@fig-tipo-307b) con lettere estese e squadrate notiamo invece 
 
 // La vista completa dà contesto al ritaglio CARGO già usato nel confronto.
 // È uno specimen digitale promozionale: non un documento stampato nel 1952.
-#tavola-documentaria(fissa: true)[
-  #immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/marchi/microgramma-urw-specimen-digitale.png"),
+#confronto(colonne: 1)[
+#immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/marchi/microgramma-urw-specimen-digitale.png"),
     [Microgramma: specimen digitale promozionale URW/MyFonts. La scritta «CARGO» ingrandita nella @fig-tipo-eurostile-microgramma appartiene a questa composizione contemporanea; la data 1952 nell’immagine richiama l’origine del carattere.],
     diritti: [URW Type Foundry / MyFonts.],
     alt: "Specimen digitale URW Microgramma: nome del carattere e autori sopra un camion con la scritta CARGO COMPANY.",
-    width: 137mm,
+    width: 100%,
   ) <fig-tipo-microgramma-documento>
 ]
 
@@ -1670,7 +1687,7 @@ Nel nome Diadora (@fig-tipo-307b) con lettere estese e squadrate notiamo invece 
 )[
 === La tipografia di Langosteria
 
-Nel progetto di CBA per Langosteria il carattere dei titoli si riconosce per le *proporzioni slanciate e l’alto contrasto* fra tratti. Le aste sottili e le parti più piene costruiscono una presenza incisiva senza ricorrere necessariamente a un peso massiccio. I campioni documentari consentono di osservare come i segni vengano accostati per formare il nome e come il ritmo delle lettere ritorni nelle titolazioni (dalla @fig-tipo-308a alla @fig-tipo-308d). La fonte del progetto descrive questi aspetti senza identificare un particolare file Bodoni. È quindi più corretto riconoscere una parentela con i serif ad alto contrasto che attribuire alla famiglia storica qualsiasi scritta dalla forma simile. «Bodoni» comprende inoltre interpretazioni differenti: per usare il nome come identificazione tecnica servirebbero la versione, la fonderia e il riscontro dei contorni. Qui la descrizione delle lettere fornisce già gli strumenti necessari per discutere la scelta. Nel menu documentato dalla @fig-tipo-309, «COCKTAILS» è in maiuscolo con grazie; i nomi dei cocktail sono senza grazie e più pesanti delle descrizioni e dei prezzi. Il carattere distintivo del titolo può restare concentrato nelle poche parole a cui è affidata l’espressione della marca; un testo più fitto richiede invece di controllare il peso, i dettagli e la spaziatura nella misura di lettura. Le immagini documentano un uso concreto: non sono una prova di superiorità di quel serif su tutte le altre soluzioni @t06-langosteria.#sito([CBA Design, Langosteria: ritmo, ricerca e gusto.], "https://cba-design.com/italy/work/langosteria-rebranding/")
+Nel progetto di CBA per Langosteria il carattere dei titoli si riconosce per le *proporzioni slanciate e l’alto contrasto* fra tratti. Le aste sottili e le parti più piene costruiscono una presenza incisiva senza ricorrere necessariamente a un peso massiccio. I campioni documentari consentono di osservare come i segni vengano accostati per formare il nome e come il ritmo delle lettere ritorni nelle titolazioni (dalla @fig-tipo-308a alla @fig-tipo-308d). La fonte del progetto descrive questi aspetti senza identificare un particolare file Bodoni. È quindi più corretto riconoscere una parentela con i serif ad alto contrasto che attribuire alla famiglia storica qualsiasi scritta dalla forma simile. «Bodoni» comprende inoltre interpretazioni differenti: per usare il nome come identificazione tecnica servirebbero la versione, la fonderia e il riscontro dei contorni. Qui la descrizione delle lettere fornisce già gli strumenti necessari per discutere la scelta. Nel menu documentato dalla @fig-tipo-309, «COCKTAILS» è in maiuscolo con grazie; i nomi dei cocktail sono senza grazie e più pesanti delle descrizioni e dei prezzi. Il carattere distintivo del titolo può restare concentrato nelle poche parole a cui è affidata l’espressione della marca; un testo più fitto richiede invece di controllare il peso, i dettagli e la spaziatura nella misura di lettura. Le immagini documentano un uso concreto: non sono una prova di superiorità di quel serif su tutte le altre soluzioni.#sito([CBA Design, Langosteria: ritmo, ricerca e gusto.], "https://cba-design.com/italy/work/langosteria-rebranding/")
 
 Il rapporto fra identità e *testo variabile* emerge quando immaginiamo di sostituire una voce corta con un nome lungo, ricco di accenti o di consonanti consecutive. La personalità deve sopravvivere senza ricorrere a deformazioni geometriche o a spaziature arbitrarie. Studiare il caso significa perciò seguire ciò che rimane *riconoscibile attraverso parole diverse*: contrasto, proporzioni e trattamento dei segni. Le scelte di gabbia e l’organizzazione generale del menu appartengono all’impaginazione; qui ci interessa il comportamento della voce tipografica.
 
@@ -1678,25 +1695,28 @@ Il rapporto fra identità e *testo variabile* emerge quando immaginiamo di sosti
 
 // Meander divide soltanto la prosa: le figure numerate restano nel flusso nativo.
 // I dettagli condividono una fascia grafica; caption e diritti crescono col testo.
-#tavola-documentaria[
-  #grid(columns: (1fr, 1fr), column-gutter: 5mm,
-    [#campione(fascia: 106pt,
+#confronto(colonne: 1)[
+#campione(fascia: 106pt,
       didascalia: [Langosteria: nel monogramma L si distinguono tratti sottili e spessi.],
       diritti: [CBA Design per Langosteria.],
     )[
       #image(path("/risorse-condivise/immagini/figure/tipografia/esempi/marchi/langosteria-monogramma-l.png"),
         width: 106pt, alt: "Langosteria: monogramma L con contrasto fra tratti sottili e spessi.")
-    ] <fig-tipo-308b>],
-    [#campione(fascia: 106pt,
+    ] <fig-tipo-308b>
+]
+
+#confronto(colonne: 1)[
+#campione(fascia: 106pt,
       didascalia: [Langosteria: contrasto dei tratti e accostamento ravvicinato di L e A nel logotipo.],
       diritti: [CBA Design per Langosteria.],
     )[
       #image(path("/risorse-condivise/immagini/figure/tipografia/esempi/marchi/langosteria-logotipo-la.png"),
         width: 187.09pt, alt: "Langosteria: accostamento ravvicinato di L e A nel logotipo.")
-    ] <fig-tipo-308c>],
-  )
-  #v(16pt)
-  #immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/marchi/langosteria-campione-tipografico-cba.png"),
+    ] <fig-tipo-308c>
+]
+
+#confronto[
+#immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/marchi/langosteria-campione-tipografico-cba.png"),
     [Langosteria, campione CBA: proporzioni slanciate e tratti ad alto contrasto.],
     diritti: [Identità CBA Design; illustrazioni Elisa Macellari.],
     alt: "Langosteria, campione CBA: proporzioni slanciate e tratti ad alto contrasto.",
@@ -1704,7 +1724,7 @@ Il rapporto fra identità e *testo variabile* emerge quando immaginiamo di sosti
   ) <fig-tipo-308d>
 ]
 
-#tavola-documentaria[
+#confronto[
 #immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/marchi/langosteria-menu-cocktail-cba.jpg"),
   [Menu Langosteria: titoli, nomi dei cocktail e ingredienti cambiano cassa e peso.],
   diritti: [CBA Design; illustrazioni Elisa Macellari.],
@@ -1724,7 +1744,7 @@ Il rapporto fra identità e *testo variabile* emerge quando immaginiamo di sosti
 
 La segnaletica pone una domanda diversa rispetto a un logotipo: quanto rapidamente si riesce a *riconoscere la parola* nella situazione prevista? Un’indicazione viene incontrata a una certa distanza, da un punto di vista variabile e spesso durante uno spostamento. L’occhio non dispone del tempo e della posizione stabile di una lettura al tavolo. Le differenze fra segni simili, le aperture e la distribuzione dei pieni diventano perciò problemi concreti di disegno.
 
-Il disegnatore di caratteri svizzero _Adrian Frutiger_ sviluppò per l’aeroporto di Roissy un carattere destinato a questo impiego. Il Museum für Gestaltung Zürich conserva le prove realizzate dall’Atelier Frutiger + Pfäffli fra il 1970 e il 1972. Nella parola «Douane» si confrontano tre soluzioni: la figura documenta un *prototipo di studio*, non un cartello già installato (@fig-tipo-310). Questa distinzione restituisce al documento la sua funzione: mostrare che il carattere veniva valutato attraverso prove della *parola completa* @t06-roissy.#sito([Museum für Gestaltung Zürich, Typeface design Douane, 1970–1972.], "https://old.eguide.ch/en/objekt/1879/")
+Il disegnatore di caratteri svizzero _Adrian Frutiger_ sviluppò per l’aeroporto di Roissy un carattere destinato a questo impiego. Il Museum für Gestaltung Zürich conserva le prove realizzate dall’Atelier Frutiger + Pfäffli fra il 1970 e il 1972. Nella parola «Douane» si confrontano tre soluzioni: la figura documenta un *prototipo di studio*, non un cartello già installato (@fig-tipo-310). Questa distinzione restituisce al documento la sua funzione: mostrare che il carattere veniva valutato attraverso prove della *parola completa*.#sito([Museum für Gestaltung Zürich, Typeface design Douane, 1970–1972.], "https://old.eguide.ch/en/objekt/1879/")
 
 #immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/segnaletica/frutiger-douane-prototipi-roissy-1970-1972.jpg"),
   [«Douane»: tre varianti del prototipo Roissy, 1970–1972. Il confronto riguarda forme e spazi della stessa parola.],
@@ -1748,7 +1768,7 @@ Il successivo impiego di Frutiger in altri contesti non rende automaticamente in
 
 Helvetica e Futura vengono spesso riunite sotto l’etichetta di caratteri moderni. Il confronto delle loro lettere (@fig-tipo-311a, @fig-tipo-311b, @fig-tipo-311c e @fig-tipo-311d-confronto) mostra però che l’assenza delle grazie non determina una sola voce. La struttura geometrica di Futura privilegia cerchi, linee e proporzioni essenziali, mentre il disegno di Helvetica produce un ritmo più vicino alla tradizione delle grottesche. Osservare la a, la G, la t e le aperture aiuta a rendere precisa una differenza che l’aggettivo «pulito» lascia indistinta.
 
-_Paul Renner_ progettò Futura per la fonderia Bauer; la famiglia fu presentata nel 1927 @t06-futura.#nota-compatta([Monotype, Die Futura des Jahrhunderts: disegno del 1927 e successivo Futura Now.], "https://www.monotype.com/de/ressourcen/expertise/die-futura-des-jahrhunderts") La geometria visibile non significa che ogni lettera sia il risultato meccanico di un cerchio e di un righello: *correzioni e proporzioni ottiche* permettono ai segni di convivere nella parola. Helvetica nacque invece dal lavoro di _Max Miedinger_, _Eduard Hoffmann_ e della fonderia Haas @t06-helvetica. Il progetto è stato ampliato e reinterpretato, perciò i nomi Helvetica, Neue Helvetica e Helvetica Now non designano file identici @t06-helvetica-now.#nota-compatta([Monotype, Helvetica Now: famiglia e comunicato del 9 aprile 2019.], ("https://www.monotype.com/fonts/helvetica-now", "https://www.monotype.com/press-releases/monotype-introduces-helvetica-now-reinvented-to-meet-the-typographical-demands-of-today-s-creative-professionals"))
+_Paul Renner_ progettò Futura per la fonderia Bauer; la famiglia fu presentata nel 1927 @t06-futura.#nota-compatta([Monotype, Die Futura des Jahrhunderts: disegno del 1927 e successivo Futura Now.], "https://www.monotype.com/de/ressourcen/expertise/die-futura-des-jahrhunderts") La geometria visibile non significa che ogni lettera sia il risultato meccanico di un cerchio e di un righello: *correzioni e proporzioni ottiche* permettono ai segni di convivere nella parola. Helvetica nacque invece dal lavoro di _Max Miedinger_, _Eduard Hoffmann_ e della fonderia Haas @t06-helvetica. Il progetto è stato ampliato e reinterpretato, perciò i nomi Helvetica, Neue Helvetica e Helvetica Now non designano file identici.#nota-compatta([Monotype, Helvetica Now: famiglia e comunicato del 9 aprile 2019.], ("https://www.monotype.com/fonts/helvetica-now", "https://www.monotype.com/press-releases/monotype-introduces-helvetica-now-reinvented-to-meet-the-typographical-demands-of-today-s-creative-professionals"))
 
 // Quattro visuali autentiche: i primi due glifi condividono il corpo 36;
 // i ritagli editoriali di App e Fru sono identificati come esempi differenti.
@@ -1771,22 +1791,20 @@ La diffusione di queste famiglie ha favorito associazioni con istituzioni, impre
 
 Un confronto efficace *mantiene costanti parole, dimensione e colore*, poi esamina l’ingombro effettivo e il disegno dei segni. La parità del corpo nominale non garantisce la stessa dimensione percepita: bisogna osservare l’altezza delle minuscole e l’area occupata. Questo è il passaggio che rende utili i casi celebri al progetto quotidiano. Non scegliamo una reputazione astratta, ma una *versione concreta di una famiglia*, verificata sulle parole che dovrà comporre. Si vedano anche i campioni della @fig-tipo-sans-varianti.
 
-#confronto[
-  #grid(columns: (1fr, 1fr), gutter: 5mm,
-[#immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/editoria/futura-specimen-storico-pesi-e-corpi.png"),
+#immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/editoria/futura-specimen-storico-pesi-e-corpi.png"),
   [Futura: pagina di uno specimen storico, con diversi pesi e corpi.],
   diritti: [Paul Renner, Futura; documento riprodotto da Monotype.],
   alt: "Futura: pagina di uno specimen storico, con diversi pesi e corpi.",
 ) <fig-tipo-311a>
-],
-[#immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/editoria/futura-copertina-specimen-storico.png"),
-  [Futura: copertina storica, maiuscole spaziate.],
+
+#figura-nel-testo(
+  id: "fig-tipo-311b", file: path("/risorse-condivise/immagini/figure/tipografia/esempi/editoria/futura-copertina-specimen-storico.png"),
+  didascalia: [Futura: copertina storica, maiuscole spaziate.],
   diritti: [Paul Renner, Futura; documento riprodotto da Monotype.],
   alt: "Futura: copertina storica, maiuscole spaziate.",
-) <fig-tipo-311b>
-],
-  )
-]
+  rapporto: 600 / 878,
+  colonne: 1,
+)
 
 #immagine(path("/risorse-condivise/immagini/figure/tipografia/classificazioni/helvetica-now-specimen-ufficiale.png"),
   [Helvetica Now: pesi diversi in uso.], diritti: [Monotype.],
@@ -1804,7 +1822,7 @@ Un confronto efficace *mantiene costanti parole, dimensione e colore*, poi esami
 
 Il passaggio dalla famiglia Futura impiegata nella comunicazione IKEA a Verdana è un esempio utile per discutere la *continuità tipografica*. Le differenze non consistono semplicemente nell’eliminare le grazie, perché entrambe le famiglie sono senza grazie. Cambiano invece le proporzioni, l’altezza delle minuscole, la forma della a, l’ampiezza degli occhielli e l’ingombro delle parole. Un titolo conosciuto può apparire diverso anche quando contenuto e colore rimangono invariati @t06-carter2013.#sito([MyFonts, Creative Characters: _Matthew Carter_, ottobre 2013.], "https://www.myfonts.com/pages/newsletters-cc-201310")
 
-La scelta di Verdana richiama il problema del rapporto fra carattere e mezzo. La famiglia fu disegnata da _Matthew Carter_ per Microsoft con un’attenzione specifica alla leggibilità sugli schermi a bassa risoluzione. Questa origine non impedisce di usarla sulla carta; invita però a osservare come il suo disegno si comporti in una grande titolazione, dove i particolari e le proporzioni diventano più evidenti. Un carattere progettato per un vincolo tecnico può assumere una presenza espressiva proprio quando viene portato in un altro contesto @t06-verdana.
+La scelta di Verdana richiama il problema del rapporto fra carattere e mezzo. La famiglia fu disegnata da _Matthew Carter_ per Microsoft con un’attenzione specifica alla leggibilità sugli schermi a bassa risoluzione. Questa origine non impedisce di usarla sulla carta; invita però a osservare come il suo disegno si comporti in una grande titolazione, dove i particolari e le proporzioni diventano più evidenti. Un carattere progettato per un vincolo tecnico può assumere una presenza espressiva proprio quando viene portato in un altro contesto.#nota-compatta(text("Verdana font family"), "https://learn.microsoft.com/en-us/typography/font-list/verdana", etichetta: text("learn.microsoft.com/…/verdana"))
 
 È essenziale distinguere il *testo del catalogo dal logotipo* IKEA. Il museo aziendale documenta la storia di quest’ultimo e l’impiego di un disegno interno basato su una Futura molto pesante. Il cambiamento del carattere dei testi non implica che anche le quattro lettere nel marchio siano state ricomposte in Verdana. Per isolare le differenze del disegno, il campione (@fig-tipo-312) confronta le due famiglie autentiche su una frase originale: è una dimostrazione, non una pagina del catalogo @t06-ikea-logo.#sito([IKEA Museum, The history of the IKEA logo.], "https://www.ikeamuseum.com/en/explore/the-story-of-ikea/history-of-the-logotype/")
 
@@ -1815,20 +1833,20 @@ La scelta di Verdana richiama il problema del rapporto fra carattere e mezzo. La
   width: 137mm, placement: top, scope: "parent",
 ) <fig-tipo-312>
 
-Le copertine complete mostrano i due cataloghi svedesi: quello del 2009 (@fig-tipo-312a) @t06-ikea2009 e quello del 2010 (@fig-tipo-312b) @t06-ikea2010.#nota-compatta([IKEA Museum, catalogo svedese 2009. IKEA Museum, catalogo svedese 2010.], ("https://ikeamuseum.com/en/explore/ikea-catalogue/2009-ikea-catalogue/", "https://ikeamuseum.com/en/explore/ikea-catalogue/2010-ikea-catalogue/"))
+Le copertine complete mostrano i due cataloghi svedesi: quello del 2009 (@fig-tipo-312a) e quello del 2010 (@fig-tipo-312b).#nota-compatta([IKEA Museum, catalogo svedese 2009. IKEA Museum, catalogo svedese 2010.], ("https://ikeamuseum.com/en/explore/ikea-catalogue/2009-ikea-catalogue/", "https://ikeamuseum.com/en/explore/ikea-catalogue/2010-ikea-catalogue/"))
 
 // Il caso si conclude prima degli inserti: la prosa resta continua e libera.
 La reazione a un cambiamento familiare *non misura da sola* la facilità di lettura. Può riguardare una perdita di riconoscibilità, un’abitudine o una preferenza. Per valutare una sostituzione servono *domande distinte*: le lettere sono distinguibili, le parole mantengono una presenza adatta al messaggio, le informazioni vengono comprese, la nuova voce resta riconoscibile nel tempo? Il caso IKEA aiuta a formulare queste domande senza ridurre una decisione complessa al giudizio «bello» o «brutto» sul nome di un font.
 
-// Documento autonomo della fonte: una pagina, senza fascia di note.
-#tavola-documentaria[
-  #set par(justify: false, spacing: 6pt)
+// Copertina e dettaglio del titolo restano uniti nel gruppo di colonna.
+#confronto(colonne: 1)[
+#set par(justify: false, spacing: 6pt)
   #text(font: "Sora", weight: 700, size: 20pt)[Il catalogo IKEA 2009]
   #v(8pt)
   #figure([
     #text(size: 10pt, weight: 500)[Copertina · edizione svedese · 2009]
     #v(4pt)
-    #align(center, image(path("/risorse-condivise/immagini/figure/tipografia/esempi/editoria/ikea-catalogo-svedese-2009-copertina.jpg"), width: 319.282pt, height: 380pt, fit: "contain",
+    #align(center, image(path("/risorse-condivise/immagini/figure/tipografia/esempi/editoria/ikea-catalogo-svedese-2009-copertina.jpg"), width: 100%,
       alt: "Copertina integrale del catalogo IKEA 2009, edizione svedese."))
     #v(8pt)
     #text(size: 10pt, weight: 500)[Dettaglio originale · titolo]
@@ -1841,15 +1859,15 @@ La reazione a un cambiamento familiare *non misura da sola* la facilità di lett
   ]) <fig-tipo-312a>
 ]
 
-// Documento autonomo della fonte: una pagina, senza fascia di note.
-#tavola-documentaria[
-  #set par(justify: false, spacing: 6pt)
+// Copertina e dettaglio del titolo restano uniti nel gruppo di colonna.
+#confronto(colonne: 1)[
+#set par(justify: false, spacing: 6pt)
   #text(font: "Sora", weight: 700, size: 20pt)[Il catalogo IKEA 2010]
   #v(8pt)
   #figure([
     #text(size: 10pt, weight: 500)[Copertina · edizione svedese · 2010]
     #v(4pt)
-    #align(center, image(path("/risorse-condivise/immagini/figure/tipografia/esempi/editoria/ikea-catalogo-svedese-2010-copertina.jpg"), width: 329.161pt, height: 380pt, fit: "contain",
+    #align(center, image(path("/risorse-condivise/immagini/figure/tipografia/esempi/editoria/ikea-catalogo-svedese-2010-copertina.jpg"), width: 100%,
       alt: "Copertina integrale del catalogo IKEA 2010, edizione svedese."))
     #v(8pt)
     #text(size: 10pt, weight: 500)[Dettaglio originale · titolo]
@@ -1899,7 +1917,7 @@ La storia tipografica dei sistemi Apple mostra il cambiamento dei vincoli. Nel M
 
 Nei sistemi digitali la tipografia deve affrontare parole brevi, numeri, messaggi lunghi e repertori linguistici differenti. Apple presenta San Francisco come una famiglia progettata per queste condizioni: le forme e la spaziatura si adattano alla *dimensione e al contesto d’uso*. Il progetto non si esaurisce nell’assenza di grazie. Riguarda il rapporto fra disegno, corpo, spazi e funzioni di composizione, compresi dettagli apparentemente minimi come il posizionamento dei due punti quando vengono visualizzati gli orari.
 
-La documentazione distingue SF Pro, SF Compact, SF Mono e i relativi impieghi. SF Compact risponde alle esigenze di spazi ridotti; SF Mono usa larghezze uniformi; altre estensioni rispettano le strutture di sistemi di scrittura diversi. Nel campione ufficiale (@fig-tipo-313), il saluto «hello», ampio e pesante, si confronta con il «ciao» stretto; latino, cirillico, arabo ed ebraico estendono l’osservazione oltre un solo alfabeto @t06-apple-fonts.#nota-compatta([Apple Developer, Fonts: repertori e impieghi dei caratteri di sistema.], ("https://developer.apple.com/fonts/", "https://developer.apple.com/documentation/technologyoverviews/fonts"))
+La documentazione distingue SF Pro, SF Compact, SF Mono e i relativi impieghi. SF Compact risponde alle esigenze di spazi ridotti; SF Mono usa larghezze uniformi; altre estensioni rispettano le strutture di sistemi di scrittura diversi. Nel campione ufficiale (@fig-tipo-313), il saluto «hello», ampio e pesante, si confronta con il «ciao» stretto; latino, cirillico, arabo ed ebraico estendono l’osservazione oltre un solo alfabeto.#nota-compatta([Apple Developer, Fonts: repertori e impieghi dei caratteri di sistema.], ("https://developer.apple.com/fonts/", "https://developer.apple.com/documentation/technologyoverviews/fonts"))
 
 #confronto[
   #figure([
@@ -1963,7 +1981,7 @@ Airbnb presenta Cereal come una famiglia realizzata con Dalton Maag e introdotta
   #v(4pt)#testo-diritti[Airbnb / Dalton Maag.]
 ]) <fig-tipo-cereal-dettaglio>
 
-BBC Reith rende ancora più chiara l’ampiezza del compito. Dalton Maag documenta una suite con serif, sans, condensed e rounded, sviluppata attraverso prove e consultazioni. La presenza di arabo, cirillico e latino mostra che l’identità tipografica non consiste nella ripetizione di un unico alfabeto. I campioni e i fogli annotati permettono di seguire il lavoro sulle lettere, evitando di confondere l’obiettivo dichiarato di leggibilità con una superiorità universale già dimostrata (@fig-tipo-314a, @fig-tipo-314b, @fig-tipo-314c e @fig-tipo-314d) @t06-reith.#sito([Dalton Maag, BBC Reith.], "https://www.daltonmaag.com/portfolio/custom-fonts/bbc-reith.html")
+BBC Reith rende ancora più chiara l’ampiezza del compito. Dalton Maag documenta una suite con serif, sans, condensed e rounded, sviluppata attraverso prove e consultazioni. La presenza di arabo, cirillico e latino mostra che l’identità tipografica non consiste nella ripetizione di un unico alfabeto. I campioni e i fogli annotati permettono di seguire il lavoro sulle lettere, evitando di confondere l’obiettivo dichiarato di leggibilità con una superiorità universale già dimostrata (@fig-tipo-314a, @fig-tipo-314b, @fig-tipo-314c e @fig-tipo-314d).#sito([Dalton Maag, BBC Reith.], "https://www.daltonmaag.com/portfolio/custom-fonts/bbc-reith.html")
 
 #figure([
   #dettaglio(path("/risorse-condivise/immagini/figure/tipografia/esempi/interfacce/bbc-sounds-schermata-documentata.jpg"),
@@ -1997,7 +2015,7 @@ BBC Reith rende ancora più chiara l’ampiezza del compito. Dalton Maag documen
 
 ) <fig-tipo-314d>
 
-Netflix Sans, sviluppato con Dalton Maag e documentato anche dal progettista _Noah Nathan_, aggiunge un altro esempio di famiglia proprietaria. La scelta di commissionare un carattere dipende da controllo della voce, copertura e gestione dell’uso; non autorizza a dedurre qualità dal solo fatto che il disegno sia esclusivo. Nei tre casi il criterio interessante è la continuità fra repertorio *e applicazioni*: quanto bene il sistema conserva differenze utili, regge parole nuove e distingue i segni nelle *dimensioni realmente necessarie* @t06-netflix.#sito([_Noah Nathan_, Netflix Sans.], "https://www.noahnathan.com/netflix-sans")
+Netflix Sans, sviluppato con Dalton Maag e documentato anche dal progettista _Noah Nathan_, aggiunge un altro esempio di famiglia proprietaria. La scelta di commissionare un carattere dipende da controllo della voce, copertura e gestione dell’uso; non autorizza a dedurre qualità dal solo fatto che il disegno sia esclusivo. Nei tre casi il criterio interessante è la continuità fra repertorio *e applicazioni*: quanto bene il sistema conserva differenze utili, regge parole nuove e distingue i segni nelle *dimensioni realmente necessarie*.#sito([_Noah Nathan_, Netflix Sans.], "https://www.noahnathan.com/netflix-sans")
 
 #figure([
   #text(size: 10pt, weight: 500)[Netflix Sans · dettaglio «Wat»]
@@ -2011,7 +2029,7 @@ Netflix Sans, sviluppato con Dalton Maag e documentato anche dal progettista _No
 
 === Duolingo e Calm: ruoli e tono del testo
 
-Nel sistema Duolingo documentato dalle linee guida archiviate nel 2025, Feather Bold è destinato alle *titolazioni brevi* e fortemente riconoscibili; DIN Next Rounded sostiene i testi più lunghi. Il disegno personalizzato di Feather Bold, sviluppato a partire dalla forma della mascotte, rende visibile una relazione fra figura e alfabeto. Nel lettering annotato, l’ascendente della d richiama un’ala e il terminale della g un sopracciglio della mascotte; l’alfabeto estende questi gesti alle altre lettere (@fig-tipo-315a e @fig-tipo-315b) @t06-duolingo.#sito([Duolingo, Typography, linee guida archiviate il 31 marzo 2025.], "https://web.archive.org/web/20250331234946/https://design.duolingo.com/identity/typography")
+Nel sistema Duolingo documentato dalle linee guida archiviate nel 2025, Feather Bold è destinato alle *titolazioni brevi* e fortemente riconoscibili; DIN Next Rounded sostiene i testi più lunghi. Il disegno personalizzato di Feather Bold, sviluppato a partire dalla forma della mascotte, rende visibile una relazione fra figura e alfabeto. Nel lettering annotato, l’ascendente della d richiama un’ala e il terminale della g un sopracciglio della mascotte; l’alfabeto estende questi gesti alle altre lettere (@fig-tipo-315a e @fig-tipo-315b).#sito([Duolingo, Typography, linee guida archiviate il 31 marzo 2025.], "https://web.archive.org/web/20250331234946/https://design.duolingo.com/identity/typography")
 
 #immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/interfacce/duolingo-lettering-annotato.jpg"),
   [Duolingo: lettering del nome con annotazioni sui richiami alla mascotte.], diritti: [Johnson Banks, Beth Johnson e Fontsmith per Duolingo.],
@@ -2025,7 +2043,7 @@ Nel sistema Duolingo documentato dalle linee guida archiviate nel 2025, Feather 
 
 ) <fig-tipo-315b>
 
-Il caso è utile proprio perché il carattere più distintivo non viene applicato indistintamente a tutto. Una frase lunga, un messaggio variabile e una titolazione breve pongono richieste differenti. Le regole della marca assegnano *usi specifici* e un carattere sostitutivo quando le risorse proprietarie non sono disponibili. Si tratta di indicazioni locali: i valori numerici e le preferenze di cassa stabiliti per Duolingo non diventano regole generali della tipografia @t06-johnson-duolingo.#sito([_Beth Johnson_, Identity & Bespoke Typeface for Duolingo.], "https://bethjohnson.design/duolingo")
+Il caso è utile proprio perché il carattere più distintivo non viene applicato indistintamente a tutto. Una frase lunga, un messaggio variabile e una titolazione breve pongono richieste differenti. Le regole della marca assegnano *usi specifici* e un carattere sostitutivo quando le risorse proprietarie non sono disponibili. Si tratta di indicazioni locali: i valori numerici e le preferenze di cassa stabiliti per Duolingo non diventano regole generali della tipografia.#sito([_Beth Johnson_, Identity & Bespoke Typeface for Duolingo.], "https://bethjohnson.design/duolingo")
 
 #confronto[
   #figure([
@@ -2100,32 +2118,33 @@ Il progetto richiede di decidere quali differenze debbano restare attive. Possia
 
 Nei manifesti italiani fra Otto e Novecento la parola può partecipare all’immagine attraverso un disegno specifico. Non è sempre utile cercare il nome di un font: il cartellonista può costruire le lettere per quell’opera, adattando il titolo e le indicazioni alla propria lingua figurativa. Osservare il documento permette di distinguere questa *scrittura progettata* da una composizione realizzata con un carattere riutilizzabile.
 
-Nel manifesto _La Bohème_ del cartellonista _Adolf Hohenstein_, del 1895–1896 secondo la scheda della Morgan Library, il titolo possiede un andamento che appartiene all’opera. Le curve, l’ampiezza e la forma delle lettere vanno esaminate insieme, senza attribuire automaticamente la parola a un font contemporaneo dall’aspetto Liberty. In _Fisso l’idea_ del grafico _Marcello Dudovich_ la scritta prende un’altra presenza, più compatta e incisiva. Il catalogo delle Raccolte Bertarelli consente di identificare l’autore e il documento: la comparazione riguarda due modi concreti di dare una figura al titolo (@fig-tipo-317a e @fig-tipo-317b) @t06-boheme.#sito([The Morgan Library & Museum, La Bohème, _Adolf Hohenstein_, 1895–1896.], "https://www.themorgan.org/music-manuscripts-and-printed-music/284731") @t06-dudovich.#sito([Lombardia Beni Culturali, Fisso l’idea, _Marcello Dudovich_; scheda H0110-02150.], "https://www.lombardiabeniculturali.it/stampe/schede/H0110-02150/")
+Nel manifesto _La Bohème_ del cartellonista _Adolf Hohenstein_, del 1895–1896 secondo la scheda della Morgan Library, il titolo possiede un andamento che appartiene all’opera. Le curve, l’ampiezza e la forma delle lettere vanno esaminate insieme, senza attribuire automaticamente la parola a un font contemporaneo dall’aspetto Liberty. In _Fisso l’idea_ del grafico _Marcello Dudovich_ la scritta prende un’altra presenza, più compatta e incisiva. Il catalogo delle Raccolte Bertarelli consente di identificare l’autore e il documento: la comparazione riguarda due modi concreti di dare una figura al titolo (@fig-tipo-317a e @fig-tipo-317b).#sito([The Morgan Library & Museum, La Bohème, _Adolf Hohenstein_, 1895–1896.], "https://www.themorgan.org/music-manuscripts-and-printed-music/284731").#sito([Lombardia Beni Culturali, Fisso l’idea, _Marcello Dudovich_; scheda H0110-02150.], "https://www.lombardiabeniculturali.it/stampe/schede/H0110-02150/")
 
-#confronto[
-  #grid(columns: (1fr, 1fr), gutter: 5mm,
-[#immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/manifesti/dudovich-fisso-l-idea.jpg"),
-  [_Fisso l’idea_: titolo e testo condensato.], diritti: [Marcello Dudovich; Civica Raccolta delle Stampe Achille Bertarelli.],
+#figura-al-vivo(
+  id: "fig-tipo-317a", file: path("/risorse-condivise/immagini/figure/tipografia/esempi/manifesti/dudovich-fisso-l-idea.jpg"),
+  didascalia: [_Fisso l’idea_: titolo e testo condensato.],
+  diritti: [Marcello Dudovich; Civica Raccolta delle Stampe Achille Bertarelli.],
   alt: "Fisso l’idea: titolo e testo condensato.",
+  rapporto: 423 / 600, rifilo: false,
+)
 
-) <fig-tipo-317a>
-],
-[#immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/manifesti/hohenstein-la-boheme-1895-1896.jpg"),
-  [_La Bohème_, 1895–1896: altezze diverse nel titolo.], diritti: [Adolf Hohenstein; Officine Grafiche Ricordi.],
+#figura-al-vivo(
+  id: "fig-tipo-317b", file: path("/risorse-condivise/immagini/figure/tipografia/esempi/manifesti/hohenstein-la-boheme-1895-1896.jpg"),
+  didascalia: [_La Bohème_, 1895–1896: altezze diverse nel titolo.],
+  diritti: [Adolf Hohenstein; Officine Grafiche Ricordi.],
   alt: "La Bohème, 1895–1896: altezze diverse nel titolo.",
-
-) <fig-tipo-317b>
-],
-  )
-]
+  rapporto: 462 / 693, rifilo: false,
+)
 
 Nel _Campari_ della @fig-tipo-318, _Depero_ accosta la C incisa da un taglio triangolare alle A prive di traversa: curve e punte dialogano con la figura geometrica. L’identità del carattere dipende dal disegno e dal comportamento dei segni, non soltanto dalla loro dimensione. Le lettere possono sembrare meccaniche o dinamiche perché le osserviamo dentro una cultura figurativa e dentro l’opera specifica, non perché un angolo retto contenga per natura un’emozione @t06-depero-campari.#sito([Archivio Depero, Depero e Campari, 2019.], "https://depero.it/2019/10/30/depero-e-campari-2/")
 
-#immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/manifesti/depero-campari-1928.jpg"),
-  [_Campari_, 1928: curve e angoli netti nel nome.], diritti: [Fortunato Depero; Archivio Depero / Campari.],
+#figura-al-vivo(
+  id: "fig-tipo-318", file: path("/risorse-condivise/immagini/figure/tipografia/esempi/manifesti/depero-campari-1928.jpg"),
+  didascalia: [_Campari_, 1928: curve e angoli netti nel nome.],
+  diritti: [Fortunato Depero; Archivio Depero / Campari.],
   alt: "Campari, 1928: curve e angoli netti nel nome.",
-
-) <fig-tipo-318>
+  rapporto: 558 / 800, rifilo: false,
+)
 
 I tre esempi suggeriscono di guardare il passaggio dal *repertorio alla parola*. Un titolo breve consente interventi che sarebbero faticosi nel testo continuo; la modifica può arrivare fino a rendere una lettera parte della scena. Rimane però una *soglia di riconoscimento*: chi guarda deve poter ricostruire la parola oppure deve essere messo intenzionalmente nella condizione di scoprirla. Quando riprendiamo queste strategie in un progetto nuovo, dobbiamo chiarire se stiamo disegnando un lettering, usando un font display o trasformando un titolo in immagine. Sono *operazioni differenti*, anche quando il risultato sembra simile.
 
@@ -2133,7 +2152,7 @@ I tre esempi suggeriscono di guardare il passaggio dal *repertorio alla parola*.
 
 // L'annuncio originale ha uno sfondo trasparente. Lo stesso algoritmo alpha
 // compone un corpo unico nelle due colonne del foglio; il seguito può continuare.
-// cite() conserva autore–anno e link nativi, permettendo l'a capo nella sagoma.
+// Le schede di consultazione Olivetti usano richiami numerici nella sagoma.
 #sagoma-pagina(
   id: "fig-tipo-319c",
   file: path("/risorse-condivise/immagini/figure/tipografia/esempi/manifesti/olivetti-lettera-32-annuncio.png"),
@@ -2150,61 +2169,58 @@ I tre esempi suggeriscono di guardare il passaggio dal *repertorio alla parola*.
 )[
 === Olivetti e Barilla: marchio e messaggio
 
-La comunicazione Olivetti offre molti esempi in cui le lettere assumono una presenza autonoma. Nel lavoro del grafico _Giovanni Pintori_ possono diventare segni, aggregazioni e figure, mantenendo un rapporto con il prodotto che produce o elabora scrittura. Il testo dell’annuncio e il nome Olivetti non devono necessariamente assumere lo stesso aspetto. Un modello di macchina, uno slogan e una firma richiedono *rapporti diversi fra parola e riconoscimento* #cite(<t06-olivetti22>).#sito([Associazione Archivio Storico Olivetti, Lettera 22: progetto e pubblicità.], "https://www.archiviostoricolivetti.it/museo-digitale/lettera-22/")
+La comunicazione Olivetti offre molti esempi in cui le lettere assumono una presenza autonoma. Nel lavoro del grafico _Giovanni Pintori_ possono diventare segni, aggregazioni e figure, mantenendo un rapporto con il prodotto che produce o elabora scrittura. Il testo dell’annuncio e il nome Olivetti non devono necessariamente assumere lo stesso aspetto. Un modello di macchina, uno slogan e una firma richiedono *rapporti diversi fra parola e riconoscimento*.#sito([Associazione Archivio Storico Olivetti, Lettera 22: progetto e pubblicità.], "https://www.archiviostoricolivetti.it/museo-digitale/lettera-22/")
 
-L’Archivio Storico Olivetti documenta manifesti per la Lettera 22 e altri progetti di _Pintori_. Nel confronto tipografico conviene seguire il disegno del nome del prodotto, le differenze di cassa e l’eventuale passaggio fra serif e sans serif, evitando di ridurre l’analisi alla posizione dei testi. Ci interessa come le lettere rendano diversi i registri del messaggio e come il nome della marca resti riconoscibile attraverso applicazioni differenti (@fig-tipo-319c, @fig-tipo-319a e @fig-tipo-319b) #cite(<t06-olivetti-portatili>).#sito([Associazione Archivio Storico Olivetti, Dalla MP1 alla Valentine, passando per la Lettera 22 e 32.], "https://www.storiaolivetti.it/articolo/55-dalla-mp1-alla-valentine-passando-per-la-letter/")
+L’Archivio Storico Olivetti documenta manifesti per la Lettera 22 e altri progetti di _Pintori_. Nel confronto tipografico conviene seguire il disegno del nome del prodotto, le differenze di cassa e l’eventuale passaggio fra serif e sans serif, evitando di ridurre l’analisi alla posizione dei testi. Ci interessa come le lettere rendano diversi i registri del messaggio e come il nome della marca resti riconoscibile attraverso applicazioni differenti (@fig-tipo-319c, @fig-tipo-319a e @fig-tipo-319b).#sito([Associazione Archivio Storico Olivetti, Dalla MP1 alla Valentine, passando per la Lettera 22 e 32.], "https://www.storiaolivetti.it/articolo/55-dalla-mp1-alla-valentine-passando-per-la-letter/")
 
 
 ]
 
 
 
-#confronto[
-  #grid(columns: (1fr, 1fr), gutter: 5mm,
-[#immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/manifesti/pintori-olivetti-lettera-22-piramide-lettere-nome-corsivo.jpg"),
-  [Olivetti Lettera 22: piramide di lettere e nome del modello in corsivo.], diritti: [Giovanni Pintori; Associazione Archivio Storico Olivetti.],
+#figura-al-vivo(
+  id: "fig-tipo-319a", file: path("/risorse-condivise/immagini/figure/tipografia/esempi/manifesti/pintori-olivetti-lettera-22-piramide-lettere-nome-corsivo.jpg"),
+  didascalia: [Olivetti Lettera 22: piramide di lettere e nome del modello in corsivo.],
+  diritti: [Giovanni Pintori; Associazione Archivio Storico Olivetti.],
   alt: "Olivetti Lettera 22: macchina verde, piramide di lettere e nome del modello in corsivo.",
+  rapporto: 420 / 577, rifilo: false,
+)
 
-) <fig-tipo-319a>
-],
-[#immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/manifesti/pintori-olivetti-lettera-22-onde-colorate-nome-tondo.jpg"),
-  [Olivetti Lettera 22: onde colorate e nome del modello in tondo pesante.], diritti: [Giovanni Pintori; Associazione Archivio Storico Olivetti.],
+#figura-al-vivo(
+  id: "fig-tipo-319b", file: path("/risorse-condivise/immagini/figure/tipografia/esempi/manifesti/pintori-olivetti-lettera-22-onde-colorate-nome-tondo.jpg"),
+  didascalia: [Olivetti Lettera 22: onde colorate e nome del modello in tondo pesante.],
+  diritti: [Giovanni Pintori; Associazione Archivio Storico Olivetti.],
   alt: "Olivetti Lettera 22: onde colorate, macchina di profilo e nome del modello in tondo pesante.",
-
-) <fig-tipo-319b>
-],
-  )
-]
+  rapporto: 647 / 841, rifilo: false,
+)
 
 Nel lavoro del grafico e architetto _Erberto Carboni_ per Barilla, documentato dall’archivio aziendale, la continuità coinvolge anche il lettering. La scritta del marchio mantiene una forma definita, mentre lo slogan può assumere un’altra inclinazione, un altro ritmo e un altro tratto. Il manifesto del 1952 (@fig-tipo-320a) «Con pasta Barilla è sempre domenica» permette di confrontare due scritture senza confonderle: quella che identifica il prodotto e quella che formula la promessa dell’annuncio @t06-gonizzi2000.#sito([_Giancarlo Gonizzi_ (a cura di), Pasta on Exhibition, Archivio Storico Barilla, 2000.], "https://www.archiviostoricobarilla.com/wp-content/uploads/2019/04/Pasta_on_Exhibition.pdf")
 
 // La lettura dei manifesti Barilla riprende nel flusso ordinario.
-Il corsivo non è una sola categoria espressiva. Può indicare un gesto rapido, ricordare una firma, rendere più continua una parola o costruire un richiamo a una scrittura quotidiana. Nel secondo manifesto Barilla (@fig-tipo-320b), «vera pasta all’uovo» è in tondo e «con cinque uova per chilogrammo» in corsivo. Il confronto con Olivetti suggerisce una distinzione: *l’unità dell’identità* non richiede che ogni frase abbia il medesimo disegno. Richiede che la *variazione sia intenzionale* e che il ruolo di ciascuna scrittura rimanga comprensibile @t06-salce-barilla.#sito([Museo nazionale Collezione Salce, inventario12826, Barilla vera pasta all’uovo.], "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0500670436")
+Il corsivo non è una sola categoria espressiva. Può indicare un gesto rapido, ricordare una firma, rendere più continua una parola o costruire un richiamo a una scrittura quotidiana. Nel secondo manifesto Barilla (@fig-tipo-320b), «vera pasta all’uovo» è in tondo e «con cinque uova per chilogrammo» in corsivo. Il confronto con Olivetti suggerisce una distinzione: *l’unità dell’identità* non richiede che ogni frase abbia il medesimo disegno. Richiede che la *variazione sia intenzionale* e che il ruolo di ciascuna scrittura rimanga comprensibile.#sito([Museo nazionale Collezione Salce, inventario12826, Barilla vera pasta all’uovo.], "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0500670436")
 
-#confronto[
-  #grid(columns: (1fr, 1fr), gutter: 5mm,
-    [#figure([
-      #image(path("/risorse-condivise/immagini/figure/tipografia/esempi/manifesti/carboni-barilla-sempre-domenica-1952.jpg"), width: 187.09pt,
-        alt: "Con pasta Barilla è sempre domenica: annuncio completo del1952.")
-      #v(10pt)
-      #dettaglio(path("/risorse-condivise/immagini/figure/tipografia/esempi/manifesti/carboni-barilla-sempre-domenica-1952.jpg"),
-        width: 187.09pt, height: 87.309pt, originale-width: 532.487pt, originale-height: 160.706pt,
-        dx: -328.13pt, dy: -71.96pt, alt: "Barilla: ingrandimento del nome nello stesso annuncio.")
-      #v(10pt)
-      #dettaglio(path("/risorse-condivise/immagini/figure/tipografia/esempi/manifesti/carboni-barilla-sempre-domenica-1952.jpg"),
-        width: 187.09pt, height: 54.019pt, originale-width: 292.493pt, originale-height: 88.275pt,
-        dx: 0pt, dy: 0pt, alt: "Dettaglio dello slogan nello stesso annuncio Barilla.")
-    ], kind: image, caption: [_Con pasta Barilla è sempre domenica_, 1952: annuncio e ingrandimenti del marchio e dello slogan.
-      #v(4pt)#testo-diritti[Erberto Carboni; Archivio Storico Barilla.]
-    ]) <fig-tipo-320a>],
-    [#immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/manifesti/carboni-barilla-pasta-all-uovo-1952-1953.png"),
-  [_Barilla vera pasta all’uovo_, circa 1952–1953: nome calligrafico, frase in tondo e slogan in corsivo.], diritti: [Erberto Carboni; Museo nazionale Collezione Salce, inventario12826.],
+#figure([
+  #image(path("/risorse-condivise/immagini/figure/tipografia/esempi/manifesti/carboni-barilla-sempre-domenica-1952.jpg"), width: 187.09pt,
+    alt: "Con pasta Barilla è sempre domenica: annuncio completo del1952.")
+  #v(10pt)
+  #dettaglio(path("/risorse-condivise/immagini/figure/tipografia/esempi/manifesti/carboni-barilla-sempre-domenica-1952.jpg"),
+    width: 187.09pt, height: 87.309pt, originale-width: 532.487pt, originale-height: 160.706pt,
+    dx: -328.13pt, dy: -71.96pt, alt: "Barilla: ingrandimento del nome nello stesso annuncio.")
+  #v(10pt)
+  #dettaglio(path("/risorse-condivise/immagini/figure/tipografia/esempi/manifesti/carboni-barilla-sempre-domenica-1952.jpg"),
+    width: 187.09pt, height: 54.019pt, originale-width: 292.493pt, originale-height: 88.275pt,
+    dx: 0pt, dy: 0pt, alt: "Dettaglio dello slogan nello stesso annuncio Barilla.")
+], kind: image, placement: top, scope: "column", caption: [_Con pasta Barilla è sempre domenica_, 1952: annuncio e ingrandimenti del marchio e dello slogan.
+  #v(4pt)#testo-diritti[Erberto Carboni; Archivio Storico Barilla.]
+]) <fig-tipo-320a>
+
+#figura-al-vivo(
+  id: "fig-tipo-320b", file: path("/risorse-condivise/immagini/figure/tipografia/esempi/manifesti/carboni-barilla-pasta-all-uovo-1952-1953.png"),
+  didascalia: [_Barilla vera pasta all’uovo_, circa 1952–1953: nome calligrafico, frase in tondo e slogan in corsivo.],
+  diritti: [Erberto Carboni; Museo nazionale Collezione Salce, inventario12826.],
   alt: "Barilla vera pasta all’uovo, circa 1952–1953: nome calligrafico, frase in tondo e slogan in corsivo.",
-
-) <fig-tipo-320b>
-],
-  )
-]
+  rapporto: 476 / 678, rifilo: false,
+)
 ]
 #[
 // La musica: copertine, documenti e dimostrazione temporale restano distinti.
@@ -2243,13 +2259,15 @@ Le associazioni fra forme tipografiche e generi musicali nascono dall’incontro
 
 Nel progettare una copertina possiamo riprendere una convenzione per rendere subito riconoscibile un contesto oppure introdurre un contrasto. Il contrasto funziona quando diventa *una scelta leggibile*: una voce apparentemente delicata può accompagnare un suono aggressivo, una scrittura irregolare può comparire in un progetto essenziale. Per analizzarlo dobbiamo nominare i segni, la loro struttura e la relazione con il titolo, senza attribuire alla forma un’emozione obbligatoria.
 
-Il grafico _David Carson_, nel lavoro editoriale per _Ray Gun_, porta questa possibilità verso una tipografia che può essere spezzata, sovrapposta o trattata come materia. Le opere del suo archivio permettono di vedere che la leggibilità può entrare intenzionalmente in tensione con la figura. Non ne deriva che una parola difficile da decifrare sia più espressiva: il valore dipende da ciò che il documento chiede al lettore e dal ruolo di quel testo. La copertina della @fig-tipo-322a documenta la testata di _Ray Gun_ @t06-carson.#sito([David Carson Design, archivio Ray Gun.], "https://www.davidcarsondesign.com/t/tag/raygun/")
+Il grafico _David Carson_, nel lavoro editoriale per _Ray Gun_, porta questa possibilità verso una tipografia che può essere spezzata, sovrapposta o trattata come materia. Le opere del suo archivio permettono di vedere che la leggibilità può entrare intenzionalmente in tensione con la figura. Non ne deriva che una parola difficile da decifrare sia più espressiva: il valore dipende da ciò che il documento chiede al lettore e dal ruolo di quel testo. La copertina della @fig-tipo-322a documenta la testata di _Ray Gun_.#sito([David Carson Design, archivio Ray Gun.], "https://www.davidcarsondesign.com/t/tag/raygun/")
 
-#immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/musica/carson-ray-gun-22-keith-richards-1994-1995.jpg"),
-  [_Ray Gun_ n.22, dicembre1994–gennaio1995: la testata spaziata sopra il ritratto del musicista _Keith Richards_.], diritti: [Design David Carson; fotografia Alan Messer.],
+#figura-al-vivo(
+  id: "fig-tipo-322a", file: path("/risorse-condivise/immagini/figure/tipografia/esempi/musica/carson-ray-gun-22-keith-richards-1994-1995.jpg"),
+  didascalia: [_Ray Gun_ n.22, dicembre1994–gennaio1995: la testata spaziata sopra il ritratto del musicista _Keith Richards_.],
+  diritti: [Design David Carson; fotografia Alan Messer.],
   alt: "Ray Gun n.22, dicembre1994–gennaio1995: la testata spaziata sopra il ritratto di Keith Richards.",
-
-) <fig-tipo-322a>
+  rapporto: 630 / 772, rifilo: false,
+)
 
 Nei lyric video la parola aggiunge *il tempo alle proprie dimensioni*: comparsa, durata, pausa e movimento possono mettere in rilievo una sillaba o una ripetizione. Nei materiali di un festival il medesimo problema cambia ancora: il nome dell’evento può essere sperimentale, mentre i nomi degli artisti devono essere verificati sulle loro lunghezze reali. Lo schema (@fig-tipo-322) mostra tre momenti successivi dello stesso schermo: appare «Una voce» per un secondo, poi «poi una pausa» per un secondo e infine «poi ancora» per un secondo. Le tre scritte si sostituiscono, anziché comparire insieme. La scansione è regolare: la parola «pausa» è parte del testo visibile, non un intervallo vuoto. Per introdurre una pausa effettiva occorrerebbe aggiungere un momento senza parole; per cambiare ritmo si potrebbero variare le durate. Il ritmo tipografico si studia attraverso *operazioni dichiarate*, non con un elenco di caratteri «adatti alla musica».
 
@@ -2269,7 +2287,7 @@ Nella copertina di _Never Mind the Bollocks, Here’s the Sex Pistols_ del 1977,
 
 ) <fig-tipo-323>
 
-L’archivio di _Reid_ collega questo linguaggio al lavoro cut-up sviluppato per Suburban Press. La somiglianza con una richiesta di riscatto è una convenzione grafica riconoscibile, ma non esaurisce il senso dell’opera né descrive tutte le culture punk. Il documento specifico deve rimanere il punto di partenza: nome, titolo, contrasti e irregolarità sono decisioni osservabili, mentre la loro lettura dipende anche dalla storia del gruppo e della scena @t06-reid-archive.#nota-compatta([John Marchant Gallery, The Jamie Reid Archive e profilo di _Jamie Reid_.], ("https://jmgal3.squarespace.com/jra", "https://johnmarchantgallery.com/artists/jamie-reid-blurb-page"))
+L’archivio di _Reid_ collega questo linguaggio al lavoro cut-up sviluppato per Suburban Press. La somiglianza con una richiesta di riscatto è una convenzione grafica riconoscibile, ma non esaurisce il senso dell’opera né descrive tutte le culture punk. Il documento specifico deve rimanere il punto di partenza: nome, titolo, contrasti e irregolarità sono decisioni osservabili, mentre la loro lettura dipende anche dalla storia del gruppo e della scena.#nota-compatta([John Marchant Gallery, The Jamie Reid Archive e profilo di _Jamie Reid_.], ("https://jmgal3.squarespace.com/jra", "https://johnmarchantgallery.com/artists/jamie-reid-blurb-page"))
 
 #immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/musica/jamie-reid-last-days-suburban-press-1972.png"),
   [_Jamie Reid_, _Last Days_, 1972: adesivo Suburban Press.], diritti: [Jamie Reid Archive / John Marchant Gallery.],
@@ -2277,7 +2295,7 @@ L’archivio di _Reid_ collega questo linguaggio al lavoro cut-up sviluppato per
 
 ) <fig-tipo-323d>
 
-_Persona 5_ riprende, nella @fig-tipo-324, un linguaggio a ritagli in alcune scritte, nelle lettere di sfida e in parti dell’identità visiva. Il confronto con il documento conservato del gioco permette di vedere come lettere difformi vengano ricondotte a parole riconoscibili. È un’affinità formale pertinente; non basta però a provare una derivazione diretta da una specifica copertina di _Reid_, né a identificare un unico font per tutti i menu. Un videogioco può combinare font commerciali, segni personalizzati e immagini di lettering @t06-persona.#sito([ATLUS, Persona5 Royal: sito ufficiale.], "https://persona.atlus.com/p5r/")
+_Persona 5_ riprende, nella @fig-tipo-324, un linguaggio a ritagli in alcune scritte, nelle lettere di sfida e in parti dell’identità visiva. Il confronto con il documento conservato del gioco permette di vedere come lettere difformi vengano ricondotte a parole riconoscibili. È un’affinità formale pertinente; non basta però a provare una derivazione diretta da una specifica copertina di _Reid_, né a identificare un unico font per tutti i menu. Un videogioco può combinare font commerciali, segni personalizzati e immagini di lettering.#sito([ATLUS, Persona5 Royal: sito ufficiale.], "https://persona.atlus.com/p5r/")
 
 #immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/videogiochi/persona-5-menu-lettere-ritagli.png"),
   [_Persona 5_: lettere di misura e inclinazione diverse nel menu.], diritti: [ATLUS / SEGA.],
@@ -2308,7 +2326,7 @@ Prima dei titoli di testa, locandine e materiali promozionali assegnano al film 
   alt: "Trajan Pro 3: i nomi ExtraLight, Light, Regular, Semibold, Bold e Black composti nei sei pesi, con linee di diverso spessore a destra.",
 ) <fig-tipo-trajan>
 
-Il lavoro del grafico _Saul Bass_ per il regista _Alfred Hitchcock_ mostra come progettare il movimento dei titoli. In _North by Northwest_ del 1959 i blocchi di testo si muovono secondo direzioni riconoscibili e si confrontano con le linee dell’immagine (@fig-tipo-325a e @fig-tipo-325b); in _Psycho_ del 1960 (@fig-tipo-324a) la frammentazione e la ricomposizione delle parole producono una tensione visiva @t06-bass-psycho.#sito([Alliance Graphique Internationale, _Saul Bass_, _Psycho_,1960.], "https://a-g-i.org/design/psycho") Qui interessa il *comportamento della scrittura*, senza attribuire al solo nome del font l’effetto dell’intera sequenza. La collezione dell’Academy conserva materiali che documentano il lavoro di _Bass_ e dei suoi collaboratori.  @t06-bass-academy.#sito([Academy Film Archive, Saul Bass Collection.], "https://www.oscars.org/film-archive/collections/saul-bass-collection") @t06-bass-north.#sito([Alliance Graphique Internationale, _Saul Bass_, _North by Northwest_,1959.], "https://a-g-i.org/design/north-by-northwest")
+Il lavoro del grafico _Saul Bass_ per il regista _Alfred Hitchcock_ mostra come progettare il movimento dei titoli. In _North by Northwest_ del 1959 i blocchi di testo si muovono secondo direzioni riconoscibili e si confrontano con le linee dell’immagine (@fig-tipo-325a e @fig-tipo-325b); in _Psycho_ del 1960 (@fig-tipo-324a) la frammentazione e la ricomposizione delle parole producono una tensione visiva.#sito([Alliance Graphique Internationale, _Saul Bass_, _Psycho_,1960.], "https://a-g-i.org/design/psycho") Qui interessa il *comportamento della scrittura*, senza attribuire al solo nome del font l’effetto dell’intera sequenza. La collezione dell’Academy conserva materiali che documentano il lavoro di _Bass_ e dei suoi collaboratori.#sito([Academy Film Archive, Saul Bass Collection.], "https://www.oscars.org/film-archive/collections/saul-bass-collection").#sito([Alliance Graphique Internationale, _Saul Bass_, _North by Northwest_,1959.], "https://a-g-i.org/design/north-by-northwest")
 
 #confronto[
   #figure([
@@ -2330,26 +2348,27 @@ Il lavoro del grafico _Saul Bass_ per il regista _Alfred Hitchcock_ mostra come 
 #immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/cinema/saul-bass-north-by-northwest-titolo-1959.jpg"),
   [_North by Northwest_,1959: fotogramma con titolo e linee diagonali.], diritti: [Saul Bass; Metro-Goldwyn-Mayer; archivio Alliance Graphique Internationale.],
   alt: "North by Northwest,1959: fotogramma con titolo e linee diagonali.",
-  width: 137mm, placement: top, scope: "parent",
+  width: 100%, placement: top, scope: "column",
 ) <fig-tipo-325a>
 
-// Tavola autonoma440: i due documenti restano insieme su un foglio ordinario.
-#tavola-documentaria[
+// I due documenti proseguono come figure naturali, con scala adatta ai dettagli.
+#confronto[
 #immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/cinema/saul-bass-north-by-northwest-nove-fotogrammi-1959.jpg"),
   [_North by Northwest_,1959: nove fotogrammi, dalle linee ai titoli alla scena urbana.], diritti: [Saul Bass; Metro-Goldwyn-Mayer; archivio Alliance Graphique Internationale.],
   alt: "North by Northwest,1959: nove fotogrammi, dalle linee ai titoli alla scena urbana.",
 
 ) <fig-tipo-325b>
+]
 
+#confronto(colonne: 1)[
 #immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/cinema/imaginary-forces-stranger-things-titolo.jpg"),
   [_Stranger Things_: il titolo a contorno rosso nella sequenza d’apertura.], diritti: [Imaginary Forces per Netflix; direzione creativa Michelle Dougherty.],
   alt: "Stranger Things: il titolo a contorno rosso nella sequenza d’apertura.",
 
 ) <fig-tipo-326>
-
 ]
 
-_Stranger Things_ introduce, nella @fig-tipo-326, un’altra relazione fra carattere e memoria culturale. La sequenza di Imaginary Forces usa il trattamento delle lettere e l’aspetto delle titolazioni ottiche per richiamare un ambiente visivo precedente.  La base tipografica, ITC Benguiat, è parte della soluzione; contorni, incastri e movimento ne fanno un titolo specifico.  Digitare lo stesso nome nel font commerciale non ricostruisce automaticamente l’opera. Il progetto si comprende osservando come le lettere vengano mostrate prima nei dettagli e poi riconosciute come insieme @t06-stranger.#sito([Imaginary Forces, _Stranger Things_: titoli e crediti.], "https://beta.imaginaryforces.com/project/stranger-things") @t06-stranger-commarts.#sito([Imaginary Forces, “_Stranger Things_” titles: dichiarazione dei progettisti e caratteri, Communication Arts.], "https://www.commarts.com/project/24604/stranger-things-titles")
+_Stranger Things_ introduce, nella @fig-tipo-326, un’altra relazione fra carattere e memoria culturale. La sequenza di Imaginary Forces usa il trattamento delle lettere e l’aspetto delle titolazioni ottiche per richiamare un ambiente visivo precedente.  La base tipografica, ITC Benguiat, è parte della soluzione; contorni, incastri e movimento ne fanno un titolo specifico.  Digitare lo stesso nome nel font commerciale non ricostruisce automaticamente l’opera. Il progetto si comprende osservando come le lettere vengano mostrate prima nei dettagli e poi riconosciute come insieme @t06-stranger.#sito([Imaginary Forces, _Stranger Things_: titoli e crediti.], "https://beta.imaginaryforces.com/project/stranger-things").#sito([Imaginary Forces, “_Stranger Things_” titles: dichiarazione dei progettisti e caratteri, Communication Arts.], "https://www.commarts.com/project/24604/stranger-things-titles")
 
 #dettaglio-figura(titolo: [ITC Benguiat nel titolo], riferimento: <fig-tipo-326>,
   didascalia: [Il trattamento del titolo nella sequenza _Stranger Things_; stesso fotogramma della tavola documentaria. Imaginary Forces / Netflix.],
@@ -2363,7 +2382,7 @@ Le scritte presenti nel mondo narrativo del film svolgono invece un altro ruolo.
 
 === La tipografia nei videogiochi
 
-Un titolo spettacolare non è necessariamente un buon carattere per una frase lunga. Nei testi da leggere durante un’azione contano *durata, dimensione, lingua* e differenza fra segni simili. Il caso dei giochi rende quindi visibile una separazione produttiva: una voce può essere molto caratterizzata nel nome e più regolare dove occorre leggere parole nuove. Il compito del progettista è conservare una parentela riconoscibile *senza trasferire nei testi continui* ogni effetto del lettering promozionale. I titoli delle @fig-tipo-327a e @fig-tipo-327b mostrano due trattamenti del nome @t06-lastofus.#sito([PlayStation, _The Last of Us Part I_: sito ufficiale.], "https://www.playstation.com/en-us/games/the-last-of-us-part-i/") @t06-ratchet.#sito([PlayStation, _Ratchet & Clank: Rift Apart_: sito ufficiale.], "https://www.playstation.com/en-us/games/ratchet-and-clank-rift-apart/")
+Un titolo spettacolare non è necessariamente un buon carattere per una frase lunga. Nei testi da leggere durante un’azione contano *durata, dimensione, lingua* e differenza fra segni simili. Il caso dei giochi rende quindi visibile una separazione produttiva: una voce può essere molto caratterizzata nel nome e più regolare dove occorre leggere parole nuove. Il compito del progettista è conservare una parentela riconoscibile *senza trasferire nei testi continui* ogni effetto del lettering promozionale. I titoli delle @fig-tipo-327a e @fig-tipo-327b mostrano due trattamenti del nome.#sito([PlayStation, _The Last of Us Part I_: sito ufficiale.], "https://www.playstation.com/en-us/games/the-last-of-us-part-i/").#sito([PlayStation, _Ratchet & Clank: Rift Apart_: sito ufficiale.], "https://www.playstation.com/en-us/games/ratchet-and-clank-rift-apart/")
 
 #confronto[
   #grid(columns: (1fr, 1fr), gutter: 5mm,
@@ -2388,7 +2407,7 @@ La @fig-tipo-327c mostra un terzo trattamento: nel titolo promozionale di _Horiz
   [_Horizon Zero Dawn_: aste prolungate nel titolo promozionale.],
   diritti: [Guerrilla Games / Sony Interactive Entertainment.],
   alt: "Horizon Zero Dawn: titolo promozionale originale con aste prolungate.",
-  width: 137mm, placement: top, scope: "parent",
+  width: 100%, placement: top, scope: "column",
 ) <fig-tipo-327c>
 
 I tre nomi mostrano come la tipografia possa contribuire all’identità di un gioco senza svolgere ancora il compito di un’interfaccia. In _The Last of Us Part I_ le maiuscole strette e compatte costruiscono una massa rettangolare; in _Ratchet & Clank: Rift Apart_ contorni e rilievi fanno apparire le lettere come oggetti; in _Horizon Zero Dawn_ le aste prolungate modificano il profilo del nome. Sono trattamenti da osservare nelle immagini promozionali, non modelli da trasferire automaticamente a istruzioni, dialoghi o inventari.
@@ -2408,7 +2427,7 @@ Non serve affermare che un font sia per adulti e un altro per bambini: l’età 
 
 Nel calligramma la parola non è soltanto una sequenza da leggere: può descrivere una forma attraverso la disposizione dei suoi segni. Questa tradizione incontra il lettering contemporaneo quando il disegno viene modificato per rendere visibile un significato. Occorre distinguere l’intervento sulle singole lettere dall’andamento di un intero testo. In entrambi i casi il lettore è invitato ad alternare *riconoscimento verbale* e osservazione dell’immagine.
 
-Il designer _Ji Lee_ pone in _Word as Image_ un vincolo preciso: rappresentare il significato usando gli elementi grafici delle lettere della parola, *senza aggiungere parti esterne*. Il limite spinge a cercare nella struttura del segno una possibilità figurativa. Un cambiamento di posizione, una sottrazione o un rapporto fra pieni e vuoti possono bastare. L’efficacia deriva dalla precisione dell’idea e dal fatto che *la parola resti ricostruibile*, non dalla quantità di effetti applicati (@fig-tipo-328a, @fig-tipo-328b e @fig-tipo-328c) @t06-ji-lee.#sito([_Ji Lee_, Word as Image: progetto e vincolo sulle lettere.], "https://pleaseenjoy.com/word-as-image")
+Il designer _Ji Lee_ pone in _Word as Image_ un vincolo preciso: rappresentare il significato usando gli elementi grafici delle lettere della parola, *senza aggiungere parti esterne*. Il limite spinge a cercare nella struttura del segno una possibilità figurativa. Un cambiamento di posizione, una sottrazione o un rapporto fra pieni e vuoti possono bastare. L’efficacia deriva dalla precisione dell’idea e dal fatto che *la parola resti ricostruibile*, non dalla quantità di effetti applicati (@fig-tipo-328a, @fig-tipo-328b e @fig-tipo-328c).#sito([_Ji Lee_, Word as Image: progetto e vincolo sulle lettere.], "https://pleaseenjoy.com/word-as-image")
 
 #confronto[
   #grid(columns: (1fr, 1fr), gutter: 5mm,
@@ -2427,14 +2446,14 @@ Il designer _Ji Lee_ pone in _Word as Image_ un vincolo preciso: rappresentare i
 
 #immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/parola-immagine/ji-lee-gravity.png"),
   [_Gravity_: lettere inclinate e accumulate in basso.], diritti: [Ji Lee, Word as Image.],
-  alt: "Gravity: lettere inclinate e accumulate in basso.", width: 300pt, placement: top, scope: "parent",
+  alt: "Gravity: lettere inclinate e accumulate in basso.", width: 100%, placement: top, scope: "column",
 ) <fig-tipo-328c>
 
 Il confronto con l’artista e grafico d’avanguardia _El Lissitzky_ nella @fig-tipo-329 rende evidente un’altra possibilità: una lettera può assumere una presenza monumentale e partecipare a un’immagine tipografica senza illustrare letteralmente il significato di una singola parola. Nei documenti storici è necessario distinguere il titolo dell’opera, la lingua e il progetto: non ogni composizione costruttivista è un calligramma. L’analisi delle lettere può riconoscere scala, rotazione e rapporto fra forme senza trasformare l’esempio in una lezione generale di composizione @t06-wendingen.#sito([National Gallery of Art, _El Lissitzky_, Wendingen, 1921 (pubblicato 1923), 1995.77.4.], "https://www.nga.gov/artworks/93943-wendingen")
 
 #immagine(path("/risorse-condivise/immagini/figure/storia-del-design/el-lissitzky-wendingen-copertina-1921-1923.jpg"),
   [_Wendingen_, 1921 (pubblicato 1923): lettera ingrandita e titolo obliquo.], diritti: [El Lissitzky; National Gallery of Art, Washington, 1995.77.4. Immagine di pubblico dominio.],
-  alt: "Wendingen, 1921 (pubblicato 1923): lettera ingrandita e titolo obliquo.", width: 137mm, placement: top, scope: "parent",
+  alt: "Wendingen, 1921 (pubblicato 1923): lettera ingrandita e titolo obliquo.", width: 100%, placement: top, scope: "column",
 ) <fig-tipo-329>
 
 Un esercizio può partire da «PIOGGIA», «ONDA» e «PORTA», collegando disegno e significato. La prima può suggerire una caduta attraverso una sequenza verticale, la seconda una variazione di livello, la terza un’apertura nella parola. Sono proposte didattiche, distinte dalle opere di _Ji Lee_. Separare il riferimento dalla propria prova conserva la correttezza delle attribuzioni. Queste operazioni funzionano soprattutto nei messaggi brevi: prima di estenderle a molte righe dobbiamo verificare quale fatica richiedano per ricostruire le parole.
@@ -2443,10 +2462,13 @@ Un esercizio può partire da «PIOGGIA», «ONDA» e «PORTA», collegando diseg
 
 Nel manifesto _Chicago, naissance d’une métropole_ del 1987, il grafico francese _Philippe Apeloig_ mette la parola in relazione con la profondità della fotografia. Le lettere non si limitano a sovrapporsi a un’immagine: la loro deformazione prospettica partecipa alla rappresentazione dello spazio. Il titolo sembra entrare nella scena, facendo dell’atto di leggere un percorso fra distanze diverse (@fig-tipo-330) @t06-apeloig-chicago.#sito([SFMOMA, _Philippe Apeloig_, Chicago exhibition poster, 1987, 2016.289.], "https://www.sfmoma.org/artwork/2016.289/")
 
-#immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/parola-immagine/philippe-apeloig-chicago-1987.jpg"),
-  [_Chicago_, 1987: il titolo entra nella profondità della fotografia.], diritti: [Philippe Apeloig; SFMOMA, 2016.289. © Philippe Apeloig / Artists Rights Society (ARS), New York.],
+#figura-al-vivo(
+  id: "fig-tipo-330", file: path("/risorse-condivise/immagini/figure/tipografia/esempi/parola-immagine/philippe-apeloig-chicago-1987.jpg"),
+  didascalia: [_Chicago_, 1987: il titolo entra nella profondità della fotografia.],
+  diritti: [Philippe Apeloig; SFMOMA, 2016.289. © Philippe Apeloig / Artists Rights Society (ARS), New York.],
   alt: "Chicago, 1987: il titolo entra nella profondità della fotografia.",
-) <fig-tipo-330>
+  rapporto: 567 / 850, rifilo: false,
+)
 
 _Apeloig_ descrive questo lavoro come una delle prime esperienze in cui il computer gli permise di esplorare una dimensione architettonica del testo. Il documento consente di osservare un uso intenzionale della *trasformazione geometrica*. È diverso dal comprimere un carattere per farlo rientrare in una riga: qui la deformazione è parte esplicita dell’idea figurativa e cambia la posizione apparente delle parole. Il titolo mantiene gli indizi necessari alla lettura mentre mostra la propria condizione d’immagine @t06-apeloig-interview.#sito([_Philippe Apeloig_, Interview, 2001.], "https://apeloig.com/entretien/?lang=en") La differenza è utile quando si valutano le libertà sul disegno dei segni. Un carattere può essere trasformato per ottenere un effetto dichiarato, ma occorre sapere che cosa si sta modificando. Schiacciare le lettere altera il rapporto fra tratti verticali e orizzontali; la prospettiva rende diverse le parti della stessa parola. Non stiamo usando una *vera variante di larghezza*, nella quale il disegnatore avrebbe corretto proporzioni e spessori per preservare l’equilibrio.
 
@@ -2454,9 +2476,9 @@ Il manifesto mette quindi in dialogo due competenze: conoscere il comportamento 
 
 === Montecatini Pro: dal lettering al font
 
-Montecatini Pro traduce un riferimento ai manifesti italiani in Stile Liberty in una famiglia capace di comporre parole nuove. Il progetto dei disegnatori di caratteri _Louise Fili_, _Andy Anzollitto_ e _Nick Misani_, con produzione Schriftlabor, non replica una sola insegna: organizza un repertorio di forme e di relazioni. È il passaggio dal gesto specifico del lettering a uno strumento tipografico esteso @t06-montecatini-fili.#sito([Louise Fili Ltd, Montecatini Pro: origine e sviluppo della famiglia.], "https://www.louisefili.com/montecatini-pro")
+Montecatini Pro traduce un riferimento ai manifesti italiani in Stile Liberty in una famiglia capace di comporre parole nuove. Il progetto dei disegnatori di caratteri _Louise Fili_, _Andy Anzollitto_ e _Nick Misani_, con produzione Schriftlabor, non replica una sola insegna: organizza un repertorio di forme e di relazioni. È il passaggio dal gesto specifico del lettering a uno strumento tipografico esteso.#sito([Louise Fili Ltd, Montecatini Pro: origine e sviluppo della famiglia.], "https://www.louisefili.com/montecatini-pro")
 
-La documentazione TipoFili presenta ventiquattro stili, ottenuti da *sei pesi e quattro larghezze*. Questo numero riguarda una struttura della famiglia, non ventiquattro emozioni o ventiquattro varianti intercambiabili. Una larghezza più stretta permette di affrontare una parola lunga in modo diverso da una semplice compressione geometrica; un peso più forte modifica il rapporto fra pieni e vuoti @t06-montecatini-tipofili.#sito([TipoFili, Montecatini Pro: ventiquattro stili, progettisti e produzione.], "https://tipofili.com/fonts/montecatini")
+La documentazione TipoFili presenta ventiquattro stili, ottenuti da *sei pesi e quattro larghezze*. Questo numero riguarda una struttura della famiglia, non ventiquattro emozioni o ventiquattro varianti intercambiabili. Una larghezza più stretta permette di affrontare una parola lunga in modo diverso da una semplice compressione geometrica; un peso più forte modifica il rapporto fra pieni e vuoti.#sito([TipoFili, Montecatini Pro: ventiquattro stili, progettisti e produzione.], "https://tipofili.com/fonts/montecatini")
 
 Gli alternati aggiungono una seconda possibilità. Alcune forme cambiano in relazione ai segni vicini: un incontro fra lettere può produrre un raccordo previsto dal progetto. Altri *alternati stilistici* consentono di scegliere un disegno diverso per un singolo glifo. Nel titolo dello specimen ufficiale possiamo osservare la giunzione CA (@fig-tipo-331), senza dedurre da quella sola immagine che tutti i possibili accostamenti abbiano lo stesso comportamento.
 
@@ -2476,11 +2498,11 @@ Il caso rende concreto un criterio già incontrato con i logotipi. La personalit
 
 === Marchi e testi: Mancini, Rustichella e Aesop
 
-Due produttori dello stesso settore possono presentare voci tipografiche differenti. Nelle schermate conservate di Pasta Mancini e Rustichella d’Abruzzo (@fig-tipo-332a, @fig-tipo-332b e @fig-tipo-332c) il confronto pertinente riguarda il lettering dei marchi (@fig-tipo-332d e @fig-tipo-332e) e il trattamento tipografico degli altri testi. Le grazie, l’inclinazione e le proporzioni permettono di descrivere differenze reali senza ricavare dal marchio una misura della qualità del prodotto @t06-mancini.#sito([Pasta Mancini, sito ufficiale. Le figure riproducono schermate conservate della fonte.], "https://www.pastamancini.com/") @t06-rustichella.#sito([Rustichella d’Abruzzo, sito ufficiale. Le figure riproducono schermate conservate della fonte.], "https://rustichella.it/")
+Due produttori dello stesso settore possono presentare voci tipografiche differenti. Nelle schermate conservate di Pasta Mancini e Rustichella d’Abruzzo (@fig-tipo-332a, @fig-tipo-332b e @fig-tipo-332c) il confronto pertinente riguarda il lettering dei marchi (@fig-tipo-332d e @fig-tipo-332e) e il trattamento tipografico degli altri testi. Le grazie, l’inclinazione e le proporzioni permettono di descrivere differenze reali senza ricavare dal marchio una misura della qualità del prodotto.#sito([Pasta Mancini, sito ufficiale. Le figure riproducono schermate conservate della fonte.], "https://www.pastamancini.com/").#sito([Rustichella d’Abruzzo, sito ufficiale. Le figure riproducono schermate conservate della fonte.], "https://rustichella.it/")
 
 Nel caso Mancini una frase in corsivo con grazie si distingue dal disegno senza grazie di altri testi. Il *cambiamento di registro* non implica un’incoerenza: il corsivo può essere riservato a un’affermazione specifica, mentre le informazioni variabili vengono affidate a forme più regolari. Nella frase di Rustichella osserviamo invece una diversa presenza di grazie e dettagli. L’analisi deve rimanere legata alla versione riprodotta; lo screenshot conservato non dimostra che il sito attuale conservi lo stesso font.
 
-Aesop aggiunge, nella @fig-tipo-333, un esempio del rapporto fra il nome e i testi della pagina. Il logotipo presenta tratti modulati, mentre il titolo e la descrizione adottano forme più uniformi. Il contrasto fra una scritta distintiva e *caratteri di accompagnamento* più regolari può diventare parte dell’identità visiva di un prodotto. Prima di chiamare «serif» l’intero sistema bisogna guardare i singoli testi: il nome e le descrizioni possono usare disegni diversi @t06-aesop.#sito([Aesop, sito ufficiale. La figura riproduce la schermata conservata della fonte.], "https://www.aesop.com/")
+Aesop aggiunge, nella @fig-tipo-333, un esempio del rapporto fra il nome e i testi della pagina. Il logotipo presenta tratti modulati, mentre il titolo e la descrizione adottano forme più uniformi. Il contrasto fra una scritta distintiva e *caratteri di accompagnamento* più regolari può diventare parte dell’identità visiva di un prodotto. Prima di chiamare «serif» l’intero sistema bisogna guardare i singoli testi: il nome e le descrizioni possono usare disegni diversi.#sito([Aesop, sito ufficiale. La figura riproduce la schermata conservata della fonte.], "https://www.aesop.com/")
 
 I tre casi consentono di discutere il tono partendo da indizi circoscritti. Una forma può richiamare tradizione o precisione attraverso convenzioni incontrate in altri documenti, ma quelle associazioni *non sono risultati obbligatori*. Il valore del confronto consiste nel riconoscere quali parti del nome siano personalizzate e quali testi vengano composti con un repertorio riutilizzabile. Qui non analizziamo la distribuzione delle immagini o la struttura della pagina web: isoliamo la voce delle lettere e il suo rapporto con le parole che accompagnano il prodotto.
 
@@ -2526,25 +2548,25 @@ I tre casi consentono di discutere il tono partendo da indizi circoscritti. Una 
   ]
 ]
 
-// La tavola450 della fonte contiene soltanto questi tre documenti:
-// restano sullo stesso foglio ordinario, senza una fascia delle note vuota.
-#tavola-documentaria[
-  // I soli intervalli espliciti separano i tre documenti: niente spazi duplicati.
-  #set par(spacing: 0pt)
-  #set block(above: 0pt, below: 0pt)
-  #immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/marchi/rustichella-abruzzo-schermata.png"),
+// I tre documenti mantengono numero e apparati, senza riservare un foglio intero.
+#confronto[
+#immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/marchi/rustichella-abruzzo-schermata.png"),
     [Rustichella d’Abruzzo: titolo con grazie nello screenshot conservato del sito.],
     diritti: [Rustichella d’Abruzzo.], alt: "Rustichella d’Abruzzo: schermata conservata con titolo con grazie.",
   ) <fig-tipo-332c>
-  #v(6pt)
-  #figure(image(path("/risorse-condivise/immagini/figure/tipografia/esempi/marchi/aesop-schermata-nome-e-testi.jpg"),
+]
+
+#confronto[
+#figure(image(path("/risorse-condivise/immagini/figure/tipografia/esempi/marchi/aesop-schermata-nome-e-testi.jpg"),
     width: 137mm, height: 140.837pt, fit: "contain",
     alt: "Aesop: schermata conservata con nome e testi di accompagnamento."),
     kind: image, caption: [Aesop: tratti modulati nel nome e testi più uniformi nello screenshot conservato.
       #v(4pt)#testo-diritti[Aesop.]
     ]) <fig-tipo-333>
-  #v(6pt)
-  #immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/marchi/rustichella-abruzzo-marchio-centenario.png"),
+]
+
+#confronto(colonne: 1)[
+#immagine(path("/risorse-condivise/immagini/figure/tipografia/esempi/marchi/rustichella-abruzzo-marchio-centenario.png"),
     [Rustichella d’Abruzzo, marchio del centenario: «1924–2024, 100 anni di pasta», con cifre e scritta con grazie.],
     diritti: [Rustichella d’Abruzzo.], width: 120pt,
     alt: "Rustichella d’Abruzzo: marchio del centenario1924–2024.",
@@ -2560,7 +2582,7 @@ I tre casi consentono di discutere il tono partendo da indizi circoscritti. Una 
 
 === Calligrafia e lettering nei marchi
 
-Il confronto fra marchi calligrafici e nomi dalle lettere più regolari rende visibile la varietà del lettering. Kellogg’s (@fig-tipo-334a) collega la propria scritta alla firma del fondatore nella documentazione aziendale. Il segno conserva un andamento continuo e riconoscibile, ma la sua riproduzione è un esecutivo definito, non una firma diversa ogni volta. La scrittura personale diventa *un’identità ripetibile* @t06-kelloggs.#sito([Kellogg’s, Our History: firma del fondatore e marchio.], "https://www.kelloggs.com/en-tr/who-we-are/our-history.html")
+Il confronto fra marchi calligrafici e nomi dalle lettere più regolari rende visibile la varietà del lettering. Kellogg’s (@fig-tipo-334a) collega la propria scritta alla firma del fondatore nella documentazione aziendale. Il segno conserva un andamento continuo e riconoscibile, ma la sua riproduzione è un esecutivo definito, non una firma diversa ogni volta. La scrittura personale diventa *un’identità ripetibile*.#sito([Kellogg’s, Our History: firma del fondatore e marchio.], "https://www.kelloggs.com/en-tr/who-we-are/our-history.html")
 
 #confronto[
   #grid(columns: (1fr, 1fr), gutter: 5mm,
@@ -2579,7 +2601,7 @@ Il confronto fra marchi calligrafici e nomi dalle lettere più regolari rende vi
   )
 ]
 
-Barbie (@fig-tipo-334b) e Disney (@fig-tipo-334c) offrono altri nomi che utilizzano gesti grafici caratterizzati. Le curve, i raccordi e alcuni particolari delle iniziali permettono di riconoscere il marchio prima di analizzare ogni segno. La somiglianza con un font script disponibile in commercio non basta però a identificarne l’origine. Riprodurre un nome digitandolo in Brush Script o in un carattere ispirato al marchio non equivale a mostrare il documento autentico. Anche l’etichetta «per bambini» è troppo generica: il segno vive dentro una storia di prodotti e di narrazioni, non dentro una proprietà universale delle curve @t06-barbie.#sito([Mattel Creations, Barbie Signature.], "https://uk.creations.mattel.com/pages/barbie-signature") @t06-disney.#sito([Disney, sito ufficiale; marchio consultato il 20 ottobre 2026, disegno non datato.], "https://www.disney.com/")
+Barbie (@fig-tipo-334b) e Disney (@fig-tipo-334c) offrono altri nomi che utilizzano gesti grafici caratterizzati. Le curve, i raccordi e alcuni particolari delle iniziali permettono di riconoscere il marchio prima di analizzare ogni segno. La somiglianza con un font script disponibile in commercio non basta però a identificarne l’origine. Riprodurre un nome digitandolo in Brush Script o in un carattere ispirato al marchio non equivale a mostrare il documento autentico. Anche l’etichetta «per bambini» è troppo generica: il segno vive dentro una storia di prodotti e di narrazioni, non dentro una proprietà universale delle curve.#sito([Mattel Creations, Barbie Signature.], "https://uk.creations.mattel.com/pages/barbie-signature").#sito([Disney, sito ufficiale; marchio consultato il 20 ottobre 2026, disegno non datato.], "https://www.disney.com/")
 
 #confronto[
   #grid(columns: (1fr, 1fr), gutter: 5mm,
@@ -2609,7 +2631,7 @@ Barbie (@fig-tipo-334b) e Disney (@fig-tipo-334c) offrono altri nomi che utilizz
   )
 ]
 
-LEGO costruisce una diversa presenza attraverso lettere arrotondate e contorni marcati. La storia ufficiale documenta nel 1973 una revisione con il doppio bordo intorno alle lettere bianche. @t06-lego.#sito([The LEGO Group, A modern, international company: marchio 1973–1998.], "https://www.lego.com/en-us/history/articles/f-a-modern-international-company") Il contorno rende il nome una figura definita e va distinto dal *peso del glifo*: ispessire una lettera e aggiungerle un bordo producono effetti differenti sulle controforme e sulla distanza fra i segni del nome. Anche Nike (@fig-tipo-334d) richiede di separare gli elementi: lo Swoosh è un simbolo, mentre la dicitura Nike è lettering e i testi pubblicitari appartengono a un sistema più ampio. Il caso impedisce di usare la figura di un emblema come prova del font della marca @t06-nike2025.#sito([Department of Nike Archives, The Nike Swoosh Logo, 2 ottobre 2025.], "https://about.nike.com/en/magazine/nike-swoosh-logo-history") In tutti questi nomi il punto utile è la *distinzione fra segno particolare e repertorio*: conoscere le forme di un logotipo aiuta a descriverne la riconoscibilità, ma non autorizza a ricostruire l’intero alfabeto né a prevedere la risposta di qualsiasi lettore.
+LEGO costruisce una diversa presenza attraverso lettere arrotondate e contorni marcati. La storia ufficiale documenta nel 1973 una revisione con il doppio bordo intorno alle lettere bianche.#sito([The LEGO Group, A modern, international company: marchio 1973–1998.], "https://www.lego.com/en-us/history/articles/f-a-modern-international-company") Il contorno rende il nome una figura definita e va distinto dal *peso del glifo*: ispessire una lettera e aggiungerle un bordo producono effetti differenti sulle controforme e sulla distanza fra i segni del nome. Anche Nike (@fig-tipo-334d) richiede di separare gli elementi: lo Swoosh è un simbolo, mentre la dicitura Nike è lettering e i testi pubblicitari appartengono a un sistema più ampio. Il caso impedisce di usare la figura di un emblema come prova del font della marca @t06-nike2025.#sito([Department of Nike Archives, The Nike Swoosh Logo, 2 ottobre 2025.], "https://about.nike.com/en/magazine/nike-swoosh-logo-history") In tutti questi nomi il punto utile è la *distinzione fra segno particolare e repertorio*: conoscere le forme di un logotipo aiuta a descriverne la riconoscibilità, ma non autorizza a ricostruire l’intero alfabeto né a prevedere la risposta di qualsiasi lettore.
 
 #figure([
 #dettaglio(path("/risorse-condivise/immagini/figure/tipografia/esempi/lettering/nike-timeline-marchi-archivio-2025.jpg"), width: 130pt, height: 68pt,
@@ -2737,7 +2759,7 @@ Coca-Cola (@fig-tipo-337e) offre versioni del nome in scritture differenti. Il c
   #v(4pt)#testo-diritti[© The Coca-Cola Company.]
 ]) <fig-tipo-337e>
 
-Uniqlo (@fig-tipo-337b) rende visibile un’altra strategia accostando il nome in alfabeto latino e in katakana. Le due scritture possono condividere una presenza compatta senza diventare lo stesso repertorio. Pepsi, nel campione storico della @fig-tipo-337a, e McDonald’s mostrano a loro volta come il nome o i caratteri di accompagnamento possano essere adattati: la parentela va cercata nel *peso ottico*, nelle proporzioni e nel trattamento dei terminali, non in una misura identica applicata a glifi di struttura diversa @t06-uniqlo.#nota-compatta([Uniqlo, marchi ufficiali; Fast Retailing, Annual Report 2006, pp. 2–4, _Kashiwa Sato_.], ("https://www.uniqlo.com/jp/ja/contents/feature/common/icons/header.svg", "https://www.fastretailing.com/eng/ir/library/pdf/annual2006.pdf"))
+Uniqlo (@fig-tipo-337b) rende visibile un’altra strategia accostando il nome in alfabeto latino e in katakana. Le due scritture possono condividere una presenza compatta senza diventare lo stesso repertorio. Pepsi, nel campione storico della @fig-tipo-337a, e McDonald’s mostrano a loro volta come il nome o i caratteri di accompagnamento possano essere adattati: la parentela va cercata nel *peso ottico*, nelle proporzioni e nel trattamento dei terminali, non in una misura identica applicata a glifi di struttura diversa.#nota-compatta([Uniqlo, marchi ufficiali; Fast Retailing, Annual Report 2006, pp. 2–4, _Kashiwa Sato_.], ("https://www.uniqlo.com/jp/ja/contents/feature/common/icons/header.svg", "https://www.fastretailing.com/eng/ir/library/pdf/annual2006.pdf"))
 
 #confronto[
   #grid(columns: (1fr, 1fr), gutter: 5mm,
@@ -2827,7 +2849,7 @@ Questo caso completa la distinzione fra *coerenza e uniformità*. Un sistema pu�
 
 === Adeguatezza e pregiudizio: Comic Sans
 
-Comic Sans è un caso in cui il giudizio su un carattere può precedere l’osservazione delle lettere. La sua fama ha generato apprezzamenti, rifiuti e usi ironici; nessuno di questi atteggiamenti sostituisce l’analisi del contesto. Il disegno nasce da una richiesta precisa di tono: il disegnatore di caratteri _Vincent Connare_ lo sviluppò nel 1994 guardando il linguaggio dei fumetti e interrogandosi sull’inadeguatezza di una scrittura troppo formale per un personaggio digitale @t06-comic2025.#sito([Microsoft, Comic Sans MS font family, 8 agosto 2025; testimonianza di _Vincent Connare_.], "https://learn.microsoft.com/en-us/typography/font-list/comic-sans-ms")
+Comic Sans è un caso in cui il giudizio su un carattere può precedere l’osservazione delle lettere. La sua fama ha generato apprezzamenti, rifiuti e usi ironici; nessuno di questi atteggiamenti sostituisce l’analisi del contesto. Il disegno nasce da una richiesta precisa di tono: il disegnatore di caratteri _Vincent Connare_ lo sviluppò nel 1994 guardando il linguaggio dei fumetti e interrogandosi sull’inadeguatezza di una scrittura troppo formale per un personaggio digitale.#sito([Microsoft, Comic Sans MS font family, 8 agosto 2025; testimonianza di _Vincent Connare_.], "https://learn.microsoft.com/en-us/typography/font-list/comic-sans-ms")
 
 #dettaglio-figura(titolo: [Comic Sans MS Regular], riferimento: <fig-tipo-339>,
   didascalia: [Contorni autentici del carattere; il confronto completo dei due messaggi segue.],
@@ -3072,13 +3094,13 @@ Il primo esito del lavoro non è necessariamente un nome definitivo. Può essere
 
 Una famiglia ben articolata può sostenere molti compiti senza richiedere continui cambiamenti di carattere.
 
-Prima di aggiungere un’altra famiglia, conviene verificare se pesi, corsivi, larghezze e funzioni già disponibili sono sufficienti. Il vantaggio non è la riduzione numerica in sé: è la possibilità di mantenere un rapporto riconoscibile fra le parti del testo e di controllare più facilmente il risultato @t06-carbon2026.#sito([IBM (2026), Carbon: Typography.], "https://www.carbondesignsystem.com/building-blocks/foundations/typography/type-sets")
+Prima di aggiungere un’altra famiglia, conviene verificare se pesi, corsivi, larghezze e funzioni già disponibili sono sufficienti. Il vantaggio non è la riduzione numerica in sé: è la possibilità di mantenere un rapporto riconoscibile fra le parti del testo e di controllare più facilmente il risultato.#sito([IBM (2026), Carbon: Typography; ruoli e stili di testo.], "https://www.carbondesignsystem.com/building-blocks/foundations/typography/type-sets") <nota-tipo-carbon-ruoli>
 
 La prudente indicazione di lavorare con poche famiglie non coincide con una legge che vieta di superare il numero tre. Un progetto editoriale può usare una voce per la lettura e un’altra per titoli o citazioni; un repertorio multilingue può richiedere integrazioni ulteriori. L’importante è *assegnare una ragione a ciascuna presenza* e applicarla con coerenza. Se due caratteri cambiano continuamente ruolo, il lettore deve ricostruire ogni volta il criterio. La @fig-tipo-348 rende visibili tre ruoli nella stessa famiglia.
 
 Negli abbinamenti va osservata anche la convivenza materiale. Due font allo stesso corpo possono mostrare altezze apparenti diverse; un corsivo può sembrare più sottile del testo vicino; le cifre possono creare una tessitura incompatibile con il paragrafo. Prima di scegliere sulla base di una somiglianza o di un contrasto interessante, bisogna comporre almeno alcune righe in cui le famiglie si incontrano.
 
-È utile inoltre definire stili di testo ripetibili, invece di correggere ogni occorrenza separatamente. Il sistema può fissare corpo, peso e interlinea per una funzione e prevedere eccezioni motivate per casi speciali. Carbon, per esempio, documenta ruoli e misure del proprio sistema: è un caso di applicazione, non una scala universale. Definire gli stili permette di introdurre differenze intenzionali e riconoscere un cambiamento dovuto a un errore di applicazione @t06-carbon2026.#sito([IBM (2026), ruoli e stili di testo.], "https://www.carbondesignsystem.com/building-blocks/foundations/typography/type-sets")
+È utile inoltre definire stili di testo ripetibili, invece di correggere ogni occorrenza separatamente. Il sistema può fissare corpo, peso e interlinea per una funzione e prevedere eccezioni motivate per casi speciali. Carbon, per esempio, documenta ruoli e misure del proprio sistema: è un caso di applicazione, non una scala universale. Definire gli stili permette di introdurre differenze intenzionali e riconoscere un cambiamento dovuto a un errore di applicazione.#sito([IBM (2026), Carbon: Typography; ruoli e stili di testo.], "https://www.carbondesignsystem.com/building-blocks/foundations/typography/type-sets")
 
 #ruoli()
 
@@ -3112,13 +3134,13 @@ Fra numero e unità, uno spazio non separabile può evitare che «10 kg» si di
 
 Il maiuscolo può essere efficace in un titolo breve, in una sigla o in una convenzione editoriale precisa.
 
-Estenderlo a un lungo testo cambia profilo e ingombro delle parole e può rendere la lettura più impegnativa. L’effetto dipende anche dal corpo e dalle esigenze del lettore: va osservato su un intero passaggio, non soltanto su un’etichetta di due parole @t06-arditi2007.#sito([_Arditi_ e _Cho_ (2007): corpo e condizioni visive.], "https://pmc.ncbi.nlm.nih.gov/articles/PMC2016788/") Le indicazioni di una guida come GOV.UK esprimono anche convenzioni del servizio e non costituiscono divieti universali @t06-govuk-style.#sito([Government Digital Service, capitalisation.], "https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/style-guides/a-to-z-style-guide/#capitalisation")
+Estenderlo a un lungo testo cambia profilo e ingombro delle parole e può rendere la lettura più impegnativa. L’effetto dipende anche dal corpo e dalle esigenze del lettore: va osservato su un intero passaggio, non soltanto su un’etichetta di due parole @t06-arditi2007.#sito([_Arditi_ e _Cho_ (2007): corpo e condizioni visive.], "https://pmc.ncbi.nlm.nih.gov/articles/PMC2016788/") Le indicazioni di una guida come GOV.UK esprimono anche convenzioni del servizio e non costituiscono divieti universali.#sito([Government Digital Service, capitalisation.], "https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/style-guides/a-to-z-style-guide/#capitalisation")
 
 Anche grassetto e corsivo funzionano meglio quando hanno *un compito definito*. Se quasi tutto il testo è marcato come importante, l’enfasi perde capacità di distinguere. Un peso molto scuro può chiudere alcuni spazi interni in piccolo; un corsivo usato per molte righe può assumere una voce diversa dal corpo. Non significa che queste scelte siano sbagliate in assoluto: richiedono una prova nell’estensione e nella misura previste.
 
 Prima di aumentare il peso, decidi quale informazione debba essere ritrovata. Nel campione la domanda è: «Fino a che ora resta valida la prenotazione?». Confronta il paragrafo tutto in grassetto con quello che marca solo «fino alle 18»: osserva quale differenza segnala la scadenza. Per un compito diverso potrebbe servire un’altra enfasi. Nella @fig-tipo-352 cambia soltanto l’estensione del grassetto.
 
-Nel testo continuo, convenzioni stabili aiutano il lettore a riconoscere i segnali: una citazione, un titolo d’opera o un richiamo non dovrebbero cambiare trattamento senza ragione. L’enfasi può essere sobria oppure intensa, purché conservi la possibilità di leggere il contenuto e distinguere ciò che conta. Se le marcature non aiutano il compito previsto, riducile o cambia quali parole metti in evidenza @t06-carbon2026.#sito([IBM (2026), stili tipografici.], "https://www.carbondesignsystem.com/building-blocks/foundations/typography/type-sets")
+Nel testo continuo, convenzioni stabili aiutano il lettore a riconoscere i segnali: una citazione, un titolo d’opera o un richiamo non dovrebbero cambiare trattamento senza ragione. L’enfasi può essere sobria oppure intensa, purché conservi la possibilità di leggere il contenuto e distinguere ciò che conta. Se le marcature non aiutano il compito previsto, riducile o cambia quali parole metti in evidenza.#sito([IBM (2026), stili tipografici.], "https://www.carbondesignsystem.com/building-blocks/foundations/typography/type-sets")
 
 #enfasi()
 
@@ -3130,7 +3152,7 @@ Un testo sottile e molto chiaro può sembrare delicato nel campione ingrandito e
 
 Per il testo web ordinario, WCAG 1.4.3, livello AA, richiede almeno 4,5:1 fra testo e sfondo; per il testo grande, almeno 3:1. Grande significa almeno 18 punti, oppure 14 punti in grassetto, con le equivalenze previste per altre scritture. Il valore calcolato deve raggiungere la soglia prima dell’arrotondamento. Il rapporto è una verifica necessaria nei casi a cui si applica, ma non esaurisce la qualità della resa: corpo minuto e tratti fragili restano problemi da osservare @t06-wcag2024.#sito([W3C (2024), WCAG 1.4.3 (AA).], "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html")
 
-Dentro un paragrafo, la sottolineatura offre un segnale riconoscibile anche senza distinguere le tinte. Se si sceglie di ometterla, non basta un blu diverso: la tecnica W3C G183 usa almeno 3:1 fra collegamento e testo circostante. È un confronto distinto da quello fra testo e sfondo, che per il testo web ordinario deve comunque raggiungere 4,5:1. La sottolineatura va collocata con attenzione, così da non confondersi con i discendenti delle lettere. La @fig-tipo-353 mostra due modi di segnalare il medesimo collegamento @t06-w3c-g183.#nota-compatta([W3C, tecnica G183: contrasto fra link e testo circostante. W3C, Understanding Use of Color, 1.4.1 (A).], ("https://www.w3.org/WAI/WCAG22/Techniques/general/G183", "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html"))
+Dentro un paragrafo, la sottolineatura offre un segnale riconoscibile anche senza distinguere le tinte. Se si sceglie di ometterla, non basta un blu diverso: la tecnica W3C G183 usa almeno 3:1 fra collegamento e testo circostante. È un confronto distinto da quello fra testo e sfondo, che per il testo web ordinario deve comunque raggiungere 4,5:1. La sottolineatura va collocata con attenzione, così da non confondersi con i discendenti delle lettere. La @fig-tipo-353 mostra due modi di segnalare il medesimo collegamento.#nota-compatta([W3C, tecnica G183: contrasto fra link e testo circostante. W3C, Understanding Use of Color, 1.4.1 (A).], ("https://www.w3.org/WAI/WCAG22/Techniques/general/G183", "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html"))
 
 Scegli parole che facciano capire che cosa si troverà seguendo il collegamento. Quando serve il contesto, deve essere associato al link anche nella struttura della pagina, per esempio nello stesso paragrafo. Un’etichetta comprensibile da sola rimane una scelta utile quando possibile @t06-wcag2024.#sito([W3C, Link Purpose (In Context), 2.4.4 (A).], "https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html")
 
@@ -3150,7 +3172,7 @@ Le proporzioni del fallback possono *cambiare i ritorni a capo* e l’ingombro d
 
 Distribuisci gli stili e i repertori necessari, conservando anche i segni dei contenuti futuri prevedibili e le funzioni tipografiche richieste. Togliere accenti o simboli per ridurre i file può provocare sostituzioni nelle parole. Un font variabile riunisce più varianti, ma non è sempre più leggero di un singolo stile statico: confronta formati, repertori e stili che il progetto consegnerà davvero.
 
-Controlla anche la licenza: usare un font sul computer o incorporarlo in un documento non implica automaticamente il diritto di distribuirlo con un’applicazione o servirlo dal sito. DM Sans e Sora, per esempio, sono distribuiti con la SIL Open Font License, che permette l’uso come webfont rispettandone le condizioni. La FAQ Microsoft riguarda invece i font forniti con Windows. Identifica file e versione e conserva la licenza applicabile: le condizioni di un font non si trasferiscono a un altro @t06-ofl2007.#sito([SIL International, OFL FAQ: uso web.], "https://openfontlicense.org/ofl-faq/#2-using-ofl-fonts-for-webpages-and-online-webfont-services") @t06-font-redistribution.#sito([Microsoft, Font redistribution FAQ.], "https://learn.microsoft.com/en-us/typography/fonts/font-faq")
+Controlla anche la licenza: usare un font sul computer o incorporarlo in un documento non implica automaticamente il diritto di distribuirlo con un’applicazione o servirlo dal sito. DM Sans e Sora, per esempio, sono distribuiti con la SIL Open Font License, che permette l’uso come webfont rispettandone le condizioni. La FAQ Microsoft riguarda invece i font forniti con Windows. Identifica file e versione e conserva la licenza applicabile: le condizioni di un font non si trasferiscono a un altro @t06-ofl2007.#sito([SIL International, OFL FAQ: uso web.], "https://openfontlicense.org/ofl-faq/#2-using-ofl-fonts-for-webpages-and-online-webfont-services").#sito([Microsoft, Font redistribution FAQ.], "https://learn.microsoft.com/en-us/typography/fonts/font-faq")
 
 #fallback()
 
@@ -3203,7 +3225,7 @@ La regola \@font-face associa un nome a una risorsa; font-family lo richiama nel
 
 === Scegliere il font disponibile
 
-font-family è una lista di priorità, non la promessa che tutto il testo userà una sola famiglia. Se il font manca o non contiene un segno, il browser cerca un’alternativa. Chiudi la lista con una famiglia generica, come sans-serif: il suo risultato dipende dal dispositivo @t06-font-family.#nota-compatta([MDN, font-family.], "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-family")
+font-family è una lista di priorità, non la promessa che tutto il testo userà una sola famiglia. Se il font manca o non contiene un segno, il browser cerca un’alternativa. Chiudi la lista con una famiglia generica, come sans-serif: il suo risultato dipende dal dispositivo.#nota-compatta([MDN, font-family.], "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-family")
 
 font-display regola che cosa accade durante l’attesa. Con swap il font può sostituire quello di riserva quando diventa disponibile; fallback e optional limitano questa possibilità. Non rendono il file più veloce. Una sostituzione può cambiare i ritorni a capo: la @fig-tipo-354 mostra già questo effetto fra DM Sans e Sora @t06-css-fonts2026.#sito([W3C (2026), CSS Fonts 4, Working Draft: font-display.], "https://www.w3.org/TR/css-fonts-4/#font-display-desc")
 

@@ -1,0 +1,316 @@
+{
+  "schema": "cvedi-booklet-accessibilita-vettoriale/v1",
+  "data": "2026-10-25",
+  "ambito": "17 confronti simulati in 34 pannelli SVG; schema dei bersagli nativo Typst e SVG autonomo.",
+  "contenuti": {
+    "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/contenuti.json",
+    "sha256": "ecd138fa7701a2ee0066e7691f47b74ac1eb33f0c1657f86779902aba05e47aa"
+  },
+  "renderer": {
+    "percorso": "progetti/booklet/template/schemi-accessibilita.typ",
+    "sha256": "9b170006bf234adf508c30925e0a81df9bdaa72ebe9a9488042586e01862d10a"
+  },
+  "esportatore": {
+    "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/esporta.typ",
+    "sha256": "4c74a7f72da1bc1fe2140cd35a7b97745d3d8d2cc25da35aa664de85e74fae20"
+  },
+  "generatore": "progetti/booklet/scripts/prepara-schemi-accessibilita.py",
+  "font": {
+    "percorso": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+    "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+    "licenza_id": "dm-sans-ofl-1.1",
+    "famiglia": "DM Sans",
+    "peso": "400–700"
+  },
+  "resa": "Geometrie e contorni autentici dei glifi esportati da Typst. Nessuna immagine incorporata, nessun filtro o testo HTML.",
+  "conservazione": "Raster e SVG precedenti restano integri nei percorsi condivisi e con i rispettivi manifest.",
+  "palette": {
+    "capitolo": "amber 300 #FFD230",
+    "inchiostro": "#2E3138",
+    "errore": "#C10007",
+    "guida_bersagli": "#973C00"
+  },
+  "fonte_bersagli": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+  "asset": [
+    {
+      "nome": "bersagli",
+      "variante": "barriera",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/bersagli.svg",
+      "sha256": "363511792e5be1e87808c7b094ceb905ea429e694da3f12c6db71d5a7939ed1d",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/dimensioni-e-spaziatura-bersagli.svg",
+      "sha256_originale": "02eb0fe66fd6e749e93bd221c5b3da8b8e1cbefee158a605a39506ac8dc7be16"
+    },
+    {
+      "nome": "contrasto-testo",
+      "variante": "barriera",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/contrasto-testo-barriera.svg",
+      "sha256": "0d2a658369068afb66157e5cea58d977c639fa71afb3fa9bff833dfb2a4e2832",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/contrasto-testo-barriera.png",
+      "sha256_originale": "10a0d31a0b5f2756ff654f24a8497b19b36c2b671aa9f426e391caaf6eb6ba78"
+    },
+    {
+      "nome": "contrasto-testo",
+      "variante": "scelte",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/contrasto-testo-scelte.svg",
+      "sha256": "c82e303d22c8f54efda7af9f53e55dcc726ad2c4b5b0fd809cafdcb69d7c301e",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/contrasto-testo-scelte.png",
+      "sha256_originale": "225fe9c168241a7927e655c5c07013e3950338e372cf09e5326189c90ff8f9e0"
+    },
+    {
+      "nome": "contrasto-controlli",
+      "variante": "barriera",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/contrasto-controlli-barriera.svg",
+      "sha256": "596dd03d02f3536e0a403ba224b97936ed02da78f3cd1cbdfc739d4fc5854470",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/contrasto-controlli-barriera.png",
+      "sha256_originale": "c3924f87712967380e49c8e7834ebfdfb174ada735933500c6b818eea14e920b"
+    },
+    {
+      "nome": "contrasto-controlli",
+      "variante": "scelte",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/contrasto-controlli-scelte.svg",
+      "sha256": "99089a454289fc73cf5aa1320aa899d7e2783d883136b6aa13be30f9572e5afa",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/contrasto-controlli-scelte.png",
+      "sha256_originale": "4c30287d9fc70c5d582717878eb5d8b1c6c8a6f17a34d5cc54d9c0adea4ddc4a"
+    },
+    {
+      "nome": "adattamento",
+      "variante": "barriera",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/adattamento-barriera.svg",
+      "sha256": "af4b928aced64618febe4e7bd9595954ee1dca3e66db19f138ff16271c9e7d04",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/adattamento-barriera.png",
+      "sha256_originale": "ca2cd5d9964403791f9f252e912345dda01eac2f416dd967a7079661396aee4c"
+    },
+    {
+      "nome": "adattamento",
+      "variante": "scelte",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/adattamento-scelte.svg",
+      "sha256": "b05faeb5c90d37a9e64c75c54bf646c4ccf6e17399ca6873347b87fa1f9d5d7d",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/adattamento-scelte.png",
+      "sha256_originale": "d425e1100789bbd4dd718f3128722fc9ebf66928f8db34783d55688ab2fda2cd"
+    },
+    {
+      "nome": "tastiera",
+      "variante": "barriera",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/tastiera-barriera.svg",
+      "sha256": "0fa48f857dace126369d41631dc51a4b06a3e102d4f801c9ce2caa00a70dc4bd",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/tastiera-barriera.png",
+      "sha256_originale": "48750b02a4755c9765ef4182f53f011cd5e27457df0e18c9d78c485b30cbe0c4"
+    },
+    {
+      "nome": "tastiera",
+      "variante": "scelte",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/tastiera-scelte.svg",
+      "sha256": "785fcbad6903c03380579145cc0996418370127410aad7e386167dcad5c0ca47",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/tastiera-scelte.png",
+      "sha256_originale": "b3994f9b86ae4ac7172ee97f7c42905cb6197ca3754eff2b808f093204f19d0d"
+    },
+    {
+      "nome": "puntamento",
+      "variante": "barriera",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/puntamento-barriera.svg",
+      "sha256": "7d1bf1c872bfa85ce08dfb18b02f2fcee3c522c795a8a356494853a336e54917",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/puntamento-barriera.png",
+      "sha256_originale": "707435f1172f6d03c373a7dd072a56fac22003409672d8133eb8fac9b219313e"
+    },
+    {
+      "nome": "puntamento",
+      "variante": "scelte",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/puntamento-scelte.svg",
+      "sha256": "e4b279f18d245313aad20d808aef4c82ef3f00b2e0fce1e6117830c6a0f6959a",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/puntamento-scelte.png",
+      "sha256_originale": "a12b45b5787ecb4083636ffef30b212496a116c5a392c9356a808f4c4e1f3a0d"
+    },
+    {
+      "nome": "immagini",
+      "variante": "barriera",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/immagini-barriera.svg",
+      "sha256": "da624115c761b6a1bd22e9516c861a1db6a85b748037560b4e66005be59fd7d6",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/immagini-barriera.png",
+      "sha256_originale": "5fd378faf2d2634333d7256dfc91cc24fd215997df42f0926a05336c93d0800f"
+    },
+    {
+      "nome": "immagini",
+      "variante": "scelte",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/immagini-scelte.svg",
+      "sha256": "41fc599ae0c2b821e01a2a828c9cdc7bf38bc5df1114f39aceedcaec001e8332",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/immagini-scelte.png",
+      "sha256_originale": "3952109172c67ee266b952935f8eb51163142dfc59ef1be1a1c17dabdebe3fdf"
+    },
+    {
+      "nome": "media",
+      "variante": "barriera",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/media-barriera.svg",
+      "sha256": "f83158ae6ab28e959b738b56d0d2009b01435a8de26891cebcf278135998e702",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/media-barriera.png",
+      "sha256_originale": "c7a46e136e8c7d2d0b4911520ec5dee2c311f4db30b98ab7e1c2d55f63508803"
+    },
+    {
+      "nome": "media",
+      "variante": "scelte",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/media-scelte.svg",
+      "sha256": "2a8a54db7204647cd0402821ce73f2dadcde2d427ace1afa9834cf485a07d2c3",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/media-scelte.png",
+      "sha256_originale": "9daf160b23dfdf23501c7666ab39339b620f40e155c0064231496808312ce703"
+    },
+    {
+      "nome": "semantica",
+      "variante": "barriera",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/semantica-barriera.svg",
+      "sha256": "ea8638b4cc779e45459db9e85971bcae197291af8b305a9a58383e575a83c399",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/semantica-barriera.png",
+      "sha256_originale": "e56bf57084cab75166affa2bc5c9e04030c3f7cb2c3df53f51feb28f764b9d83"
+    },
+    {
+      "nome": "semantica",
+      "variante": "scelte",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/semantica-scelte.svg",
+      "sha256": "a5ab64cfa7595a53b53fbb9dd824a815cfdc1386272ee86be9d6ccc379688d5b",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/semantica-scelte.png",
+      "sha256_originale": "7ae5e6ae9fee73b01702964544248bdbb49a189f9a60599216286e59e2811cc1"
+    },
+    {
+      "nome": "feedback",
+      "variante": "barriera",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/feedback-barriera.svg",
+      "sha256": "dcd597e7938ca0c96707b4e53fb51e39abf9a3ce57d2a32abe801679bca60461",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/feedback-barriera.png",
+      "sha256_originale": "3991e9d0c9b5caaf718b802308c461d9fc9061defbf12104fc534deb10cdd6ae"
+    },
+    {
+      "nome": "feedback",
+      "variante": "scelte",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/feedback-scelte.svg",
+      "sha256": "8dafbd7a8a2e710677f3104a2a090f4906bde57d042b45f1411e07fed3b1b8e7",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/feedback-scelte.png",
+      "sha256_originale": "0c3bb5f05c02c7905192e20e7461bd4423411843ad3ff5587587fa3fc709d5af"
+    },
+    {
+      "nome": "cognitiva",
+      "variante": "barriera",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/cognitiva-barriera.svg",
+      "sha256": "49dcf34378697e6dc009cac26097051520031e1f4473f7680adedcc9b63ddb86",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/cognitiva-barriera.png",
+      "sha256_originale": "a6f0779505c3382c8ac4facb3fe342b18c56627374e9e092b0aa3d951bc10c2b"
+    },
+    {
+      "nome": "cognitiva",
+      "variante": "scelte",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/cognitiva-scelte.svg",
+      "sha256": "352ce4c75854bfec16a2d7186f74d6945aad85015ed93f9a5a89c69a54ce271a",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/cognitiva-scelte.png",
+      "sha256_originale": "f7d652b12ce0a7c5475dd459d75680a85386cddef26100e5b7fe0f3ea5aa09b4"
+    },
+    {
+      "nome": "movimento",
+      "variante": "barriera",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/movimento-barriera.svg",
+      "sha256": "98d311fdc607244a039b580193c65a3d811f4be635870b6b5e4d2ae9f2845e1b",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/movimento-barriera.png",
+      "sha256_originale": "198851953f82fd0f1ad7ab03f7146fd825ea7af5f8349ae968cb91f8d1c0984f"
+    },
+    {
+      "nome": "movimento",
+      "variante": "scelte",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/movimento-scelte.svg",
+      "sha256": "f6076974d8922c900b588a2c01161e056f26f18301e66c7dd9fc189694a922b7",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/movimento-scelte.png",
+      "sha256_originale": "6c22ae1cbb20baca0c32fcf21421491b7152c56ef252e942ad12630c703c77f8"
+    },
+    {
+      "nome": "moduli",
+      "variante": "barriera",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/moduli-barriera.svg",
+      "sha256": "863103bac1cbf78b59985f1086d0429891b1975ca77ef63b096d7aaaf2f9051f",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/moduli-barriera.png",
+      "sha256_originale": "7dd0c20af402b351a1bb141c46c6fc832d7fe2d0888d8b9a1cbc9a33cf32830e"
+    },
+    {
+      "nome": "moduli",
+      "variante": "scelte",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/moduli-scelte.svg",
+      "sha256": "882670e205253cb425c1141454a4f1ae8351da3acaa316a61f47f3392e6be4d6",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/moduli-scelte.png",
+      "sha256_originale": "9deb70fb3f51fb08cb4bcc569f16251a34350a2f42971a1184f46353e7e9e605"
+    },
+    {
+      "nome": "autenticazione",
+      "variante": "barriera",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/autenticazione-barriera.svg",
+      "sha256": "2e28e25f063b45b2c495bd4556f58bcad26a6048fb19a4287ea01e8b5b493437",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/autenticazione-barriera.png",
+      "sha256_originale": "2024bb01e1aa2c13f5de9d95c4fe31df14b4be841aa702fa65e38f5b0e265481"
+    },
+    {
+      "nome": "autenticazione",
+      "variante": "scelte",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/autenticazione-scelte.svg",
+      "sha256": "b4463497dacaac75f108117dd7dec6125c8bef7290e147bf022270b77de76839",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/autenticazione-scelte.png",
+      "sha256_originale": "e15b56eec9ca1bd1c15c6ce42f19078006d26132f104c36582b5f581ac2bd9e8"
+    },
+    {
+      "nome": "personalizzazione",
+      "variante": "barriera",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/personalizzazione-barriera.svg",
+      "sha256": "ff018e557dadf9fe15ec047657cf568861e24c5e8376e75af587b36e9c35e98d",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/personalizzazione-barriera.png",
+      "sha256_originale": "edbac01c6e58922b61b94575a3569b9e36e5e9be6567851479e2c8160866be2a"
+    },
+    {
+      "nome": "personalizzazione",
+      "variante": "scelte",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/personalizzazione-scelte.svg",
+      "sha256": "a98738fb9efab6e9eb362384d29295d22c85a3e45ee4887d488c59515c2a3d9c",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/personalizzazione-scelte.png",
+      "sha256_originale": "fdae94f3ce76611b187b41f8f9d7173d9a7c285b2c9bee8cc19046b1264ab997"
+    },
+    {
+      "nome": "lingua",
+      "variante": "barriera",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/lingua-barriera.svg",
+      "sha256": "a619f77039cc1e911501794c7dc0f14e0cbd20e550013cda35270dee99d81a68",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/lingua-barriera.png",
+      "sha256_originale": "ff7699e35344b940b2254215bd73b87cec8568fc044d46af4ba28cf5bd3d60b3"
+    },
+    {
+      "nome": "lingua",
+      "variante": "scelte",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/lingua-scelte.svg",
+      "sha256": "d77546c733d92ad28045f5b629870bf8e4059a9696d953ec06020405aa462c73",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/lingua-scelte.png",
+      "sha256_originale": "d29a3e8be929240dbaa89b116390edef45486a40ab6009d2f0eaed91fcf0632d"
+    },
+    {
+      "nome": "verifica-wcag",
+      "variante": "barriera",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/verifica-wcag-barriera.svg",
+      "sha256": "82f733680eaa8647174c968358c5fa497ea8786f6a5ba67f44e126b839cb53cf",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/verifica-wcag-barriera.png",
+      "sha256_originale": "d43b65758a436e344d68809485b14510886c229bbf45bc5377e39710c0aac0ed"
+    },
+    {
+      "nome": "verifica-wcag",
+      "variante": "scelte",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/verifica-wcag-scelte.svg",
+      "sha256": "5c933f4578e7a1d8afabb8cade934262fe483b8cc3f82644189e6aed60140f2f",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/verifica-wcag-scelte.png",
+      "sha256_originale": "d1501022c726e8a9b21e1cd7d1be71a7953a058fd4d8bead873e3288d61648ca"
+    },
+    {
+      "nome": "valutazione",
+      "variante": "barriera",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/valutazione-barriera.svg",
+      "sha256": "d16c48973adcb7050b23f9355ef5ff9d5b0f1e7014919befd31d488d5582e9b6",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/valutazione-barriera.png",
+      "sha256_originale": "a42c5e00ac6b23a4e68f79d5c05e5567d521cb94ce2a2f2e30f1e17ad2d0f5de"
+    },
+    {
+      "nome": "valutazione",
+      "variante": "scelte",
+      "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/svg/valutazione-scelte.svg",
+      "sha256": "0dbcaa5dd21ae2182cd027fa04607cc643f3616d78b6c1563a844a1655f62917",
+      "originale": "risorse-condivise/immagini/figure/accessibilita/valutazione-scelte.png",
+      "sha256_originale": "a80b5c01a7eef87e63165db2c30fc29aabeb3c6833462de97fe87cc742dadfc6"
+    }
+  ]
+}

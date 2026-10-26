@@ -1,0 +1,481 @@
+{
+  "schema": "cvedi-booklet-illustrazioni-palette/v1",
+  "data": "2026-10-25",
+  "stato": "attivo-nel-booklet",
+  "strumento": "image_gen.imagegen built-in",
+  "ambito": "Sei sorgenti raster editoriali, diciassette immagini attive: a, tre scenari, mappa WCAG e dodici ritagli Persona Spectrum.",
+  "uso": "Solo booklet Typst, nel volume e nei capitoli autonomi.",
+  "palette": {
+    "03": "amber 300 #FFD230; accenti scuri per testi e connettori, inchiostro sui badge ambra",
+    "06": "green 300 #7BF1A8; mantenuti materiali e chiaroscuro della a"
+  },
+  "stile_omini": "Riferimento fornito dall’utente: teste senza lineamenti, contorni neri uniformi, forme e mani essenziali; conservati azioni e meccanismi didattici.",
+  "conservazione": "Originali precedenti, attribuzioni e licenze restano nei manifest condivisi. I sei nuovi originali sono copie byte per byte degli output ImageGen.",
+  "prompt": "prompts.json",
+  "riferimento_utente": {
+    "percorso": "progetti/booklet/assets/illustrazioni-palette-capitoli/riferimenti/stile-omini-utente.png",
+    "sha256": "c1adb640b342b06fa631916b5ba1b3f34e3dfd339ef94926e6031c7084dd60b7"
+  },
+  "fonti_precedenti": [
+    "risorse-condivise/immagini/figure/accessibilita/manifest.json",
+    "risorse-condivise/immagini/figure/tipografia/manifest.json"
+  ],
+  "asset": [
+    {
+      "id": "lettera-a-tridimensionale",
+      "capitolo": 6,
+      "accento": "#7BF1A8",
+      "percorso": "progetti/booklet/assets/illustrazioni-palette-capitoli/originali/lettera-a-tridimensionale.png",
+      "sha256": "76169e4e9691819ba87a7a3e5b771e7744adffe2212660ba53f45a4f7465828a",
+      "dimensioni_px": [
+        1213,
+        1296
+      ],
+      "byte": 1967551,
+      "originale_generato": "/Users/marco/.codex/generated_images/01a17517-18fb-7dd2-8845-17589832edb2/exec-323324c2-4fcd-4b9e-ae0b-d65cdc98613a.png",
+      "riferimento": "risorse-condivise/immagini/figure/tipografia/lettera-a-tridimensionale.png",
+      "sha256_riferimento": "4e63d9b77e6a5aecf4de9de4a3a7a5b9370204e437bcfbc14d69909f9237a7c5",
+      "dimensioni_riferimento_px": [
+        1213,
+        1297
+      ],
+      "prompt": "prompts.json#lettera-a-tridimensionale",
+      "verifica": {
+        "composizione": "ispezionata",
+        "colore_modale_cromatico_srgb": [
+          140,
+          238,
+          184
+        ],
+        "trasparenza": true
+      },
+      "profilo_alpha": "progetti/booklet/assets/illustrazioni-palette-capitoli/derivati/lettera-a-tridimensionale.json"
+    },
+    {
+      "id": "scenario-scegliere-colore",
+      "capitolo": 3,
+      "accento": "#FFD230",
+      "percorso": "progetti/booklet/assets/illustrazioni-palette-capitoli/originali/scenario-scegliere-colore.png",
+      "sha256": "55098bccb44fe2503510bb50d62062bae2ad01a3f5922d6399df82dc93cb29eb",
+      "dimensioni_px": [
+        1536,
+        1024
+      ],
+      "byte": 1220710,
+      "originale_generato": "/Users/marco/.codex/generated_images/01a17517-18fb-7dd2-8845-17589832edb2/exec-5a94e247-4c58-410f-b7af-105a72af9be8.png",
+      "riferimento": "risorse-condivise/immagini/figure/accessibilita/scenario-scegliere-colore.png",
+      "sha256_riferimento": "1be4403398e1ae079fd3621ce12c732677e8b00aa8db516bca20220875e492a8",
+      "dimensioni_riferimento_px": [
+        1536,
+        1024
+      ],
+      "prompt": "prompts.json#scenario-scegliere-colore",
+      "verifica": {
+        "composizione": "ispezionata",
+        "colore_modale_cromatico_srgb": [
+          254,
+          205,
+          37
+        ],
+        "trasparenza": false
+      },
+      "riferimento_stile": "progetti/booklet/assets/illustrazioni-palette-capitoli/riferimenti/stile-omini-utente.png"
+    },
+    {
+      "id": "scenario-usare-tastiera",
+      "capitolo": 3,
+      "accento": "#FFD230",
+      "percorso": "progetti/booklet/assets/illustrazioni-palette-capitoli/originali/scenario-usare-tastiera.png",
+      "sha256": "71aa7bb10079ff3ba07b900c5b1778c7e1ff9c7733fc2dc907d6c28ddb8e23c5",
+      "dimensioni_px": [
+        1536,
+        1024
+      ],
+      "byte": 1371121,
+      "originale_generato": "/Users/marco/.codex/generated_images/01a17517-18fb-7dd2-8845-17589832edb2/exec-0441f24b-588a-4a45-b7da-0c8f4a7414db.png",
+      "riferimento": "risorse-condivise/immagini/figure/accessibilita/scenario-usare-tastiera.png",
+      "sha256_riferimento": "07cd3815700d2f58aaeb091b897498e718bea0f4229db276f4654132b71dd367",
+      "dimensioni_riferimento_px": [
+        1536,
+        1024
+      ],
+      "prompt": "prompts.json#scenario-usare-tastiera",
+      "verifica": {
+        "composizione": "ispezionata",
+        "colore_modale_cromatico_srgb": [
+          254,
+          205,
+          41
+        ],
+        "trasparenza": false
+      },
+      "riferimento_stile": "progetti/booklet/assets/illustrazioni-palette-capitoli/riferimenti/stile-omini-utente.png"
+    },
+    {
+      "id": "scenario-seguire-lezione",
+      "capitolo": 3,
+      "accento": "#FFD230",
+      "percorso": "progetti/booklet/assets/illustrazioni-palette-capitoli/originali/scenario-seguire-lezione.png",
+      "sha256": "c1c0d1e3c18c6db61f745eaa78642f1ac048a0b746b062da5d53b16bb0adff71",
+      "dimensioni_px": [
+        1536,
+        1024
+      ],
+      "byte": 1437751,
+      "originale_generato": "/Users/marco/.codex/generated_images/01a17517-18fb-7dd2-8845-17589832edb2/exec-0edb382e-b6be-4ad0-92b9-2cdbfa613682.png",
+      "riferimento": "risorse-condivise/immagini/figure/accessibilita/scenario-seguire-lezione.png",
+      "sha256_riferimento": "a9a08a01e4582fa99ac79b90e26538040b6ea4c4c06d6bba2fdafe91691775eb",
+      "dimensioni_riferimento_px": [
+        1536,
+        1024
+      ],
+      "prompt": "prompts.json#scenario-seguire-lezione",
+      "verifica": {
+        "composizione": "ispezionata",
+        "colore_modale_cromatico_srgb": [
+          254,
+          203,
+          38
+        ],
+        "trasparenza": false
+      },
+      "riferimento_stile": "progetti/booklet/assets/illustrazioni-palette-capitoli/riferimenti/stile-omini-utente.png"
+    },
+    {
+      "id": "persona-spectrum-atlas",
+      "capitolo": 3,
+      "accento": "#FFD230",
+      "percorso": "progetti/booklet/assets/illustrazioni-palette-capitoli/originali/persona-spectrum-atlas.png",
+      "sha256": "46bf1a14ba7f901c552a4301ef84984beb7d20595cb7014cf1f91b5a9381fbbb",
+      "dimensioni_px": [
+        1086,
+        1448
+      ],
+      "byte": 1591964,
+      "originale_generato": "/Users/marco/.codex/generated_images/01a17517-18fb-7dd2-8845-17589832edb2/exec-3f698e20-5937-4ebd-b462-d2616295f65a.png",
+      "riferimento": "risorse-condivise/fonti/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
+      "sha256_riferimento": "9f0f4fcf042a65d4f9b075f296bdfc035b91429e98458b0a7040fd846e55a3b7",
+      "dimensioni_riferimento_px": [
+        1086,
+        1448
+      ],
+      "prompt": "prompts.json#persona-spectrum-atlas",
+      "verifica": {
+        "composizione": "ispezionata",
+        "colore_modale_cromatico_srgb": [
+          254,
+          207,
+          44
+        ],
+        "trasparenza": false
+      },
+      "ritagli": "derivati/ritagli-persona-spectrum.json"
+    },
+    {
+      "id": "mappa-wcag-2.2",
+      "capitolo": 3,
+      "accento": "#FFD230",
+      "percorso": "progetti/booklet/assets/illustrazioni-palette-capitoli/originali/mappa-wcag-2.2.png",
+      "sha256": "9cb8c3005f0bca2c44fbfeb08dd41d25a49206102c91f6e3084fcaa07790bf50",
+      "dimensioni_px": [
+        1054,
+        1492
+      ],
+      "byte": 2021367,
+      "originale_generato": "/Users/marco/.codex/generated_images/01a17517-18fb-7dd2-8845-17589832edb2/exec-1b806cc1-2cea-4360-ac0a-b3e3331994eb.png",
+      "riferimento": "risorse-condivise/immagini/figure/accessibilita/mappa-wcag-2.2.png",
+      "sha256_riferimento": "4f7015fabb341a84e53cd30eadbb0858f29d315fef5f60cec18d7defe46af521",
+      "dimensioni_riferimento_px": [
+        1054,
+        1492
+      ],
+      "prompt": "prompts.json#mappa-wcag-2.2",
+      "verifica": {
+        "composizione": "ispezionata",
+        "colore_modale_cromatico_srgb": [
+          254,
+          203,
+          45
+        ],
+        "trasparenza": false
+      },
+      "diritti": "Intopia e Sketch Group; traduzione Roberto Scano; rielaborazione. CC BY-SA 4.0. Attribuzione della fonte conservata nel capitolo."
+    },
+    {
+      "id": "persona-spectrum-1-1",
+      "capitolo": 3,
+      "accento": "#FFD230",
+      "percorso": "progetti/booklet/assets/illustrazioni-palette-capitoli/derivati/persona-spectrum-1-1.png",
+      "sha256": "324534a2c4b62fa34025a6c75b7b6750d82ae4ce0552e8421dc38c2281a63853",
+      "dimensioni_px": [
+        265,
+        320
+      ],
+      "riferimento": "risorse-condivise/immagini/figure/accessibilita/persona-spectrum-1-1.png",
+      "sha256_riferimento": "28fec90ddaca1e7d0e47517b235268513b1c9cf9e3f396f6faa50373e2513c43",
+      "derivazione": {
+        "atlas": "progetti/booklet/assets/illustrazioni-palette-capitoli/originali/persona-spectrum-atlas.png",
+        "ritaglio_pixel": [
+          65,
+          45,
+          330,
+          365
+        ],
+        "strumento": "sips; cella ampliata per conservare interamente silhouette, bastone e onde sonore, nessuna riscrittura del disegno"
+      }
+    },
+    {
+      "id": "persona-spectrum-1-2",
+      "capitolo": 3,
+      "accento": "#FFD230",
+      "percorso": "progetti/booklet/assets/illustrazioni-palette-capitoli/derivati/persona-spectrum-1-2.png",
+      "sha256": "ef474442778cbc052b14e8d6b3c24c8c496b318f17349554e42caba874d6011b",
+      "dimensioni_px": [
+        260,
+        320
+      ],
+      "riferimento": "risorse-condivise/immagini/figure/accessibilita/persona-spectrum-1-2.png",
+      "sha256_riferimento": "939b798a1af95cb2e9fc32e55023e707eda6982cb68677ee9dbe1a3f0bc8384f",
+      "derivazione": {
+        "atlas": "progetti/booklet/assets/illustrazioni-palette-capitoli/originali/persona-spectrum-atlas.png",
+        "ritaglio_pixel": [
+          420,
+          45,
+          680,
+          365
+        ],
+        "strumento": "sips; cella ampliata per conservare interamente silhouette, bastone e onde sonore, nessuna riscrittura del disegno"
+      }
+    },
+    {
+      "id": "persona-spectrum-1-3",
+      "capitolo": 3,
+      "accento": "#FFD230",
+      "percorso": "progetti/booklet/assets/illustrazioni-palette-capitoli/derivati/persona-spectrum-1-3.png",
+      "sha256": "6cb86287089ee936bc5249e74a31a2a525113e9379fb70f0d19868c5bf2148c4",
+      "dimensioni_px": [
+        285,
+        320
+      ],
+      "riferimento": "risorse-condivise/immagini/figure/accessibilita/persona-spectrum-1-3.png",
+      "sha256_riferimento": "dd5b0ebb0297018ce3845e9d0660bfbd24fe09dc900c46fbf8613f5250f51ca1",
+      "derivazione": {
+        "atlas": "progetti/booklet/assets/illustrazioni-palette-capitoli/originali/persona-spectrum-atlas.png",
+        "ritaglio_pixel": [
+          740,
+          45,
+          1025,
+          365
+        ],
+        "strumento": "sips; cella ampliata per conservare interamente silhouette, bastone e onde sonore, nessuna riscrittura del disegno"
+      }
+    },
+    {
+      "id": "persona-spectrum-2-1",
+      "capitolo": 3,
+      "accento": "#FFD230",
+      "percorso": "progetti/booklet/assets/illustrazioni-palette-capitoli/derivati/persona-spectrum-2-1.png",
+      "sha256": "7f6b3a4758f16ab02dd5f832b8a9130d15b3e33913fa0b59ee3a6c10e4c66b8d",
+      "dimensioni_px": [
+        265,
+        325
+      ],
+      "riferimento": "risorse-condivise/immagini/figure/accessibilita/persona-spectrum-2-1.png",
+      "sha256_riferimento": "a8ba781074ed3ed3f2a0eab6c624a867c23378c4fe59bddebbffc302ae8dd688",
+      "derivazione": {
+        "atlas": "progetti/booklet/assets/illustrazioni-palette-capitoli/originali/persona-spectrum-atlas.png",
+        "ritaglio_pixel": [
+          65,
+          375,
+          330,
+          700
+        ],
+        "strumento": "sips; cella ampliata per conservare interamente silhouette, bastone e onde sonore, nessuna riscrittura del disegno"
+      }
+    },
+    {
+      "id": "persona-spectrum-2-2",
+      "capitolo": 3,
+      "accento": "#FFD230",
+      "percorso": "progetti/booklet/assets/illustrazioni-palette-capitoli/derivati/persona-spectrum-2-2.png",
+      "sha256": "637ddb377bc22b0ac98b28ab35189601e50c05dd4f9b206b1cd418729ea3dc23",
+      "dimensioni_px": [
+        260,
+        325
+      ],
+      "riferimento": "risorse-condivise/immagini/figure/accessibilita/persona-spectrum-2-2.png",
+      "sha256_riferimento": "1f16a9c0433e267f7f68b8b2c73b92059201f7cbe0b1104c87291b4e790691b5",
+      "derivazione": {
+        "atlas": "progetti/booklet/assets/illustrazioni-palette-capitoli/originali/persona-spectrum-atlas.png",
+        "ritaglio_pixel": [
+          420,
+          375,
+          680,
+          700
+        ],
+        "strumento": "sips; cella ampliata per conservare interamente silhouette, bastone e onde sonore, nessuna riscrittura del disegno"
+      }
+    },
+    {
+      "id": "persona-spectrum-2-3",
+      "capitolo": 3,
+      "accento": "#FFD230",
+      "percorso": "progetti/booklet/assets/illustrazioni-palette-capitoli/derivati/persona-spectrum-2-3.png",
+      "sha256": "29e720bc4a42da000ba34330bdff75c49bed1f405418e44f1c6afff8a16731af",
+      "dimensioni_px": [
+        285,
+        325
+      ],
+      "riferimento": "risorse-condivise/immagini/figure/accessibilita/persona-spectrum-2-3.png",
+      "sha256_riferimento": "e814faba8b57daec837d974063aa73770935c3755d644c8f15ef5269b5510bf6",
+      "derivazione": {
+        "atlas": "progetti/booklet/assets/illustrazioni-palette-capitoli/originali/persona-spectrum-atlas.png",
+        "ritaglio_pixel": [
+          740,
+          375,
+          1025,
+          700
+        ],
+        "strumento": "sips; cella ampliata per conservare interamente silhouette, bastone e onde sonore, nessuna riscrittura del disegno"
+      }
+    },
+    {
+      "id": "persona-spectrum-3-1",
+      "capitolo": 3,
+      "accento": "#FFD230",
+      "percorso": "progetti/booklet/assets/illustrazioni-palette-capitoli/derivati/persona-spectrum-3-1.png",
+      "sha256": "6f548369fb312ff6e3f7494c752fd53e4fe6705fdd37376fe399f241688f69ef",
+      "dimensioni_px": [
+        265,
+        320
+      ],
+      "riferimento": "risorse-condivise/immagini/figure/accessibilita/persona-spectrum-3-1.png",
+      "sha256_riferimento": "35aaa6aa2a31c5cbc4582b846482dba55de611b596ec2bea2f742fb6c1f05afa",
+      "derivazione": {
+        "atlas": "progetti/booklet/assets/illustrazioni-palette-capitoli/originali/persona-spectrum-atlas.png",
+        "ritaglio_pixel": [
+          65,
+          725,
+          330,
+          1045
+        ],
+        "strumento": "sips; cella ampliata per conservare interamente silhouette, bastone e onde sonore, nessuna riscrittura del disegno"
+      }
+    },
+    {
+      "id": "persona-spectrum-3-2",
+      "capitolo": 3,
+      "accento": "#FFD230",
+      "percorso": "progetti/booklet/assets/illustrazioni-palette-capitoli/derivati/persona-spectrum-3-2.png",
+      "sha256": "05ddee150c2c23a859d9e3bfb12dbf6f4f3db02e421dc836a0fed47798beaeda",
+      "dimensioni_px": [
+        260,
+        320
+      ],
+      "riferimento": "risorse-condivise/immagini/figure/accessibilita/persona-spectrum-3-2.png",
+      "sha256_riferimento": "6c78e2c86bbe93991f2319ab3b615bceb8a8377760ce443750cf1211c31b9fb8",
+      "derivazione": {
+        "atlas": "progetti/booklet/assets/illustrazioni-palette-capitoli/originali/persona-spectrum-atlas.png",
+        "ritaglio_pixel": [
+          420,
+          725,
+          680,
+          1045
+        ],
+        "strumento": "sips; cella ampliata per conservare interamente silhouette, bastone e onde sonore, nessuna riscrittura del disegno"
+      }
+    },
+    {
+      "id": "persona-spectrum-3-3",
+      "capitolo": 3,
+      "accento": "#FFD230",
+      "percorso": "progetti/booklet/assets/illustrazioni-palette-capitoli/derivati/persona-spectrum-3-3.png",
+      "sha256": "8f77f32b4b5fde6177fb9d0c335adbf42bf36476802280062d8094d55af092d4",
+      "dimensioni_px": [
+        285,
+        320
+      ],
+      "riferimento": "risorse-condivise/immagini/figure/accessibilita/persona-spectrum-3-3.png",
+      "sha256_riferimento": "fe5aaae930e8b4b9e564959d530d8721305f5ec5445a1b6d0a7ab7cc2470ea58",
+      "derivazione": {
+        "atlas": "progetti/booklet/assets/illustrazioni-palette-capitoli/originali/persona-spectrum-atlas.png",
+        "ritaglio_pixel": [
+          740,
+          725,
+          1025,
+          1045
+        ],
+        "strumento": "sips; cella ampliata per conservare interamente silhouette, bastone e onde sonore, nessuna riscrittura del disegno"
+      }
+    },
+    {
+      "id": "persona-spectrum-4-1",
+      "capitolo": 3,
+      "accento": "#FFD230",
+      "percorso": "progetti/booklet/assets/illustrazioni-palette-capitoli/derivati/persona-spectrum-4-1.png",
+      "sha256": "d196b24fa1521048de91fe3a1bce29ef7729596d7461c63097f177b5dbeb55b4",
+      "dimensioni_px": [
+        265,
+        321
+      ],
+      "riferimento": "risorse-condivise/immagini/figure/accessibilita/persona-spectrum-4-1.png",
+      "sha256_riferimento": "2ecad5ec885271d726f79e02a4edd25f9e1641c00ab518055927dd5a1970cb97",
+      "derivazione": {
+        "atlas": "progetti/booklet/assets/illustrazioni-palette-capitoli/originali/persona-spectrum-atlas.png",
+        "ritaglio_pixel": [
+          65,
+          1054,
+          330,
+          1375
+        ],
+        "strumento": "sips; cella ampliata per conservare interamente silhouette, bastone e onde sonore, nessuna riscrittura del disegno"
+      }
+    },
+    {
+      "id": "persona-spectrum-4-2",
+      "capitolo": 3,
+      "accento": "#FFD230",
+      "percorso": "progetti/booklet/assets/illustrazioni-palette-capitoli/derivati/persona-spectrum-4-2.png",
+      "sha256": "6058e20676bcc31f1e54bcdd7f001f2bda9e91755eedc104512c193797298982",
+      "dimensioni_px": [
+        260,
+        321
+      ],
+      "riferimento": "risorse-condivise/immagini/figure/accessibilita/persona-spectrum-4-2.png",
+      "sha256_riferimento": "880d99807f49a19e927dba7ec31ddc113fa79cc55847308816693c0ee96cc1ae",
+      "derivazione": {
+        "atlas": "progetti/booklet/assets/illustrazioni-palette-capitoli/originali/persona-spectrum-atlas.png",
+        "ritaglio_pixel": [
+          420,
+          1054,
+          680,
+          1375
+        ],
+        "strumento": "sips; cella ampliata per conservare interamente silhouette, bastone e onde sonore, nessuna riscrittura del disegno"
+      }
+    },
+    {
+      "id": "persona-spectrum-4-3",
+      "capitolo": 3,
+      "accento": "#FFD230",
+      "percorso": "progetti/booklet/assets/illustrazioni-palette-capitoli/derivati/persona-spectrum-4-3.png",
+      "sha256": "64d78f28888b598e6a85c8e941a510c773c84bc5695abfb0647caf771931cf46",
+      "dimensioni_px": [
+        285,
+        321
+      ],
+      "riferimento": "risorse-condivise/immagini/figure/accessibilita/persona-spectrum-4-3.png",
+      "sha256_riferimento": "da079565a6828670b06ae5da8c429ab9280fef6467222cf7082d9a9d968b4f2a",
+      "derivazione": {
+        "atlas": "progetti/booklet/assets/illustrazioni-palette-capitoli/originali/persona-spectrum-atlas.png",
+        "ritaglio_pixel": [
+          740,
+          1054,
+          1025,
+          1375
+        ],
+        "strumento": "sips; cella ampliata per conservare interamente silhouette, bastone e onde sonore, nessuna riscrittura del disegno"
+      }
+    }
+  ]
+}

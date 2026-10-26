@@ -1,0 +1,62 @@
+{
+  "status": "riferimento-approvato-sostituito-da-vettoriale",
+  "date": "2026-10-25",
+  "tool": "image_gen.imagegen built-in",
+  "request": "Ripartire dal nuovo screenshot originale con soli aggiustamenti, conservando disposizione, bandiere circolari e curve puntinate.",
+  "chapter": "02 · Ricerca, persone e culture",
+  "dataVerification": "valori-verificati.json",
+  "prompt": "prompt.txt",
+  "palette": {
+    "paper": "#FFFFFF",
+    "ink": "#2E3138",
+    "score": "#CA3500",
+    "leaders": "#FFB86A",
+    "axis": "#626872"
+  },
+  "review": {
+    "labels": "Verificati visivamente tutti i nomi, i punteggi e le sei etichette della scala.",
+    "structure": "Disposizione originale conservata, sei bandiere circolari, sei curve e una scala comune. Malesia e Slovacchia condividono la destinazione 100.",
+    "production": "Proposta raster. Dettagli delle bandiere, font e campiture sono generati; le fonti originali e il componente nativo restano conservati."
+  },
+  "files": [
+    {
+      "file": "schema-pdi-rifinito-v4.png",
+      "sha256": "e4e88bf7dcc46d82fb332455c8562b05a4b9234c2d8669764981a1b2d46a25a5",
+      "dimensions": [
+        1644,
+        957
+      ]
+    },
+    {
+      "file": "riferimento-utente.png",
+      "sha256": "dea524709e58600aa2d9176bef3ed552a4c9727cc019488dc9cc84210c34083b",
+      "dimensions": [
+        1052,
+        612
+      ]
+    }
+  ],
+  "approval": {
+    "date": "2026-10-25",
+    "user_message": "ok procedi con le sostituzioni",
+    "scope": "Schema PDI nel booklet Typst."
+  },
+  "previousIntegration": {
+    "chapter": "progetti/booklet/capitoli/02-ricerca.typ",
+    "component": "progetti/booklet/template/ricerca.typ:grafico",
+    "label": "fig-ricerca-pdi-dati",
+    "asset": "schema-pdi-rifinito-v4.png",
+    "captionConsultedOn": "2026-10-25",
+    "accessibleData": "risorse-condivise/immagini/figure/ricerca/dimensioni.json · PDI",
+    "nativePreserved": [
+      "didascalia",
+      "attribuzioni",
+      "contatore",
+      "richiami",
+      "testo alternativo dei sei valori"
+    ],
+    "originalsPreserved": true
+  },
+  "supersededBy": "progetti/booklet/assets/schemi-hofstede-vettoriali/manifest.json",
+  "replacementReason": "Richiesta esplicita dell’utente: tutti i sei schemi vettoriali con bandiere SVG originali."
+}

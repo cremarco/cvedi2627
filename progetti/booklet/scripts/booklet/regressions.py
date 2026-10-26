@@ -51,6 +51,33 @@ def check_flow_layout(data: dict) -> int:
     return filled
 
 
+def check_column_flow_layout(data: dict, native: dict) -> int:
+    """La metafora di Ricerca resta nella colonna insieme alla prosa."""
+    paragraphs = data["paragrafi"]
+    require([p["valore"] for p in paragraphs] == ["apertura", *range(16)],
+            "Paragrafi del flusso persi, duplicati o riordinati.")
+    positions = [(p["pagina"], round(p["x"], 1), p["y"]) for p in paragraphs]
+    require(positions == sorted(positions), "Il flusso non conserva l'ordine sinistra-destra.")
+    figures = native.get("figure_nel_testo", [])
+    require(len(figures) == 1 and figures[0]["figura"] == "<booklet-prova-tavola>",
+            "La prova di Ricerca non identifica una sola figura nel testo.")
+    figure, target = figures[0], data["tavola"]
+    require(figure["colonne"] == 1 and abs(figure["larghezza"] - 66 * PT_MM) < .01,
+            "La metafora di Ricerca non occupa una colonna da 66 mm.")
+    require(figure["origine"]["pagina"] == target["pagina"]
+            and all(abs(figure["origine"][key] - target[key]) < .1 for key in ("x", "y")),
+            "La quota della metafora non coincide con l'immagine visibile.")
+    require(figure["altezza_totale"] > figure["altezza_visuale"] > 0,
+            "La quota della metafora non comprende immagine e didascalia.")
+    # check_inventory verifica queste quote contro il fondo reale del corpo,
+    # compresa la didascalia: il campione non richiede più un foglio esclusivo.
+    require(paragraphs[0]["pagina"] <= target["pagina"] < paragraphs[-1]["pagina"],
+            "La metafora non si colloca fra l'apertura e il seguito della prosa.")
+    shared = sum(p["pagina"] == target["pagina"] for p in paragraphs[1:])
+    require(shared >= 1, "La metafora di Ricerca non condivide la pagina con il seguito della prosa.")
+    return shared
+
+
 def check_flow_reference(pdf: Path, data: dict) -> dict:
     """Il PDF deve raggiungere l'immagine effettiva, anche nei gruppi mobili."""
     from pypdf import PdfReader
@@ -91,27 +118,30 @@ def check_flow(output: Path) -> dict:
         inputs, pdf = {"caso": case}, output / f"flusso-{case}.pdf"
         compile_document(source, pdf, inputs)
         data = flow_data(source, inputs)
-        filled = check_flow_layout(data)
         native = inventory(source, inputs)
+        filled = (check_column_flow_layout(data, native) if case == "ricerca"
+                  else check_flow_layout(data))
         summary = check_inventory(native, {"figure": 2, "note": 0})
         require([f["numero"] for f in native["figure"]] == [1, 2],
                 "La tavola mobile cambia l'ordine o il numero delle figure.")
         if case == "solo-testo":
             require(data["ancore-immagini"] == 0 and data["ancore-blocchi"] > 0,
                     "Il campione testuale mobile non usa la propria ancora di blocco.")
-        # Il controllo negativo dimostra che la prova rileva la vecchia barriera,
-        # senza modificare i componenti produttivi né compilare un secondo PDF.
-        negative = flow_data(source, {**inputs, "barriera": "si"})
-        try:
-            check_flow_layout(negative)
-        except ValueError as error:
-            require("Il seguito non completa" in str(error),
-                    "Il controllo negativo fallisce per una causa estranea al flusso.")
+        if case == "ricerca":
+            flow_summary = {"figura_in_colonna": True, "paragrafi_con_figura": filled}
         else:
-            raise ValueError("La prova di flusso non rileva la barriera place.flush().")
-        result[case] = {**summary, **check_pdf(pdf, native),
-                        "paragrafi_prima_della_tavola": filled,
-                        "barriera_rilevata": True,
+            # Le quattro tavole ancora autonome conservano il controllo negativo
+            # della barriera, senza modificare i componenti produttivi.
+            negative = flow_data(source, {**inputs, "barriera": "si"})
+            try:
+                check_flow_layout(negative)
+            except ValueError as error:
+                require("Il seguito non completa" in str(error),
+                        "Il controllo negativo fallisce per una causa estranea al flusso.")
+            else:
+                raise ValueError("La prova di flusso non rileva la barriera place.flush().")
+            flow_summary = {"paragrafi_prima_della_tavola": filled, "barriera_rilevata": True}
+        result[case] = {**summary, **check_pdf(pdf, native), **flow_summary,
                         "richiamo": check_flow_reference(pdf, data)}
     return result
 
@@ -133,7 +163,7 @@ def separated_caption_references(annotations: list[dict], texts: list[str], capt
                 and abs(destination["y"] - max(0, target["y"] - 10)) < .1,
                 f"Il rimando della didascalia separata non raggiunge l'immagine visibile: {caption['figura']}")
         text = re.sub(r"\s+", "", texts[source["pagina"] - 1])
-        expected = f"Immagineap.{caption['folio']:03}"
+        expected = f"Nellapaginasuccessiva·p.{caption['folio']:03}→"
         require(expected in text,
                 f"Numero di pagina assente o errato nel rimando stampato: {caption['figura']}")
         result.append({"figura": caption["figura"], "pagina_didascalia": source["pagina"],
@@ -176,32 +206,190 @@ def check_separated_caption_references(pdf: Path, data: dict) -> list[dict]:
                                         data.get("didascalie_separate", []))
 
 
-def check_separated_captions(output: Path) -> dict:
-    """Inserire un foglio aggiorna il folio, senza duplicare figure o spostare note."""
-    from PIL import Image
-    from pypdf import PdfReader
+def check_top_anchored_crop(matrix: tuple[float, ...], page_height: float) -> dict:
+    """La trasformazione PDF deve rifilare un originale alto soltanto in basso."""
+    _, _, _, height, x, bottom = matrix
+    top = page_height - bottom - height
+    require(abs(x) < .01 and abs(top) < .01 and height > page_height and bottom < -.01,
+            "L'ancoraggio superiore dell'immagine al vivo ritaglia anche il bordo alto.")
+    return {"rifilo_superiore_mm": round(abs(top) / PT_MM, 4),
+            "rifilo_inferiore_mm": round(-bottom / PT_MM, 4)}
+
+
+def raster_placements(page, reader, dimensions: tuple[int, int]) -> list[dict]:
+    """Legge trasformazione e frame visibile dopo le clip rettangolari Typst."""
     from pypdf.generic import ContentStream
 
+    def point(x, y):
+        a, b, c, d, e, f = matrix
+        return a * float(x) + c * float(y) + e, b * float(x) + d * float(y) + f
+
+    xobjects = page["/Resources"].get("/XObject", {})
+    matrix, clip = (1., 0., 0., 1., 0., 0.), tuple(map(float, page.mediabox))
+    stack, path, matches = [], [], []
+    for operands, operation in ContentStream(page.get_contents(), reader).operations:
+        if operation == b"q":
+            stack.append((matrix, clip))
+        elif operation == b"Q":
+            matrix, clip = stack.pop()
+        elif operation == b"cm":
+            a, b, c, d, e, f = matrix
+            g, h, i, j, k, l = map(float, operands)
+            matrix = (a*g + c*h, b*g + d*h, a*i + c*j, b*i + d*j,
+                      a*k + c*l + e, b*k + d*l + f)
+        elif operation in (b"m", b"l"):
+            path.append(point(*operands))
+        elif operation == b"re":
+            x, y, width, height = map(float, operands)
+            path.extend(point(px, py) for px, py in
+                        ((x, y), (x + width, y), (x + width, y + height), (x, y + height)))
+        elif operation in (b"c", b"v", b"y"):
+            path.extend(point(*operands[index:index + 2]) for index in range(0, len(operands), 2))
+        elif operation in (b"W", b"W*") and path:
+            xs, ys = zip(*path)
+            clip = (max(clip[0], min(xs)), max(clip[1], min(ys)),
+                    min(clip[2], max(xs)), min(clip[3], max(ys)))
+        elif operation in (b"n", b"S", b"s", b"f", b"F", b"f*", b"B", b"B*", b"b", b"b*"):
+            path = []
+        elif operation == b"Do":
+            visual = xobjects[operands[0]].get_object()
+            if (visual.get("/Subtype") == "/Image"
+                    and (visual.get("/Width"), visual.get("/Height")) == dimensions):
+                matches.append({"matrix": matrix, "clip": clip})
+    return matches
+
+
+def check_thumbnail_visibility(matrix: tuple[float, ...], clip: tuple[float, ...]) -> dict:
+    """Una CTM corretta non basta se il frame interno ritaglia la miniatura."""
+    a, _, _, d, x, bottom = matrix
+    visible_width = min(x + a, clip[2]) - max(x, clip[0])
+    visible_height = min(bottom + d, clip[3]) - max(bottom, clip[1])
+    require(abs(visible_width - a) < .01 and abs(visible_height - d) < .01,
+            "La miniatura è ritagliata dal frame interno nonostante le proporzioni della matrice PDF.")
+    return {"larghezza_visibile_mm": round(visible_width / PT_MM, 4),
+            "altezza_visibile_mm": round(visible_height / PT_MM, 4)}
+
+
+def check_bleed_flow_layout(data: dict) -> int:
+    """Il seguito della prosa completa il foglio sopra la didascalia mobile."""
+    markers = data["flusso_al_vivo"]
+    require([(m["fase"], m["indice"]) for m in markers]
+            == [(phase, index) for index in range(-1, 16) for phase in ("inizio", "fine")],
+            "Paragrafi del flusso al vivo persi, duplicati o riordinati.")
+    require(len(data["didascalie_al_piede"]) == len(data["figure_al_vivo"]) == 1,
+            "La prova di flusso richiede una sola coppia mobile.")
+    caption = data["didascalie_al_piede"][0]["origine"]
+    picture = data["figure_al_vivo"][0]["origine"]
+    starts = {m["indice"]: m for m in markers if m["fase"] == "inizio"}
+    ends = {m["indice"]: m for m in markers if m["fase"] == "fine"}
+    filled = sum(starts[i]["pagina"] == ends[i]["pagina"] == caption["pagina"]
+                 for i in range(16))
+    require(filled >= 3, "Il testo successivo non riempie la pagina sopra la didascalia al vivo.")
+    require(caption["pagina"] + 1 == picture["pagina"] < ends[15]["pagina"],
+            "La coppia mobile non conserva l'adiacenza fra caption e immagine con seguito della prosa.")
+    require(all(m["pagina"] != picture["pagina"] for m in markers),
+            "La prosa occupa il foglio riservato all'immagine al vivo.")
+    require(all(m["y"] < caption["y"] - 8 + .1 for m in markers
+                if m["pagina"] == caption["pagina"]),
+            "La prosa si sovrappone alla didascalia al vivo.")
+    positions = [(m["pagina"], round(m["x"], 1), m["y"]) for m in markers]
+    require(positions == sorted(positions), "Il flusso al vivo non conserva l'ordine sinistra-destra.")
+    return filled
+
+
+def check_bleed_flow(output: Path) -> dict:
+    source, result = PROVE / "flusso-al-vivo.typ", {}
+    for case in ("senza-note", "nota-caption", "note-miste", "float-precedente", "figura-in-coda", "figura-colonna"):
+        inputs, pdf = {"caso": case}, output / f"flusso-al-vivo-{case}.pdf"
+        compile_document(source, pdf, inputs)
+        data = inventory(source, inputs)
+        notes = 3 if case == "note-miste" else 1 if case == "nota-caption" else 0
+        summary = check_inventory(data, {"figure": 2 if case in ("float-precedente", "figura-in-coda", "figura-colonna") else 1,
+                                         "note": notes})
+        filled = check_bleed_flow_layout(data)
+        caption_page = data["didascalie_al_piede"][0]["origine"]["pagina"]
+        require(all(note["pagina"] == caption_page for note in data["note"]),
+                "Le note della prova non restano nella pagina della caption e della prosa associata.")
+        from pypdf import PdfReader
+        picture_page = data["figure_al_vivo"][0]["origine"]["pagina"]
+        if case == "figura-in-coda":
+            require(data["figure"][1]["visuale"]["pagina"] > picture_page,
+                    "La figura ordinaria in coda invade il foglio riservato all'immagine al vivo.")
+        require(not (PdfReader(pdf).pages[picture_page - 1].extract_text() or "").strip(),
+                "Il foglio al vivo mobile contiene testo, folio o apparati sovrapposti.")
+        negative = inventory(source, {**inputs, "barriera": "si"})
+        try:
+            check_bleed_flow_layout(negative)
+        except ValueError as error:
+            require("Il testo successivo non riempie" in str(error),
+                    "Il controllo negativo del flusso al vivo fallisce per una causa diversa dal riempimento.")
+        else:
+            raise ValueError("La prova di flusso al vivo non rileva la barriera place.flush().")
+        result[case] = {**summary, **check_pdf(pdf, data),
+                        "rimandi": check_separated_caption_references(pdf, data),
+                        "paragrafi_dopo_la_chiamata_sopra_caption": filled,
+                        "barriera_rilevata": True}
+        if case == "figura-in-coda":
+            result[case]["pagina_figura_ordinaria_in_coda"] = data["figure"][1]["visuale"]["pagina"]
+    return result
+
+
+def check_bleed_exclusivity(output: Path) -> dict:
+    """Le figure auto di colonna non entrano nei fogli riservati dai float parent."""
+    from pypdf import PdfReader
+
+    source, result = PROVE / "esclusivita-al-vivo.typ", {}
+    for case in ("piccola", "alta"):
+        inputs, pdf = {"caso": case}, output / f"esclusivita-al-vivo-{case}.pdf"
+        compile_document(source, pdf, inputs)
+        data = inventory(source, inputs)
+        summary = check_inventory(data, {"figure": 4, "note": 2})
+        require(len(data["figure_al_vivo"]) == 2,
+                "La prova di esclusività deve contenere due coppie mobili al vivo.")
+        reader = PdfReader(pdf)
+        pages = [picture["origine"]["pagina"] for picture in data["figure_al_vivo"]]
+        require(all(not (reader.pages[page - 1].extract_text() or "").strip() for page in pages),
+                "Una figura di colonna con didascalia o il folio invade il foglio al vivo.")
+        result[case] = {**summary, **check_pdf(pdf, data),
+                        "rimandi": check_separated_caption_references(pdf, data),
+                        "fogli_esclusivi": pages}
+    return result
+
+
+def check_separated_captions(output: Path) -> dict:
+    """Caption al piede e immagine adiacente resistono a testo e float precedenti."""
+    from PIL import Image
+    from pypdf import PdfReader
+
     source = PROVE / "didascalia-separata.typ"
-    asset = ROOT / "risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-primo-web-home.png"
-    with Image.open(asset) as original:
-        dimensions = original.size
-    result, positions = {}, []
-    for case in ("base", "spostata"):
+    result, positions = {}, {}
+    for case in ("base", "spostata", "densa", "float-precedente", "ancoraggio-alto"):
+        asset = ROOT / ("risorse-condivise/immagini/figure/ricerca/c03-020-01.jpeg"
+                        if case == "ancoraggio-alto" else
+                        "risorse-condivise/immagini/figure/caffe-ttc/caffe-ttc-primo-web-home.png")
+        with Image.open(asset) as original:
+            dimensions = original.size
         inputs, pdf = {"caso": case}, output / f"didascalia-separata-{case}.pdf"
         compile_document(source, pdf, inputs)
         data = inventory(source, inputs)
-        summary = check_inventory(data, {"figure": 2, "note": 1})
-        require([figure["numero"] for figure in data["figure"]] == [1, 2],
+        count = 3 if case == "float-precedente" else 2
+        summary = check_inventory(data, {"figure": count, "note": 1})
+        require([figure["numero"] for figure in data["figure"]] == list(range(1, count + 1)),
                 "La miniatura aggiunge un progressivo o altera il numero della schermata.")
-        require(len(data["didascalie_separate"]) == 1,
-                "La prova deve avere una sola didascalia separata.")
+        require(len(data["didascalie_separate"]) == len(data["didascalie_al_piede"])
+                == len(data["figure_al_vivo"]) == 1,
+                "La prova deve avere una sola immagine al vivo con didascalia separata al piede.")
         caption = data["didascalie_separate"][0]
         origin, picture = caption["origine"], caption["immagine"]
         require(data["note"][0]["origine"]["pagina"] == origin["pagina"],
                 "La nota della fonte non resta sulla pagina della didascalia.")
-        require(caption["folio"] == picture["pagina"] + 6,
+        require(caption["folio"] != picture["pagina"],
                 "Il rimando usa la pagina PDF al posto del folio stampato.")
+        # La tavola mobile può aggiungere un foglio durante lo scarico dei float:
+        # il rimando deve seguire il contatore della destinazione verificato sopra.
+        if case != "float-precedente":
+            require(caption["folio"] == picture["pagina"] + 6,
+                    "Il rimando non conserva l'offset del contatore stampato.")
         references = check_separated_caption_references(pdf, data)
         reader = PdfReader(pdf)
         require(not (reader.pages[picture["pagina"] - 1].extract_text() or "").strip(),
@@ -209,38 +397,44 @@ def check_separated_captions(output: Path) -> dict:
         images = {}
         for number in (origin["pagina"], picture["pagina"]):
             page = reader.pages[number - 1]
-            xobjects = page["/Resources"].get("/XObject", {})
-            stack, matrix, matches = [], (1., 0., 0., 1., 0., 0.), []
-            for operands, operation in ContentStream(page.get_contents(), reader).operations:
-                if operation == b"q":
-                    stack.append(matrix)
-                elif operation == b"Q":
-                    matrix = stack.pop()
-                elif operation == b"cm":
-                    a, b, c, d, e, f = matrix
-                    g, h, i, j, k, l = map(float, operands)
-                    matrix = (a*g + c*h, b*g + d*h, a*i + c*j, b*i + d*j,
-                              a*k + c*l + e, b*k + d*l + f)
-                elif operation == b"Do":
-                    visual = xobjects[operands[0]].get_object()
-                    if (visual.get("/Subtype") == "/Image"
-                            and (visual.get("/Width"), visual.get("/Height")) == dimensions):
-                        matches.append(matrix)
+            matches = raster_placements(page, reader, dimensions)
             require(len(matches) == 1,
                     "La miniatura o la schermata non conserva una sola copia dell'immagine originale.")
-            a, b, c, d, x, bottom = matches[0]
+            matrix = matches[0]["matrix"]
+            a, b, c, d, x, bottom = matrix
             require(abs(b) < .001 and abs(c) < .001 and a > 0 and d > 0
                     and abs(a / d - dimensions[0] / dimensions[1]) < .001,
                     "La miniatura o la schermata è ritagliata, deformata o ruotata.")
-            expected = 18 if number == origin["pagina"] else 170
-            require(abs(a - expected * PT_MM) < .01,
-                    "La miniatura non misura 18 mm oppure la schermata ha perso il pieno formato.")
-            images[number] = {"larghezza_mm": round(a / PT_MM, 4)}
-        positions.append((origin["pagina"], picture["pagina"], caption["folio"]))
+            expected = caption["miniatura"]["larghezza"] if number == origin["pagina"] else 170 * PT_MM
+            require(abs(a - expected) < .01,
+                    "La miniatura non segue la didascalia oppure la schermata ha perso il pieno formato.")
+            crop = {}
+            if number == origin["pagina"]:
+                crop = check_thumbnail_visibility(matrix, matches[0]["clip"])
+                require(abs(d - caption["testo"]["altezza"]) < .01,
+                        "L'immagine non ha la stessa altezza della didascalia.")
+            elif case == "ancoraggio-alto":
+                require(data["figure_al_vivo"][0]["ancoraggio"] == [.5, 0]
+                        and abs(data["figure_al_vivo"][0]["rapporto"]
+                                - dimensions[0] / dimensions[1]) < .000001,
+                        "La prova non esercita l'ancoraggio superiore di un originale più alto del foglio.")
+                crop = check_top_anchored_crop(matrix, float(page.mediabox.top))
+            elif number == picture["pagina"]:
+                require(abs(x) < .01 and abs(bottom) < .01
+                        and abs(d - 240 * PT_MM) < .01,
+                        "La schermata lascia un bordo fra l'immagine e il foglio.")
+            images[number] = {"larghezza_mm": round(a / PT_MM, 4), **crop}
+        positions[case] = (origin["pagina"], picture["pagina"], caption["folio"])
+        bottom = data["didascalie_al_piede"][0]
         result[case] = {**summary, **check_pdf(pdf, data), "rimandi": references,
-                        "immagini": images, "nota_con_didascalia": True}
-    require(positions[1] == tuple(value + 1 for value in positions[0]),
+                        "immagini": images, "nota_con_didascalia": True,
+                        "pagine_adiacenti": True,
+                        "fondo_didascalia_pt": round(bottom["origine"]["y"] + bottom["altezza"], 4)}
+    require(positions["spostata"] == tuple(value + 1 for value in positions["base"]),
             "Inserire un foglio a monte non aggiorna insieme didascalia, immagine e folio.")
+    require(positions["densa"][0] > positions["base"][0]
+            and positions["float-precedente"][0] > positions["base"][0],
+            "Le prove non esercitano una didascalia spostata dal testo o dal float precedente.")
     return result
 
 
@@ -396,11 +590,28 @@ def check_note_at_bottom(output: Path) -> dict:
     return {**summary, **check_pdf(pdf, data), "nota_ultima_riga": True}
 
 
+def check_editorial_helpers() -> dict:
+    # Le parentesi del corpo funzione sono necessarie per un if multilinea
+    # in un modulo Typst: i rami successivi non devono restituire none.
+    expression = '''{
+      import "progetti/booklet/template/editoriale.typ": folio-arabo;
+      import "progetti/booklet/template/note.typ": ingombro-note;
+      (folio: (1, 9, 10, 99, 100, 348, 1000).map(folio-arabo),
+        note: (ingombro-note(()) / 1pt, ingombro-note((9pt, 18pt)) / 1pt))
+    }'''
+    data = json.loads(run(["typst", "eval", *typst_options(), expression]))
+    require(data["folio"] == ["001", "009", "010", "099", "100", "348", "1000"],
+            "Il folio arabo deve conservare tutte le cifre, anche oltre 99.")
+    require(data["note"] == [0, 34.9], "Ingombro note vuote o multiple errato.")
+    return data
+
+
 def check_regressions(output: Path) -> dict:
     # Le prove Python proteggono anche i controlli: un errore nella verifica
     # non deve trasformare silenziosamente un documento errato in un successo.
     run([sys.executable, "-m", "unittest", "discover", "-s", str(PROVE), "-p", "test_*.py"])
-    result = {"strumenti": {"esito": "ok"}, "pesi": check_strong(output / "grassetto.svg")}
+    result = {"strumenti": {"esito": "ok"}, "helper-editoriali": check_editorial_helpers(),
+              "pesi": check_strong(output / "grassetto.svg")}
     # La compatibilità APA deve conservare suffissi e date complete, correggendo
     # soltanto la virgola errata delle date che attestano esclusivamente l'anno.
     source, pdf = PROVE / "bibliografia.typ", output / "bibliografia.pdf"
@@ -414,6 +625,8 @@ def check_regressions(output: Path) -> dict:
     result["bibliografia"] = {**check_inventory(data, {"figure": 0, "note": 0}), **check_pdf(pdf, data)}
     result["flusso"] = check_flow(output)
     result["didascalie-separate"] = check_separated_captions(output)
+    result["flusso-al-vivo"] = check_bleed_flow(output)
+    result["esclusivita-al-vivo"] = check_bleed_exclusivity(output)
     result["olivetti"] = check_olivetti(output)
     result["sagoma-classica"] = check_classic_notes(output)
     result["nota-fondo"] = check_note_at_bottom(output)
@@ -433,5 +646,7 @@ def check_regressions(output: Path) -> dict:
     compile_document(source, pdf)
     data = inventory(source)
     require(data["ripetute"] == 3, "I riferimenti ripetuti alla nota non sono conservati.")
-    result["note-ripetute"] = {**check_inventory(data, {"figure": 0, "note": 1}), **check_pdf(pdf, data)}
+    require([note["richiamo"] for note in data["note"]] == ['"1"', '"2"'],
+            "Lo stesso URL su pagine diverse deve avere numeri di nota distinti.")
+    result["note-ripetute"] = {**check_inventory(data, {"figure": 0, "note": 2}), **check_pdf(pdf, data)}
     return result
