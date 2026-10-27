@@ -42,11 +42,11 @@ summarySupport: "Immagini, parole e spazio collaborano con il compito del lettor
 
 
 <!--
-[calm, matter-of-fact delivery]La composizione dà una funzione alle differenze che introduciamo fra gli elementi.[pause] Un titolo, una fotografia e un comando non competono necessariamente per lo stesso ruolo.[pause] Possiamo farli collaborare affinché una persona riconosca l'argomento, trovi una condizione e capisca come procedere.[pause]
+[calm, matter-of-fact delivery]La composizione organizza gli elementi per rendere chiara la funzione di ciascuno.[pause] Un titolo, una fotografia e un comando contribuiscono in modi diversi al messaggio complessivo.[pause] Possiamo farli collaborare affinché una persona riconosca l'argomento, trovi una condizione e capisca come procedere.[pause]
 
 La gerarchia è la proposta di priorità che emerge da queste relazioni.[pause] Non coincide con una sequenza obbligatoria di sguardi.[short pause] Chi conosce già un'attività può cercare direttamente l'orario; chi la incontra per la prima volta deve capire di che cosa si tratta.[pause] Progettare significa sostenere entrambe le consultazioni.[pause]
 
-Terremo quindi collegati tre passaggi: formulare il compito, scegliere relazioni visive coerenti e osservare se aiutano davvero.[pause] I principi già studiati diventano strumenti per motivare queste scelte.[pause]
+Terremo quindi collegati tre passaggi: formulare il compito, scegliere relazioni visive coerenti e osservare se aiutano davvero.[pause] I principi già studiati diventano strumenti utili per motivare queste scelte.[pause]
 -->
 
 ---
@@ -71,7 +71,7 @@ bookletFigures: []
 
 Il secondo è costruire le priorità.[pause] Useremo differenze di scala, contrasto e spazio per assegnare ruoli ai contenuti.[short pause] Non dovremo applicare ogni strumento in ogni pagina: sceglieremo quelli pertinenti alla domanda del lettore.[pause]
 
-Il terzo è verificare il compito.[pause] Una composizione può apparire convincente e lasciare comunque incerta un'azione.[pause] Confronteremo una versione iniziale e una variazione, poi formuleremo una consegna che permetta di osservarne l'uso.[pause] Questo percorso collega le scelte espressive alla ricerca e all'accessibilità, senza ripetere tutte le regole dei capitoli precedenti.[short pause]
+Il terzo è verificare il compito.[pause] Una composizione può apparire convincente e lasciare comunque incerta un'azione.[pause] Confronteremo una versione iniziale e una variazione, poi formuleremo una consegna che permetta di osservarne l'uso.[pause] Metteremo quindi in pratica i principi di ricerca e accessibilità già studiati, usandoli per guidare le scelte visive.[short pause]
 -->
 
 ---
@@ -96,7 +96,7 @@ bookletFigures: []
 
 Prima di disporre i blocchi, scriviamo dunque la domanda del lettore.[pause] Non basta dire che vogliamo una pagina chiara: dobbiamo precisare che cosa deve diventare riconoscibile e quali informazioni devono restare disponibili.[pause]
 
-Questa formulazione permette anche di discutere il progetto senza fermarsi al gusto.[pause] Se una scelta rende il titolo più spettacolare ma nasconde l'orario, possiamo collegare il problema al compito.[pause] Nel nostro caso guida conserveremo gli stessi dati proprio per osservare l'effetto dei rapporti visivi.[short pause]
+Questa formulazione permette anche di discutere il progetto senza fermarsi al gusto.[pause] Se il titolo attira l'attenzione ma l'orario diventa difficile da trovare, ostacoliamo chi vuole sapere quando partecipare.[pause] Nel nostro caso guida conserveremo gli stessi dati proprio per osservare l'effetto dei rapporti visivi.[short pause]
 -->
 
 ---
@@ -121,7 +121,7 @@ bookletFigures: ["invito"]
 
 La terza aggiunge un comando riconoscibile per l'iscrizione.[pause] Il contenuto informativo resta quasi identico; cambia il modo in cui le sue parti collaborano.[short pause] Non tutto viene ingrandito.[pause] Alcuni elementi ricevono rilievo, altri costruiscono un gruppo, altri mantengono una funzione di supporto.[pause]
 
-Provate a cercare prima l'orario e poi il luogo.[pause] Sono due ingressi diversi nello stesso messaggio.[pause] La composizione deve consentirli entrambi, senza pretendere che ogni persona legga tutti i blocchi nella stessa sequenza.[short pause] Questo confronto tornerà nella verifica finale: sapremo che cosa abbiamo cambiato e potremo discuterne l'effetto.[pause]
+Provate a cercare prima l'orario e poi il luogo.[pause] Sono due modi di consultare lo stesso invito: cercare quando si svolge l'attività oppure dove si tiene.[pause] La composizione deve consentirli entrambi, senza pretendere che ogni persona legga tutti i blocchi nella stessa sequenza.[short pause] Questo confronto tornerà nella verifica finale: sapremo che cosa abbiamo cambiato e potremo discuterne l'effetto.[pause]
 -->
 
 ---
@@ -194,7 +194,7 @@ bookletFigures: ["triangolo","esagono"]
 <!--
 [calm, matter-of-fact delivery]Un triangolo appoggiato su un lato e lo stesso triangolo appoggiato su un vertice hanno la medesima geometria, ma un rapporto differente con lo spazio circostante.[pause] Possiamo descrivere l'appoggio e la direzione prima di attribuire impressioni di stabilità o tensione.[pause]
 
-L'esagono regolare permette invece di costruire ripetizioni senza interstizi.[pause] Questa possibilità può sostenere una struttura modulare, ma non spiega da sola il significato dei marchi mostrati.[pause] Contano le combinazioni, le distanze e ciò che riconosciamo nel segno.[short pause]
+L'esagono regolare permette invece di costruire ripetizioni senza interstizi.[pause] L'esagono può essere usato come modulo ripetuto, ma la sua presenza non basta a spiegare che cosa comunicano i marchi mostrati.[pause] Contano le combinazioni, le distanze e ciò che riconosciamo nel segno.[short pause]
 
 Il passaggio progettuale è semplice: scegliere una proprietà che serva al messaggio e provarla nella composizione.[pause] Per un invito possiamo cercare una direzione che colleghi immagine e titolo; per un sistema di categorie possiamo cercare una famiglia coerente.[pause] Il fatto che una forma consenta una certa organizzazione non la rende obbligatoria per tutti i progetti.[pause]
 -->
@@ -221,7 +221,7 @@ bookletFigures: ["takete"]
 
 Una ricerca successiva su bouba e kiki ha coinvolto novecentodiciassette partecipanti, venticinque lingue e dieci sistemi di scrittura.[pause] Ha trovato una robusta tendenza complessiva nell'associazione fra suono e forma, insieme a differenze fra persone e gruppi.[short pause]
 
-Il risultato non dimostra che ogni curva abbia lo stesso significato o che un marchio arrotondato sia compreso da chiunque.[pause] Distinguiamo una regolarità sperimentale dalla scelta di un segno in un servizio concreto.[pause] Nel progetto possiamo usare queste associazioni come ipotesi da discutere, poi verificare nome, forma e contesto con le persone a cui ci rivolgiamo.[pause]
+La ricerca mostra che molte persone associano certi suoni a certe forme.[pause] Questo non significa che tutte le forme curve comunichino lo stesso messaggio: per capire che cosa comunica un marchio arrotondato, dobbiamo considerare il servizio in cui compare e le persone che lo useranno.[pause] Nel progetto possiamo usare queste associazioni come ipotesi da discutere, poi verificare nome, forma e contesto con le persone a cui ci rivolgiamo.[pause]
 -->
 
 ---
@@ -242,7 +242,7 @@ bookletFigures: ["natura"]
 <div class="lesson-columns"><div><p class="lead">Texture e strutture naturali possono orientare un’idea visiva.</p><ul class="cvedi-list"><li><span>Venature, ramificazioni e spirali offrono relazioni da osservare.</span></li><li><span>La trama deve lasciare leggibili testo e controlli.</span></li></ul></div><LessonFigure src="/images/shared/figure/composizione-slidev/natura.svg" alt="Foglia, fiore e conchiglia interi, su fondo trasparente." caption="Venature di una foglia, petali di un fiore e spirale di una conchiglia. CVeDI, 2026." /></div>
 
 <!--
-[calm, matter-of-fact delivery]Nella foglia, nel fiore e nella conchiglia possiamo osservare ramificazioni, simmetrie, ripetizioni e spirali.[pause] Sono riferimenti per l'ideazione, senza dover ricondurre ogni proporzione naturale a una formula unica.[pause] Il richiamo alla natura, inoltre, non documenta la sostenibilità di un prodotto.[pause]
+[calm, matter-of-fact delivery]Nella foglia, nel fiore e nella conchiglia possiamo osservare ramificazioni, simmetrie, ripetizioni e spirali.[pause] Queste strutture possono ispirare il progetto, senza presumere che tutte le forme naturali seguano la stessa formula matematica.[pause] Il richiamo alla natura, inoltre, non documenta la sostenibilità di un prodotto.[pause]
 
 La texture riguarda l'organizzazione visibile della superficie: grana, venature, trama o rilievi.[pause] La fotografia del legno può suggerire una qualità tattile, ma sullo schermo vediamo la rappresentazione di quel materiale.[short pause] Questa distinzione aiuta a leggere confezione, immagine e pagina digitale.[pause]
 
@@ -294,7 +294,7 @@ bookletFigures: []
 <!--
 [calm, matter-of-fact delivery]Prima di decidere fra fotografia e illustrazione, chiediamoci quale informazione debba aggiungere l'immagine.[pause] In una ricetta può mostrare la consistenza di un impasto; in una scheda prodotto può documentare una finitura; in un invito può far immaginare l'esperienza proposta.[pause]
 
-Distingueremo tre funzioni che possono anche coesistere: evocare, descrivere e sintetizzare.[pause] Non sono etichette definitive degli oggetti.[pause] La stessa fotografia può essere uno sfondo atmosferico oppure una prova visiva da osservare accanto a una descrizione.[short pause]
+Distingueremo tre funzioni che possono anche coesistere: evocare, descrivere e sintetizzare.[pause] La funzione di un'immagine dipende da come la usiamo e dal contesto in cui compare.[pause] La stessa fotografia può essere uno sfondo atmosferico oppure una prova visiva da osservare accanto a una descrizione.[short pause]
 
 Il criterio utile è il rapporto con la domanda del lettore.[pause] Se la persona deve sapere dove si svolge il laboratorio, un'immagine accogliente della sala non sostituisce l'indirizzo.[pause] Se deve osservare il risultato di una tecnica fotografica, un dettaglio ben scelto può essere essenziale.[pause] Vediamo ora queste differenze in tre esempi, mantenendo distinta la funzione dal semplice stile dell'immagine.[pause]
 -->
@@ -321,7 +321,7 @@ bookletFigures: ["funzioni-immagini"]
 
 Facciamo però una prova concreta: da questa sola fotografia riusciremmo a sapere a che ora apre il locale?[short pause] Potremmo descrivere ciò che vediamo, mentre per gli orari servirebbe un'altra informazione.[pause] Il testo può quindi completare l'immagine, senza doverle chiedere di spiegare ogni aspetto del servizio.[pause]
 
-Nell'invito al laboratorio possiamo adottare lo stesso ragionamento.[short pause] Una fotografia di ombre e riflessi introduce il tema; data e luogo hanno bisogno di una collocazione riconoscibile.[pause] L'immagine può occupare molto spazio, purché sia chiaro dove trovare i dati.[pause] La prossima figura cambia funzione: dalle qualità di un ambiente passiamo alle caratteristiche dell'offerta.
+Nell'invito al laboratorio possiamo adottare lo stesso ragionamento.[short pause] Una fotografia di ombre e riflessi introduce il tema; data e luogo hanno bisogno di una collocazione riconoscibile.[pause] L'immagine può occupare molto spazio, purché sia chiaro dove trovare i dati.[pause] La prossima figura cambia funzione: passiamo da una fotografia che suggerisce l'atmosfera del locale a immagini che mostrano le pietanze proposte.
 -->
 
 ---
@@ -344,9 +344,9 @@ bookletFigures: ["funzione-descrittiva"]
 <!--
 [calm, matter-of-fact delivery]Le fotografie delle pietanze mostrano un'offerta e aiutano a distinguere le alternative.[pause] Nella funzione descrittiva conta ciò che viene reso osservabile: proporzioni, composizione, materiali o risultato di un passaggio.[pause] La sola qualità tecnica della fotografia non garantisce che risponda alla domanda.[pause]
 
-Pensiamo a un prodotto: una vista generale può mostrare l'ingombro, un dettaglio la finitura.[pause] Aggiungere cinque immagini quasi identiche potrebbe fornire meno informazione di una coppia scelta con criterio.[short pause] Prima di introdurre una nuova figura, annotiamo quale domanda copre rispetto alle precedenti.[pause]
+Pensiamo a un prodotto: una vista generale può mostrare l'ingombro, un dettaglio la finitura.[pause] Aggiungere cinque immagini quasi identiche potrebbe fornire meno informazione di una coppia scelta con criterio.[short pause] Prima di aggiungere un'immagine, annotiamo quale informazione offre in più rispetto a quelle già presenti.[pause]
 
-Anche il taglio fa parte della scelta.[pause] Una fotografia può essere molto definita e tuttavia escludere proprio il dettaglio citato nel testo.[pause] Nel laboratorio una sequenza di risultati potrebbe descrivere tecniche diverse.[pause] Dovremmo allora mantenerle confrontabili per scala e inquadratura, così che la differenza osservata riguardi la tecnica e non un cambiamento accidentale di presentazione.[short pause]
+Anche il taglio fa parte della scelta.[pause] Nel laboratorio possiamo, per esempio, confrontare due ritratti della stessa persona: uno con lo sfondo nitido e l'altro con lo sfondo sfocato.[pause] Se mostriamo soltanto un dettaglio del volto, eliminiamo lo sfondo e nascondiamo proprio la differenza che vogliamo spiegare.[pause] Mostriamo quindi i due ritratti alla stessa dimensione e con la stessa inquadratura, lasciando visibile lo sfondo: il confronto deve far capire l'effetto della sfocatura, senza introdurre differenze dovute a ritagli o ingrandimenti.[short pause]
 -->
 
 ---
@@ -396,7 +396,7 @@ bookletFigures: ["allbirds-headspace","headspace"]
 
 Non dobbiamo concludere che la fotografia garantisca autenticità o che l'illustrazione sia sempre più semplice da capire.[pause] Una foto può essere costruita e un disegno può descrivere accuratamente una struttura.[short pause] Confrontiamo invece pertinenza, dettaglio, disponibilità dei soggetti e leggibilità nella composizione.[pause]
 
-Per il laboratorio potremmo mostrare un risultato fotografico reale oppure illustrare un procedimento.[pause] Sono funzioni differenti.[pause] Prima scegliamo quale informazione serve; poi valutiamo il mezzo.[pause] Le schermate documentano le versioni conservate, non il sito di oggi.[short pause] Questa precisazione permette di analizzare ciò che vediamo senza attribuire alle aziende scelte attuali che le immagini non possono dimostrare.[pause]
+Per il laboratorio potremmo mostrare un risultato fotografico reale oppure illustrare un procedimento.[pause] Sono funzioni differenti.[pause] Prima scegliamo quale informazione serve; poi valutiamo il mezzo.[pause] Le schermate sono state raccolte in passato e i siti potrebbero essere cambiati.[short pause] Analizziamo quindi le scelte visive che vediamo in queste immagini, senza presumere che le aziende le adottino ancora oggi.[pause]
 -->
 
 ---
@@ -517,7 +517,7 @@ bookletFigures: ["sguardo-spazio"]
 <div class="lesson-columns"><div><p class="lead">L’inquadratura stabilisce relazioni fra soggetti e spazio.</p><ul class="cvedi-list"><li><span>I terzi offrono riferimenti per discutere una scelta.</span></li><li><span>Una composizione centrata può rispondere a un’altra intenzione.</span></li></ul></div><LessonFigure src="/images/shared/figure/composizione-slidev/sguardo-spazio.jpeg" alt="Paesaggio con campo fiorito, montagna a sinistra e albero a destra; una griglia di tre righe e tre colonne è sovrapposta alla fotografia." caption="Regola dei terzi nel paesaggio: la griglia aiuta a osservare la posizione dell’albero, vicino alla verticale destra, e della montagna sulla sinistra." /></div>
 
 <!--
-[calm, matter-of-fact delivery]La griglia sovrapposta al paesaggio divide il campo in tre parti per ogni asse.[pause] Possiamo descrivere la posizione dell'albero vicino alla verticale destra e la montagna sulla sinistra.[pause] Questo rende discutibile una scelta di collocazione senza trasformarla in una prova automatica di qualità.[pause]
+[calm, matter-of-fact delivery]La griglia sovrapposta al paesaggio divide il campo in tre parti per ogni asse.[pause] Possiamo descrivere la posizione dell'albero vicino alla verticale destra e la montagna sulla sinistra.[pause] La griglia ci aiuta a descrivere e valutare la posizione dei soggetti, ma una fotografia non diventa migliore solo perché rispetta la regola dei terzi.[pause]
 
 La regola dei terzi offre riferimenti, mentre il messaggio stabilisce quali relazioni ci interessano.[pause] Una composizione centrata può essere altrettanto pertinente se vogliamo evidenziare un asse o costruire una simmetria.[short pause] Non serve spostare ogni soggetto su un'intersezione.[pause]
 
@@ -544,7 +544,7 @@ bookletFigures: ["sguardo-direzione"]
 <!--
 [calm, matter-of-fact delivery]Nel ritratto il volto è rivolto verso la finestra.[pause] Lo spazio lasciato davanti al soggetto rende percepibile una direzione: è ciò che viene chiamato looking room.[pause] Headroom indica invece lo spazio fra la testa e il bordo superiore.[pause]
 
-L'originale conserva un'etichetta headroom collocata lateralmente.[pause] La didascalia chiarisce questa imprecisione, perché vogliamo osservare il documento senza insegnare un rapporto errato.[short pause] Distinguiamo dunque la posizione dell'annotazione dal significato del termine.[pause]
+L'originale conserva un'etichetta headroom collocata lateralmente.[pause] Conserviamo l'immagine originale e precisiamo nella didascalia che headroom indica lo spazio sopra la testa, anche se qui l'etichetta compare di lato.[short pause] Distinguiamo dunque la posizione dell'annotazione dal significato del termine.[pause]
 
 In una pagina un volto rivolto al testo può suggerire una relazione fra figura e parole.[pause] Rivolgerlo verso l'esterno cambia la composizione.[pause] Non possiamo dedurre da questo il percorso effettivo degli occhi del lettore.[pause] Possiamo formulare un'ipotesi di collegamento e verificarla nella pagina completa.[short pause] Quando scegliamo il ritaglio, manteniamo il contesto necessario a leggere quella direzione e controlliamo anche ciò che resta visibile nel formato stretto.[pause]
 -->
@@ -569,7 +569,7 @@ bookletFigures: []
 <!--
 [calm, matter-of-fact delivery]Passare da un campo orizzontale a uno verticale può escludere una persona, una direzione o un indizio.[pause] Il contenitore resta ordinato, ma l'informazione cambia.[pause] Prima di scegliere il ritaglio dobbiamo quindi identificare che cosa la persona deve poter osservare.[pause]
 
-Una vista generale serve a comprendere le proporzioni di un oggetto; un dettaglio può spiegare una finitura.[pause] Nessuna delle due è sempre superiore.[short pause] Nel laboratorio potremmo voler mostrare la relazione fra una fonte luminosa e il soggetto.[pause] Un taglio che conserva soltanto il soggetto eliminerebbe proprio il rapporto che stiamo spiegando.[pause]
+Una vista generale serve a comprendere le proporzioni di un oggetto; un dettaglio può spiegare una finitura.[pause] La scelta dipende da ciò che il lettore deve capire: usiamo l'inquadratura che mostra meglio l'informazione necessaria.[short pause] Nel laboratorio potremmo voler mostrare la relazione fra una fonte luminosa e il soggetto.[pause] Un taglio che conserva soltanto il soggetto eliminerebbe proprio il rapporto che stiamo spiegando.[pause]
 
 La stessa verifica va ripetuta alle dimensioni d'uso.[pause] Ridurre l'immagine senza tagliarla conserva il campo, ma può rendere il dettaglio troppo piccolo.[pause] Il compito è coordinare contenitore, scala e testo.[short pause] Il confronto fra formati deve mantenere disponibile il significato anche quando cambiano disposizione e quantità di spazio assegnata alla figura.[pause]
 -->
@@ -619,9 +619,9 @@ bookletFigures: ["pieno-vuoto","spartan-golf"]
 <!--
 [calm, matter-of-fact delivery]Negative Spaces di Tang Yau Hoong e il concept Spartan Golf mostrano come pieni e vuoti possano partecipare alla figura riconosciuta.[pause] Nel secondo esempio possiamo individuare un golfista e un richiamo all'elmo.[pause] La relazione nasce dall'assegnazione dei contorni alle regioni della composizione.[pause]
 
-Riprendiamo il rapporto figura e sfondo già discusso nella Gestalt.[pause] Qui aggiungiamo una domanda comunicativa: quali letture vogliamo rendere disponibili e quale legame costruiscono fra loro?[short pause] La familiarità con i soggetti aiuta l'interpretazione; non è necessario ricondurre ogni sagoma alla sola chiusura.[pause]
+Riprendiamo il rapporto figura e sfondo già discusso nella Gestalt.[pause] Qui aggiungiamo una domanda comunicativa: quali letture vogliamo rendere disponibili e quale legame costruiscono fra loro?[short pause] Riconosciamo il golfista e l'elmo anche perché sappiamo già che aspetto hanno.[pause] Per spiegare queste immagini consideriamo quindi sia la familiarità con i soggetti sia il rapporto fra figura e sfondo, senza attribuire tutto al principio di chiusura.[pause]
 
-Lo spazio negativo, inoltre, non deve essere bianco.[pause] È lo spazio che assume un ruolo rispetto alla figura.[pause] Nell'invito può separare gruppi e rendere riconoscibile un titolo.[pause] In un marchio può contribuire direttamente al soggetto.[short pause] Il punto non è aumentare il vuoto in assoluto, ma osservare quale relazione rende percepibile nella composizione.[pause]
+Lo spazio negativo è quello che rimane intorno e tra le figure, e può avere qualsiasi colore.[pause] Anche la sua forma contribuisce a ciò che riconosciamo nell'immagine.[pause] Nell'invito può separare titolo, data e luogo, aiutandoci a distinguerli.[pause] In un marchio, lo spazio lasciato libero può delineare un'altra figura.[short pause] Lasciamo quindi spazio dove aiuta a separare i contenuti, far risaltare un titolo o riconoscere una figura; non occorre aumentarlo ovunque.[pause]
 -->
 
 ---
@@ -946,7 +946,7 @@ bookletFigures: ["manifesto-modulare","manifesto-denso"]
 
 Scegliete un'informazione grande e una piccola in ciascun manifesto.[short pause] Come cambia il loro ruolo quando osservate l'intera composizione?[pause] Densità e sovrapposizione possono produrre una gerarchia espressiva senza ricondursi a una griglia regolare.[pause] L'ingrandimento permette di approfondire i testi minuti dopo aver riconosciuto i pesi complessivi.[pause]
 
-Il confronto amplia il nostro repertorio, ma mantiene un criterio operativo: quali contenuti devono essere trovati?[short pause] Nell'invito possiamo sperimentare con il titolo e lasciare ai dati una struttura più stabile.[pause] La variazione ha una ragione quando sappiamo spiegare quale relazione rende più riconoscibile.
+Il confronto amplia il nostro repertorio, ma mantiene un criterio operativo: quali contenuti devono essere trovati?[short pause] Nell'invito possiamo sperimentare con il titolo e lasciare ai dati una struttura più stabile.[pause] Possiamo motivare una modifica spiegando che cosa rende più chiaro: per esempio, come fa risaltare il titolo o distingue le informazioni pratiche dal resto del testo.
 -->
 
 ---
@@ -994,7 +994,7 @@ bookletFigures: ["salienza"]
 <!--
 [calm, matter-of-fact delivery]Nel primo campo un solo disco interrompe una serie regolare.[pause] Nel secondo numerose differenze di colore e dimensione competono.[pause] Il confronto rende visibili due condizioni, senza rappresentare tempi o risultati misurati.[pause]
 
-La salienza è il rilievo di un elemento rispetto all'ambiente.[pause] Perciò un segnale non è evidente in assoluto: dipende dalle differenze già presenti.[short pause] Il contributo di Treisman e Gelade distingue il trattamento di caratteristiche e la loro combinazione in oggetti riconoscibili, attraverso compiti sperimentali di ricerca.[pause]
+La salienza è il rilievo di un elemento rispetto all'ambiente.[pause] Perciò un segnale non è evidente in assoluto: dipende dalle differenze già presenti.[short pause] Treisman e Gelade studiano come cerchiamo un oggetto tra altri oggetti, distinguendo la ricerca di una singola caratteristica dalla ricerca di una combinazione di caratteristiche.[pause] Per esempio, un cerchio rosso tra cerchi verdi si distingue per il colore; tra cerchi verdi e quadrati rossi occorre riconoscere insieme colore e forma.[pause] Secondo la loro teoria, l'attenzione permette di collegare queste caratteristiche allo stesso oggetto.[pause]
 
 Il nostro schema suggerisce una domanda progettuale, non riproduce quei dati.[pause] Se aggiungiamo accenti a ogni blocco dell'invito, potremmo indebolire proprio la distinzione che volevamo ottenere.[pause] Conviene chiedersi quale segnale deve essere riconoscibile e in quale campo viene cercato.[pause] Per completare il ragionamento dobbiamo però considerare anche gli obiettivi della persona, perché l'attenzione non è guidata soltanto dalle proprietà dello stimolo.[short pause]
 -->
@@ -1092,7 +1092,7 @@ bookletFigures: []
 <div><p class="lead">Hick–Hyman riguarda l’incertezza fra risposte in compiti sperimentali.</p><ul class="cvedi-list"><li><span>Contano numero e probabilità delle alternative.</span></li><li><span>Etichette e gruppi devono rendere prevedibili le possibilità.</span></li></ul></div>
 
 <!--
-[calm, matter-of-fact delivery]La legge di Hick e Hyman collega il tempo di reazione all'incertezza fra le risposte possibili in compiti sperimentali di scelta.[pause] Non considera soltanto quante siano le alternative: conta anche la loro probabilità.[pause]
+[calm, matter-of-fact delivery]Negli esperimenti di scelta, le persone devono rispondere rapidamente a segnali diversi.[pause] La legge di Hick e Hyman descrive una tendenza: maggiore è l'incertezza su quale risposta sarà richiesta, più lungo è il tempo medio di reazione.[pause] Per esempio, quattro alternative ugualmente probabili creano più incertezza di quattro alternative tra cui una è richiesta quasi sempre.[pause]
 
 Nel progetto di un menu questo invita a organizzare gruppi ed etichette in modo prevedibile.[pause] Non permette però di ricavare il tempo di una decisione reale contando i pulsanti.[pause] Cercare un nome familiare, confrontare un acquisto e rispondere a uno stimolo sperimentale sono condizioni differenti.[short pause]
 
@@ -1117,7 +1117,7 @@ bookletFigures: []
 <div><p class="lead">Fitts collega movimento, distanza e precisione richiesta.</p><ul class="cvedi-list"><li><span>Segno visibile e area cliccabile possono essere differenti.</span></li><li><span>Provare dimensione, posizione, spaziatura e dispositivo.</span></li></ul></div>
 
 <!--
-[calm, matter-of-fact delivery]La legge di Fitts mette in relazione il tempo del movimento con la distanza dal bersaglio e con la precisione necessaria per raggiungerlo.[pause] Nel progetto di un'interfaccia ci porta a considerare l'area effettivamente attivabile, non soltanto la dimensione del disegno.[pause]
+[calm, matter-of-fact delivery]La legge di Fitts descrive quanto tempo serve per raggiungere un bersaglio con un movimento.[pause] Con il mouse, per esempio, un'area cliccabile lontana e stretta richiede in genere più tempo da raggiungere di una vicina e ampia: occorre spostare di più il puntatore e fermarlo con maggiore precisione.[pause] Nel progetto di un'interfaccia ci porta a considerare l'area effettivamente attivabile, non soltanto la dimensione del disegno.[pause]
 
 Ingrandire un pittogramma lascia il problema irrisolto se il bersaglio resta stretto.[pause] Anche il punto di partenza del puntatore, la direzione di avvicinamento e il dispositivo modificano le condizioni.[pause] Un tocco sul telefono e un movimento con il mouse non sono una prova identica.[short pause]
 
@@ -1244,7 +1244,7 @@ bookletFigures: ["dead-space"]
 <!--
 [calm, matter-of-fact delivery]In Dead Space la fascia luminosa sul dorso della tuta indica la salute e il contatore presso l'arma mostra le munizioni.[pause] Gli indicatori sono integrati nella scena, con un rapporto differente rispetto a quelli disposti sul piano dello schermo.[pause]
 
-La distinzione fra elementi diegetici e non diegetici riguarda l'appartenenza al mondo rappresentato.[pause] Un secondo criterio riguarda la collocazione nello spazio del gioco o sullo schermo.[pause] Fagerholt e Lorentzon esaminano insieme questi aspetti: il fatto che un dato descriva lo stato del personaggio non basta a renderlo parte del suo mondo.[short pause]
+Un elemento è diegetico se fa parte del mondo del gioco, come il contatore delle munizioni sull'arma.[pause] È non diegetico se è mostrato al giocatore ma non esiste per i personaggi, come una barra della salute sovrapposta allo schermo.[pause] Un secondo criterio riguarda la collocazione nello spazio del gioco o sullo schermo.[pause] Fagerholt e Lorentzon esaminano insieme questi aspetti: il fatto che un dato descriva lo stato del personaggio non basta a renderlo parte del suo mondo.[short pause]
 
 Integrare l'informazione introduce vincoli di scala, contrasto e visibilità al cambiare di luce e inquadratura.[pause] Non garantisce da solo maggiore immersione.[pause] Anche qui la composizione va valutata rispetto al compito.[pause] Confrontiamo il bisogno di consultare lo stato e la possibilità di farlo nelle condizioni reali della scena, conservando le differenze fra una schermata documentata e l'esperienza nel tempo.[pause]
 -->
@@ -1567,7 +1567,7 @@ bookletFigures: []
 <div><p class="lead">Un testo comune, un layout iniziale e una scheda per annotare il confronto.</p><ul class="cvedi-list"><li><span>Sabato 14 novembre · dalle 10 alle 13.</span></li><li><span>Spazio Officina · Via del Parco 8.</span></li><li><span>Iscrizione gratuita · azione: Iscriviti.</span></li></ul><p class="aside">Dati simulati per l’esercizio. <LessonDownload src="/materials/composizione/invito.txt">Scarica testi e scheda</LessonDownload> · <LessonDownload src="/materials/composizione/invito-iniziale.svg">Scarica il layout iniziale</LessonDownload></p></div>
 
 <!--
-[calm, matter-of-fact delivery]Il materiale comune è un invito simulato al laboratorio di fotografia, con l'idea guida sperimentare con la luce.[short pause] Si svolge sabato quattordici novembre, dalle dieci alle tredici, allo Spazio Officina in via del Parco otto.[pause] L'iscrizione è gratuita e il comando è iscriviti.[pause]
+[calm, matter-of-fact delivery]Per l'esercitazione useremo tutti lo stesso invito a un laboratorio di fotografia immaginario, dedicato al tema «Sperimentare con la luce».[short pause] Si svolge sabato quattordici novembre, dalle dieci alle tredici, allo Spazio Officina in via del Parco otto.[pause] L'iscrizione è gratuita e il comando è iscriviti.[pause]
 
 Il primo collegamento permette di scaricare questi testi e la scheda di confronto; il secondo offre il layout iniziale in formato vettoriale.[short pause] Potete usarlo come riferimento o importarlo nello strumento di lavoro.[pause] In questo modo tutte le coppie partono dagli stessi dati e possono conservare una copia iniziale effettiva.[pause]
 

@@ -4,7 +4,7 @@ Lezione 10: 70 slide, 90 minuti, 15 minuti di attività. Fonte corrente: capitol
 
 Il filo conduce dal compito del lettore alla scelta di immagini e segni, poi allo spazio, alle priorità e alla verifica. L’invito al laboratorio ritorna come caso guida; Sara distingue riconoscimento, scelta e attivazione. Il confronto di arte, cinema e videogiochi conserva contesto e limiti dei documenti.
 
-Piano, copione originale, copione con tag vocali e mapping sono in assets/booklet/lezione-composizione. Il generatore conserva integralmente note e sequenza. Il copione comprende 9707 parole; i tag di tono e pausa sono quelli della lezione 09. Non sono generati audio, selezioni o player.
+Piano, copione originale, copione con tag vocali e mapping sono in assets/booklet/lezione-composizione. Il generatore conserva integralmente note e sequenza. Il copione comprende 9978 parole; i tag di tono e pausa sono quelli della lezione 09. Non sono generati audio, selezioni o player.
 
 Le didascalie e i diritti derivano dal capitolo corrente; i manifest storici conservano provenienza e originali. Le moodboard provengono dai JPEG incorporati alle pagine fisiche 93 e 94 del booklet 2024, già registrati nel manifest locale. La seconda riproduzione è parziale alla fonte. Gli schemi sono esportati direttamente in SVG con DM Sans 9pt, mantenendo testo come contorni; Russell conserva i tre cerchi del capitolo. Il confronto controllato sposta soltanto il gruppo del luogo; il suo layout iniziale è scaricabile. I pannelli nativi di equilibrio e salienza sono ricomposti in orizzontale senza alterare i singoli disegni. Il confronto sfocato è un diagramma didattico alla stessa scala, non una misurazione del comportamento.
 
