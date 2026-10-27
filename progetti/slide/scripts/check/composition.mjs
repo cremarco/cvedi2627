@@ -69,12 +69,15 @@ try {
         require(figure.width > 80 && figure.height > 80, 'visible figure size')
         require(figure.ratioDelta < .01, 'original proportions')
       }
+      if ([34,40,61].includes(slide.lessonSlide)) require(report.figures[0].width > 850, 'comparison uses the wide teaching area')
+      if (slide.lessonSlide === 60) require(report.figures[0].width > 800 && report.figures[0].height > 350, 'controlled invitation uses a dominant readable comparison')
       if (report.footer) {
         require(report.footer.includes(`${slide.lessonSlide} / ${manifest.slideCount}`), 'autonomous pagination')
         require(Math.abs(report.titleTop-52) < 1 && report.titleSize === 47, 'common title anchor and scale')
       }
       if (slide.kind === 'objectives') require(report.cards.length === 3 && report.cards.every(card => card.loaded && card.width === 96), 'three registered objective illustrations')
       if (mode === 'desktop') await page.screenshot({ path: `${output}/slide-${String(slide.lessonSlide).padStart(2,'0')}.png` })
+      else if ([34,40,60,61,63,64,65].includes(slide.lessonSlide)) await page.screenshot({ path: `${output}/${mode}-${slide.lessonSlide}.png` })
     }
   }
   await page.emulateMedia({ media: 'screen' })
@@ -86,10 +89,17 @@ try {
   await page.keyboard.press('Escape')
   await page.locator('dialog[open]').waitFor({ state: 'detached' })
   assert.equal(await zoom.evaluate(node => document.activeElement === node), true, 'Escape restores figure focus')
-  // Native presenter notes contain the exact tagged script, without audio.
-  await page.goto(`${lesson}/#/presenter/5`)
-  await page.waitForFunction(expected => [...document.querySelectorAll('*')].some(element => element.classList?.contains('slidev-note') && element.textContent.replace(/\s+/g,' ').trim() === expected), notes[manifest.slides[4].alias].replace(/\s+/g,' ').trim())
+  // Check a preserved and a revised script in the native presenter.
+  for (const number of [5,60]) {
+    await page.goto(`${lesson}/#/presenter/${number}`)
+    await page.waitForFunction(expected => [...document.querySelectorAll('*')].some(element => element.classList?.contains('slidev-note') && element.textContent.replace(/\s+/g,' ').trim() === expected), notes[manifest.slides[number-1].alias].replace(/\s+/g,' ').trim())
+  }
   await page.screenshot({ path: `${output}/presenter.png` })
+  for (const material of ['invito.txt','invito-iniziale.svg','fonti.txt']) {
+    const response = await page.request.get(`${base}/materials/composizione/${material}`)
+    assert.equal(response.status(), 200, material + ': downloadable common material')
+    assert.ok((await response.body()).length > 100, material + ': complete response')
+  }
   await page.goto(`${base}/#/3`)
   const link = page.getByRole('link').filter({ hasText: 'Composizione e gerarchia visiva' })
   await link.waitFor({ state: 'visible' })

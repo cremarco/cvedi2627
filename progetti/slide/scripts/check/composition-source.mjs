@@ -13,7 +13,8 @@ export async function checkCompositionSources(deck) {
   const plan = await read(manifest.editorialPlan)
   const notes = await read(manifest.speakerNotesSource)
   const original = await read(manifest.speakerNotesOriginalSource)
-  const images = new Map((await read(manifest.imageManifest)).images.map(image => [image.code, image]))
+  const imageManifest = await read(manifest.imageManifest)
+  const images = new Map(imageManifest.images.map(image => [image.code, image]))
   const slides = deck.slides.filter(slide => slide.frontmatter.lesson === manifest.lesson)
   assert.equal(manifest.palette, 'indigo', 'composition follows blue with indigo')
   assert.equal(manifest.number, 10)
@@ -67,6 +68,18 @@ export async function checkCompositionSources(deck) {
     }
     for (const input of image.inputs ?? []) assert.equal(await hash(input.file), input.sha256)
   }
+  const bibliography = await read(base + 'references.json')
+  assert.equal(await hash(bibliography.source), bibliography.sourceSha256, 'reader bibliography derives from current source')
+  const referencesText = await readFile('progetti/slide/public/materials/composizione/fonti.txt', 'utf8')
+  for (const publication of Object.values(bibliography.publications)) assert.ok(referencesText.includes(publication.title))
+  assert.doesNotMatch(referencesText, /compArnheim:|type: Book|Originale: progetti\//u, 'download is reader-facing prose, without YAML or internal paths')
+  for (const material of imageManifest.materials) {
+    assert.equal(await hash(material.file), material.sha256, 'common starting layout is intact')
+    assert.equal(await hash(material.nativeSource), material.nativeSourceSha256)
+  }
+  const controlled = images.get('invito-variazione')
+  assert.equal(controlled.origin, 'lesson-diagram', 'new comparison distinguished from documentary originals')
+  assert.deepEqual(plan.slides.find(slide => slide.slug === 'variazione').figures, ['invito-variazione'])
   const cards = await read('progetti/slide/assets/theme-imagegen/lesson-10-cards/manifest.json')
   const artwork = await read('progetti/slide/data/card-artwork-local.json')
   assert.equal(cards.jobs.length, 3)
@@ -83,5 +96,6 @@ export async function checkCompositionSources(deck) {
   const kit = await readFile('progetti/slide/public/materials/composizione/invito.txt', 'utf8')
   assert.ok(kit.includes('Via del Parco 8') && kit.includes('8 minuti') && kit.includes('7 per la prova'))
   assert.ok(slides.find(slide => slide.frontmatter.routeAlias.endsWith('-materiali')).content.includes('/materials/composizione/invito.txt'))
+  assert.ok(slides.find(slide => slide.frontmatter.routeAlias.endsWith('-materiali')).content.includes('/materials/composizione/invito-iniziale.svg'))
   return { slides: slides.length, minutes: 90, activityMinutes: 15, spokenWords: words, figures: new Set(plan.slides.flatMap(slide => slide.figures)).size }
 }

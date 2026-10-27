@@ -11,6 +11,7 @@ import json
 import re
 import shutil
 import subprocess
+import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[4]
 BASE = ROOT / 'progetti/slide/assets/booklet/lezione-composizione'
@@ -104,6 +105,74 @@ def composite(code, body, width, height, caption, rights, alt, inputs):
     records[code]['inputs'] = [dict(file=str(p.relative_to(ROOT)), sha256=sha(p)) for p in inputs]
 
 
+# Reflow only the outer grid for the wide slide canvas. Inner geometry,
+# colors, glyphs, panel labels and panel widths stay native and unchanged.
+native_code = (ROOT / 'progetti/booklet/assets/diagrams/composition-examples.typ').read_text()
+for code, function, next_marker, width in [
+    ('equilibrio', 'balance-comparison', '#let appointment', 528),
+    ('salienza', 'visual-search', '// Compare mirrored', 488),
+]:
+    start = native_code.index('#let ' + function + '(')
+    definition = native_code[start:native_code.index(next_marker, start)].strip()
+    definition = definition.replace('grid(columns: 1, row-gutter: 14pt,',
+        'grid(columns: (1fr, 1fr), column-gutter: 30pt,', 1)
+    entry = DIAGRAMS / (code + '.typ')
+    entry.write_text('#import "/progetti/booklet/template/editorial.typ": panel-letter\n'
+        '#import "/progetti/booklet/template/geometry.typ": ink\n'
+        f'#set page(width: {width}pt, height: auto, margin: 1pt)\n'
+        '#set text(font: "DM Sans 9pt", size: 10pt, weight: 400, variations: (opsz: 18))\n'
+        '#set par(justify: false, leading: 2pt, spacing: 7pt)\n'
+        + definition + '\n#' + function + '()\n')
+    target = OUT / (code + '.svg')
+    subprocess.run(['typst', 'compile', '--ignore-system-fonts', '--root', str(ROOT), '--font-path',
+        str(ROOT / 'risorse-condivise/font/editoriali'), str(entry), str(target)], check=True)
+    old = records[code].copy()
+    register(code, target, old['caption'], old['rights'], old['alt'])
+    records[code]['nativeSource'] = str(entry.relative_to(ROOT))
+    records[code]['nativeSourceSha256'] = sha(entry)
+    records[code]['inputs'] = old['inputs']
+
+# One controlled variable: the vertical position of the complete place group.
+# Every string, glyph size, color, action and panel dimension remains identical.
+controlled = DIAGRAMS / 'invito-variazione.typ'
+controlled.write_text("""#import "/progetti/booklet/assets/diagrams/composition-examples.typ": demo-panel, demo-action
+#set page(width: 542pt, height: auto, margin: 1pt)
+#set text(font: "DM Sans 9pt", size: 10pt, variations: (opsz: 18))
+#set par(justify: false, leading: 2pt)
+#let invitation(place-y) = demo-panel[
+  #box(width: 100%, height: 202pt)[
+    #place(top + left)[#text(size: 17pt, weight: 700)[Laboratorio#linebreak()di fotografia]]
+    #place(top + left, dy: 50pt)[*Sabato 14 novembre*#linebreak()Dalle 10 alle 13]
+    #place(top + left, dy: place-y)[Spazio Officina#linebreak()#text(size: 9pt)[Via del Parco 8]]
+    #place(top + left, dy: 146pt)[#text(size: 9pt)[Iscrizione gratuita]]
+    #place(top + left, dy: 172pt)[#demo-action([Iscriviti])]
+  ]
+]
+#grid(columns: (1fr, 1fr), gutter: 20pt,
+  [*a · Versione iniziale*#v(6pt)#invitation(83pt)],
+  [*b · Gruppo del luogo spostato*#v(6pt)#invitation(106pt)])
+""")
+controlled_svg = OUT / 'invito-variazione.svg'
+subprocess.run(['typst', 'compile', '--ignore-system-fonts', '--root', str(ROOT), '--font-path',
+    str(ROOT / 'risorse-condivise/font/editoriali'), str(controlled), str(controlled_svg)], check=True)
+register('invito-variazione', controlled_svg,
+    'Confronto simulato: cambia soltanto la posizione verticale del gruppo del luogo. Testi, caratteri, colori, comando e dimensioni dei pannelli sono identici.',
+    'CVeDI, 2026. Sviluppo didattico dell’invito del capitolo 08.',
+    'Due inviti identici: nella seconda versione il gruppo Spazio Officina e indirizzo è spostato più in basso.')
+records['invito-variazione']['origin'] = 'lesson-diagram'
+records['invito-variazione']['nativeSource'] = str(controlled.relative_to(ROOT))
+records['invito-variazione']['nativeSourceSha256'] = sha(controlled)
+records['invito-variazione']['inputs'] = [dict(file=str(p.relative_to(ROOT)), sha256=sha(p)) for p in [ROOT / 'progetti/booklet/assets/diagrams/composition-examples.typ', ROOT / 'risorse-condivise/font/editoriali/dm-sans-variabile.ttf']]
+# Actual common starting layout, rather than instructions to reconstruct one.
+starter = DIAGRAMS / 'invito-iniziale.typ'
+starter.write_text(controlled.read_text().split('#grid(columns:')[0].replace('width: 542pt', 'width: 262pt') + '#invitation(83pt)\n')
+starter_svg = DIAGRAMS / 'invito-iniziale.svg'
+subprocess.run(['typst', 'compile', '--ignore-system-fonts', '--root', str(ROOT), '--font-path',
+    str(ROOT / 'risorse-condivise/font/editoriali'), str(starter), str(starter_svg)], check=True)
+materials = ROOT / 'progetti/slide/public/materials/composizione'
+materials.mkdir(parents=True, exist_ok=True)
+shutil.copyfile(starter_svg, materials / 'invito-iniziale.svg')
+
 takete = ROOT / 'progetti/booklet/assets/takete-maluma/takete.svg'
 maluma = ROOT / 'progetti/booklet/assets/takete-maluma/maluma.svg'
 composite('takete', embedded(takete, 0, 0, 480, 350) + embedded(maluma, 520, 0, 480, 350), 1000, 350,
@@ -131,10 +200,15 @@ entry.write_text('#import "/progetti/booklet/assets/diagrams/composition-example
 invito=OUT/'invito-azione.svg'
 subprocess.run(['typst','compile','--ignore-system-fonts','--root',str(ROOT),'--font-path',str(ROOT/'risorse-condivise/font/editoriali'),str(entry),str(invito)],check=True)
 body='<defs><filter id="sfocatura"><feGaussianBlur stdDeviation="3"/></filter></defs>'
-body+=embedded(invito,0,0,480,600)
-body+='<g filter="url(#sfocatura)">'+embedded(invito,540,0,480,600)+'</g>'
-composite('squint',body,1020,600,'A sinistra una proposta dell’invito originale; a destra la stessa composizione con sfocatura uniforme. Stessa scala: il confronto riguarda masse e contrasti, non comprensione o percorso degli occhi.',
+view = [float(value) for value in ET.fromstring(invito.read_text()).attrib['viewBox'].split()]
+scaled_height = 480 * view[3] / view[2]
+body+=embedded(invito,0,0,480,scaled_height)
+body+='<g filter="url(#sfocatura)">'+embedded(invito,540,0,480,scaled_height)+'</g>'
+composite('squint',body,1020,scaled_height,'A sinistra una proposta dell’invito originale; a destra la stessa composizione con sfocatura uniforme. Stessa scala: il confronto riguarda masse e contrasti, non comprensione o percorso degli occhi.',
     'CVeDI, 2026. Diagramma simulato.', 'Una proposta dell’invito e la copia sfocata alla stessa scala, affiancate.',[invito])
 BASE.mkdir(parents=True,exist_ok=True)
-(BASE/'image-manifest.json').write_text(json.dumps(dict(version=1,sourceFile=SOURCE,images=list(records.values())),ensure_ascii=False,indent=2)+'\n')
+bibliography = 'progetti/booklet/bibliografia/08-composizione-gerarchia.yml'
+references = json.loads(subprocess.run(['typst', 'eval', '--root', str(ROOT), f'yaml("{bibliography}")'], cwd=ROOT, check=True, capture_output=True, text=True).stdout)
+(BASE/'references.json').write_text(json.dumps(dict(source=bibliography, sourceSha256=sha(ROOT/bibliography), publications=references), ensure_ascii=False, indent=2)+'\n')
+(BASE/'image-manifest.json').write_text(json.dumps(dict(version=1,sourceFile=SOURCE,images=list(records.values()), materials=[dict(file=str((materials/'invito-iniziale.svg').relative_to(ROOT)), sha256=sha(materials/'invito-iniziale.svg'), nativeSource=str(starter.relative_to(ROOT)), nativeSourceSha256=sha(starter))]),ensure_ascii=False,indent=2)+'\n')
 print(f'Composition: {len(records)} source and native figures prepared.')

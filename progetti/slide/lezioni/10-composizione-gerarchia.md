@@ -167,11 +167,11 @@ bookletFigures: ["quadrato","cerchio"]
 <div class="lesson-columns"><LessonFigure src="/images/shared/figure/composizione-slidev/quadrato.svg" alt="Il quadrato come struttura geometrica nei marchi." caption="Il quadrato come struttura geometrica nei marchi." /><LessonFigure src="/images/shared/figure/composizione-slidev/cerchio.svg" alt="Il cerchio come struttura geometrica nei marchi." caption="Il cerchio come struttura geometrica nei marchi." /></div>
 
 <!--
-[calm, matter-of-fact delivery]Il quadrato e il cerchio offrono strutture molto riconoscibili.[pause] Il primo mette a disposizione lati, angoli e riferimenti modulari.[pause] Il secondo organizza una relazione intorno a un centro e può suggerire continuità.[pause] Guardiamo però i marchi: condividere una geometria non li rende equivalenti.[pause]
+[calm, matter-of-fact delivery]Guardate prima le linee rosse che descrivono la costruzione dei marchi.[short pause] Nel gruppo a sinistra possiamo riconoscere lati, angoli e diagonali; in quello a destra circonferenze, centri e anelli.[pause] La geometria ci dà un linguaggio per descrivere rapporti che altrimenti chiameremmo soltanto ordinati o armoniosi.[pause]
 
-Sono i segni interni, il colore, il nome e gli usi a distinguere le identità.[short pause] Per questo non costruiremo un dizionario che assegna a ogni quadrato stabilità e a ogni cerchio un carattere amichevole.[pause] Possiamo formulare un'interpretazione, ma dobbiamo sostenerla nella composizione concreta.[pause]
+Ora confrontate i segni all'interno dello stesso gruppo.[short pause] Condividono una struttura, ma restano identità differenti.[pause] Il nome, il colore, il disegno e gli usi accumulati contribuiscono al significato.[pause] Non possiamo quindi assegnare a ogni quadrato stabilità e a ogni cerchio un carattere amichevole: sarebbe una scorciatoia che elimina proprio le differenze osservabili.[pause]
 
-Nel laboratorio una forma geometrica potrebbe delimitare la fotografia o segnalare una categoria.[pause] In un'interfaccia potrebbe invece essere un comando o un indicatore.[pause] Prima di scegliere il contorno, chiediamoci quale relazione rende visibile.[short pause] La regolarità è una risorsa costruttiva, mentre la comprensione dipende dall'uso e dal contesto.[pause]
+Proviamo invece una domanda di progetto.[short pause] Se vogliamo raccogliere più informazioni intorno a un centro, quale proprietà del cerchio ci interessa?[pause] Se dobbiamo ripetere moduli affiancati, quali riferimenti offre il quadrato?[pause] Partiamo dalla relazione da costruire; il significato prenderà forma nella composizione completa.
 -->
 
 ---
@@ -267,11 +267,11 @@ bookletFigures: ["paesaggio-xilografia"]
 <div class="lesson-columns"><div><p class="lead">Palette, soggetti, luce e parole costruiscono insieme un’atmosfera.</p><ul class="cvedi-list"><li><span>Le associazioni cambiano con il contesto.</span></li><li><span>Il rilievo dipende dai colori circostanti.</span></li></ul></div><LessonFigure src="/images/shared/figure/composizione-slidev/paesaggio-xilografia.jpeg" alt="Paesaggio con il monte Fuji: illustrazione xilografica." caption="Paesaggio con il monte Fuji: illustrazione xilografica." /></div>
 
 <!--
-[calm, matter-of-fact delivery]Riprendiamo il colore come parte di una composizione.[pause] Luminosità, saturazione e accostamenti modificano quanto una tinta sia presente.[pause] Un rosso può richiamare festa, pericolo o urgenza secondo le convenzioni; un blu può contribuire a impressioni differenti in un contesto istituzionale, tecnologico o narrativo.[pause]
+[calm, matter-of-fact delivery]Osserviamo il paesaggio partendo dalle campiture: il profilo scuro in primo piano, le superfici più chiare e la montagna sullo sfondo.[short pause] Il colore lavora insieme ai contorni per separare zone e piani.[pause] Prima di scegliere una parola come sereno o drammatico, possiamo descrivere questi rapporti visibili.[pause]
 
-Nel paesaggio osserviamo campiture e soggetto insieme.[pause] Non occorre assegnare un'emozione obbligatoria a ogni tinta.[short pause] Possiamo invece descrivere quali zone si distinguono, come il colore separa i piani e quale rapporto mantiene con l'immagine complessiva.[pause]
+Richiamiamo ciò che sappiamo dalla lezione sul colore.[short pause] Luminosità, saturazione e accostamenti cambiano quanto una tinta si distingua.[pause] Lo stesso accento può risultare forte in un campo uniforme e poco selettivo in una pagina piena di colori intensi.[pause] La sua presenza dipende dall'ambiente in cui lo inseriamo.[pause]
 
-Questo richiamo ci servirà quando parleremo di priorità.[pause] Un accento è efficace se si distingue nel proprio ambiente e mantiene un ruolo riconoscibile.[pause] Nell'invito potremmo riservarlo al comando oppure a un dettaglio fotografico, controllando che la scelta sostenga il compito.[pause] La palette offre possibilità espressive; il contenuto e l'uso permettono di valutarle.[short pause]
+Per l'invito immaginiamo allora due impieghi differenti: il colore potrebbe costruire l'atmosfera della fotografia oppure segnalare il comando di iscrizione.[short pause] Quale ruolo vogliamo affidargli?[pause] Questa domanda prepara il passaggio alla gerarchia: una palette diventa utile quando le differenze sostengono funzioni riconoscibili e i dati rimangono leggibili.
 -->
 
 ---
@@ -317,11 +317,11 @@ bookletFigures: ["funzioni-immagini"]
 <div class="lesson-columns"><div><p class="lead">L’immagine dell’ambiente prepara un’aspettativa.</p><ul class="cvedi-list"><li><span>L’atmosfera sostiene il messaggio.</span></li><li><span>Indirizzo, orari e condizioni richiedono informazioni esplicite.</span></li></ul></div><LessonFigure src="/images/shared/figure/composizione-slidev/funzioni-immagini.png" alt="Funzione evocativa: la fotografia dell’ambiente suggerisce l’atmosfera di un locale." caption="Funzione evocativa: la fotografia dell’ambiente suggerisce l’atmosfera di un locale." /></div>
 
 <!--
-[calm, matter-of-fact delivery]La fotografia dell'ambiente di un locale permette di immaginare luce, disposizione e qualità dell'esperienza.[pause] Può preparare un'aspettativa prima che vengano letti tutti i dettagli.[pause] Questo è il ruolo evocativo che osserviamo nell'esempio.[pause]
+[calm, matter-of-fact delivery]Guardate la fotografia del locale prima di leggere la didascalia.[short pause] La luce calda, il bancone e i materiali permettono di immaginare un ambiente.[pause] È un esempio di funzione evocativa: l'immagine prepara un'aspettativa sull'esperienza, anche quando non stiamo ancora cercando un'informazione operativa.[pause]
 
-Domandiamoci però che cosa non possiamo ricavare dalla fotografia.[pause] Non conosciamo necessariamente l'indirizzo, gli orari o le condizioni del servizio.[short pause] Anche una scena convincente può lasciare aperte informazioni operative.[pause] Perciò il testo e la sua collocazione devono completare ciò che l'immagine suggerisce.[pause]
+Facciamo però una prova concreta: da questa sola fotografia riusciremmo a sapere a che ora apre il locale?[short pause] Potremmo descrivere ciò che vediamo, mentre per gli orari servirebbe un'altra informazione.[pause] Il testo può quindi completare l'immagine, senza doverle chiedere di spiegare ogni aspetto del servizio.[pause]
 
-Torniamo all'invito: una fotografia di ombre e riflessi potrebbe introdurre il tema del laboratorio.[pause] La data deve comunque restare riconoscibile senza essere cercata dentro la fotografia.[pause] La composizione può dare all'immagine una presenza importante e insieme riservare ai dati un campo uniforme.[short pause] Non stiamo scegliendo fra espressione e funzione: stiamo precisando come collaborano per quella comunicazione.[pause]
+Nell'invito al laboratorio possiamo adottare lo stesso ragionamento.[short pause] Una fotografia di ombre e riflessi introduce il tema; data e luogo hanno bisogno di una collocazione riconoscibile.[pause] L'immagine può occupare molto spazio, purché sia chiaro dove trovare i dati.[pause] La prossima figura cambia funzione: dalle qualità di un ambiente passiamo alle caratteristiche dell'offerta.
 -->
 
 ---
@@ -492,11 +492,11 @@ bookletFigures: ["up"]
 <div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Carl e Russell: geometria, comportamento e contesto collaborano.</p></div><LessonFigure src="/images/shared/figure/composizione-slidev/up.svg" alt="Profili di Carl e Russell, con rettangoli e cerchi come nel capitolo corrente." caption="Carl Fredricksen e Russell in Up (2009). I rettangoli su Carl e i cerchi su Russell evidenziano la costruzione dei profili. © Disney / Pixar." /></div>
 
 <!--
-[calm, matter-of-fact delivery]Nel confronto di Up vediamo il profilo squadrato di Carl e i contorni più arrotondati di Russell.[pause] I rettangoli su Carl e i cerchi sul viso e sugli occhi di Russell evidenziano una costruzione formale presente nei personaggi.[pause]
+[calm, matter-of-fact delivery]Guardate il viso di Carl a sinistra e quello di Russell a destra.[short pause] Le annotazioni rendono esplicito un confronto: rettangoli per leggere alcuni tratti squadrati di Carl, cerchi sul viso e sugli occhi di Russell.[pause] Prima di parlare del carattere dei personaggi, abbiamo individuato una differenza nella loro costruzione.[pause]
 
-Possiamo usare questo confronto per descrivere differenze, senza trasformarlo in una regola secondo la quale ogni quadrato comunica rigidità e ogni cerchio bontà.[pause] Nel film il significato prende forma attraverso gesti, voce, azioni e sviluppo narrativo.[pause] Il singolo contorno è parte di quella relazione.[short pause]
+Ora pensate a ciò che il film aggiunge a quei contorni: gesti, voce, azioni e trasformazioni del racconto.[short pause] È l'insieme a farci interpretare i personaggi.[pause] Una geometria condivisa non renderebbe identici due ruoli diversi, come abbiamo già osservato per i marchi.[pause]
 
-Anche il nome e gli usi accumulati partecipano al significato di un marchio.[pause] Quando scegliamo una forma per il laboratorio o per un servizio, dunque, consideriamo ciò che le persone incontrano insieme a essa.[pause] Il caso cinematografico ci insegna a cercare relazioni concrete fra elementi.[pause] È un modo più utile di trasferire un'osservazione al progetto rispetto all'assegnazione di un valore fisso a ogni geometria.[pause]
+L'esempio chiude la parte dedicata a forme e segni.[short pause] Abbiamo imparato a descrivere una proprietà, collegarla al contenuto e controllare quale contesto serva per comprenderla.[pause] Nella prossima parte cambiamo scala: dal profilo del soggetto passiamo al campo che lo contiene.[pause] Anche lasciare spazio, scegliere un bordo o escludere un dettaglio costruisce significato.
 -->
 
 ---
@@ -642,11 +642,11 @@ bookletFigures: ["julius-caesar"]
 <div class="lesson-columns"><div><p class="lead">La scala attribuisce rilievo attraverso rapporti fra elementi.</p><ul class="cvedi-list"><li><span>Osservare titolo, parole secondarie e spazio.</span></li><li><span>Un elemento piccolo ma isolato può risaltare.</span></li></ul></div><LessonFigure src="/images/shared/figure/composizione-slidev/julius-caesar.png" alt="Julius Caesar, Shakespeare in the Park 2017, Paula Scher / Pentagram: scala e dimensione nella gerarchia del manifesto." caption="Julius Caesar, Shakespeare in the Park 2017, Paula Scher / Pentagram: scala e dimensione nella gerarchia del manifesto. Paula Scher / Pentagram per The Public Theater; collaborazione Kirstin Rocke-Huber." /></div>
 
 <!--
-[calm, matter-of-fact delivery]Nel manifesto Julius Caesar di Paula Scher per Shakespeare in the Park, le differenze di ingombro distinguono livelli di comunicazione.[pause] Non stiamo osservando soltanto una dimensione assoluta: confrontiamo ogni parola con le altre e con lo spazio disponibile.[pause]
+[calm, matter-of-fact delivery]Nel manifesto di Julius Caesar il nome dell'opera occupa una parte molto evidente del campo, mentre le altre scritte hanno ingombri differenti.[short pause] Cercate prima il titolo, poi provate a individuare un'informazione di servizio.[pause] Sono due consultazioni della stessa composizione, sostenute da relazioni di scala diverse.[pause]
 
-La scala è proprio questo rapporto con un riferimento.[pause] In un giornale il titolo può prevalere sul corpo; in un'altra composizione una parola piccola ma isolata può essere più evidente di una grande immagine poco contrastata.[pause] Posizione, contenuto e ambiente modificano il risultato.[short pause]
+La scala è sempre un rapporto: fra una parola e le altre, fra un'immagine e il formato, fra un elemento e lo spazio che lo circonda.[short pause] Per questo un oggetto piccolo ma isolato può avere un ruolo forte.[pause] Possiamo ingrandire il manifesto se vogliamo studiare i dettagli, mantenendo visibile il confronto complessivo.[pause]
 
-Per l'invito formuliamo una priorità prima di scegliere il corpo: il titolo deve identificare l'attività, mentre data e luogo devono restare facili da trovare.[pause] Ingrandire tutti i blocchi non rende più chiari i ruoli.[pause] Conviene provare una differenza motivata e valutarla insieme alle distanze.[pause] Il manifesto ci offre un caso espressivo da leggere; la soluzione per una pagina operativa richiede un confronto con il proprio contenuto.[pause]
+Torniamo al nostro invito con una scelta precisa: il titolo identifica l'attività, data e luogo permettono di decidere se partecipare.[short pause] Se ingrandiamo tutto allo stesso modo, il rapporto fra i ruoli resta invariato.[pause] Prima scegliamo quale differenza serve; poi decidiamo quanto renderla evidente attraverso corpo, spazio e contrasto.
 -->
 
 ---
@@ -667,11 +667,11 @@ bookletFigures: ["barbie-dune","dune"]
 <div class="lesson-columns"><LessonFigure src="/images/shared/figure/composizione-slidev/barbie-dune.png" alt="Locandina di Barbie: il colore definisce un’atmosfera visiva." caption="Locandina di Barbie: il colore definisce un’atmosfera visiva. © Warner Bros." /><LessonFigure src="/images/shared/figure/composizione-slidev/dune.png" alt="Locandina di Dune: il colore definisce un’atmosfera visiva." caption="Locandina di Dune: il colore definisce un’atmosfera visiva. © Warner Bros." /></div>
 
 <!--
-[calm, matter-of-fact delivery]Le due locandine costruiscono atmosfere differenti attraverso colore, soggetti e scritte.[pause] Descriviamo prima quali aree si distinguono e come il testo si colloca rispetto alla figura.[pause] Non occorre dedurre dai colori, da soli, tutto il significato dei film.[pause]
+[calm, matter-of-fact delivery]Confrontate le due locandine mantenendo separati soggetto, scritte e ambiente cromatico.[short pause] In Barbie riconosciamo una grande scritta chiara nel campo rosa; in Dune l’alone intorno al disco emerge dal paesaggio scuro.[pause] Colore e luminosità partecipano alla composizione insieme alle forme, senza raccontare da soli l'intero significato dei film.[pause]
 
-Il contrasto mette in relazione differenze: chiaro e scuro, grande e piccolo, liscio e ruvido.[pause] Un colore saturo risalta soltanto rispetto a ciò che lo circonda.[short pause] Se tutti gli elementi ricevono un accento intenso, diventa più difficile riconoscere quale differenza corrisponde al ruolo principale.[pause]
+Possiamo ora formulare una domanda più precisa di quale colore attiri di più: che cosa si distingue rispetto a che cosa?[short pause] Il contrasto è una relazione.[pause] Vale per chiaro e scuro, grande e piccolo, superfici uniformi e dettagliate.[pause] La stessa tinta può avere un peso differente se cambia il campo circostante.[pause]
 
-Questo ci riporta al progetto di una palette funzionale.[pause] Le informazioni di supporto devono restare leggibili, mentre il comando pertinente può avere un trattamento più selettivo.[pause] Per l'invito possiamo confrontare l'accento nella fotografia e nel comando.[pause] La scelta va valutata nel campo completo, tenendo insieme leggibilità e intenzione espressiva.[short pause] Le opere mantengono qui i colori originali perché sono parte del contenuto che osserviamo.[pause]
+Per l'invito questo significa osservare fotografia e comando insieme.[short pause] Un'immagine molto contrastata può competere con l'iscrizione anche se il pulsante ha un colore acceso.[pause] La revisione può intervenire sulla distribuzione dei pesi, mantenendo leggibili titolo e dati.[pause] Il confronto riguarda l'intera pagina, non il singolo campione di palette.
 -->
 
 ---
@@ -742,11 +742,11 @@ bookletFigures: ["pareidolia-legno"]
 <div class="lesson-columns"><div><p class="lead">La pareidolia collega uno stimolo ambiguo a una figura familiare.</p><ul class="cvedi-list"><li><span>Distinguere raggruppamento e interpretazione.</span></li><li><span>Descrivere gli indizi che rendono possibile il riconoscimento.</span></li></ul></div><LessonFigure src="/images/shared/figure/composizione-slidev/pareidolia-legno.jpeg" alt="Un volto nelle venature del legno: la disposizione delle forme favorisce la pareidolia." caption="Un volto nelle venature del legno: la disposizione delle forme favorisce la pareidolia." /></div>
 
 <!--
-[calm, matter-of-fact delivery]Nelle venature del legno possiamo riconoscere un volto.[pause] Questa interpretazione dipende dalla disposizione di macchie e linee che ricordano occhi e bocca.[pause] Il termine pareidolia indica proprio il riconoscimento di una figura familiare in uno stimolo ambiguo.[pause]
+[calm, matter-of-fact delivery]Fermiamoci sulle venature del legno.[short pause] Quali segni vi fanno riconoscere un volto?[pause] Possiamo indicare le due zone che leggiamo come occhi e la linea che interpretiamo come bocca.[pause] Non è necessario che ogni dettaglio sia presente perché emerga una figura familiare.[pause]
 
-Non usiamo l'esempio come dimostrazione della sola prossimità.[pause] Ci mostra che disposizione e interpretazione collaborano: vedere elementi vicini e riconoscere un volto sono passaggi collegati, ma differenti.[short pause] Il significato che attribuiamo dipende anche dall'esperienza.[pause]
+Chiamiamo pareidolia questo riconoscimento in uno stimolo ambiguo.[short pause] Il caso ci aiuta a distinguere due operazioni: raggruppare elementi nello spazio e attribuire loro un significato.[pause] La vicinanza può contribuire, ma non spiega da sola perché quelle macchie diventino per noi un viso.[pause]
 
-Quando analizziamo una composizione, quindi, evitiamo di assegnare automaticamente a ogni figura il nome di un principio.[pause] Descriviamo quali indizi sostengono la nostra lettura e quali alternative restano possibili.[pause] È un'abitudine utile anche nelle interfacce: un segno può ricordare un oggetto senza chiarire l'azione prevista.[pause] L'interpretazione va confrontata con le parole, la posizione e il comportamento del controllo, prima di considerarla una relazione condivisa da tutti.[short pause]
+Nell'analisi di un progetto chiediamo quindi di nominare gli indizi.[short pause] Dire vedo un volto è diverso da dire queste due macchie simmetriche mi ricordano degli occhi.[pause] La seconda descrizione rende discutibile la lettura.[pause] Lo stesso esercizio aiuta con un'icona: identifichiamo che cosa viene riconosciuto, poi chiediamo quale azione ci si aspetta.[pause] Riconoscere un oggetto e comprendere un comando restano passaggi distinti.
 -->
 
 ---
@@ -767,11 +767,11 @@ bookletFigures: ["melbourne"]
 <div class="lesson-columns"><div><p class="lead">Forchetta e bottiglie emergono dal rapporto fra figure e fondo.</p><ul class="cvedi-list"><li><span>Il vuoto può rappresentare, oltre a separare.</span></li><li><span>La sua efficacia dipende dalle relazioni che rende leggibili.</span></li></ul></div><LessonFigure src="/images/shared/figure/composizione-slidev/melbourne.png" alt="Melbourne Food &amp; Wine Festival: una figura costruita con lo spazio negativo." caption="Melbourne Food &amp; Wine Festival: una figura costruita con lo spazio negativo. Melbourne Food &amp; Wine Festival." /></div>
 
 <!--
-[calm, matter-of-fact delivery]Nel manifesto del Melbourne Food and Wine Festival possiamo leggere una forchetta e alcune bottiglie.[pause] Il richiamo a cibo e vino nasce dal rapporto fra campiture e spazio negativo.[pause] Qui il vuoto partecipa al soggetto, oltre a separare i contenuti.[pause]
+[calm, matter-of-fact delivery]Nel manifesto del Melbourne Food and Wine Festival provate a descrivere prima il nero, poi lo spazio chiaro fra le campiture.[short pause] La relazione fa emergere bottiglie e forchetta, collegando visivamente i due termini del festival.[pause] Il contorno contribuisce a più di una lettura.[pause]
 
-Osserviamo il contorno condiviso e proviamo a passare da una lettura all'altra.[pause] Questo confronto aiuta a capire perché non possiamo valutare lo spazio soltanto come quantità libera.[short pause] La sua funzione dipende dalle forme e dalle relazioni che rende disponibili.[pause]
+Questo è un uso dello spazio negativo diverso da quello che separa semplicemente due paragrafi.[short pause] Il vuoto partecipa al soggetto: se cambiamo troppo un profilo, possiamo perdere una delle figure.[pause] Il messaggio dipende quindi da come pieni e vuoti si definiscono reciprocamente.[pause]
 
-Nel laboratorio lo spazio potrebbe isolare il titolo o mantenere riconoscibile il gruppo di data e orario.[pause] In un manifesto può invece costruire una seconda immagine.[pause] Sono usi diversi della stessa risorsa.[pause] Prima di aggiungere o togliere elementi, chiediamoci che cosa accade ai confini fra i gruppi e al messaggio complessivo.[short pause] Una pagina molto vuota può restare confusa se non rende riconoscibili le relazioni necessarie.[pause]
+Per trasferire il ragionamento alla pagina, scegliamo quale ruolo affidare allo spazio.[short pause] Nell'invito ci interessa soprattutto distinguere gruppi e conservare rapporti chiari fra titolo, dati e comando.[pause] Nel marchio o nel manifesto possiamo cercare anche una seconda figura.[pause] In entrambi i casi valutiamo una relazione specifica.[pause] Aggiungere una grande area libera, senza curare i suoi confini, non chiarirebbe automaticamente il contenuto.
 -->
 
 ---
@@ -792,11 +792,11 @@ bookletFigures: ["adidas"]
 <div class="lesson-columns"><div><p class="lead">Bordi, assi e linee di base organizzano testo e immagini.</p><ul class="cvedi-list"><li><span>Nella campagna Adidas il centro costruisce una relazione.</span></li><li><span>La scelta dell’asse dipende dall’intenzione compositiva.</span></li></ul></div><LessonFigure src="/images/shared/figure/composizione-slidev/adidas.png" alt="Campagna Adidas: allineamento del testo e relazione con l’immagine." caption="Campagna Adidas: allineamento del testo e relazione con l’immagine. © Adidas." /></div>
 
 <!--
-[calm, matter-of-fact delivery]La campagna Adidas mette in relazione testo e immagine attraverso una composizione centrata.[pause] L'asse offre un riferimento comune e permette di descrivere la disposizione degli elementi.[pause] Un allineamento diverso cambierebbe quella relazione e risponderebbe a un'altra intenzione.[pause]
+[calm, matter-of-fact delivery]Nella campagna Adidas osservate la colonna centrale delle parole e il suo rapporto con la figura.[pause] L'asse comune tiene insieme elementi differenti: possiamo descriverne l'allineamento anche senza ricostruire tutta la struttura del manifesto.[pause]
 
-Nella pagina editoriale possiamo cercare bordi, linee di base e riferimenti che ritornano.[pause] Nei testi lunghi, una bandiera coerente con la direzione di lettura rende costante l'inizio delle righe.[short pause] In un invito, un asse può tenere insieme titolo e dati pur lasciando distinguibili i loro ruoli.[pause]
+Proviamo mentalmente a spostare una sola riga verso un bordo.[short pause] Cambierebbe il rapporto con le altre e potrebbe acquistare un rilievo diverso.[pause] Questo piccolo esercizio mostra che l'allineamento non serve soltanto a mettere in ordine: stabilisce appartenenze e può rendere significativa un'eccezione.[pause]
 
-L'allineamento non è una misurazione del percorso degli occhi.[pause] Vediamo la struttura proposta, mentre l'esplorazione effettiva richiede una verifica.[pause] Questo è un punto ricorrente della lezione: le proprietà della composizione permettono di formulare ipotesi, non sostituiscono l'osservazione del lettore.[pause] Usiamo quindi il riferimento comune per motivare una scelta e poi chiediamo se aiuta a trovare l'informazione pertinente.[short pause]
+Nell'invito usiamo lo stesso criterio con contenuti più operativi.[short pause] Quale bordo collega titolo, data e luogo?[pause] Quali intervalli distinguono comunque i gruppi?[pause] Per un testo lungo, inoltre, un inizio riga costante nella direzione di lettura offre un riferimento ripetuto.[pause] Scegliamo l'asse in funzione di ciò che dobbiamo leggere e confrontare.[pause] Dopo aver guardato il riferimento comune, passiamo ora al peso degli elementi: essere al centro e prevalere visivamente non sono la stessa cosa.
 -->
 
 ---
@@ -817,11 +817,11 @@ bookletFigures: ["haagen-dazs"]
 <div class="lesson-columns"><div><p class="lead">Una composizione dispari offre un’organizzazione possibile.</p><ul class="cvedi-list"><li><span>Dimensioni, contrasti e distanze modificano i pesi.</span></li><li><span>Il contenuto determina quanti elementi servono.</span></li></ul></div><LessonFigure src="/images/shared/figure/composizione-slidev/haagen-dazs.png" alt="Campagna Häagen-Dazs: prodotti disposti secondo una composizione dispari." caption="Campagna Häagen-Dazs: prodotti disposti secondo una composizione dispari. © Häagen-Dazs." /></div>
 
 <!--
-[calm, matter-of-fact delivery]La campagna Häagen-Dazs dispone i prodotti in un gruppo dispari.[pause] Possiamo individuare un elemento centrale e confrontarlo con quelli ai lati.[pause] Questa struttura offre una possibilità di organizzazione, ma il numero da solo non garantisce equilibrio o chiarezza.[pause]
+[calm, matter-of-fact delivery]La campagna Häagen-Dazs raccoglie i prodotti in una composizione dispari.[short pause] Individuate il centro geometrico, poi confrontate dimensioni e inclinazioni delle confezioni.[pause] L'organizzazione del gruppo nasce da più rapporti, non soltanto dal conteggio degli oggetti.[pause]
 
-Un elemento laterale più brillante, più grande o più isolato potrebbe prevalere sul centro geometrico.[pause] Dobbiamo quindi osservare insieme dimensioni, distanze e contrasti.[short pause] Il peso visivo riguarda la presenza attribuita agli elementi nella relazione complessiva.[pause]
+Possiamo fare una variazione mentale: se un prodotto laterale diventasse molto più grande o brillante, il centro del formato resterebbe al suo posto, mentre cambierebbe la distribuzione dei pesi.[pause] È questa differenza che ci interessa prima di parlare di equilibrio.[pause]
 
-In un'interfaccia, aggiungere una voce solo per ottenere un numero dispari introdurrebbe un criterio estraneo al contenuto.[pause] Se Sara ha bisogno di due alternative pertinenti, non ne inventiamo una terza per rendere la disposizione più gradevole.[pause] Il caso pubblicitario aiuta a discutere il centro e l'equilibrio; il trasferimento al progetto mantiene la domanda sulle informazioni necessarie e sulle azioni effettivamente disponibili.[pause]
+Nel progetto, il numero degli elementi viene dal contenuto.[short pause] Se Sara ha due alternative pertinenti, non ne aggiungiamo una terza per ottenere un gruppo dispari.[pause] Possiamo invece lavorare su dimensioni, distanza e posizione delle due azioni.[pause] Il caso pubblicitario ci offre una domanda trasferibile: come si sostengono o si contrastano i pesi all'interno del campo?[pause] La prossima figura isola questi rapporti attraverso due schemi semplici.
 -->
 
 ---
@@ -867,11 +867,11 @@ bookletFigures: ["cocacola"]
 <div class="lesson-columns"><div><p class="lead">Ritorni e intervalli costruiscono ritmo e coerenza.</p><ul class="cvedi-list"><li><span>Nella campagna Coca-Cola le bottiglie suggeriscono un sorriso.</span></li><li><span>L’eccezione acquista senso rispetto a un riferimento riconoscibile.</span></li></ul></div><LessonFigure src="/images/shared/figure/composizione-slidev/cocacola.jpeg" alt="Campagna Coca-Cola: la ripetizione delle bottiglie suggerisce un sorriso." caption="Campagna Coca-Cola: la ripetizione delle bottiglie suggerisce un sorriso. © The Coca-Cola Company." /></div>
 
 <!--
-[calm, matter-of-fact delivery]Le bottiglie ripetute nella campagna Coca-Cola suggeriscono un sorriso.[pause] Il nuovo elemento emerge dal loro rapporto: posizione, dimensione e prossimità collaborano con la ripetizione.[pause] La sola presenza dello stesso marchio non spiegherebbe l'effetto.[pause]
+[calm, matter-of-fact delivery]Nella campagna Coca-Cola guardate prima le singole bottiglie, poi il contorno che costruiscono insieme.[short pause] Ripetizione, variazione di dimensione e disposizione suggeriscono un sorriso.[pause] Il risultato emerge dal gruppo: una bottiglia isolata non avrebbe la stessa funzione.[pause]
 
-Nelle pubblicazioni, ruoli che ritornano per titoli e corpo aiutano a riconoscere la struttura.[pause] Nelle interfacce, comandi con funzioni simili possono mantenere un trattamento coerente.[short pause] Questo crea un riferimento rispetto al quale una variazione diventa significativa.[pause]
+Il ritmo comprende anche gli intervalli.[short pause] Se cambiamo la distanza fra due elementi, possiamo interrompere una continuità o mettere in evidenza una zona.[pause] Una ripetizione riconoscibile offre dunque un riferimento rispetto al quale la differenza acquista significato.[pause]
 
-Se ogni blocco dell'invito avesse un colore e una forma differenti, sarebbe più difficile individuare l'eccezione utile.[pause] Una sola variazione, invece, può segnalare un cambiamento o un'azione pertinente.[pause] Non significa eliminare ogni differenza: significa renderla interpretabile.[pause] Il ritmo nasce anche dagli intervalli e dallo spazio, perciò osserviamo la sequenza complessiva prima di correggere un singolo elemento isolato.[short pause]
+Per applicarlo all'invito, manteniamo costanti i trattamenti dei dati che hanno lo stesso ruolo.[short pause] Possiamo poi riservare una variazione al comando o a un elemento che vogliamo distinguere.[pause] Prima di aggiungere un nuovo stile, chiediamoci quale funzione segnala.[pause] Questo collega il ritmo alla gerarchia: la coerenza rende interpretabile l'eccezione.[pause] La direzione che emerge dalla disposizione ci porta al prossimo esempio, dove le linee dell'architettura suggeriscono un movimento nello spazio.
 -->
 
 ---
@@ -917,11 +917,11 @@ bookletFigures: ["triennale"]
 <div class="lesson-columns"><div><p class="lead">Il reticolo coordina campiture, numero e testi.</p><ul class="cvedi-list"><li><span>Osservare gli allineamenti nel manifesto della Nona Triennale.</span></li><li><span>Valutare quale priorità emerge dalle relazioni.</span></li></ul></div><LessonFigure src="/images/shared/figure/composizione-slidev/triennale.png" alt="Ernst Scheidegger, manifesto della Nona Triennale di Milano, 1951: relazioni fra campiture, numero e testi." caption="Ernst Scheidegger, manifesto della Nona Triennale di Milano, 1951: relazioni fra campiture, numero e testi. Ernst Scheidegger." /></div>
 
 <!--
-[calm, matter-of-fact delivery]Nel manifesto della Nona Triennale di Milano di Ernst Scheidegger possiamo osservare i rapporti fra campiture, numero e testi.[pause] La griglia offre riferimenti per descrivere la disposizione, come abbiamo imparato nella lezione precedente.[pause]
+[calm, matter-of-fact delivery]Nel manifesto della Nona Triennale di Milano individuate tre componenti: il grande numero, le campiture e i testi.[short pause] Osservate quali bordi condividono e dove cambiano scala.[pause] Possiamo leggere il risultato attraverso i riferimenti della griglia studiati nella lezione precedente.[pause]
 
-Qui ci interessa ciò che quella struttura rende riconoscibile.[pause] Scala, contrasto e collocazione collaborano con il reticolo per costruire la gerarchia.[pause] Un sistema regolare può sostenere priorità chiare oppure contenere elementi con un peso indistinto: l'esistenza della griglia, da sola, non risolve la comunicazione.[short pause]
+Qui il nuovo passaggio riguarda la gerarchia.[short pause] Il reticolo offre posizioni possibili; dimensione e contrasto assegnano ruoli ai contenuti che le occupano.[pause] Una struttura regolare non decide da sola se il titolo debba prevalere o se due informazioni debbano essere confrontate.[pause]
 
-Nell'invito possiamo usare gli stessi riferimenti per tenere insieme titolo, dati e fotografia.[pause] La domanda resta quale ruolo assegniamo a ciascun campo.[pause] Non dovremo riprodurre il manifesto né usare lo stesso numero di suddivisioni.[pause] Trasferiamo il metodo di osservazione: individuare relazioni, collegarle al messaggio e confrontarle con un'altra disposizione.[pause] Nella prossima coppia vedremo come una gerarchia possa emergere anche attraverso densità e direzioni contrastanti.[short pause]
+Per il nostro invito possiamo quindi conservare i riferimenti di allineamento e cambiare il peso di un solo gruppo.[short pause] È un modo concreto di distinguere struttura e priorità.[pause] Quando discutiamo la proposta, indichiamo sia il riferimento mantenuto sia la differenza introdotta.[pause] Nella prossima coppia il testo diventa più denso e le direzioni si sovrappongono: il confronto ci mostrerà un'altra possibilità di costruire ruoli riconoscibili.
 -->
 
 ---
@@ -942,11 +942,11 @@ bookletFigures: ["manifesto-modulare","manifesto-denso"]
 <div class="lesson-columns"><LessonFigure src="/images/shared/figure/composizione-slidev/manifesto-modulare.png" alt="Paula Scher / Pentagram, Shakespeare in the Park 2013: sovrapposizioni, lettere di scala diversa e gerarchia del testo." caption="Paula Scher / Pentagram, Shakespeare in the Park 2013: sovrapposizioni, lettere di scala diversa e gerarchia del testo. Paula Scher / Pentagram per The Public Theater; collaborazione Kirstin Rocke-Huber." /><LessonFigure src="/images/shared/figure/composizione-slidev/manifesto-denso.png" alt="Paula Scher, The Public Theater, 95–96 Season, 1995: densità tipografica, direzioni contrastanti e variazioni di peso." caption="Paula Scher, The Public Theater, 95–96 Season, 1995: densità tipografica, direzioni contrastanti e variazioni di peso. © Paula Scher. Esemplare conservato al MoMA; dono della designer." /></div>
 
 <!--
-[calm, matter-of-fact delivery]Nei due progetti di Paula Scher per il Public Theater vediamo sovrapposizioni, lettere di scala diversa e direzioni contrastanti.[pause] Il confronto permette di leggere come queste scelte attribuiscano rilievo alle informazioni senza imporre lo stesso ordine geometrico.[pause]
+[calm, matter-of-fact delivery]A sinistra, nel progetto per Shakespeare in the Park del duemilatredici, guardate come grandi lettere e titoli rossi si sovrappongono.[short pause] A destra, nella stagione novantacinque, novantasei del Public Theater, la figura e le scritte di orientamenti diversi occupano un campo molto denso.[pause] Sono due progetti della stessa autrice, Paula Scher, con rapporti differenti fra testo e immagine.[pause]
 
-Il manifesto della stagione novantacinque, novantasei non è un esempio di griglia regolare.[pause] Pesi, inclinazioni e spaziature costruiscono un ritmo espressivo e denso.[pause] Descrivere questa relazione è più preciso che considerare ogni composizione efficace una dimostrazione del medesimo reticolo.[short pause]
+Scegliete un'informazione grande e una piccola in ciascun manifesto.[short pause] Come cambia il loro ruolo quando osservate l'intera composizione?[pause] Densità e sovrapposizione possono produrre una gerarchia espressiva senza ricondursi a una griglia regolare.[pause] L'ingrandimento permette di approfondire i testi minuti dopo aver riconosciuto i pesi complessivi.[pause]
 
-Rompere un riferimento comune richiede comunque un'intenzione.[pause] Se disperdiamo gli elementi senza legame con il messaggio, la lettura può diventare più difficile.[pause] Per l'invito possiamo sperimentare una sovrapposizione nella fotografia e mantenere chiari data e comando.[pause] La libertà compositiva conserva i vincoli delle associazioni comprensibili e del testo leggibile.[pause] Un'opera ci mostra una possibilità da analizzare, non una soluzione da applicare automaticamente a un servizio.[short pause]
+Il confronto amplia il nostro repertorio, ma mantiene un criterio operativo: quali contenuti devono essere trovati?[short pause] Nell'invito possiamo sperimentare con il titolo e lasciare ai dati una struttura più stabile.[pause] La variazione ha una ragione quando sappiamo spiegare quale relazione rende più riconoscibile.
 -->
 
 ---
@@ -967,11 +967,11 @@ bookletFigures: ["prospettiva-tipografica"]
 <div class="lesson-columns"><div><p class="lead">Scala, sovrapposizione e direzione costruiscono uno spazio rappresentato.</p><ul class="cvedi-list"><li><span>La prospettiva coordina rapporti fra piani.</span></li><li><span>Ingombro maggiore e rilievo visivo non coincidono sempre.</span></li></ul></div><LessonFigure src="/images/shared/figure/composizione-slidev/prospettiva-tipografica.png" alt="Prospettiva tipografica: il testo costruisce profondità e movimento." caption="Prospettiva tipografica: il testo costruisce profondità e movimento." /></div>
 
 <!--
-[calm, matter-of-fact delivery]L'esempio usa il testo come elemento spaziale.[pause] Direzione e variazioni di ingombro suggeriscono profondità su una superficie piana.[pause] Possiamo descrivere la relazione fra i piani prima di chiederci quale informazione prevalga.[pause]
+[calm, matter-of-fact delivery]Nel manifesto la parola è trattata come una struttura nello spazio.[short pause] Osservate la variazione d'ingombro e le direzioni dei tratti: il campo bidimensionale suggerisce una profondità.[pause] La tipografia svolge quindi anche una funzione di immagine.[pause]
 
-Nella prospettiva lineare, rette parallele della scena che non sono parallele al piano dell'immagine convergono verso un punto di fuga comune.[pause] Quelle parallele al piano dell'immagine restano parallele nella rappresentazione.[short pause] A parità di dimensioni reali e condizioni di proiezione, un oggetto vicino occupa un'area visiva maggiore.[pause]
+Richiamiamo un punto della prospettiva lineare.[short pause] Le rette parallele della scena che non sono parallele al piano dell'immagine convergono verso un punto di fuga comune; quelle parallele a quel piano restano parallele nella rappresentazione.[pause] A parità di dimensioni reali e condizioni di proiezione, un oggetto vicino occupa un'area visiva maggiore.[pause] Sono rapporti utili per descrivere la costruzione, distinti dalla priorità che il lettore attribuisce ai contenuti.[pause]
 
-Questo non stabilisce automaticamente che venga osservato per primo.[pause] Contrasto, contenuto e obiettivi possono proporre altre priorità.[pause] Per il nostro laboratorio la profondità potrebbe diventare parte del linguaggio fotografico, ma i dati devono conservare il proprio ruolo.[pause] L'analisi della prospettiva amplia gli strumenti per descrivere una composizione; la gerarchia va ancora valutata rispetto al messaggio e al lettore.[short pause]
+Per il laboratorio questa possibilità potrebbe servire a mostrare una tecnica fotografica o a costruire il titolo.[short pause] Prima di sceglierla, controlliamo che le lettere restino riconoscibili alla scala d'uso.[pause] Dalla profondità rappresentata passiamo ora a un'altra domanda: che cosa permette a un segnale di distinguersi nel proprio ambiente?
 -->
 
 ---
@@ -1192,11 +1192,11 @@ bookletFigures: ["diesel-contrasto","diesel-seconda"]
 <div class="lesson-columns"><LessonFigure src="/images/shared/figure/composizione-slidev/diesel-contrasto.png" alt="Campagna Diesel: contrasto fra testo, immagine e sfondo nella composizione." caption="Campagna Diesel: contrasto fra testo, immagine e sfondo nella composizione. © Diesel." /><LessonFigure src="/images/shared/figure/composizione-slidev/diesel-seconda.png" alt="Campagna Diesel: un altro esempio del contrasto fra testo, immagine e sfondo." caption="Campagna Diesel: un altro esempio del contrasto fra testo, immagine e sfondo. © Diesel." /></div>
 
 <!--
-[calm, matter-of-fact delivery]Nelle due composizioni Diesel possiamo descrivere il rapporto fra testo, immagine e sfondo.[pause] Possiamo discutere quali zone propongano più rilievo e come le parole collaborino con la scena.[pause] Questo è un lavoro di analisi visiva.[pause]
+[calm, matter-of-fact delivery]Nelle composizioni Diesel provate a individuare prima il testo, poi la situazione rappresentata.[short pause] In un caso vediamo una figura con un attrezzo, nell'altro un razzo; le parole mettono quei soggetti in relazione con il messaggio della campagna.[pause] Possiamo descrivere posizione, scala e contrasto e discutere il legame fra scritta e scena.[pause]
 
-Le immagini non sono una prova sperimentale del pattern a effe e non mostrano il percorso reale degli occhi.[pause] Tracciare mentalmente una lettera su una campagna non trasforma la nostra interpretazione in un dato osservato.[short pause] Dobbiamo mantenere separati documento, lettura compositiva e misurazione.[pause]
+Che cosa servirebbe invece per sapere dove ha guardato una persona?[short pause] Una registrazione pertinente del comportamento, insieme al compito e alle condizioni della prova.[pause] Le immagini della campagna non sono mappe oculari e non documentano il pattern a effe.[pause] Questa distinzione evita di trasformare una lettura compositiva in una misurazione.[pause]
 
-Quando argomentiamo il progetto dell'invito, quindi, possiamo dire che un contrasto dovrebbe rendere riconoscibile un gruppo.[pause] Per affermare che le persone lo trovano serve una prova pertinente.[pause] La precisione delle parole rende il confronto più utile: sappiamo quale relazione osserviamo, quale ipotesi formuliamo e quale evidenza ci manca ancora.[pause] È lo stesso metodo che useremo nelle analisi di arte, cinema e interfacce.[short pause]
+È il passaggio che ci interessa prima delle analisi successive.[short pause] Possiamo motivare una scelta dicendo quale relazione propone; per valutarne l'uso dobbiamo osservare una persona che svolge un compito.[pause] Nei videogiochi incontriamo ora un'ulteriore condizione: l'informazione deve restare consultabile mentre la scena cambia.
 -->
 
 ---
@@ -1267,11 +1267,11 @@ bookletFigures: ["cenacolo"]
 <div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Nell’Ultima Cena la centralità collabora con la costruzione prospettica.</p></div><LessonFigure src="/images/shared/figure/composizione-slidev/cenacolo.png" alt="Riproduzione dell’Ultima Cena con segni rossi che evidenziano la figura centrale." caption="Ultima Cena, Leonardo da Vinci, 1495–1498, Santa Maria delle Grazie, Milano. Riproduzione annotata: i segni rossi evidenziano la posizione centrale e le direzioni verso di essa; non appartengono all’opera. Opera di pubblico dominio." /></div>
 
 <!--
-[calm, matter-of-fact delivery]Nell'Ultima Cena di Leonardo la figura di Cristo occupa una posizione centrale e le linee dell'ambiente sostengono la costruzione prospettica.[pause] La riproduzione conserva frecce e rettangolo rossi: sono annotazioni sovrapposte, non segni appartenenti all'opera.[pause]
+[calm, matter-of-fact delivery]Nell'Ultima Cena partiamo dal centro: Cristo si colloca davanti all'apertura chiara, mentre i gruppi di figure si distribuiscono ai lati.[short pause] Guardate poi le linee dell'ambiente, che sostengono la costruzione prospettica.[pause] Posizione, contrasto con lo sfondo e direzioni collaborano nella stessa composizione.[pause]
 
-Possiamo prima individuare gli elementi visibili, poi descrivere come siano messi in relazione e infine discutere l'interpretazione nel contesto del racconto e dell'iconografia.[pause] Questo ordine evita di ridurre l'analisi a una lista di principi applicati all'immagine.[pause]
+La riproduzione conserva un rettangolo e due frecce rossi.[short pause] Sono annotazioni sovrapposte al documento: aiutano a individuare zone e direzioni, mentre l'opera mantiene una rete di rapporti molto più ricca.[pause] Proviamo a descriverne uno senza nominare subito un principio: quali elementi vediamo, come si collegano, quale parte del racconto permettono di discutere?[pause]
 
-La centralità non è una ricetta da trasferire invariata a ogni servizio digitale.[short pause] Un giornale può distinguere una notizia attraverso la scala; una schermata può richiedere il confronto fra alternative.[pause] Nell'invito titolo, data, luogo e azione hanno funzioni differenti: non devono diventare tutti un unico centro.[pause] L'opera ci offre un modo di osservare la collaborazione fra strumenti, mantenendo il rapporto con il proprio mezzo e contesto.[pause]
+Queste tre domande guidano l'analisi anche quando torniamo al progetto.[short pause] Non dobbiamo collocare ogni comando al centro; dobbiamo capire quali risorse collaborano a una priorità.[pause] Nell'invito possiamo confrontare titolo, sfondo e spazio libero.[pause] Il valore dell'esempio sta nell'osservazione coordinata, oltre all'identificazione di una singola simmetria.
 -->
 
 ---
@@ -1292,11 +1292,11 @@ bookletFigures: ["budapest"]
 <div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">The Grand Budapest Hotel: centro e figure laterali costruiscono una relazione.</p></div><LessonFigure src="/images/shared/figure/composizione-slidev/budapest.png" alt="The Grand Budapest Hotel, 2014: le due figure principali condividono il centro e sono affiancate da figure secondarie." caption="The Grand Budapest Hotel, 2014: le due figure principali condividono il centro e sono affiancate da figure secondarie. © Fox Searchlight Pictures." /></div>
 
 <!--
-[calm, matter-of-fact delivery]Nel fotogramma di The Grand Budapest Hotel le figure principali condividono il centro e sono messe in relazione con quelle ai lati.[pause] Osserviamo la simmetria come una scelta concreta di disposizione, insieme a spazio, colore e caratterizzazione della scena.[pause]
+[calm, matter-of-fact delivery]Nel fotogramma di The Grand Budapest Hotel seguite la balaustra e cercate il centro del campo.[short pause] Le figure principali sono raccolte in quella zona, mentre quelle laterali costruiscono corrispondenze.[pause] La simmetria offre una struttura riconoscibile entro cui possiamo confrontare posture e presenze diverse.[pause]
 
-Possiamo descrivere un asse e le corrispondenze, ma l'interpretazione richiede il contesto del film.[pause] Non stiamo associando a ogni forma o colore un'emozione automatica.[pause] Il fotogramma permette di esaminare una composizione; montaggio, durata, suono e azioni cambiano la lettura della sequenza.[short pause]
+Facciamo una piccola analisi guidata.[short pause] Prima descrivete una corrispondenza visibile; poi indicate una differenza fra i due lati.[pause] Un'organizzazione simmetrica non richiede che ogni dettaglio sia identico.[pause] Proprio il riferimento comune può rendere più evidente uno scarto o una figura particolare.[pause]
 
-Il trasferimento al progetto consiste nel riconoscere quali relazioni rendiamo visibili.[pause] Se vogliamo confrontare due informazioni, una disposizione corrispondente può aiutarci.[pause] Se vogliamo distinguere ruoli diversi, potremmo aver bisogno di pesi differenti.[pause] La simmetria è dunque una possibilità da motivare.[pause] Nel nostro invito controlliamo se sostiene la domanda del lettore, invece di adottarla soltanto perché riconosciamo lo stile del film.[short pause]
+Qui stiamo studiando un fotogramma.[short pause] Il film aggiunge durata, montaggio, suono e azioni, che contribuiscono all'interpretazione della sequenza.[pause] Per la nostra pagina trasferiamo una domanda circoscritta: vogliamo rendere confrontabili elementi di pari ruolo oppure distinguere una priorità?[pause] La risposta ci aiuta a scegliere fra corrispondenza e differenza di peso, come vedremo anche nel prossimo campo.
 -->
 
 ---
@@ -1317,11 +1317,11 @@ bookletFigures: ["budapest-cornice"]
 <div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">La grata delimita ulteriormente lo spazio visibile.</p></div><LessonFigure src="/images/shared/figure/composizione-slidev/budapest-cornice.png" alt="The Grand Budapest Hotel, 2014: la grata costruisce una seconda cornice." caption="The Grand Budapest Hotel, 2014: la grata costruisce una seconda cornice. © Fox Searchlight Pictures." /></div>
 
 <!--
-[calm, matter-of-fact delivery]In questo secondo fotogramma la grata costruisce una cornice interna.[pause] Il soggetto viene messo in relazione con una struttura che appartiene alla scena, oltre ai confini esterni dell'immagine.[pause] Possiamo descrivere che cosa rimane dentro e quale rapporto mantiene con l'ambiente.[pause]
+[calm, matter-of-fact delivery]Nel secondo fotogramma osservate la grata prima dei personaggi.[short pause] Le sue linee suddividono il campo e costruiscono una cornice interna: vediamo le figure attraverso una struttura che appartiene alla scena.[pause] Il bordo dell'immagine e quello della grata svolgono ruoli diversi.[pause]
 
-Una cornice interna può essere costruita da porte, finestre o altri elementi scenici.[pause] Non coincide con una semplice riduzione dell'immagine.[short pause] Mantiene visibile una relazione fra il soggetto e ciò che lo circonda, mentre un ritaglio potrebbe eliminare parte di quel contesto.[pause]
+Provate a immaginare un ritaglio che conservi soltanto i volti.[short pause] Potremmo riconoscere i soggetti, ma perderemmo il loro rapporto con la barriera.[pause] È una conseguenza informativa del taglio, oltre a una variazione del formato.[pause] Porte, finestre e aperture possono svolgere una funzione simile in altre immagini.[pause]
 
-Per la pagina digitale questa osservazione suggerisce di controllare come fotografie e contenitori incornicino le informazioni.[pause] Non dobbiamo aggiungere bordi decorativi alle opere.[pause] Dobbiamo riconoscere i confini già presenti e verificare se aiutano o ostacolano il messaggio.[pause] Nel laboratorio una finestra potrebbe diventare parte della dimostrazione sulla luce: tagliarla senza criterio cambierebbe proprio la relazione che vogliamo rendere osservabile.[short pause]
+Per il laboratorio questa osservazione torna utile quando scegliamo una fotografia sulla luce.[short pause] Una finestra potrebbe essere parte del procedimento che vogliamo mostrare; eliminarla cambierebbe la spiegazione.[pause] Prima di riempire il contenitore, indichiamo dunque il dettaglio e la relazione da conservare.[pause] Nel prossimo fotogramma faremo il movimento opposto: dal confine vicino ai soggetti passeremo all'ampiezza dell'ambiente che li circonda.
 -->
 
 ---
@@ -1367,11 +1367,11 @@ bookletFigures: []
 <div><p class="lead">Dal caso alla pagina: descrivere, interpretare, formulare una scelta.</p><ul class="cvedi-list"><li><span>Quali relazioni sono osservabili?</span></li><li><span>Quali dipendono dal mezzo e dal contesto?</span></li><li><span>Quale ipotesi possiamo provare nel nostro invito?</span></li></ul></div>
 
 <!--
-[calm, matter-of-fact delivery]Abbiamo osservato un manifesto, un'opera e più fotogrammi.[pause] Il valore del confronto sta nel metodo: individuare gli elementi, descrivere le loro relazioni e discutere l'interpretazione nel contesto.[pause] Non basta etichettare ogni esempio come simmetria, contrasto o ritmo.[pause]
+[calm, matter-of-fact delivery]Raccogliamo le analisi in tre domande, da usare anche nel laboratorio.[short pause] Prima: che cosa posso indicare nell'immagine?[pause] Un asse, una differenza di scala, un contorno condiviso o una zona libera.[pause] Seconda: che relazione costruisce?[pause] Un confronto fra figure, una separazione fra dati, un richiamo al soggetto.[pause] Terza: quale scelta potrei provare nella mia pagina?[pause]
 
-Quando torniamo alla pagina, scegliamo quale osservazione possa diventare un'ipotesi concreta.[pause] Un grande campo vuoto può attribuire rilievo a un titolo; una cornice può collegare soggetto e ambiente; una variazione di scala può distinguere i ruoli.[short pause] Dobbiamo poi verificare se quella relazione sostiene il messaggio dell'invito.[pause]
+Prendiamo l'ultima scena.[short pause] Abbiamo osservato personaggi piccoli rispetto alla sala; possiamo quindi ragionare sul rapporto fra soggetto e ambiente.[pause] Nell'invito potremmo lasciare alla fotografia uno spazio ampio per comunicare l'esperienza, conservando un campo leggibile per i dati.[pause] È una proposta da verificare con il nostro contenuto.[pause]
 
-Manteniamo anche i limiti del confronto.[pause] Un fotogramma non descrive un'intera sequenza e una locandina non documenta il comportamento di un servizio.[pause] Possiamo imparare a vedere relazioni più precise senza copiare la soluzione.[pause] Il passaggio successivo consiste nel raccogliere riferimenti e trasformarli in decisioni che abbiano un criterio di verifica.[short pause]
+Questo passaggio rende utilizzabile il repertorio raccolto.[short pause] Un riferimento visivo ci aiuta quando sappiamo nominare la proprietà che interessa, oltre al suo stile complessivo.[pause] Ora lo colleghiamo a un'idea guida e a una raccolta di riferimenti, prima di costruire una variazione confrontabile.
 -->
 
 ---
@@ -1484,19 +1484,19 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-variazione"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
-bookletFigures: ["invito"]
+bookletFigures: ["invito-variazione"]
 ---
 
 # Cambiare una relazione alla volta
 
-<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Conservare una versione iniziale per rendere discutibile la modifica.</p></div><LessonFigure src="/images/shared/figure/composizione-slidev/invito.svg" alt="Invito al laboratorio: elenco, relazioni e azione a confronto." caption="Lo stesso contenuto in tre composizioni simulate: a. informazioni con peso simile; b. titolo, data e luogo distinti; c. invito all’azione riconoscibile. CVeDI, 2026. Diagramma simulato." /></div>
+<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Spostare il gruppo del luogo, mantenendo invariati testo, caratteri, colori e comando.</p></div><LessonFigure src="/images/shared/figure/composizione-slidev/invito-variazione.svg" alt="Due inviti identici: nella seconda versione il gruppo Spazio Officina e indirizzo è spostato più in basso." caption="Confronto simulato: cambia soltanto la posizione verticale del gruppo del luogo. Testi, caratteri, colori, comando e dimensioni dei pannelli sono identici. CVeDI, 2026. Sviluppo didattico dell’invito del capitolo 08." /></div>
 
 <!--
-[calm, matter-of-fact delivery]Riprendiamo le tre versioni dell'invito e scegliamo una relazione da modificare.[pause] Potrebbe essere lo spazio fra data e luogo, la scala del titolo oppure il peso del comando.[pause] Conservare una versione iniziale permette di vedere esattamente che cosa cambia.[pause]
+[calm, matter-of-fact delivery]Qui il confronto è diverso dalle tre versioni viste all'inizio.[short pause] Allora cambiavano insieme scala, gruppi e presenza del comando.[pause] In questi due inviti testi, caratteri, colori, comando e dimensioni rimangono identici.[pause] Si sposta soltanto il gruppo del luogo, formato da Spazio Officina e indirizzo.[pause]
 
-Se riscriviamo testo, immagini, colori e struttura nello stesso momento, diventa difficile comprendere quale scelta abbia prodotto un miglioramento o un problema.[pause] Per questo una variazione controllata è utile nella discussione, anche se un progetto completo potrà evolvere attraverso più interventi.[short pause]
+Guardate l'intervallo fra l'orario e il luogo.[short pause] Nella versione iniziale è simile agli intervalli interni dei dati; nella seconda la separazione è più ampia.[pause] Possiamo così formulare un'ipotesi circoscritta: quella distanza dovrebbe rendere più distinguibili le informazioni su quando e dove partecipare.[pause] Lo spostamento cambia anche lo spazio rimasto prima dell'iscrizione: osserviamolo nel campo completo.[pause]
 
-Il confronto deve avvenire nella dimensione d'uso.[pause] Verifichiamo dettagli, associazioni e disponibilità delle informazioni.[pause] Una traduzione può allungare un comando; un formato stretto può richiedere un altro taglio fotografico.[pause] La coerenza riguarda la funzione delle relazioni anche quando la disposizione si adatta.[pause] Prima di osservare l'uso, possiamo svolgere un controllo dei pesi complessivi affiancando originale e copia sfocata.[short pause]
+Conservare entrambe le versioni permette di discutere l'effetto senza attribuirlo a una nuova palette o a testi riscritti.[short pause] Questa è la logica della prima attività.[pause] Scegliete una relazione, dichiarate che cosa cambia e confrontate il risultato con un compito.[pause] Prima della prova possiamo ancora controllare i pesi complessivi.
 -->
 
 ---
@@ -1564,14 +1564,14 @@ bookletFigures: []
 
 # Un invito comune per il confronto
 
-<div><p class="lead">Laboratorio di fotografia: sperimentare con la luce.</p><ul class="cvedi-list"><li><span>Sabato 14 novembre · dalle 10 alle 13.</span></li><li><span>Spazio Officina · Via del Parco 8.</span></li><li><span>Iscrizione gratuita · azione: Iscriviti.</span></li></ul><p class="aside">Dati simulati per l’esercizio. <LessonDownload src="/materials/composizione/invito.txt">Scarica invito e scheda di confronto</LessonDownload></p></div>
+<div><p class="lead">Un testo comune, un layout iniziale e una scheda per annotare il confronto.</p><ul class="cvedi-list"><li><span>Sabato 14 novembre · dalle 10 alle 13.</span></li><li><span>Spazio Officina · Via del Parco 8.</span></li><li><span>Iscrizione gratuita · azione: Iscriviti.</span></li></ul><p class="aside">Dati simulati per l’esercizio. <LessonDownload src="/materials/composizione/invito.txt">Scarica testi e scheda</LessonDownload> · <LessonDownload src="/materials/composizione/invito-iniziale.svg">Scarica il layout iniziale</LessonDownload></p></div>
 
 <!--
-[calm, matter-of-fact delivery]Useremo gli stessi contenuti per rendere confrontabili le proposte.[pause] L'attività è un laboratorio di fotografia, con l'idea guida sperimentare con la luce.[pause] I dati dell'invito sono sabato quattordici novembre, dalle dieci alle tredici, Spazio Officina, via del Parco otto.[pause] L'iscrizione è gratuita e l'azione proposta è iscriviti.[pause]
+[calm, matter-of-fact delivery]Il materiale comune è un invito simulato al laboratorio di fotografia, con l'idea guida sperimentare con la luce.[short pause] Si svolge sabato quattordici novembre, dalle dieci alle tredici, allo Spazio Officina in via del Parco otto.[pause] L'iscrizione è gratuita e il comando è iscriviti.[pause]
 
-Sono dati simulati per l'esercizio.[short pause] Non aggiungiamo condizioni o dettagli che cambino il problema.[pause] Nel materiale scaricabile trovate anche la versione iniziale dell'invito e la scheda per annotare riferimento, scelta e verifica.[pause]
+Il primo collegamento permette di scaricare questi testi e la scheda di confronto; il secondo offre il layout iniziale in formato vettoriale.[short pause] Potete usarlo come riferimento o importarlo nello strumento di lavoro.[pause] In questo modo tutte le coppie partono dagli stessi dati e possono conservare una copia iniziale effettiva.[pause]
 
-L'obiettivo non è imitare la soluzione mostrata durante la lezione.[pause] Dovrete motivare una variazione in rapporto alla domanda del lettore.[pause] Tenete disponibili tutte le informazioni, conservate una copia iniziale e confrontate le due versioni alla stessa dimensione.[short pause] Se scegliete una fotografia, un'icona o una metafora, annotate quale informazione aggiunge e quale contesto serve per comprenderla.[pause]
+La scheda chiede di annotare priorità, modifica prevista e osservazione.[short pause] Non occorre riprodurre la soluzione appena mostrata: potete intervenire sulla scala, sullo spazio o sull'enfasi di un elemento, mantenendo le altre scelte.[pause] La prima fase produce due versioni confrontabili; la seconda permette a un'altra coppia di usarle senza conoscere in anticipo le vostre intenzioni.
 -->
 
 ---
@@ -1589,14 +1589,14 @@ bookletFigures: []
 
 # Produrre una variazione motivata
 
-<div><p class="lead">In coppia, rendere riconoscibili attività, dati e iscrizione.</p><ul class="cvedi-list"><li><span>Scrivere la priorità e scegliere una relazione da modificare.</span></li><li><span>Conservare contenuti e versione iniziale.</span></li><li><span>Affiancare le due proposte e motivare la scelta.</span></li></ul><p class="aside">Attività · 8 minuti</p></div>
+<div><p class="lead">In coppia, rendere riconoscibili attività, dati e iscrizione.</p><ul class="cvedi-list"><li><span>Scrivere la priorità e scegliere una relazione da modificare.</span></li><li><span>Conservare contenuti e versione iniziale.</span></li><li><span>Affiancare le due proposte e annotare l’effetto previsto.</span></li></ul><p class="aside">Attività · 8 minuti</p></div>
 
 <!--
-[calm, matter-of-fact delivery]Cominciate ora la prima fase, che dura otto minuti.[pause] Lavorate in coppia sull'invito comune e scrivete quale informazione o azione deve essere riconoscibile per prima.[pause] Elencate anche i dati che devono restare disponibili.[pause]
+[calm, matter-of-fact delivery]Dedichiamo otto minuti alla prima fase.[short pause] In coppia, aprite il materiale comune e scrivete la domanda a cui l'invito deve rispondere.[pause] Per esempio: posso partecipare e come mi iscrivo?[pause] Scegliete quale informazione o azione volete rendere più riconoscibile, mantenendo disponibili tutti i dati.[pause]
 
-Scegliete una relazione da modificare: scala del titolo, spazio fra gruppi, collocazione dell'immagine o enfasi del comando.[pause] Conservate la versione iniziale e affiancatela alla variazione alla stessa dimensione.[short pause] Annotate quale effetto prevedete e quale elemento potrebbe competere con la priorità.[pause]
+Conservate il layout iniziale e preparate una variazione.[short pause] Intervenite su una relazione: la scala del titolo, la posizione di un gruppo oppure l'enfasi del comando.[pause] Annotate che cosa mantenete e che cosa cambiate, come nel confronto appena analizzato.[pause] Affiancate le due versioni alla stessa dimensione.[pause]
 
-Se usate un'immagine o un segno, esplicitatene la funzione e il significato previsto.[pause] Non occorre rifare tutto il sistema visivo.[pause] Vogliamo un confronto che si possa discutere con precisione.[pause] Fermate la riproduzione o mettete in pausa la presentazione e dedicate gli otto minuti al lavoro.[short pause] La slide successiva guiderà la verifica con un'altra coppia, senza considerare già riuscita la proposta soltanto perché appare più ordinata.[pause]
+Negli ultimi due minuti scrivete una previsione concreta: quale informazione dovrebbe essere più facile da trovare e quale altra potrebbe diventare meno evidente?[short pause] Questa annotazione preparerà la prova.[pause] Gli otto minuti includono la lettura della consegna e il lavoro; chi consulta autonomamente può sospendere la presentazione.[pause] Alla fine dovrete avere due versioni e una frase che spieghi la modifica.
 -->
 
 ---
@@ -1617,11 +1617,11 @@ bookletFigures: []
 <div><p class="lead">Scambiare le varianti con un’altra coppia e osservare le risposte.</p><ul class="cvedi-list"><li><span>Chiedere giorno, orario, luogo e modalità di iscrizione.</span></li><li><span>Annotare risposte, esitazioni e associazioni ambigue.</span></li><li><span>Rivedere la proposta alla luce delle osservazioni.</span></li></ul><p class="aside">Attività · 7 minuti</p></div>
 
 <!--
-[calm, matter-of-fact delivery]La seconda fase dura sette minuti.[pause] Scambiate le proposte con un'altra coppia e chiedete di trovare giorno, orario, luogo e modalità di iscrizione.[pause] Evitate di indicare dove guardare o di spiegare prima la vostra soluzione.[pause]
+[calm, matter-of-fact delivery]Nei sette minuti della seconda fase scambiate le proposte con un'altra coppia.[short pause] Chiedete di trovare giorno, orario, luogo e modalità di iscrizione.[pause] Presentate una versione per volta, senza spiegare la soluzione né indicare dove guardare.[pause] Registrate risposte, esitazioni e associazioni ambigue.[pause]
 
-Alternate quale variante viene mostrata per prima e annotate le condizioni, perché chi ha già letto tutti i dati può ritrovarli grazie alla memoria.[pause] È una piccola verifica didattica, non un esperimento che permetta conclusioni generali.[short pause] Cercate osservazioni utili alla revisione.[pause]
+Al primo giro una coppia comincia dalla versione iniziale, l'altra dalla variazione.[short pause] Annotate l'ordine e ricordate che, dopo la prima lettura, i contenuti sono già noti: il secondo tentativo risente della memoria.[pause] È una verifica didattica che raccoglie indizi per la revisione, senza produrre una graduatoria generalizzabile.[pause]
 
-Registrate le risposte, le esitazioni e le associazioni ambigue.[pause] Se qualcuno trova subito un comando diverso da quello pertinente, non contate soltanto la rapidità.[pause] Se la risposta è corretta ma richiede molte ricerche, annotate anche questa difficoltà.[pause] Dedicate ora i sette minuti alla prova e alla discussione.[short pause] Alla ripresa scegliete una correzione motivata da ciò che avete osservato, includendo gli elementi che contraddicono la vostra previsione iniziale.[pause]
+Usate gli ultimi due minuti per confrontare previsione e osservazione.[short pause] Il comando è stato trovato ma interpretato male?[pause] Data e luogo sono stati associati correttamente?[pause] Scegliete una correzione sostenuta da un episodio della prova.[pause] I sette minuti comprendono consegna, scambio e confronto.[pause] Alla ripresa racconteremo una relazione osservata e una decisione, evitando di fermarci alla preferenza estetica.
 -->
 
 ---
@@ -1692,11 +1692,11 @@ bookletFigures: []
 <ul class="list lesson-references"><li class="list-row"><div><a class="link" href="https://www.ucpress.edu/books/art-and-visual-perception/paper" target="_blank" rel="noreferrer">Arnheim (2004) · Art and visual perception</a><p>Forma e relazioni nella composizione.</p></div></li><li class="list-row"><div><a class="link" href="https://www.carocci.it/prodotto/che-cose-la-semiotica-visiva" target="_blank" rel="noreferrer">Polidoro (2008) · Semiotica visiva</a><p>Riconoscimento, convenzioni e interpretazione.</p></div></li><li class="list-row"><div><a class="link" href="https://doi.org/10.4324/9780203064252" target="_blank" rel="noreferrer">Forceville (1996) · Pictorial metaphor</a><p>Relazioni fra ambiti nelle immagini pubblicitarie.</p></div></li><li class="list-row"><div><a class="link" href="https://doi.org/10.3406/comm.1964.1027" target="_blank" rel="noreferrer">Barthes (1964) · Rhétorique de l’image</a><p>Ancoraggio e relais.</p></div></li><li class="list-row"><div><a class="link" href="https://doi.org/10.1371/journal.pone.0163525" target="_blank" rel="noreferrer">Shinohara et al. (2016) · Takete e Maluma</a><p>Fonte dei profili di Köhler riprodotti.</p></div></li><li class="list-row"><div><a class="link" href="https://doi.org/10.1098/rstb.2020.0390" target="_blank" rel="noreferrer">Ćwiek et al. (2022) · Bouba/kiki</a><p>Associazioni fra suono e forma; differenze fra gruppi.</p></div></li></ul>
 
 <!--
-[calm, matter-of-fact delivery]Questi riferimenti permettono di approfondire il rapporto fra forma, percezione e significato.[pause] Arnheim affronta le relazioni visive nella composizione; Polidoro introduce gli strumenti della semiotica visiva; Forceville studia la metafora nelle immagini pubblicitarie; Barthes distingue il contributo delle parole rispetto alle immagini.[pause]
+[calm, matter-of-fact delivery]Per approfondire, potete usare questa prima raccolta partendo dal tipo di domanda.[short pause] Se vi interessa come descrivere i rapporti fra forme, tornate ad Arnheim.[pause] Per gli strumenti di interpretazione visiva trovate Polidoro; per la metafora nelle immagini pubblicitarie, Forceville.[pause] Barthes aiuta a distinguere il ruolo delle parole accanto alle immagini.[pause]
 
-I collegamenti sono disponibili nella slide e i riferimenti completi restano nel materiale della lezione.[pause] Non serve leggere gli indirizzi durante la spiegazione.[pause] Per riprendere un esempio, scegliete la domanda che volete approfondire e tornate al testo pertinente.[short pause]
+Gli ultimi due collegamenti riguardano invece il confronto fra suoni e forme.[short pause] Il primo documenta i profili ripresi nella lezione; il secondo presenta la ricerca su bouba e kiki, con il proprio campione e le proprie condizioni.[pause] Tenere vicini disegno e pubblicazione permette di ritrovare ciò che abbiamo effettivamente mostrato.[pause]
 
-La distinzione utile è fra ciò che vediamo e l'interpretazione che formuliamo.[pause] I riferimenti aiutano a rendere più preciso questo passaggio, mantenendo il contesto dell'opera o della pagina.[pause] Nella prossima raccolta ritroviamo gli studi sull'attenzione e sui compiti di scelta e movimento, che sostengono una parte diversa delle nostre verifiche.[pause]
+Non serve affrontare tutti i riferimenti nello stesso ordine della lezione.[short pause] Scegliete un esempio che vi ha lasciato una domanda e leggete la fonte pertinente.[pause] Nella prossima raccolta cambia il problema: dall'interpretazione delle immagini passiamo alla ricerca visiva e ai compiti di interazione.
 -->
 
 ---
@@ -1717,11 +1717,11 @@ bookletFigures: []
 <ul class="list lesson-references"><li class="list-row"><div><a class="link" href="https://doi.org/10.1016/0010-0285(80)90005-5" target="_blank" rel="noreferrer">Treisman e Gelade (1980) · Feature integration</a><p>Caratteristiche e combinazioni nella ricerca visiva.</p></div></li><li class="list-row"><div><a class="link" href="https://doi.org/10.3758/s13423-020-01859-9" target="_blank" rel="noreferrer">Wolfe (2021) · Guided Search 6.0</a><p>Stimoli, obiettivi ed esperienza nella ricerca.</p></div></li><li class="list-row"><div><a class="link" href="https://doi.org/10.1080/17470215208416600" target="_blank" rel="noreferrer">Hick (1952) · Scelta e informazione</a><p>Insieme a Hyman (1953), DOI 10.1037/h0056940.</p></div></li><li class="list-row"><div><a class="link" href="https://doi.org/10.1037/h0055392" target="_blank" rel="noreferrer">Fitts (1954) · Movimento verso il bersaglio</a><p>Approfondimento HCI: MacKenzie (1992), DOI 10.1207/s15327051hci0701_3.</p></div></li><li class="list-row"><div><a class="link" href="https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/" target="_blank" rel="noreferrer">Pernice (2017) · F-shaped pattern</a><p>Condizioni e limiti delle scansioni osservate.</p></div></li><li class="list-row"><div><a class="link" href="https://www.ibm.com/design/language/iconography/pictograms/usage/" target="_blank" rel="noreferrer">IBM · Pictograms: Usage</a><p>Ruolo del pittogramma e differenza dalle icone UI.</p></div></li></ul>
 
 <!--
-[calm, matter-of-fact delivery]Qui sono raccolti gli studi che abbiamo richiamato per distinguere ricerca visiva, scelta e movimento.[pause] Treisman e Gelade studiano caratteristiche e combinazioni; Wolfe propone un modello aggiornato di guida della ricerca visiva.[pause] Hick e Hyman affrontano l'incertezza nei compiti sperimentali di scelta; Fitts e MacKenzie il movimento verso un bersaglio.[pause]
+[calm, matter-of-fact delivery]Questa raccolta segue i tre passaggi incontrati con Sara.[short pause] Per la ricerca di un segnale trovate Treisman e Gelade e il modello Guided Search di Wolfe.[pause] Per l'incertezza fra risposte possibili, gli studi di Hick e Hyman.[pause] Per il movimento verso un bersaglio, Fitts e l'approfondimento di MacKenzie, richiamato nella descrizione.[pause]
 
-L'articolo di Pernice precisa inoltre le condizioni e i limiti del pattern a effe.[pause] Questi lavori non trasformano le nostre schermate in esperimenti controllati.[short pause] Servono a formulare domande migliori e a evitare conclusioni che le sole composizioni non sostengono.[pause]
+Il collegamento sul pattern a effe permette di ritrovare le condizioni di scansione discusse.[short pause] La documentazione IBM completa invece il confronto fra pittogramma illustrativo e icona operativa.[pause] Sono riferimenti di natura diversa, da usare per domande differenti.[pause]
 
-Quando motivate una revisione, identificate quale aspetto state verificando.[pause] Cercare un comando, comprenderlo e attivarlo sono passaggi differenti.[pause] Collegare la fonte al problema pertinente permette di conservare la ricchezza dei modelli senza ridurli a formule generiche applicate a qualunque pagina.[pause]
+Se volete riprendere il vostro esercizio, formulate prima il problema osservato.[short pause] La persona non trovava il comando, ne interpretava male il significato oppure faticava ad attivarlo?[pause] Questa distinzione orienta la lettura della fonte e la revisione.[pause] Permette anche di evitare una spiegazione unica per difficoltà che richiedono interventi diversi sulla composizione.
 -->
 
 ---
@@ -1742,9 +1742,9 @@ bookletFigures: []
 <ul class="list lesson-references"><li class="list-row"><div><a class="link" href="https://www.nngroup.com/articles/visual-hierarchy-ux-definition/" target="_blank" rel="noreferrer">Gordon (2020; 2021) · Gerarchia visiva</a><p>Priorità e controllo dei pesi; riferimenti completi nel materiale scaricabile.</p></div></li><li class="list-row"><div><a class="link" href="https://www.nngroup.com/articles/mood-boards/" target="_blank" rel="noreferrer">Yang (2023) · Mood boards in UX</a><p>Dai riferimenti alla discussione delle scelte.</p></div></li><li class="list-row"><div><a class="link" href="https://www.w3.org/WAI/tutorials/images/functional/" target="_blank" rel="noreferrer">W3C WAI · Functional Images</a><p>Immagine operativa, azione e alternativa testuale.</p></div></li><li class="list-row"><div><a class="link" href="https://www.criterion.com/films/29601-the-grand-budapest-hotel" target="_blank" rel="noreferrer">Criterion · The Grand Budapest Hotel</a><p>Personaggi, contesto e formati; attribuzioni accanto alle figure.</p></div></li><li class="list-row"><div><a class="link" href="https://celiahodent.com/understanding-the-success-of-fortnite-ux/" target="_blank" rel="noreferrer">Hodent (2019) · Fortnite, UX e psicologia</a><p>Visibilità delle informazioni durante il gioco.</p></div></li><li class="list-row"><div><a class="link" href="https://odr.chalmers.se/server/api/core/bitstreams/fd267f70-c295-4eae-ae01-af5db676e61d/content" target="_blank" rel="noreferrer">Fagerholt e Lorentzon (2009) · Beyond the HUD</a><p>Indicatori, diegesi e collocazione nello spazio.</p></div></li></ul><p class="aside"><LessonDownload src="/materials/composizione/fonti.txt">Riferimenti completi e attribuzioni</LessonDownload></p>
 
 <!--
-[calm, matter-of-fact delivery]L'ultima raccolta collega il metodo di verifica ai materiali osservati.[pause] Gli articoli sulla gerarchia e sulle moodboard aiutano a passare dai riferimenti alle decisioni.[pause] IBM documenta il ruolo dei pittogrammi e le risorse per l'accessibilità precisano la funzione delle immagini operative.[pause]
+[calm, matter-of-fact delivery]L'ultima raccolta accompagna il passaggio dal riferimento al progetto.[short pause] Le letture su gerarchia e moodboard aiutano a motivare la scelta visiva; le risorse W3C precisano la funzione delle immagini operative e delle alternative testuali.[pause] I riferimenti a cinema e videogiochi riportano al contesto degli esempi analizzati.[pause]
 
-I riferimenti a cinema e videogiochi permettono di ritrovare il contesto dei casi, mentre le attribuzioni delle opere accompagnano le rispettive figure.[pause] Le schermate storiche rimangono documenti delle versioni conservate.[short pause] Per approfondire un esempio, partite dal suo contesto e dalla domanda che abbiamo formulato, senza attribuirgli dati che non contiene.[pause]
+Nel materiale scaricabile trovate le pubblicazioni, i collegamenti e le attribuzioni delle figure.[short pause] Per ritrovare un'opera, partite dalla sua didascalia; per approfondire un principio, scegliete la pubblicazione pertinente.[pause] Le schermate storiche conservano il ruolo di documenti delle versioni mostrate.[pause]
 
-Concludiamo tornando all'invito: la qualità della composizione emerge quando le relazioni visive aiutano a comprendere il messaggio e a procedere.[pause] Conservate la vostra variazione insieme alla prova e alla revisione.[pause] È questo collegamento fra intenzione, scelta e osservazione che rende il progetto discutibile e migliorabile.[pause] Grazie e buon lavoro.[short pause]
+Concludiamo con ciò che avete prodotto: una versione iniziale, una variazione motivata e un'osservazione che porta a una revisione.[short pause] Questa piccola sequenza rende concreto il filo della lezione.[pause] Il compito orienta le priorità, le relazioni visive danno forma alla proposta e la prova permette di correggerla.[pause] Conservate insieme i tre passaggi, così da poter spiegare perché una scelta è utile.[pause] Grazie e buon lavoro.
 -->

@@ -3,38 +3,353 @@
   "slideCount": 70,
   "minutes": 90,
   "activityMinutes": 15,
-  "spokenWords": 9545,
-  "activeFigures": 51,
+  "spokenWords": 9707,
+  "activeFigures": 52,
   "audioGenerated": false,
   "passes": [
     {
-      "name": "Copertura",
-      "result": "Tutte le otto sezioni del capitolo corrente hanno corrispondenze nel piano e nel mapping."
+      "name": "Copertura del capitolo",
+      "result": "Ricontrollate le otto sezioni e tutte le 41 sottosezioni; conservati limiti scientifici, qualificazioni storiche e attribuzioni.",
+      "evidence": "subsectionCoverage"
     },
     {
-      "name": "Progressione",
-      "result": "Invito come caso ricorrente; Sara per riconoscere, scegliere e attivare; casi documentari prima della verifica."
+      "name": "Progressione e caso guida",
+      "result": "Il confronto iniziale mostra più cambiamenti. La slide 60 ora isola lo spostamento del gruppo del luogo, mantenendo invariati testi, caratteri, colori e comandi. Il layout iniziale è realmente scaricabile.",
+      "slides": [
+        5,
+        60,
+        63,
+        64,
+        65,
+        66,
+        67
+      ]
     },
     {
-      "name": "Copione",
-      "result": "70 note complete, 9545 parole; tag rimovibili senza cambiare gli originali. Tempi finali ribilanciati mantenendo 90 minuti."
+      "name": "Copione e raccordi",
+      "result": "Rilette tutte le 70 note; riviste 26 per ridurre cautele ripetute, indicare dettagli visibili, introdurre domande di osservazione e collegare gli esempi. Le fonti guidano ad approfondimenti concreti.",
+      "revisedNotes": 26,
+      "originalPreservedAfterRemovingDeliveryTags": true
     },
     {
-      "name": "Impaginazione",
-      "result": "210 render desktop/stretto/stampa senza overflow; ispezionate le tavole di contatto di tutte le slide. Corrette le caption del confronto Scher e la scala del confronto sfocato."
+      "name": "Ritmo e attività",
+      "result": "Budget mantenuto a 75 minuti di spiegazione e 15 di attività. Le consegne chiariscono che briefing e confronto rientrano nelle due fasi. Il tempo è una stima editoriale; nessun audio è stato generato o misurato.",
+      "explanationWords": 9415,
+      "speechRateReferenceWordsPerMinute": [
+        135,
+        150
+      ],
+      "activityMinutes": [
+        8,
+        7
+      ]
     },
     {
-      "name": "Revisione finale",
-      "result": "Fonti, attribuzioni, qualificazioni storiche, input dei diagrammi e rigenerazione deterministica verificati."
+      "name": "Impaginazione e correzioni",
+      "result": "Equilibrio e salienza usano pannelli orizzontali con geometrie native conservate; lo squint test elimina il canvas inutilizzato. L’ispezione ha rilevato e fatto correggere un frammento di etichetta nel primo tentativo di ricomposizione.",
+      "slides": [
+        34,
+        40,
+        60,
+        61
+      ],
+      "sharedCaptionPixels": 18
+    },
+    {
+      "name": "Conferma visiva e interazioni",
+      "result": "Tutte le 70 slide ricontrollate su desktop, viewport stretto e stampa; ispezionate anche le viste strette e di stampa dei confronti rivisti. Zoom, Escape, focus, tastiera, indice, presenter e tre download verificati.",
+      "renders": 210,
+      "browserFailures": [],
+      "browserErrors": []
+    },
+    {
+      "name": "Materiali e rilettura finale",
+      "result": "Riferimenti completi esportati come testo leggibile da 21 pubblicazioni correnti, con link e attribuzioni; rimossi YAML grezzo e percorsi interni dal download. Nuovo diagramma distinto dai documenti del booklet. Slide e note confrontate dopo le correzioni.",
+      "publications": 21
+    }
+  ],
+  "subsectionCoverage": [
+    {
+      "heading": "Cominciare dal lettore",
+      "slides": [
+        4
+      ]
+    },
+    {
+      "heading": "Dare una funzione alle differenze",
+      "slides": [
+        6
+      ]
+    },
+    {
+      "heading": "Forme geometriche",
+      "slides": [
+        7,
+        8
+      ]
+    },
+    {
+      "heading": "Forme astratte e corrispondenze",
+      "slides": [
+        9
+      ]
+    },
+    {
+      "heading": "Forme naturali e texture",
+      "slides": [
+        10
+      ]
+    },
+    {
+      "heading": "Il colore nella composizione",
+      "slides": [
+        11
+      ]
+    },
+    {
+      "heading": "Evocare, descrivere, sintetizzare",
+      "slides": [
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "heading": "Fotografia o illustrazione",
+      "slides": [
+        16
+      ]
+    },
+    {
+      "heading": "Contesto e interpretazione",
+      "slides": [
+        17
+      ]
+    },
+    {
+      "heading": "Metafore visive",
+      "slides": [
+        18
+      ]
+    },
+    {
+      "heading": "Icone e pittogrammi",
+      "slides": [
+        19
+      ]
+    },
+    {
+      "heading": "La forma dentro un racconto",
+      "slides": [
+        20
+      ]
+    },
+    {
+      "heading": "Inquadratura e direzione",
+      "slides": [
+        21,
+        22
+      ]
+    },
+    {
+      "heading": "Taglio, formato e rapporto con le parole",
+      "slides": [
+        23,
+        24
+      ]
+    },
+    {
+      "heading": "Pieno e vuoto costruiscono figure",
+      "slides": [
+        25
+      ]
+    },
+    {
+      "heading": "Dimensione e scala",
+      "slides": [
+        26
+      ]
+    },
+    {
+      "heading": "Colore e contrasto",
+      "slides": [
+        27
+      ]
+    },
+    {
+      "heading": "Gerarchia tipografica",
+      "slides": [
+        28
+      ]
+    },
+    {
+      "heading": "Spaziatura e prossimità",
+      "slides": [
+        29,
+        30
+      ]
+    },
+    {
+      "heading": "Lo spazio negativo come messaggio",
+      "slides": [
+        31
+      ]
+    },
+    {
+      "heading": "Allineamento",
+      "slides": [
+        32
+      ]
+    },
+    {
+      "heading": "Dispari, centro ed equilibrio",
+      "slides": [
+        33
+      ]
+    },
+    {
+      "heading": "Equilibrio simmetrico e asimmetrico",
+      "slides": [
+        34
+      ]
+    },
+    {
+      "heading": "Ripetizione e ritmo",
+      "slides": [
+        35
+      ]
+    },
+    {
+      "heading": "Linee e movimento suggerito",
+      "slides": [
+        36
+      ]
+    },
+    {
+      "heading": "Griglia e variazione",
+      "slides": [
+        37,
+        38
+      ]
+    },
+    {
+      "heading": "Prospettiva e profondità",
+      "slides": [
+        39
+      ]
+    },
+    {
+      "heading": "Salienza e ricerca visiva",
+      "slides": [
+        40,
+        41
+      ]
+    },
+    {
+      "heading": "Segnali concorrenti e azioni",
+      "slides": [
+        42
+      ]
+    },
+    {
+      "heading": "Vedere, scegliere, raggiungere",
+      "slides": [
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "heading": "Lo schema a Z",
+      "slides": [
+        46
+      ]
+    },
+    {
+      "heading": "Scansione a F e struttura del testo",
+      "slides": [
+        47,
+        48
+      ]
+    },
+    {
+      "heading": "Informazione durante il gioco",
+      "slides": [
+        49,
+        50
+      ]
+    },
+    {
+      "heading": "Dall’arte alla pagina",
+      "slides": [
+        51
+      ]
+    },
+    {
+      "heading": "Un caso cinematografico",
+      "slides": [
+        52,
+        53,
+        54,
+        55
+      ]
+    },
+    {
+      "heading": "Dall’idea guida alle scelte visive",
+      "slides": [
+        56
+      ]
+    },
+    {
+      "heading": "Raccogliere e discutere una moodboard",
+      "slides": [
+        57,
+        58
+      ]
+    },
+    {
+      "heading": "Dai riferimenti alle decisioni",
+      "slides": [
+        59
+      ]
+    },
+    {
+      "heading": "Costruire una variazione motivata",
+      "slides": [
+        60
+      ]
+    },
+    {
+      "heading": "Osservare la composizione sfocata",
+      "slides": [
+        61
+      ]
+    },
+    {
+      "heading": "Verificare con un compito",
+      "slides": [
+        62,
+        63,
+        64,
+        65,
+        66
+      ]
     }
   ],
   "browserRenders": 210,
   "browserFailures": [],
   "browserErrors": [],
+  "deliveryTags": {
+    "pause": 542,
+    "short pause": 147
+  },
   "fingerprints": {
-    "content-plan.json": "495cab3f76d4b1cb7997c3cf9963a48693000b6a65e3e0e515d0dfae65f31f38",
-    "speaker-notes-original.json": "4efb63e85581758503795a440ac56260b01d297eb7c2c39ca4578bd6819a4c1f",
-    "speaker-notes.json": "668287ea757ae3f489e19c2117ce94c873d4160b3fbbc8387f77b4b26cfcaa7f",
-    "manifest.json": "9b0bc97339994517bf3863418246770332d403ecea6e77cb090bc79a046d0cf4"
+    "content-plan.json": "c2d27e88b2799b2a8908735927a12c3b428adda74f49df6155a12f6565782769",
+    "speaker-notes-original.json": "ea1cc0dd9cf7312978ad5aa03248507f5d48944223d87ca031f591c3d36e682a",
+    "speaker-notes.json": "ebac2199ec5f206c0412296c197b4e78e950c36c048b04ab4ea56906980c3cbc",
+    "manifest.json": "347c89014bd9dbc54374a5bc612b0ad0e2fa5a023c9413d80f0c4cef876069b9",
+    "image-manifest.json": "1ece5e6a95df2d973cf445c58544b0812c4a02573e268d0f1ff2d0055aede0f4",
+    "references.json": "12c1ea3eed1e12fb51a041a0af47c3c44b2e94665552612dd33549564f2496ec"
   }
 }

@@ -1,7 +1,14 @@
 {
   "check:source": {
     "status": "passed",
-    "slides": 1387
+    "slides": 1387,
+    "composition": {
+      "slides": 70,
+      "minutes": 90,
+      "activityMinutes": 15,
+      "spokenWords": 9707,
+      "figures": 52
+    }
   },
   "build": {
     "status": "passed",
@@ -16,6 +23,11 @@
     "status": "passed",
     "renders": 210,
     "slides": 70,
+    "presenterNotesChecked": [
+      5,
+      60
+    ],
+    "downloadResponses": 3,
     "errors": []
   },
   "check:covers": {
@@ -48,104 +60,7 @@
       "hidden tabs cancel playback and visibility restores it"
     ],
     "pageErrors": [],
-    "warnings": [
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied",
-      "Wake Lock permission request denied"
-    ]
+    "headlessWakeLockWarnings": 96
   },
   "check:progress": {
     "status": "passed",
@@ -520,10 +435,17 @@
     "errors": [],
     "failedRequests": []
   },
-  "cardPublication": {
+  "downloadPublication": {
     "status": "passed",
-    "count": 3,
-    "exactRGBA": true,
+    "files": [
+      "invito.txt",
+      "invito-iniziale.svg",
+      "fonti.txt"
+    ],
     "buildBytesMatch": true
+  },
+  "designDetector": {
+    "findings": [],
+    "scope": "lezione 10 Markdown; supplementary mechanical scan"
   }
 }

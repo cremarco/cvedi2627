@@ -629,16 +629,16 @@
     {
       "code": "salienza",
       "source": "risorse-condivise/immagini/figure/composizione-slidev/salienza.svg",
-      "sourceSha256": "7c6c87ccb5ceb59aeb53606b7382189333126783abff7ebb67211cb0d98c9622",
+      "sourceSha256": "099977509a3a3b19857466e451ce4868c05fb8aca7ea50f9b98f7a736a21467f",
       "file": "risorse-condivise/immagini/figure/composizione-slidev/salienza.svg",
-      "sha256": "7c6c87ccb5ceb59aeb53606b7382189333126783abff7ebb67211cb0d98c9622",
+      "sha256": "099977509a3a3b19857466e451ce4868c05fb8aca7ea50f9b98f7a736a21467f",
       "web": "/images/shared/figure/composizione-slidev/salienza.svg",
       "caption": "Ricerca visiva in due campi simulati: a. un solo disco è diverso; b. più differenze competono. Non sono rappresentati tempi o risultati misurati.",
       "rights": "CVeDI, 2026. Diagramma simulato.",
       "alt": "Un disco distinto e un campo con più segnali concorrenti.",
       "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ",
       "nativeSource": "progetti/slide/assets/slide-materials/composizione/salienza.typ",
-      "nativeSourceSha256": "1f2aba1d55559400001f54be43195baa14a594276f82b202493a2f6133501b86",
+      "nativeSourceSha256": "528521aa743dfbe26e95f647793ab7d9b9f6339261c2a8db0947dcc195fa6092",
       "inputs": [
         {
           "file": "progetti/booklet/assets/diagrams/composition-examples.typ",
@@ -685,16 +685,16 @@
     {
       "code": "equilibrio",
       "source": "risorse-condivise/immagini/figure/composizione-slidev/equilibrio.svg",
-      "sourceSha256": "cc008ec1c2c5eb604059b4a44f4795c453c3f84c6ca09888b8868593b5594aef",
+      "sourceSha256": "663f7529bcc2c9e397fc8fa47fad9985f44286115465699ba611e01965bfba6c",
       "file": "risorse-condivise/immagini/figure/composizione-slidev/equilibrio.svg",
-      "sha256": "cc008ec1c2c5eb604059b4a44f4795c453c3f84c6ca09888b8868593b5594aef",
+      "sha256": "663f7529bcc2c9e397fc8fa47fad9985f44286115465699ba611e01965bfba6c",
       "web": "/images/shared/figure/composizione-slidev/equilibrio.svg",
       "caption": "Due schemi simulati: a. dischi speculari; b. dimensioni e distanze differenti. L’asse permette di confrontare le posizioni e non misura il peso percettivo.",
       "rights": "CVeDI, 2026. Diagramma simulato.",
       "alt": "Equilibrio simmetrico e asimmetrico a confronto.",
       "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ",
       "nativeSource": "progetti/slide/assets/slide-materials/composizione/equilibrio.typ",
-      "nativeSourceSha256": "23e31636758e0004d247996e02b1eea27bc40ddeb6d7305a39639a2c792f9595",
+      "nativeSourceSha256": "f5c33b1b65fb99280889fe595d2f393003191376ed142cf94640c092d3f2a5be",
       "inputs": [
         {
           "file": "progetti/booklet/assets/diagrams/composition-examples.typ",
@@ -707,6 +707,31 @@
         {
           "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
           "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ]
+    },
+    {
+      "code": "invito-variazione",
+      "source": "risorse-condivise/immagini/figure/composizione-slidev/invito-variazione.svg",
+      "sourceSha256": "13a047a11b8aa3ba0fccaf6d62965d0d1c5987318ba1382ed3d8adc8d49ef665",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/invito-variazione.svg",
+      "sha256": "13a047a11b8aa3ba0fccaf6d62965d0d1c5987318ba1382ed3d8adc8d49ef665",
+      "web": "/images/shared/figure/composizione-slidev/invito-variazione.svg",
+      "caption": "Confronto simulato: cambia soltanto la posizione verticale del gruppo del luogo. Testi, caratteri, colori, comando e dimensioni dei pannelli sono identici.",
+      "rights": "CVeDI, 2026. Sviluppo didattico dell’invito del capitolo 08.",
+      "alt": "Due inviti identici: nella seconda versione il gruppo Spazio Officina e indirizzo è spostato più in basso.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ",
+      "origin": "lesson-diagram",
+      "nativeSource": "progetti/slide/assets/slide-materials/composizione/invito-variazione.typ",
+      "nativeSourceSha256": "9ba4d726795388c2c3dde38c37e565c697f719b18b8372215847d50702c55a2c",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/composition-examples.typ",
+          "sha256": "830b7673c4b653f9c1ee1132c158f9d82b0effddad5db99c23988b2adecd4202"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
         }
       ]
     },
@@ -783,9 +808,9 @@
     {
       "code": "squint",
       "source": "risorse-condivise/immagini/figure/composizione-slidev/squint.svg",
-      "sourceSha256": "8f461ef7416572ff822fdb481edfa3c481f4c80358c0a6fe1db97cff375bc7e6",
+      "sourceSha256": "1206173fa3e99658d5f4d17a16b1503241a39e3fc7b554e32f1caa7494b130c3",
       "file": "risorse-condivise/immagini/figure/composizione-slidev/squint.svg",
-      "sha256": "8f461ef7416572ff822fdb481edfa3c481f4c80358c0a6fe1db97cff375bc7e6",
+      "sha256": "1206173fa3e99658d5f4d17a16b1503241a39e3fc7b554e32f1caa7494b130c3",
       "web": "/images/shared/figure/composizione-slidev/squint.svg",
       "caption": "A sinistra una proposta dell’invito originale; a destra la stessa composizione con sfocatura uniforme. Stessa scala: il confronto riguarda masse e contrasti, non comprensione o percorso degli occhi.",
       "rights": "CVeDI, 2026. Diagramma simulato.",
@@ -797,6 +822,14 @@
           "sha256": "2f2f64813d452ee60a9c68f38073bd3947036fee80e0ae6c764f355dfbd55879"
         }
       ]
+    }
+  ],
+  "materials": [
+    {
+      "file": "progetti/slide/public/materials/composizione/invito-iniziale.svg",
+      "sha256": "244212976efcae3eae0d51fd9a6addea62ff32871364a807a0f36fbdde8692ea",
+      "nativeSource": "progetti/slide/assets/slide-materials/composizione/invito-iniziale.typ",
+      "nativeSourceSha256": "f2b46e29c3c2732cd2740d22152e9f0edfc84d9143a45332fe651c88c4593379"
     }
   ]
 }
