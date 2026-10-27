@@ -1,0 +1,40 @@
+{
+  "lesson": "composizione-gerarchia",
+  "slideCount": 70,
+  "minutes": 90,
+  "activityMinutes": 15,
+  "spokenWords": 9545,
+  "activeFigures": 51,
+  "audioGenerated": false,
+  "passes": [
+    {
+      "name": "Copertura",
+      "result": "Tutte le otto sezioni del capitolo corrente hanno corrispondenze nel piano e nel mapping."
+    },
+    {
+      "name": "Progressione",
+      "result": "Invito come caso ricorrente; Sara per riconoscere, scegliere e attivare; casi documentari prima della verifica."
+    },
+    {
+      "name": "Copione",
+      "result": "70 note complete, 9545 parole; tag rimovibili senza cambiare gli originali. Tempi finali ribilanciati mantenendo 90 minuti."
+    },
+    {
+      "name": "Impaginazione",
+      "result": "210 render desktop/stretto/stampa senza overflow; ispezionate le tavole di contatto di tutte le slide. Corrette le caption del confronto Scher e la scala del confronto sfocato."
+    },
+    {
+      "name": "Revisione finale",
+      "result": "Fonti, attribuzioni, qualificazioni storiche, input dei diagrammi e rigenerazione deterministica verificati."
+    }
+  ],
+  "browserRenders": 210,
+  "browserFailures": [],
+  "browserErrors": [],
+  "fingerprints": {
+    "content-plan.json": "495cab3f76d4b1cb7997c3cf9963a48693000b6a65e3e0e515d0dfae65f31f38",
+    "speaker-notes-original.json": "4efb63e85581758503795a440ac56260b01d297eb7c2c39ca4578bd6819a4c1f",
+    "speaker-notes.json": "668287ea757ae3f489e19c2117ce94c873d4160b3fbbc8387f77b4b26cfcaa7f",
+    "manifest.json": "9b0bc97339994517bf3863418246770332d403ecea6e77cb090bc79a046d0cf4"
+  }
+}

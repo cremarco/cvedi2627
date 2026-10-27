@@ -19,7 +19,10 @@ test('typography and grids are published while exercises remain local and remove
   assert.deepEqual(lessonDecks.filter(deck => deck.localOnly).map(deck => deck.id), exercises.exercises.map(exercise => exercise.id))
   const gridsIndex = lessonDecks.findIndex(deck => deck.id === 'griglie-layout')
   assert.equal(lessonDecks[gridsIndex - 1].id, 'tipografia-griglie', 'grids are a separate set immediately after typography')
-  assert.equal(lessonDecks[gridsIndex + 1].id, exercises.exercises[0].id, 'exercises follow the last active theory lesson')
+  assert.equal(lessonDecks[gridsIndex + 1].id, 'composizione-gerarchia', 'composition follows grids')
+  assert.equal(lessonDecks[gridsIndex + 2].id, exercises.exercises[0].id, 'exercises follow the last active theory lesson')
+  assert.equal(lessonDecks[gridsIndex + 1].file, 'lezioni/10-composizione-gerarchia.md')
+  assert.equal(lessonDecks[gridsIndex + 1].localOnly, undefined, 'composition is published')
   assert.equal(lessonDecks[gridsIndex].file, 'lezioni/07-griglie-layout.md', 'grids have their own source file')
   assert.equal(lessonDecks[gridsIndex].localOnly, undefined, 'grids are included in public builds')
   for (const lesson of curriculum.lessons) {

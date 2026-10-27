@@ -15,7 +15,10 @@
     "percezione-gerarchia-relazioni": "/images/generated/theme-2026/cards/lesson-05-local/percezione-gerarchia-relazioni.webp",
     "griglie-layout-struttura": "/images/generated/theme-2026/cards/lesson-09/griglie-layout-struttura.webp",
     "griglie-layout-progetto": "/images/generated/theme-2026/cards/lesson-09/griglie-layout-progetto.webp",
-    "griglie-layout-verifica": "/images/generated/theme-2026/cards/lesson-09/griglie-layout-verifica.webp"
+    "griglie-layout-verifica": "/images/generated/theme-2026/cards/lesson-09/griglie-layout-verifica.webp",
+    "composizione-gerarchia-relazioni": "/images/generated/theme-2026/cards/lesson-10/composizione-gerarchia-relazioni.webp",
+    "composizione-gerarchia-priorita": "/images/generated/theme-2026/cards/lesson-10/composizione-gerarchia-priorita.webp",
+    "composizione-gerarchia-verifica": "/images/generated/theme-2026/cards/lesson-10/composizione-gerarchia-verifica.webp"
   },
   "mappings": {
     "percezione-gerarchia": {
@@ -110,6 +113,11 @@
       "leggere la struttura": "griglie-layout-struttura",
       "progettare il layout": "griglie-layout-progetto",
       "verificare le regole": "griglie-layout-verifica"
+    },
+    "composizione-gerarchia": {
+      "leggere le relazioni": "composizione-gerarchia-relazioni",
+      "costruire le priorita": "composizione-gerarchia-priorita",
+      "verificare il compito": "composizione-gerarchia-verifica"
     }
   }
 }

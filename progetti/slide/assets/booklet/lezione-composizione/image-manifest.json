@@ -1,0 +1,802 @@
+{
+  "version": 1,
+  "sourceFile": "progetti/booklet/capitoli/08-composizione-gerarchia.typ",
+  "images": [
+    {
+      "code": "quadrato",
+      "source": "risorse-condivise/immagini/figure/composizione/quadrato.svg",
+      "sourceSha256": "80130df46e5b7d45481108561fc7a405960b9f2ee0b8e309795c721d5d185510",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/quadrato.svg",
+      "sha256": "80130df46e5b7d45481108561fc7a405960b9f2ee0b8e309795c721d5d185510",
+      "web": "/images/shared/figure/composizione-slidev/quadrato.svg",
+      "caption": "Il quadrato come struttura geometrica nei marchi.",
+      "rights": "",
+      "alt": "Il quadrato come struttura geometrica nei marchi.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "cerchio",
+      "source": "risorse-condivise/immagini/figure/composizione/cerchio.svg",
+      "sourceSha256": "34f4bd2a3ec8481027cecdeaa27f8ed3df21f57ecd46946577e1c731b8201409",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/cerchio.svg",
+      "sha256": "34f4bd2a3ec8481027cecdeaa27f8ed3df21f57ecd46946577e1c731b8201409",
+      "web": "/images/shared/figure/composizione-slidev/cerchio.svg",
+      "caption": "Il cerchio come struttura geometrica nei marchi.",
+      "rights": "",
+      "alt": "Il cerchio come struttura geometrica nei marchi.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "triangolo",
+      "source": "risorse-condivise/immagini/figure/composizione/triangolo.svg",
+      "sourceSha256": "3e4fb5ddb46dab719a6e77b9aa32a2677e80823fc199f361a1036b73ee37c8de",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/triangolo.svg",
+      "sha256": "3e4fb5ddb46dab719a6e77b9aa32a2677e80823fc199f361a1036b73ee37c8de",
+      "web": "/images/shared/figure/composizione-slidev/triangolo.svg",
+      "caption": "Il triangolo come struttura geometrica nei marchi.",
+      "rights": "",
+      "alt": "Il triangolo come struttura geometrica nei marchi.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "esagono",
+      "source": "risorse-condivise/immagini/figure/composizione/esagono.svg",
+      "sourceSha256": "b8b2b2985ac7027768acf4d5cd7ba3a026b1dfa00ea71d3b3394b0b8917e7df0",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/esagono.svg",
+      "sha256": "b8b2b2985ac7027768acf4d5cd7ba3a026b1dfa00ea71d3b3394b0b8917e7df0",
+      "web": "/images/shared/figure/composizione-slidev/esagono.svg",
+      "caption": "L’esagono come struttura geometrica nei marchi.",
+      "rights": "",
+      "alt": "L’esagono come struttura geometrica nei marchi.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "bouba",
+      "source": "progetti/booklet/assets/bouba-kiki/bouba.svg",
+      "sourceSha256": "1d0478ccc24bd870d5f9c89850b2a050fdbc9bdde343144a009d2d78ec60c83d",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/bouba.svg",
+      "sha256": "1d0478ccc24bd870d5f9c89850b2a050fdbc9bdde343144a009d2d78ec60c83d",
+      "web": "/images/shared/figure/composizione-slidev/bouba.svg",
+      "caption": "Bouba: lo stimolo arrotondato usato nello studio.",
+      "rights": "Da Ćwiek et al., fig. 1, con forme adattate da Bremner et al. (2013). CC BY 4.0; sfondo reso trasparente.",
+      "alt": "Bouba: stimolo originale nero con sette lobi arrotondati, su fondo trasparente.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "kiki",
+      "source": "progetti/booklet/assets/bouba-kiki/kiki.svg",
+      "sourceSha256": "2b1e194faeeff1882229f2e44d761d0756c9488a0156623c8048ab79fb18824c",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/kiki.svg",
+      "sha256": "2b1e194faeeff1882229f2e44d761d0756c9488a0156623c8048ab79fb18824c",
+      "web": "/images/shared/figure/composizione-slidev/kiki.svg",
+      "caption": "Kiki: lo stimolo appuntito usato nello studio.",
+      "rights": "Da Ćwiek et al., fig. 1, con forme adattate da Bremner et al. (2013). CC BY 4.0; sfondo reso trasparente.",
+      "alt": "Kiki: stimolo originale nero con sette punte disuguali, su fondo trasparente.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "fotografia-illustrazione",
+      "source": "progetti/booklet/assets/figure-singole/composizione/pranzo-grattacielo.jpeg",
+      "sourceSha256": "fc5270c315cab90694ef31e298a4fc111107c167570fd44f397d04b1d4bb679c",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/fotografia-illustrazione.jpeg",
+      "sha256": "fc5270c315cab90694ef31e298a4fc111107c167570fd44f397d04b1d4bb679c",
+      "web": "/images/shared/figure/composizione-slidev/fotografia-illustrazione.jpeg",
+      "caption": "Lunch Atop a Skyscraper: scena di vita nella fotografia.",
+      "rights": "Bettmann / Getty Images.",
+      "alt": "Lunch Atop a Skyscraper: scena di vita nella fotografia.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "paesaggio-xilografia",
+      "source": "progetti/booklet/assets/figure-singole/composizione/paesaggio-xilografia.jpeg",
+      "sourceSha256": "ed910ef4e566f61efee9d40a245aaa7eaf54a4fc6fc2e3e9621f2949526fbf77",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/paesaggio-xilografia.jpeg",
+      "sha256": "ed910ef4e566f61efee9d40a245aaa7eaf54a4fc6fc2e3e9621f2949526fbf77",
+      "web": "/images/shared/figure/composizione-slidev/paesaggio-xilografia.jpeg",
+      "caption": "Paesaggio con il monte Fuji: illustrazione xilografica.",
+      "rights": "",
+      "alt": "Paesaggio con il monte Fuji: illustrazione xilografica.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "afghan-girl",
+      "source": "progetti/booklet/assets/figure-singole/composizione/afghan-girl.png",
+      "sourceSha256": "195f876fa8f41711b3d62ee6804aa10dd18b9c72b653bf4364c684bab083067c",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/afghan-girl.png",
+      "sha256": "195f876fa8f41711b3d62ee6804aa10dd18b9c72b653bf4364c684bab083067c",
+      "web": "/images/shared/figure/composizione-slidev/afghan-girl.png",
+      "caption": "Afghan Girl: ritratto fotografico.",
+      "rights": "© Steve McCurry.",
+      "alt": "Afghan Girl: ritratto fotografico.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "funzioni-immagini",
+      "source": "progetti/booklet/assets/figure-singole/composizione/funzione-evocativa.png",
+      "sourceSha256": "f25a1f762722b2b2d67809d849603e64589bf73b9fd843c67aa77e831ca84c60",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/funzioni-immagini.png",
+      "sha256": "f25a1f762722b2b2d67809d849603e64589bf73b9fd843c67aa77e831ca84c60",
+      "web": "/images/shared/figure/composizione-slidev/funzioni-immagini.png",
+      "caption": "Funzione evocativa: la fotografia dell’ambiente suggerisce l’atmosfera di un locale.",
+      "rights": "",
+      "alt": "Funzione evocativa: la fotografia dell’ambiente suggerisce l’atmosfera di un locale.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "funzione-descrittiva",
+      "source": "progetti/booklet/assets/figure-singole/composizione/funzione-descrittiva.png",
+      "sourceSha256": "789e3f8c4bb5f37b5e869a60ab2a5188b01713bbc09352a40f77c08310e357df",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/funzione-descrittiva.png",
+      "sha256": "789e3f8c4bb5f37b5e869a60ab2a5188b01713bbc09352a40f77c08310e357df",
+      "web": "/images/shared/figure/composizione-slidev/funzione-descrittiva.png",
+      "caption": "Funzione descrittiva: le fotografie delle pietanze presentano l’offerta.",
+      "rights": "",
+      "alt": "Funzione descrittiva: le fotografie delle pietanze presentano l’offerta.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "funzione-sintetica",
+      "source": "progetti/booklet/assets/figure-singole/composizione/funzione-sintetica.png",
+      "sourceSha256": "e0434c02bf2e11c119299411bef5c2b4b6ecfc6934630a8d4cc38b4f9c813602",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/funzione-sintetica.png",
+      "sha256": "e0434c02bf2e11c119299411bef5c2b4b6ecfc6934630a8d4cc38b4f9c813602",
+      "web": "/images/shared/figure/composizione-slidev/funzione-sintetica.png",
+      "caption": "Funzione sintetica: piccoli segni identificano categorie.",
+      "rights": "",
+      "alt": "Funzione sintetica: piccoli segni identificano categorie.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "allbirds-headspace",
+      "source": "progetti/booklet/assets/figure-singole/composizione/allbirds.png",
+      "sourceSha256": "e9acffeabbf55b4e71606f0bfc1d75f70b8ba99d78d23fb78c6d12cab745e8e5",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/allbirds-headspace.png",
+      "sha256": "e9acffeabbf55b4e71606f0bfc1d75f70b8ba99d78d23fb78c6d12cab745e8e5",
+      "web": "/images/shared/figure/composizione-slidev/allbirds-headspace.png",
+      "caption": "Allbirds: fotografia ambientata nella comunicazione del prodotto.",
+      "rights": "© Allbirds. Versione storica; data della cattura non indicata.",
+      "alt": "Allbirds: fotografia ambientata nella comunicazione del prodotto.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "headspace",
+      "source": "progetti/booklet/assets/figure-singole/composizione/headspace.png",
+      "sourceSha256": "f2bd01728601f5a56c3523ce5eea2c970193d7bc771833fb4732ec2f1fc1c56e",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/headspace.png",
+      "sha256": "f2bd01728601f5a56c3523ce5eea2c970193d7bc771833fb4732ec2f1fc1c56e",
+      "web": "/images/shared/figure/composizione-slidev/headspace.png",
+      "caption": "Headspace: personaggi e scene illustrati.",
+      "rights": "© Headspace. Versione storica; data della cattura non indicata.",
+      "alt": "Headspace: personaggi e scene illustrati.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "doisneau-widener",
+      "source": "progetti/booklet/assets/figure-singole/composizione/doisneau.png",
+      "sourceSha256": "816b2305e94c494205aed971606267a5ffb46bf31614809c0c9965ff5f3536af",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/doisneau-widener.png",
+      "sha256": "816b2305e94c494205aed971606267a5ffb46bf31614809c0c9965ff5f3536af",
+      "web": "/images/shared/figure/composizione-slidev/doisneau-widener.png",
+      "caption": "Le Baiser de l’Hôtel de Ville, Robert Doisneau, 1950.",
+      "rights": "© Atelier Robert Doisneau.",
+      "alt": "Le Baiser de l’Hôtel de Ville, Robert Doisneau, 1950.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "widener",
+      "source": "progetti/booklet/assets/figure-singole/composizione/widener.png",
+      "sourceSha256": "d3ad664cb0b54dd119912165f813510f48b8f074c591ea3867ee69b41cac5745",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/widener.png",
+      "sha256": "d3ad664cb0b54dd119912165f813510f48b8f074c591ea3867ee69b41cac5745",
+      "web": "/images/shared/figure/composizione-slidev/widener.png",
+      "caption": "Tank Man, Jeff Widener / Associated Press, 1989.",
+      "rights": "© Jeff Widener / Associated Press.",
+      "alt": "Tank Man, Jeff Widener / Associated Press, 1989.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "sguardo-spazio",
+      "source": "progetti/booklet/assets/figure-singole/composizione/sguardo-ritratto.jpeg",
+      "sourceSha256": "76c16243d65184121b9da3b265459aaed0d1e34d6ce27fc21a2f1adebaa32fa9",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/sguardo-spazio.jpeg",
+      "sha256": "76c16243d65184121b9da3b265459aaed0d1e34d6ce27fc21a2f1adebaa32fa9",
+      "web": "/images/shared/figure/composizione-slidev/sguardo-spazio.jpeg",
+      "caption": "Regola dei terzi nel paesaggio: la griglia aiuta a osservare la posizione dell’albero, vicino alla verticale destra, e della montagna sulla sinistra.",
+      "rights": "",
+      "alt": "Paesaggio con campo fiorito, montagna a sinistra e albero a destra; una griglia di tre righe e tre colonne è sovrapposta alla fotografia.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "sguardo-direzione",
+      "source": "progetti/booklet/assets/figure-singole/composizione/sguardo-direzione.jpeg",
+      "sourceSha256": "455512a76d0250c21035f2d9c3ea1f7e645e140cc9077a457222aaea05f15747",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/sguardo-direzione.jpeg",
+      "sha256": "455512a76d0250c21035f2d9c3ea1f7e645e140cc9077a457222aaea05f15747",
+      "web": "/images/shared/figure/composizione-slidev/sguardo-direzione.jpeg",
+      "caption": "Spazio e direzione dello sguardo nel ritratto. Looking room indica lo spazio davanti al volto; l’etichetta headroom è collocata lateralmente, ma il termine indica lo spazio sopra la testa. Le annotazioni sono conservate nel documento.",
+      "rights": "",
+      "alt": "Ritratto in bianco e nero di una persona di profilo rivolta verso una finestra a sinistra. Le linee indicano lo spazio davanti al volto; l’etichetta headroom è collocata lateralmente anziché sopra la testa.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "pieno-vuoto",
+      "source": "progetti/booklet/assets/figure-singole/composizione/negative-spaces.png",
+      "sourceSha256": "1c034233788b0b40d0303103ff664cbc4887989adbf02af44911eb6514df5900",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/pieno-vuoto.png",
+      "sha256": "1c034233788b0b40d0303103ff664cbc4887989adbf02af44911eb6514df5900",
+      "web": "/images/shared/figure/composizione-slidev/pieno-vuoto.png",
+      "caption": "Negative Spaces, di Tang Yau Hoong.",
+      "rights": "© Tang Yau Hoong.",
+      "alt": "Negative Spaces, di Tang Yau Hoong.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "spartan-golf",
+      "source": "progetti/booklet/assets/figure-singole/composizione/spartan-golf.png",
+      "sourceSha256": "07a44e5f7dde9f48bc806f44a595fd70c6fdcde8090421bf3877c0910f8f45b0",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/spartan-golf.png",
+      "sha256": "07a44e5f7dde9f48bc806f44a595fd70c6fdcde8090421bf3877c0910f8f45b0",
+      "web": "/images/shared/figure/composizione-slidev/spartan-golf.png",
+      "caption": "Spartan Golf, concept di Richard Fonteneau, 2010: sagoma di golfista e richiamo all’elmo.",
+      "rights": "Richard Fonteneau, Spartan Golf, concept, 2010.",
+      "alt": "Spartan Golf, concept di Richard Fonteneau, 2010: sagoma di golfista e richiamo all’elmo.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "julius-caesar",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-098-01-source-01.png",
+      "sourceSha256": "8a7a5bf39a74906a890b72fc87d14013db85c601aa6826284a644ccc85820143",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/julius-caesar.png",
+      "sha256": "8a7a5bf39a74906a890b72fc87d14013db85c601aa6826284a644ccc85820143",
+      "web": "/images/shared/figure/composizione-slidev/julius-caesar.png",
+      "caption": "Julius Caesar, Shakespeare in the Park 2017, Paula Scher / Pentagram: scala e dimensione nella gerarchia del manifesto.",
+      "rights": "Paula Scher / Pentagram per The Public Theater; collaborazione Kirstin Rocke-Huber.",
+      "alt": "Julius Caesar, Shakespeare in the Park 2017, Paula Scher / Pentagram: scala e dimensione nella gerarchia del manifesto.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "barbie-dune",
+      "source": "progetti/booklet/assets/figure-singole/composizione/barbie.png",
+      "sourceSha256": "821494972eaea8a3777398a3bde703b9672a6c78f6750dc1062dd65b116c85cf",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/barbie-dune.png",
+      "sha256": "821494972eaea8a3777398a3bde703b9672a6c78f6750dc1062dd65b116c85cf",
+      "web": "/images/shared/figure/composizione-slidev/barbie-dune.png",
+      "caption": "Locandina di Barbie: il colore definisce un’atmosfera visiva.",
+      "rights": "© Warner Bros.",
+      "alt": "Locandina di Barbie: il colore definisce un’atmosfera visiva.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "dune",
+      "source": "progetti/booklet/assets/figure-singole/composizione/dune.png",
+      "sourceSha256": "29cf1bb944ba2b73b2ff4165fc6873df68e6d9aa54fedc041ffd24178a9f9549",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/dune.png",
+      "sha256": "29cf1bb944ba2b73b2ff4165fc6873df68e6d9aa54fedc041ffd24178a9f9549",
+      "web": "/images/shared/figure/composizione-slidev/dune.png",
+      "caption": "Locandina di Dune: il colore definisce un’atmosfera visiva.",
+      "rights": "© Warner Bros.",
+      "alt": "Locandina di Dune: il colore definisce un’atmosfera visiva.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "moma-tipografia",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-102-01-source-01.jpeg",
+      "sourceSha256": "6c466387e1ce6dc7b13149da72570807661697af35fbb9efda1b956670da7bec",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/moma-tipografia.jpeg",
+      "sha256": "6c466387e1ce6dc7b13149da72570807661697af35fbb9efda1b956670da7bec",
+      "web": "/images/shared/figure/composizione-slidev/moma-tipografia.jpeg",
+      "caption": "Rebecca Nolte, MoMA Poster Series, 2014: esercizio tipografico sul calendario espositivo 2013. Dimensioni, pesi e disposizione distinguono le informazioni.",
+      "rights": "© Rebecca Nolte. Marchio MoMA del rispettivo titolare.",
+      "alt": "Rebecca Nolte, MoMA Poster Series, 2014: esercizio tipografico sul calendario espositivo 2013. Dimensioni, pesi e disposizione distinguono le informazioni.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "pareidolia-legno",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-108-01-source-01.jpeg",
+      "sourceSha256": "00318ad8c51df07c0d56256b5a9eb9836d0c7a5a5f3a09f2d2a49198e90d898f",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/pareidolia-legno.jpeg",
+      "sha256": "00318ad8c51df07c0d56256b5a9eb9836d0c7a5a5f3a09f2d2a49198e90d898f",
+      "web": "/images/shared/figure/composizione-slidev/pareidolia-legno.jpeg",
+      "caption": "Un volto nelle venature del legno: la disposizione delle forme favorisce la pareidolia.",
+      "rights": "",
+      "alt": "Un volto nelle venature del legno: la disposizione delle forme favorisce la pareidolia.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "melbourne",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-110-01-source-01.png",
+      "sourceSha256": "92d8290085064c7ae85b5f23aee74d773834a78cde077f446d4bbaef638e1bf7",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/melbourne.png",
+      "sha256": "92d8290085064c7ae85b5f23aee74d773834a78cde077f446d4bbaef638e1bf7",
+      "web": "/images/shared/figure/composizione-slidev/melbourne.png",
+      "caption": "Melbourne Food & Wine Festival: una figura costruita con lo spazio negativo.",
+      "rights": "Melbourne Food & Wine Festival.",
+      "alt": "Melbourne Food & Wine Festival: una figura costruita con lo spazio negativo.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "adidas",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-112-01-source-01.png",
+      "sourceSha256": "a17df80ae27a95f854c72197ef033d62e2d859ef6ff7d540f08a0799349e4483",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/adidas.png",
+      "sha256": "a17df80ae27a95f854c72197ef033d62e2d859ef6ff7d540f08a0799349e4483",
+      "web": "/images/shared/figure/composizione-slidev/adidas.png",
+      "caption": "Campagna Adidas: allineamento del testo e relazione con l’immagine.",
+      "rights": "© Adidas.",
+      "alt": "Campagna Adidas: allineamento del testo e relazione con l’immagine.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "haagen-dazs",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-114-01-source-01.png",
+      "sourceSha256": "69436c3ecad9c286bf5e34fe7f986614a56b0b5d590edf99e6ab7fee2e4507be",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/haagen-dazs.png",
+      "sha256": "69436c3ecad9c286bf5e34fe7f986614a56b0b5d590edf99e6ab7fee2e4507be",
+      "web": "/images/shared/figure/composizione-slidev/haagen-dazs.png",
+      "caption": "Campagna Häagen-Dazs: prodotti disposti secondo una composizione dispari.",
+      "rights": "© Häagen-Dazs.",
+      "alt": "Campagna Häagen-Dazs: prodotti disposti secondo una composizione dispari.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "cocacola",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-116-01-source-01.jpeg",
+      "sourceSha256": "8e7dc8e817a7d132caeb1fc0d6ba54751a5e4a86088a85a99921f5664625cb96",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/cocacola.jpeg",
+      "sha256": "8e7dc8e817a7d132caeb1fc0d6ba54751a5e4a86088a85a99921f5664625cb96",
+      "web": "/images/shared/figure/composizione-slidev/cocacola.jpeg",
+      "caption": "Campagna Coca-Cola: la ripetizione delle bottiglie suggerisce un sorriso.",
+      "rights": "© The Coca-Cola Company.",
+      "alt": "Campagna Coca-Cola: la ripetizione delle bottiglie suggerisce un sorriso.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "linee-direzione",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-118-01-source-01.png",
+      "sourceSha256": "afe4bb62aad67ceb7afb299cf7f9b667c4097b94935d600e59d112d255f52106",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/linee-direzione.png",
+      "sha256": "afe4bb62aad67ceb7afb299cf7f9b667c4097b94935d600e59d112d255f52106",
+      "web": "/images/shared/figure/composizione-slidev/linee-direzione.png",
+      "caption": "Linee e direzione: un percorso visivo attraverso la composizione.",
+      "rights": "",
+      "alt": "Linee e direzione: un percorso visivo attraverso la composizione.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "triennale",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-120-01-source-01.png",
+      "sourceSha256": "d638130e2e5ea678541726a8948d237dd0c6dac94952a06da0eccb368f949644",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/triennale.png",
+      "sha256": "d638130e2e5ea678541726a8948d237dd0c6dac94952a06da0eccb368f949644",
+      "web": "/images/shared/figure/composizione-slidev/triennale.png",
+      "caption": "Ernst Scheidegger, manifesto della Nona Triennale di Milano, 1951: relazioni fra campiture, numero e testi.",
+      "rights": "Ernst Scheidegger.",
+      "alt": "Ernst Scheidegger, manifesto della Nona Triennale di Milano, 1951: relazioni fra campiture, numero e testi.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "manifesto-modulare",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-121-01-source-01.png",
+      "sourceSha256": "25a37f4efb367bf4e4087ddfc7e16977df5319953efe5192d72417d8b3954a5f",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/manifesto-modulare.png",
+      "sha256": "25a37f4efb367bf4e4087ddfc7e16977df5319953efe5192d72417d8b3954a5f",
+      "web": "/images/shared/figure/composizione-slidev/manifesto-modulare.png",
+      "caption": "Paula Scher / Pentagram, Shakespeare in the Park 2013: sovrapposizioni, lettere di scala diversa e gerarchia del testo.",
+      "rights": "Paula Scher / Pentagram per The Public Theater; collaborazione Kirstin Rocke-Huber.",
+      "alt": "Paula Scher / Pentagram, Shakespeare in the Park 2013: sovrapposizioni, lettere di scala diversa e gerarchia del testo.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "manifesto-denso",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-122-01-source-01.png",
+      "sourceSha256": "b3073c0a7f63dac84738aed58248136e112a221b717fef9a13bdc7b50bb9bcf6",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/manifesto-denso.png",
+      "sha256": "b3073c0a7f63dac84738aed58248136e112a221b717fef9a13bdc7b50bb9bcf6",
+      "web": "/images/shared/figure/composizione-slidev/manifesto-denso.png",
+      "caption": "Paula Scher, The Public Theater, 95–96 Season, 1995: densità tipografica, direzioni contrastanti e variazioni di peso.",
+      "rights": "© Paula Scher. Esemplare conservato al MoMA; dono della designer.",
+      "alt": "Paula Scher, The Public Theater, 95–96 Season, 1995: densità tipografica, direzioni contrastanti e variazioni di peso.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "prospettiva-tipografica",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-124-01-source-01.png",
+      "sourceSha256": "2869c7abc518bccc12b45458a60db56f1e5b439acf64725f04b5d3d376c2e22b",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/prospettiva-tipografica.png",
+      "sha256": "2869c7abc518bccc12b45458a60db56f1e5b439acf64725f04b5d3d376c2e22b",
+      "web": "/images/shared/figure/composizione-slidev/prospettiva-tipografica.png",
+      "caption": "Prospettiva tipografica: il testo costruisce profondità e movimento.",
+      "rights": "",
+      "alt": "Prospettiva tipografica: il testo costruisce profondità e movimento.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "aesop-percorso",
+      "source": "risorse-condivise/immagini/figure/composizione/aesop-percorso.svg",
+      "sourceSha256": "0bf5e2ba9b3c84e0ee75e87f73d32a1db9258d63c14f7bbbb84fcce4c0bc19ce",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/aesop-percorso.svg",
+      "sha256": "0bf5e2ba9b3c84e0ee75e87f73d32a1db9258d63c14f7bbbb84fcce4c0bc19ce",
+      "web": "/images/shared/figure/composizione-slidev/aesop-percorso.svg",
+      "caption": "Homepage di Aesop: distribuzione dei blocchi nella versione documentata. Lo schema a Z è una lettura compositiva, non una misurazione dello sguardo.",
+      "rights": "© Aesop. Cattura storica; data non indicata.",
+      "alt": "Homepage di Aesop: distribuzione dei blocchi nella versione documentata. Lo schema a Z è una lettura compositiva, non una misurazione dello sguardo.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "diesel-contrasto",
+      "source": "progetti/booklet/assets/figure-singole/composizione/diesel-prima.png",
+      "sourceSha256": "6fbc644fc7586aaa3165b927e7a0c431358f182897507472998cafa9b26286c0",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/diesel-contrasto.png",
+      "sha256": "6fbc644fc7586aaa3165b927e7a0c431358f182897507472998cafa9b26286c0",
+      "web": "/images/shared/figure/composizione-slidev/diesel-contrasto.png",
+      "caption": "Campagna Diesel: contrasto fra testo, immagine e sfondo nella composizione.",
+      "rights": "© Diesel.",
+      "alt": "Campagna Diesel: contrasto fra testo, immagine e sfondo nella composizione.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "diesel-seconda",
+      "source": "progetti/booklet/assets/figure-singole/composizione/diesel-seconda.png",
+      "sourceSha256": "aa95e4d8d8519d6f2b3850cf35fd19d9dc527569382e5fe3d37d506c6ddbfb78",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/diesel-seconda.png",
+      "sha256": "aa95e4d8d8519d6f2b3850cf35fd19d9dc527569382e5fe3d37d506c6ddbfb78",
+      "web": "/images/shared/figure/composizione-slidev/diesel-seconda.png",
+      "caption": "Campagna Diesel: un altro esempio del contrasto fra testo, immagine e sfondo.",
+      "rights": "© Diesel.",
+      "alt": "Campagna Diesel: un altro esempio del contrasto fra testo, immagine e sfondo.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "hud-fortnite",
+      "source": "progetti/booklet/assets/composition-materials/images/fortnite-hud.jpg",
+      "sourceSha256": "bf9bb9a82e65e39904ae42ee967bdadce2ed9cbd84628581d772983dde6bd15d",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/hud-fortnite.jpg",
+      "sha256": "bf9bb9a82e65e39904ae42ee967bdadce2ed9cbd84628581d772983dde6bd15d",
+      "web": "/images/shared/figure/composizione-slidev/hud-fortnite.jpg",
+      "caption": "Fortnite, HUD in una versione storica per PC. Salute, equipaggiamento e mappa occupano zone distinte attorno alla scena. I riquadri rossi e i numeri sono annotazioni già presenti nella riproduzione.",
+      "rights": "© Epic Games.",
+      "alt": "Schermata di Fortnite con mirino centrale, salute in basso, equipaggiamento a destra e mappa nell’angolo superiore destro; riquadri rossi numerati evidenziano gli elementi dell’HUD.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "dead-space",
+      "source": "progetti/booklet/assets/composition-materials/images/dead-space.png",
+      "sourceSha256": "754e7109c80dc8341f5365c0dd12151b97cdb633c2b559a5ee57f2b59637ba82",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/dead-space.png",
+      "sha256": "754e7109c80dc8341f5365c0dd12151b97cdb633c2b559a5ee57f2b59637ba82",
+      "web": "/images/shared/figure/composizione-slidev/dead-space.png",
+      "caption": "Dead Space, 2008: la fascia luminosa sul dorso della tuta indica la salute; il contatore delle munizioni è associato all’arma.",
+      "rights": "© Electronic Arts.",
+      "alt": "Isaac visto di spalle in Dead Space: una fascia luminosa segue il dorso della tuta e un contatore azzurro compare presso l’arma.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "cenacolo",
+      "source": "risorse-condivise/immagini/figure/composizione/cenacolo-1.png",
+      "sourceSha256": "72e631a362b2f55909b1df302a11fad15d80a8139bfdb89d6ee3b1b5d9c23843",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/cenacolo.png",
+      "sha256": "72e631a362b2f55909b1df302a11fad15d80a8139bfdb89d6ee3b1b5d9c23843",
+      "web": "/images/shared/figure/composizione-slidev/cenacolo.png",
+      "caption": "Ultima Cena, Leonardo da Vinci, 1495–1498, Santa Maria delle Grazie, Milano. Riproduzione annotata: i segni rossi evidenziano la posizione centrale e le direzioni verso di essa; non appartengono all’opera.",
+      "rights": "Opera di pubblico dominio.",
+      "alt": "Riproduzione dell’Ultima Cena con segni rossi che evidenziano la figura centrale.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "budapest",
+      "source": "risorse-condivise/immagini/figure/composizione/budapest-simmetria-1.png",
+      "sourceSha256": "ec95cb8d16c35009aae417168a11d07d34e15bedddd265f0beb69835726b569f",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/budapest.png",
+      "sha256": "ec95cb8d16c35009aae417168a11d07d34e15bedddd265f0beb69835726b569f",
+      "web": "/images/shared/figure/composizione-slidev/budapest.png",
+      "caption": "The Grand Budapest Hotel, 2014: le due figure principali condividono il centro e sono affiancate da figure secondarie.",
+      "rights": "© Fox Searchlight Pictures.",
+      "alt": "The Grand Budapest Hotel, 2014: le due figure principali condividono il centro e sono affiancate da figure secondarie.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "budapest-cornice",
+      "source": "risorse-condivise/immagini/figure/composizione/budapest-cornice-4.png",
+      "sourceSha256": "5d0250a41b20aa425f3454295866158779bce443183eaeea2102f343989d4357",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/budapest-cornice.png",
+      "sha256": "5d0250a41b20aa425f3454295866158779bce443183eaeea2102f343989d4357",
+      "web": "/images/shared/figure/composizione-slidev/budapest-cornice.png",
+      "caption": "The Grand Budapest Hotel, 2014: la grata costruisce una seconda cornice.",
+      "rights": "© Fox Searchlight Pictures.",
+      "alt": "The Grand Budapest Hotel, 2014: la grata costruisce una seconda cornice.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "budapest-spazio",
+      "source": "risorse-condivise/immagini/figure/composizione/budapest-spazio-formati-1.png",
+      "sourceSha256": "9ff3b9b155b879a587a7d70ab52b5b91d9fdfacf1020f7c516cb76e0afa12141",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/budapest-spazio.png",
+      "sha256": "9ff3b9b155b879a587a7d70ab52b5b91d9fdfacf1020f7c516cb76e0afa12141",
+      "web": "/images/shared/figure/composizione-slidev/budapest-spazio.png",
+      "caption": "The Grand Budapest Hotel, 2014: lo spazio della sala prevale sull’ingombro dei personaggi.",
+      "rights": "© Fox Searchlight Pictures.",
+      "alt": "The Grand Budapest Hotel, 2014: lo spazio della sala prevale sull’ingombro dei personaggi.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "moodboard-riferimenti",
+      "source": "risorse-condivise/immagini/figure/composizione/moodboard-riferimenti.jpg",
+      "sourceSha256": "61570276ef32478068721544211a92a2a291ee4b81aa42350802fb4cde70d7dd",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/moodboard-riferimenti.jpg",
+      "sha256": "61570276ef32478068721544211a92a2a291ee4b81aa42350802fb4cde70d7dd",
+      "web": "/images/shared/figure/composizione-slidev/moodboard-riferimenti.jpg",
+      "caption": "Fotografie di ambienti, persone e dettagli accostate a una palette. Osservare come il giallo e i toni verde-azzurri ricorrano fra campioni e soggetti; la tavola propone una direzione visiva, senza definire una pagina.",
+      "rights": "",
+      "alt": "Moodboard con sedute gialle, una persona, una pianta e campioni cromatici gialli e verde-azzurri.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "moodboard-sistema",
+      "source": "risorse-condivise/immagini/figure/composizione/moodboard-sistema.jpg",
+      "sourceSha256": "30bdb5668453b14a253a13c1b90a98f40382e9976b7ab3ad010ded4b8e77b5dd",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/moodboard-sistema.jpg",
+      "sha256": "30bdb5668453b14a253a13c1b90a98f40382e9976b7ab3ad010ded4b8e77b5dd",
+      "web": "/images/shared/figure/composizione-slidev/moodboard-sistema.jpg",
+      "caption": "Ecommerce Moodboard, progetto CandleScience. Colore e texture, tipografia e iconografia affiancano fotografie di prodotti e materiali. Riproduzione parziale: il bordo inferiore interrompe i campioni tipografici. La tavola non documenta il layout finale del negozio.",
+      "rights": "Marchio CandleScience del rispettivo titolare.",
+      "alt": "Tavola parziale CandleScience con fotografie, palette e sezioni di texture, tipografia e iconografia; i campioni tipografici proseguono oltre il bordo inferiore.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+    },
+    {
+      "code": "ibm-pittogrammi",
+      "source": "risorse-condivise/immagini/figure/composizione-slidev/ibm-pittogrammi.svg",
+      "sourceSha256": "96436a366a82870050e8a25679211be6360ea41606c00b2ce7a738f4f3fd75bd",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/ibm-pittogrammi.svg",
+      "sha256": "96436a366a82870050e8a25679211be6360ea41606c00b2ce7a738f4f3fd75bd",
+      "web": "/images/shared/figure/composizione-slidev/ibm-pittogrammi.svg",
+      "caption": "IBM: a. un pittogramma usato come illustrazione; b. pittogrammi impiegati al posto di icone UI, uso sconsigliato dal sistema.",
+      "rights": "© IBM. Esempi della documentazione ufficiale.",
+      "alt": "IBM: pittogramma illustrativo e uso sconsigliato in una lista di controlli.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ",
+      "nativeSource": "progetti/slide/assets/slide-materials/composizione/ibm-pittogrammi.typ",
+      "nativeSourceSha256": "5c962b75cf8d82c0e82c2229474ff5e5968c2b842a0dbc81c620cbf281fbaf06",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/composition-examples.typ",
+          "sha256": "830b7673c4b653f9c1ee1132c158f9d82b0effddad5db99c23988b2adecd4202"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ]
+    },
+    {
+      "code": "invito",
+      "source": "risorse-condivise/immagini/figure/composizione-slidev/invito.svg",
+      "sourceSha256": "5fe64c860d8ea9d7ca30052ab03c2ea945340009bb1a05c4dbeb8d95c8621a5d",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/invito.svg",
+      "sha256": "5fe64c860d8ea9d7ca30052ab03c2ea945340009bb1a05c4dbeb8d95c8621a5d",
+      "web": "/images/shared/figure/composizione-slidev/invito.svg",
+      "caption": "Lo stesso contenuto in tre composizioni simulate: a. informazioni con peso simile; b. titolo, data e luogo distinti; c. invito all’azione riconoscibile.",
+      "rights": "CVeDI, 2026. Diagramma simulato.",
+      "alt": "Invito al laboratorio: elenco, relazioni e azione a confronto.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ",
+      "nativeSource": "progetti/slide/assets/slide-materials/composizione/invito.typ",
+      "nativeSourceSha256": "2bac345563223bdc24ee1b2d7894a011a5e3e4d7239d6af3f93dd994492da8c2",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/composition-examples.typ",
+          "sha256": "830b7673c4b653f9c1ee1132c158f9d82b0effddad5db99c23988b2adecd4202"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ]
+    },
+    {
+      "code": "metafore",
+      "source": "risorse-condivise/immagini/figure/composizione-slidev/metafore.svg",
+      "sourceSha256": "ada1a6b7fc29774172715a66aec028dd0977ceedfd816921f123d852ebdaf266",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/metafore.svg",
+      "sha256": "ada1a6b7fc29774172715a66aec028dd0977ceedfd816921f123d852ebdaf266",
+      "web": "/images/shared/figure/composizione-slidev/metafore.svg",
+      "caption": "Una pausa caffè per ripartire: a. la batteria sostituisce la tazza; b. tazza e batteria sono fuse. Il riferimento all’energia è figurato.",
+      "rights": "CVeDI, 2026. Diagramma simulato.",
+      "alt": "Batteria e tazza-batteria: sostituzione e fusione nel messaggio simulato.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ",
+      "nativeSource": "progetti/slide/assets/slide-materials/composizione/metafore.typ",
+      "nativeSourceSha256": "749c827bc64399fdcc24df1deda661a88e8595aa086def487450c48df9383be6",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/composition-examples.typ",
+          "sha256": "830b7673c4b653f9c1ee1132c158f9d82b0effddad5db99c23988b2adecd4202"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ]
+    },
+    {
+      "code": "salienza",
+      "source": "risorse-condivise/immagini/figure/composizione-slidev/salienza.svg",
+      "sourceSha256": "7c6c87ccb5ceb59aeb53606b7382189333126783abff7ebb67211cb0d98c9622",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/salienza.svg",
+      "sha256": "7c6c87ccb5ceb59aeb53606b7382189333126783abff7ebb67211cb0d98c9622",
+      "web": "/images/shared/figure/composizione-slidev/salienza.svg",
+      "caption": "Ricerca visiva in due campi simulati: a. un solo disco è diverso; b. più differenze competono. Non sono rappresentati tempi o risultati misurati.",
+      "rights": "CVeDI, 2026. Diagramma simulato.",
+      "alt": "Un disco distinto e un campo con più segnali concorrenti.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ",
+      "nativeSource": "progetti/slide/assets/slide-materials/composizione/salienza.typ",
+      "nativeSourceSha256": "1f2aba1d55559400001f54be43195baa14a594276f82b202493a2f6133501b86",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/composition-examples.typ",
+          "sha256": "830b7673c4b653f9c1ee1132c158f9d82b0effddad5db99c23988b2adecd4202"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ]
+    },
+    {
+      "code": "priorita",
+      "source": "risorse-condivise/immagini/figure/composizione-slidev/priorita.svg",
+      "sourceSha256": "054bf45e9a509014b1aa346fb4bb1ccebf0f48c1da56140d22866c38a0c3ad0f",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/priorita.svg",
+      "sha256": "054bf45e9a509014b1aa346fb4bb1ccebf0f48c1da56140d22866c38a0c3ad0f",
+      "web": "/images/shared/figure/composizione-slidev/priorita.svg",
+      "caption": "Spostare una visita: a. tre azioni con identica enfasi; b. modifica, indicazioni e annullamento ricevono pesi differenti. Annulla resta leggibile e disponibile.",
+      "rights": "CVeDI, 2026. Diagramma simulato.",
+      "alt": "Due versioni simulate di una visita: enfasi concorrenti e una priorità esplicita.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ",
+      "nativeSource": "progetti/slide/assets/slide-materials/composizione/priorita.typ",
+      "nativeSourceSha256": "d32938a9e37985183d173cc7a290c23dc1bd73d2d2df972c391c2cfc86136423",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/composition-examples.typ",
+          "sha256": "830b7673c4b653f9c1ee1132c158f9d82b0effddad5db99c23988b2adecd4202"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ]
+    },
+    {
+      "code": "equilibrio",
+      "source": "risorse-condivise/immagini/figure/composizione-slidev/equilibrio.svg",
+      "sourceSha256": "cc008ec1c2c5eb604059b4a44f4795c453c3f84c6ca09888b8868593b5594aef",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/equilibrio.svg",
+      "sha256": "cc008ec1c2c5eb604059b4a44f4795c453c3f84c6ca09888b8868593b5594aef",
+      "web": "/images/shared/figure/composizione-slidev/equilibrio.svg",
+      "caption": "Due schemi simulati: a. dischi speculari; b. dimensioni e distanze differenti. L’asse permette di confrontare le posizioni e non misura il peso percettivo.",
+      "rights": "CVeDI, 2026. Diagramma simulato.",
+      "alt": "Equilibrio simmetrico e asimmetrico a confronto.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ",
+      "nativeSource": "progetti/slide/assets/slide-materials/composizione/equilibrio.typ",
+      "nativeSourceSha256": "23e31636758e0004d247996e02b1eea27bc40ddeb6d7305a39639a2c792f9595",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/composition-examples.typ",
+          "sha256": "830b7673c4b653f9c1ee1132c158f9d82b0effddad5db99c23988b2adecd4202"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ]
+    },
+    {
+      "code": "takete",
+      "source": "risorse-condivise/immagini/figure/composizione-slidev/takete.svg",
+      "sourceSha256": "077f792af5bc159ce3657506146ee1c7a37465784fd286628239c1e3ce1bd65a",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/takete.svg",
+      "sha256": "077f792af5bc159ce3657506146ee1c7a37465784fd286628239c1e3ce1bd65a",
+      "web": "/images/shared/figure/composizione-slidev/takete.svg",
+      "caption": "A sinistra Takete, a destra Maluma: profili spigolosi e curvilinei a confronto.",
+      "rights": "Da Shinohara et al. (2016), fig. 1a, su disegni di Wolfgang Köhler. CC BY 4.0; colore e disposizione adattati.",
+      "alt": "Takete angoloso a sinistra; Maluma curvilineo a destra.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/takete-maluma/takete.svg",
+          "sha256": "4213ba5bb702ba091af9320162dc0083cbf0206a9d9b36249b41bc0298e26eca"
+        },
+        {
+          "file": "progetti/booklet/assets/takete-maluma/maluma.svg",
+          "sha256": "dfba2a64eaf9d5f1a8e897858e91ea4e8d92b45aae18f156b0085be63059f723"
+        }
+      ]
+    },
+    {
+      "code": "up",
+      "source": "risorse-condivise/immagini/figure/composizione-slidev/up.svg",
+      "sourceSha256": "c318b1084a1bf7d7854932b0f6cb3d23b44378e6e21ae021cb3edef86cae94e7",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/up.svg",
+      "sha256": "c318b1084a1bf7d7854932b0f6cb3d23b44378e6e21ae021cb3edef86cae94e7",
+      "web": "/images/shared/figure/composizione-slidev/up.svg",
+      "caption": "Carl Fredricksen e Russell in Up (2009). I rettangoli su Carl e i cerchi su Russell evidenziano la costruzione dei profili.",
+      "rights": "© Disney / Pixar.",
+      "alt": "Profili di Carl e Russell, con rettangoli e cerchi come nel capitolo corrente.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ",
+      "inputs": [
+        {
+          "file": "risorse-condivise/immagini/figure/composizione/up-1.jpg",
+          "sha256": "e406834fc2e90f50e4d7d4e5aa407ef1f30c26825074573f222789f4ea13c101"
+        },
+        {
+          "file": "risorse-condivise/immagini/figure/composizione/up-2.jpg",
+          "sha256": "9add43aa57fddc0df8aa446523657becde02190822f4fc9e394199c2ed270b36"
+        }
+      ]
+    },
+    {
+      "code": "natura",
+      "source": "risorse-condivise/immagini/figure/composizione-slidev/natura.svg",
+      "sourceSha256": "5c44619fee907024c08047207f90f44c742396d54d3737398cbaa17ba76c5665",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/natura.svg",
+      "sha256": "5c44619fee907024c08047207f90f44c742396d54d3737398cbaa17ba76c5665",
+      "web": "/images/shared/figure/composizione-slidev/natura.svg",
+      "caption": "Venature di una foglia, petali di un fiore e spirale di una conchiglia.",
+      "rights": "CVeDI, 2026.",
+      "alt": "Foglia, fiore e conchiglia interi, su fondo trasparente.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/forme-naturali-scontornate/immagini/foglia.png",
+          "sha256": "a2b37d9cec9e5f26ed1a64ed036fd62d5a1d0fe739396c72b0882ac0e71aa313"
+        },
+        {
+          "file": "progetti/booklet/assets/forme-naturali-scontornate/immagini/fiore.png",
+          "sha256": "0e8cf9057f3605eb4124a54fa58ccfeb0feca0df2ec0d51a8697c726cd056e73"
+        },
+        {
+          "file": "progetti/booklet/assets/forme-naturali-scontornate/immagini/conchiglia.png",
+          "sha256": "51e00d2e1ab7e52efeb976f9e90d1a4597ee7cb4867c859971326cc53f84ffbb"
+        }
+      ]
+    },
+    {
+      "code": "squint",
+      "source": "risorse-condivise/immagini/figure/composizione-slidev/squint.svg",
+      "sourceSha256": "8f461ef7416572ff822fdb481edfa3c481f4c80358c0a6fe1db97cff375bc7e6",
+      "file": "risorse-condivise/immagini/figure/composizione-slidev/squint.svg",
+      "sha256": "8f461ef7416572ff822fdb481edfa3c481f4c80358c0a6fe1db97cff375bc7e6",
+      "web": "/images/shared/figure/composizione-slidev/squint.svg",
+      "caption": "A sinistra una proposta dell’invito originale; a destra la stessa composizione con sfocatura uniforme. Stessa scala: il confronto riguarda masse e contrasti, non comprensione o percorso degli occhi.",
+      "rights": "CVeDI, 2026. Diagramma simulato.",
+      "alt": "Una proposta dell’invito e la copia sfocata alla stessa scala, affiancate.",
+      "metadataSource": "progetti/booklet/capitoli/08-composizione-gerarchia.typ",
+      "inputs": [
+        {
+          "file": "risorse-condivise/immagini/figure/composizione-slidev/invito-azione.svg",
+          "sha256": "2f2f64813d452ee60a9c68f38073bd3947036fee80e0ae6c764f355dfbd55879"
+        }
+      ]
+    }
+  ]
+}

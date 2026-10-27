@@ -189,7 +189,7 @@ export async function checkGridsSources(deck) {
   assert.equal(dividers.length, 0, 'grids: no intermediate section openings')
   assert.equal(slides.filter(slide => /\bchapter-slide\b/.test(slide.frontmatter.class ?? '')).length, 1, 'grids: only the lesson cover uses the metro opening')
   assert.equal(slides[0]?.index, deck.slides.filter(slide => slide.frontmatter.lesson === 'tipografia-griglie').at(-1)?.index + 1, 'grids: independent set immediately follows typography')
-  assert.equal(slides.at(-1)?.index + 1, deck.slides.find(slide => slide.frontmatter.lesson === 'esercitazione-01')?.index, 'grids: the exercises follow the last active theory lesson')
+  assert.equal(slides.at(-1)?.index + 1, deck.slides.find(slide => slide.frontmatter.lesson === 'composizione-gerarchia')?.index, 'grids: composition follows the grid lesson')
   const used = new Set()
   const archivedUsed = new Set()
   const checkFigures = (slide, saved, context, collection) => {

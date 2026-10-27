@@ -83,6 +83,7 @@ Ogni lezione possiede una sola identità cromatica. Il registro `utils/slide-set
 | 07 | `ux-color` | cyan | Vermiglio |
 | 08 | `ux-type` | sky | Ambra |
 | 09 · continuazione | `ux-grid` | blue | Giallo limone |
+| 10 · continuazione | `ux-composition` | indigo | Lime |
 
 Il brief usa amber e gli approfondimenti yellow: sono materiali raggruppati con l’introduzione e spiegano i passaggi intermedi della sequenza del menu.
 
@@ -197,3 +198,9 @@ Conservare alias e ritorno al menu; non attivare set archiviati o futuri. Le not
 - Non sovrascrivere il contratto del booklet, non modificare i CSS compilati a mano e non aggiungere regole tipografiche locali per aggirare un impaginato inadatto.
 - Non trattare la sola assenza di overflow o il solo superamento di una dimensione minima dell’immagine come prova di qualità visiva.
 - Non ricolorare opere o diagrammi originali, eliminare fonti o sostituire gli asset per uniformarli al tema.
+
+## Applicazione alla lezione 10
+
+Composizione e gerarchia visiva prosegue il sistema in indigo/Lime. La sola copertina usa la geometria originale `ux-composition`; seguono sintesi e tre obiettivi illustrati, senza divisori intermedi. Le coppie di opere mantengono caption a tutta colonna tramite `figure-comparison`, mentre i diagrammi dominanti riusano `teaching-figure`. Il confronto sfocato mostra una proposta dell’invito e la copia alla stessa scala, senza presentarlo come misura della comprensione.
+
+Su richiesta esplicita, anche tutte le 70 slide della lezione 10 hanno un copione italiano pronto per la futura sintesi vocale: originale separato, tono neutro e pause come nella 09, nessun audio generato né player. Questa autorizzazione riguarda soltanto il nuovo set. Prompt, originali e WebP lossless delle tre card sono in `assets/theme-imagegen/lesson-10-cards/`.

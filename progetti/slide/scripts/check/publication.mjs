@@ -18,7 +18,7 @@ export async function checkPublication() {
   const uxIds = new Set(curriculum.lessons.map(lesson => lesson.id))
   const localUxIds = curriculum.lessons.filter(lesson => lesson.localOnly === true).map(lesson => lesson.id)
   assert.deepEqual(localUxIds, [], 'the active historical UX lessons are published')
-  const supplementalIds = [grids.lesson]
+  const supplementalIds = [grids.lesson, 'composizione-gerarchia']
   const localIds = new Set([...localUxIds, ...exercises.exercises.map(exercise => exercise.id)])
   const options = { roots: [path.join(root, 'progetti/slide')], userRoot: path.join(root, 'progetti/slide'), allowedRoots: [root] }
   injectPreparserExtensionLoader(async (_roots, _headmatter, _file, mode) => publicationExtensions(mode))
@@ -44,8 +44,8 @@ export async function checkPublication() {
     }
     assert.equal(local.slides.filter(slide => slide.frontmatter.lesson === grids.lesson).length, grids.slideCount, 'supplementary grids count matches its independent current manifest')
     assert.ok(local.slides.filter(slide => slide.frontmatter.lesson === grids.lesson).every(slide => slide.frontmatter.localOnly !== true), 'all supplementary grids slides are published')
-    assert.equal(local.slides.length, 243 + declaredUxSlides + exercises.slideCount + grids.slideCount, 'complete local deck includes the supplementary grids set, index and exercises')
-    assert.equal(published.slides.length, 783, 'published deck adds the 63 authorized grids slides and preserves the published lessons')
+    assert.equal(local.slides.length, 243 + declaredUxSlides + exercises.slideCount + grids.slideCount + 70, 'complete local deck includes the supplementary grids set, index and exercises')
+    assert.equal(published.slides.length, 853, 'published deck adds the 70 composition slides and preserves every published lesson')
     for (const deck of [local, published]) {
       assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design').length, 67, 'lesson 03 is available locally and online')
       assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'storia-design'), 'lesson 03 retains its destination alias')
@@ -58,6 +58,9 @@ export async function checkPublication() {
       assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'tipografia-griglie'), 'lesson 08 retains its destination alias')
       assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === grids.lesson).length, grids.slideCount, 'lesson 09 is complete locally and online')
       assert.ok(deck.slides.filter(slide => slide.frontmatter.lesson === grids.lesson).every(slide => slide.frontmatter.narrationAudio), 'every grids slide keeps its audio locally and online')
+      const composition = deck.slides.filter(slide => slide.frontmatter.lesson === 'composizione-gerarchia')
+      assert.equal(composition.length, 70, 'composition is complete locally and online')
+      assert.ok(composition.every(slide => slide.note?.trim() && !slide.frontmatter.narrationAudio), 'composition publishes its notes without audio')
       assert.ok(!deck.slides.some(slide => slide.frontmatter.routeAlias === 'tipografia-griglie-tipo-prove-esplorative'), 'the removed booklet content is absent locally and online')
     }
     assert.ok(published.slides.every(slide => !localIds.has(slide.frontmatter.lesson)), 'local lessons are absent from routes and overview')

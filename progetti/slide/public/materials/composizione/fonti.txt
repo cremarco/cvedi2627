@@ -1,0 +1,519 @@
+CVeDI · Lezione 10 · Riferimenti completi
+
+# Pubblicazioni e opere originali. Siti e documentazioni rimangono nelle note.
+# Provenienza dei materiali preparatori: manifest locale, mai bibliografia stampata.
+
+compArnheim:
+  type: Book
+  author: "Arnheim, Rudolf"
+  title: "Art and visual perception: A psychology of the creative eye"
+  edition: 2
+  date: 2004
+  publisher: University of California Press
+  serial-number:
+    isbn: "9780520243835"
+
+compPolidoro:
+  type: Book
+  author: "Polidoro, Piero"
+  title: Che cos'è la semiotica visiva
+  date: 2008
+  publisher: Carocci
+  serial-number:
+    isbn: "9788843045792"
+
+compForceville:
+  type: Book
+  author: "Forceville, Charles"
+  title: Pictorial metaphor in advertising
+  date: 1996
+  publisher: Routledge
+  serial-number:
+    doi: 10.4324/9780203064252
+
+compTreisman:
+  type: Article
+  author: ["Treisman, Anne M.", "Gelade, Garry"]
+  title: A feature-integration theory of attention
+  date: 1980
+  page-range: 97-136
+  serial-number:
+    doi: 10.1016/0010-0285(80)90005-5
+  parent:
+    type: Periodical
+    title: Cognitive Psychology
+    volume: 12
+    issue: 1
+
+compWolfe:
+  type: Article
+  author: "Wolfe, Jeremy M."
+  title: "Guided Search 6.0: An updated model of visual search"
+  date: 2021
+  page-range: 1060-1092
+  serial-number:
+    doi: 10.3758/s13423-020-01859-9
+  parent:
+    type: Periodical
+    title: Psychonomic Bulletin & Review
+    volume: 28
+    issue: 4
+
+compShinohara:
+  type: Article
+  author:
+    - "Shinohara, Kazuko"
+    - "Yamauchi, Naoto"
+    - "Kawahara, Shigeto"
+    - "Tanaka, Hideyuki"
+  title: "Takete and Maluma in Action: A Cross-Modal Relationship between Gestures and Sounds"
+  date: 2016-09-28
+  serial-number:
+    doi: 10.1371/journal.pone.0163525
+  parent:
+    type: Periodical
+    title: PLOS ONE
+    volume: 11
+    issue: 9
+    page-range: e0163525
+
+compCwiek:
+  type: Article
+  author:
+    - "Ćwiek, Aleksandra"
+    - "Fuchs, Susanne"
+    - "Draxler, Christoph"
+    - "Asu, Eva Liina"
+    - "Dediu, Dan"
+    - "Hiovain, Katri"
+    - "Kawahara, Shigeto"
+    - "Koutalidis, Sofia"
+    - "Krifka, Manfred"
+    - "Lippus, Pärtel"
+    - "Lupyan, Gary"
+    - "Oh, Grace E."
+    - "Paul, Jing"
+    - "Petrone, Caterina"
+    - "Ridouane, Rachid"
+    - "Reiter, Sabine"
+    - "Schümchen, Nathalie"
+    - "Szalontai, Ádám"
+    - "Ünal-Logacev, Özlem"
+    - "Zeller, Jochen"
+    - "Perlman, Marcus"
+    - "Winter, Bodo"
+  title: The bouba/kiki effect is robust across cultures and writing systems
+  date: 2022
+  page-range: 20200390
+  serial-number:
+    doi: 10.1098/rstb.2020.0390
+  parent:
+    type: Periodical
+    title: "Philosophical Transactions of the Royal Society B: Biological Sciences"
+    volume: 377
+    issue: 1841
+
+compGordon:
+  type: Article
+  author: "Gordon, Kelley"
+  title: 5 principles of visual design in UX
+  date: 2020-03-01
+  publisher: Nielsen Norman Group
+  url: https://www.nngroup.com/articles/principles-visual-design/
+
+compPernice:
+  type: Article
+  author: "Pernice, Kara"
+  title: "F-shaped pattern of reading on the web: Misunderstood, but still relevant (even on mobile)"
+  date: 2017-11-12
+  publisher: Nielsen Norman Group
+  url: https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/
+
+compGordonGerarchia:
+  type: Article
+  author: "Gordon, Kelley"
+  title: "Visual hierarchy in UX: Definition"
+  date: 2021-01-17
+  publisher: Nielsen Norman Group
+  url: https://www.nngroup.com/articles/visual-hierarchy-ux-definition/
+
+compYang:
+  type: Article
+  author: "Yang, Lillian"
+  title: "Mood boards in UX: How and why to use them"
+  date: 2023-02-26
+  publisher: Nielsen Norman Group
+  url: https://www.nngroup.com/articles/mood-boards/
+
+compUp:
+  type: Video
+  affiliated:
+    - role: director
+      names: ["Docter, Pete", "Peterson, Bob"]
+  title: Up
+  date: 2009
+  genre: Film
+  publisher: Pixar Animation Studios
+
+compBudapest:
+  type: Video
+  affiliated:
+    - role: director
+      names: "Anderson, Wes"
+  title: The Grand Budapest Hotel
+  date: 2014
+  genre: Film
+  publisher: "American Empirical Pictures; Indian Paintbrush; Studio Babelsberg"
+
+compBarthes:
+  type: Article
+  author: "Barthes, Roland"
+  title: Rhétorique de l'image
+  date: 1964
+  page-range: 40-51
+  serial-number:
+    doi: 10.3406/comm.1964.1027
+  parent:
+    type: Periodical
+    title: Communications
+    volume: 4
+
+compOsenlund:
+  type: Article
+  author: "Osenlund, R. Kurt"
+  title: "Wes Anderson on using throwback ratios, romantic worldviews, and European reconnaissance to craft The Grand Budapest Hotel"
+  date: 2014-03-08
+  url: https://filmmakermagazine.com/84877-wes-anderson-on-using-throwback-ratios-romantic-worldviews-and-european-reconnaissance-to-craft-the-grand-budapest-hotel/
+  parent:
+    type: Periodical
+    title: Filmmaker
+
+compFitts:
+  type: Article
+  author: "Fitts, Paul M."
+  title: The information capacity of the human motor system in controlling the amplitude of movement
+  date: 1954
+  page-range: 381-391
+  serial-number:
+    doi: 10.1037/h0055392
+  parent:
+    type: Periodical
+    title: Journal of Experimental Psychology
+    volume: 47
+    issue: 6
+
+compMacKenzie:
+  type: Article
+  author: "MacKenzie, I. Scott"
+  title: "Fitts' law as a research and design tool in human-computer interaction"
+  date: 1992
+  page-range: 91-139
+  serial-number:
+    doi: 10.1207/s15327051hci0701_3
+  parent:
+    type: Periodical
+    title: Human-Computer Interaction
+    volume: 7
+    issue: 1
+
+compHick:
+  type: Article
+  author: "Hick, W. E."
+  title: On the rate of gain of information
+  date: 1952
+  page-range: 11-26
+  serial-number:
+    doi: 10.1080/17470215208416600
+  parent:
+    type: Periodical
+    title: Quarterly Journal of Experimental Psychology
+    volume: 4
+    issue: 1
+
+compHyman:
+  type: Article
+  author: "Hyman, Ray"
+  title: Stimulus information as a determinant of reaction time
+  date: 1953
+  page-range: 188-196
+  serial-number:
+    doi: 10.1037/h0056940
+  parent:
+    type: Periodical
+    title: Journal of Experimental Psychology
+    volume: 45
+    issue: 3
+
+compFagerholt:
+  type: Thesis
+  author: ["Fagerholt, Erik", "Lorentzon, Magnus"]
+  title: "Beyond the HUD: User interfaces for increased player immersion in FPS games"
+  date: 2009
+  genre: Master's thesis
+  publisher: Chalmers University of Technology
+  url: https://odr.chalmers.se/server/api/core/bitstreams/fd267f70-c295-4eae-ae01-af5db676e61d/content
+
+compHodent:
+  type: Article
+  author: "Hodent, Celia"
+  title: "Understanding the success of Fortnite: A UX & psychology perspective"
+  date: 2019-07-22
+  url: https://celiahodent.com/understanding-the-success-of-fortnite-ux/
+
+
+Attribuzioni delle figure attive
+
+invito
+Lo stesso contenuto in tre composizioni simulate: a. informazioni con peso simile; b. titolo, data e luogo distinti; c. invito all’azione riconoscibile.
+CVeDI, 2026. Diagramma simulato.
+Originale: risorse-condivise/immagini/figure/composizione-slidev/invito.svg
+
+quadrato
+Il quadrato come struttura geometrica nei marchi.
+
+Originale: risorse-condivise/immagini/figure/composizione/quadrato.svg
+
+cerchio
+Il cerchio come struttura geometrica nei marchi.
+
+Originale: risorse-condivise/immagini/figure/composizione/cerchio.svg
+
+triangolo
+Il triangolo come struttura geometrica nei marchi.
+
+Originale: risorse-condivise/immagini/figure/composizione/triangolo.svg
+
+esagono
+L’esagono come struttura geometrica nei marchi.
+
+Originale: risorse-condivise/immagini/figure/composizione/esagono.svg
+
+takete
+A sinistra Takete, a destra Maluma: profili spigolosi e curvilinei a confronto.
+Da Shinohara et al. (2016), fig. 1a, su disegni di Wolfgang Köhler. CC BY 4.0; colore e disposizione adattati.
+Originale: risorse-condivise/immagini/figure/composizione-slidev/takete.svg
+
+natura
+Venature di una foglia, petali di un fiore e spirale di una conchiglia.
+CVeDI, 2026.
+Originale: risorse-condivise/immagini/figure/composizione-slidev/natura.svg
+
+paesaggio-xilografia
+Paesaggio con il monte Fuji: illustrazione xilografica.
+
+Originale: progetti/booklet/assets/figure-singole/composizione/paesaggio-xilografia.jpeg
+
+funzioni-immagini
+Funzione evocativa: la fotografia dell’ambiente suggerisce l’atmosfera di un locale.
+
+Originale: progetti/booklet/assets/figure-singole/composizione/funzione-evocativa.png
+
+funzione-descrittiva
+Funzione descrittiva: le fotografie delle pietanze presentano l’offerta.
+
+Originale: progetti/booklet/assets/figure-singole/composizione/funzione-descrittiva.png
+
+funzione-sintetica
+Funzione sintetica: piccoli segni identificano categorie.
+
+Originale: progetti/booklet/assets/figure-singole/composizione/funzione-sintetica.png
+
+allbirds-headspace
+Allbirds: fotografia ambientata nella comunicazione del prodotto.
+© Allbirds. Versione storica; data della cattura non indicata.
+Originale: progetti/booklet/assets/figure-singole/composizione/allbirds.png
+
+headspace
+Headspace: personaggi e scene illustrati.
+© Headspace. Versione storica; data della cattura non indicata.
+Originale: progetti/booklet/assets/figure-singole/composizione/headspace.png
+
+doisneau-widener
+Le Baiser de l’Hôtel de Ville, Robert Doisneau, 1950.
+© Atelier Robert Doisneau.
+Originale: progetti/booklet/assets/figure-singole/composizione/doisneau.png
+
+widener
+Tank Man, Jeff Widener / Associated Press, 1989.
+© Jeff Widener / Associated Press.
+Originale: progetti/booklet/assets/figure-singole/composizione/widener.png
+
+metafore
+Una pausa caffè per ripartire: a. la batteria sostituisce la tazza; b. tazza e batteria sono fuse. Il riferimento all’energia è figurato.
+CVeDI, 2026. Diagramma simulato.
+Originale: risorse-condivise/immagini/figure/composizione-slidev/metafore.svg
+
+ibm-pittogrammi
+IBM: a. un pittogramma usato come illustrazione; b. pittogrammi impiegati al posto di icone UI, uso sconsigliato dal sistema.
+© IBM. Esempi della documentazione ufficiale.
+Originale: risorse-condivise/immagini/figure/composizione-slidev/ibm-pittogrammi.svg
+
+up
+Carl Fredricksen e Russell in Up (2009). I rettangoli su Carl e i cerchi su Russell evidenziano la costruzione dei profili.
+© Disney / Pixar.
+Originale: risorse-condivise/immagini/figure/composizione-slidev/up.svg
+
+sguardo-spazio
+Regola dei terzi nel paesaggio: la griglia aiuta a osservare la posizione dell’albero, vicino alla verticale destra, e della montagna sulla sinistra.
+
+Originale: progetti/booklet/assets/figure-singole/composizione/sguardo-ritratto.jpeg
+
+sguardo-direzione
+Spazio e direzione dello sguardo nel ritratto. Looking room indica lo spazio davanti al volto; l’etichetta headroom è collocata lateralmente, ma il termine indica lo spazio sopra la testa. Le annotazioni sono conservate nel documento.
+
+Originale: progetti/booklet/assets/figure-singole/composizione/sguardo-direzione.jpeg
+
+pieno-vuoto
+Negative Spaces, di Tang Yau Hoong.
+© Tang Yau Hoong.
+Originale: progetti/booklet/assets/figure-singole/composizione/negative-spaces.png
+
+spartan-golf
+Spartan Golf, concept di Richard Fonteneau, 2010: sagoma di golfista e richiamo all’elmo.
+Richard Fonteneau, Spartan Golf, concept, 2010.
+Originale: progetti/booklet/assets/figure-singole/composizione/spartan-golf.png
+
+julius-caesar
+Julius Caesar, Shakespeare in the Park 2017, Paula Scher / Pentagram: scala e dimensione nella gerarchia del manifesto.
+Paula Scher / Pentagram per The Public Theater; collaborazione Kirstin Rocke-Huber.
+Originale: risorse-condivise/fonti/booklet/capitolo-3/originals/c03-098-01-source-01.png
+
+barbie-dune
+Locandina di Barbie: il colore definisce un’atmosfera visiva.
+© Warner Bros.
+Originale: progetti/booklet/assets/figure-singole/composizione/barbie.png
+
+dune
+Locandina di Dune: il colore definisce un’atmosfera visiva.
+© Warner Bros.
+Originale: progetti/booklet/assets/figure-singole/composizione/dune.png
+
+moma-tipografia
+Rebecca Nolte, MoMA Poster Series, 2014: esercizio tipografico sul calendario espositivo 2013. Dimensioni, pesi e disposizione distinguono le informazioni.
+© Rebecca Nolte. Marchio MoMA del rispettivo titolare.
+Originale: risorse-condivise/fonti/booklet/capitolo-3/originals/c03-102-01-source-01.jpeg
+
+pareidolia-legno
+Un volto nelle venature del legno: la disposizione delle forme favorisce la pareidolia.
+
+Originale: risorse-condivise/fonti/booklet/capitolo-3/originals/c03-108-01-source-01.jpeg
+
+melbourne
+Melbourne Food & Wine Festival: una figura costruita con lo spazio negativo.
+Melbourne Food & Wine Festival.
+Originale: risorse-condivise/fonti/booklet/capitolo-3/originals/c03-110-01-source-01.png
+
+adidas
+Campagna Adidas: allineamento del testo e relazione con l’immagine.
+© Adidas.
+Originale: risorse-condivise/fonti/booklet/capitolo-3/originals/c03-112-01-source-01.png
+
+haagen-dazs
+Campagna Häagen-Dazs: prodotti disposti secondo una composizione dispari.
+© Häagen-Dazs.
+Originale: risorse-condivise/fonti/booklet/capitolo-3/originals/c03-114-01-source-01.png
+
+equilibrio
+Due schemi simulati: a. dischi speculari; b. dimensioni e distanze differenti. L’asse permette di confrontare le posizioni e non misura il peso percettivo.
+CVeDI, 2026. Diagramma simulato.
+Originale: risorse-condivise/immagini/figure/composizione-slidev/equilibrio.svg
+
+cocacola
+Campagna Coca-Cola: la ripetizione delle bottiglie suggerisce un sorriso.
+© The Coca-Cola Company.
+Originale: risorse-condivise/fonti/booklet/capitolo-3/originals/c03-116-01-source-01.jpeg
+
+linee-direzione
+Linee e direzione: un percorso visivo attraverso la composizione.
+
+Originale: risorse-condivise/fonti/booklet/capitolo-3/originals/c03-118-01-source-01.png
+
+triennale
+Ernst Scheidegger, manifesto della Nona Triennale di Milano, 1951: relazioni fra campiture, numero e testi.
+Ernst Scheidegger.
+Originale: risorse-condivise/fonti/booklet/capitolo-3/originals/c03-120-01-source-01.png
+
+manifesto-modulare
+Paula Scher / Pentagram, Shakespeare in the Park 2013: sovrapposizioni, lettere di scala diversa e gerarchia del testo.
+Paula Scher / Pentagram per The Public Theater; collaborazione Kirstin Rocke-Huber.
+Originale: risorse-condivise/fonti/booklet/capitolo-3/originals/c03-121-01-source-01.png
+
+manifesto-denso
+Paula Scher, The Public Theater, 95–96 Season, 1995: densità tipografica, direzioni contrastanti e variazioni di peso.
+© Paula Scher. Esemplare conservato al MoMA; dono della designer.
+Originale: risorse-condivise/fonti/booklet/capitolo-3/originals/c03-122-01-source-01.png
+
+prospettiva-tipografica
+Prospettiva tipografica: il testo costruisce profondità e movimento.
+
+Originale: risorse-condivise/fonti/booklet/capitolo-3/originals/c03-124-01-source-01.png
+
+salienza
+Ricerca visiva in due campi simulati: a. un solo disco è diverso; b. più differenze competono. Non sono rappresentati tempi o risultati misurati.
+CVeDI, 2026. Diagramma simulato.
+Originale: risorse-condivise/immagini/figure/composizione-slidev/salienza.svg
+
+priorita
+Spostare una visita: a. tre azioni con identica enfasi; b. modifica, indicazioni e annullamento ricevono pesi differenti. Annulla resta leggibile e disponibile.
+CVeDI, 2026. Diagramma simulato.
+Originale: risorse-condivise/immagini/figure/composizione-slidev/priorita.svg
+
+aesop-percorso
+Homepage di Aesop: distribuzione dei blocchi nella versione documentata. Lo schema a Z è una lettura compositiva, non una misurazione dello sguardo.
+© Aesop. Cattura storica; data non indicata.
+Originale: risorse-condivise/immagini/figure/composizione/aesop-percorso.svg
+
+diesel-contrasto
+Campagna Diesel: contrasto fra testo, immagine e sfondo nella composizione.
+© Diesel.
+Originale: progetti/booklet/assets/figure-singole/composizione/diesel-prima.png
+
+diesel-seconda
+Campagna Diesel: un altro esempio del contrasto fra testo, immagine e sfondo.
+© Diesel.
+Originale: progetti/booklet/assets/figure-singole/composizione/diesel-seconda.png
+
+hud-fortnite
+Fortnite, HUD in una versione storica per PC. Salute, equipaggiamento e mappa occupano zone distinte attorno alla scena. I riquadri rossi e i numeri sono annotazioni già presenti nella riproduzione.
+© Epic Games.
+Originale: progetti/booklet/assets/composition-materials/images/fortnite-hud.jpg
+
+dead-space
+Dead Space, 2008: la fascia luminosa sul dorso della tuta indica la salute; il contatore delle munizioni è associato all’arma.
+© Electronic Arts.
+Originale: progetti/booklet/assets/composition-materials/images/dead-space.png
+
+cenacolo
+Ultima Cena, Leonardo da Vinci, 1495–1498, Santa Maria delle Grazie, Milano. Riproduzione annotata: i segni rossi evidenziano la posizione centrale e le direzioni verso di essa; non appartengono all’opera.
+Opera di pubblico dominio.
+Originale: risorse-condivise/immagini/figure/composizione/cenacolo-1.png
+
+budapest
+The Grand Budapest Hotel, 2014: le due figure principali condividono il centro e sono affiancate da figure secondarie.
+© Fox Searchlight Pictures.
+Originale: risorse-condivise/immagini/figure/composizione/budapest-simmetria-1.png
+
+budapest-cornice
+The Grand Budapest Hotel, 2014: la grata costruisce una seconda cornice.
+© Fox Searchlight Pictures.
+Originale: risorse-condivise/immagini/figure/composizione/budapest-cornice-4.png
+
+budapest-spazio
+The Grand Budapest Hotel, 2014: lo spazio della sala prevale sull’ingombro dei personaggi.
+© Fox Searchlight Pictures.
+Originale: risorse-condivise/immagini/figure/composizione/budapest-spazio-formati-1.png
+
+moodboard-riferimenti
+Fotografie di ambienti, persone e dettagli accostate a una palette. Osservare come il giallo e i toni verde-azzurri ricorrano fra campioni e soggetti; la tavola propone una direzione visiva, senza definire una pagina.
+
+Originale: risorse-condivise/immagini/figure/composizione/moodboard-riferimenti.jpg
+
+moodboard-sistema
+Ecommerce Moodboard, progetto CandleScience. Colore e texture, tipografia e iconografia affiancano fotografie di prodotti e materiali. Riproduzione parziale: il bordo inferiore interrompe i campioni tipografici. La tavola non documenta il layout finale del negozio.
+Marchio CandleScience del rispettivo titolare.
+Originale: risorse-condivise/immagini/figure/composizione/moodboard-sistema.jpg
+
+squint
+A sinistra una proposta dell’invito originale; a destra la stessa composizione con sfocatura uniforme. Stessa scala: il confronto riguarda masse e contrasti, non comprensione o percorso degli occhi.
+CVeDI, 2026. Diagramma simulato.
+Originale: risorse-condivise/immagini/figure/composizione-slidev/squint.svg

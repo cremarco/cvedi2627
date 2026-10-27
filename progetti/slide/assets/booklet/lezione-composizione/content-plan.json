@@ -1,0 +1,1217 @@
+{
+  "version": 1,
+  "lesson": "composizione-gerarchia",
+  "sourceFile": "progetti/booklet/capitoli/08-composizione-gerarchia.typ",
+  "targetMinutes": 90,
+  "activityMinutes": 15,
+  "sections": [
+    {
+      "number": 1,
+      "title": "Dalle parti al messaggio"
+    },
+    {
+      "number": 2,
+      "title": "Forma, colore e materia"
+    },
+    {
+      "number": 3,
+      "title": "Immagini, segni e significato"
+    },
+    {
+      "number": 4,
+      "title": "Comporre lo spazio e il testo"
+    },
+    {
+      "number": 5,
+      "title": "Costruire le priorità"
+    },
+    {
+      "number": 6,
+      "title": "Attenzione e percorsi di lettura"
+    },
+    {
+      "number": 7,
+      "title": "Leggere una composizione"
+    },
+    {
+      "number": 8,
+      "title": "Progettare, confrontare, verificare"
+    },
+    {
+      "number": 9,
+      "title": "Lettura delle fonti"
+    }
+  ],
+  "objectives": [
+    {
+      "title": "Leggere le relazioni",
+      "text": "Descrivere il contributo di forme, immagini, parole e spazio."
+    },
+    {
+      "title": "Costruire le priorità",
+      "text": "Motivare i pesi visivi in rapporto al messaggio e al compito."
+    },
+    {
+      "title": "Verificare il compito",
+      "text": "Confrontare varianti e rivedere le scelte attraverso osservazioni concrete."
+    }
+  ],
+  "slides": [
+    {
+      "slug": "",
+      "alias": "composizione-gerarchia",
+      "title": "Composizione e gerarchia visiva",
+      "lead": "",
+      "points": [],
+      "figures": [],
+      "section": 0,
+      "kind": "cover",
+      "minutes": 1,
+      "sourceHeading": "Dalle parti al messaggio"
+    },
+    {
+      "slug": "sintesi",
+      "alias": "composizione-gerarchia-sintesi",
+      "title": "Dal compito alle scelte visive",
+      "lead": "La composizione rende riconoscibili relazioni e priorità.",
+      "points": [
+        "Immagini, parole e spazio collaborano con il compito del lettore."
+      ],
+      "figures": [],
+      "section": 0,
+      "kind": "summary",
+      "minutes": 1,
+      "sourceHeading": "Dalle parti al messaggio"
+    },
+    {
+      "slug": "obiettivi",
+      "alias": "composizione-gerarchia-obiettivi",
+      "title": "Cosa impareremo",
+      "lead": "",
+      "points": [],
+      "figures": [],
+      "section": 0,
+      "kind": "objectives",
+      "minutes": 1,
+      "sourceHeading": "Dalle parti al messaggio"
+    },
+    {
+      "slug": "domanda-lettore",
+      "alias": "composizione-gerarchia-domanda-lettore",
+      "title": "Cominciare dalla domanda",
+      "lead": "Che cosa deve capire o fare la persona?",
+      "points": [
+        "Invito: riconoscere attività, data, luogo e iscrizione.",
+        "Sara: riconoscere la visita e trovare come modificarla."
+      ],
+      "figures": [],
+      "section": 1,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Dalle parti al messaggio"
+    },
+    {
+      "slug": "invito",
+      "alias": "composizione-gerarchia-invito",
+      "title": "Stesso messaggio, relazioni diverse",
+      "lead": "Confrontiamo le informazioni prima di giudicare lo stile.",
+      "points": [],
+      "figures": [
+        "invito"
+      ],
+      "section": 1,
+      "kind": "teaching",
+      "minutes": 1.5,
+      "sourceHeading": "Dalle parti al messaggio"
+    },
+    {
+      "slug": "differenze",
+      "alias": "composizione-gerarchia-differenze",
+      "title": "Dare una funzione alle differenze",
+      "lead": "Una differenza visiva deve chiarire una differenza di contenuto.",
+      "points": [
+        "Stabilire i ruoli prima di scegliere gli effetti.",
+        "Mantenere leggibili le informazioni di supporto."
+      ],
+      "figures": [],
+      "section": 1,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Dalle parti al messaggio"
+    },
+    {
+      "slug": "forme",
+      "alias": "composizione-gerarchia-forme",
+      "title": "La geometria offre una struttura",
+      "lead": "Una stessa forma può sostenere identità differenti.",
+      "points": [],
+      "figures": [
+        "quadrato",
+        "cerchio"
+      ],
+      "section": 2,
+      "kind": "pair",
+      "minutes": 1,
+      "sourceHeading": "Forma, colore e materia"
+    },
+    {
+      "slug": "orientamento",
+      "alias": "composizione-gerarchia-orientamento",
+      "title": "L’orientamento cambia la relazione",
+      "lead": "Angoli, appoggi e ripetizioni modificano la presenza della forma.",
+      "points": [],
+      "figures": [
+        "triangolo",
+        "esagono"
+      ],
+      "section": 2,
+      "kind": "pair",
+      "minutes": 1,
+      "sourceHeading": "Forma, colore e materia"
+    },
+    {
+      "slug": "suoni-forme",
+      "alias": "composizione-gerarchia-suoni-forme",
+      "title": "Associazioni fra suoni e forme",
+      "lead": "Takete e Maluma mostrano una corrispondenza, non un significato universale.",
+      "points": [],
+      "figures": [
+        "takete"
+      ],
+      "section": 2,
+      "kind": "teaching",
+      "minutes": 1.5,
+      "sourceHeading": "Forma, colore e materia"
+    },
+    {
+      "slug": "natura-texture",
+      "alias": "composizione-gerarchia-natura-texture",
+      "title": "Dalla forma alla superficie",
+      "lead": "Texture e strutture naturali possono orientare un’idea visiva.",
+      "points": [
+        "Venature, ramificazioni e spirali offrono relazioni da osservare.",
+        "La trama deve lasciare leggibili testo e controlli."
+      ],
+      "figures": [
+        "natura"
+      ],
+      "section": 2,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Forma, colore e materia"
+    },
+    {
+      "slug": "colore-atmosfera",
+      "alias": "composizione-gerarchia-colore-atmosfera",
+      "title": "Il colore collabora con il messaggio",
+      "lead": "Palette, soggetti, luce e parole costruiscono insieme un’atmosfera.",
+      "points": [
+        "Le associazioni cambiano con il contesto.",
+        "Il rilievo dipende dai colori circostanti."
+      ],
+      "figures": [
+        "paesaggio-xilografia"
+      ],
+      "section": 2,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Forma, colore e materia"
+    },
+    {
+      "slug": "funzione-immagine",
+      "alias": "composizione-gerarchia-funzione-immagine",
+      "title": "Che cosa aggiunge l’immagine?",
+      "lead": "La scelta comincia dall’informazione che rende disponibile.",
+      "points": [
+        "Evocare un’atmosfera, descrivere un oggetto, sintetizzare una categoria.",
+        "La stessa immagine può assumere ruoli diversi."
+      ],
+      "figures": [],
+      "section": 3,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Immagini, segni e significato"
+    },
+    {
+      "slug": "evocare",
+      "alias": "composizione-gerarchia-evocare",
+      "title": "Evocare un’atmosfera",
+      "lead": "L’immagine dell’ambiente prepara un’aspettativa.",
+      "points": [
+        "L’atmosfera sostiene il messaggio.",
+        "Indirizzo, orari e condizioni richiedono informazioni esplicite."
+      ],
+      "figures": [
+        "funzioni-immagini"
+      ],
+      "section": 3,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Immagini, segni e significato"
+    },
+    {
+      "slug": "descrivere",
+      "alias": "composizione-gerarchia-descrivere",
+      "title": "Descrivere ciò che conta",
+      "lead": "Le immagini aiutano a confrontare caratteristiche concrete.",
+      "points": [
+        "Scegliere viste e dettagli pertinenti alla domanda.",
+        "Una foto nitida può comunque omettere l’informazione necessaria."
+      ],
+      "figures": [
+        "funzione-descrittiva"
+      ],
+      "section": 3,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Immagini, segni e significato"
+    },
+    {
+      "slug": "sintetizzare",
+      "alias": "composizione-gerarchia-sintetizzare",
+      "title": "Sintetizzare una categoria",
+      "lead": "Un segno riduce il dettaglio e rende riconoscibile una distinzione.",
+      "points": [
+        "La sintesi dipende da convenzioni e contesto.",
+        "Categoria, stato e azione hanno ruoli diversi."
+      ],
+      "figures": [
+        "funzione-sintetica"
+      ],
+      "section": 3,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Immagini, segni e significato"
+    },
+    {
+      "slug": "fotografia-illustrazione",
+      "alias": "composizione-gerarchia-fotografia-illustrazione",
+      "title": "Scegliere il mezzo rispetto alla funzione",
+      "lead": "Allbirds e Headspace mostrano due scelte espressive differenti.",
+      "points": [],
+      "figures": [
+        "allbirds-headspace",
+        "headspace"
+      ],
+      "section": 3,
+      "kind": "pair",
+      "minutes": 1.5,
+      "sourceHeading": "Immagini, segni e significato"
+    },
+    {
+      "slug": "contesto",
+      "alias": "composizione-gerarchia-contesto",
+      "title": "Descrivere prima di interpretare",
+      "lead": "Titolo, attribuzione e contesto orientano la lettura della fotografia.",
+      "points": [],
+      "figures": [
+        "doisneau-widener",
+        "widener"
+      ],
+      "section": 3,
+      "kind": "pair",
+      "minutes": 1,
+      "sourceHeading": "Immagini, segni e significato"
+    },
+    {
+      "slug": "metafora",
+      "alias": "composizione-gerarchia-metafora",
+      "title": "Mettere in relazione due ambiti",
+      "lead": "La metafora trasferisce una caratteristica condivisa.",
+      "points": [],
+      "figures": [
+        "metafore"
+      ],
+      "section": 3,
+      "kind": "teaching",
+      "minutes": 1.5,
+      "sourceHeading": "Immagini, segni e significato"
+    },
+    {
+      "slug": "icone",
+      "alias": "composizione-gerarchia-icone",
+      "title": "Icona operativa e pittogramma",
+      "lead": "Il ruolo stabilisce scala, dettaglio e contesto del segno.",
+      "points": [],
+      "figures": [
+        "ibm-pittogrammi"
+      ],
+      "section": 3,
+      "kind": "teaching",
+      "minutes": 1,
+      "sourceHeading": "Immagini, segni e significato"
+    },
+    {
+      "slug": "forma-racconto",
+      "alias": "composizione-gerarchia-forma-racconto",
+      "title": "La forma acquista senso nel racconto",
+      "lead": "Carl e Russell: geometria, comportamento e contesto collaborano.",
+      "points": [],
+      "figures": [
+        "up"
+      ],
+      "section": 3,
+      "kind": "teaching",
+      "minutes": 1,
+      "sourceHeading": "Immagini, segni e significato"
+    },
+    {
+      "slug": "inquadrare",
+      "alias": "composizione-gerarchia-inquadrare",
+      "title": "Decidere che cosa entra nel campo",
+      "lead": "L’inquadratura stabilisce relazioni fra soggetti e spazio.",
+      "points": [
+        "I terzi offrono riferimenti per discutere una scelta.",
+        "Una composizione centrata può rispondere a un’altra intenzione."
+      ],
+      "figures": [
+        "sguardo-spazio"
+      ],
+      "section": 4,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Comporre lo spazio e il testo"
+    },
+    {
+      "slug": "sguardo",
+      "alias": "composizione-gerarchia-sguardo",
+      "title": "Lasciare spazio a una direzione",
+      "lead": "La posizione del soggetto mette in relazione volto e ambiente.",
+      "points": [
+        "Looking room: spazio nella direzione dello sguardo.",
+        "Headroom: spazio sopra la testa."
+      ],
+      "figures": [
+        "sguardo-direzione"
+      ],
+      "section": 4,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Comporre lo spazio e il testo"
+    },
+    {
+      "slug": "taglio",
+      "alias": "composizione-gerarchia-taglio",
+      "title": "Il taglio può cambiare l’informazione",
+      "lead": "Identificare il dettaglio necessario prima di riempire il contenitore.",
+      "points": [
+        "Una vista generale e un dettaglio rispondono a domande diverse.",
+        "Verificare insieme fotografia, testo e formato."
+      ],
+      "figures": [],
+      "section": 4,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Comporre lo spazio e il testo"
+    },
+    {
+      "slug": "testo-immagine",
+      "alias": "composizione-gerarchia-testo-immagine",
+      "title": "Le parole precisano la relazione",
+      "lead": "Ancoraggio e relais descrivono due contributi del testo.",
+      "points": [
+        "La didascalia può restringere le interpretazioni.",
+        "Parole e immagini possono sviluppare insieme un racconto."
+      ],
+      "figures": [],
+      "section": 4,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Comporre lo spazio e il testo"
+    },
+    {
+      "slug": "pieno-vuoto",
+      "alias": "composizione-gerarchia-pieno-vuoto",
+      "title": "Il vuoto può costruire una figura",
+      "lead": "Il contorno condiviso rende disponibili più letture.",
+      "points": [],
+      "figures": [
+        "pieno-vuoto",
+        "spartan-golf"
+      ],
+      "section": 4,
+      "kind": "pair",
+      "minutes": 1,
+      "sourceHeading": "Comporre lo spazio e il testo"
+    },
+    {
+      "slug": "scala",
+      "alias": "composizione-gerarchia-scala",
+      "title": "Dimensione e importanza si confrontano",
+      "lead": "La scala attribuisce rilievo attraverso rapporti fra elementi.",
+      "points": [
+        "Osservare titolo, parole secondarie e spazio.",
+        "Un elemento piccolo ma isolato può risaltare."
+      ],
+      "figures": [
+        "julius-caesar"
+      ],
+      "section": 5,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Costruire le priorità"
+    },
+    {
+      "slug": "contrasto",
+      "alias": "composizione-gerarchia-contrasto",
+      "title": "La palette sostiene le priorità",
+      "lead": "Barbie e Dune: colore, soggetto e scritte collaborano.",
+      "points": [],
+      "figures": [
+        "barbie-dune",
+        "dune"
+      ],
+      "section": 5,
+      "kind": "pair",
+      "minutes": 1.5,
+      "sourceHeading": "Costruire le priorità"
+    },
+    {
+      "slug": "gerarchia-tipografica",
+      "alias": "composizione-gerarchia-gerarchia-tipografica",
+      "title": "Distinguere i ruoli del testo",
+      "lead": "Dimensione, peso e disposizione rendono riconoscibili le informazioni.",
+      "points": [
+        "Pochi stili coerenti possono bastare.",
+        "Nel digitale, ruolo visivo e struttura semantica collaborano."
+      ],
+      "figures": [
+        "moma-tipografia"
+      ],
+      "section": 5,
+      "kind": "standard",
+      "minutes": 1.5,
+      "sourceHeading": "Costruire le priorità"
+    },
+    {
+      "slug": "prossimita",
+      "alias": "composizione-gerarchia-prossimita",
+      "title": "La distanza chiarisce l’appartenenza",
+      "lead": "Intervalli interni e spazi fra gruppi devono confermare il contenuto.",
+      "points": [
+        "Tenere insieme etichetta e valore.",
+        "Provare testi lunghi e messaggi di errore."
+      ],
+      "figures": [],
+      "section": 5,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Costruire le priorità"
+    },
+    {
+      "slug": "riconoscimento",
+      "alias": "composizione-gerarchia-riconoscimento",
+      "title": "Una disposizione può suggerire un volto",
+      "lead": "La pareidolia collega uno stimolo ambiguo a una figura familiare.",
+      "points": [
+        "Distinguere raggruppamento e interpretazione.",
+        "Descrivere gli indizi che rendono possibile il riconoscimento."
+      ],
+      "figures": [
+        "pareidolia-legno"
+      ],
+      "section": 5,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Costruire le priorità"
+    },
+    {
+      "slug": "spazio-messaggio",
+      "alias": "composizione-gerarchia-spazio-messaggio",
+      "title": "Lo spazio negativo partecipa al messaggio",
+      "lead": "Forchetta e bottiglie emergono dal rapporto fra figure e fondo.",
+      "points": [
+        "Il vuoto può rappresentare, oltre a separare.",
+        "La sua efficacia dipende dalle relazioni che rende leggibili."
+      ],
+      "figures": [
+        "melbourne"
+      ],
+      "section": 5,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Costruire le priorità"
+    },
+    {
+      "slug": "allineamento",
+      "alias": "composizione-gerarchia-allineamento",
+      "title": "Un riferimento comune collega le parti",
+      "lead": "Bordi, assi e linee di base organizzano testo e immagini.",
+      "points": [
+        "Nella campagna Adidas il centro costruisce una relazione.",
+        "La scelta dell’asse dipende dall’intenzione compositiva."
+      ],
+      "figures": [
+        "adidas"
+      ],
+      "section": 5,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Costruire le priorità"
+    },
+    {
+      "slug": "centro-dispari",
+      "alias": "composizione-gerarchia-centro-dispari",
+      "title": "Il centro geometrico non decide tutto",
+      "lead": "Una composizione dispari offre un’organizzazione possibile.",
+      "points": [
+        "Dimensioni, contrasti e distanze modificano i pesi.",
+        "Il contenuto determina quanti elementi servono."
+      ],
+      "figures": [
+        "haagen-dazs"
+      ],
+      "section": 5,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Costruire le priorità"
+    },
+    {
+      "slug": "equilibrio",
+      "alias": "composizione-gerarchia-equilibrio",
+      "title": "Equilibrio simmetrico e asimmetrico",
+      "lead": "Pesi e distanze possono costruire relazioni differenti.",
+      "points": [],
+      "figures": [
+        "equilibrio"
+      ],
+      "section": 5,
+      "kind": "teaching",
+      "minutes": 1.5,
+      "sourceHeading": "Costruire le priorità"
+    },
+    {
+      "slug": "ritmo",
+      "alias": "composizione-gerarchia-ritmo",
+      "title": "La ripetizione rende leggibile la variazione",
+      "lead": "Ritorni e intervalli costruiscono ritmo e coerenza.",
+      "points": [
+        "Nella campagna Coca-Cola le bottiglie suggeriscono un sorriso.",
+        "L’eccezione acquista senso rispetto a un riferimento riconoscibile."
+      ],
+      "figures": [
+        "cocacola"
+      ],
+      "section": 5,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Costruire le priorità"
+    },
+    {
+      "slug": "direzioni",
+      "alias": "composizione-gerarchia-direzioni",
+      "title": "Suggerire un movimento nello spazio",
+      "lead": "Inclinazioni e allineamenti collegano zone della composizione.",
+      "points": [
+        "Una linea guida può essere implicita.",
+        "Movimento suggerito, sguardo osservato e animazione sono fenomeni distinti."
+      ],
+      "figures": [
+        "linee-direzione"
+      ],
+      "section": 5,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Costruire le priorità"
+    },
+    {
+      "slug": "griglia-variazione",
+      "alias": "composizione-gerarchia-griglia-variazione",
+      "title": "Una struttura offre riferimenti alla variazione",
+      "lead": "Il reticolo coordina campiture, numero e testi.",
+      "points": [
+        "Osservare gli allineamenti nel manifesto della Nona Triennale.",
+        "Valutare quale priorità emerge dalle relazioni."
+      ],
+      "figures": [
+        "triennale"
+      ],
+      "section": 5,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Costruire le priorità"
+    },
+    {
+      "slug": "scher",
+      "alias": "composizione-gerarchia-scher",
+      "title": "Gerarchie attraverso densità e sovrapposizioni",
+      "lead": "Paula Scher: due composizioni, relazioni differenti.",
+      "points": [],
+      "figures": [
+        "manifesto-modulare",
+        "manifesto-denso"
+      ],
+      "section": 5,
+      "kind": "pair",
+      "minutes": 1.5,
+      "sourceHeading": "Costruire le priorità"
+    },
+    {
+      "slug": "profondita",
+      "alias": "composizione-gerarchia-profondita",
+      "title": "La superficie può suggerire profondità",
+      "lead": "Scala, sovrapposizione e direzione costruiscono uno spazio rappresentato.",
+      "points": [
+        "La prospettiva coordina rapporti fra piani.",
+        "Ingombro maggiore e rilievo visivo non coincidono sempre."
+      ],
+      "figures": [
+        "prospettiva-tipografica"
+      ],
+      "section": 5,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Costruire le priorità"
+    },
+    {
+      "slug": "salienza",
+      "alias": "composizione-gerarchia-salienza",
+      "title": "Un segnale si distingue nel proprio campo",
+      "lead": "Più differenze possono competere invece di rafforzarsi.",
+      "points": [],
+      "figures": [
+        "salienza"
+      ],
+      "section": 6,
+      "kind": "teaching",
+      "minutes": 1.5,
+      "sourceHeading": "Attenzione e percorsi di lettura"
+    },
+    {
+      "slug": "attenzione-compito",
+      "alias": "composizione-gerarchia-attenzione-compito",
+      "title": "Il compito guida anche l’attenzione",
+      "lead": "Caratteristiche visive, obiettivi ed esperienza collaborano.",
+      "points": [
+        "Il contrasto facilita la distinzione.",
+        "La persona cerca anche ciò che si aspetta di trovare."
+      ],
+      "figures": [],
+      "section": 6,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Attenzione e percorsi di lettura"
+    },
+    {
+      "slug": "azioni",
+      "alias": "composizione-gerarchia-azioni",
+      "title": "Dare priorità senza nascondere alternative",
+      "lead": "Il compito è spostare la visita. Annulla deve restare disponibile.",
+      "points": [],
+      "figures": [
+        "priorita"
+      ],
+      "section": 6,
+      "kind": "teaching",
+      "minutes": 1.5,
+      "sourceHeading": "Attenzione e percorsi di lettura"
+    },
+    {
+      "slug": "tre-passaggi",
+      "alias": "composizione-gerarchia-tre-passaggi",
+      "title": "Vedere, scegliere, raggiungere",
+      "lead": "Un comando evidente può restare ambiguo o difficile da attivare.",
+      "points": [
+        "Riconoscere l’azione pertinente.",
+        "Comprenderla e distinguerla dalle alternative.",
+        "Raggiungere il bersaglio con il dispositivo disponibile."
+      ],
+      "figures": [],
+      "section": 6,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Attenzione e percorsi di lettura"
+    },
+    {
+      "slug": "scelta",
+      "alias": "composizione-gerarchia-scelta",
+      "title": "Organizzare le alternative sostiene la scelta",
+      "lead": "Hick–Hyman riguarda l’incertezza fra risposte in compiti sperimentali.",
+      "points": [
+        "Contano numero e probabilità delle alternative.",
+        "Etichette e gruppi devono rendere prevedibili le possibilità."
+      ],
+      "figures": [],
+      "section": 6,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Attenzione e percorsi di lettura"
+    },
+    {
+      "slug": "bersaglio",
+      "alias": "composizione-gerarchia-bersaglio",
+      "title": "Il bersaglio è l’area attivabile",
+      "lead": "Fitts collega movimento, distanza e precisione richiesta.",
+      "points": [
+        "Segno visibile e area cliccabile possono essere differenti.",
+        "Provare dimensione, posizione, spaziatura e dispositivo."
+      ],
+      "figures": [],
+      "section": 6,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Attenzione e percorsi di lettura"
+    },
+    {
+      "slug": "schema-z",
+      "alias": "composizione-gerarchia-schema-z",
+      "title": "La Z è una proposta compositiva",
+      "lead": "Lo schema aiuta a discutere pochi blocchi, senza misurare lo sguardo.",
+      "points": [],
+      "figures": [
+        "aesop-percorso"
+      ],
+      "section": 6,
+      "kind": "teaching",
+      "minutes": 1.5,
+      "sourceHeading": "Attenzione e percorsi di lettura"
+    },
+    {
+      "slug": "scansione-f",
+      "alias": "composizione-gerarchia-scansione-f",
+      "title": "La F descrive alcune condizioni di scansione",
+      "lead": "Una regolarità osservata non è una traiettoria obbligatoria.",
+      "points": [
+        "Prima fascia orizzontale, seconda più breve, scansione sul margine iniziale.",
+        "Titoli descrittivi e informazioni anticipate aiutano la consultazione."
+      ],
+      "figures": [],
+      "section": 6,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Attenzione e percorsi di lettura"
+    },
+    {
+      "slug": "schemi-evidenze",
+      "alias": "composizione-gerarchia-schemi-evidenze",
+      "title": "Una composizione non documenta lo sguardo",
+      "lead": "Nella campagna Diesel possiamo leggere contrasti e priorità proposte.",
+      "points": [],
+      "figures": [
+        "diesel-contrasto",
+        "diesel-seconda"
+      ],
+      "section": 6,
+      "kind": "pair",
+      "minutes": 1,
+      "sourceHeading": "Attenzione e percorsi di lettura"
+    },
+    {
+      "slug": "hud",
+      "alias": "composizione-gerarchia-hud",
+      "title": "Informazioni attorno all’azione",
+      "lead": "Fortnite: indicatori distribuiti nella versione storica documentata.",
+      "points": [],
+      "figures": [
+        "hud-fortnite"
+      ],
+      "section": 6,
+      "kind": "teaching",
+      "minutes": 1.5,
+      "sourceHeading": "Attenzione e percorsi di lettura"
+    },
+    {
+      "slug": "diegesi",
+      "alias": "composizione-gerarchia-diegesi",
+      "title": "Gli indicatori possono appartenere al mondo",
+      "lead": "Dead Space: salute sulla tuta e munizioni presso l’arma.",
+      "points": [],
+      "figures": [
+        "dead-space"
+      ],
+      "section": 6,
+      "kind": "teaching",
+      "minutes": 1,
+      "sourceHeading": "Attenzione e percorsi di lettura"
+    },
+    {
+      "slug": "cenacolo",
+      "alias": "composizione-gerarchia-cenacolo",
+      "title": "Leggere insieme posizione, direzioni e racconto",
+      "lead": "Nell’Ultima Cena la centralità collabora con la costruzione prospettica.",
+      "points": [],
+      "figures": [
+        "cenacolo"
+      ],
+      "section": 7,
+      "kind": "teaching",
+      "minutes": 1.5,
+      "sourceHeading": "Leggere una composizione"
+    },
+    {
+      "slug": "budapest-centro",
+      "alias": "composizione-gerarchia-budapest-centro",
+      "title": "La simmetria organizza i personaggi",
+      "lead": "The Grand Budapest Hotel: centro e figure laterali costruiscono una relazione.",
+      "points": [],
+      "figures": [
+        "budapest"
+      ],
+      "section": 7,
+      "kind": "teaching",
+      "minutes": 1,
+      "sourceHeading": "Leggere una composizione"
+    },
+    {
+      "slug": "cornice",
+      "alias": "composizione-gerarchia-cornice",
+      "title": "Una cornice dentro il campo",
+      "lead": "La grata delimita ulteriormente lo spazio visibile.",
+      "points": [],
+      "figures": [
+        "budapest-cornice"
+      ],
+      "section": 7,
+      "kind": "teaching",
+      "minutes": 1,
+      "sourceHeading": "Leggere una composizione"
+    },
+    {
+      "slug": "formato",
+      "alias": "composizione-gerarchia-formato",
+      "title": "Il formato partecipa al racconto",
+      "lead": "La quantità di spazio cambia il rapporto fra figure e ambiente.",
+      "points": [],
+      "figures": [
+        "budapest-spazio"
+      ],
+      "section": 7,
+      "kind": "teaching",
+      "minutes": 1,
+      "sourceHeading": "Leggere una composizione"
+    },
+    {
+      "slug": "trasferimento",
+      "alias": "composizione-gerarchia-trasferimento",
+      "title": "Trasferire il metodo di osservazione",
+      "lead": "Dal caso alla pagina: descrivere, interpretare, formulare una scelta.",
+      "points": [
+        "Quali relazioni sono osservabili?",
+        "Quali dipendono dal mezzo e dal contesto?",
+        "Quale ipotesi possiamo provare nel nostro invito?"
+      ],
+      "figures": [],
+      "section": 7,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Leggere una composizione"
+    },
+    {
+      "slug": "concept",
+      "alias": "composizione-gerarchia-concept",
+      "title": "Un’idea guida coordina le scelte",
+      "lead": "Per il laboratorio: sperimentare con la luce.",
+      "points": [
+        "Collegare fotografie, tagli, parole e tipografia.",
+        "Conservare leggibili data, luogo e iscrizione."
+      ],
+      "figures": [],
+      "section": 8,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Progettare, confrontare, verificare"
+    },
+    {
+      "slug": "moodboard",
+      "alias": "composizione-gerarchia-moodboard",
+      "title": "Raccogliere una direzione visiva",
+      "lead": "Fotografie e palette rendono confrontabili parole come luminoso.",
+      "points": [],
+      "figures": [
+        "moodboard-riferimenti"
+      ],
+      "section": 8,
+      "kind": "teaching",
+      "minutes": 1,
+      "sourceHeading": "Progettare, confrontare, verificare"
+    },
+    {
+      "slug": "moodboard-sistema",
+      "alias": "composizione-gerarchia-moodboard-sistema",
+      "title": "Precisare ipotesi su più elementi",
+      "lead": "CandleScience: texture, tipografia e iconografia accanto alle fotografie.",
+      "points": [],
+      "figures": [
+        "moodboard-sistema"
+      ],
+      "section": 8,
+      "kind": "teaching",
+      "minutes": 1,
+      "sourceHeading": "Progettare, confrontare, verificare"
+    },
+    {
+      "slug": "riferimento-scelta-verifica",
+      "alias": "composizione-gerarchia-riferimento-scelta-verifica",
+      "title": "Dal riferimento a una decisione verificabile",
+      "lead": "Annotare riferimento, scelta e verifica.",
+      "points": [
+        "Riferimento: una fotografia con contrasti marcati.",
+        "Scelta: fotografia espressiva e fondo uniforme per i dati.",
+        "Verifica: trovare data, luogo e iscrizione."
+      ],
+      "figures": [],
+      "section": 8,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Progettare, confrontare, verificare"
+    },
+    {
+      "slug": "variazione",
+      "alias": "composizione-gerarchia-variazione",
+      "title": "Cambiare una relazione alla volta",
+      "lead": "Conservare una versione iniziale per rendere discutibile la modifica.",
+      "points": [
+        "Scegliere scala, spazio, immagine oppure enfasi del comando.",
+        "Confrontare alla stessa dimensione con gli stessi contenuti."
+      ],
+      "figures": [
+        "invito"
+      ],
+      "section": 8,
+      "kind": "teaching",
+      "minutes": 1,
+      "sourceHeading": "Progettare, confrontare, verificare"
+    },
+    {
+      "slug": "squint",
+      "alias": "composizione-gerarchia-squint",
+      "title": "Ridurre il dettaglio per osservare i pesi",
+      "lead": "Originale e copia sfocata devono restare alla stessa scala.",
+      "points": [],
+      "figures": [
+        "squint"
+      ],
+      "section": 8,
+      "kind": "teaching",
+      "minutes": 1.5,
+      "sourceHeading": "Progettare, confrontare, verificare"
+    },
+    {
+      "slug": "prova-compito",
+      "alias": "composizione-gerarchia-prova-compito",
+      "title": "La verifica torna alla domanda iniziale",
+      "lead": "Chiedere di trovare o fare qualcosa rende osservabile il confronto.",
+      "points": [
+        "Annotare esitazioni, associazioni ed esito.",
+        "Conservare anche le osservazioni contrarie all’ipotesi."
+      ],
+      "figures": [],
+      "section": 8,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Progettare, confrontare, verificare"
+    },
+    {
+      "slug": "materiali",
+      "alias": "composizione-gerarchia-materiali",
+      "title": "Un invito comune per il confronto",
+      "lead": "Laboratorio di fotografia: sperimentare con la luce.",
+      "points": [
+        "Sabato 14 novembre · dalle 10 alle 13.",
+        "Spazio Officina · Via del Parco 8.",
+        "Iscrizione gratuita · azione: Iscriviti."
+      ],
+      "figures": [],
+      "section": 8,
+      "kind": "materials",
+      "minutes": 1,
+      "sourceHeading": "Progettare, confrontare, verificare"
+    },
+    {
+      "slug": "attivita-variazione",
+      "alias": "composizione-gerarchia-attivita-variazione",
+      "title": "Produrre una variazione motivata",
+      "lead": "In coppia, rendere riconoscibili attività, dati e iscrizione.",
+      "points": [
+        "Scrivere la priorità e scegliere una relazione da modificare.",
+        "Conservare contenuti e versione iniziale.",
+        "Affiancare le due proposte e motivare la scelta."
+      ],
+      "figures": [],
+      "section": 8,
+      "kind": "activity",
+      "minutes": 8,
+      "sourceHeading": "Progettare, confrontare, verificare"
+    },
+    {
+      "slug": "attivita-verifica",
+      "alias": "composizione-gerarchia-attivita-verifica",
+      "title": "Provare con un compito",
+      "lead": "Scambiare le varianti con un’altra coppia e osservare le risposte.",
+      "points": [
+        "Chiedere giorno, orario, luogo e modalità di iscrizione.",
+        "Annotare risposte, esitazioni e associazioni ambigue.",
+        "Rivedere la proposta alla luce delle osservazioni."
+      ],
+      "figures": [],
+      "section": 8,
+      "kind": "activity",
+      "minutes": 7,
+      "sourceHeading": "Progettare, confrontare, verificare"
+    },
+    {
+      "slug": "restituzione",
+      "alias": "composizione-gerarchia-restituzione",
+      "title": "Dall’osservazione alla revisione",
+      "lead": "Una proposta migliora quando rende discutibili le proprie scelte.",
+      "points": [
+        "Quale relazione è emersa?",
+        "Che cosa ha ostacolato il compito?",
+        "Quale correzione deriva dall’osservazione?"
+      ],
+      "figures": [],
+      "section": 8,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Progettare, confrontare, verificare"
+    },
+    {
+      "slug": "chiusura",
+      "alias": "composizione-gerarchia-chiusura",
+      "title": "Comporre significa mettere in relazione",
+      "lead": "Dal compito del lettore a una scelta motivata e verificabile.",
+      "points": [
+        "Scegliere segni e immagini pertinenti.",
+        "Costruire priorità senza perdere informazioni.",
+        "Confrontare le varianti attraverso un compito."
+      ],
+      "figures": [],
+      "section": 8,
+      "kind": "standard",
+      "minutes": 1,
+      "sourceHeading": "Progettare, confrontare, verificare"
+    },
+    {
+      "slug": "fonti-1",
+      "alias": "composizione-gerarchia-fonti-1",
+      "title": "Fonti · linguaggio e composizione",
+      "lead": "",
+      "points": [],
+      "figures": [],
+      "section": 9,
+      "kind": "references",
+      "minutes": 1,
+      "sourceHeading": "Lettura delle fonti",
+      "references": [
+        {
+          "label": "Arnheim (2004) · Art and visual perception",
+          "url": "https://www.ucpress.edu/books/art-and-visual-perception/paper",
+          "note": "Forma e relazioni nella composizione."
+        },
+        {
+          "label": "Polidoro (2008) · Semiotica visiva",
+          "url": "https://www.carocci.it/prodotto/che-cose-la-semiotica-visiva",
+          "note": "Riconoscimento, convenzioni e interpretazione."
+        },
+        {
+          "label": "Forceville (1996) · Pictorial metaphor",
+          "url": "https://doi.org/10.4324/9780203064252",
+          "note": "Relazioni fra ambiti nelle immagini pubblicitarie."
+        },
+        {
+          "label": "Barthes (1964) · Rhétorique de l’image",
+          "url": "https://doi.org/10.3406/comm.1964.1027",
+          "note": "Ancoraggio e relais."
+        },
+        {
+          "label": "Shinohara et al. (2016) · Takete e Maluma",
+          "url": "https://doi.org/10.1371/journal.pone.0163525",
+          "note": "Fonte dei profili di Köhler riprodotti."
+        },
+        {
+          "label": "Ćwiek et al. (2022) · Bouba/kiki",
+          "url": "https://doi.org/10.1098/rstb.2020.0390",
+          "note": "Associazioni fra suono e forma; differenze fra gruppi."
+        }
+      ]
+    },
+    {
+      "slug": "fonti-2",
+      "alias": "composizione-gerarchia-fonti-2",
+      "title": "Fonti · attenzione e interazione",
+      "lead": "",
+      "points": [],
+      "figures": [],
+      "section": 9,
+      "kind": "references",
+      "minutes": 1,
+      "sourceHeading": "Lettura delle fonti",
+      "references": [
+        {
+          "label": "Treisman e Gelade (1980) · Feature integration",
+          "url": "https://doi.org/10.1016/0010-0285(80)90005-5",
+          "note": "Caratteristiche e combinazioni nella ricerca visiva."
+        },
+        {
+          "label": "Wolfe (2021) · Guided Search 6.0",
+          "url": "https://doi.org/10.3758/s13423-020-01859-9",
+          "note": "Stimoli, obiettivi ed esperienza nella ricerca."
+        },
+        {
+          "label": "Hick (1952) · Scelta e informazione",
+          "url": "https://doi.org/10.1080/17470215208416600",
+          "note": "Insieme a Hyman (1953), DOI 10.1037/h0056940."
+        },
+        {
+          "label": "Fitts (1954) · Movimento verso il bersaglio",
+          "url": "https://doi.org/10.1037/h0055392",
+          "note": "Approfondimento HCI: MacKenzie (1992), DOI 10.1207/s15327051hci0701_3."
+        },
+        {
+          "label": "Pernice (2017) · F-shaped pattern",
+          "url": "https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/",
+          "note": "Condizioni e limiti delle scansioni osservate."
+        },
+        {
+          "label": "IBM · Pictograms: Usage",
+          "url": "https://www.ibm.com/design/language/iconography/pictograms/usage/",
+          "note": "Ruolo del pittogramma e differenza dalle icone UI."
+        }
+      ]
+    },
+    {
+      "slug": "fonti-3",
+      "alias": "composizione-gerarchia-fonti-3",
+      "title": "Fonti · metodo ed esempi",
+      "lead": "",
+      "points": [],
+      "figures": [],
+      "section": 9,
+      "kind": "references",
+      "minutes": 1,
+      "sourceHeading": "Lettura delle fonti",
+      "references": [
+        {
+          "label": "Gordon (2020; 2021) · Gerarchia visiva",
+          "url": "https://www.nngroup.com/articles/visual-hierarchy-ux-definition/",
+          "note": "Priorità e controllo dei pesi; riferimenti completi nel materiale scaricabile."
+        },
+        {
+          "label": "Yang (2023) · Mood boards in UX",
+          "url": "https://www.nngroup.com/articles/mood-boards/",
+          "note": "Dai riferimenti alla discussione delle scelte."
+        },
+        {
+          "label": "W3C WAI · Functional Images",
+          "url": "https://www.w3.org/WAI/tutorials/images/functional/",
+          "note": "Immagine operativa, azione e alternativa testuale."
+        },
+        {
+          "label": "Criterion · The Grand Budapest Hotel",
+          "url": "https://www.criterion.com/films/29601-the-grand-budapest-hotel",
+          "note": "Personaggi, contesto e formati; attribuzioni accanto alle figure."
+        },
+        {
+          "label": "Hodent (2019) · Fortnite, UX e psicologia",
+          "url": "https://celiahodent.com/understanding-the-success-of-fortnite-ux/",
+          "note": "Visibilità delle informazioni durante il gioco."
+        },
+        {
+          "label": "Fagerholt e Lorentzon (2009) · Beyond the HUD",
+          "url": "https://odr.chalmers.se/server/api/core/bitstreams/fd267f70-c295-4eae-ae01-af5db676e61d/content",
+          "note": "Indicatori, diegesi e collocazione nello spazio."
+        }
+      ]
+    }
+  ]
+}
