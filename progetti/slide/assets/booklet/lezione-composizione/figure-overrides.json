@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "lesson": "composizione-gerarchia",
+  "figures": [
+    {
+      "code": "sguardo-direzione",
+      "slideAlias": "composizione-gerarchia-sguardo",
+      "source": "progetti/slide/assets/slide-materials/composizione/headroom/ritratto-annotato.svg",
+      "nativeSource": "progetti/slide/assets/slide-materials/composizione/headroom/ritratto-annotato.typ",
+      "inputs": [
+        "progetti/slide/assets/slide-materials/composizione/headroom/ritratto-originale.png",
+        "progetti/slide/assets/slide-materials/composizione/headroom/prompt.txt",
+        "progetti/slide/assets/slide-materials/composizione/headroom/manifest.json",
+        "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+        "risorse-condivise/font/editoriali/dm-sans-licenza.txt"
+      ],
+      "caption": "Looking room: spazio orizzontale davanti al volto. Headroom: distanza verticale fra la sommità della testa e il bordo superiore dell’inquadratura.",
+      "rights": "CVeDI, 2026. Ritratto generato con IA; annotazioni didattiche.",
+      "alt": "Ritratto in bianco e nero, con la testa intera rivolta a sinistra. Una misura orizzontale indica lo spazio davanti al naso; una misura verticale sopra i capelli indica la distanza dal bordo superiore.",
+      "reference": {
+        "title": "DIY·DOCO · Camera · Framing",
+        "publisher": "Film Australia / National Film and Sound Archive of Australia",
+        "url": "https://www.nfsa.gov.au/sites/default/files/2023-03/eds_cam_framing.pdf"
+      }
+    }
+  ]
+}

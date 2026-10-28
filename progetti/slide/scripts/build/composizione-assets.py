@@ -8,12 +8,17 @@ from pathlib import Path
 import base64
 import hashlib
 import json
+import os
 import re
 import shutil
 import subprocess
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[4]
+local_typst = ROOT / 'progetti/booklet/.venv/bin/typst'
+TYPST = os.environ.get('BOOKLET_TYPST') or (str(local_typst) if local_typst.is_file() else shutil.which('typst'))
+if not TYPST:
+    raise RuntimeError('Typst compiler not available')
 BASE = ROOT / 'progetti/slide/assets/booklet/lezione-composizione'
 OUT = ROOT / 'risorse-condivise/immagini/figure/composizione-slidev'
 SOURCE = 'progetti/booklet/capitoli/08-composizione-gerarchia.typ'
@@ -22,6 +27,8 @@ chapter = (ROOT / SOURCE).read_text()
 OUT.mkdir(parents=True, exist_ok=True)
 DIAGRAMS.mkdir(parents=True, exist_ok=True)
 records = {}
+previous_manifest_file = BASE / 'image-manifest.json'
+previous_images = json.loads(previous_manifest_file.read_text()).get('images', []) if previous_manifest_file.exists() else []
 
 
 def sha(file):
@@ -32,9 +39,9 @@ def plain(text):
     return re.sub(r'\s+', ' ', re.sub(r'@comp\w+', '', text.replace('_', ''))).strip()
 
 
-def register(code, source, caption, rights, alt, origin=SOURCE):
+def register(code, source, caption, rights, alt, origin=SOURCE, filename=None):
     source = Path(source)
-    target = OUT / (code + source.suffix)
+    target = OUT / (filename or (code + source.suffix))
     if source.resolve() != target.resolve():
         shutil.copyfile(source, target)
     records[code] = dict(code=code, source=str(source.relative_to(ROOT)),
@@ -83,8 +90,8 @@ for code, (expression, width, caption, alt) in native.items():
         '#set text(font: "DM Sans 9pt", size: 10pt, weight: 400, variations: (opsz: 18))\n'
         '#set par(justify: false, leading: 2pt, spacing: 7pt)\n#' + expression + '\n')
     target = OUT / (code + '.svg')
-    subprocess.run(['typst', 'compile', '--ignore-system-fonts', '--root', str(ROOT), '--font-path',
-        str(ROOT / 'risorse-condivise/font/editoriali'), str(entry), str(target)], check=True)
+    subprocess.run([TYPST, 'compile', '--ignore-system-fonts', '--root', str(ROOT), '--font-path',
+        'risorse-condivise/font/editoriali', str(entry), str(target)], check=True)
     register(code, target, caption, 'CVeDI, 2026. Diagramma simulato.', alt)
     if code == 'ibm-pittogrammi': records[code]['rights'] = '© IBM. Esempi della documentazione ufficiale.'
     records[code]['nativeSource'] = str(entry.relative_to(ROOT))
@@ -124,8 +131,8 @@ for code, function, next_marker, width in [
         '#set par(justify: false, leading: 2pt, spacing: 7pt)\n'
         + definition + '\n#' + function + '()\n')
     target = OUT / (code + '.svg')
-    subprocess.run(['typst', 'compile', '--ignore-system-fonts', '--root', str(ROOT), '--font-path',
-        str(ROOT / 'risorse-condivise/font/editoriali'), str(entry), str(target)], check=True)
+    subprocess.run([TYPST, 'compile', '--ignore-system-fonts', '--root', str(ROOT), '--font-path',
+        'risorse-condivise/font/editoriali', str(entry), str(target)], check=True)
     old = records[code].copy()
     register(code, target, old['caption'], old['rights'], old['alt'])
     records[code]['nativeSource'] = str(entry.relative_to(ROOT))
@@ -153,8 +160,8 @@ controlled.write_text("""#import "/progetti/booklet/assets/diagrams/composition-
   [*b · Gruppo del luogo spostato*#v(6pt)#invitation(106pt)])
 """)
 controlled_svg = OUT / 'invito-variazione.svg'
-subprocess.run(['typst', 'compile', '--ignore-system-fonts', '--root', str(ROOT), '--font-path',
-    str(ROOT / 'risorse-condivise/font/editoriali'), str(controlled), str(controlled_svg)], check=True)
+subprocess.run([TYPST, 'compile', '--ignore-system-fonts', '--root', str(ROOT), '--font-path',
+    'risorse-condivise/font/editoriali', str(controlled), str(controlled_svg)], check=True)
 register('invito-variazione', controlled_svg,
     'Confronto simulato: cambia soltanto la posizione verticale del gruppo del luogo. Testi, caratteri, colori, comando e dimensioni dei pannelli sono identici.',
     'CVeDI, 2026. Sviluppo didattico dell’invito del capitolo 08.',
@@ -163,16 +170,6 @@ records['invito-variazione']['origin'] = 'lesson-diagram'
 records['invito-variazione']['nativeSource'] = str(controlled.relative_to(ROOT))
 records['invito-variazione']['nativeSourceSha256'] = sha(controlled)
 records['invito-variazione']['inputs'] = [dict(file=str(p.relative_to(ROOT)), sha256=sha(p)) for p in [ROOT / 'progetti/booklet/assets/diagrams/composition-examples.typ', ROOT / 'risorse-condivise/font/editoriali/dm-sans-variabile.ttf']]
-# Actual common starting layout, rather than instructions to reconstruct one.
-starter = DIAGRAMS / 'invito-iniziale.typ'
-starter.write_text(controlled.read_text().split('#grid(columns:')[0].replace('width: 542pt', 'width: 262pt') + '#invitation(83pt)\n')
-starter_svg = DIAGRAMS / 'invito-iniziale.svg'
-subprocess.run(['typst', 'compile', '--ignore-system-fonts', '--root', str(ROOT), '--font-path',
-    str(ROOT / 'risorse-condivise/font/editoriali'), str(starter), str(starter_svg)], check=True)
-materials = ROOT / 'progetti/slide/public/materials/composizione'
-materials.mkdir(parents=True, exist_ok=True)
-shutil.copyfile(starter_svg, materials / 'invito-iniziale.svg')
-
 takete = ROOT / 'progetti/booklet/assets/takete-maluma/takete.svg'
 maluma = ROOT / 'progetti/booklet/assets/takete-maluma/maluma.svg'
 composite('takete', embedded(takete, 0, 0, 480, 350) + embedded(maluma, 520, 0, 480, 350), 1000, 350,
@@ -198,7 +195,7 @@ composite('natura', body, 1000, 320, 'Venature di una foglia, petali di un fiore
 entry=DIAGRAMS/'invito-azione.typ'
 entry.write_text('#import "/progetti/booklet/assets/diagrams/composition-examples.typ": *\n#set page(width: 220pt, height: auto, margin: 1pt)\n#set text(font: "DM Sans 9pt", size: 10pt, variations: (opsz: 18))\n#set par(justify: false, leading: 2pt, spacing: 7pt)\n#workshop-invitation(2)\n')
 invito=OUT/'invito-azione.svg'
-subprocess.run(['typst','compile','--ignore-system-fonts','--root',str(ROOT),'--font-path',str(ROOT/'risorse-condivise/font/editoriali'),str(entry),str(invito)],check=True)
+subprocess.run([TYPST,'compile','--ignore-system-fonts','--root',str(ROOT),'--font-path','risorse-condivise/font/editoriali',str(entry),str(invito)],check=True)
 body='<defs><filter id="sfocatura"><feGaussianBlur stdDeviation="3"/></filter></defs>'
 view = [float(value) for value in ET.fromstring(invito.read_text()).attrib['viewBox'].split()]
 scaled_height = 480 * view[3] / view[2]
@@ -207,8 +204,71 @@ body+='<g filter="url(#sfocatura)">'+embedded(invito,540,0,480,scaled_height)+'<
 composite('squint',body,1020,scaled_height,'A sinistra una proposta dell’invito originale; a destra la stessa composizione con sfocatura uniforme. Stessa scala: il confronto riguarda masse e contrasti, non comprensione o percorso degli occhi.',
     'CVeDI, 2026. Diagramma simulato.', 'Una proposta dell’invito e la copia sfocata alla stessa scala, affiancate.',[invito])
 BASE.mkdir(parents=True,exist_ok=True)
+# Lesson-specific corrections keep the chapter and acquired originals intact.
+overrides_file = BASE / 'figure-overrides.json'
+if overrides_file.exists():
+    overrides = json.loads(overrides_file.read_text())
+    if overrides.get('version') != 1 or overrides.get('lesson') != 'composizione-gerarchia':
+        raise ValueError('Invalid composition figure overrides')
+    for correction in overrides['figures']:
+        code = correction['code']
+        previous = records[code].copy()
+        source = ROOT / correction['source']
+        native_source = ROOT / correction['nativeSource']
+        subprocess.run([TYPST, 'compile', '--ignore-system-fonts', '--root', str(ROOT), '--font-path',
+            'risorse-condivise/font/editoriali', str(native_source), str(source)], check=True)
+        register(code, source, correction['caption'], correction['rights'], correction['alt'],
+            origin=str(overrides_file.relative_to(ROOT)))
+        records[code]['origin'] = 'lesson-correction'
+        records[code]['slideAlias'] = correction['slideAlias']
+        records[code]['preservedOriginal'] = previous
+        records[code]['nativeSource'] = str(native_source.relative_to(ROOT))
+        records[code]['nativeSourceSha256'] = sha(native_source)
+        records[code]['inputs'] = [dict(file=file, sha256=sha(ROOT / file)) for file in correction['inputs']]
+# Original lesson examples have their own provenance, separate from the chapter.
+lesson_figures_file = BASE / 'lesson-figures.json'
+if lesson_figures_file.exists():
+    lesson_figures = json.loads(lesson_figures_file.read_text())
+    if lesson_figures.get('version') != 1 or lesson_figures.get('lesson') != 'composizione-gerarchia':
+        raise ValueError('Invalid composition lesson figures')
+    for figure in lesson_figures['images']:
+        code = figure['code']
+        if code in records:
+            raise ValueError('Lesson figure would replace a chapter figure: ' + code)
+        register(code, ROOT / figure['source'], figure['caption'], figure['rights'], figure['alt'],
+            origin=str(lesson_figures_file.relative_to(ROOT)),
+            filename=code + '-' + sha(ROOT / figure['source'])[:12] + Path(figure['source']).suffix)
+        records[code]['origin'] = figure['origin']
+        records[code]['slideAlias'] = figure['slideAlias']
+        records[code]['inputs'] = [dict(file=file, sha256=sha(ROOT / file)) for file in figure['inputs']]
 bibliography = 'progetti/booklet/bibliografia/08-composizione-gerarchia.yml'
-references = json.loads(subprocess.run(['typst', 'eval', '--root', str(ROOT), f'yaml("{bibliography}")'], cwd=ROOT, check=True, capture_output=True, text=True).stdout)
+references = json.loads(subprocess.run([TYPST, 'eval', '--root', str(ROOT), f'yaml("{bibliography}")'], cwd=ROOT, check=True, capture_output=True, text=True).stdout)
 (BASE/'references.json').write_text(json.dumps(dict(source=bibliography, sourceSha256=sha(ROOT/bibliography), publications=references), ensure_ascii=False, indent=2)+'\n')
-(BASE/'image-manifest.json').write_text(json.dumps(dict(version=1,sourceFile=SOURCE,images=list(records.values()), materials=[dict(file=str((materials/'invito-iniziale.svg').relative_to(ROOT)), sha256=sha(materials/'invito-iniziale.svg'), nativeSource=str(starter.relative_to(ROOT)), nativeSourceSha256=sha(starter))]),ensure_ascii=False,indent=2)+'\n')
-print(f'Composition: {len(records)} source and native figures prepared.')
+# Publish only active figures and their required intermediate inputs.
+plan = json.loads((BASE / 'content-plan.json').read_text())
+active_codes = {code for slide in plan['slides'] for code in slide['figures']}
+active = [image for code, image in records.items() if code in active_codes]
+required = {ROOT / image['source'] for image in active}
+required.update(ROOT / entry['file'] for image in active for entry in image.get('inputs', []))
+retained = required | {ROOT / image['file'] for image in active}
+for previous in previous_images:
+    target = ROOT / previous['file']
+    if target.parent == OUT and target not in retained and previous['file'] != previous['source']:
+        target.unlink(missing_ok=True)
+archived = []
+for code, image in records.items():
+    if code not in active_codes:
+        target = ROOT / image['file']
+        if target not in required and image['file'] != image['source']:
+            target.unlink(missing_ok=True)
+        archived.append(dict(image, fileRemoved=not target.exists()))
+for image in active:
+    previous = image.get('preservedOriginal')
+    if previous and previous['file'] != previous['source']:
+        target = ROOT / previous['file']
+        if target not in required:
+            target.unlink(missing_ok=True)
+            previous['fileRemoved'] = True
+(BASE/'image-manifest.json').write_text(json.dumps(dict(version=1, sourceFile=SOURCE,
+    images=active, archivedImages=archived, materials=[]), ensure_ascii=False, indent=2)+'\n')
+print(f'Composition: {len(active)} active figures prepared; {len(archived)} inactive web copies excluded.')

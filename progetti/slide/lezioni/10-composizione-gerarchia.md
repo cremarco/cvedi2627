@@ -8,6 +8,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/01-composizione-gerarchia-4e52f3ae2f04.mp3"
 bookletFigures: []
 lessonNumber: 10
 ---
@@ -19,7 +20,7 @@ lessonNumber: 10
 <!--
 [calm, matter-of-fact delivery]Una griglia regolare, un carattere leggibile e colori coerenti sono un buon punto di partenza.[pause] Resta però una domanda: la persona capisce che cosa sta guardando e trova quello che le serve?[pause] Questa lezione riguarda il rapporto fra le parti di una composizione e il messaggio che rendono disponibile.[pause]
 
-Partiremo da un invito a un laboratorio e torneremo più volte sullo stesso contenuto.[pause] Lo confronteremo con immagini, manifesti, scene di film e interfacce.[short pause] Il nostro criterio sarà sempre concreto: quale relazione vogliamo rendere riconoscibile, per chi e in quale situazione?[pause] Alla fine produrremo una variazione e una piccola prova con un compito.[pause]
+Partiremo da un invito a un laboratorio e torneremo più volte sullo stesso contenuto.[pause] Lo confronteremo con immagini, manifesti, scene di film e interfacce.[short pause] Il nostro criterio sarà sempre concreto: quale relazione vogliamo rendere riconoscibile, per chi e in quale situazione?[pause] Vedremo come confrontare una versione iniziale con una variazione e come formulare una prova con un compito.[pause]
 -->
 
 ---
@@ -32,6 +33,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-sintesi"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/02-composizione-gerarchia-sintesi-43583f3c659f.mp3"
 bookletFigures: []
 summaryStatement: "La composizione rende riconoscibili relazioni e priorità."
 summarySupport: "Immagini, parole e spazio collaborano con il compito del lettore."
@@ -59,6 +61,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-obiettivi"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/03-composizione-gerarchia-obiettivi-79b848025c1b.mp3"
 bookletFigures: []
 ---
 
@@ -84,6 +87,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-domanda-lettore"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/04-composizione-gerarchia-domanda-lettore-5415133f4064.mp3"
 bookletFigures: []
 ---
 
@@ -109,6 +113,7 @@ lessonMinutes: 1.5
 routeAlias: "composizione-gerarchia-invito"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/05-composizione-gerarchia-invito-2ca00673c021.mp3"
 bookletFigures: ["invito"]
 ---
 
@@ -134,6 +139,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-differenze"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/06-composizione-gerarchia-differenze-4a6cabfb0268.mp3"
 bookletFigures: []
 ---
 
@@ -159,6 +165,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-forme"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/07-composizione-gerarchia-forme-a693bdfed956.mp3"
 bookletFigures: ["quadrato","cerchio"]
 ---
 
@@ -184,6 +191,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-orientamento"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/08-composizione-gerarchia-orientamento-d6c254da13b2.mp3"
 bookletFigures: ["triangolo","esagono"]
 ---
 
@@ -209,6 +217,7 @@ lessonMinutes: 1.5
 routeAlias: "composizione-gerarchia-suoni-forme"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/09-composizione-gerarchia-suoni-forme-43dd41221621.mp3"
 bookletFigures: ["takete"]
 ---
 
@@ -234,6 +243,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-natura-texture"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/10-composizione-gerarchia-natura-texture-5f5ff2fbb480.mp3"
 bookletFigures: ["natura"]
 ---
 
@@ -259,6 +269,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-colore-atmosfera"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/11-composizione-gerarchia-colore-atmosfera-36db26ce0105.mp3"
 bookletFigures: ["paesaggio-xilografia"]
 ---
 
@@ -284,6 +295,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-funzione-immagine"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/12-composizione-gerarchia-funzione-immagine-5420cf1a0b62.mp3"
 bookletFigures: []
 ---
 
@@ -309,6 +321,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-evocare"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/13-composizione-gerarchia-evocare-e8cbc62061d0.mp3"
 bookletFigures: ["funzioni-immagini"]
 ---
 
@@ -334,6 +347,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-descrivere"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/14-composizione-gerarchia-descrivere-a1eaad544577.mp3"
 bookletFigures: ["funzione-descrittiva"]
 ---
 
@@ -359,6 +373,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-sintetizzare"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/15-composizione-gerarchia-sintetizzare-dee555da33a0.mp3"
 bookletFigures: ["funzione-sintetica"]
 ---
 
@@ -384,6 +399,7 @@ lessonMinutes: 1.5
 routeAlias: "composizione-gerarchia-fotografia-illustrazione"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/16-composizione-gerarchia-fotografia-illustrazione-703b5b22a429.mp3"
 bookletFigures: ["allbirds-headspace","headspace"]
 ---
 
@@ -409,6 +425,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-contesto"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/17-composizione-gerarchia-contesto-fee5549f5fd5.mp3"
 bookletFigures: ["doisneau-widener","widener"]
 ---
 
@@ -434,6 +451,7 @@ lessonMinutes: 1.5
 routeAlias: "composizione-gerarchia-metafora"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/18-composizione-gerarchia-metafora-33be8a09ecdd.mp3"
 bookletFigures: ["metafore"]
 ---
 
@@ -459,6 +477,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-icone"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/19-composizione-gerarchia-icone-942729a405f0.mp3"
 bookletFigures: ["ibm-pittogrammi"]
 ---
 
@@ -484,6 +503,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-forma-racconto"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/20-composizione-gerarchia-forma-racconto-4c928b267c85.mp3"
 bookletFigures: ["up"]
 ---
 
@@ -509,6 +529,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-inquadrare"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/21-composizione-gerarchia-inquadrare-580e5960e398.mp3"
 bookletFigures: ["sguardo-spazio"]
 ---
 
@@ -534,19 +555,20 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-sguardo"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/22-composizione-gerarchia-sguardo-4caf60164383.mp3"
 bookletFigures: ["sguardo-direzione"]
 ---
 
 # Lasciare spazio a una direzione
 
-<div class="lesson-columns"><div><p class="lead">La posizione del soggetto mette in relazione volto e ambiente.</p><ul class="cvedi-list"><li><span>Looking room: spazio nella direzione dello sguardo.</span></li><li><span>Headroom: spazio sopra la testa.</span></li></ul></div><LessonFigure src="/images/shared/figure/composizione-slidev/sguardo-direzione.jpeg" alt="Ritratto in bianco e nero di una persona di profilo rivolta verso una finestra a sinistra. Le linee indicano lo spazio davanti al volto; l’etichetta headroom è collocata lateralmente anziché sopra la testa." caption="Spazio e direzione dello sguardo nel ritratto. Looking room indica lo spazio davanti al volto; l’etichetta headroom è collocata lateralmente, ma il termine indica lo spazio sopra la testa. Le annotazioni sono conservate nel documento." /></div>
+<div class="lesson-columns"><div><p class="lead">Lo spazio davanti al volto e sopra la testa svolge due funzioni diverse.</p><ul class="cvedi-list"><li><span>Looking room: spazio orizzontale nella direzione dello sguardo.</span></li><li><span>Headroom: distanza verticale fra la sommità della testa e il bordo superiore.</span></li></ul></div><LessonFigure src="/images/shared/figure/composizione-slidev/sguardo-direzione.svg" alt="Ritratto in bianco e nero, con la testa intera rivolta a sinistra. Una misura orizzontale indica lo spazio davanti al naso; una misura verticale sopra i capelli indica la distanza dal bordo superiore." caption="Looking room: spazio orizzontale davanti al volto. Headroom: distanza verticale fra la sommità della testa e il bordo superiore dell’inquadratura. CVeDI, 2026. Ritratto generato con IA; annotazioni didattiche." /></div>
 
 <!--
-[calm, matter-of-fact delivery]Nel ritratto il volto è rivolto verso la finestra.[pause] Lo spazio lasciato davanti al soggetto rende percepibile una direzione: è ciò che viene chiamato looking room.[pause] Headroom indica invece lo spazio fra la testa e il bordo superiore.[pause]
+[calm, matter-of-fact delivery]In questo ritratto la persona guarda verso sinistra.[pause] La misura orizzontale indica lo spazio lasciato davanti al volto: è la looking room.[pause] La misura verticale, invece, parte dalla sommità dei capelli e arriva al bordo superiore dell'inquadratura: è la headroom.[pause]
 
-L'originale conserva un'etichetta headroom collocata lateralmente.[pause] Conserviamo l'immagine originale e precisiamo nella didascalia che headroom indica lo spazio sopra la testa, anche se qui l'etichetta compare di lato.[short pause] Distinguiamo dunque la posizione dell'annotazione dal significato del termine.[pause]
+La testa è interamente visibile, perciò possiamo distinguere i due spazi senza ambiguità.[short pause] Lo spazio laterale dietro la testa non è headroom.[pause] La quantità di spazio dipende dal taglio e dall'effetto cercato; non esiste una misura unica valida per tutti i ritratti.[pause]
 
-In una pagina un volto rivolto al testo può suggerire una relazione fra figura e parole.[pause] Rivolgerlo verso l'esterno cambia la composizione.[pause] Non possiamo dedurre da questo il percorso effettivo degli occhi del lettore.[pause] Possiamo formulare un'ipotesi di collegamento e verificarla nella pagina completa.[short pause] Quando scegliamo il ritaglio, manteniamo il contesto necessario a leggere quella direzione e controlliamo anche ciò che resta visibile nel formato stretto.[pause]
+In una pagina, orientare il volto verso un testo può suggerire una relazione fra immagine e parole.[pause] È un'ipotesi compositiva, non la prova del percorso degli occhi del lettore.[pause] Quando adattiamo il ritaglio a uno schermo stretto, controlliamo di nuovo la direzione dello sguardo e ciò che rimane sopra la testa.[pause]
 -->
 
 ---
@@ -559,6 +581,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-taglio"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/23-composizione-gerarchia-taglio-0b67448e362e.mp3"
 bookletFigures: []
 ---
 
@@ -584,6 +607,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-testo-immagine"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/24-composizione-gerarchia-testo-immagine-042a37ad5c7a.mp3"
 bookletFigures: []
 ---
 
@@ -609,6 +633,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-pieno-vuoto"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/25-composizione-gerarchia-pieno-vuoto-788f9367787b.mp3"
 bookletFigures: ["pieno-vuoto","spartan-golf"]
 ---
 
@@ -634,6 +659,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-scala"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/26-composizione-gerarchia-scala-e5b3ca70b5c1.mp3"
 bookletFigures: ["julius-caesar"]
 ---
 
@@ -659,6 +685,7 @@ lessonMinutes: 1.5
 routeAlias: "composizione-gerarchia-contrasto"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/27-composizione-gerarchia-contrasto-c1c48b7698c1.mp3"
 bookletFigures: ["barbie-dune","dune"]
 ---
 
@@ -684,6 +711,7 @@ lessonMinutes: 1.5
 routeAlias: "composizione-gerarchia-gerarchia-tipografica"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/28-composizione-gerarchia-gerarchia-tipografica-d59ee2825255.mp3"
 bookletFigures: ["moma-tipografia"]
 ---
 
@@ -709,6 +737,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-prossimita"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/29-composizione-gerarchia-prossimita-eedf8e2a0cbe.mp3"
 bookletFigures: []
 ---
 
@@ -734,6 +763,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-riconoscimento"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/30-composizione-gerarchia-riconoscimento-358f175b4539.mp3"
 bookletFigures: ["pareidolia-legno"]
 ---
 
@@ -759,6 +789,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-spazio-messaggio"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/31-composizione-gerarchia-spazio-messaggio-7f06bc793c20.mp3"
 bookletFigures: ["melbourne"]
 ---
 
@@ -784,6 +815,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-allineamento"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/32-composizione-gerarchia-allineamento-375c908c433c.mp3"
 bookletFigures: ["adidas"]
 ---
 
@@ -809,6 +841,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-centro-dispari"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/33-composizione-gerarchia-centro-dispari-656cc73cec99.mp3"
 bookletFigures: ["haagen-dazs"]
 ---
 
@@ -834,6 +867,7 @@ lessonMinutes: 1.5
 routeAlias: "composizione-gerarchia-equilibrio"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/34-composizione-gerarchia-equilibrio-9b0887a2bc01.mp3"
 bookletFigures: ["equilibrio"]
 ---
 
@@ -859,6 +893,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-ritmo"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/35-composizione-gerarchia-ritmo-5f276896f12a.mp3"
 bookletFigures: ["cocacola"]
 ---
 
@@ -884,6 +919,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-direzioni"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/36-composizione-gerarchia-direzioni-8caeb5c024d2.mp3"
 bookletFigures: ["linee-direzione"]
 ---
 
@@ -909,6 +945,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-griglia-variazione"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/37-composizione-gerarchia-griglia-variazione-5ad4db7c084d.mp3"
 bookletFigures: ["triennale"]
 ---
 
@@ -934,6 +971,7 @@ lessonMinutes: 1.5
 routeAlias: "composizione-gerarchia-scher"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/38-composizione-gerarchia-scher-e6acac0cf3f7.mp3"
 bookletFigures: ["manifesto-modulare","manifesto-denso"]
 ---
 
@@ -959,6 +997,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-profondita"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/39-composizione-gerarchia-profondita-ac9f499d54b0.mp3"
 bookletFigures: ["prospettiva-tipografica"]
 ---
 
@@ -984,6 +1023,7 @@ lessonMinutes: 1.5
 routeAlias: "composizione-gerarchia-salienza"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/40-composizione-gerarchia-salienza-4567079751f8.mp3"
 bookletFigures: ["salienza"]
 ---
 
@@ -1009,6 +1049,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-attenzione-compito"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/41-composizione-gerarchia-attenzione-compito-e0e0f8b45257.mp3"
 bookletFigures: []
 ---
 
@@ -1034,6 +1075,7 @@ lessonMinutes: 1.5
 routeAlias: "composizione-gerarchia-azioni"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/42-composizione-gerarchia-azioni-45f5fcaaf0ac.mp3"
 bookletFigures: ["priorita"]
 ---
 
@@ -1059,6 +1101,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-tre-passaggi"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/43-composizione-gerarchia-tre-passaggi-d838825030e4.mp3"
 bookletFigures: []
 ---
 
@@ -1084,6 +1127,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-scelta"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/44-composizione-gerarchia-scelta-3981232e0863.mp3"
 bookletFigures: []
 ---
 
@@ -1109,6 +1153,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-bersaglio"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/45-composizione-gerarchia-bersaglio-b4c0fd10a5cb.mp3"
 bookletFigures: []
 ---
 
@@ -1134,6 +1179,7 @@ lessonMinutes: 1.5
 routeAlias: "composizione-gerarchia-schema-z"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/46-composizione-gerarchia-schema-z-a05f26f8b0ee.mp3"
 bookletFigures: ["aesop-percorso"]
 ---
 
@@ -1159,6 +1205,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-scansione-f"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/47-composizione-gerarchia-scansione-f-26e1ab2e30e0.mp3"
 bookletFigures: []
 ---
 
@@ -1184,6 +1231,7 @@ lessonMinutes: 1
 routeAlias: "composizione-gerarchia-schemi-evidenze"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/48-composizione-gerarchia-schemi-evidenze-ad02ce9f593c.mp3"
 bookletFigures: ["diesel-contrasto","diesel-seconda"]
 ---
 
@@ -1192,11 +1240,11 @@ bookletFigures: ["diesel-contrasto","diesel-seconda"]
 <div class="lesson-columns"><LessonFigure src="/images/shared/figure/composizione-slidev/diesel-contrasto.png" alt="Campagna Diesel: contrasto fra testo, immagine e sfondo nella composizione." caption="Campagna Diesel: contrasto fra testo, immagine e sfondo nella composizione. © Diesel." /><LessonFigure src="/images/shared/figure/composizione-slidev/diesel-seconda.png" alt="Campagna Diesel: un altro esempio del contrasto fra testo, immagine e sfondo." caption="Campagna Diesel: un altro esempio del contrasto fra testo, immagine e sfondo. © Diesel." /></div>
 
 <!--
-[calm, matter-of-fact delivery]Nelle composizioni Diesel provate a individuare prima il testo, poi la situazione rappresentata.[short pause] In un caso vediamo una figura con un attrezzo, nell'altro un razzo; le parole mettono quei soggetti in relazione con il messaggio della campagna.[pause] Possiamo descrivere posizione, scala e contrasto e discutere il legame fra scritta e scena.[pause]
+[calm, matter-of-fact delivery]Nelle composizioni Diesel provate a individuare prima il testo, poi la situazione rappresentata.[short pause] Nel primo annuncio una persona ha le gambe sollevate sopra una cassetta postale; nel secondo una persona indossa un cono stradale sulla testa. Le parole mettono queste scene insolite in relazione con il messaggio della campagna.[pause] Possiamo descrivere posizione, scala e contrasto e discutere il legame fra scritta e scena.[pause]
 
 Che cosa servirebbe invece per sapere dove ha guardato una persona?[short pause] Una registrazione pertinente del comportamento, insieme al compito e alle condizioni della prova.[pause] Le immagini della campagna non sono mappe oculari e non documentano il pattern a effe.[pause] Questa distinzione evita di trasformare una lettura compositiva in una misurazione.[pause]
 
-È il passaggio che ci interessa prima delle analisi successive.[short pause] Possiamo motivare una scelta dicendo quale relazione propone; per valutarne l'uso dobbiamo osservare una persona che svolge un compito.[pause] Nei videogiochi incontriamo ora un'ulteriore condizione: l'informazione deve restare consultabile mentre la scena cambia.
+È il passaggio che ci interessa prima delle analisi successive.[short pause] Possiamo motivare una scelta dicendo quale relazione propone; per valutarne l'uso dobbiamo osservare una persona che svolge un compito.[pause] Passiamo ora a una lettura guidata del Cenacolo, collegando posizione, direzioni e racconto.
 -->
 
 ---
@@ -1206,59 +1254,10 @@ footer: "Composizione e gerarchia visiva"
 lesson: "composizione-gerarchia"
 lessonSlide: 49
 lessonMinutes: 1.5
-routeAlias: "composizione-gerarchia-hud"
-bookletChapter: 8
-bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
-bookletFigures: ["hud-fortnite"]
----
-
-# Informazioni attorno all’azione
-
-<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Fortnite: indicatori distribuiti nella versione storica documentata.</p></div><LessonFigure src="/images/shared/figure/composizione-slidev/hud-fortnite.jpg" alt="Schermata di Fortnite con mirino centrale, salute in basso, equipaggiamento a destra e mappa nell’angolo superiore destro; riquadri rossi numerati evidenziano gli elementi dell’HUD." caption="Fortnite, HUD in una versione storica per PC. Salute, equipaggiamento e mappa occupano zone distinte attorno alla scena. I riquadri rossi e i numeri sono annotazioni già presenti nella riproduzione. © Epic Games." /></div>
-
-<!--
-[calm, matter-of-fact delivery]Lo schermo di Fortnite introduce una condizione diversa: la scena cambia mentre il giocatore consulta gli indicatori.[pause] Nella versione storica per computer mostrata, salute ed equipaggiamento occupano la fascia inferiore, mentre la mappa è in alto a destra.[pause] Il centro resta disponibile per l'azione e il mirino.[pause]
-
-I riquadri rossi e i numeri sono annotazioni già presenti nella riproduzione.[pause] Possiamo usare questa distribuzione per discutere quali dati servano nei diversi momenti.[short pause] Celia Hodent collega la visibilità delle informazioni anche alla possibilità di ridurre ciò che il giocatore deve ricordare.[pause]
-
-Non trasformiamo la disposizione in una soluzione obbligatoria per ogni gioco o schermo.[pause] Il compito e la scena stabiliscono i vincoli.[pause] L'esempio amplia la domanda che facevamo per Sara: quali informazioni devono restare consultabili durante l'azione e quali elementi potrebbero interferire?[pause] La composizione deve coordinare dati e contesto senza coprire ciò che permette di agire.[short pause]
--->
-
----
-layout: "default"
-class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
-footer: "Composizione e gerarchia visiva"
-lesson: "composizione-gerarchia"
-lessonSlide: 50
-lessonMinutes: 1
-routeAlias: "composizione-gerarchia-diegesi"
-bookletChapter: 8
-bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
-bookletFigures: ["dead-space"]
----
-
-# Gli indicatori possono appartenere al mondo
-
-<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Dead Space: salute sulla tuta e munizioni presso l’arma.</p></div><LessonFigure src="/images/shared/figure/composizione-slidev/dead-space.png" alt="Isaac visto di spalle in Dead Space: una fascia luminosa segue il dorso della tuta e un contatore azzurro compare presso l’arma." caption="Dead Space, 2008: la fascia luminosa sul dorso della tuta indica la salute; il contatore delle munizioni è associato all’arma. © Electronic Arts." /></div>
-
-<!--
-[calm, matter-of-fact delivery]In Dead Space la fascia luminosa sul dorso della tuta indica la salute e il contatore presso l'arma mostra le munizioni.[pause] Gli indicatori sono integrati nella scena, con un rapporto differente rispetto a quelli disposti sul piano dello schermo.[pause]
-
-Un elemento è diegetico se fa parte del mondo del gioco, come il contatore delle munizioni sull'arma.[pause] È non diegetico se è mostrato al giocatore ma non esiste per i personaggi, come una barra della salute sovrapposta allo schermo.[pause] Un secondo criterio riguarda la collocazione nello spazio del gioco o sullo schermo.[pause] Fagerholt e Lorentzon esaminano insieme questi aspetti: il fatto che un dato descriva lo stato del personaggio non basta a renderlo parte del suo mondo.[short pause]
-
-Integrare l'informazione introduce vincoli di scala, contrasto e visibilità al cambiare di luce e inquadratura.[pause] Non garantisce da solo maggiore immersione.[pause] Anche qui la composizione va valutata rispetto al compito.[pause] Confrontiamo il bisogno di consultare lo stato e la possibilità di farlo nelle condizioni reali della scena, conservando le differenze fra una schermata documentata e l'esperienza nel tempo.[pause]
--->
-
----
-layout: "default"
-class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
-footer: "Composizione e gerarchia visiva"
-lesson: "composizione-gerarchia"
-lessonSlide: 51
-lessonMinutes: 1.5
 routeAlias: "composizione-gerarchia-cenacolo"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/51-composizione-gerarchia-cenacolo-bbff933edd97.mp3"
 bookletFigures: ["cenacolo"]
 ---
 
@@ -1279,11 +1278,12 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
 footer: "Composizione e gerarchia visiva"
 lesson: "composizione-gerarchia"
-lessonSlide: 52
+lessonSlide: 50
 lessonMinutes: 1
 routeAlias: "composizione-gerarchia-budapest-centro"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/52-composizione-gerarchia-budapest-centro-384ef141a2ed.mp3"
 bookletFigures: ["budapest"]
 ---
 
@@ -1304,11 +1304,12 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
 footer: "Composizione e gerarchia visiva"
 lesson: "composizione-gerarchia"
-lessonSlide: 53
+lessonSlide: 51
 lessonMinutes: 1
 routeAlias: "composizione-gerarchia-cornice"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/53-composizione-gerarchia-cornice-b7ab7f22e951.mp3"
 bookletFigures: ["budapest-cornice"]
 ---
 
@@ -1329,11 +1330,12 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
 footer: "Composizione e gerarchia visiva"
 lesson: "composizione-gerarchia"
-lessonSlide: 54
+lessonSlide: 52
 lessonMinutes: 1
 routeAlias: "composizione-gerarchia-formato"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/54-composizione-gerarchia-formato-9d2f40e4b473.mp3"
 bookletFigures: ["budapest-spazio"]
 ---
 
@@ -1354,11 +1356,12 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide"
 footer: "Composizione e gerarchia visiva"
 lesson: "composizione-gerarchia"
-lessonSlide: 55
+lessonSlide: 53
 lessonMinutes: 1
 routeAlias: "composizione-gerarchia-trasferimento"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/55-composizione-gerarchia-trasferimento-140cce029e41.mp3"
 bookletFigures: []
 ---
 
@@ -1379,11 +1382,12 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide"
 footer: "Composizione e gerarchia visiva"
 lesson: "composizione-gerarchia"
-lessonSlide: 56
+lessonSlide: 54
 lessonMinutes: 1
 routeAlias: "composizione-gerarchia-concept"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/56-composizione-gerarchia-concept-deddb1fc3661.mp3"
 bookletFigures: []
 ---
 
@@ -1401,64 +1405,15 @@ Il concept può evolvere quando incontra contenuti e vincoli.[pause] Una campitu
 
 ---
 layout: "default"
-class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
-footer: "Composizione e gerarchia visiva"
-lesson: "composizione-gerarchia"
-lessonSlide: 57
-lessonMinutes: 1
-routeAlias: "composizione-gerarchia-moodboard"
-bookletChapter: 8
-bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
-bookletFigures: ["moodboard-riferimenti"]
----
-
-# Raccogliere una direzione visiva
-
-<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Fotografie e palette rendono confrontabili parole come luminoso.</p></div><LessonFigure src="/images/shared/figure/composizione-slidev/moodboard-riferimenti.jpg" alt="Moodboard con sedute gialle, una persona, una pianta e campioni cromatici gialli e verde-azzurri." caption="Fotografie di ambienti, persone e dettagli accostate a una palette. Osservare come il giallo e i toni verde-azzurri ricorrano fra campioni e soggetti; la tavola propone una direzione visiva, senza definire una pagina." /></div>
-
-<!--
-[calm, matter-of-fact delivery]La moodboard raccoglie riferimenti visivi per discutere una direzione prima di definire il layout.[pause] In questa tavola fotografie di ambienti, persone e dettagli sono accostate a una palette.[pause] Il giallo e i toni verde azzurri ricorrono fra campioni e soggetti.[pause]
-
-Possiamo descrivere quella ricorrenza e chiederci quale atmosfera venga proposta.[pause] La tavola non definisce ancora una pagina.[short pause] Non sappiamo come saranno disposti titolo, contenuto e comandi, né se le informazioni operative saranno facili da trovare.[pause]
-
-Per il laboratorio parole come luminoso o sperimentale possono suggerire immagini diverse a persone diverse.[pause] Una raccolta permette di mettere a confronto queste interpretazioni.[pause] Annotiamo ciò che interessa di ogni riferimento: luce, distanza, texture o contrasto.[pause] Conserviamo anche autore e provenienza.[short pause] La moodboard diventa utile quando rende esplicito che cosa stiamo discutendo, lasciando aperte le decisioni che richiedono ancora contenuti reali e una prova.[pause]
--->
-
----
-layout: "default"
-class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
-footer: "Composizione e gerarchia visiva"
-lesson: "composizione-gerarchia"
-lessonSlide: 58
-lessonMinutes: 1
-routeAlias: "composizione-gerarchia-moodboard-sistema"
-bookletChapter: 8
-bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
-bookletFigures: ["moodboard-sistema"]
----
-
-# Precisare ipotesi su più elementi
-
-<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">CandleScience: texture, tipografia e iconografia accanto alle fotografie.</p></div><LessonFigure src="/images/shared/figure/composizione-slidev/moodboard-sistema.jpg" alt="Tavola parziale CandleScience con fotografie, palette e sezioni di texture, tipografia e iconografia; i campioni tipografici proseguono oltre il bordo inferiore." caption="Ecommerce Moodboard, progetto CandleScience. Colore e texture, tipografia e iconografia affiancano fotografie di prodotti e materiali. Riproduzione parziale: il bordo inferiore interrompe i campioni tipografici. La tavola non documenta il layout finale del negozio. Marchio CandleScience del rispettivo titolare." /></div>
-
-<!--
-[calm, matter-of-fact delivery]La tavola di CandleScience affianca fotografie di prodotti e materiali a sezioni di colore, texture, tipografia e iconografia.[pause] Rispetto alla raccolta precedente precisa un insieme più articolato di riferimenti per il sistema visivo.[pause]
-
-La riproduzione è già parziale nella fonte: il bordo inferiore interrompe i campioni tipografici.[pause] Manteniamo questo limite nella didascalia e non ricostruiamo ciò che non è disponibile.[pause] La tavola non documenta il layout finale del negozio e non basta a dimostrare l'intero processo con cui il prodotto è stato progettato.[short pause]
-
-Nel nostro lavoro possiamo separare direzioni diverse in tavole distinte e annotare quali proprietà vogliamo provare.[pause] Non serve mescolare tutto in un'unica raccolta sempre più ampia.[pause] La domanda è quale relazione fra forme, immagini e parole aiuti l'idea guida.[pause] Il passo successivo sarà tradurre un riferimento in una scelta concreta, poi stabilire come osservare se sostiene il compito del lettore.[pause]
--->
-
----
-layout: "default"
 class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide"
 footer: "Composizione e gerarchia visiva"
 lesson: "composizione-gerarchia"
-lessonSlide: 59
+lessonSlide: 55
 lessonMinutes: 1
 routeAlias: "composizione-gerarchia-riferimento-scelta-verifica"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/59-composizione-gerarchia-riferimento-scelta-verifica-3777f824813f.mp3"
 bookletFigures: []
 ---
 
@@ -1479,11 +1434,12 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
 footer: "Composizione e gerarchia visiva"
 lesson: "composizione-gerarchia"
-lessonSlide: 60
+lessonSlide: 56
 lessonMinutes: 1
 routeAlias: "composizione-gerarchia-variazione"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/56-composizione-gerarchia-variazione-f914857454ba.mp3"
 bookletFigures: ["invito-variazione"]
 ---
 
@@ -1496,7 +1452,7 @@ bookletFigures: ["invito-variazione"]
 
 Guardate l'intervallo fra l'orario e il luogo.[short pause] Nella versione iniziale è simile agli intervalli interni dei dati; nella seconda la separazione è più ampia.[pause] Possiamo così formulare un'ipotesi circoscritta: quella distanza dovrebbe rendere più distinguibili le informazioni su quando e dove partecipare.[pause] Lo spostamento cambia anche lo spazio rimasto prima dell'iscrizione: osserviamolo nel campo completo.[pause]
 
-Conservare entrambe le versioni permette di discutere l'effetto senza attribuirlo a una nuova palette o a testi riscritti.[short pause] Questa è la logica della prima attività.[pause] Scegliete una relazione, dichiarate che cosa cambia e confrontate il risultato con un compito.[pause] Prima della prova possiamo ancora controllare i pesi complessivi.
+Conservare entrambe le versioni permette di discutere l'effetto senza attribuirlo a una nuova palette o a testi riscritti.[short pause] Questa è la logica di un confronto controllato.[pause] Scegliete una relazione, dichiarate che cosa cambia e confrontate il risultato con un compito.[pause] Prima della prova possiamo ancora controllare i pesi complessivi.
 -->
 
 ---
@@ -1504,11 +1460,12 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
 footer: "Composizione e gerarchia visiva"
 lesson: "composizione-gerarchia"
-lessonSlide: 61
+lessonSlide: 57
 lessonMinutes: 1.5
 routeAlias: "composizione-gerarchia-squint"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/61-composizione-gerarchia-squint-da6744ecacb5.mp3"
 bookletFigures: ["squint"]
 ---
 
@@ -1529,11 +1486,12 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide"
 footer: "Composizione e gerarchia visiva"
 lesson: "composizione-gerarchia"
-lessonSlide: 62
+lessonSlide: 58
 lessonMinutes: 1
 routeAlias: "composizione-gerarchia-prova-compito"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
+narrationAudio: "/audio/lezione-composizione/62-composizione-gerarchia-prova-compito-e50b17c23083.mp3"
 bookletFigures: []
 ---
 
@@ -1551,77 +1509,28 @@ Anche una risposta corretta va interpretata nelle condizioni della prova.[pause]
 
 ---
 layout: "default"
-class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide"
+class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide figure-slide figure-comparison screenshot-slide"
 footer: "Composizione e gerarchia visiva"
 lesson: "composizione-gerarchia"
-lessonSlide: 63
-lessonMinutes: 1
-routeAlias: "composizione-gerarchia-materiali"
+lessonSlide: 59
+lessonMinutes: 1.5
+routeAlias: "composizione-gerarchia-invito-finale"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
-bookletFigures: []
+narrationAudio: "/audio/lezione-composizione/59-composizione-gerarchia-invito-finale-9a25e9b60944.mp3"
+bookletFigures: ["invito-finale"]
 ---
 
-# Un invito comune per il confronto
+# Mettere insieme le scelte nell’invito finale
 
-<div><p class="lead">Un testo comune, un layout iniziale e una scheda per annotare il confronto.</p><ul class="cvedi-list"><li><span>Sabato 14 novembre · dalle 10 alle 13.</span></li><li><span>Spazio Officina · Via del Parco 8.</span></li><li><span>Iscrizione gratuita · azione: Iscriviti.</span></li></ul><p class="aside">Dati simulati per l’esercizio. <LessonDownload src="/materials/composizione/invito.txt">Scarica testi e scheda</LessonDownload> · <LessonDownload src="/materials/composizione/invito-iniziale.svg">Scarica il layout iniziale</LessonDownload></p></div>
+<LessonFigure src="/images/shared/figure/composizione-slidev/invito-finale-93d85159d5ac.png" alt="Invito al Laboratorio di fotografia, con titolo chiaro su fondo scuro e fotografia di un prisma attraversato dalla luce. Sabato 14 novembre, dalle 10 alle 13, Spazio Officina, Via del Parco 8. Iscrizione gratuita e pulsante verde lime Iscriviti." />
 
 <!--
-[calm, matter-of-fact delivery]Per l'esercitazione useremo tutti lo stesso invito a un laboratorio di fotografia immaginario, dedicato al tema «Sperimentare con la luce».[short pause] Si svolge sabato quattordici novembre, dalle dieci alle tredici, allo Spazio Officina in via del Parco otto.[pause] L'iscrizione è gratuita e il comando è iscriviti.[pause]
+[calm, matter-of-fact delivery]Proviamo ora a riunire le scelte in un invito completo.[pause] I dati del laboratorio sono gli stessi incontrati all’inizio: giorno, orario, luogo e iscrizione.[short pause] La proposta aggiunge una direzione visiva coerente con l’idea di sperimentare con la luce.[pause]
 
-Il primo collegamento permette di scaricare questi testi e la scheda di confronto; il secondo offre il layout iniziale in formato vettoriale.[short pause] Potete usarlo come riferimento o importarlo nello strumento di lavoro.[pause] In questo modo tutte le coppie partono dagli stessi dati e possono conservare una copia iniziale effettiva.[pause]
+Il titolo rende riconoscibile l’attività; la frase più piccola precisa l’idea guida.[pause] La fotografia del prisma e dei riflessi sostiene quel significato e bilancia il campo del testo.[short pause] I dati restano su una zona scura, lontano dalle parti luminose più articolate.[pause] Un allineamento comune collega le righe, mentre gli intervalli distinguono il gruppo del giorno e dell’orario da quello del luogo e dell’indirizzo.[pause]
 
-La scheda chiede di annotare priorità, modifica prevista e osservazione.[short pause] Non occorre riprodurre la soluzione appena mostrata: potete intervenire sulla scala, sullo spazio o sull'enfasi di un elemento, mantenendo le altre scelte.[pause] La prima fase produce due versioni confrontabili; la seconda permette a un'altra coppia di usarle senza conoscere in anticipo le vostre intenzioni.
--->
-
----
-layout: "default"
-class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide lesson-activity"
-footer: "Composizione e gerarchia visiva"
-lesson: "composizione-gerarchia"
-lessonSlide: 64
-lessonMinutes: 8
-routeAlias: "composizione-gerarchia-attivita-variazione"
-bookletChapter: 8
-bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
-bookletFigures: []
----
-
-# Produrre una variazione motivata
-
-<div><p class="lead">In coppia, rendere riconoscibili attività, dati e iscrizione.</p><ul class="cvedi-list"><li><span>Scrivere la priorità e scegliere una relazione da modificare.</span></li><li><span>Conservare contenuti e versione iniziale.</span></li><li><span>Affiancare le due proposte e annotare l’effetto previsto.</span></li></ul><p class="aside">Attività · 8 minuti</p></div>
-
-<!--
-[calm, matter-of-fact delivery]Dedichiamo otto minuti alla prima fase.[short pause] In coppia, aprite il materiale comune e scrivete la domanda a cui l'invito deve rispondere.[pause] Per esempio: posso partecipare e come mi iscrivo?[pause] Scegliete quale informazione o azione volete rendere più riconoscibile, mantenendo disponibili tutti i dati.[pause]
-
-Conservate il layout iniziale e preparate una variazione.[short pause] Intervenite su una relazione: la scala del titolo, la posizione di un gruppo oppure l'enfasi del comando.[pause] Annotate che cosa mantenete e che cosa cambiate, come nel confronto appena analizzato.[pause] Affiancate le due versioni alla stessa dimensione.[pause]
-
-Negli ultimi due minuti scrivete una previsione concreta: quale informazione dovrebbe essere più facile da trovare e quale altra potrebbe diventare meno evidente?[short pause] Questa annotazione preparerà la prova.[pause] Gli otto minuti includono la lettura della consegna e il lavoro; chi consulta autonomamente può sospendere la presentazione.[pause] Alla fine dovrete avere due versioni e una frase che spieghi la modifica.
--->
-
----
-layout: "default"
-class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide lesson-activity"
-footer: "Composizione e gerarchia visiva"
-lesson: "composizione-gerarchia"
-lessonSlide: 65
-lessonMinutes: 7
-routeAlias: "composizione-gerarchia-attivita-verifica"
-bookletChapter: 8
-bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
-bookletFigures: []
----
-
-# Provare con un compito
-
-<div><p class="lead">Scambiare le varianti con un’altra coppia e osservare le risposte.</p><ul class="cvedi-list"><li><span>Chiedere giorno, orario, luogo e modalità di iscrizione.</span></li><li><span>Annotare risposte, esitazioni e associazioni ambigue.</span></li><li><span>Rivedere la proposta alla luce delle osservazioni.</span></li></ul><p class="aside">Attività · 7 minuti</p></div>
-
-<!--
-[calm, matter-of-fact delivery]Nei sette minuti della seconda fase scambiate le proposte con un'altra coppia.[short pause] Chiedete di trovare giorno, orario, luogo e modalità di iscrizione.[pause] Presentate una versione per volta, senza spiegare la soluzione né indicare dove guardare.[pause] Registrate risposte, esitazioni e associazioni ambigue.[pause]
-
-Al primo giro una coppia comincia dalla versione iniziale, l'altra dalla variazione.[short pause] Annotate l'ordine e ricordate che, dopo la prima lettura, i contenuti sono già noti: il secondo tentativo risente della memoria.[pause] È una verifica didattica che raccoglie indizi per la revisione, senza produrre una graduatoria generalizzabile.[pause]
-
-Usate gli ultimi due minuti per confrontare previsione e osservazione.[short pause] Il comando è stato trovato ma interpretato male?[pause] Data e luogo sono stati associati correttamente?[pause] Scegliete una correzione sostenuta da un episodio della prova.[pause] I sette minuti comprendono consegna, scambio e confronto.[pause] Alla ripresa racconteremo una relazione osservata e una decisione, evitando di fermarci alla preferenza estetica.
+Il verde lime dà enfasi all’iscrizione; la gratuità resta vicina all’azione.[pause] Il comando rappresentato fa parte dell’immagine dimostrativa: un invito digitale funzionante richiederebbe anche un collegamento e un controllo accessibile.[pause] Questa composizione propone delle priorità, senza imporre un percorso degli occhi.[short pause] Per valutarla torniamo al compito: capire l’attività, trovare quando e dove si svolge e riconoscere come iscriversi.[pause]
 -->
 
 ---
@@ -1629,57 +1538,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide"
 footer: "Composizione e gerarchia visiva"
 lesson: "composizione-gerarchia"
-lessonSlide: 66
-lessonMinutes: 1
-routeAlias: "composizione-gerarchia-restituzione"
-bookletChapter: 8
-bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
-bookletFigures: []
----
-
-# Dall’osservazione alla revisione
-
-<div><p class="lead">Una proposta migliora quando rende discutibili le proprie scelte.</p><ul class="cvedi-list"><li><span>Quale relazione è emersa?</span></li><li><span>Che cosa ha ostacolato il compito?</span></li><li><span>Quale correzione deriva dall’osservazione?</span></li></ul></div>
-
-<!--
-[calm, matter-of-fact delivery]Riprendiamo il lavoro distinguendo tre elementi: l'ipotesi iniziale, ciò che avete osservato e la correzione che proponete.[pause] Dire che una versione è più bella non permette ancora di capire quale relazione aiuti il compito.[pause]
-
-Una restituzione concreta potrebbe essere questa: volevamo tenere insieme data e orario, ma la distanza dal luogo li faceva sembrare parte dello stesso gruppo.[pause] Abbiamo quindi modificato gli intervalli e mantenuto invariati gli altri trattamenti.[pause] Oppure: il comando era evidente, ma l'etichetta non chiariva se l'iscrizione fosse immediata.[short pause]
-
-Anche un risultato contrario all'ipotesi è utile.[pause] Può segnalare una priorità diversa, un contenuto mancante o una convenzione poco chiara.[pause] Non dobbiamo difendere la scelta perché deriva dalla moodboard o da un principio noto.[pause] Torniamo alla domanda del lettore e manteniamo un registro che colleghi decisioni ed evidenze.[pause] Questo completa il passaggio dalla ricerca alla composizione e dalla composizione a una nuova verifica.[short pause]
--->
-
----
-layout: "default"
-class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide"
-footer: "Composizione e gerarchia visiva"
-lesson: "composizione-gerarchia"
-lessonSlide: 67
-lessonMinutes: 1
-routeAlias: "composizione-gerarchia-chiusura"
-bookletChapter: 8
-bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
-bookletFigures: []
----
-
-# Comporre significa mettere in relazione
-
-<div><p class="lead">Dal compito del lettore a una scelta motivata e verificabile.</p><ul class="cvedi-list"><li><span>Scegliere segni e immagini pertinenti.</span></li><li><span>Costruire priorità senza perdere informazioni.</span></li><li><span>Confrontare le varianti attraverso un compito.</span></li></ul></div>
-
-<!--
-[calm, matter-of-fact delivery]La domanda iniziale era se una persona capisse che cosa stava guardando e trovasse quello che le serviva.[pause] Abbiamo visto che griglia, colore e tipografia sono necessari, ma acquistano una funzione attraverso le relazioni della composizione.[pause]
-
-L'invito ci ha permesso di tenere fermo il contenuto mentre cambiavano gruppi, pesi e azione.[pause] Il caso di Sara ha aggiunto il rapporto fra riconoscimento, scelta e attivazione.[pause] Manifesti, opere, film e videogiochi hanno mostrato quanto contesto e mezzo modifichino il ruolo delle stesse risorse.[short pause]
-
-Portiamo con noi un metodo: formulare il compito, descrivere una relazione, motivare la scelta e stabilire come verificarla.[pause] Una gerarchia propone priorità senza imporre a tutti la stessa sequenza.[pause] La revisione resta aperta alle osservazioni, anche quando contraddicono l'intenzione iniziale.[pause] Le ultime slide raccolgono i riferimenti che permettono di approfondire le distinzioni incontrate e ritrovare le fonti degli esempi.[pause]
--->
-
----
-layout: "default"
-class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide"
-footer: "Composizione e gerarchia visiva"
-lesson: "composizione-gerarchia"
-lessonSlide: 68
+lessonSlide: 60
 lessonMinutes: 1
 routeAlias: "composizione-gerarchia-fonti-1"
 bookletChapter: 8
@@ -1704,7 +1563,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide"
 footer: "Composizione e gerarchia visiva"
 lesson: "composizione-gerarchia"
-lessonSlide: 69
+lessonSlide: 61
 lessonMinutes: 1
 routeAlias: "composizione-gerarchia-fonti-2"
 bookletChapter: 8
@@ -1721,7 +1580,7 @@ bookletFigures: []
 
 Il collegamento sul pattern a effe permette di ritrovare le condizioni di scansione discusse.[short pause] La documentazione IBM completa invece il confronto fra pittogramma illustrativo e icona operativa.[pause] Sono riferimenti di natura diversa, da usare per domande differenti.[pause]
 
-Se volete riprendere il vostro esercizio, formulate prima il problema osservato.[short pause] La persona non trovava il comando, ne interpretava male il significato oppure faticava ad attivarlo?[pause] Questa distinzione orienta la lettura della fonte e la revisione.[pause] Permette anche di evitare una spiegazione unica per difficoltà che richiedono interventi diversi sulla composizione.
+Per applicare questi principi a una composizione, formulate prima il problema osservato.[short pause] La persona non trovava il comando, ne interpretava male il significato oppure faticava ad attivarlo?[pause] Questa distinzione orienta la lettura della fonte e la revisione.[pause] Permette anche di evitare una spiegazione unica per difficoltà che richiedono interventi diversi sulla composizione.
 -->
 
 ---
@@ -1729,7 +1588,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide composizione-slide reading-slide"
 footer: "Composizione e gerarchia visiva"
 lesson: "composizione-gerarchia"
-lessonSlide: 70
+lessonSlide: 62
 lessonMinutes: 1
 routeAlias: "composizione-gerarchia-fonti-3"
 bookletChapter: 8
@@ -1739,12 +1598,12 @@ bookletFigures: []
 
 # Fonti · metodo ed esempi
 
-<ul class="list lesson-references"><li class="list-row"><div><a class="link" href="https://www.nngroup.com/articles/visual-hierarchy-ux-definition/" target="_blank" rel="noreferrer">Gordon (2020; 2021) · Gerarchia visiva</a><p>Priorità e controllo dei pesi; riferimenti completi nel materiale scaricabile.</p></div></li><li class="list-row"><div><a class="link" href="https://www.nngroup.com/articles/mood-boards/" target="_blank" rel="noreferrer">Yang (2023) · Mood boards in UX</a><p>Dai riferimenti alla discussione delle scelte.</p></div></li><li class="list-row"><div><a class="link" href="https://www.w3.org/WAI/tutorials/images/functional/" target="_blank" rel="noreferrer">W3C WAI · Functional Images</a><p>Immagine operativa, azione e alternativa testuale.</p></div></li><li class="list-row"><div><a class="link" href="https://www.criterion.com/films/29601-the-grand-budapest-hotel" target="_blank" rel="noreferrer">Criterion · The Grand Budapest Hotel</a><p>Personaggi, contesto e formati; attribuzioni accanto alle figure.</p></div></li><li class="list-row"><div><a class="link" href="https://celiahodent.com/understanding-the-success-of-fortnite-ux/" target="_blank" rel="noreferrer">Hodent (2019) · Fortnite, UX e psicologia</a><p>Visibilità delle informazioni durante il gioco.</p></div></li><li class="list-row"><div><a class="link" href="https://odr.chalmers.se/server/api/core/bitstreams/fd267f70-c295-4eae-ae01-af5db676e61d/content" target="_blank" rel="noreferrer">Fagerholt e Lorentzon (2009) · Beyond the HUD</a><p>Indicatori, diegesi e collocazione nello spazio.</p></div></li></ul><p class="aside"><LessonDownload src="/materials/composizione/fonti.txt">Riferimenti completi e attribuzioni</LessonDownload></p>
+<ul class="list lesson-references"><li class="list-row"><div><a class="link" href="https://www.nngroup.com/articles/visual-hierarchy-ux-definition/" target="_blank" rel="noreferrer">Gordon (2020; 2021) · Gerarchia visiva</a><p>Priorità visive e controllo dei pesi.</p></div></li><li class="list-row"><div><a class="link" href="https://www.nngroup.com/articles/mood-boards/" target="_blank" rel="noreferrer">Yang (2023) · Mood boards in UX</a><p>Dai riferimenti alla discussione delle scelte.</p></div></li><li class="list-row"><div><a class="link" href="https://www.w3.org/WAI/tutorials/images/functional/" target="_blank" rel="noreferrer">W3C WAI · Functional Images</a><p>Immagine operativa, azione e alternativa testuale.</p></div></li><li class="list-row"><div><a class="link" href="https://www.criterion.com/films/29601-the-grand-budapest-hotel" target="_blank" rel="noreferrer">Criterion · The Grand Budapest Hotel</a><p>Personaggi, contesto e formati; attribuzioni accanto alle figure.</p></div></li><li class="list-row"><div><a class="link" href="https://celiahodent.com/understanding-the-success-of-fortnite-ux/" target="_blank" rel="noreferrer">Hodent (2019) · Fortnite, UX e psicologia</a><p>Visibilità delle informazioni durante il gioco.</p></div></li><li class="list-row"><div><a class="link" href="https://odr.chalmers.se/server/api/core/bitstreams/fd267f70-c295-4eae-ae01-af5db676e61d/content" target="_blank" rel="noreferrer">Fagerholt e Lorentzon (2009) · Beyond the HUD</a><p>Indicatori, diegesi e collocazione nello spazio.</p></div></li></ul>
 
 <!--
-[calm, matter-of-fact delivery]L'ultima raccolta accompagna il passaggio dal riferimento al progetto.[short pause] Le letture su gerarchia e moodboard aiutano a motivare la scelta visiva; le risorse W3C precisano la funzione delle immagini operative e delle alternative testuali.[pause] I riferimenti a cinema e videogiochi riportano al contesto degli esempi analizzati.[pause]
+[calm, matter-of-fact delivery]L'ultima raccolta accompagna il passaggio dal riferimento al progetto.[short pause] Le letture su gerarchia e moodboard aiutano a motivare la scelta visiva; le risorse W3C precisano la funzione delle immagini operative e delle alternative testuali.[pause] I riferimenti al cinema riportano al contesto degli esempi analizzati.[pause]
 
-Nel materiale scaricabile trovate le pubblicazioni, i collegamenti e le attribuzioni delle figure.[short pause] Per ritrovare un'opera, partite dalla sua didascalia; per approfondire un principio, scegliete la pubblicazione pertinente.[pause] Le schermate storiche conservano il ruolo di documenti delle versioni mostrate.[pause]
+I collegamenti di queste raccolte permettono di ritrovare le pubblicazioni; le attribuzioni delle opere accompagnano le figure.[short pause] Per ritrovare un'opera, partite dalla sua didascalia; per approfondire un principio, scegliete la pubblicazione pertinente.[pause] Le schermate storiche conservano il ruolo di documenti delle versioni mostrate.[pause]
 
-Concludiamo con ciò che avete prodotto: una versione iniziale, una variazione motivata e un'osservazione che porta a una revisione.[short pause] Questa piccola sequenza rende concreto il filo della lezione.[pause] Il compito orienta le priorità, le relazioni visive danno forma alla proposta e la prova permette di correggerla.[pause] Conservate insieme i tre passaggi, così da poter spiegare perché una scelta è utile.[pause] Grazie e buon lavoro.
+Concludiamo con la sequenza che abbiamo osservato: una versione iniziale, una variazione motivata e una prova con un compito.[short pause] Questa piccola sequenza rende concreto il filo della lezione.[pause] Il compito orienta le priorità, le relazioni visive danno forma alla proposta e la prova permette di correggerla.[pause] Conservate insieme i tre passaggi, così da poter spiegare perché una scelta è utile.[pause] Grazie e buon lavoro.
 -->

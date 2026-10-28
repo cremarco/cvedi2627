@@ -9,11 +9,13 @@
   "imageManifest": "progetti/slide/assets/booklet/lezione-composizione/image-manifest.json",
   "speakerNotesSource": "progetti/slide/assets/booklet/lezione-composizione/speaker-notes.json",
   "speakerNotesOriginalSource": "progetti/slide/assets/booklet/lezione-composizione/speaker-notes-original.json",
+  "audioSelectionSource": "progetti/slide/assets/booklet/lezione-composizione/audio-approved.json",
+  "excludedSlidesSource": "progetti/slide/assets/booklet/lezione-composizione/excluded-slides.json",
   "generator": "progetti/slide/scripts/build/composizione-slides.mjs",
-  "slideCount": 70,
-  "minutes": 90,
-  "activityMinutes": 15,
-  "spokenWords": 9978,
+  "slideCount": 62,
+  "minutes": 69,
+  "activityMinutes": 0,
+  "spokenWords": 8824,
   "slides": [
     {
       "lessonSlide": 1,
@@ -356,10 +358,10 @@
       "slug": "sguardo",
       "alias": "composizione-gerarchia-sguardo",
       "title": "Lasciare spazio a una direzione",
-      "lead": "La posizione del soggetto mette in relazione volto e ambiente.",
+      "lead": "Lo spazio davanti al volto e sopra la testa svolge due funzioni diverse.",
       "points": [
-        "Looking room: spazio nella direzione dello sguardo.",
-        "Headroom: spazio sopra la testa."
+        "Looking room: spazio orizzontale nella direzione dello sguardo.",
+        "Headroom: distanza verticale fra la sommità della testa e il bordo superiore."
       ],
       "figures": [
         "sguardo-direzione"
@@ -804,36 +806,6 @@
     },
     {
       "lessonSlide": 49,
-      "slug": "hud",
-      "alias": "composizione-gerarchia-hud",
-      "title": "Informazioni attorno all’azione",
-      "lead": "Fortnite: indicatori distribuiti nella versione storica documentata.",
-      "points": [],
-      "figures": [
-        "hud-fortnite"
-      ],
-      "section": 6,
-      "kind": "teaching",
-      "minutes": 1.5,
-      "sourceHeading": "Attenzione e percorsi di lettura"
-    },
-    {
-      "lessonSlide": 50,
-      "slug": "diegesi",
-      "alias": "composizione-gerarchia-diegesi",
-      "title": "Gli indicatori possono appartenere al mondo",
-      "lead": "Dead Space: salute sulla tuta e munizioni presso l’arma.",
-      "points": [],
-      "figures": [
-        "dead-space"
-      ],
-      "section": 6,
-      "kind": "teaching",
-      "minutes": 1,
-      "sourceHeading": "Attenzione e percorsi di lettura"
-    },
-    {
-      "lessonSlide": 51,
       "slug": "cenacolo",
       "alias": "composizione-gerarchia-cenacolo",
       "title": "Leggere insieme posizione, direzioni e racconto",
@@ -848,7 +820,7 @@
       "sourceHeading": "Leggere una composizione"
     },
     {
-      "lessonSlide": 52,
+      "lessonSlide": 50,
       "slug": "budapest-centro",
       "alias": "composizione-gerarchia-budapest-centro",
       "title": "La simmetria organizza i personaggi",
@@ -863,7 +835,7 @@
       "sourceHeading": "Leggere una composizione"
     },
     {
-      "lessonSlide": 53,
+      "lessonSlide": 51,
       "slug": "cornice",
       "alias": "composizione-gerarchia-cornice",
       "title": "Una cornice dentro il campo",
@@ -878,7 +850,7 @@
       "sourceHeading": "Leggere una composizione"
     },
     {
-      "lessonSlide": 54,
+      "lessonSlide": 52,
       "slug": "formato",
       "alias": "composizione-gerarchia-formato",
       "title": "Il formato partecipa al racconto",
@@ -893,7 +865,7 @@
       "sourceHeading": "Leggere una composizione"
     },
     {
-      "lessonSlide": 55,
+      "lessonSlide": 53,
       "slug": "trasferimento",
       "alias": "composizione-gerarchia-trasferimento",
       "title": "Trasferire il metodo di osservazione",
@@ -910,7 +882,7 @@
       "sourceHeading": "Leggere una composizione"
     },
     {
-      "lessonSlide": 56,
+      "lessonSlide": 54,
       "slug": "concept",
       "alias": "composizione-gerarchia-concept",
       "title": "Un’idea guida coordina le scelte",
@@ -926,37 +898,7 @@
       "sourceHeading": "Progettare, confrontare, verificare"
     },
     {
-      "lessonSlide": 57,
-      "slug": "moodboard",
-      "alias": "composizione-gerarchia-moodboard",
-      "title": "Raccogliere una direzione visiva",
-      "lead": "Fotografie e palette rendono confrontabili parole come luminoso.",
-      "points": [],
-      "figures": [
-        "moodboard-riferimenti"
-      ],
-      "section": 8,
-      "kind": "teaching",
-      "minutes": 1,
-      "sourceHeading": "Progettare, confrontare, verificare"
-    },
-    {
-      "lessonSlide": 58,
-      "slug": "moodboard-sistema",
-      "alias": "composizione-gerarchia-moodboard-sistema",
-      "title": "Precisare ipotesi su più elementi",
-      "lead": "CandleScience: texture, tipografia e iconografia accanto alle fotografie.",
-      "points": [],
-      "figures": [
-        "moodboard-sistema"
-      ],
-      "section": 8,
-      "kind": "teaching",
-      "minutes": 1,
-      "sourceHeading": "Progettare, confrontare, verificare"
-    },
-    {
-      "lessonSlide": 59,
+      "lessonSlide": 55,
       "slug": "riferimento-scelta-verifica",
       "alias": "composizione-gerarchia-riferimento-scelta-verifica",
       "title": "Dal riferimento a una decisione verificabile",
@@ -973,7 +915,7 @@
       "sourceHeading": "Progettare, confrontare, verificare"
     },
     {
-      "lessonSlide": 60,
+      "lessonSlide": 56,
       "slug": "variazione",
       "alias": "composizione-gerarchia-variazione",
       "title": "Cambiare una relazione alla volta",
@@ -988,7 +930,7 @@
       "sourceHeading": "Progettare, confrontare, verificare"
     },
     {
-      "lessonSlide": 61,
+      "lessonSlide": 57,
       "slug": "squint",
       "alias": "composizione-gerarchia-squint",
       "title": "Ridurre il dettaglio per osservare i pesi",
@@ -1003,7 +945,7 @@
       "sourceHeading": "Progettare, confrontare, verificare"
     },
     {
-      "lessonSlide": 62,
+      "lessonSlide": 58,
       "slug": "prova-compito",
       "alias": "composizione-gerarchia-prova-compito",
       "title": "La verifica torna alla domanda iniziale",
@@ -1019,92 +961,24 @@
       "sourceHeading": "Progettare, confrontare, verificare"
     },
     {
-      "lessonSlide": 63,
-      "slug": "materiali",
-      "alias": "composizione-gerarchia-materiali",
-      "title": "Un invito comune per il confronto",
-      "lead": "Un testo comune, un layout iniziale e una scheda per annotare il confronto.",
-      "points": [
-        "Sabato 14 novembre · dalle 10 alle 13.",
-        "Spazio Officina · Via del Parco 8.",
-        "Iscrizione gratuita · azione: Iscriviti."
+      "lessonSlide": 59,
+      "slug": "invito-finale",
+      "alias": "composizione-gerarchia-invito-finale",
+      "title": "Mettere insieme le scelte nell’invito finale",
+      "lead": "",
+      "points": [],
+      "figures": [
+        "invito-finale"
       ],
-      "figures": [],
       "section": 8,
-      "kind": "materials",
-      "minutes": 1,
-      "sourceHeading": "Progettare, confrontare, verificare"
+      "kind": "image",
+      "minutes": 1.5,
+      "sourceHeading": "Progettare, confrontare, verificare",
+      "narrationEnabled": true,
+      "showCaption": false
     },
     {
-      "lessonSlide": 64,
-      "slug": "attivita-variazione",
-      "alias": "composizione-gerarchia-attivita-variazione",
-      "title": "Produrre una variazione motivata",
-      "lead": "In coppia, rendere riconoscibili attività, dati e iscrizione.",
-      "points": [
-        "Scrivere la priorità e scegliere una relazione da modificare.",
-        "Conservare contenuti e versione iniziale.",
-        "Affiancare le due proposte e annotare l’effetto previsto."
-      ],
-      "figures": [],
-      "section": 8,
-      "kind": "activity",
-      "minutes": 8,
-      "sourceHeading": "Progettare, confrontare, verificare"
-    },
-    {
-      "lessonSlide": 65,
-      "slug": "attivita-verifica",
-      "alias": "composizione-gerarchia-attivita-verifica",
-      "title": "Provare con un compito",
-      "lead": "Scambiare le varianti con un’altra coppia e osservare le risposte.",
-      "points": [
-        "Chiedere giorno, orario, luogo e modalità di iscrizione.",
-        "Annotare risposte, esitazioni e associazioni ambigue.",
-        "Rivedere la proposta alla luce delle osservazioni."
-      ],
-      "figures": [],
-      "section": 8,
-      "kind": "activity",
-      "minutes": 7,
-      "sourceHeading": "Progettare, confrontare, verificare"
-    },
-    {
-      "lessonSlide": 66,
-      "slug": "restituzione",
-      "alias": "composizione-gerarchia-restituzione",
-      "title": "Dall’osservazione alla revisione",
-      "lead": "Una proposta migliora quando rende discutibili le proprie scelte.",
-      "points": [
-        "Quale relazione è emersa?",
-        "Che cosa ha ostacolato il compito?",
-        "Quale correzione deriva dall’osservazione?"
-      ],
-      "figures": [],
-      "section": 8,
-      "kind": "standard",
-      "minutes": 1,
-      "sourceHeading": "Progettare, confrontare, verificare"
-    },
-    {
-      "lessonSlide": 67,
-      "slug": "chiusura",
-      "alias": "composizione-gerarchia-chiusura",
-      "title": "Comporre significa mettere in relazione",
-      "lead": "Dal compito del lettore a una scelta motivata e verificabile.",
-      "points": [
-        "Scegliere segni e immagini pertinenti.",
-        "Costruire priorità senza perdere informazioni.",
-        "Confrontare le varianti attraverso un compito."
-      ],
-      "figures": [],
-      "section": 8,
-      "kind": "standard",
-      "minutes": 1,
-      "sourceHeading": "Progettare, confrontare, verificare"
-    },
-    {
-      "lessonSlide": 68,
+      "lessonSlide": 60,
       "slug": "fonti-1",
       "alias": "composizione-gerarchia-fonti-1",
       "title": "Fonti · linguaggio e composizione",
@@ -1146,10 +1020,11 @@
           "url": "https://doi.org/10.1098/rstb.2020.0390",
           "note": "Associazioni fra suono e forma; differenze fra gruppi."
         }
-      ]
+      ],
+      "narrationEnabled": false
     },
     {
-      "lessonSlide": 69,
+      "lessonSlide": 61,
       "slug": "fonti-2",
       "alias": "composizione-gerarchia-fonti-2",
       "title": "Fonti · attenzione e interazione",
@@ -1191,10 +1066,11 @@
           "url": "https://www.ibm.com/design/language/iconography/pictograms/usage/",
           "note": "Ruolo del pittogramma e differenza dalle icone UI."
         }
-      ]
+      ],
+      "narrationEnabled": false
     },
     {
-      "lessonSlide": 70,
+      "lessonSlide": 62,
       "slug": "fonti-3",
       "alias": "composizione-gerarchia-fonti-3",
       "title": "Fonti · metodo ed esempi",
@@ -1209,7 +1085,7 @@
         {
           "label": "Gordon (2020; 2021) · Gerarchia visiva",
           "url": "https://www.nngroup.com/articles/visual-hierarchy-ux-definition/",
-          "note": "Priorità e controllo dei pesi; riferimenti completi nel materiale scaricabile."
+          "note": "Priorità visive e controllo dei pesi."
         },
         {
           "label": "Yang (2023) · Mood boards in UX",
@@ -1236,7 +1112,8 @@
           "url": "https://odr.chalmers.se/server/api/core/bitstreams/fd267f70-c295-4eae-ae01-af5db676e61d/content",
           "note": "Indicatori, diegesi e collocazione nello spazio."
         }
-      ]
+      ],
+      "narrationEnabled": false
     }
   ]
 }

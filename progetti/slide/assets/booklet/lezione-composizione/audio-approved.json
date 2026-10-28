@@ -1,0 +1,361 @@
+{
+  "version": 1,
+  "lesson": "composizione-gerarchia",
+  "clips": {
+    "composizione-gerarchia": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/01-composizione-gerarchia-4e52f3ae2f04.mp3",
+      "web": "/audio/lezione-composizione/01-composizione-gerarchia-4e52f3ae2f04.mp3",
+      "sha256": "2fbafd05d2b92354cbae921c093a672f6a7478c36e1aaa08d2434711864923a3",
+      "durationSeconds": 42.64
+    },
+    "composizione-gerarchia-sintesi": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/02-composizione-gerarchia-sintesi-43583f3c659f.mp3",
+      "web": "/audio/lezione-composizione/02-composizione-gerarchia-sintesi-43583f3c659f.mp3",
+      "sha256": "6bf26844253d469d2b407b4d569158292724cffa8d259d23f680db5d015c846a",
+      "durationSeconds": 50.4
+    },
+    "composizione-gerarchia-obiettivi": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/03-composizione-gerarchia-obiettivi-79b848025c1b.mp3",
+      "web": "/audio/lezione-composizione/03-composizione-gerarchia-obiettivi-79b848025c1b.mp3",
+      "sha256": "20ade4de4a0dd13df849b3326ae79f0bd6c976c10f87c3da3bb7c51c1f1bc4a2",
+      "durationSeconds": 52.96
+    },
+    "composizione-gerarchia-domanda-lettore": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/04-composizione-gerarchia-domanda-lettore-5415133f4064.mp3",
+      "web": "/audio/lezione-composizione/04-composizione-gerarchia-domanda-lettore-5415133f4064.mp3",
+      "sha256": "f94bc834dceee01ba34680c454d3358a171344c02fcdf07118fbbe1c8402bc19",
+      "durationSeconds": 56.48
+    },
+    "composizione-gerarchia-invito": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/05-composizione-gerarchia-invito-2ca00673c021.mp3",
+      "web": "/audio/lezione-composizione/05-composizione-gerarchia-invito-2ca00673c021.mp3",
+      "sha256": "ef99378686ee30a9180f0158a0720fe379c8e17618c95abc8288ebe3deb92ae1",
+      "durationSeconds": 62.56
+    },
+    "composizione-gerarchia-differenze": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/06-composizione-gerarchia-differenze-4a6cabfb0268.mp3",
+      "web": "/audio/lezione-composizione/06-composizione-gerarchia-differenze-4a6cabfb0268.mp3",
+      "sha256": "25f793adb11780f17d3d1cb20b7db519b4ede69c4286b2b67368028429d0c5d0",
+      "durationSeconds": 59.52
+    },
+    "composizione-gerarchia-forme": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/07-composizione-gerarchia-forme-a693bdfed956.mp3",
+      "web": "/audio/lezione-composizione/07-composizione-gerarchia-forme-a693bdfed956.mp3",
+      "sha256": "02e9be88a7b1d8c7d7d6846cfd7830cef586bf96eb040dc42a0c36aa8c3c2f3a",
+      "durationSeconds": 60.96
+    },
+    "composizione-gerarchia-orientamento": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/08-composizione-gerarchia-orientamento-d6c254da13b2.mp3",
+      "web": "/audio/lezione-composizione/08-composizione-gerarchia-orientamento-d6c254da13b2.mp3",
+      "sha256": "137cddef5624193c0e0a0b53aaafaaab14375455ee3caf46a70c1be05b04d417",
+      "durationSeconds": 55.68
+    },
+    "composizione-gerarchia-suoni-forme": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/09-composizione-gerarchia-suoni-forme-43dd41221621.mp3",
+      "web": "/audio/lezione-composizione/09-composizione-gerarchia-suoni-forme-43dd41221621.mp3",
+      "sha256": "0602357afddab096c21b70546dd3f7a1a49c42b78e02cb94b03aba8be0b7ace9",
+      "durationSeconds": 60.72
+    },
+    "composizione-gerarchia-natura-texture": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/10-composizione-gerarchia-natura-texture-5f5ff2fbb480.mp3",
+      "web": "/audio/lezione-composizione/10-composizione-gerarchia-natura-texture-5f5ff2fbb480.mp3",
+      "sha256": "b572a09bf10ac91812b896f892057cadb35abf93e29c2b2746b6ce8dd86d00d0",
+      "durationSeconds": 64.24
+    },
+    "composizione-gerarchia-colore-atmosfera": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/11-composizione-gerarchia-colore-atmosfera-36db26ce0105.mp3",
+      "web": "/audio/lezione-composizione/11-composizione-gerarchia-colore-atmosfera-36db26ce0105.mp3",
+      "sha256": "15d9c14aac2938f8c940e144f3a218c3c8f37de54ba450df1936f9c5287d5701",
+      "durationSeconds": 59.36
+    },
+    "composizione-gerarchia-funzione-immagine": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/12-composizione-gerarchia-funzione-immagine-5420cf1a0b62.mp3",
+      "web": "/audio/lezione-composizione/12-composizione-gerarchia-funzione-immagine-5420cf1a0b62.mp3",
+      "sha256": "7a93f7756271d0e87a512b6d28fb1b6bc9a2fedcdf26e893ea6fa9b26018f5ae",
+      "durationSeconds": 63.28
+    },
+    "composizione-gerarchia-evocare": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/13-composizione-gerarchia-evocare-e8cbc62061d0.mp3",
+      "web": "/audio/lezione-composizione/13-composizione-gerarchia-evocare-e8cbc62061d0.mp3",
+      "sha256": "3bb7098cc4b354d74cc46780b85be867f6bdb9d9b6997d9548a81355d2f001e5",
+      "durationSeconds": 61.68
+    },
+    "composizione-gerarchia-descrivere": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/14-composizione-gerarchia-descrivere-a1eaad544577.mp3",
+      "web": "/audio/lezione-composizione/14-composizione-gerarchia-descrivere-a1eaad544577.mp3",
+      "sha256": "894ad04ca5d4b4682f923e30617e13f8af0d081a386ad6f04ac444ec4fb2f4a1",
+      "durationSeconds": 71.04
+    },
+    "composizione-gerarchia-sintetizzare": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/15-composizione-gerarchia-sintetizzare-dee555da33a0.mp3",
+      "web": "/audio/lezione-composizione/15-composizione-gerarchia-sintetizzare-dee555da33a0.mp3",
+      "sha256": "c62f8af709ef0bd7f073bfc8ac53b4db780cdb9d3109fb3894354c3085195c85",
+      "durationSeconds": 58.72
+    },
+    "composizione-gerarchia-fotografia-illustrazione": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/16-composizione-gerarchia-fotografia-illustrazione-703b5b22a429.mp3",
+      "web": "/audio/lezione-composizione/16-composizione-gerarchia-fotografia-illustrazione-703b5b22a429.mp3",
+      "sha256": "5a5f7232cb0a1b9993e138400963356150fae32f8fb346d6e41abcf461b1dad5",
+      "durationSeconds": 61.44
+    },
+    "composizione-gerarchia-contesto": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/17-composizione-gerarchia-contesto-fee5549f5fd5.mp3",
+      "web": "/audio/lezione-composizione/17-composizione-gerarchia-contesto-fee5549f5fd5.mp3",
+      "sha256": "e86ca31953bd463f7e25352d56eca6f0be1e63a341512e8be0ea8fb2143d70f4",
+      "durationSeconds": 64.64
+    },
+    "composizione-gerarchia-metafora": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/18-composizione-gerarchia-metafora-33be8a09ecdd.mp3",
+      "web": "/audio/lezione-composizione/18-composizione-gerarchia-metafora-33be8a09ecdd.mp3",
+      "sha256": "5443b2522b3f97b355d3231ec9945117c424586965640ef7aab4d6baf8ae23d8",
+      "durationSeconds": 61.2
+    },
+    "composizione-gerarchia-icone": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/19-composizione-gerarchia-icone-942729a405f0.mp3",
+      "web": "/audio/lezione-composizione/19-composizione-gerarchia-icone-942729a405f0.mp3",
+      "sha256": "e6a0c045fa656c070767cad82719326e38e009d38b2334444bfcec7a46fcdce7",
+      "durationSeconds": 62.16
+    },
+    "composizione-gerarchia-forma-racconto": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/20-composizione-gerarchia-forma-racconto-4c928b267c85.mp3",
+      "web": "/audio/lezione-composizione/20-composizione-gerarchia-forma-racconto-4c928b267c85.mp3",
+      "sha256": "da4cfaa35f54715932b43a4891f690169bc5d385ed0d992a6d9082367ba11aa5",
+      "durationSeconds": 59.28
+    },
+    "composizione-gerarchia-inquadrare": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/21-composizione-gerarchia-inquadrare-580e5960e398.mp3",
+      "web": "/audio/lezione-composizione/21-composizione-gerarchia-inquadrare-580e5960e398.mp3",
+      "sha256": "064b816bc6dfe60ad98bcc07a10ccb7211cf41d8af82eedcdebd9e9d1fad1182",
+      "durationSeconds": 60.64
+    },
+    "composizione-gerarchia-sguardo": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/22-composizione-gerarchia-sguardo-4caf60164383.mp3",
+      "web": "/audio/lezione-composizione/22-composizione-gerarchia-sguardo-4caf60164383.mp3",
+      "sha256": "fc7825be9df21338be2df9c22eb4bec35f4ce8fe065f9b711528a848697abe91",
+      "durationSeconds": 52.4
+    },
+    "composizione-gerarchia-taglio": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/23-composizione-gerarchia-taglio-0b67448e362e.mp3",
+      "web": "/audio/lezione-composizione/23-composizione-gerarchia-taglio-0b67448e362e.mp3",
+      "sha256": "2790ea4404b8c8f98daed8cfb9df871bb2ab0d85b6c7fb0556394ba12cb8abab",
+      "durationSeconds": 63.12
+    },
+    "composizione-gerarchia-testo-immagine": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/24-composizione-gerarchia-testo-immagine-042a37ad5c7a.mp3",
+      "web": "/audio/lezione-composizione/24-composizione-gerarchia-testo-immagine-042a37ad5c7a.mp3",
+      "sha256": "f806a7d77de7c0430d923464b8f3020853d4c8576e7ebe371ef9cbcc3cc26231",
+      "durationSeconds": 60.24
+    },
+    "composizione-gerarchia-pieno-vuoto": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/25-composizione-gerarchia-pieno-vuoto-788f9367787b.mp3",
+      "web": "/audio/lezione-composizione/25-composizione-gerarchia-pieno-vuoto-788f9367787b.mp3",
+      "sha256": "ee2c5a4be0a9a71106e060ca58838388aae28b13673ae4bcb1a98efc3dbd6ea0",
+      "durationSeconds": 75.2
+    },
+    "composizione-gerarchia-scala": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/26-composizione-gerarchia-scala-e5b3ca70b5c1.mp3",
+      "web": "/audio/lezione-composizione/26-composizione-gerarchia-scala-e5b3ca70b5c1.mp3",
+      "sha256": "a7c9fc2415d9213283749767c7f9fa8a453b1b3ff3ead7398678d08def90e6b3",
+      "durationSeconds": 60.48
+    },
+    "composizione-gerarchia-contrasto": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/27-composizione-gerarchia-contrasto-c1c48b7698c1.mp3",
+      "web": "/audio/lezione-composizione/27-composizione-gerarchia-contrasto-c1c48b7698c1.mp3",
+      "sha256": "04e55a7b7716c4a28e4139fd5edf2ae3a73474cd2b23530a733f70dacecb7300",
+      "durationSeconds": 62.96
+    },
+    "composizione-gerarchia-gerarchia-tipografica": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/28-composizione-gerarchia-gerarchia-tipografica-d59ee2825255.mp3",
+      "web": "/audio/lezione-composizione/28-composizione-gerarchia-gerarchia-tipografica-d59ee2825255.mp3",
+      "sha256": "b55a75dde0eca20f0e04ca9ac772a0252d0ca98e7e1b3cfc3208e915c63c2000",
+      "durationSeconds": 64.08
+    },
+    "composizione-gerarchia-prossimita": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/29-composizione-gerarchia-prossimita-eedf8e2a0cbe.mp3",
+      "web": "/audio/lezione-composizione/29-composizione-gerarchia-prossimita-eedf8e2a0cbe.mp3",
+      "sha256": "ee8f89bf3d7e85fc4ffec9d58f133860ec30e554836408dd9fad06864206c210",
+      "durationSeconds": 60
+    },
+    "composizione-gerarchia-riconoscimento": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/30-composizione-gerarchia-riconoscimento-358f175b4539.mp3",
+      "web": "/audio/lezione-composizione/30-composizione-gerarchia-riconoscimento-358f175b4539.mp3",
+      "sha256": "fd55d18b3d192b7cdcad0c5a8c9867be56303fd4a8a96665a0cdb855c1461508",
+      "durationSeconds": 60.56
+    },
+    "composizione-gerarchia-spazio-messaggio": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/31-composizione-gerarchia-spazio-messaggio-7f06bc793c20.mp3",
+      "web": "/audio/lezione-composizione/31-composizione-gerarchia-spazio-messaggio-7f06bc793c20.mp3",
+      "sha256": "fcafa9ae090acf7248e8fefa433f2417d55cdd43159e262dafccabf80cc1b254",
+      "durationSeconds": 60
+    },
+    "composizione-gerarchia-allineamento": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/32-composizione-gerarchia-allineamento-375c908c433c.mp3",
+      "web": "/audio/lezione-composizione/32-composizione-gerarchia-allineamento-375c908c433c.mp3",
+      "sha256": "f695568f533eeed2a859687539a77cabab265fc60f1b423314509b8d222e25cc",
+      "durationSeconds": 62.72
+    },
+    "composizione-gerarchia-centro-dispari": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/33-composizione-gerarchia-centro-dispari-656cc73cec99.mp3",
+      "web": "/audio/lezione-composizione/33-composizione-gerarchia-centro-dispari-656cc73cec99.mp3",
+      "sha256": "4b89b8c5f34872fa44261f48124cc83ddac1f1d03337008f8899ca4de5e4624b",
+      "durationSeconds": 59.92
+    },
+    "composizione-gerarchia-equilibrio": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/34-composizione-gerarchia-equilibrio-9b0887a2bc01.mp3",
+      "web": "/audio/lezione-composizione/34-composizione-gerarchia-equilibrio-9b0887a2bc01.mp3",
+      "sha256": "a1ce649bfeafa66576e014f0b8d7e16d4626e24ef4860ecf2bf9a907193a044f",
+      "durationSeconds": 61.2
+    },
+    "composizione-gerarchia-ritmo": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/35-composizione-gerarchia-ritmo-5f276896f12a.mp3",
+      "web": "/audio/lezione-composizione/35-composizione-gerarchia-ritmo-5f276896f12a.mp3",
+      "sha256": "e87463c2885e2864f768f34ca22545d403bfc57f20592b977fb1b29034b44b9a",
+      "durationSeconds": 62.32
+    },
+    "composizione-gerarchia-direzioni": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/36-composizione-gerarchia-direzioni-8caeb5c024d2.mp3",
+      "web": "/audio/lezione-composizione/36-composizione-gerarchia-direzioni-8caeb5c024d2.mp3",
+      "sha256": "56ad9a442953218cf2f13a84197ba21491fef5ed3f383faae0df7a3af69e5d7a",
+      "durationSeconds": 59.84
+    },
+    "composizione-gerarchia-griglia-variazione": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/37-composizione-gerarchia-griglia-variazione-5ad4db7c084d.mp3",
+      "web": "/audio/lezione-composizione/37-composizione-gerarchia-griglia-variazione-5ad4db7c084d.mp3",
+      "sha256": "3bd75b1bd47cc8391bd33e237a2eb23314d3b4a0869861b5dac7c1865d85f49c",
+      "durationSeconds": 63.92
+    },
+    "composizione-gerarchia-scher": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/38-composizione-gerarchia-scher-e6acac0cf3f7.mp3",
+      "web": "/audio/lezione-composizione/38-composizione-gerarchia-scher-e6acac0cf3f7.mp3",
+      "sha256": "dec772c422b84fa2d125356d55dc74c59626c29e87c188f8d4b9480b6505a9f1",
+      "durationSeconds": 69.28
+    },
+    "composizione-gerarchia-profondita": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/39-composizione-gerarchia-profondita-ac9f499d54b0.mp3",
+      "web": "/audio/lezione-composizione/39-composizione-gerarchia-profondita-ac9f499d54b0.mp3",
+      "sha256": "9ad4dfe6183deefd53ff7705b2077bd2091b215fa4e5de31d3c27ca2639d58b9",
+      "durationSeconds": 62.4
+    },
+    "composizione-gerarchia-salienza": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/40-composizione-gerarchia-salienza-4567079751f8.mp3",
+      "web": "/audio/lezione-composizione/40-composizione-gerarchia-salienza-4567079751f8.mp3",
+      "sha256": "8d219cafe99296cb4dbaa6161f0e00818dd16a4952404af93d4c157c67048564",
+      "durationSeconds": 76.32
+    },
+    "composizione-gerarchia-attenzione-compito": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/41-composizione-gerarchia-attenzione-compito-e0e0f8b45257.mp3",
+      "web": "/audio/lezione-composizione/41-composizione-gerarchia-attenzione-compito-e0e0f8b45257.mp3",
+      "sha256": "be66295b8c343df9de92fabf25abfd11c9f8c222d0219134e6da883abcc8f010",
+      "durationSeconds": 60.72
+    },
+    "composizione-gerarchia-azioni": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/42-composizione-gerarchia-azioni-45f5fcaaf0ac.mp3",
+      "web": "/audio/lezione-composizione/42-composizione-gerarchia-azioni-45f5fcaaf0ac.mp3",
+      "sha256": "05af8eeccbd666a6723550531885814f567347fb65d364a904f02d0b3a68b391",
+      "durationSeconds": 60.8
+    },
+    "composizione-gerarchia-tre-passaggi": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/43-composizione-gerarchia-tre-passaggi-d838825030e4.mp3",
+      "web": "/audio/lezione-composizione/43-composizione-gerarchia-tre-passaggi-d838825030e4.mp3",
+      "sha256": "dbae5ff10908384912746dc32c189220f73fa7f3485546af82bc35dbe555180d",
+      "durationSeconds": 56.96
+    },
+    "composizione-gerarchia-scelta": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/44-composizione-gerarchia-scelta-3981232e0863.mp3",
+      "web": "/audio/lezione-composizione/44-composizione-gerarchia-scelta-3981232e0863.mp3",
+      "sha256": "23eea6d5fbe2dd1dd1f938f2414f35fe83b4fd691b5cce097410e1a078fceefc",
+      "durationSeconds": 69.68
+    },
+    "composizione-gerarchia-bersaglio": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/45-composizione-gerarchia-bersaglio-b4c0fd10a5cb.mp3",
+      "web": "/audio/lezione-composizione/45-composizione-gerarchia-bersaglio-b4c0fd10a5cb.mp3",
+      "sha256": "c527af8d94bbbc30ce803682edc40ee8c7bbe3c87f555916f33a7ec88b100be0",
+      "durationSeconds": 71.68
+    },
+    "composizione-gerarchia-schema-z": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/46-composizione-gerarchia-schema-z-a05f26f8b0ee.mp3",
+      "web": "/audio/lezione-composizione/46-composizione-gerarchia-schema-z-a05f26f8b0ee.mp3",
+      "sha256": "3bffff0862200789cdad238735fe947adfed9d20653794fb4c108d7a23c226f0",
+      "durationSeconds": 56.32
+    },
+    "composizione-gerarchia-scansione-f": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/47-composizione-gerarchia-scansione-f-26e1ab2e30e0.mp3",
+      "web": "/audio/lezione-composizione/47-composizione-gerarchia-scansione-f-26e1ab2e30e0.mp3",
+      "sha256": "659fb46b0d272e949ff64a6b2168cbf03d98fe92e96f96b714eac2c2945bf656",
+      "durationSeconds": 59.12
+    },
+    "composizione-gerarchia-schemi-evidenze": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/48-composizione-gerarchia-schemi-evidenze-ad02ce9f593c.mp3",
+      "web": "/audio/lezione-composizione/48-composizione-gerarchia-schemi-evidenze-ad02ce9f593c.mp3",
+      "sha256": "67a0217db4c60ecc7cc235424703d8c642ec97f2daf79af7b45985cc4147cda3",
+      "durationSeconds": 65.44
+    },
+    "composizione-gerarchia-cenacolo": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/51-composizione-gerarchia-cenacolo-bbff933edd97.mp3",
+      "web": "/audio/lezione-composizione/51-composizione-gerarchia-cenacolo-bbff933edd97.mp3",
+      "sha256": "fdf05b4a6522d14721c9f9d915844edc17739bdfb8827557ab5ed724ed91bbc9",
+      "durationSeconds": 63.12
+    },
+    "composizione-gerarchia-budapest-centro": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/52-composizione-gerarchia-budapest-centro-384ef141a2ed.mp3",
+      "web": "/audio/lezione-composizione/52-composizione-gerarchia-budapest-centro-384ef141a2ed.mp3",
+      "sha256": "84a12e514d5ef8f7df4ff2985dee611a728aa41440a1b2effe0a4150f22b5672",
+      "durationSeconds": 60.64
+    },
+    "composizione-gerarchia-cornice": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/53-composizione-gerarchia-cornice-b7ab7f22e951.mp3",
+      "web": "/audio/lezione-composizione/53-composizione-gerarchia-cornice-b7ab7f22e951.mp3",
+      "sha256": "491107ac25e5f72b4f84eebf7321753d153d81d6ae4b272481d846d2222050b9",
+      "durationSeconds": 62.16
+    },
+    "composizione-gerarchia-formato": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/54-composizione-gerarchia-formato-9d2f40e4b473.mp3",
+      "web": "/audio/lezione-composizione/54-composizione-gerarchia-formato-9d2f40e4b473.mp3",
+      "sha256": "eed9f4838f7d981b444cd1383384c4105ac7ccf99934959c718c4bf4b21b32e4",
+      "durationSeconds": 60.48
+    },
+    "composizione-gerarchia-trasferimento": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/55-composizione-gerarchia-trasferimento-140cce029e41.mp3",
+      "web": "/audio/lezione-composizione/55-composizione-gerarchia-trasferimento-140cce029e41.mp3",
+      "sha256": "e0cbc98b3b27f2ced826711c046d99053c57fdc885d9ac36d17d735664b6c846",
+      "durationSeconds": 62.24
+    },
+    "composizione-gerarchia-concept": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/56-composizione-gerarchia-concept-deddb1fc3661.mp3",
+      "web": "/audio/lezione-composizione/56-composizione-gerarchia-concept-deddb1fc3661.mp3",
+      "sha256": "9804b7b7b121da6be92f2166e5e8e24060a6d4983238e10998a0ebe94cd9f3ea",
+      "durationSeconds": 60.16
+    },
+    "composizione-gerarchia-riferimento-scelta-verifica": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/59-composizione-gerarchia-riferimento-scelta-verifica-3777f824813f.mp3",
+      "web": "/audio/lezione-composizione/59-composizione-gerarchia-riferimento-scelta-verifica-3777f824813f.mp3",
+      "sha256": "d2f5d080e181e9c68c1cb9ae01976f459b3fe52d6af06d4eb4b4d755b1beca40",
+      "durationSeconds": 62.56
+    },
+    "composizione-gerarchia-variazione": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/56-composizione-gerarchia-variazione-f914857454ba.mp3",
+      "web": "/audio/lezione-composizione/56-composizione-gerarchia-variazione-f914857454ba.mp3",
+      "sha256": "dd358fdeb1c4d80502e682065ac1523954d2fc11e0d906d5a60f3ce4c4983256",
+      "durationSeconds": 66.48
+    },
+    "composizione-gerarchia-squint": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/61-composizione-gerarchia-squint-da6744ecacb5.mp3",
+      "web": "/audio/lezione-composizione/61-composizione-gerarchia-squint-da6744ecacb5.mp3",
+      "sha256": "65efde45ad2be247e6481a8a7a70f87f8b2c0cbb86d6dc2a9e1e812d7a8e15ef",
+      "durationSeconds": 59.84
+    },
+    "composizione-gerarchia-prova-compito": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/62-composizione-gerarchia-prova-compito-e50b17c23083.mp3",
+      "web": "/audio/lezione-composizione/62-composizione-gerarchia-prova-compito-e50b17c23083.mp3",
+      "sha256": "59088dccebbdf03e1951f1a08947214bf9356fcc63f75300bd15c8b5d394cbeb",
+      "durationSeconds": 59.6
+    },
+    "composizione-gerarchia-invito-finale": {
+      "source": "progetti/slide/assets/audio/lezione-composizione/59-composizione-gerarchia-invito-finale-9a25e9b60944.mp3",
+      "web": "/audio/lezione-composizione/59-composizione-gerarchia-invito-finale-9a25e9b60944.mp3",
+      "sha256": "b538b8384c25295fdb8c9bca225abaa1c151a8aea42f49d0f2e28fa5a24c838d",
+      "durationSeconds": 67.52
+    }
+  },
+  "pendingGeneration": []
+}

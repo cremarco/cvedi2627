@@ -77,7 +77,7 @@ footer: "Lezioni"
   <SlideAction to="colore" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">07</span><span>Colore e significato</span></SlideAction>
   <SlideAction to="tipografia-griglie" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">08</span><span>Tipografia</span></SlideAction>
   <SlideAction to="griglie-layout" class="index-button index-lesson" :show-arrow="false" aria-label="09 Griglie e layout · Audio disponibile" title="Audio disponibile"><span class="index-chapter-number">09</span><span>Griglie e layout</span><HeroIcon name="speaker-wave" class="index-audio-icon ml-auto! size-[18px]! shrink-0" /></SlideAction>
-  <SlideAction to="composizione-gerarchia" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">10</span><span>Composizione e gerarchia visiva</span></SlideAction>
+  <SlideAction to="composizione-gerarchia" class="index-button index-lesson" :show-arrow="false" aria-label="10 Composizione e gerarchia visiva · Audio disponibile" title="Audio disponibile"><span class="index-chapter-number">10</span><span>Composizione e gerarchia visiva</span><HeroIcon name="speaker-wave" class="index-audio-icon ml-auto! size-[18px]! shrink-0" /></SlideAction>
 </div>
 
 ---

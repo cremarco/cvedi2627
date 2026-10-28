@@ -7,6 +7,7 @@ import { checkCompositionSources } from './composition-source.mjs'
 
 const manifest = JSON.parse(await readFile('progetti/slide/assets/booklet/lezione-composizione/manifest.json', 'utf8'))
 const notes = JSON.parse(await readFile(manifest.speakerNotesSource, 'utf8'))
+const audioSelection = JSON.parse(await readFile(manifest.audioSelectionSource, 'utf8'))
 const summary = await checkCompositionSources(await loadSlideDeck())
 const base = (process.env.SLIDEV_URL || 'http://localhost:3047').replace(/\/$/, '')
 const lesson = `${base}/lezioni/composizione-gerarchia`
@@ -62,22 +63,23 @@ try {
       require(report.lesson === manifest.lesson, 'owning identity')
       require(report.overflow.length === 0, 'text overflow: ' + report.overflow.join(' | '))
       require(!report.scroll, 'no internal scrolling')
-      require(report.audio === 0, 'no audio')
+      require(report.audio === (mode === 'print' || !audioSelection.clips[slide.alias] ? 0 : 2), 'one player for selected audio on screen, absent for pending recordings and in print')
       require(report.captions.every(size => size === 18), 'shared caption scale')
       for (const figure of report.figures) {
         require(figure.loaded && figure.alt && figure.fits && figure.noFrame, 'preserved visible figure with alt and no frame')
         require(figure.width > 80 && figure.height > 80, 'visible figure size')
         require(figure.ratioDelta < .01, 'original proportions')
       }
-      if ([34,40,61].includes(slide.lessonSlide)) require(report.figures[0].width > 850, 'comparison uses the wide teaching area')
-      if (slide.lessonSlide === 60) require(report.figures[0].width > 800 && report.figures[0].height > 350, 'controlled invitation uses a dominant readable comparison')
+      if (['equilibrio','salienza','squint'].includes(slide.slug)) require(report.figures[0].width > 850, 'comparison uses the wide teaching area')
+      if (slide.slug === 'variazione') require(report.figures[0].width > 800 && report.figures[0].height > 350, 'controlled invitation uses a dominant readable comparison')
+      if (slide.slug === 'invito-finale') require(report.figures[0].width > 850 && report.figures[0].height > 400, 'final invitation remains dominant and readable')
       if (report.footer) {
         require(report.footer.includes(`${slide.lessonSlide} / ${manifest.slideCount}`), 'autonomous pagination')
         require(Math.abs(report.titleTop-52) < 1 && report.titleSize === 47, 'common title anchor and scale')
       }
       if (slide.kind === 'objectives') require(report.cards.length === 3 && report.cards.every(card => card.loaded && card.width === 96), 'three registered objective illustrations')
       if (mode === 'desktop') await page.screenshot({ path: `${output}/slide-${String(slide.lessonSlide).padStart(2,'0')}.png` })
-      else if ([34,40,60,61,63,64,65].includes(slide.lessonSlide)) await page.screenshot({ path: `${output}/${mode}-${slide.lessonSlide}.png` })
+      else if (['equilibrio','salienza','variazione','squint','materiali','attivita-variazione','attivita-verifica'].includes(slide.slug)) await page.screenshot({ path: `${output}/${mode}-${slide.lessonSlide}.png` })
     }
   }
   await page.emulateMedia({ media: 'screen' })
@@ -90,16 +92,13 @@ try {
   await page.locator('dialog[open]').waitFor({ state: 'detached' })
   assert.equal(await zoom.evaluate(node => document.activeElement === node), true, 'Escape restores figure focus')
   // Check a preserved and a revised script in the native presenter.
-  for (const number of [5,60]) {
-    await page.goto(`${lesson}/#/presenter/${number}`)
-    await page.waitForFunction(expected => [...document.querySelectorAll('*')].some(element => element.classList?.contains('slidev-note') && element.textContent.replace(/\s+/g,' ').trim() === expected), notes[manifest.slides[number-1].alias].replace(/\s+/g,' ').trim())
+  for (const slug of ['invito','variazione']) {
+    const slide = manifest.slides.find(slide => slide.slug === slug)
+    await page.goto(`${lesson}/#/presenter/${slide.alias}`)
+    await page.waitForFunction(expected => [...document.querySelectorAll('*')].some(element => element.classList?.contains('slidev-note') && element.textContent.replace(/\s+/g,' ').trim() === expected), notes[slide.alias].replace(/\s+/g,' ').trim())
   }
   await page.screenshot({ path: `${output}/presenter.png` })
-  for (const material of ['invito.txt','invito-iniziale.svg','fonti.txt']) {
-    const response = await page.request.get(`${base}/materials/composizione/${material}`)
-    assert.equal(response.status(), 200, material + ': downloadable common material')
-    assert.ok((await response.body()).length > 100, material + ': complete response')
-  }
+  assert.ok(manifest.slides.every(slide => slide.kind !== 'materials'), 'the removed download block stays excluded')
   await page.goto(`${base}/#/3`)
   const link = page.getByRole('link').filter({ hasText: 'Composizione e gerarchia visiva' })
   await link.waitFor({ state: 'visible' })
@@ -114,4 +113,4 @@ try {
   await browser.close()
 }
 assert.deepEqual(failures, [])
-console.log('Composition: all 70 slides passed desktop, narrow viewport, print, figures, keyboard, index and presenter checks.')
+console.log(`Composition: all ${manifest.slideCount} slides passed desktop, narrow viewport, print, figures, keyboard, index and presenter checks.`)
