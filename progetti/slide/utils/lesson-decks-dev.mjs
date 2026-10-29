@@ -52,19 +52,22 @@ export function lessonDecksDevPlugin() {
         : ''
       server.middlewares.use(async (req, res, next) => {
         const metadataPath = /^\/__slidev\/slides\/\d+\.json(?:\?|$)/.test(req.url || '')
+        const statePath = /^\/@server-(?:reactive|ref)\/(?:nav|drawings|snapshots)(?:\?|$)/.test(req.url || '')
         const metadata = req.method === 'GET' && metadataPath
         let found = match(req.url)
         // Slidev fetches note metadata from an absolute URL. Select the same
         // lesson as the referring page. Never let a child editor write to
-        // the menu through that same absolute URL.
-        if (metadataPath) {
+        // the menu through that same absolute URL. Server-ref state updates also
+        // use absolute URLs: send them to the referring deck so its websocket
+        // clients receive navigation, drawing and timer changes.
+        if (metadataPath || statePath) {
           res.setHeader('Cache-Control', 'no-store')
           res.setHeader('Vary', 'Referer')
           try {
             const referer = new URL(req.headers.referer)
             if (referer.host === req.headers.host) found = match(referer.pathname)
           } catch {}
-          if (found && req.method !== 'GET') {
+          if (metadataPath && found && req.method !== 'GET') {
             res.writeHead(405, { Allow: 'GET', 'Content-Type': 'text/plain; charset=utf-8' })
             res.end('Le note delle lezioni sono gestite nei rispettivi sorgenti.')
             return
@@ -94,7 +97,7 @@ export function lessonDecksDevPlugin() {
           const port = await start(found[1])
           const upstream = request({ hostname: 'localhost', port, path: req.url, method: req.method, headers: { ...req.headers, host: `localhost:${port}` } }, incoming => {
             const headers = { ...incoming.headers }
-            if (metadata) {
+            if (metadata || statePath) {
               headers['cache-control'] = 'no-store'
               headers.vary = [...new Set([...(headers.vary || '').split(',').map(value => value.trim()).filter(Boolean), 'Referer'])].join(', ')
             }
