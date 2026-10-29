@@ -1,0 +1,302 @@
+{
+  "source": "progetti/booklet/bibliografia/08-composizione-gerarchia.yml",
+  "sourceSha256": "aa659b1a643658b90341875e17ef76d7e1df6d9675943a8a8e9a50306de3e083",
+  "publications": {
+    "compArnheim": {
+      "type": "Book",
+      "author": "Arnheim, Rudolf",
+      "title": "Art and visual perception: A psychology of the creative eye",
+      "edition": 2,
+      "date": 2004,
+      "publisher": "University of California Press",
+      "serial-number": {
+        "isbn": "9780520243835"
+      }
+    },
+    "compPolidoro": {
+      "type": "Book",
+      "author": "Polidoro, Piero",
+      "title": "Che cos'è la semiotica visiva",
+      "date": 2008,
+      "publisher": "Carocci",
+      "serial-number": {
+        "isbn": "9788843045792"
+      }
+    },
+    "compForceville": {
+      "type": "Book",
+      "author": "Forceville, Charles",
+      "title": "Pictorial metaphor in advertising",
+      "date": 1996,
+      "publisher": "Routledge",
+      "serial-number": {
+        "doi": "10.4324/9780203064252"
+      }
+    },
+    "compTreisman": {
+      "type": "Article",
+      "author": [
+        "Treisman, Anne M.",
+        "Gelade, Garry"
+      ],
+      "title": "A feature-integration theory of attention",
+      "date": 1980,
+      "page-range": "97-136",
+      "serial-number": {
+        "doi": "10.1016/0010-0285(80)90005-5"
+      },
+      "parent": {
+        "type": "Periodical",
+        "title": "Cognitive Psychology",
+        "volume": 12,
+        "issue": 1
+      }
+    },
+    "compWolfe": {
+      "type": "Article",
+      "author": "Wolfe, Jeremy M.",
+      "title": "Guided Search 6.0: An updated model of visual search",
+      "date": 2021,
+      "page-range": "1060-1092",
+      "serial-number": {
+        "doi": "10.3758/s13423-020-01859-9"
+      },
+      "parent": {
+        "type": "Periodical",
+        "title": "Psychonomic Bulletin & Review",
+        "volume": 28,
+        "issue": 4
+      }
+    },
+    "compShinohara": {
+      "type": "Article",
+      "author": [
+        "Shinohara, Kazuko",
+        "Yamauchi, Naoto",
+        "Kawahara, Shigeto",
+        "Tanaka, Hideyuki"
+      ],
+      "title": "Takete and Maluma in Action: A Cross-Modal Relationship between Gestures and Sounds",
+      "date": "2016-09-28",
+      "serial-number": {
+        "doi": "10.1371/journal.pone.0163525"
+      },
+      "parent": {
+        "type": "Periodical",
+        "title": "PLOS ONE",
+        "volume": 11,
+        "issue": 9,
+        "page-range": "e0163525"
+      }
+    },
+    "compCwiek": {
+      "type": "Article",
+      "author": [
+        "Ćwiek, Aleksandra",
+        "Fuchs, Susanne",
+        "Draxler, Christoph",
+        "Asu, Eva Liina",
+        "Dediu, Dan",
+        "Hiovain, Katri",
+        "Kawahara, Shigeto",
+        "Koutalidis, Sofia",
+        "Krifka, Manfred",
+        "Lippus, Pärtel",
+        "Lupyan, Gary",
+        "Oh, Grace E.",
+        "Paul, Jing",
+        "Petrone, Caterina",
+        "Ridouane, Rachid",
+        "Reiter, Sabine",
+        "Schümchen, Nathalie",
+        "Szalontai, Ádám",
+        "Ünal-Logacev, Özlem",
+        "Zeller, Jochen",
+        "Perlman, Marcus",
+        "Winter, Bodo"
+      ],
+      "title": "The bouba/kiki effect is robust across cultures and writing systems",
+      "date": 2022,
+      "page-range": 20200390,
+      "serial-number": {
+        "doi": "10.1098/rstb.2020.0390"
+      },
+      "parent": {
+        "type": "Periodical",
+        "title": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+        "volume": 377,
+        "issue": 1841
+      }
+    },
+    "compGordon": {
+      "type": "Article",
+      "author": "Gordon, Kelley",
+      "title": "5 principles of visual design in UX",
+      "date": "2020-03-01",
+      "publisher": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/principles-visual-design/"
+    },
+    "compPernice": {
+      "type": "Article",
+      "author": "Pernice, Kara",
+      "title": "F-shaped pattern of reading on the web: Misunderstood, but still relevant (even on mobile)",
+      "date": "2017-11-12",
+      "publisher": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/"
+    },
+    "compGordonGerarchia": {
+      "type": "Article",
+      "author": "Gordon, Kelley",
+      "title": "Visual hierarchy in UX: Definition",
+      "date": "2021-01-17",
+      "publisher": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/visual-hierarchy-ux-definition/"
+    },
+    "compYang": {
+      "type": "Article",
+      "author": "Yang, Lillian",
+      "title": "Mood boards in UX: How and why to use them",
+      "date": "2023-02-26",
+      "publisher": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/mood-boards/"
+    },
+    "compUp": {
+      "type": "Video",
+      "affiliated": [
+        {
+          "role": "director",
+          "names": [
+            "Docter, Pete",
+            "Peterson, Bob"
+          ]
+        }
+      ],
+      "title": "Up",
+      "date": 2009,
+      "genre": "Film",
+      "publisher": "Pixar Animation Studios"
+    },
+    "compBudapest": {
+      "type": "Video",
+      "affiliated": [
+        {
+          "role": "director",
+          "names": "Anderson, Wes"
+        }
+      ],
+      "title": "The Grand Budapest Hotel",
+      "date": 2014,
+      "genre": "Film",
+      "publisher": "American Empirical Pictures; Indian Paintbrush; Studio Babelsberg"
+    },
+    "compBarthes": {
+      "type": "Article",
+      "author": "Barthes, Roland",
+      "title": "Rhétorique de l'image",
+      "date": 1964,
+      "page-range": "40-51",
+      "serial-number": {
+        "doi": "10.3406/comm.1964.1027"
+      },
+      "parent": {
+        "type": "Periodical",
+        "title": "Communications",
+        "volume": 4
+      }
+    },
+    "compOsenlund": {
+      "type": "Article",
+      "author": "Osenlund, R. Kurt",
+      "title": "Wes Anderson on using throwback ratios, romantic worldviews, and European reconnaissance to craft The Grand Budapest Hotel",
+      "date": "2014-03-08",
+      "url": "https://filmmakermagazine.com/84877-wes-anderson-on-using-throwback-ratios-romantic-worldviews-and-european-reconnaissance-to-craft-the-grand-budapest-hotel/",
+      "parent": {
+        "type": "Periodical",
+        "title": "Filmmaker"
+      }
+    },
+    "compFitts": {
+      "type": "Article",
+      "author": "Fitts, Paul M.",
+      "title": "The information capacity of the human motor system in controlling the amplitude of movement",
+      "date": 1954,
+      "page-range": "381-391",
+      "serial-number": {
+        "doi": "10.1037/h0055392"
+      },
+      "parent": {
+        "type": "Periodical",
+        "title": "Journal of Experimental Psychology",
+        "volume": 47,
+        "issue": 6
+      }
+    },
+    "compMacKenzie": {
+      "type": "Article",
+      "author": "MacKenzie, I. Scott",
+      "title": "Fitts' law as a research and design tool in human-computer interaction",
+      "date": 1992,
+      "page-range": "91-139",
+      "serial-number": {
+        "doi": "10.1207/s15327051hci0701_3"
+      },
+      "parent": {
+        "type": "Periodical",
+        "title": "Human-Computer Interaction",
+        "volume": 7,
+        "issue": 1
+      }
+    },
+    "compHick": {
+      "type": "Article",
+      "author": "Hick, W. E.",
+      "title": "On the rate of gain of information",
+      "date": 1952,
+      "page-range": "11-26",
+      "serial-number": {
+        "doi": "10.1080/17470215208416600"
+      },
+      "parent": {
+        "type": "Periodical",
+        "title": "Quarterly Journal of Experimental Psychology",
+        "volume": 4,
+        "issue": 1
+      }
+    },
+    "compHyman": {
+      "type": "Article",
+      "author": "Hyman, Ray",
+      "title": "Stimulus information as a determinant of reaction time",
+      "date": 1953,
+      "page-range": "188-196",
+      "serial-number": {
+        "doi": "10.1037/h0056940"
+      },
+      "parent": {
+        "type": "Periodical",
+        "title": "Journal of Experimental Psychology",
+        "volume": 45,
+        "issue": 3
+      }
+    },
+    "compFagerholt": {
+      "type": "Thesis",
+      "author": [
+        "Fagerholt, Erik",
+        "Lorentzon, Magnus"
+      ],
+      "title": "Beyond the HUD: User interfaces for increased player immersion in FPS games",
+      "date": 2009,
+      "genre": "Master's thesis",
+      "publisher": "Chalmers University of Technology",
+      "url": "https://odr.chalmers.se/server/api/core/bitstreams/fd267f70-c295-4eae-ae01-af5db676e61d/content"
+    },
+    "compHodent": {
+      "type": "Article",
+      "author": "Hodent, Celia",
+      "title": "Understanding the success of Fortnite: A UX & psychology perspective",
+      "date": "2019-07-22",
+      "url": "https://celiahodent.com/understanding-the-success-of-fortnite-ux/"
+    }
+  }
+}

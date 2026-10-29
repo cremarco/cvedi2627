@@ -8,6 +8,7 @@ const outputs = [
   'progetti/slide/.slidev', 'progetti/slide/slides-export',
   'progetti/slide/node_modules/.slidev', 'progetti/slide/node_modules/.vite-temp',
   'progetti/slide/public/images/shared', 'progetti/slide/public/audio/lezione-griglie',
+  'progetti/slide/public/audio/lezione-composizione',
   'progetti/booklet/main.pdf', 'progetti/booklet/build/booklet.pdf',
   ...['aperture', '00-frontespizio-indice', '01-storia-del-design', '02-ricerca',
     '03-accessibilita', '04-gestalt', '05-colore', '06-tipografia', '07-griglia']

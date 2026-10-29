@@ -1,0 +1,451 @@
+{
+  "check:source": {
+    "status": "passed",
+    "slides": 1387,
+    "composition": {
+      "slides": 70,
+      "minutes": 90,
+      "activityMinutes": 15,
+      "spokenWords": 9707,
+      "figures": 52
+    }
+  },
+  "build": {
+    "status": "passed",
+    "presentations": 13,
+    "publishedSlides": 853
+  },
+  "check:decks": {
+    "status": "passed",
+    "tests": 5
+  },
+  "check:composition": {
+    "status": "passed",
+    "renders": 210,
+    "slides": 70,
+    "presenterNotesChecked": [
+      5,
+      60
+    ],
+    "downloadResponses": 3,
+    "errors": []
+  },
+  "check:covers": {
+    "status": "passed",
+    "covers": 24,
+    "chapterCovers": 14,
+    "sectionDividers": 8,
+    "coverImages": 0,
+    "renders": 72,
+    "textClearance": "16px beyond the stroke",
+    "pageErrors": []
+  },
+  "check:motion": {
+    "status": "passed",
+    "checks": [
+      "finite cover entrance, cancellation on leave and replay on revisit",
+      "two finite cover routes and station arrivals preserve title position and sharpness",
+      "chapter and closing segments reach their station ticks, with one brief highlight and a complete reduced-motion alternative",
+      "all seven timelines preserve their 3–5 stations, keep labels fixed and synchronize every finite pulse to the segment head",
+      "reduced motion keeps all seven timelines complete and still",
+      "native print keeps all seven timelines complete and still",
+      "screen-media export keeps all seven timelines complete and still",
+      "history timeline cancels on leave and hidden tabs, then replays on revisit and restored visibility",
+      "calendars and grade bars use bounded reading-order sequences",
+      "comparison and example images retain reading order; narrow keyboard zoom opens, survives immediate reopening, and restores focus",
+      "reduced motion keeps static slides and a gentle non-spatial dialog acknowledgment",
+      "native print always shows the finished map",
+      "Slidev screen-media export is static without an arbitrary capture delay",
+      "navigation arrows respond to hover and focus only when spatial motion is permitted",
+      "hidden tabs cancel playback and visibility restores it"
+    ],
+    "pageErrors": [],
+    "headlessWakeLockWarnings": 96
+  },
+  "check:progress": {
+    "status": "passed",
+    "checks": [
+      "accessible counter updates independently of animation",
+      "rapid forward and backward navigation settles correctly",
+      "set changes reset without an old-set transition",
+      "non-contiguous closing reaches 100 percent of its own set",
+      "reduced motion is immediate",
+      "print does not animate",
+      "narrow viewport retains alignment",
+      "owning-set accents remain distinguishable at 3:1 or better on light slides and dark archive pages"
+    ],
+    "colors": [
+      {
+        "page": 44,
+        "lesson": "presentazione-corso",
+        "onDark": "true",
+        "fill": [
+          17,
+          206,
+          126
+        ],
+        "track": [
+          144,
+          43,
+          0
+        ],
+        "contrast": 4.011057755233324
+      },
+      {
+        "page": 2,
+        "lesson": "apertura",
+        "onDark": "false",
+        "fill": [
+          60,
+          99,
+          0
+        ],
+        "track": [
+          234,
+          239,
+          230
+        ],
+        "contrast": 6.042498735522035
+      },
+      {
+        "page": 9,
+        "lesson": "presentazione-corso",
+        "onDark": "false",
+        "fill": [
+          26,
+          94,
+          59
+        ],
+        "track": [
+          232,
+          238,
+          234
+        ],
+        "contrast": 6.590857298864516
+      },
+      {
+        "page": 48,
+        "lesson": "brief-progetto",
+        "onDark": "false",
+        "fill": [
+          46,
+          72,
+          155
+        ],
+        "track": [
+          232,
+          236,
+          246
+        ],
+        "contrast": 7.057670977262605
+      },
+      {
+        "page": 73,
+        "lesson": "approfondimenti",
+        "onDark": "false",
+        "fill": [
+          70,
+          65,
+          153
+        ],
+        "track": [
+          234,
+          235,
+          246
+        ],
+        "contrast": 7.152210570710414
+      },
+      {
+        "page": 94,
+        "lesson": "introduzione",
+        "onDark": "false",
+        "fill": [
+          26,
+          87,
+          109
+        ],
+        "track": [
+          231,
+          237,
+          240
+        ],
+        "contrast": 6.761620773871526
+      },
+      {
+        "page": 244,
+        "lesson": "ricerca-inclusiva",
+        "onDark": "false",
+        "fill": [
+          125,
+          58,
+          22
+        ],
+        "track": [
+          243,
+          234,
+          230
+        ],
+        "contrast": 7.12097386449311
+      },
+      {
+        "page": 330,
+        "lesson": "percezione-gerarchia",
+        "onDark": "false",
+        "fill": [
+          132,
+          37,
+          90
+        ],
+        "track": [
+          244,
+          233,
+          237
+        ],
+        "contrast": 7.40590171227053
+      },
+      {
+        "page": 435,
+        "lesson": "gestalt",
+        "onDark": "false",
+        "fill": [
+          114,
+          67,
+          22
+        ],
+        "track": [
+          241,
+          235,
+          230
+        ],
+        "contrast": 7.022379546365861
+      },
+      {
+        "page": 546,
+        "lesson": "colore",
+        "onDark": "false",
+        "fill": [
+          140,
+          39,
+          22
+        ],
+        "track": [
+          245,
+          233,
+          230
+        ],
+        "contrast": 7.315495143550623
+      },
+      {
+        "page": 605,
+        "lesson": "tipografia-griglie",
+        "onDark": "false",
+        "fill": [
+          97,
+          77,
+          22
+        ],
+        "track": [
+          238,
+          236,
+          231
+        ],
+        "contrast": 6.890609403200407
+      },
+      {
+        "page": 854,
+        "lesson": "esercitazione-01",
+        "onDark": "false",
+        "fill": [
+          26,
+          94,
+          59
+        ],
+        "track": [
+          232,
+          238,
+          234
+        ],
+        "contrast": 6.590857298864516
+      },
+      {
+        "page": 962,
+        "lesson": "esercitazione-02",
+        "onDark": "false",
+        "fill": [
+          26,
+          87,
+          109
+        ],
+        "track": [
+          231,
+          237,
+          240
+        ],
+        "contrast": 6.761620773871526
+      },
+      {
+        "page": 1041,
+        "lesson": "esercitazione-03",
+        "onDark": "false",
+        "fill": [
+          114,
+          46,
+          124
+        ],
+        "track": [
+          241,
+          233,
+          242
+        ],
+        "contrast": 7.373997204428097
+      },
+      {
+        "page": 1091,
+        "lesson": "esercitazione-04",
+        "onDark": "false",
+        "fill": [
+          125,
+          58,
+          22
+        ],
+        "track": [
+          243,
+          234,
+          230
+        ],
+        "contrast": 7.12097386449311
+      },
+      {
+        "page": 1133,
+        "lesson": "esercitazione-05",
+        "onDark": "false",
+        "fill": [
+          132,
+          37,
+          90
+        ],
+        "track": [
+          244,
+          233,
+          237
+        ],
+        "contrast": 7.40590171227053
+      },
+      {
+        "page": 1181,
+        "lesson": "esercitazione-06",
+        "onDark": "false",
+        "fill": [
+          114,
+          67,
+          22
+        ],
+        "track": [
+          241,
+          235,
+          230
+        ],
+        "contrast": 7.022379546365861
+      },
+      {
+        "page": 1251,
+        "lesson": "esercitazione-07",
+        "onDark": "false",
+        "fill": [
+          140,
+          39,
+          22
+        ],
+        "track": [
+          245,
+          233,
+          230
+        ],
+        "contrast": 7.315495143550623
+      },
+      {
+        "page": 1284,
+        "lesson": "esercitazione-08",
+        "onDark": "false",
+        "fill": [
+          97,
+          77,
+          22
+        ],
+        "track": [
+          238,
+          236,
+          231
+        ],
+        "contrast": 6.890609403200407
+      },
+      {
+        "page": 1344,
+        "lesson": "esercitazione-09",
+        "onDark": "false",
+        "fill": [
+          89,
+          81,
+          23
+        ],
+        "track": [
+          237,
+          236,
+          231
+        ],
+        "contrast": 6.791208438316068
+      }
+    ]
+  },
+  "check:typography": {
+    "status": "passed",
+    "checks": [
+      "normal, medium, semibold, bold and true italic load locally, including Italian glyphs",
+      "statistical numerals are physically aligned, not only declared tabular",
+      "font failure keeps long headings, prose and comparisons readable on desktop and narrow viewports"
+    ],
+    "delivery": [
+      {
+        "style": "normal",
+        "weights": "200 900",
+        "status": "loaded"
+      },
+      {
+        "style": "italic",
+        "weights": "200 900",
+        "status": "loaded"
+      }
+    ],
+    "numbers": {
+      "ones": 115.203125,
+      "eights": 115.203125,
+      "feature": "lining-nums tabular-nums",
+      "family": "\"Nunito Sans\", Inter, ui-sans-serif, system-ui, sans-serif",
+      "size": "32px"
+    },
+    "fontRequests": [
+      "http://localhost:3047/lezioni/brief-progetto/fonts/deck/nunito-sans-latin-wght-normal.woff2",
+      "http://localhost:3047/lezioni/brief-progetto/fonts/deck/nunito-sans-latin-wght-italic.woff2",
+      "http://localhost:3047/lezioni/presentazione-corso/fonts/deck/nunito-sans-latin-wght-normal.woff2"
+    ]
+  },
+  "check:decks:browser": {
+    "status": "passed",
+    "decks": 12,
+    "errors": [],
+    "failedRequests": []
+  },
+  "downloadPublication": {
+    "status": "passed",
+    "files": [
+      "invito.txt",
+      "invito-iniziale.svg",
+      "fonti.txt"
+    ],
+    "buildBytesMatch": true
+  },
+  "designDetector": {
+    "findings": [],
+    "scope": "lezione 10 Markdown; supplementary mechanical scan"
+  }
+}

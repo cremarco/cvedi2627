@@ -59,7 +59,9 @@
     "check:grids": "node progetti/slide/scripts/check/grids.mjs",
     "check:audio": "node progetti/slide/scripts/check/slide-audio.mjs",
     "css:home": "node ./node_modules/@tailwindcss/cli/dist/index.mjs -i ./progetti/home/home.source.css -o ./progetti/home/home.css --minify",
-    "check:home": "node progetti/home/scripts/check/course-home.mjs"
+    "check:home": "node progetti/home/scripts/check/course-home.mjs",
+    "build:composition": "python3 progetti/slide/scripts/build/composizione-assets.py && node progetti/slide/scripts/build/composizione-slides.mjs",
+    "check:composition": "node progetti/slide/scripts/check/composition.mjs"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.74.0",

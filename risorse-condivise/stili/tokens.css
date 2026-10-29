@@ -582,6 +582,16 @@
   --cvedi-ux-grid-accent-light: var(--cvedi-blue-accent-light);
   --cvedi-ux-grid-accent-vivid: var(--cvedi-blue-accent-vivid);
 
+  /* Lesson 10 follows blue with the next Tailwind family: indigo / Lime. */
+  --cvedi-ux-composition-base: var(--cvedi-indigo-800);
+  --cvedi-ux-composition-canvas: var(--cvedi-indigo-900);
+  --cvedi-ux-composition-deep: var(--cvedi-indigo-950);
+  --cvedi-ux-composition-light: var(--cvedi-indigo-100);
+  --cvedi-ux-composition-surface: var(--cvedi-indigo-50);
+  --cvedi-ux-composition-accent: var(--cvedi-indigo-accent);
+  --cvedi-ux-composition-accent-light: var(--cvedi-indigo-accent-light);
+  --cvedi-ux-composition-accent-vivid: var(--cvedi-indigo-accent-vivid);
+
   --cvedi-ux-prototype-base: var(--cvedi-indigo-800);
   --cvedi-ux-prototype-canvas: var(--cvedi-indigo-900);
   --cvedi-ux-prototype-deep: var(--cvedi-indigo-950);

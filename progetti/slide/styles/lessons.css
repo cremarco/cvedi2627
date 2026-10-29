@@ -97,9 +97,9 @@
 .lesson-teaching-figure > .lesson-figure { flex: 1 1 0; }
 .slidev-layout.default .lesson-teaching-figure > .aside { margin: 0; }
 /* Sources remain readable in the ordinary title/footer safe area. */
-.griglie-references.list { margin: 0; padding: 0; }
-.griglie-references .list-row { padding: 9px 0; }
-.griglie-references .list-row p {
+:is(.griglie-references, .lesson-references).list { margin: 0; padding: 0; }
+:is(.griglie-references, .lesson-references) .list-row { padding: 9px 0; }
+:is(.griglie-references, .lesson-references) .list-row p {
   margin: 3px 0 0;
   color: var(--cvedi-muted);
   font-size: var(--cvedi-type-note);

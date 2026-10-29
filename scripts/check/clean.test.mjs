@@ -23,6 +23,7 @@ test('removes only known output and bytecode while preserving all evidence and o
     'progetti/booklet/build/anteprime/custom.pdf': 'unknown PDF',
     'progetti/booklet/assets/original.pdf': 'original',
     'progetti/slide/public/images/original.webp': 'source image',
+    'progetti/slide/assets/audio/lezione-composizione/original.mp3': 'original audio',
     'risorse-condivise/immagini/manifest.json': '{}',
     'materiali/original.pdf': 'source document',
     'progetti/ilmeteo/archive/previous.html': 'archive',
@@ -39,6 +40,7 @@ test('removes only known output and bytecode while preserving all evidence and o
     'progetti/slide/dist/index.html': 'build',
     'progetti/slide/public/images/shared/copy.png': 'mirror',
     'progetti/slide/public/audio/lezione-griglie/clip.mp3': 'mirror',
+    'progetti/slide/public/audio/lezione-composizione/clip.mp3': 'mirror',
     'progetti/booklet/main.pdf': 'old compiled volume',
     'progetti/booklet/build/booklet.pdf': 'compiled volume',
     'progetti/booklet/build/anteprime/07-griglia.pdf': 'compiled chapter',
@@ -68,6 +70,7 @@ test('keep-dev preserves the Slidev catalog and local runtime caches', async () 
     'progetti/slide/node_modules/.vite-temp/config.mjs': 'transformed configuration',
     'progetti/slide/public/images/shared/runtime.png': 'preview image',
     'progetti/slide/public/audio/lezione-griglie/runtime.mp3': 'preview audio',
+    'progetti/slide/public/audio/lezione-composizione/runtime.mp3': 'preview audio',
   }
   try {
     await fixture(root, { ...caches, 'progetti/slide/dist/index.html': 'build' })

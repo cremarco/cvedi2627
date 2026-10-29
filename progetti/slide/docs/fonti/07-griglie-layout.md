@@ -1,6 +1,6 @@
 # Griglie e layout · fonti delle slide
 
-La lezione 09, autonoma e pubblicata online, segue Tipografia (08) e conclude il percorso delle lezioni. Comprende 63 slide senza divisori intermedi e 78 minuti pianificati, inclusi 15 minuti di attività.
+La lezione 09, autonoma e pubblicata online, segue Tipografia (08) e precede Composizione e gerarchia visiva (10). Comprende 63 slide senza divisori intermedi e 78 minuti pianificati, inclusi 15 minuti di attività.
 
 La fonte testuale corrente è `progetti/booklet/capitoli/07-griglia.typ`, comprese le integrazioni locali successive alla Page Figma `4954:42`. Non si attribuiscono ai nuovi contenuti ordinali o folio dello snapshot storico. Il piano editoriale e la mappa delle slide sono in `progetti/slide/assets/booklet/lezione-griglie/`; le 19 slide precedenti restano nell’archivio di Tipografia con le loro attribuzioni e note.
 

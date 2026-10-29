@@ -63,6 +63,10 @@ export const coverRoutes = {
     { route: 'M -32 620 H304 Q320 620 332 608 L400 540 Q412 528 428 528 H1048 Q1080 528 1080 560 V612 Q1080 644 1112 644 H1200 Q1232 644 1232 612 V88', tone: 'track', stopProgress: 0.44804, duration: 730, delay: 0, stations: [{ x: 200, y: 620, delay: 160 }, { x: 800, y: 528, delay: 430 }, { x: 1232, y: 264, delay: 690, rotation: 90 }] },
     { route: 'M -32 568 H240 Q256 568 268 580 L312 624 Q324 636 340 636 H864 Q880 636 892 624 L936 580 Q948 568 964 568 H1040', tone: 'accent', duration: 550, delay: 120, stations: [] },
   ],
+  'ux-composition': [
+    { route: 'M -32 632 H304 Q320 632 332 620 L356 596 Q368 584 384 584 H1120 Q1152 584 1152 616 V636 Q1152 660 1176 660 H1208 Q1240 660 1240 628 V80', tone: 'track', stopProgress: 0.4565, duration: 730, delay: 0, stations: [{ x: 200, y: 632, delay: 160 }, { x: 824, y: 584, delay: 430 }, { x: 1240, y: 264, delay: 690, rotation: 90 }] },
+    { route: 'M -32 576 H208 Q224 576 236 588 L284 636 Q296 648 312 648 H904 Q920 648 932 636 L968 600 Q980 588 996 588 H1064', tone: 'accent', duration: 550, delay: 120, stations: [] },
+  ],
   'ux-prototype': [
     { route: 'M -32 604 H568 Q584 604 596 592 L628 560 Q640 548 656 548 H1152 Q1184 548 1184 516 V168 Q1184 136 1216 136 H1312', tone: 'track', stopProgress: 0.50915, duration: 710, delay: 20, stations: [{ x: 272, y: 604, delay: 150 }, { x: 840, y: 548, delay: 430 }, { x: 1184, y: 280, delay: 680, rotation: 90 }] },
     { route: 'M 1312 644 H960 Q944 644 932 632 L896 596 Q884 584 868 584 H608', tone: 'accent', duration: 510, delay: 150, stations: [] },

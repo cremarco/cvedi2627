@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "origin": "imagegen",
+  "mode": "built-in",
+  "useCase": "photorealistic-natural",
+  "source": "progetti/slide/assets/slide-materials/composizione/headroom/ritratto-originale.png",
+  "sha256": "a1ae2083171328a3cdc544d05885ec6bf63b9535b245e596a793752f0e97db3f",
+  "promptSource": "progetti/slide/assets/slide-materials/composizione/headroom/prompt.txt",
+  "promptSha256": "60444525d05d366d83133b87131114bf09db5dc6c63832fef085ed8d1f225610",
+  "subject": "Persona fittizia; ritratto didattico generato con IA.",
+  "annotations": {
+    "source": "progetti/slide/assets/slide-materials/composizione/headroom/ritratto-annotato.typ",
+    "canvas": [
+      720,
+      480
+    ],
+    "lookingRoom": {
+      "start": [
+        1,
+        209
+      ],
+      "end": [
+        403,
+        209
+      ],
+      "axis": "horizontal"
+    },
+    "headroom": {
+      "start": [
+        501.1,
+        1
+      ],
+      "end": [
+        501.1,
+        42.2
+      ],
+      "axis": "vertical"
+    }
+  }
+}

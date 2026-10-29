@@ -1,0 +1,137 @@
+{
+  "version": "2026-10-27",
+  "mode": "built-in image_gen",
+  "rights": "Original AI-generated decorative illustrations for CVeDI.",
+  "styleReference": "progetti/slide/assets/theme-imagegen/lesson-09-cards/manifest.json",
+  "jobs": [
+    {
+      "id": "composizione-gerarchia-relazioni",
+      "subject": "A white composition sheet with three large simple geometric shapes: indigo circle, pale square and lime triangle, with a magnifying glass overlapping one corner. It represents reading the relations among visual elements.",
+      "prompt": "Create ONE standalone decorative educational editorial illustration for a CVeDI lesson objective card. Match the style of the reference: bold rounded dark navy outlines, simple familiar compact forms, opaque white and pale colored surfaces, very restrained dimensional edge, readable at 96px. Use indigo-950 #1E1B4B outlines, indigo-800 #3730A3, indigo-100 #E0E7FF, white, one lime #A3E635 accent. Square canvas, motif occupies 72%, at least 12% genuinely transparent margins, opaque object interiors, transparent background. No text, letters, numbers, logos, watermark, backdrop, enclosing badge, halo, extra objects. A white composition sheet with three large simple geometric shapes: indigo circle, pale square and lime triangle, with a magnifying glass overlapping one corner. It represents reading the relations among visual elements.",
+      "card": "Leggere le relazioni",
+      "family": "indigo",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-10-cards/originals/composizione-gerarchia-relazioni.png",
+      "web": "progetti/slide/public/images/generated/theme-2026/cards/lesson-10/composizione-gerarchia-relazioni.webp",
+      "promptFile": "progetti/slide/assets/theme-imagegen/lesson-10-cards/prompts/composizione-gerarchia-relazioni.txt",
+      "sha256": "d37ce452aaf8eb4ddb8c87ca6eae591e68e8609b6e7d9b948e13b6721ea9a1ef",
+      "publicationSha256": "1b91e36a252ce1dc3b9438ab62dbee1c1815f853d6d60a7e4add73a93a34e186",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ]
+      },
+      "owners": [
+        {
+          "lesson": "composizione-gerarchia",
+          "lessonSlide": 3,
+          "slideAlias": "composizione-gerarchia-obiettivi",
+          "card": "Leggere le relazioni"
+        }
+      ],
+      "generatedSource": "/Users/marco/.codex/generated_images/01a17d05-eb27-7cc2-968f-f1fbd25d8659/exec-e6682689-8930-4329-9edc-012a3b5d7464.png",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Three compact page/lens, hierarchy/pencil and comparison/check motifs reviewed as a contact sheet against the existing card family; indigo with lime accent."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true,
+        "exact": true
+      },
+      "status": "complete"
+    },
+    {
+      "id": "composizione-gerarchia-priorita",
+      "subject": "A white upright page with three horizontal information blocks of clearly descending size and weight. One large indigo top block, a medium pale block, a small outlined block, and one lime pencil diagonally along its side. It represents assigning priorities to content.",
+      "prompt": "Create ONE standalone decorative educational editorial illustration for a CVeDI lesson objective card. Match the style of the reference: bold rounded dark navy outlines, simple familiar compact forms, opaque white and pale colored surfaces, very restrained dimensional edge, readable at 96px. Use indigo-950 #1E1B4B outlines, indigo-800 #3730A3, indigo-100 #E0E7FF, white, one lime #A3E635 accent. Square canvas, motif occupies 72%, at least 12% genuinely transparent margins, opaque object interiors, transparent background. No text, letters, numbers, logos, watermark, backdrop, enclosing badge, halo, extra objects. A white upright page with three horizontal information blocks of clearly descending size and weight. One large indigo top block, a medium pale block, a small outlined block, and one lime pencil diagonally along its side. It represents assigning priorities to content.",
+      "card": "Costruire le priorità",
+      "family": "indigo",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-10-cards/originals/composizione-gerarchia-priorita.png",
+      "web": "progetti/slide/public/images/generated/theme-2026/cards/lesson-10/composizione-gerarchia-priorita.webp",
+      "promptFile": "progetti/slide/assets/theme-imagegen/lesson-10-cards/prompts/composizione-gerarchia-priorita.txt",
+      "sha256": "642a6d6aa17ab820236fe267660bab95a9849f5a684358cee836580a7805197d",
+      "publicationSha256": "46fbd1e93b6c426581953b7d7bb4f4a7178a084e53954726c80ac0b6d7039d3d",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ]
+      },
+      "owners": [
+        {
+          "lesson": "composizione-gerarchia",
+          "lessonSlide": 3,
+          "slideAlias": "composizione-gerarchia-obiettivi",
+          "card": "Costruire le priorità"
+        }
+      ],
+      "generatedSource": "/Users/marco/.codex/generated_images/01a17d05-eb27-7cc2-968f-f1fbd25d8659/exec-9253d9b3-e231-4e51-b03c-18c39008a429.png",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Three compact page/lens, hierarchy/pencil and comparison/check motifs reviewed as a contact sheet against the existing card family; indigo with lime accent."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true,
+        "exact": true
+      },
+      "status": "complete"
+    },
+    {
+      "id": "composizione-gerarchia-verifica",
+      "subject": "Two small white composition sheets side by side, each with a few broad indigo content blocks. In front of them, one large lime check mark with navy outline and a small magnifying glass at the corner. It represents comparing two compositions against a task.",
+      "prompt": "Create ONE standalone decorative educational editorial illustration for a CVeDI lesson objective card. Match the style of the reference: bold rounded dark navy outlines, simple familiar compact forms, opaque white and pale colored surfaces, very restrained dimensional edge, readable at 96px. Use indigo-950 #1E1B4B outlines, indigo-800 #3730A3, indigo-100 #E0E7FF, white, one lime #A3E635 accent. Square canvas, motif occupies 72%, at least 12% genuinely transparent margins, opaque object interiors, transparent background. No text, letters, numbers, logos, watermark, backdrop, enclosing badge, halo, extra objects. Two small white composition sheets side by side, each with a few broad indigo content blocks. In front of them, one large lime check mark with navy outline and a small magnifying glass at the corner. It represents comparing two compositions against a task.",
+      "card": "Verificare il compito",
+      "family": "indigo",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-10-cards/originals/composizione-gerarchia-verifica.png",
+      "web": "progetti/slide/public/images/generated/theme-2026/cards/lesson-10/composizione-gerarchia-verifica.webp",
+      "promptFile": "progetti/slide/assets/theme-imagegen/lesson-10-cards/prompts/composizione-gerarchia-verifica.txt",
+      "sha256": "edaddf032730d421190fa77648e927fb96d24c5a76526d394b0b5ef18294d1aa",
+      "publicationSha256": "c2a386fed63b005e71937227b50a2ea8b024503b75d1bcfd0ea28d6b432cbe76",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ]
+      },
+      "owners": [
+        {
+          "lesson": "composizione-gerarchia",
+          "lessonSlide": 3,
+          "slideAlias": "composizione-gerarchia-obiettivi",
+          "card": "Verificare il compito"
+        }
+      ],
+      "generatedSource": "/Users/marco/.codex/generated_images/01a17d05-eb27-7cc2-968f-f1fbd25d8659/exec-e059cdae-6bac-4916-b9c9-07fb436ad781.png",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Three compact page/lens, hierarchy/pencil and comparison/check motifs reviewed as a contact sheet against the existing card family; indigo with lime accent."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true,
+        "exact": true
+      },
+      "status": "complete"
+    }
+  ]
+}

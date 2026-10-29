@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "origin": "imagegen",
+  "mode": "built-in",
+  "useCase": "ads-marketing",
+  "source": "progetti/slide/assets/slide-materials/composizione/invito-finale/invito-finale-v1.png",
+  "sha256": "93d85159d5ac98249f492c68d015c89050f00768c57b2ebcd34b44554bbfd43c",
+  "promptSource": "progetti/slide/assets/slide-materials/composizione/invito-finale/prompt.txt",
+  "promptSha256": "9667f7f52691425599029702d7f3ac5a8789d460758ae4148d972ec025125dc3",
+  "text": [
+    "Laboratorio di fotografia",
+    "Sperimentare con la luce",
+    "Sabato 14 novembre",
+    "Dalle 10 alle 13",
+    "Spazio Officina",
+    "Via del Parco 8",
+    "Iscrizione gratuita",
+    "Iscriviti"
+  ],
+  "visualReview": {
+    "status": "accepted",
+    "text": "Otto testi corretti e presenti una sola volta; dati e comando distinti e leggibili; immagine coerente con l’idea guida.",
+    "simulation": true
+  }
+}

@@ -230,9 +230,14 @@ try {
     await page.emulateMedia({ reducedMotion: mode.reducedMotion, media: mode.media })
     for (const [index, fixture] of timelineFixtures.entries()) {
       if (mode.export) {
-        const slideNumber = fixture.index + 1
+        // The menu resolves global aliases, while native exports belong to
+        // one independent presentation and use that presentation's numbering.
+        const owner = fixture.frontmatter.lesson ?? 'presentazione-corso'
+        const owned = deck.slides.filter(slide => (slide.frontmatter.lesson ?? 'presentazione-corso') === owner)
+        const slideNumber = owned.indexOf(fixture) + 1
+        const exportBase = owner === 'apertura' ? base : `${base}/lezioni/${owner}`
         exportSlideNumber = slideNumber
-        await page.goto(`${base}/?print=true#/${slideNumber}?range=${slideNumber}`)
+        await page.goto(`${exportBase}/?print=true&range=${slideNumber}#/${slideNumber}`)
         await active().waitFor()
       } else await go(fixture.frontmatter.routeAlias || fixture.index + 1)
       await assertStaticTimeline(fixture, timelineCounts[index])
@@ -326,7 +331,7 @@ try {
 
   await page.emulateMedia({ media: 'screen' })
   exportSlideNumber = 1
-  await page.goto(`${base}/?print=true#/1?range=1`)
+  await page.goto(`${base}/?print=true&range=1#/1`)
   await active().waitFor()
   await assertStaticMap()
   checks.push('Slidev screen-media export is static without an arbitrary capture delay')

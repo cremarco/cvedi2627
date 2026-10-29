@@ -16,7 +16,7 @@ const fixtures = theorySlides.filter(slide => /\b(?:cover-slide|chapter-slide|cl
 const sectionDividers = theorySlides.filter(slide => slide.frontmatter.sectionDivider === true)
 const chapterCovers = fixtures.filter(slide => /\bchapter-slide\b/.test(slide.frontmatter.class ?? '') && slide.frontmatter.sectionDivider !== true)
 const curriculum = JSON.parse(await readFile(new URL('../../data/ux-curriculum.json', import.meta.url), 'utf8'))
-assert.equal(chapterCovers.length, 8 + curriculum.lessons.length, 'all original, UX and supplementary grids chapter openings remain present')
+assert.equal(chapterCovers.length, 9 + curriculum.lessons.length, 'all original, UX and supplementary grids chapter openings remain present')
 const typographyDividers = sectionDividers.filter(slide => slide.frontmatter.lesson === 'tipografia-griglie')
 const gridsDividers = sectionDividers.filter(slide => slide.frontmatter.lesson === 'griglie-layout')
 assert.equal(typographyDividers.length, 8, 'the typography-only lesson retains its eight section openings')

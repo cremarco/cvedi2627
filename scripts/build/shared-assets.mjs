@@ -14,21 +14,34 @@ const sourceFile = file => file.startsWith(slideFigurePrefix)
   ? path.join(slideFigureDirectory, file.slice(slideFigurePrefix.length))
   : path.join(sourceDirectory, file)
 const imageExtension = /\.(?:avif|gif|jpe?g|png|svg|webp)$/i
-const audioOutputDirectory = path.join(root, 'progetti/slide/public/audio/lezione-griglie')
+const audioLessons = [
+  { directory: 'lezione-griglie', lesson: 'griglie-layout' },
+  { directory: 'lezione-composizione', lesson: 'composizione-gerarchia' },
+]
 
 /** Espone soltanto gli audio approvati, senza esportare le prove precedenti. */
 export async function prepareSlideAudioAssets({ check = false } = {}) {
-  const selection = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/booklet/lezione-griglie/audio-approved.json'), 'utf8'))
-  if (selection.version !== 1 || selection.lesson !== 'griglie-layout' || !selection.clips ||
+  const files = []
+  for (const specification of audioLessons)
+    files.push(...await prepareLessonAudioAssets(specification, { check }))
+  return files
+}
+
+async function prepareLessonAudioAssets({ directory, lesson }, { check }) {
+  const audioOutputDirectory = path.join(root, 'progetti/slide/public/audio', directory)
+  const sourcePrefix = `progetti/slide/assets/audio/${directory}/`
+  const webPrefix = `/audio/${directory}/`
+  const selection = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/booklet', directory, 'audio-approved.json'), 'utf8'))
+  if (selection.version !== 1 || selection.lesson !== lesson || !selection.clips ||
     typeof selection.clips !== 'object' || Array.isArray(selection.clips) || !Object.keys(selection.clips).length)
     throw new Error('Selezione degli audio approvati non valida.')
 
   const selected = new Map()
   // Tutti i percorsi e gli hash vengono verificati prima di cancellare il mirror.
   for (const [alias, clip] of Object.entries(selection.clips)) {
-    if (!/^griglie-layout(?:-[a-z0-9]+)*$/.test(alias) || !clip || typeof clip !== 'object' ||
-      typeof clip.source !== 'string' || !/^progetti\/slide\/assets\/audio\/lezione-griglie\/[a-z0-9][a-z0-9._-]*\.mp3$/.test(clip.source) ||
-      clip.web !== '/audio/lezione-griglie/' + path.basename(clip.source) ||
+    if (!(alias === lesson || alias.startsWith(lesson + '-')) || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(alias) || !clip || typeof clip !== 'object' ||
+      typeof clip.source !== 'string' || !clip.source.startsWith(sourcePrefix) || !/^[a-z0-9][a-z0-9._-]*\.mp3$/.test(clip.source.slice(sourcePrefix.length)) ||
+      clip.web !== webPrefix + path.basename(clip.source) ||
       typeof clip.sha256 !== 'string' || !/^[a-f0-9]{64}$/.test(clip.sha256) ||
       !Number.isFinite(clip.durationSeconds) || clip.durationSeconds <= 0)
       throw new Error(`${alias}: riferimento all'audio approvato non valido.`)

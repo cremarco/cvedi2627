@@ -15,10 +15,11 @@ export async function checkPublication() {
   const curriculum = JSON.parse(await readFile(path.join(root, 'progetti/slide/data/ux-curriculum.json'), 'utf8'))
   const exercises = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/esercitazioni/manifest.json'), 'utf8'))
   const grids = await readGridsManifest()
+  const compositionSelection = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/booklet/lezione-composizione/audio-approved.json'), 'utf8'))
   const uxIds = new Set(curriculum.lessons.map(lesson => lesson.id))
   const localUxIds = curriculum.lessons.filter(lesson => lesson.localOnly === true).map(lesson => lesson.id)
   assert.deepEqual(localUxIds, [], 'the active historical UX lessons are published')
-  const supplementalIds = [grids.lesson]
+  const supplementalIds = [grids.lesson, 'composizione-gerarchia']
   const localIds = new Set([...localUxIds, ...exercises.exercises.map(exercise => exercise.id)])
   const options = { roots: [path.join(root, 'progetti/slide')], userRoot: path.join(root, 'progetti/slide'), allowedRoots: [root] }
   injectPreparserExtensionLoader(async (_roots, _headmatter, _file, mode) => publicationExtensions(mode))
@@ -44,8 +45,8 @@ export async function checkPublication() {
     }
     assert.equal(local.slides.filter(slide => slide.frontmatter.lesson === grids.lesson).length, grids.slideCount, 'supplementary grids count matches its independent current manifest')
     assert.ok(local.slides.filter(slide => slide.frontmatter.lesson === grids.lesson).every(slide => slide.frontmatter.localOnly !== true), 'all supplementary grids slides are published')
-    assert.equal(local.slides.length, 243 + declaredUxSlides + exercises.slideCount + grids.slideCount, 'complete local deck includes the supplementary grids set, index and exercises')
-    assert.equal(published.slides.length, 783, 'published deck adds the 63 authorized grids slides and preserves the published lessons')
+    assert.equal(local.slides.length, 243 + declaredUxSlides + exercises.slideCount + grids.slideCount + 62, 'complete local deck includes the final invitation, preserved composition slides, index and exercises')
+    assert.equal(published.slides.length, 845, 'published deck contains the 62 active composition slides')
     for (const deck of [local, published]) {
       assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design').length, 67, 'lesson 03 is available locally and online')
       assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'storia-design'), 'lesson 03 retains its destination alias')
@@ -58,6 +59,12 @@ export async function checkPublication() {
       assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'tipografia-griglie'), 'lesson 08 retains its destination alias')
       assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === grids.lesson).length, grids.slideCount, 'lesson 09 is complete locally and online')
       assert.ok(deck.slides.filter(slide => slide.frontmatter.lesson === grids.lesson).every(slide => slide.frontmatter.narrationAudio), 'every grids slide keeps its audio locally and online')
+      const composition = deck.slides.filter(slide => slide.frontmatter.lesson === 'composizione-gerarchia')
+      assert.equal(composition.length, 62, 'composition is complete locally and online')
+      assert.ok(!composition.some(slide => ['composizione-gerarchia-hud', 'composizione-gerarchia-diegesi', 'composizione-gerarchia-moodboard', 'composizione-gerarchia-moodboard-sistema', 'composizione-gerarchia-materiali', 'composizione-gerarchia-attivita-variazione', 'composizione-gerarchia-attivita-verifica', 'composizione-gerarchia-restituzione', 'composizione-gerarchia-chiusura'].includes(slide.frontmatter.routeAlias)), 'excluded slides have no active route')
+      assert.ok(composition.every(slide => slide.note?.trim()), 'composition keeps its complete notes locally and online')
+      for (const slide of composition)
+        assert.equal(slide.frontmatter.narrationAudio, compositionSelection.clips[slide.frontmatter.routeAlias]?.web, 'composition publishes precisely its selected recordings')
       assert.ok(!deck.slides.some(slide => slide.frontmatter.routeAlias === 'tipografia-griglie-tipo-prove-esplorative'), 'the removed booklet content is absent locally and online')
     }
     assert.ok(published.slides.every(slide => !localIds.has(slide.frontmatter.lesson)), 'local lessons are absent from routes and overview')
@@ -80,6 +87,7 @@ export async function checkPublication() {
       assert.match(content, /<SlideAction\s+to="tipografia-griglie"[^>]*>\s*<span class="index-chapter-number">08<\/span>/, 'typography retains lesson 08 in both indexes')
       assert.match(content, /<SlideAction\s+to="griglie-layout"[^>]*>\s*<span class="index-chapter-number">09<\/span>/, 'grids retain lesson 09 in both indexes')
       assert.match(content, /<SlideAction\s+to="griglie-layout"[^>]*aria-label="09 Griglie e layout · Audio disponibile"[^>]*>[\s\S]*?<HeroIcon\s+name="speaker-wave"\s+class="index-audio-icon\s/, 'both indexes announce and show available grids audio')
+      assert.match(content, /<SlideAction\s+to="composizione-gerarchia"[^>]*aria-label="10 Composizione e gerarchia visiva · Audio disponibile"[^>]*>[\s\S]*?<HeroIcon\s+name="speaker-wave"\s+class="index-audio-icon\s/, 'both indexes announce and show available composition audio')
     }
     assert.ok(Object.keys(published.markdownFiles).includes(path.join(root, 'progetti/slide/lezioni/07-griglie-layout.md')), 'supplementary grids source is imported by the published parser')
     assert.ok(!publicIndex.includes('LocalOnly'), 'no local-only wrapper remains in the public lesson index')
@@ -155,6 +163,26 @@ export async function checkPublishedBuild(directory) {
     assert.equal(createHash('sha256').update(bytes).digest('hex'), clip.sha256, `${alias}: the online recording matches its approved hash`)
     assert.deepEqual(bytes, await readFile(path.join(root, clip.source)), `${alias}: publication preserves the original MP3 bytes`)
   }
+  const composition = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/booklet/lezione-composizione/manifest.json'), 'utf8'))
+  const compositionArchive = JSON.parse(await readFile(path.join(root, composition.excludedSlidesSource), 'utf8'))
+  for (const removed of compositionArchive.removedAssets) {
+    const publishedPath = removed.file.startsWith('risorse-condivise/immagini/')
+      ? 'images/shared/' + removed.file.slice('risorse-condivise/immagini/'.length)
+      : removed.file.startsWith('progetti/slide/public/') ? removed.file.slice('progetti/slide/public/'.length) : null
+    if (publishedPath) await assert.rejects(access(path.join(output, publishedPath)), { code: 'ENOENT' }, 'removed composition files are absent from the build')
+  }
+  const compositionAudio = JSON.parse(await readFile(path.join(root, composition.audioSelectionSource), 'utf8'))
+  assert.deepEqual(Object.keys(compositionAudio.clips), composition.slides.filter(slide => compositionAudio.clips[slide.alias]).map(slide => slide.alias), 'selected composition audio retains lesson order')
+  assert.deepEqual(compositionAudio.pendingGeneration ?? [], composition.slides.filter(slide => slide.narrationEnabled !== false && !compositionAudio.clips[slide.alias]).map(slide => slide.alias), 'every requested missing composition audio is pending')
+  assert.ok(composition.slides.filter(slide => slide.narrationEnabled === false).every(slide => !compositionAudio.clips[slide.alias]), 'disabled composition audio is absent from the publication selection')
+  const compositionFiles = await readdir(path.join(output, 'audio/lezione-composizione'))
+  assert.deepEqual(compositionFiles.sort(), Object.values(compositionAudio.clips).map(clip => path.basename(clip.web)).sort(), 'only selected composition MP3 files are published')
+  for (const [alias, clip] of Object.entries(compositionAudio.clips)) {
+    assert.ok(references.includes(clip.web), `${alias}: the published slide references its recording`)
+    const bytes = await readFile(path.join(output, clip.web))
+    assert.equal(createHash('sha256').update(bytes).digest('hex'), clip.sha256)
+    assert.deepEqual(bytes, await readFile(path.join(root, clip.source)), `${alias}: original MP3 bytes are preserved`)
+  }
   assert.ok(catalog.decks.every(deck => !deck.id.startsWith('esercitazione-')), 'no exercise deck is registered online')
   const exercises = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/esercitazioni/manifest.json'), 'utf8'))
   for (const exercise of exercises.exercises)
@@ -174,7 +202,7 @@ export async function checkPublishedBuild(directory) {
     assert.ok(references.includes(asset), `${id}: lesson card artwork is registered in the published bundle`)
     assert.deepEqual(await readFile(path.join(output, asset)), await readFile(path.join(root, 'progetti/slide/public', asset)), `${id}: lesson artwork preserves its source bytes`)
   }
-  return { output, publishedGridsSlides: grids.slideCount, publishedAudioClips: audioFiles.length, publishedGridsFigures: selectedFigures.length, localAssetsExcluded: true, exerciseDecksExcluded: exercises.exercises.length, exerciseDataExcluded: true }
+  return { output, publishedGridsSlides: grids.slideCount, publishedAudioClips: audioFiles.length + compositionFiles.length, publishedCompositionAudioClips: compositionFiles.length, publishedGridsFigures: selectedFigures.length, localAssetsExcluded: true, exerciseDecksExcluded: exercises.exercises.length, exerciseDataExcluded: true }
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
