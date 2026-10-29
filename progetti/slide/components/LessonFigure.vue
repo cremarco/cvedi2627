@@ -15,6 +15,7 @@ withDefaults(defineProps<{
   panels?: number
   panelAspectRatio?: string
   verticalRange?: [number, number]
+  crop?: [number, number, number, number]
   maxScale?: number
   zoomFullImage?: boolean
 }>(), { panels: 1, panelAspectRatio: '4 / 3' })
@@ -65,6 +66,7 @@ function syncDialogState() {
           :panels="panels"
           :panel-aspect-ratio="panelAspectRatio"
           :vertical-range="verticalRange"
+          :crop="crop"
           :max-scale="maxScale"
           @size-change="matchImageSize"
         />
@@ -104,7 +106,7 @@ function syncDialogState() {
             </button>
           </form>
         </header>
-        <LessonImageContent v-if="imageIsOpen" :src="src" :alt="alt" :panels="panels" :panel-aspect-ratio="panelAspectRatio" :vertical-range="zoomFullImage ? undefined : verticalRange" :max-scale="maxScale" />
+        <LessonImageContent v-if="imageIsOpen" :src="src" :alt="alt" :panels="panels" :panel-aspect-ratio="panelAspectRatio" :vertical-range="zoomFullImage ? undefined : verticalRange" :crop="crop" :max-scale="maxScale" />
       </div>
       <form method="dialog" class="modal-backdrop"><button type="submit">Chiudi immagine</button></form>
     </dialog>

@@ -16,7 +16,7 @@
       "sha256": "7fe1730dab24c6981e409d062d3f0f4c1474bf06a9a463dc17edb46c3373e827",
       "pdf": "progetti/slide/assets/esercitazioni/originali/01-html-css-base.pdf",
       "pdfSha256": "e76d69fb0585788f5c33d0a38823eea2f8a053743d890915010eff8db32d7343",
-      "slideCount": 108,
+      "slideCount": 66,
       "mapping": [
         {
           "sourceSlide": 1,
@@ -575,6 +575,706 @@
         "specification": "progetti/slide/data/esercitazioni/native-examples.mjs",
         "renderer": "progetti/slide/components/ExerciseNative.vue",
         "corrections": []
+      },
+      "currentMapping": [
+        {
+          "sourceSlide": 1,
+          "sourceTitle": "Corso di CVeDI (8 CFU)",
+          "slides": [
+            1
+          ]
+        },
+        {
+          "sourceSlide": 2,
+          "sourceTitle": "RIPASSO HTML E CSS",
+          "slides": [
+            2
+          ]
+        },
+        {
+          "sourceSlide": 3,
+          "sourceTitle": "PAGINE WEB E CODICE DI MARKUP",
+          "slides": [
+            3
+          ]
+        },
+        {
+          "sourceSlide": 4,
+          "sourceTitle": "L’ARCHITETTURA DEL WEB",
+          "slides": [
+            4
+          ]
+        },
+        {
+          "sourceSlide": 5,
+          "sourceTitle": "L’ARCHITETTURA DEL WEB",
+          "slides": [
+            5
+          ]
+        },
+        {
+          "sourceSlide": 6,
+          "sourceTitle": "IL BROWSER",
+          "slides": [
+            6
+          ]
+        },
+        {
+          "sourceSlide": 7,
+          "sourceTitle": "DIFFUSIONE DEI BROWSER",
+          "slides": [
+            7
+          ]
+        },
+        {
+          "sourceSlide": 8,
+          "sourceTitle": "WEB PAGE",
+          "slides": [
+            8
+          ]
+        },
+        {
+          "sourceSlide": 9,
+          "sourceTitle": "GLI IPERTESTI",
+          "slides": [
+            9
+          ]
+        },
+        {
+          "sourceSlide": 10,
+          "sourceTitle": "I LINGUAGGI DI MARKUP",
+          "slides": [
+            10
+          ]
+        },
+        {
+          "sourceSlide": 11,
+          "sourceTitle": "NON È UN LINGUAGGIO DI PROGRAMMAZIONE",
+          "slides": [
+            11
+          ]
+        },
+        {
+          "sourceSlide": 12,
+          "sourceTitle": "PAGINA HTML",
+          "slides": [
+            12
+          ]
+        },
+        {
+          "sourceSlide": 13,
+          "sourceTitle": "PAGINA HTML BASE - ESEMPIO DI ANNIDAMENTO DEI TAG",
+          "slides": [
+            13
+          ]
+        },
+        {
+          "sourceSlide": 14,
+          "sourceTitle": "TAG E ATTRIBUTI",
+          "slides": [
+            14
+          ]
+        },
+        {
+          "sourceSlide": 15,
+          "sourceTitle": "Tag di apertura e chiusura",
+          "slides": [
+            15
+          ]
+        },
+        {
+          "sourceSlide": 16,
+          "sourceTitle": "GLI ELEMENTI IN HTML",
+          "slides": [
+            16
+          ]
+        },
+        {
+          "sourceSlide": 17,
+          "sourceTitle": "ESEMPIO DI RENDERING",
+          "slides": [
+            17
+          ]
+        },
+        {
+          "sourceSlide": 18,
+          "sourceTitle": "Attributi di un tag HTML",
+          "slides": [
+            18
+          ]
+        },
+        {
+          "sourceSlide": 19,
+          "sourceTitle": "GLI ATTRIBUTI",
+          "slides": [
+            18
+          ]
+        },
+        {
+          "sourceSlide": 20,
+          "sourceTitle": "DIVERSI TIPI DI TAG",
+          "slides": [
+            19
+          ]
+        },
+        {
+          "sourceSlide": 21,
+          "sourceTitle": "TAG PER IL LAYOUT",
+          "slides": [
+            20
+          ]
+        },
+        {
+          "sourceSlide": 22,
+          "sourceTitle": "TAG PER I TESTI",
+          "slides": [
+            21
+          ]
+        },
+        {
+          "sourceSlide": 23,
+          "sourceTitle": "TAG PER I TESTI",
+          "slides": [
+            22
+          ]
+        },
+        {
+          "sourceSlide": 24,
+          "sourceTitle": "TAG PER I COMMENTI",
+          "slides": [
+            23
+          ]
+        },
+        {
+          "sourceSlide": 25,
+          "sourceTitle": "ELENCHI PUNTATI E NUMERATI",
+          "slides": [
+            24
+          ]
+        },
+        {
+          "sourceSlide": 26,
+          "sourceTitle": "ELENCHI PUNTATI E NUMERATI",
+          "slides": [
+            25
+          ]
+        },
+        {
+          "sourceSlide": 27,
+          "sourceTitle": "TABELLE",
+          "slides": [
+            26
+          ]
+        },
+        {
+          "sourceSlide": 28,
+          "sourceTitle": "Form",
+          "slides": [
+            27
+          ]
+        },
+        {
+          "sourceSlide": 29,
+          "sourceTitle": "Immagini",
+          "slides": [
+            28
+          ]
+        },
+        {
+          "sourceSlide": 30,
+          "sourceTitle": "LINK",
+          "slides": [
+            29
+          ]
+        },
+        {
+          "sourceSlide": 31,
+          "sourceTitle": "File paths",
+          "slides": [
+            30
+          ]
+        },
+        {
+          "sourceSlide": 32,
+          "sourceTitle": "Absolute path",
+          "slides": [
+            31
+          ]
+        },
+        {
+          "sourceSlide": 33,
+          "sourceTitle": "Relative path",
+          "slides": [
+            32
+          ]
+        },
+        {
+          "sourceSlide": 34,
+          "sourceTitle": "Tipi di relative path",
+          "slides": [
+            33
+          ]
+        },
+        {
+          "sourceSlide": 35,
+          "sourceTitle": "Tipi di relative path · esempio",
+          "slides": [
+            34
+          ]
+        },
+        {
+          "sourceSlide": 36,
+          "sourceTitle": "Tipi di relative path · esempio",
+          "slides": [
+            35
+          ]
+        },
+        {
+          "sourceSlide": 37,
+          "sourceTitle": "Tipi di relative path · esempio",
+          "slides": [
+            36
+          ]
+        },
+        {
+          "sourceSlide": 38,
+          "sourceTitle": "Tipi di relative path · esempio",
+          "slides": [
+            37
+          ]
+        },
+        {
+          "sourceSlide": 39,
+          "sourceTitle": "Tipi di relative path · esempio",
+          "slides": [
+            38
+          ]
+        },
+        {
+          "sourceSlide": 40,
+          "sourceTitle": "GERARCHIA DEI TAG",
+          "slides": [
+            39
+          ]
+        },
+        {
+          "sourceSlide": 41,
+          "sourceTitle": "Il tag <body>",
+          "slides": [
+            40
+          ]
+        },
+        {
+          "sourceSlide": 42,
+          "sourceTitle": "Gerarchia dei tag (1)",
+          "slides": [
+            41
+          ]
+        },
+        {
+          "sourceSlide": 43,
+          "sourceTitle": "Gerarchia dei tag (2)",
+          "slides": [
+            42
+          ]
+        },
+        {
+          "sourceSlide": 44,
+          "sourceTitle": "Gerarchia dei tag (2) · esempio",
+          "slides": [
+            43
+          ]
+        },
+        {
+          "sourceSlide": 45,
+          "sourceTitle": "Ereditarietà",
+          "slides": [
+            44
+          ]
+        },
+        {
+          "sourceSlide": 46,
+          "sourceTitle": "INTRODUZIONE AI CSS",
+          "slides": [
+            45
+          ]
+        },
+        {
+          "sourceSlide": 47,
+          "sourceTitle": "Cascading Style Sheets",
+          "slides": [
+            46
+          ]
+        },
+        {
+          "sourceSlide": 48,
+          "sourceTitle": "Nell’HTML standard (senza CSS)",
+          "slides": [
+            47
+          ]
+        },
+        {
+          "sourceSlide": 49,
+          "sourceTitle": "Con i CSS, invece...",
+          "slides": [
+            48
+          ]
+        },
+        {
+          "sourceSlide": 50,
+          "sourceTitle": "Con i CSS, invece...",
+          "slides": [
+            49
+          ]
+        },
+        {
+          "sourceSlide": 51,
+          "sourceTitle": "Con i CSS, invece... · esempio",
+          "slides": [
+            50
+          ]
+        },
+        {
+          "sourceSlide": 52,
+          "sourceTitle": "Tipi di CSS",
+          "slides": [
+            51
+          ]
+        },
+        {
+          "sourceSlide": 53,
+          "sourceTitle": "CSS in linea (inline)",
+          "slides": [
+            52
+          ]
+        },
+        {
+          "sourceSlide": 54,
+          "sourceTitle": "CSS interni (embedded)",
+          "slides": [
+            53
+          ]
+        },
+        {
+          "sourceSlide": 55,
+          "sourceTitle": "CSS esterni (external)",
+          "slides": [
+            54
+          ]
+        },
+        {
+          "sourceSlide": 56,
+          "sourceTitle": "Sintassi di una regola CSS",
+          "slides": [
+            55
+          ]
+        },
+        {
+          "sourceSlide": 57,
+          "sourceTitle": "I selettori di base",
+          "slides": [
+            56
+          ]
+        },
+        {
+          "sourceSlide": 58,
+          "sourceTitle": "I selettori di relazione (1)",
+          "slides": [
+            57
+          ]
+        },
+        {
+          "sourceSlide": 59,
+          "sourceTitle": "I selettori di relazione (2)",
+          "slides": [
+            58
+          ]
+        },
+        {
+          "sourceSlide": 60,
+          "sourceTitle": "I selettori: pseudoclassi",
+          "slides": [
+            59
+          ]
+        },
+        {
+          "sourceSlide": 61,
+          "sourceTitle": "I selettori: pseudoelementi",
+          "slides": [
+            60
+          ]
+        },
+        {
+          "sourceSlide": 62,
+          "sourceTitle": "I selettori di attributo",
+          "slides": [
+            61
+          ]
+        },
+        {
+          "sourceSlide": 63,
+          "sourceTitle": "Raggruppare i selettori",
+          "slides": [
+            62
+          ]
+        },
+        {
+          "sourceSlide": 64,
+          "sourceTitle": "Commenti",
+          "slides": [
+            63
+          ]
+        },
+        {
+          "sourceSlide": 65,
+          "sourceTitle": "ESERCIZIO 1",
+          "slides": [
+            64
+          ]
+        },
+        {
+          "sourceSlide": 66,
+          "sourceTitle": "ESERCIZIO 1 · esempio",
+          "slides": [
+            64
+          ]
+        },
+        {
+          "sourceSlide": 67,
+          "sourceTitle": "RIFERIMENTI UTILI",
+          "slides": [
+            65
+          ]
+        },
+        {
+          "sourceSlide": 68,
+          "sourceTitle": "FINE",
+          "slides": [
+            66
+          ]
+        }
+      ],
+      "editorialRevision": {
+        "specification": "progetti/slide/data/esercitazioni/editorial-revisions.mjs",
+        "merges": [
+          {
+            "originalSlides": [
+              5,
+              6
+            ],
+            "destination": 5
+          },
+          {
+            "originalSlides": [
+              7,
+              8
+            ],
+            "destination": 6
+          },
+          {
+            "originalSlides": [
+              10,
+              11
+            ],
+            "destination": 8
+          },
+          {
+            "originalSlides": [
+              12,
+              13
+            ],
+            "destination": 9
+          },
+          {
+            "originalSlides": [
+              20,
+              21
+            ],
+            "destination": 16
+          },
+          {
+            "originalSlides": [
+              22,
+              23
+            ],
+            "destination": 17
+          },
+          {
+            "originalSlides": [
+              24,
+              25
+            ],
+            "destination": 18
+          },
+          {
+            "originalSlides": [
+              28,
+              29,
+              30
+            ],
+            "destination": 21
+          },
+          {
+            "originalSlides": [
+              31,
+              32
+            ],
+            "destination": 22
+          },
+          {
+            "originalSlides": [
+              34,
+              35
+            ],
+            "destination": 24
+          },
+          {
+            "originalSlides": [
+              36,
+              37
+            ],
+            "destination": 25
+          },
+          {
+            "originalSlides": [
+              38,
+              39,
+              40
+            ],
+            "destination": 26
+          },
+          {
+            "originalSlides": [
+              41,
+              42,
+              43
+            ],
+            "destination": 27
+          },
+          {
+            "originalSlides": [
+              45,
+              46
+            ],
+            "destination": 29
+          },
+          {
+            "originalSlides": [
+              57,
+              58
+            ],
+            "destination": 40
+          },
+          {
+            "originalSlides": [
+              61,
+              62,
+              63
+            ],
+            "destination": 43
+          },
+          {
+            "originalSlides": [
+              67,
+              68,
+              69
+            ],
+            "destination": 47
+          },
+          {
+            "originalSlides": [
+              71,
+              72,
+              73
+            ],
+            "destination": 49
+          },
+          {
+            "originalSlides": [
+              74,
+              75,
+              76
+            ],
+            "destination": 50
+          },
+          {
+            "originalSlides": [
+              81,
+              82
+            ],
+            "destination": 55
+          },
+          {
+            "originalSlides": [
+              83,
+              84,
+              85
+            ],
+            "destination": 56
+          },
+          {
+            "originalSlides": [
+              86,
+              87,
+              88
+            ],
+            "destination": 57
+          },
+          {
+            "originalSlides": [
+              89,
+              90
+            ],
+            "destination": 58
+          },
+          {
+            "originalSlides": [
+              91,
+              92,
+              93
+            ],
+            "destination": 59
+          },
+          {
+            "originalSlides": [
+              94,
+              95,
+              96
+            ],
+            "destination": 60
+          },
+          {
+            "originalSlides": [
+              97,
+              98,
+              99,
+              100
+            ],
+            "destination": 61
+          },
+          {
+            "originalSlides": [
+              101,
+              102
+            ],
+            "destination": 62
+          },
+          {
+            "originalSlides": [
+              104,
+              105
+            ],
+            "destination": 64
+          },
+          {
+            "originalSlides": [
+              106,
+              107
+            ],
+            "destination": 65
+          }
+        ],
+        "diagram": "progetti/slide/assets/esercitazioni/schemi/manifest.json"
       }
     },
     {
@@ -3032,7 +3732,7 @@
     }
   ],
   "sourceSlides": 349,
-  "slideCount": 534,
+  "slideCount": 492,
   "verification": {
     "summary": "reports/esercitazioni/verification.json",
     "sources": "reports/esercitazioni/source-report.json",
@@ -3584,7 +4284,7 @@
     "slides": 85,
     "specification": "progetti/slide/data/esercitazioni/native-examples.mjs",
     "renderer": "progetti/slide/components/ExerciseNative.vue",
-    "sourceBitmapsActive": 0,
+    "sourceBitmapsActive": 5,
     "verification": {
       "status": "passed",
       "nativeExamples": 101,

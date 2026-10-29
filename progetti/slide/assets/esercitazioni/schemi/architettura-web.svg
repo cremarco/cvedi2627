@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="292" viewBox="0 0 660 292" role="img" aria-labelledby="title desc">
+  <title id="title">Richiesta e risposta HTTP</title>
+  <desc id="desc">Il browser, client, invia una richiesta HTTP al web server. Il server restituisce una risposta HTTP che contiene la pagina.</desc>
+  <defs>
+    <marker id="request" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="m0 1 8 4-8 4" fill="#ed87ae"/></marker>
+    <marker id="response" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="m0 1 8 4-8 4" fill="#f1ca78"/></marker>
+  </defs>
+  <rect width="660" height="292" rx="16" fill="#14151c"/>
+  <g font-family="Nunito Sans, sans-serif" fill="#f8fafc">
+    <rect x="18" y="28" width="198" height="238" rx="12" fill="#292c38"/>
+    <rect x="444" y="28" width="198" height="238" rx="12" fill="#292c38"/>
+    <g fill="#d77c70"><circle cx="35" cy="47" r="4"/><circle cx="461" cy="47" r="4"/></g>
+    <g fill="#eac36c"><circle cx="49" cy="47" r="4"/><circle cx="475" cy="47" r="4"/></g>
+    <g fill="#91c46e"><circle cx="63" cy="47" r="4"/><circle cx="489" cy="47" r="4"/></g>
+    <g font-size="27" font-weight="700" text-anchor="middle"><text x="117" y="87">Client</text><text x="543" y="87">Server</text></g>
+    <g font-size="22" text-anchor="middle"><text x="117" y="117">Browser</text><text x="543" y="117">Web server</text></g>
+    <rect x="38" y="139" width="158" height="102" rx="8" fill="#191b23"/>
+    <path d="M51 159h132M51 180h98M51 201h132M51 222h74" stroke="#686e84" stroke-width="6"/>
+    <rect x="464" y="139" width="158" height="102" rx="8" fill="#191b23"/>
+    <g font-family="monospace" font-size="21" fill="#b2ed83"><text x="477" y="170">&lt;html&gt;</text><text x="489" y="197">…</text><text x="477" y="226">&lt;/html&gt;</text></g>
+    <g text-anchor="middle" font-size="21" font-weight="600">
+      <text x="330" y="87" fill="#ed87ae">Richiesta HTTP</text>
+      <text x="330" y="207" fill="#f1ca78">Risposta HTTP</text>
+    </g>
+    <path d="M216 111H438" stroke="#ed87ae" stroke-width="3" marker-end="url(#request)"/>
+    <path d="M444 169H222" stroke="#f1ca78" stroke-width="3" marker-end="url(#response)"/>
+    <g fill="#c8cbd7" font-size="19" text-anchor="middle"><text x="330" y="138">domanda</text><text x="330" y="235">pagina e risorse</text></g>
+  </g>
+</svg>

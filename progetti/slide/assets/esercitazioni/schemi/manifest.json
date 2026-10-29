@@ -1,0 +1,164 @@
+{
+  "description": "Schemi originali per le esercitazioni, ricostruiti dai materiali conservati nello stile approvato.",
+  "author": "Schema originale realizzato per CVeDI; contenuti della lezione di Elia Guarnieri",
+  "styleReference": {
+    "file": "riferimento-stile.png",
+    "origin": "Immagine fornita dall’utente il 28 ottobre 2026",
+    "usage": "Solo riferimento stilistico: finestre scure, etichette ad alto contrasto, frecce rosa e ambra. Nessun contenuto o codice del riferimento è riprodotto.",
+    "license": "Non indicata; conservata come riferimento, esclusa dalla pubblicazione."
+  },
+  "diagrams": [
+    {
+      "source": "architettura-web.svg",
+      "web": "/images/esercitazioni/architettura-web.svg",
+      "sha256": "dfc498a4e3ceec0ba66e3ea41b1be98296e0844e8165cad7fd5ec657e9a0119e",
+      "historicalDiagram": "progetti/slide/assets/esercitazioni/native-rebuild/images/bf9c59ac029ae9d4731f.png"
+    },
+    {
+      "source": "ipertesti.svg",
+      "web": "/images/esercitazioni/ipertesti.svg",
+      "sha256": "e1fae8c9bda72233d73c7f1f3d577d15d98073921defb08c82a29ddc9212d9d6",
+      "historicalDiagram": "progetti/slide/assets/esercitazioni/native-rebuild/images/6e8c7b2ffa579b74ac2b.png",
+      "connections": [
+        "A→B",
+        "A→D",
+        "A→E",
+        "B→C",
+        "B→E",
+        "C→F",
+        "E→D",
+        "F→C",
+        "F→E"
+      ]
+    },
+    {
+      "source": "image.svg",
+      "web": "/images/esercitazioni/image.svg",
+      "sha256": "7e5f10242f42551bcbbb0d8342a9d6a125a1e27e9e1c53634830dfb8c2d2dc44",
+      "description": "Immagine geometrica originale per dimostrare il tag img; esempio aggiornato a image.svg per corrispondere al file effettivo."
+    },
+    {
+      "source": "url-assoluto.svg",
+      "web": "/images/esercitazioni/url-assoluto.svg",
+      "sha256": "cbd2d551269300bbfdd048eda9c354bebbfa2b52fae1914c7e656c8b6836041b",
+      "historicalDiagram": "progetti/slide/assets/esercitazioni/native-rebuild/images/b63650f3b5ea7c0f6903.png",
+      "description": "https://www.sitoweb.it/cartella/risorsa.ext: https è il protocollo, www il sottodominio, sitoweb il dominio, it il dominio di primo livello e /cartella/risorsa.ext il percorso.",
+      "labels": [
+        "Protocol",
+        "Subdomain",
+        "Domain",
+        "Top level domain",
+        "Path"
+      ]
+    },
+    {
+      "source": "url-radice.svg",
+      "web": "/images/esercitazioni/url-radice.svg",
+      "sha256": "5baf317522d9d9e9e0fd1b51f9c4a7e91ae63e461218155573449a75edba95aa",
+      "historicalDiagram": "progetti/slide/assets/esercitazioni/native-rebuild/images/4ef7366d1c1e6ad09fa8.png",
+      "description": "Il percorso /cartella/risorsa.ext parte dalla radice del sito corrente. Protocollo e host sono quelli del documento.",
+      "labels": [
+        "Protocol",
+        "Subdomain",
+        "Domain",
+        "Top level domain",
+        "Path"
+      ]
+    },
+    {
+      "source": "regola-css.svg",
+      "web": "/images/esercitazioni/regola-css.svg",
+      "sha256": "92ecc96113a223e506a03918a88568d7271911b74de4438d29c7b74fbff14d24",
+      "historicalDiagram": "progetti/slide/assets/esercitazioni/native-rebuild/images/01-056-diagram.webp",
+      "description": "Ricostruzione della sintassi CSS: selettore, proprietà, valore, dichiarazione e regola completa. La regola comprende il selettore e il blocco delle dichiarazioni."
+    }
+  ],
+  "demos": [
+    {
+      "source": "../esempi-link/pagina1.html",
+      "web": "/images/esercitazioni/links/pagina1.html",
+      "sha256": "b0793da2a60f77051b65fcade077ef5a062b977d1075d698a03dc1085970a1b3"
+    },
+    {
+      "source": "../esempi-link/pages/pagina2.html",
+      "web": "/images/esercitazioni/links/pages/pagina2.html",
+      "sha256": "c59760ad6e7174195489afd1e87b8b41f0e8ca78246e8fa06726f0f16decc2d3"
+    },
+    {
+      "source": "../esempio-01/index.html",
+      "web": "/images/esercitazioni/esercizio-01/index.html",
+      "sha256": "04771057b86ffdb902ada6141731be7ab5f66195c3d92214719c67c1d53188e3"
+    },
+    {
+      "source": "../esempio-01/chi-siamo.html",
+      "web": "/images/esercitazioni/esercizio-01/chi-siamo.html",
+      "sha256": "9518b4e843a2d90bae8dd1865906e476570596897a69e6ef2d1f3fe2031082c5"
+    },
+    {
+      "source": "../esempio-01/contatti.html",
+      "web": "/images/esercitazioni/esercizio-01/contatti.html",
+      "sha256": "be10bed74c4a1defcf7e82739b7b2d76ed0e6deec749fd6f86c94d0bca448f95"
+    },
+    {
+      "source": "../esempio-01/stile.css",
+      "web": "/images/esercitazioni/esercizio-01/stile.css",
+      "sha256": "52df5a50807657f992fc070945d76db116238da8191412ec99e8223e15b446a7"
+    },
+    {
+      "source": "../../../../../risorse-condivise/stili/tokens.css",
+      "web": "/images/esercitazioni/esercizio-01/tokens.css",
+      "sha256": "3374ca36be3fa3fcf3a650bccd806fea9636b471aa2864d498b69139787c0de7"
+    }
+  ],
+  "screenshots": [
+    {
+      "source": "../native-rebuild/images/435ae87eed37e32c71f7.png",
+      "web": "/images/esercitazioni/435ae87eed37e32c71f7.png",
+      "sourceSlide": 35,
+      "sha256": "435ae87eed37e32c71f7d1012fceef70dc6c11a5d0a48739ce5b9aa376c8ddc8",
+      "author": "Materiale originale di Elia Guarnieri",
+      "description": "Editor e struttura delle cartelle con i quattro percorsi relativi."
+    },
+    {
+      "source": "../native-rebuild/images/01-036-diagram.webp",
+      "web": "/images/esercitazioni/01-036-diagram.webp",
+      "sourceSlide": 36,
+      "sha256": "aeadfcf26e68b661ea50e241f2f1a2d4a9cd1eb6c0a5c8840994e6d62d084f24",
+      "author": "Materiale originale di Elia Guarnieri",
+      "description": "picture.jpg: immagine nella stessa cartella di file-corrente.html."
+    },
+    {
+      "source": "../native-rebuild/images/01-037-diagram.webp",
+      "web": "/images/esercitazioni/01-037-diagram.webp",
+      "sourceSlide": 37,
+      "sha256": "a7176e4ea31f55408e332cc6b1631797fda96270dcf716c084377a63b4432020",
+      "author": "Materiale originale di Elia Guarnieri",
+      "description": "images/picture.jpg: immagine nella sottocartella images della cartella corrente."
+    },
+    {
+      "source": "../native-rebuild/images/01-038-diagram.webp",
+      "web": "/images/esercitazioni/01-038-diagram.webp",
+      "sourceSlide": 38,
+      "sha256": "fe7abb413d0e8382682ae272b497a11a9d218446c7d456e0544f1d0f4765f242",
+      "author": "Materiale originale di Elia Guarnieri",
+      "description": "/images/picture.jpg: immagine nella cartella images alla radice del sito."
+    },
+    {
+      "source": "../native-rebuild/images/01-039-diagram.webp",
+      "web": "/images/esercitazioni/01-039-diagram.webp",
+      "sourceSlide": 39,
+      "sha256": "e33c06f581ed0b2b77bc9e593e6516e6b64b32045c2a5b40a0d74c1e887f3764",
+      "author": "Materiale originale di Elia Guarnieri",
+      "description": "../picture.jpg: immagine nella cartella genitore della pagina corrente."
+    }
+  ],
+  "exerciseDemo": {
+    "entry": "/images/esercitazioni/esercizio-01/index.html",
+    "sourceSlides": [
+      65,
+      66
+    ],
+    "historicalDiagram": "progetti/slide/assets/esercitazioni/native-rebuild/images/f7c30abe2a1b2b98dad2.jpg",
+    "description": "Tre pagine semplici con menu comune, i tre layout dell’originale, footer, selettori di relazione e pseudoelemento ::after. Nessun codice mostrato nella pagina."
+  }
+}

@@ -4,6 +4,7 @@ import { createHash } from 'node:crypto'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 import { curriculum, sources as officialSources, examples } from '../../data/esercitazioni/framework-curriculum.mjs'
+import { reviseExercise } from '../../data/esercitazioni/editorial-revisions.mjs'
 import { workedExamples } from '../../data/esercitazioni/worked-examples.mjs'
 import { nativeExamples, rebuildImportedSlide } from '../../data/esercitazioni/native-examples.mjs'
 
@@ -20,6 +21,11 @@ export async function checkExerciseSources() {
   const usedImages = new Set()
   const archivedImages = new Map((manifest.archivedImages || []).map(image => [image.web, image]))
   const digest = async file => createHash('sha256').update(await readFile(path.join(root, file))).digest('hex')
+  const diagram = await json('progetti/slide/assets/esercitazioni/schemi/manifest.json')
+  for (const asset of [...diagram.diagrams, ...(diagram.demos || []), ...(diagram.screenshots || [])]) {
+    assert.equal(await digest(`progetti/slide/assets/esercitazioni/schemi/${asset.source}`), asset.sha256, 'authored diagram matches its manifest')
+    assert.equal(await digest(`progetti/slide/public${asset.web}`), asset.sha256, 'local diagram mirror preserves its source')
+  }
   for (const image of archivedImages.values()) assert.equal(await digest(image.retained), image.sha256, 'retired documentary assets remain intact')
   const catalog = await json('progetti/slide/assets/esercitazioni/tailwind-daisyui/sources.json')
   for (const [id, [title, url]] of Object.entries(officialSources)) assert.deepEqual(catalog.sources.find(source => source.id === id), { id, title, url })
@@ -57,18 +63,43 @@ export async function checkExerciseSources() {
       assert.equal(await digest(archive.data), archive.dataSha256, 'pre-reconstruction content retained')
       assert.equal(await digest(archive.markdown), archive.markdownSha256, 'pre-reconstruction Markdown retained')
       imported = await json(archive.data)
-      const expected = curriculum.find(module => module.number === exercise.number)?.slides || imported.map(slide => rebuildImportedSlide(slide, number))
+      const expected = reviseExercise(curriculum.find(module => module.number === exercise.number)?.slides || imported.map(slide => rebuildImportedSlide(slide, number)), number)
       for (const block of slides.flatMap(slide => slide.blocks).filter(block => block.kind === 'native' && !block.example.startsWith('framework:'))) {
         assert.ok(nativeExamples[block.example], 'every retired figure has a native reconstruction')
         assert.ok(!/<img\b/i.test(nativeExamples[block.example].html), 'native reconstructions contain no raster teaching content')
       }
       assert.deepEqual(slides, expected, 'reconstruction matches the native specification and preserves other blocks')
-      assert.ok(slides.every(slide => slide.blocks.every(block => block.kind !== 'image')), 'exercise slides contain no bitmap content')
+      assert.ok(slides.every(slide => slide.blocks.every(block => block.kind !== 'image')), 'active images use catalogued figures rather than untracked bitmap blocks')
       for (const slide of slides.filter(slide => slide.blocks.some(block => block.kind === 'resources'))) {
         const page = source.find(page => page.sourceSlide === slide.sourceSlide)
         const links = page.blocks.flatMap(block => block.paragraphs?.flatMap(paragraph => paragraph.runs.filter(run => run.href).map(run => ({ title: run.text, url: run.href }))) || [])
         assert.deepEqual(slide.blocks.flatMap(block => block.resources || []), links, 'resource lists preserve the labels, order and destinations of their own source page')
       }
+    }
+    if (exercise.currentMapping) {
+      assert.deepEqual([...new Set(exercise.currentMapping.flatMap(entry => entry.slides))], slides.map(slide => slide.number), 'current mapping covers the revised sequence')
+      for (const entry of exercise.currentMapping) assert.ok(entry.slides.every(no => (slides[no - 1].sourceSlides || [slides[no - 1].sourceSlide]).includes(entry.sourceSlide)), 'current destinations retain their source page')
+    }
+    for (const block of slides.flatMap(slide => slide.blocks).filter(block => block.kind === 'figure')) {
+      assert.ok(block.alt, 'every figure retains alternative text')
+      if (!(diagram.screenshots || []).some(asset => asset.web === block.src)) assert.ok(block.caption, 'new diagrams retain captions')
+      const screenshot = (diagram.screenshots || []).find(asset => asset.web === block.src)
+      if (screenshot) {
+        assert.equal(await digest(`progetti/slide/public${block.src}`), screenshot.sha256, 'restored editor screenshot retains its exact archived bytes')
+        assert.ok(archivedImages.has(block.src), 'restored screenshots remain in the historical asset archive')
+      } else {
+        const svg = await readFile(path.join(root, 'progetti/slide/public', block.src), 'utf8')
+        assert.ok(svg.includes('<svg') && !/<image\b/.test(svg), 'new teaching diagrams are native vectors')
+      }
+      usedImages.add(path.basename(block.src))
+    }
+    for (const item of slides.flatMap(slide => slide.blocks).flatMap(block => block.items || [])) {
+      if (item.result?.tag === 'img') {
+        assert.ok(item.result.alt, 'demonstration image has alternative text')
+        assert.ok(diagram.diagrams.some(asset => asset.web === item.result.src), 'demonstration image is catalogued')
+        usedImages.add(path.basename(item.result.src))
+      }
+      for (const sample of item.samples || []) if (sample.result.href.startsWith('/')) assert.ok((diagram.demos || []).some(asset => asset.web === sample.result.href), 'local link destinations are catalogued')
     }
     let preserved = imported
     if (exercise.replacement) {
@@ -124,7 +155,7 @@ export async function checkExerciseSources() {
   }
   assert.equal(total, manifest.slideCount)
   const publicImages = await readdir(path.join(root, 'progetti/slide/public/images/esercitazioni')).catch(error => { if (error.code === 'ENOENT') return []; throw error })
-  assert.deepEqual(publicImages.sort(), [...usedImages].sort(), 'no unused extracted media are published locally')
+  assert.deepEqual(publicImages.filter(file => /\.(svg|png|webp|jpe?g|gif|avif)$/i.test(file)).sort(), [...usedImages].sort(), 'no unused extracted media are published locally')
   return { originals: manifest.sourceSlides, adapted: total, images: usedImages.size, links, rewritten: curriculum.reduce((sum, module) => sum + module.slides.length, 0), officialSources: catalog.sources.length, examples: catalog.nativeExamples.length, archivedExamples: catalog.assets.length, workedExamples: workedExamples.length, nativeSlides: manifest.nativeRebuild?.slides || 0 }
 }
 

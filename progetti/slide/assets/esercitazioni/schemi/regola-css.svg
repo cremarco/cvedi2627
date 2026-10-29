@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+<title id="title">Le parti di una regola CSS</title>
+<desc id="desc">Una regola CSS comprende il selettore e il blocco tra parentesi graffe. Ogni dichiarazione contiene una proprietà e un valore, separati da due punti e seguiti da un punto e virgola.</desc>
+<defs>
+<marker id="pink" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8Z" fill="#ed87ae"/></marker>
+<marker id="amber" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8Z" fill="#f1ca78"/></marker>
+<marker id="purple" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8Z" fill="#bd9bef"/></marker>
+</defs>
+<rect width="1200" height="500" rx="16" fill="#14151c"/>
+<rect x="12" y="12" width="1176" height="48" rx="8" fill="#292c38"/>
+<circle cx="34" cy="36" r="6" fill="#d77c70"/><circle cx="54" cy="36" r="6" fill="#eac36c"/><circle cx="74" cy="36" r="6" fill="#91c46e"/>
+<text x="600" y="45" text-anchor="middle" fill="#f8fafc" font-family="Nunito Sans,sans-serif" font-size="26" font-weight="700">Stili CSS</text>
+<!-- The outline encloses both selector and declaration block: the complete rule. -->
+<rect x="48" y="97" width="752" height="296" rx="12" fill="#20222d" stroke="#bd9bef" stroke-width="2"/>
+<rect x="68" y="115" width="219" height="59" rx="8" fill="#292c38" stroke="#ed87ae" stroke-width="3"/>
+<rect x="106" y="196" width="465" height="56" rx="8" fill="#292c38" stroke="#f1ca78" stroke-width="3"/>
+<g font-family="ui-monospace,monospace" font-size="32" fill="#f8fafc">
+<text x="80" y="155" fill="#ed87ae">selettore</text><text x="310" y="155">{</text>
+<text x="120" y="234">proprietà1:</text><text x="356" y="234" fill="#b2ef86">valore1;</text>
+<text x="120" y="304">proprietà2:</text><text x="356" y="304" fill="#b2ef86">valore2;</text>
+<text x="80" y="365">}</text>
+</g>
+<g fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M287 143H851L889 128" stroke="#ed87ae" marker-end="url(#pink)"/>
+<path d="M571 224H850L889 244" stroke="#f1ca78" marker-end="url(#amber)"/>
+<path d="M800 361H889" stroke="#bd9bef" marker-end="url(#purple)"/>
+<path d="M120 321H331M226 321V423" stroke="#ed87ae" marker-end="url(#pink)"/>
+<path d="M356 321H511M434 321V423" stroke="#f1ca78" marker-end="url(#amber)"/>
+</g>
+<g font-family="Nunito Sans,sans-serif" font-size="30" font-weight="700">
+<text x="915" y="138" fill="#ed87ae">Selettore</text>
+<text x="915" y="254" fill="#f1ca78">Dichiarazione</text>
+<text x="915" y="371" fill="#bd9bef">Regola CSS</text>
+<text x="226" y="464" text-anchor="middle" fill="#ed87ae">Proprietà</text>
+<text x="434" y="464" text-anchor="middle" fill="#f1ca78">Valore</text>
+</g>
+</svg>

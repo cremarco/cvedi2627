@@ -22,7 +22,17 @@
 .exercise-content .exercise-code pre { width: 100%; min-width: 0; max-width: 100%; margin: 0; padding: 0; white-space: pre-wrap; overflow-wrap: anywhere; font: 400 19px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace; }
 .exercise-content .exercise-code pre::before { display: none; }
 .exercise-content .exercise-code code { padding: 0; border: 0; background: transparent; color: inherit; font: inherit; white-space: inherit; overflow-wrap: inherit; }
-.exercise-inline-code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .88em; }
+.slidev-layout.default .exercise-copy .exercise-inline-code {
+  padding: .08em .28em;
+  border: 0;
+  border-radius: 4px;
+  background: var(--cvedi-gray-200);
+  color: var(--cvedi-body);
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: .88em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
 .slidev-layout.default .exercise-sources { flex: 0 0 auto; margin: 0; font-size: 18px; line-height: 1.35; color: var(--theme-body); }
 .exercise-sources .link { color: var(--section-primary); }
 .exercise-native { width: 100%; margin: 0; display: flex; flex-direction: column; gap: 14px; }
@@ -42,3 +52,120 @@
   .exercise-content .exercise-code { break-inside: avoid; }
   .exercise-content .exercise-continuation { color: var(--theme-body); }
 }
+
+/* Keep the explanation above its request/response diagram. */
+.exercise-content--diagram { display: flex; flex-direction: column; gap: 16px; align-items: stretch; }
+.exercise-content--diagram > .lesson-figure { flex: 0 0 320px; width: 100%; height: 320px; margin-inline: auto; align-self: center; display: flex; flex-direction: column; }
+.exercise-content--diagram .lesson-figure-media { flex: 1; min-height: 0; }
+
+.exercise-content--diagram .lesson-image-content { justify-items: center; }
+
+/* Labels share the exact character columns of the highlighted HTML example. */
+.exercise-annotated-code { width: max-content; max-width: 100%; margin-inline: auto; font: 32px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace; }
+.exercise-annotated-code .exercise-code { font: inherit; }
+.exercise-annotated-code .exercise-code pre { font-size: inherit; white-space: pre; overflow-wrap: normal; }
+.exercise-code-labels { display: grid; grid-template-columns: var(--annotation-columns); padding-inline: 24px; margin-top: 24px; }
+.exercise-code-labels > span { justify-self: center; font: 400 23px/1.42 var(--cvedi-font-body); white-space: nowrap; }
+.exercise-code-labels > span:last-child { grid-column: 3; }
+
+/* One context per slide; each tag reads as identity → usage → characteristics. */
+.exercise-tag-reference { display: grid; grid-template-columns: repeat(var(--tag-columns), minmax(0, 1fr)); gap: 48px; align-items: start; }
+.exercise-tag-section { min-width: 0; display: flex; flex-direction: column; gap: 20px; }
+.exercise-tag-header { display: flex; flex-direction: row; gap: 16px; align-items: center; }
+.exercise-tag-identity { display: flex; align-items: center; justify-content: flex-start; gap: 12px; }
+.slidev-layout.default .exercise-tag-identity h2 { margin: 0; color: var(--cvedi-body); font-size: 27px; line-height: 1.4; font-weight: 500; white-space: nowrap; }
+.exercise-tag-mdn { flex: 0 0 auto; font-size: 18px; }
+.exercise-tag-traits li + li { margin-top: 8px; }
+.exercise-tag-reference .exercise-code { margin: 0; }
+
+/* Two short examples share the left column; the six heading levels span the right. */
+.exercise-tag-reference--stacked { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-areas: "first tall" "second tall"; gap: 24px 48px; }
+.exercise-tag-reference--stacked > :nth-child(1) { grid-area: first; }
+.exercise-tag-reference--stacked > :nth-child(2) { grid-area: second; }
+.exercise-tag-reference--stacked > :nth-child(3) { grid-area: tall; }
+.exercise-tag-reference--stacked .exercise-tag-section { gap: 12px; }
+:is(.exercise-tag-reference--stacked, .exercise-tag-reference--rows) .exercise-tag-header { gap: 16px; }
+.exercise-tag-reference--stacked .exercise-code::before { display: none; }
+
+.exercise-tag-output { display: flex; flex-direction: column; gap: 4px; font-size: 23px; line-height: 1.42; }
+.exercise-tag-output-label { color: var(--cvedi-muted); font-size: 18px; }
+.exercise-tag-output u { text-decoration: underline; }
+.exercise-tag-output em { font-style: italic; }
+.exercise-tag-output strong { font-weight: 700; }
+
+.exercise-tag-reference--results .exercise-code { min-height: 108px; }
+
+.exercise-tag-reference--rows { grid-template-columns: 1fr; gap: 24px; }
+.exercise-tag-reference--rows .exercise-tag-section { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 48px; align-items: center; }
+.exercise-tag-reference--rows .exercise-tag-header { grid-column: 1 / -1; }
+.exercise-tag-reference--rows .exercise-code { min-height: 0; }
+.exercise-tag-reference--rows .exercise-code::before { display: none; }
+.exercise-tag-reference--rows .exercise-tag-output-label { display: none; }
+.exercise-tag-shared { grid-column: 1 / -1; }
+
+.exercise-tag-reference--rows .exercise-code pre { font-size: 22px; }
+.exercise-tag-reference--rows .exercise-tag-output { font-size: 27px; }
+.exercise-tag-reference--rows .exercise-tag-shared { padding-top: 8px; }
+
+.exercise-tag-reference--example-result { grid-template-columns: 1fr; }
+.exercise-tag-reference--example-result .exercise-tag-section { display: grid; grid-template-columns: 1.2fr 1fr; gap: 20px 48px; align-items: center; }
+.exercise-tag-reference--example-result :is(.exercise-tag-header, .exercise-tag-introduction, .exercise-tag-traits) { grid-column: 1 / -1; }
+.exercise-tag-reference--example-result .exercise-code { min-height: 0; }
+.exercise-tag-reference--example-result .exercise-tag-output-label { display: none; }
+.exercise-tag-preview { min-width: 0; }
+.exercise-tag-introduction p + p { margin-top: 12px !important; }
+.slidev-layout.default .exercise-tag-output :is(ul, ol) { margin: 0; padding-left: 1.4em; }
+.slidev-layout.default .exercise-tag-output ul { list-style-type: disc; }
+.slidev-layout.default .exercise-tag-output ol { list-style-type: decimal; }
+
+/* Code/result comparisons use the approved equal-size panels. */
+.exercise-tag-reference--matched :is(.exercise-code, .exercise-tag-output, .exercise-tag-preview) { align-self: stretch; margin: 0; border-radius: 8px; }
+.exercise-tag-reference--matched .exercise-tag-output { justify-content: center; padding: 12px 24px; box-sizing: border-box; background: var(--exercise-result-surface); font-size: 23px; }
+
+.exercise-tag-reference--matched .exercise-tag-section { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+.exercise-tag-reference--matched .exercise-tag-preview { display: flex; align-items: center; padding: 12px 24px; box-sizing: border-box; background: var(--exercise-result-surface); }
+
+.exercise-tag-reference--samples { grid-template-columns: 1fr; }
+.exercise-tag-reference--samples .exercise-tag-section { display: grid; gap: 16px 48px; }
+.exercise-tag-reference--samples :is(.exercise-tag-header, .exercise-tag-introduction, .exercise-tag-samples, .exercise-tag-traits) { grid-column: 1 / -1; }
+.exercise-tag-samples { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 48px; }
+.exercise-tag-description { font-size: 18px; line-height: 1.4; color: var(--cvedi-muted); }
+.exercise-tag-output .exercise-tag-image { display: block; width: auto; height: 160px; max-width: 100%; object-fit: contain; align-self: flex-start; }
+
+.exercise-tag-reference--samples .exercise-code { display: flex; align-items: center; }
+.exercise-tag-reference--samples .exercise-code::before { display: none; }
+.exercise-tag-output a { align-self: flex-start; }
+
+/* A standalone diagram uses the full reading area and shared image zoom. */
+.exercise-content--figure > .lesson-figure { flex: 0 0 420px; height: 420px; width: 100%; margin-inline: auto; }
+
+/* Static path examples compare destinations without linking to real image files. */
+.exercise-path-reference { margin: 0; }
+.exercise-path-case { display: grid; grid-template-columns: .95fr 1.4fr; gap: 48px; align-items: center; padding: 16px 0; }
+.exercise-path-case + .exercise-path-case { border-top: 1px solid var(--cvedi-rule); }
+.slidev-layout.default .exercise-path-case :is(dt, dd) { margin: 0; font-size: 23px; line-height: 1.42; }
+.exercise-path-case dt { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
+.exercise-path-case dt > span { font-weight: 600; }
+.exercise-content--screenshot > .lesson-figure { flex: 0 0 508px; height: 508px; width: 100%; margin-inline: auto; }
+.exercise-content--screenshot .lesson-image-crop { border-radius: 8px; }
+
+.lesson-image-crop { display: block; position: relative; overflow: hidden; flex: none; }
+.lesson-image-crop > img { display: block; position: absolute; max-width: none; max-height: none; }
+.exercise-content--columns { display: grid; grid-template-columns: .7fr 1.3fr; gap: 48px; align-items: center; }
+.exercise-content--columns .exercise-code::before { display: none; }
+
+/* Shared explanation followed by parallel CSS and HTML source panels. */
+.exercise-content--code-columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: stretch; gap: 20px 28px; }
+.exercise-content--code-columns > .exercise-copy { grid-column: 1 / -1; }
+.exercise-content--code-columns > .exercise-code { border-radius: 8px; }
+
+/* Four selector families share the tag reference structure in a two-column grid. */
+.exercise-tag-reference--grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 48px; }
+.exercise-tag-reference--grid .exercise-tag-section { gap: 12px; }
+.exercise-tag-reference--grid .exercise-code { border-radius: 8px; }
+.exercise-tag-reference--grid .exercise-code::before { display: none; }
+
+.exercise-resource-group--list .exercise-resources { display: block; padding-left: 1.2em; list-style-type: square; }
+.exercise-resource-group--list .list-row { display: list-item; padding: 6px 0; line-height: 1.42; }
+.exercise-resource-group--list .list-row::marker { color: var(--section-primary); }

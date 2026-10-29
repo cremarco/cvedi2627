@@ -40,6 +40,6 @@ const document = computed(() => {
   <figure ref="figure" class="exercise-native" tabindex="-1" :data-native-example="example">
     <iframe v-if="isActive || isPrinting" ref="frame" :title="caption || entry.caption || 'Esempio HTML nativo'" :srcdoc="document" sandbox="allow-scripts allow-forms" class="exercise-native-frame" :style="{ height: `${height}px` }" @load="syncMotion" />
     <div v-else class="exercise-native-placeholder" aria-hidden="true" />
-    <figcaption>{{ caption || entry.caption }}<span v-if="interactive" class="exercise-native-hint"> · <kbd class="kbd kbd-sm">Esc</kbd> torna alla slide</span></figcaption>
+    <figcaption v-if="caption !== '' && (caption || entry.caption || interactive)">{{ caption || entry.caption }}<span v-if="interactive" class="exercise-native-hint"> · <kbd class="kbd kbd-sm">Esc</kbd> torna alla slide</span></figcaption>
   </figure>
 </template>

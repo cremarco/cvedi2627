@@ -197,3 +197,9 @@ Conservare alias e ritorno al menu; non attivare set archiviati o futuri. Le not
 - Non sovrascrivere il contratto del booklet, non modificare i CSS compilati a mano e non aggiungere regole tipografiche locali per aggirare un impaginato inadatto.
 - Non trattare la sola assenza di overflow o il solo superamento di una dimensione minima dell’immagine come prova di qualità visiva.
 - Non ricolorare opere o diagrammi originali, eliminare fonti o sostituire gli asset per uniformarli al tema.
+
+## Schemi delle esercitazioni
+
+Le immagini didattiche create o rifatte per `progetti/slide/esercitazioni/` seguono il riferimento approvato in `progetti/slide/assets/esercitazioni/schemi/riferimento-stile.png`. Usare fondo antracite, finestre grigio scuro con angoli morbidi e piccoli controlli circolari, testi chiari ad alto contrasto, forme essenziali e frecce rosa e ambra. Il colore distingue collegamenti o flussi; direzione e significato restano leggibili anche dalla geometria e dalle etichette. Il codice usa il carattere monospaziato e accenti leggibili sul fondo scuro.
+
+Prima ricavare dall’originale tutti gli oggetti, le etichette e le relazioni orientate; poi ricostruirli nel nuovo stile. Per gli schemi usare SVG modificabili, conservare originali, riferimento e attribuzioni nel manifest e presentare la figura con `LessonFigure`, testo alternativo e ingrandimento condiviso. Testo sopra e immagine sotto seguono la disposizione in colonna approvata. Verificare etichette e collegamenti alla dimensione effettiva della slide. La regola riguarda le nuove immagini delle esercitazioni; opere e screenshot documentari conservano il proprio aspetto.

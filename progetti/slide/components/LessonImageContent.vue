@@ -8,12 +8,19 @@ const props = withDefaults(defineProps<{
   panels?: number
   panelAspectRatio?: string
   verticalRange?: [number, number]
+  crop?: [number, number, number, number]
   maxScale?: number
 }>(), { panels: 1, panelAspectRatio: '4 / 3', maxScale: Infinity })
 
 const emit = defineEmits<{ sizeChange: [size: { width: number; height: number; emptySpaceY: number }] }>()
 const container = ref<HTMLSpanElement>()
 const image = ref<HTMLImageElement>()
+const cropFrameSize = ref<{ width: string; height: string }>()
+const cropImageStyle = ref<Record<string, string>>()
+const cropBounds = computed(() => {
+  const crop = props.crop
+  return crop && crop.every(Number.isFinite) && crop[0] >= 0 && crop[1] >= 0 && crop[2] <= 1 && crop[3] <= 1 && crop[0] < crop[2] && crop[1] < crop[3] ? crop : undefined
+})
 const imageSize = ref<{ width: string; height: string }>()
 // A detail is an explicit viewport on the original screenshot. Its overview
 // remains a separate figure; the source bitmap is never resampled or rewritten.
@@ -63,6 +70,17 @@ function syncImageSize() {
 
   const element = image.value
   if (!element?.naturalWidth || !element.naturalHeight) return
+  if (cropBounds.value) {
+    const [left, top, right, bottom] = cropBounds.value
+    const sourceWidth = element.naturalWidth * (right - left)
+    const sourceHeight = element.naturalHeight * (bottom - top)
+    const scale = Math.min(props.maxScale > 0 ? props.maxScale : Infinity, frame.clientWidth / sourceWidth, frame.clientHeight / sourceHeight)
+    const width = sourceWidth * scale, height = sourceHeight * scale
+    cropFrameSize.value = { width: `${width}px`, height: `${height}px` }
+    cropImageStyle.value = { width: `${element.naturalWidth * scale}px`, height: `${element.naturalHeight * scale}px`, left: `${-element.naturalWidth * left * scale}px`, top: `${-element.naturalHeight * top * scale}px` }
+    emit('sizeChange', { width, height, emptySpaceY: Math.max(0, frame.clientHeight - height) })
+    return
+  }
   const scale = Math.min(
     props.maxScale > 0 ? props.maxScale : Infinity,
     frame.clientWidth / element.naturalWidth,
@@ -84,7 +102,7 @@ onBeforeUnmount(() => {
   observer?.disconnect()
   if (resizeFrame !== undefined) cancelAnimationFrame(resizeFrame)
 })
-watch(() => [props.src, props.panels, props.panelAspectRatio, props.maxScale, ...range.value], syncImageSize, { flush: 'post' })
+watch(() => [props.src, props.panels, props.panelAspectRatio, props.maxScale, ...range.value, ...(props.crop || [])], syncImageSize, { flush: 'post' })
 </script>
 
 <template>
@@ -104,6 +122,7 @@ watch(() => [props.src, props.panels, props.panelAspectRatio, props.maxScale, ..
         @load="syncImageSize"
       />
     </template>
+    <span v-else-if="cropBounds" class="lesson-image-crop" :style="cropFrameSize"><img ref="image" :src="publicAsset(src)" :alt="alt" :style="cropImageStyle" @load="syncImageSize" /></span>
     <img v-else ref="image" :src="publicAsset(src)" :alt="alt" :style="{ ...imageSize, ...detailStyle }" @load="syncImageSize" />
   </span>
 </template>
