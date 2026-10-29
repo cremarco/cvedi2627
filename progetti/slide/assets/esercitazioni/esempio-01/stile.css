@@ -12,9 +12,10 @@ a:focus-visible { outline: 3px solid var(--cvedi-blue-700); outline-offset: 4px;
 .menu > ul { display: flex; margin: 0; padding: 0; list-style: none; }
 .menu > ul > li { flex: 1; }
 .menu li + li { border-left: 4px solid white; }
-.menu a { display: block; padding: 18px 8px; text-align: center; text-decoration: none; background: var(--cvedi-yellow-100); }
+.menu a { position: relative; display: block; padding: 18px 8px; text-align: center; text-decoration: none; background: var(--cvedi-yellow-100); }
 .menu a:hover { background: var(--cvedi-yellow-200); }
 .menu a[aria-current="page"] { background: var(--cvedi-red-800); color: white; font-weight: 700; }
+.menu a[aria-current="page"]::after { content: ""; position: absolute; left: 50%; bottom: 10px; width: 2em; height: 3px; margin-left: -1em; background: currentColor; }
 .fascia { min-height: 260px; padding: 40px; background: var(--cvedi-green-100); display: flex; flex-direction: column; justify-content: center; align-items: flex-start; }
 .pulsante { display: inline-block; margin-top: 8px; padding: 10px 20px; background: var(--cvedi-orange-200); text-decoration: none; }
 .pulsante:hover { background: var(--cvedi-orange-300); }
@@ -22,7 +23,6 @@ a:focus-visible { outline: 3px solid var(--cvedi-blue-700); outline-offset: 4px;
 .colonne > section { flex: 1; min-width: 0; min-height: 220px; padding: 32px; background: var(--cvedi-orange-100); }
 .colonne > section + section { border-left: 4px solid white; }
 .due > section { min-height: 260px; background: var(--cvedi-purple-100); }
-.insieme::after { content: " insieme"; }
 footer { padding: 24px 32px; background: var(--cvedi-blue-900); color: white; }
 @media (max-width: 600px) {
   body { margin: 16px auto; }

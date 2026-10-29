@@ -205,9 +205,9 @@ function reviseExerciseContent(slides, exercise) {
     { ...paragraph('Creare tre pagine collegate tra loro, seguendo la struttura dell’esempio interattivo.'), bullet: false },
     paragraph('Mantenere lo stesso menu e footer; disporre i contenuti come nelle tre pagine dell’esempio.'),
     paragraph('Utilizzare selettori di relazione per assegnare stili al menu.'),
-    { text: 'Inserire uno pseudoelemento ::after dopo gli elementi di una classe a scelta.', runs: [
-      { text: 'Inserire uno pseudoelemento ' }, { text: '::after', mono: true },
-      { text: ' dopo gli elementi di una classe a scelta.' },
+    { text: 'Usare ::after per sottolineare la voce del menu della pagina attiva.', runs: [
+      { text: 'Usare ' }, { text: '::after', mono: true },
+      { text: ' per sottolineare la voce del menu della pagina attiva.' },
     ], bullet: true, level: 0 },
   ] }, { kind: 'text', paragraphs: [{ text: 'Apri l’esempio interattivo', runs: [{ text: 'Apri l’esempio interattivo', href: '/images/esercitazioni/esercizio-01/index.html' }], bullet: false, level: 0 }] }]
   return revised.filter(slide => !mergedAway.includes(slide.number)).map(slide => ({ ...slide, number: revisedExerciseNumber(slide.number) }))

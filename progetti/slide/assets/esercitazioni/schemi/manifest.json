@@ -87,12 +87,12 @@
     {
       "source": "../esempio-01/index.html",
       "web": "/images/esercitazioni/esercizio-01/index.html",
-      "sha256": "04771057b86ffdb902ada6141731be7ab5f66195c3d92214719c67c1d53188e3"
+      "sha256": "b00fbc545cce4af0f8ece89fc24bd68b32dcbbab4ed95391c16aea1b8a74d1f7"
     },
     {
       "source": "../esempio-01/chi-siamo.html",
       "web": "/images/esercitazioni/esercizio-01/chi-siamo.html",
-      "sha256": "9518b4e843a2d90bae8dd1865906e476570596897a69e6ef2d1f3fe2031082c5"
+      "sha256": "86c2292b9a3087d8824a96a9d5d9504e830871664ace6550154809abfa4b29c4"
     },
     {
       "source": "../esempio-01/contatti.html",
@@ -102,7 +102,7 @@
     {
       "source": "../esempio-01/stile.css",
       "web": "/images/esercitazioni/esercizio-01/stile.css",
-      "sha256": "52df5a50807657f992fc070945d76db116238da8191412ec99e8223e15b446a7"
+      "sha256": "0c9336547c11640d0f87cb156ce6e67fefa387b663fde2bbba3b2e607abca329"
     },
     {
       "source": "../../../../../risorse-condivise/stili/tokens.css",
@@ -159,6 +159,6 @@
       66
     ],
     "historicalDiagram": "progetti/slide/assets/esercitazioni/native-rebuild/images/f7c30abe2a1b2b98dad2.jpg",
-    "description": "Tre pagine semplici con menu comune, i tre layout dell’originale, footer, selettori di relazione e pseudoelemento ::after. Nessun codice mostrato nella pagina."
+    "description": "Tre pagine semplici con menu comune, i tre layout dell’originale, footer, selettori di relazione e ::after per sottolineare la voce del menu della pagina attiva. Nessun codice mostrato nella pagina."
   }
 }
