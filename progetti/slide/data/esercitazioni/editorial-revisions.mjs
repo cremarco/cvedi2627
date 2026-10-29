@@ -159,12 +159,16 @@ function reviseExerciseContent(slides, exercise) {
   historicalFormatting.blocks[1].caption = ''
   historicalFormatting.part = historicalFormatting.parts = 1
   const cssExample = revised.find(slide => slide.number === 71)
+  const cssDescription = revised.find(slide => slide.sourceSlide === 49).blocks[0].paragraphs[1]
+  const [beforeTag, afterTag] = cssDescription.text.split('“p”')
+  cssDescription.runs = [{ text: beforeTag }, { text: 'p', mono: true }, { text: afterTag }]
+  cssDescription.text = cssDescription.runs.map(run => run.text).join('')
   const cssCode = revised.find(slide => slide.number === 72).blocks[0]
   const htmlCode = revised.find(slide => slide.number === 73).blocks[0]
   cssExample.layout = 'code-columns'
   cssExample.part = cssExample.parts = 1
   cssExample.blocks = [{ kind: 'text', paragraphs: cssExample.blocks.flatMap(block => block.paragraphs) },
-    { kind: 'code', text: cssCode.text.replaceAll('\n\n', '\n') },
+    { kind: 'code', text: cssCode.text.replaceAll('\n\n', '\n').replace('/* styles.css */\n', '/* styles.css */\n\n') },
     { kind: 'code', text: htmlCode.text.replaceAll('”', '"').replace(/(<p(?: class="blu")?>)([^<]+)(<\/p>)/g, '$1\n  $2\n$3') }]
 
   const cssApplication = revised.find(slide => slide.number === 74)

@@ -37,7 +37,7 @@ export function tagReferenceBlocks(slides) {
     }] },
     links: { kind: 'tag-reference', arrangement: 'samples', items: [{
       tags: ['<a>'], title: 'Collegamento', url: mdn('a'), introduction: linkSlides[0].blocks[0].paragraphs,
-      samples: linkCode.map((block, index) => ({ example: block.text.replace('>Wikipedia</a>', '>\n  Wikipedia</a>'), description: linkLabels[index].text,
+      samples: linkCode.map((block, index) => ({ example: block.text, description: linkLabels[index].text,
         result: { tag: 'a', text: ['Wikipedia', 'Pagina 1', 'Pagina 2'][index], href: ['https://it.wikipedia.org/', '/images/esercitazioni/links/pagina1.html', '/images/esercitazioni/links/pages/pagina2.html'][index] } })),
       traits: linkSlides.at(-1).blocks.at(-1).paragraphs.map(paragraph => paragraph.text),
     }] },
@@ -74,7 +74,7 @@ export function tagReferenceBlocks(slides) {
     ] },
     text: { kind: 'tag-reference', arrangement: 'stacked-pair', items: [
       { tags: ['<p>'], title: 'Paragrafo', url: mdn('p'), example: examples[0].text,
-        traits: ['Il browser aggiunge margini prima e dopo.', 'Elemento blocco.', 'Nell’esempio usiamo la chiusura </p>.'] },
+        traits: ['Elemento blocco.', 'Nell’esempio usiamo la chiusura </p>.'] },
       { tags: ['<br>'], title: 'A capo', url: mdn('br'), example: examples[2].text.replace('<br/>', '<br />'),
         traits: ['Interrompe la riga.', 'Non ha contenuto né tag di chiusura.'] },
       { tags: ['<h1>', '<h6>'], title: 'Headings / Titoli', url: mdn('Heading_Elements'), example: examples[1].text,

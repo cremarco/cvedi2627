@@ -1586,7 +1586,6 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/p",
             "example": "<p>Lorem ipsum</p>",
             "traits": [
-              "Il browser aggiunge margini prima e dopo",
               "Elemento blocco",
               "Nell’esempio usiamo la chiusura </p>"
             ]
@@ -1947,7 +1946,7 @@
             ],
             "samples": [
               {
-                "example": "<a href=\"https://it.wikipedia.org/\">\n  Wikipedia</a>",
+                "example": "<a href=\"https://it.wikipedia.org/\">Wikipedia</a>",
                 "description": "Link con riferimento ad altro sito web",
                 "result": {
                   "tag": "a",
@@ -2929,10 +2928,17 @@
             "level": 0
           },
           {
-            "text": "Nel foglio di stile, la regola CSS può essere applicata direttamente a un tag (ad esempio, possiamo assegnare determinati stili a tutti gli elementi “p”)",
+            "text": "Nel foglio di stile, la regola CSS può essere applicata direttamente a un tag (ad esempio, possiamo assegnare determinati stili a tutti gli elementi p)",
             "runs": [
               {
-                "text": "Nel foglio di stile, la regola CSS può essere applicata direttamente a un tag (ad esempio, possiamo assegnare determinati stili a tutti gli elementi “p”)"
+                "text": "Nel foglio di stile, la regola CSS può essere applicata direttamente a un tag (ad esempio, possiamo assegnare determinati stili a tutti gli elementi "
+              },
+              {
+                "text": "p",
+                "mono": true
+              },
+              {
+                "text": ")"
               }
             ],
             "bullet": true,
@@ -2999,7 +3005,7 @@
       },
       {
         "kind": "code",
-        "text": "/* styles.css */\np {\n  font-size: 15px;\n  font-weight: bold;\n  color: #FF0000;\n}\n.blu {\n  color: #0099FF;\n}"
+        "text": "/* styles.css */\n\np {\n  font-size: 15px;\n  font-weight: bold;\n  color: #FF0000;\n}\n.blu {\n  color: #0099FF;\n}"
       },
       {
         "kind": "code",

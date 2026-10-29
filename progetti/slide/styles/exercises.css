@@ -129,7 +129,7 @@
 .exercise-tag-reference--samples { grid-template-columns: 1fr; }
 .exercise-tag-reference--samples .exercise-tag-section { display: grid; gap: 16px 48px; }
 .exercise-tag-reference--samples :is(.exercise-tag-header, .exercise-tag-introduction, .exercise-tag-samples, .exercise-tag-traits) { grid-column: 1 / -1; }
-.exercise-tag-samples { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 48px; }
+.exercise-tag-samples { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 16px 48px; }
 .exercise-tag-description { font-size: 18px; line-height: 1.4; color: var(--cvedi-muted); }
 .exercise-tag-output .exercise-tag-image { display: block; width: auto; height: 160px; max-width: 100%; object-fit: contain; align-self: flex-start; }
 
