@@ -91,7 +91,7 @@ footer: "Esercitazioni"
 # Indice delle esercitazioni
 
 <div class="index-grid exercise-index-grid" aria-label="Presentazioni delle esercitazioni">
-  <SlideAction to="esercitazione-01" local-only class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">01</span><span>Ripasso HTML e CSS di base</span></SlideAction>
+  <SlideAction to="esercitazione-01" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">01</span><span>Ripasso HTML e CSS di base</span></SlideAction>
   <SlideAction to="esercitazione-02" local-only class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">02</span><span>Ripasso HTML e CSS avanzato</span></SlideAction>
   <SlideAction to="esercitazione-03" local-only class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">03</span><span>Nuove proprietà CSS, Grid e Srcset</span></SlideAction>
   <SlideAction to="esercitazione-04" local-only class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">04</span><span>Interfacce responsive e approccio mobile-first</span></SlideAction>
@@ -789,7 +789,6 @@ src: ./lezioni/10-composizione-gerarchia.md
 
 ---
 src: ./esercitazioni/01-html-css-base.md
-localOnly: true
 ---
 
 ---

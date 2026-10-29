@@ -14,7 +14,7 @@ Il codice delle esercitazioni resta testo selezionabile, monospaziato 19/1,4, co
 
 Il registro `utils/slide-sets.ts` e i token di `risorse-condivise/stili/tokens.css`, applicati da `slideSetStyle`, possiedono identità ed etichette. L’ordine cromatico è documentato nel contratto visivo; le esercitazioni lo condividono con le lezioni. La lezione 09 «Griglie e layout» chiude il percorso attivo.
 
-«Indice delle esercitazioni» segue immediatamente «Indice delle lezioni». Entrambi usano la stessa griglia e pulsanti daisyUI `btn` attraverso `SlideAction`. In locale le esercitazioni aprono presentazioni autonome con numerazione propria e ritorno al relativo indice. Online l’indice delle esercitazioni resta visibile con tutti i titoli e colori; i pulsanti sono elementi `button` nativamente `disabled`, senza destinazioni attivabili. I contenuti e gli asset esclusivi delle esercitazioni sono locali. L’indice delle lezioni comprende anche Griglie e layout in locale e online. Un piccolo altoparlante nel pulsante della lezione 09 segnala gli audio disponibili, con un’indicazione accessibile equivalente.
+«Indice delle esercitazioni» segue immediatamente «Indice delle lezioni». Entrambi usano la stessa griglia e pulsanti daisyUI `btn` attraverso `SlideAction`. In locale le esercitazioni aprono presentazioni autonome con numerazione propria e ritorno al relativo indice. Online l’indice delle esercitazioni conserva tutti i titoli e colori: la prima apre il deck pubblico, mentre le altre otto usano pulsanti nativamente disabilitati. Sono pubblicati soltanto contenuti e asset dell’esercitazione 01. L’indice delle lezioni comprende anche Griglie e layout in locale e online. Un piccolo altoparlante nel pulsante della lezione 09 segnala gli audio disponibili, con un’indicazione accessibile equivalente.
 
 ## daisyUI e Slidev
 
@@ -47,6 +47,8 @@ Le precedenti slide 5 e 6 dell’esercitazione 01 sono riunite nella slide 5, co
 ## Originali, manutenzione e verifica
 
 Le dipendenze npm sono installate nella radice del repository. La cartella `progetti/slide/node_modules/`, creata automaticamente da Slidev e Vite, contiene soltanto cache generate (`.slidev/virtual/` e `.vite-temp/`) ed è ignorata da Git; non costituisce un secondo progetto npm e può essere rigenerata.
+
+La pubblicazione dell’esercitazione 01 comprende la presentazione autonoma `lezioni/esercitazione-01/`, i suoi asset in `images/esercitazioni/` e l’esempio interattivo della slide 64. I dati JSON delle altre otto esercitazioni e i relativi esempi nativi non entrano nel bundle pubblico.
 
 Gli originali Drive, il catalogo delle fonti e la corrispondenza fra pagine originali e nuove slide restano in `progetti/slide/assets/esercitazioni/`; immagini pubblicabili separate dagli originali. Conservare attribuzioni e link della fonte. La pulizia elimina output riproducibili, metadati e cartelle vuote, proteggendo originali, licenze e rapporti referenziati. `pnpm clean --keep-dev` conserva il catalogo del server in uso; `--dry-run` mostra l’effetto previsto.
 
@@ -94,7 +96,7 @@ La vista relatore nativa di Slidev resta abilitata con `presenter: true`, barra 
 
 La lezione comprende 116 slide e 71,5 minuti pianificati, con un’attività di 10 minuti. Le 19 slide su griglie e interfacce e la slide sulle prove esplorative restano nei rispettivi archivi con note, mapping, fonti e asset. Le tavole autonome di Cereal e Netflix Sans non avevano slide dedicate; il confronto generale resta attivo.
 
-Tipografia è disponibile in locale e online come presentazione autonoma. Il corso pubblica 845 slide in 13 presentazioni, incluso il menu, e ne conserva 1337 in locale; le nove esercitazioni restano `localOnly`. «Prototipi e videogiochi» e «Test e implementazione», per 76 slide, restano archiviati fuori dal percorso attivo, con sorgenti, mapping, fonti e asset conservati. Immagini e font pubblici sono condivisi; la build conserva gli asset effettivamente citati e non precarica globalmente le immagini. Verificare sorgenti, build, indice, figure, tooltip, vista relatore, viewport stretto e stampa attraverso un’anteprima isolata.
+Tipografia è disponibile in locale e online come presentazione autonoma. Il corso pubblica 911 slide in 14 presentazioni, incluso il menu, e ne conserva 1337 in locale; l’esercitazione 01 è pubblicata e le altre otto restano `localOnly`. «Prototipi e videogiochi» e «Test e implementazione», per 76 slide, restano archiviati fuori dal percorso attivo, con sorgenti, mapping, fonti e asset conservati. Immagini e font pubblici sono condivisi; la build conserva gli asset effettivamente citati e non precarica globalmente le immagini. Verificare sorgenti, build, indice, figure, tooltip, vista relatore, viewport stretto e stampa attraverso un’anteprima isolata.
 
 ## Lezione 09 · Griglie e layout
 

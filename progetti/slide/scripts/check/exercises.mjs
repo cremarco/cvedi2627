@@ -31,9 +31,9 @@ try {
   const page = await browser.newPage({ viewport: { width: 1280, height: 720 }, reducedMotion: 'reduce' })
   for (const exercise of manifest.exercises) {
     const response = await page.request.get(`${published}/lezioni/${exercise.id}/`)
-    assert.equal(response.status(), 404, `${exercise.id}: direct public URL is unavailable`)
+    assert.equal(response.status(), exercise.number === 1 ? 200 : 404, `${exercise.id}: authorized publication status`)
   }
-  report.publication = { site: publishedSite, base: publishedPrefix, unavailableExerciseUrls: manifest.exercises.length }
+  report.publication = { site: publishedSite, base: publishedPrefix, unavailableExerciseUrls: manifest.exercises.length - 1 }
   page.on('pageerror', error => { if (error.message !== 'Wake Lock permission request denied') report.errors.push(error.message) })
   for (const [profile, viewport, media] of [
     ['desktop', { width: 1280, height: 720 }, 'screen'],
@@ -47,8 +47,8 @@ try {
     const localColors = await index.locator('.index-grid .btn').evaluateAll(nodes => nodes.map(node => getComputedStyle(node).backgroundColor))
     await page.screenshot({ path: `${output}/index-${profile}.png` })
     const publicIndex = await openSlide(page, published, 'indice-esercitazioni', { settle: true })
-    assert.equal(await publicIndex.locator('.index-grid a').count(), 0, 'online exercise index has no active links')
-    assert.equal(await publicIndex.locator('.index-grid button:disabled[aria-disabled="true"]').count(), 9, 'all nine online controls are natively disabled')
+    assert.equal(await publicIndex.locator('.index-grid a').count(), 1, 'the first exercise is linked online')
+    assert.equal(await publicIndex.locator('.index-grid button:disabled[aria-disabled="true"]').count(), 8, 'the eight unpublished exercises remain disabled')
     assert.deepEqual(await publicIndex.locator('.index-grid .btn').evaluateAll(nodes => nodes.map(node => getComputedStyle(node).backgroundColor)), localColors, 'online index preserves the same ordered colors')
     await publicIndex.locator('button').first().evaluate(node => node.click())
     assert.ok(page.url().endsWith('#/indice-esercitazioni'), 'disabled controls cannot navigate')

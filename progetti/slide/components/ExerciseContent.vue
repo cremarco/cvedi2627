@@ -17,7 +17,10 @@ function inlineRuns(runs: Run[]) {
   return runs.flatMap(run => run.mono ? [run] : run.text.split(/(<\/?[a-z][^<>]*>)/gi).filter(Boolean).map(text => ({ ...run, text, mono: /^<\/?[a-z][^<>]*>$/i.test(text) })))
 }
 const props = defineProps<{ exercise: string; slide: number }>()
-const files = import.meta.glob('../data/esercitazioni/*.json', { import: 'default' })
+// Only the authorized exercise data enters production bundles.
+const files = import.meta.env.PROD
+  ? { '../data/esercitazioni/01.json': () => import('../data/esercitazioni/01.json').then(module => module.default) }
+  : import.meta.glob('../data/esercitazioni/*.json', { import: 'default' })
 const slides = shallowRef<ExerciseSlide[]>([])
 watch(() => props.exercise, async exercise => {
   const load = files[`../data/esercitazioni/${exercise}.json`]

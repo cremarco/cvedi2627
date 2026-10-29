@@ -10,6 +10,7 @@ import { preventIndexingHTML } from '../../scripts/lib/indexing.mjs'
 import { annotateAcronyms } from './utils/acronyms.mjs'
 import { annotateFontNames, catalog as fontPreviews, splitFontNames } from './utils/font-previews.mjs'
 import { lessonDecks } from './utils/lesson-decks.mjs'
+import { publishedExercisePlugin } from './utils/published-exercise-plugin.mjs'
 
 // A public lesson receives only specimens it actually cites. In particular,
 // unpublished lessons must not publish their documentary images through
@@ -92,6 +93,7 @@ export default {
     markdown: { transforms: { after: (html: string) => annotateAcronyms(annotateFontNames(html)) } },
   },
   plugins: [
+    publishedExercisePlugin(slideRoot),
     fontPreviewCatalogPlugin(),
     publishedCardArtworkPlugin(),
     lessonDecksDevPlugin(),

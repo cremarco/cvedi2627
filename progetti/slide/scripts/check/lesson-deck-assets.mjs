@@ -45,7 +45,12 @@ export async function lessonAssetInventory(mode) {
     if (slide.frontmatter.exerciseNumber) {
       const number = String(slide.frontmatter.exerciseNumber).padStart(2, '0')
       const data = await json(`progetti/slide/data/esercitazioni/${number}.json`)
-      for (const block of data[slide.frontmatter.lessonSlide - 1].blocks) if (block.kind === 'image') images.add(block.src)
+      function collect(value) {
+        if (!value || typeof value !== 'object') return
+        if (typeof value.src === 'string' && value.src.startsWith('/images/')) images.add(value.src)
+        Object.values(value).filter(item => item && typeof item === 'object').forEach(collect)
+      }
+      collect(data[slide.frontmatter.lessonSlide - 1].blocks)
     }
     for (const [, name] of slide.content.matchAll(/<([A-Z][\w]+)\b/g)) for (const image of await componentAssets(name)) images.add(image)
     for (const [, title] of slide.content.matchAll(/<CvediCard\b[^>]*\btitle="([^"]+)"/g)) {
