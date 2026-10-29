@@ -6,8 +6,39 @@ import { browserMarketShare } from './browser-market-share.mjs'
 const mergedAway = [6, 8, 11, 13, 21, 23, 25, 29, 30, 32, 35, 37, 39, 40, 42, 43, 46, 58, 62, 63, 68, 69, 72, 73, 75, 76, 82, 84, 85, 87, 88, 90, 92, 93, 95, 96, 98, 99, 100, 102, 105, 107]
 export const revisedExerciseNumber = number => number - mergedAway.filter(removed => removed <= number).length
 
+/** Remove sentence punctuation at the end of editorial list items. */
+export function reviseListPunctuation(slides) {
+  const strip = text => text.replace(/[.,;:!?…]+(?=\s*$)/u, '')
+  for (const slide of slides) for (const block of slide.blocks) {
+    for (const paragraph of block.paragraphs || []) {
+      if (!paragraph.bullet) continue
+      const text = strip(paragraph.text)
+      if (text === paragraph.text) continue
+      const end = paragraph.text.trimEnd().length
+      const start = text.trimEnd().length
+      let offset = 0
+      for (const run of paragraph.runs) {
+        const next = offset + run.text.length
+        run.text = run.text.slice(0, Math.max(0, start - offset))
+          + run.text.slice(Math.max(0, end - offset))
+        offset = next
+      }
+      paragraph.text = text
+    }
+    if (block.kind === 'tag-reference') {
+      for (const item of block.items || []) item.traits = item.traits.map(strip)
+      if (block.sharedTraits) block.sharedTraits = block.sharedTraits.map(strip)
+    }
+  }
+  return slides
+}
+
 /** Revisions after the retained historical import and native reconstruction. */
 export function reviseExercise(slides, exercise) {
+  return reviseListPunctuation(reviseExerciseContent(structuredClone(slides), exercise))
+}
+
+function reviseExerciseContent(slides, exercise) {
   if (exercise !== '01') return slides
   const revised = structuredClone(slides)
   const explanation = revised.find(slide => slide.number === 5)

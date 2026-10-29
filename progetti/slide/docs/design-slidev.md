@@ -28,6 +28,8 @@ Le ruote di Colore animano gli SVG originali conservati: prima le tinte selezion
 
 ## Esercitazioni native
 
+Le voci degli elenchi puntati e numerati terminano senza punteggiatura. La punteggiatura interna alle frasi resta invariata; codice ed esempi eseguibili conservano la propria sintassi.
+
 ### Codice inline
 
 «Codice inline» è il nome concordato per l’evidenza con font monospaziato e sfondo grigio chiaro, token gray 200, applicata a tag HTML, proprietà e frammenti di codice dentro una frase. Quando l’utente richiede questo trattamento, usare `code` con la classe condivisa `exercise-inline-code`. Nella prosa delle esercitazioni i tag incorporati nei passaggi testuali sono riconosciuti senza modificare i contenuti; i blocchi di codice mantengono il proprio trattamento.

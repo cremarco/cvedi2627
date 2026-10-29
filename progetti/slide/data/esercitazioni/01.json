@@ -80,17 +80,17 @@
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Internet è una rete di reti.",
+            "text": "Internet è una rete di reti",
             "runs": [
               {
-                "text": "Internet è una rete di reti."
+                "text": "Internet è una rete di reti"
               }
             ],
             "bullet": true,
             "level": 0
           },
           {
-            "text": "I nodi delle reti di computer sono anche detti host, “ospiti”, perché ospitano le applicazioni.",
+            "text": "I nodi delle reti di computer sono anche detti host, “ospiti”, perché ospitano le applicazioni",
             "runs": [
               {
                 "text": "I nodi delle reti di computer sono anche detti "
@@ -100,7 +100,7 @@
                 "bold": true
               },
               {
-                "text": ", “ospiti”, perché ospitano le applicazioni."
+                "text": ", “ospiti”, perché ospitano le applicazioni"
               }
             ],
             "bullet": true,
@@ -367,7 +367,7 @@
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Una pagina web (web page, o anche documento) è costituita da diversi oggetti (risorse nella terminologia del web).",
+            "text": "Una pagina web (web page, o anche documento) è costituita da diversi oggetti (risorse nella terminologia del web)",
             "runs": [
               {
                 "text": "Una "
@@ -383,14 +383,14 @@
                 "text": "b)"
               },
               {
-                "text": "."
+                "text": ""
               }
             ],
             "bullet": true,
             "level": 0
           },
           {
-            "text": "Una risorsa è un file, cioè una sequenza di dati (in formato digitale), residente in un computer. Questo file è identificato da un URL (cioè un indirizzo univoco per la risorsa).",
+            "text": "Una risorsa è un file, cioè una sequenza di dati (in formato digitale), residente in un computer. Questo file è identificato da un URL (cioè un indirizzo univoco per la risorsa)",
             "runs": [
               {
                 "text": "Una "
@@ -414,14 +414,14 @@
                 "italic": true
               },
               {
-                "text": " per la risorsa)."
+                "text": " per la risorsa)"
               }
             ],
             "bullet": true,
             "level": 0
           },
           {
-            "text": "La maggior parte delle pagine web sono costituite da un file HTML che definisce la struttura e i contenuti della pagina.",
+            "text": "La maggior parte delle pagine web sono costituite da un file HTML che definisce la struttura e i contenuti della pagina",
             "runs": [
               {
                 "text": "La maggior parte delle pagine web sono costituite da un file "
@@ -438,24 +438,24 @@
                 "italic": true
               },
               {
-                "text": "della pagina."
+                "text": "della pagina"
               }
             ],
             "bullet": true,
             "level": 0
           },
           {
-            "text": "L’HTML è il linguaggio con cui si scrivono gli ipertesti. Permette di definire collegamenti, inserire immagini, elenchi...",
+            "text": "L’HTML è il linguaggio con cui si scrivono gli ipertesti. Permette di definire collegamenti, inserire immagini, elenchi",
             "runs": [
               {
-                "text": "L’HTML è il linguaggio con cui si scrivono gli ipertesti. Permette di definire collegamenti, inserire immagini, elenchi..."
+                "text": "L’HTML è il linguaggio con cui si scrivono gli ipertesti. Permette di definire collegamenti, inserire immagini, elenchi"
               }
             ],
             "bullet": true,
             "level": 0
           },
           {
-            "text": "Il Web Server si occupa di gestire le risorse (file) su un computer e di renderle disponibili ai client. ",
+            "text": "Il Web Server si occupa di gestire le risorse (file) su un computer e di renderle disponibili ai client ",
             "runs": [
               {
                 "text": "Il "
@@ -465,7 +465,7 @@
                 "bold": true
               },
               {
-                "text": " si occupa di gestire le risorse (file) su un computer e di renderle disponibili ai client. "
+                "text": " si occupa di gestire le risorse (file) su un computer e di renderle disponibili ai client "
               }
             ],
             "bullet": true,
@@ -1034,7 +1034,7 @@
             "level": 0
           },
           {
-            "text": "tag di apertura (es. <div>);",
+            "text": "tag di apertura (es. <div>)",
             "runs": [
               {
                 "text": "tag di apertura (es. "
@@ -1044,14 +1044,14 @@
                 "mono": true
               },
               {
-                "text": ");"
+                "text": ")"
               }
             ],
             "bullet": true,
             "level": 0
           },
           {
-            "text": "tag di chiusura (es. </div>).",
+            "text": "tag di chiusura (es. </div>)",
             "runs": [
               {
                 "text": "tag di chiusura (es. "
@@ -1061,7 +1061,7 @@
                 "mono": true
               },
               {
-                "text": ")."
+                "text": ")"
               }
             ],
             "bullet": true,
@@ -1586,9 +1586,9 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/p",
             "example": "<p>Lorem ipsum</p>",
             "traits": [
-              "Il browser aggiunge margini prima e dopo.",
-              "Elemento blocco.",
-              "Nell’esempio usiamo la chiusura </p>."
+              "Il browser aggiunge margini prima e dopo",
+              "Elemento blocco",
+              "Nell’esempio usiamo la chiusura </p>"
             ]
           },
           {
@@ -1599,8 +1599,8 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/br",
             "example": "Lorem ipsum<br />",
             "traits": [
-              "Interrompe la riga.",
-              "Non ha contenuto né tag di chiusura."
+              "Interrompe la riga",
+              "Non ha contenuto né tag di chiusura"
             ]
           },
           {
@@ -1612,9 +1612,9 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements",
             "example": "<h1>Titolo 1</h1>\n<h2>Titolo 2</h2>\n<h3>Titolo 3</h3>\n<h4>Titolo 4</h4>\n<h5>Titolo 5</h5>\n<h6>Titolo 6</h6>",
             "traits": [
-              "Da <h1> a <h6>: sei livelli gerarchici.",
-              "Elementi blocco.",
-              "Necessitano chiusura."
+              "Da <h1> a <h6>: sei livelli gerarchici",
+              "Elementi blocco",
+              "Necessitano chiusura"
             ]
           }
         ]
@@ -3663,7 +3663,7 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Type_selectors",
             "example": "h1, p, a { font-size: 2em; }",
             "traits": [
-              "La regola si applica a tutti gli elementi <h1>, <p> e <a>. La virgola raggruppa i selettori."
+              "La regola si applica a tutti gli elementi <h1>, <p> e <a>. La virgola raggruppa i selettori"
             ]
           },
           {
@@ -3674,7 +3674,7 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Class_selectors",
             "example": ".classe1 { ... }",
             "traits": [
-              "La regola si applica agli elementi con `class=\"classe1\"`."
+              "La regola si applica agli elementi con `class=\"classe1\"`"
             ]
           },
           {
@@ -3685,7 +3685,7 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/ID_selectors",
             "example": "#identificatore1 { ... }",
             "traits": [
-              "La regola si applica all’elemento con `id=\"identificatore1\"`."
+              "La regola si applica all’elemento con `id=\"identificatore1\"`"
             ]
           },
           {
@@ -3696,7 +3696,7 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/ID_selectors",
             "example": "h1#identificatore2 { ... }",
             "traits": [
-              "La regola si applica all’elemento <h1> con `id=\"identificatore2\"`."
+              "La regola si applica all’elemento <h1> con `id=\"identificatore2\"`"
             ]
           }
         ]
@@ -3723,7 +3723,7 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Descendant_combinator",
             "example": "#contenitore p { color: white; }",
             "traits": [
-              "Seleziona gli elementi <p> discendenti dell’antenato con `id=\"contenitore\"`, a qualsiasi livello."
+              "Seleziona gli elementi <p> discendenti dell’antenato con `id=\"contenitore\"`, a qualsiasi livello"
             ]
           },
           {
@@ -3734,7 +3734,7 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Child_combinator",
             "example": "#box > p { color: white; }",
             "traits": [
-              "Seleziona gli elementi <p> figli diretti dell’elemento padre con `id=\"box\"`."
+              "Seleziona gli elementi <p> figli diretti dell’elemento padre con `id=\"box\"`"
             ]
           }
         ]
@@ -3761,7 +3761,7 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Next-sibling_combinator",
             "example": "h1 + h2 { color: white; }",
             "traits": [
-              "Seleziona l’elemento <h2> immediatamente dopo un <h1>, con lo stesso elemento padre."
+              "Seleziona l’elemento <h2> immediatamente dopo un <h1>, con lo stesso elemento padre"
             ]
           },
           {
@@ -3772,7 +3772,7 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Subsequent-sibling_combinator",
             "example": "h1 ~ h2 { color: white; }",
             "traits": [
-              "Seleziona tutti gli elementi <h2> dopo un <h1>, con lo stesso elemento padre, anche se non sono adiacenti."
+              "Seleziona tutti gli elementi <h2> dopo un <h1>, con lo stesso elemento padre, anche se non sono adiacenti"
             ]
           }
         ]
@@ -3799,7 +3799,7 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:first-child",
             "example": "p:first-child { color: white; }",
             "traits": [
-              "Seleziona un <p> se è il primo figlio del proprio elemento padre."
+              "Seleziona un <p> se è il primo figlio del proprio elemento padre"
             ]
           },
           {
@@ -3810,7 +3810,7 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:nth-child",
             "example": "p:nth-child(2) { color: black; }",
             "traits": [
-              "Seleziona un <p> se è il secondo figlio. `:nth-child(n)` conta tutti gli elementi fratelli."
+              "Seleziona un <p> se è il secondo figlio. `:nth-child(n)` conta tutti gli elementi fratelli"
             ]
           },
           {
@@ -3821,7 +3821,7 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:not",
             "example": ":not(p) { color: white; }",
             "traits": [
-              "Seleziona gli elementi che non sono <p>. `:not(selector)` esclude il selettore indicato."
+              "Seleziona gli elementi che non sono <p>. `:not(selector)` esclude il selettore indicato"
             ]
           }
         ]
@@ -3848,7 +3848,7 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/::first-letter",
             "example": "p::first-letter { color: white; }",
             "traits": [
-              "Formatta la prima lettera dei paragrafi <p>."
+              "Formatta la prima lettera dei paragrafi <p>"
             ]
           },
           {
@@ -3859,7 +3859,7 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/::after",
             "example": "p::after {\n  content: \"contenuto\"; color: white;\n}",
             "traits": [
-              "Genera il testo “contenuto” dopo il contenuto di ogni <p>, con `color: white`."
+              "Genera il testo “contenuto” dopo il contenuto di ogni <p>, con `color: white`"
             ]
           },
           {
@@ -3870,7 +3870,7 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/::before",
             "example": "p::before {\n  content: \"contenuto\"; color: white;\n}",
             "traits": [
-              "Genera il testo “contenuto” prima del contenuto di ogni <p>, con `color: white`."
+              "Genera il testo “contenuto” prima del contenuto di ogni <p>, con `color: white`"
             ]
           }
         ]
@@ -3897,7 +3897,7 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Attribute_selectors",
             "example": "a[rel] { background-color: yellow; }",
             "traits": [
-              "Seleziona gli <a> con l’attributo `rel`, indipendentemente dal suo valore."
+              "Seleziona gli <a> con l’attributo `rel`, indipendentemente dal suo valore"
             ]
           },
           {
@@ -3908,7 +3908,7 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Attribute_selectors",
             "example": "a[rel=nofollow] { background-color: red; }",
             "traits": [
-              "Seleziona gli <a> con `rel=\"nofollow\"`: il valore deve coincidere esattamente."
+              "Seleziona gli <a> con `rel=\"nofollow\"`: il valore deve coincidere esattamente"
             ]
           },
           {
@@ -3919,7 +3919,7 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Attribute_selectors",
             "example": "a[title~=notizie] { color: white; }",
             "traits": [
-              "Seleziona gli <a> il cui `title` contiene la parola “notizie”, come <a title=\"Ultime notizie\">."
+              "Seleziona gli <a> il cui `title` contiene la parola “notizie”, come <a title=\"Ultime notizie\">"
             ]
           },
           {
@@ -3930,7 +3930,7 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Attribute_selectors",
             "example": "a[rel*=no] { color: white; }",
             "traits": [
-              "Seleziona gli <a> il cui `rel` contiene la stringa “no”, come `rel=\"nofollow\"` o `rel=\"noreferrer\"`."
+              "Seleziona gli <a> il cui `rel` contiene la stringa “no”, come `rel=\"nofollow\"` o `rel=\"noreferrer\"`"
             ]
           }
         ]
@@ -3956,8 +3956,8 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Selector_list",
             "example": "p, div, a.class1 {\n  background-color: yellow;\n}",
             "traits": [
-              "La regola si applica a tutti i <p>, a tutti i <div> e agli <a> con `class=\"class1\"`.",
-              "La virgola raggruppa selettori. Lo spazio indica invece una relazione di discendenza."
+              "La regola si applica a tutti i <p>, a tutti i <div> e agli <a> con `class=\"class1\"`",
+              "La virgola raggruppa selettori. Lo spazio indica invece una relazione di discendenza"
             ]
           }
         ]
@@ -3983,8 +3983,8 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Syntax/Comments",
             "example": "/*Commento nei CSS*/\n\n/*Ad esempio, posso utilizzarlo per segnalare che qui iniziano i css del menù*/\n\n/*MENU*/",
             "traits": [
-              "Delimita un commento con `/*` e `*/`.",
-              "Può spiegare il codice o segnalare l’inizio di una sezione, come il menù."
+              "Delimita un commento con `/*` e `*/`",
+              "Può spiegare il codice o segnalare l’inizio di una sezione, come il menù"
             ]
           }
         ]
@@ -4013,27 +4013,27 @@
             "level": 0
           },
           {
-            "text": "Mantenere lo stesso menu e footer; disporre i contenuti come nelle tre pagine dell’esempio.",
+            "text": "Mantenere lo stesso menu e footer; disporre i contenuti come nelle tre pagine dell’esempio",
             "runs": [
               {
-                "text": "Mantenere lo stesso menu e footer; disporre i contenuti come nelle tre pagine dell’esempio."
+                "text": "Mantenere lo stesso menu e footer; disporre i contenuti come nelle tre pagine dell’esempio"
               }
             ],
             "bullet": true,
             "level": 0
           },
           {
-            "text": "Utilizzare selettori di relazione per assegnare stili al menu.",
+            "text": "Utilizzare selettori di relazione per assegnare stili al menu",
             "runs": [
               {
-                "text": "Utilizzare selettori di relazione per assegnare stili al menu."
+                "text": "Utilizzare selettori di relazione per assegnare stili al menu"
               }
             ],
             "bullet": true,
             "level": 0
           },
           {
-            "text": "Inserire uno pseudoelemento ::after dopo gli elementi di una classe a scelta.",
+            "text": "Inserire uno pseudoelemento ::after dopo gli elementi di una classe a scelta",
             "runs": [
               {
                 "text": "Inserire uno pseudoelemento "
@@ -4043,7 +4043,7 @@
                 "mono": true
               },
               {
-                "text": " dopo gli elementi di una classe a scelta."
+                "text": " dopo gli elementi di una classe a scelta"
               }
             ],
             "bullet": true,
