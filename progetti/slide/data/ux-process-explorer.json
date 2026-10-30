@@ -57,7 +57,8 @@
       "output": "Brief condiviso con responsabilità e domande aperte.",
       "target": "processo-ux-ui-brief",
       "relatedStep": 5,
-      "relatedLabel": "Verifica con la ricerca"
+      "relatedLabel": "Verifica con la ricerca",
+      "artwork": "/images/processo-ux-ui/illustrazione-brief.webp"
     },
     {
       "number": 2,
@@ -68,7 +69,8 @@
       "output": "Obiettivi osservabili e criteri per riesaminarli.",
       "target": "processo-ux-ui-business",
       "relatedStep": 1,
-      "relatedLabel": "Rivedi il brief"
+      "relatedLabel": "Rivedi il brief",
+      "artwork": "/images/processo-ux-ui/mappa-obiettivi.webp"
     },
     {
       "number": 3,
@@ -79,7 +81,8 @@
       "output": "Confronto di opportunità, limiti e ipotesi.",
       "target": "processo-ux-ui-competitor",
       "relatedStep": 4,
-      "relatedLabel": "Riformula il problema"
+      "relatedLabel": "Riformula il problema",
+      "artwork": "/images/processo-ux-ui/mappa-competitor.webp"
     },
     {
       "number": 4,
@@ -90,7 +93,8 @@
       "output": "Problema circoscritto da verificare con la ricerca.",
       "target": "processo-ux-ui-problema",
       "relatedStep": 5,
-      "relatedLabel": "Raccogli evidenze"
+      "relatedLabel": "Raccogli evidenze",
+      "artwork": "/images/processo-ux-ui/mappa-problema.webp"
     },
     {
       "number": 5,
@@ -101,7 +105,8 @@
       "output": "Evidenze e bisogni utili a rivedere le decisioni.",
       "target": "processo-ux-ui-ricerca",
       "relatedStep": 4,
-      "relatedLabel": "Rivedi il problema"
+      "relatedLabel": "Rivedi il problema",
+      "artwork": "/images/processo-ux-ui/illustrazione-ricerca.webp"
     },
     {
       "number": 6,
@@ -112,7 +117,8 @@
       "output": "Personas pertinenti e ipotesi riconoscibili.",
       "target": "processo-ux-ui-personas",
       "relatedStep": 5,
-      "relatedLabel": "Ritorna alla ricerca"
+      "relatedLabel": "Ritorna alla ricerca",
+      "artwork": "/images/processo-ux-ui/mappa-personas.webp"
     },
     {
       "number": 7,
@@ -123,7 +129,8 @@
       "output": "Journey e flow con percorsi alternativi.",
       "target": "processo-ux-ui-journey",
       "relatedStep": 8,
-      "relatedLabel": "Rivedi i requisiti"
+      "relatedLabel": "Rivedi i requisiti",
+      "artwork": "/images/processo-ux-ui/obiettivo-percorsi.svg"
     },
     {
       "number": 8,
@@ -134,7 +141,8 @@
       "output": "Requisiti con criteri di accettazione e vincoli.",
       "target": "processo-ux-ui-brd",
       "relatedStep": 7,
-      "relatedLabel": "Rivedi il percorso"
+      "relatedLabel": "Rivedi il percorso",
+      "artwork": "/images/processo-ux-ui/illustrazione-requisiti.webp"
     },
     {
       "number": 9,
@@ -145,7 +153,8 @@
       "output": "Alberatura da confrontare con i compiti.",
       "target": "processo-ux-ui-architettura",
       "relatedStep": 7,
-      "relatedLabel": "Controlla il compito"
+      "relatedLabel": "Controlla il compito",
+      "artwork": "/images/processo-ux-ui/mappa-architettura.webp"
     },
     {
       "number": 10,
@@ -156,7 +165,8 @@
       "output": "Wireframe con etichette e contenuti realistici.",
       "target": "processo-ux-ui-wireframe",
       "relatedStep": 9,
-      "relatedLabel": "Rivedi la struttura"
+      "relatedLabel": "Rivedi la struttura",
+      "artwork": "/images/processo-ux-ui/illustrazione-wireframe.webp"
     },
     {
       "number": 11,
@@ -167,7 +177,8 @@
       "output": "Episodi osservati, esiti e limiti del prototipo.",
       "target": "processo-ux-ui-prototipo",
       "relatedStep": 10,
-      "relatedLabel": "Rivedi i wireframe"
+      "relatedLabel": "Rivedi i wireframe",
+      "artwork": "/images/processo-ux-ui/mappa-prototipo.webp"
     },
     {
       "number": 12,
@@ -178,7 +189,8 @@
       "output": "Nuova versione e domanda da mettere alla prova.",
       "target": "processo-ux-ui-iterazioni",
       "relatedStep": 4,
-      "relatedLabel": "Rivedi il problema"
+      "relatedLabel": "Rivedi il problema",
+      "artwork": "/images/processo-ux-ui/mappa-iterazioni.webp"
     },
     {
       "number": 13,
@@ -189,7 +201,8 @@
       "output": "Mockup coerenti con le condizioni del servizio.",
       "target": "processo-ux-ui-ui",
       "relatedStep": 11,
-      "relatedLabel": "Riprova il percorso"
+      "relatedLabel": "Riprova il percorso",
+      "artwork": "/images/processo-ux-ui/mappa-ui.webp"
     },
     {
       "number": 14,
@@ -200,7 +213,8 @@
       "output": "Problemi affrontati e questioni ancora aperte.",
       "target": "processo-ux-ui-nuova-verifica",
       "relatedStep": 4,
-      "relatedLabel": "Rivedi il problema"
+      "relatedLabel": "Rivedi il problema",
+      "artwork": "/images/processo-ux-ui/illustrazione-verifica.webp"
     }
   ]
 }

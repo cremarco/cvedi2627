@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "lesson": "processo-ux-ui",
+  "date": "2026-10-30",
+  "generationTool": "image_gen integrato",
+  "conversion": "cwebp -lossless -exact; dimensioni e alpha conservati",
+  "images": [
+    {
+      "code": "ritratto-carlo",
+      "slideSlug": "caso",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-cast/originals/carlo.png",
+      "originalSha256": "465e660d2c5dc3cd723e6514e641ad412f185dfa1acba4733d096f73af7b81bd",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-cast/web/ritratto-carlo.webp",
+      "sha256": "2f0e76b48f304cd5c3392f73e995e51a48e95f15e9645de3d107fbd48cad7ad3",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-cast/prompts/carlo.txt",
+      "promptSha256": "c79d88648e69f2b4c108704c4b5f8411141420d245c890a066256605e9f3588f",
+      "caption": "Carlo",
+      "alt": "Carlo con una cartella di documenti; figura senza lineamenti, camicia viola e maglietta bianca.",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "displayRights": "CVeDI, 2026.",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": true
+    },
+    {
+      "code": "ritratto-giovanni",
+      "slideSlug": "caso",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-cast/originals/giovanni.png",
+      "originalSha256": "41d5e817fa5494ba5c11f725862e6443db0cd20af60c10a1f6a88e04bae75301",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-cast/web/ritratto-giovanni.webp",
+      "sha256": "e606848379e1c1564c01e5c3fa0f7bfddbff228a1859646f3db6cdf762e322a8",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-cast/prompts/giovanni.txt",
+      "promptSha256": "e90964eb4ae759b235b318660277fd17512477585c4ac72caa182d90fc86346f",
+      "caption": "Giovanni",
+      "alt": "Giovanni con un tablet; figura senza lineamenti, capelli mossi e maglia viola.",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "displayRights": "CVeDI, 2026.",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": true
+    },
+    {
+      "code": "ritratto-viola",
+      "slideSlug": "caso",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-cast/originals/viola.png",
+      "originalSha256": "8708eeb14c279dd98922a05d1ce056b8a8f15ba5b6193de89012e5c4d7cf94c4",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-cast/web/ritratto-viola.webp",
+      "sha256": "ee44640826cc004c7fa1f3732085cb141a8ae40166988dd55d656ced971b5502",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-cast/prompts/viola.txt",
+      "promptSha256": "8809892687addcbda10183597d461cdf6b4b447a318f7b66dbba45df98c240a2",
+      "caption": "Viola",
+      "alt": "Viola con telefono e borsa a tracolla; figura senza lineamenti, capelli alle spalle e cardigan viola.",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "displayRights": "CVeDI, 2026.",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": true
+    }
+  ]
+}

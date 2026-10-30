@@ -1,0 +1,28 @@
+{
+  "title": "Percorso di prenotazione e recupero",
+  "source": {
+    "asset": "/images/processo-ux-ui/flow.svg",
+    "file": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+    "function": "flow"
+  },
+  "nodes": [
+    { "id": "search", "title": "Ricerca", "text": "Domicilio · giorno · dopo le 20", "column": 0, "row": 0 },
+    { "id": "availability", "title": "Disponibilità", "text": "Ci sono visite compatibili?", "column": 1, "row": 0, "tone": "decision" },
+    { "id": "review", "title": "Riepilogo", "text": "Dati, totale e condizioni.", "column": 2, "row": 0 },
+    { "id": "request", "title": "Invia richiesta", "text": "In attesa di accettazione.", "column": 3, "row": 0 },
+    { "id": "retry", "title": "Cambia ricerca", "text": "Cambia un criterio; i dati validi restano conservati.", "column": 1, "row": 1, "tone": "recovery" },
+    { "id": "edit", "title": "Correggi i dati", "text": "Torna al campo e poi al riepilogo.", "column": 2, "row": 1, "tone": "recovery" },
+    { "id": "confirmed", "title": "Visita confermata", "text": "Solo se il professionista accetta la richiesta.", "column": 3, "row": 1, "tone": "confirmed" }
+  ],
+  "connections": [
+    { "id": "search-availability", "from": "search", "to": "availability", "description": "Dalla ricerca verifica le disponibilità." },
+    { "id": "availability-review", "from": "availability", "to": "review", "label": "Sì", "description": "Se ci sono visite compatibili, passa al riepilogo." },
+    { "id": "availability-retry", "from": "availability", "to": "retry", "label": "No", "description": "Se non ci sono visite compatibili, cambia ricerca." },
+    { "id": "retry-search", "from": "retry", "to": "search", "description": "Ripeti la ricerca conservando i dati validi." },
+    { "id": "review-edit", "from": "review", "to": "edit", "label": "Correggi", "description": "Dal riepilogo puoi tornare al campo da correggere." },
+    { "id": "edit-review", "from": "edit", "to": "review", "label": "Rivedi", "description": "Dopo la correzione torna al riepilogo." },
+    { "id": "review-request", "from": "review", "to": "request", "description": "Dal riepilogo invia la richiesta, che resta in attesa." },
+    { "id": "request-confirmed", "from": "request", "to": "confirmed", "label": "Accetta", "description": "Solo l’accettazione del professionista conferma la visita." }
+  ],
+  "note": "Un orario proposto non è una visita confermata."
+}

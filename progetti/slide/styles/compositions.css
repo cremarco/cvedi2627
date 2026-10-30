@@ -43,6 +43,7 @@
 }
 .reading-slide.figure-dominant .lesson-columns { grid-template-columns: minmax(0, .55fr) minmax(0, 1.45fr); }
 .figure-slide .lesson-columns > div { min-width: 0; }
+.slidev-layout.default.ux-process-lesson table.table { user-select: text; }
 .slidev-layout.default.ux-process-lesson .table.lesson-decision-table { width: 100%; font: 400 var(--cvedi-type-body)/1.45 var(--theme-font); color: var(--theme-body); }
 .slidev-layout.default.ux-process-lesson .table.lesson-decision-table :is(th, td) { padding: var(--cvedi-space-related) var(--cvedi-space-peers); vertical-align: top; white-space: normal; font-size: var(--cvedi-type-body); }
 .slidev-layout.default.ux-process-lesson .table.lesson-decision-table :is(th, td):first-child { padding-left: 0; width: 24%; }
@@ -51,25 +52,39 @@
 .slidev-layout.default.ux-process-lesson .table.lesson-decision-table th { color: var(--theme-ink); font-weight: 600; }
 .slidev-layout.default.ux-process-lesson .table.lesson-decision-table thead th { font-size: var(--cvedi-type-card-body); }
 .slidev-layout.default.processo-ux-ui-slide.sequence-slide .card-heading { justify-content: flex-start; align-items: baseline; gap: var(--cvedi-space-related); }
+.slidev-layout.default.centered-content-slide.processo-ux-ui-slide > .cvedi-notice:last-of-type { margin-bottom: 0; }
 .slidev-layout.default.process-takeaway .lesson-statement { margin-bottom: var(--cvedi-space-introduction); }
 .slidev-layout.default .ux-step-overview.list {
   display: grid;
-  grid-template-rows: 76px 236px 84px 56px;
-  gap: var(--cvedi-space-related);
+  flex: 1 1 0;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr);
+  column-gap: var(--cvedi-space-columns);
+  row-gap: var(--cvedi-space-peers);
+  min-height: 0;
   width: 100%;
   margin: 0;
 }
 .slidev-layout.default .ux-step-overview > .list-row {
-  display: grid;
-  grid-template-columns: 160px minmax(0, 1fr);
-  align-items: start;
-  gap: var(--cvedi-space-peers);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: var(--cvedi-space-copy);
+  min-width: 0;
   padding: 0;
   border-radius: 0;
 }
+.slidev-layout.default .ux-step-overview > .ux-step-question {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: 128px minmax(0, 1fr);
+  align-items: baseline;
+  gap: var(--cvedi-space-peers);
+}
 .slidev-layout.default .ux-step-overview > .list-row::after { display: none; }
 .slidev-layout.default .ux-step-overview dt {
-  padding-top: 4px;
+  padding: 0;
   color: var(--section-primary-deep);
   font: 600 var(--cvedi-type-compact-title)/1.35 var(--theme-font);
 }
@@ -77,12 +92,14 @@
 .slidev-layout.default .ux-step-overview .lead { margin: 0; }
 .slidev-layout.default .ux-step-overview .cvedi-list { margin: 0; gap: var(--cvedi-space-related); }
 .slidev-layout.default .ux-step-overview .ux-step-result {
-  padding-top: var(--cvedi-space-related);
-  border-top: 1px solid var(--slide-rule);
+  padding-left: var(--cvedi-space-peers);
+  border-left: 1px solid var(--slide-rule);
 }
 .slidev-layout.default .ux-step-result p { margin: 0; color: var(--section-primary-deep); font-weight: 600; }
-.slidev-layout.default .ux-step-recall p { margin: 0; font-size: var(--cvedi-type-card-body); line-height: 1.4; }
-.slidev-layout.default .ux-step-recall strong { color: var(--theme-ink); }
+.slidev-layout.default.centered-content-slide.ux-step-slide:has(> .cvedi-notice.ux-step-recall) > .ux-step-overview.list { margin-top: 0; margin-bottom: var(--cvedi-space-related); }
+.slidev-layout.default .cvedi-notice.ux-step-recall p { margin: 0; font-size: var(--cvedi-type-card-body); line-height: 1.4; }
+.slidev-layout.default .ux-step-recall .link { border-bottom: 0; font-weight: 600; text-underline-offset: 3px; }
+.slidev-layout.default .ux-step-recall .link:focus-visible { outline: 3px solid var(--notice-tone); outline-offset: 3px; border-radius: 2px; }
 .slidev-layout.default .ux-case-application { width: 100%; }
 .slidev-layout.default .ux-case-columns { display: grid; grid-template-columns: minmax(0, .38fr) minmax(0, .62fr); gap: var(--cvedi-space-introduction); align-items: start; }
 .slidev-layout.default .ux-case-application h2 { margin: 0 0 12px; font: 600 var(--cvedi-type-compact-title)/1.35 var(--theme-font); color: var(--section-primary-deep); }
@@ -95,6 +112,21 @@
 .slidev-layout.default .ux-case-handoff { margin: 16px 0 8px; padding-top: 8px; border-top: 1px solid var(--slide-rule); font: 400 var(--cvedi-type-card-body)/1.4 var(--theme-font); }
 .slidev-layout.default .ux-case-handoff strong { color: var(--section-primary-deep); }
 .slidev-layout.default .ux-case-application > .lesson-caption { margin: 0; }
+.slidev-layout.default .ux-case-comparison > .lead { margin: 0 0 var(--cvedi-space-peers); }
+.slidev-layout.default .ux-case-comparison .table thead th:last-child { width: 76%; }
+.slidev-layout.default .ux-case-comparison > .cvedi-notice { margin-top: var(--cvedi-space-peers); }
+.slidev-layout.default .ux-case-comparison .cvedi-notice p { font-size: var(--cvedi-type-card-body); }
+.slidev-layout.default .ux-cast-layout { width: 100%; }
+.slidev-layout.default .ux-cast-layout > .lead { margin: 0 0 var(--cvedi-space-peers); }
+.slidev-layout.default .ux-cast-groups { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: var(--cvedi-space-columns); }
+.slidev-layout.default .ux-cast-group { min-width: 0; }
+.slidev-layout.default .ux-cast-people { display: flex; justify-content: space-around; gap: var(--cvedi-space-peers); }
+.slidev-layout.default .ux-cast-person { flex: 1; min-width: 0; text-align: center; }
+.slidev-layout.default .ux-cast-person .lesson-figure { height: 190px; margin: 0; }
+.slidev-layout.default .ux-cast-person h2 { margin: var(--cvedi-space-copy) 0; color: var(--section-primary); font: 600 var(--cvedi-type-card-title)/1.35 var(--theme-font); }
+.slidev-layout.default .ux-cast-copy p { margin: 0; font: 400 var(--cvedi-type-body)/1.4 var(--theme-font); }
+.slidev-layout.default .ux-cast-copy p + p { margin-top: var(--cvedi-space-copy); }
+.slidev-layout.default .ux-cast-service { margin: var(--cvedi-space-peers) 0 0; padding-top: var(--cvedi-space-related); border-top: 1px solid var(--slide-rule); font: 400 var(--cvedi-type-card-body)/1.4 var(--theme-font); }
 .figure-dominant .lesson-columns > div .lead { font-size: 24px; }
 .figure-slide .lesson-columns > .lesson-figure { align-self: stretch; }
 .reading-slide.figure-pair .lesson-columns { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }

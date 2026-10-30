@@ -433,6 +433,33 @@
         ],
         "createdAt": "2026-10-13T21:38:28.693Z",
         "reason": "Agent: native Chromium measurement at 1280px and 390px shows body 18px, h1 36px, section h2 27px and 24px, forecast h2 26px or 24px, and news h3 18px. The rendered hierarchy has steps of at least 1.33:1; the static detector incorrectly assigns every heading role 18px."
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "progetti/fisioterapia/index.html"
+        ],
+        "createdAt": "2026-10-30T12:43:57.803Z",
+        "reason": "Assistant triage: browser inspection confirms input, select and textarea use box-shadow none and uniform 1px borders; assessment-b.md records the three compiled daisyUI inset-shadow false positives. Current home input/select properties reconfirmed; no 10px stripe is rendered."
+      },
+      {
+        "rule": "tight-leading",
+        "value": "*",
+        "files": [
+          "progetti/fisioterapia/index.html"
+        ],
+        "createdAt": "2026-10-30T12:43:57.820Z",
+        "reason": "Assistant triage: rendered body is 17px/27.2px, form controls 15.98px/25.568px and hero paragraph 19.72px/31.552px, all 1.6. The display title uses intentional 1.05 leading documented in progetti/fisioterapia/DESIGN.md. The detector reports an unrendered 0.15x ratio while parsing compiled CSS; no compressed body text is present."
+      },
+      {
+        "rule": "design-system-color",
+        "value": "rgb(0, 0, 0)",
+        "files": [
+          "progetti/fisioterapia/index.html"
+        ],
+        "createdAt": "2026-10-30T12:44:35.542Z",
+        "reason": "Assistant triage: the static analyzer reports a black html background after loading the new design sidecar, but current browser computed styles for both html and body are rgb(255, 255, 255), with data-theme passo. This is the documented paper color, not design-system drift; exception limited to this literal and this HTML file."
       }
     ]
   }

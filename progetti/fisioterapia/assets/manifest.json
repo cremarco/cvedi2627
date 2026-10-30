@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "images": [
+    {
+      "id": "visita-a-casa",
+      "original": "progetti/fisioterapia/assets/originals/visita-a-casa.png",
+      "originalSha256": "83ea8cfda94681f23cf9e65f9421038f1ed6bd4367064e88252221f9b2aeeddc",
+      "derivative": "progetti/fisioterapia/assets/images/visita-a-casa.webp",
+      "sha256": "2ead4354ab4d11d1663fd0fb5a5c1ee6dea50dbca19ca3b35924df9c86e618d2",
+      "prompt": "progetti/fisioterapia/assets/prompts/visita-a-casa.txt",
+      "promptSha256": "85207d6ad6e91329f374e7078bc5d59b1eed009c3405c4b7cb12b57e95e84ac0",
+      "size": [
+        1374,
+        1145
+      ],
+      "generationTool": "image_gen integrato",
+      "rights": "CVeDI, 2026. Fotografia sintetica generata con IA.",
+      "reference": null
+    },
+    {
+      "id": "giulia-riva",
+      "original": "progetti/fisioterapia/assets/originals/giulia-riva.png",
+      "originalSha256": "777c1dab18d0eedc1db4a6b50d082af15b1c4789a8fdf8cc5f8567c80352931c",
+      "derivative": "progetti/fisioterapia/assets/images/giulia-riva.webp",
+      "sha256": "8513cb3288c51d28724bf21f7c86442b8e1f233cbb6870e93b428ca7a5b6fc3b",
+      "prompt": "progetti/fisioterapia/assets/prompts/giulia-riva.txt",
+      "promptSha256": "5458a51db37fe0912e1950f3dec0d265d6e637d12a1758ccd3c4bacd5f984b9c",
+      "size": [
+        640,
+        800
+      ],
+      "generationTool": "image_gen integrato",
+      "rights": "CVeDI, 2026. Fotografia sintetica generata con IA.",
+      "reference": "visita-a-casa"
+    },
+    {
+      "id": "luca-sala",
+      "original": "progetti/fisioterapia/assets/originals/luca-sala.png",
+      "originalSha256": "c8f4ef1e682fb782c85a9b5e217dd45774166f64ac4970c5f15391f1eae75783",
+      "derivative": "progetti/fisioterapia/assets/images/luca-sala.webp",
+      "sha256": "fa6cf14e892d616f8284cc8eff82e3ea63e9c26402c580a6fb5e185f85190fea",
+      "prompt": "progetti/fisioterapia/assets/prompts/luca-sala.txt",
+      "promptSha256": "b3eafbe42b0db6d6d20fa7e6e8f5c5ec0142104713ae46b0e327a028e8cadc0a",
+      "size": [
+        640,
+        800
+      ],
+      "generationTool": "image_gen integrato",
+      "rights": "CVeDI, 2026. Fotografia sintetica generata con IA.",
+      "reference": null
+    }
+  ],
+  "font": {
+    "file": "assets/fonts/nunito-sans.woff2",
+    "source": "progetti/slide/public/fonts/deck/nunito-sans-latin-wght-normal.woff2",
+    "license": "assets/fonts/OFL.txt"
+  }
+}

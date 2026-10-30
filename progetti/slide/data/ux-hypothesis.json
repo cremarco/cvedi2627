@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "title": "Ipotesi da provare",
+  "source": {
+    "asset": "/images/processo-ux-ui/ipotesi.svg",
+    "file": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+    "function": "ipotesi"
+  },
+  "fields": [
+    {
+      "id": "problem",
+      "title": "Problema ipotizzato",
+      "text": "Chi finisce tardi non capisce quali visite siano compatibili con il lavoro.",
+      "tone": "soft"
+    },
+    {
+      "id": "proposal",
+      "title": "Proposta",
+      "text": "Mostrare orari serali e copertura vicino al giorno selezionato."
+    },
+    {
+      "id": "expected-change",
+      "title": "Cambiamento atteso",
+      "text": "La persona riconosce una disponibilità compatibile prima del riepilogo."
+    },
+    {
+      "id": "disconfirmation",
+      "title": "Possibile smentita",
+      "text": "Trova l’orario, ma non procede perché il domicilio non è coperto."
+    }
+  ]
+}

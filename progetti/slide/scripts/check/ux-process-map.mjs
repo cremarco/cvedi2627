@@ -18,7 +18,9 @@ try {
     await page.emulateMedia({ media: 'screen' })
     const root = await openSlide(page, lesson, 'processo-ux-ui-mappa', { settle: true })
     const buttons = root.locator('.ux-explorer-node')
+    assert.equal(await root.locator('h1, .ux-explorer-intro, .ux-explorer-detail-footer').count(), 0, 'the map omits the removed title, introduction and footer controls')
     assert.equal(await buttons.count(), 14)
+    assert.equal(await buttons.locator('.ux-explorer-node-artwork').count(), 14, 'each process card has its own illustration')
     assert.equal(await root.locator('.ux-explorer-connections > path').count(), 13, 'all adjacent steps have visible connections')
     const location = page.url()
     for (const step of map.steps) {
@@ -69,6 +71,12 @@ try {
           connectionContrast,
           nodes: [...root.querySelectorAll('.ux-explorer-node')].map(node => ({ width: node.getBoundingClientRect().width / scale, height: node.getBoundingClientRect().height / scale, font: parseFloat(getComputedStyle(node).fontSize), selected: node.getAttribute('aria-pressed') === 'true', background: getComputedStyle(node).backgroundColor, color: getComputedStyle(node).color, classes: node.className })),
           fields: [...root.querySelectorAll('.ux-explorer-fields dd')].map(node => parseFloat(getComputedStyle(node).fontSize)),
+          detailGaps: [...root.querySelectorAll('.ux-explorer-fields > div, .ux-explorer-detail-actions')].map(node => node.getBoundingClientRect()).flatMap((rect, index, items) => index ? [(rect.top - items[index - 1].bottom) / scale] : []),
+          artwork: [...root.querySelectorAll('.ux-explorer-node-artwork')].map(image => {
+            const label = image.parentElement.querySelector('.ux-explorer-node-label').getBoundingClientRect()
+            const art = image.getBoundingClientRect()
+            return { loaded: image.complete && image.naturalWidth > 0, decorative: image.alt === '' && image.getAttribute('aria-hidden') === 'true', size: art.width / scale, gap: (art.left - label.right) / scale }
+          }),
         }
       })
       reports.push({ mode, step: step.number, ...report })
@@ -79,12 +87,12 @@ try {
       assert.ok(report.connectionContrast.every(value => value >= 3), 'connections keep at least 3:1 contrast')
       assert.ok(report.nodes.every(node => node.width >= 43.99 && node.height >= 43.99 && node.font === 20))
       assert.ok(report.fields.every(font => font === 20), 'detail keeps the shared reading scale')
+      assert.ok(report.detailGaps.length === 3 && report.detailGaps.every((gap, index) => gap >= (index < 2 ? 23.9 : 15.9)), 'goal, activity, expected result and action keep their shared spacing roles for every step')
+      assert.ok(report.artwork.every(image => image.loaded && image.decorative && Math.abs(image.size - 80) < .1 && image.gap >= 7.9), 'illustrations load at the shared scale with clear space beside the labels')
       assert.notEqual(report.nodes.find(node => node.selected).background, report.nodes.find(node => !node.selected).background, 'selection is immediately visible even with reduced motion')
-      if (step.number === 7) await page.screenshot({ path: `${output}/mappa-${mode}-07.png` })
+      if ([1, 7].includes(step.number)) await page.screenshot({ path: `${output}/mappa-${mode}-${String(step.number).padStart(2, '0')}.png` })
     }
     await page.screenshot({ path: `${output}/mappa-${mode}.png` })
-    await root.locator('.ux-explorer-return').click()
-    assert.equal(await root.locator('.ux-explorer-node[data-step="4"]').getAttribute('aria-pressed'), 'true', 'the last verification can reopen the problem')
     await root.locator('.ux-explorer-node[data-step="1"]').click()
     await page.keyboard.press('ArrowRight')
     assert.equal(await root.locator('.ux-explorer-node[data-step="2"]').getAttribute('aria-pressed'), 'true')
@@ -97,9 +105,6 @@ try {
     assert.equal(page.url(), location, 'native button activation stays in the graph')
     await page.keyboard.press('Tab')
     assert.equal(await root.locator('.ux-explorer-open').evaluate(node => document.activeElement === node), true, 'Tab leaves the map for the explanation')
-    await page.keyboard.press('Tab')
-    assert.equal(await root.locator('.ux-explorer-return').evaluate(node => document.activeElement === node), true, 'the return action follows the explanation in keyboard order')
-    await page.keyboard.press('Shift+Tab')
     await page.keyboard.press('Enter')
     await page.waitForURL(new RegExp('/#/' + map.steps[0].target + '$'))
     await openSlide(page, lesson, 'processo-ux-ui-mappa')
@@ -107,7 +112,7 @@ try {
     await page.keyboard.press('Escape')
     await page.keyboard.press('ArrowRight')
     await page.waitForURL(/\/#\/processo-ux-ui-iterazione$/)
-    console.log(`UX process map: ${mode}, all 14 steps, iteration, explanation and keyboard passed.`)
+    console.log(`UX process map: ${mode}, all 14 steps, explanation and keyboard passed.`)
   }
   await page.setViewportSize({ width: 1280, height: 720 })
   await page.emulateMedia({ media: 'print' })

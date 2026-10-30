@@ -22,7 +22,7 @@ test('the first exercise is published while the remaining exercises stay local',
   assert.equal(lessonDecks[gridsIndex + 1].id, 'composizione-gerarchia', 'composition follows grids')
   assert.equal(lessonDecks[gridsIndex + 3].id, exercises.exercises[0].id, 'exercises follow the last active theory lesson')
   assert.equal(lessonDecks[gridsIndex + 2].id, 'processo-ux-ui', 'lesson 11 follows composition')
-  assert.equal(lessonDecks[gridsIndex + 2].localOnly, true, 'new lesson awaits publication')
+  assert.equal(lessonDecks[gridsIndex + 2].localOnly, undefined, 'lesson 11 is published')
   assert.equal(lessonDecks[gridsIndex + 1].file, 'lezioni/10-composizione-gerarchia.md')
   assert.equal(lessonDecks[gridsIndex + 1].localOnly, undefined, 'composition is published')
   assert.equal(lessonDecks[gridsIndex].file, 'lezioni/07-griglie-layout.md', 'grids have their own source file')

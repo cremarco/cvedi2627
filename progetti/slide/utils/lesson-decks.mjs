@@ -13,7 +13,7 @@ export const lessonDecks = [
   { id: 'tipografia-griglie', lesson: 'tipografia-griglie', alias: 'tipografia-griglie', title: 'Tipografia', file: 'lezioni/07-tipografia-griglie.md' },
   { id: 'griglie-layout', lesson: 'griglie-layout', alias: 'griglie-layout', title: 'Griglie e layout', file: 'lezioni/07-griglie-layout.md' },
   { id: 'composizione-gerarchia', lesson: 'composizione-gerarchia', alias: 'composizione-gerarchia', title: 'Composizione e gerarchia visiva', file: 'lezioni/10-composizione-gerarchia.md' },
-  { id: 'processo-ux-ui', lesson: 'processo-ux-ui', alias: 'processo-ux-ui', title: 'Processo UX e UI', file: 'lezioni/11-processo-ux-ui.md', localOnly: true },
+  { id: 'processo-ux-ui', lesson: 'processo-ux-ui', alias: 'processo-ux-ui', title: 'Processo UX e UI', file: 'lezioni/11-processo-ux-ui.md' },
   { id: 'esercitazione-01', lesson: 'esercitazione-01', alias: 'esercitazione-01', title: "Esercitazione 1 - Ripasso HTML e CSS di base", file: 'esercitazioni/01-html-css-base.md' },
   { id: 'esercitazione-02', lesson: 'esercitazione-02', alias: 'esercitazione-02', title: "Esercitazione 2 - Ripasso HTML e CSS avanzato", file: 'esercitazioni/02-html-css-avanzato.md', localOnly: true },
   { id: 'esercitazione-03', lesson: 'esercitazione-03', alias: 'esercitazione-03', title: "Esercitazione 3 - Nuove proprietà CSS, Grid e Srcset", file: 'esercitazioni/03-css-grid-srcset.md', localOnly: true },

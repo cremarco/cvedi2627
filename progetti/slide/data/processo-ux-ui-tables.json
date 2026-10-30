@@ -1,0 +1,304 @@
+{
+  "version": 1,
+  "lesson": "processo-ux-ui",
+  "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+  "sourceSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
+  "editorialNote": "Native HTML transcriptions of all record/matrix tables. Benchmark reframed as common observation questions; original SVGs and source text remain preserved.",
+  "tables": {
+    "/images/processo-ux-ui/obiettivi.svg": {
+      "title": "Da un obiettivo generico a un risultato osservabile",
+      "headers": [],
+      "widths": [
+        22,
+        78
+      ],
+      "rows": [
+        [
+          "Generico",
+          "«Rendere più semplice la prenotazione»."
+        ],
+        [
+          "Da provare",
+          "Nel prossimo ciclo, trovare una visita a domicilio dopo le 20 e inviare una richiesta senza aiuto, distinguendo attesa e conferma."
+        ],
+        [
+          "Cosa annotare",
+          "Completamento · ostacoli · richieste d’aiuto · comprensione del riepilogo e dello stato"
+        ]
+      ],
+      "note": "",
+      "caption": ""
+    },
+    "/images/processo-ux-ui/journey.svg": {
+      "title": "Una porzione del viaggio di Viola",
+      "headers": [
+        "Fase",
+        "Cercare",
+        "Confrontare",
+        "Richiedere"
+      ],
+      "widths": [
+        18,
+        27.33,
+        27.33,
+        27.34
+      ],
+      "rows": [
+        [
+          "Azione",
+          "Esamina le alternative disponibili.",
+          "Controlla orari, professionista e costo.",
+          "Rilegge il riepilogo e invia la richiesta."
+        ],
+        [
+          "Punto di contatto",
+          "Ricerca e consiglio di una persona.",
+          "Scheda del servizio.",
+          "Riepilogo e stato della richiesta."
+        ],
+        [
+          "Domanda",
+          "«Il servizio arriva a casa mia?»",
+          "«È disponibile dopo le 20?»",
+          "«La visita è confermata?»"
+        ],
+        [
+          "Opportunità",
+          "Rendere reperibile la copertura.",
+          "Mostrare i vincoli prima della scelta.",
+          "Distinguere richiesta e conferma."
+        ]
+      ],
+      "note": "",
+      "caption": ""
+    },
+    "/images/processo-ux-ui/requisiti.svg": {
+      "title": "Requisiti del servizio di fisioterapia a domicilio",
+      "headers": [],
+      "widths": [
+        22,
+        78
+      ],
+      "rows": [
+        [
+          "R1 · Copertura",
+          "Verificare l’indirizzo prima di mostrare visite a domicilio."
+        ],
+        [
+          "R2 · Filtro sera",
+          "Cercare per giorno e fascia dopo le 20; slot aggiornati dal professionista."
+        ],
+        [
+          "R3 · Riepilogo",
+          "Conservare domicilio, 17 novembre 2026, 20:30, 45 minuti e totale 60 €, spostamento incluso."
+        ],
+        [
+          "R4 · Stato",
+          "«Invia richiesta» produce «In attesa»; «Visita confermata» solo dopo l’accettazione del professionista."
+        ],
+        [
+          "R5 · Recupero",
+          "Se l’orario non è più disponibile, conservare i dati e proporre un’alternativa."
+        ]
+      ],
+      "note": "Priorità: primo percorso da provare. Da chiarire: come e quando il professionista aggiorna gli slot.",
+      "caption": ""
+    },
+    "/images/processo-ux-ui/confronto-alternative.svg": {
+      "title": "Confrontare lo stesso compito di Viola nei tre canali",
+      "headers": [
+        "Domanda di Viola",
+        "Che cosa osservare in ogni alternativa"
+      ],
+      "widths": [
+        30,
+        70
+      ],
+      "rows": [
+        [
+          "C’è una visita dopo le 20?",
+          "Come Viola trova una disponibilità serale e quali passaggi deve compiere."
+        ],
+        [
+          "Il professionista viene a casa mia?",
+          "Dove verifica la copertura del domicilio e gli eventuali limiti del servizio."
+        ],
+        [
+          "Quanto pago complessivamente?",
+          "Quando conosce il totale, inclusi spostamento ed eventuali supplementi."
+        ],
+        [
+          "Quando è confermata la visita?",
+          "Come distingue l’invio della richiesta dall’accettazione del professionista."
+        ]
+      ],
+      "note": "",
+      "caption": "Viola cerca fisioterapia a domicilio dopo le 20. Ripeti il confronto per telefono, sito dello studio e piattaforma."
+    },
+    "/images/processo-ux-ui/responsabilita.svg": {
+      "title": "Decisioni organizzative e conseguenze sul prodotto",
+      "headers": [
+        "Decisione",
+        "Chi deve chiarirla",
+        "Conseguenza sul prodotto"
+      ],
+      "widths": [
+        22,
+        34,
+        44
+      ],
+      "rows": [
+        [
+          "Zona coperta",
+          "Gestore della rete e professionisti.",
+          "Verificare il domicilio prima della scelta."
+        ],
+        [
+          "Disponibilità",
+          "Il professionista aggiorna gli slot.",
+          "Mostrare proposte di orario, senza promettere conferma."
+        ],
+        [
+          "Accettazione",
+          "Il professionista accetta la richiesta.",
+          "Passare da «In attesa» a «Visita confermata»."
+        ],
+        [
+          "Annullamento",
+          "Il gestore definisce condizioni e assistenza.",
+          "Mostrare regole e possibilità di recupero."
+        ]
+      ],
+      "note": "",
+      "caption": ""
+    },
+    "/images/processo-ux-ui/journey-responsabilita.svg": {
+      "title": "Attività e responsabilità nei momenti del servizio",
+      "headers": [
+        "Momento",
+        "Prima della scelta",
+        "Durante la richiesta",
+        "Dopo l’accettazione"
+      ],
+      "widths": [
+        18,
+        27.33,
+        27.33,
+        27.34
+      ],
+      "rows": [
+        [
+          "Per Viola",
+          "Capire se il servizio arriva a casa.",
+          "Sapere se la richiesta è accettata.",
+          "Ritrovare luogo, orario e contatto."
+        ],
+        [
+          "Interfaccia",
+          "Informazioni sulla zona e ricerca.",
+          "Riepilogo e stato della richiesta.",
+          "Dettaglio in «Le mie visite»."
+        ],
+        [
+          "Servizio",
+          "Gestore e professionisti definiscono la copertura.",
+          "Il professionista valuta e accetta.",
+          "Il gestore coordina variazioni e assistenza."
+        ]
+      ],
+      "note": "",
+      "caption": ""
+    },
+    "/images/processo-ux-ui/registro-prova.svg": {
+      "title": "Registro di un episodio di prova",
+      "headers": [],
+      "widths": [
+        22,
+        78
+      ],
+      "rows": [
+        [
+          "Contesto",
+          "Versione v0 · trovare una visita dopo le 20."
+        ],
+        [
+          "Comportamento",
+          "La persona apre due schede e torna alla ricerca senza scegliere un orario."
+        ],
+        [
+          "Parole",
+          "«Non so se questa visita è a domicilio»."
+        ],
+        [
+          "Facilitazione",
+          "Nessun suggerimento sul percorso."
+        ],
+        [
+          "Interpretazione",
+          "La copertura potrebbe essere poco riconoscibile."
+        ],
+        [
+          "Prossima prova",
+          "Rendere esplicito il domicilio e ripetere il compito."
+        ]
+      ],
+      "note": "",
+      "caption": ""
+    },
+    "/images/processo-ux-ui/caso-servizio-finale.svg": {
+      "title": "Blueprint del servizio finale",
+      "headers": [
+        "Attore",
+        "Cercare",
+        "Scegliere",
+        "Richiedere",
+        "Attendere",
+        "Gestire"
+      ],
+      "widths": [
+        16,
+        16.8,
+        16.8,
+        16.8,
+        16.8,
+        16.8
+      ],
+      "rows": [
+        [
+          "Viola",
+          "Imposta zona e sera.",
+          "Confronta orario e costo.",
+          "Invia la richiesta.",
+          "Legge «In attesa».",
+          "Ritrova o cambia visita."
+        ],
+        [
+          "Interfaccia",
+          "Verifica copertura.",
+          "Mostra 45 min e totale.",
+          "Conserva il riepilogo.",
+          "Attesa; conferma o rifiuto.",
+          "Conserva dati e dettagli."
+        ],
+        [
+          "Professionista",
+          "Aggiorna gli slot.",
+          "Propone disponibilità.",
+          "Riceve la richiesta.",
+          "Accetta o rifiuta.",
+          "Gestisce variazioni."
+        ],
+        [
+          "Gestore",
+          "Coordina la rete.",
+          "Definisce condizioni.",
+          "Traccia l’invio.",
+          "Supporta le eccezioni.",
+          "Offre assistenza."
+        ]
+      ],
+      "note": "La conferma appare dopo l’accettazione del professionista; il gestore coordina rete e assistenza.",
+      "caption": ""
+    }
+  }
+}

@@ -21,7 +21,7 @@
     "prepare:assets": "node scripts/build/shared-assets.mjs",
     "dev": "pnpm prepare:assets && pnpm build:caffe-ttc && node progetti/slide/scripts/dev.mjs",
     "build": "pnpm prepare:assets && pnpm build:caffe-ttc && pnpm run css && node progetti/slide/scripts/build/lesson-decks.mjs progetti/slide/dist && node progetti/slide/scripts/build/web-design-examples.mjs progetti/slide/dist && node scripts/build/noindex.mjs progetti/slide/dist",
-    "build:pages": "pnpm prepare:assets && pnpm build:caffe-ttc && pnpm build:ilmeteo && pnpm run css && pnpm run css:home && node scripts/build/pages.mjs",
+    "build:pages": "pnpm prepare:assets && pnpm build:caffe-ttc && pnpm build:ilmeteo && pnpm build:fisioterapia && pnpm run css && pnpm run css:home && node scripts/build/pages.mjs",
     "export": "pnpm prepare:assets && pnpm run css && node ./node_modules/@slidev/cli/bin/slidev.mjs export progetti/slide/slides.md",
     "check": "node progetti/slide/scripts/check/slides.mjs",
     "check:source": "pnpm prepare:assets && node progetti/slide/scripts/check/slide-source.mjs",
@@ -65,8 +65,12 @@
     "check:composition": "node progetti/slide/scripts/check/composition.mjs",
     "build:ux-process": "python3 progetti/slide/scripts/build/processo-ux-ui-assets.py && node progetti/slide/scripts/build/processo-ux-ui-slides.mjs",
     "check:ux-process": "node progetti/slide/scripts/check/processo-ux-ui.mjs",
+    "check:ux-tables": "node progetti/slide/scripts/check/processo-ux-ui-tables.mjs",
     "check:ux-process-map": "node progetti/slide/scripts/check/ux-process-map.mjs",
-    "check:ux-service": "node progetti/slide/scripts/check/ux-service.mjs"
+    "check:ux-service": "node progetti/slide/scripts/check/ux-service.mjs",
+    "build:fisioterapia": "node progetti/fisioterapia/scripts/build.mjs",
+    "dev:fisioterapia": "pnpm build:fisioterapia && node progetti/fisioterapia/scripts/serve.mjs",
+    "check:fisioterapia": "node progetti/fisioterapia/scripts/check.mjs"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.74.0",

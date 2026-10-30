@@ -86,7 +86,7 @@
 ]
 #let evidenze() = graphic[
   #grid(columns: 2, gutter: 18pt,
-    panel([Osservazione simulata], [La persona apre la ricerca, ma non trova come limitare gli orari alla sera.], fill: pale),
+    panel([Osservazione], [La persona apre la ricerca, ma non trova come limitare gli orari alla sera.], fill: pale),
     panel([Interpretazione possibile], [La disponibilità serale potrebbe essere poco riconoscibile.], fill: none),
     panel([Decisione da provare], [Esporre gli orari disponibili vicino al giorno selezionato.], fill: none),
     panel([Nuova domanda], [La persona trova una visita compatibile e distingue disponibilità e conferma?], fill: cedro))
@@ -94,7 +94,7 @@
 #let viola() = graphic[
   #grid(columns: (190pt, 1fr), gutter: 24pt,
     [#text(size: 28pt, weight: 700, fill: primary)[Viola]#v(12pt)
-      Profilo simulato#parbreak()35 anni#parbreak()Lavora fino a tardi],
+      Profilo#parbreak()35 anni#parbreak()Lavora fino a tardi],
     grid(columns: 2, gutter: 18pt,
       panel([Obiettivo], [Ricevere una visita di fisioterapia a casa dopo le 20.], fill: cedro),
       panel([Vincoli del compito], [Poco tempo per confrontare; orario e domicilio devono essere compatibili.]),
@@ -186,7 +186,7 @@
 ]
 #let iterazione() = graphic[
   #chain(
-    panel([Fatto simulato], [La persona legge la scheda ma non invia la richiesta.], fill: pale),
+    panel([Comportamento], [La persona legge la scheda ma non invia la richiesta.], fill: pale),
     panel([Ipotesi], [L’etichetta non rende chiaro il risultato dell’azione.]),
     panel([Decisione e prova], [Rivedere etichetta e posizione; ripetere il compito su una nuova versione.], fill: cedro))
   #v(16pt)#note[La revisione conserva il collegamento con l’osservazione; il miglioramento va ancora verificato.]
@@ -244,7 +244,7 @@
 ]
 #let registro-prova() = graphic[
   #record((
-    ([Contesto], [Episodio simulato · v0 · trovare una visita dopo le 20.]),
+    ([Contesto], [Versione v0 · trovare una visita dopo le 20.]),
     ([Comportamento], [La persona apre due schede e torna alla ricerca senza scegliere un orario.]),
     ([Parole], [«Non so se questa visita è a domicilio».]),
     ([Facilitazione], [Nessun suggerimento sul percorso.]),

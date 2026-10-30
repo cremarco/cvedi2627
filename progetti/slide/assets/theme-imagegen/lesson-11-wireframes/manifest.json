@@ -1,0 +1,303 @@
+{
+  "version": 1,
+  "lesson": "processo-ux-ui",
+  "date": "2026-10-30",
+  "generationTool": "image_gen integrato",
+  "mode": "built-in",
+  "useCase": "ui-mockup",
+  "dataFile": "progetti/slide/data/ux-wireframe-sequence.json",
+  "serviceData": "progetti/slide/data/ux-service-prototype.json",
+  "conversion": "cwebp -lossless -exact; pixel e dimensioni conservati",
+  "images": [
+    {
+      "code": "wireframe-mano-ricerca-risultati",
+      "slideSlug": "wireframe-mano-ricerca-risultati",
+      "level": "mano",
+      "pair": "ricerca-risultati",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-mano-ricerca-risultati.png",
+      "originalSha256": "a8fd7769328d6f32ac84d3ca3c454e4d6d3926a4504eaec54b7034044e2c052c",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/wireframe-mano-ricerca-risultati.webp",
+      "sha256": "c6812d368a8068d55d0848ae1ec0053c0c2c1ef682cc6506bd8655e8354ec3a9",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/wireframe-mano-ricerca-risultati.txt",
+      "promptSha256": "3860b8c7d2e050a43e23e705ceea9855ed962374c17387a0896fcaa08ad26fc4",
+      "caption": "Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile.",
+      "alt": "Bozzetti a mano: Cerca una visita a sinistra e Risultati a destra. Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "displayRights": "",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "width": 1672,
+      "height": 941,
+      "references": []
+    },
+    {
+      "code": "wireframe-mano-dettaglio-riepilogo",
+      "slideSlug": "wireframe-mano-dettaglio-riepilogo",
+      "level": "mano",
+      "pair": "dettaglio-riepilogo",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-mano-dettaglio-riepilogo.png",
+      "originalSha256": "7c8b6036a0f8d9e2d4fd4bf52a2258398f5e41934a2e61e3528240f46c5ffac5",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/wireframe-mano-dettaglio-riepilogo.webp",
+      "sha256": "ef5b6354f1cadf5521f582e1815bfa13ebcba0bf720a4a2eec7fbb2c679e9081",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/wireframe-mano-dettaglio-riepilogo.txt",
+      "promptSha256": "0be548c35bd4218b7657b5d36a28762fb416c2a0cf884e41ff0b94589441d7a2",
+      "caption": "Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista.",
+      "alt": "Bozzetti a mano: Visita a domicilio a sinistra e Riepilogo a destra. Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "displayRights": "",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "width": 1672,
+      "height": 941,
+      "references": []
+    },
+    {
+      "code": "wireframe-mano-attesa-conferma",
+      "slideSlug": "wireframe-mano-attesa-conferma",
+      "level": "mano",
+      "pair": "attesa-conferma",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-mano-attesa-conferma.png",
+      "originalSha256": "1465437d1c7a309cfeb831b32fceb7a0576f45e5ab769ce3128a8b5cb472be25",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/wireframe-mano-attesa-conferma.webp",
+      "sha256": "ea7d9d578efe73429f3517722c5192205ce3458cbb712b4a88a550ad79f86f5c",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/wireframe-mano-attesa-conferma.txt",
+      "promptSha256": "81fb4d2c84a1016fb837af1a96a55bf34a03169f9174c02675ab8ee154aa605e",
+      "caption": "L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata.",
+      "alt": "Bozzetti a mano: Richiesta inviata a sinistra e Visita confermata a destra. L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "displayRights": "",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "width": 1672,
+      "height": 941,
+      "references": []
+    },
+    {
+      "code": "wireframe-media-ricerca-risultati",
+      "slideSlug": "wireframe-media-ricerca-risultati",
+      "level": "media",
+      "pair": "ricerca-risultati",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-media-ricerca-risultati.png",
+      "originalSha256": "a1fb69981ac24d3a3d68d1a90bb1fb64794e2c03597a8a1b54c8fc3da9a943c1",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/wireframe-media-ricerca-risultati.webp",
+      "sha256": "026caeb5dafb74e275d20c285b451edfdd285586de14cda2d36f6e0b974c465d",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/wireframe-media-ricerca-risultati.txt",
+      "promptSha256": "0c88277591c36030877a35b0f9cb73e5667dd001673591e0cb8aad579c5c5c4b",
+      "caption": "Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile.",
+      "alt": "Media fedeltà: Cerca una visita a sinistra e Risultati a destra. Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "displayRights": "",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "width": 1672,
+      "height": 941,
+      "references": [
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-mano-ricerca-risultati.png",
+          "sha256": "a8fd7769328d6f32ac84d3ca3c454e4d6d3926a4504eaec54b7034044e2c052c"
+        }
+      ]
+    },
+    {
+      "code": "wireframe-media-dettaglio-riepilogo",
+      "slideSlug": "wireframe-media-dettaglio-riepilogo",
+      "level": "media",
+      "pair": "dettaglio-riepilogo",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-media-dettaglio-riepilogo.png",
+      "originalSha256": "dffbe63d2bf95c1330dbcbf67fd3491066bd51b21943bb363e83335e2374099f",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/wireframe-media-dettaglio-riepilogo.webp",
+      "sha256": "80ee1761b649f76aef412a753eb10fd1a18539f9a75aa2c20db808d9d9e06437",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/wireframe-media-dettaglio-riepilogo.txt",
+      "promptSha256": "4a09f0fe6f8501226d9066799ce997b91ed5542bb85d17760b9bd2794c7bde64",
+      "caption": "Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista.",
+      "alt": "Media fedeltà: Visita a domicilio a sinistra e Riepilogo a destra. Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "displayRights": "",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "width": 1671,
+      "height": 941,
+      "references": [
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-mano-dettaglio-riepilogo.png",
+          "sha256": "7c8b6036a0f8d9e2d4fd4bf52a2258398f5e41934a2e61e3528240f46c5ffac5"
+        }
+      ]
+    },
+    {
+      "code": "wireframe-media-attesa-conferma",
+      "slideSlug": "wireframe-media-attesa-conferma",
+      "level": "media",
+      "pair": "attesa-conferma",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-media-attesa-conferma.png",
+      "originalSha256": "abca0071bc3c012035174a8b647bb3a5323758ca8a0b295872f2d45795ade1a0",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/wireframe-media-attesa-conferma.webp",
+      "sha256": "107a457e5ff51954b51dc287461e0925e94a2944e6659023d9244cf4ace6b46f",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/wireframe-media-attesa-conferma.txt",
+      "promptSha256": "e6f074e84541693e2ffc757cc3cc2bc550ec5339911715141c46b03aed9306d5",
+      "caption": "L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata.",
+      "alt": "Media fedeltà: Richiesta inviata a sinistra e Visita confermata a destra. L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "displayRights": "",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "width": 1672,
+      "height": 941,
+      "references": [
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-mano-attesa-conferma.png",
+          "sha256": "1465437d1c7a309cfeb831b32fceb7a0576f45e5ab769ce3128a8b5cb472be25"
+        }
+      ]
+    },
+    {
+      "code": "wireframe-alta-ricerca-risultati",
+      "slideSlug": "wireframe-alta-ricerca-risultati",
+      "level": "alta",
+      "pair": "ricerca-risultati",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-alta-ricerca-risultati.png",
+      "originalSha256": "37cffa863c51467c97f492a903e9ca6747006705fac0b23ec0673cc828f892b8",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/wireframe-alta-ricerca-risultati.webp",
+      "sha256": "139aded6b13db64eca566fd974f664eb9d9135f2832389989eb64ef222831780",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/wireframe-alta-ricerca-risultati.txt",
+      "promptSha256": "2679678dbcca7bd851fd604d60a59673126904b1240e6d01ed36ec0e6f0d1a70",
+      "caption": "Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile.",
+      "alt": "Alta fedeltà: Cerca una visita a sinistra e Risultati a destra. Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "displayRights": "",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "width": 1672,
+      "height": 941,
+      "references": [
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-media-ricerca-risultati.png",
+          "sha256": "a1fb69981ac24d3a3d68d1a90bb1fb64794e2c03597a8a1b54c8fc3da9a943c1"
+        }
+      ]
+    },
+    {
+      "code": "wireframe-alta-dettaglio-riepilogo",
+      "slideSlug": "wireframe-alta-dettaglio-riepilogo",
+      "level": "alta",
+      "pair": "dettaglio-riepilogo",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-alta-dettaglio-riepilogo.png",
+      "originalSha256": "d48aeb3196c288e77ef65703eb605515b656ad6eed40cbdcbb402b769fc4907f",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/wireframe-alta-dettaglio-riepilogo.webp",
+      "sha256": "cf65fff47fc97f40251ee6d76cc336f7c3212484b9e012ec9d3ee8fe56eb4148",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/wireframe-alta-dettaglio-riepilogo.txt",
+      "promptSha256": "d9f30b405a66a4c2ee844e3f21b6dd703f82e4bbaab8987ecbc77d33412a4774",
+      "caption": "Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista.",
+      "alt": "Alta fedeltà: Visita a domicilio a sinistra e Riepilogo a destra. Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "displayRights": "",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "width": 1672,
+      "height": 941,
+      "references": [
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-media-dettaglio-riepilogo.png",
+          "sha256": "dffbe63d2bf95c1330dbcbf67fd3491066bd51b21943bb363e83335e2374099f"
+        }
+      ]
+    },
+    {
+      "code": "wireframe-alta-attesa-conferma",
+      "slideSlug": "wireframe-alta-attesa-conferma",
+      "level": "alta",
+      "pair": "attesa-conferma",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-alta-attesa-conferma.png",
+      "originalSha256": "de68570f96e7edf0d749a5c5e0e216a2cb7bc17804d9eeb9086424d6529dff10",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/wireframe-alta-attesa-conferma.webp",
+      "sha256": "f96dc71606922a2f11712b220e25bfe653847c24ab52c7077bfa86441ecca4d1",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/wireframe-alta-attesa-conferma.txt",
+      "promptSha256": "68fa955b69fe3b46aa46a31a80b23ed3259509d1d3013a1027b09acc5d690134",
+      "caption": "L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata.",
+      "alt": "Alta fedeltà: Richiesta inviata a sinistra e Visita confermata a destra. L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "displayRights": "",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "width": 1672,
+      "height": 941,
+      "references": [
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-media-attesa-conferma.png",
+          "sha256": "abca0071bc3c012035174a8b647bb3a5323758ca8a0b295872f2d45795ade1a0"
+        }
+      ]
+    }
+  ],
+  "comparison": {
+    "code": "wireframe-ui",
+    "slideSlug": "wireframe-progressione",
+    "screenId": "riepilogo",
+    "levels": [
+      "mano",
+      "media",
+      "alta"
+    ],
+    "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-ui-confronto-riepilogo.png",
+    "originalSha256": "197e5dbcdcfe6a1dbe19c697995e8fe726c30fac6238ad22b176698d3ccfdbd3",
+    "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/wireframe-ui-confronto-riepilogo.webp",
+    "sha256": "54fcab139826fa4eb95b105d4d1cd0fbbdd561754bb6c7ca20d02ccf08f4319a",
+    "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/wireframe-ui-confronto-riepilogo.txt",
+    "promptSha256": "d259324cbf37c66a53d5b46f7c4873e1cf266cc9218b61c97bf3c4f150c7b043",
+    "caption": "Stessi dati e azioni nei tre livelli. «Invia richiesta» apre l’attesa dell’accettazione.",
+    "alt": "Lo stesso riepilogo di Viola in tre colonne: bozzetto a mano, media fedeltà e alta fedeltà. In ogni versione: Giulia Riva, 17 novembre 2026 alle 20:30, Via Esempio 12 a Milano, 45 minuti, totale 60 euro con spostamento incluso, conferma dopo accettazione, Invia richiesta e Modifica i dati.",
+    "rights": "CVeDI, 2026. Tavola generata con IA.",
+    "displayRights": "",
+    "generationTool": "image_gen integrato",
+    "transparentBackground": false,
+    "width": 2061,
+    "height": 763,
+    "references": [
+      {
+        "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-mano-dettaglio-riepilogo.png",
+        "sha256": "7c8b6036a0f8d9e2d4fd4bf52a2258398f5e41934a2e61e3528240f46c5ffac5"
+      },
+      {
+        "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-media-dettaglio-riepilogo.png",
+        "sha256": "dffbe63d2bf95c1330dbcbf67fd3491066bd51b21943bb363e83335e2374099f"
+      },
+      {
+        "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-alta-dettaglio-riepilogo.png",
+        "sha256": "d48aeb3196c288e77ef65703eb605515b656ad6eed40cbdcbb402b769fc4907f"
+      }
+    ]
+  },
+  "revisions": [
+    {
+      "code": "caso-iterazione-v1",
+      "slideSlug": "revisione-v1",
+      "screenId": "risultati",
+      "beforeVersion": "v0",
+      "afterVersion": "v1",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/revisione-v1-risultati.png",
+      "originalSha256": "ccdf33b899c0f35237d4f351e0772d4f4f6ce7cca3114b5a6b1307911bee1f8c",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/revisione-v1-risultati.webp",
+      "sha256": "e99f0afc456616371f7d25ca82d948510ffb6f64083d683a69b2ce6edb2b3507",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/revisione-v1-risultati.txt",
+      "promptSha256": "188f9ee769ef3acebad789273f143ca40e8390d71c9e840257b38185fef55de6",
+      "caption": "R1–R3 sono visibili prima di «Vedi visita». Invio e conferma restano da chiarire.",
+      "alt": "Confronto dei risultati prima e dopo la revisione V1, basato sui wireframe di Viola. V0 mostra Giulia Riva, 20:30 e 45 minuti, con Vedi profilo. V1 aggiunge Via Esempio 12 a Milano, 17 novembre 2026 dopo le 20, visita a domicilio, totale di 60 euro e spostamento incluso prima di Vedi visita. Le informazioni aggiunte sono evidenziate in Cedro.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "displayRights": "",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "width": 1942,
+      "height": 809,
+      "references": [
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-alta-ricerca-risultati.png",
+          "sha256": "37cffa863c51467c97f492a903e9ca6747006705fac0b23ec0673cc828f892b8"
+        },
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-media-ricerca-risultati.png",
+          "sha256": "a1fb69981ac24d3a3d68d1a90bb1fb64794e2c03597a8a1b54c8fc3da9a943c1"
+        }
+      ]
+    }
+  ]
+}

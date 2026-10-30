@@ -1,15 +1,16 @@
 {
   "version": 1,
-  "checkedAt": "2026-10-29",
+  "checkedAt": "2026-10-30",
   "sources": [
     {
       "id": "book",
-      "file": "/Users/marco/Downloads/Manuale_di_sopravvivenza_per_UX_designer_Pascale_Matteo_Di_z_lib (1).pdf",
+      "file": "/Users/marco/Downloads/Manuale_di_sopravvivenza_per_UX_designer_Pascale_Matteo_Di_z_lib.pdf",
       "physicalPages": [
         38,
         45
       ],
-      "sha256": "e5a30bc514463f558a45b235f4f0bf614faf01bb8e253072a4853bed51e8ae10"
+      "sha256": "e5a30bc514463f558a45b235f4f0bf614faf01bb8e253072a4853bed51e8ae10",
+      "previousFile": "/Users/marco/Downloads/Manuale_di_sopravvivenza_per_UX_designer_Pascale_Matteo_Di_z_lib (1).pdf"
     },
     {
       "id": "booklet-2024",
@@ -70,6 +71,15 @@
       "file": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
       "physicalPages": null,
       "sha256": "b74cb5cbd25c386152d3eace74d612f347d39e0c7eb86fa0b722941f1711eb28"
+    },
+    {
+      "id": "book-smart",
+      "file": "/Users/marco/Downloads/Manuale_di_sopravvivenza_per_UX_designer_Pascale_Matteo_Di_z_lib.pdf",
+      "physicalPages": [
+        57,
+        59
+      ],
+      "sha256": "e5a30bc514463f558a45b235f4f0bf614faf01bb8e253072a4853bed51e8ae10"
     }
   ],
   "bookStepPhysicalPages": {
@@ -423,6 +433,25 @@
       "url": "https://www.gov.uk/service-manual/measuring-success/how-to-set-performance-metrics-for-your-service",
       "title": "How to set performance metrics for your service",
       "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "smart-framework",
+      "source": "book-smart",
+      "title": "Analisi del brief con il framework SMART",
+      "physicalPages": [
+        57,
+        58,
+        59
+      ],
+      "checkedAt": "2026-10-30",
+      "variant": [
+        "Specific",
+        "Measurable",
+        "Actionable",
+        "Realistic",
+        "Time-based"
+      ],
+      "adaptation": "Applicazione originale al servizio di Carlo, Giovanni e Viola. Cinque partecipanti e due settimane sono proposte di pianificazione; nessuna percentuale o efficacia è assunta come dimostrata."
     }
   ]
 }

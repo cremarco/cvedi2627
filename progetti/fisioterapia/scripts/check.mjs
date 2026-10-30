@@ -1,0 +1,87 @@
+import assert from 'node:assert/strict'
+import { chromium } from 'playwright-chromium'
+import { readFile, mkdir, writeFile, copyFile } from 'node:fs/promises'
+import { createHash } from 'node:crypto'
+const base=process.env.PASSO_URL||'http://localhost:3045/'
+const out='reports/fisioterapia'
+await mkdir(out,{recursive:true})
+await mkdir('.impeccable/review/fisioterapia',{recursive:true})
+const browser=await chromium.launch()
+const errors=[],reports=[],checks=[]
+function check(condition,label){assert.ok(condition,label);checks.push(label)}
+try{
+ const context=await browser.newContext({viewport:{width:1440,height:1000},reducedMotion:'reduce',locale:'it-IT'})
+ const page=await context.newPage()
+ page.on('pageerror',error=>errors.push(error.message))
+ page.on('response',response=>{if(response.status()>=400&&response.url().startsWith(base))errors.push(response.status()+' '+response.url())})
+ async function settle(){await page.locator('h1').waitFor();await page.evaluate(()=>document.fonts.ready);await page.locator('img').evaluateAll(images=>Promise.all(images.map(img=>img.decode().catch(()=>{}))))}
+ async function open(path){await page.goto(base+'#'+path);await settle()}
+ async function capture(name){await settle();await page.evaluate(()=>window.scrollTo({top:0,behavior:'instant'}));if(process.env.PASSO_CAPTURE!=='0'){await page.screenshot({path:`${out}/${name}.png`,fullPage:true});await copyFile(`${out}/${name}.png`,`.impeccable/review/fisioterapia/${name}.png`);if(['desktop','mobile','user-2349'].includes(name))await page.screenshot({path:`${out}/${name}-top.png`})};const report=await page.evaluate(()=>({width:innerWidth,overflow:document.documentElement.scrollWidth>innerWidth,missingImages:[...document.images].filter(img=>!img.complete||!img.naturalWidth).map(img=>img.src),title:document.querySelector('h1').textContent,buttons:[...document.querySelectorAll('main .btn')].filter(el=>el.getClientRects().length).map(el=>({text:el.textContent.trim(),height:el.getBoundingClientRect().height}))}));reports.push({name,...report});check(!report.overflow,name+': no horizontal overflow');check(!report.missingImages.length,name+': all images load')}
+ for(const [name,viewport] of [['desktop',{width:1440,height:1000}],['mobile',{width:390,height:844}],['user-2349',{width:2349,height:1217}]]){await page.setViewportSize(viewport);await open('/');await capture(name)}
+ await page.setViewportSize({width:1440,height:1000})
+ await open('/cerca')
+ await page.getByRole('button',{name:'Cerca disponibilità'}).click()
+ check(await page.locator('#search-error').innerText()!=='','invalid search explains recovery')
+ await page.getByLabel('Domicilio a Milano').fill('Via Esempio 12, Milano')
+ await page.getByLabel('CAP',{exact:true}).fill('00100')
+ await page.getByRole('button',{name:'Cerca disponibilità'}).click();await page.waitForURL(/risultati/)
+ check(await page.getByRole('heading',{name:'Questa zona non è ancora coperta.'}).isVisible(),'out of coverage recovery')
+ await open('/cerca');check(await page.getByLabel('Domicilio a Milano').inputValue()==='Via Esempio 12, Milano','search data survives recovery')
+ await page.getByLabel('CAP',{exact:true}).fill('20121');await page.getByLabel('Giorno',{exact:true}).fill('2026-11-18')
+ await page.getByRole('button',{name:'Cerca disponibilità'}).click();await page.waitForURL(/risultati/)
+ check(await page.getByRole('heading',{name:'Nessuna proposta per questa ricerca.'}).isVisible(),'empty results recovery')
+ await page.getByRole('button',{name:'Prova il 17 novembre, dopo le 20'}).click()
+ await page.locator('.result-card').first().waitFor()
+ await capture('results-desktop')
+ await page.setViewportSize({width:390,height:844});await capture('results-mobile');await page.setViewportSize({width:1440,height:1000})
+ check(await page.locator('.result-card').count()===2,'two professionals with total shown before choosing')
+ await page.locator('.result-card').first().getByText('21:15',{exact:true}).click()
+ await page.locator('.result-card').first().getByRole('link',{name:'Conosci il professionista'}).click();await page.waitForURL(/profilo/)
+ await page.getByRole('link',{name:'Torna ai professionisti'}).click();await page.waitForURL(/risultati/)
+ check(await page.locator('input[name="slot-giulia-riva"][value="21:15"]').isChecked(),'selected slot survives a profile detour')
+ await page.reload();await settle();check(await page.locator('input[name="slot-giulia-riva"][value="21:15"]').isChecked(),'selected slot survives reload')
+ await page.locator('.result-card').first().getByText('20:30',{exact:true}).click()
+
+ await page.locator('.result-card').first().getByRole('button',{name:'Vedi visita'}).click();await page.waitForURL(/dettaglio/)
+ check(await page.getByRole('heading',{name:'Giulia Riva'}).isVisible(),'chosen professional reaches distinct detail page')
+ await page.getByRole('link',{name:'Continua al riepilogo'}).click();await page.waitForURL(/riepilogo/)
+ await page.getByRole('button',{name:'Invia richiesta'}).click()
+ check(await page.locator('#error-email').innerText()!=='','contact validation explains missing email')
+ await page.getByLabel('Nome e cognome').fill('Viola Esempio');await page.getByLabel('Email',{exact:true}).fill('viola@example.com')
+ await page.getByRole('checkbox').check();check((await page.locator('#error-email').innerText())===''&&(await page.locator('#error-name').innerText())===''&&(await page.locator('#error-privacy').innerText())==='','corrected contact fields clear their own errors without resubmission')
+ await capture('review-desktop');await page.setViewportSize({width:390,height:844});await capture('review-mobile');await page.setViewportSize({width:1440,height:1000})
+ await page.evaluate(()=>localStorage.setItem('passo-visite-v1',JSON.stringify([{id:'TEST-CONFLICT',professional:'giulia-riva',date:'2026-11-17',time:'20:30',status:'pending'}])))
+ await page.getByRole('button',{name:'Invia richiesta'}).click()
+ check((await page.getByRole('alert').innerText()).includes('non è più disponibile'),'slot loss is explained before submission')
+ check(await page.getByLabel('Email',{exact:true}).inputValue()==='viola@example.com','slot loss preserves contact data')
+ await page.evaluate(()=>localStorage.removeItem('passo-visite-v1'))
+ await page.getByRole('button',{name:'Invia richiesta'}).click();await page.waitForURL(/richiesta\//)
+ const requestUrl=page.url();await page.getByRole('link',{name:'Prova la risposta del professionista'}).waitFor();check(await page.getByRole('link',{name:'Prova la risposta del professionista'}).isVisible(),'pending demo exposes an honest response mechanism')
+ await page.getByRole('heading',{name:'Richiesta inviata.'}).waitFor();check(await page.getByRole('heading',{name:'Richiesta inviata.'}).isVisible(),'submission is pending, never instant confirmation')
+ await open('/professionista');await page.getByRole('button',{name:'Accetta richiesta'}).click();await page.waitForURL(/richiesta\//)
+ await page.getByRole('heading',{name:'Il tuo prossimo passo è fissato.'}).waitFor();check(await page.getByRole('heading',{name:'Il tuo prossimo passo è fissato.'}).isVisible(),'professional acceptance confirms the visit')
+ await capture('confirmed-desktop');await page.emulateMedia({media:'print'});await capture('confirmed-print');await page.emulateMedia({media:'screen'})
+ await page.getByRole('button',{name:'Modifica visita'}).click();await page.waitForURL(/cerca/)
+ await page.getByRole('button',{name:'Cerca disponibilità'}).click();await page.waitForURL(/risultati/)
+ await page.locator('.result-card').first().getByText('21:15',{exact:true}).click()
+ await page.locator('.result-card').first().getByRole('button',{name:'Vedi visita'}).click();await page.getByRole('link',{name:'Continua al riepilogo'}).click()
+ await page.getByRole('checkbox').check();await page.getByRole('button',{name:'Invia modifica'}).click();await page.waitForURL(/richiesta\//)
+ check((await page.locator('.visit-facts').innerText()).includes('20:30'),'old appointment remains confirmed while change is pending')
+ check((await page.locator('.badge').last().innerText()).includes('Modifica in attesa'),'change has an explicit pending state')
+ await open('/professionista');await page.getByRole('button',{name:'Non disponibile'}).click();await page.waitForURL(/richiesta\//)
+ check((await page.locator('.visit-facts').innerText()).includes('20:30'),'rejected change preserves original visit')
+ await page.getByRole('button',{name:'Modifica visita'}).click();await page.getByRole('button',{name:'Cerca disponibilità'}).click();await page.waitForURL(/risultati/)
+ await page.locator('.result-card').first().getByText('21:15',{exact:true}).click();await page.locator('.result-card').first().getByRole('button',{name:'Vedi visita'}).click();await page.getByRole('link',{name:'Continua al riepilogo'}).click();await page.getByRole('checkbox').check();await page.getByRole('button',{name:'Invia modifica'}).click();await page.waitForURL(/richiesta\//)
+ await open('/professionista');await page.getByRole('button',{name:'Accetta modifica'}).click();await page.waitForURL(/richiesta\//)
+ check((await page.locator('.visit-facts').innerText()).includes('21:15'),'accepted change updates the visit')
+ await page.reload();await settle();await page.getByRole('heading',{name:'Il tuo prossimo passo è fissato.'}).waitFor();check(await page.getByRole('heading',{name:'Il tuo prossimo passo è fissato.'}).isVisible(),'booking survives page reload')
+ await page.getByRole('button',{name:'Annulla visita',exact:true}).click();await page.getByRole('dialog').waitFor({state:'visible'});await page.keyboard.press('Escape');check(!(await page.getByRole('dialog').isVisible()),'Escape abandons cancellation')
+ await page.getByRole('button',{name:'Annulla visita',exact:true}).click();await page.getByRole('button',{name:'Sì, annulla'}).click()
+ await page.getByRole('heading',{name:'Visita annullata.'}).waitFor();check(await page.getByRole('heading',{name:'Visita annullata.'}).isVisible(),'cancellation requires confirmation and updates the state')
+ await open('/assistenza/contatti');await page.getByLabel('La tua email di esempio').fill('viola@example.com');await page.getByLabel('Il tuo messaggio').fill('Vorrei capire le zone coperte.');await page.getByRole('button',{name:'Prepara il messaggio'}).click();check((await page.locator('#support-result').innerText()).includes('nessun dato è stato trasmesso'),'support does not falsely claim an external send')
+ for(const path of ['/servizio','/assistenza','/profilo/giulia-riva','/privacy','/cookie','/accessibilita','/condizioni','/visite']){await open(path);check(await page.locator('h1').isVisible(),'route '+path)}
+ await open('/');await page.setViewportSize({width:390,height:844});await page.getByRole('button',{name:'Apri menu'}).click();check(await page.locator('#mobile-menu').isVisible(),'mobile navigation opens');await page.locator('#mobile-menu').getByRole('link',{name:'Assistenza'}).click();await page.waitForURL(/assistenza/);await page.getByRole('heading',{name:/Facciamo chiarezza/}).waitFor();check(await page.getByRole('heading',{name:/Facciamo chiarezza/}).isVisible(),'mobile navigation reaches the selected page')
+ check((await page.title()).includes('Facciamo chiarezza, insieme.'),'page title normalizes line breaks');const beforeSkip=page.url();await page.locator('.skip-link').focus();await page.keyboard.press('Enter');check(page.url()===beforeSkip&&await page.evaluate(()=>document.activeElement.id==='main'),'skip link focuses content without changing route');check(!errors.length,'no runtime errors or failed local assets: '+errors.join(' | '))
+ await writeFile(`${out}/verification.json`,JSON.stringify({checks,reports,errors},null,2)+'\n')
+ console.log(JSON.stringify({checks:checks.length,captures:reports.length,errors}))
+}finally{await browser.close()}

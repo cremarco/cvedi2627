@@ -3,7 +3,7 @@
   "lesson": "processo-ux-ui",
   "number": 11,
   "palette": "violet",
-  "localOnly": true,
+  "localOnly": false,
   "sourceFile": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
   "sourceSha256": "b74cb5cbd25c386152d3eace74d612f347d39e0c7eb86fa0b722941f1711eb28",
   "editorialPlan": "progetti/slide/assets/booklet/lezione-processo-ux-ui/content-plan.json",
@@ -13,6 +13,7 @@
   "processMapData": "progetti/slide/data/ux-process-explorer.json",
   "serviceCaseData": "progetti/slide/data/ux-service-case.json",
   "servicePrototypeData": "progetti/slide/data/ux-service-prototype.json",
+  "bookingSitemapData": "progetti/slide/data/ux-booking-sitemap.json",
   "designReferences": [
     {
       "lesson": "ricerca-inclusiva",
@@ -42,8 +43,8 @@
       ]
     }
   ],
-  "slideCount": 104,
-  "minutes": 160.5,
+  "slideCount": 119,
+  "minutes": 178.5,
   "activityMinutes": 18,
   "slides": [
     {
@@ -108,6 +109,7 @@
     {
       "lessonSlide": 4,
       "slug": "ux-ui",
+      "showFigureCaption": false,
       "alias": "processo-ux-ui-ux-ui",
       "title": "Un’esperienza attraversa più schermate",
       "kind": "illustrated",
@@ -139,28 +141,48 @@
       "slug": "caso",
       "alias": "processo-ux-ui-caso",
       "title": "Il caso di Carlo, Giovanni e Viola",
-      "kind": "comparison",
-      "lead": "Carlo e Giovanni vogliono collegare fisioterapisti e clienti; nel caso didattico costruiremo una rete coordinata a domicilio.",
+      "kind": "cast",
+      "lead": "Progettiamo una rete coordinata di fisioterapia a domicilio.",
       "points": [],
       "minutes": 1.5,
       "step": null,
-      "figures": [],
+      "figures": [
+        "ritratto-carlo",
+        "ritratto-giovanni",
+        "ritratto-viola"
+      ],
       "references": [],
       "sourceHeading": "Il caso dei fisioterapisti",
-      "cards": [
+      "groups": [
         {
-          "title": "Carlo e Giovanni",
-          "text": "Partono da una scelta aperta fra centro e rete; il brief definirà ambito, ruoli e responsabilità."
+          "people": [
+            {
+              "name": "Carlo",
+              "figure": "ritratto-carlo"
+            },
+            {
+              "name": "Giovanni",
+              "figure": "ritratto-giovanni"
+            }
+          ],
+          "paragraphs": [
+            "Vogliono collegare fisioterapisti e clienti.",
+            "Valutano un centro o una rete: il brief definirà ambito, ruoli e responsabilità."
+          ]
         },
         {
-          "title": "Viola",
-          "text": "Finisce tardi di lavorare e cerca una visita a domicilio dopo le 20."
-        },
-        {
-          "title": "Il servizio",
-          "text": "Zona coperta, fascia serale, costo totale e conferma del professionista devono restare riconoscibili."
+          "people": [
+            {
+              "name": "Viola",
+              "figure": "ritratto-viola"
+            }
+          ],
+          "paragraphs": [
+            "Finisce tardi di lavorare e cerca una visita a domicilio dopo le 20."
+          ]
         }
       ],
+      "service": "Da chiarire: zona coperta, fascia serale, costo totale e conferma del professionista.",
       "bookPhysicalPages": [
         38,
         45
@@ -184,11 +206,13 @@
       "cards": [
         {
           "title": "Chi prenota",
-          "text": "Domicilio e orario compatibili, costo comprensibile e riconoscimento dell’esito."
+          "text": "Domicilio e orario compatibili, costo comprensibile e riconoscimento dell’esito.",
+          "artwork": "/images/processo-ux-ui/mappa-personas.webp"
         },
         {
           "title": "Chi offre la visita",
-          "text": "Zona raggiungibile, durata, agenda e gestione delle variazioni."
+          "text": "Zona raggiungibile, durata, agenda e gestione delle variazioni.",
+          "artwork": "/images/processo-ux-ui/illustrazione-ricerca.webp"
         }
       ],
       "notice": {
@@ -208,7 +232,7 @@
       "alias": "processo-ux-ui-mappa",
       "title": "Quattordici attività, cinque nuclei",
       "kind": "process-map",
-      "lead": "Seleziona un passo; usa le frecce per esplorare la mappa.",
+      "lead": "",
       "points": [],
       "minutes": 2,
       "step": null,
@@ -217,6 +241,7 @@
       ],
       "references": [],
       "sourceHeading": "Un processo per prendere decisioni",
+      "showTitle": false,
       "bookPhysicalPages": [
         38,
         45
@@ -239,15 +264,18 @@
       "cards": [
         {
           "title": "Interrogare il problema",
-          "text": "Un’intervista può mostrare che il bisogno iniziale era stato interpretato male."
+          "text": "Un’intervista può mostrare che il bisogno iniziale era stato interpretato male.",
+          "artwork": "/images/processo-ux-ui/mappa-problema.webp"
         },
         {
           "title": "Rivedere la proposta",
-          "text": "Una prova può far cambiare flusso, contenuti o condizioni del servizio."
+          "text": "Una prova può far cambiare flusso, contenuti o condizioni del servizio.",
+          "artwork": "/images/processo-ux-ui/mappa-iterazioni.webp"
         },
         {
           "title": "Conservare le ragioni",
-          "text": "Registrare quale evidenza ha fatto cambiare la decisione."
+          "text": "Registrare quale evidenza ha fatto cambiare la decisione.",
+          "artwork": "/images/processo-ux-ui/illustrazione-requisiti.webp"
         }
       ],
       "bookPhysicalPages": [
@@ -499,19 +527,26 @@
       "alias": "processo-ux-ui-obiettivo",
       "title": "Rendere osservabile un obiettivo",
       "kind": "teaching",
-      "lead": "Specifico, misurabile, raggiungibile, pertinente e nel tempo: SMART aiuta a precisare il risultato.",
+      "lead": "SMART precisa un obiettivo attraverso cinque criteri collegati.",
       "points": [],
       "minutes": 1.5,
       "step": 2,
       "figures": [
-        "obiettivi"
+        "infografica-smart"
       ],
       "references": [],
       "sourceHeading": "Analisi degli obiettivi di business",
+      "sourceKeys": [
+        "smart-framework"
+      ],
       "bookPhysicalPages": [
         38,
-        39
+        39,
+        57,
+        58,
+        59
       ],
+      "showFigureCaption": false,
       "preparatorySources": [
         {
           "source": "old-04",
@@ -531,6 +566,294 @@
     },
     {
       "lessonSlide": 16,
+      "slug": "obiettivo-caso",
+      "alias": "processo-ux-ui-obiettivo-caso",
+      "title": "Dal generico al compito di Viola",
+      "kind": "teaching",
+      "lead": "Carlo e Giovanni vogliono semplificare la prenotazione. Precisiamo che cosa osservare.",
+      "points": [],
+      "minutes": 1.5,
+      "step": 2,
+      "figures": [
+        "obiettivi"
+      ],
+      "references": [],
+      "sourceHeading": "Analisi degli obiettivi di business",
+      "sourceKeys": [
+        "smart-framework"
+      ],
+      "bookPhysicalPages": [
+        38,
+        39,
+        57,
+        58,
+        59
+      ],
+      "preparatorySources": [
+        {
+          "source": "old-04",
+          "physicalPages": [
+            13,
+            24
+          ]
+        },
+        {
+          "source": "booklet-2024",
+          "physicalPages": [
+            63,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "lessonSlide": 17,
+      "slug": "smart-specifico",
+      "alias": "processo-ux-ui-smart-specifico",
+      "title": "S · Specific — Specifico",
+      "kind": "teaching",
+      "lead": "Precisiamo chi deve ottenere quale risultato e in quali condizioni.",
+      "points": [],
+      "minutes": 1.5,
+      "step": 2,
+      "figures": [
+        "smart-specifico"
+      ],
+      "references": [],
+      "sourceHeading": "Analisi degli obiettivi di business",
+      "sourceKeys": [
+        "smart-framework"
+      ],
+      "bookPhysicalPages": [
+        57,
+        58,
+        59
+      ],
+      "smartCriterion": "S",
+      "preparatorySources": [
+        {
+          "source": "old-04",
+          "physicalPages": [
+            13,
+            24
+          ]
+        },
+        {
+          "source": "booklet-2024",
+          "physicalPages": [
+            63,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "lessonSlide": 18,
+      "slug": "smart-misurabile",
+      "alias": "processo-ux-ui-smart-misurabile",
+      "title": "M · Measurable — Misurabile",
+      "kind": "teaching",
+      "lead": "Decidiamo prima della prova che cosa contare e come riconoscere ciascun esito.",
+      "points": [],
+      "minutes": 1.5,
+      "step": 2,
+      "figures": [
+        "smart-misurabile"
+      ],
+      "references": [],
+      "sourceHeading": "Analisi degli obiettivi di business",
+      "sourceKeys": [
+        "smart-framework"
+      ],
+      "bookPhysicalPages": [
+        57,
+        58,
+        59
+      ],
+      "smartCriterion": "M",
+      "preparatorySources": [
+        {
+          "source": "old-04",
+          "physicalPages": [
+            13,
+            24
+          ]
+        },
+        {
+          "source": "booklet-2024",
+          "physicalPages": [
+            63,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "lessonSlide": 19,
+      "slug": "smart-eseguibile",
+      "alias": "processo-ux-ui-smart-eseguibile",
+      "title": "A · Actionable — Eseguibile",
+      "kind": "teaching",
+      "lead": "Colleghiamo l’obiettivo ad azioni concrete e a chi può realizzarle.",
+      "points": [],
+      "minutes": 1.5,
+      "step": 2,
+      "figures": [
+        "smart-eseguibile"
+      ],
+      "references": [],
+      "sourceHeading": "Analisi degli obiettivi di business",
+      "sourceKeys": [
+        "smart-framework"
+      ],
+      "bookPhysicalPages": [
+        57,
+        58,
+        59
+      ],
+      "smartCriterion": "A",
+      "preparatorySources": [
+        {
+          "source": "old-04",
+          "physicalPages": [
+            13,
+            24
+          ]
+        },
+        {
+          "source": "booklet-2024",
+          "physicalPages": [
+            63,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "lessonSlide": 20,
+      "slug": "smart-realistico",
+      "alias": "processo-ux-ui-smart-realistico",
+      "title": "R · Realistic — Realistico",
+      "kind": "teaching",
+      "lead": "Confrontiamo la promessa con risorse, disponibilità e limiti del servizio.",
+      "points": [],
+      "minutes": 1.5,
+      "step": 2,
+      "figures": [
+        "smart-realistico"
+      ],
+      "references": [],
+      "sourceHeading": "Analisi degli obiettivi di business",
+      "sourceKeys": [
+        "smart-framework"
+      ],
+      "bookPhysicalPages": [
+        57,
+        58,
+        59
+      ],
+      "smartCriterion": "R",
+      "preparatorySources": [
+        {
+          "source": "old-04",
+          "physicalPages": [
+            13,
+            24
+          ]
+        },
+        {
+          "source": "booklet-2024",
+          "physicalPages": [
+            63,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "lessonSlide": 21,
+      "slug": "smart-tempo",
+      "alias": "processo-ux-ui-smart-tempo",
+      "title": "T · Time-based — Definito nel tempo",
+      "kind": "teaching",
+      "lead": "Fissiamo una scadenza e un momento in cui riesaminare il risultato.",
+      "points": [],
+      "minutes": 1.5,
+      "step": 2,
+      "figures": [
+        "smart-tempo"
+      ],
+      "references": [],
+      "sourceHeading": "Analisi degli obiettivi di business",
+      "sourceKeys": [
+        "smart-framework"
+      ],
+      "bookPhysicalPages": [
+        57,
+        58,
+        59
+      ],
+      "smartCriterion": "T",
+      "preparatorySources": [
+        {
+          "source": "old-04",
+          "physicalPages": [
+            13,
+            24
+          ]
+        },
+        {
+          "source": "booklet-2024",
+          "physicalPages": [
+            63,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "lessonSlide": 22,
+      "slug": "smart-obiettivo-completo",
+      "alias": "processo-ux-ui-smart-obiettivo-completo",
+      "title": "Un obiettivo SMART per il primo ciclo",
+      "kind": "teaching",
+      "lead": "Le cinque parti precisano lo stesso obiettivo da concordare con Carlo e Giovanni.",
+      "points": [],
+      "minutes": 1.5,
+      "step": 2,
+      "figures": [
+        "smart-obiettivo-completo"
+      ],
+      "references": [],
+      "sourceHeading": "Analisi degli obiettivi di business",
+      "sourceKeys": [
+        "smart-framework"
+      ],
+      "bookPhysicalPages": [
+        57,
+        58,
+        59
+      ],
+      "smartCriterion": "summary",
+      "preparatorySources": [
+        {
+          "source": "old-04",
+          "physicalPages": [
+            13,
+            24
+          ]
+        },
+        {
+          "source": "booklet-2024",
+          "physicalPages": [
+            63,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "lessonSlide": 23,
       "slug": "misure",
       "alias": "processo-ux-ui-misure",
       "title": "Misura, contesto e confronto",
@@ -571,7 +894,7 @@
       ]
     },
     {
-      "lessonSlide": 17,
+      "lessonSlide": 24,
       "slug": "competitor",
       "alias": "processo-ux-ui-competitor",
       "title": "03 · Analisi dei competitor",
@@ -615,11 +938,12 @@
       ]
     },
     {
-      "lessonSlide": 18,
+      "lessonSlide": 25,
       "slug": "caso-competitor",
       "alias": "processo-ux-ui-caso-competitor",
-      "title": "Confrontiamo alternative sul compito di Viola",
+      "title": "Tre modi per prenotare la stessa visita",
       "kind": "case-application",
+      "caseLayout": "comparison",
       "lead": "",
       "points": [],
       "minutes": 1,
@@ -648,12 +972,12 @@
       ]
     },
     {
-      "lessonSlide": 19,
+      "lessonSlide": 26,
       "slug": "benchmark",
       "alias": "processo-ux-ui-benchmark",
       "title": "Confrontare il servizio oltre la grafica",
       "kind": "teaching",
-      "lead": "Un confronto simulato fra alternative sullo stesso compito: formuliamo domande da verificare nel progetto.",
+      "lead": "Un confronto fra alternative sullo stesso compito: formuliamo domande da verificare nel progetto.",
       "points": [],
       "minutes": 1.5,
       "step": 3,
@@ -682,7 +1006,7 @@
       ]
     },
     {
-      "lessonSlide": 20,
+      "lessonSlide": 27,
       "slug": "opportunita",
       "alias": "processo-ux-ui-opportunita",
       "title": "Dal confronto a una scelta",
@@ -698,15 +1022,18 @@
       "cards": [
         {
           "title": "Annotazione",
-          "text": "Un servizio mostra la copertura solo dopo l’inserimento dei dati."
+          "text": "Un servizio mostra la copertura solo dopo l’inserimento dei dati.",
+          "artwork": "/images/processo-ux-ui/illustrazione-brief.webp"
         },
         {
           "title": "Ipotesi",
-          "text": "Anticipare la zona servita potrebbe evitare una scelta incompatibile."
+          "text": "Anticipare la zona servita potrebbe evitare una scelta incompatibile.",
+          "artwork": "/images/processo-ux-ui/mappa-obiettivi.webp"
         },
         {
           "title": "Verifica",
-          "text": "Osservare se le persone riconoscono prima che il servizio possa raggiungerle."
+          "text": "Osservare se le persone riconoscono prima che il servizio possa raggiungerle.",
+          "artwork": "/images/processo-ux-ui/illustrazione-verifica.webp"
         }
       ],
       "bookPhysicalPages": [
@@ -729,7 +1056,7 @@
       ]
     },
     {
-      "lessonSlide": 21,
+      "lessonSlide": 28,
       "slug": "problema",
       "alias": "processo-ux-ui-problema",
       "title": "04 · Definizione del problema",
@@ -778,7 +1105,7 @@
       ]
     },
     {
-      "lessonSlide": 22,
+      "lessonSlide": 29,
       "slug": "caso-problema",
       "alias": "processo-ux-ui-caso-problema",
       "title": "Rendiamo verificabile l’ostacolo di Viola",
@@ -811,7 +1138,7 @@
       ]
     },
     {
-      "lessonSlide": 23,
+      "lessonSlide": 30,
       "slug": "ipotesi",
       "alias": "processo-ux-ui-ipotesi",
       "title": "Formulare un’ipotesi da provare",
@@ -846,7 +1173,7 @@
       ]
     },
     {
-      "lessonSlide": 24,
+      "lessonSlide": 31,
       "slug": "ricerca",
       "alias": "processo-ux-ui-ricerca",
       "title": "05 · User research",
@@ -897,10 +1224,10 @@
       ]
     },
     {
-      "lessonSlide": 25,
+      "lessonSlide": 32,
       "slug": "caso-ricerca",
       "alias": "processo-ux-ui-caso-ricerca",
-      "title": "Dagli appunti simulati a decisioni provvisorie",
+      "title": "Dagli appunti a decisioni provvisorie",
       "kind": "case-application",
       "lead": "",
       "points": [],
@@ -932,7 +1259,7 @@
       ]
     },
     {
-      "lessonSlide": 26,
+      "lessonSlide": 33,
       "slug": "piano-ricerca",
       "alias": "processo-ux-ui-piano-ricerca",
       "title": "Preparare un piano di ricerca",
@@ -950,15 +1277,18 @@
       "cards": [
         {
           "title": "Domanda",
-          "text": "Come vengono cercate oggi le visite compatibili con la fine della giornata lavorativa?"
+          "text": "Come vengono cercate oggi le visite compatibili con la fine della giornata lavorativa?",
+          "artwork": "/images/processo-ux-ui/mappa-problema.webp"
         },
         {
           "title": "Persone e metodo",
-          "text": "Coinvolgere persone con esperienze pertinenti e ricostruire episodi e materiali reali in un’intervista."
+          "text": "Coinvolgere persone con esperienze pertinenti e ricostruire episodi e materiali reali in un’intervista.",
+          "artwork": "/images/processo-ux-ui/illustrazione-ricerca.webp"
         },
         {
           "title": "Uso dei risultati",
-          "text": "Sintetizzare bisogni e ostacoli per rivedere il problema e i requisiti."
+          "text": "Sintetizzare bisogni e ostacoli per rivedere il problema e i requisiti.",
+          "artwork": "/images/processo-ux-ui/illustrazione-requisiti.webp"
         }
       ],
       "bookPhysicalPages": [
@@ -983,7 +1313,7 @@
       ]
     },
     {
-      "lessonSlide": 27,
+      "lessonSlide": 34,
       "slug": "domande",
       "alias": "processo-ux-ui-domande",
       "title": "Domande che fanno raccontare",
@@ -1023,11 +1353,11 @@
       ]
     },
     {
-      "lessonSlide": 28,
+      "lessonSlide": 35,
       "slug": "partecipanti",
       "alias": "processo-ux-ui-partecipanti",
       "title": "Coinvolgere persone pertinenti",
-      "kind": "text",
+      "kind": "animated-portrait",
       "lead": "Le condizioni d’uso aiutano a decidere chi coinvolgere nella ricerca.",
       "points": [
         "Considerare esperienza del servizio, vincoli di orario e necessità di assistenza",
@@ -1036,7 +1366,10 @@
       ],
       "minutes": 1.5,
       "step": 5,
-      "figures": [],
+      "figures": [
+        "ritratto-viola",
+        "viola-realistica"
+      ],
       "references": [],
       "sourceHeading": "User research",
       "sourceKeys": [
@@ -1064,7 +1397,7 @@
       ]
     },
     {
-      "lessonSlide": 29,
+      "lessonSlide": 36,
       "slug": "evidenze",
       "alias": "processo-ux-ui-evidenze",
       "title": "Dal comportamento alla prossima prova",
@@ -1100,7 +1433,7 @@
       ]
     },
     {
-      "lessonSlide": 30,
+      "lessonSlide": 37,
       "slug": "sintesi-ricerca",
       "alias": "processo-ux-ui-sintesi-ricerca",
       "title": "Dagli appunti ai bisogni",
@@ -1118,15 +1451,18 @@
       "cards": [
         {
           "title": "Raccogliere",
-          "text": "Separare le osservazioni e collegarle alla sessione e al contesto."
+          "text": "Separare le osservazioni e collegarle alla sessione e al contesto.",
+          "artwork": "/images/processo-ux-ui/illustrazione-ricerca.webp"
         },
         {
           "title": "Raggruppare",
-          "text": "Cercare temi ricorrenti, mantenendo differenze ed episodi che contraddicono l’interpretazione."
+          "text": "Cercare temi ricorrenti, mantenendo differenze ed episodi che contraddicono l’interpretazione.",
+          "artwork": "/images/processo-ux-ui/mappa-architettura.webp"
         },
         {
           "title": "Decidere",
-          "text": "Concordare che cosa cambia nel progetto e che cosa richiede un’altra domanda."
+          "text": "Concordare che cosa cambia nel progetto e che cosa richiede un’altra domanda.",
+          "artwork": "/images/processo-ux-ui/mappa-obiettivi.webp"
         }
       ],
       "bookPhysicalPages": [
@@ -1151,7 +1487,7 @@
       ]
     },
     {
-      "lessonSlide": 31,
+      "lessonSlide": 38,
       "slug": "personas",
       "alias": "processo-ux-ui-personas",
       "title": "06 · User personas",
@@ -1196,7 +1532,7 @@
       ]
     },
     {
-      "lessonSlide": 32,
+      "lessonSlide": 39,
       "slug": "caso-personas",
       "alias": "processo-ux-ui-caso-personas",
       "title": "Il profilo orienta le scelte del servizio",
@@ -1230,7 +1566,7 @@
       ]
     },
     {
-      "lessonSlide": 33,
+      "lessonSlide": 40,
       "slug": "viola",
       "alias": "processo-ux-ui-viola",
       "title": "Che cosa cambia per Viola?",
@@ -1265,21 +1601,21 @@
       ]
     },
     {
-      "lessonSlide": 34,
+      "lessonSlide": 41,
       "slug": "persona-documento",
       "alias": "processo-ux-ui-persona-documento",
-      "title": "Leggere una scheda persona",
-      "kind": "image",
+      "title": "La user persona di Viola",
+      "kind": "persona-sheet",
       "lead": "",
       "points": [],
       "minutes": 2,
       "step": 6,
       "figures": [
-        "persona"
+        "viola-realistica"
       ],
       "references": [],
       "sourceHeading": "User personas",
-      "figureRole": "document",
+      "personaData": "progetti/slide/data/ux-persona.json",
       "bookPhysicalPages": [
         40
       ],
@@ -1301,23 +1637,20 @@
       ]
     },
     {
-      "lessonSlide": 35,
+      "lessonSlide": 42,
       "slug": "persona-decisioni",
       "alias": "processo-ux-ui-persona-decisioni",
       "title": "Usare una persona per decidere",
-      "kind": "text",
-      "lead": "Il profilo aiuta quando rende discutibile una scelta concreta.",
-      "points": [
-        "Scelta: richiedere l’account prima di mostrare le disponibilità",
-        "Domanda: Viola può capire se esiste una visita compatibile prima di investire tempo nella registrazione?",
-        "Ricerca e prova del percorso chiariscono il bisogno; età e fotografia non rispondono alla domanda"
-      ],
+      "kind": "persona-decision",
+      "lead": "",
+      "points": [],
       "minutes": 1.5,
       "step": 6,
       "figures": [],
       "references": [],
       "sourceHeading": "User personas",
       "sourceKeys": [],
+      "decisionData": "progetti/slide/data/ux-persona-decision.json",
       "bookPhysicalPages": [
         40
       ],
@@ -1339,7 +1672,7 @@
       ]
     },
     {
-      "lessonSlide": 36,
+      "lessonSlide": 43,
       "slug": "journey",
       "alias": "processo-ux-ui-journey",
       "title": "07 · Customer journey e user flow",
@@ -1384,7 +1717,7 @@
       ]
     },
     {
-      "lessonSlide": 37,
+      "lessonSlide": 44,
       "slug": "caso-journey",
       "alias": "processo-ux-ui-caso-journey",
       "title": "Colleghiamo viaggio, schermate e risposta umana",
@@ -1418,7 +1751,7 @@
       ]
     },
     {
-      "lessonSlide": 38,
+      "lessonSlide": 45,
       "slug": "journey-esempio",
       "alias": "processo-ux-ui-journey-esempio",
       "title": "Una porzione del viaggio di Viola",
@@ -1453,7 +1786,7 @@
       ]
     },
     {
-      "lessonSlide": 39,
+      "lessonSlide": 46,
       "slug": "journey-responsabilita",
       "alias": "processo-ux-ui-journey-responsabilita",
       "title": "Il viaggio dipende anche dal servizio",
@@ -1489,7 +1822,7 @@
       ]
     },
     {
-      "lessonSlide": 40,
+      "lessonSlide": 47,
       "slug": "user-flow",
       "alias": "processo-ux-ui-user-flow",
       "title": "07 · User flow",
@@ -1526,7 +1859,7 @@
       ]
     },
     {
-      "lessonSlide": 41,
+      "lessonSlide": 48,
       "slug": "flow-esempio",
       "alias": "processo-ux-ui-flow-esempio",
       "title": "Prenotare comprende anche il recupero",
@@ -1561,7 +1894,7 @@
       ]
     },
     {
-      "lessonSlide": 42,
+      "lessonSlide": 49,
       "slug": "rami-recupero",
       "alias": "processo-ux-ui-rami-recupero",
       "title": "Rami alternativi e dati conservati",
@@ -1599,7 +1932,7 @@
       ]
     },
     {
-      "lessonSlide": 43,
+      "lessonSlide": 50,
       "slug": "mappe-diverse",
       "alias": "processo-ux-ui-mappe-diverse",
       "title": "Journey, flow e sitemap",
@@ -1634,7 +1967,40 @@
       ]
     },
     {
-      "lessonSlide": 44,
+      "lessonSlide": 51,
+      "slug": "sitemap-sito",
+      "alias": "processo-ux-ui-sitemap-sito",
+      "title": "La sitemap del sito che realizzeremo",
+      "kind": "booking-sitemap",
+      "lead": "Dalla ricerca di una visita alla sua gestione: le pagine da costruire.",
+      "points": [],
+      "minutes": 2,
+      "step": 7,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Customer journey e user flow",
+      "bookPhysicalPages": [
+        40
+      ],
+      "preparatorySources": [
+        {
+          "source": "old-04",
+          "physicalPages": [
+            71,
+            74
+          ]
+        },
+        {
+          "source": "booklet-2024",
+          "physicalPages": [
+            75,
+            76
+          ]
+        }
+      ]
+    },
+    {
+      "lessonSlide": 52,
       "slug": "brd",
       "alias": "processo-ux-ui-brd",
       "title": "08 · Documento dei requisiti",
@@ -1684,7 +2050,7 @@
       ]
     },
     {
-      "lessonSlide": 45,
+      "lessonSlide": 53,
       "slug": "caso-brd",
       "alias": "processo-ux-ui-caso-brd",
       "title": "Cinque requisiti rendono costruibile il percorso",
@@ -1718,7 +2084,7 @@
       ]
     },
     {
-      "lessonSlide": 46,
+      "lessonSlide": 54,
       "slug": "requisito",
       "alias": "processo-ux-ui-requisito",
       "title": "Dal bisogno a un criterio verificabile",
@@ -1753,7 +2119,7 @@
       ]
     },
     {
-      "lessonSlide": 47,
+      "lessonSlide": 55,
       "slug": "user-story",
       "alias": "processo-ux-ui-user-story",
       "title": "Bisogno, user story e accettazione",
@@ -1791,7 +2157,7 @@
       ]
     },
     {
-      "lessonSlide": 48,
+      "lessonSlide": 56,
       "slug": "attivita-requisito",
       "alias": "processo-ux-ui-attivita-requisito",
       "title": "Dal bisogno al requisito",
@@ -1814,7 +2180,7 @@
       "preparatorySources": []
     },
     {
-      "lessonSlide": 49,
+      "lessonSlide": 57,
       "slug": "architettura",
       "alias": "processo-ux-ui-architettura",
       "title": "09 · Architettura dell’informazione",
@@ -1859,7 +2225,7 @@
       ]
     },
     {
-      "lessonSlide": 50,
+      "lessonSlide": 58,
       "slug": "caso-architettura",
       "alias": "processo-ux-ui-caso-architettura",
       "title": "L’architettura segue ciò che Viola deve fare",
@@ -1893,7 +2259,7 @@
       ]
     },
     {
-      "lessonSlide": 51,
+      "lessonSlide": 59,
       "slug": "sitemap",
       "alias": "processo-ux-ui-sitemap",
       "title": "Una struttura da discutere",
@@ -1928,7 +2294,7 @@
       ]
     },
     {
-      "lessonSlide": 52,
+      "lessonSlide": 60,
       "slug": "etichette-gruppi",
       "alias": "processo-ux-ui-etichette-gruppi",
       "title": "Verificare etichette e raggruppamenti",
@@ -1966,7 +2332,7 @@
       ]
     },
     {
-      "lessonSlide": 53,
+      "lessonSlide": 61,
       "slug": "wireframe",
       "alias": "processo-ux-ui-wireframe",
       "title": "10 · Wireframing",
@@ -2016,7 +2382,7 @@
       ]
     },
     {
-      "lessonSlide": 54,
+      "lessonSlide": 62,
       "slug": "caso-wireframe",
       "alias": "processo-ux-ui-caso-wireframe",
       "title": "V0 mette alla prova la prima struttura",
@@ -2050,113 +2416,7 @@
       ]
     },
     {
-      "lessonSlide": 55,
-      "slug": "wireframe-documento",
-      "alias": "processo-ux-ui-wireframe-documento",
-      "title": "Disegnare per capire una funzione",
-      "kind": "image",
-      "lead": "",
-      "points": [],
-      "minutes": 2,
-      "step": 10,
-      "figures": [
-        "wireframe-carta"
-      ],
-      "references": [],
-      "sourceHeading": "Wireframing",
-      "figureRole": "document",
-      "bookPhysicalPages": [
-        41
-      ],
-      "preparatorySources": [
-        {
-          "source": "old-05",
-          "physicalPages": [
-            18,
-            30
-          ]
-        },
-        {
-          "source": "booklet-2024",
-          "physicalPages": [
-            80,
-            81
-          ]
-        }
-      ]
-    },
-    {
-      "lessonSlide": 56,
-      "slug": "wireframe-progressione",
-      "alias": "processo-ux-ui-wireframe-progressione",
-      "title": "Dalle aree ai contenuti e alla UI",
-      "kind": "teaching",
-      "lead": "Tre versioni dello stesso esempio simulato. Il dettaglio cresce dove aiuta la decisione.",
-      "points": [],
-      "minutes": 2,
-      "step": 10,
-      "figures": [
-        "wireframe-ui"
-      ],
-      "references": [],
-      "sourceHeading": "Wireframing",
-      "bookPhysicalPages": [
-        41
-      ],
-      "preparatorySources": [
-        {
-          "source": "old-05",
-          "physicalPages": [
-            18,
-            30
-          ]
-        },
-        {
-          "source": "booklet-2024",
-          "physicalPages": [
-            80,
-            81
-          ]
-        }
-      ]
-    },
-    {
-      "lessonSlide": 57,
-      "slug": "wireframe-v0",
-      "alias": "processo-ux-ui-wireframe-v0",
-      "title": "V0 · Dalla struttura alle prime schermate",
-      "kind": "teaching",
-      "lead": "La prima bozza espone un limite da mettere alla prova: compatibilità e totale arrivano tardi.",
-      "points": [],
-      "minutes": 1,
-      "step": 10,
-      "figures": [
-        "caso-wireframe-v0"
-      ],
-      "references": [],
-      "sourceHeading": "Wireframing",
-      "bookPhysicalPages": [
-        41
-      ],
-      "preparatorySources": [
-        {
-          "source": "old-05",
-          "physicalPages": [
-            18,
-            30
-          ]
-        },
-        {
-          "source": "booklet-2024",
-          "physicalPages": [
-            80,
-            81
-          ]
-        }
-      ]
-    },
-    {
-      "lessonSlide": 58,
+      "lessonSlide": 63,
       "slug": "contenuti-realistici",
       "alias": "processo-ux-ui-contenuti-realistici",
       "title": "Wireframe con contenuti realistici",
@@ -2201,7 +2461,446 @@
       ]
     },
     {
-      "lessonSlide": 59,
+      "lessonSlide": 64,
+      "slug": "wireframe-documento",
+      "alias": "processo-ux-ui-wireframe-documento",
+      "title": "Disegnare per capire una funzione",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 2,
+      "step": 10,
+      "figures": [
+        "wireframe-carta"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing",
+      "figureRole": "document",
+      "bookPhysicalPages": [
+        41
+      ],
+      "preparatorySources": [
+        {
+          "source": "old-05",
+          "physicalPages": [
+            18,
+            30
+          ]
+        },
+        {
+          "source": "booklet-2024",
+          "physicalPages": [
+            80,
+            81
+          ]
+        }
+      ]
+    },
+    {
+      "lessonSlide": 65,
+      "slug": "wireframe-mano-ricerca-risultati",
+      "alias": "processo-ux-ui-wireframe-mano-ricerca-risultati",
+      "title": "Bozzetti a mano · Ricerca e risultati",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 1,
+      "step": 10,
+      "figures": [
+        "wireframe-mano-ricerca-risultati"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing",
+      "wireframeLevel": "mano",
+      "wireframePair": "ricerca-risultati",
+      "bookPhysicalPages": [
+        41
+      ],
+      "preparatorySources": [
+        {
+          "source": "old-05",
+          "physicalPages": [
+            18,
+            30
+          ]
+        },
+        {
+          "source": "booklet-2024",
+          "physicalPages": [
+            80,
+            81
+          ]
+        }
+      ]
+    },
+    {
+      "lessonSlide": 66,
+      "slug": "wireframe-mano-dettaglio-riepilogo",
+      "alias": "processo-ux-ui-wireframe-mano-dettaglio-riepilogo",
+      "title": "Bozzetti a mano · Dettaglio e riepilogo",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 1,
+      "step": 10,
+      "figures": [
+        "wireframe-mano-dettaglio-riepilogo"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing",
+      "wireframeLevel": "mano",
+      "wireframePair": "dettaglio-riepilogo",
+      "bookPhysicalPages": [
+        41
+      ],
+      "preparatorySources": [
+        {
+          "source": "old-05",
+          "physicalPages": [
+            18,
+            30
+          ]
+        },
+        {
+          "source": "booklet-2024",
+          "physicalPages": [
+            80,
+            81
+          ]
+        }
+      ]
+    },
+    {
+      "lessonSlide": 67,
+      "slug": "wireframe-mano-attesa-conferma",
+      "alias": "processo-ux-ui-wireframe-mano-attesa-conferma",
+      "title": "Bozzetti a mano · Richiesta e conferma",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 1,
+      "step": 10,
+      "figures": [
+        "wireframe-mano-attesa-conferma"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing",
+      "wireframeLevel": "mano",
+      "wireframePair": "attesa-conferma",
+      "bookPhysicalPages": [
+        41
+      ],
+      "preparatorySources": [
+        {
+          "source": "old-05",
+          "physicalPages": [
+            18,
+            30
+          ]
+        },
+        {
+          "source": "booklet-2024",
+          "physicalPages": [
+            80,
+            81
+          ]
+        }
+      ]
+    },
+    {
+      "lessonSlide": 68,
+      "slug": "wireframe-media-ricerca-risultati",
+      "alias": "processo-ux-ui-wireframe-media-ricerca-risultati",
+      "title": "Media fedeltà · Ricerca e risultati",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 1,
+      "step": 10,
+      "figures": [
+        "wireframe-media-ricerca-risultati"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing",
+      "wireframeLevel": "media",
+      "wireframePair": "ricerca-risultati",
+      "bookPhysicalPages": [
+        41
+      ],
+      "preparatorySources": [
+        {
+          "source": "old-05",
+          "physicalPages": [
+            18,
+            30
+          ]
+        },
+        {
+          "source": "booklet-2024",
+          "physicalPages": [
+            80,
+            81
+          ]
+        }
+      ]
+    },
+    {
+      "lessonSlide": 69,
+      "slug": "wireframe-media-dettaglio-riepilogo",
+      "alias": "processo-ux-ui-wireframe-media-dettaglio-riepilogo",
+      "title": "Media fedeltà · Dettaglio e riepilogo",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 1,
+      "step": 10,
+      "figures": [
+        "wireframe-media-dettaglio-riepilogo"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing",
+      "wireframeLevel": "media",
+      "wireframePair": "dettaglio-riepilogo",
+      "bookPhysicalPages": [
+        41
+      ],
+      "preparatorySources": [
+        {
+          "source": "old-05",
+          "physicalPages": [
+            18,
+            30
+          ]
+        },
+        {
+          "source": "booklet-2024",
+          "physicalPages": [
+            80,
+            81
+          ]
+        }
+      ]
+    },
+    {
+      "lessonSlide": 70,
+      "slug": "wireframe-media-attesa-conferma",
+      "alias": "processo-ux-ui-wireframe-media-attesa-conferma",
+      "title": "Media fedeltà · Richiesta e conferma",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 1,
+      "step": 10,
+      "figures": [
+        "wireframe-media-attesa-conferma"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing",
+      "wireframeLevel": "media",
+      "wireframePair": "attesa-conferma",
+      "bookPhysicalPages": [
+        41
+      ],
+      "preparatorySources": [
+        {
+          "source": "old-05",
+          "physicalPages": [
+            18,
+            30
+          ]
+        },
+        {
+          "source": "booklet-2024",
+          "physicalPages": [
+            80,
+            81
+          ]
+        }
+      ]
+    },
+    {
+      "lessonSlide": 71,
+      "slug": "wireframe-alta-ricerca-risultati",
+      "alias": "processo-ux-ui-wireframe-alta-ricerca-risultati",
+      "title": "Alta fedeltà · Ricerca e risultati",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 1,
+      "step": 10,
+      "figures": [
+        "wireframe-alta-ricerca-risultati"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing",
+      "wireframeLevel": "alta",
+      "wireframePair": "ricerca-risultati",
+      "bookPhysicalPages": [
+        41
+      ],
+      "preparatorySources": [
+        {
+          "source": "old-05",
+          "physicalPages": [
+            18,
+            30
+          ]
+        },
+        {
+          "source": "booklet-2024",
+          "physicalPages": [
+            80,
+            81
+          ]
+        }
+      ]
+    },
+    {
+      "lessonSlide": 72,
+      "slug": "wireframe-alta-dettaglio-riepilogo",
+      "alias": "processo-ux-ui-wireframe-alta-dettaglio-riepilogo",
+      "title": "Alta fedeltà · Dettaglio e riepilogo",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 1,
+      "step": 10,
+      "figures": [
+        "wireframe-alta-dettaglio-riepilogo"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing",
+      "wireframeLevel": "alta",
+      "wireframePair": "dettaglio-riepilogo",
+      "bookPhysicalPages": [
+        41
+      ],
+      "preparatorySources": [
+        {
+          "source": "old-05",
+          "physicalPages": [
+            18,
+            30
+          ]
+        },
+        {
+          "source": "booklet-2024",
+          "physicalPages": [
+            80,
+            81
+          ]
+        }
+      ]
+    },
+    {
+      "lessonSlide": 73,
+      "slug": "wireframe-alta-attesa-conferma",
+      "alias": "processo-ux-ui-wireframe-alta-attesa-conferma",
+      "title": "Alta fedeltà · Richiesta e conferma",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 1,
+      "step": 10,
+      "figures": [
+        "wireframe-alta-attesa-conferma"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing",
+      "wireframeLevel": "alta",
+      "wireframePair": "attesa-conferma",
+      "bookPhysicalPages": [
+        41
+      ],
+      "preparatorySources": [
+        {
+          "source": "old-05",
+          "physicalPages": [
+            18,
+            30
+          ]
+        },
+        {
+          "source": "booklet-2024",
+          "physicalPages": [
+            80,
+            81
+          ]
+        }
+      ]
+    },
+    {
+      "lessonSlide": 74,
+      "slug": "wireframe-progressione",
+      "alias": "processo-ux-ui-wireframe-progressione",
+      "title": "Lo stesso riepilogo, tre livelli di fedeltà",
+      "kind": "teaching",
+      "lead": "Stessi contenuti e azioni, dal bozzetto a mano alla versione ad alta fedeltà.",
+      "points": [],
+      "minutes": 2,
+      "step": 10,
+      "figures": [
+        "wireframe-ui"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing",
+      "bookPhysicalPages": [
+        41
+      ],
+      "preparatorySources": [
+        {
+          "source": "old-05",
+          "physicalPages": [
+            18,
+            30
+          ]
+        },
+        {
+          "source": "booklet-2024",
+          "physicalPages": [
+            80,
+            81
+          ]
+        }
+      ]
+    },
+    {
+      "lessonSlide": 75,
+      "slug": "wireframe-v0",
+      "alias": "processo-ux-ui-wireframe-v0",
+      "title": "V0 · Dalla struttura alle prime schermate",
+      "kind": "teaching",
+      "lead": "La prima bozza espone un limite da mettere alla prova: compatibilità e totale arrivano tardi.",
+      "points": [],
+      "minutes": 1,
+      "step": 10,
+      "figures": [
+        "caso-wireframe-v0"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing",
+      "bookPhysicalPages": [
+        41
+      ],
+      "preparatorySources": [
+        {
+          "source": "old-05",
+          "physicalPages": [
+            18,
+            30
+          ]
+        },
+        {
+          "source": "booklet-2024",
+          "physicalPages": [
+            80,
+            81
+          ]
+        }
+      ]
+    },
+    {
+      "lessonSlide": 76,
       "slug": "prototipo",
       "alias": "processo-ux-ui-prototipo",
       "title": "11 · Prototipo e prima prova",
@@ -2246,7 +2945,7 @@
       ]
     },
     {
-      "lessonSlide": 60,
+      "lessonSlide": 77,
       "slug": "caso-prototipo",
       "alias": "processo-ux-ui-caso-prototipo",
       "title": "Proviamo V0 e registriamo l’ostacolo",
@@ -2280,7 +2979,7 @@
       ]
     },
     {
-      "lessonSlide": 61,
+      "lessonSlide": 78,
       "slug": "prototipo-v0",
       "alias": "processo-ux-ui-prototipo-v0",
       "title": "V0 · Proviamo la prima bozza",
@@ -2315,42 +3014,7 @@
       ]
     },
     {
-      "lessonSlide": 62,
-      "slug": "fedelta",
-      "alias": "processo-ux-ui-fedelta",
-      "title": "Quanto dettaglio serve alla domanda?",
-      "kind": "teaching",
-      "lead": "Fedeltà visiva e funzionamento sono dimensioni distinte del prototipo.",
-      "points": [],
-      "minutes": 1.5,
-      "step": 11,
-      "figures": [
-        "fedelta"
-      ],
-      "references": [],
-      "sourceHeading": "Prototipo a bassa fedeltà e test di usabilità",
-      "bookPhysicalPages": [
-        41
-      ],
-      "preparatorySources": [
-        {
-          "source": "old-06",
-          "physicalPages": [
-            8,
-            10
-          ]
-        },
-        {
-          "source": "booklet-2024",
-          "physicalPages": [
-            82,
-            83
-          ]
-        }
-      ]
-    },
-    {
-      "lessonSlide": 63,
+      "lessonSlide": 79,
       "slug": "ambito-prototipo",
       "alias": "processo-ux-ui-ambito-prototipo",
       "title": "Prototipare quanto serve alla domanda",
@@ -2359,7 +3023,7 @@
       "points": [
         "Per la scelta serale servono ricerca, disponibilità, riepilogo ed esito",
         "Per osservare un recupero deve essere possibile arrivare allo stato problematico",
-        "Dichiarare le parti simulate e distinguere un limite del prototipo da una difficoltà dell’interfaccia"
+        "Esplicitare che cosa il prototipo permette di provare e distinguere un suo limite da una difficoltà dell’interfaccia"
       ],
       "minutes": 1.5,
       "step": 11,
@@ -2388,7 +3052,7 @@
       ]
     },
     {
-      "lessonSlide": 64,
+      "lessonSlide": 80,
       "slug": "usabilita",
       "alias": "processo-ux-ui-usabilita",
       "title": "11 · Preparare un test di usabilità",
@@ -2425,7 +3089,7 @@
       ]
     },
     {
-      "lessonSlide": 65,
+      "lessonSlide": 81,
       "slug": "compito",
       "alias": "processo-ux-ui-compito",
       "title": "Una consegna descrive l’obiettivo",
@@ -2440,11 +3104,13 @@
       "cards": [
         {
           "title": "Obiettivo da raggiungere",
-          "text": "«Trova una visita a domicilio dopo le 20 e prova a prenotarla»."
+          "text": "«Trova una visita a domicilio dopo le 20 e prova a prenotarla».",
+          "artwork": "/images/processo-ux-ui/mappa-obiettivi.webp"
         },
         {
           "title": "Percorso già suggerito",
-          "text": "«Premi Prenota e scegli il terzo orario» suggerisce già come procedere."
+          "text": "«Premi Prenota e scegli il terzo orario» suggerisce già come procedere.",
+          "artwork": "/images/processo-ux-ui/obiettivo-percorsi.svg"
         }
       ],
       "notice": {
@@ -2473,7 +3139,7 @@
       ]
     },
     {
-      "lessonSlide": 66,
+      "lessonSlide": 82,
       "slug": "piano-test",
       "alias": "processo-ux-ui-piano-test",
       "title": "La domanda organizza la prova",
@@ -2508,7 +3174,7 @@
       ]
     },
     {
-      "lessonSlide": 67,
+      "lessonSlide": 83,
       "slug": "sessione",
       "alias": "processo-ux-ui-sessione",
       "title": "Una sessione dall’inizio alla fine",
@@ -2524,15 +3190,18 @@
       "cards": [
         {
           "title": "Prima",
-          "text": "Presentare lo scopo, chiarire la partecipazione e introdurre lo scenario."
+          "text": "Presentare lo scopo, chiarire la partecipazione e introdurre lo scenario.",
+          "artwork": "/images/processo-ux-ui/illustrazione-brief.webp"
         },
         {
           "title": "Durante",
-          "text": "Proporre la consegna, osservare e registrare gli aiuti senza guidare le azioni."
+          "text": "Proporre la consegna, osservare e registrare gli aiuti senza guidare le azioni.",
+          "artwork": "/images/processo-ux-ui/illustrazione-verifica.webp"
         },
         {
           "title": "Dopo",
-          "text": "Approfondire dubbi, raccogliere il punto di vista della persona e confrontare le osservazioni."
+          "text": "Approfondire dubbi, raccogliere il punto di vista della persona e confrontare le osservazioni.",
+          "artwork": "/images/processo-ux-ui/illustrazione-requisiti.webp"
         }
       ],
       "bookPhysicalPages": [
@@ -2556,7 +3225,7 @@
       ]
     },
     {
-      "lessonSlide": 68,
+      "lessonSlide": 84,
       "slug": "osservazione",
       "alias": "processo-ux-ui-osservazione",
       "title": "Che cosa abbiamo osservato?",
@@ -2593,12 +3262,12 @@
       ]
     },
     {
-      "lessonSlide": 69,
+      "lessonSlide": 85,
       "slug": "registro-prova",
       "alias": "processo-ux-ui-registro-prova",
       "title": "Registrare un episodio di prova",
       "kind": "teaching",
-      "lead": "L’episodio simulato E1 della versione V0 conserva comportamento, parole e interpretazione separati.",
+      "lead": "L’episodio E1 della versione V0 conserva comportamento, parole e interpretazione separati.",
       "points": [],
       "minutes": 1.5,
       "step": 11,
@@ -2631,7 +3300,7 @@
       ]
     },
     {
-      "lessonSlide": 70,
+      "lessonSlide": 86,
       "slug": "iterazioni",
       "alias": "processo-ux-ui-iterazioni",
       "title": "12 · Iterazioni sui prototipi",
@@ -2676,7 +3345,7 @@
       ]
     },
     {
-      "lessonSlide": 71,
+      "lessonSlide": 87,
       "slug": "caso-iterazioni",
       "alias": "processo-ux-ui-caso-iterazioni",
       "title": "Due revisioni cambiano decisioni precise",
@@ -2710,12 +3379,12 @@
       ]
     },
     {
-      "lessonSlide": 72,
+      "lessonSlide": 88,
       "slug": "registro-revisione",
       "alias": "processo-ux-ui-registro-revisione",
       "title": "Un problema, un’ipotesi, una nuova prova",
       "kind": "teaching",
-      "lead": "E1 avvia V0 → V1. Il confronto è didattico: l’effetto della revisione resta da osservare con persone reali.",
+      "lead": "E1 avvia V0 → V1. L’effetto della revisione resta da osservare con le persone.",
       "points": [],
       "minutes": 2,
       "step": 12,
@@ -2745,12 +3414,12 @@
       ]
     },
     {
-      "lessonSlide": 73,
+      "lessonSlide": 89,
       "slug": "revisione-v1",
       "alias": "processo-ux-ui-revisione-v1",
       "title": "V0 → V1 · Prima la compatibilità",
       "kind": "teaching",
-      "lead": "Prima revisione: domicilio, fascia serale e totale precedono la scelta. Episodio didattico simulato.",
+      "lead": "Prima revisione: domicilio, fascia serale e totale precedono la scelta.",
       "points": [],
       "minutes": 1,
       "step": 12,
@@ -2780,7 +3449,7 @@
       ]
     },
     {
-      "lessonSlide": 74,
+      "lessonSlide": 90,
       "slug": "prototipo-v1",
       "alias": "processo-ux-ui-prototipo-v1",
       "title": "V1 · Troviamo una proposta compatibile",
@@ -2815,7 +3484,7 @@
       ]
     },
     {
-      "lessonSlide": 75,
+      "lessonSlide": 91,
       "slug": "revisione-v2",
       "alias": "processo-ux-ui-revisione-v2",
       "title": "V1 → V2 · Rendere esplicita la promessa",
@@ -2850,7 +3519,7 @@
       ]
     },
     {
-      "lessonSlide": 76,
+      "lessonSlide": 92,
       "slug": "priorita",
       "alias": "processo-ux-ui-priorita",
       "title": "Decidere che cosa correggere",
@@ -2887,7 +3556,7 @@
       ]
     },
     {
-      "lessonSlide": 77,
+      "lessonSlide": 93,
       "slug": "priorita-problemi",
       "alias": "processo-ux-ui-priorita-problemi",
       "title": "Dare una priorità ai problemi",
@@ -2923,7 +3592,7 @@
       ]
     },
     {
-      "lessonSlide": 78,
+      "lessonSlide": 94,
       "slug": "ui",
       "alias": "processo-ux-ui-ui",
       "title": "13 · UI e mockup",
@@ -2973,7 +3642,7 @@
       ]
     },
     {
-      "lessonSlide": 79,
+      "lessonSlide": 95,
       "slug": "caso-ui",
       "alias": "processo-ux-ui-caso-ui",
       "title": "La UI dà forma alle regole di V2",
@@ -3007,12 +3676,12 @@
       ]
     },
     {
-      "lessonSlide": 80,
+      "lessonSlide": 96,
       "slug": "sistema-ui-caso",
       "alias": "processo-ux-ui-sistema-ui-caso",
       "title": "V2 · Un sistema visivo per lo stesso servizio",
       "kind": "teaching",
-      "lead": "Griglia, tipografia e colore rendono leggibili le regole già decise. Esempio simulato.",
+      "lead": "Griglia, tipografia e colore rendono leggibili le regole già decise.",
       "points": [],
       "minutes": 1,
       "step": 13,
@@ -3042,7 +3711,7 @@
       ]
     },
     {
-      "lessonSlide": 81,
+      "lessonSlide": 97,
       "slug": "prototipo-v2",
       "alias": "processo-ux-ui-prototipo-v2",
       "title": "V2 · Richiesta, attesa e conferma",
@@ -3077,43 +3746,7 @@
       ]
     },
     {
-      "lessonSlide": 82,
-      "slug": "mockup-documento",
-      "alias": "processo-ux-ui-mockup-documento",
-      "title": "Una struttura, una proposta visiva",
-      "kind": "image",
-      "lead": "",
-      "points": [],
-      "minutes": 2,
-      "step": 13,
-      "figures": [
-        "mockup"
-      ],
-      "references": [],
-      "sourceHeading": "User Interface e mockup",
-      "figureRole": "document",
-      "bookPhysicalPages": [
-        42
-      ],
-      "preparatorySources": [
-        {
-          "source": "old-06",
-          "physicalPages": [
-            11,
-            14
-          ]
-        },
-        {
-          "source": "booklet-2024",
-          "physicalPages": [
-            85,
-            86
-          ]
-        }
-      ]
-    },
-    {
-      "lessonSlide": 83,
+      "lessonSlide": 98,
       "slug": "stati",
       "alias": "processo-ux-ui-stati",
       "title": "Progettare scelta, recupero ed esito",
@@ -3148,7 +3781,7 @@
       ]
     },
     {
-      "lessonSlide": 84,
+      "lessonSlide": 99,
       "slug": "coerenza",
       "alias": "processo-ux-ui-coerenza",
       "title": "La UI comprende parole e comportamento",
@@ -3183,7 +3816,7 @@
       ]
     },
     {
-      "lessonSlide": 85,
+      "lessonSlide": 100,
       "slug": "componenti",
       "alias": "processo-ux-ui-componenti",
       "title": "Componenti, varianti e contenuti",
@@ -3221,7 +3854,7 @@
       ]
     },
     {
-      "lessonSlide": 86,
+      "lessonSlide": 101,
       "slug": "nuova-verifica",
       "alias": "processo-ux-ui-nuova-verifica",
       "title": "14 · Nuova verifica della soluzione",
@@ -3270,7 +3903,7 @@
       ]
     },
     {
-      "lessonSlide": 87,
+      "lessonSlide": 102,
       "slug": "caso-nuova-verifica",
       "alias": "processo-ux-ui-caso-nuova-verifica",
       "title": "V3 completa il recupero e la gestione",
@@ -3303,12 +3936,12 @@
       ]
     },
     {
-      "lessonSlide": 88,
+      "lessonSlide": 103,
       "slug": "revisione-v3",
       "alias": "processo-ux-ui-revisione-v3",
       "title": "V2 → V3 · Recuperare uno slot perso",
       "kind": "teaching",
-      "lead": "Terza revisione: la disponibilità cambia, i dati validi rimangono. Episodio didattico simulato.",
+      "lead": "Terza revisione: la disponibilità cambia, i dati validi rimangono.",
       "points": [],
       "minutes": 1,
       "step": 14,
@@ -3337,7 +3970,7 @@
       ]
     },
     {
-      "lessonSlide": 89,
+      "lessonSlide": 104,
       "slug": "servizio-finale",
       "alias": "processo-ux-ui-servizio-finale",
       "title": "V3 · Percorriamo il servizio completo",
@@ -3371,7 +4004,7 @@
       ]
     },
     {
-      "lessonSlide": 90,
+      "lessonSlide": 105,
       "slug": "accessibilita",
       "alias": "processo-ux-ui-accessibilita",
       "title": "Valutare uso e accessibilità",
@@ -3386,11 +4019,13 @@
       "cards": [
         {
           "title": "Prova con le persone",
-          "text": "Coinvolgere persone con disabilità permette di osservare barriere concrete nei compiti."
+          "text": "Coinvolgere persone con disabilità permette di osservare barriere concrete nei compiti.",
+          "artwork": "/images/processo-ux-ui/illustrazione-verifica.webp"
         },
         {
           "title": "Verifica degli standard",
-          "text": "Il successo di alcuni compiti non dimostra la conformità dell’intero prodotto."
+          "text": "Il successo di alcuni compiti non dimostra la conformità dell’intero prodotto.",
+          "artwork": "/images/processo-ux-ui/illustrazione-requisiti.webp"
         }
       ],
       "notice": {
@@ -3418,7 +4053,7 @@
       ]
     },
     {
-      "lessonSlide": 91,
+      "lessonSlide": 106,
       "slug": "consegna",
       "alias": "processo-ux-ui-consegna",
       "title": "Consegna: aspetto, regole e questioni aperte",
@@ -3448,7 +4083,7 @@
       "preparatorySources": []
     },
     {
-      "lessonSlide": 92,
+      "lessonSlide": 107,
       "slug": "consegna-verificabile",
       "alias": "processo-ux-ui-consegna-verificabile",
       "title": "Una consegna verificabile",
@@ -3472,7 +4107,7 @@
       "preparatorySources": []
     },
     {
-      "lessonSlide": 93,
+      "lessonSlide": 108,
       "slug": "blueprint-finale",
       "alias": "processo-ux-ui-blueprint-finale",
       "title": "Il servizio finale collega persone e risposte",
@@ -3493,7 +4128,7 @@
       "preparatorySources": []
     },
     {
-      "lessonSlide": 94,
+      "lessonSlide": 109,
       "slug": "servizio-reale",
       "alias": "processo-ux-ui-servizio-reale",
       "title": "Dal prototipo al servizio reale",
@@ -3502,7 +4137,7 @@
       "points": [
         "Disponibilità reale della rete nelle fasce serali e tempi della risposta dei professionisti.",
         "Condizioni effettive di modifica, annullamento, pagamento e rimborso da concordare con chi gestisce il servizio.",
-        "Comprensione e uso da osservare con persone e tecnologie assistive; nessun esito simulato dimostra l’efficacia sul campo."
+        "Comprensione e uso da osservare con persone e tecnologie assistive."
       ],
       "minutes": 1.5,
       "step": null,
@@ -3518,7 +4153,7 @@
       "preparatorySources": []
     },
     {
-      "lessonSlide": 95,
+      "lessonSlide": 110,
       "slug": "ciclo",
       "alias": "processo-ux-ui-ciclo",
       "title": "Ipotesi, prova, apprendimento",
@@ -3539,7 +4174,7 @@
       "preparatorySources": []
     },
     {
-      "lessonSlide": 96,
+      "lessonSlide": 111,
       "slug": "scegliere",
       "alias": "processo-ux-ui-scegliere",
       "title": "Scegliere la prossima attività",
@@ -3575,7 +4210,7 @@
       "preparatorySources": []
     },
     {
-      "lessonSlide": 97,
+      "lessonSlide": 112,
       "slug": "attivita-prova",
       "alias": "processo-ux-ui-attivita-prova",
       "title": "Dal requisito alla prossima prova",
@@ -3598,7 +4233,7 @@
       "preparatorySources": []
     },
     {
-      "lessonSlide": 98,
+      "lessonSlide": 113,
       "slug": "restituzione",
       "alias": "processo-ux-ui-restituzione",
       "title": "Rendere discutibile la proposta",
@@ -3621,7 +4256,7 @@
       "preparatorySources": []
     },
     {
-      "lessonSlide": 99,
+      "lessonSlide": 114,
       "slug": "adattare",
       "alias": "processo-ux-ui-adattare",
       "title": "Adattare il processo al progetto",
@@ -3644,7 +4279,7 @@
       "preparatorySources": []
     },
     {
-      "lessonSlide": 100,
+      "lessonSlide": 115,
       "slug": "chiusura",
       "alias": "processo-ux-ui-chiusura",
       "title": "Dal bisogno alla scelta motivata",
@@ -3659,15 +4294,18 @@
       "cards": [
         {
           "title": "Comprendere",
-          "text": "Il brief chiarisce il progetto; la ricerca può cambiarne il problema."
+          "text": "Il brief chiarisce il progetto; la ricerca può cambiarne il problema.",
+          "artwork": "/images/processo-ux-ui/illustrazione-ricerca.webp"
         },
         {
           "title": "Rappresentare",
-          "text": "Journey, flow e struttura rendono visibili relazioni diverse."
+          "text": "Journey, flow e struttura rendono visibili relazioni diverse.",
+          "artwork": "/images/processo-ux-ui/illustrazione-wireframe.webp"
         },
         {
           "title": "Mettere alla prova",
-          "text": "Prototipo, UI e test trasformano le evidenze in revisioni verificabili."
+          "text": "Prototipo, UI e test trasformano le evidenze in revisioni verificabili.",
+          "artwork": "/images/processo-ux-ui/illustrazione-verifica.webp"
         }
       ],
       "bookPhysicalPages": [
@@ -3677,7 +4315,7 @@
       "preparatorySources": []
     },
     {
-      "lessonSlide": 101,
+      "lessonSlide": 116,
       "slug": "risorse-operative",
       "alias": "processo-ux-ui-fonti-libro",
       "title": "Risorse · Dal bisogno alla decisione",
@@ -3717,7 +4355,7 @@
       "preparatorySources": []
     },
     {
-      "lessonSlide": 102,
+      "lessonSlide": 117,
       "slug": "fonti-ricerca",
       "alias": "processo-ux-ui-fonti-ricerca",
       "title": "Fonti · Ricerca e rappresentazione",
@@ -3752,7 +4390,7 @@
       "preparatorySources": []
     },
     {
-      "lessonSlide": 103,
+      "lessonSlide": 118,
       "slug": "fonti-valutazione",
       "alias": "processo-ux-ui-fonti-valutazione",
       "title": "Fonti · Valutazione e apprendimento",
@@ -3787,7 +4425,7 @@
       "preparatorySources": []
     },
     {
-      "lessonSlide": 104,
+      "lessonSlide": 119,
       "slug": "fonti-figure",
       "alias": "processo-ux-ui-fonti-figure",
       "title": "Fonti · Documenti ed esempi",
@@ -3811,7 +4449,7 @@
         {
           "label": "Attribuzioni delle figure",
           "url": null,
-          "note": "Scheda persona: Iulian Corunga. Diagrammi, documenti e schermate del caso: CVeDI, 2026. Gli esempi simulati sono indicati nelle rispettive didascalie. Le cinque illustrazioni di brief, ricerca, requisiti, wireframe e verifica sono generate con IA."
+          "note": "Scheda persona: Iulian Corunga. Diagrammi, documenti e schermate del caso: CVeDI, 2026."
         }
       ],
       "sourceHeading": "Fonti · Documenti ed esempi",

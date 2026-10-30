@@ -1,0 +1,462 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-30T12:41:52.216328+00:00",
+  "title": "Design System: Passo",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Violetto Passo",
+        "canonical": "oklch(43.2% 0.232 292.759)",
+        "tonalRamp": [
+          "oklch(28.3% 0.141 291.089)",
+          "oklch(38% 0.189 293.745)",
+          "oklch(43.2% 0.232 292.759)",
+          "oklch(54.1% 0.281 293.009)",
+          "oklch(70.2% 0.183 293.541)",
+          "oklch(81.1% 0.111 293.571)",
+          "oklch(89.4% 0.057 293.283)",
+          "oklch(96.9% 0.016 293.756)"
+        ]
+      },
+      "primary-deep": {
+        "role": "primary",
+        "displayName": "Violetto profondo",
+        "canonical": "oklch(28.3% 0.141 291.089)",
+        "tonalRamp": [
+          "oklch(28.3% 0.141 291.089)",
+          "oklch(38% 0.189 293.745)",
+          "oklch(43.2% 0.232 292.759)",
+          "oklch(54.1% 0.281 293.009)",
+          "oklch(70.2% 0.183 293.541)",
+          "oklch(81.1% 0.111 293.571)",
+          "oklch(89.4% 0.057 293.283)",
+          "oklch(96.9% 0.016 293.756)"
+        ]
+      },
+      "violet-light": {
+        "role": "secondary",
+        "displayName": "Lavanda chiara",
+        "canonical": "oklch(94.3% 0.029 294.588)",
+        "tonalRamp": [
+          "oklch(28.3% 0.141 291.089)",
+          "oklch(38% 0.189 293.745)",
+          "oklch(43.2% 0.232 292.759)",
+          "oklch(54.1% 0.281 293.009)",
+          "oklch(70.2% 0.183 293.541)",
+          "oklch(81.1% 0.111 293.571)",
+          "oklch(89.4% 0.057 293.283)",
+          "oklch(96.9% 0.016 293.756)"
+        ]
+      },
+      "violet-surface": {
+        "role": "neutral",
+        "displayName": "Lavanda di fondo",
+        "canonical": "oklch(96.9% 0.016 293.756)",
+        "tonalRamp": [
+          "oklch(28.3% 0.141 291.089)",
+          "oklch(38% 0.189 293.745)",
+          "oklch(43.2% 0.232 292.759)",
+          "oklch(54.1% 0.281 293.009)",
+          "oklch(70.2% 0.183 293.541)",
+          "oklch(81.1% 0.111 293.571)",
+          "oklch(89.4% 0.057 293.283)",
+          "oklch(96.9% 0.016 293.756)"
+        ]
+      },
+      "cedro": {
+        "role": "tertiary",
+        "displayName": "Cedro vivo",
+        "canonical": "oklch(84.00% 0.1875 115.004)",
+        "tonalRamp": [
+          "oklch(15% 0.1875 115.004)",
+          "oklch(26% 0.1875 115.004)",
+          "oklch(38% 0.1875 115.004)",
+          "oklch(49% 0.1875 115.004)",
+          "oklch(61% 0.1875 115.004)",
+          "oklch(72% 0.1875 115.004)",
+          "oklch(84% 0.1875 115.004)",
+          "oklch(95% 0.1875 115.004)"
+        ]
+      },
+      "cedro-ink": {
+        "role": "tertiary",
+        "displayName": "Cedro inchiostro",
+        "canonical": "oklch(43.00% 0.0838 115.004)",
+        "tonalRamp": [
+          "oklch(15% 0.0838 115.004)",
+          "oklch(26% 0.0838 115.004)",
+          "oklch(38% 0.0838 115.004)",
+          "oklch(49% 0.0838 115.004)",
+          "oklch(61% 0.0838 115.004)",
+          "oklch(72% 0.0838 115.004)",
+          "oklch(84% 0.0838 115.004)",
+          "oklch(95% 0.0838 115.004)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Carta",
+        "tonalRamp": [
+          "oklch(15% 0.00000 0.000)",
+          "oklch(26% 0.00000 0.000)",
+          "oklch(38% 0.00000 0.000)",
+          "oklch(49% 0.00000 0.000)",
+          "oklch(61% 0.00000 0.000)",
+          "oklch(72% 0.00000 0.000)",
+          "oklch(84% 0.00000 0.000)",
+          "oklch(95% 0.00000 0.000)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Superficie chiara",
+        "tonalRamp": [
+          "oklch(15% 0.00693 304.243)",
+          "oklch(26% 0.00693 304.243)",
+          "oklch(38% 0.00693 304.243)",
+          "oklch(49% 0.00693 304.243)",
+          "oklch(61% 0.00693 304.243)",
+          "oklch(72% 0.00693 304.243)",
+          "oklch(84% 0.00693 304.243)",
+          "oklch(95% 0.00693 304.243)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Filetto lavanda",
+        "tonalRamp": [
+          "oklch(15% 0.02390 301.921)",
+          "oklch(26% 0.02390 301.921)",
+          "oklch(38% 0.02390 301.921)",
+          "oklch(49% 0.02390 301.921)",
+          "oklch(61% 0.02390 301.921)",
+          "oklch(72% 0.02390 301.921)",
+          "oklch(84% 0.02390 301.921)",
+          "oklch(95% 0.02390 301.921)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Inchiostro",
+        "tonalRamp": [
+          "oklch(15% 0.06042 302.553)",
+          "oklch(26% 0.06042 302.553)",
+          "oklch(38% 0.06042 302.553)",
+          "oklch(49% 0.06042 302.553)",
+          "oklch(61% 0.06042 302.553)",
+          "oklch(72% 0.06042 302.553)",
+          "oklch(84% 0.06042 302.553)",
+          "oklch(95% 0.06042 302.553)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Testo secondario",
+        "tonalRamp": [
+          "oklch(15% 0.04175 306.660)",
+          "oklch(26% 0.04175 306.660)",
+          "oklch(38% 0.04175 306.660)",
+          "oklch(49% 0.04175 306.660)",
+          "oklch(61% 0.04175 306.660)",
+          "oklch(72% 0.04175 306.660)",
+          "oklch(84% 0.04175 306.660)",
+          "oklch(95% 0.04175 306.660)"
+        ]
+      },
+      "placeholder": {
+        "role": "neutral",
+        "displayName": "Segnaposto",
+        "tonalRamp": [
+          "oklch(15% 0.03480 308.748)",
+          "oklch(26% 0.03480 308.748)",
+          "oklch(38% 0.03480 308.748)",
+          "oklch(49% 0.03480 308.748)",
+          "oklch(61% 0.03480 308.748)",
+          "oklch(72% 0.03480 308.748)",
+          "oklch(84% 0.03480 308.748)",
+          "oklch(95% 0.03480 308.748)"
+        ]
+      },
+      "info": {
+        "role": "secondary",
+        "displayName": "Informazione",
+        "tonalRamp": [
+          "oklch(15% 0.02485 301.068)",
+          "oklch(26% 0.02485 301.068)",
+          "oklch(38% 0.02485 301.068)",
+          "oklch(49% 0.02485 301.068)",
+          "oklch(61% 0.02485 301.068)",
+          "oklch(72% 0.02485 301.068)",
+          "oklch(84% 0.02485 301.068)",
+          "oklch(95% 0.02485 301.068)"
+        ]
+      },
+      "info-content": {
+        "role": "secondary",
+        "displayName": "Testo informazione",
+        "tonalRamp": [
+          "oklch(15% 0.10745 300.341)",
+          "oklch(26% 0.10745 300.341)",
+          "oklch(38% 0.10745 300.341)",
+          "oklch(49% 0.10745 300.341)",
+          "oklch(61% 0.10745 300.341)",
+          "oklch(72% 0.10745 300.341)",
+          "oklch(84% 0.10745 300.341)",
+          "oklch(95% 0.10745 300.341)"
+        ]
+      },
+      "error": {
+        "role": "tertiary",
+        "displayName": "Errore",
+        "tonalRamp": [
+          "oklch(15% 0.16820 14.410)",
+          "oklch(26% 0.16820 14.410)",
+          "oklch(38% 0.16820 14.410)",
+          "oklch(49% 0.16820 14.410)",
+          "oklch(61% 0.16820 14.410)",
+          "oklch(72% 0.16820 14.410)",
+          "oklch(84% 0.16820 14.410)",
+          "oklch(95% 0.16820 14.410)"
+        ]
+      },
+      "error-surface": {
+        "role": "tertiary",
+        "displayName": "Fondo errore",
+        "tonalRamp": [
+          "oklch(15% 0.01456 1.550)",
+          "oklch(26% 0.01456 1.550)",
+          "oklch(38% 0.01456 1.550)",
+          "oklch(49% 0.01456 1.550)",
+          "oklch(61% 0.01456 1.550)",
+          "oklch(72% 0.01456 1.550)",
+          "oklch(84% 0.01456 1.550)",
+          "oklch(95% 0.01456 1.550)"
+        ]
+      },
+      "error-content": {
+        "role": "tertiary",
+        "displayName": "Testo errore",
+        "tonalRamp": [
+          "oklch(15% 0.14377 13.415)",
+          "oklch(26% 0.14377 13.415)",
+          "oklch(38% 0.14377 13.415)",
+          "oklch(49% 0.14377 13.415)",
+          "oklch(61% 0.14377 13.415)",
+          "oklch(72% 0.14377 13.415)",
+          "oklch(84% 0.14377 13.415)",
+          "oklch(95% 0.14377 13.415)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display home",
+        "purpose": "Titolo persuasivo della home; rispetta gli override responsive registrati in Layout."
+      },
+      "headline": {
+        "displayName": "Titolo pagina",
+        "purpose": "Titoli ordinari del servizio e del percorso operativo."
+      },
+      "section": {
+        "displayName": "Titolo sezione",
+        "purpose": "Sezioni narrative e informative."
+      },
+      "title": {
+        "displayName": "Nome professionista",
+        "purpose": "Prima informazione tipografica nella scheda risultato."
+      },
+      "body": {
+        "displayName": "Testo corrente",
+        "purpose": "Lettura, radice desktop; 16px sotto 680px."
+      },
+      "label": {
+        "displayName": "Etichetta campo",
+        "purpose": "Etichetta reale e sempre visibile."
+      },
+      "button": {
+        "displayName": "Comando",
+        "purpose": "Gerarchia d’azione, distinta dal corpo."
+      },
+      "wordmark": {
+        "displayName": "Marchio tipografico",
+        "purpose": "Passo con punto Cedro."
+      }
+    },
+    "shadows": [
+      {
+        "name": "flat",
+        "value": "none",
+        "purpose": "Card, campi, avvisi e pulsanti, compreso hover; tema depth 0 e noise 0."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Curva condivisa di foto e frecce."
+      },
+      {
+        "name": "button-color",
+        "value": "160ms",
+        "purpose": "Transizioni di background-color, border-color e color."
+      },
+      {
+        "name": "link-arrow",
+        "value": "180ms",
+        "purpose": "Spostamento della freccia di 3px."
+      },
+      {
+        "name": "hero-arrive",
+        "value": "700ms",
+        "purpose": "Rivelazione singola del ritaglio fotografico soltanto con no-preference."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "none",
+        "purpose": "Con reduce: animazioni e transizioni disattivate; scroll-behavior:auto."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile-max",
+        "value": "680px"
+      },
+      {
+        "name": "navigation-max",
+        "value": "900px"
+      },
+      {
+        "name": "compact-desktop-max",
+        "value": "1190px"
+      },
+      {
+        "name": "wide-min",
+        "value": "1700px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Azione principale del passaggio corrente.",
+      "html": "<button class=\"ds-primary\" type=\"button\">Trova la tua visita<svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;height:auto;padding:12px 22px;border:1px solid;border-radius:var(--radius-field, .5rem);font-family:\"Nunito Sans\", sans-serif;font-size:.94rem;font-weight:750;line-height:1.35;letter-spacing:0;text-decoration:none;box-shadow:none;cursor:pointer;transition:background-color 160ms,border-color 160ms,color 160ms;background:var(--color-primary, var(--cvedi-ux-process-base, oklch(43.2% 0.232 292.759)));color:var(--color-base-100, #ffffff);border-color:var(--color-primary, var(--cvedi-ux-process-base, oklch(43.2% 0.232 292.759)))}.ds-primary:hover{background:var(--cvedi-ux-process-deep, oklch(28.3% 0.141 291.089));border-color:var(--cvedi-ux-process-deep, oklch(28.3% 0.141 291.089));box-shadow:none}.ds-primary:focus-visible{outline:3px solid var(--color-primary, var(--cvedi-ux-process-base, oklch(43.2% 0.232 292.759)));outline-offset:4px;}.ds-primary:disabled{cursor:wait;opacity:.5}.ds-icon{width:22px;height:22px;flex:none}@media(prefers-reduced-motion:reduce){.ds-primary,.ds-outline,.ds-ghost,.ds-cedro,.ds-destructive{transition:none}}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Azione secondaria con bordo sottile.",
+      "html": "<button class=\"ds-outline\" type=\"button\">Le mie visite</button>",
+      "css": ".ds-outline{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;height:auto;padding:12px 22px;border:1px solid;border-radius:var(--radius-field, .5rem);font-family:\"Nunito Sans\", sans-serif;font-size:.94rem;font-weight:750;line-height:1.35;letter-spacing:0;text-decoration:none;box-shadow:none;cursor:pointer;transition:background-color 160ms,border-color 160ms,color 160ms;background:transparent;color:var(--color-base-content, #291b3b);border-color:var(--color-base-300, #ddd7e8)}.ds-outline:hover{background:var(--color-base-200, #f7f5fa);color:var(--color-primary, var(--cvedi-ux-process-base, oklch(43.2% 0.232 292.759)));border-color:var(--color-primary, var(--cvedi-ux-process-base, oklch(43.2% 0.232 292.759)));box-shadow:none}.ds-outline:focus-visible{outline:3px solid var(--color-primary, var(--cvedi-ux-process-base, oklch(43.2% 0.232 292.759)));outline-offset:4px;}.ds-outline:disabled{cursor:wait;opacity:.5}.ds-icon{width:22px;height:22px;flex:none}@media(prefers-reduced-motion:reduce){.ds-primary,.ds-outline,.ds-ghost,.ds-cedro,.ds-destructive{transition:none}}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Uscita o ritorno senza superficie piena.",
+      "html": "<button class=\"ds-ghost\" type=\"button\">Torna indietro</button>",
+      "css": ".ds-ghost{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;height:auto;padding:12px 22px;border:1px solid;border-radius:var(--radius-field, .5rem);font-family:\"Nunito Sans\", sans-serif;font-size:.94rem;font-weight:750;line-height:1.35;letter-spacing:0;text-decoration:none;box-shadow:none;cursor:pointer;transition:background-color 160ms,border-color 160ms,color 160ms;background:transparent;color:var(--color-base-content, #291b3b);border-color:transparent}.ds-ghost:hover{background:color-mix(in oklab, var(--color-base-content, #291b3b) 10%, transparent);box-shadow:none}.ds-ghost:focus-visible{outline:3px solid var(--color-primary, var(--cvedi-ux-process-base, oklch(43.2% 0.232 292.759)));outline-offset:4px;}.ds-ghost:disabled{cursor:wait;opacity:.5}.ds-icon{width:22px;height:22px;flex:none}@media(prefers-reduced-motion:reduce){.ds-primary,.ds-outline,.ds-ghost,.ds-cedro,.ds-destructive{transition:none}}"
+    },
+    {
+      "name": "Cedro Button",
+      "kind": "button",
+      "refersTo": "button-cedro",
+      "description": "Azione sulla fascia prezzo violetta.",
+      "html": "<button class=\"ds-cedro\" type=\"button\">Trova una disponibilità<svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-cedro{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;height:auto;padding:12px 22px;border:1px solid;border-radius:var(--radius-field, .5rem);font-family:\"Nunito Sans\", sans-serif;font-size:.94rem;font-weight:750;line-height:1.35;letter-spacing:0;text-decoration:none;box-shadow:none;cursor:pointer;transition:background-color 160ms,border-color 160ms,color 160ms;background:var(--color-accent, var(--cvedi-ux-process-accent-vivid, oklch(84.00% 0.1875 115.004)));color:var(--cvedi-ux-process-deep, oklch(28.3% 0.141 291.089));border-color:var(--color-accent, var(--cvedi-ux-process-accent-vivid, oklch(84.00% 0.1875 115.004)))}.ds-cedro:hover{background:var(--color-secondary, var(--cvedi-ux-process-light, oklch(94.3% 0.029 294.588)));color:var(--color-primary, var(--cvedi-ux-process-base, oklch(43.2% 0.232 292.759)));border-color:var(--color-secondary, var(--cvedi-ux-process-light, oklch(94.3% 0.029 294.588)));box-shadow:none}.ds-cedro:focus-visible{outline:3px solid var(--color-primary, var(--cvedi-ux-process-base, oklch(43.2% 0.232 292.759)));outline-offset:4px;}.ds-cedro:disabled{cursor:wait;opacity:.5}.ds-icon{width:22px;height:22px;flex:none}@media(prefers-reduced-motion:reduce){.ds-primary,.ds-outline,.ds-ghost,.ds-cedro,.ds-destructive{transition:none}}"
+    },
+    {
+      "name": "Destructive Button",
+      "kind": "button",
+      "refersTo": "button-destructive",
+      "description": "Conferma distruttiva nel dialogo.",
+      "html": "<button class=\"ds-destructive\" type=\"button\">Elimina i dati</button>",
+      "css": ".ds-destructive{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;height:auto;padding:12px 22px;border:1px solid;border-radius:var(--radius-field, .5rem);font-family:\"Nunito Sans\", sans-serif;font-size:.94rem;font-weight:750;line-height:1.35;letter-spacing:0;text-decoration:none;box-shadow:none;cursor:pointer;transition:background-color 160ms,border-color 160ms,color 160ms;background:var(--color-error, #ac2743);color:var(--color-base-100, #ffffff);border-color:var(--color-error, #ac2743)}.ds-destructive:hover{background:color-mix(in oklab, var(--color-error, #ac2743), #000 7%);border-color:color-mix(in oklab, var(--color-error, #ac2743), #000 7%);box-shadow:none}.ds-destructive:focus-visible{outline:3px solid var(--color-primary, var(--cvedi-ux-process-base, oklch(43.2% 0.232 292.759)));outline-offset:4px;}.ds-destructive:disabled{cursor:wait;opacity:.5}.ds-icon{width:22px;height:22px;flex:none}@media(prefers-reduced-motion:reduce){.ds-primary,.ds-outline,.ds-ghost,.ds-cedro,.ds-destructive{transition:none}}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input-text",
+      "description": "Etichetta visibile, campo bianco e focus netto.",
+      "html": "<label class=\"ds-field\"><span id=\"ds-address-label\">Domicilio a Milano</span><input class=\"ds-input\" aria-labelledby=\"ds-address-label\" autocomplete=\"street-address\" placeholder=\"Via e numero civico\"></label>",
+      "css": ".ds-field{display:flex;flex-direction:column;gap:8px;min-width:0;color:var(--color-base-content, #291b3b);font-family:\"Nunito Sans\", sans-serif;font-size:.83rem;font-weight:700;line-height:1.6}.ds-input{width:100%;min-height:50px;padding:11px 12px;font-family:inherit;font-size:.94rem;font-weight:500;line-height:1.6;color:var(--color-base-content, #291b3b);background:var(--color-base-100, #ffffff);border:1px solid var(--color-base-300, #ddd7e8);border-radius:8px;box-shadow:none}.ds-input::placeholder{color:#74697e;opacity:1}.ds-input:focus{outline:2px solid var(--color-primary, var(--cvedi-ux-process-base, oklch(43.2% 0.232 292.759)));outline-offset:2px;border-color:var(--color-primary, var(--cvedi-ux-process-base, oklch(43.2% 0.232 292.759)))}.ds-input[aria-invalid=\"true\"]{border-color:var(--color-error, #ac2743)}@media(max-width:680px){.ds-field{font-size:.85rem}.ds-input{font-size:1rem;min-height:52px}}"
+    },
+    {
+      "name": "Main Navigation",
+      "kind": "nav",
+      "refersTo": "navigation-main",
+      "description": "Campione delle voci orizzontali; la pagina completa usa il menu sotto 900px.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Navigazione principale\"><a class=\"ds-nav-link\" href=\"#/servizio\">Il servizio</a><a class=\"ds-nav-link\" href=\"#/cerca\" aria-current=\"page\">Trova una visita</a><a class=\"ds-nav-link\" href=\"#/assistenza\">Assistenza</a></nav>",
+      "css": ".ds-nav{display:flex;gap:32px;align-items:center;background:var(--color-base-100, #ffffff);font-family:\"Nunito Sans\", sans-serif;font-size:1rem}.ds-nav-link{display:flex;align-items:center;position:relative;min-height:44px;min-width:44px;color:var(--color-base-content, #291b3b);text-decoration:none;font-weight:650}.ds-nav-link:hover,.ds-nav-link[aria-current]{color:var(--color-primary, var(--cvedi-ux-process-base, oklch(43.2% 0.232 292.759)))}.ds-nav-link[aria-current]::after{content:\"\";position:absolute;bottom:2px;left:0;right:0;height:2px;background:var(--color-primary, var(--cvedi-ux-process-base, oklch(43.2% 0.232 292.759)))}.ds-nav-link:focus-visible{outline:3px solid var(--color-primary, var(--cvedi-ux-process-base, oklch(43.2% 0.232 292.759)));outline-offset:4px;}@media(max-width:1190px){.ds-nav{gap:22px}}"
+    },
+    {
+      "name": "Confirmed Badge",
+      "kind": "chip",
+      "refersTo": "badge-confirmed",
+      "description": "Etichetta non interattiva, con stato esplicito oltre al colore.",
+      "html": "<span class=\"ds-badge\">Confermata</span>",
+      "css": ".ds-badge{display:inline-flex;align-items:center;min-height:29px;padding:4px 10px;border:1px solid var(--color-accent, var(--cvedi-ux-process-accent-vivid, oklch(84.00% 0.1875 115.004)));border-radius:6px;background:var(--color-accent, var(--cvedi-ux-process-accent-vivid, oklch(84.00% 0.1875 115.004)));color:var(--cvedi-ux-process-deep, oklch(28.3% 0.141 291.089));font-family:\"Nunito Sans\", sans-serif;font-size:.75rem;font-weight:750;line-height:1.6;white-space:nowrap}"
+    },
+    {
+      "name": "Summary Card",
+      "kind": "card",
+      "refersTo": "card-summary",
+      "description": "Contenitore bianco piatto con dati e totale distinti.",
+      "html": "<article class=\"ds-card\"><div class=\"ds-card-body\"><h2 class=\"ds-card-title\">Tutto, prima di scegliere.</h2><dl class=\"ds-facts\"><div class=\"ds-fact\"><dt>Orario e durata</dt><dd>20:30 · 45 minuti</dd></div><div class=\"ds-total\"><dt>Totale</dt><dd>60 €<small>Spostamento incluso</small></dd></div></dl></div></article>",
+      "css": ".ds-card{background:var(--color-base-100, #ffffff);color:var(--color-base-content, #291b3b);border:1px solid var(--color-base-300, #ddd7e8);border-radius:16px;box-shadow:none;font-family:\"Nunito Sans\", sans-serif;line-height:1.6}.ds-card-body{padding:30px}.ds-card-title{margin:0;font-size:1.45rem;font-weight:750;line-height:1.13;letter-spacing:-.03em}.ds-facts{margin:24px 0 0}.ds-fact{padding:16px 0;border-bottom:1px solid var(--color-base-300, #ddd7e8)}.ds-fact dt{font-size:.78rem;color:var(--muted, #685c75);margin-bottom:5px}.ds-fact dd{margin:0;font-size:1rem;font-weight:750}.ds-total{display:flex;justify-content:space-between;align-items:baseline;padding:22px 0}.ds-total dt{font-size:1rem;font-weight:750}.ds-total dd{margin:0;font-size:1.6rem;font-weight:750;text-align:right}.ds-total small{display:block;font-size:.8rem;font-weight:500;color:var(--muted, #685c75);margin-top:5px}@media(max-width:900px){.ds-card-body{padding:24px}}@media(max-width:680px){.ds-card-body{padding:22px}}"
+    },
+    {
+      "name": "Time Selection",
+      "kind": "custom",
+      "refersTo": "slot-selected",
+      "description": "Radio nativo con etichetta tangibile, stato e focus distinti.",
+      "html": "<fieldset class=\"ds-times\"><legend class=\"ds-time-legend\">Scegli un orario</legend><div class=\"ds-time-options\"><label class=\"ds-slot\"><input class=\"ds-radio\" type=\"radio\" name=\"ds-visit-time\" value=\"20:30\" checked><span>20:30</span></label><label class=\"ds-slot\"><input class=\"ds-radio\" type=\"radio\" name=\"ds-visit-time\" value=\"21:15\"><span>21:15</span></label></div></fieldset>",
+      "css": ".ds-times{border:0;padding:0;font-family:\"Nunito Sans\", sans-serif;color:var(--color-base-content, #291b3b);line-height:1.6}.ds-time-legend{font-size:.88rem;font-weight:700;padding-bottom:8px}.ds-time-options{display:flex;gap:10px;flex-wrap:wrap}.ds-slot{position:relative;cursor:pointer}.ds-radio{position:absolute;width:1px;height:1px;opacity:0;left:0;top:0}.ds-slot span{display:block;min-width:90px;padding:10px 20px;border:1px solid var(--color-base-300, #ddd7e8);border-radius:8px;font-size:1rem;font-weight:750;text-align:center;font-variant-numeric:tabular-nums}.ds-slot:has(:checked) span{background:var(--color-secondary, var(--cvedi-ux-process-light, oklch(94.3% 0.029 294.588)));color:var(--color-primary, var(--cvedi-ux-process-base, oklch(43.2% 0.232 292.759)));border-color:var(--color-primary, var(--cvedi-ux-process-base, oklch(43.2% 0.232 292.759)))}.ds-slot:has(:focus-visible){outline:3px solid var(--color-primary, var(--cvedi-ux-process-base, oklch(43.2% 0.232 292.759)));outline-offset:3px;border-radius:8px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Il concierge di quartiere",
+    "overview": "Passo accoglie con fotografie domestiche luminose e accompagna le scelte con informazioni precise. Il violetto identifica il servizio; superfici chiare, filetti sottili e forme morbide danno ordine senza imitare una cartella clinica. Il riferimento già scelto è il concierge di quartiere: vicino nelle parole, accurato nelle informazioni.\n\nHome e servizio operano in modalità Persuade; ricerca, risultati, dettaglio, riepilogo e gestione operano in modalità Operate. Le pagine operative ereditano palette, carattere e componenti, con nome del professionista, orario, domicilio, durata, totale e stato ben distinti. Questo documento registra il mondo costruito dopo le correzioni approvate; la composizione della prima vista rimane nel contratto di superficie.",
+    "keyCharacteristics": [
+      "Violetto e Cedro derivati dai token condivisi della lezione.",
+      "Una sola famiglia tipografica locale, con gerarchie espresse da scala e peso.",
+      "Superfici piatte, bordi sottili, controlli ampi e fotografie domestiche.",
+      "Orario selezionato e informazioni della visita coerenti lungo il percorso."
+    ],
+    "rules": [
+      {
+        "name": "The Shared Palette Rule",
+        "body": "Usare gli alias cromatici condivisi e i ruoli semantici del tema passo; non creare copie locali dei valori della palette.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Family Rule",
+        "body": "Nunito Sans sostiene marchio, titoli, testo e comandi; cambiare gerarchia attraverso dimensione e peso prima di introdurre un’altra famiglia.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "Card, campi, avvisi e pulsanti restano senza ombre anche al passaggio del puntatore; la separazione è affidata a tono, spazio e bordo.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do riusare i token del tema passo e modificare soltanto il CSS sorgente, rigenerando il compilato con gli strumenti del progetto.",
+      "Do mettere il nome del professionista prima del ruolo; mantenere prezzo totale, durata, domicilio e stato accanto alla scelta pertinente.",
+      "Do mantenere controlli autonomi raggiungibili, focus visibile e le etichette reali dei campi; conservare la selezione dell’orario nei ritorni e nelle deviazioni verso il profilo.",
+      "Do conservare fotografie, prompt, originali e manifest; dichiarare il carattere illustrativo dei profili e della disponibilità vicino alle decisioni.",
+      "Do mantenere leggibili i dati della visita in stampa e rispettare la preferenza di movimento ridotto."
+    ],
+    "donts": [
+      "Don’t aggiungere ombre decorative o effetti di profondità ai componenti piatti del sistema.",
+      "Don’t trasformare il ruolo professionale in un’etichetta decorativa sopra il nome o usare il colore come unico segnale di stato.",
+      "Don’t presentare fotografie sintetiche, qualifiche, testimonianze, disponibilità o risultati clinici come attestazioni reali.",
+      "Don’t far coincidere invio della richiesta e conferma: l’accettazione del professionista è un passaggio distinto, dimostrativo.",
+      "Don’t dichiarare attivi backend, autenticazione, pagamento o notifiche esterne: il sito conserva dati locali e non invia prenotazioni reali."
+    ]
+  }
+}

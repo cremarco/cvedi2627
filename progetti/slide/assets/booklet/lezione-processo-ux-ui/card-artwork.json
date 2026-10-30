@@ -1,0 +1,366 @@
+{
+  "version": 1,
+  "lesson": "processo-ux-ui",
+  "images": [
+    {
+      "id": "processo-ux-ui-chi-prenota",
+      "web": "/images/processo-ux-ui/mappa-personas.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-map/web/mappa-personas.webp",
+      "sourceSha256": "0f7337fe2c7cda94d1451f94d443f980abe753a1d61fc90cd286ccec712ed792",
+      "sha256": "0f7337fe2c7cda94d1451f94d443f980abe753a1d61fc90cd286ccec712ed792",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-attori-servizio",
+          "card": "Chi prenota"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-chi-offre-la-visita",
+      "web": "/images/processo-ux-ui/illustrazione-ricerca.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-ricerca.webp",
+      "sourceSha256": "85cd26fb15af249075494bf4d4d76c8d9190d2ae35a8b02a21d127da862f809c",
+      "sha256": "85cd26fb15af249075494bf4d4d76c8d9190d2ae35a8b02a21d127da862f809c",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-attori-servizio",
+          "card": "Chi offre la visita"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-interrogare-il-problema",
+      "web": "/images/processo-ux-ui/mappa-problema.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-map/web/mappa-problema.webp",
+      "sourceSha256": "5e3207df8a757146bae0b93e9226de6a8a86693c17562c34be3f146d22fc9d43",
+      "sha256": "5e3207df8a757146bae0b93e9226de6a8a86693c17562c34be3f146d22fc9d43",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-iterazione",
+          "card": "Interrogare il problema"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-rivedere-la-proposta",
+      "web": "/images/processo-ux-ui/mappa-iterazioni.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-map/web/mappa-iterazioni.webp",
+      "sourceSha256": "78c9353f763fe3afdf5ad37e27a402428f64c2c7ba8f8dc518912493eed08b9e",
+      "sha256": "78c9353f763fe3afdf5ad37e27a402428f64c2c7ba8f8dc518912493eed08b9e",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-iterazione",
+          "card": "Rivedere la proposta"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-conservare-le-ragioni",
+      "web": "/images/processo-ux-ui/illustrazione-requisiti.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-requisiti.webp",
+      "sourceSha256": "6e50848606aff9d76b76d3efa8f5cef3b1e3b15bb4e9ac3c16aa58feb3ef74f6",
+      "sha256": "6e50848606aff9d76b76d3efa8f5cef3b1e3b15bb4e9ac3c16aa58feb3ef74f6",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-iterazione",
+          "card": "Conservare le ragioni"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-annotazione",
+      "web": "/images/processo-ux-ui/illustrazione-brief.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-brief.webp",
+      "sourceSha256": "cd84da16e0cbcf45930ec11f065719cc5373d1f48a3f3780c963b435393d43fb",
+      "sha256": "cd84da16e0cbcf45930ec11f065719cc5373d1f48a3f3780c963b435393d43fb",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-opportunita",
+          "card": "Annotazione"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-ipotesi",
+      "web": "/images/processo-ux-ui/mappa-obiettivi.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-map/web/mappa-obiettivi.webp",
+      "sourceSha256": "ed0d90082c4a96dce0dd7643ce041ed187e5d3123049eda3e06815bdb98ce8f8",
+      "sha256": "ed0d90082c4a96dce0dd7643ce041ed187e5d3123049eda3e06815bdb98ce8f8",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-opportunita",
+          "card": "Ipotesi"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-verifica",
+      "web": "/images/processo-ux-ui/illustrazione-verifica.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-verifica.webp",
+      "sourceSha256": "2d0cc240a1d8de46dd52ca3e1ae03b9d4826eaafc5346ca283c80627c1d9f0fc",
+      "sha256": "2d0cc240a1d8de46dd52ca3e1ae03b9d4826eaafc5346ca283c80627c1d9f0fc",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-opportunita",
+          "card": "Verifica"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-domanda",
+      "web": "/images/processo-ux-ui/mappa-problema.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-map/web/mappa-problema.webp",
+      "sourceSha256": "5e3207df8a757146bae0b93e9226de6a8a86693c17562c34be3f146d22fc9d43",
+      "sha256": "5e3207df8a757146bae0b93e9226de6a8a86693c17562c34be3f146d22fc9d43",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-piano-ricerca",
+          "card": "Domanda"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-persone-e-metodo",
+      "web": "/images/processo-ux-ui/illustrazione-ricerca.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-ricerca.webp",
+      "sourceSha256": "85cd26fb15af249075494bf4d4d76c8d9190d2ae35a8b02a21d127da862f809c",
+      "sha256": "85cd26fb15af249075494bf4d4d76c8d9190d2ae35a8b02a21d127da862f809c",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-piano-ricerca",
+          "card": "Persone e metodo"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-uso-dei-risultati",
+      "web": "/images/processo-ux-ui/illustrazione-requisiti.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-requisiti.webp",
+      "sourceSha256": "6e50848606aff9d76b76d3efa8f5cef3b1e3b15bb4e9ac3c16aa58feb3ef74f6",
+      "sha256": "6e50848606aff9d76b76d3efa8f5cef3b1e3b15bb4e9ac3c16aa58feb3ef74f6",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-piano-ricerca",
+          "card": "Uso dei risultati"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-raccogliere",
+      "web": "/images/processo-ux-ui/illustrazione-ricerca.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-ricerca.webp",
+      "sourceSha256": "85cd26fb15af249075494bf4d4d76c8d9190d2ae35a8b02a21d127da862f809c",
+      "sha256": "85cd26fb15af249075494bf4d4d76c8d9190d2ae35a8b02a21d127da862f809c",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-sintesi-ricerca",
+          "card": "Raccogliere"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-raggruppare",
+      "web": "/images/processo-ux-ui/mappa-architettura.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-map/web/mappa-architettura.webp",
+      "sourceSha256": "fd58ef8c7bd712bd796534f3c5244aa24c20bcc8919cc4873ba19382750c6db7",
+      "sha256": "fd58ef8c7bd712bd796534f3c5244aa24c20bcc8919cc4873ba19382750c6db7",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-sintesi-ricerca",
+          "card": "Raggruppare"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-decidere",
+      "web": "/images/processo-ux-ui/mappa-obiettivi.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-map/web/mappa-obiettivi.webp",
+      "sourceSha256": "ed0d90082c4a96dce0dd7643ce041ed187e5d3123049eda3e06815bdb98ce8f8",
+      "sha256": "ed0d90082c4a96dce0dd7643ce041ed187e5d3123049eda3e06815bdb98ce8f8",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-sintesi-ricerca",
+          "card": "Decidere"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-obiettivo-da-raggiungere",
+      "web": "/images/processo-ux-ui/mappa-obiettivi.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-map/web/mappa-obiettivi.webp",
+      "sourceSha256": "ed0d90082c4a96dce0dd7643ce041ed187e5d3123049eda3e06815bdb98ce8f8",
+      "sha256": "ed0d90082c4a96dce0dd7643ce041ed187e5d3123049eda3e06815bdb98ce8f8",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-compito",
+          "card": "Obiettivo da raggiungere"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-percorso-gia-suggerito",
+      "web": "/images/processo-ux-ui/obiettivo-percorsi.svg",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/obiettivo-percorsi.svg",
+      "sourceSha256": "48193bc8f3516df24c3e4d1f345fb8709417c70bb97d6c1754ec851d7fe3e946",
+      "sha256": "48193bc8f3516df24c3e4d1f345fb8709417c70bb97d6c1754ec851d7fe3e946",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-compito",
+          "card": "Percorso già suggerito"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-prima",
+      "web": "/images/processo-ux-ui/illustrazione-brief.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-brief.webp",
+      "sourceSha256": "cd84da16e0cbcf45930ec11f065719cc5373d1f48a3f3780c963b435393d43fb",
+      "sha256": "cd84da16e0cbcf45930ec11f065719cc5373d1f48a3f3780c963b435393d43fb",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-sessione",
+          "card": "Prima"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-durante",
+      "web": "/images/processo-ux-ui/illustrazione-verifica.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-verifica.webp",
+      "sourceSha256": "2d0cc240a1d8de46dd52ca3e1ae03b9d4826eaafc5346ca283c80627c1d9f0fc",
+      "sha256": "2d0cc240a1d8de46dd52ca3e1ae03b9d4826eaafc5346ca283c80627c1d9f0fc",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-sessione",
+          "card": "Durante"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-dopo",
+      "web": "/images/processo-ux-ui/illustrazione-requisiti.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-requisiti.webp",
+      "sourceSha256": "6e50848606aff9d76b76d3efa8f5cef3b1e3b15bb4e9ac3c16aa58feb3ef74f6",
+      "sha256": "6e50848606aff9d76b76d3efa8f5cef3b1e3b15bb4e9ac3c16aa58feb3ef74f6",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-sessione",
+          "card": "Dopo"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-prova-con-le-persone",
+      "web": "/images/processo-ux-ui/illustrazione-verifica.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-verifica.webp",
+      "sourceSha256": "2d0cc240a1d8de46dd52ca3e1ae03b9d4826eaafc5346ca283c80627c1d9f0fc",
+      "sha256": "2d0cc240a1d8de46dd52ca3e1ae03b9d4826eaafc5346ca283c80627c1d9f0fc",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-accessibilita",
+          "card": "Prova con le persone"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-verifica-degli-standard",
+      "web": "/images/processo-ux-ui/illustrazione-requisiti.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-requisiti.webp",
+      "sourceSha256": "6e50848606aff9d76b76d3efa8f5cef3b1e3b15bb4e9ac3c16aa58feb3ef74f6",
+      "sha256": "6e50848606aff9d76b76d3efa8f5cef3b1e3b15bb4e9ac3c16aa58feb3ef74f6",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-accessibilita",
+          "card": "Verifica degli standard"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-comprendere",
+      "web": "/images/processo-ux-ui/illustrazione-ricerca.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-ricerca.webp",
+      "sourceSha256": "85cd26fb15af249075494bf4d4d76c8d9190d2ae35a8b02a21d127da862f809c",
+      "sha256": "85cd26fb15af249075494bf4d4d76c8d9190d2ae35a8b02a21d127da862f809c",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-chiusura",
+          "card": "Comprendere"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-rappresentare",
+      "web": "/images/processo-ux-ui/illustrazione-wireframe.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-wireframe.webp",
+      "sourceSha256": "11e33f84bb3ee5d62d687b29b9e8f46b5345d9038c1c0da596f50eab9a5d85d3",
+      "sha256": "11e33f84bb3ee5d62d687b29b9e8f46b5345d9038c1c0da596f50eab9a5d85d3",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-chiusura",
+          "card": "Rappresentare"
+        }
+      ]
+    },
+    {
+      "id": "processo-ux-ui-mettere-alla-prova",
+      "web": "/images/processo-ux-ui/illustrazione-verifica.webp",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-verifica.webp",
+      "sourceSha256": "2d0cc240a1d8de46dd52ca3e1ae03b9d4826eaafc5346ca283c80627c1d9f0fc",
+      "sha256": "2d0cc240a1d8de46dd52ca3e1ae03b9d4826eaafc5346ca283c80627c1d9f0fc",
+      "sourceManifest": "progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json",
+      "owners": [
+        {
+          "lesson": "processo-ux-ui",
+          "slideAlias": "processo-ux-ui-chiusura",
+          "card": "Mettere alla prova"
+        }
+      ]
+    }
+  ]
+}

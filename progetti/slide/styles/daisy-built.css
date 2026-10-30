@@ -2580,6 +2580,27 @@
       text-align: right;
       opacity: 50%;
     }
+    .avatar-group .avatar {
+      overflow: hidden;
+      border-radius: calc(infinity * 1px);
+      border: 4px solid var(--color-base-100);
+    }
+    .avatar {
+      position: relative;
+      display: inline-flex;
+      align-self: center;
+      vertical-align: middle;
+    }
+    .avatar > div {
+      display: block;
+      aspect-ratio: 1 / 1;
+      overflow: hidden;
+    }
+    .avatar img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
     .checkbox {
       border: var(--border) solid var(--input-color, var(--color-base-content));
     }
@@ -3706,6 +3727,34 @@
       border-block-end-width: calc(var(--border, 1px) * var(--join-h));
     }
   }
+  @layer daisyui.l1.l2 {
+    .steps-horizontal {
+      grid-auto-columns: 1fr;
+      display: inline-grid;
+      grid-auto-flow: column;
+      overflow: hidden;
+      overflow-x: auto;
+    }
+    .steps-horizontal .step {
+      display: grid;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      grid-template-columns: auto;
+      grid-template-rows: repeat(2, minmax(0, 1fr));
+      grid-template-rows: 40px 1fr;
+      place-items: center;
+      text-align: center;
+      min-width: 4rem;
+    }
+    .steps-horizontal .step:before {
+      height: calc(0.25rem * 2);
+      width: 100%;
+      translate: 0;
+      margin-inline-start: -100%;
+    }
+    [dir="rtl"] :is(.steps-horizontal .step):before {
+      translate: 0;
+    }
+  }
   @layer daisyui.l1.l2.l3 {
     .fieldset-legend {
       margin-bottom: calc(0.25rem * -1);
@@ -3725,9 +3774,6 @@
     .menu .dropdown-content:before {
       display: none;
     }
-  }
-  .mt-4 {
-    margin-top: calc(var(--spacing) * 4);
   }
   .mt-6\! {
     margin-top: calc(var(--spacing) * 6) !important;
@@ -3940,6 +3986,21 @@
       padding-block: 0.25rem;
       --mask-chat: url("data:image/svg+xml,%3csvg width='13' height='13' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill='black' d='M0 11.5004C0 13.0004 2 13.0004 2 13.0004H12H13V0.00036329L12.5 0C12.5 0 11.977 2.09572 11.8581 2.50033C11.6075 3.35237 10.9149 4.22374 9 5.50036C6 7.50036 0 10.0004 0 11.5004Z'/%3e%3c/svg%3e");
     }
+    .card-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: calc(0.25rem * 2);
+    }
+  }
+  @layer daisyui.l1.l2 {
+    .avatar-placeholder > div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  @layer daisyui.l1.l2.l3 {
     .card-title {
       display: flex;
       align-items: center;
@@ -3993,6 +4054,9 @@
   }
   .shrink-0 {
     flex-shrink: 0;
+  }
+  .border-collapse {
+    border-collapse: collapse;
   }
   @layer daisyui.l1.l2.l3 {
     .menu .dropdown:focus-within .menu-dropdown-toggle:after {
@@ -4235,6 +4299,11 @@
       --fontsize: 0.75rem;
       --btn-p: 0.75rem;
       --size: calc(var(--size-field, 0.25rem) * 8);
+    }
+    .btn-xs {
+      --fontsize: 0.6875rem;
+      --btn-p: 0.5rem;
+      --size: calc(var(--size-field, 0.25rem) * 6);
     }
     :is(.input-error) {
       --input-color: var(--color-error);

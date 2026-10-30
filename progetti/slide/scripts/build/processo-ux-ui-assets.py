@@ -38,8 +38,8 @@ def clean(value):
     return re.sub(r'\s+', ' ', re.sub(r'@ux\w+', '', value.replace('_', ''))).strip()
 
 
-def register(code, file, caption, rights, alt, **extra):
-    if code in overrides:
+def register(code, file, caption, rights, alt, use_overrides=True, **extra):
+    if use_overrides and code in overrides:
         extra['sourceCaption'] = caption
         extra['sourceAlt'] = alt
         caption = overrides[code].get('caption', caption)
@@ -191,10 +191,48 @@ for code, function, caption, alt in [
 # Generated editorial illustrations keep their original PNGs and prompt receipts.
 illustrations = json.loads((ROOT / 'progetti/slide/assets/theme-imagegen/lesson-11-process/manifest.json').read_text())
 for image in illustrations['images']:
+    register(image['code'], ROOT / image['derivative'], image['caption'], image['displayRights'], image['alt'],
+             original=image['original'], originalSha256=image['originalSha256'],
+             prompt=image['prompt'], promptSha256=image['promptSha256'],
+             generationTool=image['generationTool'], transparentBackground=image['transparentBackground'])
+
+# Three portraits introduce the people in the lesson's cumulative case.
+cast = json.loads((ROOT / 'progetti/slide/assets/theme-imagegen/lesson-11-cast/manifest.json').read_text())
+for image in cast['images']:
+    register(image['code'], ROOT / image['derivative'], image['caption'], image['displayRights'], image['alt'],
+             original=image['original'], originalSha256=image['originalSha256'],
+             prompt=image['prompt'], promptSha256=image['promptSha256'],
+             generationTool=image['generationTool'], transparentBackground=image['transparentBackground'])
+
+# The participant slide reveals a realistic version of the existing Viola portrait.
+viola_transition = json.loads((ROOT / 'progetti/slide/assets/theme-imagegen/lesson-11-viola-transition/manifest.json').read_text())
+for image in viola_transition['images']:
     register(image['code'], ROOT / image['derivative'], image['caption'], image['rights'], image['alt'],
              original=image['original'], originalSha256=image['originalSha256'],
              prompt=image['prompt'], promptSha256=image['promptSha256'],
              generationTool=image['generationTool'], transparentBackground=image['transparentBackground'])
+
+# A mnemonic infographic introduces the SMART sequence.
+smart_infographic = json.loads((ROOT / 'progetti/slide/assets/theme-imagegen/lesson-11-smart/manifest.json').read_text())
+for image in smart_infographic['images']:
+    register(image['code'], ROOT / image['derivative'], image['caption'], image['rights'], image['alt'],
+             original=image['original'], originalSha256=image['originalSha256'],
+             prompt=image['prompt'], promptSha256=image['promptSha256'],
+             generationTool=image['generationTool'], transparentBackground=image['transparentBackground'])
+
+# The same six scenario screens progress through hand sketches, mid and high fidelity.
+wireframes = json.loads((ROOT / 'progetti/slide/assets/theme-imagegen/lesson-11-wireframes/manifest.json').read_text())
+for image in wireframes['images']:
+    register(image['code'], ROOT / image['derivative'], image['caption'], image['rights'], image['alt'],
+             original=image['original'], originalSha256=image['originalSha256'],
+             prompt=image['prompt'], promptSha256=image['promptSha256'],
+             generationTool=image['generationTool'], transparentBackground=image['transparentBackground'],
+             wireframeLevel=image['level'], wireframePair=image['pair'], references=image['references'])
+
+# Decorative map artwork keeps a separate provenance register from lesson figures.
+map_artwork = json.loads((ROOT / 'progetti/slide/assets/theme-imagegen/lesson-11-map/manifest.json').read_text())
+for image in map_artwork['images']:
+    shutil.copyfile(ROOT / image['source'], PUBLIC / Path(image['web']).name)
 
 # Reconstruct the dense chapter diagrams for projection, preserving each original.
 reconstruction = 'progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite'
@@ -280,6 +318,29 @@ for code, (caption, alt) in case_diagrams.items():
             canvasWidth=842, zoomClearance=40, fontManifest=reconstruction + '/font/manifest.json',
             palette='violet/Cedro', background='transparent')))
 
+# SMART examples share the existing diagram system and keep their content in JSON.
+smart_file = 'progetti/slide/data/ux-smart.json'
+smart = json.loads((ROOT / smart_file).read_text())
+smart_renderer = reconstruction + '/smart.typ'
+for item in [*smart['criteria'], smart['summary']]:
+    code = item['code']
+    entry = ROOT / reconstruction / (code + '.typ')
+    expression = f'smart-example("{item["letter"]}")' if 'letter' in item else 'smart-summary()'
+    entry.write_text(f'#import "/{smart_renderer}": *\n'
+                     '#set page(width: 842pt, height: auto, margin: (left: 1pt, right: 41pt, y: 1pt), fill: none)\n'
+                     f'#{expression}\n')
+    target = entry.with_suffix('.svg')
+    subprocess.run([TYPST, 'compile', '--ignore-system-fonts', '--root', str(ROOT),
+                    '--font-path', reconstruction + '/font', str(entry), str(target)], check=True, cwd=ROOT)
+    target.write_text(target.read_text().replace('<svg ', '<svg data-cvedi-body-size="15.5" data-cvedi-note-size="14" ', 1))
+    register(code, target, item['caption'], 'CVeDI, 2026. Diagramma didattico.', item['alt'],
+        smartCriterion=item.get('letter', 'summary'),
+        inputs=[dict(file=file, sha256=sha(ROOT / file)) for file in [smart_file, diagram_source]],
+        nativeDiagram=dict(nativeSource=str(entry.relative_to(ROOT)), renderer=smart_renderer,
+            rendererSha256=sha(ROOT / smart_renderer), bodySize=15.5, noteSize=14,
+            canvasWidth=842, zoomClearance=40, fontManifest=reconstruction + '/font/manifest.json',
+            palette='violet/Cedro', background='transparent'))
+
 # Three transparent vector motifs follow the shared illustrated objective cards.
 # Violet and Cedro match the lesson's roles; these are original editable drawings.
 motifs = {
@@ -297,6 +358,51 @@ for code, body in motifs.items():
                       sha256=sha(file), web='/images/processo-ux-ui/' + file.name,
                       rights='CVeDI, 2026. Illustrazione vettoriale originale.'))
 
+# Replace the generic progression with the approved scenario's same summary at three fidelities.
+previous_progression = [dict(image, archivedReason='Replaced by the ImageGen comparison of the approved Viola wireframes.')
+                        for image in images if image['code'] == 'wireframe-ui']
+images = [image for image in images if image['code'] != 'wireframe-ui']
+comparison = wireframes['comparison']
+register(comparison['code'], ROOT / comparison['derivative'], comparison['caption'], comparison['rights'], comparison['alt'],
+         use_overrides=False,
+         original=comparison['original'], originalSha256=comparison['originalSha256'],
+         prompt=comparison['prompt'], promptSha256=comparison['promptSha256'],
+         generationTool=comparison['generationTool'], transparentBackground=comparison['transparentBackground'],
+         references=comparison['references'], wireframeComparison=True)
+
+# Revision comparisons reuse the approved wireframes and preserve their earlier SVGs.
+previous_revisions = []
+for revision in wireframes.get('revisions', []):
+    previous_revisions += [dict(image, archivedReason='Replaced by the ImageGen comparison based on the approved Viola wireframes.')
+                           for image in images if image['code'] == revision['code']]
+    images = [image for image in images if image['code'] != revision['code']]
+    register(revision['code'], ROOT / revision['derivative'], revision['caption'], revision['rights'], revision['alt'],
+             use_overrides=False,
+             original=revision['original'], originalSha256=revision['originalSha256'],
+             prompt=revision['prompt'], promptSha256=revision['promptSha256'],
+             generationTool=revision['generationTool'], transparentBackground=revision['transparentBackground'],
+             references=revision['references'], wireframeRevision=dict(screenId=revision['screenId'],
+                 beforeVersion=revision['beforeVersion'], afterVersion=revision['afterVersion']))
+
+# Keep ownership in the source record while omitting repeated in-house credits on slides.
+for image in images:
+    if image['rights'].startswith('CVeDI,'):
+        image['displayRights'] = ''
+
+# The Viola sheet replaces the railway persona; retain the source and attribution.
+archived_images = [dict(image, archivedReason='Replaced by the native Viola persona sheet at the user’s request.')
+                   for image in images if image['code'] == 'persona'] + previous_progression + previous_revisions
+images = [image for image in images if image['code'] != 'persona']
+
+# Preserve figures owned only by slides explicitly removed from the active plan.
+plan = json.loads((BASE / 'content-plan.json').read_text())
+active_codes = {code for slide in plan['slides'] for code in slide['figures']}
+archived_reasons = {code: slide['archivedReason'] for slide in plan.get('archivedSlides', [])
+                    for code in slide['figures'] if code not in active_codes}
+archived_images += [dict(image, archivedReason=archived_reasons[image['code']])
+                    for image in images if image['code'] in archived_reasons]
+images = [image for image in images if image['code'] not in archived_reasons]
+
 (BASE / 'image-manifest.json').write_text(json.dumps(dict(version=1, lesson='processo-ux-ui',
-    chapterSource=SOURCE, images=images, objectiveArtwork=icons), ensure_ascii=False, indent=2) + '\n')
+    chapterSource=SOURCE, images=images, archivedImages=archived_images, objectiveArtwork=icons), ensure_ascii=False, indent=2) + '\n')
 print(f'Processo UX/UI: {len(images)} figures and {len(icons)} objective motifs prepared.')

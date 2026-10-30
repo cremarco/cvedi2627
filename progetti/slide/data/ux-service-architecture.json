@@ -1,0 +1,30 @@
+{
+  "title": "Architettura del servizio di fisioterapia",
+  "root": {
+    "title": "Servizio di fisioterapia",
+    "description": "Informazioni e accesso alle funzioni"
+  },
+  "sections": [
+    {
+      "id": "servizi",
+      "title": "Servizi",
+      "items": ["Visite a domicilio", "Copertura e costi"]
+    },
+    {
+      "id": "richiedi",
+      "title": "Richiedi una visita",
+      "items": ["Disponibilità", "Professionista", "Riepilogo"]
+    },
+    {
+      "id": "visite",
+      "title": "Le mie visite",
+      "items": ["Richieste e appuntamenti", "Stato e dettaglio", "Modifica"]
+    }
+  ],
+  "source": {
+    "asset": "/images/processo-ux-ui/sitemap.svg",
+    "file": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+    "function": "sitemap",
+    "note": "Trascrizione nativa dello schema originale, con costruzione progressiva dei raggruppamenti. I collegamenti indicano relazioni gerarchiche, senza frecce di flusso."
+  }
+}

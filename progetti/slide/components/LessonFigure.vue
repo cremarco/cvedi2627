@@ -18,7 +18,8 @@ withDefaults(defineProps<{
   crop?: [number, number, number, number]
   maxScale?: number
   zoomFullImage?: boolean
-}>(), { panels: 1, panelAspectRatio: '4 / 3' })
+  replayLabel?: string
+}>(), { panels: 1, panelAspectRatio: '4 / 3', replayLabel: 'Ripeti l’animazione del diagramma' })
 
 const captionWidth = ref<string>()
 const imageHeight = ref<string>()
@@ -74,7 +75,7 @@ function syncDialogState() {
           <slot name="overlay" :playing="canAnimate && !imageIsOpen" :replay="replay" />
         </span>
       </button>
-      <button v-if="$slots.overlay" v-show="!isPrinting" type="button" class="btn btn-ghost btn-sm lesson-image-replay" :disabled="!canAnimate" :title="canAnimate ? 'Ripeti l’animazione del diagramma' : 'Animazione disattivata con movimento ridotto'" @click.stop="replay++">
+      <button v-if="$slots.overlay" v-show="!isPrinting" type="button" class="btn btn-ghost btn-sm lesson-image-replay" :disabled="!canAnimate" :title="canAnimate ? replayLabel : 'Animazione disattivata con movimento ridotto'" @click.stop="replay++">
         <HeroIcon name="arrow-path" />
         <span>Rianima</span>
       </button>

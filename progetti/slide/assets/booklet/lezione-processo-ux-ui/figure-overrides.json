@@ -7,8 +7,44 @@
       "alt": "Mappa di quattordici attività, dal brief alla nuova verifica, raccolte in cinque nuclei con possibilità di ritorno alle decisioni precedenti."
     },
     "viola": {
-      "caption": "Viola cerca una visita a domicilio dopo il lavoro. Orario, zona servita e informazioni necessarie orientano la proposta. Il profilo è un esempio simulato, da verificare con la ricerca.",
-      "alt": "Profilo simulato di Viola: visita a domicilio dopo le 20, vincoli del compito, informazioni necessarie e ipotesi da verificare."
+      "caption": "Viola cerca una visita a domicilio dopo il lavoro. Orario, zona servita e informazioni necessarie orientano la proposta; le ipotesi sul profilo restano da verificare con la ricerca.",
+      "alt": "Profilo di Viola: visita a domicilio dopo le 20, vincoli del compito, informazioni necessarie e ipotesi da verificare."
+    },
+    "brief": {
+      "alt": "Un brief iniziale del caso. La richiesta viene accompagnata da domande sul servizio e sulle ipotesi da verificare."
+    },
+    "evidenze": {
+      "alt": "Osservazione, interpretazione, decisione e nuova domanda nel caso. La distinzione permette di conservare anche spiegazioni alternative."
+    },
+    "flow": {
+      "alt": "Schema del compito di prenotazione. I ritorni indicano possibilità di recupero nel caso, oltre alla prosecuzione verso il riepilogo."
+    },
+    "requisiti": {
+      "alt": "Un requisito del caso, con condizioni, criterio, priorità e domanda ancora aperta. Il documento rende esplicito che cosa debba essere verificato."
+    },
+    "wireframe-ui": {
+      "alt": "Tre livelli del medesimo esempio: a. aree della schermata; b. contenuti e comando; c. proposta di UI. Data, durata e costo sono ipotetici."
+    },
+    "stati": {
+      "alt": "Stati del percorso: a. disponibilità da scegliere; b. orario non più disponibile e recupero; c. conferma. I messaggi descrivono conseguenze differenti."
+    },
+    "test": {
+      "alt": "Preparazione di una prova sul percorso. La domanda orienta partecipante, compito, osservazioni e modalità di facilitazione."
+    },
+    "iterazione": {
+      "alt": "Un registro di revisione nel caso. Il comportamento osservato sostiene una domanda; la spiegazione e il miglioramento atteso restano da mettere alla prova."
+    },
+    "confronto-alternative": {
+      "alt": "Griglia di confronto: le celle sono domande e ipotesi da verificare seguendo lo stesso compito in ogni alternativa."
+    },
+    "ipotesi": {
+      "alt": "Ipotesi sugli orari serali, con un esito alternativo legato alla copertura del domicilio."
+    },
+    "consegna-stato": {
+      "alt": "Specifiche per un orario perso prima della conferma, con recupero e responsabilità ancora da chiarire."
+    },
+    "ui-annotata": {
+      "alt": "Schermata di una visita a domicilio alle 20:30 con azione Invia richiesta e nota che distingue l’invio dalla conferma; spiegazioni dei tre gruppi di scelte visive."
     }
   }
 }

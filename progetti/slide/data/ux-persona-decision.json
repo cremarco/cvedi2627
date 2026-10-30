@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "need": "Viola cerca una visita a domicilio dopo le 20.",
+  "paths": [
+    {
+      "id": "account-first",
+      "title": "Scelta da discutere",
+      "steps": [
+        "Crea un account",
+        "Cerca una visita",
+        "Verifica zona, orario e costo"
+      ]
+    },
+    {
+      "id": "compatibility-first",
+      "title": "Ipotesi da provare",
+      "steps": [
+        "Indica domicilio e orario",
+        "Confronta disponibilità e totale",
+        "Si registra per inviare la richiesta"
+      ]
+    }
+  ],
+  "question": "Viola trova una visita compatibile prima di investire tempo nella registrazione?",
+  "evidence": "Ricerca e prova del percorso chiariscono il bisogno. Età e fotografia descrivono il profilo, ma non rispondono alla domanda.",
+  "source": {
+    "scenario": "progetti/slide/data/ux-service-case.json",
+    "persona": "progetti/slide/data/ux-persona.json",
+    "status": "Confronto progettuale da discutere e verificare; nessun risultato di ricerca è dichiarato."
+  }
+}

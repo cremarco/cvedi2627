@@ -29,6 +29,19 @@ async function openVersion(version) {
   require(await prototype.getAttribute('data-version') === version, `${version}: owning version rendered`)
   return slide
 }
+const detailVersions = new Set()
+async function selectVisit(index) {
+  await click('service-choose-' + index)
+  await waitStage('detail')
+  require(await prototype.getByTestId('service-state-heading').innerText() === 'Visita a domicilio', 'selection opens the wireframe detail before the summary')
+  require(await prototype.getByTestId('service-continue').innerText() === 'Continua al riepilogo', 'the detail leads explicitly to the summary')
+  require((await prototype.locator('.prototype-summary').innerText()).includes('60 €'), 'the detail exposes the total before request submission')
+  const version = await prototype.getAttribute('data-version')
+  if (!detailVersions.has(version)) { await inspect(version + '-dettaglio'); detailVersions.add(version) }
+  await click('service-continue')
+  await waitStage('review')
+  require(await prototype.getByTestId('service-state-heading').innerText() === 'Riepilogo', 'the next screen uses the approved summary heading')
+}
 async function inspect(name, mode = 'desktop') {
   await page.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))))
   const report = await prototype.evaluate(root => {
@@ -78,7 +91,7 @@ try {
   await inspect('v0-lista')
   require(await prototype.locator('.prototype-price').count() === 0, 'V0: list postpones the cost until the detail')
   require(await prototype.locator('.prototype-search-summary').count() === 0, 'V0: list does not expose zone and evening compatibility')
-  await click('service-choose-0')
+  await selectVisit(0)
   require((await prototype.locator('.prototype-summary').innerText()).includes('60 €'), 'V0: cost appears in the detail')
   require(await prototype.getByTestId('service-send').innerText() === 'Prenota', 'V0: original ambiguous action retained for comparison')
   await click('service-send')
@@ -89,8 +102,8 @@ try {
   await inspect('v1-compatibilita')
   require(await prototype.locator('.prototype-price').count() === 2, 'V1: both visits expose total cost before selection')
   require((await prototype.locator('.prototype-search-summary').innerText()).includes('dopo le 20'), 'V1: evening and zone criteria precede selection')
-  require((await prototype.locator('.prototype-price').first().innerText()).includes('spostamento incluso'), 'V1: total price includes travel')
-  await click('service-choose-0')
+  require((await prototype.locator('.prototype-price').first().innerText()).toLowerCase().includes('spostamento incluso'), 'V1: total price includes travel')
+  await selectVisit(0)
   require(await prototype.getByTestId('service-send').innerText() === 'Prenota', 'V1: action wording remains the next issue to revise')
   await click('service-send')
   require(await prototype.getByTestId('service-state-heading').innerText() === 'Prenotazione ricevuta', 'V1: receipt still motivates the next revision')
@@ -114,7 +127,7 @@ try {
     const text = luminance(rgb(getComputedStyle(element.querySelector('strong')).color)), background = luminance(rgb(getComputedStyle(element).backgroundColor))
     return (Math.max(text, background) + .05) / (Math.min(text, background) + .05)
   })
-  require(header >= 4.5, 'V3: service title contrasts with the violet header')
+  require(header >= 4.5, 'V3: service title contrasts with the white wireframe header')
 
   const originalUrl = page.url()
   await prototype.getByTestId('service-address').focus(); await page.keyboard.press('ArrowRight')
@@ -145,7 +158,7 @@ try {
   require(await prototype.locator('.prototype-screen h3').evaluate(node => document.activeElement === node), 'new result screen receives meaningful focus')
   require((await prototype.getByTestId('service-choose-0').getAttribute('aria-label')).includes('Giulia Riva'), 'repeated selection actions have distinct accessible names')
 
-  await click('service-choose-0'); await inspect('v3-riepilogo')
+  await selectVisit(0); await inspect('v3-riepilogo')
   await click('simulate-conflict'); await waitStage('conflict'); await inspect('v3-orario-perso')
   const saved = await prototype.getByTestId('service-saved-data').innerText()
   require(saved.includes(fixture.service.address) && saved.includes('17 novembre') && saved.includes('dopo le 20'), 'slot conflict preserves domicile, day and period')
@@ -161,7 +174,7 @@ try {
   await click('service-modify'); await waitStage('search'); await inspect('v3-modifica')
   require((await prototype.locator('.prototype-edit-note').innerText()).includes('21:15'), 'rescheduling keeps the existing visit visible')
   await prototype.getByTestId('service-address').fill('Via Esempio 99, Milano')
-  await click('service-search'); await waitStage('results'); await click('service-choose-1'); await click('service-send')
+  await click('service-search'); await waitStage('results'); await selectVisit(1); await click('service-send')
   await inspect('v3-modifica-in-attesa')
   require((await prototype.getByTestId('service-pending-note').innerText()).includes('precedente resta confermata'), 'new pending request does not revoke the old visit')
   await click('service-cancel'); await inspect('v3-annulla-nuova-richiesta')
@@ -171,7 +184,7 @@ try {
   await inspect('v3-visita-precedente-conservata')
 
   await click('service-modify'); await prototype.getByTestId('service-address').fill('Via Esempio 99, Milano')
-  await click('service-search'); await waitStage('results'); await click('service-choose-1'); await click('service-send')
+  await click('service-search'); await waitStage('results'); await selectVisit(1); await click('service-send')
   await click('simulate-confirm'); await waitStage('confirmed')
   const changed = await prototype.locator('.prototype-summary').innerText()
   require(changed.includes('21:45') && changed.includes('Via Esempio 99'), 'acceptance replaces the old visit with the requested new details')
@@ -182,7 +195,7 @@ try {
   await inspect('v3-annullata'); await click('service-visits'); await waitStage('visits'); await inspect('v3-visite-vuote')
 
   // Refusal is a real alternative to acceptance; it never destroys an existing confirmed visit.
-  await click('prototype-reset'); await click('service-search'); await waitStage('results'); await click('service-choose-0'); await click('service-send')
+  await click('prototype-reset'); await click('service-search'); await waitStage('results'); await selectVisit(0); await click('service-send')
   await click('simulate-reject'); await waitStage('declined'); await inspect('v3-richiesta-non-accettata')
   require((await prototype.getByTestId('service-rejected-data').innerText()).includes(fixture.service.address), 'professional refusal preserves the search criteria')
   require((await prototype.locator('.prototype-screen').innerText()).includes('non è stata confermata'), 'professional refusal never becomes a confirmed visit')
@@ -190,8 +203,8 @@ try {
   require(await prototype.locator('.prototype-result').count() === 1 && (await prototype.getByTestId('service-choose-0').getAttribute('aria-label')).includes('Luca Sala'), 'refused professional and slot are excluded from the alternatives')
   await inspect('v3-alternative-dopo-rifiuto')
 
-  await click('prototype-reset'); await click('service-search'); await waitStage('results'); await click('service-choose-0'); await click('service-send'); await click('simulate-confirm')
-  await click('service-modify'); await click('service-search'); await waitStage('results'); await click('service-choose-1'); await click('service-send')
+  await click('prototype-reset'); await click('service-search'); await waitStage('results'); await selectVisit(0); await click('service-send'); await click('simulate-confirm')
+  await click('service-modify'); await click('service-search'); await waitStage('results'); await selectVisit(1); await click('service-send')
   await click('simulate-reject'); await waitStage('declined'); await inspect('v3-modifica-non-accettata')
   require((await prototype.getByTestId('service-old-visit').innerText()).includes('20:30'), 'refused rescheduling preserves the old confirmed time')
   await click('service-keep-old'); await waitStage('confirmed')
@@ -201,7 +214,7 @@ try {
   await page.setViewportSize({ width: 636, height: 778 })
   await openSlide(page, base, finalSlide.alias, { settle: true }); prototype = page.locator('.slidev-layout.is-active [data-testid="ux-service-prototype"]')
   await click('prototype-reset'); await inspect('narrow-ricerca', 'narrow')
-  await click('service-search'); await waitStage('results'); await click('service-choose-0'); await click('simulate-conflict')
+  await click('service-search'); await waitStage('results'); await selectVisit(0); await click('simulate-conflict')
   await inspect('narrow-recupero', 'narrow')
   await click('service-alternative'); await click('service-send'); await click('simulate-confirm')
   await inspect('narrow-conferma', 'narrow')
@@ -212,7 +225,7 @@ try {
   const printed = await inspect('stampa-servizio', 'print')
   require(printed.printVisible && !printed.productVisible, 'print uses the complete deterministic service summary')
   const printText = await prototype.locator('.prototype-print').innerText()
-  require(printText.includes('Simulazione didattica') && printText.includes('senza geocodifica') && printText.includes('spostamento incluso'), 'print retains simulation limits and total-price conditions')
+  require(printText.includes('Nessuna richiesta viene inviata') && printText.includes('senza geocodifica') && printText.includes('spostamento incluso'), 'print retains prototype limits and total-price conditions')
   await page.emulateMedia({ media: 'screen' }); await prototype.locator('.prototype-app').waitFor({ state: 'visible' })
   require(await prototype.getAttribute('data-stage') === 'confirmed', 'return from print preserves the current interactive state')
   await click('prototype-reset'); await prototype.getByTestId('service-address').focus(); await page.keyboard.press('Escape'); await page.keyboard.press('ArrowRight')

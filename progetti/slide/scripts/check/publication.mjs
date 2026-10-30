@@ -20,7 +20,7 @@ export async function checkPublication() {
   const uxIds = new Set(curriculum.lessons.map(lesson => lesson.id))
   const localUxIds = curriculum.lessons.filter(lesson => lesson.localOnly === true).map(lesson => lesson.id)
   assert.deepEqual(localUxIds, [], 'the active historical UX lessons are published')
-  const supplementalIds = [grids.lesson, 'composizione-gerarchia']
+  const supplementalIds = [grids.lesson, 'composizione-gerarchia', 'processo-ux-ui']
   const localExercises = exercises.exercises.filter(exercise => lessonDecks.find(deck => deck.id === exercise.id)?.localOnly)
   const publicExercises = exercises.exercises.filter(exercise => !localExercises.includes(exercise))
   const localTheoryIds = lessonDecks.filter(deck => deck.localOnly && !deck.id.startsWith('esercitazione-')).map(deck => deck.id)
@@ -51,7 +51,7 @@ export async function checkPublication() {
     assert.equal(local.slides.filter(slide => slide.frontmatter.lesson === grids.lesson).length, grids.slideCount, 'supplementary grids count matches its independent current manifest')
     assert.ok(local.slides.filter(slide => slide.frontmatter.lesson === grids.lesson).every(slide => slide.frontmatter.localOnly !== true), 'all supplementary grids slides are published')
     assert.equal(local.slides.length, 243 + declaredUxSlides + exercises.slideCount + grids.slideCount + 62 + process.slideCount, 'complete local deck includes the final invitation, preserved composition slides, index and exercises')
-    assert.equal(published.slides.length, 845 + publicExercises.reduce((sum, exercise) => sum + exercise.slideCount, 0), 'published deck includes authorized exercise slides')
+    assert.equal(published.slides.length, 845 + process.slideCount + publicExercises.reduce((sum, exercise) => sum + exercise.slideCount, 0), 'published deck includes authorized exercise slides')
     for (const deck of [local, published]) {
       assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design').length, 67, 'lesson 03 is available locally and online')
       assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'storia-design'), 'lesson 03 retains its destination alias')
@@ -73,7 +73,8 @@ export async function checkPublication() {
       assert.ok(!deck.slides.some(slide => slide.frontmatter.routeAlias === 'tipografia-griglie-tipo-prove-esplorative'), 'the removed booklet content is absent locally and online')
     }
     assert.equal(local.slides.filter(slide => slide.frontmatter.lesson === process.lesson).length, process.slideCount, 'lesson 11 is complete locally')
-    assert.ok(!Object.hasOwn(published.markdownFiles, path.join(root, 'progetti/slide/lezioni/11-processo-ux-ui.md')), 'new lesson source is not imported by public builds')
+    assert.ok(Object.hasOwn(published.markdownFiles, path.join(root, 'progetti/slide/lezioni/11-processo-ux-ui.md')), 'lesson 11 source is imported by public builds')
+    assert.equal(published.slides.filter(slide => slide.frontmatter.lesson === process.lesson).length, process.slideCount, 'lesson 11 is complete online')
     assert.ok(published.slides.every(slide => !localIds.has(slide.frontmatter.lesson)), 'local lessons are absent from routes and overview')
     assert.deepEqual(published.slides.map(slide => slide.title), local.slides.filter(slide => !localIds.has(slide.frontmatter.lesson)).map(slide => slide.title), 'published content order is preserved')
     const localIndex = local.slides.find(slide => slide.title === 'Indice delle lezioni').content
@@ -148,6 +149,11 @@ export async function checkPublishedBuild(directory) {
     assert.ok(catalog.decks.every(deck => deck.id !== lesson.id), `${lesson.id}: archived lesson is absent from the published catalog`)
     await assert.rejects(access(path.join(output, 'lezioni', lesson.id)), { code: 'ENOENT' }, `${lesson.id}: direct archived lesson path is absent online`)
   }
+  const process = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/booklet/lezione-processo-ux-ui/manifest.json'), 'utf8'))
+  const publishedProcess = catalog.decks.find(deck => deck.id === process.lesson)
+  assert.ok(publishedProcess, 'lesson 11 is registered online')
+  assert.deepEqual(publishedProcess.slides.map(slide => slide.alias), process.slides.map(slide => slide.alias), 'lesson 11 publishes every active slide in its approved order')
+  await access(path.join(output, 'lezioni/processo-ux-ui/index.html'))
   const grids = await readGridsManifest()
   const publishedGrids = catalog.decks.find(deck => deck.id === grids.lesson)
   assert.ok(publishedGrids, 'the supplementary grids deck is registered online')
@@ -206,7 +212,7 @@ export async function checkPublishedBuild(directory) {
   for (const directory of localAssetDirectories)
     assert.ok(!references.includes('/' + directory + '/'), 'no published code references local figures')
   for (const directory of [...sharedLessonAssetDirectories, 'images/tipografia', 'images/font-previews']) {
-    const expected = [...new Set([...references.matchAll(new RegExp('/' + directory + '/[^"\'\\s<>`)]+', 'g'))].map(match => match[0]))].sort()
+    const expected = [...new Set([...references.matchAll(new RegExp('/' + directory + '/[^"\'\\s<>`)]+', 'g'))].map(match => match[0]).filter(asset => !asset.includes('${')))].sort()
     assert.ok(expected.length > 0, `${directory}: published lessons retain their selected figures and font specimens`)
     const actual = (await readdir(path.join(output, directory))).map(file => '/' + directory + '/' + file).sort()
     assert.deepEqual(actual, expected, `${directory}: only images referenced by published lessons are exported`)

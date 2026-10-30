@@ -39,7 +39,7 @@
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/processo.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -47,7 +47,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "brief",
@@ -57,7 +58,7 @@
       "sha256": "971b1e509a76e6be50df296fff0f84cef83cc187f2ddc2fd977b2a7c43b9b20c",
       "caption": "La richiesta iniziale si traduce in domande sul servizio e sulle ipotesi.",
       "rights": "CVeDI, 2026. Esempio didattico simulato.",
-      "alt": "Un brief iniziale del caso simulato. La richiesta viene accompagnata da domande sul servizio e sulle ipotesi da verificare.",
+      "alt": "Un brief iniziale del caso. La richiesta viene accompagnata da domande sul servizio e sulle ipotesi da verificare.",
       "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
       "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/brief.typ",
       "inputs": [
@@ -74,16 +75,18 @@
           "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
         }
       ],
+      "sourceCaption": "Un brief iniziale del caso simulato. La richiesta viene accompagnata da domande sul servizio e sulle ipotesi da verificare.",
+      "sourceAlt": "Un brief iniziale del caso simulato. La richiesta viene accompagnata da domande sul servizio e sulle ipotesi da verificare.",
       "reconstruction": {
         "original": {
           "source": "progetti/slide/assets/slide-materials/processo-ux-ui/brief.svg",
           "sha256": "5cb7b53ac7cef66cbb6da7bb84681738c41000bde746bf32994ea803d3e91107",
           "caption": "Un brief iniziale del caso simulato. La richiesta viene accompagnata da domande sul servizio e sulle ipotesi da verificare.",
-          "alt": "Un brief iniziale del caso simulato. La richiesta viene accompagnata da domande sul servizio e sulle ipotesi da verificare."
+          "alt": "Un brief iniziale del caso. La richiesta viene accompagnata da domande sul servizio e sulle ipotesi da verificare."
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/brief.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -91,7 +94,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "obiettivi",
@@ -127,7 +131,7 @@
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/obiettivi.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -135,17 +139,18 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "evidenze",
       "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/evidenze.svg",
-      "sourceSha256": "e9cedf8fa0009de4b6fbf6730abc7c4ad3c287151a122a20e0f54d168330b90e",
+      "sourceSha256": "e3655df827a8658794816631b9105f02547ffc7c469eb7e3433c9f82705a7e04",
       "web": "/images/processo-ux-ui/evidenze.svg",
-      "sha256": "e9cedf8fa0009de4b6fbf6730abc7c4ad3c287151a122a20e0f54d168330b90e",
+      "sha256": "e3655df827a8658794816631b9105f02547ffc7c469eb7e3433c9f82705a7e04",
       "caption": "Osservazione, interpretazione, decisione e nuova domanda restano distinte.",
       "rights": "CVeDI, 2026. Esempio didattico simulato.",
-      "alt": "Osservazione, interpretazione, decisione e nuova domanda nel caso simulato. La distinzione permette di conservare anche spiegazioni alternative.",
+      "alt": "Osservazione, interpretazione, decisione e nuova domanda nel caso. La distinzione permette di conservare anche spiegazioni alternative.",
       "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
       "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/evidenze.typ",
       "inputs": [
@@ -162,16 +167,18 @@
           "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
         }
       ],
+      "sourceCaption": "Osservazione, interpretazione, decisione e nuova domanda nel caso simulato. La distinzione permette di conservare anche spiegazioni alternative.",
+      "sourceAlt": "Osservazione, interpretazione, decisione e nuova domanda nel caso simulato. La distinzione permette di conservare anche spiegazioni alternative.",
       "reconstruction": {
         "original": {
           "source": "progetti/slide/assets/slide-materials/processo-ux-ui/evidenze.svg",
           "sha256": "e09c4c5699834f662fc0d75247d8cebc2b7a652cf08dbec3c6e558d05e994fd1",
           "caption": "Osservazione, interpretazione, decisione e nuova domanda nel caso simulato. La distinzione permette di conservare anche spiegazioni alternative.",
-          "alt": "Osservazione, interpretazione, decisione e nuova domanda nel caso simulato. La distinzione permette di conservare anche spiegazioni alternative."
+          "alt": "Osservazione, interpretazione, decisione e nuova domanda nel caso. La distinzione permette di conservare anche spiegazioni alternative."
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/evidenze.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -179,17 +186,18 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "viola",
       "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/viola.svg",
-      "sourceSha256": "8baa539ebfc9d1596031dcb3ab18a2c30d2b375c9bb87a049026ee3e5ddbb1f0",
+      "sourceSha256": "6e9cc474d14682c82dc6475d2537f8dfc342ba87a4232393c86139eace527967",
       "web": "/images/processo-ux-ui/viola.svg",
-      "sha256": "8baa539ebfc9d1596031dcb3ab18a2c30d2b375c9bb87a049026ee3e5ddbb1f0",
+      "sha256": "6e9cc474d14682c82dc6475d2537f8dfc342ba87a4232393c86139eace527967",
       "caption": "Orario, domicilio e informazioni necessarie orientano le scelte per Viola.",
       "rights": "CVeDI, 2026. Esempio didattico simulato.",
-      "alt": "Profilo simulato di Viola: visita a domicilio dopo le 20, vincoli del compito, informazioni necessarie e ipotesi da verificare.",
+      "alt": "Profilo di Viola: visita a domicilio dopo le 20, vincoli del compito, informazioni necessarie e ipotesi da verificare.",
       "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
       "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/viola.typ",
       "inputs": [
@@ -212,12 +220,12 @@
         "original": {
           "source": "progetti/slide/assets/slide-materials/processo-ux-ui/viola.svg",
           "sha256": "32893486d59b6c01faea3dda70fc5b7248ec360aa8f086b152ef039fbfb8e03f",
-          "caption": "Viola cerca una visita a domicilio dopo il lavoro. Orario, zona servita e informazioni necessarie orientano la proposta. Il profilo è un esempio simulato, da verificare con la ricerca.",
-          "alt": "Profilo simulato di Viola: visita a domicilio dopo le 20, vincoli del compito, informazioni necessarie e ipotesi da verificare."
+          "caption": "Viola cerca una visita a domicilio dopo il lavoro. Orario, zona servita e informazioni necessarie orientano la proposta; le ipotesi sul profilo restano da verificare con la ricerca.",
+          "alt": "Profilo di Viola: visita a domicilio dopo le 20, vincoli del compito, informazioni necessarie e ipotesi da verificare."
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/viola.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -225,7 +233,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "journey",
@@ -261,7 +270,7 @@
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/journey.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -269,7 +278,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "flow",
@@ -279,7 +289,7 @@
       "sha256": "0c2715d2bca9135376f526cbab8b97b02724f27a2595b8c9a368ebe2752ee6d1",
       "caption": "Il compito comprende scelta, riepilogo e ritorni per correggere o cercare ancora.",
       "rights": "CVeDI, 2026. Esempio didattico simulato.",
-      "alt": "Schema del compito di prenotazione. I ritorni indicano possibilità di recupero nel caso simulato, oltre alla prosecuzione verso il riepilogo.",
+      "alt": "Schema del compito di prenotazione. I ritorni indicano possibilità di recupero nel caso, oltre alla prosecuzione verso il riepilogo.",
       "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
       "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/flow.typ",
       "inputs": [
@@ -296,16 +306,18 @@
           "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
         }
       ],
+      "sourceCaption": "Schema del compito di prenotazione. I ritorni indicano possibilità di recupero nel caso simulato, oltre alla prosecuzione verso il riepilogo.",
+      "sourceAlt": "Schema del compito di prenotazione. I ritorni indicano possibilità di recupero nel caso simulato, oltre alla prosecuzione verso il riepilogo.",
       "reconstruction": {
         "original": {
           "source": "progetti/slide/assets/slide-materials/processo-ux-ui/flow.svg",
           "sha256": "dae755f125a4a3a300cd8e329daea7b0347c999e3ecc9963d9b9c8cc44d2e6e7",
           "caption": "Schema del compito di prenotazione. I ritorni indicano possibilità di recupero nel caso simulato, oltre alla prosecuzione verso il riepilogo.",
-          "alt": "Schema del compito di prenotazione. I ritorni indicano possibilità di recupero nel caso simulato, oltre alla prosecuzione verso il riepilogo."
+          "alt": "Schema del compito di prenotazione. I ritorni indicano possibilità di recupero nel caso, oltre alla prosecuzione verso il riepilogo."
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/flow.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -313,7 +325,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "requisiti",
@@ -323,7 +336,7 @@
       "sha256": "12fe5635637e46c609bb780f8bc9dd49445fcd65385baedaf087ffddaac2657f",
       "caption": "Un bisogno diventa requisito, condizione e criterio da verificare.",
       "rights": "CVeDI, 2026. Esempio didattico simulato.",
-      "alt": "Un requisito del caso simulato, con condizioni, criterio, priorità e domanda ancora aperta. Il documento rende esplicito che cosa debba essere verificato.",
+      "alt": "Un requisito del caso, con condizioni, criterio, priorità e domanda ancora aperta. Il documento rende esplicito che cosa debba essere verificato.",
       "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
       "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/requisiti.typ",
       "inputs": [
@@ -340,16 +353,18 @@
           "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
         }
       ],
+      "sourceCaption": "Un requisito del caso simulato, con condizioni, criterio, priorità e domanda ancora aperta. Il documento rende esplicito che cosa debba essere verificato.",
+      "sourceAlt": "Un requisito del caso simulato, con condizioni, criterio, priorità e domanda ancora aperta. Il documento rende esplicito che cosa debba essere verificato.",
       "reconstruction": {
         "original": {
           "source": "progetti/slide/assets/slide-materials/processo-ux-ui/requisiti.svg",
           "sha256": "aa7a873d882d73c531bc868dcf727d464aec0e04e84b3f41433cf72bdd70451b",
           "caption": "Un requisito del caso simulato, con condizioni, criterio, priorità e domanda ancora aperta. Il documento rende esplicito che cosa debba essere verificato.",
-          "alt": "Un requisito del caso simulato, con condizioni, criterio, priorità e domanda ancora aperta. Il documento rende esplicito che cosa debba essere verificato."
+          "alt": "Un requisito del caso, con condizioni, criterio, priorità e domanda ancora aperta. Il documento rende esplicito che cosa debba essere verificato."
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/requisiti.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -357,7 +372,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "sitemap",
@@ -393,7 +409,7 @@
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/sitemap.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -401,51 +417,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
-    },
-    {
-      "code": "wireframe-ui",
-      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/wireframe-ui.svg",
-      "sourceSha256": "efb7f3d1365fe0d0bfb94dba0efdf1ef26a9dee61f54dcae4d21685f80c71044",
-      "web": "/images/processo-ux-ui/wireframe-ui.svg",
-      "sha256": "efb7f3d1365fe0d0bfb94dba0efdf1ef26a9dee61f54dcae4d21685f80c71044",
-      "caption": "Lo stesso esempio passa dalle aree ai contenuti e alla proposta di UI.",
-      "rights": "CVeDI, 2026. Esempio didattico simulato.",
-      "alt": "Tre livelli del medesimo esempio simulato: a. aree della schermata; b. contenuti e comando; c. proposta di UI. Data, durata e costo sono ipotetici.",
-      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
-      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/wireframe-ui.typ",
-      "inputs": [
-        {
-          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
-          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
-        },
-        {
-          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
-          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
-        },
-        {
-          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
-          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
-        }
-      ],
-      "reconstruction": {
-        "original": {
-          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/wireframe-ui.svg",
-          "sha256": "dcba10c8c504f1333aa09552c954c478a88a9255aea65c8a04a1c2e4c13897f3",
-          "caption": "Tre livelli del medesimo esempio simulato: a. aree della schermata; b. contenuti e comando; c. proposta di UI. Data, durata e costo sono ipotetici.",
-          "alt": "Tre livelli del medesimo esempio simulato: a. aree della schermata; b. contenuti e comando; c. proposta di UI. Data, durata e costo sono ipotetici."
-        },
-        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/wireframe-ui.typ",
-        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
-        "bodySize": 15.5,
-        "noteSize": 14,
-        "canvasWidth": 842,
-        "zoomClearance": 40,
-        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
-        "palette": "violet/Cedro",
-        "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "stati",
@@ -455,7 +428,7 @@
       "sha256": "c799fa2ad914d3142a4d4a3f0cc4748fc614a3dee41d3b2cade999278614f634",
       "caption": "Scelta, recupero ed esito comunicano condizioni differenti del percorso.",
       "rights": "CVeDI, 2026. Esempio didattico simulato.",
-      "alt": "Stati del percorso simulato: a. disponibilità da scegliere; b. orario non più disponibile e recupero; c. conferma. I messaggi descrivono conseguenze differenti.",
+      "alt": "Stati del percorso: a. disponibilità da scegliere; b. orario non più disponibile e recupero; c. conferma. I messaggi descrivono conseguenze differenti.",
       "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
       "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/stati.typ",
       "inputs": [
@@ -472,16 +445,18 @@
           "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
         }
       ],
+      "sourceCaption": "Stati del percorso simulato: a. disponibilità da scegliere; b. orario non più disponibile e recupero; c. conferma. I messaggi descrivono conseguenze differenti.",
+      "sourceAlt": "Stati del percorso simulato: a. disponibilità da scegliere; b. orario non più disponibile e recupero; c. conferma. I messaggi descrivono conseguenze differenti.",
       "reconstruction": {
         "original": {
           "source": "progetti/slide/assets/slide-materials/processo-ux-ui/stati.svg",
           "sha256": "77eb24136abbeb2781e6ac0199777d53ab020f756eceb3b4364d653d77a8fc0a",
           "caption": "Stati del percorso simulato: a. disponibilità da scegliere; b. orario non più disponibile e recupero; c. conferma. I messaggi descrivono conseguenze differenti.",
-          "alt": "Stati del percorso simulato: a. disponibilità da scegliere; b. orario non più disponibile e recupero; c. conferma. I messaggi descrivono conseguenze differenti."
+          "alt": "Stati del percorso: a. disponibilità da scegliere; b. orario non più disponibile e recupero; c. conferma. I messaggi descrivono conseguenze differenti."
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/stati.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -489,7 +464,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "test",
@@ -499,7 +475,7 @@
       "sha256": "81b2b1e614e681fd0035caa438022110b9b0409ed13ba3e989079f7a0cf1cbb6",
       "caption": "La domanda orienta partecipante, compito, osservazioni e facilitazione.",
       "rights": "CVeDI, 2026. Esempio didattico simulato.",
-      "alt": "Preparazione di una prova sul percorso simulato. La domanda orienta partecipante, compito, osservazioni e modalità di facilitazione.",
+      "alt": "Preparazione di una prova sul percorso. La domanda orienta partecipante, compito, osservazioni e modalità di facilitazione.",
       "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
       "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/test.typ",
       "inputs": [
@@ -516,16 +492,18 @@
           "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
         }
       ],
+      "sourceCaption": "Preparazione di una prova sul percorso simulato. La domanda orienta partecipante, compito, osservazioni e modalità di facilitazione.",
+      "sourceAlt": "Preparazione di una prova sul percorso simulato. La domanda orienta partecipante, compito, osservazioni e modalità di facilitazione.",
       "reconstruction": {
         "original": {
           "source": "progetti/slide/assets/slide-materials/processo-ux-ui/test.svg",
           "sha256": "149071a5c64085bc1dfb4889d63eb3246eafc7a94d6ad0fb4e5997614640d6e2",
           "caption": "Preparazione di una prova sul percorso simulato. La domanda orienta partecipante, compito, osservazioni e modalità di facilitazione.",
-          "alt": "Preparazione di una prova sul percorso simulato. La domanda orienta partecipante, compito, osservazioni e modalità di facilitazione."
+          "alt": "Preparazione di una prova sul percorso. La domanda orienta partecipante, compito, osservazioni e modalità di facilitazione."
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/test.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -533,17 +511,18 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "iterazione",
       "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/iterazione.svg",
-      "sourceSha256": "afbb6b56186aaa1894361469db583e8a769d277cd59144a2f53d19024da9c5ed",
+      "sourceSha256": "0b59fd6a8a250dde8af6b0cc78322f4d90bfeb87a4bef0cba2608dd6c2ec7645",
       "web": "/images/processo-ux-ui/iterazione.svg",
-      "sha256": "afbb6b56186aaa1894361469db583e8a769d277cd59144a2f53d19024da9c5ed",
+      "sha256": "0b59fd6a8a250dde8af6b0cc78322f4d90bfeb87a4bef0cba2608dd6c2ec7645",
       "caption": "Ogni revisione conserva il collegamento con l’episodio osservato.",
       "rights": "CVeDI, 2026. Esempio didattico simulato.",
-      "alt": "Un registro di revisione nel caso simulato. Il comportamento osservato sostiene una domanda; la spiegazione e il miglioramento atteso restano da mettere alla prova.",
+      "alt": "Un registro di revisione nel caso. Il comportamento osservato sostiene una domanda; la spiegazione e il miglioramento atteso restano da mettere alla prova.",
       "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
       "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/iterazione.typ",
       "inputs": [
@@ -560,16 +539,18 @@
           "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
         }
       ],
+      "sourceCaption": "Un registro di revisione nel caso simulato. Il comportamento osservato sostiene una domanda; la spiegazione e il miglioramento atteso restano da mettere alla prova.",
+      "sourceAlt": "Un registro di revisione nel caso simulato. Il comportamento osservato sostiene una domanda; la spiegazione e il miglioramento atteso restano da mettere alla prova.",
       "reconstruction": {
         "original": {
           "source": "progetti/slide/assets/slide-materials/processo-ux-ui/iterazione.svg",
           "sha256": "d4197fb34fa0ff5d7b7981783f1470932a7da88478ca6d0d38bb8e1776f1d80e",
           "caption": "Un registro di revisione nel caso simulato. Il comportamento osservato sostiene una domanda; la spiegazione e il miglioramento atteso restano da mettere alla prova.",
-          "alt": "Un registro di revisione nel caso simulato. Il comportamento osservato sostiene una domanda; la spiegazione e il miglioramento atteso restano da mettere alla prova."
+          "alt": "Un registro di revisione nel caso. Il comportamento osservato sostiene una domanda; la spiegazione e il miglioramento atteso restano da mettere alla prova."
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/iterazione.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -577,7 +558,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "ciclo",
@@ -613,7 +595,7 @@
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/ciclo.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -621,20 +603,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
-    },
-    {
-      "code": "persona",
-      "source": "progetti/booklet/assets/processo-ux-ui/persona-corunga.png",
-      "sourceSha256": "4c37eb7c733b71fc628cbb7656bff7783a9422239f5b1f7ead00796bcd6b3954",
-      "web": "/images/processo-ux-ui/persona.png",
-      "sha256": "4c37eb7c733b71fc628cbb7656bff7783a9422239f5b1f7ead00796bcd6b3954",
-      "caption": "Claudia deve acquistare biglietti ferroviari per gruppi. La scheda collega compiti, bisogni e frustrazioni; la grafica non dimostra il metodo di ricerca.",
-      "rights": "Iulian Corunga.",
-      "alt": "Scheda persona di Claudia con fotografia, aspirazioni, compiti, bisogni e frustrazioni in inglese.",
-      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
-      "preparatorySource": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
-      "physicalPage": 74
+      },
+      "displayRights": ""
     },
     {
       "code": "wireframe-carta",
@@ -650,24 +620,6 @@
       "physicalPage": 81
     },
     {
-      "code": "mockup",
-      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/mockup.svg",
-      "sourceSha256": "ea32f4559e38427742d17c869fc55a7e094546c21293464b1fcdc1ca90ac23d6",
-      "web": "/images/processo-ux-ui/mockup.svg",
-      "sha256": "ea32f4559e38427742d17c869fc55a7e094546c21293464b1fcdc1ca90ac23d6",
-      "caption": "WCC Properties: dettaglio superiore del wireframe e della proposta UI. Struttura riconoscibile, fotografia e gerarchia visiva a confronto.",
-      "rights": "JH Specialty; Evan Sauers, 2022.",
-      "alt": "Testata WCC Properties in wireframe e mockup, con titolo, immagine e comando.",
-      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
-      "crop": "Top 101/460.6 pt of the full image, matching the chapter header detail; no raster edits.",
-      "inputs": [
-        {
-          "file": "progetti/booklet/assets/processo-ux-ui/originali/wireframe-mockup.png",
-          "sha256": "cfebf0efaf18a2ad44cb647509aa9cdede445fa357d0248c4153bd055738abca"
-        }
-      ]
-    },
-    {
       "code": "confronto-alternative",
       "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/confronto-alternative.svg",
       "sourceSha256": "64de88c055c3997a0c3d4f154bbe5fb5be40b7dfdef391dea92ccb1fd931c62a",
@@ -675,19 +627,21 @@
       "sha256": "64de88c055c3997a0c3d4f154bbe5fb5be40b7dfdef391dea92ccb1fd931c62a",
       "caption": "Le stesse domande rendono confrontabili alternative diverse.",
       "rights": "CVeDI, 2026. Diagramma didattico.",
-      "alt": "Griglia di confronto simulata: le celle sono domande e ipotesi da verificare seguendo lo stesso compito in ogni alternativa.",
+      "alt": "Griglia di confronto: le celle sono domande e ipotesi da verificare seguendo lo stesso compito in ogni alternativa.",
       "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/confronto-alternative.typ",
       "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "sourceCaption": "Griglia di confronto simulata: le celle sono domande e ipotesi da verificare seguendo lo stesso compito in ogni alternativa.",
+      "sourceAlt": "Griglia di confronto simulata: le celle sono domande e ipotesi da verificare seguendo lo stesso compito in ogni alternativa.",
       "reconstruction": {
         "original": {
           "source": "progetti/slide/assets/slide-materials/processo-ux-ui/confronto-alternative.svg",
           "sha256": "461d8af94eaa06d7b47942654de766b6150359bca30041e37ad7a11e7ca7aaba",
           "caption": "Griglia di confronto simulata: le celle sono domande e ipotesi da verificare seguendo lo stesso compito in ogni alternativa.",
-          "alt": "Griglia di confronto simulata: le celle sono domande e ipotesi da verificare seguendo lo stesso compito in ogni alternativa."
+          "alt": "Griglia di confronto: le celle sono domande e ipotesi da verificare seguendo lo stesso compito in ogni alternativa."
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/confronto-alternative.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -695,37 +649,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
-    },
-    {
-      "code": "fedelta",
-      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/fedelta.svg",
-      "sourceSha256": "5cc775688234e6c9a5c622b0bf2186888fc67fae109469131b11fa2e9cda75bd",
-      "web": "/images/processo-ux-ui/fedelta.svg",
-      "sha256": "5cc775688234e6c9a5c622b0bf2186888fc67fae109469131b11fa2e9cda75bd",
-      "caption": "Aspetto e comportamento sono dimensioni distinte della fedeltà.",
-      "rights": "CVeDI, 2026. Diagramma didattico.",
-      "alt": "Aspetto e comportamento sono dimensioni distinte. La domanda della prova orienta il dettaglio necessario.",
-      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/fedelta.typ",
-      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
-      "reconstruction": {
-        "original": {
-          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/fedelta.svg",
-          "sha256": "c2673c148555dbd3eb9f1fe4888c3a050d06a6efd1c7326398ad8130e0a5a27a",
-          "caption": "Aspetto e comportamento sono dimensioni distinte. La domanda della prova orienta il dettaglio necessario.",
-          "alt": "Aspetto e comportamento sono dimensioni distinte. La domanda della prova orienta il dettaglio necessario."
-        },
-        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/fedelta.typ",
-        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
-        "bodySize": 15.5,
-        "noteSize": 14,
-        "canvasWidth": 842,
-        "zoomClearance": 40,
-        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
-        "palette": "violet/Cedro",
-        "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "responsabilita",
@@ -756,7 +681,7 @@
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/responsabilita.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -764,7 +689,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "ipotesi",
@@ -774,7 +700,7 @@
       "sha256": "f13142e878e5778123bf8debe97393b918d9471a1297804d5e7eb3345c0e0729",
       "caption": "Un’ipotesi collega problema, proposta, effetto atteso e possibile smentita.",
       "rights": "CVeDI, 2026. Esempio didattico simulato.",
-      "alt": "Ipotesi simulata sugli orari serali, con un esito alternativo legato alla copertura del domicilio.",
+      "alt": "Ipotesi sugli orari serali, con un esito alternativo legato alla copertura del domicilio.",
       "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ipotesi.typ",
       "inputs": [
         {
@@ -786,16 +712,18 @@
           "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
         }
       ],
+      "sourceCaption": "Un problema, una proposta, un cambiamento atteso e una possibile smentita: quattro parti di un’ipotesi da provare.",
+      "sourceAlt": "Ipotesi simulata sugli orari serali, con un esito alternativo legato alla copertura del domicilio.",
       "reconstruction": {
         "original": {
           "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ipotesi.svg",
           "sha256": "1cf7767af55234afda3e4a1714b49725e7b83c4f391a5df66a6c7f7b5b81feb9",
           "caption": "Un problema, una proposta, un cambiamento atteso e una possibile smentita: quattro parti di un’ipotesi da provare.",
-          "alt": "Ipotesi simulata sugli orari serali, con un esito alternativo legato alla copertura del domicilio."
+          "alt": "Ipotesi sugli orari serali, con un esito alternativo legato alla copertura del domicilio."
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/ipotesi.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -803,7 +731,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "journey-responsabilita",
@@ -834,7 +763,7 @@
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/journey-responsabilita.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -842,7 +771,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "accettazione",
@@ -873,7 +803,7 @@
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/accettazione.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -881,14 +811,15 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "registro-prova",
       "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/registro-prova.svg",
-      "sourceSha256": "8bc6a9d630ec785ea7ce394dde09ab5dd488a3fdfaeadc97830ee723e096cb66",
+      "sourceSha256": "f828d73b3ce900d568c940c1a97802efa626bcab1147497d55a6ea183d9ae09d",
       "web": "/images/processo-ux-ui/registro-prova.svg",
-      "sha256": "8bc6a9d630ec785ea7ce394dde09ab5dd488a3fdfaeadc97830ee723e096cb66",
+      "sha256": "f828d73b3ce900d568c940c1a97802efa626bcab1147497d55a6ea183d9ae09d",
       "caption": "Un episodio conserva fatti, parole, facilitazione e interpretazione separati.",
       "rights": "CVeDI, 2026. Esempio didattico simulato.",
       "alt": "Scheda di osservazione di una persona che torna alla ricerca perché non riconosce se la visita è a domicilio.",
@@ -912,7 +843,7 @@
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/registro-prova.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -920,7 +851,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "priorita-problemi",
@@ -951,7 +883,7 @@
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/priorita-problemi.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -959,7 +891,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "consegna-stato",
@@ -969,7 +902,7 @@
       "sha256": "1783f8c51b28ef72ec8ebdcf97cf3c863e8696f1b0d316bcc852223d0b3426c2",
       "caption": "Uno stato collega messaggio, dati conservati, criterio e responsabilità.",
       "rights": "CVeDI, 2026. Esempio didattico simulato.",
-      "alt": "Specifiche simulate per un orario perso prima della conferma, con recupero e responsabilità ancora da chiarire.",
+      "alt": "Specifiche per un orario perso prima della conferma, con recupero e responsabilità ancora da chiarire.",
       "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/consegna-stato.typ",
       "inputs": [
         {
@@ -981,16 +914,18 @@
           "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
         }
       ],
+      "sourceCaption": "Scheda di consegna dello stato di indisponibilità: messaggio, dati conservati, criterio di accettazione e dipendenza dal servizio.",
+      "sourceAlt": "Specifiche simulate per un orario perso prima della conferma, con recupero e responsabilità ancora da chiarire.",
       "reconstruction": {
         "original": {
           "source": "progetti/slide/assets/slide-materials/processo-ux-ui/consegna-stato.svg",
           "sha256": "d2687eefd7aeb9e0af95cf04bd57a1514933c9e0a322fd966c8730e870c4d058",
           "caption": "Scheda di consegna dello stato di indisponibilità: messaggio, dati conservati, criterio di accettazione e dipendenza dal servizio.",
-          "alt": "Specifiche simulate per un orario perso prima della conferma, con recupero e responsabilità ancora da chiarire."
+          "alt": "Specifiche per un orario perso prima della conferma, con recupero e responsabilità ancora da chiarire."
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/consegna-stato.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -998,7 +933,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "confronto-mappe",
@@ -1025,7 +961,7 @@
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/confronto-mappe.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -1033,7 +969,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "ui-annotata",
@@ -1043,7 +980,7 @@
       "sha256": "dee8181a0f5bb3cf7a8ff07c73ce995435c2e8c47f2302e5b3aa139fe2f6bec3",
       "caption": "Griglia, tipografia, colore e stati rendono comprensibili disponibilità e richiesta.",
       "rights": "CVeDI, 2026. Esempio didattico simulato.",
-      "alt": "Schermata simulata di una visita a domicilio alle 20:30 con azione Invia richiesta e nota che distingue l’invio dalla conferma; spiegazioni dei tre gruppi di scelte visive.",
+      "alt": "Schermata di una visita a domicilio alle 20:30 con azione Invia richiesta e nota che distingue l’invio dalla conferma; spiegazioni dei tre gruppi di scelte visive.",
       "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ui-annotata.typ",
       "inputs": [
         {
@@ -1051,16 +988,18 @@
           "sha256": "ae08f0c01f42d5f9d8d14c095342dc69c2be1be949efe14923ccce4e00760f5b"
         }
       ],
+      "sourceCaption": "Disponibilità e richiesta sono stati diversi. Le scelte visive sostengono la comprensione del compito.",
+      "sourceAlt": "Schermata simulata di una visita a domicilio alle 20:30 con azione Invia richiesta e nota che distingue l’invio dalla conferma; spiegazioni dei tre gruppi di scelte visive.",
       "reconstruction": {
         "original": {
           "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ui-annotata.svg",
           "sha256": "fa330d98ebdbf8f499e88f73408582a620e327804af88bd899dcc746d3d96cf9",
           "caption": "Disponibilità e richiesta sono stati diversi. Le scelte visive sostengono la comprensione del compito.",
-          "alt": "Schermata simulata di una visita a domicilio alle 20:30 con azione Invia richiesta e nota che distingue l’invio dalla conferma; spiegazioni dei tre gruppi di scelte visive."
+          "alt": "Schermata di una visita a domicilio alle 20:30 con azione Invia richiesta e nota che distingue l’invio dalla conferma; spiegazioni dei tre gruppi di scelte visive."
         },
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/ui-annotata.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -1068,7 +1007,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "illustrazione-brief",
@@ -1077,14 +1017,15 @@
       "web": "/images/processo-ux-ui/illustrazione-brief.webp",
       "sha256": "cd84da16e0cbcf45930ec11f065719cc5373d1f48a3f3780c963b435393d43fb",
       "caption": "Un brief costruito attraverso il confronto.",
-      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "rights": "CVeDI, 2026.",
       "alt": "Clipboard con appunti, due fumetti e una matita: la richiesta viene discussa e documentata.",
       "original": "progetti/slide/assets/theme-imagegen/lesson-11-process/originals/illustrazione-brief.png",
       "originalSha256": "b0b5b8ead4bdffbedde8fcd9bb2691e507eb6500f8a80e97709abe91bfd305bc",
       "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-process/prompts/illustrazione-brief.txt",
       "promptSha256": "6c7c1a8400fff7fb7b7171839cf4b7f564db65aa27f3435c023f1a0ec53858d2",
       "generationTool": "image_gen integrato",
-      "transparentBackground": true
+      "transparentBackground": true,
+      "displayRights": ""
     },
     {
       "code": "illustrazione-ricerca",
@@ -1093,14 +1034,15 @@
       "web": "/images/processo-ux-ui/illustrazione-ricerca.webp",
       "sha256": "85cd26fb15af249075494bf4d4d76c8d9190d2ae35a8b02a21d127da862f809c",
       "caption": "Ascoltare e documentare episodi concreti.",
-      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "rights": "CVeDI, 2026.",
       "alt": "Due persone senza lineamenti si confrontano a un tavolo; una racconta e l’altra prende appunti.",
       "original": "progetti/slide/assets/theme-imagegen/lesson-11-process/originals/illustrazione-ricerca.png",
       "originalSha256": "d796942eb157798f0b965da22242b7e560f27e7f391b85cb0e69e430dd8c73ee",
       "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-process/prompts/illustrazione-ricerca.txt",
       "promptSha256": "2652555059138dc75e1259ab9b86caf327c77f83b3e456fb7726adf3cc97c400",
       "generationTool": "image_gen integrato",
-      "transparentBackground": true
+      "transparentBackground": true,
+      "displayRights": ""
     },
     {
       "code": "illustrazione-requisiti",
@@ -1109,14 +1051,15 @@
       "web": "/images/processo-ux-ui/illustrazione-requisiti.webp",
       "sha256": "6e50848606aff9d76b76d3efa8f5cef3b1e3b15bb4e9ac3c16aa58feb3ef74f6",
       "caption": "Dalle osservazioni a requisiti da verificare.",
-      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "rights": "CVeDI, 2026.",
       "alt": "Tre schede di osservazione affiancate a un documento con requisiti e segni di verifica.",
       "original": "progetti/slide/assets/theme-imagegen/lesson-11-process/originals/illustrazione-requisiti.png",
       "originalSha256": "e2afe708e6803d780b9eeb66d6bf66646aee1eb194d26728bfca988246b18ec4",
       "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-process/prompts/illustrazione-requisiti.txt",
       "promptSha256": "96465eefde73d915580f9d9536e9870c7fd63dad5b9751d71bea37916d144e68",
       "generationTool": "image_gen integrato",
-      "transparentBackground": true
+      "transparentBackground": true,
+      "displayRights": ""
     },
     {
       "code": "illustrazione-wireframe",
@@ -1125,14 +1068,15 @@
       "web": "/images/processo-ux-ui/illustrazione-wireframe.webp",
       "sha256": "11e33f84bb3ee5d62d687b29b9e8f46b5345d9038c1c0da596f50eab9a5d85d3",
       "caption": "Esplorare struttura e azioni prima del dettaglio visivo.",
-      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "rights": "CVeDI, 2026.",
       "alt": "Schermata essenziale, bozza su carta e matita mostrano aree, contenuti e comandi di un wireframe.",
       "original": "progetti/slide/assets/theme-imagegen/lesson-11-process/originals/illustrazione-wireframe.png",
       "originalSha256": "75ce0eee19cfe806af78ca4d4669bda04166c1797a204fd9bff5a4b95f393233",
       "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-process/prompts/illustrazione-wireframe.txt",
       "promptSha256": "578038f74617045215a0d1c30140d6b6dad69c6b53e0bac81a1dacb57cd7747a",
       "generationTool": "image_gen integrato",
-      "transparentBackground": true
+      "transparentBackground": true,
+      "displayRights": ""
     },
     {
       "code": "illustrazione-verifica",
@@ -1141,14 +1085,310 @@
       "web": "/images/processo-ux-ui/illustrazione-verifica.webp",
       "sha256": "2d0cc240a1d8de46dd52ca3e1ae03b9d4826eaafc5346ca283c80627c1d9f0fc",
       "caption": "Osservare l’uso per preparare la prossima revisione.",
-      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "rights": "CVeDI, 2026.",
       "alt": "Una persona usa un portatile mentre un’osservatrice prende appunti; una freccia collega prova e revisione.",
       "original": "progetti/slide/assets/theme-imagegen/lesson-11-process/originals/illustrazione-verifica.png",
       "originalSha256": "7508a16dbc95330aabc7dfdec6fcae748f4e0c5fe0e07f311a236407412d0ef4",
       "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-process/prompts/illustrazione-verifica.txt",
       "promptSha256": "01fbebf3f2416e621398649d15d65c70a7f6f4dcd8fd0c5d3a8639aeea3b91aa",
       "generationTool": "image_gen integrato",
-      "transparentBackground": true
+      "transparentBackground": true,
+      "displayRights": ""
+    },
+    {
+      "code": "ritratto-carlo",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-cast/web/ritratto-carlo.webp",
+      "sourceSha256": "2f0e76b48f304cd5c3392f73e995e51a48e95f15e9645de3d107fbd48cad7ad3",
+      "web": "/images/processo-ux-ui/ritratto-carlo.webp",
+      "sha256": "2f0e76b48f304cd5c3392f73e995e51a48e95f15e9645de3d107fbd48cad7ad3",
+      "caption": "Carlo",
+      "rights": "CVeDI, 2026.",
+      "alt": "Carlo con una cartella di documenti; figura senza lineamenti, camicia viola e maglietta bianca.",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-cast/originals/carlo.png",
+      "originalSha256": "465e660d2c5dc3cd723e6514e641ad412f185dfa1acba4733d096f73af7b81bd",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-cast/prompts/carlo.txt",
+      "promptSha256": "c79d88648e69f2b4c108704c4b5f8411141420d245c890a066256605e9f3588f",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": true,
+      "displayRights": ""
+    },
+    {
+      "code": "ritratto-giovanni",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-cast/web/ritratto-giovanni.webp",
+      "sourceSha256": "e606848379e1c1564c01e5c3fa0f7bfddbff228a1859646f3db6cdf762e322a8",
+      "web": "/images/processo-ux-ui/ritratto-giovanni.webp",
+      "sha256": "e606848379e1c1564c01e5c3fa0f7bfddbff228a1859646f3db6cdf762e322a8",
+      "caption": "Giovanni",
+      "rights": "CVeDI, 2026.",
+      "alt": "Giovanni con un tablet; figura senza lineamenti, capelli mossi e maglia viola.",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-cast/originals/giovanni.png",
+      "originalSha256": "41d5e817fa5494ba5c11f725862e6443db0cd20af60c10a1f6a88e04bae75301",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-cast/prompts/giovanni.txt",
+      "promptSha256": "e90964eb4ae759b235b318660277fd17512477585c4ac72caa182d90fc86346f",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": true,
+      "displayRights": ""
+    },
+    {
+      "code": "ritratto-viola",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-cast/web/ritratto-viola.webp",
+      "sourceSha256": "ee44640826cc004c7fa1f3732085cb141a8ae40166988dd55d656ced971b5502",
+      "web": "/images/processo-ux-ui/ritratto-viola.webp",
+      "sha256": "ee44640826cc004c7fa1f3732085cb141a8ae40166988dd55d656ced971b5502",
+      "caption": "Viola",
+      "rights": "CVeDI, 2026.",
+      "alt": "Viola con telefono e borsa a tracolla; figura senza lineamenti, capelli alle spalle e cardigan viola.",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-cast/originals/viola.png",
+      "originalSha256": "8708eeb14c279dd98922a05d1ce056b8a8f15ba5b6193de89012e5c4d7cf94c4",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-cast/prompts/viola.txt",
+      "promptSha256": "8809892687addcbda10183597d461cdf6b4b447a318f7b66dbba45df98c240a2",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": true,
+      "displayRights": ""
+    },
+    {
+      "code": "viola-realistica",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-viola-transition/web/viola-realistica.webp",
+      "sourceSha256": "0038a68ef95c8c4eed405456d28eee0a182ccae9572e10ea03582002a679bc56",
+      "web": "/images/processo-ux-ui/viola-realistica.webp",
+      "sha256": "0038a68ef95c8c4eed405456d28eee0a182ccae9572e10ea03582002a679bc56",
+      "caption": "Viola",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "alt": "Ritratto realistico di Viola con capelli castani e riflessi viola, cardigan viola, camicia bianca, telefono e borsa a tracolla.",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-viola-transition/originals/viola-realistica.png",
+      "originalSha256": "731629b94d9ff04a4498e483218d403dc6df9f4fee94870b8671166d3a05421b",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-viola-transition/prompts/viola-realistica.txt",
+      "promptSha256": "b87842c667e64dd3eff372f80a599c0c006397ee39c5d8b78d1c50203f6b6998",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": true,
+      "displayRights": ""
+    },
+    {
+      "code": "infografica-smart",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-smart/web/infografica-smart.webp",
+      "sourceSha256": "2d242f104b7d01590a1c1d10938c503e89c5a8830f7380b889d4a6fa5976477a",
+      "web": "/images/processo-ux-ui/infografica-smart.webp",
+      "sha256": "2d242f104b7d01590a1c1d10938c503e89c5a8830f7380b889d4a6fa5976477a",
+      "caption": "SMART: cinque criteri per precisare lo stesso obiettivo.",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "alt": "Infografica SMART in cinque gruppi: S, Specific, Specifico, bersaglio con casa; M, Measurable, Misurabile, elenco e righello; A, Actionable, Eseguibile, mano che spunta azioni; R, Realistic, Realistico, mappa e verifica; T, Time-based, Nel tempo, calendario e orologio.",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-smart/originals/infografica-smart.png",
+      "originalSha256": "67b75046385fd787956c7747060f2b2e251eab0b43ba1ddc2ca126f2c671d16e",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-smart/prompts/infografica-smart.txt",
+      "promptSha256": "b4936ba89f22ca8708e4f7892ac0b9a2303958dc1d7322a09c5f8c1959895ebf",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": true,
+      "displayRights": ""
+    },
+    {
+      "code": "wireframe-mano-ricerca-risultati",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/wireframe-mano-ricerca-risultati.webp",
+      "sourceSha256": "c6812d368a8068d55d0848ae1ec0053c0c2c1ef682cc6506bd8655e8354ec3a9",
+      "web": "/images/processo-ux-ui/wireframe-mano-ricerca-risultati.webp",
+      "sha256": "c6812d368a8068d55d0848ae1ec0053c0c2c1ef682cc6506bd8655e8354ec3a9",
+      "caption": "Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "alt": "Bozzetti a mano: Cerca una visita a sinistra e Risultati a destra. Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile.",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-mano-ricerca-risultati.png",
+      "originalSha256": "a8fd7769328d6f32ac84d3ca3c454e4d6d3926a4504eaec54b7034044e2c052c",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/wireframe-mano-ricerca-risultati.txt",
+      "promptSha256": "3860b8c7d2e050a43e23e705ceea9855ed962374c17387a0896fcaa08ad26fc4",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "wireframeLevel": "mano",
+      "wireframePair": "ricerca-risultati",
+      "references": [],
+      "displayRights": ""
+    },
+    {
+      "code": "wireframe-mano-dettaglio-riepilogo",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/wireframe-mano-dettaglio-riepilogo.webp",
+      "sourceSha256": "ef5b6354f1cadf5521f582e1815bfa13ebcba0bf720a4a2eec7fbb2c679e9081",
+      "web": "/images/processo-ux-ui/wireframe-mano-dettaglio-riepilogo.webp",
+      "sha256": "ef5b6354f1cadf5521f582e1815bfa13ebcba0bf720a4a2eec7fbb2c679e9081",
+      "caption": "Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "alt": "Bozzetti a mano: Visita a domicilio a sinistra e Riepilogo a destra. Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista.",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-mano-dettaglio-riepilogo.png",
+      "originalSha256": "7c8b6036a0f8d9e2d4fd4bf52a2258398f5e41934a2e61e3528240f46c5ffac5",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/wireframe-mano-dettaglio-riepilogo.txt",
+      "promptSha256": "0be548c35bd4218b7657b5d36a28762fb416c2a0cf884e41ff0b94589441d7a2",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "wireframeLevel": "mano",
+      "wireframePair": "dettaglio-riepilogo",
+      "references": [],
+      "displayRights": ""
+    },
+    {
+      "code": "wireframe-mano-attesa-conferma",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/wireframe-mano-attesa-conferma.webp",
+      "sourceSha256": "ea7d9d578efe73429f3517722c5192205ce3458cbb712b4a88a550ad79f86f5c",
+      "web": "/images/processo-ux-ui/wireframe-mano-attesa-conferma.webp",
+      "sha256": "ea7d9d578efe73429f3517722c5192205ce3458cbb712b4a88a550ad79f86f5c",
+      "caption": "L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "alt": "Bozzetti a mano: Richiesta inviata a sinistra e Visita confermata a destra. L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata.",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-mano-attesa-conferma.png",
+      "originalSha256": "1465437d1c7a309cfeb831b32fceb7a0576f45e5ab769ce3128a8b5cb472be25",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/wireframe-mano-attesa-conferma.txt",
+      "promptSha256": "81fb4d2c84a1016fb837af1a96a55bf34a03169f9174c02675ab8ee154aa605e",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "wireframeLevel": "mano",
+      "wireframePair": "attesa-conferma",
+      "references": [],
+      "displayRights": ""
+    },
+    {
+      "code": "wireframe-media-ricerca-risultati",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/wireframe-media-ricerca-risultati.webp",
+      "sourceSha256": "026caeb5dafb74e275d20c285b451edfdd285586de14cda2d36f6e0b974c465d",
+      "web": "/images/processo-ux-ui/wireframe-media-ricerca-risultati.webp",
+      "sha256": "026caeb5dafb74e275d20c285b451edfdd285586de14cda2d36f6e0b974c465d",
+      "caption": "Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "alt": "Media fedeltà: Cerca una visita a sinistra e Risultati a destra. Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile.",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-media-ricerca-risultati.png",
+      "originalSha256": "a1fb69981ac24d3a3d68d1a90bb1fb64794e2c03597a8a1b54c8fc3da9a943c1",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/wireframe-media-ricerca-risultati.txt",
+      "promptSha256": "0c88277591c36030877a35b0f9cb73e5667dd001673591e0cb8aad579c5c5c4b",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "wireframeLevel": "media",
+      "wireframePair": "ricerca-risultati",
+      "references": [
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-mano-ricerca-risultati.png",
+          "sha256": "a8fd7769328d6f32ac84d3ca3c454e4d6d3926a4504eaec54b7034044e2c052c"
+        }
+      ],
+      "displayRights": ""
+    },
+    {
+      "code": "wireframe-media-dettaglio-riepilogo",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/wireframe-media-dettaglio-riepilogo.webp",
+      "sourceSha256": "80ee1761b649f76aef412a753eb10fd1a18539f9a75aa2c20db808d9d9e06437",
+      "web": "/images/processo-ux-ui/wireframe-media-dettaglio-riepilogo.webp",
+      "sha256": "80ee1761b649f76aef412a753eb10fd1a18539f9a75aa2c20db808d9d9e06437",
+      "caption": "Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "alt": "Media fedeltà: Visita a domicilio a sinistra e Riepilogo a destra. Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista.",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-media-dettaglio-riepilogo.png",
+      "originalSha256": "dffbe63d2bf95c1330dbcbf67fd3491066bd51b21943bb363e83335e2374099f",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/wireframe-media-dettaglio-riepilogo.txt",
+      "promptSha256": "4a09f0fe6f8501226d9066799ce997b91ed5542bb85d17760b9bd2794c7bde64",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "wireframeLevel": "media",
+      "wireframePair": "dettaglio-riepilogo",
+      "references": [
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-mano-dettaglio-riepilogo.png",
+          "sha256": "7c8b6036a0f8d9e2d4fd4bf52a2258398f5e41934a2e61e3528240f46c5ffac5"
+        }
+      ],
+      "displayRights": ""
+    },
+    {
+      "code": "wireframe-media-attesa-conferma",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/wireframe-media-attesa-conferma.webp",
+      "sourceSha256": "107a457e5ff51954b51dc287461e0925e94a2944e6659023d9244cf4ace6b46f",
+      "web": "/images/processo-ux-ui/wireframe-media-attesa-conferma.webp",
+      "sha256": "107a457e5ff51954b51dc287461e0925e94a2944e6659023d9244cf4ace6b46f",
+      "caption": "L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "alt": "Media fedeltà: Richiesta inviata a sinistra e Visita confermata a destra. L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata.",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-media-attesa-conferma.png",
+      "originalSha256": "abca0071bc3c012035174a8b647bb3a5323758ca8a0b295872f2d45795ade1a0",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/wireframe-media-attesa-conferma.txt",
+      "promptSha256": "e6f074e84541693e2ffc757cc3cc2bc550ec5339911715141c46b03aed9306d5",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "wireframeLevel": "media",
+      "wireframePair": "attesa-conferma",
+      "references": [
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-mano-attesa-conferma.png",
+          "sha256": "1465437d1c7a309cfeb831b32fceb7a0576f45e5ab769ce3128a8b5cb472be25"
+        }
+      ],
+      "displayRights": ""
+    },
+    {
+      "code": "wireframe-alta-ricerca-risultati",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/wireframe-alta-ricerca-risultati.webp",
+      "sourceSha256": "139aded6b13db64eca566fd974f664eb9d9135f2832389989eb64ef222831780",
+      "web": "/images/processo-ux-ui/wireframe-alta-ricerca-risultati.webp",
+      "sha256": "139aded6b13db64eca566fd974f664eb9d9135f2832389989eb64ef222831780",
+      "caption": "Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "alt": "Alta fedeltà: Cerca una visita a sinistra e Risultati a destra. Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile.",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-alta-ricerca-risultati.png",
+      "originalSha256": "37cffa863c51467c97f492a903e9ca6747006705fac0b23ec0673cc828f892b8",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/wireframe-alta-ricerca-risultati.txt",
+      "promptSha256": "2679678dbcca7bd851fd604d60a59673126904b1240e6d01ed36ec0e6f0d1a70",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "wireframeLevel": "alta",
+      "wireframePair": "ricerca-risultati",
+      "references": [
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-media-ricerca-risultati.png",
+          "sha256": "a1fb69981ac24d3a3d68d1a90bb1fb64794e2c03597a8a1b54c8fc3da9a943c1"
+        }
+      ],
+      "displayRights": ""
+    },
+    {
+      "code": "wireframe-alta-dettaglio-riepilogo",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/wireframe-alta-dettaglio-riepilogo.webp",
+      "sourceSha256": "cf65fff47fc97f40251ee6d76cc336f7c3212484b9e012ec9d3ee8fe56eb4148",
+      "web": "/images/processo-ux-ui/wireframe-alta-dettaglio-riepilogo.webp",
+      "sha256": "cf65fff47fc97f40251ee6d76cc336f7c3212484b9e012ec9d3ee8fe56eb4148",
+      "caption": "Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "alt": "Alta fedeltà: Visita a domicilio a sinistra e Riepilogo a destra. Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista.",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-alta-dettaglio-riepilogo.png",
+      "originalSha256": "d48aeb3196c288e77ef65703eb605515b656ad6eed40cbdcbb402b769fc4907f",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/wireframe-alta-dettaglio-riepilogo.txt",
+      "promptSha256": "d9f30b405a66a4c2ee844e3f21b6dd703f82e4bbaab8987ecbc77d33412a4774",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "wireframeLevel": "alta",
+      "wireframePair": "dettaglio-riepilogo",
+      "references": [
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-media-dettaglio-riepilogo.png",
+          "sha256": "dffbe63d2bf95c1330dbcbf67fd3491066bd51b21943bb363e83335e2374099f"
+        }
+      ],
+      "displayRights": ""
+    },
+    {
+      "code": "wireframe-alta-attesa-conferma",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/wireframe-alta-attesa-conferma.webp",
+      "sourceSha256": "f96dc71606922a2f11712b220e25bfe653847c24ab52c7077bfa86441ecca4d1",
+      "web": "/images/processo-ux-ui/wireframe-alta-attesa-conferma.webp",
+      "sha256": "f96dc71606922a2f11712b220e25bfe653847c24ab52c7077bfa86441ecca4d1",
+      "caption": "L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "alt": "Alta fedeltà: Richiesta inviata a sinistra e Visita confermata a destra. L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata.",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-alta-attesa-conferma.png",
+      "originalSha256": "de68570f96e7edf0d749a5c5e0e216a2cb7bc17804d9eeb9086424d6529dff10",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/wireframe-alta-attesa-conferma.txt",
+      "promptSha256": "68fa955b69fe3b46aa46a31a80b23ed3259509d1d3013a1027b09acc5d690134",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "wireframeLevel": "alta",
+      "wireframePair": "attesa-conferma",
+      "references": [
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-media-attesa-conferma.png",
+          "sha256": "abca0071bc3c012035174a8b647bb3a5323758ca8a0b295872f2d45795ade1a0"
+        }
+      ],
+      "displayRights": ""
     },
     {
       "code": "caso-wireframe-v0",
@@ -1162,7 +1402,7 @@
       "nativeDiagram": {
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/caso-wireframe-v0.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -1170,29 +1410,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
-    },
-    {
-      "code": "caso-iterazione-v1",
-      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/caso-iterazione-v1.svg",
-      "sourceSha256": "7ec387358e16e7c0c5113be8a5fcbe97bc1c01c155dc1ba4951c06120c31e193",
-      "web": "/images/processo-ux-ui/caso-iterazione-v1.svg",
-      "sha256": "7ec387358e16e7c0c5113be8a5fcbe97bc1c01c155dc1ba4951c06120c31e193",
-      "caption": "V0 → V1: anticipare domicilio, fascia serale e totale.",
-      "rights": "CVeDI, 2026. Esempio didattico simulato.",
-      "alt": "Confronto della prima revisione, con criteri di compatibilità prima dei risultati.",
-      "nativeDiagram": {
-        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/caso-iterazione-v1.typ",
-        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
-        "bodySize": 15.5,
-        "noteSize": 14,
-        "canvasWidth": 842,
-        "zoomClearance": 40,
-        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
-        "palette": "violet/Cedro",
-        "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "caso-iterazione-v2",
@@ -1206,7 +1425,7 @@
       "nativeDiagram": {
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/caso-iterazione-v2.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -1214,7 +1433,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "caso-iterazione-v3",
@@ -1228,7 +1448,7 @@
       "nativeDiagram": {
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/caso-iterazione-v3.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -1236,7 +1456,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "caso-servizio-finale",
@@ -1250,7 +1471,7 @@
       "nativeDiagram": {
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/caso-servizio-finale.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -1258,7 +1479,8 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
     },
     {
       "code": "caso-sistema-ui",
@@ -1272,7 +1494,7 @@
       "nativeDiagram": {
         "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/caso-sistema-ui.typ",
         "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
         "bodySize": 15.5,
         "noteSize": 14,
         "canvasWidth": 842,
@@ -1280,7 +1502,413 @@
         "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
         "palette": "violet/Cedro",
         "background": "transparent"
-      }
+      },
+      "displayRights": ""
+    },
+    {
+      "code": "smart-specifico",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/smart-specifico.svg",
+      "sourceSha256": "dcd63880b79a40822113de04e0bdbea75d43c7dcc3a9241fbb1f43c60b89a310",
+      "web": "/images/processo-ux-ui/smart-specifico.svg",
+      "sha256": "dcd63880b79a40822113de04e0bdbea75d43c7dcc3a9241fbb1f43c60b89a310",
+      "caption": "La richiesta di Carlo e Giovanni diventa un compito preciso per Viola.",
+      "rights": "CVeDI, 2026. Diagramma didattico.",
+      "alt": "S di SMART: dalla richiesta generica di Carlo e Giovanni a un compito per Viola, con domicilio, fascia dopo le 20 e invio della richiesta distinto dalla conferma.",
+      "smartCriterion": "S",
+      "inputs": [
+        {
+          "file": "progetti/slide/data/ux-smart.json",
+          "sha256": "a9797549c8caee4036d126daedb13d66c52fcaf64c331e636582c68123dbd922"
+        },
+        {
+          "file": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+          "sha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce"
+        }
+      ],
+      "nativeDiagram": {
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/smart-specifico.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/smart.typ",
+        "rendererSha256": "0e146f1b3618ecebdfe321bc85a9fb4ebf67f13fb51e2721e6ee51c8db69f973",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      },
+      "displayRights": ""
+    },
+    {
+      "code": "smart-misurabile",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/smart-misurabile.svg",
+      "sourceSha256": "aff9115663cfa38c4c6b9af19fd29162edc9a2182b8dd0fefef5379f5bfb7288",
+      "web": "/images/processo-ux-ui/smart-misurabile.svg",
+      "sha256": "aff9115663cfa38c4c6b9af19fd29162edc9a2182b8dd0fefef5379f5bfb7288",
+      "caption": "Completamento, costo e stato sono osservati con lo stesso compito e le stesse condizioni.",
+      "rights": "CVeDI, 2026. Diagramma didattico.",
+      "alt": "M di SMART: tre esiti da registrare nel percorso di Viola, senza risultati già attribuiti ai cinque partecipanti previsti: completamento senza aiuto, comprensione dei 60 euro e distinzione fra attesa e conferma.",
+      "smartCriterion": "M",
+      "inputs": [
+        {
+          "file": "progetti/slide/data/ux-smart.json",
+          "sha256": "a9797549c8caee4036d126daedb13d66c52fcaf64c331e636582c68123dbd922"
+        },
+        {
+          "file": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+          "sha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce"
+        }
+      ],
+      "nativeDiagram": {
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/smart-misurabile.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/smart.typ",
+        "rendererSha256": "0e146f1b3618ecebdfe321bc85a9fb4ebf67f13fb51e2721e6ee51c8db69f973",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      },
+      "displayRights": ""
+    },
+    {
+      "code": "smart-eseguibile",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/smart-eseguibile.svg",
+      "sourceSha256": "d098845bb71ded6963415a2483cc6af4ef6bb3a1aa553ae4a26cdcd9e8f7b1b5",
+      "web": "/images/processo-ux-ui/smart-eseguibile.svg",
+      "sha256": "d098845bb71ded6963415a2483cc6af4ef6bb3a1aa553ae4a26cdcd9e8f7b1b5",
+      "caption": "Ogni intervento sul percorso di Viola ha un’azione e un responsabile.",
+      "rights": "CVeDI, 2026. Diagramma didattico.",
+      "alt": "A di SMART nella variante Actionable: Carlo e Giovanni concordano copertura e responsabilità, la progettazione chiarisce costo e stato, il professionista aggiorna gli orari e accetta le richieste di Viola.",
+      "smartCriterion": "A",
+      "inputs": [
+        {
+          "file": "progetti/slide/data/ux-smart.json",
+          "sha256": "a9797549c8caee4036d126daedb13d66c52fcaf64c331e636582c68123dbd922"
+        },
+        {
+          "file": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+          "sha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce"
+        }
+      ],
+      "nativeDiagram": {
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/smart-eseguibile.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/smart.typ",
+        "rendererSha256": "0e146f1b3618ecebdfe321bc85a9fb4ebf67f13fb51e2721e6ee51c8db69f973",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      },
+      "displayRights": ""
+    },
+    {
+      "code": "smart-realistico",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/smart-realistico.svg",
+      "sourceSha256": "580f72dfff14012029ab00d88b746cf48cdd744fc83c8eac01636869bfc1d3eb",
+      "web": "/images/processo-ux-ui/smart-realistico.svg",
+      "sha256": "580f72dfff14012029ab00d88b746cf48cdd744fc83c8eac01636869bfc1d3eb",
+      "caption": "La prima versione limita la promessa alle condizioni che il servizio può sostenere.",
+      "rights": "CVeDI, 2026. Diagramma didattico.",
+      "alt": "R di SMART nella variante Realistic: la promessa di visite immediate ovunque viene confrontata con il perimetro Centro e Nord dopo le 20 per Viola; Carlo e Giovanni devono verificare risorse, copertura e partecipanti.",
+      "smartCriterion": "R",
+      "inputs": [
+        {
+          "file": "progetti/slide/data/ux-smart.json",
+          "sha256": "a9797549c8caee4036d126daedb13d66c52fcaf64c331e636582c68123dbd922"
+        },
+        {
+          "file": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+          "sha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce"
+        }
+      ],
+      "nativeDiagram": {
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/smart-realistico.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/smart.typ",
+        "rendererSha256": "0e146f1b3618ecebdfe321bc85a9fb4ebf67f13fb51e2721e6ee51c8db69f973",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      },
+      "displayRights": ""
+    },
+    {
+      "code": "smart-tempo",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/smart-tempo.svg",
+      "sourceSha256": "3be1dbb3952aecbd35466c6f7645194a4649bae413f3d25d2eb21c76ae4b9c45",
+      "web": "/images/processo-ux-ui/smart-tempo.svg",
+      "sha256": "3be1dbb3952aecbd35466c6f7645194a4649bae413f3d25d2eb21c76ae4b9c45",
+      "caption": "La scadenza del ciclo e l’orario della visita hanno ruoli diversi.",
+      "rights": "CVeDI, 2026. Diagramma didattico.",
+      "alt": "T di SMART: proposta di ciclo di due settimane per Carlo e Giovanni, con preparazione nei giorni 1–3, osservazioni nei giorni 4–10 e riesame entro il giorno 14. Il compito resta la visita di Viola dopo le 20.",
+      "smartCriterion": "T",
+      "inputs": [
+        {
+          "file": "progetti/slide/data/ux-smart.json",
+          "sha256": "a9797549c8caee4036d126daedb13d66c52fcaf64c331e636582c68123dbd922"
+        },
+        {
+          "file": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+          "sha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce"
+        }
+      ],
+      "nativeDiagram": {
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/smart-tempo.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/smart.typ",
+        "rendererSha256": "0e146f1b3618ecebdfe321bc85a9fb4ebf67f13fb51e2721e6ee51c8db69f973",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      },
+      "displayRights": ""
+    },
+    {
+      "code": "smart-obiettivo-completo",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/smart-obiettivo-completo.svg",
+      "sourceSha256": "421660c5b5c99724d2173d497d399e9143f4042d633925b33b98fffbef312e69",
+      "web": "/images/processo-ux-ui/smart-obiettivo-completo.svg",
+      "sha256": "421660c5b5c99724d2173d497d399e9143f4042d633925b33b98fffbef312e69",
+      "caption": "La prima misura del percorso orienta l’obiettivo di miglioramento successivo.",
+      "rights": "CVeDI, 2026. Diagramma didattico.",
+      "alt": "Obiettivo SMART completo del primo ciclo di Carlo e Giovanni: entro due settimane osservare cinque persone con bisogni come Viola, registrando invio senza aiuto e comprensione di costo e stato; le cinque parti sono ricondotte al medesimo obiettivo.",
+      "smartCriterion": "summary",
+      "inputs": [
+        {
+          "file": "progetti/slide/data/ux-smart.json",
+          "sha256": "a9797549c8caee4036d126daedb13d66c52fcaf64c331e636582c68123dbd922"
+        },
+        {
+          "file": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+          "sha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce"
+        }
+      ],
+      "nativeDiagram": {
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/smart-obiettivo-completo.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/smart.typ",
+        "rendererSha256": "0e146f1b3618ecebdfe321bc85a9fb4ebf67f13fb51e2721e6ee51c8db69f973",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      },
+      "displayRights": ""
+    },
+    {
+      "code": "wireframe-ui",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/wireframe-ui-confronto-riepilogo.webp",
+      "sourceSha256": "54fcab139826fa4eb95b105d4d1cd0fbbdd561754bb6c7ca20d02ccf08f4319a",
+      "web": "/images/processo-ux-ui/wireframe-ui.webp",
+      "sha256": "54fcab139826fa4eb95b105d4d1cd0fbbdd561754bb6c7ca20d02ccf08f4319a",
+      "caption": "Stessi dati e azioni nei tre livelli. «Invia richiesta» apre l’attesa dell’accettazione.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "alt": "Lo stesso riepilogo di Viola in tre colonne: bozzetto a mano, media fedeltà e alta fedeltà. In ogni versione: Giulia Riva, 17 novembre 2026 alle 20:30, Via Esempio 12 a Milano, 45 minuti, totale 60 euro con spostamento incluso, conferma dopo accettazione, Invia richiesta e Modifica i dati.",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-ui-confronto-riepilogo.png",
+      "originalSha256": "197e5dbcdcfe6a1dbe19c697995e8fe726c30fac6238ad22b176698d3ccfdbd3",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/wireframe-ui-confronto-riepilogo.txt",
+      "promptSha256": "d259324cbf37c66a53d5b46f7c4873e1cf266cc9218b61c97bf3c4f150c7b043",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "references": [
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-mano-dettaglio-riepilogo.png",
+          "sha256": "7c8b6036a0f8d9e2d4fd4bf52a2258398f5e41934a2e61e3528240f46c5ffac5"
+        },
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-media-dettaglio-riepilogo.png",
+          "sha256": "dffbe63d2bf95c1330dbcbf67fd3491066bd51b21943bb363e83335e2374099f"
+        },
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-alta-dettaglio-riepilogo.png",
+          "sha256": "d48aeb3196c288e77ef65703eb605515b656ad6eed40cbdcbb402b769fc4907f"
+        }
+      ],
+      "wireframeComparison": true,
+      "displayRights": ""
+    },
+    {
+      "code": "caso-iterazione-v1",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/revisione-v1-risultati.webp",
+      "sourceSha256": "e99f0afc456616371f7d25ca82d948510ffb6f64083d683a69b2ce6edb2b3507",
+      "web": "/images/processo-ux-ui/caso-iterazione-v1.webp",
+      "sha256": "e99f0afc456616371f7d25ca82d948510ffb6f64083d683a69b2ce6edb2b3507",
+      "caption": "R1–R3 sono visibili prima di «Vedi visita». Invio e conferma restano da chiarire.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "alt": "Confronto dei risultati prima e dopo la revisione V1, basato sui wireframe di Viola. V0 mostra Giulia Riva, 20:30 e 45 minuti, con Vedi profilo. V1 aggiunge Via Esempio 12 a Milano, 17 novembre 2026 dopo le 20, visita a domicilio, totale di 60 euro e spostamento incluso prima di Vedi visita. Le informazioni aggiunte sono evidenziate in Cedro.",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/revisione-v1-risultati.png",
+      "originalSha256": "ccdf33b899c0f35237d4f351e0772d4f4f6ce7cca3114b5a6b1307911bee1f8c",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/revisione-v1-risultati.txt",
+      "promptSha256": "188f9ee769ef3acebad789273f143ca40e8390d71c9e840257b38185fef55de6",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "references": [
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-alta-ricerca-risultati.png",
+          "sha256": "37cffa863c51467c97f492a903e9ca6747006705fac0b23ec0673cc828f892b8"
+        },
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/wireframe-media-ricerca-risultati.png",
+          "sha256": "a1fb69981ac24d3a3d68d1a90bb1fb64794e2c03597a8a1b54c8fc3da9a943c1"
+        }
+      ],
+      "wireframeRevision": {
+        "screenId": "risultati",
+        "beforeVersion": "v0",
+        "afterVersion": "v1"
+      },
+      "displayRights": ""
+    }
+  ],
+  "archivedImages": [
+    {
+      "code": "persona",
+      "source": "progetti/booklet/assets/processo-ux-ui/persona-corunga.png",
+      "sourceSha256": "4c37eb7c733b71fc628cbb7656bff7783a9422239f5b1f7ead00796bcd6b3954",
+      "web": "/images/processo-ux-ui/persona.png",
+      "sha256": "4c37eb7c733b71fc628cbb7656bff7783a9422239f5b1f7ead00796bcd6b3954",
+      "caption": "Claudia deve acquistare biglietti ferroviari per gruppi. La scheda collega compiti, bisogni e frustrazioni; la grafica non dimostra il metodo di ricerca.",
+      "rights": "Iulian Corunga.",
+      "alt": "Scheda persona di Claudia con fotografia, aspirazioni, compiti, bisogni e frustrazioni in inglese.",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "preparatorySource": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "physicalPage": 74,
+      "archivedReason": "Replaced by the native Viola persona sheet at the user’s request."
+    },
+    {
+      "code": "wireframe-ui",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/wireframe-ui.svg",
+      "sourceSha256": "efb7f3d1365fe0d0bfb94dba0efdf1ef26a9dee61f54dcae4d21685f80c71044",
+      "web": "/images/processo-ux-ui/wireframe-ui.svg",
+      "sha256": "efb7f3d1365fe0d0bfb94dba0efdf1ef26a9dee61f54dcae4d21685f80c71044",
+      "caption": "Lo stesso esempio passa dalle aree ai contenuti e alla proposta di UI.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Tre livelli del medesimo esempio: a. aree della schermata; b. contenuti e comando; c. proposta di UI. Data, durata e costo sono ipotetici.",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/wireframe-ui.typ",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ],
+      "sourceCaption": "Tre livelli del medesimo esempio simulato: a. aree della schermata; b. contenuti e comando; c. proposta di UI. Data, durata e costo sono ipotetici.",
+      "sourceAlt": "Tre livelli del medesimo esempio simulato: a. aree della schermata; b. contenuti e comando; c. proposta di UI. Data, durata e costo sono ipotetici.",
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/wireframe-ui.svg",
+          "sha256": "dcba10c8c504f1333aa09552c954c478a88a9255aea65c8a04a1c2e4c13897f3",
+          "caption": "Tre livelli del medesimo esempio simulato: a. aree della schermata; b. contenuti e comando; c. proposta di UI. Data, durata e costo sono ipotetici.",
+          "alt": "Tre livelli del medesimo esempio: a. aree della schermata; b. contenuti e comando; c. proposta di UI. Data, durata e costo sono ipotetici."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/wireframe-ui.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      },
+      "archivedReason": "Replaced by the ImageGen comparison of the approved Viola wireframes."
+    },
+    {
+      "code": "caso-iterazione-v1",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/caso-iterazione-v1.svg",
+      "sourceSha256": "7ec387358e16e7c0c5113be8a5fcbe97bc1c01c155dc1ba4951c06120c31e193",
+      "web": "/images/processo-ux-ui/caso-iterazione-v1.svg",
+      "sha256": "7ec387358e16e7c0c5113be8a5fcbe97bc1c01c155dc1ba4951c06120c31e193",
+      "caption": "V0 → V1: anticipare domicilio, fascia serale e totale.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Confronto della prima revisione, con criteri di compatibilità prima dei risultati.",
+      "nativeDiagram": {
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/caso-iterazione-v1.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      },
+      "archivedReason": "Replaced by the ImageGen comparison based on the approved Viola wireframes."
+    },
+    {
+      "code": "mockup",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/mockup.svg",
+      "sourceSha256": "ea32f4559e38427742d17c869fc55a7e094546c21293464b1fcdc1ca90ac23d6",
+      "web": "/images/processo-ux-ui/mockup.svg",
+      "sha256": "ea32f4559e38427742d17c869fc55a7e094546c21293464b1fcdc1ca90ac23d6",
+      "caption": "WCC Properties: dettaglio superiore del wireframe e della proposta UI. Struttura riconoscibile, fotografia e gerarchia visiva a confronto.",
+      "rights": "JH Specialty; Evan Sauers, 2022.",
+      "alt": "Testata WCC Properties in wireframe e mockup, con titolo, immagine e comando.",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "crop": "Top 101/460.6 pt of the full image, matching the chapter header detail; no raster edits.",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/processo-ux-ui/originali/wireframe-mockup.png",
+          "sha256": "cfebf0efaf18a2ad44cb647509aa9cdede445fa357d0248c4153bd055738abca"
+        }
+      ],
+      "archivedReason": "Rimossa dal percorso Slidev su richiesta dell’utente."
+    },
+    {
+      "code": "fedelta",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/fedelta.svg",
+      "sourceSha256": "5cc775688234e6c9a5c622b0bf2186888fc67fae109469131b11fa2e9cda75bd",
+      "web": "/images/processo-ux-ui/fedelta.svg",
+      "sha256": "5cc775688234e6c9a5c622b0bf2186888fc67fae109469131b11fa2e9cda75bd",
+      "caption": "Aspetto e comportamento sono dimensioni distinte della fedeltà.",
+      "rights": "CVeDI, 2026. Diagramma didattico.",
+      "alt": "Aspetto e comportamento sono dimensioni distinte. La domanda della prova orienta il dettaglio necessario.",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/fedelta.typ",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/fedelta.svg",
+          "sha256": "c2673c148555dbd3eb9f1fe4888c3a050d06a6efd1c7326398ad8130e0a5a27a",
+          "caption": "Aspetto e comportamento sono dimensioni distinte. La domanda della prova orienta il dettaglio necessario.",
+          "alt": "Aspetto e comportamento sono dimensioni distinte. La domanda della prova orienta il dettaglio necessario."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/fedelta.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      },
+      "displayRights": "",
+      "archivedReason": "Rimossa dal percorso Slidev su richiesta dell’utente."
     }
   ],
   "objectiveArtwork": [

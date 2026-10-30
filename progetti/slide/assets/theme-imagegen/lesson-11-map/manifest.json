@@ -1,0 +1,274 @@
+{
+  "version": 1,
+  "lesson": "processo-ux-ui",
+  "date": "2026-10-30",
+  "palette": "violet/Cedro",
+  "mode": "built-in image_gen; six existing illustrations reused",
+  "conversion": "cwebp -lossless -exact; alpha conservato",
+  "images": [
+    {
+      "step": 1,
+      "label": "Brief",
+      "web": "/images/processo-ux-ui/illustrazione-brief.webp",
+      "decorative": true,
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-brief.webp",
+      "sourceSha256": "cd84da16e0cbcf45930ec11f065719cc5373d1f48a3f3780c963b435393d43fb",
+      "sha256": "cd84da16e0cbcf45930ec11f065719cc5373d1f48a3f3780c963b435393d43fb",
+      "rights": "CVeDI, 2026.",
+      "reuse": true,
+      "sourceManifest": "progetti/slide/assets/booklet/lezione-processo-ux-ui/image-manifest.json"
+    },
+    {
+      "step": 2,
+      "label": "Obiettivi",
+      "web": "/images/processo-ux-ui/mappa-obiettivi.webp",
+      "decorative": true,
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-map/web/mappa-obiettivi.webp",
+      "sourceSha256": "ed0d90082c4a96dce0dd7643ce041ed187e5d3123049eda3e06815bdb98ce8f8",
+      "sha256": "ed0d90082c4a96dce0dd7643ce041ed187e5d3123049eda3e06815bdb98ce8f8",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-map/originals/obiettivi.png",
+      "originalSha256": "1d06cf570cfbe94d589a6f77ddf42b7f30d72ddaded24e6a0199154117f14e31",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-map/prompts/obiettivi.txt",
+      "promptSha256": "54ddac9ba7c89a0c50aa232453f1ac891c82653900996ad6bd6f9ed2f01a2c5a",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "generationTool": "image_gen integrato",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "reuse": false
+    },
+    {
+      "step": 3,
+      "label": "Competitor",
+      "web": "/images/processo-ux-ui/mappa-competitor.webp",
+      "decorative": true,
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-map/web/mappa-competitor.webp",
+      "sourceSha256": "fca9c3b2f31917191a2258eebad69ab900bedd2d69d984233bb57bcb36d58b65",
+      "sha256": "fca9c3b2f31917191a2258eebad69ab900bedd2d69d984233bb57bcb36d58b65",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-map/originals/competitor.png",
+      "originalSha256": "de1266db34a4f2a84a70ef696d764d246f1a00ccff23521c055d42dc55608fa3",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-map/prompts/competitor.txt",
+      "promptSha256": "000dc3da8958e84b975f6cc1af3691c4141e412acc9a9490f625c37fd933bcca",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "generationTool": "image_gen integrato",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "reuse": false
+    },
+    {
+      "step": 4,
+      "label": "Problema",
+      "web": "/images/processo-ux-ui/mappa-problema.webp",
+      "decorative": true,
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-map/web/mappa-problema.webp",
+      "sourceSha256": "5e3207df8a757146bae0b93e9226de6a8a86693c17562c34be3f146d22fc9d43",
+      "sha256": "5e3207df8a757146bae0b93e9226de6a8a86693c17562c34be3f146d22fc9d43",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-map/originals/problema.png",
+      "originalSha256": "831b99994a825ea032232f40e4330b0a6d06067a927e40d85a58a5ffe94cece1",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-map/prompts/problema.txt",
+      "promptSha256": "8546b9c40e574a0eb8203e5086e62ef73457e6bc1a550e3b35a9dbd1409a0506",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "generationTool": "image_gen integrato",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "reuse": false
+    },
+    {
+      "step": 5,
+      "label": "Ricerca",
+      "web": "/images/processo-ux-ui/illustrazione-ricerca.webp",
+      "decorative": true,
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-ricerca.webp",
+      "sourceSha256": "85cd26fb15af249075494bf4d4d76c8d9190d2ae35a8b02a21d127da862f809c",
+      "sha256": "85cd26fb15af249075494bf4d4d76c8d9190d2ae35a8b02a21d127da862f809c",
+      "rights": "CVeDI, 2026.",
+      "reuse": true,
+      "sourceManifest": "progetti/slide/assets/booklet/lezione-processo-ux-ui/image-manifest.json"
+    },
+    {
+      "step": 6,
+      "label": "Personas",
+      "web": "/images/processo-ux-ui/mappa-personas.webp",
+      "decorative": true,
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-map/web/mappa-personas.webp",
+      "sourceSha256": "0f7337fe2c7cda94d1451f94d443f980abe753a1d61fc90cd286ccec712ed792",
+      "sha256": "0f7337fe2c7cda94d1451f94d443f980abe753a1d61fc90cd286ccec712ed792",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-map/originals/personas.png",
+      "originalSha256": "91044f9c2576c27b74e9072140862d0162ef18a99ff05887c34c0a575935605f",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-map/prompts/personas.txt",
+      "promptSha256": "c6cc2179adf486915b44fc076ac242ff0896346bccd373a58cf19462557df14a",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "generationTool": "image_gen integrato",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "reuse": false
+    },
+    {
+      "step": 7,
+      "label": "Journey e flow",
+      "web": "/images/processo-ux-ui/obiettivo-percorsi.svg",
+      "decorative": true,
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/obiettivo-percorsi.svg",
+      "sourceSha256": "48193bc8f3516df24c3e4d1f345fb8709417c70bb97d6c1754ec851d7fe3e946",
+      "sha256": "48193bc8f3516df24c3e4d1f345fb8709417c70bb97d6c1754ec851d7fe3e946",
+      "rights": "CVeDI, 2026. Illustrazione vettoriale originale.",
+      "reuse": true,
+      "sourceManifest": "progetti/slide/assets/booklet/lezione-processo-ux-ui/image-manifest.json"
+    },
+    {
+      "step": 8,
+      "label": "Requisiti",
+      "web": "/images/processo-ux-ui/illustrazione-requisiti.webp",
+      "decorative": true,
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-requisiti.webp",
+      "sourceSha256": "6e50848606aff9d76b76d3efa8f5cef3b1e3b15bb4e9ac3c16aa58feb3ef74f6",
+      "sha256": "6e50848606aff9d76b76d3efa8f5cef3b1e3b15bb4e9ac3c16aa58feb3ef74f6",
+      "rights": "CVeDI, 2026.",
+      "reuse": true,
+      "sourceManifest": "progetti/slide/assets/booklet/lezione-processo-ux-ui/image-manifest.json"
+    },
+    {
+      "step": 9,
+      "label": "Architettura",
+      "web": "/images/processo-ux-ui/mappa-architettura.webp",
+      "decorative": true,
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-map/web/mappa-architettura.webp",
+      "sourceSha256": "fd58ef8c7bd712bd796534f3c5244aa24c20bcc8919cc4873ba19382750c6db7",
+      "sha256": "fd58ef8c7bd712bd796534f3c5244aa24c20bcc8919cc4873ba19382750c6db7",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-map/originals/architettura.png",
+      "originalSha256": "9104c82dc3d9f84140f1ec2edd36d03b4b8d0e2ee416632e83526f21a6a27fd4",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-map/prompts/architettura.txt",
+      "promptSha256": "431582082913839787ba85580a95fe06f9528af7948dd1d8bed050339a9286eb",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "generationTool": "image_gen integrato",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "reuse": false
+    },
+    {
+      "step": 10,
+      "label": "Wireframe",
+      "web": "/images/processo-ux-ui/illustrazione-wireframe.webp",
+      "decorative": true,
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-wireframe.webp",
+      "sourceSha256": "11e33f84bb3ee5d62d687b29b9e8f46b5345d9038c1c0da596f50eab9a5d85d3",
+      "sha256": "11e33f84bb3ee5d62d687b29b9e8f46b5345d9038c1c0da596f50eab9a5d85d3",
+      "rights": "CVeDI, 2026.",
+      "reuse": true,
+      "sourceManifest": "progetti/slide/assets/booklet/lezione-processo-ux-ui/image-manifest.json"
+    },
+    {
+      "step": 11,
+      "label": "Prototipo e test",
+      "web": "/images/processo-ux-ui/mappa-prototipo.webp",
+      "decorative": true,
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-map/web/mappa-prototipo.webp",
+      "sourceSha256": "7af167e80b6fe54e8ed68d813a574fce4a210af9955ac583b45a6b2f6de0cf92",
+      "sha256": "7af167e80b6fe54e8ed68d813a574fce4a210af9955ac583b45a6b2f6de0cf92",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-map/originals/prototipo.png",
+      "originalSha256": "28219561fd0bcebd071a492af8b68cfe31184d3c54009169903f6fc3b67e88d8",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-map/prompts/prototipo.txt",
+      "promptSha256": "01d1bcf3a0225f33bf0b12c283d18a2cfd47baf996e2170befe71ea2815edeba",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "generationTool": "image_gen integrato",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "reuse": false
+    },
+    {
+      "step": 12,
+      "label": "Iterazioni",
+      "web": "/images/processo-ux-ui/mappa-iterazioni.webp",
+      "decorative": true,
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-map/web/mappa-iterazioni.webp",
+      "sourceSha256": "78c9353f763fe3afdf5ad37e27a402428f64c2c7ba8f8dc518912493eed08b9e",
+      "sha256": "78c9353f763fe3afdf5ad37e27a402428f64c2c7ba8f8dc518912493eed08b9e",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-map/originals/iterazioni.png",
+      "originalSha256": "efbad21317048e54e02e93e793940e1d4f20c41a691aa3da0a69e9382571aa44",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-map/prompts/iterazioni.txt",
+      "promptSha256": "5807bcb2ffa7fcf8cefaf2b95c0c3fe6404cb84c39373b2113913d96e380eb2b",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "generationTool": "image_gen integrato",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "reuse": false
+    },
+    {
+      "step": 13,
+      "label": "UI e mockup",
+      "web": "/images/processo-ux-ui/mappa-ui.webp",
+      "decorative": true,
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-map/web/mappa-ui.webp",
+      "sourceSha256": "7171626da70d904ce567baf373002e26ffc13f3d18039be589c0666a9f15d05d",
+      "sha256": "7171626da70d904ce567baf373002e26ffc13f3d18039be589c0666a9f15d05d",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-map/originals/ui.png",
+      "originalSha256": "655e36c6c2147e35b88a6aeb21f28a4cf35beccdf4788ac834c2f44603ea4c4c",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-map/prompts/ui.txt",
+      "promptSha256": "546dba118e9ad43c44bb5ef2cecc7e99485cd80837df06a5d1e5942c358f0523",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "generationTool": "image_gen integrato",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "reuse": false
+    },
+    {
+      "step": 14,
+      "label": "Nuova verifica",
+      "web": "/images/processo-ux-ui/illustrazione-verifica.webp",
+      "decorative": true,
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-verifica.webp",
+      "sourceSha256": "2d0cc240a1d8de46dd52ca3e1ae03b9d4826eaafc5346ca283c80627c1d9f0fc",
+      "sha256": "2d0cc240a1d8de46dd52ca3e1ae03b9d4826eaafc5346ca283c80627c1d9f0fc",
+      "rights": "CVeDI, 2026.",
+      "reuse": true,
+      "sourceManifest": "progetti/slide/assets/booklet/lezione-processo-ux-ui/image-manifest.json"
+    }
+  ]
+}

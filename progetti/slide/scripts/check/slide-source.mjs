@@ -629,6 +629,13 @@ export async function checkSlideSources() {
   const typographyIcons = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/theme-imagegen/lesson-08-cards/manifest.json'), 'utf8'))
   const gridsIcons = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/theme-imagegen/lesson-09-cards/manifest.json'), 'utf8'))
   const processIcons = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/booklet/lezione-processo-ux-ui/image-manifest.json'), 'utf8')).objectiveArtwork
+  const processCardIcons = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/booklet/lezione-processo-ux-ui/card-artwork.json'), 'utf8')).images
+  for (const icon of processCardIcons) {
+    assert.equal(artwork.assets[icon.id], icon.web, `${icon.id}: reused process motif is registered`)
+    assert.equal(createHash('sha256').update(await readFile(path.join(root, icon.source))).digest('hex'), icon.sourceSha256, `${icon.id}: original motif source retained`)
+    assert.equal(createHash('sha256').update(await readFile(path.join(slideRoot, 'public' + icon.web))).digest('hex'), icon.sha256, `${icon.id}: public motif pixels retained`)
+    assert.ok(icon.owners.length > 0, `${icon.id}: reused motif has an active owner`)
+  }
   const compositionIcons = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/theme-imagegen/lesson-10-cards/manifest.json'), 'utf8'))
   const paletteRefresh = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/theme-imagegen/card-palette-refresh/manifest.json'), 'utf8'))
   const refreshedCardFamilies = [
@@ -695,7 +702,7 @@ export async function checkSlideSources() {
   const activeOutline = outlineGenerations.jobs.filter(job => job.published)
   assert.equal(generations.jobs.length, generations.counts.images, 'complete shared illustration family')
   assert.equal(cardGenerations.jobs.length, cardGenerations.counts.images, 'complete selective card illustration family')
-  assert.equal(Object.keys(artwork.assets).length, cardGenerations.jobs.length + historyIcons.jobs.length + researchIcons.jobs.length + perceptionIcons.jobs.length + typographyIcons.jobs.length + gridsIcons.jobs.length + compositionIcons.jobs.length + processIcons.length, 'only registered motifs populate the card catalog')
+  assert.equal(Object.keys(artwork.assets).length, cardGenerations.jobs.length + historyIcons.jobs.length + researchIcons.jobs.length + perceptionIcons.jobs.length + typographyIcons.jobs.length + gridsIcons.jobs.length + compositionIcons.jobs.length + processIcons.length + processCardIcons.length, 'only registered motifs populate the card catalog')
   for (const generation of [...generations.jobs, ...cardGenerations.jobs, ...activeOutline, ...chapterGenerations.jobs, ...historyIcons.jobs]) {
     assert.equal(generation.status, 'complete', `generated asset ${generation.id}: selected`)
     assert.ok(generation.prompt.trim(), `generated asset ${generation.id}: prompt provenance`)
@@ -768,6 +775,8 @@ export async function checkSlideSources() {
         assert.ok(gridsIcons.jobs.some(job => job.id === id && job.family === 'blue' && job.owners.some(owner => owner.lesson === 'griglie-layout' && owner.slideAlias === slide.frontmatter.routeAlias && normalizeTitle(owner.card) === title)), card[1] + ': grid objective has its own registered blue illustration')
         gridsCardUses++
       }
+      if (slide.frontmatter.lesson === 'processo-ux-ui' && id && processCardIcons.some(icon => icon.id === id))
+        assert.ok(processCardIcons.find(icon => icon.id === id).owners.some(owner => owner.slideAlias === slide.frontmatter.routeAlias && normalizeTitle(owner.card) === title), card[1] + ': reused process motif has the expected owner')
     }
   }
   assert.equal(directCards - addedCards, cardGenerations.counts.totalDirectCards, 'the existing card inventory is preserved')
@@ -775,8 +784,9 @@ export async function checkSlideSources() {
   assert.equal(typographyCardUses, typographyIcons.jobs.reduce((sum, job) => sum + job.owners.length, 0), 'the requested typography card illustrations have their active owners')
   assert.equal(gridsCardUses, 3, 'all three grid objectives have their requested illustrations')
   assert.equal(gridsCardUses, gridsIcons.jobs.length, 'one original illustration per grid objective')
-  assert.equal(illustratedCards, cardGenerations.counts.directCardUses + historyIcons.counts.directCardUses + researchCardUses + perceptionCardUses + typographyCardUses + gridsCardUses + compositionIcons.jobs.length + processIcons.length, 'selected direct cards have semantic motifs')
-  assert.ok(illustratedCards - researchCardUses - perceptionCardUses - processIcons.length > 0 && illustratedCards - researchCardUses - perceptionCardUses - processIcons.length < (directCards - researchCardUses - perceptionCardUses - processIcons.length) / 4, 'illustrations in the preserved lessons remain selective')
+  const processCardUses = processCardIcons.reduce((sum, icon) => sum + icon.owners.length, 0)
+  assert.equal(illustratedCards, cardGenerations.counts.directCardUses + historyIcons.counts.directCardUses + researchCardUses + perceptionCardUses + typographyCardUses + gridsCardUses + compositionIcons.jobs.length + processIcons.length + processCardUses, 'selected direct cards have semantic motifs')
+  assert.ok(illustratedCards - researchCardUses - perceptionCardUses - processIcons.length - processCardUses > 0 && illustratedCards - researchCardUses - perceptionCardUses - processIcons.length - processCardUses < (directCards - researchCardUses - perceptionCardUses - processIcons.length - processCardUses) / 4, 'illustrations in the preserved lessons remain selective')
   assert.deepEqual([...refreshedCards.keys()].sort(), [...activeRefreshedCardOwners.keys()].sort(), 'palette refresh covers exactly the active card motifs in its lessons')
   const ownerKey = owner => JSON.stringify([owner.lesson, owner.slide, owner.title, normalizeTitle(owner.card)])
   for (const [id, owners] of activeRefreshedCardOwners)

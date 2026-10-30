@@ -35,7 +35,7 @@
       "rows": [
         {
           "label": "Ambito",
-          "text": "Ricerca e richiesta di visite a domicilio nelle zone dimostrative Centro e Nord."
+          "text": "Ricerca e richiesta di visite a domicilio nelle zone Centro e Nord."
         },
         {
           "label": "Compito",
@@ -84,28 +84,24 @@
     {
       "step": 3,
       "slug": "competitor",
-      "title": "Confrontiamo alternative sul compito di Viola",
+      "title": "Tre modi per prenotare la stessa visita",
       "artifactId": "BENCH-01",
       "inputRef": "OBJ-01",
-      "context": "Seguiamo lo stesso scenario in tre alternative ipotetiche. Il confronto serve a formulare domande, non a inventare risultati di mercato.",
-      "decision": "Portiamo copertura, orari e costo prima della scelta. Manteniamo un contatto di assistenza quando nessuna proposta è compatibile.",
-      "artifactTitle": "Benchmark didattico",
+      "context": "Viola cerca un fisioterapista a domicilio dopo le 20. Vuole conoscere il costo totale e capire quando la visita è confermata.",
+      "decision": "Chiedere prima domicilio e fascia oraria, poi mostrare le proposte compatibili con costo totale e modalità di conferma.",
+      "artifactTitle": "Cosa dobbiamo verificare",
       "rows": [
         {
           "label": "Telefono",
-          "text": "Può chiarire i vincoli; la persona deve attendere una risposta e ricordare gli accordi."
+          "text": "Come vengono comunicati disponibilità, prezzo e conferma?"
         },
         {
           "label": "Sito dello studio",
-          "text": "Può spiegare il servizio; occorre verificare se copertura e agenda siano aggiornate."
+          "text": "Copertura, orari e prezzi sono presenti e aggiornati?"
         },
         {
           "label": "Rete coordinata",
-          "text": "Può confrontare proposte; deve rendere espliciti compatibilità e tempi della conferma."
-        },
-        {
-          "label": "Scelta di progetto",
-          "text": "Cerchiamo prima per domicilio e fascia oraria, poi confrontiamo le proposte."
+          "text": "Le proposte sono compatibili con domicilio e orario? La conferma è chiara?"
         }
       ],
       "handoff": "Il confronto circoscrive l’ostacolo da indagare con la ricerca."
@@ -142,19 +138,19 @@
     {
       "step": 5,
       "slug": "ricerca",
-      "title": "Dagli appunti simulati a decisioni provvisorie",
+      "title": "Dagli appunti a decisioni provvisorie",
       "artifactId": "RIC-01",
       "inputRef": "PROB-01",
-      "context": "Costruiamo un episodio di ricerca didattico. Le parole e i comportamenti seguenti sono inventati per mostrare il metodo.",
+      "context": "Nel caso di Viola seguiamo la ricerca di una visita serale a domicilio, separando azioni, parole e interpretazione.",
       "decision": "Non trasformiamo una singola scena in una regola universale: separiamo traccia, interpretazione e informazione ancora da raccogliere.",
-      "artifactTitle": "Registro didattico RIC-A1",
+      "artifactTitle": "Registro RIC-A1",
       "rows": [
         {
-          "label": "Scena simulata",
+          "label": "Scena",
           "text": "Viola apre una scheda, cerca la zona servita e torna alla lista."
         },
         {
-          "label": "Parole simulate",
+          "label": "Parole",
           "text": "“Posso sceglierla per casa mia? E dopo le 20?”"
         },
         {
@@ -174,7 +170,7 @@
       "title": "Il profilo orienta le scelte del servizio",
       "artifactId": "PERS-01",
       "inputRef": "RIC-01",
-      "context": "Viola è una persona simulata: il suo obiettivo guida il caso, mentre i tratti non sostenuti da ricerca rimangono ipotesi.",
+      "context": "L’obiettivo di Viola guida le scelte; i tratti non sostenuti dalla ricerca rimangono ipotesi.",
       "decision": "Usiamo obiettivo, vincoli e informazioni necessarie. Non deduciamo capacità digitali o necessità di supporto dall’età.",
       "artifactTitle": "Persona operativa · Viola",
       "rows": [
@@ -324,15 +320,15 @@
       "artifactId": "PROVA-00",
       "inputRef": "WF-00",
       "context": "Rendiamo navigabile V0 e assegniamo il compito: trovare una visita a casa dopo le 20 e capire che cosa accade dopo l’invio.",
-      "decision": "L’episodio seguente è simulato: serve a collegare ciò che accade a una revisione, senza dichiarare una ricerca svolta.",
-      "artifactTitle": "Registro della prova simulata",
+      "decision": "Colleghiamo ciò che accade durante la prova al problema da affrontare nella revisione.",
+      "artifactTitle": "Registro della prova",
       "rows": [
         {
           "label": "Compito",
           "text": "Cercare una visita serale a domicilio e riconoscere il totale prima di inviare."
         },
         {
-          "label": "E1 · Episodio simulato",
+          "label": "E1 · Episodio",
           "text": "Viola apre più schede per capire se il servizio raggiunge il suo domicilio."
         },
         {
@@ -361,8 +357,8 @@
           "text": "Zona e filtro Dopo le 20 prima dei risultati; durata e totale leggibili nella lista."
         },
         {
-          "label": "E2 · Episodio simulato",
-          "text": "Nella scena didattica Viola interpreta Prenota come conferma immediata."
+          "label": "E2 · Episodio",
+          "text": "Viola interpreta «Prenota» come conferma immediata."
         },
         {
           "label": "V1 → V2 · Promessa",
@@ -410,7 +406,7 @@
       "title": "V3 completa il recupero e la gestione",
       "artifactId": "SERV-03",
       "inputRef": "UI-02",
-      "context": "Una terza scena simulata introduce una variazione reale possibile: lo slot delle 20:30 scompare mentre Viola rilegge il riepilogo.",
+      "context": "Lo slot delle 20:30 scompare mentre Viola rilegge il riepilogo.",
       "decision": "V3 conserva domicilio e criteri, propone le 21:15 allo stesso totale e rende gestibili richieste e visite. La qualità resta da verificare sul campo.",
       "artifactTitle": "Proposta finale verificabile",
       "rows": [
@@ -466,6 +462,6 @@
   "openQuestions": [
     "Disponibilità reale della rete nelle fasce serali e tempi della risposta dei professionisti.",
     "Condizioni effettive di modifica, annullamento, pagamento e rimborso da concordare con chi gestisce il servizio.",
-    "Comprensione e uso da osservare con persone e tecnologie assistive; nessun esito simulato dimostra l’efficacia sul campo."
+    "Comprensione e uso da osservare con persone e tecnologie assistive."
   ]
 }

@@ -1,0 +1,33 @@
+{
+  "title": "Sitemap del sito di fisioterapia a domicilio",
+  "home": "Home",
+  "sections": [
+    {
+      "id": "servizio",
+      "title": "Il servizio",
+      "pages": ["Come funziona", "Zone e orari coperti", "Costi e condizioni"]
+    },
+    {
+      "id": "ricerca",
+      "title": "Trova una visita",
+      "pages": ["Ricerca disponibilità", "Risultati compatibili", "Dettaglio della visita", "Riepilogo e invio"]
+    },
+    {
+      "id": "visite",
+      "title": "Le mie visite",
+      "pages": ["Accesso alle visite", "Richieste e appuntamenti", "Dettaglio e gestione"]
+    },
+    {
+      "id": "assistenza",
+      "title": "Assistenza",
+      "pages": ["Domande frequenti", "Contatti e supporto"]
+    }
+  ],
+  "states": "Nel dettaglio: stato in attesa o confermato, modifica e annullamento.",
+  "footer": "Footer comune: privacy, cookie, accessibilità e condizioni del servizio.",
+  "source": {
+    "case": "progetti/slide/data/ux-service-case.json",
+    "artifact": "IA-01",
+    "note": "Sviluppo dell’alberatura del caso in pagine da realizzare per il sito. Attesa e conferma sono stati; modifica e annullamento sono azioni delle pagine di dettaglio. Accesso e contenuti comuni completano la proposta e restano da definire durante la realizzazione."
+  }
+}
