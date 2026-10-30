@@ -40,7 +40,7 @@ export async function copyCourseHome(destination) {
   await writeFile(path.join(destination, 'index.html'), html)
   for (const weight of [400, 700]) await cp(path.join(root, 'node_modules/@fontsource/inter/files', `inter-latin-${weight}-normal.woff2`), path.join(assets, 'fonts', `inter-${weight}.woff2`))
   await cp(path.join(root, 'node_modules/@fontsource/inter/LICENSE'), path.join(assets, 'fonts/INTER-LICENSE.txt'))
-  console.log('Course home: original metro geometry, local fonts and four destinations.')
+  console.log('Course home: original metro geometry, local fonts and five destinations.')
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url))
