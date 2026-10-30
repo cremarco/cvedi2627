@@ -1,13 +1,18 @@
 {
-  "version": 2,
+  "version": 3,
   "scenario": "Viola cerca una visita di fisioterapia a domicilio dopo le 20, verifica il totale e distingue richiesta e conferma.",
   "serviceData": "progetti/slide/data/ux-service-prototype.json",
   "insertionAfter": "wireframe-documento",
   "levels": [
     {
       "id": "mano",
-      "title": "Bozzetti a mano",
+      "title": "Sketch a mano",
       "description": "Tratto a penna nero, lievemente irregolare, su carta bianca piana. Testi scritti a mano in stampatello semplice e molto leggibile. Solo bianco e nero, segni essenziali, rettangoli abbozzati. Nessuna ombra, fotografia, colore, righello o mano visibile."
+    },
+    {
+      "id": "bassa",
+      "title": "Bassa fedeltà",
+      "description": "Wireframe digitale a blocchi segnaposto: rettangoli grigi per testi, riquadri con X per le immagini, campi vuoti e azioni essenziali. Stessa struttura delle schermate di Passo, senza nomi, date, prezzi, fotografie o colori di marca. Non è uno stato di caricamento."
     },
     {
       "id": "media",
@@ -16,7 +21,7 @@
     },
     {
       "id": "alta",
-      "title": "Alta fedeltà",
+      "title": "Mockup ad alta fedeltà",
       "description": "UI Passo ad alta fedeltà: marchio passo. con punto Cedro, Nunito Sans, violetto #5B21B6, inchiostro viola scuro, superfici bianche e lavanda, controlli ampi, ritratti di Giulia e Luca coerenti con il sito. Gerarchia, impaginazione, etichette e azioni provengono dalle schermate reali di riferimento. Nessun gradiente o elemento inventato. Attesa neutra, conferma Cedro."
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "lesson": "processo-ux-ui",
   "date": "2026-10-30",
   "generationTool": "image_gen integrato",
@@ -140,6 +140,146 @@
           "sha256": "de37a225b41e1574573b4e599a302fb862c51405392c552fec9eca9d2abc3080"
         }
       ]
+    },
+    {
+      "code": "wireframe-bassa-home-visite",
+      "slideSlug": "wireframe-bassa-home-visite",
+      "level": "bassa",
+      "pair": "home-visite",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/passo-wireframe-bassa-home-visite.png",
+      "originalSha256": "b76cd0380f23345f3a5773607a20ad19dd7ab5fa5e3a9bca6677f340a55610dd",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/passo-wireframe-bassa-home-visite.webp",
+      "sha256": "24319ee6b484c4fc3d7ec08d3a70f6722949f03ff512bce048ec16cfdc73fb72",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/passo-wireframe-bassa-home-visite.txt",
+      "promptSha256": "2591dd67ec787fd3a9e7e03ac675e0ec5e96a5ced733aee566c8705e5b1966d9",
+      "caption": "Blocchi segnaposto per testi, immagini, campi e azioni: si valuta la struttura prima dei contenuti realistici.",
+      "alt": "Passo · Home e gestione delle visite a bassa fedeltà: rettangoli grigi per i testi, riquadri con X per le immagini, campi vuoti e blocchi scuri per le azioni.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "displayRights": "",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "width": 1672,
+      "height": 941,
+      "references": [
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/passo-references/home.png",
+          "sha256": "8f2a6f03baa3a10e2275709233fc0349e27ab45f0375d8ee21c1f71b91b4936a"
+        },
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/passo-references/visite.png",
+          "sha256": "6b272e15ceb8204b09c9c6330b1a059d4ee9b0c3a7b5a234ec1bf136df747146"
+        },
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/passo-wireframe-media-home-visite.png",
+          "sha256": "ea98992deb5b494e7b9d2eb0a8e552cfa8ad46a9de5837f98c1b60d614038ca4"
+        }
+      ],
+      "placeholderOnly": true
+    },
+    {
+      "code": "wireframe-bassa-ricerca-risultati",
+      "slideSlug": "wireframe-bassa-ricerca-risultati",
+      "level": "bassa",
+      "pair": "ricerca-risultati",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/passo-wireframe-bassa-ricerca-risultati.png",
+      "originalSha256": "2d711ad8fe5e754ad005e81649742fa57ad5b0e71b069580ded1dcc3adfb015a",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/passo-wireframe-bassa-ricerca-risultati.webp",
+      "sha256": "7415019c2d93a19fc2183da5ae38be053378aee4cd7c289b3d689a3a27c3c842",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/passo-wireframe-bassa-ricerca-risultati.txt",
+      "promptSha256": "497de2f1ddd8064b35140742b04413385a0b393483a866e47573aee1c6d9437a",
+      "caption": "Blocchi segnaposto per testi, immagini, campi e azioni: si valuta la struttura prima dei contenuti realistici.",
+      "alt": "Passo · Ricerca e risultati a bassa fedeltà: rettangoli grigi per i testi, riquadri con X per le immagini, campi vuoti e blocchi scuri per le azioni.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "displayRights": "",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "width": 1672,
+      "height": 941,
+      "references": [
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/passo-references/ricerca.png",
+          "sha256": "4b299460ea41a249c41e3d49ee2040b9b916bdfab7de1e565f7d027b77843b4c"
+        },
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/passo-references/risultati.png",
+          "sha256": "c3323599a4c7e73e4f43a7ac600ecc5f5f01ae5c46f3f707467523803fff6b4b"
+        },
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/passo-wireframe-media-ricerca-risultati.png",
+          "sha256": "4b33b4fdb56c5bc246a8e9f22d69df69791b392f5a22e32abb2c103052f1a078"
+        }
+      ],
+      "placeholderOnly": true
+    },
+    {
+      "code": "wireframe-bassa-dettaglio-riepilogo",
+      "slideSlug": "wireframe-bassa-dettaglio-riepilogo",
+      "level": "bassa",
+      "pair": "dettaglio-riepilogo",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/passo-wireframe-bassa-dettaglio-riepilogo.png",
+      "originalSha256": "91c82d7de27713df66658936e6f945750a54023aef8779f97223c4beaa886960",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/passo-wireframe-bassa-dettaglio-riepilogo.webp",
+      "sha256": "a553675e3c6f4c44d989b54cc8a1823801fb7dc4c2cd767e2d55563069ddf93b",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/passo-wireframe-bassa-dettaglio-riepilogo.txt",
+      "promptSha256": "d51623d8a5a1123de94896b13d755b9da88cf27b9002c2ed5a9a71d425c3e8a4",
+      "caption": "Blocchi segnaposto per testi, immagini, campi e azioni: si valuta la struttura prima dei contenuti realistici.",
+      "alt": "Passo · Dettaglio e riepilogo a bassa fedeltà: rettangoli grigi per i testi, riquadri con X per le immagini, campi vuoti e blocchi scuri per le azioni.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "displayRights": "",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "width": 1672,
+      "height": 941,
+      "references": [
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/passo-references/dettaglio.png",
+          "sha256": "2640849902b5528efd6eb4f80bee6e7de4a1219e617d8cf911aad8cb7cb24524"
+        },
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/passo-references/riepilogo.png",
+          "sha256": "3c12ef902fb624284aadcccb56c76f77d9c048b656011247b446d5f410a5e882"
+        },
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/passo-wireframe-media-dettaglio-riepilogo.png",
+          "sha256": "cf3f9d032a2d2fdf9da90b0228ce11278383439caeeef94753ddbd51b3c3b484"
+        }
+      ],
+      "placeholderOnly": true
+    },
+    {
+      "code": "wireframe-bassa-attesa-conferma",
+      "slideSlug": "wireframe-bassa-attesa-conferma",
+      "level": "bassa",
+      "pair": "attesa-conferma",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/passo-wireframe-bassa-attesa-conferma.png",
+      "originalSha256": "6ccd5e3721b5c7d32d6f70acf00994322ec5cfae6d48910d057f1ee84d190fc9",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/passo-wireframe-bassa-attesa-conferma.webp",
+      "sha256": "655be487142c578899469ce5063ad3516aa5a7e4dda8b471fc041aa5128e1161",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/passo-wireframe-bassa-attesa-conferma.txt",
+      "promptSha256": "753884c7c4e9692b21bacc82c1fb9e8e203b0f2bf8eef89630217bb78ac78ae7",
+      "caption": "La struttura di richiesta e conferma resta distinta; le sole etichette di stato identificano i due esiti.",
+      "alt": "Passo · Richiesta e conferma a bassa fedeltà: rettangoli grigi per i testi, riquadri con X per le immagini, campi vuoti e blocchi scuri per le azioni.",
+      "rights": "CVeDI, 2026. Tavola generata con IA.",
+      "displayRights": "",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": false,
+      "width": 1672,
+      "height": 941,
+      "references": [
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/passo-references/attesa.png",
+          "sha256": "5e661c9ea3b099c84251583083b4d856d93e308adbf4659e1568aefacbb117f3"
+        },
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/passo-references/conferma.png",
+          "sha256": "9d2d228f91a01ddc588678debb60051717735a3cd0b6d18029c0e018b71127d4"
+        },
+        {
+          "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/passo-wireframe-media-attesa-conferma.png",
+          "sha256": "92d302c0e0ae4c1998ea43956f9f16788bf6212742ed8ada9acd7f9e81d913ef"
+        }
+      ],
+      "placeholderOnly": true
     },
     {
       "code": "wireframe-media-home-visite",
@@ -428,17 +568,18 @@
     "screenId": "riepilogo",
     "levels": [
       "mano",
+      "bassa",
       "media",
       "alta"
     ],
-    "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/passo-wireframe-ui.png",
-    "originalSha256": "0d742143ad0672812bf8f181e979c372b4f429dc529f23e71551009d01e93209",
-    "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/passo-wireframe-ui.webp",
-    "sha256": "e96e6a9f9df692f35496a3fe18d51d7c14196a8b581bb364bd36f734cc4d680b",
-    "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/passo-wireframe-ui.txt",
-    "promptSha256": "ca401227664dc76ef943589bd604deab036a283461e8d5a09358d34cf693b3a4",
-    "caption": "Il riepilogo di Passo mantiene contatti, visita e invio nei tre livelli di fedeltà.",
-    "alt": "Lo stesso riepilogo di Passo a mano, a media e ad alta fedeltà: contatti e privacy a sinistra; Giulia Riva, 17 novembre 2026 alle 20:30, Via Esempio 12 a Milano, CAP 20121, 45 minuti e totale 60 euro con spostamento incluso a destra. Invia richiesta apre l’attesa; Modifica i dati permette di correggere.",
+    "original": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/passo-wireframe-ui-bassa-v2.png",
+    "originalSha256": "72639c73848ae8b604c5a31ae5cb0fc3df39ee473366a9fef119f960195c77c5",
+    "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/web/passo-wireframe-ui-bassa-v2.webp",
+    "sha256": "2f17c93fda83ae9cf079a4b48c5ce33c8b6f9b478c5b7e15f1211373dcbd6453",
+    "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/prompts/passo-wireframe-ui-bassa-v2.txt",
+    "promptSha256": "af647e714f1ca253a29f5e02c8a448cb18427f775e0705a049b1026849fabec4",
+    "caption": "Dallo sketch ai blocchi segnaposto, ai contenuti e al mockup: contatti a sinistra, visita e azioni a destra.",
+    "alt": "Riepilogo di Passo in quattro passaggi: sketch a mano, wireframe a bassa fedeltà con soli blocchi grigi e immagini con X, wireframe a media fedeltà con nomi, campi e dati della visita, mockup con fotografia e violetto. Contatti a sinistra, riepilogo e azioni a destra. Invia richiesta apre l’attesa.",
     "rights": "CVeDI, 2026. Tavola generata con IA.",
     "displayRights": "",
     "generationTool": "image_gen integrato",
@@ -449,6 +590,10 @@
       {
         "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/passo-wireframe-mano-dettaglio-riepilogo.png",
         "sha256": "6bbdb38b6c4fe2b58ae0a654145b75c02e1abb90787c1a38dbe7115ccc4c67e3"
+      },
+      {
+        "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/passo-wireframe-bassa-dettaglio-riepilogo.png",
+        "sha256": "91c82d7de27713df66658936e6f945750a54023aef8779f97223c4beaa886960"
       },
       {
         "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/passo-wireframe-media-dettaglio-riepilogo.png",
@@ -495,5 +640,15 @@
   ],
   "siteSource": "progetti/fisioterapia/",
   "sourceCaptures": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/passo-references/manifest.json",
-  "previousRevision": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/revisioni/prima-passo/manifest.json"
+  "previousRevision": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/revisioni/prima-passo/manifest.json",
+  "lowFidelityExtension": {
+    "previousManifest": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/revisioni/prima-bassa-fedelta/manifest.json",
+    "levels": [
+      "mano",
+      "bassa",
+      "media",
+      "alta"
+    ],
+    "description": "Quattro tavole a blocchi segnaposto e confronto riepilogo in quattro passaggi."
+  }
 }

@@ -1305,6 +1305,46 @@
       "artifactId": "WF-00"
     },
     {
+      "slug": "sketch-wireframe-mockup",
+      "alias": "processo-ux-ui-sketch-wireframe-mockup",
+      "title": "Sketch, wireframe e mockup",
+      "kind": "comparison",
+      "lead": "Dall’esplorazione delle idee alla struttura, fino alla proposta visiva.",
+      "points": [],
+      "minutes": 2,
+      "step": 10,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Wireframing",
+      "sourceKeys": [
+        "ux-deliverables-glossary",
+        "ux-sketching",
+        "wireframe-mockup-figma"
+      ],
+      "cards": [
+        {
+          "title": "Sketch · Esplorare",
+          "text": "Schizzo rapido, a mano o in digitale, per esplorare idee e alternative. Usa segni essenziali e annotazioni facili da cambiare.",
+          "artwork": "/images/processo-ux-ui/illustrazione-wireframe.webp"
+        },
+        {
+          "title": "Wireframe · Strutturare",
+          "text": "Schema di contenuti, gerarchie e controlli. Usa blocchi segnaposto a bassa fedeltà; precisa etichette e dati a media fedeltà.",
+          "artwork": "/images/processo-ux-ui/mappa-prototipo.webp"
+        },
+        {
+          "title": "Mockup · Visualizzare",
+          "text": "Rappresentazione statica della proposta visiva: colori, tipografia, immagini e componenti mostrano come apparirà l’interfaccia.",
+          "artwork": "/images/processo-ux-ui/mappa-ui.webp"
+        }
+      ],
+      "notice": {
+        "title": "Il prototipo simula il comportamento",
+        "text": "Permette di provare azioni e risposte; può usare anche sketch e wireframe a bassa fedeltà.",
+        "kind": "explore"
+      }
+    },
+    {
       "slug": "contenuti-realistici",
       "alias": "processo-ux-ui-contenuti-realistici",
       "title": "Wireframe con contenuti realistici",
@@ -1348,7 +1388,7 @@
     {
       "slug": "wireframe-mano-home-visite",
       "alias": "processo-ux-ui-wireframe-mano-home-visite",
-      "title": "Bozzetti a mano · Home e visite",
+      "title": "Sketch a mano · Home e visite",
       "kind": "image",
       "lead": "",
       "points": [],
@@ -1365,7 +1405,7 @@
     {
       "slug": "wireframe-mano-ricerca-risultati",
       "alias": "processo-ux-ui-wireframe-mano-ricerca-risultati",
-      "title": "Bozzetti a mano · Ricerca e risultati",
+      "title": "Sketch a mano · Ricerca e risultati",
       "kind": "image",
       "lead": "",
       "points": [],
@@ -1382,7 +1422,7 @@
     {
       "slug": "wireframe-mano-dettaglio-riepilogo",
       "alias": "processo-ux-ui-wireframe-mano-dettaglio-riepilogo",
-      "title": "Bozzetti a mano · Dettaglio e riepilogo",
+      "title": "Sketch a mano · Dettaglio e riepilogo",
       "kind": "image",
       "lead": "",
       "points": [],
@@ -1399,7 +1439,7 @@
     {
       "slug": "wireframe-mano-attesa-conferma",
       "alias": "processo-ux-ui-wireframe-mano-attesa-conferma",
-      "title": "Bozzetti a mano · Richiesta e conferma",
+      "title": "Sketch a mano · Richiesta e conferma",
       "kind": "image",
       "lead": "",
       "points": [],
@@ -1411,6 +1451,74 @@
       "references": [],
       "sourceHeading": "Wireframing",
       "wireframeLevel": "mano",
+      "wireframePair": "attesa-conferma"
+    },
+    {
+      "slug": "wireframe-bassa-home-visite",
+      "alias": "processo-ux-ui-wireframe-bassa-home-visite",
+      "title": "Bassa fedeltà · Home e visite",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 1,
+      "step": 10,
+      "figures": [
+        "wireframe-bassa-home-visite"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing",
+      "wireframeLevel": "bassa",
+      "wireframePair": "home-visite"
+    },
+    {
+      "slug": "wireframe-bassa-ricerca-risultati",
+      "alias": "processo-ux-ui-wireframe-bassa-ricerca-risultati",
+      "title": "Bassa fedeltà · Ricerca e risultati",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 1,
+      "step": 10,
+      "figures": [
+        "wireframe-bassa-ricerca-risultati"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing",
+      "wireframeLevel": "bassa",
+      "wireframePair": "ricerca-risultati"
+    },
+    {
+      "slug": "wireframe-bassa-dettaglio-riepilogo",
+      "alias": "processo-ux-ui-wireframe-bassa-dettaglio-riepilogo",
+      "title": "Bassa fedeltà · Dettaglio e riepilogo",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 1,
+      "step": 10,
+      "figures": [
+        "wireframe-bassa-dettaglio-riepilogo"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing",
+      "wireframeLevel": "bassa",
+      "wireframePair": "dettaglio-riepilogo"
+    },
+    {
+      "slug": "wireframe-bassa-attesa-conferma",
+      "alias": "processo-ux-ui-wireframe-bassa-attesa-conferma",
+      "title": "Bassa fedeltà · Richiesta e conferma",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 1,
+      "step": 10,
+      "figures": [
+        "wireframe-bassa-attesa-conferma"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing",
+      "wireframeLevel": "bassa",
       "wireframePair": "attesa-conferma"
     },
     {
@@ -1484,7 +1592,7 @@
     {
       "slug": "wireframe-alta-home-visite",
       "alias": "processo-ux-ui-wireframe-alta-home-visite",
-      "title": "Alta fedeltà · Home e visite",
+      "title": "Mockup ad alta fedeltà · Home e visite",
       "kind": "image",
       "lead": "",
       "points": [],
@@ -1501,7 +1609,7 @@
     {
       "slug": "wireframe-alta-ricerca-risultati",
       "alias": "processo-ux-ui-wireframe-alta-ricerca-risultati",
-      "title": "Alta fedeltà · Ricerca e risultati",
+      "title": "Mockup ad alta fedeltà · Ricerca e risultati",
       "kind": "image",
       "lead": "",
       "points": [],
@@ -1518,7 +1626,7 @@
     {
       "slug": "wireframe-alta-dettaglio-riepilogo",
       "alias": "processo-ux-ui-wireframe-alta-dettaglio-riepilogo",
-      "title": "Alta fedeltà · Dettaglio e riepilogo",
+      "title": "Mockup ad alta fedeltà · Dettaglio e riepilogo",
       "kind": "image",
       "lead": "",
       "points": [],
@@ -1535,7 +1643,7 @@
     {
       "slug": "wireframe-alta-attesa-conferma",
       "alias": "processo-ux-ui-wireframe-alta-attesa-conferma",
-      "title": "Alta fedeltà · Richiesta e conferma",
+      "title": "Mockup ad alta fedeltà · Richiesta e conferma",
       "kind": "image",
       "lead": "",
       "points": [],
@@ -1552,9 +1660,9 @@
     {
       "slug": "wireframe-progressione",
       "alias": "processo-ux-ui-wireframe-progressione",
-      "title": "Lo stesso riepilogo, tre livelli di fedeltà",
-      "kind": "teaching",
-      "lead": "Lo stesso riepilogo di Passo: contatti a sinistra, visita e invio a destra.",
+      "title": "Dallo sketch al mockup, la stessa struttura",
+      "kind": "image",
+      "lead": "",
       "points": [],
       "minutes": 2,
       "step": 10,
@@ -2398,6 +2506,11 @@
           "label": "Gibbons, S. (2018). Journey mapping 101. Nielsen Norman Group.",
           "url": "https://www.nngroup.com/articles/journey-mapping-101/",
           "note": "Attore, scenario, fasi e punti di contatto."
+        },
+        {
+          "label": "Wang, H.-H. (2024). UX deliverables: glossary. Nielsen Norman Group.",
+          "url": "https://www.nngroup.com/articles/ux-deliverables-glossary/",
+          "note": "Definizioni di wireframe, mockup e prototipo."
         }
       ],
       "sourceHeading": "Fonti · Ricerca e rappresentazione"
@@ -2520,6 +2633,7 @@
     "insertAfter": "wireframe-documento",
     "levels": [
       "mano",
+      "bassa",
       "media",
       "alta"
     ],
@@ -2529,9 +2643,10 @@
       "dettaglio-riepilogo",
       "attesa-conferma"
     ],
-    "slideCount": 12,
+    "slideCount": 16,
     "contentIntro": "contenuti-realistici",
-    "siteSource": "progetti/fisioterapia/"
+    "siteSource": "progetti/fisioterapia/",
+    "definitions": "sketch-wireframe-mockup"
   },
   "archivedSlides": [
     {

@@ -18,7 +18,7 @@ export async function checkUxProcessSources(deck) {
   const slides = deck.slides.filter(slide => slide.frontmatter.lesson === manifest.lesson)
   assert.equal(manifest.number, 11)
   assert.equal(manifest.palette, 'violet')
-  assert.equal(manifest.slideCount, 122, 'three new home/visits boards extend the retained 119 slides')
+  assert.equal(manifest.slideCount, 127, 'four placeholder-wireframe boards and the definitions extend the retained 122 slides')
   assert.equal(slides.length, manifest.slideCount)
   assert.equal(plan.slides.length, slides.length)
   assert.equal(await sha(manifest.sourceFile), manifest.sourceSha256, 'current chapter provenance')
@@ -194,6 +194,12 @@ export async function checkUxProcessSources(deck) {
   assert.equal(used.size, assets.images.length, 'every lesson figure has an active owner')
   const wireframes = await read(plan.wireframeExtension.imageManifest)
   const wireframeData = await read(plan.wireframeExtension.dataFile)
+  const beforeLowFidelity = await read(wireframes.lowFidelityExtension.previousManifest)
+  for (const image of [...beforeLowFidelity.images, beforeLowFidelity.comparison]) {
+    assert.equal(await sha(image.original), image.originalSha256, 'the earlier Passo original is preserved')
+    assert.equal(await sha(image.derivative), image.sha256, 'the earlier Passo derivative is preserved')
+    assert.equal(await sha(image.prompt), image.promptSha256, 'the earlier Passo generation prompt is preserved')
+  }
   const previousWireframes = await read(wireframes.previousRevision)
   for (const image of [...previousWireframes.images, previousWireframes.comparison, ...previousWireframes.revisions]) {
     assert.equal(await sha(image.original), image.originalSha256, 'previous wireframe original remains preserved')
@@ -202,11 +208,14 @@ export async function checkUxProcessSources(deck) {
   }
 
   const wireframeSlides = plan.slides.filter(slide => slide.wireframeLevel)
-  assert.equal(wireframes.images.length, 12, 'four pairs of Passo screens at each of the three fidelity levels')
-  assert.deepEqual(wireframeSlides.map(slide => slide.wireframeLevel), ['mano', 'media', 'alta'].flatMap(level => Array(4).fill(level)))
+  assert.equal(wireframes.images.length, 16, 'four pairs of Passo screens across sketches, low and medium fidelity, and mockups')
+  assert.deepEqual(wireframeSlides.map(slide => slide.wireframeLevel), ['mano', 'bassa', 'media', 'alta'].flatMap(level => Array(4).fill(level)))
   const wireframeStart = plan.slides.findIndex(slide => slide.slug === plan.wireframeExtension.insertAfter) + 1
   assert.equal(plan.slides[wireframeStart - 2].slug, plan.wireframeExtension.contentIntro, 'realistic content is introduced immediately before the wireframe examples')
-  assert.deepEqual(plan.slides.slice(wireframeStart, wireframeStart + 12).map(slide => slide.slug), wireframeSlides.map(slide => slide.slug), 'all twelve boards follow the retained paper-wireframe example')
+  assert.deepEqual(plan.slides.slice(wireframeStart, wireframeStart + 16).map(slide => slide.slug), wireframeSlides.map(slide => slide.slug), 'all sixteen boards follow the retained paper-wireframe example')
+  const definitions = plan.slides.find(slide => slide.slug === plan.wireframeExtension.definitions)
+  assert.ok(definitions && plan.slides.indexOf(definitions) < wireframeStart, 'definitions precede the examples')
+  assert.deepEqual(definitions.cards.map(card => card.title.split(' · ')[0]), ['Sketch', 'Wireframe', 'Mockup'])
   assert.deepEqual(wireframeData.pairs.flatMap(pair => pair.screens.map(screen => screen.id)), ['home', 'visite', 'ricerca', 'risultati', 'dettaglio', 'riepilogo', 'attesa', 'conferma'])
   for (const image of wireframes.images) {
     const owner = wireframeSlides.find(slide => slide.slug === image.slideSlug)
@@ -218,14 +227,17 @@ export async function checkUxProcessSources(deck) {
     assert.equal(await sha(image.derivative), image.sha256, 'lossless web board retained')
     assert.equal(images.get(image.code).generationTool, 'image_gen integrato')
     const prompt = await readFile(path.join(root, image.prompt), 'utf8')
-    for (const screen of wireframeData.pairs.find(pair => pair.id === image.pair).screens)
+    if (image.level === 'bassa') {
+      assert.equal(image.placeholderOnly, true, 'low fidelity intentionally replaces realistic contents with blocks')
+      assert.ok(prompt.includes('LOW-FIDELITY BLOCK WIREFRAMES') && prompt.includes('rectangular placeholders'), 'low fidelity is explicitly structural')
+    } else for (const screen of wireframeData.pairs.find(pair => pair.id === image.pair).screens)
       for (const text of [screen.title, ...screen.lines, screen.primary, screen.secondary].filter(Boolean))
-        assert.ok(prompt.includes(text), 'every scenario label is specified verbatim in the generation prompt')
+        assert.ok(prompt.includes(text), 'every realistic scenario label is specified verbatim in the generation prompt')
     for (const reference of image.references) assert.equal(await sha(reference.file), reference.sha256, 'fidelity conversion retains its exact reference image')
     assert.ok(image.references.length >= 2, 'every board retains the actual site screenshots used as references')
     const pair = wireframeData.pairs.find(pair => pair.id === image.pair)
     for (const screen of pair.screens) assert.ok(image.references.some(ref => ref.file.endsWith('/passo-references/' + screen.id + '.png')), 'actual screen reference is preserved')
-    if (image.level !== 'mano') assert.ok(image.references.some(ref => ref.file === wireframes.images.find(prior => prior.pair === image.pair && prior.level === (image.level === 'media' ? 'mano' : 'media')).original), 'next fidelity retains the previous approved board')
+    if (image.level !== 'mano') assert.ok(image.references.some(ref => ref.file === wireframes.images.find(prior => prior.pair === image.pair && prior.level === (image.level === 'media' ? 'mano' : 'media')).original), 'each conversion retains its approved structural reference')
   }
   const persona = await read('progetti/slide/data/ux-persona.json')
   const personaSlide = plan.slides.find(slide => slide.slug === 'persona-documento')
@@ -256,10 +268,10 @@ export async function checkUxProcessSources(deck) {
   assert.equal(comparison.screenId, 'riepilogo')
   assert.deepEqual(comparison.levels, wireframeData.levels.map(level => level.id))
   assert.equal(images.get(comparison.code).generationTool, 'image_gen integrato')
-  assert.equal(await sha(comparison.original), comparison.originalSha256, 'the generated three-level comparison is retained')
+  assert.equal(await sha(comparison.original), comparison.originalSha256, 'the generated four-stage comparison is retained')
   assert.equal(await sha(comparison.derivative), comparison.sha256, 'the comparison keeps its lossless web derivative')
   assert.equal(await sha(comparison.prompt), comparison.promptSha256, 'the exact comparison prompt is retained')
-  assert.deepEqual(comparison.references.map(reference => reference.file), wireframes.images.filter(image => image.pair === 'dettaglio-riepilogo').map(image => image.original), 'the comparison uses the three approved summary references in fidelity order')
+  assert.deepEqual(comparison.references.map(reference => reference.file), wireframes.images.filter(image => image.pair === 'dettaglio-riepilogo').map(image => image.original), 'the comparison uses the four approved summary references in fidelity order')
   for (const reference of comparison.references) assert.equal(await sha(reference.file), reference.sha256)
   const previousProgression = assets.archivedImages.find(image => image.code === comparison.code)
   assert.equal(await sha(previousProgression.source), previousProgression.sourceSha256, 'the replaced generic SVG is preserved')

@@ -1,8 +1,8 @@
 # Processo UX e UI · fonti della lezione 11
 
-122 slide, 181.5 minuti pianificati, inclusi 18 minuti di attività e 3 di restituzione. Presentazione pubblicata su GitHub Pages, successiva a Composizione, con palette violet/Cedro e numerazione autonoma.
+127 slide, 187.5 minuti pianificati, inclusi 18 minuti di attività e 3 di restituzione. Presentazione pubblicata su GitHub Pages, successiva a Composizione, con palette violet/Cedro e numerazione autonoma.
 
-La slide contenuti-realistici precede wireframe-documento e introduce l’uso di nomi, durata, indirizzo, costo e stati prima degli esempi. Le dodici tavole ImageGen del percorso di Passo seguono wireframe-documento: quattro bozzetti a mano, quattro wireframe digitali a media fedeltà e quattro mockup ad alta fedeltà. Ogni livello mostra le stesse otto schermate, raccolte in home/visite, ricerca/risultati, dettaglio/riepilogo e richiesta/conferma. Domicilio, professionista, data, orari, durata e costo provengono dai dati dello scenario. L’invio resta una richiesta in attesa; la conferma dipende dall’accettazione del professionista. data/ux-wireframe-sequence.json separa contenuti e sequenza dalle immagini; assets/theme-imagegen/lesson-11-wireframes/ conserva PNG, WebP lossless, prompt e riferimenti fra i livelli con hash. Le tavole sono statiche e usano LessonFigure per didascalia, alternativa testuale e ingrandimento. Il confronto wireframe-progressione usa le tre schermate di riepilogo della stessa serie: dati e comandi identici nei tre livelli; il precedente SVG generico è conservato in archivedImages. La slide revisione-v1 confronta la stessa proposta nei risultati: V0 mostra Giulia Riva e l’orario; V1 anticipa domicilio, fascia serale e totale prima di «Vedi visita». La tavola ImageGen segue le schermate di ricerca e risultati approvate; il manifest della serie conserva originale, prompt e i due riferimenti. Il precedente SVG resta in archivedImages. La distinzione tra richiesta e conferma resta nella revisione V2.
+La slide contenuti-realistici precede wireframe-documento e introduce l’uso di nomi, durata, indirizzo, costo e stati prima degli esempi. La slide sketch-wireframe-mockup definisce schizzo esplorativo, schema strutturale e proposta visiva statica, distinguendoli dal prototipo che simula azioni e risposte. Le sedici tavole ImageGen del percorso di Passo seguono wireframe-documento: quattro sketch a mano, quattro wireframe a bassa fedeltà con blocchi segnaposto, quattro wireframe digitali a media fedeltà e quattro mockup ad alta fedeltà. Ogni livello mostra le stesse otto schermate, raccolte in home/visite, ricerca/risultati, dettaglio/riepilogo e richiesta/conferma. Domicilio, professionista, data, orari, durata e costo provengono dai dati dello scenario. L’invio resta una richiesta in attesa; la conferma dipende dall’accettazione del professionista. data/ux-wireframe-sequence.json separa contenuti e sequenza dalle immagini; assets/theme-imagegen/lesson-11-wireframes/ conserva PNG, WebP lossless, prompt e riferimenti fra i livelli con hash. Le tavole sono statiche e usano LessonFigure per didascalia, alternativa testuale e ingrandimento. Il confronto wireframe-progressione riprende lo stesso riepilogo in quattro passaggi: sketch, blocchi segnaposto, media fedeltà con contenuti e mockup. La bassa fedeltà mostra soltanto struttura, campi e azioni; dati e comandi realistici sono conservati negli altri elaborati. Il precedente confronto a tre pannelli resta nel manifest revisioni/prima-bassa-fedelta; il precedente SVG generico è conservato in archivedImages. La slide revisione-v1 confronta la stessa proposta nei risultati: V0 mostra Giulia Riva e l’orario; V1 anticipa domicilio, fascia serale e totale prima di «Vedi visita». La tavola ImageGen segue le schermate di ricerca e risultati approvate; il manifest della serie conserva originale, prompt e i due riferimenti. Il precedente SVG resta in archivedImages. La distinzione tra richiesta e conferma resta nella revisione V2.
 
 La struttura segue le quattordici attività del capitolo 3 di Matteo Di Pascale (2019), consultato nelle pagine fisiche 38–45 del PDF fornito. Carlo, Giovanni e Viola appartengono al caso narrativo del libro. Il capitolo 09 Typst è la fonte editoriale corrente; le lezioni 03–06 e 08 del 2025/26 e il booklet di dicembre 2024 contribuiscono ai contenuti. Percorsi, pagine fisiche, hash e fonti primarie sono in references.json. I richiami all’autore e al manuale sono omessi dai contenuti visibili su richiesta dell’utente; la provenienza completa rimane nei registri locali.
 
@@ -10,7 +10,7 @@ Le quattordici aperture usano domanda, tre attività, risultato atteso e richiam
 
 V0 mostra la prima bozza; V1 anticipa zona, fascia serale e totale; V2 distingue invio, attesa e accettazione del professionista; V3 conserva i dati durante il recupero e rende gestibili richieste e visite. UxServicePrototype dimostra tutte e quattro le versioni con controlli reali e dati locali in data/ux-service-prototype.json. La presentazione segue i wireframe approvati: marchio Passo, intestazione bianca, risultati con fotografie e orari selezionabili, dettaglio della visita prima del riepilogo con contatti e consenso e azioni principali in evidenza. V0 usa i grigi; V1–V3 usano violetto e Cedro. Titoli e comandi sono condivisi con data/ux-wireframe-sequence.json. La prima bozza conserva il costo tardivo e «Prenota», mentre V2–V3 distinguono richiesta e conferma. La ricerca controlla il CAP della copertura illustrativa, senza geocodificare il domicilio. Le simulazioni di slot perso e conferma umana sono controlli didattici esterni all’interfaccia del servizio. Non viene inviata alcuna richiesta. Stampa ed export mostrano un riepilogo deterministico. La proposta finale conserva i limiti: disponibilità e tempi reali, condizioni effettive e prove con persone e tecnologie assistive.
 
-Le 59 figure comprendono 23 ricostruzioni per la proiezione, 5 elaborati nativi del caso, sei schemi SMART, un documento attribuito, cinque illustrazioni di scena e tre ritratti, un’infografica SMART e un ritratto realistico di Viola e 14 tavole di wireframe e confronto generate con ImageGen; tre motivi vettoriali illustrano gli obiettivi. Le ricostruzioni mantengono gli originali in reconstruction.original. I nuovi esempi sono registrati in nativeDiagram con renderer, font e hash. Tutti i 34 schemi usano gabbia da 800 pt, canvas da 842 pt con 40 pt liberi per lo zoom, Nunito Sans in tracciati, corpo 15,5 pt e note 14 pt. Il font deriva dai contorni web con istanze 400/600/700 e famiglia CVeDI Diagram Sans; originale, licenza e ricevute restano in ricostruite/font/. Le verifiche misurano almeno 20 px per il corpo e 18 per le note nel canvas. Il documento attivo conserva l’attribuzione: wireframe NS di Jolanda Dekker. Il dettaglio WCC Properties di JH Specialty è escluso su richiesta; ritaglio, attribuzione e originale integrale restano conservati in archivedImages e negli asset originali. La scheda persona di Iulian Corunga è conservata in archivedImages; la slide persona-documento usa UxPersonaSheet e data/ux-persona.json, con testi italiani nativi e il ritratto realistico già approvato di Viola. Obiettivo, contesto, bisogni, comportamenti, ostacoli e domande da approfondire seguono il caso delle visite serali a domicilio. Le cinque illustrazioni di scena e i tre ritratti ImageGen conservano PNG, prompt, WebP lossless e hash. I ritratti di Carlo, Giovanni e Viola sono registrati separatamente in assets/theme-imagegen/lesson-11-cast/manifest.json; la slide del caso mantiene nomi e spiegazioni come testo nativo, senza didascalie aggiuntive. Caption, alternative e ingrandimento seguono il sistema condiviso. Nessun PDF del booklet viene compilato o aperto.
+Le 63 figure comprendono 23 ricostruzioni per la proiezione, 5 elaborati nativi del caso, sei schemi SMART, un documento attribuito, cinque illustrazioni di scena e tre ritratti, un’infografica SMART e un ritratto realistico di Viola e 18 tavole di wireframe e confronto generate con ImageGen; tre motivi vettoriali illustrano gli obiettivi. Le ricostruzioni mantengono gli originali in reconstruction.original. I nuovi esempi sono registrati in nativeDiagram con renderer, font e hash. Tutti i 34 schemi usano gabbia da 800 pt, canvas da 842 pt con 40 pt liberi per lo zoom, Nunito Sans in tracciati, corpo 15,5 pt e note 14 pt. Il font deriva dai contorni web con istanze 400/600/700 e famiglia CVeDI Diagram Sans; originale, licenza e ricevute restano in ricostruite/font/. Le verifiche misurano almeno 20 px per il corpo e 18 per le note nel canvas. Il documento attivo conserva l’attribuzione: wireframe NS di Jolanda Dekker. Il dettaglio WCC Properties di JH Specialty è escluso su richiesta; ritaglio, attribuzione e originale integrale restano conservati in archivedImages e negli asset originali. La scheda persona di Iulian Corunga è conservata in archivedImages; la slide persona-documento usa UxPersonaSheet e data/ux-persona.json, con testi italiani nativi e il ritratto realistico già approvato di Viola. Obiettivo, contesto, bisogni, comportamenti, ostacoli e domande da approfondire seguono il caso delle visite serali a domicilio. Le cinque illustrazioni di scena e i tre ritratti ImageGen conservano PNG, prompt, WebP lossless e hash. I ritratti di Carlo, Giovanni e Viola sono registrati separatamente in assets/theme-imagegen/lesson-11-cast/manifest.json; la slide del caso mantiene nomi e spiegazioni come testo nativo, senza didascalie aggiuntive. Caption, alternative e ingrandimento seguono il sistema condiviso. Nessun PDF del booklet viene compilato o aperto.
 
 Le 12 tabelle dai registri sono richiamate come UxProcessTable con codice semantico, senza src immagine. Le 14 applicazioni e la tabella delle decisioni usano HTML diretto. Il componente condiviso LessonTable mantiene intestazioni, scope, dati selezionabili e stampa. pnpm check:ux-tables verifica contenuti e geometria di tutte le tabelle nei tre formati; i controlli delle sorgenti impediscono il ripristino dei riferimenti SVG nel contenuto visibile. Gli originali grafici e le attribuzioni rimangono conservati.
 
@@ -86,63 +86,68 @@ La sitemap del sito da realizzare segue il confronto fra journey, flow e sitemap
 | 60 | Verificare etichette e raggruppamenti | 9 | Architettura dell’informazione |  |
 | 61 | 10 · Wireframing | 10 | Wireframing |  |
 | 62 | V0 mette alla prova la prima struttura | 10 | Wireframing |  |
-| 63 | Wireframe con contenuti realistici | 10 | Wireframing | illustrazione-wireframe |
-| 64 | Disegnare per capire una funzione | 10 | Wireframing | wireframe-carta |
-| 65 | Bozzetti a mano · Home e visite | 10 | Wireframing | wireframe-mano-home-visite |
-| 66 | Bozzetti a mano · Ricerca e risultati | 10 | Wireframing | wireframe-mano-ricerca-risultati |
-| 67 | Bozzetti a mano · Dettaglio e riepilogo | 10 | Wireframing | wireframe-mano-dettaglio-riepilogo |
-| 68 | Bozzetti a mano · Richiesta e conferma | 10 | Wireframing | wireframe-mano-attesa-conferma |
-| 69 | Media fedeltà · Home e visite | 10 | Wireframing | wireframe-media-home-visite |
-| 70 | Media fedeltà · Ricerca e risultati | 10 | Wireframing | wireframe-media-ricerca-risultati |
-| 71 | Media fedeltà · Dettaglio e riepilogo | 10 | Wireframing | wireframe-media-dettaglio-riepilogo |
-| 72 | Media fedeltà · Richiesta e conferma | 10 | Wireframing | wireframe-media-attesa-conferma |
-| 73 | Alta fedeltà · Home e visite | 10 | Wireframing | wireframe-alta-home-visite |
-| 74 | Alta fedeltà · Ricerca e risultati | 10 | Wireframing | wireframe-alta-ricerca-risultati |
-| 75 | Alta fedeltà · Dettaglio e riepilogo | 10 | Wireframing | wireframe-alta-dettaglio-riepilogo |
-| 76 | Alta fedeltà · Richiesta e conferma | 10 | Wireframing | wireframe-alta-attesa-conferma |
-| 77 | Lo stesso riepilogo, tre livelli di fedeltà | 10 | Wireframing | wireframe-ui |
-| 78 | V0 · Dalla struttura alle prime schermate | 10 | Wireframing | caso-wireframe-v0 |
-| 79 | 11 · Prototipo e prima prova | 11 | Prototipo a bassa fedeltà e test di usabilità |  |
-| 80 | Proviamo V0 e registriamo l’ostacolo | 11 | Prototipo a bassa fedeltà e test di usabilità |  |
-| 81 | V0 · Proviamo la prima bozza | 11 | Prototipo a bassa fedeltà e test di usabilità |  |
-| 82 | Prototipare quanto serve alla domanda | 11 | Prototipo a bassa fedeltà e test di usabilità |  |
-| 83 | 11 · Preparare un test di usabilità | 11 | Prototipo a bassa fedeltà e test di usabilità |  |
-| 84 | Una consegna descrive l’obiettivo | 11 | Prototipo a bassa fedeltà e test di usabilità |  |
-| 85 | La domanda organizza la prova | 11 | Prototipo a bassa fedeltà e test di usabilità | test |
-| 86 | Una sessione dall’inizio alla fine | 11 | Prototipo a bassa fedeltà e test di usabilità |  |
-| 87 | Che cosa abbiamo osservato? | 11 | Prototipo a bassa fedeltà e test di usabilità |  |
-| 88 | Registrare un episodio di prova | 11 | Prototipo a bassa fedeltà e test di usabilità | registro-prova |
-| 89 | 12 · Iterazioni sui prototipi | 12 | Iterazioni sui prototipi |  |
-| 90 | Due revisioni cambiano decisioni precise | 12 | Iterazioni sui prototipi |  |
-| 91 | Un problema, un’ipotesi, una nuova prova | 12 | Iterazioni sui prototipi | iterazione |
-| 92 | V0 → V1 · Prima la compatibilità | 12 | Iterazioni sui prototipi | caso-iterazione-v1 |
-| 93 | V1 · Troviamo una proposta compatibile | 12 | Iterazioni sui prototipi |  |
-| 94 | V1 → V2 · Rendere esplicita la promessa | 12 | Iterazioni sui prototipi | caso-iterazione-v2 |
-| 95 | Decidere che cosa correggere | 12 | Iterazioni sui prototipi |  |
-| 96 | Dare una priorità ai problemi | 12 | Iterazioni sui prototipi | priorita-problemi |
-| 97 | 13 · UI e mockup | 13 | User Interface e mockup |  |
-| 98 | La UI dà forma alle regole di V2 | 13 | User Interface e mockup |  |
-| 99 | Passo · Il sistema visivo applicato | 13 | User Interface e mockup | caso-sistema-ui |
-| 100 | V2 · Richiesta, attesa e conferma | 13 | User Interface e mockup |  |
-| 101 | Progettare scelta, recupero ed esito | 13 | User Interface e mockup | stati |
-| 102 | La UI comprende parole e comportamento | 13 | User Interface e mockup | ui-annotata |
-| 103 | Componenti, varianti e contenuti | 13 | User Interface e mockup |  |
-| 104 | 14 · Nuova verifica della soluzione | 14 | Nuova verifica della soluzione |  |
-| 105 | V3 completa il recupero e la gestione | 14 | Nuova verifica della soluzione |  |
-| 106 | V2 → V3 · Recuperare uno slot perso | 14 | Nuova verifica della soluzione | caso-iterazione-v3 |
-| 107 | V3 · Percorriamo il servizio completo | 14 | Nuova verifica della soluzione |  |
-| 108 | Valutare uso e accessibilità | 14 | Nuova verifica della soluzione |  |
-| 109 | Consegna: aspetto, regole e questioni aperte | — | Conservare ciò che si è appreso | illustrazione-requisiti |
-| 110 | Una consegna verificabile | — | Conservare ciò che si è appreso | consegna-stato |
-| 111 | Il servizio finale collega persone e risposte | — | Conservare ciò che si è appreso | caso-servizio-finale |
-| 112 | Dal prototipo al servizio reale | — | Dal progetto al servizio | illustrazione-verifica |
-| 113 | Ipotesi, prova, apprendimento | — | Iterazione e Lean UX | ciclo |
-| 114 | Scegliere la prossima attività | — | Scegliere il lavoro necessario |  |
-| 115 | Dal requisito alla prossima prova | — | Scegliere il lavoro necessario |  |
-| 116 | Rendere discutibile la proposta | — | Scegliere il lavoro necessario |  |
-| 117 | Adattare il processo al progetto | — | Scegliere il lavoro necessario |  |
-| 118 | Dal bisogno alla scelta motivata | — | Scegliere il lavoro necessario |  |
-| 119 | Risorse · Dal bisogno alla decisione | — | Scegliere il lavoro necessario |  |
-| 120 | Fonti · Ricerca e rappresentazione | — | Fonti · Ricerca e rappresentazione |  |
-| 121 | Fonti · Valutazione e apprendimento | — | Fonti · Valutazione e apprendimento |  |
-| 122 | Fonti · Documenti ed esempi | — | Fonti · Documenti ed esempi |  |
+| 63 | Sketch, wireframe e mockup | 10 | Wireframing |  |
+| 64 | Wireframe con contenuti realistici | 10 | Wireframing | illustrazione-wireframe |
+| 65 | Disegnare per capire una funzione | 10 | Wireframing | wireframe-carta |
+| 66 | Sketch a mano · Home e visite | 10 | Wireframing | wireframe-mano-home-visite |
+| 67 | Sketch a mano · Ricerca e risultati | 10 | Wireframing | wireframe-mano-ricerca-risultati |
+| 68 | Sketch a mano · Dettaglio e riepilogo | 10 | Wireframing | wireframe-mano-dettaglio-riepilogo |
+| 69 | Sketch a mano · Richiesta e conferma | 10 | Wireframing | wireframe-mano-attesa-conferma |
+| 70 | Bassa fedeltà · Home e visite | 10 | Wireframing | wireframe-bassa-home-visite |
+| 71 | Bassa fedeltà · Ricerca e risultati | 10 | Wireframing | wireframe-bassa-ricerca-risultati |
+| 72 | Bassa fedeltà · Dettaglio e riepilogo | 10 | Wireframing | wireframe-bassa-dettaglio-riepilogo |
+| 73 | Bassa fedeltà · Richiesta e conferma | 10 | Wireframing | wireframe-bassa-attesa-conferma |
+| 74 | Media fedeltà · Home e visite | 10 | Wireframing | wireframe-media-home-visite |
+| 75 | Media fedeltà · Ricerca e risultati | 10 | Wireframing | wireframe-media-ricerca-risultati |
+| 76 | Media fedeltà · Dettaglio e riepilogo | 10 | Wireframing | wireframe-media-dettaglio-riepilogo |
+| 77 | Media fedeltà · Richiesta e conferma | 10 | Wireframing | wireframe-media-attesa-conferma |
+| 78 | Mockup ad alta fedeltà · Home e visite | 10 | Wireframing | wireframe-alta-home-visite |
+| 79 | Mockup ad alta fedeltà · Ricerca e risultati | 10 | Wireframing | wireframe-alta-ricerca-risultati |
+| 80 | Mockup ad alta fedeltà · Dettaglio e riepilogo | 10 | Wireframing | wireframe-alta-dettaglio-riepilogo |
+| 81 | Mockup ad alta fedeltà · Richiesta e conferma | 10 | Wireframing | wireframe-alta-attesa-conferma |
+| 82 | Dallo sketch al mockup, la stessa struttura | 10 | Wireframing | wireframe-ui |
+| 83 | V0 · Dalla struttura alle prime schermate | 10 | Wireframing | caso-wireframe-v0 |
+| 84 | 11 · Prototipo e prima prova | 11 | Prototipo a bassa fedeltà e test di usabilità |  |
+| 85 | Proviamo V0 e registriamo l’ostacolo | 11 | Prototipo a bassa fedeltà e test di usabilità |  |
+| 86 | V0 · Proviamo la prima bozza | 11 | Prototipo a bassa fedeltà e test di usabilità |  |
+| 87 | Prototipare quanto serve alla domanda | 11 | Prototipo a bassa fedeltà e test di usabilità |  |
+| 88 | 11 · Preparare un test di usabilità | 11 | Prototipo a bassa fedeltà e test di usabilità |  |
+| 89 | Una consegna descrive l’obiettivo | 11 | Prototipo a bassa fedeltà e test di usabilità |  |
+| 90 | La domanda organizza la prova | 11 | Prototipo a bassa fedeltà e test di usabilità | test |
+| 91 | Una sessione dall’inizio alla fine | 11 | Prototipo a bassa fedeltà e test di usabilità |  |
+| 92 | Che cosa abbiamo osservato? | 11 | Prototipo a bassa fedeltà e test di usabilità |  |
+| 93 | Registrare un episodio di prova | 11 | Prototipo a bassa fedeltà e test di usabilità | registro-prova |
+| 94 | 12 · Iterazioni sui prototipi | 12 | Iterazioni sui prototipi |  |
+| 95 | Due revisioni cambiano decisioni precise | 12 | Iterazioni sui prototipi |  |
+| 96 | Un problema, un’ipotesi, una nuova prova | 12 | Iterazioni sui prototipi | iterazione |
+| 97 | V0 → V1 · Prima la compatibilità | 12 | Iterazioni sui prototipi | caso-iterazione-v1 |
+| 98 | V1 · Troviamo una proposta compatibile | 12 | Iterazioni sui prototipi |  |
+| 99 | V1 → V2 · Rendere esplicita la promessa | 12 | Iterazioni sui prototipi | caso-iterazione-v2 |
+| 100 | Decidere che cosa correggere | 12 | Iterazioni sui prototipi |  |
+| 101 | Dare una priorità ai problemi | 12 | Iterazioni sui prototipi | priorita-problemi |
+| 102 | 13 · UI e mockup | 13 | User Interface e mockup |  |
+| 103 | La UI dà forma alle regole di V2 | 13 | User Interface e mockup |  |
+| 104 | Passo · Il sistema visivo applicato | 13 | User Interface e mockup | caso-sistema-ui |
+| 105 | V2 · Richiesta, attesa e conferma | 13 | User Interface e mockup |  |
+| 106 | Progettare scelta, recupero ed esito | 13 | User Interface e mockup | stati |
+| 107 | La UI comprende parole e comportamento | 13 | User Interface e mockup | ui-annotata |
+| 108 | Componenti, varianti e contenuti | 13 | User Interface e mockup |  |
+| 109 | 14 · Nuova verifica della soluzione | 14 | Nuova verifica della soluzione |  |
+| 110 | V3 completa il recupero e la gestione | 14 | Nuova verifica della soluzione |  |
+| 111 | V2 → V3 · Recuperare uno slot perso | 14 | Nuova verifica della soluzione | caso-iterazione-v3 |
+| 112 | V3 · Percorriamo il servizio completo | 14 | Nuova verifica della soluzione |  |
+| 113 | Valutare uso e accessibilità | 14 | Nuova verifica della soluzione |  |
+| 114 | Consegna: aspetto, regole e questioni aperte | — | Conservare ciò che si è appreso | illustrazione-requisiti |
+| 115 | Una consegna verificabile | — | Conservare ciò che si è appreso | consegna-stato |
+| 116 | Il servizio finale collega persone e risposte | — | Conservare ciò che si è appreso | caso-servizio-finale |
+| 117 | Dal prototipo al servizio reale | — | Dal progetto al servizio | illustrazione-verifica |
+| 118 | Ipotesi, prova, apprendimento | — | Iterazione e Lean UX | ciclo |
+| 119 | Scegliere la prossima attività | — | Scegliere il lavoro necessario |  |
+| 120 | Dal requisito alla prossima prova | — | Scegliere il lavoro necessario |  |
+| 121 | Rendere discutibile la proposta | — | Scegliere il lavoro necessario |  |
+| 122 | Adattare il processo al progetto | — | Scegliere il lavoro necessario |  |
+| 123 | Dal bisogno alla scelta motivata | — | Scegliere il lavoro necessario |  |
+| 124 | Risorse · Dal bisogno alla decisione | — | Scegliere il lavoro necessario |  |
+| 125 | Fonti · Ricerca e rappresentazione | — | Fonti · Ricerca e rappresentazione |  |
+| 126 | Fonti · Valutazione e apprendimento | — | Fonti · Valutazione e apprendimento |  |
+| 127 | Fonti · Documenti ed esempi | — | Fonti · Documenti ed esempi |  |
