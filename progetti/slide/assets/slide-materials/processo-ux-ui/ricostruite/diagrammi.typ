@@ -224,8 +224,8 @@
   #grid(columns: 2, gutter: 18pt,
     panel([Problema ipotizzato], [Chi finisce tardi non capisce quali visite siano compatibili con il lavoro.], fill: pale),
     panel([Proposta], [Mostrare orari serali e copertura vicino al giorno selezionato.]),
-    panel([Cambiamento atteso], [La persona riconosce una disponibilità compatibile prima del riepilogo.], fill: none),
-    panel([Possibile smentita], [Trova l’orario, ma non procede perché il domicilio non è coperto.], fill: none))
+    panel([Cambiamento atteso], [La persona riconosce domicilio coperto e orario compatibile prima del riepilogo.], fill: none),
+    panel([Possibile smentita], [Copertura e orario sono compatibili, ma la persona non li riconosce e torna alla ricerca.], fill: none))
 ]
 #let journey-responsabilita() = graphic[
   #matrix(([Momento], [Prima della scelta], [Durante la richiesta], [Dopo l’accettazione]), (

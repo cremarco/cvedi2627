@@ -21,12 +21,12 @@
     {
       "id": "expected-change",
       "title": "Cambiamento atteso",
-      "text": "La persona riconosce una disponibilità compatibile prima del riepilogo."
+      "text": "La persona riconosce domicilio coperto e orario compatibile prima del riepilogo."
     },
     {
       "id": "disconfirmation",
       "title": "Possibile smentita",
-      "text": "Trova l’orario, ma non procede perché il domicilio non è coperto."
+      "text": "Copertura e orario sono compatibili, ma la persona non li riconosce e torna alla ricerca."
     }
   ]
 }

@@ -292,28 +292,28 @@
       "title": "V0 mette alla prova la prima struttura",
       "artifactId": "WF-00",
       "inputRef": "IA-01",
-      "context": "Disegniamo ricerca, lista e riepilogo con dati realistici. La bozza V0 permette di trovare i punti ancora deboli.",
-      "decision": "Conserviamo volontariamente un primo difetto: la lista privilegia il professionista e rimanda costo e compatibilità al dettaglio.",
-      "artifactTitle": "Wireframe WF-01 · Passo",
+      "context": "I wireframe seguenti mostrano la soluzione completa di Passo. V0 ricostruisce una prima bozza da migliorare.",
+      "decision": "Nella bozza V0 lasciamo costo e compatibilità nel dettaglio; il confronto con Passo rende visibile la revisione.",
+      "artifactTitle": "Wireframe WF-00 · Prima bozza",
       "rows": [
         {
-          "label": "Ingresso",
-          "text": "Home con fotografia domestica, ricerca e costo già visibile."
+          "label": "Ricerca",
+          "text": "Domicilio, CAP, giorno e fascia dopo le 20."
         },
         {
-          "label": "Cercare e scegliere",
-          "text": "Domicilio, CAP, giorno e fascia; profili, orari selezionabili e totale."
+          "label": "Lista V0",
+          "text": "Giulia e Luca con gli orari; costo e copertura non ancora visibili nella lista."
         },
         {
-          "label": "Inviare",
-          "text": "Contatti e privacy a sinistra; visita e invio a destra."
+          "label": "Dettaglio",
+          "text": "Domicilio, giorno, orario, durata e 60 € totali."
         },
         {
-          "label": "Gestire",
-          "text": "Richiesta in attesa, conferma del professionista e Le mie visite."
+          "label": "Riepilogo V0",
+          "text": "Contatti e dati della visita; «Prenota» lascia ancora ambiguo l’esito."
         }
       ],
-      "handoff": "Colleghiamo la bozza in un prototipo e mettiamo alla prova quel punto debole."
+      "handoff": "Confrontiamo V0 con le tavole complete di Passo e verifichiamo il primo ostacolo."
     },
     {
       "step": 11,
@@ -381,7 +381,7 @@
       "inputRef": "ITER-02",
       "context": "La struttura adesso distingue compatibilità e stato. Applichiamo i concetti delle lezioni precedenti alla stessa proposta di servizio.",
       "decision": "Griglia e vicinanza collegano dati e comandi; tipografia e colore distinguono ruoli. Lo stato rimane scritto anche senza colore.",
-      "artifactTitle": "Sistema UI-01 · Passo",
+      "artifactTitle": "Sistema UI-02 · Passo",
       "rows": [
         {
           "label": "Identità",

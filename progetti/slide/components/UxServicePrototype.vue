@@ -17,6 +17,7 @@ const prefix = 'ux-service-' + useId().replaceAll(':', '')
 const root = ref<HTMLElement>()
 const viewHeading = ref<HTMLElement>()
 const addressInput = ref<HTMLInputElement>()
+const contactForm = ref<HTMLFormElement>()
 const stage = ref<Stage>('search')
 const address = ref(service.address)
 const cap = ref(service.cap)
@@ -27,6 +28,7 @@ const period = ref('sera')
 const selectedTime = ref(service.time)
 const selectedProfessional = ref(service.professional)
 const slotLost = ref(false)
+const lostChoice = ref({ professional: service.professional, time: service.time })
 const busy = ref(false)
 const formError = ref('')
 const announcement = ref('')
@@ -46,10 +48,12 @@ const displayed = computed(() => stage.value === 'confirmed' && booking.value ? 
 })
 const hasClearStates = computed(() => level.value >= 2)
 const resultOptions = computed(() => service.professionals.map(person => {
-  const times = person.times.filter(time => !(slotLost.value && time === service.time && person.name === service.professional) && !rejectedChoices.value.includes(person.name + '|' + time))
+  const times = person.times.filter(time => !(slotLost.value && time === lostChoice.value.time && person.name === lostChoice.value.professional) && !rejectedChoices.value.includes(person.name + '|' + time))
   const chosen = times.includes(selectedSlots.value[person.name]) ? selectedSlots.value[person.name] : times[0]
   return { professional: person.name, times, time: chosen }
 }).filter(option => option.times.length))
+const alternativeOption = computed(() => resultOptions.value.find(option => option.professional === lostChoice.value.professional) ?? resultOptions.value[0])
+const contactInvalid = (field: 'name' | 'email' | 'privacy') => !!formError.value && (field === 'name' ? !contact.value.name.trim() : field === 'email' ? !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contact.value.email) : !contact.value.privacy)
 const progressIndex = computed(() => stage.value === 'search' || ['outside', 'empty'].includes(stage.value) ? 0 : stage.value === 'results' ? 1 : stage.value === 'detail' ? 2 : ['review', 'conflict'].includes(stage.value) ? 3 : 4)
 const canLoseSlot = computed(() => ['results', 'detail', 'review'].includes(stage.value) && !slotLost.value && !busy.value)
 const printSteps = computed(() => [
@@ -78,6 +82,7 @@ function reset() {
   contact.value = { name: 'Viola Esempio', email: 'viola@example.com', phone: '', privacy: false }; selectedSlots.value = {}; date.value = service.date; period.value = 'sera'
   selectedTime.value = service.time; selectedProfessional.value = service.professional
   slotLost.value = false; busy.value = false; formError.value = ''; announcement.value = ''
+  lostChoice.value = { professional: service.professional, time: service.time }
   editing.value = false; cancelRequested.value = false; cancelledType.value = 'Richiesta'
   rejectedChoices.value = []
   stage.value = props.startAt ?? (props.version === 'v0' ? 'results' : 'search')
@@ -107,12 +112,15 @@ function choose(time: string, professional: string) {
   selectedProfessional.value = professional
   go('detail')
 }
-function submitRequest() {
+async function submitRequest() {
   formError.value = ''
   if (!contact.value.name.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contact.value.email) || !contact.value.privacy) {
-    formError.value = 'Controlla nome, email e consenso privacy.'; return
+    formError.value = !contact.value.name.trim() ? 'Inserisci nome e cognome.' : !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contact.value.email) ? 'Inserisci un’email completa, ad esempio viola@example.com.' : 'Leggi e conferma l’informativa privacy.'
+    await nextTick()
+    contactForm.value?.querySelector<HTMLElement>('[aria-invalid="true"]')?.focus()
+    return
   }
-  if (slotLost.value && selectedTime.value === service.time) return go('conflict', 'L’orario non è più disponibile; i dati validi sono conservati.')
+  if (slotLost.value && selectedTime.value === lostChoice.value.time && selectedProfessional.value === lostChoice.value.professional) return go('conflict', 'L’orario non è più disponibile; i dati validi sono conservati.')
   hasRequest.value = true
   go('pending', 'Richiesta inviata nella simulazione. La visita non è ancora confermata.')
 }
@@ -131,6 +139,7 @@ function rejectProfessional() {
 }
 function loseSlot() {
   if (!canLoseSlot.value) return
+  lostChoice.value = { professional: selectedProfessional.value, time: selectedTime.value }
   slotLost.value = true
   if (level.value < 3) {
     address.value = ''; cap.value = service.cap; date.value = service.date
@@ -138,12 +147,13 @@ function loseSlot() {
   } else go('conflict', 'L’orario non è più disponibile. Domicilio, giorno e fascia sono conservati.')
 }
 function alternative() {
-  selectedTime.value = service.alternativeTime; selectedProfessional.value = service.professional
+  if (!alternativeOption.value) return go('empty')
+  selectedTime.value = alternativeOption.value.time; selectedProfessional.value = alternativeOption.value.professional
   go('review', 'Nuovo orario selezionato; il domicilio è rimasto invariato.')
 }
 function editBooking() {
   if (!booking.value) return
-  address.value = booking.value.address; cap.value = booking.value.cap; selectedTime.value = booking.value.time
+  address.value = booking.value.address; cap.value = booking.value.cap; selectedTime.value = booking.value.time; selectedProfessional.value = booking.value.professional
   editing.value = true
   go('search', 'Modifica avviata. La visita precedente rimane confermata fino alla nuova accettazione.')
 }
@@ -191,7 +201,7 @@ function onKey(event: KeyboardEvent) {
           <div><button class="btn prototype-control" type="button" data-testid="simulate-confirm" aria-label="Simula conferma del professionista" :disabled="stage !== 'pending'" @click="confirmProfessional">Accetta</button><button class="btn prototype-control" type="button" data-testid="simulate-reject" aria-label="Simula rifiuto del professionista" :disabled="stage !== 'pending'" @click="rejectProfessional">Non accetta</button></div>
         </div>
         <button v-else class="btn prototype-control" type="button" data-testid="simulate-confirm" :disabled="stage !== 'pending'" @click="confirmProfessional">Simula conferma del professionista</button>
-        <button class="btn prototype-control" type="button" data-testid="simulate-conflict" :disabled="!canLoseSlot" @click="loseSlot">Simula orario non più disponibile</button>
+        <button class="btn prototype-control" type="button" data-testid="simulate-conflict" :disabled="!canLoseSlot" @click="loseSlot">Simula indisponibilità delle {{ selectedTime }}</button>
         <button class="btn prototype-control" type="button" data-testid="prototype-reset" @click="reset">Ricomincia</button>
       </div>
     </aside>
@@ -235,12 +245,12 @@ function onKey(event: KeyboardEvent) {
         <template v-else-if="['detail', 'review', 'pending', 'confirmed'].includes(stage)">
           <h3 ref="viewHeading" tabindex="-1" data-testid="service-state-heading">{{ stage === 'detail' ? screens.dettaglio.title : stage === 'review' ? screens.riepilogo.title : stage === 'confirmed' ? screens.conferma.title : hasClearStates ? screens.attesa.title : 'Prenotazione ricevuta' }}</h3>
           <div class="prototype-visit-layout" :class="{ 'prototype-review-layout': stage === 'review' }">
-          <form v-if="stage === 'review'" :id="prefix + '-contact'" class="prototype-contact-form" novalidate @submit.prevent="submitRequest">
+          <form v-if="stage === 'review'" :id="prefix + '-contact'" ref="contactForm" class="prototype-contact-form" novalidate @submit.prevent="submitRequest">
             <fieldset class="fieldset"><legend class="fieldset-legend">I tuoi contatti</legend>
-              <label class="prototype-field"><span>Nome e cognome</span><input v-model="contact.name" class="input" autocomplete="off" required data-testid="service-contact-name" /></label>
-              <label class="prototype-field"><span>Email</span><input v-model="contact.email" class="input" type="email" autocomplete="off" required data-testid="service-contact-email" /></label>
+              <label class="prototype-field"><span>Nome e cognome</span><input v-model="contact.name" class="input" autocomplete="off" required :aria-invalid="contactInvalid('name')" :aria-describedby="formError ? prefix + '-contact-error' : undefined" data-testid="service-contact-name" /></label>
+              <label class="prototype-field"><span>Email</span><input v-model="contact.email" class="input" type="email" autocomplete="off" required :aria-invalid="contactInvalid('email')" :aria-describedby="formError ? prefix + '-contact-error' : undefined" data-testid="service-contact-email" /></label>
               <label class="prototype-field"><span>Telefono (facoltativo)</span><input v-model="contact.phone" class="input" type="tel" autocomplete="off" /></label>
-              <label class="prototype-consent"><input v-model="contact.privacy" class="checkbox" type="checkbox" required data-testid="service-consent" /><span>Ho letto l’informativa privacy.</span></label>
+              <label class="prototype-consent"><input v-model="contact.privacy" class="checkbox" type="checkbox" required :aria-invalid="contactInvalid('privacy')" :aria-describedby="formError ? prefix + '-contact-error' : undefined" data-testid="service-consent" /><span>Ho letto l’informativa privacy.</span></label>
             </fieldset>
           </form>
           <div class="prototype-visit-content">
@@ -248,7 +258,7 @@ function onKey(event: KeyboardEvent) {
             <div><dt>Professionista</dt><dd>{{ displayed.professional }}</dd></div><div><dt>Giorno e orario</dt><dd>{{ service.dateLabel }} · {{ displayed.time }}</dd></div>
             <div><dt>Domicilio</dt><dd>{{ displayed.address }}</dd></div><div><dt>Durata e totale</dt><dd>{{ service.durationMinutes }} minuti · <strong>{{ service.priceLabel }}</strong><span class="prototype-travel">Spostamento incluso</span></dd></div>
           </dl>
-          <p v-if="stage === 'review' && formError" class="prototype-field-error" role="alert">{{ formError }}</p>
+          <p v-if="stage === 'review' && formError" :id="prefix + '-contact-error'" class="prototype-field-error" role="alert">{{ formError }}</p>
           <p v-else-if="stage === 'review' && hasClearStates" class="prototype-state-note">Invii una richiesta al professionista. La visita sarà confermata dopo la sua accettazione.</p>
           <p v-else-if="stage === 'pending'" class="prototype-state-note" data-testid="service-pending-note">{{ hasClearStates ? 'La visita non è ancora confermata. Troverai qui l’esito della risposta.' : 'Ti contatteremo per i prossimi passi.' }}<span v-if="editing"> La visita precedente resta confermata.</span></p>
           <p v-else-if="stage === 'confirmed'" class="prototype-state-note confirmed-note">Il professionista ha accettato. Il riepilogo è disponibile in «Le mie visite».</p>
@@ -264,8 +274,8 @@ function onKey(event: KeyboardEvent) {
 
         <template v-else-if="stage === 'conflict'">
           <h3 ref="viewHeading" tabindex="-1">Orario non più disponibile</h3>
-          <p class="prototype-state-note">{{ level === 3 ? 'La visita delle 20:30 non è più disponibile. Domicilio, CAP, contatti e fascia sono conservati.' : 'Questa bozza richiede di ricominciare la ricerca.' }}</p>
-          <template v-if="level === 3"><p class="prototype-saved" data-testid="service-saved-data">{{ address }} · {{ service.shortDate }} · dopo le 20</p><div class="prototype-result"><div><strong>{{ service.professional }}</strong><p>{{ service.alternativeTime }} · {{ service.durationMinutes }} minuti · {{ service.priceLabel }} totali</p></div><button class="btn prototype-primary" type="button" data-testid="service-alternative" @click="alternative">Scegli {{ service.alternativeTime }}</button></div></template>
+          <p class="prototype-state-note">{{ level === 3 ? `La visita con ${lostChoice.professional} delle ${lostChoice.time} non è più disponibile. Domicilio, CAP, contatti e fascia sono conservati.` : 'Questa bozza richiede di ricominciare la ricerca.' }}</p>
+          <template v-if="level === 3"><p class="prototype-saved" data-testid="service-saved-data">{{ address }} · {{ service.shortDate }} · dopo le 20</p><div v-if="alternativeOption" class="prototype-result"><div><strong>{{ alternativeOption.professional }}</strong><p>{{ alternativeOption.time }} · {{ service.durationMinutes }} minuti · {{ service.priceLabel }} totali</p></div><button class="btn prototype-primary" type="button" data-testid="service-alternative" @click="alternative">Scegli {{ alternativeOption.time }}</button></div></template>
           <button class="btn prototype-back" type="button" @click="go('search')">{{ level === 3 ? 'Modifica i criteri' : 'Riparti dalla ricerca' }}</button>
         </template>
         <template v-else-if="stage === 'declined'">
@@ -317,7 +327,7 @@ function onKey(event: KeyboardEvent) {
 .ux-service-prototype .btn:disabled { opacity: .5; cursor: default; }
 .ux-service-prototype .prototype-control { width: 100%; justify-content: flex-start; border: 1px solid var(--slide-rule); background: transparent; color: var(--theme-body); text-align: left; font-size: 18px; }
 .ux-service-prototype .prototype-control:not(:disabled):hover { background: color-mix(in oklch, var(--section-primary) 8%, white); color: var(--section-primary-deep); }
-.prototype-app { --prototype-primary: var(--section-primary-deep); --prototype-soft: color-mix(in oklch, var(--section-primary) 8%, white); display: flex; flex-direction: column; min-width: 0; height: 464px; border: 1px solid var(--slide-rule); border-radius: 8px; background: white; overflow: hidden; }
+.prototype-app { --prototype-primary: var(--section-primary-deep); --prototype-control-border: color-mix(in srgb, var(--theme-body) 70%, white); --prototype-soft: color-mix(in oklch, var(--section-primary) 8%, white); display: flex; flex-direction: column; min-width: 0; height: 464px; border: 1px solid var(--slide-rule); border-radius: 8px; background: white; overflow: hidden; }
 .prototype-header { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex: 0 0 auto; min-height: 56px; padding: 8px 24px; border-bottom: 1px solid var(--slide-rule); background: white; }
 .ux-service-prototype .prototype-header strong { color: var(--prototype-primary); font: 700 22px/1.25 var(--theme-font); }
 .ux-service-prototype .prototype-visits { padding: 8px 0; border: 0; background: transparent; color: var(--prototype-primary); font-size: 20px; font-weight: 500; text-decoration: underline; text-underline-offset: 4px; }
@@ -328,7 +338,7 @@ function onKey(event: KeyboardEvent) {
 .prototype-search { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 16px; align-content: start; }
 .prototype-field { display: flex; flex-direction: column; min-width: 0; gap: 4px; }
 .prototype-field > span { color: var(--theme-body); font-size: 18px; line-height: 1.3; }
-.ux-service-prototype :is(.input, .select) { width: 100%; min-width: 0; height: 48px; min-height: 48px; padding: 8px 12px; border: 1px solid var(--slide-rule); border-radius: 8px; background: white; color: var(--theme-ink); box-shadow: none; font: 400 20px/1.3 var(--theme-font); caret-color: var(--section-primary); }
+.ux-service-prototype :is(.input, .select) { width: 100%; min-width: 0; height: 48px; min-height: 48px; padding: 8px 12px; border: 1px solid var(--prototype-control-border); border-radius: 8px; background: white; color: var(--theme-ink); box-shadow: none; font: 400 20px/1.3 var(--theme-font); caret-color: var(--section-primary); }
 .ux-service-prototype .select { padding-right: 32px; }
 .prototype-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; margin-top: 16px; }
 .prototype-screen > .prototype-actions { margin-top: auto; padding-top: 12px; }
@@ -381,7 +391,7 @@ function onKey(event: KeyboardEvent) {
 .prototype-wireframe .prototype-wordmark span { color: inherit; }
 .prototype-site-link { display: inline-block; margin-top: 12px; color: var(--section-primary-deep); text-decoration: underline; text-underline-offset: 4px; font-size: 18px; }
 .prototype-slots { display: flex; gap: 8px; }
-.ux-service-prototype .prototype-slots .btn { min-height: 44px; padding: 6px 10px; color: var(--prototype-primary); border: 1px solid var(--slide-rule); border-radius: 8px; background: white; }
+.ux-service-prototype .prototype-slots .btn { min-height: 44px; padding: 6px 10px; color: var(--prototype-primary); border: 1px solid var(--prototype-control-border); border-radius: 8px; background: white; }
 .ux-service-prototype .prototype-slots .btn[aria-pressed="true"] { background: var(--prototype-soft); border-color: var(--prototype-primary); }
 .prototype-visit-layout { min-height: 0; }
 .prototype-review-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; }

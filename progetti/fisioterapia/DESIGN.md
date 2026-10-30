@@ -263,7 +263,7 @@ Card bianche con bordo sottile, raggio surface e padding (30px), ridotto a (24px
 
 ### Inputs / Fields
 
-Campi bianchi con bordo border, raggio control, testo ereditato e altezza minima (50px), poi (52px) sul mobile. Le icone sono decorative e le etichette rimangono visibili; il focus del campo usa outline primario (2px), offset (2px) e bordo primario. Il messaggio di errore accompagna il campo, senza sostituire l’etichetta; una correzione valida elimina l’errore senza ricreare il campo o spostare il cursore.
+Campi bianchi con bordo dedicato `--control-border` (almeno 3:1 sulla carta), raggio control, testo ereditato e altezza minima (50px), poi (52px) sul mobile. Le icone sono decorative e le etichette rimangono visibili; il focus del campo usa outline primario (2px), offset (2px) e bordo primario. I separatori decorativi mantengono border; campi, checkbox e orari usano il bordo dei controlli. Il messaggio di errore accompagna il campo, senza sostituire l’etichetta; una correzione valida elimina l’errore senza ricreare il campo o spostare il cursore.
 
 ### Navigation
 
@@ -273,7 +273,7 @@ Marchio a sinistra, navigazione orizzontale e accesso alle visite a destra. La v
 
 Gli orari sono radio nativi con etichetta rettangolare, cifre tabulari, larghezza minima (90px) e stato selezionato lavanda/violetto. Il focus resta visibile anche con il radio graficamente nascosto. La scelta si conserva tornando dai profili o dal dettaglio. I quattro passaggi distinguono cerca, scegli, controlla ed esito e marcano quello corrente con aria-current.
 
-I badge sono etichette, non pulsanti: confermato in Cedro, attesa in info, non accettato in error, annullato neutro. La richiesta inviata rimane distinta dalla conferma; l’esito in attesa offre il collegamento per provare la risposta dimostrativa del professionista.
+I badge sono etichette, non pulsanti: confermato in Cedro, attesa in info, non accettato in error, annullato neutro. La richiesta inviata e la modifica proposta usano info, mentre la visita attuale confermata conserva success. La proposta mostra professionista, domicilio, data, orario e contatti separati dalla visita attuale; l’esito in attesa offre il collegamento per provare la risposta dimostrativa del professionista.
 
 ### Fotografie, icone e movimento
 

@@ -70,7 +70,7 @@
     "check:ux-service": "node progetti/slide/scripts/check/ux-service.mjs",
     "build:fisioterapia": "node progetti/fisioterapia/scripts/build.mjs",
     "dev:fisioterapia": "pnpm build:fisioterapia && node progetti/fisioterapia/scripts/serve.mjs",
-    "check:fisioterapia": "node progetti/fisioterapia/scripts/check.mjs"
+    "check:fisioterapia": "node --test progetti/fisioterapia/scripts/store.test.mjs && node progetti/fisioterapia/scripts/check.mjs && node progetti/fisioterapia/scripts/check-regressions.mjs"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.74.0",
