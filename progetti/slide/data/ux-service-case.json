@@ -3,7 +3,7 @@
   "lesson": "processo-ux-ui",
   "status": "Simulazione didattica: persone, episodi, indirizzi, disponibilità e prezzi sono usati come dati di progetto; nessuna ricerca reale è dichiarata.",
   "service": {
-    "name": "Fisioterapia a domicilio",
+    "name": "passo.",
     "model": "Rete locale coordinata",
     "coordinators": [
       "Carlo",
@@ -20,7 +20,9 @@
     "durationMinutes": 45,
     "totalEuros": 60,
     "travelIncluded": true,
-    "confirmation": "La visita è confermata soltanto dopo l’accettazione del professionista."
+    "confirmation": "La visita è confermata soltanto dopo l’accettazione del professionista.",
+    "cap": "20121",
+    "brand": "Passo"
   },
   "stages": [
     {
@@ -263,23 +265,23 @@
       "inputRef": "REQ-01",
       "context": "Le etichette devono aiutare a cercare, richiedere e ritrovare un appuntamento. La struttura deriva dal percorso P1.",
       "decision": "Distinguiamo le informazioni sul servizio dalle richieste e dalle visite. Le categorie restano da verificare con le persone.",
-      "artifactTitle": "Alberatura della rete",
+      "artifactTitle": "Sitemap IA-01 · Passo",
       "rows": [
         {
           "label": "Il servizio",
-          "text": "Come funziona · Zone servite · Costi e condizioni."
+          "text": "Come funziona; zone, orari e costi."
         },
         {
           "label": "Trova una visita",
-          "text": "Ricerca → Proposte → Dettaglio → Riepilogo."
+          "text": "Domicilio e CAP; risultati e profili; dettaglio; contatti e riepilogo."
         },
         {
           "label": "Le mie visite",
-          "text": "Richieste in attesa · Visite confermate · Modifica e annulla."
+          "text": "Richieste sul dispositivo; stato, dettaglio, modifica e annullamento."
         },
         {
-          "label": "Assistenza",
-          "text": "Contatto e recupero quando non esiste una proposta compatibile."
+          "label": "Assistenza e footer",
+          "text": "Domande, supporto, note del servizio e area professionista dimostrativa."
         }
       ],
       "handoff": "Usiamo questi gruppi per disegnare le schermate della versione V0."
@@ -292,23 +294,23 @@
       "inputRef": "IA-01",
       "context": "Disegniamo ricerca, lista e riepilogo con dati realistici. La bozza V0 permette di trovare i punti ancora deboli.",
       "decision": "Conserviamo volontariamente un primo difetto: la lista privilegia il professionista e rimanda costo e compatibilità al dettaglio.",
-      "artifactTitle": "Wireframe V0",
+      "artifactTitle": "Wireframe WF-01 · Passo",
       "rows": [
         {
-          "label": "Schermate",
-          "text": "Ricerca → Lista generica → Dettaglio → Riepilogo."
+          "label": "Ingresso",
+          "text": "Home con fotografia domestica, ricerca e costo già visibile."
         },
         {
-          "label": "Dati comuni",
-          "text": "17 novembre 2026 · 20:30 · Giulia Riva · 45 minuti · 60 € totali, spostamento incluso."
+          "label": "Cercare e scegliere",
+          "text": "Domicilio, CAP, giorno e fascia; profili, orari selezionabili e totale."
         },
         {
-          "label": "Punto debole da esplorare",
-          "text": "Prima di aprire la scheda non si riconoscono insieme domicilio, sera e totale."
+          "label": "Inviare",
+          "text": "Contatti e privacy a sinistra; visita e invio a destra."
         },
         {
-          "label": "Domanda della prova",
-          "text": "Viola capisce quale proposta è compatibile senza ricominciare la ricerca?"
+          "label": "Gestire",
+          "text": "Richiesta in attesa, conferma del professionista e Le mie visite."
         }
       ],
       "handoff": "Colleghiamo la bozza in un prototipo e mettiamo alla prova quel punto debole."
@@ -379,23 +381,23 @@
       "inputRef": "ITER-02",
       "context": "La struttura adesso distingue compatibilità e stato. Applichiamo i concetti delle lezioni precedenti alla stessa proposta di servizio.",
       "decision": "Griglia e vicinanza collegano dati e comandi; tipografia e colore distinguono ruoli. Lo stato rimane scritto anche senza colore.",
-      "artifactTitle": "Regole visive della versione V2",
+      "artifactTitle": "Sistema UI-01 · Passo",
       "rows": [
         {
-          "label": "Griglia e Gestalt",
-          "text": "Etichetta e valore vicini; riferimenti comuni per data, orario, durata e totale."
+          "label": "Identità",
+          "text": "Marchio passo., Nunito Sans, violetto e Cedro."
         },
         {
-          "label": "Tipografia",
-          "text": "Gerarchia costante fra titolo della visita, informazioni e azione successiva."
+          "label": "Fotografie",
+          "text": "Professionisti e paziente distinguibili; ambienti domestici luminosi."
         },
         {
-          "label": "Colore e stato",
-          "text": "Violet per azione, Cedro per scelta; testo esplicito per attesa, conferma ed errore."
+          "label": "Composizione",
+          "text": "Ricerca, schede e riepilogo condividono gerarchia, allineamenti e controlli."
         },
         {
-          "label": "Componenti",
-          "text": "Ricerca, proposta, riepilogo e messaggio di stato condividono etichette e comportamento."
+          "label": "Stati",
+          "text": "Attesa neutra; conferma scritta e Cedro; recuperi con dati conservati."
         }
       ],
       "handoff": "La nuova verifica percorre il servizio anche quando uno slot scompare."

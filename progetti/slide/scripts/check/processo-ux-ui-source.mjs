@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 import { lessonDecks } from '../../utils/lesson-decks.mjs'
 import { processTables } from '../../data/lesson-tables.mjs'
+import { brand as passoBrand, professionals as passoProfessionals } from '../../../fisioterapia/data/content.mjs'
 
 const root = fileURLToPath(new URL('../../../..', import.meta.url))
 const read = async file => JSON.parse(await readFile(path.join(root, file), 'utf8'))
@@ -17,7 +18,7 @@ export async function checkUxProcessSources(deck) {
   const slides = deck.slides.filter(slide => slide.frontmatter.lesson === manifest.lesson)
   assert.equal(manifest.number, 11)
   assert.equal(manifest.palette, 'violet')
-  assert.equal(manifest.slideCount, 119, 'the two requested slide removals leave 119 active slides')
+  assert.equal(manifest.slideCount, 122, 'three new home/visits boards extend the retained 119 slides')
   assert.equal(slides.length, manifest.slideCount)
   assert.equal(plan.slides.length, slides.length)
   assert.equal(await sha(manifest.sourceFile), manifest.sourceSha256, 'current chapter provenance')
@@ -76,6 +77,22 @@ export async function checkUxProcessSources(deck) {
   assert.equal(serviceCase.service.provider, prototype.service.professional)
   assert.equal(serviceCase.service.totalEuros, prototype.service.priceEuro)
   assert.equal(prototype.service.travelIncluded, true, 'the simulated total includes travel')
+  assert.equal(prototype.service.brand.toLowerCase(), passoBrand.name, 'lesson and final site use the same brand')
+  assert.equal(prototype.service.date, passoBrand.date)
+  assert.equal(prototype.service.address, passoBrand.address)
+  assert.equal(prototype.service.priceEuro, passoBrand.price)
+  assert.equal(prototype.service.durationMinutes, passoBrand.duration)
+  assert.deepEqual(prototype.service.professionals.map(person => [person.name, person.times]), passoProfessionals.map(person => [person.name, person.times]), 'professional identities and slots match the final site')
+  for (const person of passoProfessionals) assert.equal(await sha('progetti/fisioterapia/assets/images/' + person.image), await sha('progetti/slide/public/images/processo-ux-ui/passo-' + person.image), 'the prototype uses the exact site portrait')
+  const siteCopy = (await readFile(path.join(root, 'progetti/fisioterapia/app.js'), 'utf8')).replace(/<br\s*\/?>/g, ' ').replace(/<\/?span[^>]*>/g, '')
+  const alignedScreens = await read('progetti/slide/data/ux-wireframe-sequence.json')
+  for (const screen of alignedScreens.pairs.flatMap(pair => pair.screens)) {
+    assert.ok(siteCopy.includes(screen.title), screen.id + ': title matches the implemented site')
+    assert.ok(siteCopy.includes(screen.primary), screen.id + ': primary action exists in the implemented site')
+  }
+  const siteMap = await read('progetti/slide/data/ux-booking-sitemap.json')
+  assert.ok(!siteMap.sections.find(section => section.id === 'visite').pages.some(page => /accesso|account|registr/i.test(page)), 'no account requirement is invented for local visits')
+
   assert.deepEqual(serviceCase.stages.map(stage => stage.step), Array.from({ length: 14 }, (_, i) => i + 1), 'the scenario is applied at every step')
   assert.deepEqual(serviceCase.iterations.map(item => [item.from, item.to]), [['v0', 'v1'], ['v1', 'v2'], ['v2', 'v3']], 'three consecutive revisions lead to the final service')
   assert.ok(serviceCase.iterations.every(item => item.simulated && item.problem && item.change && item.proof), 'simulated episodes link problems, revisions and checks')
@@ -177,13 +194,20 @@ export async function checkUxProcessSources(deck) {
   assert.equal(used.size, assets.images.length, 'every lesson figure has an active owner')
   const wireframes = await read(plan.wireframeExtension.imageManifest)
   const wireframeData = await read(plan.wireframeExtension.dataFile)
+  const previousWireframes = await read(wireframes.previousRevision)
+  for (const image of [...previousWireframes.images, previousWireframes.comparison, ...previousWireframes.revisions]) {
+    assert.equal(await sha(image.original), image.originalSha256, 'previous wireframe original remains preserved')
+    assert.equal(await sha(image.derivative), image.sha256, 'previous wireframe web file remains preserved')
+    assert.equal(await sha(image.prompt), image.promptSha256, 'previous wireframe prompt remains preserved')
+  }
+
   const wireframeSlides = plan.slides.filter(slide => slide.wireframeLevel)
-  assert.equal(wireframes.images.length, 9, 'three pairs of screens at each of the three fidelity levels')
-  assert.deepEqual(wireframeSlides.map(slide => slide.wireframeLevel), ['mano', 'mano', 'mano', 'media', 'media', 'media', 'alta', 'alta', 'alta'])
+  assert.equal(wireframes.images.length, 12, 'four pairs of Passo screens at each of the three fidelity levels')
+  assert.deepEqual(wireframeSlides.map(slide => slide.wireframeLevel), ['mano', 'media', 'alta'].flatMap(level => Array(4).fill(level)))
   const wireframeStart = plan.slides.findIndex(slide => slide.slug === plan.wireframeExtension.insertAfter) + 1
   assert.equal(plan.slides[wireframeStart - 2].slug, plan.wireframeExtension.contentIntro, 'realistic content is introduced immediately before the wireframe examples')
-  assert.deepEqual(plan.slides.slice(wireframeStart, wireframeStart + 9).map(slide => slide.slug), wireframeSlides.map(slide => slide.slug), 'all nine boards follow the retained paper-wireframe example')
-  assert.deepEqual(wireframeData.pairs.flatMap(pair => pair.screens.map(screen => screen.id)), ['ricerca', 'risultati', 'dettaglio', 'riepilogo', 'attesa', 'conferma'])
+  assert.deepEqual(plan.slides.slice(wireframeStart, wireframeStart + 12).map(slide => slide.slug), wireframeSlides.map(slide => slide.slug), 'all twelve boards follow the retained paper-wireframe example')
+  assert.deepEqual(wireframeData.pairs.flatMap(pair => pair.screens.map(screen => screen.id)), ['home', 'visite', 'ricerca', 'risultati', 'dettaglio', 'riepilogo', 'attesa', 'conferma'])
   for (const image of wireframes.images) {
     const owner = wireframeSlides.find(slide => slide.slug === image.slideSlug)
     assert.deepEqual(owner.figures, [image.code])
@@ -198,7 +222,10 @@ export async function checkUxProcessSources(deck) {
       for (const text of [screen.title, ...screen.lines, screen.primary, screen.secondary].filter(Boolean))
         assert.ok(prompt.includes(text), 'every scenario label is specified verbatim in the generation prompt')
     for (const reference of image.references) assert.equal(await sha(reference.file), reference.sha256, 'fidelity conversion retains its exact reference image')
-    assert.equal(image.references.length, image.level === 'mano' ? 0 : 1)
+    assert.ok(image.references.length >= 2, 'every board retains the actual site screenshots used as references')
+    const pair = wireframeData.pairs.find(pair => pair.id === image.pair)
+    for (const screen of pair.screens) assert.ok(image.references.some(ref => ref.file.endsWith('/passo-references/' + screen.id + '.png')), 'actual screen reference is preserved')
+    if (image.level !== 'mano') assert.ok(image.references.some(ref => ref.file === wireframes.images.find(prior => prior.pair === image.pair && prior.level === (image.level === 'media' ? 'mano' : 'media')).original), 'next fidelity retains the previous approved board')
   }
   const persona = await read('progetti/slide/data/ux-persona.json')
   const personaSlide = plan.slides.find(slide => slide.slug === 'persona-documento')

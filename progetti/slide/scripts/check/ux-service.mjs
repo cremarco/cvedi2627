@@ -17,7 +17,7 @@ const require = (condition, description) => {
   checks.push({ description, passed: !!condition })
   if (!condition) failures.push(description)
 }
-const click = id => prototype.getByTestId(id).click()
+const click = async id => { if (id === 'service-send') await prototype.getByTestId('service-consent').check(); await prototype.getByTestId(id).click() }
 async function waitStage(value) {
   await page.waitForFunction(value => document.querySelector('.slidev-layout.is-active [data-testid="ux-service-prototype"]')?.getAttribute('data-stage') === value, value)
 }
@@ -33,14 +33,14 @@ const detailVersions = new Set()
 async function selectVisit(index) {
   await click('service-choose-' + index)
   await waitStage('detail')
-  require(await prototype.getByTestId('service-state-heading').innerText() === 'Visita a domicilio', 'selection opens the wireframe detail before the summary')
+  require(await prototype.getByTestId('service-state-heading').innerText() === 'La tua visita a domicilio.', 'selection opens the wireframe detail before the summary')
   require(await prototype.getByTestId('service-continue').innerText() === 'Continua al riepilogo', 'the detail leads explicitly to the summary')
   require((await prototype.locator('.prototype-summary').innerText()).includes('60 €'), 'the detail exposes the total before request submission')
   const version = await prototype.getAttribute('data-version')
   if (!detailVersions.has(version)) { await inspect(version + '-dettaglio'); detailVersions.add(version) }
   await click('service-continue')
   await waitStage('review')
-  require(await prototype.getByTestId('service-state-heading').innerText() === 'Riepilogo', 'the next screen uses the approved summary heading')
+  require(await prototype.getByTestId('service-state-heading').innerText() === 'Un ultimo sguardo, poi ci incontriamo.', 'the next screen uses the approved summary heading')
 }
 async function inspect(name, mode = 'desktop') {
   await page.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))))
@@ -65,7 +65,7 @@ async function inspect(name, mode = 'desktop') {
     return {
       stage: root.dataset.stage, version: root.dataset.version, overflow: [...new Set(overflow)],
       appHeight: app.height, sideHeight: side.height,
-      targetSizes: controls.map(node => ({ width: parseFloat(getComputedStyle(node).width), height: parseFloat(getComputedStyle(node).height) })),
+      targetSizes: controls.map(node => { const target = node.matches('input[type=checkbox]') ? node.closest('label') : node; return { width: parseFloat(getComputedStyle(target).width), height: parseFloat(getComputedStyle(target).height) } }),
       labelsAssociated: labels.every(label => label.htmlFor === label.querySelector('input, select')?.id),
       focusedHeading: root.querySelector('.prototype-screen h3') === document.activeElement,
       printVisible: !!root.querySelector('.prototype-print')?.getClientRects().length,
@@ -115,7 +115,7 @@ try {
   require((await prototype.getByTestId('service-pending-note').innerText()).includes('non è ancora confermata'), 'V2: sending does not falsely confirm the visit')
   require(await prototype.getByTestId('simulate-confirm').isEnabled(), 'V2: professional acceptance is a separate event')
   await click('simulate-confirm')
-  require(await prototype.getByTestId('service-state-heading').innerText() === 'Visita confermata', 'V2: acceptance produces the confirmed state')
+  require(await prototype.getByTestId('service-state-heading').innerText() === 'Il tuo prossimo passo è fissato.', 'V2: acceptance produces the confirmed state')
   await inspect('v2-conferma')
 
   const finalSlide = await openVersion('v3')
@@ -141,18 +141,18 @@ try {
   await inspect('v3-errore-domicilio')
 
   await prototype.getByTestId('service-address').fill(fixture.service.address)
-  await prototype.getByTestId('service-zone').selectOption('fuori')
+  await prototype.getByTestId('service-cap').fill('00100')
   await click('service-search'); await waitStage('outside')
   await inspect('v3-fuori-copertura')
   await prototype.getByRole('button', { name: 'Chiedi assistenza', exact: true }).click()
   await waitStage('help'); await inspect('v3-assistenza')
   await prototype.getByRole('button', { name: 'Riprendi la ricerca', exact: true }).click()
   require(await prototype.getByTestId('service-address').inputValue() === fixture.service.address, 'assistance preserves the domicile')
-  await prototype.getByTestId('service-zone').selectOption('nord')
+  await prototype.getByTestId('service-cap').fill('20121'); await prototype.getByTestId('service-period').selectOption('mattina')
   await click('service-search'); await waitStage('empty'); await inspect('v3-nessun-risultato')
   await click('service-recover-search')
   require(await prototype.getByTestId('service-address').inputValue() === fixture.service.address, 'empty search preserves the domicile')
-  await prototype.getByTestId('service-zone').selectOption('centro')
+  await prototype.getByTestId('service-cap').fill('20121'); await prototype.getByTestId('service-period').selectOption('sera')
   await prototype.getByTestId('service-search').focus(); await page.keyboard.press('Enter')
   await waitStage('results'); await inspect('v3-risultati')
   require(await prototype.locator('.prototype-screen h3').evaluate(node => document.activeElement === node), 'new result screen receives meaningful focus')
@@ -200,7 +200,7 @@ try {
   require((await prototype.getByTestId('service-rejected-data').innerText()).includes(fixture.service.address), 'professional refusal preserves the search criteria')
   require((await prototype.locator('.prototype-screen').innerText()).includes('non è stata confermata'), 'professional refusal never becomes a confirmed visit')
   await click('service-rejected-alternatives'); await waitStage('results')
-  require(await prototype.locator('.prototype-result').count() === 1 && (await prototype.getByTestId('service-choose-0').getAttribute('aria-label')).includes('Luca Sala'), 'refused professional and slot are excluded from the alternatives')
+  require(await prototype.locator('.prototype-result').count() === 2 && (await prototype.getByTestId('service-choose-0').getAttribute('aria-label')).includes('21:15') && await prototype.locator('.prototype-slots').getByRole('button', { name: '20:30', exact: true }).count() === 0, 'refused slot is excluded while the same professional can still offer 21:15')
   await inspect('v3-alternative-dopo-rifiuto')
 
   await click('prototype-reset'); await click('service-search'); await waitStage('results'); await selectVisit(0); await click('service-send'); await click('simulate-confirm')

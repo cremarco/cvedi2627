@@ -118,9 +118,9 @@
     #edge(712.5pt, 90pt, 712.5pt, 125pt)#arrow(712.5pt, 125pt, direction: "down")
     #edge(300pt, 230pt, 300pt, 246pt)#edge(300pt, 246pt, 85pt, 246pt)
     #edge(85pt, 246pt, 85pt, 90pt)#arrow(85pt, 90pt, direction: "up")
-    #place(top + left, dx: 0pt, dy: 0pt, flow-box(170pt, 90pt, [Ricerca], [Domicilio · giorno · dopo le 20]))
-    #place(top + left, dx: 210pt, dy: 0pt, flow-box(180pt, 90pt, [Disponibilità], [Ci sono visite compatibili?], fill: cedro))
-    #place(top + left, dx: 420pt, dy: 0pt, flow-box(175pt, 90pt, [Sì · Riepilogo], [Dati, totale e condizioni.]))
+    #place(top + left, dx: 0pt, dy: 0pt, flow-box(170pt, 90pt, [Ricerca], [Domicilio · CAP · dopo le 20]))
+    #place(top + left, dx: 210pt, dy: 0pt, flow-box(180pt, 90pt, [Visite compatibili?], [Risultati e dettaglio.], fill: cedro))
+    #place(top + left, dx: 420pt, dy: 0pt, flow-box(175pt, 90pt, [Riepilogo], [Contatti, totale e consenso.]))
     #place(top + left, dx: 625pt, dy: 0pt, flow-box(175pt, 90pt, [Invia richiesta], [In attesa di accettazione.]))
     #place(top + left, dx: 210pt, dy: 125pt, flow-box(180pt, 105pt, [No · Cambia ricerca], [Cambia un criterio; i dati validi restano conservati.]))
     #place(top + left, dx: 625pt, dy: 125pt, flow-box(175pt, 105pt, [Visita confermata], [Solo se il professionista accetta la richiesta.], fill: cedro))
@@ -130,24 +130,24 @@
 ]
 #let requisiti() = graphic[
   #record((
-    ([R1 · Copertura], [Verificare l’indirizzo prima di mostrare visite a domicilio.]),
+    ([R1 · Copertura], [Verificare il CAP prima di proporre visite a domicilio.]),
     ([R2 · Filtro sera], [Cercare per giorno e fascia dopo le 20; slot aggiornati dal professionista.]),
-    ([R3 · Riepilogo], [Conservare domicilio, 17 novembre 2026, 20:30, 45 minuti e totale 60 €, spostamento incluso.]),
+    ([R3 · Riepilogo], [Prima dell’invio: contatti, Giulia Riva, domicilio e CAP, 17 novembre alle 20:30, 45 minuti e 60 € con spostamento.]),
     ([R4 · Stato], [«Invia richiesta» produce «In attesa»; «Visita confermata» solo dopo l’accettazione del professionista.]),
     ([R5 · Recupero], [Se l’orario non è più disponibile, conservare i dati e proporre un’alternativa.]),
   ))
   #v(10pt)#note[Priorità: primo percorso da provare. Da chiarire: come e quando il professionista aggiorna gli slot.]
 ]
 #let sitemap() = graphic[
-  #align(center, block(width: 350pt)[#panel([Servizio di fisioterapia], [Informazioni e accesso alle funzioni], fill: pale)])
+  #align(center, block(width: 350pt)[#panel([Passo · Fisioterapia a domicilio], [Informazioni e accesso al percorso], fill: pale)])
   #block(width: 800pt, height: 28pt)[
     #edge(400pt, 0pt, 400pt, 14pt)#edge(126pt, 14pt, 674pt, 14pt)
     #edge(126pt, 14pt, 126pt, 28pt)#edge(400pt, 14pt, 400pt, 28pt)#edge(674pt, 14pt, 674pt, 28pt)
   ]
   #grid(columns: 3, gutter: 24pt,
-    panel([Servizi], [Visite a domicilio#linebreak()Copertura e costi]),
-    panel([Richiedi una visita], [Disponibilità#linebreak()Professionista#linebreak()Riepilogo]),
-    panel([Le mie visite], [Richieste e appuntamenti#linebreak()Stato e dettaglio#linebreak()Modifica]))
+    panel([Il servizio], [Come funziona#linebreak()Zone, orari e costi]),
+    panel([Trova una visita], [Domicilio e CAP#linebreak()Risultati e profili#linebreak()Riepilogo e contatti]),
+    panel([Le mie visite], [Richieste e appuntamenti#linebreak()Stato e dettaglio#linebreak()Modifica e annullamento]))
   #v(12pt)
   #note[La struttura raggruppa contenuti e funzioni; il flow descrive azioni e condizioni.]
 ]
@@ -287,23 +287,23 @@
         #mini-node(0pt, 0pt, 250pt, 30pt, [Ricerca])
         #mini-node(0pt, 48pt, 250pt, 32pt, [Visita disponibile?], fill: cedro)
         #mini-node(0pt, 100pt, 116pt, 48pt, [No: cambia i criteri])
-        #mini-node(134pt, 100pt, 116pt, 48pt, [Sì: apri il riepilogo])]
+        #mini-node(134pt, 100pt, 116pt, 48pt, [Sì: apri il dettaglio])]
       Quali azioni e condizioni portano all’esito del compito?],
     [#heading[Sitemap]#v(12pt)
       #block(width: 250pt, height: 150pt)[
         #edge(125pt, 30pt, 125pt, 44pt)#edge(38pt, 44pt, 212pt, 44pt)
         #edge(38pt, 44pt, 38pt, 58pt)#edge(125pt, 44pt, 125pt, 58pt)#edge(212pt, 44pt, 212pt, 58pt)
         #mini-node(0pt, 0pt, 250pt, 30pt, [Servizio])
-        #mini-node(0pt, 58pt, 76pt, 80pt, [Servizi])
-        #mini-node(87pt, 58pt, 76pt, 80pt, [Richiedi])
+        #mini-node(0pt, 58pt, 76pt, 80pt, [Il servizio])
+        #mini-node(87pt, 58pt, 76pt, 80pt, [Trova una visita])
         #mini-node(174pt, 58pt, 76pt, 80pt, [Le mie visite])]
       Come sono raggruppati e collegati contenuti e sezioni?])
 ]
 #let ui-annotata() = graphic[
   #grid(columns: (390pt, 1fr), gutter: 32pt,
-    screen([Visite a domicilio], [#heading[Fisioterapia · 45 minuti]#v(6pt)
-      17 novembre 2026 · Domicilio indicato#v(8pt)
-      #block(width: 100%, fill: cedro, inset: 7pt, radius: 4pt)[*20:30 · A domicilio*]#v(8pt)
+    screen([passo. · Visita a domicilio], [#heading[Giulia Riva · 45 minuti]#v(6pt)
+      17 novembre 2026 · CAP 20121#v(8pt)
+      #block(width: 100%, fill: pale, inset: 7pt, radius: 4pt)[*20:30 · A domicilio*]#v(8pt)
       *Totale: 60 €* · spostamento incluso#v(8pt)
       #button([Invia richiesta])#v(6pt)
       In attesa: il professionista deve accettare.]),
@@ -318,39 +318,39 @@
 // Progressive application of the same simulated service, from v0 to delivery.
 #let caso-wireframe-v0() = graphic[
   #grid(columns: 3, gutter: 24pt,
-    screen([Ricerca · V0], [*Fisioterapia*#parbreak()Indirizzo inserito#linebreak()17 novembre 2026#linebreak()Fascia oraria: tutte#v(1fr)#button([Cerca], fill: body-ink)], height: 214pt),
-    screen([Risultati · V0], [*Visita fisioterapica*#parbreak()17 novembre 2026#linebreak()20:30 · 45 minuti#v(1fr)#button([Dettagli], fill: body-ink)], height: 214pt),
+    screen([Ricerca · V0], [*passo.*#parbreak()Domicilio e CAP 20121#linebreak()17 novembre 2026#linebreak()Fascia oraria: tutte#v(1fr)#button([Cerca], fill: body-ink)], height: 214pt),
+    screen([Risultati · V0], [*Giulia Riva*#parbreak()17 novembre 2026#linebreak()20:30 · 45 minuti#v(1fr)#button([Vedi visita], fill: body-ink)], height: 214pt),
     screen([Riepilogo · V0], [*17 novembre 2026*#parbreak()20:30 · 45 minuti#linebreak()60 €#linebreak()Luogo: da verificare#v(1fr)#button([Prenota], fill: body-ink)], height: 214pt))
   #v(10pt)#note[Problemi da mettere alla prova: filtro serale assente; domicilio e costo totale poco espliciti.]
 ]
 
 #let caso-iterazione-v1() = graphic[
   #grid(columns: 2, gutter: 28pt,
-    screen([Prima · V0], [*Visita fisioterapica*#parbreak()17 novembre 2026#linebreak()20:30 · 45 minuti#linebreak()Luogo: da verificare#v(1fr)#button([Prenota], fill: body-ink)], height: 214pt),
+    screen([Prima · V0], [*Giulia Riva*#parbreak()17 novembre 2026#linebreak()20:30 · 45 minuti#linebreak()Luogo: da verificare#v(1fr)#button([Prenota], fill: body-ink)], height: 214pt),
     screen([Dopo · V1], [*A domicilio · indirizzo indicato*#parbreak()17 novembre 2026#v(6pt)#block(fill: cedro, inset: 7pt, radius: 4pt)[*Dopo le 20 · 20:30*]#v(6pt)45 minuti · *Totale: 60 €*#linebreak()Spostamento incluso#v(1fr)#button([Prenota])], height: 214pt))
   #v(10pt)#note[V1 chiarisce R1, R2 e R3; «Prenota» resta da verificare. La revisione è un’ipotesi da riprovare.]
 ]
 
 #let caso-iterazione-v2() = graphic[
   #chain(
-    screen([Viola · Invia], [*Richiesta inviata*#v(8pt)#block(fill: pale, inset: 7pt, radius: 4pt)[*In attesa*]#v(8pt)17 novembre 2026#linebreak()20:30 · 45 minuti · 60 €#parbreak()La visita non è ancora confermata.], height: 198pt),
+    screen([Viola · Invia], [*Richiesta inviata.*#v(8pt)#block(fill: pale, inset: 7pt, radius: 4pt)[*In attesa*]#v(8pt)17 novembre 2026#linebreak()20:30 · 45 minuti · 60 €#parbreak()La visita non è ancora confermata.], height: 198pt),
     screen([Professionista · Valuta], [*In attesa*#parbreak()Il professionista controlla domicilio e orario.#parbreak()Viola ritrova la richiesta in «Le mie visite».], height: 198pt),
-    screen([Professionista · Accetta], [#block(fill: cedro, inset: 7pt, radius: 4pt)[*Visita confermata*]#v(10pt)Accettazione del professionista registrata.#parbreak()Luogo, orario e contatto in «Le mie visite».], height: 198pt))
+    screen([Professionista · Accetta], [#block(fill: cedro, inset: 7pt, radius: 4pt)[*Visita confermata*]#v(10pt)Giulia Riva ha accettato la visita.#parbreak()Luogo, orario e contatto in «Le mie visite».], height: 198pt))
   #v(10pt)#note[R4: l’invio di Viola e l’accettazione del professionista sono due eventi distinti.]
 ]
 
 #let caso-iterazione-v3() = graphic[
   #chain(
-    screen([Orario perso], [#block(fill: pale, inset: 7pt, radius: 4pt)[*20:30 non più disponibile*]#v(10pt)La disponibilità cambia prima dell’accettazione.#parbreak()La visita non è confermata.], height: 202pt),
-    screen([Dati conservati], [*Domicilio indicato*#parbreak()17 novembre 2026#linebreak()45 minuti · Totale: 60 €#v(1fr)#button([Scegli un altro orario])], height: 202pt),
-    screen([Nuova proposta], [#block(fill: cedro, inset: 7pt, radius: 4pt)[*21:15 · 45 minuti*]#v(10pt)17 novembre 2026#linebreak()Totale: 60 €#v(1fr)#button([Invia richiesta])], height: 202pt))
+    screen([Orario perso], [#block(fill: pale, inset: 7pt, radius: 4pt)[*20:30 non più disponibile*]#v(10pt)La disponibilità cambia prima dell’invio.#parbreak()La visita non è confermata.], height: 202pt),
+    screen([Dati conservati], [*Domicilio e CAP 20121*#parbreak()17 novembre 2026#linebreak()45 minuti · Totale: 60 €#v(1fr)#button([Scegli un altro orario])], height: 202pt),
+    screen([Nuova proposta], [#block(fill: pale, inset: 7pt, radius: 4pt)[*21:15 · 45 minuti*]#v(10pt)17 novembre 2026#linebreak()Totale: 60 €#v(1fr)#button([Invia richiesta])], height: 202pt))
   #v(10pt)#note[R5: si cambia solo l’orario. La nuova richiesta torna «In attesa» fino all’accettazione del professionista.]
 ]
 
 #let caso-servizio-finale() = graphic[
   #matrix(([Attore], [Cercare], [Scegliere], [Richiedere], [Attendere], [Gestire]), (
-    ([Viola], [Imposta zona e sera.], [Confronta orario e costo.], [Invia la richiesta.], [Legge «In attesa».], [Ritrova o cambia visita.]),
-    ([Interfaccia], [Verifica copertura.], [Mostra 45 min e totale.], [Conserva il riepilogo.], [Attesa; conferma o rifiuto.], [Conserva dati e dettagli.]),
+    ([Viola], [Imposta CAP e sera.], [Confronta orario e costo.], [Invia la richiesta.], [Legge «In attesa».], [Ritrova o cambia visita.]),
+    ([Interfaccia], [Verifica il CAP.], [Mostra 45 min e totale.], [Valida contatti e riepilogo.], [Attesa; conferma o rifiuto.], [Conserva dati e dettagli.]),
     ([Professionista], [Aggiorna gli slot.], [Propone disponibilità.], [Riceve la richiesta.], [Accetta o rifiuta.], [Gestisce variazioni.]),
     ([Gestore], [Coordina la rete.], [Definisce condizioni.], [Traccia l’invio.], [Supporta le eccezioni.], [Offre assistenza.]),
   ), first: 116pt, inset: (x: 8pt, y: 7pt))
@@ -359,14 +359,14 @@
 
 #let caso-sistema-ui() = graphic[
   #grid(columns: (380pt, 1fr), gutter: 32pt,
-    screen([Schermata coerente], [#text(size: 25pt, weight: 700, fill: ink)[Riepilogo]#v(8pt)
-      *Fisioterapia a domicilio*#linebreak()17 novembre 2026 · 20:30#linebreak()45 minuti · *Totale: 60 €*#v(1fr)#button([Invia richiesta])#v(8pt)
+    screen([passo. · Riepilogo], [#text(size: 25pt, weight: 700, fill: ink)[Un ultimo sguardo]#v(8pt)
+      *Giulia Riva*#linebreak()Via Esempio 12 · CAP 20121#linebreak()17 novembre 2026 · 20:30#linebreak()45 minuti · *Totale: 60 €*#v(1fr)#button([Invia richiesta])#v(8pt)
       #note[La visita richiede l’accettazione del professionista.]], height: 218pt),
     [#heading[Tipografia]#v(6pt)
-      Nunito Sans; titolo, dati e aiuto hanno ruoli e pesi riconoscibili.#v(12pt)
+      Nunito Sans e marchio passo.; titolo, dati e aiuto hanno ruoli riconoscibili.#v(12pt)
       #heading[Griglia e spazi]#v(6pt)
-      Colonne e allineamenti comuni; ritmo di 12, 16 e 24 px.#v(12pt)
+      Contatti a sinistra; visita e invio a destra. Colonne e allineamenti comuni.#v(12pt)
       #heading[Colori e stati]#v(6pt)
-      Viola per l’azione; Cedro per scelta o esito. Stati scritti: attesa, conferma, indisponibilità.])
+      Violetto per azioni e selezioni; Cedro per conferma. Fotografie domestiche e stati scritti.])
   #v(10pt)#note[Griglia, tipografia e colore lavorano insieme; lo stato non dipende soltanto dal colore.]
 ]

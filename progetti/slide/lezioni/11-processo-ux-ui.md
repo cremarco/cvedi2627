@@ -902,7 +902,7 @@ uxStep: 7
 
 # Prenotare comprende anche il recupero
 
-<UxProcessFigure :key="'0c2715d2bca9135376f526cbab8b97b02724f27a2595b8c9a368ebe2752ee6d1'" src="/images/processo-ux-ui/flow.svg" alt="Schema del compito di prenotazione. I ritorni indicano possibilità di recupero nel caso, oltre alla prosecuzione verso il riepilogo." caption="Il compito comprende scelta, riepilogo e ritorni per correggere o cercare ancora." />
+<UxProcessFigure :key="'64e85054d1e3bef72ce580c5d06ec62447892d4805d6d7716674e08f5d9a188e'" src="/images/processo-ux-ui/flow.svg" alt="Schema del compito di prenotazione. I ritorni indicano possibilità di recupero nel caso, oltre alla prosecuzione verso il riepilogo." caption="Il compito comprende scelta, riepilogo e ritorni per correggere o cercare ancora." />
 
 ---
 layout: "default"
@@ -940,7 +940,7 @@ uxStep: 7
 
 # Journey, flow e sitemap
 
-<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Lo stesso servizio: tre domande, tre rappresentazioni.</p></div><UxProcessFigure :key="'b4ce7a1a803eb12fc3417bfdea3adf48dd23c97dbf9059dea6a3c8a84101912b'" src="/images/processo-ux-ui/confronto-mappe.svg" alt="Journey con prima, durante e dopo; flow con disponibilità e rami sì e no; sitemap con Servizi, Prenota e Le mie visite." caption="Momenti del servizio, azioni e struttura dei contenuti sono rappresentazioni diverse." /></div>
+<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Lo stesso servizio: tre domande, tre rappresentazioni.</p></div><UxProcessFigure :key="'4b38b3c9186d4a0ab50e6e770666baed780cdf1a1b9da1a0faf53865ecbab0e6'" src="/images/processo-ux-ui/confronto-mappe.svg" alt="Journey con prima, durante e dopo; flow con disponibilità e rami sì e no; sitemap con Il servizio, Trova una visita e Le mie visite." caption="Momenti del servizio, azioni e struttura dei contenuti sono rappresentazioni diverse." /></div>
 
 ---
 layout: "default"
@@ -957,9 +957,9 @@ bookletFigures: []
 uxStep: 7
 ---
 
-# La sitemap del sito che realizzeremo
+# La sitemap di Passo
 
-<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Dalla ricerca di una visita alla sua gestione: le pagine da costruire.</p></div><UxBookingSitemap /></div>
+<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Le pagine del sito finale: servizio, ricerca, profili, richieste e assistenza.</p></div><UxBookingSitemap /></div>
 
 ---
 layout: "default"
@@ -1091,7 +1091,7 @@ uxStep: 9
 
 # L’architettura segue ciò che Viola deve fare
 
-<div class="ux-case-application"><div class="ux-case-columns"><div class="ux-case-decision"><p>Le etichette devono aiutare a cercare, richiedere e ritrovare un appuntamento. La struttura deriva dal percorso P1.</p><h2>Decisione nel caso</h2><p>Distinguiamo le informazioni sul servizio dalle richieste e dalle visite. Le categorie restano da verificare con le persone.</p></div><div class="ux-case-artifact"><h2>Alberatura della rete</h2><table class="table"><tbody><tr><th scope="row">Il servizio</th><td>Come funziona · Zone servite · Costi e condizioni.</td></tr><tr><th scope="row">Trova una visita</th><td>Ricerca → Proposte → Dettaglio → Riepilogo.</td></tr><tr><th scope="row">Le mie visite</th><td>Richieste in attesa · Visite confermate · Modifica e annulla.</td></tr><tr><th scope="row">Assistenza</th><td>Contatto e recupero quando non esiste una proposta compatibile.</td></tr></tbody></table></div></div><p class="ux-case-handoff"><strong>IA-01.</strong> Usiamo questi gruppi per disegnare le schermate della versione V0.</p></div>
+<div class="ux-case-application"><div class="ux-case-columns"><div class="ux-case-decision"><p>Le etichette devono aiutare a cercare, richiedere e ritrovare un appuntamento. La struttura deriva dal percorso P1.</p><h2>Decisione nel caso</h2><p>Distinguiamo le informazioni sul servizio dalle richieste e dalle visite. Le categorie restano da verificare con le persone.</p></div><div class="ux-case-artifact"><h2>Sitemap IA-01 · Passo</h2><table class="table"><tbody><tr><th scope="row">Il servizio</th><td>Come funziona; zone, orari e costi.</td></tr><tr><th scope="row">Trova una visita</th><td>Domicilio e CAP; risultati e profili; dettaglio; contatti e riepilogo.</td></tr><tr><th scope="row">Le mie visite</th><td>Richieste sul dispositivo; stato, dettaglio, modifica e annullamento.</td></tr><tr><th scope="row">Assistenza e footer</th><td>Domande, supporto, note del servizio e area professionista dimostrativa.</td></tr></tbody></table></div></div><p class="ux-case-handoff"><strong>IA-01.</strong> Usiamo questi gruppi per disegnare le schermate della versione V0.</p></div>
 
 ---
 layout: "default"
@@ -1110,7 +1110,7 @@ uxStep: 9
 
 # Una struttura da discutere
 
-<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Servizi, Prenota e Le mie visite raggruppano informazioni e funzioni. Il flow descrive le azioni.</p></div><UxProcessFigure :key="'786552a0d976da8a1e6dcba937438a87478b93bd63dd1fb9b3c001ff3d9738ac'" src="/images/processo-ux-ui/sitemap.svg" alt="Ipotesi di architettura del servizio. I collegamenti indicano raggruppamenti e relazioni, mentre il flow della @fig-ux-flow descrive azioni e condizioni di un compito." caption="La struttura raggruppa contenuti e funzioni; il flow descrive azioni e condizioni." /></div>
+<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Il servizio, Trova una visita e Le mie visite raggruppano contenuti e funzioni di Passo. Il flow descrive le azioni.</p></div><UxProcessFigure :key="'ace2f2c34be2e345d8842f182f4897f2fa6cc42d0ad51c9a2b34047c55a02cda'" src="/images/processo-ux-ui/sitemap.svg" alt="Ipotesi di architettura del servizio. I collegamenti indicano raggruppamenti e relazioni, mentre il flow della @fig-ux-flow descrive azioni e condizioni di un compito." caption="La struttura raggruppa contenuti e funzioni; il flow descrive azioni e condizioni." /></div>
 
 ---
 layout: "default"
@@ -1167,7 +1167,7 @@ uxStep: 10
 
 # V0 mette alla prova la prima struttura
 
-<div class="ux-case-application"><div class="ux-case-columns"><div class="ux-case-decision"><p>Disegniamo ricerca, lista e riepilogo con dati realistici. La bozza V0 permette di trovare i punti ancora deboli.</p><h2>Decisione nel caso</h2><p>Conserviamo volontariamente un primo difetto: la lista privilegia il professionista e rimanda costo e compatibilità al dettaglio.</p></div><div class="ux-case-artifact"><h2>Wireframe V0</h2><table class="table"><tbody><tr><th scope="row">Schermate</th><td>Ricerca → Lista generica → Dettaglio → Riepilogo.</td></tr><tr><th scope="row">Dati comuni</th><td>17 novembre 2026 · 20:30 · Giulia Riva · 45 minuti · 60 € totali, spostamento incluso.</td></tr><tr><th scope="row">Punto debole da esplorare</th><td>Prima di aprire la scheda non si riconoscono insieme domicilio, sera e totale.</td></tr><tr><th scope="row">Domanda della prova</th><td>Viola capisce quale proposta è compatibile senza ricominciare la ricerca?</td></tr></tbody></table></div></div><p class="ux-case-handoff"><strong>WF-00.</strong> Colleghiamo la bozza in un prototipo e mettiamo alla prova quel punto debole.</p></div>
+<div class="ux-case-application"><div class="ux-case-columns"><div class="ux-case-decision"><p>Disegniamo ricerca, lista e riepilogo con dati realistici. La bozza V0 permette di trovare i punti ancora deboli.</p><h2>Decisione nel caso</h2><p>Conserviamo volontariamente un primo difetto: la lista privilegia il professionista e rimanda costo e compatibilità al dettaglio.</p></div><div class="ux-case-artifact"><h2>Wireframe WF-01 · Passo</h2><table class="table"><tbody><tr><th scope="row">Ingresso</th><td>Home con fotografia domestica, ricerca e costo già visibile.</td></tr><tr><th scope="row">Cercare e scegliere</th><td>Domicilio, CAP, giorno e fascia; profili, orari selezionabili e totale.</td></tr><tr><th scope="row">Inviare</th><td>Contatti e privacy a sinistra; visita e invio a destra.</td></tr><tr><th scope="row">Gestire</th><td>Richiesta in attesa, conferma del professionista e Le mie visite.</td></tr></tbody></table></div></div><p class="ux-case-handoff"><strong>WF-00.</strong> Colleghiamo la bozza in un prototipo e mettiamo alla prova quel punto debole.</p></div>
 
 ---
 layout: "default"
@@ -1214,6 +1214,25 @@ footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
 lessonSlide: 65
 lessonMinutes: 1
+routeAlias: "processo-ux-ui-wireframe-mano-home-visite"
+localOnly: false
+bookletChapter: 9
+bookletSource: "progetti/booklet/capitoli/09-processo-ux-ui.typ"
+bookletFigures: ["wireframe-mano-home-visite"]
+uxStep: 10
+---
+
+# Bozzetti a mano · Home e visite
+
+<UxProcessFigure src="/images/processo-ux-ui/wireframe-mano-home-visite.webp" alt="Passo · Bozzetti a mano: Il prossimo passo, lo fai a casa. e Il tuo spazio, anche qui.. Passo presenta il servizio e la ricerca; Le mie visite raccoglie richieste, stati e accesso al dettaglio. Le fotografie distinguono professionisti e paziente." caption="Passo presenta il servizio e la ricerca; Le mie visite raccoglie richieste, stati e accesso al dettaglio. Le fotografie distinguono professionisti e paziente." />
+
+---
+layout: "default"
+class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison screenshot-slide"
+footer: "Processo UX e UI"
+lesson: "processo-ux-ui"
+lessonSlide: 66
+lessonMinutes: 1
 routeAlias: "processo-ux-ui-wireframe-mano-ricerca-risultati"
 localOnly: false
 bookletChapter: 9
@@ -1224,14 +1243,14 @@ uxStep: 10
 
 # Bozzetti a mano · Ricerca e risultati
 
-<UxProcessFigure src="/images/processo-ux-ui/wireframe-mano-ricerca-risultati.webp" alt="Bozzetti a mano: Cerca una visita a sinistra e Risultati a destra. Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile." caption="Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile." />
+<UxProcessFigure src="/images/processo-ux-ui/wireframe-mano-ricerca-risultati.webp" alt="Passo · Bozzetti a mano: Il momento giusto. Nel posto giusto. e Un incontro che ti somiglia.. Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile." caption="Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile." />
 
 ---
 layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison screenshot-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 66
+lessonSlide: 67
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-wireframe-mano-dettaglio-riepilogo"
 localOnly: false
@@ -1243,14 +1262,14 @@ uxStep: 10
 
 # Bozzetti a mano · Dettaglio e riepilogo
 
-<UxProcessFigure src="/images/processo-ux-ui/wireframe-mano-dettaglio-riepilogo.webp" alt="Bozzetti a mano: Visita a domicilio a sinistra e Riepilogo a destra. Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista." caption="Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista." />
+<UxProcessFigure src="/images/processo-ux-ui/wireframe-mano-dettaglio-riepilogo.webp" alt="Passo · Bozzetti a mano: La tua visita a domicilio. e Un ultimo sguardo, poi ci incontriamo.. Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista." caption="Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista." />
 
 ---
 layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison screenshot-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 67
+lessonSlide: 68
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-wireframe-mano-attesa-conferma"
 localOnly: false
@@ -1262,14 +1281,33 @@ uxStep: 10
 
 # Bozzetti a mano · Richiesta e conferma
 
-<UxProcessFigure src="/images/processo-ux-ui/wireframe-mano-attesa-conferma.webp" alt="Bozzetti a mano: Richiesta inviata a sinistra e Visita confermata a destra. L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata." caption="L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata." />
+<UxProcessFigure src="/images/processo-ux-ui/wireframe-mano-attesa-conferma.webp" alt="Passo · Bozzetti a mano: Richiesta inviata. e Il tuo prossimo passo è fissato.. L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata." caption="L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata." />
 
 ---
 layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison screenshot-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 68
+lessonSlide: 69
+lessonMinutes: 1
+routeAlias: "processo-ux-ui-wireframe-media-home-visite"
+localOnly: false
+bookletChapter: 9
+bookletSource: "progetti/booklet/capitoli/09-processo-ux-ui.typ"
+bookletFigures: ["wireframe-media-home-visite"]
+uxStep: 10
+---
+
+# Media fedeltà · Home e visite
+
+<UxProcessFigure src="/images/processo-ux-ui/wireframe-media-home-visite.webp" alt="Passo · Media fedeltà: Il prossimo passo, lo fai a casa. e Il tuo spazio, anche qui.. Passo presenta il servizio e la ricerca; Le mie visite raccoglie richieste, stati e accesso al dettaglio. Le fotografie distinguono professionisti e paziente." caption="Passo presenta il servizio e la ricerca; Le mie visite raccoglie richieste, stati e accesso al dettaglio. Le fotografie distinguono professionisti e paziente." />
+
+---
+layout: "default"
+class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison screenshot-slide"
+footer: "Processo UX e UI"
+lesson: "processo-ux-ui"
+lessonSlide: 70
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-wireframe-media-ricerca-risultati"
 localOnly: false
@@ -1281,14 +1319,14 @@ uxStep: 10
 
 # Media fedeltà · Ricerca e risultati
 
-<UxProcessFigure src="/images/processo-ux-ui/wireframe-media-ricerca-risultati.webp" alt="Media fedeltà: Cerca una visita a sinistra e Risultati a destra. Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile." caption="Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile." />
+<UxProcessFigure src="/images/processo-ux-ui/wireframe-media-ricerca-risultati.webp" alt="Passo · Media fedeltà: Il momento giusto. Nel posto giusto. e Un incontro che ti somiglia.. Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile." caption="Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile." />
 
 ---
 layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison screenshot-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 69
+lessonSlide: 71
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-wireframe-media-dettaglio-riepilogo"
 localOnly: false
@@ -1300,14 +1338,14 @@ uxStep: 10
 
 # Media fedeltà · Dettaglio e riepilogo
 
-<UxProcessFigure src="/images/processo-ux-ui/wireframe-media-dettaglio-riepilogo.webp" alt="Media fedeltà: Visita a domicilio a sinistra e Riepilogo a destra. Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista." caption="Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista." />
+<UxProcessFigure src="/images/processo-ux-ui/wireframe-media-dettaglio-riepilogo.webp" alt="Passo · Media fedeltà: La tua visita a domicilio. e Un ultimo sguardo, poi ci incontriamo.. Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista." caption="Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista." />
 
 ---
 layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison screenshot-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 70
+lessonSlide: 72
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-wireframe-media-attesa-conferma"
 localOnly: false
@@ -1319,14 +1357,33 @@ uxStep: 10
 
 # Media fedeltà · Richiesta e conferma
 
-<UxProcessFigure src="/images/processo-ux-ui/wireframe-media-attesa-conferma.webp" alt="Media fedeltà: Richiesta inviata a sinistra e Visita confermata a destra. L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata." caption="L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata." />
+<UxProcessFigure src="/images/processo-ux-ui/wireframe-media-attesa-conferma.webp" alt="Passo · Media fedeltà: Richiesta inviata. e Il tuo prossimo passo è fissato.. L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata." caption="L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata." />
 
 ---
 layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison screenshot-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 71
+lessonSlide: 73
+lessonMinutes: 1
+routeAlias: "processo-ux-ui-wireframe-alta-home-visite"
+localOnly: false
+bookletChapter: 9
+bookletSource: "progetti/booklet/capitoli/09-processo-ux-ui.typ"
+bookletFigures: ["wireframe-alta-home-visite"]
+uxStep: 10
+---
+
+# Alta fedeltà · Home e visite
+
+<UxProcessFigure src="/images/processo-ux-ui/wireframe-alta-home-visite.webp" alt="Passo · Alta fedeltà: Il prossimo passo, lo fai a casa. e Il tuo spazio, anche qui.. Passo presenta il servizio e la ricerca; Le mie visite raccoglie richieste, stati e accesso al dettaglio. Le fotografie distinguono professionisti e paziente." caption="Passo presenta il servizio e la ricerca; Le mie visite raccoglie richieste, stati e accesso al dettaglio. Le fotografie distinguono professionisti e paziente." />
+
+---
+layout: "default"
+class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison screenshot-slide"
+footer: "Processo UX e UI"
+lesson: "processo-ux-ui"
+lessonSlide: 74
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-wireframe-alta-ricerca-risultati"
 localOnly: false
@@ -1338,14 +1395,14 @@ uxStep: 10
 
 # Alta fedeltà · Ricerca e risultati
 
-<UxProcessFigure src="/images/processo-ux-ui/wireframe-alta-ricerca-risultati.webp" alt="Alta fedeltà: Cerca una visita a sinistra e Risultati a destra. Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile." caption="Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile." />
+<UxProcessFigure src="/images/processo-ux-ui/wireframe-alta-ricerca-risultati.webp" alt="Passo · Alta fedeltà: Il momento giusto. Nel posto giusto. e Un incontro che ti somiglia.. Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile." caption="Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile." />
 
 ---
 layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison screenshot-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 72
+lessonSlide: 75
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-wireframe-alta-dettaglio-riepilogo"
 localOnly: false
@@ -1357,14 +1414,14 @@ uxStep: 10
 
 # Alta fedeltà · Dettaglio e riepilogo
 
-<UxProcessFigure src="/images/processo-ux-ui/wireframe-alta-dettaglio-riepilogo.webp" alt="Alta fedeltà: Visita a domicilio a sinistra e Riepilogo a destra. Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista." caption="Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista." />
+<UxProcessFigure src="/images/processo-ux-ui/wireframe-alta-dettaglio-riepilogo.webp" alt="Passo · Alta fedeltà: La tua visita a domicilio. e Un ultimo sguardo, poi ci incontriamo.. Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista." caption="Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista." />
 
 ---
 layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison screenshot-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 73
+lessonSlide: 76
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-wireframe-alta-attesa-conferma"
 localOnly: false
@@ -1376,14 +1433,14 @@ uxStep: 10
 
 # Alta fedeltà · Richiesta e conferma
 
-<UxProcessFigure src="/images/processo-ux-ui/wireframe-alta-attesa-conferma.webp" alt="Alta fedeltà: Richiesta inviata a sinistra e Visita confermata a destra. L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata." caption="L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata." />
+<UxProcessFigure src="/images/processo-ux-ui/wireframe-alta-attesa-conferma.webp" alt="Passo · Alta fedeltà: Richiesta inviata. e Il tuo prossimo passo è fissato.. L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata." caption="L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata." />
 
 ---
 layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 74
+lessonSlide: 77
 lessonMinutes: 2
 routeAlias: "processo-ux-ui-wireframe-progressione"
 localOnly: false
@@ -1395,14 +1452,14 @@ uxStep: 10
 
 # Lo stesso riepilogo, tre livelli di fedeltà
 
-<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Stessi contenuti e azioni, dal bozzetto a mano alla versione ad alta fedeltà.</p></div><UxProcessFigure src="/images/processo-ux-ui/wireframe-ui.webp" alt="Lo stesso riepilogo di Viola in tre colonne: bozzetto a mano, media fedeltà e alta fedeltà. In ogni versione: Giulia Riva, 17 novembre 2026 alle 20:30, Via Esempio 12 a Milano, 45 minuti, totale 60 euro con spostamento incluso, conferma dopo accettazione, Invia richiesta e Modifica i dati." caption="Stessi dati e azioni nei tre livelli. «Invia richiesta» apre l’attesa dell’accettazione." /></div>
+<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Lo stesso riepilogo di Passo: contatti a sinistra, visita e invio a destra.</p></div><UxProcessFigure src="/images/processo-ux-ui/wireframe-ui.webp" alt="Lo stesso riepilogo di Passo a mano, a media e ad alta fedeltà: contatti e privacy a sinistra; Giulia Riva, 17 novembre 2026 alle 20:30, Via Esempio 12 a Milano, CAP 20121, 45 minuti e totale 60 euro con spostamento incluso a destra. Invia richiesta apre l’attesa; Modifica i dati permette di correggere." caption="Il riepilogo di Passo mantiene contatti, visita e invio nei tre livelli di fedeltà." /></div>
 
 ---
 layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 75
+lessonSlide: 78
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-wireframe-v0"
 localOnly: false
@@ -1414,14 +1471,14 @@ uxStep: 10
 
 # V0 · Dalla struttura alle prime schermate
 
-<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">La prima bozza espone un limite da mettere alla prova: compatibilità e totale arrivano tardi.</p></div><UxProcessFigure :key="'11f76ad435715e9b0796ee0b9de355864cd4825c73b3cdf0dd7c7d562e55edee'" src="/images/processo-ux-ui/caso-wireframe-v0.svg" alt="Tre schermate del wireframe V0 con i punti deboli della compatibilità e del costo." caption="V0: ricerca, lista e riepilogo della prima bozza." /></div>
+<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">La prima bozza espone un limite da mettere alla prova: compatibilità e totale arrivano tardi.</p></div><UxProcessFigure :key="'8a7219d85aa409fff178a77000a224b7d40e7dc13d980b1a25c20e66f723f22c'" src="/images/processo-ux-ui/caso-wireframe-v0.svg" alt="Tre schermate del wireframe V0 con i punti deboli della compatibilità e del costo." caption="V0: ricerca, lista e riepilogo della prima bozza." /></div>
 
 ---
 layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide ux-step-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 76
+lessonSlide: 79
 lessonMinutes: 1.5
 routeAlias: "processo-ux-ui-prototipo"
 localOnly: false
@@ -1440,7 +1497,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide ux-case-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 77
+lessonSlide: 80
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-caso-prototipo"
 localOnly: false
@@ -1459,7 +1516,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide ux-service-prototype-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 78
+lessonSlide: 81
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-prototipo-v0"
 localOnly: false
@@ -1478,7 +1535,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 79
+lessonSlide: 82
 lessonMinutes: 1.5
 routeAlias: "processo-ux-ui-ambito-prototipo"
 localOnly: false
@@ -1497,7 +1554,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 80
+lessonSlide: 83
 lessonMinutes: 1.5
 routeAlias: "processo-ux-ui-usabilita"
 localOnly: false
@@ -1516,7 +1573,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide concept-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 81
+lessonSlide: 84
 lessonMinutes: 1.5
 routeAlias: "processo-ux-ui-compito"
 localOnly: false
@@ -1535,7 +1592,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison screenshot-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 82
+lessonSlide: 85
 lessonMinutes: 2
 routeAlias: "processo-ux-ui-piano-test"
 localOnly: false
@@ -1554,7 +1611,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide concept-slide sequence-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 83
+lessonSlide: 86
 lessonMinutes: 1.5
 routeAlias: "processo-ux-ui-sessione"
 localOnly: false
@@ -1573,7 +1630,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 84
+lessonSlide: 87
 lessonMinutes: 1.5
 routeAlias: "processo-ux-ui-osservazione"
 localOnly: false
@@ -1592,7 +1649,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 85
+lessonSlide: 88
 lessonMinutes: 1.5
 routeAlias: "processo-ux-ui-registro-prova"
 localOnly: false
@@ -1611,7 +1668,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide ux-step-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 86
+lessonSlide: 89
 lessonMinutes: 1.5
 routeAlias: "processo-ux-ui-iterazioni"
 localOnly: false
@@ -1630,7 +1687,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide ux-case-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 87
+lessonSlide: 90
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-caso-iterazioni"
 localOnly: false
@@ -1649,7 +1706,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 88
+lessonSlide: 91
 lessonMinutes: 2
 routeAlias: "processo-ux-ui-registro-revisione"
 localOnly: false
@@ -1668,7 +1725,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 89
+lessonSlide: 92
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-revisione-v1"
 localOnly: false
@@ -1680,14 +1737,14 @@ uxStep: 12
 
 # V0 → V1 · Prima la compatibilità
 
-<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Prima revisione: domicilio, fascia serale e totale precedono la scelta.</p></div><UxProcessFigure src="/images/processo-ux-ui/caso-iterazione-v1.webp" alt="Confronto dei risultati prima e dopo la revisione V1, basato sui wireframe di Viola. V0 mostra Giulia Riva, 20:30 e 45 minuti, con Vedi profilo. V1 aggiunge Via Esempio 12 a Milano, 17 novembre 2026 dopo le 20, visita a domicilio, totale di 60 euro e spostamento incluso prima di Vedi visita. Le informazioni aggiunte sono evidenziate in Cedro." caption="R1–R3 sono visibili prima di «Vedi visita». Invio e conferma restano da chiarire." /></div>
+<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Prima revisione: domicilio, fascia serale e totale precedono la scelta.</p></div><UxProcessFigure src="/images/processo-ux-ui/caso-iterazione-v1.webp" alt="Risultati di Passo prima e dopo la revisione V1. La lista V0 mostra Giulia Riva alle 20:30 e Luca Sala alle 21:45; V1 anticipa Via Esempio 12 a Milano, CAP 20121, 17 novembre 2026 dopo le 20, visita a domicilio di 45 minuti, totale di 60 euro e spostamento incluso prima di Vedi visita." caption="V0 → V1: domicilio, CAP, fascia serale e 60 € totali compaiono prima di Vedi visita." /></div>
 
 ---
 layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide ux-service-prototype-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 90
+lessonSlide: 93
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-prototipo-v1"
 localOnly: false
@@ -1706,7 +1763,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 91
+lessonSlide: 94
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-revisione-v2"
 localOnly: false
@@ -1718,14 +1775,14 @@ uxStep: 12
 
 # V1 → V2 · Rendere esplicita la promessa
 
-<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Seconda revisione: inviare una richiesta apre un’attesa; il professionista produce la conferma.</p></div><UxProcessFigure :key="'e03f4a6d121b785552b21958235e9be02e94791e01e21890bd40bc79aa008e93'" src="/images/processo-ux-ui/caso-iterazione-v2.svg" alt="Sequenza che distingue invio della richiesta, attesa e accettazione del professionista." caption="V1 → V2: richiesta, attesa e conferma del professionista." /></div>
+<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Seconda revisione: inviare una richiesta apre un’attesa; il professionista produce la conferma.</p></div><UxProcessFigure :key="'e71a78b5981cb03091051a9e589036f56bd2e604da091d718dfa183fbb1a0659'" src="/images/processo-ux-ui/caso-iterazione-v2.svg" alt="Sequenza che distingue invio della richiesta, attesa e accettazione del professionista." caption="V1 → V2: richiesta, attesa e conferma del professionista." /></div>
 
 ---
 layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 92
+lessonSlide: 95
 lessonMinutes: 1.5
 routeAlias: "processo-ux-ui-priorita"
 localOnly: false
@@ -1744,7 +1801,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 93
+lessonSlide: 96
 lessonMinutes: 1.5
 routeAlias: "processo-ux-ui-priorita-problemi"
 localOnly: false
@@ -1763,7 +1820,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide ux-step-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 94
+lessonSlide: 97
 lessonMinutes: 1.5
 routeAlias: "processo-ux-ui-ui"
 localOnly: false
@@ -1782,7 +1839,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide ux-case-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 95
+lessonSlide: 98
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-caso-ui"
 localOnly: false
@@ -1794,14 +1851,14 @@ uxStep: 13
 
 # La UI dà forma alle regole di V2
 
-<div class="ux-case-application"><div class="ux-case-columns"><div class="ux-case-decision"><p>La struttura adesso distingue compatibilità e stato. Applichiamo i concetti delle lezioni precedenti alla stessa proposta di servizio.</p><h2>Decisione nel caso</h2><p>Griglia e vicinanza collegano dati e comandi; tipografia e colore distinguono ruoli. Lo stato rimane scritto anche senza colore.</p></div><div class="ux-case-artifact"><h2>Regole visive della versione V2</h2><table class="table"><tbody><tr><th scope="row">Griglia e Gestalt</th><td>Etichetta e valore vicini; riferimenti comuni per data, orario, durata e totale.</td></tr><tr><th scope="row">Tipografia</th><td>Gerarchia costante fra titolo della visita, informazioni e azione successiva.</td></tr><tr><th scope="row">Colore e stato</th><td>Violet per azione, Cedro per scelta; testo esplicito per attesa, conferma ed errore.</td></tr><tr><th scope="row">Componenti</th><td>Ricerca, proposta, riepilogo e messaggio di stato condividono etichette e comportamento.</td></tr></tbody></table></div></div><p class="ux-case-handoff"><strong>UI-02.</strong> La nuova verifica percorre il servizio anche quando uno slot scompare.</p></div>
+<div class="ux-case-application"><div class="ux-case-columns"><div class="ux-case-decision"><p>La struttura adesso distingue compatibilità e stato. Applichiamo i concetti delle lezioni precedenti alla stessa proposta di servizio.</p><h2>Decisione nel caso</h2><p>Griglia e vicinanza collegano dati e comandi; tipografia e colore distinguono ruoli. Lo stato rimane scritto anche senza colore.</p></div><div class="ux-case-artifact"><h2>Sistema UI-01 · Passo</h2><table class="table"><tbody><tr><th scope="row">Identità</th><td>Marchio passo., Nunito Sans, violetto e Cedro.</td></tr><tr><th scope="row">Fotografie</th><td>Professionisti e paziente distinguibili; ambienti domestici luminosi.</td></tr><tr><th scope="row">Composizione</th><td>Ricerca, schede e riepilogo condividono gerarchia, allineamenti e controlli.</td></tr><tr><th scope="row">Stati</th><td>Attesa neutra; conferma scritta e Cedro; recuperi con dati conservati.</td></tr></tbody></table></div></div><p class="ux-case-handoff"><strong>UI-02.</strong> La nuova verifica percorre il servizio anche quando uno slot scompare.</p></div>
 
 ---
 layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 96
+lessonSlide: 99
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-sistema-ui-caso"
 localOnly: false
@@ -1811,16 +1868,16 @@ bookletFigures: ["caso-sistema-ui"]
 uxStep: 13
 ---
 
-# V2 · Un sistema visivo per lo stesso servizio
+# Passo · Il sistema visivo applicato
 
-<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Griglia, tipografia e colore rendono leggibili le regole già decise.</p></div><UxProcessFigure :key="'9e97da6d72661fddf8810ffb081feb7e17b98bb9d78a782ec003c8dfa8ad0be6'" src="/images/processo-ux-ui/caso-sistema-ui.svg" alt="Sistema visivo V2 con gerarchie tipografiche, relazioni, azioni e stati scritti." caption="Griglia, tipografia, colore e stati danno forma alle decisioni del servizio." /></div>
+<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Nunito Sans, violetto, Cedro e fotografie rendono riconoscibile lo stesso percorso.</p></div><UxProcessFigure :key="'c8883589a3aa16d66bc27866d39d776e19a880c705511cac818c8f5a094b38ce'" src="/images/processo-ux-ui/caso-sistema-ui.svg" alt="Sistema visivo V2 con gerarchie tipografiche, relazioni, azioni e stati scritti." caption="Griglia, tipografia, colore e stati danno forma alle decisioni del servizio." /></div>
 
 ---
 layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide ux-service-prototype-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 97
+lessonSlide: 100
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-prototipo-v2"
 localOnly: false
@@ -1839,7 +1896,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 98
+lessonSlide: 101
 lessonMinutes: 2
 routeAlias: "processo-ux-ui-stati"
 localOnly: false
@@ -1858,7 +1915,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 99
+lessonSlide: 102
 lessonMinutes: 1.5
 routeAlias: "processo-ux-ui-coerenza"
 localOnly: false
@@ -1870,14 +1927,14 @@ uxStep: 13
 
 # La UI comprende parole e comportamento
 
-<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Griglia, tipografia, colore e stati rendono leggibile la stessa decisione. La coerenza permette di trasferire ciò che si impara da una parte all’altra del prodotto.</p></div><UxProcessFigure :key="'dee8181a0f5bb3cf7a8ff07c73ce995435c2e8c47f2302e5b3aa139fe2f6bec3'" src="/images/processo-ux-ui/ui-annotata.svg" alt="Schermata di una visita a domicilio alle 20:30 con azione Invia richiesta e nota che distingue l’invio dalla conferma; spiegazioni dei tre gruppi di scelte visive." caption="Griglia, tipografia, colore e stati rendono comprensibili disponibilità e richiesta." /></div>
+<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Griglia, tipografia, colore e stati rendono leggibile la stessa decisione. La coerenza permette di trasferire ciò che si impara da una parte all’altra del prodotto.</p></div><UxProcessFigure :key="'e6f121d4bc8accfe43c50941283b16629779e3beaa69916f5f1be8cab384a290'" src="/images/processo-ux-ui/ui-annotata.svg" alt="Schermata di una visita a domicilio alle 20:30 con azione Invia richiesta e nota che distingue l’invio dalla conferma; spiegazioni dei tre gruppi di scelte visive." caption="Griglia, tipografia, colore e stati rendono comprensibili disponibilità e richiesta." /></div>
 
 ---
 layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 100
+lessonSlide: 103
 lessonMinutes: 1.5
 routeAlias: "processo-ux-ui-componenti"
 localOnly: false
@@ -1896,7 +1953,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide ux-step-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 101
+lessonSlide: 104
 lessonMinutes: 1.5
 routeAlias: "processo-ux-ui-nuova-verifica"
 localOnly: false
@@ -1915,7 +1972,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide ux-case-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 102
+lessonSlide: 105
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-caso-nuova-verifica"
 localOnly: false
@@ -1934,7 +1991,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 103
+lessonSlide: 106
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-revisione-v3"
 localOnly: false
@@ -1946,14 +2003,14 @@ uxStep: 14
 
 # V2 → V3 · Recuperare uno slot perso
 
-<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Terza revisione: la disponibilità cambia, i dati validi rimangono.</p></div><UxProcessFigure :key="'908eacc90d5629c74627dc034d13c92bd711c5998afd727bf875c77dd6c22417'" src="/images/processo-ux-ui/caso-iterazione-v3.svg" alt="Recupero dalla perdita dello slot delle 20:30 verso una proposta alle 21:15." caption="V2 → V3: uno slot perso conserva i dati validi." /></div>
+<div class="lesson-teaching-figure"><div class="lesson-teaching-intro"><p class="lead">Terza revisione: la disponibilità cambia, i dati validi rimangono.</p></div><UxProcessFigure :key="'1bdd0d1c2fcb557d05022513f3d9ed6bbb8a5d2c99438f1f100b26c058f5206d'" src="/images/processo-ux-ui/caso-iterazione-v3.svg" alt="Recupero dalla perdita dello slot delle 20:30 verso una proposta alle 21:15." caption="V2 → V3: uno slot perso conserva i dati validi." /></div>
 
 ---
 layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide ux-service-prototype-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 104
+lessonSlide: 107
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-servizio-finale"
 localOnly: false
@@ -1972,7 +2029,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide concept-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 105
+lessonSlide: 108
 lessonMinutes: 1.5
 routeAlias: "processo-ux-ui-accessibilita"
 localOnly: false
@@ -1991,7 +2048,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide illustrated-process-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 106
+lessonSlide: 109
 lessonMinutes: 1.5
 routeAlias: "processo-ux-ui-consegna"
 localOnly: false
@@ -2009,7 +2066,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 107
+lessonSlide: 110
 lessonMinutes: 1.5
 routeAlias: "processo-ux-ui-consegna-verificabile"
 localOnly: false
@@ -2027,7 +2084,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 108
+lessonSlide: 111
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-blueprint-finale"
 localOnly: false
@@ -2045,7 +2102,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide illustrated-process-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 109
+lessonSlide: 112
 lessonMinutes: 1.5
 routeAlias: "processo-ux-ui-servizio-reale"
 localOnly: false
@@ -2063,7 +2120,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide figure-slide figure-comparison teaching-figure-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 110
+lessonSlide: 113
 lessonMinutes: 2
 routeAlias: "processo-ux-ui-ciclo"
 localOnly: false
@@ -2081,7 +2138,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 111
+lessonSlide: 114
 lessonMinutes: 1.5
 routeAlias: "processo-ux-ui-scegliere"
 localOnly: false
@@ -2099,7 +2156,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide lesson-activity"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 112
+lessonSlide: 115
 lessonMinutes: 10
 routeAlias: "processo-ux-ui-attivita-prova"
 localOnly: false
@@ -2117,7 +2174,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 113
+lessonSlide: 116
 lessonMinutes: 3
 routeAlias: "processo-ux-ui-restituzione"
 localOnly: false
@@ -2135,7 +2192,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 114
+lessonSlide: 117
 lessonMinutes: 1.5
 routeAlias: "processo-ux-ui-adattare"
 localOnly: false
@@ -2153,7 +2210,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide process-takeaway"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 115
+lessonSlide: 118
 lessonMinutes: 1
 routeAlias: "processo-ux-ui-chiusura"
 localOnly: false
@@ -2171,7 +2228,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 116
+lessonSlide: 119
 lessonMinutes: 0.5
 routeAlias: "processo-ux-ui-fonti-libro"
 localOnly: false
@@ -2189,7 +2246,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 117
+lessonSlide: 120
 lessonMinutes: 0.5
 routeAlias: "processo-ux-ui-fonti-ricerca"
 localOnly: false
@@ -2207,7 +2264,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 118
+lessonSlide: 121
 lessonMinutes: 0.5
 routeAlias: "processo-ux-ui-fonti-valutazione"
 localOnly: false
@@ -2225,7 +2282,7 @@ layout: "default"
 class: "content-slide ux-process-lesson lesson-slide processo-ux-ui-slide reading-slide"
 footer: "Processo UX e UI"
 lesson: "processo-ux-ui"
-lessonSlide: 119
+lessonSlide: 122
 lessonMinutes: 0.5
 routeAlias: "processo-ux-ui-fonti-figure"
 localOnly: false

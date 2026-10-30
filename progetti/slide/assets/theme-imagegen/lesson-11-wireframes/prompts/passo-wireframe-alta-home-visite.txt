@@ -1,0 +1,48 @@
+Use case: ui-mockup. Asset type: Italian teaching slide, paired alta fedeltà of the existing Passo website.
+The supplied website screenshots are structural and content references. Create ONE large landscape 16:9 board, approximately 2048x1152, with exactly TWO equal browser/page panels side by side on plain white, left "home", right "visite". This is a website, never phone mockups or device photography. No slide title, captions, arrows between panels or decorative framing.
+Style: UI Passo ad alta fedeltà: marchio passo. con punto Cedro, Nunito Sans, violetto #5B21B6, inchiostro viola scuro, superfici bianche e lavanda, controlli ampi, ritratti di Giulia e Luca coerenti con il sito. Gerarchia, impaginazione, etichette e azioni provengono dalle schermate reali di riferimento. Nessun gradiente o elemento inventato. Attesa neutra, conferma Cedro.
+Keep the actual Passo information architecture and composition from the references. In each panel, a compact header has the wordmark "passo." and compact navigation: Il servizio, Trova una visita, Assistenza, Le mie visite. On booking pages show the four steps Cerca, Scegli, Controlla, Esito. Adapt spacing and line breaks for teaching legibility, preserving each screen's groups and columns. All UI texts must be Italian, large, dark and highly legible; prioritize the exact labels below. No lorem ipsum or invented buttons, ratings, reviews, payment or account login.
+LEFT SCREEN:
+{
+  "id": "home",
+  "title": "Il prossimo passo, lo fai a casa.",
+  "lines": [
+    "passo.",
+    "Il servizio",
+    "Trova una visita",
+    "Assistenza",
+    "Le mie visite",
+    "Fisioterapia a domicilio · Milano",
+    "45 minuti, 60 €. Spostamento incluso.",
+    "Dove ci troviamo?",
+    "Domicilio a Milano",
+    "CAP 20121",
+    "17 novembre 2026",
+    "Dopo le 20",
+    "La tua quotidianità è il nostro punto di partenza."
+  ],
+  "primary": "Trova la tua visita",
+  "secondary": "Cerca disponibilità"
+}
+RIGHT SCREEN:
+{
+  "id": "visite",
+  "title": "Il tuo spazio, anche qui.",
+  "lines": [
+    "Le mie visite",
+    "Richieste, appuntamenti e prossimi passi.",
+    "17 nov",
+    "Giulia Riva",
+    "20:30 · 45 minuti · A domicilio",
+    "Confermata",
+    "Le richieste sono salvate soltanto in questo browser."
+  ],
+  "primary": "Trova una visita",
+  "secondary": "Elimina i dati delle visite"
+}
+Composition details:
+Home: headline and domestic photo area in two columns, violet-style emphasis only if high fidelity, a full-width compact search strip below. Include a small lower content area showing a patient photograph placeholder and the sentence La tua quotidianità è il nostro punto di partenza. Visits: large heading, new-search action, one wide appointment row with date block, Giulia, time, written confirmed status and an arrow that opens detail. No address or total inside the list row; they appear on detail.
+Use the actual visual world in the screenshots: Nunito Sans; white and pale lavender surfaces; deep violet type, vivid violet primary actions, Cedro only for selected/confirmed states. Use the supplied actual portrait and home photos through the reference screenshots, not initials or unrelated invented people. Refined but faithful to Passo.
+Data invariants: Via Esempio 12, Milano; CAP 20121; 17 novembre 2026; Giulia Riva at 20:30 or 21:15; Luca Sala at 21:45; 45 minutes; 60 € total including travel. Submission creates a pending request; only professional acceptance confirms.
+
+Exact navigation rule: show the Cerca/Scegli/Controlla/Esito stepper ONLY on ricerca, risultati, dettaglio and riepilogo. Do NOT show a stepper on home, visits, pending or confirmed pages. The patient in the lower home content area is an elderly white-haired bearded MAN with a septum ring, as in the provided patient reference, not the female hero client.

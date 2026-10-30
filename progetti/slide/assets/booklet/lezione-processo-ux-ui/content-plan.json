@@ -1084,9 +1084,9 @@
     {
       "slug": "sitemap-sito",
       "alias": "processo-ux-ui-sitemap-sito",
-      "title": "La sitemap del sito che realizzeremo",
+      "title": "La sitemap di Passo",
       "kind": "booking-sitemap",
-      "lead": "Dalla ricerca di una visita alla sua gestione: le pagine da costruire.",
+      "lead": "Le pagine del sito finale: servizio, ricerca, profili, richieste e assistenza.",
       "points": [],
       "minutes": 2,
       "step": 7,
@@ -1232,7 +1232,7 @@
       "alias": "processo-ux-ui-sitemap",
       "title": "Una struttura da discutere",
       "kind": "teaching",
-      "lead": "Servizi, Prenota e Le mie visite raggruppano informazioni e funzioni. Il flow descrive le azioni.",
+      "lead": "Il servizio, Trova una visita e Le mie visite raggruppano contenuti e funzioni di Passo. Il flow descrive le azioni.",
       "points": [],
       "minutes": 1.5,
       "step": 9,
@@ -1346,6 +1346,23 @@
       "figureRole": "document"
     },
     {
+      "slug": "wireframe-mano-home-visite",
+      "alias": "processo-ux-ui-wireframe-mano-home-visite",
+      "title": "Bozzetti a mano · Home e visite",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 1,
+      "step": 10,
+      "figures": [
+        "wireframe-mano-home-visite"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing",
+      "wireframeLevel": "mano",
+      "wireframePair": "home-visite"
+    },
+    {
       "slug": "wireframe-mano-ricerca-risultati",
       "alias": "processo-ux-ui-wireframe-mano-ricerca-risultati",
       "title": "Bozzetti a mano · Ricerca e risultati",
@@ -1397,6 +1414,23 @@
       "wireframePair": "attesa-conferma"
     },
     {
+      "slug": "wireframe-media-home-visite",
+      "alias": "processo-ux-ui-wireframe-media-home-visite",
+      "title": "Media fedeltà · Home e visite",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 1,
+      "step": 10,
+      "figures": [
+        "wireframe-media-home-visite"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing",
+      "wireframeLevel": "media",
+      "wireframePair": "home-visite"
+    },
+    {
       "slug": "wireframe-media-ricerca-risultati",
       "alias": "processo-ux-ui-wireframe-media-ricerca-risultati",
       "title": "Media fedeltà · Ricerca e risultati",
@@ -1446,6 +1480,23 @@
       "sourceHeading": "Wireframing",
       "wireframeLevel": "media",
       "wireframePair": "attesa-conferma"
+    },
+    {
+      "slug": "wireframe-alta-home-visite",
+      "alias": "processo-ux-ui-wireframe-alta-home-visite",
+      "title": "Alta fedeltà · Home e visite",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 1,
+      "step": 10,
+      "figures": [
+        "wireframe-alta-home-visite"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing",
+      "wireframeLevel": "alta",
+      "wireframePair": "home-visite"
     },
     {
       "slug": "wireframe-alta-ricerca-risultati",
@@ -1503,7 +1554,7 @@
       "alias": "processo-ux-ui-wireframe-progressione",
       "title": "Lo stesso riepilogo, tre livelli di fedeltà",
       "kind": "teaching",
-      "lead": "Stessi contenuti e azioni, dal bozzetto a mano alla versione ad alta fedeltà.",
+      "lead": "Lo stesso riepilogo di Passo: contatti a sinistra, visita e invio a destra.",
       "points": [],
       "minutes": 2,
       "step": 10,
@@ -1907,9 +1958,9 @@
     {
       "slug": "sistema-ui-caso",
       "alias": "processo-ux-ui-sistema-ui-caso",
-      "title": "V2 · Un sistema visivo per lo stesso servizio",
+      "title": "Passo · Il sistema visivo applicato",
       "kind": "teaching",
-      "lead": "Griglia, tipografia e colore rendono leggibili le regole già decise.",
+      "lead": "Nunito Sans, violetto, Cedro e fotografie rendono riconoscibile lo stesso percorso.",
       "points": [],
       "minutes": 1,
       "step": 13,
@@ -2473,12 +2524,14 @@
       "alta"
     ],
     "pairs": [
+      "home-visite",
       "ricerca-risultati",
       "dettaglio-riepilogo",
       "attesa-conferma"
     ],
-    "slideCount": 9,
-    "contentIntro": "contenuti-realistici"
+    "slideCount": 12,
+    "contentIntro": "contenuti-realistici",
+    "siteSource": "progetti/fisioterapia/"
   },
   "archivedSlides": [
     {

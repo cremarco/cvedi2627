@@ -172,7 +172,7 @@ comparison_source = 'progetti/slide/assets/slide-materials/processo-ux-ui/confro
 for code, function, caption, alt in [
     ('confronto-mappe', 'maps-comparison',
      'Momenti del servizio, sequenza di azioni e struttura dei contenuti a confronto.',
-     'Journey con prima, durante e dopo; flow con disponibilità e rami sì e no; sitemap con Servizi, Prenota e Le mie visite.'),
+     'Journey con prima, durante e dopo; flow con disponibilità e rami sì e no; sitemap con Il servizio, Trova una visita e Le mie visite.'),
     ('ui-annotata', 'ui-annotated',
      'Disponibilità e richiesta sono stati diversi. Le scelte visive sostengono la comprensione del compito.',
      'Schermata simulata di una visita a domicilio alle 20:30 con azione Invia richiesta e nota che distingue l’invio dalla conferma; spiegazioni dei tre gruppi di scelte visive.'),
@@ -220,7 +220,11 @@ for image in smart_infographic['images']:
              prompt=image['prompt'], promptSha256=image['promptSha256'],
              generationTool=image['generationTool'], transparentBackground=image['transparentBackground'])
 
-# The same six scenario screens progress through hand sketches, mid and high fidelity.
+# The prototype reuses the final site's exact professional portraits.
+for person in ['giulia-riva', 'luca-sala']:
+    shutil.copyfile(ROOT / f'progetti/fisioterapia/assets/images/{person}.webp', PUBLIC / f'passo-{person}.webp')
+
+# The same eight Passo screens progress through hand sketches, mid and high fidelity.
 wireframes = json.loads((ROOT / 'progetti/slide/assets/theme-imagegen/lesson-11-wireframes/manifest.json').read_text())
 for image in wireframes['images']:
     register(image['code'], ROOT / image['derivative'], image['caption'], image['rights'], image['alt'],

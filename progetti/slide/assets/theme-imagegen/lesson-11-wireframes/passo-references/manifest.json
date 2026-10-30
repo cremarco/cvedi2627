@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "sourceProject": "progetti/fisioterapia/",
+  "sourceFiles": [
+    "progetti/fisioterapia/app.js",
+    "progetti/fisioterapia/data/content.mjs",
+    "progetti/fisioterapia/styles/site.source.css"
+  ],
+  "viewport": {
+    "width": 1200,
+    "height": 1000
+  },
+  "scenario": {
+    "brand": {
+      "name": "passo",
+      "city": "Milano",
+      "price": 60,
+      "duration": 45,
+      "date": "2026-11-17",
+      "address": "Via Esempio 12, Milano"
+    },
+    "professionals": [
+      {
+        "id": "giulia-riva",
+        "name": "Giulia Riva",
+        "image": "giulia-riva.webp",
+        "times": [
+          "20:30",
+          "21:15"
+        ]
+      },
+      {
+        "id": "luca-sala",
+        "name": "Luca Sala",
+        "image": "luca-sala.webp",
+        "times": [
+          "21:45"
+        ]
+      }
+    ]
+  },
+  "captures": [
+    {
+      "id": "home",
+      "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/passo-references/home.png",
+      "sha256": "8f2a6f03baa3a10e2275709233fc0349e27ab45f0375d8ee21c1f71b91b4936a",
+      "route": "/",
+      "heading": "Il prossimo passo,\nlo fai a casa."
+    },
+    {
+      "id": "ricerca",
+      "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/passo-references/ricerca.png",
+      "sha256": "4b299460ea41a249c41e3d49ee2040b9b916bdfab7de1e565f7d027b77843b4c",
+      "route": "/cerca",
+      "heading": "Il momento giusto.\nNel posto giusto."
+    },
+    {
+      "id": "risultati",
+      "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/passo-references/risultati.png",
+      "sha256": "c3323599a4c7e73e4f43a7ac600ecc5f5f01ae5c46f3f707467523803fff6b4b",
+      "route": "/risultati",
+      "heading": "Un incontro che ti somiglia."
+    },
+    {
+      "id": "profilo",
+      "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/passo-references/profilo.png",
+      "sha256": "80e4b8c0dff47bf628efd4fe890ee720d4bca7f5e91b265c1da951cfd1d29331",
+      "route": "/profilo/giulia-riva",
+      "heading": "Giulia Riva"
+    },
+    {
+      "id": "dettaglio",
+      "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/passo-references/dettaglio.png",
+      "sha256": "2640849902b5528efd6eb4f80bee6e7de4a1219e617d8cf911aad8cb7cb24524",
+      "route": "/dettaglio",
+      "heading": "La tua visita\na domicilio."
+    },
+    {
+      "id": "riepilogo",
+      "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/passo-references/riepilogo.png",
+      "sha256": "3c12ef902fb624284aadcccb56c76f77d9c048b656011247b446d5f410a5e882",
+      "route": "/riepilogo",
+      "heading": "Un ultimo sguardo,\npoi ci incontriamo."
+    },
+    {
+      "id": "attesa",
+      "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/passo-references/attesa.png",
+      "sha256": "5e661c9ea3b099c84251583083b4d856d93e308adbf4659e1568aefacbb117f3",
+      "route": "/richiesta/RIC-326B60",
+      "heading": "Richiesta inviata."
+    },
+    {
+      "id": "conferma",
+      "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/passo-references/conferma.png",
+      "sha256": "9d2d228f91a01ddc588678debb60051717735a3cd0b6d18029c0e018b71127d4",
+      "route": "/richiesta/RIC-326B60",
+      "heading": "Il tuo prossimo passo è fissato."
+    },
+    {
+      "id": "visite",
+      "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/passo-references/visite.png",
+      "sha256": "6b272e15ceb8204b09c9c6330b1a059d4ee9b0c3a7b5a234ec1bf136df747146",
+      "route": "/visite",
+      "heading": "Il tuo spazio,\nanche qui."
+    },
+    {
+      "id": "assistenza",
+      "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/passo-references/assistenza.png",
+      "sha256": "47c336a491bae3df4c476374a7b08e07bcec3306df9dc8723019c8b0c1acc105",
+      "route": "/assistenza",
+      "heading": "Facciamo chiarezza,\ninsieme."
+    }
+  ]
+}

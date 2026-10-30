@@ -31,6 +31,7 @@ export async function lessonAssetInventory(mode) {
     const result = imagePaths(text), next = new Set([...seen, name])
     for (const [, child] of text.matchAll(/<([A-Z][\w]+)\b/g)) result.push(...await componentAssets(child, next))
     // These two components select images from their own data rather than Markdown.
+    if (name === 'UxServicePrototype') result.push(...(await json('progetti/slide/data/ux-service-prototype.json')).service.professionals.map(person => person.image))
     if (name === 'ProjectGallery') result.push(...(await json('progetti/slide/data/projects.json')).map(project => project.image))
     if (name === 'UxProcessMap') {
       for (const id of ['introduction-goals', 'introduction-research', 'introduction-workflow', 'introduction-structure', 'introduction-testing']) result.push(artwork.thematicAssets[id])

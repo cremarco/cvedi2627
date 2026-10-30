@@ -3,10 +3,11 @@ import { computed, nextTick, ref, useId, watch } from 'vue'
 import { useSlidePlayback } from '../composables/useSlidePlayback'
 import scenario from '../data/ux-service-prototype.json'
 import wireframes from '../data/ux-wireframe-sequence.json'
+import { publicAsset } from '../utils/public-asset'
 
 type Stage = 'search' | 'results' | 'detail' | 'review' | 'pending' | 'confirmed' | 'conflict' | 'empty' | 'outside' | 'cancelled' | 'help' | 'visits' | 'declined'
 type Version = 'v0' | 'v1' | 'v2' | 'v3'
-type Appointment = { time: string; address: string; zone: string; professional: string }
+type Appointment = { time: string; address: string; cap: string; professional: string }
 const props = withDefaults(defineProps<{ version?: Version; startAt?: 'search' | 'results' | 'detail' | 'review' | 'pending' | 'confirmed' }>(), { version: 'v3' })
 const { isPrinting } = useSlidePlayback()
 const service = scenario.service
@@ -18,7 +19,9 @@ const viewHeading = ref<HTMLElement>()
 const addressInput = ref<HTMLInputElement>()
 const stage = ref<Stage>('search')
 const address = ref(service.address)
-const zone = ref('centro')
+const cap = ref(service.cap)
+const contact = ref({ name: 'Viola Esempio', email: 'viola@example.com', phone: '', privacy: false })
+const selectedSlots = ref<Record<string, string>>({})
 const date = ref(service.date)
 const period = ref('sera')
 const selectedTime = ref(service.time)
@@ -36,31 +39,34 @@ const rejectedChoices = ref<string[]>([])
 let searchToken = 0
 const revision = computed(() => scenario.versions.find(item => item.id === props.version)!)
 const level = computed(() => Number(props.version.slice(1)))
-const zoneLabel = computed(() => service.zones.find(item => item.value === zone.value)?.label ?? '')
+const zoneLabel = computed(() => `${cap.value} Milano`)
+const professionalImage = (name: string) => publicAsset(service.professionals.find(item => item.name === name)?.image || service.professionals[0].image)
 const displayed = computed(() => stage.value === 'confirmed' && booking.value ? booking.value : {
-  time: selectedTime.value, address: address.value, zone: zoneLabel.value, professional: selectedProfessional.value,
+  time: selectedTime.value, address: address.value, cap: cap.value, professional: selectedProfessional.value,
 })
 const hasClearStates = computed(() => level.value >= 2)
-const resultOptions = computed(() => [
-  { time: period.value === 'mattina' ? '09:00' : slotLost.value ? service.alternativeTime : service.time, professional: service.professional },
-  { time: period.value === 'mattina' ? '10:30' : '21:45', professional: 'Luca Sala' },
-].filter(option => !rejectedChoices.value.includes(option.professional + '|' + option.time)))
+const resultOptions = computed(() => service.professionals.map(person => {
+  const times = person.times.filter(time => !(slotLost.value && time === service.time && person.name === service.professional) && !rejectedChoices.value.includes(person.name + '|' + time))
+  const chosen = times.includes(selectedSlots.value[person.name]) ? selectedSlots.value[person.name] : times[0]
+  return { professional: person.name, times, time: chosen }
+}).filter(option => option.times.length))
 const progressIndex = computed(() => stage.value === 'search' || ['outside', 'empty'].includes(stage.value) ? 0 : stage.value === 'results' ? 1 : stage.value === 'detail' ? 2 : ['review', 'conflict'].includes(stage.value) ? 3 : 4)
 const canLoseSlot = computed(() => ['results', 'detail', 'review'].includes(stage.value) && !slotLost.value && !busy.value)
 const printSteps = computed(() => [
-  ['Ricerca', 'Via Esempio 12 · Zona Centro · dopo le 20'],
+  ['Ricerca', 'Via Esempio 12 · CAP 20121 · dopo le 20'],
   ['Scelta', 'Giulia Riva · 17 novembre 2026 · 20:30 · 45 minuti'],
   ['Riepilogo', 'Domicilio e totale di 60 €, spostamento incluso, prima dell’invio'],
   ['Esito', level.value === 3 ? 'Richiesta in attesa → accettata o non accettata' : level.value === 2 ? 'Richiesta in attesa → conferma del professionista' : '“Prenota” e “Prenotazione ricevuta” lasciano un’ambiguità'],
 ])
 
 function snapshot(): Appointment {
-  return { time: selectedTime.value, address: address.value.trim(), zone: zoneLabel.value, professional: selectedProfessional.value }
+  return { time: selectedTime.value, address: address.value.trim(), cap: cap.value, professional: selectedProfessional.value }
 }
 async function go(next: Stage, message = '') {
   searchToken++
   busy.value = false
   stage.value = next
+  formError.value = ''
   cancelRequested.value = false
   announcement.value = message
   await nextTick()
@@ -68,7 +74,8 @@ async function go(next: Stage, message = '') {
 }
 function reset() {
   searchToken++
-  address.value = service.address; zone.value = 'centro'; date.value = service.date; period.value = 'sera'
+  address.value = service.address; cap.value = service.cap;
+  contact.value = { name: 'Viola Esempio', email: 'viola@example.com', phone: '', privacy: false }; selectedSlots.value = {}; date.value = service.date; period.value = 'sera'
   selectedTime.value = service.time; selectedProfessional.value = service.professional
   slotLost.value = false; busy.value = false; formError.value = ''; announcement.value = ''
   editing.value = false; cancelRequested.value = false; cancelledType.value = 'Richiesta'
@@ -91,8 +98,8 @@ async function search() {
   await new Promise(resolve => setTimeout(resolve, 220))
   if (token !== searchToken) return
   busy.value = false
-  if (zone.value === 'fuori') return go('outside', 'Il domicilio è fuori dalla zona coperta.')
-  if (date.value !== service.date || (zone.value === 'nord' && period.value === 'sera')) return go('empty', 'Nessuna visita compatibile. I criteri sono conservati.')
+  if (!service.coveredCaps.includes(cap.value)) return go('outside', 'Il domicilio è fuori dalla zona coperta.')
+  if (date.value !== service.date || period.value !== 'sera') return go('empty', 'Nessuna proposta per questa ricerca. I criteri sono conservati.')
   return go(resultOptions.value.length ? 'results' : 'empty', 'Disponibilità aggiornate. Ogni orario è una proposta da confermare.')
 }
 function choose(time: string, professional: string) {
@@ -101,6 +108,10 @@ function choose(time: string, professional: string) {
   go('detail')
 }
 function submitRequest() {
+  formError.value = ''
+  if (!contact.value.name.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contact.value.email) || !contact.value.privacy) {
+    formError.value = 'Controlla nome, email e consenso privacy.'; return
+  }
   if (slotLost.value && selectedTime.value === service.time) return go('conflict', 'L’orario non è più disponibile; i dati validi sono conservati.')
   hasRequest.value = true
   go('pending', 'Richiesta inviata nella simulazione. La visita non è ancora confermata.')
@@ -122,7 +133,7 @@ function loseSlot() {
   if (!canLoseSlot.value) return
   slotLost.value = true
   if (level.value < 3) {
-    address.value = ''; zone.value = 'centro'; date.value = service.date
+    address.value = ''; cap.value = service.cap; date.value = service.date
     go('conflict', 'Questa bozza non conserva ancora i dati dopo il conflitto.')
   } else go('conflict', 'L’orario non è più disponibile. Domicilio, giorno e fascia sono conservati.')
 }
@@ -132,7 +143,7 @@ function alternative() {
 }
 function editBooking() {
   if (!booking.value) return
-  address.value = booking.value.address; selectedTime.value = booking.value.time
+  address.value = booking.value.address; cap.value = booking.value.cap; selectedTime.value = booking.value.time
   editing.value = true
   go('search', 'Modifica avviata. La visita precedente rimane confermata fino alla nuova accettazione.')
 }
@@ -140,7 +151,7 @@ function cancelEditing() {
   editing.value = false; hasRequest.value = false
   if (booking.value) {
     selectedTime.value = booking.value.time; address.value = booking.value.address
-    zone.value = service.zones.find(item => item.label === booking.value?.zone)?.value ?? 'centro'
+    cap.value = booking.value.cap
   }
   go('confirmed', 'Modifica abbandonata. La visita precedente rimane confermata.')
 }
@@ -172,7 +183,7 @@ function onKey(event: KeyboardEvent) {
       <div>
         <h2>{{ revision.title }}</h2>
         <p>{{ revision.change }}</p>
-        <p class="prototype-question">{{ revision.limit }}</p>
+        <p class="prototype-question">{{ revision.limit }}</p><a v-if="level === 3" class="prototype-site-link" href="https://cremarco.github.io/cvedi2627/fisioterapia/" target="_blank" rel="noopener noreferrer">Apri il sito Passo</a>
       </div>
       <div class="prototype-controls" aria-label="Controlli del prototipo">
         <div v-if="level === 3" class="prototype-response" role="group" aria-label="Risposta del professionista">
@@ -186,7 +197,7 @@ function onKey(event: KeyboardEvent) {
     </aside>
 
     <div class="prototype-app" :class="{ 'prototype-wireframe': level === 0 }">
-      <header class="prototype-header"><strong>{{ service.name }}</strong><button class="btn prototype-visits" type="button" data-testid="service-visits" @click="openVisits">Le mie visite</button></header>
+      <header class="prototype-header"><strong class="prototype-wordmark">{{ service.brand.toLowerCase() }}<span>.</span></strong><button class="btn prototype-visits" type="button" data-testid="service-visits" @click="openVisits">Le mie visite</button></header>
       <ol class="sr-only" aria-label="Percorso della richiesta">
         <li v-for="(label, index) in ['Cerca', 'Risultati', 'Dettaglio', 'Riepilogo', 'Esito']" :key="label" :aria-current="index === progressIndex ? 'step' : undefined">{{ label }}</li>
       </ol>
@@ -195,9 +206,9 @@ function onKey(event: KeyboardEvent) {
           <h3 ref="viewHeading" tabindex="-1">{{ editing ? 'Scegli un nuovo orario' : screens.ricerca.title }}</h3>
           <p v-if="editing && !formError" class="prototype-edit-note">La visita delle {{ booking?.time }} resta confermata fino alla nuova accettazione.</p>
           <form class="prototype-search" :aria-busy="busy" @submit.prevent="search">
-            <label :for="prefix + '-address'" class="prototype-field address-field"><span>Domicilio</span><input :id="prefix + '-address'" ref="addressInput" v-model="address" class="input" autocomplete="off" :aria-invalid="!!formError" :aria-describedby="formError ? prefix + '-error' : undefined" data-testid="service-address" /></label>
-            <label :for="prefix + '-zone'" class="prototype-field"><span>Zona del servizio</span><select :id="prefix + '-zone'" v-model="zone" class="select" data-testid="service-zone"><option v-for="item in service.zones" :key="item.value" :value="item.value">{{ item.label }}</option></select></label>
-            <label :for="prefix + '-date'" class="prototype-field"><span>Giorno</span><select :id="prefix + '-date'" v-model="date" class="select" data-testid="service-date"><option :value="service.date">Martedì 17 novembre</option><option value="2026-11-18">Mercoledì 18 novembre</option></select></label>
+            <label :for="prefix + '-address'" class="prototype-field address-field"><span>Domicilio a Milano</span><input :id="prefix + '-address'" ref="addressInput" v-model="address" class="input" autocomplete="off" :aria-invalid="!!formError" :aria-describedby="formError ? prefix + '-error' : undefined" data-testid="service-address" /></label>
+            <label :for="prefix + '-cap'" class="prototype-field"><span>CAP</span><input :id="prefix + '-cap'" v-model="cap" class="input" inputmode="numeric" maxlength="5" data-testid="service-cap" /></label>
+            <label :for="prefix + '-date'" class="prototype-field"><span>Giorno</span><input :id="prefix + '-date'" v-model="date" class="input" type="date" data-testid="service-date" /></label>
             <label :for="prefix + '-period'" class="prototype-field"><span>Fascia oraria</span><select :id="prefix + '-period'" v-model="period" class="select" data-testid="service-period"><option value="sera">Dopo le 20</option><option value="mattina">Mattina</option></select></label>
             <p v-if="formError" :id="prefix + '-error'" class="prototype-field-error" role="alert">{{ formError }}</p>
             <div class="prototype-actions search-actions"><button class="btn prototype-primary" type="submit" :disabled="busy" data-testid="service-search">{{ busy ? 'Ricerca in corso…' : 'Cerca disponibilità' }}</button><button v-if="editing" class="btn prototype-secondary" type="button" @click="cancelEditing">Mantieni la visita</button></div>
@@ -210,10 +221,11 @@ function onKey(event: KeyboardEvent) {
           <div class="prototype-results" role="list" aria-label="Visite proposte">
             <div v-for="(option, index) in resultOptions" :key="option.professional + option.time" class="card prototype-result" role="listitem">
               <div class="card-body">
-                <div class="prototype-result-person"><div class="avatar avatar-placeholder prototype-avatar" aria-hidden="true"><div><span>{{ initials(option.professional) }}</span></div></div><div><strong>{{ option.professional }}</strong><p v-if="level > 0">A domicilio · {{ service.durationMinutes }} minuti</p></div></div>
-                <p class="prototype-result-time">{{ option.time }}<span v-if="level === 0"> · {{ service.durationMinutes }} minuti</span></p>
+                <div class="prototype-result-person"><img v-if="level > 0" class="prototype-portrait" :src="professionalImage(option.professional)" :alt="'Ritratto illustrativo di ' + option.professional" width="44" height="52" /><div v-else class="avatar avatar-placeholder prototype-avatar" aria-hidden="true"><div><span>{{ initials(option.professional) }}</span></div></div><div><strong>{{ option.professional }}</strong><p v-if="level > 0">A domicilio · {{ service.durationMinutes }} minuti</p></div></div>
+                <div v-if="level > 0" class="prototype-slots" aria-label="Scegli un orario"><button v-for="time in option.times" :key="time" class="btn" type="button" :aria-pressed="option.time === time" @click="selectedSlots[option.professional] = time">{{ time }}</button></div>
+                <p v-else class="prototype-result-time">{{ option.time }}<span v-if="level === 0"> · {{ service.durationMinutes }} minuti</span></p>
                 <strong v-if="level > 0" class="prototype-price">Totale {{ service.priceLabel }}<span>Spostamento incluso</span></strong>
-                <button class="btn prototype-primary" type="button" :data-testid="'service-choose-' + index" :aria-label="`${level === 0 ? 'Vedi profilo di' : 'Scegli visita con'} ${option.professional} alle ${option.time}`" @click="choose(option.time, option.professional)">{{ level === 0 ? 'Vedi profilo' : screens.risultati.primary }}</button>
+                <button class="btn prototype-primary" type="button" :data-testid="'service-choose-' + index" :aria-label="`Scegli visita con ${option.professional} alle ${option.time}`" @click="choose(option.time, option.professional)">{{ screens.risultati.primary }}</button>
               </div>
             </div>
           </div>
@@ -222,30 +234,42 @@ function onKey(event: KeyboardEvent) {
 
         <template v-else-if="['detail', 'review', 'pending', 'confirmed'].includes(stage)">
           <h3 ref="viewHeading" tabindex="-1" data-testid="service-state-heading">{{ stage === 'detail' ? screens.dettaglio.title : stage === 'review' ? screens.riepilogo.title : stage === 'confirmed' ? screens.conferma.title : hasClearStates ? screens.attesa.title : 'Prenotazione ricevuta' }}</h3>
+          <div class="prototype-visit-layout" :class="{ 'prototype-review-layout': stage === 'review' }">
+          <form v-if="stage === 'review'" :id="prefix + '-contact'" class="prototype-contact-form" novalidate @submit.prevent="submitRequest">
+            <fieldset class="fieldset"><legend class="fieldset-legend">I tuoi contatti</legend>
+              <label class="prototype-field"><span>Nome e cognome</span><input v-model="contact.name" class="input" autocomplete="off" required data-testid="service-contact-name" /></label>
+              <label class="prototype-field"><span>Email</span><input v-model="contact.email" class="input" type="email" autocomplete="off" required data-testid="service-contact-email" /></label>
+              <label class="prototype-field"><span>Telefono (facoltativo)</span><input v-model="contact.phone" class="input" type="tel" autocomplete="off" /></label>
+              <label class="prototype-consent"><input v-model="contact.privacy" class="checkbox" type="checkbox" required data-testid="service-consent" /><span>Ho letto l’informativa privacy.</span></label>
+            </fieldset>
+          </form>
+          <div class="prototype-visit-content">
           <dl class="prototype-summary">
             <div><dt>Professionista</dt><dd>{{ displayed.professional }}</dd></div><div><dt>Giorno e orario</dt><dd>{{ service.dateLabel }} · {{ displayed.time }}</dd></div>
             <div><dt>Domicilio</dt><dd>{{ displayed.address }}</dd></div><div><dt>Durata e totale</dt><dd>{{ service.durationMinutes }} minuti · <strong>{{ service.priceLabel }}</strong><span class="prototype-travel">Spostamento incluso</span></dd></div>
           </dl>
-          <p v-if="stage === 'review' && hasClearStates" class="prototype-state-note">Invii una richiesta al professionista. La visita sarà confermata dopo la sua accettazione.</p>
+          <p v-if="stage === 'review' && formError" class="prototype-field-error" role="alert">{{ formError }}</p>
+          <p v-else-if="stage === 'review' && hasClearStates" class="prototype-state-note">Invii una richiesta al professionista. La visita sarà confermata dopo la sua accettazione.</p>
           <p v-else-if="stage === 'pending'" class="prototype-state-note" data-testid="service-pending-note">{{ hasClearStates ? 'La visita non è ancora confermata. Troverai qui l’esito della risposta.' : 'Ti contatteremo per i prossimi passi.' }}<span v-if="editing"> La visita precedente resta confermata.</span></p>
           <p v-else-if="stage === 'confirmed'" class="prototype-state-note confirmed-note">Il professionista ha accettato. Il riepilogo è disponibile in «Le mie visite».</p>
           <div v-if="stage === 'detail'" class="prototype-actions"><button class="btn prototype-primary" type="button" data-testid="service-continue" @click="go('review')">{{ screens.dettaglio.primary }}</button><button class="btn prototype-secondary" type="button" @click="go('results')">Torna ai risultati</button></div>
-          <div v-else-if="stage === 'review'" class="prototype-actions"><button class="btn prototype-primary" type="button" data-testid="service-send" @click="submitRequest">{{ hasClearStates ? screens.riepilogo.primary : 'Prenota' }}</button><button class="btn prototype-secondary" type="button" data-testid="service-edit-data" @click="go('search')">{{ screens.riepilogo.secondary }}</button></div>
+          <div v-else-if="stage === 'review'" class="prototype-actions"><button class="btn prototype-primary" type="submit" data-testid="service-send" :form="prefix + '-contact'">{{ hasClearStates ? screens.riepilogo.primary : 'Prenota' }}</button><button class="btn prototype-secondary" type="button" data-testid="service-edit-data" @click="go('search')">{{ screens.riepilogo.secondary }}</button></div>
           <div v-else-if="stage === 'pending' && level < 3" class="prototype-actions"><button class="btn prototype-primary" type="button" @click="openVisits">{{ screens.attesa.primary }}</button></div>
           <div v-else-if="level === 3" class="prototype-actions" :class="{ 'cancel-actions': cancelRequested }">
             <template v-if="!cancelRequested"><button v-if="stage === 'confirmed'" class="btn prototype-secondary" type="button" data-testid="service-modify" @click="editBooking">Modifica visita</button><button class="btn prototype-back" type="button" data-testid="service-cancel" @click="cancel">{{ stage === 'confirmed' ? 'Annulla visita' : editing ? 'Mantieni la visita precedente' : 'Annulla richiesta' }}</button></template>
             <template v-else><span>Vuoi annullare?</span><button class="btn prototype-primary" type="button" data-testid="service-cancel-confirm" @click="cancel">Conferma annullamento</button><button class="btn prototype-back" type="button" @click="cancelRequested = false">Torna indietro</button></template>
           </div>
+          </div></div>
         </template>
 
         <template v-else-if="stage === 'conflict'">
           <h3 ref="viewHeading" tabindex="-1">Orario non più disponibile</h3>
-          <p class="prototype-state-note">{{ level === 3 ? 'La visita delle 20:30 non è più disponibile. Domicilio, giorno e fascia sono conservati.' : 'Questa bozza richiede di ricominciare la ricerca.' }}</p>
+          <p class="prototype-state-note">{{ level === 3 ? 'La visita delle 20:30 non è più disponibile. Domicilio, CAP, contatti e fascia sono conservati.' : 'Questa bozza richiede di ricominciare la ricerca.' }}</p>
           <template v-if="level === 3"><p class="prototype-saved" data-testid="service-saved-data">{{ address }} · {{ service.shortDate }} · dopo le 20</p><div class="prototype-result"><div><strong>{{ service.professional }}</strong><p>{{ service.alternativeTime }} · {{ service.durationMinutes }} minuti · {{ service.priceLabel }} totali</p></div><button class="btn prototype-primary" type="button" data-testid="service-alternative" @click="alternative">Scegli {{ service.alternativeTime }}</button></div></template>
           <button class="btn prototype-back" type="button" @click="go('search')">{{ level === 3 ? 'Modifica i criteri' : 'Riparti dalla ricerca' }}</button>
         </template>
         <template v-else-if="stage === 'declined'">
-          <h3 ref="viewHeading" tabindex="-1">Il professionista non può accettare</h3>
+          <h3 ref="viewHeading" tabindex="-1">Questa proposta non è stata accettata.</h3>
           <p class="prototype-state-note">Questa richiesta non è stata confermata. Puoi cercare un’altra disponibilità conservando i criteri.</p>
           <p v-if="editing && booking" class="prototype-edit-note" data-testid="service-old-visit">La visita precedente delle {{ booking.time }} rimane confermata.</p>
           <p class="prototype-saved" data-testid="service-rejected-data">{{ address }} · {{ service.shortDate }} · {{ period === 'sera' ? 'dopo le 20' : 'mattina' }}</p>
@@ -253,7 +277,7 @@ function onKey(event: KeyboardEvent) {
         </template>
 
         <template v-else-if="stage === 'outside' || stage === 'empty'">
-          <h3 ref="viewHeading" tabindex="-1">{{ stage === 'outside' ? 'Il domicilio è fuori copertura' : 'Nessuna visita compatibile' }}</h3>
+          <h3 ref="viewHeading" tabindex="-1">{{ stage === 'outside' ? 'Questa zona non è ancora coperta.' : 'Nessuna proposta per questa ricerca.' }}</h3>
           <p class="prototype-state-note">{{ stage === 'outside' ? 'Il servizio non raggiunge questa zona. Puoi verificare un altro domicilio o chiedere supporto.' : 'Non ci sono visite per questi criteri. Puoi cambiare giorno o fascia senza reinserire il domicilio.' }}</p>
           <p class="prototype-saved">{{ address }} · {{ date === service.date ? '17 novembre' : '18 novembre' }} · {{ period === 'sera' ? 'dopo le 20' : 'mattina' }}</p>
           <div class="prototype-actions"><button class="btn prototype-primary" type="button" data-testid="service-recover-search" @click="go('search')">Modifica la ricerca</button><button class="btn prototype-back" type="button" @click="go('help')">Chiedi assistenza</button></div>
@@ -270,10 +294,10 @@ function onKey(event: KeyboardEvent) {
         </template>
       </div>
     </div>
-    <p class="prototype-simulation">Copertura dalla zona selezionata, senza geocodifica. Nessuna richiesta viene inviata.</p>
+    <p class="prototype-simulation">Copertura illustrativa dal CAP, senza geocodifica. Nessuna richiesta viene inviata.</p>
     <p class="sr-only" role="status" aria-live="polite" aria-atomic="true">{{ announcement }}</p>
     <div v-if="isPrinting" class="prototype-print">
-      <h2>{{ revision.title }}</h2><p>{{ revision.change }}</p><dl><div v-for="[label, value] in printSteps" :key="label"><dt>{{ label }}</dt><dd>{{ value }}</dd></div></dl><p v-if="level === 3">Recuperi: nessun risultato, fuori copertura, alternativa alle 21:15, modifica e annullamento. La visita precedente resta valida finché il nuovo orario non è accettato.</p><p>{{ revision.limit }}</p><p class="prototype-print-limit">Copertura dalla zona selezionata, senza geocodifica. Nessuna richiesta viene inviata.</p>
+      <h2>{{ revision.title }}</h2><p>{{ revision.change }}</p><dl><div v-for="[label, value] in printSteps" :key="label"><dt>{{ label }}</dt><dd>{{ value }}</dd></div></dl><p v-if="level === 3">Recuperi: nessun risultato, fuori copertura, alternativa alle 21:15, modifica e annullamento. La visita precedente resta valida finché il nuovo orario non è accettato.</p><p>{{ revision.limit }}</p><p class="prototype-print-limit">Copertura illustrativa dal CAP, senza geocodifica. Nessuna richiesta viene inviata.</p>
     </div>
   </section>
 </template>
@@ -294,7 +318,7 @@ function onKey(event: KeyboardEvent) {
 .ux-service-prototype .prototype-control { width: 100%; justify-content: flex-start; border: 1px solid var(--slide-rule); background: transparent; color: var(--theme-body); text-align: left; font-size: 18px; }
 .ux-service-prototype .prototype-control:not(:disabled):hover { background: color-mix(in oklch, var(--section-primary) 8%, white); color: var(--section-primary-deep); }
 .prototype-app { --prototype-primary: var(--section-primary-deep); --prototype-soft: color-mix(in oklch, var(--section-primary) 8%, white); display: flex; flex-direction: column; min-width: 0; height: 464px; border: 1px solid var(--slide-rule); border-radius: 8px; background: white; overflow: hidden; }
-.prototype-header { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex: 0 0 auto; min-height: 64px; padding: 8px 24px; border-bottom: 1px solid var(--slide-rule); background: white; }
+.prototype-header { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex: 0 0 auto; min-height: 56px; padding: 8px 24px; border-bottom: 1px solid var(--slide-rule); background: white; }
 .ux-service-prototype .prototype-header strong { color: var(--prototype-primary); font: 700 22px/1.25 var(--theme-font); }
 .ux-service-prototype .prototype-visits { padding: 8px 0; border: 0; background: transparent; color: var(--prototype-primary); font-size: 20px; font-weight: 500; text-decoration: underline; text-underline-offset: 4px; }
 .ux-service-prototype .prototype-visits:hover { color: var(--theme-ink); }
@@ -327,11 +351,11 @@ function onKey(event: KeyboardEvent) {
 .prototype-result .prototype-price { color: var(--theme-ink); font: 700 22px/1.2 var(--theme-font); }
 .prototype-price span { display: block; color: var(--theme-body); font-size: 18px; font-weight: 400; }
 .prototype-results > .prototype-result { display: flex; align-items: stretch; min-width: 0; min-height: 208px; padding: 0; border: 1px solid var(--slide-rule); border-radius: 8px; background: white; box-shadow: none; }
-.prototype-result > .card-body { display: flex; flex-direction: column; gap: 8px; min-width: 0; padding: 16px; }
+.prototype-result > .card-body { display: flex; flex-direction: column; gap: 8px; min-width: 0; padding: 12px; }
 .prototype-result-person { display: flex; align-items: center; gap: 12px; }
 .prototype-result-person > div:last-child { min-width: 0; }
 .prototype-avatar > div { display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 50%; background: var(--prototype-soft); color: var(--prototype-primary); font: 700 18px/1 var(--theme-font); }
-.prototype-result-person p { font-size: 20px; }
+.prototype-result-person p { font-size: 18px; line-height: 1.3; }
 .ux-service-prototype .prototype-result-time { margin: 0; color: var(--theme-ink); font: 600 24px/1.25 var(--theme-font); }
 .prototype-result-time span { font-size: 20px; font-weight: 400; }
 .prototype-result > .card-body > .prototype-primary { width: 100%; margin-top: auto; border-radius: 8px; }
@@ -352,6 +376,24 @@ function onKey(event: KeyboardEvent) {
 .cancel-actions > span { font-size: 18px; }
 .prototype-wireframe { --prototype-primary: var(--theme-body); --prototype-soft: var(--theme-bg); }
 .prototype-simulation { grid-column: 1 / -1; margin: 0; font: 400 18px/1.3 var(--theme-font); color: var(--theme-body); }
+.prototype-portrait { width: 44px; height: 52px; object-fit: cover; border-radius: 8px; }
+.prototype-wordmark span { color: var(--section-accent); }
+.prototype-wireframe .prototype-wordmark span { color: inherit; }
+.prototype-site-link { display: inline-block; margin-top: 12px; color: var(--section-primary-deep); text-decoration: underline; text-underline-offset: 4px; font-size: 18px; }
+.prototype-slots { display: flex; gap: 8px; }
+.ux-service-prototype .prototype-slots .btn { min-height: 44px; padding: 6px 10px; color: var(--prototype-primary); border: 1px solid var(--slide-rule); border-radius: 8px; background: white; }
+.ux-service-prototype .prototype-slots .btn[aria-pressed="true"] { background: var(--prototype-soft); border-color: var(--prototype-primary); }
+.prototype-visit-layout { min-height: 0; }
+.prototype-review-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; }
+.prototype-contact-form .fieldset { padding: 0; gap: 10px; font: inherit; }
+.prototype-contact-form .fieldset-legend { padding: 0; margin-bottom: 4px; color: var(--theme-ink); font: 600 20px/1.3 var(--theme-font); }
+.prototype-consent { min-height: 44px; display: flex; align-items: center; gap: 10px; font: 400 18px/1.3 var(--theme-font); }
+.prototype-consent .checkbox { flex: 0 0 24px; width: 24px; height: 24px; appearance: auto; accent-color: var(--prototype-primary); }
+.prototype-review-layout .prototype-summary { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 16px; }
+.prototype-review-layout .prototype-summary div { display: block; }
+.prototype-review-layout .prototype-state-note { font-size: 18px; line-height: 1.3; }
+.prototype-review-layout .prototype-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 12px; }
+.prototype-review-layout .prototype-actions .btn { min-height: 44px; font-size: 18px; }
 .prototype-print { display: none; }
 .ux-service-prototype.is-printing { display: block; height: auto; }
 .is-printing > .prototype-teaching, .is-printing > .prototype-app, .is-printing > .prototype-simulation { display: none; }

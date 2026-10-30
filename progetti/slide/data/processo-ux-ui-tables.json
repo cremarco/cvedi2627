@@ -1,9 +1,9 @@
 {
-  "version": 1,
+  "version": 2,
   "lesson": "processo-ux-ui",
   "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
-  "sourceSha256": "584580ea4f233a1c7488e5d66b844ad823ad3fc4f2dd8b83a02b1cbccdb7a1ce",
-  "editorialNote": "Native HTML transcriptions of all record/matrix tables. Benchmark reframed as common observation questions; original SVGs and source text remain preserved.",
+  "sourceSha256": "bc358d235c308d2c482e5a4357bb655d1510c3a67297c25df34773208ee6a639",
+  "editorialNote": "Native HTML transcriptions aligned to Passo. CAP, contact validation and visit management reflect the implemented scenario; original chapter sources and previous figures remain preserved.",
   "tables": {
     "/images/processo-ux-ui/obiettivi.svg": {
       "title": "Da un obiettivo generico a un risultato osservabile",
@@ -82,7 +82,7 @@
       "rows": [
         [
           "R1 · Copertura",
-          "Verificare l’indirizzo prima di mostrare visite a domicilio."
+          "Verificare il CAP prima di proporre visite a domicilio."
         ],
         [
           "R2 · Filtro sera",
@@ -90,7 +90,7 @@
         ],
         [
           "R3 · Riepilogo",
-          "Conservare domicilio, 17 novembre 2026, 20:30, 45 minuti e totale 60 €, spostamento incluso."
+          "Prima dell’invio: contatti, Giulia Riva, domicilio e CAP, 17 novembre alle 20:30, 45 minuti e 60 € con spostamento."
         ],
         [
           "R4 · Stato",
@@ -246,7 +246,7 @@
       "caption": ""
     },
     "/images/processo-ux-ui/caso-servizio-finale.svg": {
-      "title": "Blueprint del servizio finale",
+      "title": "Blueprint di Passo",
       "headers": [
         "Attore",
         "Cercare",
@@ -266,7 +266,7 @@
       "rows": [
         [
           "Viola",
-          "Imposta zona e sera.",
+          "Imposta CAP e sera.",
           "Confronta orario e costo.",
           "Invia la richiesta.",
           "Legge «In attesa».",
@@ -274,9 +274,9 @@
         ],
         [
           "Interfaccia",
-          "Verifica copertura.",
+          "Verifica il CAP.",
           "Mostra 45 min e totale.",
-          "Conserva il riepilogo.",
+          "Valida contatti e riepilogo.",
           "Attesa; conferma o rifiuto.",
           "Conserva dati e dettagli."
         ],

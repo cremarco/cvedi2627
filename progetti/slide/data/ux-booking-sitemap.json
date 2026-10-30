@@ -1,33 +1,48 @@
 {
-  "title": "Sitemap del sito di fisioterapia a domicilio",
-  "home": "Home",
+  "title": "Sitemap di Passo",
+  "home": "Home · Passo",
   "sections": [
     {
       "id": "servizio",
       "title": "Il servizio",
-      "pages": ["Come funziona", "Zone e orari coperti", "Costi e condizioni"]
+      "pages": [
+        "Come funziona",
+        "Zone, orari e costi"
+      ]
     },
     {
       "id": "ricerca",
       "title": "Trova una visita",
-      "pages": ["Ricerca disponibilità", "Risultati compatibili", "Dettaglio della visita", "Riepilogo e invio"]
+      "pages": [
+        "Ricerca con domicilio e CAP",
+        "Risultati e profili",
+        "Dettaglio della visita",
+        "Contatti, riepilogo e invio"
+      ]
     },
     {
       "id": "visite",
       "title": "Le mie visite",
-      "pages": ["Accesso alle visite", "Richieste e appuntamenti", "Dettaglio e gestione"]
+      "pages": [
+        "Richieste sul dispositivo",
+        "Dettaglio e stato",
+        "Modifica e annullamento"
+      ]
     },
     {
       "id": "assistenza",
       "title": "Assistenza",
-      "pages": ["Domande frequenti", "Contatti e supporto"]
+      "pages": [
+        "Domande frequenti",
+        "Contatti e supporto"
+      ]
     }
   ],
   "states": "Nel dettaglio: stato in attesa o confermato, modifica e annullamento.",
-  "footer": "Footer comune: privacy, cookie, accessibilità e condizioni del servizio.",
+  "footer": "Footer: privacy, cookie, accessibilità, condizioni e area professionista.",
   "source": {
     "case": "progetti/slide/data/ux-service-case.json",
     "artifact": "IA-01",
-    "note": "Sviluppo dell’alberatura del caso in pagine da realizzare per il sito. Attesa e conferma sono stati; modifica e annullamento sono azioni delle pagine di dettaglio. Accesso e contenuti comuni completano la proposta e restano da definire durante la realizzazione."
+    "note": "Sitemap allineata al sito Passo realizzato. Le visite sono conservate sul dispositivo senza account. L’area professionista nel footer simula accettazione e rifiuto; assistenza prepara un messaggio senza inviarlo."
   }
 }

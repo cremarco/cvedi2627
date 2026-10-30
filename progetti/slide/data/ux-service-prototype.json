@@ -1,8 +1,8 @@
 {
-  "version": 1,
+  "version": 2,
   "simulation": "Simulazione didattica: dati, professionisti, copertura e disponibilità sono inventati. Nessuna richiesta viene inviata.",
   "service": {
-    "name": "Fisioterapia a domicilio",
+    "name": "passo.",
     "person": "Viola",
     "address": "Via Esempio 12, Milano",
     "date": "2026-11-17",
@@ -34,8 +34,38 @@
       }
     ],
     "travelIncluded": true,
-    "coverageRule": "La copertura dipende soltanto dalla zona selezionata. Il domicilio non viene geocodificato.",
-    "rejectionRule": "Una richiesta non accettata conserva i criteri e permette di cercare alternative. Se modifica una visita, quella precedente resta confermata."
+    "coverageRule": "Il CAP determina la copertura illustrativa. Il domicilio non viene geocodificato.",
+    "rejectionRule": "Una richiesta non accettata conserva i criteri e permette di cercare alternative. Se modifica una visita, quella precedente resta confermata.",
+    "brand": "Passo",
+    "cap": "20121",
+    "coveredCaps": [
+      "20121",
+      "20122",
+      "20123",
+      "20124",
+      "20125",
+      "20126",
+      "20159",
+      "20161"
+    ],
+    "siteSource": "progetti/fisioterapia/",
+    "professionals": [
+      {
+        "name": "Giulia Riva",
+        "times": [
+          "20:30",
+          "21:15"
+        ],
+        "image": "/images/processo-ux-ui/passo-giulia-riva.webp"
+      },
+      {
+        "name": "Luca Sala",
+        "times": [
+          "21:45"
+        ],
+        "image": "/images/processo-ux-ui/passo-luca-sala.webp"
+      }
+    ]
   },
   "versions": [
     {

@@ -15,17 +15,17 @@
       "id": "compatibility-first",
       "title": "Ipotesi da provare",
       "steps": [
-        "Indica domicilio e orario",
+        "Indica domicilio, CAP e orario",
         "Confronta disponibilità e totale",
-        "Si registra per inviare la richiesta"
+        "Indica contatti e consenso"
       ]
     }
   ],
-  "question": "Viola trova una visita compatibile prima di investire tempo nella registrazione?",
+  "question": "Viola verifica la compatibilità prima di indicare i contatti?",
   "evidence": "Ricerca e prova del percorso chiariscono il bisogno. Età e fotografia descrivono il profilo, ma non rispondono alla domanda.",
   "source": {
     "scenario": "progetti/slide/data/ux-service-case.json",
     "persona": "progetti/slide/data/ux-persona.json",
-    "status": "Confronto progettuale da discutere e verificare; nessun risultato di ricerca è dichiarato."
+    "status": "Percorso implementato nel sito Passo; la comprensione e l’usabilità restano da verificare con le persone."
   }
 }
