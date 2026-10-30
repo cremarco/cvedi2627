@@ -48,6 +48,27 @@
       "generationTool": "image_gen integrato",
       "rights": "CVeDI, 2026. Fotografia sintetica generata con IA.",
       "reference": null
+    },
+    {
+      "id": "paziente-a-casa",
+      "original": "progetti/fisioterapia/assets/originals/paziente-a-casa.png",
+      "originalSha256": "17e1b1012392081af99f65671e144deec027615ba36df299f3cb04ed74fca17a",
+      "derivative": "progetti/fisioterapia/assets/images/paziente-a-casa.webp",
+      "sha256": "658744fbe9d61c52e3399f73153784d86b51530574bf0921ccf3eb6f228ba57e",
+      "prompt": "progetti/fisioterapia/assets/prompts/paziente-a-casa.txt",
+      "promptSha256": "f283c85c02f82f9d6c1f64546dea4399e4decb68abf5c36934cedb240d8ae817",
+      "size": [
+        1448,
+        1086
+      ],
+      "generationTool": "image_gen integrato",
+      "rights": "CVeDI, 2026. Ritratto fornito dall’utente, invecchiato con IA su sua richiesta.",
+      "reference": {
+        "file": "IMG_1334.HEIC",
+        "sha256": "0f92a03837ffa1c496de95e7727cdf5ae95674a032d7dd05a19ac5efbbca57e6",
+        "storedOutsideRepository": true
+      },
+      "usage": "Ritratto illustrativo del paziente nella sezione sulla quotidianità della home."
     }
   ],
   "font": {
