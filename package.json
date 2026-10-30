@@ -62,7 +62,11 @@
     "css:home": "node ./node_modules/@tailwindcss/cli/dist/index.mjs -i ./progetti/home/home.source.css -o ./progetti/home/home.css --minify",
     "check:home": "node progetti/home/scripts/check/course-home.mjs",
     "build:composition": "python3 progetti/slide/scripts/build/composizione-assets.py && node progetti/slide/scripts/build/composizione-slides.mjs",
-    "check:composition": "node progetti/slide/scripts/check/composition.mjs"
+    "check:composition": "node progetti/slide/scripts/check/composition.mjs",
+    "build:ux-process": "python3 progetti/slide/scripts/build/processo-ux-ui-assets.py && node progetti/slide/scripts/build/processo-ux-ui-slides.mjs",
+    "check:ux-process": "node progetti/slide/scripts/check/processo-ux-ui.mjs",
+    "check:ux-process-map": "node progetti/slide/scripts/check/ux-process-map.mjs",
+    "check:ux-service": "node progetti/slide/scripts/check/ux-service.mjs"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "^2.74.0",

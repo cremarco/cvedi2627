@@ -592,6 +592,15 @@
   --cvedi-ux-composition-accent-light: var(--cvedi-indigo-accent-light);
   --cvedi-ux-composition-accent-vivid: var(--cvedi-indigo-accent-vivid);
 
+  --cvedi-ux-process-base: var(--cvedi-violet-800);
+  --cvedi-ux-process-canvas: var(--cvedi-violet-900);
+  --cvedi-ux-process-deep: var(--cvedi-violet-950);
+  --cvedi-ux-process-light: var(--cvedi-violet-100);
+  --cvedi-ux-process-surface: var(--cvedi-violet-50);
+  --cvedi-ux-process-accent: var(--cvedi-violet-accent);
+  --cvedi-ux-process-accent-light: var(--cvedi-violet-accent-light);
+  --cvedi-ux-process-accent-vivid: var(--cvedi-violet-accent-vivid);
+
   --cvedi-ux-prototype-base: var(--cvedi-indigo-800);
   --cvedi-ux-prototype-canvas: var(--cvedi-indigo-900);
   --cvedi-ux-prototype-deep: var(--cvedi-indigo-950);

@@ -78,6 +78,9 @@ footer: "Lezioni"
   <SlideAction to="tipografia-griglie" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">08</span><span>Tipografia</span></SlideAction>
   <SlideAction to="griglie-layout" class="index-button index-lesson" :show-arrow="false" aria-label="09 Griglie e layout · Audio disponibile" title="Audio disponibile"><span class="index-chapter-number">09</span><span>Griglie e layout</span><HeroIcon name="speaker-wave" class="index-audio-icon ml-auto! size-[18px]! shrink-0" /></SlideAction>
   <SlideAction to="composizione-gerarchia" class="index-button index-lesson" :show-arrow="false" aria-label="10 Composizione e gerarchia visiva · Audio disponibile" title="Audio disponibile"><span class="index-chapter-number">10</span><span>Composizione e gerarchia visiva</span><HeroIcon name="speaker-wave" class="index-audio-icon ml-auto! size-[18px]! shrink-0" /></SlideAction>
+  <LocalOnly>
+  <SlideAction to="processo-ux-ui" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">11</span><span>Processo UX e UI</span></SlideAction>
+  </LocalOnly>
 </div>
 
 ---
@@ -785,6 +788,11 @@ src: ./lezioni/07-griglie-layout.md
 
 ---
 src: ./lezioni/10-composizione-gerarchia.md
+---
+
+---
+src: ./lezioni/11-processo-ux-ui.md
+localOnly: true
 ---
 
 ---

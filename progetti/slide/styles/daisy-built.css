@@ -3726,6 +3726,9 @@
       display: none;
     }
   }
+  .mt-4 {
+    margin-top: calc(var(--spacing) * 4);
+  }
   .mt-6\! {
     margin-top: calc(var(--spacing) * 6) !important;
   }
@@ -4160,6 +4163,9 @@
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
+  }
+  .text-wrap {
+    text-wrap: wrap;
   }
   .italic {
     font-style: italic;

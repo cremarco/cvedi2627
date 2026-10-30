@@ -1,7 +1,7 @@
 {
   "versione": 1,
-  "stato": "8 aperture attive nel booklet Typst; fondi SVG con titolo e numero composti come testo nativo.",
-  "origine": "Sette concept ImageGen built-in del 22 ottobre 2026; apertura 08 nativa SVG aggiunta il 24 ottobre 2026 su richiesta dell’utente.",
+  "stato": "9 aperture attive nel booklet Typst; fondi SVG con titolo e numero composti come testo nativo.",
+  "origine": "Sette concept ImageGen built-in del 22 ottobre 2026; apertura 08 nativa SVG aggiunta il 24 ottobre e apertura 09 nativa SVG aggiunta il 28 ottobre 2026 su richiesta dell’utente.",
   "piano": "progetti/booklet/piano.json",
   "font": "risorse-condivise/font/editoriali/sora-variabile.ttf",
   "licenza_font": "risorse-condivise/font/editoriali/sora-licenza.txt",
@@ -144,6 +144,22 @@
         "titolo-capitolo",
         "numero-capitolo"
       ]
+    },
+    {
+      "numero": 9,
+      "titolo": "Processo UX e UI",
+      "svg": "svg/09-processo-ux-ui.svg",
+      "disegno": "disegni/09-processo-ux-ui.svg",
+      "riferimento": "originali/nativo-09-processo-ux-ui.png",
+      "prompt": "prompts/nativo-09-processo-ux-ui.txt",
+      "testi_editabili": [
+        "titolo-capitolo",
+        "numero-capitolo"
+      ],
+      "sha256_svg": "70d76db7118c3acef58ceea5124d3ab39d63439702f4599cd94fe0704b505ca4",
+      "sha256_disegno": "41970e08cdeef22d67c82b54bf7361de1290b36e83dfbf6990ad91a6c59fe250",
+      "sha256_riferimento": "83bd55e36e6a210b96ba2fd2a758066f3e74164a4ce26237bbc8c27814b5eee5",
+      "sha256_prompt": "25b2d0dd26547cc034ff965ae798d734c29665d5fae5e7e011434b7207b3ba4b"
     }
   ]
 }

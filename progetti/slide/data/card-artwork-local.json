@@ -18,7 +18,10 @@
     "griglie-layout-verifica": "/images/generated/theme-2026/cards/lesson-09/griglie-layout-verifica.webp",
     "composizione-gerarchia-relazioni": "/images/generated/theme-2026/cards/lesson-10/composizione-gerarchia-relazioni.webp",
     "composizione-gerarchia-priorita": "/images/generated/theme-2026/cards/lesson-10/composizione-gerarchia-priorita.webp",
-    "composizione-gerarchia-verifica": "/images/generated/theme-2026/cards/lesson-10/composizione-gerarchia-verifica.webp"
+    "composizione-gerarchia-verifica": "/images/generated/theme-2026/cards/lesson-10/composizione-gerarchia-verifica.webp",
+    "processo-ux-ui-domande": "/images/processo-ux-ui/obiettivo-domande.svg",
+    "processo-ux-ui-percorsi": "/images/processo-ux-ui/obiettivo-percorsi.svg",
+    "processo-ux-ui-prove": "/images/processo-ux-ui/obiettivo-prove.svg"
   },
   "mappings": {
     "percezione-gerarchia": {
@@ -118,6 +121,38 @@
       "leggere le relazioni": "composizione-gerarchia-relazioni",
       "costruire le priorita": "composizione-gerarchia-priorita",
       "verificare il compito": "composizione-gerarchia-verifica"
+    },
+    "processo-ux-ui": {
+      "carlo e giovanni": null,
+      "viola": null,
+      "il servizio": null,
+      "chi prenota": null,
+      "chi offre la visita": null,
+      "interrogare il problema": null,
+      "rivedere la proposta": null,
+      "conservare le ragioni": null,
+      "annotazione": null,
+      "ipotesi": null,
+      "verifica": null,
+      "domanda": null,
+      "persone e metodo": null,
+      "uso dei risultati": null,
+      "raccogliere": null,
+      "raggruppare": null,
+      "decidere": null,
+      "obiettivo da raggiungere": null,
+      "percorso gia suggerito": null,
+      "prima": null,
+      "durante": null,
+      "dopo": null,
+      "prova con le persone": null,
+      "verifica degli standard": null,
+      "comprendere": null,
+      "rappresentare": null,
+      "mettere alla prova": null,
+      "fare le domande": "processo-ux-ui-domande",
+      "rappresentare il percorso": "processo-ux-ui-percorsi",
+      "decidere con le prove": "processo-ux-ui-prove"
     }
   }
 }

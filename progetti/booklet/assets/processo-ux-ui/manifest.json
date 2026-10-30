@@ -1,0 +1,169 @@
+{
+  "schema": "cvedi-processo-ux-ui-assets/v1",
+  "fonte_principale": {
+    "autore": "Matteo di Pascale",
+    "titolo": "Manuale di sopravvivenza per UX designer",
+    "anno": 2019,
+    "capitolo": 3,
+    "pdf_fornito": "/Users/marco/Downloads/Manuale_di_sopravvivenza_per_UX_designer_Pascale_Matteo_Di_z_lib (1).pdf",
+    "pagine_fisiche": [
+      38,
+      45
+    ],
+    "sha256": "e5a30bc514463f558a45b235f4f0bf614faf01bb8e253072a4853bed51e8ae10"
+  },
+  "immagini": [
+    {
+      "id": "persona-corunga",
+      "fonte_preparazione": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pagina_fisica": 74,
+      "indice_immagine": 0,
+      "nome_pdf": "I237.jp2",
+      "autore_riportato": "Iulian Corunga",
+      "originale": "progetti/booklet/assets/processo-ux-ui/originali/persona-corunga.jp2",
+      "file": "progetti/booklet/assets/processo-ux-ui/persona-corunga.png",
+      "sha256_originale": "40ac7bc68fad5d856cc3bbff05b2549593663e3e54a3e4d9c340e878dc987113",
+      "sha256_file": "4c37eb7c733b71fc628cbb7656bff7783a9422239f5b1f7ead00796bcd6b3954",
+      "dimensioni": [
+        1200,
+        928
+      ],
+      "operazione": "byte immagine incorporata conservati; per JPEG2000 sola decodifica PNG senza ricampionamento",
+      "nota_provenienza": "Fonte preparatoria registrata soltanto nel manifest; attribuzione dell’opera conservata nel capitolo.",
+      "attivo": true
+    },
+    {
+      "id": "journey-flyux",
+      "fonte_preparazione": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pagina_fisica": 76,
+      "indice_immagine": 0,
+      "nome_pdf": "I239.jpg",
+      "autore_riportato": "Ivan Vasilev",
+      "originale": "progetti/booklet/assets/processo-ux-ui/originali/journey-flyux.jpg",
+      "file": "progetti/booklet/assets/processo-ux-ui/originali/journey-flyux.jpg",
+      "sha256_originale": "9f20843f2c506c3b72fd22e30720f8a61501a9d71b5984c3d98c922e3e4ca15a",
+      "sha256_file": "9f20843f2c506c3b72fd22e30720f8a61501a9d71b5984c3d98c922e3e4ca15a",
+      "dimensioni": [
+        1914,
+        1158
+      ],
+      "operazione": "byte incorporati conservati senza ricompressione",
+      "nota_provenienza": "Fonte preparatoria registrata soltanto nel manifest; attribuzione dell’opera conservata nel capitolo.",
+      "attivo": false
+    },
+    {
+      "id": "wireframe-carta",
+      "fonte_preparazione": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pagina_fisica": 81,
+      "indice_immagine": 0,
+      "nome_pdf": "I242.jpg",
+      "autore_riportato": "Jolandat Dekker",
+      "originale": "progetti/booklet/assets/processo-ux-ui/originali/wireframe-carta.jpg",
+      "file": "progetti/booklet/assets/processo-ux-ui/originali/wireframe-carta.jpg",
+      "sha256_originale": "dd1f8e67cc74a6bf7f36a141c09139c31a5ac0a07663e27ceea49886d69f86d6",
+      "sha256_file": "dd1f8e67cc74a6bf7f36a141c09139c31a5ac0a07663e27ceea49886d69f86d6",
+      "dimensioni": [
+        1400,
+        993
+      ],
+      "operazione": "byte incorporati conservati senza ricompressione",
+      "nota_provenienza": "Fonte preparatoria registrata soltanto nel manifest; attribuzione dell’opera conservata nel capitolo.",
+      "attivo": true,
+      "autore_verificato": "Jolanda Dekker",
+      "attribuzione_precedente": "Jolandat Dekker",
+      "fonte_primaria": "https://medium.com/@jolandatdekker/wireframing-ns-less-is-more-the-art-of-leaving-out-4077fd9174c0",
+      "data_pubblicazione": "2019-11-06",
+      "natura": "Ricostruzione analitica di una funzione NS esistente, non progetto originale dell’app."
+    },
+    {
+      "id": "wireframe-mockup",
+      "fonte_preparazione": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pagina_fisica": 86,
+      "indice_immagine": 0,
+      "nome_pdf": "I246.png",
+      "autore_riportato": "JH Speciality",
+      "originale": "progetti/booklet/assets/processo-ux-ui/originali/wireframe-mockup.png",
+      "file": "progetti/booklet/assets/processo-ux-ui/originali/wireframe-mockup.png",
+      "sha256_originale": "cfebf0efaf18a2ad44cb647509aa9cdede445fa357d0248c4153bd055738abca",
+      "sha256_file": "cfebf0efaf18a2ad44cb647509aa9cdede445fa357d0248c4153bd055738abca",
+      "dimensioni": [
+        1726,
+        1590
+      ],
+      "operazione": "byte incorporati conservati senza ricompressione",
+      "nota_provenienza": "Fonte preparatoria registrata soltanto nel manifest; attribuzione dell’opera conservata nel capitolo.",
+      "attivo": true,
+      "titolare_verificato": "JH Specialty",
+      "articolo_autore": "Evan Sauers",
+      "fonte_primaria": "https://www.jhspecialty.com/blog/wireframes",
+      "data_pubblicazione": "2022-08-31"
+    }
+  ],
+  "dettagli": [
+    {
+      "originale": "progetti/booklet/assets/processo-ux-ui/originali/wireframe-mockup.png",
+      "composizione": "Ritaglio superiore nativo Typst, a larghezza 137 mm e altezza 78 pt. Nessuna modifica del raster originale.",
+      "figura": "fig-ux-mockup-documento"
+    }
+  ],
+  "mappa_preparatoria": "reports/processo-ux-ui/mappa-materiali.md",
+  "sorgente_diagrammi": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+  "distinzione_esempi": "Carlo, Giovanni e Viola provengono dal capitolo 3 del volume di Di Pascale. Documenti, schermate, prezzi e date sviluppati nel capitolo sono simulati. Nessun dato è presentato come risultato di una ricerca svolta.",
+  "integrazioni_preparatorie": [
+    {
+      "file": "materiali/approfondimenti/2021-2022/giusti-867333-lean-ux.pdf",
+      "uso": "Iterazione e collaborazione; riferimento pubblicato usato nel testo: Jeff Gothelf, The Lean UX Canvas, 2016."
+    },
+    {
+      "file": "materiali/approfondimenti/2022-2023/pisanu-876785-test-interfacce.pdf",
+      "uso": "Rapporto fra schermate, prototipo e metodi di valutazione; sviluppo grafico nativo del caso, senza riproduzione dell’elaborato."
+    },
+    {
+      "file": "materiali/approfondimenti/2024-2025/gallo-chiara-918228.pdf",
+      "uso": "Preparazione, osservazione e debriefing; metodo riscontrato sulle fonti primarie di Moran e GOV.UK."
+    },
+    {
+      "file": "materiali/approfondimenti/2023-2024/bianchimani-chiara-storia-e-tecniche-dei-test-di-usabilita-per-prodotti-digitali-e-non.pdf",
+      "uso": "Distinzione fra compiti, osservazioni ed esiti. Nessuna regola numerica trasferita come prescrizione universale."
+    },
+    {
+      "file": "materiali/approfondimenti/2022-2023/elhajjaoui-865663-inclusive-web-design.pdf",
+      "uso": "Raccordo a ricerca inclusiva e personas; verifica del ruolo della valutazione con persone su W3C WAI."
+    }
+  ],
+  "verifica_fonti": "2026-10-28",
+  "pubblicazioni_verificate": [
+    {
+      "chiave": "uxDiPascale",
+      "url": "https://www.hoepli.it/libro/manuale-di-sopravvivenza-per-ux-designer/9788820389192.html"
+    },
+    {
+      "chiave": "uxIso210",
+      "url": "https://www.iso.org/standard/77520.html"
+    },
+    {
+      "chiave": "uxDykes",
+      "url": "https://www.nngroup.com/articles/persona/"
+    },
+    {
+      "chiave": "uxGibbons",
+      "url": "https://www.nngroup.com/articles/journey-mapping-101/"
+    },
+    {
+      "chiave": "uxMoran",
+      "url": "https://www.nngroup.com/articles/usability-testing-101/"
+    },
+    {
+      "chiave": "uxGothelf",
+      "url": "https://jeffgothelf.com/blog/the-lean-ux-canvas/"
+    },
+    {
+      "chiave": "uxDekker",
+      "url": "https://medium.com/@jolandatdekker/wireframing-ns-less-is-more-the-art-of-leaving-out-4077fd9174c0"
+    },
+    {
+      "chiave": "uxSauers",
+      "url": "https://www.jhspecialty.com/blog/wireframes"
+    }
+  ]
+}

@@ -1,0 +1,1309 @@
+{
+  "version": 1,
+  "lesson": "processo-ux-ui",
+  "chapterSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+  "images": [
+    {
+      "code": "processo",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/processo.svg",
+      "sourceSha256": "940914c75db26abe48f2911ec026a1f23a7d826df9800c333a34c5aeee970c62",
+      "web": "/images/processo-ux-ui/processo.svg",
+      "sha256": "940914c75db26abe48f2911ec026a1f23a7d826df9800c333a34c5aeee970c62",
+      "caption": "Quattordici attività in cinque nuclei; ogni verifica può riaprire una decisione.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Mappa di quattordici attività, dal brief alla nuova verifica, raccolte in cinque nuclei con possibilità di ritorno alle decisioni precedenti.",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/processo.typ",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ],
+      "sourceCaption": "Quattordici attività raccolte in cinque nuclei. I numeri identificano i passaggi descritti da Di Pascale; i ritorni possono riaprire sia il problema sia la soluzione.",
+      "sourceAlt": "Quattordici attività raccolte in cinque nuclei. I numeri identificano i passaggi descritti da Di Pascale; i ritorni possono riaprire sia il problema sia la soluzione.",
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/processo.svg",
+          "sha256": "48e731590ea5ef72cb3b703cd0460064c76621e7dd1331e60f8690032d882a7c",
+          "caption": "Quattordici attività collegate in cinque nuclei: impostare, comprendere, organizzare, strutturare, provare e affinare. Una verifica può riaprire sia il problema sia la soluzione.",
+          "alt": "Mappa di quattordici attività, dal brief alla nuova verifica, raccolte in cinque nuclei con possibilità di ritorno alle decisioni precedenti."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/processo.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "brief",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/brief.svg",
+      "sourceSha256": "971b1e509a76e6be50df296fff0f84cef83cc187f2ddc2fd977b2a7c43b9b20c",
+      "web": "/images/processo-ux-ui/brief.svg",
+      "sha256": "971b1e509a76e6be50df296fff0f84cef83cc187f2ddc2fd977b2a7c43b9b20c",
+      "caption": "La richiesta iniziale si traduce in domande sul servizio e sulle ipotesi.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Un brief iniziale del caso simulato. La richiesta viene accompagnata da domande sul servizio e sulle ipotesi da verificare.",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/brief.typ",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ],
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/brief.svg",
+          "sha256": "5cb7b53ac7cef66cbb6da7bb84681738c41000bde746bf32994ea803d3e91107",
+          "caption": "Un brief iniziale del caso simulato. La richiesta viene accompagnata da domande sul servizio e sulle ipotesi da verificare.",
+          "alt": "Un brief iniziale del caso simulato. La richiesta viene accompagnata da domande sul servizio e sulle ipotesi da verificare."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/brief.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "obiettivi",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/obiettivi.svg",
+      "sourceSha256": "67d4d8c1cd652272179c75536641a57fd65b1392c4632548dc7552a08723c2fa",
+      "web": "/images/processo-ux-ui/obiettivi.svg",
+      "sha256": "67d4d8c1cd652272179c75536641a57fd65b1392c4632548dc7552a08723c2fa",
+      "caption": "Da un obiettivo generico a una domanda osservabile nel prossimo ciclo.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Da un obiettivo generico a una domanda osservabile. L’esempio riguarda un ciclo di prova del prototipo e non stabilisce una soglia universale di successo.",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/obiettivi.typ",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ],
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/obiettivi.svg",
+          "sha256": "6060f8d7bc8abc14b8b87a7de676522d12a66f7cf8802954e9cfa275ec61e3b3",
+          "caption": "Da un obiettivo generico a una domanda osservabile. L’esempio riguarda un ciclo di prova del prototipo e non stabilisce una soglia universale di successo.",
+          "alt": "Da un obiettivo generico a una domanda osservabile. L’esempio riguarda un ciclo di prova del prototipo e non stabilisce una soglia universale di successo."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/obiettivi.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "evidenze",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/evidenze.svg",
+      "sourceSha256": "e9cedf8fa0009de4b6fbf6730abc7c4ad3c287151a122a20e0f54d168330b90e",
+      "web": "/images/processo-ux-ui/evidenze.svg",
+      "sha256": "e9cedf8fa0009de4b6fbf6730abc7c4ad3c287151a122a20e0f54d168330b90e",
+      "caption": "Osservazione, interpretazione, decisione e nuova domanda restano distinte.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Osservazione, interpretazione, decisione e nuova domanda nel caso simulato. La distinzione permette di conservare anche spiegazioni alternative.",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/evidenze.typ",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ],
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/evidenze.svg",
+          "sha256": "e09c4c5699834f662fc0d75247d8cebc2b7a652cf08dbec3c6e558d05e994fd1",
+          "caption": "Osservazione, interpretazione, decisione e nuova domanda nel caso simulato. La distinzione permette di conservare anche spiegazioni alternative.",
+          "alt": "Osservazione, interpretazione, decisione e nuova domanda nel caso simulato. La distinzione permette di conservare anche spiegazioni alternative."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/evidenze.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "viola",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/viola.svg",
+      "sourceSha256": "8baa539ebfc9d1596031dcb3ab18a2c30d2b375c9bb87a049026ee3e5ddbb1f0",
+      "web": "/images/processo-ux-ui/viola.svg",
+      "sha256": "8baa539ebfc9d1596031dcb3ab18a2c30d2b375c9bb87a049026ee3e5ddbb1f0",
+      "caption": "Orario, domicilio e informazioni necessarie orientano le scelte per Viola.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Profilo simulato di Viola: visita a domicilio dopo le 20, vincoli del compito, informazioni necessarie e ipotesi da verificare.",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/viola.typ",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ],
+      "sourceCaption": "Il profilo narrativo di Viola e le sue implicazioni progettuali. La scheda sviluppa il caso di Di Pascale; non rappresenta una persona reclutata o un segmento validato.",
+      "sourceAlt": "Il profilo narrativo di Viola e le sue implicazioni progettuali. La scheda sviluppa il caso di Di Pascale; non rappresenta una persona reclutata o un segmento validato.",
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/viola.svg",
+          "sha256": "32893486d59b6c01faea3dda70fc5b7248ec360aa8f086b152ef039fbfb8e03f",
+          "caption": "Viola cerca una visita a domicilio dopo il lavoro. Orario, zona servita e informazioni necessarie orientano la proposta. Il profilo è un esempio simulato, da verificare con la ricerca.",
+          "alt": "Profilo simulato di Viola: visita a domicilio dopo le 20, vincoli del compito, informazioni necessarie e ipotesi da verificare."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/viola.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "journey",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/journey.svg",
+      "sourceSha256": "e17a38a35da4ecef99686b9fe6599e3b03846c9cf50164cf4cf53af8da9a3d30",
+      "web": "/images/processo-ux-ui/journey.svg",
+      "sha256": "e17a38a35da4ecef99686b9fe6599e3b03846c9cf50164cf4cf53af8da9a3d30",
+      "caption": "La journey distingue azioni, contatti, domande e opportunità da verificare.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Una porzione della journey ipotetica di Viola. Fasi, azioni, punti di contatto e domande restano distinguibili; le opportunità sono proposte da verificare.",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/journey.typ",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ],
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/journey.svg",
+          "sha256": "573304dee3ccc8a07e221ac1e85b4bcd2ad04faa7d1a90927a0d60dc706d3823",
+          "caption": "Una porzione della journey ipotetica di Viola. Fasi, azioni, punti di contatto e domande restano distinguibili; le opportunità sono proposte da verificare.",
+          "alt": "Una porzione della journey ipotetica di Viola. Fasi, azioni, punti di contatto e domande restano distinguibili; le opportunità sono proposte da verificare."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/journey.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "flow",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/flow.svg",
+      "sourceSha256": "0c2715d2bca9135376f526cbab8b97b02724f27a2595b8c9a368ebe2752ee6d1",
+      "web": "/images/processo-ux-ui/flow.svg",
+      "sha256": "0c2715d2bca9135376f526cbab8b97b02724f27a2595b8c9a368ebe2752ee6d1",
+      "caption": "Il compito comprende scelta, riepilogo e ritorni per correggere o cercare ancora.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Schema del compito di prenotazione. I ritorni indicano possibilità di recupero nel caso simulato, oltre alla prosecuzione verso il riepilogo.",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/flow.typ",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ],
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/flow.svg",
+          "sha256": "dae755f125a4a3a300cd8e329daea7b0347c999e3ecc9963d9b9c8cc44d2e6e7",
+          "caption": "Schema del compito di prenotazione. I ritorni indicano possibilità di recupero nel caso simulato, oltre alla prosecuzione verso il riepilogo.",
+          "alt": "Schema del compito di prenotazione. I ritorni indicano possibilità di recupero nel caso simulato, oltre alla prosecuzione verso il riepilogo."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/flow.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "requisiti",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/requisiti.svg",
+      "sourceSha256": "12fe5635637e46c609bb780f8bc9dd49445fcd65385baedaf087ffddaac2657f",
+      "web": "/images/processo-ux-ui/requisiti.svg",
+      "sha256": "12fe5635637e46c609bb780f8bc9dd49445fcd65385baedaf087ffddaac2657f",
+      "caption": "Un bisogno diventa requisito, condizione e criterio da verificare.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Un requisito del caso simulato, con condizioni, criterio, priorità e domanda ancora aperta. Il documento rende esplicito che cosa debba essere verificato.",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/requisiti.typ",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ],
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/requisiti.svg",
+          "sha256": "aa7a873d882d73c531bc868dcf727d464aec0e04e84b3f41433cf72bdd70451b",
+          "caption": "Un requisito del caso simulato, con condizioni, criterio, priorità e domanda ancora aperta. Il documento rende esplicito che cosa debba essere verificato.",
+          "alt": "Un requisito del caso simulato, con condizioni, criterio, priorità e domanda ancora aperta. Il documento rende esplicito che cosa debba essere verificato."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/requisiti.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "sitemap",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/sitemap.svg",
+      "sourceSha256": "786552a0d976da8a1e6dcba937438a87478b93bd63dd1fb9b3c001ff3d9738ac",
+      "web": "/images/processo-ux-ui/sitemap.svg",
+      "sha256": "786552a0d976da8a1e6dcba937438a87478b93bd63dd1fb9b3c001ff3d9738ac",
+      "caption": "La struttura raggruppa contenuti e funzioni; il flow descrive azioni e condizioni.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Ipotesi di architettura del servizio. I collegamenti indicano raggruppamenti e relazioni, mentre il flow della @fig-ux-flow descrive azioni e condizioni di un compito.",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/sitemap.typ",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ],
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/sitemap.svg",
+          "sha256": "b2be0509ed2224bf41bd01f64a8a0c9b1a6c09c5e2fb29938673ca1dd82787db",
+          "caption": "Ipotesi di architettura del servizio. I collegamenti indicano raggruppamenti e relazioni, mentre il flow della @fig-ux-flow descrive azioni e condizioni di un compito.",
+          "alt": "Ipotesi di architettura del servizio. I collegamenti indicano raggruppamenti e relazioni, mentre il flow della @fig-ux-flow descrive azioni e condizioni di un compito."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/sitemap.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "wireframe-ui",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/wireframe-ui.svg",
+      "sourceSha256": "efb7f3d1365fe0d0bfb94dba0efdf1ef26a9dee61f54dcae4d21685f80c71044",
+      "web": "/images/processo-ux-ui/wireframe-ui.svg",
+      "sha256": "efb7f3d1365fe0d0bfb94dba0efdf1ef26a9dee61f54dcae4d21685f80c71044",
+      "caption": "Lo stesso esempio passa dalle aree ai contenuti e alla proposta di UI.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Tre livelli del medesimo esempio simulato: a. aree della schermata; b. contenuti e comando; c. proposta di UI. Data, durata e costo sono ipotetici.",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/wireframe-ui.typ",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ],
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/wireframe-ui.svg",
+          "sha256": "dcba10c8c504f1333aa09552c954c478a88a9255aea65c8a04a1c2e4c13897f3",
+          "caption": "Tre livelli del medesimo esempio simulato: a. aree della schermata; b. contenuti e comando; c. proposta di UI. Data, durata e costo sono ipotetici.",
+          "alt": "Tre livelli del medesimo esempio simulato: a. aree della schermata; b. contenuti e comando; c. proposta di UI. Data, durata e costo sono ipotetici."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/wireframe-ui.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "stati",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/stati.svg",
+      "sourceSha256": "c799fa2ad914d3142a4d4a3f0cc4748fc614a3dee41d3b2cade999278614f634",
+      "web": "/images/processo-ux-ui/stati.svg",
+      "sha256": "c799fa2ad914d3142a4d4a3f0cc4748fc614a3dee41d3b2cade999278614f634",
+      "caption": "Scelta, recupero ed esito comunicano condizioni differenti del percorso.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Stati del percorso simulato: a. disponibilità da scegliere; b. orario non più disponibile e recupero; c. conferma. I messaggi descrivono conseguenze differenti.",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/stati.typ",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ],
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/stati.svg",
+          "sha256": "77eb24136abbeb2781e6ac0199777d53ab020f756eceb3b4364d653d77a8fc0a",
+          "caption": "Stati del percorso simulato: a. disponibilità da scegliere; b. orario non più disponibile e recupero; c. conferma. I messaggi descrivono conseguenze differenti.",
+          "alt": "Stati del percorso simulato: a. disponibilità da scegliere; b. orario non più disponibile e recupero; c. conferma. I messaggi descrivono conseguenze differenti."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/stati.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "test",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/test.svg",
+      "sourceSha256": "81b2b1e614e681fd0035caa438022110b9b0409ed13ba3e989079f7a0cf1cbb6",
+      "web": "/images/processo-ux-ui/test.svg",
+      "sha256": "81b2b1e614e681fd0035caa438022110b9b0409ed13ba3e989079f7a0cf1cbb6",
+      "caption": "La domanda orienta partecipante, compito, osservazioni e facilitazione.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Preparazione di una prova sul percorso simulato. La domanda orienta partecipante, compito, osservazioni e modalità di facilitazione.",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/test.typ",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ],
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/test.svg",
+          "sha256": "149071a5c64085bc1dfb4889d63eb3246eafc7a94d6ad0fb4e5997614640d6e2",
+          "caption": "Preparazione di una prova sul percorso simulato. La domanda orienta partecipante, compito, osservazioni e modalità di facilitazione.",
+          "alt": "Preparazione di una prova sul percorso simulato. La domanda orienta partecipante, compito, osservazioni e modalità di facilitazione."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/test.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "iterazione",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/iterazione.svg",
+      "sourceSha256": "afbb6b56186aaa1894361469db583e8a769d277cd59144a2f53d19024da9c5ed",
+      "web": "/images/processo-ux-ui/iterazione.svg",
+      "sha256": "afbb6b56186aaa1894361469db583e8a769d277cd59144a2f53d19024da9c5ed",
+      "caption": "Ogni revisione conserva il collegamento con l’episodio osservato.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Un registro di revisione nel caso simulato. Il comportamento osservato sostiene una domanda; la spiegazione e il miglioramento atteso restano da mettere alla prova.",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/iterazione.typ",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ],
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/iterazione.svg",
+          "sha256": "d4197fb34fa0ff5d7b7981783f1470932a7da88478ca6d0d38bb8e1776f1d80e",
+          "caption": "Un registro di revisione nel caso simulato. Il comportamento osservato sostiene una domanda; la spiegazione e il miglioramento atteso restano da mettere alla prova.",
+          "alt": "Un registro di revisione nel caso simulato. Il comportamento osservato sostiene una domanda; la spiegazione e il miglioramento atteso restano da mettere alla prova."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/iterazione.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "ciclo",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/ciclo.svg",
+      "sourceSha256": "1919d4bc1f078fab7b609fd886f6a68b4bdc333d5124a09de76f3e6a84a3f827",
+      "web": "/images/processo-ux-ui/ciclo.svg",
+      "sha256": "1919d4bc1f078fab7b609fd886f6a68b4bdc333d5124a09de76f3e6a84a3f827",
+      "caption": "Ipotesi, prova e apprendimento preparano la decisione successiva.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Ipotesi, prova e apprendimento in un ciclo di revisione. La visualizzazione sintetizza il rapporto fra domanda, esperimento e decisione, senza prescrivere una durata o un numero di iterazioni.",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ciclo.typ",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "file": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ],
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ciclo.svg",
+          "sha256": "4dba82ab080f85f5ae9ef75a6b373dd52533af1a253cc97315dbbc6f8b58c3a0",
+          "caption": "Ipotesi, prova e apprendimento in un ciclo di revisione. La visualizzazione sintetizza il rapporto fra domanda, esperimento e decisione, senza prescrivere una durata o un numero di iterazioni.",
+          "alt": "Ipotesi, prova e apprendimento in un ciclo di revisione. La visualizzazione sintetizza il rapporto fra domanda, esperimento e decisione, senza prescrivere una durata o un numero di iterazioni."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/ciclo.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "persona",
+      "source": "progetti/booklet/assets/processo-ux-ui/persona-corunga.png",
+      "sourceSha256": "4c37eb7c733b71fc628cbb7656bff7783a9422239f5b1f7ead00796bcd6b3954",
+      "web": "/images/processo-ux-ui/persona.png",
+      "sha256": "4c37eb7c733b71fc628cbb7656bff7783a9422239f5b1f7ead00796bcd6b3954",
+      "caption": "Claudia deve acquistare biglietti ferroviari per gruppi. La scheda collega compiti, bisogni e frustrazioni; la grafica non dimostra il metodo di ricerca.",
+      "rights": "Iulian Corunga.",
+      "alt": "Scheda persona di Claudia con fotografia, aspirazioni, compiti, bisogni e frustrazioni in inglese.",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "preparatorySource": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "physicalPage": 74
+    },
+    {
+      "code": "wireframe-carta",
+      "source": "progetti/booklet/assets/processo-ux-ui/originali/wireframe-carta.jpg",
+      "sourceSha256": "dd1f8e67cc74a6bf7f36a141c09139c31a5ac0a07663e27ceea49886d69f86d6",
+      "web": "/images/processo-ux-ui/wireframe-carta.jpg",
+      "sha256": "dd1f8e67cc74a6bf7f36a141c09139c31a5ac0a07663e27ceea49886d69f86d6",
+      "caption": "Analisi della funzione preferiti di NS: schermate abbozzate e azioni collegate. È una ricostruzione analitica di un’app esistente.",
+      "rights": "Jolanda Dekker, 2019.",
+      "alt": "Wireframe a mano della funzione preferiti NS, con schermate e frecce per cercare, nominare e salvare.",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "preparatorySource": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "physicalPage": 81
+    },
+    {
+      "code": "mockup",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/mockup.svg",
+      "sourceSha256": "ea32f4559e38427742d17c869fc55a7e094546c21293464b1fcdc1ca90ac23d6",
+      "web": "/images/processo-ux-ui/mockup.svg",
+      "sha256": "ea32f4559e38427742d17c869fc55a7e094546c21293464b1fcdc1ca90ac23d6",
+      "caption": "WCC Properties: dettaglio superiore del wireframe e della proposta UI. Struttura riconoscibile, fotografia e gerarchia visiva a confronto.",
+      "rights": "JH Specialty; Evan Sauers, 2022.",
+      "alt": "Testata WCC Properties in wireframe e mockup, con titolo, immagine e comando.",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "crop": "Top 101/460.6 pt of the full image, matching the chapter header detail; no raster edits.",
+      "inputs": [
+        {
+          "file": "progetti/booklet/assets/processo-ux-ui/originali/wireframe-mockup.png",
+          "sha256": "cfebf0efaf18a2ad44cb647509aa9cdede445fa357d0248c4153bd055738abca"
+        }
+      ]
+    },
+    {
+      "code": "confronto-alternative",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/confronto-alternative.svg",
+      "sourceSha256": "64de88c055c3997a0c3d4f154bbe5fb5be40b7dfdef391dea92ccb1fd931c62a",
+      "web": "/images/processo-ux-ui/confronto-alternative.svg",
+      "sha256": "64de88c055c3997a0c3d4f154bbe5fb5be40b7dfdef391dea92ccb1fd931c62a",
+      "caption": "Le stesse domande rendono confrontabili alternative diverse.",
+      "rights": "CVeDI, 2026. Diagramma didattico.",
+      "alt": "Griglia di confronto simulata: le celle sono domande e ipotesi da verificare seguendo lo stesso compito in ogni alternativa.",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/confronto-alternative.typ",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/confronto-alternative.svg",
+          "sha256": "461d8af94eaa06d7b47942654de766b6150359bca30041e37ad7a11e7ca7aaba",
+          "caption": "Griglia di confronto simulata: le celle sono domande e ipotesi da verificare seguendo lo stesso compito in ogni alternativa.",
+          "alt": "Griglia di confronto simulata: le celle sono domande e ipotesi da verificare seguendo lo stesso compito in ogni alternativa."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/confronto-alternative.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "fedelta",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/fedelta.svg",
+      "sourceSha256": "5cc775688234e6c9a5c622b0bf2186888fc67fae109469131b11fa2e9cda75bd",
+      "web": "/images/processo-ux-ui/fedelta.svg",
+      "sha256": "5cc775688234e6c9a5c622b0bf2186888fc67fae109469131b11fa2e9cda75bd",
+      "caption": "Aspetto e comportamento sono dimensioni distinte della fedeltà.",
+      "rights": "CVeDI, 2026. Diagramma didattico.",
+      "alt": "Aspetto e comportamento sono dimensioni distinte. La domanda della prova orienta il dettaglio necessario.",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/fedelta.typ",
+      "metadataSource": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/fedelta.svg",
+          "sha256": "c2673c148555dbd3eb9f1fe4888c3a050d06a6efd1c7326398ad8130e0a5a27a",
+          "caption": "Aspetto e comportamento sono dimensioni distinte. La domanda della prova orienta il dettaglio necessario.",
+          "alt": "Aspetto e comportamento sono dimensioni distinte. La domanda della prova orienta il dettaglio necessario."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/fedelta.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "responsabilita",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/responsabilita.svg",
+      "sourceSha256": "ed73475069fdfabc2eef5a119c8e58e61450568d30b53e992f964318e87eebab",
+      "web": "/images/processo-ux-ui/responsabilita.svg",
+      "sha256": "ed73475069fdfabc2eef5a119c8e58e61450568d30b53e992f964318e87eebab",
+      "caption": "Ogni vincolo del servizio ha un responsabile e una conseguenza sul prodotto.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Tabella di zona coperta, disponibilità e annullamento, con responsabili e conseguenze sul prodotto.",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/responsabilita.typ",
+      "inputs": [
+        {
+          "file": "progetti/slide/assets/slide-materials/processo-ux-ui/approfondimenti.typ",
+          "sha256": "6010c7c77e192f1b36e945a1d9e532d4bc10772fb6fbc192c430bdab9a0e41dc"
+        },
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        }
+      ],
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/responsabilita.svg",
+          "sha256": "0d810896c9ea31a4323bec97fe5441ddf1bde05d476a9a226039cc066ddd8a4c",
+          "caption": "Mappa simulata delle responsabilità: ogni vincolo del servizio ha un interlocutore e una conseguenza sull’interfaccia.",
+          "alt": "Tabella di zona coperta, disponibilità e annullamento, con responsabili e conseguenze sul prodotto."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/responsabilita.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "ipotesi",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/ipotesi.svg",
+      "sourceSha256": "f13142e878e5778123bf8debe97393b918d9471a1297804d5e7eb3345c0e0729",
+      "web": "/images/processo-ux-ui/ipotesi.svg",
+      "sha256": "f13142e878e5778123bf8debe97393b918d9471a1297804d5e7eb3345c0e0729",
+      "caption": "Un’ipotesi collega problema, proposta, effetto atteso e possibile smentita.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Ipotesi simulata sugli orari serali, con un esito alternativo legato alla copertura del domicilio.",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ipotesi.typ",
+      "inputs": [
+        {
+          "file": "progetti/slide/assets/slide-materials/processo-ux-ui/approfondimenti.typ",
+          "sha256": "6010c7c77e192f1b36e945a1d9e532d4bc10772fb6fbc192c430bdab9a0e41dc"
+        },
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        }
+      ],
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ipotesi.svg",
+          "sha256": "1cf7767af55234afda3e4a1714b49725e7b83c4f391a5df66a6c7f7b5b81feb9",
+          "caption": "Un problema, una proposta, un cambiamento atteso e una possibile smentita: quattro parti di un’ipotesi da provare.",
+          "alt": "Ipotesi simulata sugli orari serali, con un esito alternativo legato alla copertura del domicilio."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/ipotesi.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "journey-responsabilita",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/journey-responsabilita.svg",
+      "sourceSha256": "e78c9b82bcc910875d49c790099d4b35865371139e4863b9491a076da197da9d",
+      "web": "/images/processo-ux-ui/journey-responsabilita.svg",
+      "sha256": "e78c9b82bcc910875d49c790099d4b35865371139e4863b9491a076da197da9d",
+      "caption": "Il percorso di Viola richiede risposte dell’interfaccia e attività del servizio.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Tre momenti del servizio con bisogno di Viola, risposta dell’interfaccia e attività organizzativa corrispondente.",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/journey-responsabilita.typ",
+      "inputs": [
+        {
+          "file": "progetti/slide/assets/slide-materials/processo-ux-ui/approfondimenti.typ",
+          "sha256": "6010c7c77e192f1b36e945a1d9e532d4bc10772fb6fbc192c430bdab9a0e41dc"
+        },
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        }
+      ],
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/journey-responsabilita.svg",
+          "sha256": "680d950f56cb45a0277a475a3acf404f403e6e8fa1bded854008abba7254c6c2",
+          "caption": "Il percorso di Viola collega ciò che appare sullo schermo alle attività necessarie prima, durante e dopo la prenotazione.",
+          "alt": "Tre momenti del servizio con bisogno di Viola, risposta dell’interfaccia e attività organizzativa corrispondente."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/journey-responsabilita.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "accettazione",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/accettazione.svg",
+      "sourceSha256": "49b5c7a399966becfe2fed3d55ac3dd4f014fb1c25227f7b2e9b36e7545282de",
+      "web": "/images/processo-ux-ui/accettazione.svg",
+      "sha256": "49b5c7a399966becfe2fed3d55ac3dd4f014fb1c25227f7b2e9b36e7545282de",
+      "caption": "La user story è accompagnata da condizione, azione ed esito osservabile.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "User story della visita serale, con condizione iniziale, azione e risultato atteso del riepilogo.",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/accettazione.typ",
+      "inputs": [
+        {
+          "file": "progetti/slide/assets/slide-materials/processo-ux-ui/approfondimenti.typ",
+          "sha256": "6010c7c77e192f1b36e945a1d9e532d4bc10772fb6fbc192c430bdab9a0e41dc"
+        },
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        }
+      ],
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/accettazione.svg",
+          "sha256": "30cf1c8e7e4c65207bab6303aeca79cd9a63ad9cc50d671a545beee7b159a3f4",
+          "caption": "Una user story e un esempio di accettazione del riepilogo. Il criterio precisa un comportamento da verificare.",
+          "alt": "User story della visita serale, con condizione iniziale, azione e risultato atteso del riepilogo."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/accettazione.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "registro-prova",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/registro-prova.svg",
+      "sourceSha256": "8bc6a9d630ec785ea7ce394dde09ab5dd488a3fdfaeadc97830ee723e096cb66",
+      "web": "/images/processo-ux-ui/registro-prova.svg",
+      "sha256": "8bc6a9d630ec785ea7ce394dde09ab5dd488a3fdfaeadc97830ee723e096cb66",
+      "caption": "Un episodio conserva fatti, parole, facilitazione e interpretazione separati.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Scheda di osservazione di una persona che torna alla ricerca perché non riconosce se la visita è a domicilio.",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/registro-prova.typ",
+      "inputs": [
+        {
+          "file": "progetti/slide/assets/slide-materials/processo-ux-ui/approfondimenti.typ",
+          "sha256": "6010c7c77e192f1b36e945a1d9e532d4bc10772fb6fbc192c430bdab9a0e41dc"
+        },
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        }
+      ],
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/registro-prova.svg",
+          "sha256": "71e0083b81daedbd05bfbd64dfa8e7e1e0410676d7622d3c3f3a516c5730aaf3",
+          "caption": "Registro di un episodio simulato: contesto, comportamento, parole, facilitazione, interpretazione e prossima prova restano separati.",
+          "alt": "Scheda di osservazione di una persona che torna alla ricerca perché non riconosce se la visita è a domicilio."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/registro-prova.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "priorita-problemi",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/priorita-problemi.svg",
+      "sourceSha256": "ecebbfb083dcc931015da92f866cbdd83b674214fc81101ae5fe12c63bc35238",
+      "web": "/images/processo-ux-ui/priorita-problemi.svg",
+      "sha256": "ecebbfb083dcc931015da92f866cbdd83b674214fc81101ae5fe12c63bc35238",
+      "caption": "Le priorità dipendono dalle conseguenze e dalle possibilità di recupero.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Confronto fra compito bloccato, costo poco chiaro e difficoltà recuperata autonomamente.",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/priorita-problemi.typ",
+      "inputs": [
+        {
+          "file": "progetti/slide/assets/slide-materials/processo-ux-ui/approfondimenti.typ",
+          "sha256": "6010c7c77e192f1b36e945a1d9e532d4bc10772fb6fbc192c430bdab9a0e41dc"
+        },
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        }
+      ],
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/priorita-problemi.svg",
+          "sha256": "d23659fc0bb0e8e8d1f36c809eec8576cb1b312e4f353b69c8742914e22e6a24",
+          "caption": "Tre episodi simulati con conseguenze diverse. La priorità richiede un giudizio motivato, oltre al conteggio delle occorrenze.",
+          "alt": "Confronto fra compito bloccato, costo poco chiaro e difficoltà recuperata autonomamente."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/priorita-problemi.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "consegna-stato",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/consegna-stato.svg",
+      "sourceSha256": "1783f8c51b28ef72ec8ebdcf97cf3c863e8696f1b0d316bcc852223d0b3426c2",
+      "web": "/images/processo-ux-ui/consegna-stato.svg",
+      "sha256": "1783f8c51b28ef72ec8ebdcf97cf3c863e8696f1b0d316bcc852223d0b3426c2",
+      "caption": "Uno stato collega messaggio, dati conservati, criterio e responsabilità.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Specifiche simulate per un orario perso prima della conferma, con recupero e responsabilità ancora da chiarire.",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/consegna-stato.typ",
+      "inputs": [
+        {
+          "file": "progetti/slide/assets/slide-materials/processo-ux-ui/approfondimenti.typ",
+          "sha256": "6010c7c77e192f1b36e945a1d9e532d4bc10772fb6fbc192c430bdab9a0e41dc"
+        },
+        {
+          "file": "progetti/booklet/assets/diagrams/ux-process-examples.typ",
+          "sha256": "da4a8438d54e5bab77c319ead125393d125a71b59c0e7ade9b8e07f878e82702"
+        }
+      ],
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/consegna-stato.svg",
+          "sha256": "d2687eefd7aeb9e0af95cf04bd57a1514933c9e0a322fd966c8730e870c4d058",
+          "caption": "Scheda di consegna dello stato di indisponibilità: messaggio, dati conservati, criterio di accettazione e dipendenza dal servizio.",
+          "alt": "Specifiche simulate per un orario perso prima della conferma, con recupero e responsabilità ancora da chiarire."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/consegna-stato.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "confronto-mappe",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/confronto-mappe.svg",
+      "sourceSha256": "b4ce7a1a803eb12fc3417bfdea3adf48dd23c97dbf9059dea6a3c8a84101912b",
+      "web": "/images/processo-ux-ui/confronto-mappe.svg",
+      "sha256": "b4ce7a1a803eb12fc3417bfdea3adf48dd23c97dbf9059dea6a3c8a84101912b",
+      "caption": "Momenti del servizio, azioni e struttura dei contenuti sono rappresentazioni diverse.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Journey con prima, durante e dopo; flow con disponibilità e rami sì e no; sitemap con Servizi, Prenota e Le mie visite.",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/confronto-mappe.typ",
+      "inputs": [
+        {
+          "file": "progetti/slide/assets/slide-materials/processo-ux-ui/confronti.typ",
+          "sha256": "ae08f0c01f42d5f9d8d14c095342dc69c2be1be949efe14923ccce4e00760f5b"
+        }
+      ],
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/confronto-mappe.svg",
+          "sha256": "3379ca1eb16e1b6fe712e19e8f5170289cb50d3995f6a3923ef51c7dadb81f9b",
+          "caption": "Momenti del servizio, sequenza di azioni e struttura dei contenuti a confronto.",
+          "alt": "Journey con prima, durante e dopo; flow con disponibilità e rami sì e no; sitemap con Servizi, Prenota e Le mie visite."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/confronto-mappe.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "ui-annotata",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/ui-annotata.svg",
+      "sourceSha256": "dee8181a0f5bb3cf7a8ff07c73ce995435c2e8c47f2302e5b3aa139fe2f6bec3",
+      "web": "/images/processo-ux-ui/ui-annotata.svg",
+      "sha256": "dee8181a0f5bb3cf7a8ff07c73ce995435c2e8c47f2302e5b3aa139fe2f6bec3",
+      "caption": "Griglia, tipografia, colore e stati rendono comprensibili disponibilità e richiesta.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Schermata simulata di una visita a domicilio alle 20:30 con azione Invia richiesta e nota che distingue l’invio dalla conferma; spiegazioni dei tre gruppi di scelte visive.",
+      "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ui-annotata.typ",
+      "inputs": [
+        {
+          "file": "progetti/slide/assets/slide-materials/processo-ux-ui/confronti.typ",
+          "sha256": "ae08f0c01f42d5f9d8d14c095342dc69c2be1be949efe14923ccce4e00760f5b"
+        }
+      ],
+      "reconstruction": {
+        "original": {
+          "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ui-annotata.svg",
+          "sha256": "fa330d98ebdbf8f499e88f73408582a620e327804af88bd899dcc746d3d96cf9",
+          "caption": "Disponibilità e richiesta sono stati diversi. Le scelte visive sostengono la comprensione del compito.",
+          "alt": "Schermata simulata di una visita a domicilio alle 20:30 con azione Invia richiesta e nota che distingue l’invio dalla conferma; spiegazioni dei tre gruppi di scelte visive."
+        },
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/ui-annotata.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "illustrazione-brief",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-brief.webp",
+      "sourceSha256": "cd84da16e0cbcf45930ec11f065719cc5373d1f48a3f3780c963b435393d43fb",
+      "web": "/images/processo-ux-ui/illustrazione-brief.webp",
+      "sha256": "cd84da16e0cbcf45930ec11f065719cc5373d1f48a3f3780c963b435393d43fb",
+      "caption": "Un brief costruito attraverso il confronto.",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "alt": "Clipboard con appunti, due fumetti e una matita: la richiesta viene discussa e documentata.",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-process/originals/illustrazione-brief.png",
+      "originalSha256": "b0b5b8ead4bdffbedde8fcd9bb2691e507eb6500f8a80e97709abe91bfd305bc",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-process/prompts/illustrazione-brief.txt",
+      "promptSha256": "6c7c1a8400fff7fb7b7171839cf4b7f564db65aa27f3435c023f1a0ec53858d2",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": true
+    },
+    {
+      "code": "illustrazione-ricerca",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-ricerca.webp",
+      "sourceSha256": "85cd26fb15af249075494bf4d4d76c8d9190d2ae35a8b02a21d127da862f809c",
+      "web": "/images/processo-ux-ui/illustrazione-ricerca.webp",
+      "sha256": "85cd26fb15af249075494bf4d4d76c8d9190d2ae35a8b02a21d127da862f809c",
+      "caption": "Ascoltare e documentare episodi concreti.",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "alt": "Due persone senza lineamenti si confrontano a un tavolo; una racconta e l’altra prende appunti.",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-process/originals/illustrazione-ricerca.png",
+      "originalSha256": "d796942eb157798f0b965da22242b7e560f27e7f391b85cb0e69e430dd8c73ee",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-process/prompts/illustrazione-ricerca.txt",
+      "promptSha256": "2652555059138dc75e1259ab9b86caf327c77f83b3e456fb7726adf3cc97c400",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": true
+    },
+    {
+      "code": "illustrazione-requisiti",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-requisiti.webp",
+      "sourceSha256": "6e50848606aff9d76b76d3efa8f5cef3b1e3b15bb4e9ac3c16aa58feb3ef74f6",
+      "web": "/images/processo-ux-ui/illustrazione-requisiti.webp",
+      "sha256": "6e50848606aff9d76b76d3efa8f5cef3b1e3b15bb4e9ac3c16aa58feb3ef74f6",
+      "caption": "Dalle osservazioni a requisiti da verificare.",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "alt": "Tre schede di osservazione affiancate a un documento con requisiti e segni di verifica.",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-process/originals/illustrazione-requisiti.png",
+      "originalSha256": "e2afe708e6803d780b9eeb66d6bf66646aee1eb194d26728bfca988246b18ec4",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-process/prompts/illustrazione-requisiti.txt",
+      "promptSha256": "96465eefde73d915580f9d9536e9870c7fd63dad5b9751d71bea37916d144e68",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": true
+    },
+    {
+      "code": "illustrazione-wireframe",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-wireframe.webp",
+      "sourceSha256": "11e33f84bb3ee5d62d687b29b9e8f46b5345d9038c1c0da596f50eab9a5d85d3",
+      "web": "/images/processo-ux-ui/illustrazione-wireframe.webp",
+      "sha256": "11e33f84bb3ee5d62d687b29b9e8f46b5345d9038c1c0da596f50eab9a5d85d3",
+      "caption": "Esplorare struttura e azioni prima del dettaglio visivo.",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "alt": "Schermata essenziale, bozza su carta e matita mostrano aree, contenuti e comandi di un wireframe.",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-process/originals/illustrazione-wireframe.png",
+      "originalSha256": "75ce0eee19cfe806af78ca4d4669bda04166c1797a204fd9bff5a4b95f393233",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-process/prompts/illustrazione-wireframe.txt",
+      "promptSha256": "578038f74617045215a0d1c30140d6b6dad69c6b53e0bac81a1dacb57cd7747a",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": true
+    },
+    {
+      "code": "illustrazione-verifica",
+      "source": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-verifica.webp",
+      "sourceSha256": "2d0cc240a1d8de46dd52ca3e1ae03b9d4826eaafc5346ca283c80627c1d9f0fc",
+      "web": "/images/processo-ux-ui/illustrazione-verifica.webp",
+      "sha256": "2d0cc240a1d8de46dd52ca3e1ae03b9d4826eaafc5346ca283c80627c1d9f0fc",
+      "caption": "Osservare l’uso per preparare la prossima revisione.",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "alt": "Una persona usa un portatile mentre un’osservatrice prende appunti; una freccia collega prova e revisione.",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-process/originals/illustrazione-verifica.png",
+      "originalSha256": "7508a16dbc95330aabc7dfdec6fcae748f4e0c5fe0e07f311a236407412d0ef4",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-process/prompts/illustrazione-verifica.txt",
+      "promptSha256": "01fbebf3f2416e621398649d15d65c70a7f6f4dcd8fd0c5d3a8639aeea3b91aa",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": true
+    },
+    {
+      "code": "caso-wireframe-v0",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/caso-wireframe-v0.svg",
+      "sourceSha256": "11f76ad435715e9b0796ee0b9de355864cd4825c73b3cdf0dd7c7d562e55edee",
+      "web": "/images/processo-ux-ui/caso-wireframe-v0.svg",
+      "sha256": "11f76ad435715e9b0796ee0b9de355864cd4825c73b3cdf0dd7c7d562e55edee",
+      "caption": "V0: ricerca, lista e riepilogo della prima bozza.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Tre schermate del wireframe V0 con i punti deboli della compatibilità e del costo.",
+      "nativeDiagram": {
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/caso-wireframe-v0.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "caso-iterazione-v1",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/caso-iterazione-v1.svg",
+      "sourceSha256": "7ec387358e16e7c0c5113be8a5fcbe97bc1c01c155dc1ba4951c06120c31e193",
+      "web": "/images/processo-ux-ui/caso-iterazione-v1.svg",
+      "sha256": "7ec387358e16e7c0c5113be8a5fcbe97bc1c01c155dc1ba4951c06120c31e193",
+      "caption": "V0 → V1: anticipare domicilio, fascia serale e totale.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Confronto della prima revisione, con criteri di compatibilità prima dei risultati.",
+      "nativeDiagram": {
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/caso-iterazione-v1.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "caso-iterazione-v2",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/caso-iterazione-v2.svg",
+      "sourceSha256": "e03f4a6d121b785552b21958235e9be02e94791e01e21890bd40bc79aa008e93",
+      "web": "/images/processo-ux-ui/caso-iterazione-v2.svg",
+      "sha256": "e03f4a6d121b785552b21958235e9be02e94791e01e21890bd40bc79aa008e93",
+      "caption": "V1 → V2: richiesta, attesa e conferma del professionista.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Sequenza che distingue invio della richiesta, attesa e accettazione del professionista.",
+      "nativeDiagram": {
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/caso-iterazione-v2.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "caso-iterazione-v3",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/caso-iterazione-v3.svg",
+      "sourceSha256": "908eacc90d5629c74627dc034d13c92bd711c5998afd727bf875c77dd6c22417",
+      "web": "/images/processo-ux-ui/caso-iterazione-v3.svg",
+      "sha256": "908eacc90d5629c74627dc034d13c92bd711c5998afd727bf875c77dd6c22417",
+      "caption": "V2 → V3: uno slot perso conserva i dati validi.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Recupero dalla perdita dello slot delle 20:30 verso una proposta alle 21:15.",
+      "nativeDiagram": {
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/caso-iterazione-v3.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "caso-servizio-finale",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/caso-servizio-finale.svg",
+      "sourceSha256": "a60eac4449903f8d7d4f8ea3a1a74a5e0479372f6bab2a39ef0f5450a73470a2",
+      "web": "/images/processo-ux-ui/caso-servizio-finale.svg",
+      "sha256": "a60eac4449903f8d7d4f8ea3a1a74a5e0479372f6bab2a39ef0f5450a73470a2",
+      "caption": "Il servizio V3 collega percorso di Viola, interfaccia, professionista e gestore.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Blueprint del servizio finale dal cercare una visita alla gestione della conferma.",
+      "nativeDiagram": {
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/caso-servizio-finale.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    },
+    {
+      "code": "caso-sistema-ui",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/caso-sistema-ui.svg",
+      "sourceSha256": "9e97da6d72661fddf8810ffb081feb7e17b98bb9d78a782ec003c8dfa8ad0be6",
+      "web": "/images/processo-ux-ui/caso-sistema-ui.svg",
+      "sha256": "9e97da6d72661fddf8810ffb081feb7e17b98bb9d78a782ec003c8dfa8ad0be6",
+      "caption": "Griglia, tipografia, colore e stati danno forma alle decisioni del servizio.",
+      "rights": "CVeDI, 2026. Esempio didattico simulato.",
+      "alt": "Sistema visivo V2 con gerarchie tipografiche, relazioni, azioni e stati scritti.",
+      "nativeDiagram": {
+        "nativeSource": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/caso-sistema-ui.typ",
+        "renderer": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+        "rendererSha256": "ad1adea5c6e3f99b352cb37e4e590d6518661de581dde2b4379a82b72d7d8e69",
+        "bodySize": 15.5,
+        "noteSize": 14,
+        "canvasWidth": 842,
+        "zoomClearance": 40,
+        "fontManifest": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/manifest.json",
+        "palette": "violet/Cedro",
+        "background": "transparent"
+      }
+    }
+  ],
+  "objectiveArtwork": [
+    {
+      "id": "processo-ux-ui-domande",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/obiettivo-domande.svg",
+      "sha256": "25d538ebab83647f8b857254e378f2b0a6881163d8f39ec8e89e2a5091799b7a",
+      "web": "/images/processo-ux-ui/obiettivo-domande.svg",
+      "rights": "CVeDI, 2026. Illustrazione vettoriale originale."
+    },
+    {
+      "id": "processo-ux-ui-percorsi",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/obiettivo-percorsi.svg",
+      "sha256": "48193bc8f3516df24c3e4d1f345fb8709417c70bb97d6c1754ec851d7fe3e946",
+      "web": "/images/processo-ux-ui/obiettivo-percorsi.svg",
+      "rights": "CVeDI, 2026. Illustrazione vettoriale originale."
+    },
+    {
+      "id": "processo-ux-ui-prove",
+      "source": "progetti/slide/assets/slide-materials/processo-ux-ui/obiettivo-prove.svg",
+      "sha256": "f594dd0147a9857d82e089d8758b51225d7c29dc3dbd2d042c876f8aa7e115e4",
+      "web": "/images/processo-ux-ui/obiettivo-prove.svg",
+      "rights": "CVeDI, 2026. Illustrazione vettoriale originale."
+    }
+  ]
+}

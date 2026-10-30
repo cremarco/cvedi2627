@@ -1,0 +1,428 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-29",
+  "sources": [
+    {
+      "id": "book",
+      "file": "/Users/marco/Downloads/Manuale_di_sopravvivenza_per_UX_designer_Pascale_Matteo_Di_z_lib (1).pdf",
+      "physicalPages": [
+        38,
+        45
+      ],
+      "sha256": "e5a30bc514463f558a45b235f4f0bf614faf01bb8e253072a4853bed51e8ae10"
+    },
+    {
+      "id": "booklet-2024",
+      "file": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "physicalPages": [
+        60,
+        87
+      ],
+      "sha256": "3d627dcf3d5aec9ad2a5953417303b4f990344deb0ae91a74df6c73e6664dd9b"
+    },
+    {
+      "id": "old-03",
+      "file": "materiali/lezioni/2025-2026/03-ux-ui-processo-ux.pdf",
+      "physicalPages": [
+        50,
+        53
+      ],
+      "sha256": "5f6f7acb8dae6809974bcbc40e8d74ea6f29c77129c91a5b7e5593e203eb9bb4"
+    },
+    {
+      "id": "old-04",
+      "file": "materiali/lezioni/2025-2026/04-processo-ux-concept-moodboard.pdf",
+      "physicalPages": [
+        7,
+        77
+      ],
+      "sha256": "829f72ff3648bca4152db0fca0cbf6c4e254d10adcadc6e2aca8b8b18657ca70"
+    },
+    {
+      "id": "old-05",
+      "file": "materiali/lezioni/2025-2026/05-processo-ux-gestalt-storia-interfacce.pdf",
+      "physicalPages": [
+        7,
+        30
+      ],
+      "sha256": "d8a07290e0b2c4544367681a78445926b1f1f8ccb981f4a67a9826a00b7fc6c4"
+    },
+    {
+      "id": "old-06",
+      "file": "materiali/lezioni/2025-2026/06-processo-ux-colore.pdf",
+      "physicalPages": [
+        8,
+        14
+      ],
+      "sha256": "c693ed9b5ebdcf550045a9f99fc985b6e997f733771d9bf46c309539d48cd23c"
+    },
+    {
+      "id": "old-08",
+      "file": "materiali/lezioni/2025-2026/08-usability-testing-contesto-culturale.pdf",
+      "physicalPages": [
+        41,
+        84
+      ],
+      "sha256": "0aafcfaf2ad1cc5755444c08e81c214eb16a8af03ae731915f3ccd9942e9877a"
+    },
+    {
+      "id": "current-chapter",
+      "file": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+      "physicalPages": null,
+      "sha256": "b74cb5cbd25c386152d3eace74d612f347d39e0c7eb86fa0b722941f1711eb28"
+    }
+  ],
+  "bookStepPhysicalPages": {
+    "1": [
+      38
+    ],
+    "2": [
+      38,
+      39
+    ],
+    "3": [
+      39
+    ],
+    "4": [
+      39
+    ],
+    "5": [
+      39,
+      40
+    ],
+    "6": [
+      40
+    ],
+    "7": [
+      40
+    ],
+    "8": [
+      40,
+      41
+    ],
+    "9": [
+      41
+    ],
+    "10": [
+      41
+    ],
+    "11": [
+      41
+    ],
+    "12": [
+      41,
+      42
+    ],
+    "13": [
+      42
+    ],
+    "14": [
+      42
+    ]
+  },
+  "case": "Carlo, Giovanni e Viola: caso narrativo di Di Pascale. Documenti, prezzi, date ed episodi aggiunti sono simulati.",
+  "adaptations": [
+    "Ripresa della costruzione progressiva dei wireframe, senza presentare misure di griglia storiche come standard universali.",
+    "Fedeltà visiva e comportamento sono distinti; i nomi di strumenti storici non diventano prescrizioni attuali.",
+    "Nessuna numerosità fissa dei partecipanti viene generalizzata dal caso del libro."
+  ],
+  "web": [
+    {
+      "label": "Di Pascale, M. (2019). Manuale di sopravvivenza per UX designer. Hoepli.",
+      "url": "https://www.hoepli.it/libro/manuale-di-sopravvivenza-per-ux-designer/9788820389192.html",
+      "note": "Capitolo 3, “Il processo UX completo”: quattordici attività e caso di Carlo, Giovanni e Viola. Il percorso è un canovaccio adattabile."
+    },
+    {
+      "label": "GOV.UK Service Manual · Using in-depth interviews",
+      "url": "https://www.gov.uk/service-manual/user-research/using-in-depth-interviews",
+      "note": "Preparazione, domande aperte ed episodi concreti."
+    },
+    {
+      "label": "Dykes, T. (2025). Personas make users memorable. Nielsen Norman Group.",
+      "url": "https://www.nngroup.com/articles/persona/",
+      "note": "Profili fondati sulla ricerca e pertinenti al progetto."
+    },
+    {
+      "label": "Gibbons, S. (2018). Journey mapping 101. Nielsen Norman Group.",
+      "url": "https://www.nngroup.com/articles/journey-mapping-101/",
+      "note": "Attore, scenario, fasi e punti di contatto."
+    },
+    {
+      "label": "GOV.UK Service Manual · Using moderated usability testing",
+      "url": "https://www.gov.uk/service-manual/user-research/using-moderated-usability-testing",
+      "note": "Compiti realistici, sessione e osservazione."
+    },
+    {
+      "label": "W3C WAI · Involving users in evaluating web accessibility",
+      "url": "https://www.w3.org/WAI/test-evaluate/involving-users/",
+      "note": "Integrare la prova con le persone e la valutazione rispetto agli standard."
+    },
+    {
+      "label": "Gothelf, J. (2016). The Lean UX Canvas.",
+      "url": "https://jeffgothelf.com/blog/the-lean-ux-canvas/",
+      "note": "Problema, assunzioni, ipotesi ed esperimenti."
+    },
+    {
+      "label": "Dekker, J. (2019). Wireframing NS. Less is more, the art of leaving out.",
+      "url": "https://medium.com/@jolandatdekker/wireframing-ns-less-is-more-the-art-of-leaving-out-4077fd9174c0",
+      "note": "Wireframe della funzione preferiti: analisi di un’app esistente."
+    },
+    {
+      "label": "Sauers, E. (2022). A client guide to wireframes. JH Specialty.",
+      "url": "https://www.jhspecialty.com/blog/wireframes",
+      "note": "Confronto WCC Properties fra struttura e proposta visiva."
+    }
+  ],
+  "preparatoryStepSources": {
+    "1": [
+      {
+        "source": "old-04",
+        "physicalPages": [
+          7,
+          12
+        ]
+      },
+      {
+        "source": "booklet-2024",
+        "physicalPages": [
+          62
+        ]
+      }
+    ],
+    "2": [
+      {
+        "source": "old-04",
+        "physicalPages": [
+          13,
+          24
+        ]
+      },
+      {
+        "source": "booklet-2024",
+        "physicalPages": [
+          63,
+          64
+        ]
+      }
+    ],
+    "3": [
+      {
+        "source": "old-04",
+        "physicalPages": [
+          25,
+          33
+        ]
+      },
+      {
+        "source": "booklet-2024",
+        "physicalPages": [
+          65
+        ]
+      }
+    ],
+    "4": [
+      {
+        "source": "old-04",
+        "physicalPages": [
+          35,
+          38
+        ]
+      },
+      {
+        "source": "booklet-2024",
+        "physicalPages": [
+          66
+        ]
+      }
+    ],
+    "5": [
+      {
+        "source": "old-04",
+        "physicalPages": [
+          39,
+          49
+        ]
+      },
+      {
+        "source": "booklet-2024",
+        "physicalPages": [
+          67,
+          70
+        ]
+      }
+    ],
+    "6": [
+      {
+        "source": "old-04",
+        "physicalPages": [
+          50,
+          70
+        ]
+      },
+      {
+        "source": "booklet-2024",
+        "physicalPages": [
+          71,
+          74
+        ]
+      }
+    ],
+    "7": [
+      {
+        "source": "old-04",
+        "physicalPages": [
+          71,
+          74
+        ]
+      },
+      {
+        "source": "booklet-2024",
+        "physicalPages": [
+          75,
+          76
+        ]
+      }
+    ],
+    "8": [
+      {
+        "source": "old-04",
+        "physicalPages": [
+          75,
+          77
+        ]
+      },
+      {
+        "source": "booklet-2024",
+        "physicalPages": [
+          77
+        ]
+      }
+    ],
+    "9": [
+      {
+        "source": "old-05",
+        "physicalPages": [
+          7,
+          17
+        ]
+      },
+      {
+        "source": "booklet-2024",
+        "physicalPages": [
+          78,
+          79
+        ]
+      }
+    ],
+    "10": [
+      {
+        "source": "old-05",
+        "physicalPages": [
+          18,
+          30
+        ]
+      },
+      {
+        "source": "booklet-2024",
+        "physicalPages": [
+          80,
+          81
+        ]
+      }
+    ],
+    "11": [
+      {
+        "source": "old-06",
+        "physicalPages": [
+          8,
+          10
+        ]
+      },
+      {
+        "source": "booklet-2024",
+        "physicalPages": [
+          82,
+          83
+        ]
+      }
+    ],
+    "12": [
+      {
+        "source": "old-08",
+        "physicalPages": [
+          79,
+          84
+        ]
+      },
+      {
+        "source": "booklet-2024",
+        "physicalPages": [
+          84
+        ]
+      }
+    ],
+    "13": [
+      {
+        "source": "old-06",
+        "physicalPages": [
+          11,
+          14
+        ]
+      },
+      {
+        "source": "booklet-2024",
+        "physicalPages": [
+          85,
+          86
+        ]
+      }
+    ],
+    "14": [
+      {
+        "source": "old-08",
+        "physicalPages": [
+          70,
+          84
+        ]
+      },
+      {
+        "source": "booklet-2024",
+        "physicalPages": [
+          87
+        ]
+      }
+    ]
+  },
+  "extension": {
+    "requestedAt": "2026-10-29",
+    "originalPlan": "progetti/slide/assets/booklet/lezione-processo-ux-ui/revisioni/prima-estensione.json",
+    "additionalSlides": 20,
+    "visibleAttribution": "Omettere nome dell’autore e richiami al manuale nelle slide; conservare la provenienza locale."
+  },
+  "contentSources": [
+    {
+      "id": "research-analysis",
+      "url": "https://www.gov.uk/service-manual/user-research/analyse-a-research-session",
+      "title": "Analyse a research session",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "user-stories",
+      "url": "https://www.gov.uk/service-manual/agile-delivery/writing-user-stories",
+      "title": "Writing user stories",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "research-plan",
+      "url": "https://www.gov.uk/service-manual/user-research/plan-user-research-for-your-service",
+      "title": "Plan user research for your service",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "service-metrics",
+      "url": "https://www.gov.uk/service-manual/measuring-success/how-to-set-performance-metrics-for-your-service",
+      "title": "How to set performance metrics for your service",
+      "checkedAt": "2026-10-29"
+    }
+  ]
+}

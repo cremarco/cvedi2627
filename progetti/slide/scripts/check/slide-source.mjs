@@ -9,6 +9,7 @@ import { checkPublication } from './publication.mjs'
 import { checkExerciseSources } from './exercise-sources.mjs'
 import { checkGridsSources } from './grids-source.mjs'
 import { checkCompositionSources } from './composition-source.mjs'
+import { checkUxProcessSources } from './processo-ux-ui-source.mjs'
 
 const root = fileURLToPath(new URL('../../../..', import.meta.url))
 
@@ -65,10 +66,12 @@ export async function checkSlideSources() {
   const addedGridsSlides = gridsReport.slides
   const compositionReport = await checkCompositionSources(deck)
   const addedCompositionSlides = compositionReport.slides
+  const processReport = await checkUxProcessSources(deck)
+  const addedProcessSlides = processReport.slides
   const addedOpeningSlides = 1
   const course = deck.slides.filter(slide => !slide.frontmatter.lesson)
 
-  const summaryLessonIds = ['presentazione-corso', 'introduzione', 'storia-design', ...curriculum.lessons.map(spec => spec.id), 'griglie-layout', 'composizione-gerarchia']
+  const summaryLessonIds = ['presentazione-corso', 'introduzione', 'storia-design', ...curriculum.lessons.map(spec => spec.id), 'griglie-layout', 'composizione-gerarchia', 'processo-ux-ui']
   const summaries = deck.slides.filter(slide => slide.frontmatter.layout === 'summary')
   assert.equal(summaries.length, summaryLessonIds.length, 'one opening summary for each numbered lesson and the supplementary grids set')
   for (const id of summaryLessonIds) {
@@ -81,7 +84,7 @@ export async function checkSlideSources() {
     assert.ok(summary.frontmatter.summarySupport?.trim(), id + ': summary support is present')
     assert.match(summary.content.trim(), /^# [^\n]+$/, id + ': summary content remains one Markdown heading')
   }
-  assert.equal(total, 221 + addedSlides + addedUxSlides + addedExerciseSlides + addedOpeningSlides + addedGridsSlides + addedCompositionSlides, 'resolved deck includes topics, UX lessons, supplementary grids, exercise index and imported exercises')
+  assert.equal(total, 221 + addedSlides + addedUxSlides + addedExerciseSlides + addedOpeningSlides + addedGridsSlides + addedCompositionSlides + addedProcessSlides, 'resolved deck includes topics, UX lessons, supplementary grids, exercise index and imported exercises')
   assert.equal(lesson.length, 83, 'introduction: 83 slides')
   const lessonMinutes = set => set.reduce((sum, slide) => sum + slide.frontmatter.lessonMinutes, 0)
   assert.ok(Math.abs(lessonMinutes(lesson) - 120) < 1e-6, 'introduction: 120 minutes')
@@ -117,7 +120,7 @@ export async function checkSlideSources() {
   assert.ok(Math.abs(lessonMinutes(history) - 120) < 1e-6, 'history: 120 minutes')
   assert.deepEqual(history.map(slide => slide.frontmatter.lessonSlide), Array.from({ length: history.length }, (_, i) => i + 1), 'history sequence')
   assert.equal(history[0].index, lesson.at(-1).index + 1, 'history immediately follows introduction')
-  assert.equal(history.at(-1).index, total - addedUxSlides - addedExerciseSlides - addedGridsSlides - addedCompositionSlides - 2, 'the preserved history chapter precedes the UX course, supplementary grids and exercises')
+  assert.equal(history.at(-1).index, total - addedUxSlides - addedExerciseSlides - addedGridsSlides - addedCompositionSlides - addedProcessSlides - 2, 'the preserved history chapter precedes the UX course, supplementary grids and exercises')
   assert.equal(history[0].frontmatter.routeAlias, 'storia-design', 'stable history alias')
   assert.equal(deck.slides.filter(slide => slide.frontmatter.routeAlias === 'storia-design').length, 1, 'unique history alias')
   assert.equal(history.filter(slide => slide.frontmatter.class.includes('lesson-activity')).length, 3, 'history: three classroom activities')
@@ -204,8 +207,8 @@ export async function checkSlideSources() {
   assert.equal(uxSource.fileKey, 'WLdDzbdqP3P5rpYbK1OxYC', 'new lessons use the requested Figma file')
   assert.equal(uxSource.pageId, '2008:1741', 'new lessons use the requested UX chapter')
   assert.deepEqual(uxSource.pages.map(page => page.ordinal), Array.from({ length: 260 }, (_, i) => i + 1), 'all 260 source pages are preserved')
-  const uxLessonNumbers = [...curriculum.lessons.map(lesson => lesson.number), deck.slides.find(slide => slide.frontmatter.lesson === 'griglie-layout')?.frontmatter.lessonNumber, deck.slides.find(slide => slide.frontmatter.lesson === 'composizione-gerarchia')?.frontmatter.lessonNumber].sort((a, b) => a - b)
-  assert.deepEqual(uxLessonNumbers, Array.from({ length: curriculum.lessons.length + 2 }, (_, index) => index + 4), 'UX lessons and grids retain consecutive numbers after history')
+  const uxLessonNumbers = [...curriculum.lessons.map(lesson => lesson.number), deck.slides.find(slide => slide.frontmatter.lesson === 'griglie-layout')?.frontmatter.lessonNumber, deck.slides.find(slide => slide.frontmatter.lesson === 'composizione-gerarchia')?.frontmatter.lessonNumber, deck.slides.find(slide => slide.frontmatter.lesson === 'processo-ux-ui')?.frontmatter.lessonNumber].sort((a, b) => a - b)
+  assert.deepEqual(uxLessonNumbers, Array.from({ length: curriculum.lessons.length + 3 }, (_, index) => index + 4), 'UX lessons and grids retain consecutive numbers after history')
   assert.deepEqual(curriculum.lessons.map(lesson => lesson.palette), ['green', 'emerald', 'teal', 'cyan', 'sky'], 'active UX curriculum preserves the palette sequence before lesson 09 Grids')
   const tokenSource = await readFile(path.join(root, 'risorse-condivise/stili/tokens.css'), 'utf8')
   const tokens = new Map([...tokenSource.matchAll(/--cvedi-([\w-]+):\s*([^;]+);/g)].map(([, name, value]) => [name, value]))
@@ -215,7 +218,7 @@ export async function checkSlideSources() {
   const setPalettes = [
     ['opening', 'indigo'], ['course', 'red'], ['introduction', 'orange'],
     ['brief', 'amber'], ['research', 'yellow'], ['history', 'lime'],
-    ['ux-grid', 'blue'], ['ux-composition', 'indigo'],
+    ['ux-grid', 'blue'], ['ux-composition', 'indigo'], ['ux-process', 'violet'],
     ...retainedLessons.map(lesson => [lesson.paletteAlias, lesson.palette]),
   ]
   const paletteRoles = { base: '800', canvas: '900', deep: '950', light: '100', surface: '50', accent: 'accent', 'accent-light': 'accent-light', 'accent-vivid': 'accent-vivid' }
@@ -625,6 +628,7 @@ export async function checkSlideSources() {
   const perceptionIcons = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/theme-imagegen/lesson-05-icons/manifest.json'), 'utf8'))
   const typographyIcons = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/theme-imagegen/lesson-08-cards/manifest.json'), 'utf8'))
   const gridsIcons = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/theme-imagegen/lesson-09-cards/manifest.json'), 'utf8'))
+  const processIcons = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/booklet/lezione-processo-ux-ui/image-manifest.json'), 'utf8')).objectiveArtwork
   const compositionIcons = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/theme-imagegen/lesson-10-cards/manifest.json'), 'utf8'))
   const paletteRefresh = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/theme-imagegen/card-palette-refresh/manifest.json'), 'utf8'))
   const refreshedCardFamilies = [
@@ -691,7 +695,7 @@ export async function checkSlideSources() {
   const activeOutline = outlineGenerations.jobs.filter(job => job.published)
   assert.equal(generations.jobs.length, generations.counts.images, 'complete shared illustration family')
   assert.equal(cardGenerations.jobs.length, cardGenerations.counts.images, 'complete selective card illustration family')
-  assert.equal(Object.keys(artwork.assets).length, cardGenerations.jobs.length + historyIcons.jobs.length + researchIcons.jobs.length + perceptionIcons.jobs.length + typographyIcons.jobs.length + gridsIcons.jobs.length + compositionIcons.jobs.length, 'only registered motifs populate the card catalog')
+  assert.equal(Object.keys(artwork.assets).length, cardGenerations.jobs.length + historyIcons.jobs.length + researchIcons.jobs.length + perceptionIcons.jobs.length + typographyIcons.jobs.length + gridsIcons.jobs.length + compositionIcons.jobs.length + processIcons.length, 'only registered motifs populate the card catalog')
   for (const generation of [...generations.jobs, ...cardGenerations.jobs, ...activeOutline, ...chapterGenerations.jobs, ...historyIcons.jobs]) {
     assert.equal(generation.status, 'complete', `generated asset ${generation.id}: selected`)
     assert.ok(generation.prompt.trim(), `generated asset ${generation.id}: prompt provenance`)
@@ -724,7 +728,7 @@ export async function checkSlideSources() {
     assert.ok(generation.publicationEncoding.pixelPreserved && generation.publicationEncoding.alphaPreserved, `outline illustration ${generation.id}: lossless publication`)
     assert.ok(generation.owners.length > 0, `outline illustration ${generation.id}: owning slide recorded`)
   }
-  const palette = { 'presentazione-corso': 'course', 'brief-progetto': 'brief', introduzione: 'introduction', 'storia-design': 'history', 'griglie-layout': 'griglie-layout', 'composizione-gerarchia': 'composizione-gerarchia', ...Object.fromEntries(curriculum.lessons.map(lesson => [lesson.id, lesson.id])) }
+  const palette = { 'presentazione-corso': 'course', 'brief-progetto': 'brief', introduzione: 'introduction', 'storia-design': 'history', 'griglie-layout': 'griglie-layout', 'composizione-gerarchia': 'composizione-gerarchia', 'processo-ux-ui': 'processo-ux-ui', ...Object.fromEntries(curriculum.lessons.map(lesson => [lesson.id, lesson.id])) }
   let illustratedCards = 0
   let directCards = 0
   let addedCards = 0
@@ -741,7 +745,7 @@ export async function checkSlideSources() {
       assert.ok(Object.hasOwn(artwork.mappings[family] ?? {}, title), `card ${card[1]}: explicit illustration decision`)
       assert.ok(id === null || (artwork.assets[id] && id.startsWith(`${family}-`)), `card ${card[1]}: intentionally plain or illustrated in the owning palette`)
       directCards++
-      if (uxLessonIds.has(slide.frontmatter.lesson) || ['storia-design', 'griglie-layout', 'composizione-gerarchia'].includes(slide.frontmatter.lesson)) addedCards++
+      if (uxLessonIds.has(slide.frontmatter.lesson) || ['storia-design', 'griglie-layout', 'composizione-gerarchia', 'processo-ux-ui'].includes(slide.frontmatter.lesson)) addedCards++
       if (id) illustratedCards++
       if (id && legacyCardRegistry.has(id)) {
         const owners = activeRefreshedCardOwners.get(id) ?? []
@@ -771,8 +775,8 @@ export async function checkSlideSources() {
   assert.equal(typographyCardUses, typographyIcons.jobs.reduce((sum, job) => sum + job.owners.length, 0), 'the requested typography card illustrations have their active owners')
   assert.equal(gridsCardUses, 3, 'all three grid objectives have their requested illustrations')
   assert.equal(gridsCardUses, gridsIcons.jobs.length, 'one original illustration per grid objective')
-  assert.equal(illustratedCards, cardGenerations.counts.directCardUses + historyIcons.counts.directCardUses + researchCardUses + perceptionCardUses + typographyCardUses + gridsCardUses + compositionIcons.jobs.length, 'selected direct cards have semantic motifs')
-  assert.ok(illustratedCards - researchCardUses - perceptionCardUses > 0 && illustratedCards - researchCardUses - perceptionCardUses < (directCards - researchCardUses - perceptionCardUses) / 4, 'illustrations in the other lessons remain selective')
+  assert.equal(illustratedCards, cardGenerations.counts.directCardUses + historyIcons.counts.directCardUses + researchCardUses + perceptionCardUses + typographyCardUses + gridsCardUses + compositionIcons.jobs.length + processIcons.length, 'selected direct cards have semantic motifs')
+  assert.ok(illustratedCards - researchCardUses - perceptionCardUses - processIcons.length > 0 && illustratedCards - researchCardUses - perceptionCardUses - processIcons.length < (directCards - researchCardUses - perceptionCardUses - processIcons.length) / 4, 'illustrations in the preserved lessons remain selective')
   assert.deepEqual([...refreshedCards.keys()].sort(), [...activeRefreshedCardOwners.keys()].sort(), 'palette refresh covers exactly the active card motifs in its lessons')
   const ownerKey = owner => JSON.stringify([owner.lesson, owner.slide, owner.title, normalizeTitle(owner.card)])
   for (const [id, owners] of activeRefreshedCardOwners)
@@ -800,7 +804,7 @@ export async function checkSlideSources() {
   const visibleHistory = visibleDeck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design')
   const publication = await checkPublication()
   const report = { slides: visibleDeck.slides.length, sourceSlides: total, course: course.length, introduction: lesson.length,
-    publication, exercises: exerciseReport, grids: gridsReport, composition: compositionReport,
+    publication, exercises: exerciseReport, grids: gridsReport, composition: compositionReport, uxProcess: processReport,
     history: visibleHistory.length, preservedHistory: history.length,
     lessonMinutes: [lesson, history].map(set => Math.round(lessonMinutes(set) * 1e6) / 1e6),
     publicImages: assets.size, uxExamples: uxExamples.length, bookletPages: booklet.pages.length,

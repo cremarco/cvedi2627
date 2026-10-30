@@ -1,0 +1,471 @@
+{
+  "version": 1,
+  "lesson": "processo-ux-ui",
+  "status": "Simulazione didattica: persone, episodi, indirizzi, disponibilità e prezzi sono usati come dati di progetto; nessuna ricerca reale è dichiarata.",
+  "service": {
+    "name": "Fisioterapia a domicilio",
+    "model": "Rete locale coordinata",
+    "coordinators": [
+      "Carlo",
+      "Giovanni"
+    ],
+    "person": "Viola",
+    "age": 35,
+    "provider": "Giulia Riva",
+    "address": "Via Esempio 12, Milano",
+    "date": "2026-11-17",
+    "dateLabel": "Martedì 17 novembre 2026",
+    "time": "20:30",
+    "alternativeTime": "21:15",
+    "durationMinutes": 45,
+    "totalEuros": 60,
+    "travelIncluded": true,
+    "confirmation": "La visita è confermata soltanto dopo l’accettazione del professionista."
+  },
+  "stages": [
+    {
+      "step": 1,
+      "slug": "brief",
+      "title": "Dal brief scegliamo una rete a domicilio",
+      "artifactId": "BRIEF-01",
+      "inputRef": "Richiesta iniziale",
+      "context": "Carlo e Giovanni partono da “un’app per fisioterapisti”. Viola cerca una visita dopo il lavoro.",
+      "decision": "Scegliamo una rete locale coordinata: i professionisti propongono gli orari e accettano le richieste; il gestore cura condizioni e assistenza.",
+      "artifactTitle": "Brief condiviso",
+      "rows": [
+        {
+          "label": "Ambito",
+          "text": "Ricerca e richiesta di visite a domicilio nelle zone dimostrative Centro e Nord."
+        },
+        {
+          "label": "Compito",
+          "text": "Viola deve trovare una visita dopo le 20, conoscere il totale e riconoscere l’esito."
+        },
+        {
+          "label": "Responsabilità",
+          "text": "Professionista: agenda e conferma. Gestore: rete, condizioni e assistenza."
+        },
+        {
+          "label": "Prima versione",
+          "text": "Richieste e visite gestibili; pagamento online e valutazioni cliniche restano fuori dal prototipo."
+        }
+      ],
+      "handoff": "Dal brief ricaviamo un compito e criteri osservabili per la prima prova."
+    },
+    {
+      "step": 2,
+      "slug": "business",
+      "title": "Il risultato è una richiesta comprensibile",
+      "artifactId": "OBJ-01",
+      "inputRef": "BRIEF-01",
+      "context": "Il servizio deve coordinare una richiesta serale compatibile, senza promettere una conferma immediata.",
+      "decision": "Valutiamo il completamento del compito e la comprensione. Non fissiamo percentuali di successo senza una situazione iniziale misurata.",
+      "artifactTitle": "Criteri della prova",
+      "rows": [
+        {
+          "label": "C1 · Compatibilità",
+          "text": "Trovare una proposta che raggiunga il domicilio dopo le 20."
+        },
+        {
+          "label": "C2 · Trasparenza",
+          "text": "Rileggere professionista, giorno, durata e totale prima di inviare."
+        },
+        {
+          "label": "C3 · Esito",
+          "text": "Distinguere richiesta inviata, attesa e visita confermata."
+        },
+        {
+          "label": "C4 · Recupero",
+          "text": "Scegliere un’alternativa senza reinserire i dati validi."
+        }
+      ],
+      "handoff": "Usiamo C1–C4 per confrontare le alternative allo stesso bisogno."
+    },
+    {
+      "step": 3,
+      "slug": "competitor",
+      "title": "Confrontiamo alternative sul compito di Viola",
+      "artifactId": "BENCH-01",
+      "inputRef": "OBJ-01",
+      "context": "Seguiamo lo stesso scenario in tre alternative ipotetiche. Il confronto serve a formulare domande, non a inventare risultati di mercato.",
+      "decision": "Portiamo copertura, orari e costo prima della scelta. Manteniamo un contatto di assistenza quando nessuna proposta è compatibile.",
+      "artifactTitle": "Benchmark didattico",
+      "rows": [
+        {
+          "label": "Telefono",
+          "text": "Può chiarire i vincoli; la persona deve attendere una risposta e ricordare gli accordi."
+        },
+        {
+          "label": "Sito dello studio",
+          "text": "Può spiegare il servizio; occorre verificare se copertura e agenda siano aggiornate."
+        },
+        {
+          "label": "Rete coordinata",
+          "text": "Può confrontare proposte; deve rendere espliciti compatibilità e tempi della conferma."
+        },
+        {
+          "label": "Scelta di progetto",
+          "text": "Cerchiamo prima per domicilio e fascia oraria, poi confrontiamo le proposte."
+        }
+      ],
+      "handoff": "Il confronto circoscrive l’ostacolo da indagare con la ricerca."
+    },
+    {
+      "step": 4,
+      "slug": "problema",
+      "title": "Rendiamo verificabile l’ostacolo di Viola",
+      "artifactId": "PROB-01",
+      "inputRef": "BENCH-01",
+      "context": "Non sappiamo ancora se il problema sia trovare un professionista o capire quando una visita sia davvero possibile.",
+      "decision": "Separiamo persona, contesto, ostacolo ipotizzato e conseguenza. La formulazione rimane aperta alla ricerca.",
+      "artifactTitle": "Problema di progetto v1",
+      "rows": [
+        {
+          "label": "Persona e contesto",
+          "text": "Viola, 35 anni, cerca una visita a casa dopo le 20."
+        },
+        {
+          "label": "Ostacolo ipotizzato",
+          "text": "Le proposte non rendono riconoscibili insieme domicilio, fascia serale e stato della richiesta."
+        },
+        {
+          "label": "Conseguenza possibile",
+          "text": "Viola ricomincia la ricerca, chiede assistenza oppure abbandona."
+        },
+        {
+          "label": "Domanda di ricerca",
+          "text": "Come verifica oggi copertura, orario e conferma prima di organizzarsi?"
+        }
+      ],
+      "handoff": "Prepariamo episodi e domande che possano smentire questa ipotesi."
+    },
+    {
+      "step": 5,
+      "slug": "ricerca",
+      "title": "Dagli appunti simulati a decisioni provvisorie",
+      "artifactId": "RIC-01",
+      "inputRef": "PROB-01",
+      "context": "Costruiamo un episodio di ricerca didattico. Le parole e i comportamenti seguenti sono inventati per mostrare il metodo.",
+      "decision": "Non trasformiamo una singola scena in una regola universale: separiamo traccia, interpretazione e informazione ancora da raccogliere.",
+      "artifactTitle": "Registro didattico RIC-A1",
+      "rows": [
+        {
+          "label": "Scena simulata",
+          "text": "Viola apre una scheda, cerca la zona servita e torna alla lista."
+        },
+        {
+          "label": "Parole simulate",
+          "text": "“Posso sceglierla per casa mia? E dopo le 20?”"
+        },
+        {
+          "label": "Interpretazione",
+          "text": "La compatibilità potrebbe essere più utile del solo nome del professionista."
+        },
+        {
+          "label": "Prossimo approfondimento",
+          "text": "Ricostruire una prenotazione recente e osservare come vengono verificati i vincoli."
+        }
+      ],
+      "handoff": "Trasformiamo le informazioni pertinenti nel profilo provvisorio di Viola."
+    },
+    {
+      "step": 6,
+      "slug": "personas",
+      "title": "Il profilo orienta le scelte del servizio",
+      "artifactId": "PERS-01",
+      "inputRef": "RIC-01",
+      "context": "Viola è una persona simulata: il suo obiettivo guida il caso, mentre i tratti non sostenuti da ricerca rimangono ipotesi.",
+      "decision": "Usiamo obiettivo, vincoli e informazioni necessarie. Non deduciamo capacità digitali o necessità di supporto dall’età.",
+      "artifactTitle": "Persona operativa · Viola",
+      "rows": [
+        {
+          "label": "Obiettivo",
+          "text": "Ricevere una visita di fisioterapia a domicilio dopo il lavoro."
+        },
+        {
+          "label": "Vincolo",
+          "text": "Deve sapere se zona e orario sono compatibili prima di organizzarsi."
+        },
+        {
+          "label": "Informazioni",
+          "text": "Professionista, domicilio, giorno, durata, totale e stato della richiesta."
+        },
+        {
+          "label": "Decisione conseguente",
+          "text": "Anticipare compatibilità e condizioni; conservare le scelte durante i recuperi."
+        }
+      ],
+      "handoff": "Il profilo diventa il riferimento del percorso e dei suoi rami alternativi."
+    },
+    {
+      "step": 7,
+      "slug": "journey",
+      "title": "Colleghiamo viaggio, schermate e risposta umana",
+      "artifactId": "FLOW-01",
+      "inputRef": "PERS-01",
+      "context": "Il viaggio comincia prima dell’interfaccia e termina quando Viola sa come gestire una visita confermata.",
+      "decision": "Distinguiamo la proposta del calendario dalla conferma del professionista. Ogni interruzione deve avere una via di uscita comprensibile.",
+      "artifactTitle": "Percorso P1",
+      "rows": [
+        {
+          "label": "Cercare e scegliere",
+          "text": "Domicilio e fascia serale → proposte compatibili → dettagli."
+        },
+        {
+          "label": "Richiedere",
+          "text": "Riepilogo → Invio della richiesta → stato In attesa."
+        },
+        {
+          "label": "Ricevere conferma",
+          "text": "Il professionista accetta → visita confermata in Le mie visite."
+        },
+        {
+          "label": "Recuperare e gestire",
+          "text": "Nessuna proposta, slot perso, modifica e annullamento con dati validi conservati."
+        }
+      ],
+      "handoff": "Ogni passaggio critico diventa un requisito verificabile."
+    },
+    {
+      "step": 8,
+      "slug": "brd",
+      "title": "Cinque requisiti rendono costruibile il percorso",
+      "artifactId": "REQ-01",
+      "inputRef": "FLOW-01",
+      "context": "Deriviamo i requisiti dal compito di Viola e dalle condizioni della rete. Ogni requisito avrà una prova di accettazione.",
+      "decision": "Per la prima versione privilegiamo compatibilità, trasparenza dell’esito e recupero; ogni aggiunta deve sostenere questi obiettivi.",
+      "artifactTitle": "Requisiti della prima versione",
+      "rows": [
+        {
+          "label": "R1 · Copertura",
+          "text": "Se la zona è fuori copertura, dichiararlo e offrire assistenza."
+        },
+        {
+          "label": "R2 · Fascia serale",
+          "text": "Con il filtro Dopo le 20 mostrare soltanto orari compatibili."
+        },
+        {
+          "label": "R3 · Riepilogo",
+          "text": "Prima dell’invio mostrare domicilio, giorno, ora, professionista, 45 minuti e 60 € totali."
+        },
+        {
+          "label": "R4 · Stato",
+          "text": "L’invio produce In attesa; la conferma arriva solo dopo l’accettazione del professionista."
+        },
+        {
+          "label": "R5 · Recupero",
+          "text": "Se uno slot non è più disponibile, conservare i dati validi e proporre alternative."
+        }
+      ],
+      "handoff": "Distribuiamo contenuti e funzioni necessari a soddisfare R1–R5."
+    },
+    {
+      "step": 9,
+      "slug": "architettura",
+      "title": "L’architettura segue ciò che Viola deve fare",
+      "artifactId": "IA-01",
+      "inputRef": "REQ-01",
+      "context": "Le etichette devono aiutare a cercare, richiedere e ritrovare un appuntamento. La struttura deriva dal percorso P1.",
+      "decision": "Distinguiamo le informazioni sul servizio dalle richieste e dalle visite. Le categorie restano da verificare con le persone.",
+      "artifactTitle": "Alberatura della rete",
+      "rows": [
+        {
+          "label": "Il servizio",
+          "text": "Come funziona · Zone servite · Costi e condizioni."
+        },
+        {
+          "label": "Trova una visita",
+          "text": "Ricerca → Proposte → Dettaglio → Riepilogo."
+        },
+        {
+          "label": "Le mie visite",
+          "text": "Richieste in attesa · Visite confermate · Modifica e annulla."
+        },
+        {
+          "label": "Assistenza",
+          "text": "Contatto e recupero quando non esiste una proposta compatibile."
+        }
+      ],
+      "handoff": "Usiamo questi gruppi per disegnare le schermate della versione V0."
+    },
+    {
+      "step": 10,
+      "slug": "wireframe",
+      "title": "V0 mette alla prova la prima struttura",
+      "artifactId": "WF-00",
+      "inputRef": "IA-01",
+      "context": "Disegniamo ricerca, lista e riepilogo con dati realistici. La bozza V0 permette di trovare i punti ancora deboli.",
+      "decision": "Conserviamo volontariamente un primo difetto: la lista privilegia il professionista e rimanda costo e compatibilità al dettaglio.",
+      "artifactTitle": "Wireframe V0",
+      "rows": [
+        {
+          "label": "Schermate",
+          "text": "Ricerca → Lista generica → Dettaglio → Riepilogo."
+        },
+        {
+          "label": "Dati comuni",
+          "text": "17 novembre 2026 · 20:30 · Giulia Riva · 45 minuti · 60 € totali, spostamento incluso."
+        },
+        {
+          "label": "Punto debole da esplorare",
+          "text": "Prima di aprire la scheda non si riconoscono insieme domicilio, sera e totale."
+        },
+        {
+          "label": "Domanda della prova",
+          "text": "Viola capisce quale proposta è compatibile senza ricominciare la ricerca?"
+        }
+      ],
+      "handoff": "Colleghiamo la bozza in un prototipo e mettiamo alla prova quel punto debole."
+    },
+    {
+      "step": 11,
+      "slug": "prototipo",
+      "title": "Proviamo V0 e registriamo l’ostacolo",
+      "artifactId": "PROVA-00",
+      "inputRef": "WF-00",
+      "context": "Rendiamo navigabile V0 e assegniamo il compito: trovare una visita a casa dopo le 20 e capire che cosa accade dopo l’invio.",
+      "decision": "L’episodio seguente è simulato: serve a collegare ciò che accade a una revisione, senza dichiarare una ricerca svolta.",
+      "artifactTitle": "Registro della prova simulata",
+      "rows": [
+        {
+          "label": "Compito",
+          "text": "Cercare una visita serale a domicilio e riconoscere il totale prima di inviare."
+        },
+        {
+          "label": "E1 · Episodio simulato",
+          "text": "Viola apre più schede per capire se il servizio raggiunge il suo domicilio."
+        },
+        {
+          "label": "Ipotesi da provare",
+          "text": "Anticipare zona, filtro serale e totale potrebbe ridurre i ritorni alla ricerca."
+        },
+        {
+          "label": "Limite",
+          "text": "Il prototipo simula disponibilità e risposta umana: non misura tempi o affidabilità reali."
+        }
+      ],
+      "handoff": "E1 avvia la revisione V0 → V1; la prova successiva controlla anche la promessa dell’azione."
+    },
+    {
+      "step": 12,
+      "slug": "iterazioni",
+      "title": "Due revisioni cambiano decisioni precise",
+      "artifactId": "ITER-02",
+      "inputRef": "PROVA-00",
+      "context": "Usiamo lo stesso compito per rendere confrontabili le versioni. Ogni nuova domanda nasce dal limite incontrato nella precedente.",
+      "decision": "V1 anticipa la compatibilità. V2 rende esplicito che inviare una richiesta non equivale a una visita già confermata.",
+      "artifactTitle": "Registro delle revisioni",
+      "rows": [
+        {
+          "label": "V0 → V1 · Compatibilità",
+          "text": "Zona e filtro Dopo le 20 prima dei risultati; durata e totale leggibili nella lista."
+        },
+        {
+          "label": "E2 · Episodio simulato",
+          "text": "Nella scena didattica Viola interpreta Prenota come conferma immediata."
+        },
+        {
+          "label": "V1 → V2 · Promessa",
+          "text": "Invia richiesta → In attesa → Visita confermata dal professionista."
+        },
+        {
+          "label": "Nuova prova",
+          "text": "Chiedere che cosa Viola pensa di aver ottenuto dopo ogni passaggio, senza suggerire la risposta."
+        }
+      ],
+      "handoff": "Portiamo la semantica di V2 nel sistema visivo, senza cambiare la promessa del servizio."
+    },
+    {
+      "step": 13,
+      "slug": "ui",
+      "title": "La UI dà forma alle regole di V2",
+      "artifactId": "UI-02",
+      "inputRef": "ITER-02",
+      "context": "La struttura adesso distingue compatibilità e stato. Applichiamo i concetti delle lezioni precedenti alla stessa proposta di servizio.",
+      "decision": "Griglia e vicinanza collegano dati e comandi; tipografia e colore distinguono ruoli. Lo stato rimane scritto anche senza colore.",
+      "artifactTitle": "Regole visive della versione V2",
+      "rows": [
+        {
+          "label": "Griglia e Gestalt",
+          "text": "Etichetta e valore vicini; riferimenti comuni per data, orario, durata e totale."
+        },
+        {
+          "label": "Tipografia",
+          "text": "Gerarchia costante fra titolo della visita, informazioni e azione successiva."
+        },
+        {
+          "label": "Colore e stato",
+          "text": "Violet per azione, Cedro per scelta; testo esplicito per attesa, conferma ed errore."
+        },
+        {
+          "label": "Componenti",
+          "text": "Ricerca, proposta, riepilogo e messaggio di stato condividono etichette e comportamento."
+        }
+      ],
+      "handoff": "La nuova verifica percorre il servizio anche quando uno slot scompare."
+    },
+    {
+      "step": 14,
+      "slug": "nuova-verifica",
+      "title": "V3 completa il recupero e la gestione",
+      "artifactId": "SERV-03",
+      "inputRef": "UI-02",
+      "context": "Una terza scena simulata introduce una variazione reale possibile: lo slot delle 20:30 scompare mentre Viola rilegge il riepilogo.",
+      "decision": "V3 conserva domicilio e criteri, propone le 21:15 allo stesso totale e rende gestibili richieste e visite. La qualità resta da verificare sul campo.",
+      "artifactTitle": "Proposta finale verificabile",
+      "rows": [
+        {
+          "label": "E3 · Slot non disponibile",
+          "text": "Il messaggio spiega il problema; la ricerca conserva i dati validi."
+        },
+        {
+          "label": "V2 → V3 · Recupero",
+          "text": "Ritorno alle alternative con 21:15 · 45 minuti · 60 € totali."
+        },
+        {
+          "label": "Gestione",
+          "text": "Attesa distinta dalla conferma; modifica e annullamento restano raggiungibili."
+        },
+        {
+          "label": "Verifica",
+          "text": "Ripercorrere R1–R5, tastiera, errori, nessuna proposta, conferma umana e ritorni."
+        }
+      ],
+      "handoff": "Consegniamo il percorso V3, le responsabilità del servizio e le questioni ancora da osservare."
+    }
+  ],
+  "iterations": [
+    {
+      "id": "E1",
+      "from": "v0",
+      "to": "v1",
+      "problem": "Compatibilità visibile solo nel dettaglio",
+      "change": "Anticipare zona, fascia serale e totale",
+      "proof": "Controllare C1 e C2 sul medesimo compito",
+      "simulated": true
+    },
+    {
+      "id": "E2",
+      "from": "v1",
+      "to": "v2",
+      "problem": "Prenota può promettere una conferma immediata",
+      "change": "Esplicitare invio, attesa e accettazione umana",
+      "proof": "Controllare C3 e R4 dopo ogni passaggio",
+      "simulated": true
+    },
+    {
+      "id": "E3",
+      "from": "v2",
+      "to": "v3",
+      "problem": "Slot perso durante il riepilogo",
+      "change": "Conservare i dati validi e offrire un’alternativa",
+      "proof": "Controllare C4 e R5; ripetere R1–R4",
+      "simulated": true
+    }
+  ],
+  "openQuestions": [
+    "Disponibilità reale della rete nelle fasce serali e tempi della risposta dei professionisti.",
+    "Condizioni effettive di modifica, annullamento, pagamento e rimborso da concordare con chi gestisce il servizio.",
+    "Comprensione e uso da osservare con persone e tecnologie assistive; nessun esito simulato dimostra l’efficacia sul campo."
+  ]
+}

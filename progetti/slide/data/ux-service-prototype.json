@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "simulation": "Simulazione didattica: dati, professionisti, copertura e disponibilità sono inventati. Nessuna richiesta viene inviata.",
+  "service": {
+    "name": "Fisioterapia a domicilio",
+    "person": "Viola",
+    "address": "Via Esempio 12, Milano",
+    "date": "2026-11-17",
+    "dateLabel": "Martedì 17 novembre 2026",
+    "shortDate": "Mar 17 novembre",
+    "time": "20:30",
+    "alternativeTime": "21:15",
+    "durationMinutes": 45,
+    "priceEuro": 60,
+    "priceLabel": "60 €",
+    "professional": "Giulia Riva",
+    "requestReference": "RIC-017",
+    "confirmationRule": "Una disponibilità è una proposta. La visita è confermata solo dopo l’accettazione del professionista.",
+    "zones": [
+      {
+        "value": "centro",
+        "label": "Zona Centro",
+        "covered": true
+      },
+      {
+        "value": "nord",
+        "label": "Zona Nord",
+        "covered": true
+      },
+      {
+        "value": "fuori",
+        "label": "Fuori copertura",
+        "covered": false
+      }
+    ],
+    "travelIncluded": true,
+    "coverageRule": "La copertura dipende soltanto dalla zona selezionata. Il domicilio non viene geocodificato.",
+    "rejectionRule": "Una richiesta non accettata conserva i criteri e permette di cercare alternative. Se modifica una visita, quella precedente resta confermata."
+  },
+  "versions": [
+    {
+      "id": "v0",
+      "title": "V0 · La prima bozza",
+      "change": "Una lista di professionisti lascia a Viola il confronto fra zona, orario e costo.",
+      "question": "Riesce a capire quali visite sono compatibili prima di aprirle?",
+      "limit": "Il costo arriva tardi; “Prenota” non chiarisce il risultato."
+    },
+    {
+      "id": "v1",
+      "title": "V1 · Prima la compatibilità",
+      "change": "Zona, fascia serale e costo totale diventano visibili prima della scelta.",
+      "question": "Il servizio distingue una richiesta ricevuta da una visita confermata?",
+      "limit": "V1 espone compatibilità e costo; l’esito resta da chiarire."
+    },
+    {
+      "id": "v2",
+      "title": "V2 · Stati comprensibili",
+      "change": "“Invia richiesta”, attesa e conferma indicano tre momenti diversi del servizio.",
+      "question": "Che cosa succede se l’orario si perde o il programma cambia?",
+      "limit": "V2 esplicita invio, attesa e conferma; mancano recuperi e gestione."
+    },
+    {
+      "id": "v3",
+      "title": "V3 · Recuperi e gestione",
+      "change": "La ricerca conserva i dati. Una visita confermata si può modificare o annullare.",
+      "question": "Prova anche fuori copertura, nessun risultato e orario non più disponibile.",
+      "limit": "Proposta da verificare con persone, professionisti e condizioni reali."
+    }
+  ]
+}

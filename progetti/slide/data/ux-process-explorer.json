@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "lesson": "processo-ux-ui",
+  "phases": [
+    {
+      "id": "impostare",
+      "label": "Impostare",
+      "steps": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "comprendere",
+      "label": "Comprendere",
+      "steps": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "organizzare",
+      "label": "Organizzare",
+      "steps": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "strutturare",
+      "label": "Strutturare",
+      "steps": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "provare",
+      "label": "Provare e affinare",
+      "steps": [
+        11,
+        12,
+        13,
+        14
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "label": "Brief",
+      "title": "Intervista e brief",
+      "goal": "Chiarire la richiesta e il contesto del progetto.",
+      "activity": "Confrontare interlocutori, obiettivi e vincoli.",
+      "output": "Brief condiviso con responsabilità e domande aperte.",
+      "target": "processo-ux-ui-brief",
+      "relatedStep": 5,
+      "relatedLabel": "Verifica con la ricerca"
+    },
+    {
+      "number": 2,
+      "label": "Obiettivi",
+      "title": "Obiettivi di business",
+      "goal": "Definire il cambiamento atteso dal servizio.",
+      "activity": "Discutere fattibilità, misure e orizzonte temporale.",
+      "output": "Obiettivi osservabili e criteri per riesaminarli.",
+      "target": "processo-ux-ui-business",
+      "relatedStep": 1,
+      "relatedLabel": "Rivedi il brief"
+    },
+    {
+      "number": 3,
+      "label": "Competitor",
+      "title": "Analisi dei competitor",
+      "goal": "Comprendere le alternative allo stesso bisogno.",
+      "activity": "Seguire lo stesso compito nei diversi servizi.",
+      "output": "Confronto di opportunità, limiti e ipotesi.",
+      "target": "processo-ux-ui-competitor",
+      "relatedStep": 4,
+      "relatedLabel": "Riformula il problema"
+    },
+    {
+      "number": 4,
+      "label": "Problema",
+      "title": "Definizione del problema",
+      "goal": "Individuare chi incontra quale ostacolo.",
+      "activity": "Precisare contesto, difficoltà e conseguenze.",
+      "output": "Problema circoscritto da verificare con la ricerca.",
+      "target": "processo-ux-ui-problema",
+      "relatedStep": 5,
+      "relatedLabel": "Raccogli evidenze"
+    },
+    {
+      "number": 5,
+      "label": "Ricerca",
+      "title": "User research",
+      "goal": "Comprendere comportamenti e condizioni d’uso.",
+      "activity": "Raccogliere episodi, osservazioni e materiali.",
+      "output": "Evidenze e bisogni utili a rivedere le decisioni.",
+      "target": "processo-ux-ui-ricerca",
+      "relatedStep": 4,
+      "relatedLabel": "Rivedi il problema"
+    },
+    {
+      "number": 6,
+      "label": "Personas",
+      "title": "User personas",
+      "goal": "Rendere ricordabili bisogni e comportamenti.",
+      "activity": "Sintetizzare i profili a partire dalla ricerca.",
+      "output": "Personas pertinenti e ipotesi riconoscibili.",
+      "target": "processo-ux-ui-personas",
+      "relatedStep": 5,
+      "relatedLabel": "Ritorna alla ricerca"
+    },
+    {
+      "number": 7,
+      "label": "Journey e flow",
+      "title": "Customer journey e user flow",
+      "goal": "Collegare viaggio del servizio e azioni del compito.",
+      "activity": "Mappare canali, scelte, esiti e recuperi.",
+      "output": "Journey e flow con percorsi alternativi.",
+      "target": "processo-ux-ui-journey",
+      "relatedStep": 8,
+      "relatedLabel": "Rivedi i requisiti"
+    },
+    {
+      "number": 8,
+      "label": "Requisiti",
+      "title": "Documento dei requisiti",
+      "goal": "Condividere ciò che il prodotto deve permettere.",
+      "activity": "Precisare funzioni, condizioni e priorità.",
+      "output": "Requisiti con criteri di accettazione e vincoli.",
+      "target": "processo-ux-ui-brd",
+      "relatedStep": 7,
+      "relatedLabel": "Rivedi il percorso"
+    },
+    {
+      "number": 9,
+      "label": "Architettura",
+      "title": "Architettura dell’informazione",
+      "goal": "Organizzare contenuti e funzioni reperibili.",
+      "activity": "Definire gruppi, relazioni ed etichette.",
+      "output": "Alberatura da confrontare con i compiti.",
+      "target": "processo-ux-ui-architettura",
+      "relatedStep": 7,
+      "relatedLabel": "Controlla il compito"
+    },
+    {
+      "number": 10,
+      "label": "Wireframe",
+      "title": "Wireframing",
+      "goal": "Dare struttura alle schermate del percorso.",
+      "activity": "Disporre contenuti, comandi e stati essenziali.",
+      "output": "Wireframe con etichette e contenuti realistici.",
+      "target": "processo-ux-ui-wireframe",
+      "relatedStep": 9,
+      "relatedLabel": "Rivedi la struttura"
+    },
+    {
+      "number": 11,
+      "label": "Prototipo e test",
+      "title": "Prototipo e prima prova",
+      "goal": "Osservare come la persona affronta il compito.",
+      "activity": "Preparare la simulazione e condurre una prova.",
+      "output": "Episodi osservati, esiti e limiti del prototipo.",
+      "target": "processo-ux-ui-prototipo",
+      "relatedStep": 10,
+      "relatedLabel": "Rivedi i wireframe"
+    },
+    {
+      "number": 12,
+      "label": "Iterazioni",
+      "title": "Iterazioni sui prototipi",
+      "goal": "Decidere che cosa cambiare dopo la prova.",
+      "activity": "Collegare osservazione, ipotesi e revisione.",
+      "output": "Nuova versione e domanda da mettere alla prova.",
+      "target": "processo-ux-ui-iterazioni",
+      "relatedStep": 4,
+      "relatedLabel": "Rivedi il problema"
+    },
+    {
+      "number": 13,
+      "label": "UI e mockup",
+      "title": "UI e mockup",
+      "goal": "Rendere leggibili azioni, contenuti e identità.",
+      "activity": "Coordinare componenti, tipografia, colore e stati.",
+      "output": "Mockup coerenti con le condizioni del servizio.",
+      "target": "processo-ux-ui-ui",
+      "relatedStep": 11,
+      "relatedLabel": "Riprova il percorso"
+    },
+    {
+      "number": 14,
+      "label": "Nuova verifica",
+      "title": "Nuova verifica della soluzione",
+      "goal": "Verificare la versione che integra struttura e UI.",
+      "activity": "Riprovare compiti, esiti, recuperi e accessibilità.",
+      "output": "Problemi affrontati e questioni ancora aperte.",
+      "target": "processo-ux-ui-nuova-verifica",
+      "relatedStep": 4,
+      "relatedLabel": "Rivedi il problema"
+    }
+  ]
+}

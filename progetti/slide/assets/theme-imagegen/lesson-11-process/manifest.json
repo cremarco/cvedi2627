@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "lesson": "processo-ux-ui",
+  "date": "2026-10-29",
+  "styleReference": {
+    "file": "progetti/slide/assets/theme-imagegen/lesson-10-cards/originals/composizione-gerarchia-relazioni.png",
+    "sha256": "d37ce452aaf8eb4ddb8c87ca6eae591e68e8609b6e7d9b948e13b6721ea9a1ef"
+  },
+  "generationTool": "image_gen integrato",
+  "conversion": "cwebp -lossless -exact; dimensioni e alpha conservati",
+  "images": [
+    {
+      "code": "illustrazione-brief",
+      "slideSlug": "ux-ui",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-process/originals/illustrazione-brief.png",
+      "originalSha256": "b0b5b8ead4bdffbedde8fcd9bb2691e507eb6500f8a80e97709abe91bfd305bc",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-brief.webp",
+      "sha256": "cd84da16e0cbcf45930ec11f065719cc5373d1f48a3f3780c963b435393d43fb",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-process/prompts/illustrazione-brief.txt",
+      "promptSha256": "6c7c1a8400fff7fb7b7171839cf4b7f564db65aa27f3435c023f1a0ec53858d2",
+      "caption": "Un brief costruito attraverso il confronto.",
+      "alt": "Clipboard con appunti, due fumetti e una matita: la richiesta viene discussa e documentata.",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": true,
+      "originalSlideSlug": "brief"
+    },
+    {
+      "code": "illustrazione-ricerca",
+      "slideSlug": "domande",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-process/originals/illustrazione-ricerca.png",
+      "originalSha256": "d796942eb157798f0b965da22242b7e560f27e7f391b85cb0e69e430dd8c73ee",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-ricerca.webp",
+      "sha256": "85cd26fb15af249075494bf4d4d76c8d9190d2ae35a8b02a21d127da862f809c",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-process/prompts/illustrazione-ricerca.txt",
+      "promptSha256": "2652555059138dc75e1259ab9b86caf327c77f83b3e456fb7726adf3cc97c400",
+      "caption": "Ascoltare e documentare episodi concreti.",
+      "alt": "Due persone senza lineamenti si confrontano a un tavolo; una racconta e l’altra prende appunti.",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": true,
+      "originalSlideSlug": "ricerca"
+    },
+    {
+      "code": "illustrazione-requisiti",
+      "slideSlug": "consegna",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-process/originals/illustrazione-requisiti.png",
+      "originalSha256": "e2afe708e6803d780b9eeb66d6bf66646aee1eb194d26728bfca988246b18ec4",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-requisiti.webp",
+      "sha256": "6e50848606aff9d76b76d3efa8f5cef3b1e3b15bb4e9ac3c16aa58feb3ef74f6",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-process/prompts/illustrazione-requisiti.txt",
+      "promptSha256": "96465eefde73d915580f9d9536e9870c7fd63dad5b9751d71bea37916d144e68",
+      "caption": "Dalle osservazioni a requisiti da verificare.",
+      "alt": "Tre schede di osservazione affiancate a un documento con requisiti e segni di verifica.",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": true,
+      "originalSlideSlug": "brd"
+    },
+    {
+      "code": "illustrazione-wireframe",
+      "slideSlug": "contenuti-realistici",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-process/originals/illustrazione-wireframe.png",
+      "originalSha256": "75ce0eee19cfe806af78ca4d4669bda04166c1797a204fd9bff5a4b95f393233",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-wireframe.webp",
+      "sha256": "11e33f84bb3ee5d62d687b29b9e8f46b5345d9038c1c0da596f50eab9a5d85d3",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-process/prompts/illustrazione-wireframe.txt",
+      "promptSha256": "578038f74617045215a0d1c30140d6b6dad69c6b53e0bac81a1dacb57cd7747a",
+      "caption": "Esplorare struttura e azioni prima del dettaglio visivo.",
+      "alt": "Schermata essenziale, bozza su carta e matita mostrano aree, contenuti e comandi di un wireframe.",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": true,
+      "originalSlideSlug": "wireframe"
+    },
+    {
+      "code": "illustrazione-verifica",
+      "slideSlug": "servizio-reale",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-process/originals/illustrazione-verifica.png",
+      "originalSha256": "7508a16dbc95330aabc7dfdec6fcae748f4e0c5fe0e07f311a236407412d0ef4",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-process/web/illustrazione-verifica.webp",
+      "sha256": "2d0cc240a1d8de46dd52ca3e1ae03b9d4826eaafc5346ca283c80627c1d9f0fc",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-process/prompts/illustrazione-verifica.txt",
+      "promptSha256": "01fbebf3f2416e621398649d15d65c70a7f6f4dcd8fd0c5d3a8639aeea3b91aa",
+      "caption": "Osservare l’uso per preparare la prossima revisione.",
+      "alt": "Una persona usa un portatile mentre un’osservatrice prende appunti; una freccia collega prova e revisione.",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": true,
+      "originalSlideSlug": "nuova-verifica"
+    }
+  ]
+}

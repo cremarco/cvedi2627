@@ -23,7 +23,9 @@ export async function checkPublication() {
   const supplementalIds = [grids.lesson, 'composizione-gerarchia']
   const localExercises = exercises.exercises.filter(exercise => lessonDecks.find(deck => deck.id === exercise.id)?.localOnly)
   const publicExercises = exercises.exercises.filter(exercise => !localExercises.includes(exercise))
-  const localIds = new Set([...localUxIds, ...localExercises.map(exercise => exercise.id)])
+  const localTheoryIds = lessonDecks.filter(deck => deck.localOnly && !deck.id.startsWith('esercitazione-')).map(deck => deck.id)
+  const localIds = new Set(lessonDecks.filter(deck => deck.localOnly).map(deck => deck.id))
+  const process = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/booklet/lezione-processo-ux-ui/manifest.json'), 'utf8'))
   const options = { roots: [path.join(root, 'progetti/slide')], userRoot: path.join(root, 'progetti/slide'), allowedRoots: [root] }
   injectPreparserExtensionLoader(async (_roots, _headmatter, _file, mode) => publicationExtensions(mode))
   try {
@@ -48,7 +50,7 @@ export async function checkPublication() {
     }
     assert.equal(local.slides.filter(slide => slide.frontmatter.lesson === grids.lesson).length, grids.slideCount, 'supplementary grids count matches its independent current manifest')
     assert.ok(local.slides.filter(slide => slide.frontmatter.lesson === grids.lesson).every(slide => slide.frontmatter.localOnly !== true), 'all supplementary grids slides are published')
-    assert.equal(local.slides.length, 243 + declaredUxSlides + exercises.slideCount + grids.slideCount + 62, 'complete local deck includes the final invitation, preserved composition slides, index and exercises')
+    assert.equal(local.slides.length, 243 + declaredUxSlides + exercises.slideCount + grids.slideCount + 62 + process.slideCount, 'complete local deck includes the final invitation, preserved composition slides, index and exercises')
     assert.equal(published.slides.length, 845 + publicExercises.reduce((sum, exercise) => sum + exercise.slideCount, 0), 'published deck includes authorized exercise slides')
     for (const deck of [local, published]) {
       assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design').length, 67, 'lesson 03 is available locally and online')
@@ -70,6 +72,8 @@ export async function checkPublication() {
         assert.equal(slide.frontmatter.narrationAudio, compositionSelection.clips[slide.frontmatter.routeAlias]?.web, 'composition publishes precisely its selected recordings')
       assert.ok(!deck.slides.some(slide => slide.frontmatter.routeAlias === 'tipografia-griglie-tipo-prove-esplorative'), 'the removed booklet content is absent locally and online')
     }
+    assert.equal(local.slides.filter(slide => slide.frontmatter.lesson === process.lesson).length, process.slideCount, 'lesson 11 is complete locally')
+    assert.ok(!Object.hasOwn(published.markdownFiles, path.join(root, 'progetti/slide/lezioni/11-processo-ux-ui.md')), 'new lesson source is not imported by public builds')
     assert.ok(published.slides.every(slide => !localIds.has(slide.frontmatter.lesson)), 'local lessons are absent from routes and overview')
     assert.deepEqual(published.slides.map(slide => slide.title), local.slides.filter(slide => !localIds.has(slide.frontmatter.lesson)).map(slide => slide.title), 'published content order is preserved')
     const localIndex = local.slides.find(slide => slide.title === 'Indice delle lezioni').content
@@ -78,7 +82,7 @@ export async function checkPublication() {
     const supplementalTargets = ['brief-progetto', 'approfondimenti']
     const indexTargets = content => [...content.matchAll(/<SlideAction\s+to=["']([^"']+)["']/g)].map(match => match[1])
     const groupedPublicTargets = [...publicTargets.slice(0, 2), ...supplementalTargets, ...publicTargets.slice(2)]
-    assert.deepEqual(indexTargets(localIndex), [...groupedPublicTargets, ...supplementalIds, ...localUxIds], 'local lesson index keeps materials grouped and places lesson 09 after typography')
+    assert.deepEqual(indexTargets(localIndex), [...groupedPublicTargets, ...supplementalIds, ...localTheoryIds], 'local lesson index keeps materials grouped and places lesson 09 after typography')
     assert.deepEqual(indexTargets(publicIndex), [...groupedPublicTargets, ...supplementalIds], 'published index includes grids after typography in reading order')
     for (const content of [localIndex, publicIndex]) {
       const lessonTwo = content.match(/<div\s+class="join join-horizontal index-lesson-two"[^>]*>([\s\S]*?)<\/div>/)?.[1]
@@ -211,6 +215,11 @@ export async function checkPublishedBuild(directory) {
   }
   const lessonArtwork = JSON.parse(await readFile(path.join(root, 'progetti/slide/data/card-artwork-local.json'), 'utf8'))
   for (const [id, asset] of Object.entries(lessonArtwork.assets)) {
+    if (localAssetDirectories.some(directory => asset.startsWith('/' + directory + '/'))) {
+      assert.ok(!references.includes(asset), `${id}: unpublished lesson artwork stays out of public bundles`)
+      await assert.rejects(access(path.join(output, asset)), { code: 'ENOENT' })
+      continue
+    }
     assert.ok(references.includes(asset), `${id}: lesson card artwork is registered in the published bundle`)
     assert.deepEqual(await readFile(path.join(output, asset)), await readFile(path.join(root, 'progetti/slide/public', asset)), `${id}: lesson artwork preserves its source bytes`)
   }
