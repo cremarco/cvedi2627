@@ -460,6 +460,15 @@
         ],
         "createdAt": "2026-10-30T12:44:35.542Z",
         "reason": "Assistant triage: the static analyzer reports a black html background after loading the new design sidecar, but current browser computed styles for both html and body are rgb(255, 255, 255), with data-theme passo. This is the documented paper color, not design-system drift; exception limited to this literal and this HTML file."
+      },
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "progetti/slide/components/UxServicePrototype.vue"
+        ],
+        "createdAt": "2026-10-30T13:52:23.324Z",
+        "reason": "Agent verified: detector truncates the img tag at the greater-than sign inside the quoted Vue v-if expression. Bound src resolves to the two real Passo WebP portraits; both images decode at 640x800 in published V1, V2 and V3."
       }
     ]
   }
