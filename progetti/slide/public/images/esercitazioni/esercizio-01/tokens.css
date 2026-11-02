@@ -601,6 +601,15 @@
   --cvedi-ux-process-accent-light: var(--cvedi-violet-accent-light);
   --cvedi-ux-process-accent-vivid: var(--cvedi-violet-accent-vivid);
 
+  --cvedi-ux-usability-base: var(--cvedi-purple-800);
+  --cvedi-ux-usability-canvas: var(--cvedi-purple-900);
+  --cvedi-ux-usability-deep: var(--cvedi-purple-950);
+  --cvedi-ux-usability-light: var(--cvedi-purple-100);
+  --cvedi-ux-usability-surface: var(--cvedi-purple-50);
+  --cvedi-ux-usability-accent: var(--cvedi-purple-accent);
+  --cvedi-ux-usability-accent-light: var(--cvedi-purple-accent-light);
+  --cvedi-ux-usability-accent-vivid: var(--cvedi-purple-accent-vivid);
+
   --cvedi-ux-prototype-base: var(--cvedi-indigo-800);
   --cvedi-ux-prototype-canvas: var(--cvedi-indigo-900);
   --cvedi-ux-prototype-deep: var(--cvedi-indigo-950);

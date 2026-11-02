@@ -79,6 +79,10 @@ export const coverRoutes = {
     { route: 'M 1168 -32 V476 Q1168 508 1136 508 H992 Q976 508 964 520 L896 588 Q884 600 868 600 H-32', tone: 'track', stopProgress: 0.61875, duration: 720, delay: 10, reverse: true, stations: [{ x: 1168, y: 248, delay: 170, rotation: 90 }, { x: 640, y: 600, delay: 440 }, { x: 192, y: 600, delay: 690 }] },
     { route: 'M -32 636 H472 Q488 636 500 624 L548 576 Q560 564 576 564 H1016', tone: 'accent', duration: 550, delay: 120, stations: [] },
   ],
+  'ux-usability': [
+    { route: 'M -32 624 H344 Q360 624 372 612 L420 564 Q432 552 448 552 H1016 Q1048 552 1048 584 V616 Q1048 648 1080 648 H1160 Q1192 648 1192 616 V112', tone: 'track', stopProgress: 0.456379, duration: 730, delay: 0, stations: [{ x: 216, y: 624, delay: 160 }, { x: 784, y: 552, delay: 430 }, { x: 1192, y: 272, delay: 690, rotation: 90 }] },
+    { route: 'M -32 568 H280 Q296 568 308 580 L356 628 Q368 640 384 640 H824 Q840 640 852 628 L912 568 Q924 556 940 556 H1064', tone: 'accent', duration: 550, delay: 120, stations: [] },
+  ],
   closing: [
     { route: 'M -32 548 H528 Q544 548 556 560 L596 600 Q608 612 624 612 H1008 Q1024 612 1036 600 L1172 464 Q1184 452 1184 436 V248 Q1184 216 1216 216 H1312', tone: 'track', stopProgress: 0.53156, duration: 700, delay: 0, stations: [{ x: 352, y: 548, delay: 160 }, { x: 824, y: 612, delay: 400 }, { x: 1184, y: 336, delay: 670, rotation: 90 }] },
     { route: 'M 1312 576 H1096 Q1080 576 1068 588 L1016 640 Q1004 652 988 652 H624', tone: 'accent', duration: 540, delay: 160, stations: [] },

@@ -1,0 +1,208 @@
+{
+  "version": 1,
+  "lesson": "test-usabilita",
+  "verifiedOn": "2026-11-02",
+  "scope": "Quattro integrazioni richieste dopo il confronto con il Manuale di sopravvivenza per UX designer: componenti dell’usabilità, criteri di successo, preparazione e consenso, gravità dei problemi. SUS resta un approfondimento facoltativo, escluso dal percorso di due ore.",
+  "reading": {
+    "author": "Matteo di Pascale",
+    "year": 2019,
+    "title": "Manuale di sopravvivenza per UX designer. Guida pratica alla progettazione",
+    "publisher": "Hoepli",
+    "isbn": "978-88-203-9010-5",
+    "file": "/Users/marco/Downloads/Manuale_di_sopravvivenza_per_UX_designer_Pascale_Matteo_Di_z_lib.pdf",
+    "pagination": "Pagine fisiche del PDF fornito dall’utente; contenuti rielaborati e verificati sulle fonti primarie.",
+    "sha256": "e5a30bc514463f558a45b235f4f0bf614faf01bb8e253072a4853bed51e8ae10"
+  },
+  "editorialDecisions": [
+    "La memorabilità richiede una prova dopo un periodo di non utilizzo; il solo successo al primo tentativo non misura l’intera curva di apprendimento.",
+    "Il successo corrisponde a un risultato osservabile, non al solo clic su un pulsante. Comprensione dello stato e completamento dell’azione sono osservazioni distinte.",
+    "La scala di gravità 0–4 è distinta dalla graduatoria di priorità dei problemi presente nel materiale storico.",
+    "La preparazione comprende consenso informato, partecipazione volontaria e gestione di osservatori, registrazioni e dati, non la sola firma di una liberatoria.",
+    "Non si importano le semplificazioni del libro su test di preferenza e A/B test, percentuali garantite di problemi scoperti o equivalenza fra NPS e usabilità."
+  ],
+  "sources": [
+    {
+      "id": "nng-usability-components",
+      "label": "Nielsen · Usability 101",
+      "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/",
+      "description": "Cinque componenti dell’usabilità: apprendibilità, efficienza, memorabilità, errori e soddisfazione."
+    },
+    {
+      "id": "gds-usability-benchmarking",
+      "label": "GOV.UK · Usability benchmarking",
+      "url": "https://www.gov.uk/service-manual/measuring-success/usability-benchmarking-a-website-or-whole-service",
+      "description": "Compiti con esito riconoscibile; completamento, abbandono, falsa percezione di successo e misure dell’esperienza. Le indicazioni sul campione quantitativo non sono trasferite al test qualitativo."
+    },
+    {
+      "id": "gds-moderated-testing",
+      "label": "GOV.UK · Moderated usability testing",
+      "url": "https://www.gov.uk/service-manual/user-research/using-moderated-usability-testing",
+      "description": "Preparazione della prova, compiti realistici, dati dimostrativi e condizioni del test."
+    },
+    {
+      "id": "gds-informed-consent",
+      "label": "GOV.UK · Informed consent",
+      "url": "https://www.gov.uk/service-manual/user-research/getting-users-consent-for-research",
+      "description": "Informazione comprensibile, consenso volontario, osservatori, registrazioni, uso e conservazione dei dati. Riferimento metodologico, non modello legale italiano."
+    },
+    {
+      "id": "nng-severity",
+      "label": "Nielsen · Severity ratings",
+      "url": "https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/",
+      "description": "Scala 0–4 e valutazione di frequenza, impatto e persistenza dei problemi."
+    }
+  ],
+  "slides": [
+    {
+      "id": "componenti-usabilita",
+      "alias": "test-usabilita-componenti-usabilita",
+      "kind": "testing-table",
+      "afterSourcePage": 9,
+      "title": "Che cosa osserviamo nell’usabilità",
+      "minutes": 2,
+      "lead": "Nielsen distingue cinque componenti dell’esperienza d’uso.",
+      "columns": [
+        "Componente",
+        "Domanda da esplorare"
+      ],
+      "rows": [
+        [
+          "Apprendibilità",
+          "Al primo uso, quanto è facile svolgere i compiti di base?"
+        ],
+        [
+          "Efficienza",
+          "Dopo aver imparato, quanto tempo richiede il compito?"
+        ],
+        [
+          "Memorabilità",
+          "Dopo una pausa, quanto è facile riprendere l’uso?"
+        ],
+        [
+          "Errori",
+          "Quali errori avvengono e come si riesce a recuperare?"
+        ],
+        [
+          "Soddisfazione",
+          "Come valuta la persona la propria esperienza?"
+        ]
+      ],
+      "takeaway": "La memorabilità richiede una nuova prova dopo un periodo di non utilizzo.",
+      "readingPages": [
+        142,
+        143
+      ],
+      "sources": [
+        "nng-usability-components"
+      ]
+    },
+    {
+      "id": "preparazione-consenso",
+      "alias": "test-usabilita-preparazione-consenso",
+      "kind": "criteria",
+      "afterSourcePage": 67,
+      "title": "Preparare la sessione e il consenso",
+      "minutes": 3,
+      "lead": "Prima della sessione, verificare strumenti e condizioni della partecipazione.",
+      "panels": [
+        {
+          "title": "Provare il percorso",
+          "text": "Controllare prototipo, account di prova, dispositivi e registrazione. Chiarire i limiti della simulazione."
+        },
+        {
+          "title": "Informare la persona",
+          "text": "Spiegare scopo, durata e osservatori. Raccogliere il consenso; ricordare che si può interrompere la partecipazione."
+        },
+        {
+          "title": "Concordare l’uso dei dati",
+          "text": "Chiarire che cosa si registra, chi potrà accedervi e per quanto tempo. Raccogliere soltanto i dati necessari."
+        }
+      ],
+      "takeaway": "Caso Passo · Usare dati fittizi per la prenotazione, senza chiedere informazioni sanitarie reali.",
+      "question": "Si valuta il servizio: la persona non è sotto esame.",
+      "readingPages": [
+        145,
+        146
+      ],
+      "sources": [
+        "gds-moderated-testing",
+        "gds-informed-consent"
+      ]
+    },
+    {
+      "id": "criteri-successo",
+      "alias": "test-usabilita-criteri-successo",
+      "kind": "criteria",
+      "afterSourcePage": 74,
+      "title": "Definire prima il successo del compito",
+      "minutes": 3,
+      "lead": "Associare a ogni compito un risultato osservabile, prima di iniziare il test.",
+      "panels": [
+        {
+          "title": "Compito",
+          "text": "Caso Passo · Inviare una richiesta per una visita compatibile con orario, copertura e costo indicati nello scenario."
+        },
+        {
+          "title": "Criterio di successo",
+          "text": "La richiesta corretta è inviata. Osservare separatamente se la persona comprende che la visita attende conferma."
+        },
+        {
+          "title": "Esito osservato",
+          "text": "Annotare completamento autonomo, aiuti ricevuti, errori o abbandono. Il solo clic su «Invia» non dimostra il successo."
+        }
+      ],
+      "takeaway": "Tempi e giudizi di facilità completano l’osservazione: una persona può riuscire e trovare comunque il percorso difficile.",
+      "question": "Non suggerire il criterio indicando i pulsanti da premere nelle istruzioni.",
+      "readingPages": [
+        145,
+        148
+      ],
+      "sources": [
+        "gds-usability-benchmarking"
+      ]
+    },
+    {
+      "id": "gravita-problemi",
+      "alias": "test-usabilita-gravita-problemi",
+      "kind": "testing-table",
+      "afterSourcePage": 81,
+      "title": "Valutare la gravità dei problemi",
+      "minutes": 2,
+      "lead": "Considerare frequenza, impatto e persistenza del problema.",
+      "columns": [
+        "Gravità",
+        "Significato della valutazione"
+      ],
+      "rows": [
+        [
+          "0 · Nessun problema",
+          "Non si considera un problema di usabilità."
+        ],
+        [
+          "1 · Cosmetico",
+          "Correggere se rimane tempo disponibile."
+        ],
+        [
+          "2 · Minore",
+          "Correggere con bassa priorità."
+        ],
+        [
+          "3 · Maggiore",
+          "Correggere con alta priorità."
+        ],
+        [
+          "4 · Catastrofico",
+          "Correggere prima del rilascio del prodotto."
+        ]
+      ],
+      "takeaway": "La gravità 0–4 descrive il problema; la classifica da 1 a 10 ordina quali affrontare prima.",
+      "readingPages": [
+        143,
+        144
+      ],
+      "sources": [
+        "nng-severity"
+      ]
+    }
+  ]
+}

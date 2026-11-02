@@ -76,6 +76,28 @@
   gap: 40px;
 }
 .lesson-columns > div > :last-child { margin-bottom: 0; }
+/* Historical testing copy keeps the shared reading scale after reflow. */
+.test-usabilita-slide .test-import-copy > :last-child { margin-bottom: 0; }
+.slidev-layout.default.test-usabilita-slide .test-import-copy h2 {
+  margin: 0 0 16px;
+  font-size: var(--cvedi-type-lead);
+}
+.test-import-table .table { table-layout: fixed; width: 100%; }
+.slidev-layout.default .test-import-table .table :is(th, td) {
+  padding: 14px 16px;
+  color: var(--theme-body);
+  font-size: var(--cvedi-type-body);
+  line-height: 1.4;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  vertical-align: top;
+}
+.slidev-layout.default .test-import-table .table thead th { color: var(--section-primary); }
+.test-import-table .table :is(th, td):first-child { width: 26%; }
+.slidev-layout.default .test-method-table .table :is(th, td) { padding-block: 8px; }
+.slidev-layout.default.test-usabilita-slide .test-import-source { margin: 24px 0 0; }
+.test-usabilita-slide.test-import-illustrated .lesson-columns { min-height: 360px; }
+.test-usabilita-slide.test-import-illustrated .lesson-columns > .lesson-figure { height: 360px; }
 /* Native KaTeX keeps mathematical glyphs and accessible MathML together. */
 .slidev-layout.default .lesson-equation {
   margin-block: 20px;

@@ -26,6 +26,7 @@ export async function checkPublication() {
   const localTheoryIds = lessonDecks.filter(deck => deck.localOnly && !deck.id.startsWith('esercitazione-')).map(deck => deck.id)
   const localIds = new Set(lessonDecks.filter(deck => deck.localOnly).map(deck => deck.id))
   const process = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/booklet/lezione-processo-ux-ui/manifest.json'), 'utf8'))
+  const usability = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/lezione-test-usabilita/manifest.json'), 'utf8'))
   const options = { roots: [path.join(root, 'progetti/slide')], userRoot: path.join(root, 'progetti/slide'), allowedRoots: [root] }
   injectPreparserExtensionLoader(async (_roots, _headmatter, _file, mode) => publicationExtensions(mode))
   try {
@@ -50,7 +51,9 @@ export async function checkPublication() {
     }
     assert.equal(local.slides.filter(slide => slide.frontmatter.lesson === grids.lesson).length, grids.slideCount, 'supplementary grids count matches its independent current manifest')
     assert.ok(local.slides.filter(slide => slide.frontmatter.lesson === grids.lesson).every(slide => slide.frontmatter.localOnly !== true), 'all supplementary grids slides are published')
-    assert.equal(local.slides.length, 243 + declaredUxSlides + exercises.slideCount + grids.slideCount + 62 + process.slideCount, 'complete local deck includes the final invitation, preserved composition slides, index and exercises')
+    assert.equal(local.slides.length, 243 + declaredUxSlides + exercises.slideCount + grids.slideCount + 62 + process.slideCount + usability.slideCount, 'complete local deck includes the final invitation, preserved composition slides, index, exercises and historical testing import')
+    assert.equal(local.slides.filter(slide => slide.frontmatter.lesson === usability.lesson).length, usability.slideCount, 'historical testing import is complete locally')
+    assert.ok(!published.slides.some(slide => slide.frontmatter.lesson === usability.lesson), 'testing import stays out of public builds during review')
     assert.equal(published.slides.length, 845 + process.slideCount + publicExercises.reduce((sum, exercise) => sum + exercise.slideCount, 0), 'published deck includes authorized exercise slides')
     for (const deck of [local, published]) {
       assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design').length, 67, 'lesson 03 is available locally and online')

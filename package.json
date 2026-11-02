@@ -8,6 +8,8 @@
     "node": ">=22.12.0"
   },
   "scripts": {
+    "build:usability-slides": "node progetti/slide/scripts/build/test-usabilita-slides.mjs",
+    "check:usability": "node progetti/slide/scripts/check/test-usabilita.mjs",
     "elevenlabs:voices": "node --env-file=.env.local progetti/slide/scripts/elevenlabs-voices.mjs",
     "build:booklet": "node progetti/booklet/scripts/booklet.mjs build",
     "check:booklet": "node progetti/booklet/scripts/booklet.mjs check",

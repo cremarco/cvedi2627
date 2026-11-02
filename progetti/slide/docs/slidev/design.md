@@ -85,6 +85,7 @@ Ogni lezione possiede una sola identità cromatica. Il registro `utils/slide-set
 | 09 · continuazione | `ux-grid` | blue | Giallo limone |
 | 10 · continuazione | `ux-composition` | indigo | Lime |
 | 11 · continuazione | `ux-process` | violet | Cedro |
+| 12 · importazione locale | `ux-usability` | purple | Verde prato |
 
 Il brief usa amber e gli approfondimenti yellow: sono materiali raggruppati con l’introduzione e spiegano i passaggi intermedi della sequenza del menu.
 
@@ -266,3 +267,7 @@ La slide «V0 → V1 · Prima la compatibilità» confronta la stessa proposta n
 Le tavole di wireframe rappresentano la soluzione completa di Passo; WF-00 documenta invece la bozza V0, con costo e copertura ancora assenti dalla lista e comando «Prenota» da verificare. UI-02 mantiene lo stesso identificatore nel documento e nel passaggio successivo. La possibile smentita dell’ipotesi riguarda il mancato riconoscimento di copertura e orario effettivamente compatibili; l’indisponibilità reale non viene usata come prova del fallimento dell’interfaccia. Le attribuzioni visibili riguardano le figure attive; gli autori delle opere escluse restano negli archivi. I bordi dei controlli del prototipo sono distinti dai divisori decorativi e la perdita di uno slot segue professionista e orario selezionati.
 
 La sequenza dei wireframe della lezione 11 comprende sketch a mano, bassa fedeltà a blocchi segnaposto, media fedeltà con contenuti e mockup statici ad alta fedeltà. Ogni passaggio riprende le stesse otto schermate; quattro nuove tavole ImageGen mostrano rettangoli per i testi, riquadri con X per le immagini, campi vuoti e azioni essenziali. Il confronto del riepilogo presenta tutti e quattro i passaggi e usa lo zoom comune. Le definizioni di sketch, wireframe e mockup precedono gli esempi, in tre colonne del sistema esistente; una nota distingue la simulazione del prototipo dal dettaglio visivo. Originali, prompt, derivati e confronto precedente restano negli archivi della serie.
+
+## Applicazione alla lezione 12
+
+Su richiesta dell’utente, le diciotto figure didattiche di Test di usabilità sono ridisegnate nella palette purple/Verde prato, conservando i due ritratti documentari e tutti gli originali storici. Le sei tavole di Norman mantengono il confronto fra oggetto e interfaccia attraverso illustrazioni ImageGen essenziali. Gli otto esempi di Nielsen sono interfacce SVG con Nunito Sans, dichiarate come ricostruzioni didattiche; gli stati di errore conservano il rosso semantico. Il diagramma delle componenti e le tre figure dei ruoli condividono pittogrammi, gerarchia e tratti. Le quattro relazioni orientate fra facilitatore, compiti e partecipante restano esplicite e registrate nei dati. Le figure non hanno cornici esterne e usano `LessonFigure`, proporzioni originali, alternativa testuale e ingrandimento comune. Sorgenti modificabili, prompt, hash, attribuzioni e selezione delle figure sono separati in `assets/lezione-test-usabilita/ricostruite/`; le versioni web SVG conservano i contorni del font e le etichette semantiche.
