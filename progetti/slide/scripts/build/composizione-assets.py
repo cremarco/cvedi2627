@@ -41,7 +41,7 @@ def plain(text):
 
 def register(code, source, caption, rights, alt, origin=SOURCE, filename=None):
     source = Path(source)
-    target = OUT / (filename or (code + source.suffix))
+    target = OUT / (filename or (source.name if source.parent == OUT else code + source.suffix))
     if source.resolve() != target.resolve():
         shutil.copyfile(source, target)
     records[code] = dict(code=code, source=str(source.relative_to(ROOT)),
@@ -212,7 +212,7 @@ if overrides_file.exists():
         raise ValueError('Invalid composition figure overrides')
     for correction in overrides['figures']:
         code = correction['code']
-        previous = records[code].copy()
+        previous = correction.get('preservedOriginal', records[code].copy())
         source = ROOT / correction['source']
         native_source = ROOT / correction['nativeSource']
         subprocess.run([TYPST, 'compile', '--ignore-system-fonts', '--root', str(ROOT), '--font-path',
@@ -233,7 +233,7 @@ if lesson_figures_file.exists():
         raise ValueError('Invalid composition lesson figures')
     for figure in lesson_figures['images']:
         code = figure['code']
-        if code in records:
+        if code in records and records[code]['sourceSha256'] != sha(ROOT / figure['source']):
             raise ValueError('Lesson figure would replace a chapter figure: ' + code)
         register(code, ROOT / figure['source'], figure['caption'], figure['rights'], figure['alt'],
             origin=str(lesson_figures_file.relative_to(ROOT)),

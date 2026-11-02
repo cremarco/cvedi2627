@@ -1,13 +1,12 @@
 // Capitolo 08: prosa condivisa dal volume e dalla compilazione autonoma.
 #import "../template/layout.typ": booklet, chapter, website-note
 #import "../template/plan.typ": chapter-parameters
-#import "../template/exercises.typ": exercise
 #import "../template/figures.typ": image-figure, image-spread, keep-together
 #import "../template/editorial.typ": caption-content, panel-letter
 // Fonti Figma, materiali preparatori e originali sono registrati nel manifest.
 #import "../assets/diagrams/composition-examples.typ": (
   invitation-comparison, metaphor-comparison, visual-search, action-priorities,
-  balance-comparison)
+  balance-comparison, controlled-invitation-comparison)
 
 #let content = [
 == Dalle parti al messaggio
@@ -408,12 +407,12 @@ La regola dei terzi divide l’inquadratura in tre parti per ciascun asse, otten
 
 In fotografia, il rapporto fra soggetto e sfondo contribuisce a definirne il rilievo. La _looking room_ è lo spazio lasciato nella direzione dello sguardo o del movimento; la _headroom_ è l’intervallo fra la testa e il bordo superiore dell’inquadratura. Nel ritratto della @fig-comp-sguardo-direzione la posizione del soggetto e lo spazio davanti a esso rendono percepibile una direzione.
 
-#image-figure(path("/progetti/booklet/assets/figure-singole/composizione/sguardo-direzione.jpeg"),
-  [Spazio e direzione dello sguardo nel ritratto. Looking room indica lo spazio davanti al volto; l’etichetta headroom è collocata lateralmente, ma il termine indica lo spazio sopra la testa. Le annotazioni sono conservate nel documento.],
-  format: "una-colonna",
+#image-figure(path("/risorse-condivise/immagini/figure/composizione-slidev/sguardo-direzione.svg"),
+  [Looking room: spazio orizzontale davanti al volto. Headroom: distanza verticale fra la sommità della testa e il bordo superiore dell’inquadratura.],
+  format: "due-colonne",
   id: "fig-comp-sguardo-direzione",
-  rights: none,
-  alt: "Ritratto in bianco e nero di una persona di profilo rivolta verso una finestra a sinistra. Le linee indicano lo spazio davanti al volto; l’etichetta headroom è collocata lateralmente anziché sopra la testa.",
+  rights: [CVeDI, 2026. Ritratto generato con IA; annotazioni didattiche.],
+  alt: "Ritratto di profilo con testa intera. Una misura orizzontale indica lo spazio davanti al volto; una misura verticale indica lo spazio sopra i capelli.",
 )
 
 Nel layout web, un volto rivolto al testo può collegare figura e parole; orientarlo verso l’esterno cambia la relazione. Questa disposizione suggerisce un legame compositivo, mentre il percorso dello sguardo va verificato nella pagina completa.
@@ -768,51 +767,22 @@ Mentre la Z offre uno schema compositivo, la F descrive un andamento osservato i
 Non coincide con la lettura di ogni riga e non vale per tutte le pagine. Titoli descrittivi, informazioni anticipate e paragrafi riconoscibili aiutano a trovare ciò che serve senza affidarsi a un solo schema. La campagna Diesel (@fig-comp-diesel-contrasto e @fig-comp-diesel-seconda) permette di esercitare questa distinzione: possiamo descrivere il contrasto fra immagine e testo e discutere le priorità proposte, ma la composizione non documenta il percorso effettivo degli occhi e non è una prova sperimentale del pattern a F.
 
 #image-figure(path("/progetti/booklet/assets/figure-singole/composizione/diesel-prima.png"),
-  [Campagna Diesel: contrasto fra testo, immagine e sfondo nella composizione.],
+  [Campagna Diesel: una persona con la testa dentro una cassetta postale. Il testo giallo e la situazione rappresentata costruiscono insieme il messaggio.],
   format: "tutta-pagina",
   id: "fig-comp-diesel-contrasto",
   rights: [© Diesel.],
-  alt: "Campagna Diesel: contrasto fra testo, immagine e sfondo nella composizione.",
+  alt: "Campagna Diesel: una persona con la testa dentro una cassetta postale. Il testo giallo e la situazione rappresentata costruiscono insieme il messaggio.",
 )
 
 #image-figure(path("/progetti/booklet/assets/figure-singole/composizione/diesel-seconda.png"),
-  [Campagna Diesel: un altro esempio del contrasto fra testo, immagine e sfondo.],
+  [Campagna Diesel: una persona con un cono stradale sulla testa. Il testo rosso e la scena notturna mettono in relazione parole e immagine.],
   format: "tutta-pagina",
   id: "fig-comp-diesel-seconda",
   rights: [© Diesel.],
-  alt: "Campagna Diesel: un altro esempio del contrasto fra testo, immagine e sfondo.",
+  alt: "Campagna Diesel: una persona con un cono stradale sulla testa. Il testo rosso e la scena notturna mettono in relazione parole e immagine.",
 )
 
 F e Z possono suggerire domande sulla distribuzione delle informazioni e sulla direzione di lettura. Hanno però origini e ruoli differenti. Per una pagina concreta occorre verificare se il lettore trova il contenuto pertinente, anziché valutare quanto il suo percorso somigli a una lettera.
-
-=== Informazione durante il gioco
-
-Nei videogiochi la scena cambia durante la consultazione degli indicatori. Lo *heads-up display*, o *HUD*, presenta dati come salute, munizioni e orientamento. Il compito stabilisce quali informazioni servano in ciascun momento. La composizione deve renderle consultabili senza nascondere l’azione.
-
-_Celia Hodent_, descrivendo il lavoro su _Fortnite_, collega la visibilità delle informazioni alla possibilità di ridurre ciò che il giocatore deve ricordare @compHodent. Nella @fig-comp-hud-fortnite, relativa a una versione storica per PC, salute ed equipaggiamento occupano la fascia inferiore, mentre la mappa è in alto a destra. La zona centrale resta disponibile per l’azione e il mirino. Si può osservare questa distribuzione senza considerarla una soluzione valida per ogni gioco o per ogni dimensione di schermo.
-
-#image-figure(path("/progetti/booklet/assets/composition-materials/images/fortnite-hud.jpg"),
-  [_Fortnite_, HUD in una versione storica per PC. Salute, equipaggiamento e mappa occupano zone distinte attorno alla scena. I riquadri rossi e i numeri sono annotazioni già presenti nella riproduzione.],
-  format: "due-colonne",
-  id: "fig-comp-hud-fortnite",
-  rights: [© Epic Games.],
-  alt: "Schermata di Fortnite con mirino centrale, salute in basso, equipaggiamento a destra e mappa nell’angolo superiore destro; riquadri rossi numerati evidenziano gli elementi dell’HUD.",
-  height: 110mm,
-)
-
-Le informazioni possono anche appartenere al mondo rappresentato. La distinzione fra elementi *diegetici* e *non diegetici* riguarda questa appartenenza; un secondo criterio è la collocazione nello spazio del gioco o sul piano dello schermo. _Erik Fagerholt_ e _Magnus Lorentzon_ esaminano insieme questi criteri @compFagerholt: descrivere lo stato del personaggio non basta a rendere un indicatore parte del suo mondo.
-
-In _Dead Space_ (@fig-comp-dead-space), la salute è visibile dalla fascia luminosa sul dorso della tuta e le munizioni dal contatore presso l’arma. Integrare gli indicatori nella scena introduce vincoli di scala, contrasto e visibilità al cambiare dell’inquadratura e dell’illuminazione. La scelta va valutata rispetto al compito e al contesto: una UI interamente diegetica non garantisce, da sola, un’esperienza più immersiva @compFagerholt.
-
-#image-figure(path("/progetti/booklet/assets/composition-materials/images/dead-space.png"),
-  [_Dead Space_, 2008: la fascia luminosa sul dorso della tuta indica la salute; il contatore delle munizioni è associato all’arma.],
-  format: "una-colonna",
-  id: "fig-comp-dead-space",
-  rights: [© Electronic Arts.],
-  alt: "Isaac visto di spalle in Dead Space: una fascia luminosa segue il dorso della tuta e un contatore azzurro compare presso l’arma.",
-)
-
-Per verificare la gerarchia, si chiede di trovare salute, equipaggiamento o obiettivo mentre la scena cambia, osservando omissioni, errori e interferenze con l’azione. La prova precisa dispositivo e condizioni d’uso.
 
 == Leggere una composizione
 
@@ -888,37 +858,9 @@ Per coordinare gli strumenti esaminati serve una direzione da discutere rispetto
 
 Per il laboratorio di fotografia della @fig-comp-invito, «sperimentare con la luce» può diventare un’ipotesi di concept: fotografie che mettono a confronto luci e ombre, tagli che isolano un dettaglio e parole che invitano a osservare. Ogni scelta deve avere una ragione riconoscibile. Una campitura molto espressiva che rende illeggibile l’orario ostacolerebbe comunque la funzione dell’invito.
 
-=== Raccogliere e discutere una moodboard
-
-#block(breakable: false, above: 4pt, below: 10pt)[Per discutere l’idea guida attraverso esempi concreti, la _moodboard_ raccoglie riferimenti visivi: fotografie, colori, texture, forme e prove tipografiche @compYang.]
-
-#image-figure(path("/risorse-condivise/immagini/figure/composizione/moodboard-riferimenti.jpg"),
-  [Fotografie di ambienti, persone e dettagli accostate a una palette. Osservare come il giallo e i toni verde-azzurri ricorrano fra campioni e soggetti; la tavola propone una direzione visiva, senza definire una pagina.],
-  format: "una-colonna",
-  id: "fig-comp-moodboard-riferimenti",
-  rights: none,
-  alt: "Moodboard con sedute gialle, una persona, una pianta e campioni cromatici gialli e verde-azzurri.",
-)
-
-Le parole «luminoso» o «sperimentale» possono suggerire immagini diverse a persone diverse. La tavola permette di confrontare queste interpretazioni prima di definire la composizione delle pagine.
-
-#block(breakable: false, above: 10pt, below: 10pt)[La @fig-comp-moodboard-riferimenti raccoglie un’atmosfera attraverso fotografie e colori ricorrenti; la @fig-comp-moodboard-sistema precisa ipotesi su texture, tipografia e iconografia. Le didascalie indicano i dettagli da confrontare.]
-
-#image-figure(path("/risorse-condivise/immagini/figure/composizione/moodboard-sistema.jpg"),
-  [_Ecommerce Moodboard_, progetto CandleScience. Colore e texture, tipografia e iconografia affiancano fotografie di prodotti e materiali. Riproduzione parziale: il bordo inferiore interrompe i campioni tipografici. La tavola non documenta il layout finale del negozio.],
-  format: "una-colonna",
-  id: "fig-comp-moodboard-sistema",
-  rights: [Marchio CandleScience del rispettivo titolare.],
-  alt: "Tavola parziale CandleScience con fotografie, palette e sezioni di texture, tipografia e iconografia; i campioni tipografici proseguono oltre il bordo inferiore.",
-)
-
-#block(breakable: false, above: 10pt, below: 10pt)[Per rendere utile la raccolta si annota che cosa interessa di ogni riferimento: la luce di una fotografia, il rapporto fra pieni e vuoti, il dettaglio di una superficie. Si conservano autore e provenienza delle immagini.]
-
-#block(breakable: false, above: 10pt, below: 10pt)[Direzioni diverse si confrontano su tavole separate. La moodboard orienta le scelte; la disposizione dei contenuti e il funzionamento dei comandi richiedono ancora un layout e una verifica.]
-
 === Dai riferimenti alle decisioni
 
-La raccolta diventa operativa quando ciascun riferimento si collega a una scelta da provare. Una moodboard può orientare la direzione visiva e aiutare a discuterla nel gruppo di progetto @compYang; il layout deve poi dare forma a contenuti, gerarchie e azioni effettive. Per rendere esplicito questo passaggio, conviene annotare tre elementi:
+Un riferimento diventa operativo quando si collega a una scelta da provare. Una fotografia, un taglio o un contrasto possono suggerire una direzione; il layout deve dare forma a contenuti, gerarchie e azioni effettive. Per rendere esplicito questo passaggio, conviene annotare tre elementi:
 
 - *Riferimento.* Quale caratteristica interessa: un taglio fotografico, la distanza fra i blocchi, un contrasto o una texture?
 - *Scelta.* In quale parte della pagina sarà tradotta e quale ruolo avrà per il messaggio o il compito?
@@ -926,7 +868,7 @@ La raccolta diventa operativa quando ciascun riferimento si collega a una scelta
 
 Nel laboratorio di fotografia della @fig-comp-invito, il concept «sperimentare con la luce» può suggerire immagini con contrasti marcati. Una scelta concreta è riservare quei contrasti alla fotografia e dare al testo uno sfondo uniforme. La verifica riguarda la lettura di data, luogo e iscrizione. Un riferimento visivo diventa così un’ipotesi motivata, che può essere modificata quando rende più difficile trovare le informazioni necessarie.
 
-Questo registro aiuta anche a confrontare una prima proposta con il risultato successivo: permette di distinguere ciò che è stato mantenuto, ciò che è cambiato e il motivo della revisione. La somiglianza stilistica fra una tavola e una schermata, da sola, non documenta il processo attraverso il quale è stato progettato un prodotto.
+Questo registro aiuta anche a confrontare una prima proposta con il risultato successivo: permette di distinguere ciò che è stato mantenuto, ciò che è cambiato e il motivo della revisione. La somiglianza stilistica fra un riferimento e una schermata, da sola, non documenta il processo attraverso il quale è stato progettato un prodotto.
 
 === Costruire una variazione motivata
 
@@ -934,11 +876,31 @@ Questo registro aiuta anche a confrontare una prima proposta con il risultato su
 
 Se testo, immagini, colori e struttura variano tutti insieme, diventa più difficile comprendere quale scelta abbia prodotto un miglioramento o un problema.
 
+Nella @fig-comp-invito-variazione si sposta soltanto il gruppo del luogo, formato dal nome dello spazio e dall’indirizzo. Testi, dimensioni dei caratteri, colori e comando restano identici. Una separazione maggiore dall’orario dovrebbe rendere più distinguibili le informazioni su quando e dove partecipare: è un’ipotesi circoscritta da confrontare con una prova.
+
+#figure(block(width: 100%)[
+  #set text(size: 10pt, weight: 400, variations: (opsz: 18))
+  #set par(justify: false, leading: 2pt)
+  #controlled-invitation-comparison()
+], kind: image, placement: top, scope: "parent",
+  caption: caption-content([Confronto controllato: a. versione iniziale; b. gruppo del luogo spostato. Cambia soltanto la posizione verticale di Spazio Officina e indirizzo.], rights: [CVeDI, 2026. Esempio simulato.]),
+)#label("fig-comp-invito-variazione")
+
+
 Il confronto va fatto nella dimensione d’uso. Si controllano leggibilità dei dettagli, rapporto fra testo e immagine, presenza delle informazioni necessarie e comportamento quando il contenuto cresce. Una variante mobile può cambiare l’ordine dei blocchi e il taglio della fotografia, conservando significato e associazioni; una traduzione può allungare un comando. La coerenza riguarda le funzioni, anche quando la disposizione concreta si adatta.
 
 === Osservare la composizione sfocata
 
 Una prima verifica delle varianti riguarda il peso complessivo dei blocchi, prima di osservarne l’uso. Socchiudere gli occhi o applicare una lieve sfocatura gaussiana a una copia della schermata riduce i dettagli e permette di osservare masse, contrasti e raggruppamenti. Questo controllo, chiamato _squint test_, può far emergere un’immagine secondaria che prevale sul titolo o un comando che si confonde con lo sfondo @compGordonGerarchia. Nell’invito della @fig-comp-invito si può confrontare quali blocchi restano distinguibili nelle tre varianti, anche quando le parole diventano illeggibili.
+
+La @fig-comp-squint affianca una proposta dell’invito e la sua copia sfocata alla stessa scala. Le parole diventano meno riconoscibili e lasciano emergere masse e contrasti.
+
+#image-figure(path("/risorse-condivise/immagini/figure/composizione-slidev/squint.svg"),
+  [La stessa proposta integra e con sfocatura uniforme. Il confronto riguarda i pesi visivi; non misura comprensione, percorso degli occhi o facilità d’uso.],
+  format: "due-colonne", id: "fig-comp-squint",
+  rights: [CVeDI, 2026. Diagramma simulato.],
+  alt: "Due inviti alla stessa scala, uno leggibile e uno sfocato, per confrontare masse, contrasti e raggruppamenti.",
+)
 
 Si affiancano sempre originale e copia sfocata, mantenendo uguali dimensioni e intensità del filtro fra le varianti. Il controllo suggerisce quali rapporti rivedere; non misura la comprensione del messaggio, il percorso degli occhi o la possibilità di completare un’azione. Per verificarli occorre tornare al contenuto leggibile e alla prova con un compito.
 
@@ -950,14 +912,22 @@ Si osservano il primo elemento individuato, le esitazioni, le associazioni fra e
 
 Il percorso degli occhi può essere una delle informazioni disponibili, ma non dimostra da solo che il contenuto sia stato compreso. Allo stesso modo, una risposta corretta ottenuta con molte esitazioni segnala un problema diverso da un’azione rapida sul comando sbagliato. Le osservazioni vanno interpretate insieme al contesto e alla domanda della prova.
 
-#exercise(id: "composizione", title: [Esercizio di composizione])[
 
-Scegli un manifesto o una schermata. Scrivi quale messaggio o azione deve essere riconoscibile per prima e quali informazioni devono rimanere disponibili. Identifica poi i segnali esistenti: scala, contrasto, raggruppamenti, spazio, allineamento, immagini e convenzioni.
+=== Una proposta completa
 
-Produci una variazione motivata e affiancala alla versione iniziale. Spiega quale relazione dovrebbe emergere e quale elemento potrebbe attirare attenzione in modo concorrente. Se usi una metafora o un’icona, esplicita il significato previsto e il contesto necessario per comprenderlo. In un’interfaccia, distingui anche il riconoscimento del comando, la scelta e la sua attivazione.
+La @fig-comp-invito-finale riunisce le scelte in una proposta per il laboratorio di fotografia. Il contenuto mantiene giorno, orario, luogo, gratuità e iscrizione; l’immagine del prisma attraversato dalla luce sviluppa l’idea guida «sperimentare con la luce».
 
-Infine, formula una prova con un compito e confronta le risposte. Conserva anche le osservazioni che contraddicono l’ipotesi iniziale: possono indicare un segnale poco chiaro, una priorità diversa o un contenuto mancante. La revisione della composizione torna così al problema dal quale era partita: rendere riconoscibili le informazioni e le possibilità d’azione pertinenti.
-]
+#image-figure(path("/risorse-condivise/immagini/figure/composizione-slidev/invito-finale-93d85159d5ac.png"),
+  [Una proposta completa dell’invito. L’immagine sostiene l’idea guida; titolo, gruppi dei dati e iscrizione ricevono ruoli distinti attraverso scala, spazio e contrasto.],
+  format: "due-colonne", id: "fig-comp-invito-finale",
+  rights: [CVeDI, 2026. Invito simulato generato con IA.],
+  alt: "Invito al Laboratorio di fotografia: Sabato 14 novembre, dalle 10 alle 13, Spazio Officina, Via del Parco 8. Iscrizione gratuita e azione Iscriviti verde lime su fondo scuro, accanto a un prisma illuminato.",
+)
+
+Il titolo identifica l’attività; la frase più piccola precisa la direzione espressiva. Un allineamento comune collega le righe, mentre lo spazio separa il gruppo del giorno e dell’orario da quello del luogo e dell’indirizzo. I dati restano sulla zona scura e uniforme, lontano dalle parti più articolate della fotografia. Il verde lime distingue l’iscrizione; la gratuità resta vicina all’azione.
+
+Queste relazioni propongono delle priorità, senza imporre un percorso degli occhi. La verifica consiste nel riconoscere l’attività, trovare quando e dove si svolge e capire come iscriversi. Il comando rappresentato appartiene a un’immagine dimostrativa: un invito digitale funzionante richiederebbe un controllo accessibile e un collegamento effettivo. La composizione è una proposta da provare, non il risultato di una verifica già svolta.
+
 ]
 
 #show: booklet

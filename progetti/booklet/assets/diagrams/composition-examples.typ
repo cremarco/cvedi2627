@@ -110,3 +110,17 @@
       [*#panel-letter[a] · Enfasi concorrenti*#v(6pt)#appointment(competing: true)],
       [*#panel-letter[b] · Una priorità esplicita*#v(6pt)#appointment()])
   ]
+
+// Controlled comparison: only the vertical position of the place group changes.
+#let controlled-invitation(place-y) = demo-panel[
+  #box(width: 100%, height: 202pt)[
+    #place(top + left)[#text(size: 17pt, weight: 700)[Laboratorio#linebreak()di fotografia]]
+    #place(top + left, dy: 50pt)[*Sabato 14 novembre*#linebreak()Dalle 10 alle 13]
+    #place(top + left, dy: place-y)[Spazio Officina#linebreak()#text(size: 9pt)[Via del Parco 8]]
+    #place(top + left, dy: 146pt)[#text(size: 9pt)[Iscrizione gratuita]]
+    #place(top + left, dy: 172pt)[#demo-action([Iscriviti])]
+  ]
+]
+#let controlled-invitation-comparison() = grid(columns: (1fr, 1fr), gutter: 12pt,
+  [#panel-letter[a] · Versione iniziale#v(6pt)#controlled-invitation(83pt)],
+  [#panel-letter[b] · Gruppo del luogo spostato#v(6pt)#controlled-invitation(106pt)])

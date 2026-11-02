@@ -311,3 +311,8 @@ Il formato al vivo è riservato alle locandine, alle pubblicità e alle opere ar
 ## Processo UX e UI
 
 Il capitolo 09 segue le quattordici attività del capitolo 3 del *Manuale di sopravvivenza per UX designer* di Matteo di Pascale (2019). Il caso dei fisioterapisti collega brief, ricerca, mappe, requisiti, wireframe, prototipi, test e UI. Tre documenti recuperati e quattordici visuali native accompagnano esempi esplicitamente simulati; originali e provenienza restano in `assets/processo-ux-ui/manifest.json`. Otto pubblicazioni APA e i siti nelle note mantengono la separazione del sistema editoriale. Il target autonomo è `pnpm build:booklet --target processo-ux-ui`; l’ispezione usa `pnpm preview:booklet --target processo-ux-ui --pages …`.
+
+
+## Revisione del capitolo 08
+
+Il capitolo segue il perimetro corrente della lezione: sono esclusi HUD, Fortnite, Dead Space, le due tavole moodboard e l’esercizio finale. Headroom e looking room usano il ritratto corretto; Diesel descrive cassetta postale e cono stradale. Il caso dell’invito comprende variazione controllata nativa, confronto sfocato e proposta completa con immagine, didascalia e attribuzione IA su due colonne. I contenuti derivati dalla presentazione non hanno rimandi alle slide nel testo stampato. Il ritratto, lo squint test e l’invito finale usano i medesimi asset condivisi in `risorse-condivise/immagini/figure/composizione-slidev/`; le annotazioni e il confronto controllato conservano testi e geometrie native. I sorgenti precedenti e le fonti escluse restano in `assets/composizione-revisione/`. Il capitolo contiene 55 figure e 8 note; la selezione manuale dei capitoli in `main.typ` resta gestita dall’utente.

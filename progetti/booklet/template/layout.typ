@@ -5,7 +5,7 @@
 #import "geometry.typ": (ink, page-width, page-height, page-margins,
   column-gutter, folio-drop, body-bottom-margin, body-folio-drop)
 #import "editorial.typ": caption as draw-caption, caption-gap, arabic-folio
-#import "pages.typ": notes-pages, full-bleed-pages
+#import "pages.typ": notes-pages, full-bleed-pages, draft-watermark
 #import "bibliography.typ": bibliography-page
 #import "palette.typ": front-matter-accent, chapter-accent, chapter-color
 #import "exercises.typ": exercise-background, page-exercises, exercise-tints
@@ -68,7 +68,7 @@
   show strong: it => text(weight: 700, variations: (opsz: 14), it.body)
   set page(width: page-width, height: page-height, binding: left,
     margin: page-margins(), columns: 2, footer-descent: folio-drop,
-    footer: folio(), background: context {
+    footer: folio(), foreground: draft-watermark(), background: context {
       if here().page() not in full-bleed-pages() { exercise-background() }
     })
   set columns(gutter: column-gutter)

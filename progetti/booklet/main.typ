@@ -24,5 +24,5 @@
 // #include-chapter(5) // Colore e significato
 // #include-chapter(6) // Tipografia e lettura
 // #include-chapter(7) // Griglie e layout
-#include-chapter(8) // Composizione e gerarchia visiva
-// #include-chapter(9) // Processo UX e UI
+//#include-chapter(8) // Composizione e gerarchia visiva
+#include-chapter(9) // Processo UX e UI

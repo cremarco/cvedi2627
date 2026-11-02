@@ -3275,7 +3275,7 @@ La scelta responsabile unisce *evidenze e prove contestuali*. Si può offrire un
   ]
 ]
 
-I due campioni documentari permettono di osservare i caratteri citati.#compact-note([Dyslexie, PDF ufficiale2015. OpenDyslexic, file originali, versione e licenza.], ("https://dyslexiefont.com/wp-content/uploads/2024/04/adults-example-text-eng.pdf", "https://github.com/antijingoist/opendyslexic"))
+I due campioni documentari permettono di osservare i caratteri citati.#compact-note([Dyslexie, PDF ufficiale del 2015. OpenDyslexic, file originali, versione e licenza.], ("https://dyslexiefont.com/wp-content/uploads/2024/04/adults-example-text-eng.pdf", "https://github.com/antijingoist/opendyslexic"))
 
 === Quando il lettore cambia la composizione <sec-tipo-reflow>
 
