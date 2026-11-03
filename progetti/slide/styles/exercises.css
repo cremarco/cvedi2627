@@ -46,7 +46,6 @@
 .exercise-resources .link { color: var(--section-primary); }
 .slidev-layout.default .exercise-resource-hint { margin: 0; font-size: 18px; color: var(--theme-muted); }
 .slidev-layout.default .exercise-table :is(td, th) { padding: 12px 16px; font-size: 22px; white-space: pre-line; overflow-wrap: anywhere; }
-.slidev-layout.default.index-slide .index-grid .index-button.btn:disabled { opacity: 1; background: var(--index-color); color: var(--color-primary-content); cursor: not-allowed; }
 @media print {
   .exercise-native-hint { display: none; }
   .exercise-content .exercise-code { break-inside: avoid; }

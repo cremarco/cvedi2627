@@ -71,7 +71,7 @@ export async function checkSlideSources() {
   const addedProcessSlides = processReport.slides
   const usabilityReport = await checkUsabilitySources(deck)
   const addedUsabilitySlides = usabilityReport.slides
-  const addedOpeningSlides = 1
+  const addedOpeningSlides = 2
   const course = deck.slides.filter(slide => !slide.frontmatter.lesson)
 
   const summaryLessonIds = ['presentazione-corso', 'introduzione', 'storia-design', ...curriculum.lessons.map(spec => spec.id), 'griglie-layout', 'composizione-gerarchia', 'processo-ux-ui', 'test-usabilita']
@@ -116,10 +116,10 @@ export async function checkSlideSources() {
   assert.equal(visibleDeck.slides.length, total, 'active chapters include every declared lesson and exercise')
   assert.equal(visibleDeck.slides.at(-2).frontmatter.lesson, exercises.exercises.at(-1).id, 'the exercises lead to the original closing')
   assert.equal(course.length, 40, 'course presentation: 40 slides, including closing')
-  assert.equal(course[0].index, 7, 'course presentation starts after the seven opening slides')
+  assert.equal(course[0].index, 8, 'course presentation starts after the eight opening slides')
   assert.equal(course[0].frontmatter.routeAlias, 'presentazione-corso', 'course alias opens its first slide')
   assert.deepEqual(deck.slides.filter(slide => slide.frontmatter.lesson === 'apertura').map(slide => slide.index),
-    [0, 1, 2, 3, 4, 5, 6], 'opening: seven preliminary slides including the exercise index')
+    [0, 1, 2, 3, 4, 5, 6, 7], 'opening: eight preliminary slides including the second lesson index and exercise index')
   assert.ok(Math.abs(lessonMinutes(history) - 120) < 1e-6, 'history: 120 minutes')
   assert.deepEqual(history.map(slide => slide.frontmatter.lessonSlide), Array.from({ length: history.length }, (_, i) => i + 1), 'history sequence')
   assert.equal(history[0].index, lesson.at(-1).index + 1, 'history immediately follows introduction')
@@ -551,7 +551,7 @@ export async function checkSlideSources() {
   ]
   assert.equal(brief.length, 25, 'standalone project brief: twenty-five slides')
   assert.deepEqual(brief.map(slide => slide.frontmatter.lessonSlide), Array.from({ length: 25 }, (_, i) => i + 1), 'project brief lesson sequence')
-  assert.deepEqual(brief.map(slide => slide.index), Array.from({ length: 25 }, (_, i) => 46 + i), 'project brief: consecutive slides 47–71')
+  assert.deepEqual(brief.map(slide => slide.index), Array.from({ length: 25 }, (_, i) => 47 + i), 'project brief: consecutive slides 48–72')
   assert.deepEqual(brief.map(slide => slide.frontmatter.routeAlias), briefAliases, 'project brief: stable aliases in lesson order')
   assert.equal(deck.slides[brief[0].index - 1].title, 'Contatti', 'course contacts precede project brief')
   assert.equal(brief.at(-1).index + 1, approfondimenti[0].index, 'topic section immediately follows project brief')

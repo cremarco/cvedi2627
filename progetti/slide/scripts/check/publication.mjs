@@ -51,7 +51,7 @@ export async function checkPublication() {
     }
     assert.equal(local.slides.filter(slide => slide.frontmatter.lesson === grids.lesson).length, grids.slideCount, 'supplementary grids count matches its independent current manifest')
     assert.ok(local.slides.filter(slide => slide.frontmatter.lesson === grids.lesson).every(slide => slide.frontmatter.localOnly !== true), 'all supplementary grids slides are published')
-    assert.equal(local.slides.length, 243 + declaredUxSlides + exercises.slideCount + grids.slideCount + 62 + process.slideCount + usability.slideCount, 'complete local deck includes the final invitation, preserved composition slides, index, exercises and historical testing import')
+    assert.equal(local.slides.length, 244 + declaredUxSlides + exercises.slideCount + grids.slideCount + 62 + process.slideCount + usability.slideCount, 'complete local deck includes the final invitation, preserved composition slides, index, exercises and historical testing import')
     assert.equal(local.slides.filter(slide => slide.frontmatter.lesson === usability.lesson).length, usability.slideCount, 'historical testing import is complete locally')
     const publicUsability = published.slides.filter(slide => slide.frontmatter.lesson === usability.lesson)
     assert.equal(publicUsability.length, usability.slideCount, 'lesson 12 is complete online')
@@ -59,7 +59,7 @@ export async function checkPublication() {
     assert.ok(publicUsability.every(slide => !slide.frontmatter.narrationAudio && !slide.frontmatter.narrationCaptions), 'lesson 12 has no audio or captions online')
     assert.ok(publicUsability.every(slide => !/narration(?:Audio|Captions):/.test(slide.frontmatterRaw)), 'raw public metadata excludes private narration URLs')
     assert.equal(local.slides.filter(slide => slide.frontmatter.lesson === usability.lesson && slide.frontmatter.narrationAudio && slide.frontmatter.narrationCaptions).length, 110, 'lesson 12 keeps its 110 recordings and captions locally')
-    assert.equal(published.slides.length, 845 + process.slideCount + usability.slideCount + publicExercises.reduce((sum, exercise) => sum + exercise.slideCount, 0), 'published deck includes authorized exercise slides')
+    assert.equal(published.slides.length, 846 + process.slideCount + usability.slideCount + publicExercises.reduce((sum, exercise) => sum + exercise.slideCount, 0), 'published deck includes authorized exercise slides')
     for (const deck of [local, published]) {
       assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design').length, 67, 'lesson 03 is available locally and online')
       assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'storia-design'), 'lesson 03 retains its destination alias')
@@ -110,9 +110,14 @@ export async function checkPublication() {
     assert.ok(!publicIndex.includes('LocalOnly'), 'no local-only wrapper remains in the public lesson index')
     for (const deck of [local, published]) {
       const index = deck.slides.find(slide => slide.title === 'Indice delle esercitazioni')
-      assert.equal(index.index, 3, 'exercise index immediately follows the lesson index')
+      assert.equal(index.index, 4, 'exercise index immediately follows the two lesson index pages')
+      const continuation = deck.slides.find(slide => slide.frontmatter.routeAlias === 'indice-lezioni-2')
+      assert.equal(continuation.index, 3, 'second lesson index follows the existing index')
+      assert.equal(continuation.title, 'Indice delle lezioni')
+      assert.match(continuation.content, /<button\b[^>]*\bdisabled\b[^>]*aria-disabled="true"[^>]*>[\s\S]*?>13<\/span><span>UX e UI nei giochi<\/span><\/button>/, 'lesson 13 is natively disabled locally and online')
+      assert.doesNotMatch(continuation.content, /<SlideAction|href=|\bto=/, 'the future lesson has no active destination')
       assert.deepEqual(indexTargets(index.content), exercises.exercises.map(exercise => exercise.id), 'every exercise remains visible and ordered in both indexes')
-      assert.equal([...index.content.matchAll(/<SlideAction\b[^>]*\blocal-only\b/g)].length, localExercises.length, 'only unpublished exercise actions are disabled in production')
+      assert.equal([...index.content.matchAll(/<SlideAction\b[^>]*\bdisabled\b/g)].length, localExercises.length, 'only the first exercise action is available locally and online')
     }
     for (const exercise of exercises.exercises) {
       assert.equal(local.slides.filter(slide => slide.frontmatter.lesson === exercise.id).length, exercise.slideCount, 'local exercise count matches its preserved source mapping')

@@ -1,13 +1,16 @@
 <script setup lang="ts">
 import { useNav } from '@slidev/client'
-import { computed } from 'vue'
+import { computed, useId } from 'vue'
+import { calendarDates } from '../utils/calendar-dates.mjs'
 import { useSlideSet } from '../composables/use-slide-set'
 import { slideSet } from '../utils/slide-sets'
 import { deckForTarget, deckDirectory } from '../utils/lesson-decks.mjs'
 import HeroIcon from './HeroIcon.vue'
 
-const props = withDefaults(defineProps<{ to: string | number; showArrow?: boolean; localOnly?: boolean }>(), { showArrow: true, localOnly: false })
-const disabled = computed(() => props.localOnly && import.meta.env.PROD)
+const props = withDefaults(defineProps<{ to: string | number; showArrow?: boolean; localOnly?: boolean; disabled?: boolean; calendarDate?: boolean }>(), { showArrow: true, localOnly: false, disabled: false, calendarDate: false })
+const disabled = computed(() => props.disabled || (props.localOnly && import.meta.env.PROD))
+const dates = computed(() => props.calendarDate ? calendarDates(props.to) : [])
+const dateId = useId()
 const { go } = useNav()
 const { set, nav } = useSlideSet()
 const destinationDeck = computed(() => typeof props.to === 'string' ? deckForTarget(props.to) : undefined)
@@ -35,8 +38,9 @@ const actionStyle = computed(() => {
 </script>
 
 <template>
-  <component :is="destinationHref && !disabled ? 'a' : 'button'" :type="destinationHref && !disabled ? undefined : 'button'" :href="disabled ? undefined : destinationHref" :disabled="disabled || undefined" :aria-disabled="disabled || undefined" class="btn btn-outline slide-action" :style="actionStyle" @click="activate" @keydown.enter.stop @keydown.space.stop>
+  <component :is="destinationHref && !disabled ? 'a' : 'button'" :type="destinationHref && !disabled ? undefined : 'button'" :href="disabled ? undefined : destinationHref" :disabled="disabled || undefined" :aria-disabled="disabled || undefined" :data-calendar-date="dates.length ? '' : undefined" :aria-describedby="dates.length ? dateId : undefined" class="btn btn-outline slide-action" :style="actionStyle" @click="activate" @keydown.enter.stop @keydown.space.stop>
     <slot />
+    <small v-if="dates.length" :id="dateId" class="index-date"><template v-for="(date, index) in dates" :key="date.date"><span v-if="index" aria-hidden="true">{{ ' · ' }}</span><time :datetime="date.date" :aria-label="date.fullLabel">{{ date.label }}</time></template></small>
     <HeroIcon v-if="showArrow" name="arrow-right" stroke-width="1.8" />
   </component>
 </template>

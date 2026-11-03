@@ -133,6 +133,8 @@ Prima scegliere la composizione in funzione dell’esempio; poi verificare immag
 
 ## Elevation & Depth
 
+I pulsanti disattivati degli indici (esercitazioni 02–09 e lezione 13) conservano dimensioni, numeri e testi degli altri pulsanti, con fondo neutro `base-200`, testo attenuato, bordo `base-300` e nessuna ombra. Lo stato nativo `disabled` e `aria-disabled` impedisce attivazione e focus da tastiera in locale e online.
+
 Il fondo ordinario è piano. Card e pulsanti dell’indice usano l’ombra tenue condivisa `--theme-shadow` (0 8px 24px, inchiostro al 5%); il nastro ha la propria ombra contenuta. Le immagini e gli ingrandimenti restano senza cornici, ombre, angoli o supporti decorativi aggiunti.
 
 ## Shapes
@@ -303,3 +305,5 @@ La slide 42 «Test di usabilità» completa il divisorio della pagina 41 con tre
 Le 64 spiegazioni testuali della lezione Test di usabilità hanno un’immagine pertinente a destra, su richiesta dell’utente. Nelle 41 aggiunte che lo consentono, il testo originale rimane integralmente visibile nella colonna sinistra; le altre 23 usano una sintesi esplicita. Tutti i paragrafi originali e i copioni restano conservati con hash in `assets/lezione-test-usabilita/layout-illustrato.json`. Il corpo resta 23 px, il lead 27 px, le colonne distano 48 px e le immagini usano l’ingrandimento condiviso. Il registro riusa le figure didattiche pertinenti e 22 scene ImageGen purple/Verde prato, con originali, prompt e provenienza in `illustrazioni-testo/manifest.json`. Tabelle, indici, aperture, fonti e i contenuti delle registrazioni conservano il proprio ruolo.
 
 Le sette tabelle di Test di usabilità (slide 6, 49–53 e 103) riusano `LessonTable`, come le tabelle native della lezione 11: intestazioni nel colore primario con testo bianco, prima colonna tenue, corpo tabellare condiviso da 20 px e separatori sottili. `TestUsabilityTable` seleziona i dati per alias da `progetti/slide/data/test-usabilita-tables.json`, generati senza modificare intestazioni o celle originali; le larghezze sono 26/37/37 e 26/74. Intestazioni con scope, testo selezionabile, palette e resa in stampa restano quelli del componente comune.
+
+I pulsanti numerati degli indici mostrano in piccolo (16 px) le date del calendario ufficiale 2026/27, verificate il 3 novembre 2026. `data/calendar.json` conserva date ISO, argomenti e destinazioni, condivisi con `CourseCalendar`; `calendar-source.json` registra la fonte. I due incontri di Git sono mostrati insieme. Le lezioni Griglie (23 ottobre) e Composizione (27 ottobre), già indicate come remote nella fonte ufficiale, riportano «Da remoto» sia nel calendario delle slide sia nei pulsanti; `delivery: remote` ne conserva la modalità senza ricavarla dal testo. Le voci senza una corrispondenza esplicita, compresa la lezione 13, non ricevono date dedotte. Le esercitazioni 02–09 rimangono disattivate anche se mostrano la data prevista.

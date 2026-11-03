@@ -3,196 +3,329 @@
     {
       "date": "29 settembre, martedì",
       "type": "Annullata",
-      "time": "15:30–18:30"
+      "time": "15:30–18:30",
+      "isoDate": "2026-09-29"
     },
     {
       "date": "01 ottobre, giovedì",
       "type": "Annullata",
-      "time": "16:30–18:30"
+      "time": "16:30–18:30",
+      "isoDate": "2026-10-01"
     },
     {
       "date": "02 ottobre, venerdì",
       "type": "Lezione",
-      "time": "13:30–16:30"
+      "time": "13:30–16:30",
+      "isoDate": "2026-10-02",
+      "topic": "INTRODUZIONE AL CORSO",
+      "targets": [
+        "presentazione-corso"
+      ]
     },
     {
       "date": "06 ottobre, martedì",
       "type": "Lezione",
-      "time": "15:30–18:30"
+      "time": "15:30–18:30",
+      "isoDate": "2026-10-06",
+      "topic": "INTRODUZIONE ALLA UX e UI",
+      "targets": [
+        "introduzione-teorica"
+      ]
     },
     {
       "date": "08 ottobre, giovedì",
       "type": "Lezione",
-      "time": "16:30–18:30"
+      "time": "16:30–18:30",
+      "isoDate": "2026-10-08",
+      "topic": "STORIA DEL DESIGN",
+      "examples": "CAFFÈ TTC",
+      "targets": [
+        "storia-design"
+      ]
     },
     {
       "date": "09 ottobre, venerdì",
       "type": "Lezione",
-      "time": "13:30–16:30"
+      "time": "13:30–16:30",
+      "isoDate": "2026-10-09",
+      "topic": "RICERCA, UTENTI E CONTESTO",
+      "examples": "IL METEO",
+      "targets": [
+        "ricerca-inclusiva"
+      ]
     },
     {
       "date": "13 ottobre, martedì",
       "type": "Lezione",
-      "time": "15:30–18:30"
+      "time": "15:30–18:30",
+      "isoDate": "2026-10-13",
+      "topic": "ACCESSIBILITA' E DESIGN INCLUSIVO",
+      "targets": [
+        "percezione-gerarchia"
+      ]
     },
     {
       "date": "15 ottobre, giovedì",
       "type": "Lezione",
-      "time": "16:30–18:30"
+      "time": "16:30–18:30",
+      "isoDate": "2026-10-15",
+      "project": "GRUPPO E TEMA"
     },
     {
       "date": "16 ottobre, venerdì",
       "type": "Lezione",
-      "time": "13:30–16:30"
+      "time": "13:30–16:30",
+      "isoDate": "2026-10-16",
+      "topic": "TEORIA DELLA GESTALT APPLICATA AL WEB\nCOLORE: TEORIA, SIGNIFICATO E PALETTE",
+      "targets": [
+        "gestalt",
+        "colore"
+      ]
     },
     {
       "date": "20 ottobre, martedì",
       "type": "Lezione",
-      "time": "15:30–18:30"
+      "time": "15:30–18:30",
+      "isoDate": "2026-10-20",
+      "topic": "TIPOGRAFIA: LEGGIBILITÀ E GERARCHIE",
+      "examples": "IL METEO",
+      "targets": [
+        "tipografia-griglie"
+      ]
     },
     {
       "date": "22 ottobre, giovedì",
       "type": "Lezione",
-      "time": "16:30–18:30"
+      "time": "16:30–18:30",
+      "isoDate": "2026-10-22",
+      "project": "ESEMPI"
     },
     {
       "date": "23 ottobre, venerdì",
       "type": "Lezione",
-      "time": "13:30–16:30"
+      "time": "13:30–16:30",
+      "isoDate": "2026-10-23",
+      "topic": "GRIGLIE, RESPONSIVE E DESIGN SYSTEM (remoto)",
+      "targets": [
+        "griglie-layout"
+      ],
+      "delivery": "remote"
     },
     {
       "date": "27 ottobre, martedì",
       "type": "Lezione",
-      "time": "15:30–18:30"
+      "time": "15:30–18:30",
+      "isoDate": "2026-10-27",
+      "topic": "COMPOSIZIONE E GERARCHIA VISIVA (remoto)",
+      "targets": [
+        "composizione-gerarchia"
+      ],
+      "delivery": "remote"
     }
   ],
   "octoberNovember": [
     {
       "date": "29 ottobre, giovedì",
-      "type": "Lezione",
-      "time": "16:30–18:30"
+      "type": "Esercitazione",
+      "time": "16:30–18:30",
+      "isoDate": "2026-10-29",
+      "topic": "Ripasso HTML e CSS di base",
+      "targets": [
+        "esercitazione-01"
+      ]
     },
     {
       "date": "30 ottobre, venerdì",
       "type": "Lezione",
-      "time": "13:30–16:30"
+      "time": "13:30–16:30",
+      "isoDate": "2026-10-30",
+      "topic": "IL PROCESSO DI UX E UI",
+      "targets": [
+        "processo-ux-ui"
+      ]
     },
     {
       "date": "03 novembre, martedì",
-      "type": "Esercitazione",
-      "time": "15:30–18:30"
+      "type": "Lezione",
+      "time": "15:30–18:30",
+      "isoDate": "2026-11-03",
+      "topic": "EURISTICHE E TEST UTENTE",
+      "targets": [
+        "test-usabilita"
+      ]
     },
     {
       "date": "05 novembre, giovedì",
       "type": "Esercitazione",
-      "time": "16:30–18:30"
+      "time": "16:30–18:30",
+      "isoDate": "2026-11-05",
+      "topic": "Ripasso HTML e CSS avanzato",
+      "targets": [
+        "esercitazione-02"
+      ]
     },
     {
       "date": "06 novembre, venerdì",
-      "type": "Esercitazione",
-      "time": "13:30–16:30"
+      "type": "Annullata",
+      "time": "13:30–16:30",
+      "isoDate": "2026-11-06"
     },
     {
       "date": "10 novembre, martedì",
       "type": "Esercitazione",
-      "time": "15:30–18:30"
+      "time": "15:30–18:30",
+      "isoDate": "2026-11-10",
+      "topic": "Nuove proprietà CSS, Grid e Srcset",
+      "targets": [
+        "esercitazione-03"
+      ]
     },
     {
       "date": "12 novembre, giovedì",
       "type": "Esercitazione",
-      "time": "16:30–18:30"
+      "time": "16:30–18:30",
+      "isoDate": "2026-11-12",
+      "project": "CONCEPT E PERSONAS"
     },
     {
       "date": "13 novembre, venerdì",
       "type": "Esercitazione",
-      "time": "13:30–16:30"
+      "time": "13:30–16:30",
+      "isoDate": "2026-11-13",
+      "topic": "Interfacce responsive e approccio mobile-first",
+      "targets": [
+        "esercitazione-04"
+      ]
     },
     {
       "date": "17 novembre, martedì",
       "type": "Esercitazione",
-      "time": "15:30–18:30"
+      "time": "15:30–18:30",
+      "isoDate": "2026-11-17",
+      "topic": "Tailwind CSS: basi e layout",
+      "targets": [
+        "esercitazione-05"
+      ]
     },
     {
       "date": "19 novembre, giovedì",
       "type": "Esercitazione",
-      "time": "16:30–18:30"
+      "time": "16:30–18:30",
+      "isoDate": "2026-11-19",
+      "project": "WIREFRAME E USERFLOW"
     },
     {
       "date": "20 novembre, venerdì",
       "type": "Esercitazione",
-      "time": "13:30–16:30"
+      "time": "13:30–16:30",
+      "isoDate": "2026-11-20",
+      "topic": "DaisyUI: componenti per le interfacce",
+      "targets": [
+        "esercitazione-06"
+      ]
     },
     {
       "date": "24 novembre, martedì",
       "type": "Esercitazione",
-      "time": "15:30–18:30"
+      "time": "15:30–18:30",
+      "isoDate": "2026-11-24",
+      "topic": "Temi con Tailwind CSS e daisyUI",
+      "targets": [
+        "esercitazione-07"
+      ]
     },
     {
       "date": "26 novembre, giovedì",
-      "type": "Annullata",
-      "time": "16:30–18:30"
+      "type": "Esercitazione",
+      "time": "16:30–18:30",
+      "isoDate": "2026-11-26",
+      "project": "LOOK & FEEL"
     }
   ],
   "novemberJanuary": [
     {
       "date": "27 novembre, venerdì",
       "type": "Esercitazione",
-      "time": "13:30–16:30"
+      "time": "13:30–16:30",
+      "isoDate": "2026-11-27",
+      "topic": "Git",
+      "targets": [
+        "esercitazione-08"
+      ]
     },
     {
       "date": "01 dicembre, martedì",
       "type": "Esercitazione",
-      "time": "15:30–18:30"
+      "time": "15:30–18:30",
+      "isoDate": "2026-12-01",
+      "topic": "Git",
+      "targets": [
+        "esercitazione-08"
+      ]
     },
     {
       "date": "03 dicembre, giovedì",
       "type": "Annullata",
-      "time": "16:30–18:30"
+      "time": "16:30–18:30",
+      "isoDate": "2026-12-03"
     },
     {
       "date": "04 dicembre, venerdì",
       "type": "Esercitazione",
-      "time": "13:30–16:30"
+      "time": "13:30–16:30",
+      "isoDate": "2026-12-04",
+      "topic": "Javascript e Jquery",
+      "targets": [
+        "esercitazione-09"
+      ]
     },
     {
       "date": "10 dicembre, giovedì",
       "type": "Annullata",
-      "time": "16:30–18:30"
+      "time": "16:30–18:30",
+      "isoDate": "2026-12-10"
     },
     {
       "date": "11 dicembre, venerdì",
       "type": "Annullata",
-      "time": "13:30–16:30"
+      "time": "13:30–16:30",
+      "isoDate": "2026-12-11"
     },
     {
       "date": "15 dicembre, martedì",
       "type": "Annullata",
-      "time": "15:30–18:30"
+      "time": "15:30–18:30",
+      "isoDate": "2026-12-15"
     },
     {
       "date": "17 dicembre, giovedì",
       "type": "Annullata",
-      "time": "16:30–18:30"
+      "time": "16:30–18:30",
+      "isoDate": "2026-12-17"
     },
     {
       "date": "18 dicembre, venerdì",
       "type": "Annullata",
-      "time": "13:30–16:30"
+      "time": "13:30–16:30",
+      "isoDate": "2026-12-18"
     },
     {
       "date": "22 dicembre, martedì",
       "type": "Annullata",
-      "time": "15:30–18:30"
+      "time": "15:30–18:30",
+      "isoDate": "2026-12-22"
     },
     {
       "date": "07 gennaio, giovedì",
       "type": "Annullata",
-      "time": "15:30–18:30"
+      "time": "15:30–18:30",
+      "isoDate": "2027-01-07"
     },
     {
       "date": "08 gennaio, venerdì",
       "type": "Annullata",
-      "time": "13:30–16:30"
+      "time": "13:30–16:30",
+      "isoDate": "2027-01-08"
     }
   ]
 }
