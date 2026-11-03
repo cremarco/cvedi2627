@@ -22,21 +22,47 @@
     },
     {
       "id": "esempio-20",
-      "prompt": "Ricrea la tavola didattica di riferimento per le slide universitarie italiane CVeDI. Stile della presentazione: illustrazione editoriale vettoriale pulita, superfici piatte, linee sottili ed essenziali, leggibilità eccellente. Formato molto orizzontale 2.4:1, due metà equivalenti separate solo dallo spazio; nessun riquadro esterno, nessun bordo, nessuna testata, nessun titolo della slide, nessun logo o firma. Fondo uniforme #f8fafc. Palette esclusiva viola scuro #6e11b0, lavanda #f3e8ff, bianco, grigio antracite #0f172a, Verde prato vivo #12d217 usato come accento. Oggetto quotidiano grande a sinistra; interfaccia web esemplificativa a destra. Molto spazio negativo, proporzioni generose, stile coerente tra oggetto e interfaccia; niente fotografia, texture, 3D lucido, gradienti, ombre o effetti skeuomorfici. Mantieni il concetto e il soggetto della tavola di riferimento, ridisegnali da zero. Tutte le parole in italiano, tipografia sans arrotondata simile a Nunito Sans, testi grandi e nitidi. Non aggiungere spiegazioni o didascalie. Lascia libero l'angolo in basso a destra per il comando di ingrandimento della slide. MAPPING: a sinistra una placca bianca a sei interruttori, disposti su due righe di tre, e una mano stilizzata con dito indice che preme l'interruttore centrale della riga superiore, evidenziato in Verde prato. A destra un unico controllo numerico orizzontale: pulsante viola «−», campo bianco con numero «33», pulsante viola «+». Distanze uniformi e relazione spaziale chiarissima. Nessun altro testo.",
-      "providerFile": "/Users/marco/.codex/generated_images/01a19c8a-1701-7cf0-b37f-3e4ef368b645/exec-7814856a-be9a-412d-8b3c-e47e649cbb9a.png",
-      "reference": "progetti/slide/assets/lezione-test-usabilita/originali/esempio-20.png",
-      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-20.png",
+      "prompt": "Educational illustration for the existing CVeDI university Slidev lesson, matching the reference's flat clean outlined editorial style. Purple #6E11B0, very pale lavender #F3E8FF, grass green #12D217, white and dark slate #0F172A, uniform thin rounded outlines. Large clear Nunito Sans-like rounded sans text. Flat fills, no shadows, gradients, texture, grain, perspective UI, decorative frames, logos, slide title or watermark. Preserve the teaching concept but correct the specified ambiguity. All Italian text verbatim, only requested words. Large readable content with generous spacing. Do not fuse unrelated actions. Edit the reference to make the relationship BETWEEN CONTROL AND EFFECT explicit. Very wide landscape 2.4:1, uniform #F8FAFC background, no outer border. Two balanced halves. LEFT physical example: THREE simple wall light switches in ONE HORIZONTAL ROW, above them THREE corresponding ceiling-light bulb symbols also in one horizontal row, EXACTLY aligned in the same three columns. Only the MIDDLE switch is grass green and is pressed by a simple outlined hand, only the MIDDLE light bulb is lit grass green. A straight thin green vertical line links that middle switch to that middle bulb without crossing any other item. Outer switches and bulbs are inactive white/lavender, no glow effects. Keep all three switches and all three lamps visible. This explicitly shows that the middle switch controls the middle light. RIGHT digital example: large horizontal quantity control with purple minus button, white field '33', purple plus button. Above it only label 'Quantità'. Below it exact labels 'Diminuisce' under minus and 'Aumenta' under plus, in large dark slate type. Do not add extra numbering, arrows between halves, or headings. Leave lower right margin clear for shared slide zoom icon.",
+      "providerFile": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-bc162743-921e-424f-903b-3526b1f0eb8d.png",
+      "reference": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-20.png",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-20-v2.png",
       "tool": "image_gen",
-      "useCase": "style-transfer"
+      "useCase": "scientific-educational",
+      "promptFile": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/revisione-audit-prompts-finali.json",
+      "alt": "Tre interruttori allineati alle tre lampade corrispondenti: il comando centrale premuto accende la lampada centrale. A destra, meno e più diminuiscono o aumentano la quantità 33.",
+      "labels": [
+        "Quantità",
+        "33",
+        "Diminuisce",
+        "Aumenta"
+      ],
+      "archivedVersion": "progetti/slide/assets/lezione-test-usabilita/ricostruite/revisioni/esempio-20-v1.json",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Revisione richiesta dopo la verifica delle immagini: significato esplicito, testi grandi, confronto con il copione attivo."
+      }
     },
     {
       "id": "esempio-23",
-      "prompt": "Ricrea la tavola didattica di riferimento per le slide universitarie italiane CVeDI. Stile della presentazione: illustrazione editoriale vettoriale pulita, superfici piatte, linee sottili ed essenziali, leggibilità eccellente. Formato molto orizzontale 2.4:1, due metà equivalenti separate solo dallo spazio; nessun riquadro esterno, nessun bordo, nessuna testata, nessun titolo della slide, nessun logo o firma. Fondo uniforme #f8fafc. Palette esclusiva viola scuro #6e11b0, lavanda #f3e8ff, bianco, grigio antracite #0f172a, Verde prato vivo #12d217 usato come accento. Oggetto quotidiano grande a sinistra; interfaccia web esemplificativa a destra. Molto spazio negativo, proporzioni generose, stile coerente tra oggetto e interfaccia; niente fotografia, texture, 3D lucido, gradienti, ombre o effetti skeuomorfici. Mantieni il concetto e il soggetto della tavola di riferimento, ridisegnali da zero. Tutte le parole in italiano, tipografia sans arrotondata simile a Nunito Sans, testi grandi e nitidi. Non aggiungere spiegazioni o didascalie. Lascia libero l'angolo in basso a destra per il comando di ingrandimento della slide. VINCOLI: a sinistra un temperamatite metallico semplificato con una sola apertura circolare e una matita inserita nell'apertura, lama e vite riconoscibili in stile flat. Matita viola con piccola punta bianca. A destra un carosello orizzontale di ricette: due schede complete e l'inizio visibile della terza, per suggerire altro contenuto oltre il bordo. Ogni scheda ha un'illustrazione flat di insalata, senza fotografie. Etichette esatte sotto le prime due «Insalata di patate» e «Insalata di fave». La terza termina parzialmente tagliata al bordo destro, senza freccia inventata.",
-      "providerFile": "/Users/marco/.codex/generated_images/01a19c8a-1701-7cf0-b37f-3e4ef368b645/exec-b1f393ca-be99-4016-ab98-d942de968b78.png",
-      "reference": "progetti/slide/assets/lezione-test-usabilita/originali/esempio-23.png",
-      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-23.png",
+      "prompt": "Educational illustration for the existing CVeDI university Slidev lesson, matching the reference's flat clean outlined editorial style. Purple #6E11B0, very pale lavender #F3E8FF, grass green #12D217, white and dark slate #0F172A, uniform thin rounded outlines. Large clear Nunito Sans-like rounded sans text. Flat fills, no shadows, gradients, texture, grain, perspective UI, decorative frames, logos, slide title or watermark. Preserve the teaching concept but correct the specified ambiguity. All Italian text verbatim, only requested words. Large readable content with generous spacing. Do not fuse unrelated actions. Redesign the reference's right half: replace the recipe carousel with a REAL DIGITAL CONSTRAINT. Keep a recognizable pencil entering a simple single-hole pencil sharpener as the physical constraint on the LEFT. Very wide landscape 2.4:1 on uniform #F8FAFC, no outer border. RIGHT a large clean quantity selector, heading 'Quantità', helper text 'Minimo 1', a horizontal control with a visibly DISABLED minus button on the left (pale gray surface and darker gray minus), a white middle field with the value '1', and active purple plus button on the right with white '+'. Under the control exact explanatory line 'Il valore non può scendere sotto 1', split into two large lines if needed. No numbers other than these 1s, no recipes, no carousel, no hand operating the disabled minus. Both the pencil sharpener hole and the digital selector clearly constrain valid actions. The disabled button is an intentional example of unavailable action, all instructional text stays high contrast. Keep physical and digital example similar in visual weight.",
+      "providerFile": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-e5098ae5-517d-41d8-a92f-18cc45b5d183.png",
+      "reference": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-23.png",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-23-v2.png",
       "tool": "image_gen",
-      "useCase": "style-transfer"
+      "useCase": "scientific-educational",
+      "promptFile": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/revisione-audit-prompts-finali.json",
+      "alt": "Confronto fra un vincolo fisico, la matita inserita nel temperamatite, e un vincolo digitale: quantità minima 1 con pulsante meno disattivato.",
+      "labels": [
+        "Quantità",
+        "Minimo 1",
+        "1",
+        "Il valore non può scendere sotto 1"
+      ],
+      "archivedVersion": "progetti/slide/assets/lezione-test-usabilita/ricostruite/revisioni/esempio-23-v1.json",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Revisione richiesta dopo la verifica delle immagini: significato esplicito, testi grandi, confronto con il copione attivo."
+      }
     },
     {
       "id": "esempio-26",
@@ -55,6 +81,84 @@
       "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-28.png",
       "tool": "image_gen",
       "useCase": "style-transfer"
+    },
+    {
+      "id": "figura-31",
+      "prompt": "Use case: ui-mockup / scientific-educational. Edit target: the provided image, an Italian university slide illustration about visibility of system status. REDESIGN THE COMPOSITION substantially: the current image wrongly merges two unrelated UI examples into one window. Make the difference unmistakable while preserving both original examples and exact Italian content. Create one polished flat vector-style educational UI illustration, approximately 5:4 landscape, with TWO DISTINCT SEPARATE UI WINDOWS STACKED VERTICALLY and a generous transparent gap between them, no connecting arrows, no outer container. Both examples large and fully legible when the total illustration is displayed at 430 by 360 px. Use large Nunito Sans-like rounded sans-serif text. Background outside the two UI examples must remain actually transparent. Palette: purple #6E11B0, pale lavender #F3E8FF, white, dark slate #334155, dark green #166534 and very pale green #DCFCE7. No gradients, shadows, photography, 3D, textures, decorative objects, or slide title. TOP EXAMPLE: separate upload window with small bold purple section label 'IN CORSO', simple outlined document icon on the left, large heading 'Caricamento del file', filename 'presentazione.pdf', a wide horizontal progress bar filled to exactly 70 percent in purple with remaining 30 percent pale lavender. Under the bar, large '70%' at left and a clear outlined button 'Annulla' at right. White or very pale lavender surface, delicate purple outline, restrained rounded corners. BOTTOM EXAMPLE: entirely separate completed-action notification on pale green surface. Small bold dark green section label 'AZIONE CONCLUSA'. Clear large envelope icon with a check mark on the left; exact large heading 'Link di recupero inviato' on the right, split into two lines if necessary, followed by exact short next-step text 'Controlla la tua email'. Keep labels and all important text large, generous padding, no cropped edges. Green notification must not be inside or overlap the upload window: these are independent examples, NOT successive steps of the same file upload. No other text. No browser chrome, no title bar dots, no border around the whole illustration. Leave a small transparent margin at the lower right for the slide's zoom control.",
+      "refinementPrompt": "Edit this illustration only to clean its finish. Preserve ALL exact Italian text, the two independent stacked UI examples, layout, typography scale, document icon, envelope-check icon, purple 70% bar and Annulla button. Make every outer edge and rounded corner perfectly clean, geometric, and smooth like a professionally exported vector UI illustration. Remove ALL stray speckles, torn-looking edges, white flecks, paper grain, surface texture, mottling and noise. Make the top panel surface flat opaque white, the bottom panel flat opaque very pale green #DCFCE7, with no gradient and no texture. Keep linework crisp with consistent weights. Transparent background outside panels with zero isolated pixels or edge debris, generous clean transparent margin around both rectangles. Keep bottom panel completely within canvas. No other changes, no new text, no shadows.",
+      "promptFile": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/figura-31-prompts.json",
+      "providerFile": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-ebc2b737-b54a-4266-9c7d-ef7d1022a017.png",
+      "reference": "progetti/slide/assets/lezione-test-usabilita/ricostruite/figura-31.source.svg",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/figura-31-v2.png",
+      "tool": "image_gen",
+      "useCase": "ui-mockup",
+      "alt": "Due esempi distinti di feedback: caricamento di presentazione.pdf al 70% con comando Annulla; conferma separata del link di recupero inviato, con invito a controllare l’email. Ricostruzione didattica.",
+      "caption": "Ricostruzione didattica · due esempi indipendenti di feedback",
+      "archivedVersion": "progetti/slide/assets/lezione-test-usabilita/ricostruite/revisioni/figura-31-v1.json",
+      "labels": [
+        "IN CORSO",
+        "Caricamento del file",
+        "presentazione.pdf",
+        "70%",
+        "Annulla",
+        "AZIONE CONCLUSA",
+        "Link di recupero inviato",
+        "Controlla la tua email"
+      ],
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Due riquadri indipendenti, stato in corso e azione conclusa distinti da testo e colore. Copione originale conservato."
+      }
+    },
+    {
+      "id": "figura-33",
+      "prompt": "Use case: ui-mockup. Generate a BRAND NEW flat educational UI graphic from this blueprint, not a photo and not a screenshot. Landscape 3:2. Uniform solid light background #F8FAFC fills the entire canvas. No transparency, gradients, texture, haze, shadows or effects. Clean SVG-like geometric shapes, thin smooth dark slate outlines, purple #6E11B0 and pale green #DCFCE7. Large rounded sans type similar to Nunito Sans, all labels exactly as written. At top a very simple wide white inbox panel with small purple header 'Posta in arrivo'. One single large row: subject 'Prestito rinnovato' on left, outlined button 'Archivia' on right. In the whitespace below, one small purple downward arrow indicates result of action. Under it a separate wide pale green success notification: check icon and large text 'Messaggio archiviato', with a very clear large purple button 'Annulla' in the lower part. The same email is the subject of both states. Use only these five Italian strings, no avatar, no extra mail, no browser chrome. Typography large enough for every label to remain clear when whole drawing is shown at 480x320 pixels; prioritize Annulla. Panels contained within canvas with at least 5% padding, balanced negative space. Absolutely no surrounding colored backdrop or dark box; the background is uniformly #F8FAFC even between panels and around the arrow.",
+      "providerFile": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-91290275-8a35-444e-8922-12940d5b7735.png",
+      "reference": "progetti/slide/assets/lezione-test-usabilita/ricostruite/figura-33.source.svg",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/figura-33-v2.png",
+      "tool": "image_gen",
+      "useCase": "ui-mockup",
+      "promptFile": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/revisione-audit-prompts-finali.json",
+      "alt": "Una mail con oggetto Prestito rinnovato può essere archiviata. Una freccia conduce alla conferma Messaggio archiviato con il comando Annulla in evidenza. Ricostruzione didattica.",
+      "labels": [
+        "Posta in arrivo",
+        "Prestito rinnovato",
+        "Archivia",
+        "Messaggio archiviato",
+        "Annulla"
+      ],
+      "archivedVersion": "progetti/slide/assets/lezione-test-usabilita/ricostruite/revisioni/figura-33-v1.json",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Revisione richiesta dopo la verifica delle immagini: significato esplicito, testi grandi, confronto con il copione attivo."
+      },
+      "caption": "Ricostruzione didattica · annullare un’azione"
+    },
+    {
+      "id": "figura-39",
+      "prompt": "Use case: ui-mockup. Generate a BRAND NEW flat vector-style teaching UI graphic from this exact blueprint, no image editing. Landscape 8:5, around 1280x800. The entire background is perfectly uniform solid #F8FAFC, fully opaque, with no transparent regions, no texture, no haze, no gradients, no shadows, no speckles. Use crisp flat geometric UI shapes and large Nunito Sans-like rounded sans-serif text. The content is a contact form with TWO columns side by side to make error messages prominent at slide size. Across top: 'Informazioni di contatto' in purple #6E11B0. Left column: label 'Indirizzo email' in dark slate #0F172A; white input with thin dark red #B91C1C border and invalid value 'test@email'; beneath it one outlined warning triangle and EXACT dark red error 'Inserisci un indirizzo valido.' in two large lines, fully opaque and high contrast. Right column: label 'Telefono'; EMPTY white input with same dark red border; beneath it outlined warning triangle and EXACT dark red error 'Inserisci il numero di telefono.' in two large lines. Below both columns, one wide flat purple button with white label 'Continua'. Keep labels and error messages similar large size, around 60 px on a 1280px canvas, never tiny fine print; error text is the main teaching content. Respect generous padding, keep all shapes and text inside the image, use no other text, no actual website or medical information. Inputs completely opaque white. Clean rounded corners. Uniform #F8FAFC background must also be visible around all text and controls.",
+      "providerFile": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-5ca65264-fa0e-4901-96fc-78f77ed62d92.png",
+      "reference": "progetti/slide/assets/lezione-test-usabilita/ricostruite/figura-39.source.svg",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/figura-39-v2.png",
+      "tool": "image_gen",
+      "useCase": "ui-mockup",
+      "promptFile": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/revisione-audit-prompts-finali.json",
+      "alt": "Modulo a due colonne: email test@email non valida e telefono vuoto. Messaggi grandi accanto a icone di avviso indicano come correggere ciascun campo; il pulsante Continua chiude il modulo. Ricostruzione didattica.",
+      "labels": [
+        "Informazioni di contatto",
+        "Indirizzo email",
+        "test@email",
+        "Telefono",
+        "Inserisci un indirizzo valido.",
+        "Inserisci il numero di telefono.",
+        "Continua"
+      ],
+      "archivedVersion": "progetti/slide/assets/lezione-test-usabilita/ricostruite/revisioni/figura-39-v1.json",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Revisione richiesta dopo la verifica delle immagini: significato esplicito, testi grandi, confronto con il copione attivo."
+      },
+      "caption": "Ricostruzione didattica · recuperare dagli errori"
     }
   ]
 }

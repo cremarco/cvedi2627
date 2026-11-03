@@ -1,0 +1,79 @@
+WEBVTT
+
+1
+00:00:00.200 --> 00:00:03.860
+Un’euristica è una guida generale per
+valutare un problema.
+
+2
+00:00:03.860 --> 00:00:07.380
+Le euristiche di Nielsen raccolgono
+aspetti ricorrenti dell’interazione:
+
+3
+00:00:08.420 --> 00:00:12.960
+capire lo stato del sistema, trovare
+parole familiari, mantenere il controllo e
+
+4
+00:00:12.960 --> 00:00:14.140
+ridurre il lavoro evitabile.
+
+5
+00:00:15.400 --> 00:00:18.540
+Non ci dicono automaticamente come
+disegnare ogni schermata.
+
+6
+00:00:19.140 --> 00:00:21.840
+Per applicarle dobbiamo indicare un punto
+del progetto,
+
+7
+00:00:22.660 --> 00:00:25.800
+descrivere il possibile ostacolo e
+spiegare il rapporto con il criterio.
+
+8
+00:00:26.940 --> 00:00:29.580
+«Questa pagina è poco chiara» rimane
+troppo generico.
+
+9
+00:00:30.720 --> 00:00:35.180
+«Dopo l’invio non distingue richiesta
+ricevuta e visita confermata» è già
+
+10
+00:00:35.180 --> 00:00:37.480
+un’osservazione discutibile e
+verificabile.
+
+11
+00:00:38.260 --> 00:00:40.760
+Più criteri possono riguardare lo stesso
+episodio.
+
+12
+00:00:41.320 --> 00:00:45.420
+Una conferma ambigua coinvolge stato,
+linguaggio e modello del servizio.
+
+13
+00:00:46.520 --> 00:00:49.920
+Il nostro scopo è rendere esplicita la
+motivazione della valutazione.
+
+14
+00:00:50.980 --> 00:00:53.060
+L’ispezione produce criticità potenziali.
+
+15
+00:00:54.020 --> 00:00:58.880
+Il test ci permetterà di osservare quali
+si manifestano, come vengono affrontate e
+
+16
+00:00:58.880 --> 00:01:01.160
+quali altre difficoltà non avevamo
+previsto.

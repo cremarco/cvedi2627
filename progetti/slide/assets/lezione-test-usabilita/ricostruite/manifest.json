@@ -38,7 +38,7 @@
       "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-15.png",
       "originalSha256": "72c6d3264751d99f631be55a0bf1f4e25d893d7eb02cfeaf3b062505cdca7a65",
       "web": "/images/test-usabilita/ricostruite/esempio-15.webp",
-      "sha256": "ad5a0a95bc80222959a2533b4a228b574ecb490e8852d9546688bd79f128b9ed",
+      "sha256": "9edf29ad4a5c57cb65583b5e9a21abdee13bc472687db326d38b90377afc4f69",
       "webSize": [
         1942,
         809
@@ -56,7 +56,7 @@
       "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-18.png",
       "originalSha256": "80062597fa5ac5c9f74562011b04b130dccf815105172b2bff4e63d64225a756",
       "web": "/images/test-usabilita/ricostruite/esempio-18.webp",
-      "sha256": "1fa4ea73e057dbfa5be00eff62451c5ba81af9612de1584b30e44bb82046816c",
+      "sha256": "0996b05f65d1ce829d2608ace67334d83b6450d9cda750b956b30a2f38e63ddb",
       "webSize": [
         1942,
         809
@@ -71,15 +71,22 @@
       "id": "esempio-20",
       "sourcePage": 20,
       "kind": "imagegen",
-      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-20.png",
-      "originalSha256": "8a9a04fceec205ffef47b1626729baaacf0910aaf27afb01ef52113d30759f6e",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-20-v2.png",
+      "originalSha256": "e66e5bdb59b20da546ce8c26d4f633fda9bd403ebff8d2c7ff028a2c355aff4f",
       "web": "/images/test-usabilita/ricostruite/esempio-20.webp",
-      "sha256": "9612a86a9d04fc9cc120fced3892e6b78dee8ab09a93e6b9e67ad52dd53c16c6",
+      "sha256": "0c430ed7654386bc475a17fca89f2e3cfc43aaec51c604f9e568ea0e83f5fb9a",
       "webSize": [
         1942,
         809
       ],
-      "alt": "Tavola ridisegnata di confronto: mapping negli oggetti quotidiani e nell’interfaccia web.",
+      "alt": "Tre interruttori allineati alle tre lampade corrispondenti: il comando centrale premuto accende la lampada centrale. A destra, meno e più diminuiscono o aumentano la quantità 33.",
+      "labels": [
+        "Quantità",
+        "33",
+        "Diminuisce",
+        "Aumenta"
+      ],
+      "archivedVersion": "progetti/slide/assets/lezione-test-usabilita/ricostruite/revisioni/esempio-20-v1.json",
       "rights": "Esempio nella presentazione originale; attribuzione dell’immagine non indicata nella fonte",
       "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/esempio-20.png",
       "promptRegistry": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen.json",
@@ -89,15 +96,22 @@
       "id": "esempio-23",
       "sourcePage": 23,
       "kind": "imagegen",
-      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-23.png",
-      "originalSha256": "6d4a8e89e1be6cda8a2f4b1389928aae39615ca867309bbda38036562e2e3e06",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-23-v2.png",
+      "originalSha256": "7d7d5e462431d0520afe428b16c712bded3f0ce0a4ef507c498f21b18676520d",
       "web": "/images/test-usabilita/ricostruite/esempio-23.webp",
-      "sha256": "13b053fadc8f78350925e8d40da05bef7c5d17830899bd52c88f787ded945f6e",
+      "sha256": "749c814f9782ac253eb9e2e9ddd771577331368978d6fa3f62efff98ca46cbc4",
       "webSize": [
         1942,
         809
       ],
-      "alt": "Tavola ridisegnata di confronto: vincoli negli oggetti quotidiani e nell’interfaccia web.",
+      "alt": "Confronto fra un vincolo fisico, la matita inserita nel temperamatite, e un vincolo digitale: quantità minima 1 con pulsante meno disattivato.",
+      "labels": [
+        "Quantità",
+        "Minimo 1",
+        "1",
+        "Il valore non può scendere sotto 1"
+      ],
+      "archivedVersion": "progetti/slide/assets/lezione-test-usabilita/ricostruite/revisioni/esempio-23-v1.json",
       "rights": "Esempio nella presentazione originale; attribuzione dell’immagine non indicata nella fonte",
       "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/esempio-23.png",
       "promptRegistry": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen.json",
@@ -110,7 +124,7 @@
       "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-26.png",
       "originalSha256": "d05839679c0ea3e676b998fb401e9ddf9258e7f34145b384ba830a1711dc918d",
       "web": "/images/test-usabilita/ricostruite/esempio-26.webp",
-      "sha256": "db09335c190b8e2dc198e9b3212ddf777bb3511a0f410d4a7a4d67690631ea41",
+      "sha256": "4e3d7128d09c4d73ab0acf5da953faf7f0be35f6ed3d4aadc61fecef70c9ceb0",
       "webSize": [
         1942,
         809
@@ -128,7 +142,7 @@
       "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-28.png",
       "originalSha256": "cdf64ea044774c982bb70199b2276bece25c30601c3bee029d2d26e6bc53f51b",
       "web": "/images/test-usabilita/ricostruite/esempio-28.webp",
-      "sha256": "6089b494e57cc726277bd73105a168ce223d27ffebba5688408005a753032e9b",
+      "sha256": "b674d4b97e7a0c0fbaacea69613a1e5c332613170bd8ca51e2b6adaed683c5bf",
       "webSize": [
         1942,
         809
@@ -142,27 +156,31 @@
     {
       "id": "figura-31",
       "sourcePage": 31,
-      "kind": "native-svg",
-      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/figura-31.source.svg",
-      "originalSha256": "8a30467c76be1831e1b5331aeee05e377c0282fa390d6a3fb40779f07b935039",
-      "web": "/images/test-usabilita/ricostruite/figura-31.svg",
-      "sha256": "471f6be3e0b3c3f47ede40503ba535ed582f599dbe4e39fa9fe5eb01c0d1cd0f",
+      "kind": "imagegen",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/figura-31-v2.png",
+      "originalSha256": "f65ef50136f03ec5a394889c41284a9d85b46c102fa76b1dc79d81060fefd1f6",
+      "web": "/images/test-usabilita/ricostruite/figura-31.webp",
+      "sha256": "a54f0e8c9d79377346ca182c17aa218624658229b8002e6978c02066d860a096",
       "webSize": [
-        560,
-        390
+        1402,
+        1122
       ],
-      "alt": "Caricamento di presentazione.pdf al 70%, comando Annulla e conferma che un link di recupero è stato inviato. Ricostruzione didattica.",
-      "caption": "Ricostruzione didattica dell’esempio originale",
-      "rights": "Immagine nella presentazione originale; attribuzione non indicata nella fonte",
-      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/figura-31.png",
+      "alt": "Due esempi distinti di feedback: caricamento di presentazione.pdf al 70% con comando Annulla; conferma separata del link di recupero inviato, con invito a controllare l’email. Ricostruzione didattica.",
+      "caption": "Ricostruzione didattica · due esempi indipendenti di feedback",
       "labels": [
+        "IN CORSO",
         "Caricamento del file",
         "presentazione.pdf",
         "70%",
         "Annulla",
-        "Link di recupero inviato"
+        "AZIONE CONCLUSA",
+        "Link di recupero inviato",
+        "Controlla la tua email"
       ],
-      "relationships": [],
+      "archivedVersion": "progetti/slide/assets/lezione-test-usabilita/ricostruite/revisioni/figura-31-v1.json",
+      "rights": "Immagine nella presentazione originale; attribuzione non indicata nella fonte",
+      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/figura-31.png",
+      "promptRegistry": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen.json",
       "zoomClearanceRight": 56
     },
     {
@@ -196,31 +214,28 @@
     {
       "id": "figura-33",
       "sourcePage": 33,
-      "kind": "native-svg",
-      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/figura-33.source.svg",
-      "originalSha256": "f403258d33d59d87fafcb56357bd15a370f959df788e834b5b551a6e23572b3a",
-      "web": "/images/test-usabilita/ricostruite/figura-33.svg",
-      "sha256": "7035342e88ff7227a70e5dcfcadd57f86cad41061ad7b29fd888f67c3e6b29a0",
+      "kind": "imagegen",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/figura-33-v2.png",
+      "originalSha256": "29eca02128e01159c9e6e5b57e6118c28de8f3a05193be77d709b42d418447f5",
+      "web": "/images/test-usabilita/ricostruite/figura-33.webp",
+      "sha256": "37e6da74e996a0abd93bb5e2a51d09ef0b82d7f66195e3a9efeba48ab1367f73",
       "webSize": [
-        560,
-        480
+        1536,
+        1024
       ],
-      "alt": "Interfaccia di posta con conferma di archiviazione e comando Annulla ben visibile. Ricostruzione didattica.",
-      "caption": "Ricostruzione didattica dell’esempio originale",
-      "rights": "Immagine nella presentazione originale; attribuzione non indicata nella fonte",
-      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/figura-33.png",
+      "alt": "Una mail con oggetto Prestito rinnovato può essere archiviata. Una freccia conduce alla conferma Messaggio archiviato con il comando Annulla in evidenza. Ricostruzione didattica.",
+      "caption": "Ricostruzione didattica · annullare un’azione",
       "labels": [
         "Posta in arrivo",
-        "Team",
-        "Riunione di domani",
-        "Biblioteca",
         "Prestito rinnovato",
-        "Segreteria",
-        "Nuovo messaggio",
-        "Archiviato",
+        "Archivia",
+        "Messaggio archiviato",
         "Annulla"
       ],
-      "relationships": [],
+      "archivedVersion": "progetti/slide/assets/lezione-test-usabilita/ricostruite/revisioni/figura-33-v1.json",
+      "rights": "Immagine nella presentazione originale; attribuzione non indicata nella fonte",
+      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/figura-33.png",
+      "promptRegistry": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen.json",
       "zoomClearanceRight": 56
     },
     {
@@ -317,52 +332,66 @@
     {
       "id": "figura-38",
       "sourcePage": 38,
-      "kind": "native-svg",
-      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/figura-38.source.svg",
-      "originalSha256": "357175c8951494d3df5ccf56e4807644d21b99c78c98ab4a1448976188235b8e",
-      "web": "/images/test-usabilita/ricostruite/figura-38.svg",
-      "sha256": "2520505c8c7894c15ec8f1b75cddb0486879550821aec5969a0a72893f8a742a",
+      "original": "progetti/slide/assets/lezione-test-usabilita/screenshot-reali/google-homepage.jpg",
+      "sourceUrl": "https://www.google.com/?hl=it",
+      "capturedOn": "2026-11-02",
+      "capture": {
+        "tool": "Browser screenshot API",
+        "viewport": [
+          1280,
+          720
+        ],
+        "clip": {
+          "x": 274,
+          "y": 100,
+          "width": 730,
+          "height": 300
+        },
+        "pixelEditing": false
+      },
+      "alt": "Screenshot reale della pagina di ricerca Google in tema scuro: logo originale, campo di ricerca con strumenti aggiuntivi e pulsanti Cerca con Google e Mi sento fortunato.",
+      "caption": "Google · schermata reale",
+      "rights": "Interfaccia e marchio Google. Screenshot acquisito per il commento didattico.",
+      "archivedVersion": "progetti/slide/assets/lezione-test-usabilita/ricostruite/revisioni/figura-38-v1.json",
+      "kind": "documentary-screenshot",
+      "originalSha256": "6f68129323e2518a602d5420189c74fa697e9be5f3149267f52c26892e539bda",
+      "sha256": "b6e1332915f8cebee4024f09f138c888326912af87894eac7aab0018e9088025",
       "webSize": [
-        560,
-        350
+        730,
+        300
       ],
-      "alt": "Ricostruzione didattica della ricerca Google: nome, campo di ricerca e un’azione principale. Non è una schermata del servizio attuale.",
-      "caption": "Ricostruzione didattica dell’esempio originale",
-      "rights": "Immagine nella presentazione originale; attribuzione non indicata nella fonte",
+      "web": "/images/test-usabilita/screenshot-reali/google-homepage.webp",
       "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/figura-38.png",
-      "labels": [
-        "Google",
-        "Cerca con Google"
-      ],
-      "relationships": [],
-      "zoomClearanceRight": 56
+      "screenshotManifest": "progetti/slide/assets/lezione-test-usabilita/screenshot-reali/manifest.json",
+      "zoomClearanceRight": 0
     },
     {
       "id": "figura-39",
       "sourcePage": 39,
-      "kind": "native-svg",
-      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/figura-39.source.svg",
-      "originalSha256": "80c420e96ea1e30145516cc90d91aac3e4397312edb2155a4a0500b035a58911",
-      "web": "/images/test-usabilita/ricostruite/figura-39.svg",
-      "sha256": "c1de51b09553fa736eeda515c4805368899a7fa511ee580f48655ffeefd9f95c",
+      "kind": "imagegen",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/figura-39-v2.png",
+      "originalSha256": "71d3875371040ba9652f6f83574a61143ba22dec48e921f3f315e7919a254eaa",
+      "web": "/images/test-usabilita/ricostruite/figura-39.webp",
+      "sha256": "0f7539b52177eea90f07cdba3ab78fcf9d30f5f945aced58ae54008dd594584f",
       "webSize": [
-        560,
-        500
+        1586,
+        992
       ],
-      "alt": "Modulo con email incompleta e telefono assente. Ogni campo ha un messaggio specifico per correggere l’errore. Ricostruzione didattica.",
-      "caption": "Ricostruzione didattica dell’esempio originale",
-      "rights": "Immagine nella presentazione originale; attribuzione non indicata nella fonte",
-      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/figura-39.png",
+      "alt": "Modulo a due colonne: email test@email non valida e telefono vuoto. Messaggi grandi accanto a icone di avviso indicano come correggere ciascun campo; il pulsante Continua chiude il modulo. Ricostruzione didattica.",
+      "caption": "Ricostruzione didattica · recuperare dagli errori",
       "labels": [
         "Informazioni di contatto",
         "Indirizzo email",
         "test@email",
-        "Inserisci un indirizzo valido.",
         "Telefono",
+        "Inserisci un indirizzo valido.",
         "Inserisci il numero di telefono.",
         "Continua"
       ],
-      "relationships": [],
+      "archivedVersion": "progetti/slide/assets/lezione-test-usabilita/ricostruite/revisioni/figura-39-v1.json",
+      "rights": "Immagine nella presentazione originale; attribuzione non indicata nella fonte",
+      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/figura-39.png",
+      "promptRegistry": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen.json",
       "zoomClearanceRight": 56
     },
     {

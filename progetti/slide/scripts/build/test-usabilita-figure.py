@@ -174,17 +174,10 @@ def save_svg(id, title, alt, w, h, body, relationships=None):
                     'relationships': relationships or [], 'zoomClearanceRight': 56})
 
 
-# Eight Nielsen interface examples. These are explicitly reconstructed examples,
+# Nielsen interface examples. These are explicitly reconstructed examples,
 # not simulated claims that the old branded interfaces look like this today.
-body = rect(16, 34, 496, 320, SOFT, 20)
-body += text(44, 86, 'Caricamento del file', 31, P, 600)
-body += text(44, 130, 'presentazione.pdf', 29, BODY)
-body += rect(44, 159, 432, 20, PALE, 10) + rect(44, 159, 302, 20, P, 10)
-body += text(44, 220, '70%', 32, P, 600) + text(476, 220, 'Annulla', 28, P, 600, 'end')
-body += rect(32, 268, 464, 66, GREEN_SOFT, 12) + icon('check', 48, 286, 30, GREEN_INK)
-body += text(90, 311, 'Link di recupero inviato', 28, GREEN_INK, 600)
-save_svg('figura-31', 'Visibilità dello stato del sistema',
-         'Caricamento di presentazione.pdf al 70%, comando Annulla e conferma che un link di recupero è stato inviato. Ricostruzione didattica.', 560, 390, body)
+# Figura 31 uses the user-requested ImageGen revision below; its previous SVG
+# and provenance remain retained in revisioni/figura-31-v1.json.
 
 body = rect(36, 12, 456, 438, SOFT, 18) + text(66, 62, 'Libreria', 34, P, 600)
 for i, (label, symbol) in enumerate([('Musica', 'music'), ('Film', 'film'), ('Serie TV', 'tv'), ('Podcast', 'podcast'), ('Audiolibri', 'book'), ('Applicazioni', 'folder')]):
@@ -195,14 +188,7 @@ for i, (label, symbol) in enumerate([('Musica', 'music'), ('Film', 'film'), ('Se
 save_svg('figura-32', 'Corrispondenza fra sistema e mondo reale',
          'Menu di una libreria con categorie comprensibili: musica, film, serie TV, podcast, audiolibri e applicazioni. Ricostruzione didattica.', 560, 480, body)
 
-body = rect(84, 8, 344, 430, WHITE, 24, RULE)
-body += rect(84, 8, 344, 66, P, 24) + text(106, 53, 'Posta in arrivo', 30, WHITE, 600)
-for y, sender, subject in [(116, 'Team', 'Riunione di domani'), (208, 'Biblioteca', 'Prestito rinnovato'), (300, 'Segreteria', 'Nuovo messaggio')]:
-    body += circle(117, y-6, 15, PALE) + text(150, y-1, sender, 27, INK, 600) + text(106, y+32, subject, 26, BODY)
-body += rect(84, 354, 344, 84, GREEN_SOFT, 14)
-body += text(104, 387, 'Archiviato', 27, GREEN_INK, 600) + text(104, 421, 'Annulla', 30, P, 700)
-save_svg('figura-33', 'Controllo dell’utente e libertà',
-         'Interfaccia di posta con conferma di archiviazione e comando Annulla ben visibile. Ricostruzione didattica.', 560, 480, body)
+# Figura 33 uses the wider user-requested ImageGen revision below.
 
 body = rect(12, 30, 500, 310, SOFT, 20)
 body += icon('clip', 40, 52, 32, P) + text(88, 80, 'Allegato mancante', 32, P, 600)
@@ -235,22 +221,9 @@ body += lines(368, 127, ['Centro', 'Parco Nord', 'Scuole'], 25, BODY, leading=47
 save_svg('figura-37', 'Flessibilità ed efficienza',
          'Tre percorsi di accesso alle informazioni: link rapidi, categorie e contenuti visti di recente. Ricostruzione didattica.', 560, 350, body)
 
-body = text(272, 106, 'Google', 70, P, 600, 'middle')
-body += rect(30, 154, 482, 68, WHITE, 34, RULE) + icon('search', 52, 173, 31, BODY)
-body += button(102, 258, 340, 'Cerca con Google', PALE, P, 28)
-save_svg('figura-38', 'Estetica e progettazione minimalista',
-         'Ricostruzione didattica della ricerca Google: nome, campo di ricerca e un’azione principale. Non è una schermata del servizio attuale.', 560, 350, body)
+# Figura 38 uses an actual Google screenshot, without recoloring or redrawing.
 
-ERROR = '#b91c1c'
-body = text(26, 42, 'Informazioni di contatto', 31, P, 600)
-for y, label, value, message in [(92, 'Indirizzo email', 'test@email', 'Inserisci un indirizzo valido.'), (252, 'Telefono', '', 'Inserisci il numero di telefono.')]:
-    body += text(26, y, label, 28, INK, 600) + rect(26, y+17, 478, 57, WHITE, 10, ERROR)
-    if value:
-        body += text(44, y+56, value, 28, INK)
-    body += icon('warning', 26, y+91, 26, ERROR) + text(64, y+114, message, 25, ERROR)
-body += button(26, 402, 478, 'Continua', P, WHITE, 29)
-save_svg('figura-39', 'Riconoscimento e risoluzione degli errori',
-         'Modulo con email incompleta e telefono assente. Ogni campo ha un messaggio specifico per correggere l’errore. Ricostruzione didattica.', 560, 500, body)
+# Figura 39 uses the two-column ImageGen revision with larger error messages.
 
 
 # NN/g relationships and role definitions are preserved, with a consistent set
@@ -296,9 +269,24 @@ for item in generated['images']:
     entries.append({'id': id, 'sourcePage': old['sourcePage'], 'kind': 'imagegen',
                     'original': item['original'], 'originalSha256': sha(original),
                     'web': '/images/test-usabilita/ricostruite/' + target.name, 'sha256': sha(target),
-                    'webSize': size, 'alt': old['alt'].replace('Tavola originale di confronto', 'Tavola ridisegnata di confronto'),
+                    'webSize': size, 'alt': item.get('alt', old['alt'].replace('Tavola originale di confronto', 'Tavola ridisegnata di confronto')),
+                    **({key: item[key] for key in ['caption', 'labels', 'archivedVersion'] if key in item}),
                     'rights': old['rights'], 'historicalOriginal': old['original'],
                     'promptRegistry': relative(OUTPUT / 'imagegen.json'), 'zoomClearanceRight': 56})
+
+screenshot_manifest = BASE / 'screenshot-reali/manifest.json'
+for item in json.loads(screenshot_manifest.read_text())['images']:
+    original = ROOT / item['original']
+    target = WEB.parent / 'screenshot-reali' / (original.stem + '.webp')
+    target.parent.mkdir(parents=True, exist_ok=True)
+    with Image.open(original) as image:
+        image.save(target, lossless=True)
+        size = list(image.size)
+    entries.append({**item, 'kind': 'documentary-screenshot',
+                    'originalSha256': sha(original), 'sha256': sha(target), 'webSize': size,
+                    'web': '/images/test-usabilita/screenshot-reali/' + target.name,
+                    'historicalOriginal': by_id[item['id']]['original'],
+                    'screenshotManifest': relative(screenshot_manifest), 'zoomClearanceRight': 0})
 
 manifest = {'version': 1, 'lesson': 'test-usabilita', 'palette': 'ux-usability',
             'paletteSource': relative(TOKENS),
@@ -309,4 +297,6 @@ manifest = {'version': 1, 'lesson': 'test-usabilita', 'palette': 'ux-usability',
             'preservedDocumentaryImages': ['figura-12', 'figura-30'],
             'images': sorted(entries, key=lambda item: item['sourcePage'])}
 (OUTPUT / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
-print(json.dumps({'redrawn': len(entries), 'imagegen': 6, 'nativeSvg': 12, 'preservedPortraits': 2}))
+print(json.dumps({'selected': len(entries), 'imagegen': len(generated['images']),
+                  'nativeSvg': sum(entry['kind'] == 'native-svg' for entry in entries),
+                  'screenshots': sum(entry['kind'] == 'documentary-screenshot' for entry in entries), 'preservedPortraits': 2}))

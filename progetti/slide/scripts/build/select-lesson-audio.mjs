@@ -7,9 +7,9 @@ import { parseArgs } from 'node:util'
 import { resolveSlideAudioSettings, stripAudioDelivery } from './audio-delivery.mjs'
 
 const { values } = parseArgs({ options: { lesson: { type: 'string' }, 'allow-partial': { type: 'boolean', default: false } } })
-const directory = { 'griglie-layout': 'lezione-griglie', 'composizione-gerarchia': 'lezione-composizione' }[values.lesson]
-assert.ok(directory, 'Indicare --lesson griglie-layout oppure composizione-gerarchia')
-const base = `progetti/slide/assets/booklet/${directory}/`
+const directory = { 'griglie-layout': 'lezione-griglie', 'composizione-gerarchia': 'lezione-composizione', 'test-usabilita': 'lezione-test-usabilita' }[values.lesson]
+assert.ok(directory, 'Indicare --lesson griglie-layout, composizione-gerarchia oppure test-usabilita')
+const base = values.lesson === 'test-usabilita' ? `progetti/slide/assets/${directory}/` : `progetti/slide/assets/booklet/${directory}/`
 const historyPath = `progetti/slide/assets/audio/${directory}/manifest.json`
 const read = async file => JSON.parse(await readFile(file, 'utf8'))
 const hash = bytes => createHash('sha256').update(bytes).digest('hex')

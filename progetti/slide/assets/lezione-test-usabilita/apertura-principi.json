@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "sourcePage": 8,
+  "alias": "test-usabilita-p8-1",
+  "lead": "Tre domande per osservare un’interfaccia.",
+  "panels": [
+    {
+      "title": "Riconoscere le azioni",
+      "text": "Quali azioni si riconoscono?"
+    },
+    {
+      "title": "Prevedere le conseguenze",
+      "text": "Che cosa succederà dopo un comando?"
+    },
+    {
+      "title": "Correggere gli errori",
+      "text": "Come si può correggere un errore?"
+    }
+  ],
+  "takeaway": "Dalla prima ispezione alla prova con le persone.",
+  "provenance": {
+    "reason": "Completamento richiesto dall’utente della slide divisoria con il solo titolo.",
+    "scriptSource": "progetti/slide/assets/lezione-test-usabilita/speaker-notes-original.json",
+    "scriptAlias": "test-usabilita-p8-1",
+    "note": "Le tre domande sono riprese testualmente dal copione già registrato. La trascrizione storica della pagina 8 resta invariata."
+  }
+}

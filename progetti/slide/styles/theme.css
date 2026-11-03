@@ -199,6 +199,7 @@
 .slidev-layout.default[data-lesson="griglie-layout"] .cvedi-grid.three > .has-card-artwork .card-body,
 .slidev-layout.default[data-lesson="composizione-gerarchia"] .cvedi-grid.three > .has-card-artwork .card-body,
 .slidev-layout.default[data-lesson="processo-ux-ui"] .cvedi-grid.three > .has-card-artwork .card-body,
+.slidev-layout.default[data-lesson="test-usabilita"] .cvedi-grid.three > .has-card-artwork .card-body,
 .slidev-layout.default[data-lesson="ricerca-inclusiva"] .cvedi-grid:is(.three, .four) > .has-card-artwork .card-body,
 .slidev-layout.default[data-lesson="percezione-gerarchia"] .cvedi-grid > .has-card-artwork .card-body { padding-bottom: 112px; }
 .slidev-layout.default[data-lesson="percezione-gerarchia"] .cvedi-grid > .has-card-artwork .card-body,
@@ -208,6 +209,7 @@
 .slidev-layout.default[data-lesson="griglie-layout"] .cvedi-grid.three > .has-card-artwork .card-background,
 .slidev-layout.default[data-lesson="composizione-gerarchia"] .cvedi-grid.three > .has-card-artwork .card-background,
 .slidev-layout.default[data-lesson="processo-ux-ui"] .cvedi-grid.three > .has-card-artwork .card-background,
+.slidev-layout.default[data-lesson="test-usabilita"] .cvedi-grid.three > .has-card-artwork .card-background,
 .slidev-layout.default[data-lesson="ricerca-inclusiva"] .cvedi-grid:is(.three, .four) > .has-card-artwork .card-background,
 .slidev-layout.default[data-lesson="percezione-gerarchia"] .cvedi-grid > .has-card-artwork .card-background { display: block; width: 96px; height: 96px; right: -16px; bottom: -16px; }
 .slidev-layout.default .cvedi-card .card-note { color: #475569; font: 400 var(--cvedi-type-note)/1.45 var(--theme-font); }
@@ -384,7 +386,7 @@
 .slidev-layout.default .topic-heading { color: var(--section-primary); }
 .slidev-layout.default .topic-output { padding: 14px 16px; border-radius: 12px; background: color-mix(in oklch, var(--section-primary) 5%, white); }
 .slidev-layout.default.centered-content-slide > h1 + :not(.slide-footer) { margin-top: auto; }
-.slidev-layout.default.centered-content-slide > :nth-last-child(2 of :not(.lesson-audio)):not(h1) { margin-bottom: auto; }
+.slidev-layout.default.centered-content-slide > :nth-last-child(2 of :not(.lesson-audio, .lesson-captions)):not(h1) { margin-bottom: auto; }
 .slidev-layout.default.archive-wall-slide.fixed-title-slide > h1 { inset: 52px auto auto 72px; }
 .slidev-layout.default.archive-wall-slide .project-gallery-linkbar { inset: 28px auto auto 48px; height: 144px; }
 

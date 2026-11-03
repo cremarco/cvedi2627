@@ -4,6 +4,7 @@ import { copyFile, lstat, mkdir, readdir, readFile, rm, writeFile } from 'node:f
 import { createHash } from 'node:crypto'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { readUsabilityCaptions } from '../../progetti/slide/scripts/build/lesson-captions.mjs'
 
 const root = fileURLToPath(new URL('../..', import.meta.url))
 const sourceDirectory = path.join(root, 'risorse-condivise/immagini')
@@ -17,6 +18,7 @@ const imageExtension = /\.(?:avif|gif|jpe?g|png|svg|webp)$/i
 const audioLessons = [
   { directory: 'lezione-griglie', lesson: 'griglie-layout' },
   { directory: 'lezione-composizione', lesson: 'composizione-gerarchia' },
+  { directory: 'lezione-test-usabilita', lesson: 'test-usabilita', selectionSource: 'progetti/slide/assets/lezione-test-usabilita/audio-approved.json' },
 ]
 
 /** Espone soltanto gli audio approvati, senza esportare le prove precedenti. */
@@ -27,11 +29,29 @@ export async function prepareSlideAudioAssets({ check = false } = {}) {
   return files
 }
 
-async function prepareLessonAudioAssets({ directory, lesson }, { check }) {
+/** Mirror reviewed subtitle assets; inference is always a separate local command. */
+export async function prepareSlideCaptionAssets({ check = false } = {}) {
+  const { files } = await readUsabilityCaptions()
+  const output = path.join(root, 'progetti/slide/public/captions/lezione-test-usabilita')
+  if (check) {
+    const entries = await readdir(output, { withFileTypes: true })
+    if (entries.some(entry => !entry.isFile()) || JSON.stringify(entries.map(entry => entry.name).sort()) !== JSON.stringify([...files.keys()].sort()))
+      throw new Error('Mirror dei sottotitoli non aggiornato: eseguire pnpm prepare:assets.')
+    for (const [name, bytes] of files)
+      if (!bytes.equals(await readFile(path.join(output, name)))) throw new Error(`Sottotitoli diversi dall'originale: ${name}`)
+  } else {
+    await rm(output, { recursive: true, force: true })
+    await mkdir(output, { recursive: true })
+    for (const [name, bytes] of files) await writeFile(path.join(output, name), bytes)
+  }
+  return [...files.keys()]
+}
+
+async function prepareLessonAudioAssets({ directory, lesson, selectionSource = `progetti/slide/assets/booklet/${directory}/audio-approved.json` }, { check }) {
   const audioOutputDirectory = path.join(root, 'progetti/slide/public/audio', directory)
   const sourcePrefix = `progetti/slide/assets/audio/${directory}/`
   const webPrefix = `/audio/${directory}/`
-  const selection = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/booklet', directory, 'audio-approved.json'), 'utf8'))
+  const selection = JSON.parse(await readFile(path.join(root, selectionSource), 'utf8'))
   if (selection.version !== 1 || selection.lesson !== lesson || !selection.clips ||
     typeof selection.clips !== 'object' || Array.isArray(selection.clips) || !Object.keys(selection.clips).length)
     throw new Error('Selezione degli audio approvati non valida.')
@@ -131,6 +151,7 @@ export async function prepareSharedAssets({ check = false } = {}) {
     if (JSON.stringify(files) !== JSON.stringify(generated))
       throw new Error('Il mirror web contiene immagini obsolete: eseguire pnpm prepare:assets.')
     await prepareSlideAudioAssets({ check })
+    await prepareSlideCaptionAssets({ check })
     return files
   }
 
@@ -146,6 +167,7 @@ export async function prepareSharedAssets({ check = false } = {}) {
     await copyFile(sourceFile(file), output)
   }
   await prepareSlideAudioAssets({ check })
+  await prepareSlideCaptionAssets({ check })
   return files
 }
 

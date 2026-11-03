@@ -13,6 +13,19 @@
   "integrations": "progetti/slide/assets/lezione-test-usabilita/integrazioni-criteri.json",
   "testingIntegrations": "progetti/slide/assets/lezione-test-usabilita/integrazioni-test.json",
   "editorialSlides": 9,
+  "principlesOpeningSource": "progetti/slide/assets/lezione-test-usabilita/apertura-principi.json",
+  "testingOpeningSource": "progetti/slide/assets/lezione-test-usabilita/apertura-test.json",
+  "heuristicsOpeningSource": "progetti/slide/assets/lezione-test-usabilita/apertura-euristiche.json",
+  "illustratedLayoutSource": "progetti/slide/assets/lezione-test-usabilita/layout-illustrato.json",
+  "tableDefinitionsSource": "progetti/slide/data/test-usabilita-tables.json",
+  "illustratedSceneManifest": "progetti/slide/assets/lezione-test-usabilita/illustrazioni-testo/manifest.json",
+  "speakerNotesSource": "progetti/slide/assets/lezione-test-usabilita/speaker-notes.json",
+  "speakerNotesOriginalSource": "progetti/slide/assets/lezione-test-usabilita/speaker-notes-original.json",
+  "cardArtworkManifest": "progetti/slide/assets/lezione-test-usabilita/card-artwork.json",
+  "audioSelectionSource": "progetti/slide/assets/lezione-test-usabilita/audio-approved.json",
+  "audioSettingsSource": "progetti/slide/assets/booklet/lezione-griglie/audio-settings.json",
+  "captionSelectionSource": "progetti/slide/assets/captions/lezione-test-usabilita/manifest.json",
+  "spokenWords": 13250,
   "generator": "progetti/slide/scripts/build/test-usabilita-slides.mjs",
   "importer": "progetti/slide/scripts/build/test-usabilita-import.py",
   "importedPhysicalPages": [
@@ -30,7 +43,8 @@
       "structural": true,
       "lessonSlide": 1,
       "alias": "test-usabilita",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "kind": "summary",
@@ -40,7 +54,8 @@
       "support": "Individuare i problemi nella progettazione del prodotto o del servizio",
       "lessonSlide": 2,
       "alias": "test-usabilita-summary",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "kind": "opening-objectives",
@@ -53,15 +68,33 @@
       ],
       "lessonSlide": 3,
       "alias": "test-usabilita-opening-objectives",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Principi di usabilità",
       "sourcePage": 8,
       "kind": "section",
+      "lead": "Tre domande per osservare un’interfaccia.",
+      "panels": [
+        {
+          "title": "Riconoscere le azioni",
+          "text": "Quali azioni si riconoscono?"
+        },
+        {
+          "title": "Prevedere le conseguenze",
+          "text": "Che cosa succederà dopo un comando?"
+        },
+        {
+          "title": "Correggere gli errori",
+          "text": "Come si può correggere un errore?"
+        }
+      ],
+      "takeaway": "Dalla prima ispezione alla prova con le persone.",
       "lessonSlide": 4,
       "alias": "test-usabilita-p8-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Progettare user-friendly",
@@ -79,7 +112,8 @@
       ],
       "lessonSlide": 5,
       "alias": "test-usabilita-p9-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "id": "componenti-usabilita",
@@ -124,7 +158,8 @@
         "nng-usability-components"
       ],
       "editorial": true,
-      "lessonSlide": 6
+      "lessonSlide": 6,
+      "narrationEnabled": true
     },
     {
       "title": "Progettare user-friendly",
@@ -154,7 +189,8 @@
       ],
       "lessonSlide": 7,
       "alias": "test-usabilita-p10-1",
-      "minutes": 1.5
+      "minutes": 1.5,
+      "narrationEnabled": true
     },
     {
       "title": "I principi di Donald Norman",
@@ -162,7 +198,8 @@
       "kind": "section",
       "lessonSlide": 8,
       "alias": "test-usabilita-p11-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "I principi di Donald Norman",
@@ -181,7 +218,8 @@
       "figure": "figura-12",
       "lessonSlide": 9,
       "alias": "test-usabilita-p12-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "I principi di Donald Norman",
@@ -223,7 +261,8 @@
       ],
       "lessonSlide": 10,
       "alias": "test-usabilita-p13-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "I principi di Donald Norman",
@@ -249,7 +288,8 @@
       ],
       "lessonSlide": 11,
       "alias": "test-usabilita-p14-1",
-      "minutes": 1.5
+      "minutes": 1.5,
+      "narrationEnabled": true
     },
     {
       "title": "Affordance · esempio",
@@ -258,7 +298,8 @@
       "figure": "esempio-15",
       "lessonSlide": 12,
       "alias": "test-usabilita-p15-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "I principi di Donald Norman",
@@ -284,7 +325,8 @@
       ],
       "lessonSlide": 13,
       "alias": "test-usabilita-p16-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "I principi di Donald Norman",
@@ -310,7 +352,8 @@
       ],
       "lessonSlide": 14,
       "alias": "test-usabilita-p17-1",
-      "minutes": 2
+      "minutes": 2,
+      "narrationEnabled": true
     },
     {
       "title": "Significanti · esempio",
@@ -319,7 +362,8 @@
       "figure": "esempio-18",
       "lessonSlide": 15,
       "alias": "test-usabilita-p18-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "I principi di Donald Norman",
@@ -349,7 +393,8 @@
       ],
       "lessonSlide": 16,
       "alias": "test-usabilita-p19-1",
-      "minutes": 2
+      "minutes": 2,
+      "narrationEnabled": true
     },
     {
       "title": "Mapping · esempio",
@@ -358,7 +403,8 @@
       "figure": "esempio-20",
       "lessonSlide": 17,
       "alias": "test-usabilita-p20-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "I principi di Donald Norman",
@@ -380,7 +426,8 @@
       ],
       "lessonSlide": 18,
       "alias": "test-usabilita-p21-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "I principi di Donald Norman",
@@ -406,7 +453,8 @@
       ],
       "lessonSlide": 19,
       "alias": "test-usabilita-p22-1",
-      "minutes": 1.5
+      "minutes": 1.5,
+      "narrationEnabled": true
     },
     {
       "title": "Vincoli · esempio",
@@ -415,7 +463,8 @@
       "figure": "esempio-23",
       "lessonSlide": 20,
       "alias": "test-usabilita-p23-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "I principi di Donald Norman",
@@ -437,7 +486,8 @@
       ],
       "lessonSlide": 21,
       "alias": "test-usabilita-p24-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "I principi di Donald Norman",
@@ -463,7 +513,8 @@
       ],
       "lessonSlide": 22,
       "alias": "test-usabilita-p25-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Feedback · esempio",
@@ -472,7 +523,8 @@
       "figure": "esempio-26",
       "lessonSlide": 23,
       "alias": "test-usabilita-p26-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "I principi di Donald Norman",
@@ -498,7 +550,8 @@
       ],
       "lessonSlide": 24,
       "alias": "test-usabilita-p27-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Modello concettuale · esempio",
@@ -507,15 +560,61 @@
       "figure": "esempio-28",
       "lessonSlide": 25,
       "alias": "test-usabilita-p28-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Le euristiche di Jakob Nielsen",
       "sourcePage": 29,
       "kind": "section",
+      "lead": "Dieci criteri generali per esaminare un’interfaccia.",
+      "takeaway": "L’ispezione formula ipotesi sui problemi; i test osservano le persone impegnate in un compito.",
+      "heuristics": [
+        {
+          "sourcePage": 31,
+          "title": "Visibilità dello stato del sistema"
+        },
+        {
+          "sourcePage": 32,
+          "title": "Corrispondenza tra sistema e mondo reale"
+        },
+        {
+          "sourcePage": 33,
+          "title": "Controllo dell’utente e libertà"
+        },
+        {
+          "sourcePage": 34,
+          "title": "Standard e consistenza"
+        },
+        {
+          "sourcePage": 35,
+          "title": "Prevenzione dell’errore"
+        },
+        {
+          "sourcePage": 36,
+          "title": "Riconoscimento anziché ricordo"
+        },
+        {
+          "sourcePage": 37,
+          "title": "Flessibilità ed efficienza"
+        },
+        {
+          "sourcePage": 38,
+          "title": "Estetica e progettazione minimalista"
+        },
+        {
+          "sourcePage": 39,
+          "title": "Riconoscimento e risoluzione degli errori"
+        },
+        {
+          "sourcePage": 40,
+          "title": "Documentazione"
+        }
+      ],
       "lessonSlide": 26,
       "alias": "test-usabilita-p29-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Le euristiche di Jakob Nielsen",
@@ -534,7 +633,8 @@
       "figure": "figura-30",
       "lessonSlide": 27,
       "alias": "test-usabilita-p30-1",
-      "minutes": 1.5
+      "minutes": 1.5,
+      "narrationEnabled": true
     },
     {
       "title": "Le euristiche di Nielsen",
@@ -553,7 +653,8 @@
       "figure": "figura-31",
       "lessonSlide": 28,
       "alias": "test-usabilita-p31-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Le euristiche di Nielsen",
@@ -576,7 +677,8 @@
       "figure": "figura-32",
       "lessonSlide": 29,
       "alias": "test-usabilita-p32-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Le euristiche di Nielsen",
@@ -595,7 +697,8 @@
       "figure": "figura-33",
       "lessonSlide": 30,
       "alias": "test-usabilita-p33-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Le euristiche di Nielsen",
@@ -617,7 +720,8 @@
       ],
       "lessonSlide": 31,
       "alias": "test-usabilita-p34-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Le euristiche di Nielsen",
@@ -640,7 +744,8 @@
       "figure": "figura-35",
       "lessonSlide": 32,
       "alias": "test-usabilita-p35-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Le euristiche di Nielsen",
@@ -659,7 +764,8 @@
       "figure": "figura-36",
       "lessonSlide": 33,
       "alias": "test-usabilita-p36-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Le euristiche di Nielsen",
@@ -678,7 +784,8 @@
       "figure": "figura-37",
       "lessonSlide": 34,
       "alias": "test-usabilita-p37-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Le euristiche di Nielsen",
@@ -701,7 +808,8 @@
       "figure": "figura-38",
       "lessonSlide": 35,
       "alias": "test-usabilita-p38-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Le euristiche di Nielsen",
@@ -720,7 +828,8 @@
       "figure": "figura-39",
       "lessonSlide": 36,
       "alias": "test-usabilita-p39-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Le euristiche di Nielsen",
@@ -742,7 +851,8 @@
       ],
       "lessonSlide": 37,
       "alias": "test-usabilita-p40-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "id": "conclusione",
@@ -772,7 +882,8 @@
         "shneiderman"
       ],
       "editorial": true,
-      "lessonSlide": 38
+      "lessonSlide": 38,
+      "narrationEnabled": true
     },
     {
       "id": "lavoro-stato",
@@ -802,7 +913,8 @@
         "tognazzini"
       ],
       "editorial": true,
-      "lessonSlide": 39
+      "lessonSlide": 39,
+      "narrationEnabled": true
     },
     {
       "id": "carico-operativo",
@@ -832,7 +944,8 @@
         "bastien-scapin"
       ],
       "editorial": true,
-      "lessonSlide": 40
+      "lessonSlide": 40,
+      "narrationEnabled": true
     },
     {
       "id": "ispezione-test",
@@ -858,15 +971,33 @@
         "nng-evaluation"
       ],
       "editorial": true,
-      "lessonSlide": 41
+      "lessonSlide": 41,
+      "narrationEnabled": true
     },
     {
       "title": "Test di usabilità",
       "sourcePage": 41,
       "kind": "section",
+      "lead": "Osservare una persona mentre cerca di raggiungere un risultato.",
+      "panels": [
+        {
+          "title": "Scegliere la situazione",
+          "text": "Definire il compito e il contesto in cui svolgerlo."
+        },
+        {
+          "title": "Condurre la sessione",
+          "text": "Osservare azioni, difficoltà e strategie durante l’uso."
+        },
+        {
+          "title": "Migliorare il progetto",
+          "text": "Trasformare ciò che emerge in modifiche da verificare."
+        }
+      ],
+      "takeaway": "Osservare l’uso è diverso dal discutere le opinioni.",
       "lessonSlide": 42,
       "alias": "test-usabilita-p41-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Focus group: perché escluderlo? (1)",
@@ -884,7 +1015,8 @@
       ],
       "lessonSlide": 43,
       "alias": "test-usabilita-p42-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Focus group: perché escluderlo? (2)",
@@ -906,7 +1038,8 @@
       ],
       "lessonSlide": 44,
       "alias": "test-usabilita-p43-1",
-      "minutes": 1.5
+      "minutes": 1.5,
+      "narrationEnabled": true
     },
     {
       "title": "Test di usabilità (1)",
@@ -925,7 +1058,8 @@
       ],
       "lessonSlide": 45,
       "alias": "test-usabilita-p44-1",
-      "minutes": 1.5
+      "minutes": 1.5,
+      "narrationEnabled": true
     },
     {
       "title": "Test di usabilità (1)",
@@ -940,7 +1074,8 @@
       ],
       "lessonSlide": 46,
       "alias": "test-usabilita-p44-2",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Test di usabilità (2)",
@@ -955,7 +1090,23 @@
       ],
       "lessonSlide": 47,
       "alias": "test-usabilita-p45-1",
-      "minutes": 1.5
+      "minutes": 1.5,
+      "presentation": {
+        "lessonSlide": 47,
+        "scene": "scena-laboratorio",
+        "lead": "Un modello storico molto dispendioso",
+        "items": [
+          "Laboratorio con specchio unidirezionale e videocamere.",
+          "Pianificazione specialistica e reclutamento numeroso.",
+          "Studi ampi per ottenere misure statistiche.",
+          "Costi riportati: 20.000–50.000 $; test poco frequenti."
+        ],
+        "alias": "test-usabilita-p45-1",
+        "sourcePage": 45,
+        "originalBlocksSha256": "750ef7463db0890145252836de5d66bec379274d899021d5b13790482fbc4bb2",
+        "scriptSha256": "4264be1c238c447c58adeaad092a91f4a7b3486ce975440bf7b67f9770e91a39"
+      },
+      "narrationEnabled": true
     },
     {
       "title": "Test di usabilità (3)",
@@ -978,7 +1129,22 @@
       ],
       "lessonSlide": 48,
       "alias": "test-usabilita-p46-1",
-      "minutes": 1
+      "minutes": 1,
+      "presentation": {
+        "lessonSlide": 48,
+        "scene": "scena-sessione",
+        "lead": "Un’impostazione più leggera",
+        "items": [
+          "Nel 1989 Nielsen propone «Usability Engineering at a Discount».",
+          "Piccoli cicli di osservazione e revisione senza laboratorio dedicato.",
+          "Costi storici riportati: 5.000–10.000 $ per ciclo."
+        ],
+        "alias": "test-usabilita-p46-1",
+        "sourcePage": 46,
+        "originalBlocksSha256": "9da1eaddcf3a101bc0830baae84e713fcc4c5aaf9d9186c1f82603401bda2fd4",
+        "scriptSha256": "ccdc7680c77ea15f7f3301e8339e57aa6045e9974c2a9b82a999d6f7ef1149a0"
+      },
+      "narrationEnabled": true
     },
     {
       "title": "Test tradizionali e test fai da te",
@@ -1003,7 +1169,8 @@
       ],
       "lessonSlide": 49,
       "alias": "test-usabilita-p47-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Test tradizionali e test fai da te",
@@ -1033,7 +1200,8 @@
       ],
       "lessonSlide": 50,
       "alias": "test-usabilita-p47-2",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Test tradizionali e test fai da te",
@@ -1058,7 +1226,8 @@
       ],
       "lessonSlide": 51,
       "alias": "test-usabilita-p47-3",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Test tradizionali e test fai da te",
@@ -1083,7 +1252,8 @@
       ],
       "lessonSlide": 52,
       "alias": "test-usabilita-p47-4",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Test tradizionali e test fai da te",
@@ -1103,7 +1273,8 @@
       ],
       "lessonSlide": 53,
       "alias": "test-usabilita-p47-5",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Why Usability Test? (1)",
@@ -1117,7 +1288,8 @@
       ],
       "lessonSlide": 54,
       "alias": "test-usabilita-p48-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Why Usability Test? (2)",
@@ -1136,7 +1308,22 @@
       ],
       "lessonSlide": 55,
       "alias": "test-usabilita-p49-1",
-      "minutes": 1.5
+      "minutes": 1.5,
+      "presentation": {
+        "lessonSlide": 55,
+        "scene": "scena-iterazione",
+        "lead": "Progettare, osservare, rivedere",
+        "items": [
+          "Le ipotesi di progetto incontrano l’uso delle persone.",
+          "Le variabili del contesto rendono difficile prevedere ogni interazione.",
+          "Ogni ciclo permette di correggere e verificare le scelte."
+        ],
+        "alias": "test-usabilita-p49-1",
+        "sourcePage": 49,
+        "originalBlocksSha256": "f2802148f5a5e0e8c40dcf256e0254fb05efdfce1c229421cbb48697a9bffbf8",
+        "scriptSha256": "4d3687eead685d5d4fcb2ca6f762e4e647217b5dcccfdfd3b1e997cbe394f2fd"
+      },
+      "narrationEnabled": true
     },
     {
       "title": "Why Usability Test? (3)",
@@ -1155,7 +1342,8 @@
       ],
       "lessonSlide": 56,
       "alias": "test-usabilita-p50-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Why Usability Test? (4)",
@@ -1178,7 +1366,8 @@
       ],
       "lessonSlide": 57,
       "alias": "test-usabilita-p51-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Why Usability Test? (4)",
@@ -1197,7 +1386,22 @@
       ],
       "lessonSlide": 58,
       "alias": "test-usabilita-p51-2",
-      "minutes": 1.5
+      "minutes": 1.5,
+      "presentation": {
+        "lessonSlide": 58,
+        "scene": "scena-prototipo-precoce",
+        "lead": "Testare quando si può ancora cambiare",
+        "items": [
+          "Una prova semplice e precoce può orientare le decisioni.",
+          "Dopo il rilascio, le modifiche coinvolgono contenuti, processi e abitudini.",
+          "Anche piccoli cambiamenti possono avere effetti estesi."
+        ],
+        "alias": "test-usabilita-p51-2",
+        "sourcePage": 51,
+        "originalBlocksSha256": "dc604a7c85ce44f0cfbe26c032c840a7efcf400080f5fb465008da616d290d79",
+        "scriptSha256": "7d401fb2e9b8671154a2a98dcfa7fab88cfa68bd38fc0c1eb43e811537da8fe7"
+      },
+      "narrationEnabled": true
     },
     {
       "title": "Why Usability Test? (4)",
@@ -1212,7 +1416,8 @@
       ],
       "lessonSlide": 59,
       "alias": "test-usabilita-p51-3",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Usability testing: le componenti",
@@ -1227,7 +1432,8 @@
       ],
       "lessonSlide": 60,
       "alias": "test-usabilita-p52-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Usability testing: le componenti",
@@ -1237,7 +1443,8 @@
       "figure": "componenti-test",
       "lessonSlide": 61,
       "alias": "test-usabilita-p53-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Usability testing: il facilitatore (1)",
@@ -1257,7 +1464,8 @@
       "figure": "ruolo-facilitatore",
       "lessonSlide": 62,
       "alias": "test-usabilita-p54-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Usability testing: il facilitatore (2)",
@@ -1277,7 +1485,8 @@
       "figure": "ruolo-facilitatore",
       "lessonSlide": 63,
       "alias": "test-usabilita-p55-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Usability testing: i compiti (1)",
@@ -1293,7 +1502,8 @@
       "figure": "ruolo-compiti",
       "lessonSlide": 64,
       "alias": "test-usabilita-p56-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Usability testing: i compiti (2)",
@@ -1313,7 +1523,8 @@
       "figure": "ruolo-compiti",
       "lessonSlide": 65,
       "alias": "test-usabilita-p57-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Usability testing: i compiti (3)",
@@ -1333,7 +1544,8 @@
       "figure": "ruolo-compiti",
       "lessonSlide": 66,
       "alias": "test-usabilita-p58-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Usability testing: il partecipante",
@@ -1353,7 +1565,8 @@
       "figure": "ruolo-partecipante",
       "lessonSlide": 67,
       "alias": "test-usabilita-p59-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Usability testing: il partecipante",
@@ -1373,7 +1586,8 @@
       "figure": "ruolo-partecipante",
       "lessonSlide": 68,
       "alias": "test-usabilita-p60-1",
-      "minutes": 0.5
+      "minutes": 0.5,
+      "narrationEnabled": true
     },
     {
       "title": "Come svolgere un Usability Testing?",
@@ -1381,7 +1595,8 @@
       "kind": "section",
       "lessonSlide": 69,
       "alias": "test-usabilita-p61-1",
-      "minutes": 0.5
+      "minutes": 0.5,
+      "narrationEnabled": true
     },
     {
       "title": "Quanto spesso si devono eseguire i test? (1)",
@@ -1404,7 +1619,8 @@
       ],
       "lessonSlide": 70,
       "alias": "test-usabilita-p62-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Quanto spesso si devono eseguire i test? (2)",
@@ -1423,7 +1639,8 @@
       ],
       "lessonSlide": 71,
       "alias": "test-usabilita-p63-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Quanto spesso si devono eseguire i test? (2)",
@@ -1438,7 +1655,8 @@
       ],
       "lessonSlide": 72,
       "alias": "test-usabilita-p63-2",
-      "minutes": 0.5
+      "minutes": 0.5,
+      "narrationEnabled": true
     },
     {
       "title": "Quanti utenti servono? (1)",
@@ -1465,7 +1683,22 @@
       ],
       "lessonSlide": 73,
       "alias": "test-usabilita-p64-1",
-      "minutes": 1
+      "minutes": 1,
+      "presentation": {
+        "lessonSlide": 73,
+        "scene": "scena-qualitativo",
+        "lead": "Trovare problemi e stimare risultati sono obiettivi diversi",
+        "items": [
+          "I piccoli cicli qualitativi servono a osservare difficoltà e decidere modifiche.",
+          "Le misure quantitative richiedono campione, protocollo e analisi adeguati.",
+          "La proposta dei tre utenti riguarda il ciclo qualitativo descritto."
+        ],
+        "alias": "test-usabilita-p64-1",
+        "sourcePage": 64,
+        "originalBlocksSha256": "dfd0389d6785795bd746f7e80b321124f75c785cb5697b24887499ccb7232e25",
+        "scriptSha256": "85d2cf2b2f2742881f5d9fe4169233b2055174fa087202d68ab5f41447d4adf6"
+      },
+      "narrationEnabled": true
     },
     {
       "title": "Quanti utenti servono? (2)",
@@ -1492,7 +1725,22 @@
       ],
       "lessonSlide": 74,
       "alias": "test-usabilita-p65-1",
-      "minutes": 1
+      "minutes": 1,
+      "presentation": {
+        "lessonSlide": 74,
+        "scene": "scena-priorita",
+        "lead": "Concentrarsi sui problemi più gravi",
+        "items": [
+          "Un ciclo di test non trova ogni possibile difficoltà.",
+          "Spesso emergono più problemi di quanti se ne possano risolvere.",
+          "Usare gli episodi osservati per scegliere le priorità di intervento."
+        ],
+        "alias": "test-usabilita-p65-1",
+        "sourcePage": 65,
+        "originalBlocksSha256": "6519a670963c96a2ebf2d7a0f8797c8bb577388e5c034afddf0de221f49bfc73",
+        "scriptSha256": "720c3e6f7a83a3068ab649d3357be3a5202404dc5d385afc9a48d98d828ded1e"
+      },
+      "narrationEnabled": true
     },
     {
       "title": "Quanti utenti servono? (2)",
@@ -1507,7 +1755,8 @@
       ],
       "lessonSlide": 75,
       "alias": "test-usabilita-p65-2",
-      "minutes": 0.5
+      "minutes": 0.5,
+      "narrationEnabled": true
     },
     {
       "title": "Quanti utenti servono?",
@@ -1530,7 +1779,22 @@
       ],
       "lessonSlide": 76,
       "alias": "test-usabilita-p66-1",
-      "minutes": 1.5
+      "minutes": 1.5,
+      "presentation": {
+        "lessonSlide": 76,
+        "scene": "scena-partecipanti",
+        "lead": "Considerare esperienze diverse",
+        "items": [
+          "Anche nello stesso settore, familiarità e linguaggio variano.",
+          "Chiarezza e comprensibilità aiutano sia i novizi sia gli esperti.",
+          "Il reclutamento deve comunque restare pertinente al compito studiato."
+        ],
+        "alias": "test-usabilita-p66-1",
+        "sourcePage": 66,
+        "originalBlocksSha256": "c8bfc692f4929c1a9b29d9e115479d5cd2ec76ccb85666510cef741608760e28",
+        "scriptSha256": "1163109dad25398e5cb117f13333e75a61f842bc2a882cf42e81bcdbd9087fc1"
+      },
+      "narrationEnabled": true
     },
     {
       "title": "Quanti utenti servono?",
@@ -1545,7 +1809,8 @@
       ],
       "lessonSlide": 77,
       "alias": "test-usabilita-p66-2",
-      "minutes": 0.5
+      "minutes": 0.5,
+      "narrationEnabled": true
     },
     {
       "title": "Dove si eseguono i test?",
@@ -1568,7 +1833,22 @@
       ],
       "lessonSlide": 78,
       "alias": "test-usabilita-p67-1",
-      "minutes": 1.5
+      "minutes": 1.5,
+      "presentation": {
+        "lessonSlide": 78,
+        "scene": "scena-sessione",
+        "lead": "Uno spazio tranquillo e gli strumenti adatti",
+        "items": [
+          "Un tavolo, due sedie e un dispositivo coerente con il compito.",
+          "Computer, tastiera, mouse, Internet e microfono nella configurazione descritta.",
+          "Condivisione dello schermo per gli osservatori e registrazione della sessione."
+        ],
+        "alias": "test-usabilita-p67-1",
+        "sourcePage": 67,
+        "originalBlocksSha256": "017c6a98a8d938e80f2a053c741a9423e704aa19acb44a3c494bf0df10bc2731",
+        "scriptSha256": "09af931c5fb9585cf2b26c8f4835af350a2e02143393a5e7a3f49b647200055a"
+      },
+      "narrationEnabled": true
     },
     {
       "id": "preparazione-consenso",
@@ -1603,7 +1883,8 @@
         "gds-informed-consent"
       ],
       "editorial": true,
-      "lessonSlide": 79
+      "lessonSlide": 79,
+      "narrationEnabled": true
     },
     {
       "title": "Chi deve osservare? (1)",
@@ -1618,7 +1899,8 @@
       ],
       "lessonSlide": 80,
       "alias": "test-usabilita-p68-1",
-      "minutes": 0.5
+      "minutes": 0.5,
+      "narrationEnabled": true
     },
     {
       "title": "Chi deve osservare? (2)",
@@ -1637,7 +1919,22 @@
       ],
       "lessonSlide": 81,
       "alias": "test-usabilita-p69-1",
-      "minutes": 1
+      "minutes": 1,
+      "presentation": {
+        "lessonSlide": 81,
+        "scene": "scena-osservatori",
+        "lead": "Far osservare chi prende decisioni",
+        "items": [
+          "Coinvolgere team, stakeholder e responsabili nelle sessioni.",
+          "Seguire schermo e audio da un’altra stanza.",
+          "Predisporre computer, condivisione, monitor grande e altoparlanti."
+        ],
+        "alias": "test-usabilita-p69-1",
+        "sourcePage": 69,
+        "originalBlocksSha256": "9a9ff18e65f9a933c93aa683203b68e6ae9a1bce29fa736ba5f830323b22c1fc",
+        "scriptSha256": "020f44317b27e30ef7488f22c5b415291dceaf625c95860a7eb25d2963aee087"
+      },
+      "narrationEnabled": true
     },
     {
       "title": "Chi deve osservare? (2)",
@@ -1652,7 +1949,8 @@
       ],
       "lessonSlide": 82,
       "alias": "test-usabilita-p69-2",
-      "minutes": 0.5
+      "minutes": 0.5,
+      "narrationEnabled": true
     },
     {
       "title": "Cosa testare e quando testarlo? (1)",
@@ -1675,7 +1973,22 @@
       ],
       "lessonSlide": 83,
       "alias": "test-usabilita-p70-1",
-      "minutes": 1
+      "minutes": 1,
+      "presentation": {
+        "lessonSlide": 83,
+        "scene": "scena-prototipo-precoce",
+        "lead": "Iniziare prima che il progetto sia finito",
+        "items": [
+          "Testare presto e continuare durante lo sviluppo.",
+          "Anche i siti della concorrenza possono aiutare a esplorare scelte e difficoltà.",
+          "Confrontare stile, organizzazione e funzionalità prima di costruire."
+        ],
+        "alias": "test-usabilita-p70-1",
+        "sourcePage": 70,
+        "originalBlocksSha256": "d3627dbe4e40a18bbc72fc1e29a850c2831b044dfa6f27110f173b114a550099",
+        "scriptSha256": "c941dcb91ca80ef7c064b3a58060bc5bd2a0d3db90a811b3ed005e3eb7fd4720"
+      },
+      "narrationEnabled": true
     },
     {
       "title": "Cosa testare e quando testarlo? (1)",
@@ -1690,7 +2003,8 @@
       ],
       "lessonSlide": 84,
       "alias": "test-usabilita-p70-2",
-      "minutes": 0.5
+      "minutes": 0.5,
+      "narrationEnabled": true
     },
     {
       "title": "Cosa testare e quando testarlo? (2)",
@@ -1709,7 +2023,8 @@
       ],
       "lessonSlide": 85,
       "alias": "test-usabilita-p71-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Come si scelgono le attività per i test? (1)",
@@ -1732,7 +2047,8 @@
       ],
       "lessonSlide": 86,
       "alias": "test-usabilita-p72-1",
-      "minutes": 0.5
+      "minutes": 0.5,
+      "narrationEnabled": true
     },
     {
       "title": "Come si scelgono le attività per i test? (2)",
@@ -1771,7 +2087,8 @@
       ],
       "lessonSlide": 87,
       "alias": "test-usabilita-p73-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Come si scelgono le attività per i test? (3)",
@@ -1794,7 +2111,8 @@
       ],
       "lessonSlide": 88,
       "alias": "test-usabilita-p74-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "id": "criteri-successo",
@@ -1828,7 +2146,8 @@
         "gds-usability-benchmarking"
       ],
       "editorial": true,
-      "lessonSlide": 89
+      "lessonSlide": 89,
+      "narrationEnabled": true
     },
     {
       "title": "Come si scelgono le attività per i test? (4)",
@@ -1847,7 +2166,8 @@
       ],
       "lessonSlide": 90,
       "alias": "test-usabilita-p75-1",
-      "minutes": 0.5
+      "minutes": 0.5,
+      "narrationEnabled": true
     },
     {
       "title": "Come si scelgono le attività per i test? (4)",
@@ -1862,7 +2182,8 @@
       ],
       "lessonSlide": 91,
       "alias": "test-usabilita-p75-2",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Cosa succede durante i test? (1)",
@@ -1885,7 +2206,8 @@
       ],
       "lessonSlide": 92,
       "alias": "test-usabilita-p76-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Cosa succede durante i test? (1)",
@@ -1900,7 +2222,8 @@
       ],
       "lessonSlide": 93,
       "alias": "test-usabilita-p76-2",
-      "minutes": 0.5
+      "minutes": 0.5,
+      "narrationEnabled": true
     },
     {
       "title": "Cosa succede durante i test? (2)",
@@ -1935,7 +2258,23 @@
       ],
       "lessonSlide": 94,
       "alias": "test-usabilita-p77-1",
-      "minutes": 1.5
+      "minutes": 1.5,
+      "presentation": {
+        "lessonSlide": 94,
+        "scene": "scena-moderazione",
+        "lead": "Lasciare che la persona svolga il compito",
+        "items": [
+          "Le attività sono il cuore della sessione: circa 35 minuti nell’esempio.",
+          "Invitare a pensare ad alta voce, senza suggerire il percorso.",
+          "Evitare domande orientate e indizi.",
+          "Se serve intervenire per un blocco serio, annotare l’aiuto fornito."
+        ],
+        "alias": "test-usabilita-p77-1",
+        "sourcePage": 77,
+        "originalBlocksSha256": "1c547066ab3aa14321231e0b44c448ffb7df663e7301d5f3e9ac86dd18013de7",
+        "scriptSha256": "9c00f2bbf581aa3ee6b9d1e8b5541e81dc64c5f8c3cbb5140a6c61d8c59b06ef"
+      },
+      "narrationEnabled": true
     },
     {
       "title": "Cosa succede durante i test? (2)",
@@ -1950,7 +2289,8 @@
       ],
       "lessonSlide": 95,
       "alias": "test-usabilita-p77-2",
-      "minutes": 0.5
+      "minutes": 0.5,
+      "narrationEnabled": true
     },
     {
       "title": "Cosa succede durante i test? (3)",
@@ -1969,7 +2309,8 @@
       ],
       "lessonSlide": 96,
       "alias": "test-usabilita-p78-1",
-      "minutes": 0.5
+      "minutes": 0.5,
+      "narrationEnabled": true
     },
     {
       "title": "Problemi tipici",
@@ -1988,7 +2329,8 @@
       ],
       "lessonSlide": 97,
       "alias": "test-usabilita-p79-1",
-      "minutes": 0.5
+      "minutes": 0.5,
+      "narrationEnabled": true
     },
     {
       "title": "Problemi tipici",
@@ -2007,7 +2349,8 @@
       ],
       "lessonSlide": 98,
       "alias": "test-usabilita-p79-2",
-      "minutes": 0.5
+      "minutes": 0.5,
+      "narrationEnabled": true
     },
     {
       "title": "Problemi tipici",
@@ -2026,7 +2369,8 @@
       ],
       "lessonSlide": 99,
       "alias": "test-usabilita-p79-3",
-      "minutes": 0.5
+      "minutes": 0.5,
+      "narrationEnabled": true
     },
     {
       "title": "Il debriefing (1)",
@@ -2041,7 +2385,8 @@
       ],
       "lessonSlide": 100,
       "alias": "test-usabilita-p80-1",
-      "minutes": 0.5
+      "minutes": 0.5,
+      "narrationEnabled": true
     },
     {
       "title": "Il debriefing (2)",
@@ -2064,7 +2409,22 @@
       ],
       "lessonSlide": 101,
       "alias": "test-usabilita-p81-1",
-      "minutes": 1.5
+      "minutes": 1.5,
+      "presentation": {
+        "lessonSlide": 101,
+        "scene": "scena-priorita",
+        "lead": "Dalle osservazioni a una lista di priorità",
+        "items": [
+          "Raccogliere i problemi più seri segnalati dagli osservatori.",
+          "Unire gli episodi simili e annotare le ricorrenze.",
+          "Selezionare i problemi più gravi prima di decidere le soluzioni."
+        ],
+        "alias": "test-usabilita-p81-1",
+        "sourcePage": 81,
+        "originalBlocksSha256": "3823929d84fe4f5e6311cc02143648c8906309678975d83782342af99f6eceb1",
+        "scriptSha256": "f2b728693f8da1de46b332584044be8015c4368aab0a1b622c9177b7943a4445"
+      },
+      "narrationEnabled": true
     },
     {
       "title": "Il debriefing (2)",
@@ -2083,7 +2443,8 @@
       ],
       "lessonSlide": 102,
       "alias": "test-usabilita-p81-2",
-      "minutes": 0.5
+      "minutes": 0.5,
+      "narrationEnabled": true
     },
     {
       "id": "gravita-problemi",
@@ -2128,7 +2489,8 @@
         "nng-severity"
       ],
       "editorial": true,
-      "lessonSlide": 103
+      "lessonSlide": 103,
+      "narrationEnabled": true
     },
     {
       "title": "Il debriefing",
@@ -2147,7 +2509,8 @@
       ],
       "lessonSlide": 104,
       "alias": "test-usabilita-p82-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Il debriefing",
@@ -2162,7 +2525,8 @@
       ],
       "lessonSlide": 105,
       "alias": "test-usabilita-p82-2",
-      "minutes": 0.5
+      "minutes": 0.5,
+      "narrationEnabled": true
     },
     {
       "title": "Il debriefing",
@@ -2197,7 +2561,22 @@
       ],
       "lessonSlide": 106,
       "alias": "test-usabilita-p83-1",
-      "minutes": 1.5
+      "minutes": 1.5,
+      "presentation": {
+        "lessonSlide": 106,
+        "scene": "scena-richieste",
+        "lead": "Approfondire le richieste di nuove funzioni",
+        "items": [
+          "Chiedere come e quando verrebbe usata la funzione proposta.",
+          "Distinguere l’idea espressa dal bisogno che l’ha generata.",
+          "Valutare le proposte insieme agli episodi osservati."
+        ],
+        "alias": "test-usabilita-p83-1",
+        "sourcePage": 83,
+        "originalBlocksSha256": "c6543851aa0d49ef3b4c00147b1c8adc6d78f7a33764a97c5895702e23713f28",
+        "scriptSha256": "088227f524bae4c6e8d2cd1b6eb38835e7e619a23b3b35baf5ef0a2d085fd192"
+      },
+      "narrationEnabled": true
     },
     {
       "title": "Il debriefing",
@@ -2212,7 +2591,8 @@
       ],
       "lessonSlide": 107,
       "alias": "test-usabilita-p83-2",
-      "minutes": 0.5
+      "minutes": 0.5,
+      "narrationEnabled": true
     },
     {
       "title": "Il debriefing",
@@ -2231,7 +2611,8 @@
       ],
       "lessonSlide": 108,
       "alias": "test-usabilita-p84-1",
-      "minutes": 1
+      "minutes": 1,
+      "narrationEnabled": true
     },
     {
       "title": "Il debriefing",
@@ -2254,7 +2635,22 @@
       ],
       "lessonSlide": 109,
       "alias": "test-usabilita-p85-1",
-      "minutes": 1.5
+      "minutes": 1.5,
+      "presentation": {
+        "lessonSlide": 109,
+        "scene": "scena-remoto",
+        "lead": "Testare a distanza in tempo reale",
+        "items": [
+          "La persona partecipa da casa o dal proprio ufficio.",
+          "Condivisione dello schermo e microfono permettono di osservare e dialogare.",
+          "Si possono coinvolgere persone lontane o difficili da raggiungere in presenza."
+        ],
+        "alias": "test-usabilita-p85-1",
+        "sourcePage": 85,
+        "originalBlocksSha256": "e6973135702069566dd5c571876643575197e4d1f34bbc0ddb43ad62d5fc25d5",
+        "scriptSha256": "eb2c03c33f67d1e34d0e7b1e85211d00146ea31fbf1e385e57eaab77af3176d8"
+      },
+      "narrationEnabled": true
     },
     {
       "title": "Il debriefing",
@@ -2273,7 +2669,22 @@
       ],
       "lessonSlide": 110,
       "alias": "test-usabilita-p86-1",
-      "minutes": 1.5
+      "minutes": 1.5,
+      "presentation": {
+        "lessonSlide": 110,
+        "scene": "scena-registrazione",
+        "lead": "Osservare una registrazione in un secondo momento",
+        "items": [
+          "La persona svolge i compiti senza facilitatore presente in tempo reale.",
+          "Una piattaforma raccoglie video e risultati del percorso.",
+          "Il team esamina la registrazione; le istruzioni devono essere chiare fin dall’inizio."
+        ],
+        "alias": "test-usabilita-p86-1",
+        "sourcePage": 86,
+        "originalBlocksSha256": "50c10bf26224d9be618498798760231833aeda7008a657462b7e7e0c243b5bc8",
+        "scriptSha256": "ec26b3cc01a5d81192d714ec68d144da2a0bc7ce12af68fd42754c6480cc669f"
+      },
+      "narrationEnabled": true
     },
     {
       "id": "fonti-criteri",
@@ -2291,7 +2702,8 @@
         "iso-9241-110"
       ],
       "editorial": true,
-      "lessonSlide": 111
+      "lessonSlide": 111,
+      "narrationEnabled": false
     }
   ]
 }

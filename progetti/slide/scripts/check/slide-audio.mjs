@@ -6,11 +6,11 @@ import { openSlide } from '../../../../scripts/check/browser.mjs'
 
 const base = (process.env.SLIDEV_URL || 'http://localhost:3047').replace(/\/$/, '')
 const lessonId = process.env.SLIDE_AUDIO_LESSON || 'griglie-layout'
-const lessonDirectory = { 'griglie-layout': 'lezione-griglie', 'composizione-gerarchia': 'lezione-composizione' }[lessonId]
+const lessonDirectory = { 'griglie-layout': 'lezione-griglie', 'composizione-gerarchia': 'lezione-composizione', 'test-usabilita': 'lezione-test-usabilita' }[lessonId]
 assert.ok(lessonDirectory, 'a supported lesson must be selected explicitly')
 const lesson = `${base}/lezioni/${lessonId}`
 const output = process.env.SLIDE_AUDIO_REPORT || `reports/slide-audio/${lessonId}`
-const source = `progetti/slide/assets/booklet/${lessonDirectory}/`
+const source = lessonId === 'test-usabilita' ? `progetti/slide/assets/${lessonDirectory}/` : `progetti/slide/assets/booklet/${lessonDirectory}/`
 const selection = JSON.parse(await readFile(source + 'audio-approved.json', 'utf8'))
 const lessonManifest = JSON.parse(await readFile(source + 'manifest.json', 'utf8'))
 const speakerNotes = JSON.parse(await readFile(lessonManifest.speakerNotesSource, 'utf8'))
@@ -20,7 +20,7 @@ assert.equal(selection.lesson, lessonId)
 assert.deepEqual(clips.map(([alias]) => alias), lessonManifest.slides.filter(slide => selection.clips[slide.alias]).map(slide => slide.alias), 'selected recordings retain lesson order')
 assert.deepEqual(selection.pendingGeneration ?? [], lessonManifest.slides.filter(slide => slide.narrationEnabled !== false && !selection.clips[slide.alias]).map(slide => slide.alias), 'every requested missing recording is explicitly pending')
 assert.ok(lessonManifest.slides.filter(slide => slide.narrationEnabled === false).every(slide => !selection.clips[slide.alias]), 'disabled recordings are not selected')
-const screenshotSlides = new Set([1, 3, 10, 32, lessonManifest.slideCount])
+const screenshotSlides = new Set([1, 3, 10, 32, clips.length, lessonManifest.slideCount])
 const normalizeWhitespace = text => text.replace(/\s+/gu, ' ').trim()
 await mkdir(output, { recursive: true })
 const browser = await chromium.launch()

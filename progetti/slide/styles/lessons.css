@@ -78,24 +78,57 @@
 .lesson-columns > div > :last-child { margin-bottom: 0; }
 /* Historical testing copy keeps the shared reading scale after reflow. */
 .test-usabilita-slide .test-import-copy > :last-child { margin-bottom: 0; }
+/* Dense explanations retain their complete source and use concise visible copy. */
+.test-illustrated-summary.lesson-columns { gap: 48px; min-height: 360px; }
+.test-illustrated-summary > .lesson-figure { height: 360px; }
+.slidev-layout.default .test-illustrated-summary .lead { margin: 0 0 24px; }
+.test-illustrated-summary .cvedi-list { margin: 0; gap: 16px; }
+.slidev-layout.default .test-illustrated-summary .cvedi-list li { font-size: var(--cvedi-type-body); }
+/* The Norman introduction appears immediately, including the title mark. */
+.slidev-page:has(.test-norman-intro-static) { transition: none; opacity: 1; }
+.slidev-layout.default.fixed-title-slide.motion-enabled.test-norman-intro-static > h1::after { animation: none; }
+/* One principle and three consequences keep their original reading order. */
+.test-friendly-layout.lesson-columns {
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+  gap: 48px;
+}
+.slidev-layout.default .test-friendly-intro > .lead {
+  margin: 0 0 16px;
+  color: var(--section-primary);
+}
+.test-friendly-benefits.list { margin: 0; padding: 0; gap: 24px; }
+.slidev-layout.default .test-friendly-benefits .list-row {
+  grid-template-columns: minmax(0, 1fr);
+  padding: 0;
+  border-radius: 0;
+}
+.slidev-layout.default .test-friendly-benefits p { margin: 0; }
+/* The Nielsen opening previews the ten original headings in reading order. */
+.test-heuristics-overview .lesson-columns { align-items: start; gap: 48px; }
+.test-heuristics-list.list { margin: 0; padding: 0 0 0 36px; gap: 16px; list-style: decimal; }
+.slidev-layout.default .test-heuristics-list .list-row {
+  display: list-item;
+  padding: 0;
+  border-radius: 0;
+  font-size: var(--cvedi-type-body);
+  line-height: 1.4;
+}
+.test-heuristics-list .list-row::marker { color: var(--section-primary); font-weight: 600; }
+.slidev-layout.default .test-heuristics-overview > .aside { margin: 24px 0 0; }
 .slidev-layout.default.test-usabilita-slide .test-import-copy h2 {
   margin: 0 0 16px;
   font-size: var(--cvedi-type-lead);
 }
-.test-import-table .table { table-layout: fixed; width: 100%; }
-.slidev-layout.default .test-import-table .table :is(th, td) {
-  padding: 14px 16px;
-  color: var(--theme-body);
-  font-size: var(--cvedi-type-body);
-  line-height: 1.4;
-  white-space: normal;
-  overflow-wrap: anywhere;
-  vertical-align: top;
-}
-.slidev-layout.default .test-import-table .table thead th { color: var(--section-primary); }
-.test-import-table .table :is(th, td):first-child { width: 26%; }
-.slidev-layout.default .test-method-table .table :is(th, td) { padding-block: 8px; }
+/* Native testing tables inherit the course's shared LessonTable component. */
 .slidev-layout.default.test-usabilita-slide .test-import-source { margin: 24px 0 0; }
+/* Illustrated criteria keep the shared image reserve without trailing copy margins. */
+.slidev-layout.default.test-usabilita-slide .test-criteria-copy > .lead { margin-bottom: 16px; }
+.slidev-layout.default.test-usabilita-slide .test-criteria-copy .card-copy > :last-child,
+.slidev-layout.default.test-usabilita-slide .test-criteria-copy > :last-child > .aside { margin-bottom: 0; }
+.slidev-layout.default.test-usabilita-slide .test-criteria-copy > :last-child > .aside,
+.slidev-layout.default.test-usabilita-slide .test-criteria-copy + .test-import-source { margin-top: 16px; }
+.slidev-layout.default.test-usabilita-slide .lesson-audio-error { bottom: calc(100% + 24px); }
+.slidev-layout.default.test-friendly-slide .lesson-audio-error { bottom: calc(100% + 120px); }
 .test-usabilita-slide.test-import-illustrated .lesson-columns { min-height: 360px; }
 .test-usabilita-slide.test-import-illustrated .lesson-columns > .lesson-figure { height: 360px; }
 /* Native KaTeX keeps mathematical glyphs and accessible MathML together. */

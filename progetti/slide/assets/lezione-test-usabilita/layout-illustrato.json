@@ -1,0 +1,241 @@
+{
+  "version": 1,
+  "lesson": "test-usabilita",
+  "reason": "Richiesta dell’utente: alleggerire le slide dense, come la 47, con sintesi a sinistra e immagine pertinente a destra.",
+  "source": "progetti/slide/assets/lezione-test-usabilita/fonte-originale.json",
+  "sceneManifest": "progetti/slide/assets/lezione-test-usabilita/illustrazioni-testo/manifest.json",
+  "slides": [
+    {
+      "lessonSlide": 47,
+      "scene": "scena-laboratorio",
+      "lead": "Un modello storico molto dispendioso",
+      "items": [
+        "Laboratorio con specchio unidirezionale e videocamere.",
+        "Pianificazione specialistica e reclutamento numeroso.",
+        "Studi ampi per ottenere misure statistiche.",
+        "Costi riportati: 20.000–50.000 $; test poco frequenti."
+      ],
+      "alias": "test-usabilita-p45-1",
+      "sourcePage": 45,
+      "originalBlocksSha256": "750ef7463db0890145252836de5d66bec379274d899021d5b13790482fbc4bb2",
+      "scriptSha256": "4264be1c238c447c58adeaad092a91f4a7b3486ce975440bf7b67f9770e91a39"
+    },
+    {
+      "lessonSlide": 48,
+      "scene": "scena-sessione",
+      "lead": "Un’impostazione più leggera",
+      "items": [
+        "Nel 1989 Nielsen propone «Usability Engineering at a Discount».",
+        "Piccoli cicli di osservazione e revisione senza laboratorio dedicato.",
+        "Costi storici riportati: 5.000–10.000 $ per ciclo."
+      ],
+      "alias": "test-usabilita-p46-1",
+      "sourcePage": 46,
+      "originalBlocksSha256": "9da1eaddcf3a101bc0830baae84e713fcc4c5aaf9d9186c1f82603401bda2fd4",
+      "scriptSha256": "ccdc7680c77ea15f7f3301e8339e57aa6045e9974c2a9b82a999d6f7ef1149a0"
+    },
+    {
+      "lessonSlide": 55,
+      "scene": "scena-iterazione",
+      "lead": "Progettare, osservare, rivedere",
+      "items": [
+        "Le ipotesi di progetto incontrano l’uso delle persone.",
+        "Le variabili del contesto rendono difficile prevedere ogni interazione.",
+        "Ogni ciclo permette di correggere e verificare le scelte."
+      ],
+      "alias": "test-usabilita-p49-1",
+      "sourcePage": 49,
+      "originalBlocksSha256": "f2802148f5a5e0e8c40dcf256e0254fb05efdfce1c229421cbb48697a9bffbf8",
+      "scriptSha256": "4d3687eead685d5d4fcb2ca6f762e4e647217b5dcccfdfd3b1e997cbe394f2fd"
+    },
+    {
+      "lessonSlide": 58,
+      "scene": "scena-prototipo-precoce",
+      "lead": "Testare quando si può ancora cambiare",
+      "items": [
+        "Una prova semplice e precoce può orientare le decisioni.",
+        "Dopo il rilascio, le modifiche coinvolgono contenuti, processi e abitudini.",
+        "Anche piccoli cambiamenti possono avere effetti estesi."
+      ],
+      "alias": "test-usabilita-p51-2",
+      "sourcePage": 51,
+      "originalBlocksSha256": "dc604a7c85ce44f0cfbe26c032c840a7efcf400080f5fb465008da616d290d79",
+      "scriptSha256": "7d401fb2e9b8671154a2a98dcfa7fab88cfa68bd38fc0c1eb43e811537da8fe7"
+    },
+    {
+      "lessonSlide": 73,
+      "scene": "scena-qualitativo",
+      "lead": "Trovare problemi e stimare risultati sono obiettivi diversi",
+      "items": [
+        "I piccoli cicli qualitativi servono a osservare difficoltà e decidere modifiche.",
+        "Le misure quantitative richiedono campione, protocollo e analisi adeguati.",
+        "La proposta dei tre utenti riguarda il ciclo qualitativo descritto."
+      ],
+      "alias": "test-usabilita-p64-1",
+      "sourcePage": 64,
+      "originalBlocksSha256": "dfd0389d6785795bd746f7e80b321124f75c785cb5697b24887499ccb7232e25",
+      "scriptSha256": "85d2cf2b2f2742881f5d9fe4169233b2055174fa087202d68ab5f41447d4adf6"
+    },
+    {
+      "lessonSlide": 74,
+      "scene": "scena-priorita",
+      "lead": "Concentrarsi sui problemi più gravi",
+      "items": [
+        "Un ciclo di test non trova ogni possibile difficoltà.",
+        "Spesso emergono più problemi di quanti se ne possano risolvere.",
+        "Usare gli episodi osservati per scegliere le priorità di intervento."
+      ],
+      "alias": "test-usabilita-p65-1",
+      "sourcePage": 65,
+      "originalBlocksSha256": "6519a670963c96a2ebf2d7a0f8797c8bb577388e5c034afddf0de221f49bfc73",
+      "scriptSha256": "720c3e6f7a83a3068ab649d3357be3a5202404dc5d385afc9a48d98d828ded1e"
+    },
+    {
+      "lessonSlide": 76,
+      "scene": "scena-partecipanti",
+      "lead": "Considerare esperienze diverse",
+      "items": [
+        "Anche nello stesso settore, familiarità e linguaggio variano.",
+        "Chiarezza e comprensibilità aiutano sia i novizi sia gli esperti.",
+        "Il reclutamento deve comunque restare pertinente al compito studiato."
+      ],
+      "alias": "test-usabilita-p66-1",
+      "sourcePage": 66,
+      "originalBlocksSha256": "c8bfc692f4929c1a9b29d9e115479d5cd2ec76ccb85666510cef741608760e28",
+      "scriptSha256": "1163109dad25398e5cb117f13333e75a61f842bc2a882cf42e81bcdbd9087fc1"
+    },
+    {
+      "lessonSlide": 78,
+      "scene": "scena-sessione",
+      "lead": "Uno spazio tranquillo e gli strumenti adatti",
+      "items": [
+        "Un tavolo, due sedie e un dispositivo coerente con il compito.",
+        "Computer, tastiera, mouse, Internet e microfono nella configurazione descritta.",
+        "Condivisione dello schermo per gli osservatori e registrazione della sessione."
+      ],
+      "alias": "test-usabilita-p67-1",
+      "sourcePage": 67,
+      "originalBlocksSha256": "017c6a98a8d938e80f2a053c741a9423e704aa19acb44a3c494bf0df10bc2731",
+      "scriptSha256": "09af931c5fb9585cf2b26c8f4835af350a2e02143393a5e7a3f49b647200055a"
+    },
+    {
+      "lessonSlide": 81,
+      "scene": "scena-osservatori",
+      "lead": "Far osservare chi prende decisioni",
+      "items": [
+        "Coinvolgere team, stakeholder e responsabili nelle sessioni.",
+        "Seguire schermo e audio da un’altra stanza.",
+        "Predisporre computer, condivisione, monitor grande e altoparlanti."
+      ],
+      "alias": "test-usabilita-p69-1",
+      "sourcePage": 69,
+      "originalBlocksSha256": "9a9ff18e65f9a933c93aa683203b68e6ae9a1bce29fa736ba5f830323b22c1fc",
+      "scriptSha256": "020f44317b27e30ef7488f22c5b415291dceaf625c95860a7eb25d2963aee087"
+    },
+    {
+      "lessonSlide": 83,
+      "scene": "scena-prototipo-precoce",
+      "lead": "Iniziare prima che il progetto sia finito",
+      "items": [
+        "Testare presto e continuare durante lo sviluppo.",
+        "Anche i siti della concorrenza possono aiutare a esplorare scelte e difficoltà.",
+        "Confrontare stile, organizzazione e funzionalità prima di costruire."
+      ],
+      "alias": "test-usabilita-p70-1",
+      "sourcePage": 70,
+      "originalBlocksSha256": "d3627dbe4e40a18bbc72fc1e29a850c2831b044dfa6f27110f173b114a550099",
+      "scriptSha256": "c941dcb91ca80ef7c064b3a58060bc5bd2a0d3db90a811b3ed005e3eb7fd4720"
+    },
+    {
+      "lessonSlide": 94,
+      "scene": "scena-moderazione",
+      "lead": "Lasciare che la persona svolga il compito",
+      "items": [
+        "Le attività sono il cuore della sessione: circa 35 minuti nell’esempio.",
+        "Invitare a pensare ad alta voce, senza suggerire il percorso.",
+        "Evitare domande orientate e indizi.",
+        "Se serve intervenire per un blocco serio, annotare l’aiuto fornito."
+      ],
+      "alias": "test-usabilita-p77-1",
+      "sourcePage": 77,
+      "originalBlocksSha256": "1c547066ab3aa14321231e0b44c448ffb7df663e7301d5f3e9ac86dd18013de7",
+      "scriptSha256": "9c00f2bbf581aa3ee6b9d1e8b5541e81dc64c5f8c3cbb5140a6c61d8c59b06ef"
+    },
+    {
+      "lessonSlide": 101,
+      "scene": "scena-priorita",
+      "lead": "Dalle osservazioni a una lista di priorità",
+      "items": [
+        "Raccogliere i problemi più seri segnalati dagli osservatori.",
+        "Unire gli episodi simili e annotare le ricorrenze.",
+        "Selezionare i problemi più gravi prima di decidere le soluzioni."
+      ],
+      "alias": "test-usabilita-p81-1",
+      "sourcePage": 81,
+      "originalBlocksSha256": "3823929d84fe4f5e6311cc02143648c8906309678975d83782342af99f6eceb1",
+      "scriptSha256": "f2b728693f8da1de46b332584044be8015c4368aab0a1b622c9177b7943a4445"
+    },
+    {
+      "lessonSlide": 106,
+      "scene": "scena-richieste",
+      "lead": "Approfondire le richieste di nuove funzioni",
+      "items": [
+        "Chiedere come e quando verrebbe usata la funzione proposta.",
+        "Distinguere l’idea espressa dal bisogno che l’ha generata.",
+        "Valutare le proposte insieme agli episodi osservati."
+      ],
+      "alias": "test-usabilita-p83-1",
+      "sourcePage": 83,
+      "originalBlocksSha256": "c6543851aa0d49ef3b4c00147b1c8adc6d78f7a33764a97c5895702e23713f28",
+      "scriptSha256": "088227f524bae4c6e8d2cd1b6eb38835e7e619a23b3b35baf5ef0a2d085fd192"
+    },
+    {
+      "lessonSlide": 109,
+      "scene": "scena-remoto",
+      "lead": "Testare a distanza in tempo reale",
+      "items": [
+        "La persona partecipa da casa o dal proprio ufficio.",
+        "Condivisione dello schermo e microfono permettono di osservare e dialogare.",
+        "Si possono coinvolgere persone lontane o difficili da raggiungere in presenza."
+      ],
+      "alias": "test-usabilita-p85-1",
+      "sourcePage": 85,
+      "originalBlocksSha256": "e6973135702069566dd5c571876643575197e4d1f34bbc0ddb43ad62d5fc25d5",
+      "scriptSha256": "eb2c03c33f67d1e34d0e7b1e85211d00146ea31fbf1e385e57eaab77af3176d8"
+    },
+    {
+      "lessonSlide": 110,
+      "scene": "scena-registrazione",
+      "lead": "Osservare una registrazione in un secondo momento",
+      "items": [
+        "La persona svolge i compiti senza facilitatore presente in tempo reale.",
+        "Una piattaforma raccoglie video e risultati del percorso.",
+        "Il team esamina la registrazione; le istruzioni devono essere chiare fin dall’inizio."
+      ],
+      "alias": "test-usabilita-p86-1",
+      "sourcePage": 86,
+      "originalBlocksSha256": "50c10bf26224d9be618498798760231833aeda7008a657462b7e7e0c243b5bc8",
+      "scriptSha256": "ec26b3cc01a5d81192d714ec68d144da2a0bc7ce12af68fd42754c6480cc669f"
+    }
+  ],
+  "review": {
+    "selectedSlides": [
+      47,
+      48,
+      55,
+      58,
+      73,
+      74,
+      76,
+      78,
+      81,
+      83,
+      94,
+      101,
+      106,
+      109,
+      110
+    ],
+    "criteria": "Prosa lunga o spiegazione concettuale densa: sintesi visibile coerente con copione e trascrizione. Liste brevi, tabelle, citazioni e sequenze già illustrate mantengono il proprio modello."
+  }
+}
