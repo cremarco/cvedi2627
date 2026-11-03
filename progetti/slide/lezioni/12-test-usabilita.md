@@ -5,7 +5,6 @@ lesson: "test-usabilita"
 lessonSlide: 1
 lessonMinutes: 1
 routeAlias: "test-usabilita"
-localOnly: true
 narrationAudio: "/audio/lezione-test-usabilita/01-test-usabilita-fe7592d02bab.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/01-test-usabilita-fe7592d02bab.vtt"
 lessonNumber: 12
@@ -29,7 +28,6 @@ lesson: "test-usabilita"
 lessonSlide: 2
 lessonMinutes: 1
 routeAlias: "test-usabilita-summary"
-localOnly: true
 narrationAudio: "/audio/lezione-test-usabilita/02-test-usabilita-summary-1e9b665c61b6.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/02-test-usabilita-summary-1e9b665c61b6.vtt"
 summaryStatement: "Gli elementi centrali nella maggior parte dei test di usabilità sono il facilitatore, i compiti e il partecipante"
@@ -56,7 +54,6 @@ lesson: "test-usabilita"
 lessonSlide: 3
 lessonMinutes: 1
 routeAlias: "test-usabilita-opening-objectives"
-localOnly: true
 narrationAudio: "/audio/lezione-test-usabilita/03-test-usabilita-opening-objectives-e135ebd140b9.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/03-test-usabilita-opening-objectives-e135ebd140b9.vtt"
 class: "content-slide lesson-slide test-usabilita-slide reading-slide concept-slide"
@@ -81,7 +78,6 @@ lesson: "test-usabilita"
 lessonSlide: 4
 lessonMinutes: 1
 routeAlias: "test-usabilita-p8-1"
-localOnly: true
 sourceSlide: 8
 narrationAudio: "/audio/lezione-test-usabilita/04-test-usabilita-p8-1-b0be37b6abc5.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/04-test-usabilita-p8-1-b0be37b6abc5.vtt"
@@ -105,7 +101,6 @@ lesson: "test-usabilita"
 lessonSlide: 5
 lessonMinutes: 1
 routeAlias: "test-usabilita-p9-1"
-localOnly: true
 sourceSlide: 9
 narrationAudio: "/audio/lezione-test-usabilita/05-test-usabilita-p9-1-1f6c67b6818c.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/05-test-usabilita-p9-1-1f6c67b6818c.vtt"
@@ -131,7 +126,6 @@ lesson: "test-usabilita"
 lessonSlide: 6
 lessonMinutes: 2
 routeAlias: "test-usabilita-componenti-usabilita"
-localOnly: true
 integrationId: "componenti-usabilita"
 narrationAudio: "/audio/lezione-test-usabilita/06-test-usabilita-componenti-usabilita-672150c90d3a.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/06-test-usabilita-componenti-usabilita-672150c90d3a.vtt"
@@ -161,7 +155,6 @@ lesson: "test-usabilita"
 lessonSlide: 7
 lessonMinutes: 1.5
 routeAlias: "test-usabilita-p10-1"
-localOnly: true
 sourceSlide: 10
 narrationAudio: "/audio/lezione-test-usabilita/07-test-usabilita-p10-1-017ae01d0c42.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/07-test-usabilita-p10-1-017ae01d0c42.vtt"
@@ -189,7 +182,6 @@ lesson: "test-usabilita"
 lessonSlide: 8
 lessonMinutes: 1
 routeAlias: "test-usabilita-p11-1"
-localOnly: true
 sourceSlide: 11
 narrationAudio: "/audio/lezione-test-usabilita/08-test-usabilita-p11-1-5feed9561ca7.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/08-test-usabilita-p11-1-5feed9561ca7.vtt"
@@ -213,7 +205,6 @@ lesson: "test-usabilita"
 lessonSlide: 9
 lessonMinutes: 1
 routeAlias: "test-usabilita-p12-1"
-localOnly: true
 sourceSlide: 12
 narrationAudio: "/audio/lezione-test-usabilita/09-test-usabilita-p12-1-f23a01aa2ab9.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/09-test-usabilita-p12-1-f23a01aa2ab9.vtt"
@@ -239,7 +230,6 @@ lesson: "test-usabilita"
 lessonSlide: 10
 lessonMinutes: 1
 routeAlias: "test-usabilita-p13-1"
-localOnly: true
 sourceSlide: 13
 narrationAudio: "/audio/lezione-test-usabilita/10-test-usabilita-p13-1-6d4e02f57818.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/10-test-usabilita-p13-1-6d4e02f57818.vtt"
@@ -265,7 +255,6 @@ lesson: "test-usabilita"
 lessonSlide: 11
 lessonMinutes: 1.5
 routeAlias: "test-usabilita-p14-1"
-localOnly: true
 sourceSlide: 14
 narrationAudio: "/audio/lezione-test-usabilita/11-test-usabilita-p14-1-36f69d70903c.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/11-test-usabilita-p14-1-36f69d70903c.vtt"
@@ -293,7 +282,6 @@ lesson: "test-usabilita"
 lessonSlide: 12
 lessonMinutes: 1
 routeAlias: "test-usabilita-p15-1"
-localOnly: true
 sourceSlide: 15
 narrationAudio: "/audio/lezione-test-usabilita/12-test-usabilita-p15-1-ccf8290444ca.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/12-test-usabilita-p15-1-ccf8290444ca.vtt"
@@ -319,7 +307,6 @@ lesson: "test-usabilita"
 lessonSlide: 13
 lessonMinutes: 1
 routeAlias: "test-usabilita-p16-1"
-localOnly: true
 sourceSlide: 16
 narrationAudio: "/audio/lezione-test-usabilita/13-test-usabilita-p16-1-4b663cbc3921.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/13-test-usabilita-p16-1-4b663cbc3921.vtt"
@@ -347,7 +334,6 @@ lesson: "test-usabilita"
 lessonSlide: 14
 lessonMinutes: 2
 routeAlias: "test-usabilita-p17-1"
-localOnly: true
 sourceSlide: 17
 narrationAudio: "/audio/lezione-test-usabilita/14-test-usabilita-p17-1-2bfaef7e85c6.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/14-test-usabilita-p17-1-2bfaef7e85c6.vtt"
@@ -377,7 +363,6 @@ lesson: "test-usabilita"
 lessonSlide: 15
 lessonMinutes: 1
 routeAlias: "test-usabilita-p18-1"
-localOnly: true
 sourceSlide: 18
 narrationAudio: "/audio/lezione-test-usabilita/15-test-usabilita-p18-1-6a4d3b204308.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/15-test-usabilita-p18-1-6a4d3b204308.vtt"
@@ -403,7 +388,6 @@ lesson: "test-usabilita"
 lessonSlide: 16
 lessonMinutes: 2
 routeAlias: "test-usabilita-p19-1"
-localOnly: true
 sourceSlide: 19
 narrationAudio: "/audio/lezione-test-usabilita/16-test-usabilita-p19-1-19f72669328d.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/16-test-usabilita-p19-1-19f72669328d.vtt"
@@ -433,7 +417,6 @@ lesson: "test-usabilita"
 lessonSlide: 17
 lessonMinutes: 1
 routeAlias: "test-usabilita-p20-1"
-localOnly: true
 sourceSlide: 20
 narrationAudio: "/audio/lezione-test-usabilita/17-test-usabilita-p20-1-de8b64dde6ab.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/17-test-usabilita-p20-1-de8b64dde6ab.vtt"
@@ -459,7 +442,6 @@ lesson: "test-usabilita"
 lessonSlide: 18
 lessonMinutes: 1
 routeAlias: "test-usabilita-p21-1"
-localOnly: true
 sourceSlide: 21
 narrationAudio: "/audio/lezione-test-usabilita/18-test-usabilita-p21-1-1775f9a2f551.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/18-test-usabilita-p21-1-1775f9a2f551.vtt"
@@ -485,7 +467,6 @@ lesson: "test-usabilita"
 lessonSlide: 19
 lessonMinutes: 1.5
 routeAlias: "test-usabilita-p22-1"
-localOnly: true
 sourceSlide: 22
 narrationAudio: "/audio/lezione-test-usabilita/19-test-usabilita-p22-1-01583d9d5b01.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/19-test-usabilita-p22-1-01583d9d5b01.vtt"
@@ -513,7 +494,6 @@ lesson: "test-usabilita"
 lessonSlide: 20
 lessonMinutes: 1
 routeAlias: "test-usabilita-p23-1"
-localOnly: true
 sourceSlide: 23
 narrationAudio: "/audio/lezione-test-usabilita/20-test-usabilita-p23-1-c23e9120cbb4.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/20-test-usabilita-p23-1-c23e9120cbb4.vtt"
@@ -541,7 +521,6 @@ lesson: "test-usabilita"
 lessonSlide: 21
 lessonMinutes: 1
 routeAlias: "test-usabilita-p24-1"
-localOnly: true
 sourceSlide: 24
 narrationAudio: "/audio/lezione-test-usabilita/21-test-usabilita-p24-1-311e0eb266ba.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/21-test-usabilita-p24-1-311e0eb266ba.vtt"
@@ -567,7 +546,6 @@ lesson: "test-usabilita"
 lessonSlide: 22
 lessonMinutes: 1
 routeAlias: "test-usabilita-p25-1"
-localOnly: true
 sourceSlide: 25
 narrationAudio: "/audio/lezione-test-usabilita/22-test-usabilita-p25-1-4b41bad8c2c3.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/22-test-usabilita-p25-1-4b41bad8c2c3.vtt"
@@ -595,7 +573,6 @@ lesson: "test-usabilita"
 lessonSlide: 23
 lessonMinutes: 1
 routeAlias: "test-usabilita-p26-1"
-localOnly: true
 sourceSlide: 26
 narrationAudio: "/audio/lezione-test-usabilita/23-test-usabilita-p26-1-1b53c7a86237.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/23-test-usabilita-p26-1-1b53c7a86237.vtt"
@@ -621,7 +598,6 @@ lesson: "test-usabilita"
 lessonSlide: 24
 lessonMinutes: 1
 routeAlias: "test-usabilita-p27-1"
-localOnly: true
 sourceSlide: 27
 narrationAudio: "/audio/lezione-test-usabilita/24-test-usabilita-p27-1-e983224064db.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/24-test-usabilita-p27-1-e983224064db.vtt"
@@ -649,7 +625,6 @@ lesson: "test-usabilita"
 lessonSlide: 25
 lessonMinutes: 1
 routeAlias: "test-usabilita-p28-1"
-localOnly: true
 sourceSlide: 28
 narrationAudio: "/audio/lezione-test-usabilita/25-test-usabilita-p28-1-775b6c4d644c.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/25-test-usabilita-p28-1-775b6c4d644c.vtt"
@@ -675,7 +650,6 @@ lesson: "test-usabilita"
 lessonSlide: 26
 lessonMinutes: 1
 routeAlias: "test-usabilita-p29-1"
-localOnly: true
 sourceSlide: 29
 narrationAudio: "/audio/lezione-test-usabilita/26-test-usabilita-p29-1-44513d17fbac.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/26-test-usabilita-p29-1-44513d17fbac.vtt"
@@ -699,7 +673,6 @@ lesson: "test-usabilita"
 lessonSlide: 27
 lessonMinutes: 1.5
 routeAlias: "test-usabilita-p30-1"
-localOnly: true
 sourceSlide: 30
 narrationAudio: "/audio/lezione-test-usabilita/27-test-usabilita-p30-1-280f0b1bfcc5.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/27-test-usabilita-p30-1-280f0b1bfcc5.vtt"
@@ -727,7 +700,6 @@ lesson: "test-usabilita"
 lessonSlide: 28
 lessonMinutes: 1
 routeAlias: "test-usabilita-p31-1"
-localOnly: true
 sourceSlide: 31
 narrationAudio: "/audio/lezione-test-usabilita/28-test-usabilita-p31-1-9bdeb233cfec.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/28-test-usabilita-p31-1-9bdeb233cfec.vtt"
@@ -755,7 +727,6 @@ lesson: "test-usabilita"
 lessonSlide: 29
 lessonMinutes: 1
 routeAlias: "test-usabilita-p32-1"
-localOnly: true
 sourceSlide: 32
 narrationAudio: "/audio/lezione-test-usabilita/29-test-usabilita-p32-1-5d2abc428130.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/29-test-usabilita-p32-1-5d2abc428130.vtt"
@@ -783,7 +754,6 @@ lesson: "test-usabilita"
 lessonSlide: 30
 lessonMinutes: 1
 routeAlias: "test-usabilita-p33-1"
-localOnly: true
 sourceSlide: 33
 narrationAudio: "/audio/lezione-test-usabilita/30-test-usabilita-p33-1-11bdf933cc8f.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/30-test-usabilita-p33-1-11bdf933cc8f.vtt"
@@ -811,7 +781,6 @@ lesson: "test-usabilita"
 lessonSlide: 31
 lessonMinutes: 1
 routeAlias: "test-usabilita-p34-1"
-localOnly: true
 sourceSlide: 34
 narrationAudio: "/audio/lezione-test-usabilita/31-test-usabilita-p34-1-c5a5862e6910.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/31-test-usabilita-p34-1-c5a5862e6910.vtt"
@@ -839,7 +808,6 @@ lesson: "test-usabilita"
 lessonSlide: 32
 lessonMinutes: 1
 routeAlias: "test-usabilita-p35-1"
-localOnly: true
 sourceSlide: 35
 narrationAudio: "/audio/lezione-test-usabilita/32-test-usabilita-p35-1-776ea37a298d.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/32-test-usabilita-p35-1-776ea37a298d.vtt"
@@ -867,7 +835,6 @@ lesson: "test-usabilita"
 lessonSlide: 33
 lessonMinutes: 1
 routeAlias: "test-usabilita-p36-1"
-localOnly: true
 sourceSlide: 36
 narrationAudio: "/audio/lezione-test-usabilita/33-test-usabilita-p36-1-1c697b770592.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/33-test-usabilita-p36-1-1c697b770592.vtt"
@@ -895,7 +862,6 @@ lesson: "test-usabilita"
 lessonSlide: 34
 lessonMinutes: 1
 routeAlias: "test-usabilita-p37-1"
-localOnly: true
 sourceSlide: 37
 narrationAudio: "/audio/lezione-test-usabilita/34-test-usabilita-p37-1-cd84859e2dec.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/34-test-usabilita-p37-1-cd84859e2dec.vtt"
@@ -923,7 +889,6 @@ lesson: "test-usabilita"
 lessonSlide: 35
 lessonMinutes: 1
 routeAlias: "test-usabilita-p38-1"
-localOnly: true
 sourceSlide: 38
 narrationAudio: "/audio/lezione-test-usabilita/35-test-usabilita-p38-1-10ccc0370884.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/35-test-usabilita-p38-1-10ccc0370884.vtt"
@@ -951,7 +916,6 @@ lesson: "test-usabilita"
 lessonSlide: 36
 lessonMinutes: 1
 routeAlias: "test-usabilita-p39-1"
-localOnly: true
 sourceSlide: 39
 narrationAudio: "/audio/lezione-test-usabilita/36-test-usabilita-p39-1-4bfbf731d5b8.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/36-test-usabilita-p39-1-4bfbf731d5b8.vtt"
@@ -979,7 +943,6 @@ lesson: "test-usabilita"
 lessonSlide: 37
 lessonMinutes: 1
 routeAlias: "test-usabilita-p40-1"
-localOnly: true
 sourceSlide: 40
 narrationAudio: "/audio/lezione-test-usabilita/37-test-usabilita-p40-1-d2646a1e1aa1.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/37-test-usabilita-p40-1-d2646a1e1aa1.vtt"
@@ -1007,7 +970,6 @@ lesson: "test-usabilita"
 lessonSlide: 38
 lessonMinutes: 2
 routeAlias: "test-usabilita-criterio-conclusione"
-localOnly: true
 integrationId: "conclusione"
 narrationAudio: "/audio/lezione-test-usabilita/38-test-usabilita-criterio-conclusione-c0c3982e5055.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/38-test-usabilita-criterio-conclusione-c0c3982e5055.vtt"
@@ -1037,7 +999,6 @@ lesson: "test-usabilita"
 lessonSlide: 39
 lessonMinutes: 2
 routeAlias: "test-usabilita-criterio-lavoro-stato"
-localOnly: true
 integrationId: "lavoro-stato"
 narrationAudio: "/audio/lezione-test-usabilita/39-test-usabilita-criterio-lavoro-stato-15ab10996873.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/39-test-usabilita-criterio-lavoro-stato-15ab10996873.vtt"
@@ -1067,7 +1028,6 @@ lesson: "test-usabilita"
 lessonSlide: 40
 lessonMinutes: 2
 routeAlias: "test-usabilita-criterio-carico-operativo"
-localOnly: true
 integrationId: "carico-operativo"
 narrationAudio: "/audio/lezione-test-usabilita/40-test-usabilita-criterio-carico-operativo-637cbae7aaf0.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/40-test-usabilita-criterio-carico-operativo-637cbae7aaf0.vtt"
@@ -1097,7 +1057,6 @@ lesson: "test-usabilita"
 lessonSlide: 41
 lessonMinutes: 1.5
 routeAlias: "test-usabilita-ispezione-e-test"
-localOnly: true
 integrationId: "ispezione-test"
 narrationAudio: "/audio/lezione-test-usabilita/41-test-usabilita-ispezione-e-test-1146a140cc42.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/41-test-usabilita-ispezione-e-test-1146a140cc42.vtt"
@@ -1125,7 +1084,6 @@ lesson: "test-usabilita"
 lessonSlide: 42
 lessonMinutes: 1
 routeAlias: "test-usabilita-p41-1"
-localOnly: true
 sourceSlide: 41
 narrationAudio: "/audio/lezione-test-usabilita/42-test-usabilita-p41-1-22237ac1af4c.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/42-test-usabilita-p41-1-22237ac1af4c.vtt"
@@ -1149,7 +1107,6 @@ lesson: "test-usabilita"
 lessonSlide: 43
 lessonMinutes: 1
 routeAlias: "test-usabilita-p42-1"
-localOnly: true
 sourceSlide: 42
 narrationAudio: "/audio/lezione-test-usabilita/43-test-usabilita-p42-1-626b7b78563d.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/43-test-usabilita-p42-1-626b7b78563d.vtt"
@@ -1175,7 +1132,6 @@ lesson: "test-usabilita"
 lessonSlide: 44
 lessonMinutes: 1.5
 routeAlias: "test-usabilita-p43-1"
-localOnly: true
 sourceSlide: 43
 narrationAudio: "/audio/lezione-test-usabilita/44-test-usabilita-p43-1-982db354ba37.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/44-test-usabilita-p43-1-982db354ba37.vtt"
@@ -1203,7 +1159,6 @@ lesson: "test-usabilita"
 lessonSlide: 45
 lessonMinutes: 1.5
 routeAlias: "test-usabilita-p44-1"
-localOnly: true
 sourceSlide: 44
 narrationAudio: "/audio/lezione-test-usabilita/45-test-usabilita-p44-1-edd6575dc0db.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/45-test-usabilita-p44-1-edd6575dc0db.vtt"
@@ -1231,7 +1186,6 @@ lesson: "test-usabilita"
 lessonSlide: 46
 lessonMinutes: 1
 routeAlias: "test-usabilita-p44-2"
-localOnly: true
 sourceSlide: 44
 narrationAudio: "/audio/lezione-test-usabilita/46-test-usabilita-p44-2-92cc094e88a8.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/46-test-usabilita-p44-2-92cc094e88a8.vtt"
@@ -1257,7 +1211,6 @@ lesson: "test-usabilita"
 lessonSlide: 47
 lessonMinutes: 1.5
 routeAlias: "test-usabilita-p45-1"
-localOnly: true
 sourceSlide: 45
 narrationAudio: "/audio/lezione-test-usabilita/47-test-usabilita-p45-1-dbb25daff51a.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/47-test-usabilita-p45-1-dbb25daff51a.vtt"
@@ -1285,7 +1238,6 @@ lesson: "test-usabilita"
 lessonSlide: 48
 lessonMinutes: 1
 routeAlias: "test-usabilita-p46-1"
-localOnly: true
 sourceSlide: 46
 narrationAudio: "/audio/lezione-test-usabilita/48-test-usabilita-p46-1-ccf153579475.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/48-test-usabilita-p46-1-ccf153579475.vtt"
@@ -1313,7 +1265,6 @@ lesson: "test-usabilita"
 lessonSlide: 49
 lessonMinutes: 1
 routeAlias: "test-usabilita-p47-1"
-localOnly: true
 sourceSlide: 47
 narrationAudio: "/audio/lezione-test-usabilita/49-test-usabilita-p47-1-2ca699cf5822.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/49-test-usabilita-p47-1-2ca699cf5822.vtt"
@@ -1339,7 +1290,6 @@ lesson: "test-usabilita"
 lessonSlide: 50
 lessonMinutes: 1
 routeAlias: "test-usabilita-p47-2"
-localOnly: true
 sourceSlide: 47
 narrationAudio: "/audio/lezione-test-usabilita/50-test-usabilita-p47-2-f6aeb5285553.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/50-test-usabilita-p47-2-f6aeb5285553.vtt"
@@ -1365,7 +1315,6 @@ lesson: "test-usabilita"
 lessonSlide: 51
 lessonMinutes: 1
 routeAlias: "test-usabilita-p47-3"
-localOnly: true
 sourceSlide: 47
 narrationAudio: "/audio/lezione-test-usabilita/51-test-usabilita-p47-3-77c42ef5de6d.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/51-test-usabilita-p47-3-77c42ef5de6d.vtt"
@@ -1391,7 +1340,6 @@ lesson: "test-usabilita"
 lessonSlide: 52
 lessonMinutes: 1
 routeAlias: "test-usabilita-p47-4"
-localOnly: true
 sourceSlide: 47
 narrationAudio: "/audio/lezione-test-usabilita/52-test-usabilita-p47-4-90d791c380c1.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/52-test-usabilita-p47-4-90d791c380c1.vtt"
@@ -1419,7 +1367,6 @@ lesson: "test-usabilita"
 lessonSlide: 53
 lessonMinutes: 1
 routeAlias: "test-usabilita-p47-5"
-localOnly: true
 sourceSlide: 47
 narrationAudio: "/audio/lezione-test-usabilita/53-test-usabilita-p47-5-58a4a46eae3a.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/53-test-usabilita-p47-5-58a4a46eae3a.vtt"
@@ -1445,7 +1392,6 @@ lesson: "test-usabilita"
 lessonSlide: 54
 lessonMinutes: 1
 routeAlias: "test-usabilita-p48-1"
-localOnly: true
 sourceSlide: 48
 narrationAudio: "/audio/lezione-test-usabilita/54-test-usabilita-p48-1-d5f35981cd0a.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/54-test-usabilita-p48-1-d5f35981cd0a.vtt"
@@ -1473,7 +1419,6 @@ lesson: "test-usabilita"
 lessonSlide: 55
 lessonMinutes: 1.5
 routeAlias: "test-usabilita-p49-1"
-localOnly: true
 sourceSlide: 49
 narrationAudio: "/audio/lezione-test-usabilita/55-test-usabilita-p49-1-b38b37fb7035.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/55-test-usabilita-p49-1-b38b37fb7035.vtt"
@@ -1501,7 +1446,6 @@ lesson: "test-usabilita"
 lessonSlide: 56
 lessonMinutes: 1
 routeAlias: "test-usabilita-p50-1"
-localOnly: true
 sourceSlide: 50
 narrationAudio: "/audio/lezione-test-usabilita/56-test-usabilita-p50-1-ad08a29bd471.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/56-test-usabilita-p50-1-ad08a29bd471.vtt"
@@ -1527,7 +1471,6 @@ lesson: "test-usabilita"
 lessonSlide: 57
 lessonMinutes: 1
 routeAlias: "test-usabilita-p51-1"
-localOnly: true
 sourceSlide: 51
 narrationAudio: "/audio/lezione-test-usabilita/57-test-usabilita-p51-1-cc5c76537414.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/57-test-usabilita-p51-1-cc5c76537414.vtt"
@@ -1553,7 +1496,6 @@ lesson: "test-usabilita"
 lessonSlide: 58
 lessonMinutes: 1.5
 routeAlias: "test-usabilita-p51-2"
-localOnly: true
 sourceSlide: 51
 narrationAudio: "/audio/lezione-test-usabilita/58-test-usabilita-p51-2-a4f713976af1.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/58-test-usabilita-p51-2-a4f713976af1.vtt"
@@ -1581,7 +1523,6 @@ lesson: "test-usabilita"
 lessonSlide: 59
 lessonMinutes: 1
 routeAlias: "test-usabilita-p51-3"
-localOnly: true
 sourceSlide: 51
 narrationAudio: "/audio/lezione-test-usabilita/59-test-usabilita-p51-3-40006d8a5397.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/59-test-usabilita-p51-3-40006d8a5397.vtt"
@@ -1607,7 +1548,6 @@ lesson: "test-usabilita"
 lessonSlide: 60
 lessonMinutes: 1
 routeAlias: "test-usabilita-p52-1"
-localOnly: true
 sourceSlide: 52
 narrationAudio: "/audio/lezione-test-usabilita/60-test-usabilita-p52-1-9b1b6831aa78.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/60-test-usabilita-p52-1-9b1b6831aa78.vtt"
@@ -1633,7 +1573,6 @@ lesson: "test-usabilita"
 lessonSlide: 61
 lessonMinutes: 1
 routeAlias: "test-usabilita-p53-1"
-localOnly: true
 sourceSlide: 53
 narrationAudio: "/audio/lezione-test-usabilita/61-test-usabilita-p53-1-d20e4daf0828.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/61-test-usabilita-p53-1-d20e4daf0828.vtt"
@@ -1661,7 +1600,6 @@ lesson: "test-usabilita"
 lessonSlide: 62
 lessonMinutes: 1
 routeAlias: "test-usabilita-p54-1"
-localOnly: true
 sourceSlide: 54
 narrationAudio: "/audio/lezione-test-usabilita/62-test-usabilita-p54-1-0e7c86926777.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/62-test-usabilita-p54-1-0e7c86926777.vtt"
@@ -1689,7 +1627,6 @@ lesson: "test-usabilita"
 lessonSlide: 63
 lessonMinutes: 1
 routeAlias: "test-usabilita-p55-1"
-localOnly: true
 sourceSlide: 55
 narrationAudio: "/audio/lezione-test-usabilita/63-test-usabilita-p55-1-7af90ae4b79e.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/63-test-usabilita-p55-1-7af90ae4b79e.vtt"
@@ -1717,7 +1654,6 @@ lesson: "test-usabilita"
 lessonSlide: 64
 lessonMinutes: 1
 routeAlias: "test-usabilita-p56-1"
-localOnly: true
 sourceSlide: 56
 narrationAudio: "/audio/lezione-test-usabilita/64-test-usabilita-p56-1-e6a0e1acd1fc.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/64-test-usabilita-p56-1-e6a0e1acd1fc.vtt"
@@ -1745,7 +1681,6 @@ lesson: "test-usabilita"
 lessonSlide: 65
 lessonMinutes: 1
 routeAlias: "test-usabilita-p57-1"
-localOnly: true
 sourceSlide: 57
 narrationAudio: "/audio/lezione-test-usabilita/65-test-usabilita-p57-1-aa03cdc57584.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/65-test-usabilita-p57-1-aa03cdc57584.vtt"
@@ -1773,7 +1708,6 @@ lesson: "test-usabilita"
 lessonSlide: 66
 lessonMinutes: 1
 routeAlias: "test-usabilita-p58-1"
-localOnly: true
 sourceSlide: 58
 narrationAudio: "/audio/lezione-test-usabilita/66-test-usabilita-p58-1-d70801cd9d1e.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/66-test-usabilita-p58-1-d70801cd9d1e.vtt"
@@ -1801,7 +1735,6 @@ lesson: "test-usabilita"
 lessonSlide: 67
 lessonMinutes: 1
 routeAlias: "test-usabilita-p59-1"
-localOnly: true
 sourceSlide: 59
 narrationAudio: "/audio/lezione-test-usabilita/67-test-usabilita-p59-1-aaa2636978cd.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/67-test-usabilita-p59-1-aaa2636978cd.vtt"
@@ -1829,7 +1762,6 @@ lesson: "test-usabilita"
 lessonSlide: 68
 lessonMinutes: 0.5
 routeAlias: "test-usabilita-p60-1"
-localOnly: true
 sourceSlide: 60
 narrationAudio: "/audio/lezione-test-usabilita/68-test-usabilita-p60-1-1e6bca7d03a0.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/68-test-usabilita-p60-1-1e6bca7d03a0.vtt"
@@ -1853,7 +1785,6 @@ lesson: "test-usabilita"
 lessonSlide: 69
 lessonMinutes: 0.5
 routeAlias: "test-usabilita-p61-1"
-localOnly: true
 sourceSlide: 61
 narrationAudio: "/audio/lezione-test-usabilita/69-test-usabilita-p61-1-62cbbe78c1f7.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/69-test-usabilita-p61-1-62cbbe78c1f7.vtt"
@@ -1877,7 +1808,6 @@ lesson: "test-usabilita"
 lessonSlide: 70
 lessonMinutes: 1
 routeAlias: "test-usabilita-p62-1"
-localOnly: true
 sourceSlide: 62
 narrationAudio: "/audio/lezione-test-usabilita/70-test-usabilita-p62-1-c42fb08ec74e.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/70-test-usabilita-p62-1-c42fb08ec74e.vtt"
@@ -1905,7 +1835,6 @@ lesson: "test-usabilita"
 lessonSlide: 71
 lessonMinutes: 1
 routeAlias: "test-usabilita-p63-1"
-localOnly: true
 sourceSlide: 63
 narrationAudio: "/audio/lezione-test-usabilita/71-test-usabilita-p63-1-3d7f78b0ab05.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/71-test-usabilita-p63-1-3d7f78b0ab05.vtt"
@@ -1933,7 +1862,6 @@ lesson: "test-usabilita"
 lessonSlide: 72
 lessonMinutes: 0.5
 routeAlias: "test-usabilita-p63-2"
-localOnly: true
 sourceSlide: 63
 narrationAudio: "/audio/lezione-test-usabilita/72-test-usabilita-p63-2-7ce2f5ede146.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/72-test-usabilita-p63-2-7ce2f5ede146.vtt"
@@ -1957,7 +1885,6 @@ lesson: "test-usabilita"
 lessonSlide: 73
 lessonMinutes: 1
 routeAlias: "test-usabilita-p64-1"
-localOnly: true
 sourceSlide: 64
 narrationAudio: "/audio/lezione-test-usabilita/73-test-usabilita-p64-1-03bb05ed28e6.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/73-test-usabilita-p64-1-03bb05ed28e6.vtt"
@@ -1985,7 +1912,6 @@ lesson: "test-usabilita"
 lessonSlide: 74
 lessonMinutes: 1
 routeAlias: "test-usabilita-p65-1"
-localOnly: true
 sourceSlide: 65
 narrationAudio: "/audio/lezione-test-usabilita/74-test-usabilita-p65-1-2a43c4d29fff.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/74-test-usabilita-p65-1-2a43c4d29fff.vtt"
@@ -2013,7 +1939,6 @@ lesson: "test-usabilita"
 lessonSlide: 75
 lessonMinutes: 0.5
 routeAlias: "test-usabilita-p65-2"
-localOnly: true
 sourceSlide: 65
 narrationAudio: "/audio/lezione-test-usabilita/75-test-usabilita-p65-2-568923eaf525.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/75-test-usabilita-p65-2-568923eaf525.vtt"
@@ -2037,7 +1962,6 @@ lesson: "test-usabilita"
 lessonSlide: 76
 lessonMinutes: 1.5
 routeAlias: "test-usabilita-p66-1"
-localOnly: true
 sourceSlide: 66
 narrationAudio: "/audio/lezione-test-usabilita/76-test-usabilita-p66-1-46f0bc241317.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/76-test-usabilita-p66-1-46f0bc241317.vtt"
@@ -2067,7 +1991,6 @@ lesson: "test-usabilita"
 lessonSlide: 77
 lessonMinutes: 0.5
 routeAlias: "test-usabilita-p66-2"
-localOnly: true
 sourceSlide: 66
 narrationAudio: "/audio/lezione-test-usabilita/77-test-usabilita-p66-2-7e6c6eda6ad4.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/77-test-usabilita-p66-2-7e6c6eda6ad4.vtt"
@@ -2091,7 +2014,6 @@ lesson: "test-usabilita"
 lessonSlide: 78
 lessonMinutes: 1.5
 routeAlias: "test-usabilita-p67-1"
-localOnly: true
 sourceSlide: 67
 narrationAudio: "/audio/lezione-test-usabilita/78-test-usabilita-p67-1-05ae199f81b7.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/78-test-usabilita-p67-1-05ae199f81b7.vtt"
@@ -2119,7 +2041,6 @@ lesson: "test-usabilita"
 lessonSlide: 79
 lessonMinutes: 3
 routeAlias: "test-usabilita-preparazione-consenso"
-localOnly: true
 integrationId: "preparazione-consenso"
 narrationAudio: "/audio/lezione-test-usabilita/79-test-usabilita-preparazione-consenso-d7adc7131074.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/79-test-usabilita-preparazione-consenso-d7adc7131074.vtt"
@@ -2153,7 +2074,6 @@ lesson: "test-usabilita"
 lessonSlide: 80
 lessonMinutes: 0.5
 routeAlias: "test-usabilita-p68-1"
-localOnly: true
 sourceSlide: 68
 narrationAudio: "/audio/lezione-test-usabilita/80-test-usabilita-p68-1-58f8949e1e31.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/80-test-usabilita-p68-1-58f8949e1e31.vtt"
@@ -2177,7 +2097,6 @@ lesson: "test-usabilita"
 lessonSlide: 81
 lessonMinutes: 1
 routeAlias: "test-usabilita-p69-1"
-localOnly: true
 sourceSlide: 69
 narrationAudio: "/audio/lezione-test-usabilita/81-test-usabilita-p69-1-b6fea90914a8.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/81-test-usabilita-p69-1-b6fea90914a8.vtt"
@@ -2205,7 +2124,6 @@ lesson: "test-usabilita"
 lessonSlide: 82
 lessonMinutes: 0.5
 routeAlias: "test-usabilita-p69-2"
-localOnly: true
 sourceSlide: 69
 narrationAudio: "/audio/lezione-test-usabilita/82-test-usabilita-p69-2-9a6baa5fb562.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/82-test-usabilita-p69-2-9a6baa5fb562.vtt"
@@ -2229,7 +2147,6 @@ lesson: "test-usabilita"
 lessonSlide: 83
 lessonMinutes: 1
 routeAlias: "test-usabilita-p70-1"
-localOnly: true
 sourceSlide: 70
 narrationAudio: "/audio/lezione-test-usabilita/83-test-usabilita-p70-1-abf357f9619f.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/83-test-usabilita-p70-1-abf357f9619f.vtt"
@@ -2257,7 +2174,6 @@ lesson: "test-usabilita"
 lessonSlide: 84
 lessonMinutes: 0.5
 routeAlias: "test-usabilita-p70-2"
-localOnly: true
 sourceSlide: 70
 narrationAudio: "/audio/lezione-test-usabilita/84-test-usabilita-p70-2-0c394470e9fa.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/84-test-usabilita-p70-2-0c394470e9fa.vtt"
@@ -2281,7 +2197,6 @@ lesson: "test-usabilita"
 lessonSlide: 85
 lessonMinutes: 1
 routeAlias: "test-usabilita-p71-1"
-localOnly: true
 sourceSlide: 71
 narrationAudio: "/audio/lezione-test-usabilita/85-test-usabilita-p71-1-923bf54f160a.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/85-test-usabilita-p71-1-923bf54f160a.vtt"
@@ -2309,7 +2224,6 @@ lesson: "test-usabilita"
 lessonSlide: 86
 lessonMinutes: 0.5
 routeAlias: "test-usabilita-p72-1"
-localOnly: true
 sourceSlide: 72
 narrationAudio: "/audio/lezione-test-usabilita/86-test-usabilita-p72-1-1ed0da3d32af.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/86-test-usabilita-p72-1-1ed0da3d32af.vtt"
@@ -2333,7 +2247,6 @@ lesson: "test-usabilita"
 lessonSlide: 87
 lessonMinutes: 1
 routeAlias: "test-usabilita-p73-1"
-localOnly: true
 sourceSlide: 73
 narrationAudio: "/audio/lezione-test-usabilita/87-test-usabilita-p73-1-402187fb774f.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/87-test-usabilita-p73-1-402187fb774f.vtt"
@@ -2361,7 +2274,6 @@ lesson: "test-usabilita"
 lessonSlide: 88
 lessonMinutes: 1
 routeAlias: "test-usabilita-p74-1"
-localOnly: true
 sourceSlide: 74
 narrationAudio: "/audio/lezione-test-usabilita/88-test-usabilita-p74-1-64efd2207f9f.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/88-test-usabilita-p74-1-64efd2207f9f.vtt"
@@ -2389,7 +2301,6 @@ lesson: "test-usabilita"
 lessonSlide: 89
 lessonMinutes: 3
 routeAlias: "test-usabilita-criteri-successo"
-localOnly: true
 integrationId: "criteri-successo"
 narrationAudio: "/audio/lezione-test-usabilita/89-test-usabilita-criteri-successo-441e6a11056f.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/89-test-usabilita-criteri-successo-441e6a11056f.vtt"
@@ -2421,7 +2332,6 @@ lesson: "test-usabilita"
 lessonSlide: 90
 lessonMinutes: 0.5
 routeAlias: "test-usabilita-p75-1"
-localOnly: true
 sourceSlide: 75
 narrationAudio: "/audio/lezione-test-usabilita/90-test-usabilita-p75-1-0ecc1ffc4385.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/90-test-usabilita-p75-1-0ecc1ffc4385.vtt"
@@ -2445,7 +2355,6 @@ lesson: "test-usabilita"
 lessonSlide: 91
 lessonMinutes: 1
 routeAlias: "test-usabilita-p75-2"
-localOnly: true
 sourceSlide: 75
 narrationAudio: "/audio/lezione-test-usabilita/91-test-usabilita-p75-2-08d46bca4ba0.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/91-test-usabilita-p75-2-08d46bca4ba0.vtt"
@@ -2473,7 +2382,6 @@ lesson: "test-usabilita"
 lessonSlide: 92
 lessonMinutes: 1
 routeAlias: "test-usabilita-p76-1"
-localOnly: true
 sourceSlide: 76
 narrationAudio: "/audio/lezione-test-usabilita/92-test-usabilita-p76-1-ff4a12a52b99.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/92-test-usabilita-p76-1-ff4a12a52b99.vtt"
@@ -2501,7 +2409,6 @@ lesson: "test-usabilita"
 lessonSlide: 93
 lessonMinutes: 0.5
 routeAlias: "test-usabilita-p76-2"
-localOnly: true
 sourceSlide: 76
 narrationAudio: "/audio/lezione-test-usabilita/93-test-usabilita-p76-2-39a946e73982.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/93-test-usabilita-p76-2-39a946e73982.vtt"
@@ -2525,7 +2432,6 @@ lesson: "test-usabilita"
 lessonSlide: 94
 lessonMinutes: 1.5
 routeAlias: "test-usabilita-p77-1"
-localOnly: true
 sourceSlide: 77
 narrationAudio: "/audio/lezione-test-usabilita/94-test-usabilita-p77-1-9edb61bf6705.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/94-test-usabilita-p77-1-9edb61bf6705.vtt"
@@ -2555,7 +2461,6 @@ lesson: "test-usabilita"
 lessonSlide: 95
 lessonMinutes: 0.5
 routeAlias: "test-usabilita-p77-2"
-localOnly: true
 sourceSlide: 77
 narrationAudio: "/audio/lezione-test-usabilita/95-test-usabilita-p77-2-13de608fb848.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/95-test-usabilita-p77-2-13de608fb848.vtt"
@@ -2579,7 +2484,6 @@ lesson: "test-usabilita"
 lessonSlide: 96
 lessonMinutes: 0.5
 routeAlias: "test-usabilita-p78-1"
-localOnly: true
 sourceSlide: 78
 narrationAudio: "/audio/lezione-test-usabilita/96-test-usabilita-p78-1-ed81884246cc.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/96-test-usabilita-p78-1-ed81884246cc.vtt"
@@ -2603,7 +2507,6 @@ lesson: "test-usabilita"
 lessonSlide: 97
 lessonMinutes: 0.5
 routeAlias: "test-usabilita-p79-1"
-localOnly: true
 sourceSlide: 79
 narrationAudio: "/audio/lezione-test-usabilita/97-test-usabilita-p79-1-57d7bdb9612d.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/97-test-usabilita-p79-1-57d7bdb9612d.vtt"
@@ -2627,7 +2530,6 @@ lesson: "test-usabilita"
 lessonSlide: 98
 lessonMinutes: 0.5
 routeAlias: "test-usabilita-p79-2"
-localOnly: true
 sourceSlide: 79
 narrationAudio: "/audio/lezione-test-usabilita/98-test-usabilita-p79-2-19cc665cb583.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/98-test-usabilita-p79-2-19cc665cb583.vtt"
@@ -2651,7 +2553,6 @@ lesson: "test-usabilita"
 lessonSlide: 99
 lessonMinutes: 0.5
 routeAlias: "test-usabilita-p79-3"
-localOnly: true
 sourceSlide: 79
 narrationAudio: "/audio/lezione-test-usabilita/99-test-usabilita-p79-3-e5491abf3c48.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/99-test-usabilita-p79-3-e5491abf3c48.vtt"
@@ -2675,7 +2576,6 @@ lesson: "test-usabilita"
 lessonSlide: 100
 lessonMinutes: 0.5
 routeAlias: "test-usabilita-p80-1"
-localOnly: true
 sourceSlide: 80
 narrationAudio: "/audio/lezione-test-usabilita/100-test-usabilita-p80-1-fd6b9524252f.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/100-test-usabilita-p80-1-fd6b9524252f.vtt"
@@ -2699,7 +2599,6 @@ lesson: "test-usabilita"
 lessonSlide: 101
 lessonMinutes: 1.5
 routeAlias: "test-usabilita-p81-1"
-localOnly: true
 sourceSlide: 81
 narrationAudio: "/audio/lezione-test-usabilita/101-test-usabilita-p81-1-faf5241019c1.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/101-test-usabilita-p81-1-faf5241019c1.vtt"
@@ -2727,7 +2626,6 @@ lesson: "test-usabilita"
 lessonSlide: 102
 lessonMinutes: 0.5
 routeAlias: "test-usabilita-p81-2"
-localOnly: true
 sourceSlide: 81
 narrationAudio: "/audio/lezione-test-usabilita/102-test-usabilita-p81-2-3f9d64ddb12a.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/102-test-usabilita-p81-2-3f9d64ddb12a.vtt"
@@ -2751,7 +2649,6 @@ lesson: "test-usabilita"
 lessonSlide: 103
 lessonMinutes: 2
 routeAlias: "test-usabilita-gravita-problemi"
-localOnly: true
 integrationId: "gravita-problemi"
 narrationAudio: "/audio/lezione-test-usabilita/103-test-usabilita-gravita-problemi-2ff22806d2b9.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/103-test-usabilita-gravita-problemi-2ff22806d2b9.vtt"
@@ -2781,7 +2678,6 @@ lesson: "test-usabilita"
 lessonSlide: 104
 lessonMinutes: 1
 routeAlias: "test-usabilita-p82-1"
-localOnly: true
 sourceSlide: 82
 narrationAudio: "/audio/lezione-test-usabilita/104-test-usabilita-p82-1-b5f6c38adb58.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/104-test-usabilita-p82-1-b5f6c38adb58.vtt"
@@ -2809,7 +2705,6 @@ lesson: "test-usabilita"
 lessonSlide: 105
 lessonMinutes: 0.5
 routeAlias: "test-usabilita-p82-2"
-localOnly: true
 sourceSlide: 82
 narrationAudio: "/audio/lezione-test-usabilita/105-test-usabilita-p82-2-e7c6ca233096.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/105-test-usabilita-p82-2-e7c6ca233096.vtt"
@@ -2833,7 +2728,6 @@ lesson: "test-usabilita"
 lessonSlide: 106
 lessonMinutes: 1.5
 routeAlias: "test-usabilita-p83-1"
-localOnly: true
 sourceSlide: 83
 narrationAudio: "/audio/lezione-test-usabilita/106-test-usabilita-p83-1-a1fa67cbf9a9.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/106-test-usabilita-p83-1-a1fa67cbf9a9.vtt"
@@ -2861,7 +2755,6 @@ lesson: "test-usabilita"
 lessonSlide: 107
 lessonMinutes: 0.5
 routeAlias: "test-usabilita-p83-2"
-localOnly: true
 sourceSlide: 83
 narrationAudio: "/audio/lezione-test-usabilita/107-test-usabilita-p83-2-b25f69f5cf90.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/107-test-usabilita-p83-2-b25f69f5cf90.vtt"
@@ -2885,7 +2778,6 @@ lesson: "test-usabilita"
 lessonSlide: 108
 lessonMinutes: 1
 routeAlias: "test-usabilita-p84-1"
-localOnly: true
 sourceSlide: 84
 narrationAudio: "/audio/lezione-test-usabilita/108-test-usabilita-p84-1-5fc5f38c554c.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/108-test-usabilita-p84-1-5fc5f38c554c.vtt"
@@ -2913,7 +2805,6 @@ lesson: "test-usabilita"
 lessonSlide: 109
 lessonMinutes: 1.5
 routeAlias: "test-usabilita-p85-1"
-localOnly: true
 sourceSlide: 85
 narrationAudio: "/audio/lezione-test-usabilita/109-test-usabilita-p85-1-e95fa000fc46.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/109-test-usabilita-p85-1-e95fa000fc46.vtt"
@@ -2943,7 +2834,6 @@ lesson: "test-usabilita"
 lessonSlide: 110
 lessonMinutes: 1.5
 routeAlias: "test-usabilita-p86-1"
-localOnly: true
 sourceSlide: 86
 narrationAudio: "/audio/lezione-test-usabilita/110-test-usabilita-p86-1-4b15b49a42ed.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/110-test-usabilita-p86-1-4b15b49a42ed.vtt"
@@ -2973,7 +2863,6 @@ lesson: "test-usabilita"
 lessonSlide: 111
 lessonMinutes: 0.5
 routeAlias: "test-usabilita-fonti-criteri"
-localOnly: true
 integrationId: "fonti-criteri"
 speakerNotesEnabled: false
 class: "content-slide lesson-slide test-usabilita-slide reading-slide"

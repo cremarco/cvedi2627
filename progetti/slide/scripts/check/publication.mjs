@@ -20,7 +20,7 @@ export async function checkPublication() {
   const uxIds = new Set(curriculum.lessons.map(lesson => lesson.id))
   const localUxIds = curriculum.lessons.filter(lesson => lesson.localOnly === true).map(lesson => lesson.id)
   assert.deepEqual(localUxIds, [], 'the active historical UX lessons are published')
-  const supplementalIds = [grids.lesson, 'composizione-gerarchia', 'processo-ux-ui']
+  const supplementalIds = [grids.lesson, 'composizione-gerarchia', 'processo-ux-ui', 'test-usabilita']
   const localExercises = exercises.exercises.filter(exercise => lessonDecks.find(deck => deck.id === exercise.id)?.localOnly)
   const publicExercises = exercises.exercises.filter(exercise => !localExercises.includes(exercise))
   const localTheoryIds = lessonDecks.filter(deck => deck.localOnly && !deck.id.startsWith('esercitazione-')).map(deck => deck.id)
@@ -53,8 +53,13 @@ export async function checkPublication() {
     assert.ok(local.slides.filter(slide => slide.frontmatter.lesson === grids.lesson).every(slide => slide.frontmatter.localOnly !== true), 'all supplementary grids slides are published')
     assert.equal(local.slides.length, 243 + declaredUxSlides + exercises.slideCount + grids.slideCount + 62 + process.slideCount + usability.slideCount, 'complete local deck includes the final invitation, preserved composition slides, index, exercises and historical testing import')
     assert.equal(local.slides.filter(slide => slide.frontmatter.lesson === usability.lesson).length, usability.slideCount, 'historical testing import is complete locally')
-    assert.ok(!published.slides.some(slide => slide.frontmatter.lesson === usability.lesson), 'testing import stays out of public builds during review')
-    assert.equal(published.slides.length, 845 + process.slideCount + publicExercises.reduce((sum, exercise) => sum + exercise.slideCount, 0), 'published deck includes authorized exercise slides')
+    const publicUsability = published.slides.filter(slide => slide.frontmatter.lesson === usability.lesson)
+    assert.equal(publicUsability.length, usability.slideCount, 'lesson 12 is complete online')
+    assert.deepEqual(publicUsability.map(slide => slide.frontmatter.routeAlias), usability.slides.map(slide => slide.alias), 'lesson 12 preserves every public route in order')
+    assert.ok(publicUsability.every(slide => !slide.frontmatter.narrationAudio && !slide.frontmatter.narrationCaptions), 'lesson 12 has no audio or captions online')
+    assert.ok(publicUsability.every(slide => !/narration(?:Audio|Captions):/.test(slide.frontmatterRaw)), 'raw public metadata excludes private narration URLs')
+    assert.equal(local.slides.filter(slide => slide.frontmatter.lesson === usability.lesson && slide.frontmatter.narrationAudio && slide.frontmatter.narrationCaptions).length, 110, 'lesson 12 keeps its 110 recordings and captions locally')
+    assert.equal(published.slides.length, 845 + process.slideCount + usability.slideCount + publicExercises.reduce((sum, exercise) => sum + exercise.slideCount, 0), 'published deck includes authorized exercise slides')
     for (const deck of [local, published]) {
       assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design').length, 67, 'lesson 03 is available locally and online')
       assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'storia-design'), 'lesson 03 retains its destination alias')
@@ -101,6 +106,7 @@ export async function checkPublication() {
       assert.match(content, /<SlideAction\s+to="composizione-gerarchia"[^>]*aria-label="10 Composizione e gerarchia visiva · Audio disponibile"[^>]*>[\s\S]*?<HeroIcon\s+name="speaker-wave"\s+class="index-audio-icon\s/, 'both indexes announce and show available composition audio')
     }
     assert.ok(Object.keys(published.markdownFiles).includes(path.join(root, 'progetti/slide/lezioni/07-griglie-layout.md')), 'supplementary grids source is imported by the published parser')
+    assert.doesNotMatch(publicIndex.match(/<SlideAction\s+to="test-usabilita"[\s\S]*?<\/SlideAction>/)?.[0] ?? '', /speaker-wave|Audio disponibile/, 'the public lesson 12 menu does not advertise audio')
     assert.ok(!publicIndex.includes('LocalOnly'), 'no local-only wrapper remains in the public lesson index')
     for (const deck of [local, published]) {
       const index = deck.slides.find(slide => slide.title === 'Indice delle esercitazioni')
@@ -157,6 +163,12 @@ export async function checkPublishedBuild(directory) {
   assert.ok(publishedProcess, 'lesson 11 is registered online')
   assert.deepEqual(publishedProcess.slides.map(slide => slide.alias), process.slides.map(slide => slide.alias), 'lesson 11 publishes every active slide in its approved order')
   await access(path.join(output, 'lezioni/processo-ux-ui/index.html'))
+  const usability = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/lezione-test-usabilita/manifest.json'), 'utf8'))
+  const publishedUsability = catalog.decks.find(deck => deck.id === usability.lesson)
+  assert.ok(publishedUsability, 'lesson 12 is registered online')
+  assert.deepEqual(publishedUsability.slides.map(slide => slide.alias), usability.slides.map(slide => slide.alias), 'lesson 12 publishes all 111 routes in order')
+  await access(path.join(output, 'lezioni/test-usabilita/index.html'))
+  assert.ok(references.includes('/images/test-usabilita/'), 'lesson 12 illustrations are published')
   const grids = await readGridsManifest()
   const publishedGrids = catalog.decks.find(deck => deck.id === grids.lesson)
   assert.ok(publishedGrids, 'the supplementary grids deck is registered online')

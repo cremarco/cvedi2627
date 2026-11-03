@@ -107,7 +107,7 @@ export async function checkUsabilitySources(deck) {
     assert.equal(slide.frontmatter.routeAlias, expected.alias)
     assert.equal(slide.frontmatter.sourceSlide, expected.sourcePage)
     assert.equal(slide.title, expected.title)
-    assert.equal(slide.frontmatter.localOnly, true, 'the import stays local for review')
+    assert.notEqual(slide.frontmatter.localOnly, true, 'lesson 12 is available in public builds')
     assert.equal(slide.frontmatter.lessonMinutes, expected.minutes)
     if (expected.editorial) {
       assert.equal(slide.frontmatter.integrationId, expected.id)
