@@ -399,9 +399,9 @@
       "sourcePage": 53,
       "kind": "native-svg",
       "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/componenti-test.source.svg",
-      "originalSha256": "214f11320e5a5c6a87dffe4bdc3ac4c88da375e6f68ca3eba831aeec8f9b7583",
+      "originalSha256": "2bc781aeb472a33573c46e6553f80ba561c633b5dd85912acb9dc1baadd235c6",
       "web": "/images/test-usabilita/ricostruite/componenti-test.svg",
-      "sha256": "f2881f60d85c63591bd1564a607521cc46b81087eed44d3b8d1290ddcc4dadfa",
+      "sha256": "ec7a654c4d3edd00b9eaac2d1f11c3ce1b5a6f7063d00c5ca4cd39b28daa8bc5",
       "webSize": [
         1200,
         540
@@ -448,16 +448,22 @@
           "label": "Dà feedback"
         }
       ],
-      "zoomClearanceRight": 56
+      "zoomClearanceRight": 56,
+      "iconManifest": "progetti/slide/assets/icons/heroicons/manifest.json",
+      "icons": [
+        "chat-bubble-left-right",
+        "clipboard-document-list",
+        "user"
+      ]
     },
     {
       "id": "ruolo-facilitatore",
       "sourcePage": 54,
       "kind": "native-svg",
       "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/ruolo-facilitatore.source.svg",
-      "originalSha256": "a8a76f40ecba4e22191c68d4ca9f640efe74a6bc9c3a0c9a1e09142e595569f9",
+      "originalSha256": "32ec109f7116155a97af4af36e6caec008cae4f32d85858655ad34eaf3a65811",
       "web": "/images/test-usabilita/ricostruite/ruolo-facilitatore.svg",
-      "sha256": "ed5779dc3ad41985d410c1e785998a83ea84623e3a92d4ce7e3d517b393038d4",
+      "sha256": "81e9443719d8079be977417481efd5b24a3949b282b82851b750eae199940239",
       "webSize": [
         500,
         440
@@ -472,16 +478,20 @@
         "lungo il processo"
       ],
       "relationships": [],
-      "zoomClearanceRight": 56
+      "zoomClearanceRight": 56,
+      "iconManifest": "progetti/slide/assets/icons/heroicons/manifest.json",
+      "icons": [
+        "chat-bubble-left-right"
+      ]
     },
     {
       "id": "ruolo-compiti",
       "sourcePage": 56,
       "kind": "native-svg",
       "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/ruolo-compiti.source.svg",
-      "originalSha256": "e5efc0ea233565c50b33613a721940d7d82aa9489eb93594d3894a1c95d28a8b",
+      "originalSha256": "b7b63d85cdbfa524423d4c00e7d033496bcec095b59a279a0f185c99dfba04f8",
       "web": "/images/test-usabilita/ricostruite/ruolo-compiti.svg",
-      "sha256": "25567ce5987e69f5e7a31ca7415f6927ddf5fe87c1900c00dce0cdffa1df4b59",
+      "sha256": "56f8fdf394452c96ee0f6ce233bee99c9df20d166df82f3c3f194f8bbb2e76dc",
       "webSize": [
         500,
         440
@@ -497,16 +507,20 @@
         "nella vita reale"
       ],
       "relationships": [],
-      "zoomClearanceRight": 56
+      "zoomClearanceRight": 56,
+      "iconManifest": "progetti/slide/assets/icons/heroicons/manifest.json",
+      "icons": [
+        "clipboard-document-list"
+      ]
     },
     {
       "id": "ruolo-partecipante",
       "sourcePage": 59,
       "kind": "native-svg",
       "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/ruolo-partecipante.source.svg",
-      "originalSha256": "aed1883752b73767d538d6efa57d5b69c813ecb8d1eb4a509db31c5c3b49ce71",
+      "originalSha256": "55d71e38983d3c11f6bd747b4a9f65f743df8871e522c5ea6b2b23bb533b09a5",
       "web": "/images/test-usabilita/ricostruite/ruolo-partecipante.svg",
-      "sha256": "72faf1f2ff0ba5c996102d9ce945bd7af8073d88511ed48da601ed2c4a7878fd",
+      "sha256": "01fb73bb10ca4c0e6a45cc56589f6b3dbadfb67491298d317dab3a2c656ab257",
       "webSize": [
         500,
         440
@@ -521,7 +535,11 @@
         "o servizio in fase di studio"
       ],
       "relationships": [],
-      "zoomClearanceRight": 56
+      "zoomClearanceRight": 56,
+      "iconManifest": "progetti/slide/assets/icons/heroicons/manifest.json",
+      "icons": [
+        "user"
+      ]
     }
   ]
 }

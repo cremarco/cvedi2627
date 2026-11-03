@@ -111,7 +111,9 @@ const blockHtml = blocks => blocks.map(block => {
 }).join('')
 const figure = id => {
   const image = images.get(id)
-  return `<LessonFigure src="${html(image.web)}" alt="${html(image.alt)}"${image.caption ? ` caption="${html(image.caption)}"` : ''} />`
+  // Reload revised role icons in already-open decks when their SVG bytes change.
+  const src = image.icons?.length ? `${image.web}?v=${image.sha256.slice(0, 12)}` : image.web
+  return `<LessonFigure src="${html(src)}" alt="${html(image.alt)}"${image.caption ? ` caption="${html(image.caption)}"` : ''} />`
 }
 const sourceLine = slide => '<p class="aside test-import-source">'
   + slide.sources.map(id => {
@@ -169,10 +171,12 @@ for (const [index, slide] of slides.entries()) {
     classes.push('reading-slide')
     if (slide.presentation) {
       classes.push('test-illustrated-reading')
-      body = '<div class="lesson-columns test-illustrated-summary"><div>'
-        + `<p class="lead">${html(slide.presentation.lead)}</p><ul class="cvedi-list">`
-        + slide.presentation.items.map(text => `<li><span>${html(text)}</span></li>`).join('')
-        + `</ul></div>${figure(slide.presentation.scene)}</div>`
+      const copy = slide.presentation.preserveOriginal
+        ? blockHtml(slide.blocks)
+        : `<p class="lead">${html(slide.presentation.lead)}</p><ul class="cvedi-list">`
+          + slide.presentation.items.map(text => `<li><span>${html(text)}</span></li>`).join('') + '</ul>'
+      body = `<div class="lesson-columns test-illustrated-summary${slide.presentation.preserveOriginal ? ' test-illustrated-original' : ''}"><div class="test-import-copy">`
+        + copy + `</div>${figure(slide.presentation.scene)}</div>`
     } else if (slide.kind === 'section' && slide.panels) {
       classes.push('concept-slide')
       body = `<div class="test-criteria-copy"><p class="lead">${html(slide.lead)}</p><div class="cvedi-grid three">`
@@ -277,7 +281,7 @@ const doc = [
   `Le sette tabelle riusano il componente condiviso \`LessonTable\` tramite \`TestUsabilityTable\`; i dati per alias in \`${tableDefinitionsSource}\` conservano tutte le intestazioni e celle originali, con scope, selezione del testo e stile del corso anche in stampa.`,
   `Tutte le card hanno un’illustrazione decorativa pertinente della famiglia purple/Verde prato: nove originali ImageGen trasparenti per 29 card in dieci slide. Il manifest in \`${base}card-artwork.json\` conserva soggetti, prompt, originali, hash e proprietari; il generatore ripristina il mapping completo. Il componente \`CvediCard\` applica i ruoli condivisi: 96 px e riserva inferiore 112 px nelle tre colonne, 168 px nelle due colonne.`,
   `La slide 42 «Test di usabilità» completa su richiesta dell’utente il divisorio della pagina 41 con tre passaggi illustrati: scegliere la situazione, condurre la sessione e migliorare il progetto. \`${testingOpeningSource}\` registra contenuti e provenienza, coerenti con il copione già registrato. Alias, durata, audio e sottotitoli rimangono invariati.`,
-  `Su richiesta dell’utente, ${illustratedLayouts.slides.length} spiegazioni dense usano una sintesi nativa a sinistra e una scena pertinente a destra. \`${illustratedLayoutSource}\` registra i testi visibili, i riferimenti e gli hash dei paragrafi originali e dei copioni; la trascrizione completa resta conservata nei blocchi del manifest e nella fonte. \`${illustratedLayouts.sceneManifest}\` conserva dodici illustrazioni originali ImageGen, prompt, hash e slide proprietarie. Titoli, attribuzioni, ordine, durate, copioni e registrazioni restano invariati.`,
+  `Su richiesta dell’utente, ${illustratedLayouts.slides.length} spiegazioni testuali hanno un’immagine pertinente a destra; dove entra nella colonna sinistra, il testo originale rimane integralmente visibile, altrimenti usa una sintesi esplicita. \`${illustratedLayoutSource}\` registra i testi visibili, i riferimenti e gli hash dei paragrafi originali e dei copioni; la trascrizione completa resta conservata nei blocchi del manifest e nella fonte. \`${illustratedLayouts.sceneManifest}\` conserva ${illustratedScenes.images.length} illustrazioni originali ImageGen, prompt, hash e slide proprietarie. Titoli, attribuzioni, ordine, durate, copioni e registrazioni restano invariati.`,
   `La slide 4 «Principi di usabilità» completa su richiesta dell’utente l’apertura della pagina 8 con tre card illustrate: riconoscere le azioni, prevedere le conseguenze e correggere gli errori. Le domande riprendono testualmente il copione già registrato; \`${principlesOpeningSource}\` separa l’integrazione dalla trascrizione storica. Titolo, alias, note, audio e durata restano invariati.`,
   `La slide 26 «Le euristiche di Jakob Nielsen» completa su richiesta dell’utente il divisorio della pagina 29 con una panoramica delle dieci euristiche. Le intestazioni sono ricavate dalle pagine 31–40 e disposte in due liste numerate native; introduzione, raccordo e provenienza sono in \`${heuristicsOpeningSource}\`. Copione, audio, sottotitoli, alias e durata rimangono invariati.`,
   `Il PDF originale, le trascrizioni per pagina, gli hash, i ${assets.images.length} ritagli e le attribuzioni NN/g e Steve Krug sono conservati separatamente in \`${base}\`. Su richiesta dell’utente, la dicitura ripetuta «Steve Krug · Don’t Make Me Think» è omessa dalle slide e conservata nei registri delle fonti. Le attribuzioni non indicate nella fonte restano esplicitamente non determinate nei metadati. Il set archiviato \`test-implementazione\` rimane invariato e inattivo.`,

@@ -11,6 +11,9 @@ BASE = ROOT / 'progetti/slide/assets/lezione-test-usabilita/illustrazioni-testo'
 plans = json.loads((BASE / 'prompts.json').read_text())
 receipts = json.loads((BASE / 'provider-files.json').read_text())
 layouts = json.loads((BASE.parent / 'layout-illustrato.json').read_text())
+previous_path = BASE / 'manifest.json'
+previous = {item['id']: item for item in json.loads(previous_path.read_text())['images']} if previous_path.exists() else {}
+digest = lambda path: hashlib.sha256(path.read_bytes()).hexdigest()
 descriptions = {
     'scena-laboratorio': 'Laboratorio storico di usabilità: un partecipante al computer viene registrato da una videocamera; due ricercatori osservano dall’altra stanza attraverso il vetro.',
     'scena-sessione': 'Una persona usa un computer durante un test; accanto, il facilitatore osserva e prende appunti. Sul tavolo sono presenti mouse e microfono.',
@@ -29,16 +32,21 @@ images = []
 for item in plans['images']:
     original = ROOT / item['original']
     original.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copyfile(receipts[item['id']], original)
+    old = previous.get(item['id'], {})
+    if not original.exists() or old.get('providerFile') != receipts[item['id']]:
+        shutil.copyfile(receipts[item['id']], original)
     target = ROOT / ('progetti/slide/public' + item['web'])
     target.parent.mkdir(parents=True, exist_ok=True)
-    with Image.open(original) as image:
-        image.save(target, lossless=True, exact=True)
-        size = list(image.size)
-    digest = lambda path: hashlib.sha256(path.read_bytes()).hexdigest()
+    if (target.exists() and old.get('originalSha256') == digest(original)
+            and old.get('sha256') == digest(target)):
+        size = old['webSize']
+    else:
+        with Image.open(original) as image:
+            image.save(target, lossless=True, exact=True)
+            size = list(image.size)
     images.append({**item, 'providerFile': receipts[item['id']],
         'originalSha256': digest(original), 'sha256': digest(target), 'webSize': size,
-        'alt': descriptions[item['id']],
+        'alt': item.get('alt') or descriptions[item['id']],
         'owners': [{'lessonSlide': layout['lessonSlide'], 'alias': layout['alias']}
                    for layout in layouts['slides'] if layout['scene'] == item['id']],
         'publicationEncoding': {'format': 'webp', 'lossless': True, 'exact': True},

@@ -49,12 +49,32 @@
       "alt": "Una persona usa un computer durante un test; accanto, il facilitatore osserva e prende appunti. Sul tavolo sono presenti mouse e microfono.",
       "owners": [
         {
+          "lessonSlide": 45,
+          "alias": "test-usabilita-p44-1"
+        },
+        {
+          "lessonSlide": 46,
+          "alias": "test-usabilita-p44-2"
+        },
+        {
           "lessonSlide": 48,
           "alias": "test-usabilita-p46-1"
         },
         {
+          "lessonSlide": 56,
+          "alias": "test-usabilita-p50-1"
+        },
+        {
+          "lessonSlide": 60,
+          "alias": "test-usabilita-p52-1"
+        },
+        {
           "lessonSlide": 78,
           "alias": "test-usabilita-p67-1"
+        },
+        {
+          "lessonSlide": 90,
+          "alias": "test-usabilita-p75-1"
         }
       ],
       "publicationEncoding": {
@@ -84,6 +104,18 @@
         {
           "lessonSlide": 55,
           "alias": "test-usabilita-p49-1"
+        },
+        {
+          "lessonSlide": 59,
+          "alias": "test-usabilita-p51-3"
+        },
+        {
+          "lessonSlide": 75,
+          "alias": "test-usabilita-p65-2"
+        },
+        {
+          "lessonSlide": 104,
+          "alias": "test-usabilita-p82-1"
         }
       ],
       "publicationEncoding": {
@@ -111,12 +143,20 @@
       "alt": "Una persona prova un prototipo di carta mentre il facilitatore osserva; tre bozze richiamano la progressione del progetto.",
       "owners": [
         {
+          "lessonSlide": 57,
+          "alias": "test-usabilita-p51-1"
+        },
+        {
           "lessonSlide": 58,
           "alias": "test-usabilita-p51-2"
         },
         {
           "lessonSlide": 83,
           "alias": "test-usabilita-p70-1"
+        },
+        {
+          "lessonSlide": 85,
+          "alias": "test-usabilita-p71-1"
         }
       ],
       "publicationEncoding": {
@@ -177,8 +217,20 @@
           "alias": "test-usabilita-p65-1"
         },
         {
+          "lessonSlide": 82,
+          "alias": "test-usabilita-p69-2"
+        },
+        {
+          "lessonSlide": 100,
+          "alias": "test-usabilita-p80-1"
+        },
+        {
           "lessonSlide": 101,
           "alias": "test-usabilita-p81-1"
+        },
+        {
+          "lessonSlide": 102,
+          "alias": "test-usabilita-p81-2"
         }
       ],
       "publicationEncoding": {
@@ -208,6 +260,14 @@
         {
           "lessonSlide": 76,
           "alias": "test-usabilita-p66-1"
+        },
+        {
+          "lessonSlide": 77,
+          "alias": "test-usabilita-p66-2"
+        },
+        {
+          "lessonSlide": 91,
+          "alias": "test-usabilita-p75-2"
         }
       ],
       "publicationEncoding": {
@@ -234,6 +294,10 @@
       ],
       "alt": "Il team segue su un grande schermo un partecipante che svolge un compito; un’osservatrice prende appunti.",
       "owners": [
+        {
+          "lessonSlide": 80,
+          "alias": "test-usabilita-p68-1"
+        },
         {
           "lessonSlide": 81,
           "alias": "test-usabilita-p69-1"
@@ -266,6 +330,14 @@
         {
           "lessonSlide": 94,
           "alias": "test-usabilita-p77-1"
+        },
+        {
+          "lessonSlide": 95,
+          "alias": "test-usabilita-p77-2"
+        },
+        {
+          "lessonSlide": 108,
+          "alias": "test-usabilita-p84-1"
         }
       ],
       "publicationEncoding": {
@@ -295,6 +367,10 @@
         {
           "lessonSlide": 106,
           "alias": "test-usabilita-p83-1"
+        },
+        {
+          "lessonSlide": 107,
+          "alias": "test-usabilita-p83-2"
         }
       ],
       "publicationEncoding": {
@@ -353,6 +429,336 @@
         {
           "lessonSlide": 110,
           "alias": "test-usabilita-p86-1"
+        }
+      ],
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "exact": true
+      },
+      "visualReview": "Reviewed for clear subject, palette, pose and absence of fine text."
+    },
+    {
+      "id": "scena-focus-group",
+      "prompt": "Use case: scientific-educational / productivity-visual. Create ONE brand-new original illustration for a university lesson about usability testing. It must fit a right-hand slide column and remain recognizable at 470 by 360 pixels. Nearly square 4:3 composition, simple flat editorial vector-like style matching the established CVeDI purple/grass-green slide illustrations. Dark purple uniform rounded outlines #3B0764, purple #6E11B0, pale lavender #F3E8FF, white, slate #334155, and one restrained grass-green #12D217 accent. Faceless stylized people with simple heads, essential poses and hands. Completely flat fills: no gradients, textures, shadows, photography, glossy 3D or ornamental decoration. Solid uniform #F8FAFC background; NO enclosing card, frame, badge or colored backdrop. Scene occupies most of canvas with 6% safe margins, leave lower-right corner quiet for shared zoom control. No words, letters, sentences, numbers or watermarks; use only requested universally recognizable small pictograms. All computers have large schematic blocks, not tiny text. Visual priority is the specific teaching situation, not generic business stock art. Four adults and one moderator seated around a small round table discussing opinions. Open speech bubbles contain only simple heart, question mark and lightbulb pictograms. No computer task is being performed. Show a group conversation, distinct from an individual usability test.",
+      "subject": "Four adults and one moderator seated around a small round table discussing opinions. Open speech bubbles contain only simple heart, question mark and lightbulb pictograms. No computer task is being performed. Show a group conversation, distinct from an individual usability test.",
+      "original": "progetti/slide/assets/lezione-test-usabilita/illustrazioni-testo/originali/focus-group.png",
+      "web": "/images/test-usabilita/illustrazioni-testo/focus-group.webp",
+      "tool": "image_gen",
+      "rights": "Illustrazione originale generata con ImageGen per CVeDI.",
+      "alt": "Un piccolo gruppo discute con un moderatore attorno a un tavolo; i fumetti rappresentano opinioni e idee.",
+      "providerFile": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-67498952-16f4-4201-a89e-da139640b5ec.png",
+      "originalSha256": "107659cac078564f3e9d0af7d7d3fb759af95b496b3c21d3a5cf9a051cc276a7",
+      "sha256": "427ec72d0adf7daa89eac744f179925dfb6375fee3039b6896926176c22f69cc",
+      "webSize": [
+        1448,
+        1086
+      ],
+      "owners": [
+        {
+          "lessonSlide": 43,
+          "alias": "test-usabilita-p42-1"
+        },
+        {
+          "lessonSlide": 44,
+          "alias": "test-usabilita-p43-1"
+        }
+      ],
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "exact": true
+      },
+      "visualReview": "Reviewed for clear subject, palette, pose and absence of fine text."
+    },
+    {
+      "id": "scena-calendario",
+      "prompt": "Use case: scientific-educational / productivity-visual. Create ONE brand-new original illustration for a university lesson about usability testing. It must fit a right-hand slide column and remain recognizable at 470 by 360 pixels. Nearly square 4:3 composition, simple flat editorial vector-like style matching the established CVeDI purple/grass-green slide illustrations. Dark purple uniform rounded outlines #3B0764, purple #6E11B0, pale lavender #F3E8FF, white, slate #334155, and one restrained grass-green #12D217 accent. Faceless stylized people with simple heads, essential poses and hands. Completely flat fills: no gradients, textures, shadows, photography, glossy 3D or ornamental decoration. Solid uniform #F8FAFC background; NO enclosing card, frame, badge or colored backdrop. Scene occupies most of canvas with 6% safe margins, leave lower-right corner quiet for shared zoom control. No words, letters, sentences, numbers or watermarks; use only requested universally recognizable small pictograms. All computers have large schematic blocks, not tiny text. Visual priority is the specific teaching situation, not generic business stock art. A recurring usability testing morning: a large clean monthly calendar grid with one day marked in purple and a circular arrow for recurrence, beside one participant testing a laptop and a small clock. Show regular predictable scheduling, not a crowded planner. Calendar contains NO letters or numerals, only blank cells and the highlighted day.",
+      "subject": "A recurring usability testing morning: a large clean monthly calendar grid with one day marked in purple and a circular arrow for recurrence, beside one participant testing a laptop and a small clock. Show regular predictable scheduling, not a crowded planner. Calendar contains NO letters or numerals, only blank cells and the highlighted day.",
+      "original": "progetti/slide/assets/lezione-test-usabilita/illustrazioni-testo/originali/calendario.png",
+      "web": "/images/test-usabilita/illustrazioni-testo/calendario.webp",
+      "tool": "image_gen",
+      "rights": "Illustrazione originale generata con ImageGen per CVeDI.",
+      "alt": "Un calendario con un giorno evidenziato e una freccia circolare richiama la cadenza regolare dei test; accanto, una persona prova un computer.",
+      "providerFile": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-41a30149-9e0f-4a47-be1e-3aa1edfba94f.png",
+      "originalSha256": "5742b5c14772076eb6dc3b1e0ca59c3a599b728c48989b1f7fbc8996312fe27c",
+      "sha256": "4abe0a279b41654a3e0e6dc5bbae68271d93556dcb4963f99809fd87b2bfec81",
+      "webSize": [
+        1448,
+        1086
+      ],
+      "owners": [
+        {
+          "lessonSlide": 70,
+          "alias": "test-usabilita-p62-1"
+        },
+        {
+          "lessonSlide": 71,
+          "alias": "test-usabilita-p63-1"
+        },
+        {
+          "lessonSlide": 72,
+          "alias": "test-usabilita-p63-2"
+        },
+        {
+          "lessonSlide": 88,
+          "alias": "test-usabilita-p74-1"
+        }
+      ],
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "exact": true
+      },
+      "visualReview": "Reviewed for clear subject, palette, pose and absence of fine text."
+    },
+    {
+      "id": "scena-consegna",
+      "prompt": "Use case: scientific-educational / productivity-visual. Create ONE brand-new original illustration for a university lesson about usability testing. It must fit a right-hand slide column and remain recognizable at 470 by 360 pixels. Nearly square 4:3 composition, simple flat editorial vector-like style matching the established CVeDI purple/grass-green slide illustrations. Dark purple uniform rounded outlines #3B0764, purple #6E11B0, pale lavender #F3E8FF, white, slate #334155, and one restrained grass-green #12D217 accent. Faceless stylized people with simple heads, essential poses and hands. Completely flat fills: no gradients, textures, shadows, photography, glossy 3D or ornamental decoration. Solid uniform #F8FAFC background; NO enclosing card, frame, badge or colored backdrop. Scene occupies most of canvas with 6% safe margins, leave lower-right corner quiet for shared zoom control. No words, letters, sentences, numbers or watermarks; use only requested universally recognizable small pictograms. All computers have large schematic blocks, not tiny text. Visual priority is the specific teaching situation, not generic business stock art. A facilitator prepares a clear task briefing: a large clipboard with three essential task rows, each represented by a simple pictogram and blank horizontal line, a small clock for available time, and a laptop wireframe. A hand places a task card beside the laptop. No words or numbers; keep the clipboard and task card dominant.",
+      "subject": "A facilitator prepares a clear task briefing: a large clipboard with three essential task rows, each represented by a simple pictogram and blank horizontal line, a small clock for available time, and a laptop wireframe. A hand places a task card beside the laptop. No words or numbers; keep the clipboard and task card dominant.",
+      "original": "progetti/slide/assets/lezione-test-usabilita/illustrazioni-testo/originali/consegna.png",
+      "web": "/images/test-usabilita/illustrazioni-testo/consegna.webp",
+      "tool": "image_gen",
+      "rights": "Illustrazione originale generata con ImageGen per CVeDI.",
+      "alt": "Una consegna su clipboard, una scheda e un computer rappresentano la preparazione di compiti chiari, con attenzione al tempo disponibile.",
+      "providerFile": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-a6d3505f-cbf6-419c-a57a-beba2653e5fa.png",
+      "originalSha256": "9d8474c3f3b98e5c5ad298c397db07e24760a9190cbc144f3d332a3effa4d74a",
+      "sha256": "d9c148a7909a9454486537ab1a171d8805312432b9121d7524795ef9abca9c33",
+      "webSize": [
+        1448,
+        1086
+      ],
+      "owners": [
+        {
+          "lessonSlide": 86,
+          "alias": "test-usabilita-p72-1"
+        },
+        {
+          "lessonSlide": 87,
+          "alias": "test-usabilita-p73-1"
+        }
+      ],
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "exact": true
+      },
+      "visualReview": "Reviewed for clear subject, palette, pose and absence of fine text."
+    },
+    {
+      "id": "scena-accoglienza",
+      "prompt": "Use case: scientific-educational / productivity-visual. Create ONE brand-new original illustration for a university lesson about usability testing. It must fit a right-hand slide column and remain recognizable at 470 by 360 pixels. Nearly square 4:3 composition, simple flat editorial vector-like style matching the established CVeDI purple/grass-green slide illustrations. Dark purple uniform rounded outlines #3B0764, purple #6E11B0, pale lavender #F3E8FF, white, slate #334155, and one restrained grass-green #12D217 accent. Faceless stylized people with simple heads, essential poses and hands. Completely flat fills: no gradients, textures, shadows, photography, glossy 3D or ornamental decoration. Solid uniform #F8FAFC background; NO enclosing card, frame, badge or colored backdrop. Scene occupies most of canvas with 6% safe margins, leave lower-right corner quiet for shared zoom control. No words, letters, sentences, numbers or watermarks; use only requested universally recognizable small pictograms. All computers have large schematic blocks, not tiny text. Visual priority is the specific teaching situation, not generic business stock art. At the start or end of a usability session, a facilitator welcomes a participant into a quiet room: two faceless people exchange a relaxed greeting across an open table with a laptop and a closed notebook. A small simple speech bubble with a question mark suggests introductory questions. Keep the posture respectful and relaxed, no handshake anatomy close-up.",
+      "subject": "At the start or end of a usability session, a facilitator welcomes a participant into a quiet room: two faceless people exchange a relaxed greeting across an open table with a laptop and a closed notebook. A small simple speech bubble with a question mark suggests introductory questions. Keep the posture respectful and relaxed, no handshake anatomy close-up.",
+      "original": "progetti/slide/assets/lezione-test-usabilita/illustrazioni-testo/originali/accoglienza.png",
+      "web": "/images/test-usabilita/illustrazioni-testo/accoglienza.webp",
+      "tool": "image_gen",
+      "rights": "Illustrazione originale generata con ImageGen per CVeDI.",
+      "alt": "Facilitatore e partecipante si incontrano in uno spazio tranquillo, con un computer e un taccuino pronti per la sessione.",
+      "providerFile": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-7d00f969-7237-4fbe-8e8c-d76f71f67699.png",
+      "originalSha256": "1836a4e1e84c2173a6c485cd974041f2739fca49bab7b85b72ac0367cc52c1d5",
+      "sha256": "e31673b46d7a2baafa2e9b62bd585dd8ddd9c7ea7ff120a8b33b2cd20e819f41",
+      "webSize": [
+        1448,
+        1086
+      ],
+      "owners": [
+        {
+          "lessonSlide": 92,
+          "alias": "test-usabilita-p76-1"
+        },
+        {
+          "lessonSlide": 96,
+          "alias": "test-usabilita-p78-1"
+        }
+      ],
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "exact": true
+      },
+      "visualReview": "Reviewed for clear subject, palette, pose and absence of fine text."
+    },
+    {
+      "id": "scena-comprensione",
+      "prompt": "Use case: scientific-educational / productivity-visual. Create ONE brand-new original illustration for a university lesson about usability testing. It must fit a right-hand slide column and remain recognizable at 470 by 360 pixels. Nearly square 4:3 composition, simple flat editorial vector-like style matching the established CVeDI purple/grass-green slide illustrations. Dark purple uniform rounded outlines #3B0764, purple #6E11B0, pale lavender #F3E8FF, white, slate #334155, and one restrained grass-green #12D217 accent. Faceless stylized people with simple heads, essential poses and hands. Completely flat fills: no gradients, textures, shadows, photography, glossy 3D or ornamental decoration. Solid uniform #F8FAFC background; NO enclosing card, frame, badge or colored backdrop. Scene occupies most of canvas with 6% safe margins, leave lower-right corner quiet for shared zoom control. No words, letters, sentences, numbers or watermarks; use only requested universally recognizable small pictograms. All computers have large schematic blocks, not tiny text. Visual priority is the specific teaching situation, not generic business stock art. A participant looks at a simple homepage on a large laptop, trying to understand what the service offers. The screen has one clear hero area, image placeholder and primary action represented by abstract blocks only. Above the participant a single question-mark bubble communicates interpretation, not distress. Leave the interface plausible and minimal.",
+      "subject": "A participant looks at a simple homepage on a large laptop, trying to understand what the service offers. The screen has one clear hero area, image placeholder and primary action represented by abstract blocks only. Above the participant a single question-mark bubble communicates interpretation, not distress. Leave the interface plausible and minimal.",
+      "original": "progetti/slide/assets/lezione-test-usabilita/illustrazioni-testo/originali/comprensione.png",
+      "web": "/images/test-usabilita/illustrazioni-testo/comprensione.webp",
+      "tool": "image_gen",
+      "rights": "Illustrazione originale generata con ImageGen per CVeDI.",
+      "alt": "Una persona osserva la pagina iniziale di un servizio e si interroga sul suo significato.",
+      "providerFile": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-06b560d8-3666-406e-b070-5c1b337e192b.png",
+      "originalSha256": "6b032ad3bf6a98c88436d5311485aa817b15aeb74c7ce72803b034df75ea07b2",
+      "sha256": "5c0a055cfe4a502749b3884029ea3c98075a50b752e4cb76a231407c15ef86f0",
+      "webSize": [
+        1448,
+        1086
+      ],
+      "owners": [
+        {
+          "lessonSlide": 93,
+          "alias": "test-usabilita-p76-2"
+        },
+        {
+          "lessonSlide": 97,
+          "alias": "test-usabilita-p79-1"
+        }
+      ],
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "exact": true
+      },
+      "visualReview": "Reviewed for clear subject, palette, pose and absence of fine text."
+    },
+    {
+      "id": "scena-ricerca-parole",
+      "prompt": "Use case: scientific-educational / productivity-visual. Create ONE brand-new original illustration for a university lesson about usability testing. It must fit a right-hand slide column and remain recognizable at 470 by 360 pixels. Nearly square 4:3 composition, simple flat editorial vector-like style matching the established CVeDI purple/grass-green slide illustrations. Dark purple uniform rounded outlines #3B0764, purple #6E11B0, pale lavender #F3E8FF, white, slate #334155, and one restrained grass-green #12D217 accent. Faceless stylized people with simple heads, essential poses and hands. Completely flat fills: no gradients, textures, shadows, photography, glossy 3D or ornamental decoration. Solid uniform #F8FAFC background; NO enclosing card, frame, badge or colored backdrop. Scene occupies most of canvas with 6% safe margins, leave lower-right corner quiet for shared zoom control. No words, letters, sentences, numbers or watermarks; use only requested universally recognizable small pictograms. All computers have large schematic blocks, not tiny text. Visual priority is the specific teaching situation, not generic business stock art. A person searches within a website: large browser search field with magnifying glass, a speech bubble from the person containing a simple BOOK pictogram, and a nearby results panel with a mismatching BOX pictogram crossed out softly. Illustrate a mismatch between the person’s vocabulary and the website categories. No text or letters anywhere.",
+      "subject": "A person searches within a website: large browser search field with magnifying glass, a speech bubble from the person containing a simple BOOK pictogram, and a nearby results panel with a mismatching BOX pictogram crossed out softly. Illustrate a mismatch between the person’s vocabulary and the website categories. No text or letters anywhere.",
+      "original": "progetti/slide/assets/lezione-test-usabilita/illustrazioni-testo/originali/ricerca-parole.png",
+      "web": "/images/test-usabilita/illustrazioni-testo/ricerca-parole.webp",
+      "tool": "image_gen",
+      "rights": "Illustrazione originale generata con ImageGen per CVeDI.",
+      "alt": "Una persona cerca un contenuto, ma i risultati e le categorie del sito non corrispondono a ciò che sta cercando.",
+      "providerFile": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-d2b85477-a230-4ceb-ac00-dfe6a969e4e2.png",
+      "originalSha256": "e97d35b2eeb4efd1d1c95ce445f32fe3a60b949416e6db8f16fef1b9357070ae",
+      "sha256": "08c865253fc4fd2790feb368051d5901c2c6138fe46344b79fa9e8770f68cba6",
+      "webSize": [
+        1448,
+        1086
+      ],
+      "owners": [
+        {
+          "lessonSlide": 98,
+          "alias": "test-usabilita-p79-2"
+        }
+      ],
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "exact": true
+      },
+      "visualReview": "Reviewed for clear subject, palette, pose and absence of fine text."
+    },
+    {
+      "id": "scena-gerarchia",
+      "prompt": "Use case: scientific-educational / productivity-visual. Create ONE brand-new original illustration for a university lesson about usability testing. It must fit a right-hand slide column and remain recognizable at 470 by 360 pixels. Nearly square 4:3 composition, simple flat editorial vector-like style matching the established CVeDI purple/grass-green slide illustrations. Dark purple uniform rounded outlines #3B0764, purple #6E11B0, pale lavender #F3E8FF, white, slate #334155, and one restrained grass-green #12D217 accent. Faceless stylized people with simple heads, essential poses and hands. Completely flat fills: no gradients, textures, shadows, photography, glossy 3D or ornamental decoration. Solid uniform #F8FAFC background; NO enclosing card, frame, badge or colored backdrop. Scene occupies most of canvas with 6% safe margins, leave lower-right corner quiet for shared zoom control. No words, letters, sentences, numbers or watermarks; use only requested universally recognizable small pictograms. All computers have large schematic blocks, not tiny text. Visual priority is the specific teaching situation, not generic business stock art. A clear teaching comparison of two website layouts side by side: on the left many competing panels and equally strong buttons form visual noise; on the right fewer panels and one prominent grass-green primary action make the hierarchy clear. Same browser proportions and same underlying task; a simple cursor points at the main action on the right. Do not add a person or words.",
+      "subject": "A clear teaching comparison of two website layouts side by side: on the left many competing panels and equally strong buttons form visual noise; on the right fewer panels and one prominent grass-green primary action make the hierarchy clear. Same browser proportions and same underlying task; a simple cursor points at the main action on the right. Do not add a person or words.",
+      "original": "progetti/slide/assets/lezione-test-usabilita/illustrazioni-testo/originali/gerarchia.png",
+      "web": "/images/test-usabilita/illustrazioni-testo/gerarchia.webp",
+      "tool": "image_gen",
+      "rights": "Illustrazione originale generata con ImageGen per CVeDI.",
+      "alt": "Due interfacce confrontano molti elementi in competizione con una gerarchia più chiara e un’azione principale riconoscibile.",
+      "providerFile": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-8e0bc37b-4332-42cb-b230-a4867f94a04b.png",
+      "originalSha256": "0a04f7c5f675b6a2df3847c939ab12c2c05c59ba0cf1b0904c33bcab60171cb3",
+      "sha256": "e89b4579bebf78f8f57efab0d4f3917e9dc144cc9c276a4e0f13058df149044b",
+      "webSize": [
+        1448,
+        1086
+      ],
+      "owners": [
+        {
+          "lessonSlide": 99,
+          "alias": "test-usabilita-p79-3"
+        },
+        {
+          "lessonSlide": 105,
+          "alias": "test-usabilita-p82-2"
+        }
+      ],
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "exact": true
+      },
+      "visualReview": "Reviewed for clear subject, palette, pose and absence of fine text."
+    },
+    {
+      "id": "scena-confronto-siti",
+      "prompt": "Use case: scientific-educational / productivity-visual. Create ONE brand-new original illustration for a university lesson about usability testing. It must fit a right-hand slide column and remain recognizable at 470 by 360 pixels. Nearly square 4:3 composition, simple flat editorial vector-like style matching the established CVeDI purple/grass-green slide illustrations. Dark purple uniform rounded outlines #3B0764, purple #6E11B0, pale lavender #F3E8FF, white, slate #334155, and one restrained grass-green #12D217 accent. Faceless stylized people with simple heads, essential poses and hands. Completely flat fills: no gradients, textures, shadows, photography, glossy 3D or ornamental decoration. Solid uniform #F8FAFC background; NO enclosing card, frame, badge or colored backdrop. Scene occupies most of canvas with 6% safe margins, leave lower-right corner quiet for shared zoom control. No words, letters, sentences, numbers or watermarks; use only requested universally recognizable small pictograms. All computers have large schematic blocks, not tiny text. Visual priority is the specific teaching situation, not generic business stock art. A participant at a desk compares two alternative website interfaces side by side on one wide screen; a researcher observes and records notes without suggesting a path. The two sites use visibly different abstract layouts but equally plausible controls. This is a usability comparison before building, not a business analytics dashboard. No text or logos.",
+      "subject": "A participant at a desk compares two alternative website interfaces side by side on one wide screen; a researcher observes and records notes without suggesting a path. The two sites use visibly different abstract layouts but equally plausible controls. This is a usability comparison before building, not a business analytics dashboard. No text or logos.",
+      "original": "progetti/slide/assets/lezione-test-usabilita/illustrazioni-testo/originali/confronto-siti.png",
+      "web": "/images/test-usabilita/illustrazioni-testo/confronto-siti.webp",
+      "tool": "image_gen",
+      "rights": "Illustrazione originale generata con ImageGen per CVeDI.",
+      "alt": "Una persona prova due interfacce alternative mentre un ricercatore osserva e prende appunti.",
+      "providerFile": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-8df8312b-752f-4d68-9b80-bafda518a0f8.png",
+      "originalSha256": "f4d837c41293e5edfe0f874bf76d2f5620fc49690d322c3f2733d7a761b8f530",
+      "sha256": "5b3b915e08609d3faf43aa80e513b83fef497b2e7e891d4ce1cf80e5b04920a5",
+      "webSize": [
+        1448,
+        1086
+      ],
+      "owners": [
+        {
+          "lessonSlide": 84,
+          "alias": "test-usabilita-p70-2"
+        }
+      ],
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "exact": true
+      },
+      "visualReview": "Reviewed for clear subject, palette, pose and absence of fine text."
+    },
+    {
+      "id": "scena-guida",
+      "prompt": "Use case: scientific-educational / productivity-visual. Create ONE brand-new original illustration for a university lesson about usability testing. It must fit a right-hand slide column and remain recognizable at 470 by 360 pixels. Nearly square 4:3 composition, simple flat editorial vector-like style matching the established CVeDI purple/grass-green slide illustrations. Dark purple uniform rounded outlines #3B0764, purple #6E11B0, pale lavender #F3E8FF, white, slate #334155, and one restrained grass-green #12D217 accent. Faceless stylized people with simple heads, essential poses and hands. Completely flat fills: no gradients, textures, shadows, photography, glossy 3D or ornamental decoration. Solid uniform #F8FAFC background; NO enclosing card, frame, badge or colored backdrop. Scene occupies most of canvas with 6% safe margins, leave lower-right corner quiet for shared zoom control. No words, letters, sentences, numbers or watermarks; use only requested universally recognizable small pictograms. All computers have large schematic blocks, not tiny text. Visual priority is the specific teaching situation, not generic business stock art. A simple helpful documentation scene: one open guidebook beside a laptop with a large question-mark icon and magnifying-glass search symbol. A short three-step pictorial path connects a question to the relevant page and a completed task checkmark. No people, no letters, no numbers; avoid decorative extra objects.",
+      "subject": "A simple helpful documentation scene: one open guidebook beside a laptop with a large question-mark icon and magnifying-glass search symbol. A short three-step pictorial path connects a question to the relevant page and a completed task checkmark. No people, no letters, no numbers; avoid decorative extra objects.",
+      "original": "progetti/slide/assets/lezione-test-usabilita/illustrazioni-testo/originali/guida.png",
+      "web": "/images/test-usabilita/illustrazioni-testo/guida.webp",
+      "tool": "image_gen",
+      "rights": "Illustrazione originale generata con ImageGen per CVeDI.",
+      "alt": "Un manuale aperto e una ricerca di aiuto collegano una domanda alla spiegazione utile per completare il compito.",
+      "providerFile": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-7f432bd1-f1a1-4430-af9d-1ff1698c62bf.png",
+      "originalSha256": "013201a04900cfab5ce96584979d492abf2706a75504d0ab0581cdf79ae8bfa3",
+      "sha256": "50cdfd71a9b2ba672c3679baf1da7c8c2290171a1b2ebab2e171f93c6fd537f2",
+      "webSize": [
+        1448,
+        1086
+      ],
+      "owners": [
+        {
+          "lessonSlide": 37,
+          "alias": "test-usabilita-p40-1"
+        }
+      ],
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "exact": true
+      },
+      "visualReview": "Reviewed for clear subject, palette, pose and absence of fine text."
+    },
+    {
+      "id": "scena-uso-semplice",
+      "prompt": "Use case: scientific-educational / productivity-visual. Create ONE brand-new original illustration for a university lesson about usability testing. It must fit a right-hand slide column and remain recognizable at 470 by 360 pixels. Nearly square 4:3 composition, simple flat editorial vector-like style matching the established CVeDI purple/grass-green slide illustrations. Dark purple uniform rounded outlines #3B0764, purple #6E11B0, pale lavender #F3E8FF, white, slate #334155, and one restrained grass-green #12D217 accent. Faceless stylized people with simple heads, essential poses and hands. Completely flat fills: no gradients, textures, shadows, photography, glossy 3D or ornamental decoration. Solid uniform #F8FAFC background; NO enclosing card, frame, badge or colored backdrop. Scene occupies most of canvas with 6% safe margins, leave lower-right corner quiet for shared zoom control. No words, letters, sentences, numbers or watermarks; use only requested universally recognizable small pictograms. All computers have large schematic blocks, not tiny text. Visual priority is the specific teaching situation, not generic business stock art. A person independently completes one clear task on a laptop. The screen uses a few large ordered blocks and one grass-green primary action with a small checkmark. The person’s relaxed posture and a simple clear path of two arrows suggest an interface requiring little effort. No speech bubble, no wording, no maze, no decorative arrows.",
+      "subject": "A person independently completes one clear task on a laptop. The screen uses a few large ordered blocks and one grass-green primary action with a small checkmark. The person’s relaxed posture and a simple clear path of two arrows suggest an interface requiring little effort. No speech bubble, no wording, no maze, no decorative arrows.",
+      "original": "progetti/slide/assets/lezione-test-usabilita/illustrazioni-testo/originali/uso-semplice.png",
+      "web": "/images/test-usabilita/illustrazioni-testo/uso-semplice.webp",
+      "tool": "image_gen",
+      "rights": "Illustrazione originale generata con ImageGen per CVeDI.",
+      "alt": "Una persona completa autonomamente un compito su un’interfaccia essenziale, con un percorso chiaro e un’azione principale evidente.",
+      "providerFile": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-95736a8f-8a28-43bd-ad97-c8f79691237b.png",
+      "originalSha256": "1390f5c02dfe5e12f95a73b02fab4470f61dbfdcbd71e71dcbf201d8a337a6ac",
+      "sha256": "9008ff7d311f80998bed40267d09235194eae7bed8e8ced5663a9e0e84618f11",
+      "webSize": [
+        1448,
+        1086
+      ],
+      "owners": [
+        {
+          "lessonSlide": 5,
+          "alias": "test-usabilita-p9-1"
+        },
+        {
+          "lessonSlide": 7,
+          "alias": "test-usabilita-p10-1"
+        },
+        {
+          "lessonSlide": 10,
+          "alias": "test-usabilita-p13-1"
         }
       ],
       "publicationEncoding": {

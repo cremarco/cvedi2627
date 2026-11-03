@@ -141,7 +141,10 @@ export async function checkUsabilitySources(deck) {
       assert.deepEqual(expected.presentation, illustratedLayouts.slides.find(layout => layout.alias === expected.alias), 'visible summaries use the explicit requested presentation registry')
       assert.equal(createHash('sha256').update(JSON.stringify(expected.blocks)).digest('hex'), expected.presentation.originalBlocksSha256, 'the complete original paragraphs remain unchanged in the source manifest')
       assert.equal(createHash('sha256').update(originalNotes[expected.alias]).digest('hex'), expected.presentation.scriptSha256, 'the full spoken explanation remains unchanged')
-      for (const text of [expected.presentation.lead, ...expected.presentation.items])
+      const visibleCopy = expected.presentation.preserveOriginal
+        ? expected.blocks.map(block => block.text.replace(/^❏\s*/, ''))
+        : [expected.presentation.lead, ...expected.presentation.items]
+      for (const text of visibleCopy)
         assert.ok(slide.content.includes(text.replaceAll('&', '&amp;').replaceAll('"', '&quot;')), 'the visible concise explanation remains selectable')
       assert.ok(slide.content.includes(activeImages.get(expected.presentation.scene).web), 'the matching explanatory scene is rendered on the right')
     } else for (const block of expected.blocks ?? []) {

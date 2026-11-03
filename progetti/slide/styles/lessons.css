@@ -16,6 +16,8 @@
   --color-accent-content: var(--cvedi-gray-950);
 }
 .lesson-slide .slide-label { color: var(--lesson-color); }
+/* The longer lesson name ends at x350; keep a clear gap before subtitles. */
+.lesson-slide.composizione-slide { --lesson-caption-left: 368px; }
 .lesson-slide.chapter-slide .slide-label { color: inherit; }
 .slidev-layout.lesson-slide.chapter-slide > p { color: var(--lesson-accent-on-color); }
 .slidev-layout.lesson-slide .chapter-metro-route {
@@ -84,6 +86,7 @@
 .slidev-layout.default .test-illustrated-summary .lead { margin: 0 0 24px; }
 .test-illustrated-summary .cvedi-list { margin: 0; gap: 16px; }
 .slidev-layout.default .test-illustrated-summary .cvedi-list li { font-size: var(--cvedi-type-body); }
+.test-illustrated-original > .test-import-copy > .cvedi-list + .cvedi-list { margin-top: 16px; }
 /* The Norman introduction appears immediately, including the title mark. */
 .slidev-page:has(.test-norman-intro-static) { transition: none; opacity: 1; }
 .slidev-layout.default.fixed-title-slide.motion-enabled.test-norman-intro-static > h1::after { animation: none; }

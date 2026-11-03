@@ -810,7 +810,7 @@ export async function checkSlideSources() {
     }
   }
   for (const asset of assets) {
-    const location = path.join(root, 'progetti/slide/public', asset.replace(/^\//, ''))
+    const location = path.join(root, 'progetti/slide/public', asset.split(/[?#]/u)[0].replace(/^\//, ''))
     assert.ok((await stat(location)).isFile(), `public asset: ${asset}`)
     assert.ok((await stat(location)).size > 0, `nonempty asset: ${asset}`)
   }

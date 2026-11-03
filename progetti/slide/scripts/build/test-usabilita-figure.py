@@ -22,6 +22,10 @@ OUTPUT = BASE / 'ricostruite'
 WEB = ROOT / 'progetti/slide/public/images/test-usabilita/ricostruite'
 FONT = ROOT / 'progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font'
 TOKENS = ROOT / 'risorse-condivise/stili/tokens.css'
+HEROICON_MANIFEST = ROOT / 'progetti/slide/assets/icons/heroicons/manifest.json'
+heroicon_catalog = json.loads(HEROICON_MANIFEST.read_text())
+heroicons = {item['name']: item for item in heroicon_catalog['icons']}
+ROLE_ICONS = {'headset': 'chat-bubble-left-right', 'tasks': 'clipboard-document-list', 'participant': 'user'}
 NS = 'http://www.w3.org/2000/svg'
 ET.register_namespace('', NS)
 OUTPUT.mkdir(parents=True, exist_ok=True)
@@ -85,6 +89,14 @@ def lines(x, y, values, size=30, fill=BODY, weight=400, anchor='start', leading=
 
 
 def icon(name, x, y, size=40, color=P):
+    if name in ROLE_ICONS:
+        original = heroicons[ROLE_ICONS[name]]
+        source = HEROICON_MANIFEST.parent / original['original']
+        assert sha(source) == original['sha256'], f'Heroicon source mismatch: {source}'
+        svg = ET.fromstring(source.read_text())
+        drawing = ''.join(path(element.attrib['d'], color, 1.5)
+                          for element in svg.findall(f'.//{{{NS}}}path'))
+        return f'<g data-heroicon="{ROLE_ICONS[name]}" transform="translate({x} {y}) scale({size/24})">{drawing}</g>'
     drawings = {
         'check': path('M 4 12 l 5 5 l 11 -12', color, 2.4),
         'music': path('M 9 17 V 4 L 20 2 v 13 M 9 7 l 11 -2', color, 1.8) + circle(5.5, 18, 3.5, color) + circle(16.5, 16, 3.5, color),
@@ -99,9 +111,6 @@ def icon(name, x, y, size=40, color=P):
         'clip': path('M 8 16 l 9 -9 a 3 3 0 0 1 4 4 L 10 22 a 5 5 0 0 1 -7 -7 L 15 3 a 4 4 0 0 1 6 6 L 9 21', color, 1.8),
         'mail': rect(2, 4, 20, 16, 'none', 2, color) + path('M 3 5 l 9 8 l 9 -8', color, 1.8),
         'warning': path('M 12 2 L 23 22 H 1 Z M 12 8 v 6 M 12 18 v .2', color, 1.8),
-        'headset': path('M 4 14 V 11 a 8 8 0 0 1 16 0 v 7 q 0 4 -6 4 M 2 11 h 4 v 8 H 2 Z M 18 11 h 4 v 8 h -4 Z', color, 1.8),
-        'tasks': path('M 2 4 h 4 v 4 H 2 Z M 2 12 h 4 v 4 H 2 Z M 2 20 h 4 v 3 H 2 Z M 10 6 h 12 M 10 14 h 12 M 10 22 h 12', color, 1.7),
-        'participant': circle(8, 7, 4, 'none', color) + path('M 1 23 v -5 q 7 -8 14 0 v 5 Z M 16 3 h 7 v 8 h -3 l -4 3 Z', color, 1.8),
         'arrow': path('M 3 12 h 18 M 15 6 l 6 6 l -6 6', color, 2),
     }
     return f'<g transform="translate({x} {y}) scale({size/24})">{drawings[name]}</g>'
@@ -156,7 +165,7 @@ by_id = {image['id']: image for image in historical['images']}
 entries = []
 
 
-def save_svg(id, title, alt, w, h, body, relationships=None):
+def save_svg(id, title, alt, w, h, body, relationships=None, icons=None):
     defs = ''.join(f'<marker id="{id}" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M 0 0 L 8 4 L 0 8" fill="none" stroke="{color}" stroke-width="2"/></marker>' for id, color in [('arrow', P), ('green-arrow', GREEN_INK)])
     svg = f'<svg xmlns="{NS}" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img"><title>{escape(title)}</title><desc>{escape(alt)}</desc><defs>{defs}</defs>{body}</svg>'
     editable = OUTPUT / (id + '.source.svg')
@@ -171,7 +180,8 @@ def save_svg(id, title, alt, w, h, body, relationships=None):
                     'caption': 'Ricostruzione didattica dell’esempio originale' if id.startswith('figura-') else None,
                     'rights': old['rights'], 'historicalOriginal': old['original'],
                     'labels': re.findall(r'<text[^>]*>(.*?)</text>', svg),
-                    'relationships': relationships or [], 'zoomClearanceRight': 56})
+                    'relationships': relationships or [], 'zoomClearanceRight': 56,
+                    **({'iconManifest': relative(HEROICON_MANIFEST), 'icons': icons} if icons else {})})
 
 
 # Nielsen interface examples. These are explicitly reconstructed examples,
@@ -237,7 +247,8 @@ for id, title, symbol, definition in roles:
     body = circle(222, 112, 84, PALE) + icon(symbol, 170, 60, 104, P)
     body += text(222, 258, title, 39, P, 700, 'middle')
     body += lines(222, 311, definition, 29, BODY, anchor='middle', leading=39)
-    save_svg('ruolo-'+id, title, title + ': ' + ' '.join(definition) + '. Schema rielaborato da Nielsen Norman Group.', 500, 440, body)
+    save_svg('ruolo-'+id, title, title + ': ' + ' '.join(definition) + '. Schema rielaborato da Nielsen Norman Group.', 500, 440, body,
+             icons=[ROLE_ICONS[symbol]])
 
 body = arrow('M 180 198 V 64 H 1020 V 198') + text(600, 43, 'Osserva e intervista', 29, P, 600, 'middle')
 body += arrow('M 1020 205 V 132 H 180 V 205', GREEN_INK) + text(600, 116, 'Dà feedback', 29, GREEN_INK, 600, 'middle')
@@ -254,7 +265,7 @@ save_svg('componenti-test', 'Le componenti di un test di usabilità',
              {'from': 'partecipante', 'to': 'compiti', 'label': 'Esegue'},
              {'from': 'facilitatore', 'to': 'partecipante', 'label': 'Osserva e intervista'},
              {'from': 'partecipante', 'to': 'facilitatore', 'label': 'Dà feedback'},
-         ])
+         ], icons=list(ROLE_ICONS.values()))
 
 generated = json.loads((OUTPUT / 'imagegen.json').read_text())
 for item in generated['images']:

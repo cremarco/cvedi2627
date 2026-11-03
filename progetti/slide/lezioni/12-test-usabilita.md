@@ -109,12 +109,12 @@ localOnly: true
 sourceSlide: 9
 narrationAudio: "/audio/lezione-test-usabilita/05-test-usabilita-p9-1-1f6c67b6818c.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/05-test-usabilita-p9-1-1f6c67b6818c.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Progettare user-friendly
 
-<div class="test-import-copy"><p>Un prodotto user-friendly, come suggerisce il nome, è semplicemente un prodotto facile da usare (usabile)</p><p>Per progettare un’interfaccia user-friendly è fondamentale tenere sempre a mente che ciò che è ovvio per noi non è per forza ovvio per tutti</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>Un prodotto user-friendly, come suggerisce il nome, è semplicemente un prodotto facile da usare (usabile)</p><p>Per progettare un’interfaccia user-friendly è fondamentale tenere sempre a mente che ciò che è ovvio per noi non è per forza ovvio per tutti</p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/uso-semplice.webp" alt="Una persona completa autonomamente un compito su un’interfaccia essenziale, con un percorso chiaro e un’azione principale evidente." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Quando definiamo un prodotto facile da usare, dobbiamo aggiungere almeno tre informazioni: facile per chi, per fare che cosa e in quale situazione. Un’interfaccia che conosco da mesi può sembrarmi immediata, mentre una persona al primo accesso deve ancora capirne le parole e i percorsi.[pause]
@@ -165,12 +165,12 @@ localOnly: true
 sourceSlide: 10
 narrationAudio: "/audio/lezione-test-usabilita/07-test-usabilita-p10-1-017ae01d0c42.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/07-test-usabilita-p10-1-017ae01d0c42.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide test-friendly-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Progettare user-friendly
 
-<div class="lesson-columns test-friendly-layout"><div class="test-friendly-intro"><p class="lead">Perché è così importante?</p><div class="lesson-statement">Un prodotto davvero user-friendly richiede uno sforzo minimo per essere utilizzato</div></div><ul class="list test-friendly-benefits"><li class="list-row"><p>Minimizzare il carico cognitivo richiesto all’utente significa aiutarlo a concentrarsi su ciò che è davvero importante (per lui e per noi)</p></li><li class="list-row"><p>Significa anche portarlo con più probabilità alla fine di un flusso di interazione (e.g. su un sito di e-commerce portare l’utente a completare con successo il processo di acquisto tramite un flusso di azioni chiaro)</p></li><li class="list-row"><p>Un prodotto usabile contribuisce anche a lasciare all’utente un’impressione positiva riguardo al proprio brand</p></li></ul></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Ridurre lo sforzo per concentrarsi sul compito</p><ul class="cvedi-list"><li><span>Minimizzare il carico cognitivo richiesto.</span></li><li><span>Accompagnare la persona fino alla fine del flusso.</span></li><li><span>Lasciare un’esperienza positiva del prodotto e del brand.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/uso-semplice.webp" alt="Una persona completa autonomamente un compito su un’interfaccia essenziale, con un percorso chiaro e un’azione principale evidente." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Ridurre lo sforzo richiesto dall’interfaccia significa lasciare alla persona più risorse per il proprio obiettivo. Se sto confrontando delle visite, voglio ragionare su disponibilità, costo e compatibilità con i miei impegni.[pause] Cercare a lungo il significato di un pulsante aggiunge un lavoro che il servizio potrebbe evitarmi.[pause]
@@ -243,12 +243,12 @@ localOnly: true
 sourceSlide: 13
 narrationAudio: "/audio/lezione-test-usabilita/10-test-usabilita-p13-1-6d4e02f57818.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/10-test-usabilita-p13-1-6d4e02f57818.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # I principi di Donald Norman
 
-<div class="test-import-copy"><h2>I 6 principi fondamentali (di Norman) nell’interactive design</h2><p>Nel 1988 Normal pubblica uno dei libri più famosi nel campo dell’usabilità, “La caffettiera del masochista. Psicopatologia degli oggetti quotidiani”, nel quale teorizza alcuni principi fondamentali per una progettazione user-centered:</p><ul class="cvedi-list"><li><span>Affordance</span></li></ul><ul class="cvedi-list"><li><span>Significanti</span></li></ul><ul class="cvedi-list"><li><span>Mapping</span></li></ul><ul class="cvedi-list"><li><span>Vincoli</span></li></ul><ul class="cvedi-list"><li><span>Feedback</span></li></ul><ul class="cvedi-list"><li><span>Modello concettuale</span></li></ul></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Sei principi per progettare interazioni comprensibili</p><ul class="cvedi-list"><li><span>Affordance e significanti.</span></li><li><span>Mapping e vincoli.</span></li><li><span>Feedback e modello concettuale.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/uso-semplice.webp" alt="Una persona completa autonomamente un compito su un’interfaccia essenziale, con un percorso chiaro e un’azione principale evidente." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Il libro di Norman pubblicato nel millenovecentottantotto è un riferimento importante per questa discussione. Nel percorso useremo sei concetti: affordance, significanti, mapping, vincoli, feedback e modello concettuale.[pause]
@@ -269,12 +269,12 @@ localOnly: true
 sourceSlide: 14
 narrationAudio: "/audio/lezione-test-usabilita/11-test-usabilita-p14-1-36f69d70903c.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/11-test-usabilita-p14-1-36f69d70903c.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # I principi di Donald Norman
 
-<div class="test-import-copy"><h2>Affordance</h2><p>L’affordance indica la relazione fra l’oggetto, per come appare, e come esso possa essere utilizzato</p><p>Le affordance percepite ci aiutano a indovinare quali azioni siano possibili, senza bisogno di cartelli o istruzioni</p><p>Nel web design si traduce nella capacità degli elementi di un’interfaccia di essere compresi nell’immediato senza dover aggiungere informazioni quali etichette, testi, call to action etc. (e.g. un bottone deve sembrare un elemento cliccabile a prescindere dal suo testo)</p></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Affordance</p><ul class="cvedi-list"><li><span>La relazione tra persona e oggetto rende possibili alcune azioni.</span></li><li><span>Le affordance percepite aiutano a riconoscere che cosa si può fare.</span></li><li><span>Nell’interfaccia, l’aspetto dei controlli contribuisce a suggerirne l’uso.</span></li></ul></div><LessonFigure src="/images/test-usabilita/ricostruite/esempio-15.webp" alt="Tavola ridisegnata di confronto: affordance negli oggetti quotidiani e nell’interfaccia web." /></div>
 
 <!--
 [calm, matter-of-fact delivery]L’affordance riguarda la relazione fra le caratteristiche di un oggetto e le capacità di chi può agire su di esso. Una presa può consentire di afferrare un contenitore; quella possibilità dipende anche dalla mano e dalle condizioni della persona.[pause]
@@ -323,12 +323,12 @@ localOnly: true
 sourceSlide: 16
 narrationAudio: "/audio/lezione-test-usabilita/13-test-usabilita-p16-1-4b663cbc3921.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/13-test-usabilita-p16-1-4b663cbc3921.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # I principi di Donald Norman
 
-<div class="test-import-copy"><h2>Significanti (1)</h2><p>I significanti segnalano quali azioni sono possibili e come eseguirle</p><p>Un classico esempio è il maniglione antipanico di una porta, non serve conoscerlo e c’è un solo modo per usarlo</p><p>Nel web design i significanti sono legati principalmente ai testi che indicano l’azione (CTA) o le icone che la rappresentano</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><h2>Significanti (1)</h2><p>I significanti segnalano quali azioni sono possibili e come eseguirle</p><p>Un classico esempio è il maniglione antipanico di una porta, non serve conoscerlo e c’è un solo modo per usarlo</p><p>Nel web design i significanti sono legati principalmente ai testi che indicano l’azione (CTA) o le icone che la rappresentano</p></div><LessonFigure src="/images/test-usabilita/ricostruite/esempio-18.webp" alt="Tavola ridisegnata di confronto: significanti negli oggetti quotidiani e nell’interfaccia web." /></div>
 
 <!--
 [calm, matter-of-fact delivery]I significanti sono gli indizi che ci aiutano a capire dove e come agire. Nel caso di una porta, un maniglione orizzontale può suggerire la spinta.[pause] Il segnale lavora attraverso forma, posizione e convenzioni apprese.[pause]
@@ -351,12 +351,12 @@ localOnly: true
 sourceSlide: 17
 narrationAudio: "/audio/lezione-test-usabilita/14-test-usabilita-p17-1-2bfaef7e85c6.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/14-test-usabilita-p17-1-2bfaef7e85c6.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # I principi di Donald Norman
 
-<div class="test-import-copy"><h2>Significanti (2)</h2><p>Attenzione a non commettere questi errori comuni:</p><ul class="cvedi-list"><li><span>Usare testi troppo generici per le CTA: l’informazione, tramite i significanti, deve far capire esattamente cosa succederà compiendo una determinata azione (Feedforward)</span></li></ul><ul class="cvedi-list"><li><span>Essere eccessivamente creativi nella progettazione delle icone: l’icona è utile quando da sola rappresenta qualcosa in maniera inequivocabile; è necessario quindi seguire le logiche culturali, anche se a volte noiose (e.g. “Home” si rappresenta con una casa, non un palazzo o una fattoria, “Taglia” con delle forbici, non un coltello o un seghetto)</span></li></ul></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Significanti: far capire che cosa accadrà</p><ul class="cvedi-list"><li><span>Usare testi delle azioni specifici e comprensibili.</span></li><li><span>Anticipare l’esito prima che la persona agisca: feedforward.</span></li><li><span>Rispettare le convenzioni delle icone, come casa per Home e forbici per Taglia.</span></li></ul></div><LessonFigure src="/images/test-usabilita/ricostruite/esempio-18.webp" alt="Tavola ridisegnata di confronto: significanti negli oggetti quotidiani e nell’interfaccia web." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Il primo errore frequente è usare etichette generiche. «Vai», «Procedi» o «Conferma» possono funzionare in alcuni contesti, ma dobbiamo verificare che sia chiaro che cosa verrà avviato o concluso.[pause] Su Passo, dopo aver scelto una visita, «Invia richiesta» comunica meglio il passaggio effettivo rispetto a una conferma che potrebbe sembrare definitiva.[pause]
@@ -407,12 +407,12 @@ localOnly: true
 sourceSlide: 19
 narrationAudio: "/audio/lezione-test-usabilita/16-test-usabilita-p19-1-19f72669328d.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/16-test-usabilita-p19-1-19f72669328d.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # I principi di Donald Norman
 
-<div class="test-import-copy"><h2>Mapping</h2><p>Il principio del mapping si riferisce alla progettazione di controlli, in modo tale che riflettano il modo in cui si comportano</p><p>Nel web design il mapping è estremamente legato ai significanti ed è veicolato dalla posizione e dal comportamento degli elementi</p><p>L’esempio più classico è lo scroll verticale in una schermata, ti dice dove ti trovi rispetto alla pagina e mentre lo trascini la pagina si sposta con la stessa velocità; il controllo e l’effetto hanno la stessa mappatura</p><p>Allo stesso modo un pulsante incrementale lo troveremo in alto o a destra, mai dalle parti opposte</p></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Mapping: collegare comando ed effetto</p><ul class="cvedi-list"><li><span>Posizione e comportamento dei controlli devono corrispondere al risultato.</span></li><li><span>Lo scorrimento collega posizione della pagina e movimento del controllo.</span></li><li><span>Anche la disposizione di più e meno contribuisce alla comprensione.</span></li></ul></div><LessonFigure src="/images/test-usabilita/ricostruite/esempio-20.webp" alt="Tre interruttori allineati alle tre lampade corrispondenti: il comando centrale premuto accende la lampada centrale. A destra, meno e più diminuiscono o aumentano la quantità 33." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Il mapping è la relazione fra i controlli e i loro effetti. Una disposizione coerente ci aiuta a capire quale comando agisce su quale elemento e in quale direzione.[pause]
@@ -463,12 +463,12 @@ localOnly: true
 sourceSlide: 21
 narrationAudio: "/audio/lezione-test-usabilita/18-test-usabilita-p21-1-1775f9a2f551.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/18-test-usabilita-p21-1-1775f9a2f551.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # I principi di Donald Norman
 
-<div class="test-import-copy"><h2>Vincoli (1)</h2><p>I vincoli sono indizi che definiscono i paletti e gli obblighi che un designer deve rispettare per guidare l’azione e facilitare l’interpretazione</p><p>Si possono dividere in quattro categorie: limiti fisici, culturali, semantici e logici</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><h2>Vincoli (1)</h2><p>I vincoli sono indizi che definiscono i paletti e gli obblighi che un designer deve rispettare per guidare l’azione e facilitare l’interpretazione</p><p>Si possono dividere in quattro categorie: limiti fisici, culturali, semantici e logici</p></div><LessonFigure src="/images/test-usabilita/ricostruite/esempio-23.webp" alt="Confronto fra un vincolo fisico, la matita inserita nel temperamatite, e un vincolo digitale: quantità minima 1 con pulsante meno disattivato." /></div>
 
 <!--
 [calm, matter-of-fact delivery]I vincoli restringono le azioni possibili e possono aiutare a evitare errori. Un’apertura che accoglie soltanto una certa forma introduce un limite fisico.[pause] Una convenzione culturale orienta invece ciò che ci sembra appropriato fare.[pause]
@@ -489,12 +489,12 @@ localOnly: true
 sourceSlide: 22
 narrationAudio: "/audio/lezione-test-usabilita/19-test-usabilita-p22-1-01583d9d5b01.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/19-test-usabilita-p22-1-01583d9d5b01.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # I principi di Donald Norman
 
-<div class="test-import-copy"><h2>Vincoli (2)</h2><p>In un’interfaccia i vincoli possono essere ovvi, come quelli fisici della dimensione dello schermo, o più raffinati, come quelli logici di un’icona disattivata</p><p>Vincoli logici, utili all’usabilità, sono anche le immagini metà dentro lo schermo e metà fuori, che fanno intuire uno slideshow da scrollare</p><p>Oppure la visualizzazione degli step di un processo, ad esempio un checkout di un e-commerce, che permettono all’utente di capire immediatamente quanto manca alla fine</p></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Vincoli nell’interfaccia</p><ul class="cvedi-list"><li><span>Lo spazio dello schermo pone limiti fisici.</span></li><li><span>Un controllo disattivato segnala un vincolo logico.</span></li><li><span>Contenuti parzialmente visibili suggeriscono lo scorrimento.</span></li><li><span>Gli step mostrano la progressione del processo.</span></li></ul></div><LessonFigure src="/images/test-usabilita/ricostruite/esempio-23.webp" alt="Confronto fra un vincolo fisico, la matita inserita nel temperamatite, e un vincolo digitale: quantità minima 1 con pulsante meno disattivato." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Nelle interfacce troviamo limiti di natura diversa. Le dimensioni dello schermo pongono una condizione materiale; l’obbligo di compilare un dato prima dell’invio introduce una regola nel percorso.[pause] Un comando disattivato comunica che un’azione non è disponibile, ma può richiedere una spiegazione.[pause]
@@ -545,12 +545,12 @@ localOnly: true
 sourceSlide: 24
 narrationAudio: "/audio/lezione-test-usabilita/21-test-usabilita-p24-1-311e0eb266ba.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/21-test-usabilita-p24-1-311e0eb266ba.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # I principi di Donald Norman
 
-<div class="test-import-copy"><h2>Feedback (1)</h2><p>Il feedback è quel comportamento che comunica che l’azione è stata recepita, anche se magari non ancora evasa</p><p>Il feedback dev’essere immediato, anche un ritardo di un decimo di secondo può confondere l’utente</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><h2>Feedback (1)</h2><p>Il feedback è quel comportamento che comunica che l’azione è stata recepita, anche se magari non ancora evasa</p><p>Il feedback dev’essere immediato, anche un ritardo di un decimo di secondo può confondere l’utente</p></div><LessonFigure src="/images/test-usabilita/ricostruite/esempio-26.webp" alt="Tavola ridisegnata di confronto: feedback negli oggetti quotidiani e nell’interfaccia web." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Il feedback informa la persona dopo un’azione. Può dire che il comando è stato ricevuto, che il sistema sta lavorando oppure che l’operazione è terminata.[pause] Sono tre informazioni diverse, da scegliere in base allo stato effettivo.[pause]
@@ -571,12 +571,12 @@ localOnly: true
 sourceSlide: 25
 narrationAudio: "/audio/lezione-test-usabilita/22-test-usabilita-p25-1-4b41bad8c2c3.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/22-test-usabilita-p25-1-4b41bad8c2c3.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # I principi di Donald Norman
 
-<div class="test-import-copy"><h2>Feedback (2)</h2><p>Nel web design troppo spesso i progettisti si dimenticano di fornire feedback</p><p>Ci si preoccupa di fare la pagina con l’azione e quella successiva di esito, ma dal momento che l’utente preme Invia, cosa succede?</p><p>In assenza di chiari feedback l’utente, semplicemente, continuerà a ripetere una certa azione fintanto che non riceverà un’informazione di ritorno</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><h2>Feedback (2)</h2><p>Nel web design troppo spesso i progettisti si dimenticano di fornire feedback</p><p>Ci si preoccupa di fare la pagina con l’azione e quella successiva di esito, ma dal momento che l’utente preme Invia, cosa succede?</p><p>In assenza di chiari feedback l’utente, semplicemente, continuerà a ripetere una certa azione fintanto che non riceverà un’informazione di ritorno</p></div><LessonFigure src="/images/test-usabilita/ricostruite/figura-31.webp" alt="Due esempi distinti di feedback: caricamento di presentazione.pdf al 70% con comando Annulla; conferma separata del link di recupero inviato, con invito a controllare l’email. Ricostruzione didattica." caption="Ricostruzione didattica · due esempi indipendenti di feedback" /></div>
 
 <!--
 [calm, matter-of-fact delivery]Progettiamo spesso la schermata prima dell’invio e quella dell’esito. Fra le due c’è però un intervallo che la persona deve poter interpretare.[pause] Ho premuto il comando: il clic è arrivato? La connessione funziona?[pause] Devo aspettare?[pause]
@@ -625,12 +625,12 @@ localOnly: true
 sourceSlide: 27
 narrationAudio: "/audio/lezione-test-usabilita/24-test-usabilita-p27-1-e983224064db.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/24-test-usabilita-p27-1-e983224064db.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # I principi di Donald Norman
 
-<div class="test-import-copy"><h2>Modello concettuale</h2><p>Un modello concettuale è la spiegazione, di solito molto semplificata, di come funziona una cosa</p><p>Nel web design, i modelli ci permettono di associare un’azione, ovviamente virtuale, a qualcosa di concreto che già conosciamo, e che quindi aiuta la comprensione</p><p>Un buon modello concettuale ci permette quindi di prevedere gli effetti delle nostre azioni</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><h2>Modello concettuale</h2><p>Un modello concettuale è la spiegazione, di solito molto semplificata, di come funziona una cosa</p><p>Nel web design, i modelli ci permettono di associare un’azione, ovviamente virtuale, a qualcosa di concreto che già conosciamo, e che quindi aiuta la comprensione</p><p>Un buon modello concettuale ci permette quindi di prevedere gli effetti delle nostre azioni</p></div><LessonFigure src="/images/test-usabilita/ricostruite/esempio-28.webp" alt="Tavola ridisegnata di confronto: modello concettuale negli oggetti quotidiani e nell’interfaccia web." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Un modello concettuale è una spiegazione semplificata del funzionamento. Ci permette di collegare le azioni e prevederne le conseguenze senza conoscere ogni dettaglio tecnico del sistema.[pause]
@@ -815,12 +815,12 @@ localOnly: true
 sourceSlide: 34
 narrationAudio: "/audio/lezione-test-usabilita/31-test-usabilita-p34-1-c5a5862e6910.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/31-test-usabilita-p34-1-c5a5862e6910.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Le euristiche di Nielsen
 
-<div class="test-import-copy"><h2>Standard e consistenza</h2><p>I programmi dovrebbero adeguarsi alle convenzioni</p><p>Gli utenti dovrebbero poter contare sul fatto che le stesse parole, in programmi diversi, indicano cose simili (e.g. “Posta in arrivo”, “Posta in uscita”)</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><h2>Standard e consistenza</h2><p>I programmi dovrebbero adeguarsi alle convenzioni</p><p>Gli utenti dovrebbero poter contare sul fatto che le stesse parole, in programmi diversi, indicano cose simili (e.g. “Posta in arrivo”, “Posta in uscita”)</p></div><LessonFigure src="/images/test-usabilita/ricostruite/figura-32.svg" alt="Menu di una libreria con categorie comprensibili: musica, film, serie TV, podcast, audiolibri e applicazioni. Ricostruzione didattica." caption="Ricostruzione didattica dell’esempio originale" /></div>
 
 <!--
 [calm, matter-of-fact delivery]La coerenza permette di trasferire ciò che abbiamo imparato da un punto all’altro del sistema. Se la stessa azione cambia nome a ogni schermata, dobbiamo capire ogni volta se si tratta davvero della stessa operazione.[pause]
@@ -983,12 +983,12 @@ localOnly: true
 sourceSlide: 40
 narrationAudio: "/audio/lezione-test-usabilita/37-test-usabilita-p40-1-d2646a1e1aa1.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/37-test-usabilita-p40-1-d2646a1e1aa1.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Le euristiche di Nielsen
 
-<div class="test-import-copy"><h2>Documentazione</h2><p>A volte è utile dedicare una sezione del programma o della pagina ad esplicite spiegazioni dedicate all’utente, che possano aiutarlo a fruire il sito</p><p>Queste informazioni dovrebbero essere facili da trovare e focalizzarsi su quali potrebbero essere i compiti che l’utente non sta riuscendo a svolgere</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><h2>Documentazione</h2><p>A volte è utile dedicare una sezione del programma o della pagina ad esplicite spiegazioni dedicate all’utente, che possano aiutarlo a fruire il sito</p><p>Queste informazioni dovrebbero essere facili da trovare e focalizzarsi su quali potrebbero essere i compiti che l’utente non sta riuscendo a svolgere</p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/guida.webp" alt="Un manuale aperto e una ricerca di aiuto collegano una domanda alla spiegazione utile per completare il compito." /></div>
 
 <!--
 [calm, matter-of-fact delivery]La documentazione deve aiutare una persona a svolgere un compito concreto. Una spiegazione generica del servizio può essere meno utile di un’indicazione disponibile nel punto in cui nasce il dubbio.[pause]
@@ -1153,12 +1153,12 @@ localOnly: true
 sourceSlide: 42
 narrationAudio: "/audio/lezione-test-usabilita/43-test-usabilita-p42-1-626b7b78563d.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/43-test-usabilita-p42-1-626b7b78563d.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Focus group: perché escluderlo? (1)
 
-<div class="test-import-copy"><p>In un focus group, un piccolo gruppo di persone (di solito da 5 a 10) si siedono intorno a un tavolo a parlare, per esempio delle loro opinioni sui prodotti, sulle esperienze che hanno avuto con essi o sulle loro reazioni ai nuovi concept</p><p>I focus group sono ottimi per farsi rapidamente un'idea di cosa sentono e pensano gli utenti su un determinato prodotto</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>In un focus group, un piccolo gruppo di persone (di solito da 5 a 10) si siedono intorno a un tavolo a parlare, per esempio delle loro opinioni sui prodotti, sulle esperienze che hanno avuto con essi o sulle loro reazioni ai nuovi concept</p><p>I focus group sono ottimi per farsi rapidamente un'idea di cosa sentono e pensano gli utenti su un determinato prodotto</p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/focus-group.webp" alt="Un piccolo gruppo discute con un moderatore attorno a un tavolo; i fumetti rappresentano opinioni e idee." /></div>
 
 <!--
 [calm, matter-of-fact delivery]In un focus group alcune persone discutono un argomento con la guida di un moderatore. Possono raccontare esperienze, confrontare aspettative e reagire a un’idea di prodotto.[pause]
@@ -1179,12 +1179,12 @@ localOnly: true
 sourceSlide: 43
 narrationAudio: "/audio/lezione-test-usabilita/44-test-usabilita-p43-1-982db354ba37.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/44-test-usabilita-p43-1-982db354ba37.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Focus group: perché escluderlo? (2)
 
-<div class="test-import-copy"><p>I focus group possono rendersi molto utili per determinare cosa vuole il pubblico, di cosa ha bisogno e cosa gli piace, in astratto</p><p>Vanno bene per testare se l'idea che sta dietro il vostro sito si capisce e se la value proposition è attraente, per scoprire di più su come le persone di solito risolvono i problemi che il sito aiuterà ad affrontare e per sapere che cosa pensano di voi e della concorrenza</p><p>Ma non vanno bene per capire se il sito funziona e come migliorarlo</p></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Che cosa può dirci un focus group</p><ul class="cvedi-list"><li><span>Esplora bisogni, preferenze e modi abituali di affrontare un problema.</span></li><li><span>Aiuta a discutere comprensibilità dell’idea e attrattiva della proposta.</span></li><li><span>Per capire come funziona l’interfaccia serve osservare le persone mentre la usano.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/focus-group.webp" alt="Un piccolo gruppo discute con un moderatore attorno a un tavolo; i fumetti rappresentano opinioni e idee." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Un gruppo può discutere se l’idea di un servizio è comprensibile o interessante. Per Passo potremmo esplorare come le persone raccontano la ricerca di una visita e quali condizioni considerano decisive.[pause] Questa conversazione può offrire domande da approfondire.[pause]
@@ -1207,12 +1207,12 @@ localOnly: true
 sourceSlide: 44
 narrationAudio: "/audio/lezione-test-usabilita/45-test-usabilita-p44-1-edd6575dc0db.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/45-test-usabilita-p44-1-edd6575dc0db.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Test di usabilità (1)
 
-<div class="test-import-copy"><p>L’usability testing, noto anche come “User testing” è una metodologia di ricerca popolare nell’ambito della User Experience.</p><p>Secondo il Nielsen Norman Group: In a usability-testing session, a researcher (called a “facilitator” or a “moderator”) asks a participant to perform tasks, usually using one or more specific user interfaces. While the participant completes each task, the researcher observes the participant’s behavior and listens for feedback</p></div><p class="aside test-import-source">Nielsen Norman Group</p>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>L’usability testing, noto anche come “User testing” è una metodologia di ricerca popolare nell’ambito della User Experience.</p><p>Secondo il Nielsen Norman Group: In a usability-testing session, a researcher (called a “facilitator” or a “moderator”) asks a participant to perform tasks, usually using one or more specific user interfaces. While the participant completes each task, the researcher observes the participant’s behavior and listens for feedback</p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/sessione.webp" alt="Una persona usa un computer durante un test; accanto, il facilitatore osserva e prende appunti. Sul tavolo sono presenti mouse e microfono." /></div><p class="aside test-import-source">Nielsen Norman Group</p>
 
 <!--
 [calm, matter-of-fact delivery]La definizione del Nielsen Norman Group mette al centro una situazione operativa: il ricercatore chiede a un partecipante di svolgere dei compiti attraverso un’interfaccia, osserva il comportamento e ascolta ciò che la persona racconta durante l’esperienza.[pause]
@@ -1235,12 +1235,12 @@ localOnly: true
 sourceSlide: 44
 narrationAudio: "/audio/lezione-test-usabilita/46-test-usabilita-p44-2-92cc094e88a8.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/46-test-usabilita-p44-2-92cc094e88a8.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Test di usabilità (1)
 
-<div class="test-import-copy"><p>Consistono nel guardare una sola persona per volta mentre cerca di usare qualcosa (che sia un sito web, un prototipo o solo le bozze di singole pagine) per eseguire azioni comuni, perché si possano rilevare e correggere gli aspetti che la confondono o la frustrano</p></div><p class="aside test-import-source">Nielsen Norman Group</p>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>Consistono nel guardare una sola persona per volta mentre cerca di usare qualcosa (che sia un sito web, un prototipo o solo le bozze di singole pagine) per eseguire azioni comuni, perché si possano rilevare e correggere gli aspetti che la confondono o la frustrano</p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/sessione.webp" alt="Una persona usa un computer durante un test; accanto, il facilitatore osserva e prende appunti. Sul tavolo sono presenti mouse e microfono." /></div><p class="aside test-import-source">Nielsen Norman Group</p>
 
 <!--
 [calm, matter-of-fact delivery]Osserviamo una persona per volta, così possiamo seguire la sua interpretazione e le sue scelte. Il materiale può essere un sito funzionante, un prototipo navigabile o una bozza: deve permettere di affrontare la domanda prevista.[pause]
@@ -1266,7 +1266,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illus
 
 # Test di usabilità (2)
 
-<div class="lesson-columns test-illustrated-summary"><div><p class="lead">Un modello storico molto dispendioso</p><ul class="cvedi-list"><li><span>Laboratorio con specchio unidirezionale e videocamere.</span></li><li><span>Pianificazione specialistica e reclutamento numeroso.</span></li><li><span>Studi ampi per ottenere misure statistiche.</span></li><li><span>Costi riportati: 20.000–50.000 $; test poco frequenti.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/laboratorio.webp" alt="Laboratorio storico di usabilità: un partecipante al computer viene registrato da una videocamera; due ricercatori osservano dall’altra stanza attraverso il vetro." /></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Un modello storico molto dispendioso</p><ul class="cvedi-list"><li><span>Laboratorio con specchio unidirezionale e videocamere.</span></li><li><span>Pianificazione specialistica e reclutamento numeroso.</span></li><li><span>Studi ampi per ottenere misure statistiche.</span></li><li><span>Costi riportati: 20.000–50.000 $; test poco frequenti.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/laboratorio.webp" alt="Laboratorio storico di usabilità: un partecipante al computer viene registrato da una videocamera; due ricercatori osservano dall’altra stanza attraverso il vetro." /></div>
 
 <!--
 [calm, matter-of-fact delivery]La slide racconta una modalità storica dei test: laboratori dedicati, sale di osservazione, registrazioni e studi organizzati con molte risorse. I costi riportati appartengono a quel racconto e non sono preventivi per uno studio da commissionare oggi.[pause]
@@ -1294,7 +1294,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illus
 
 # Test di usabilità (3)
 
-<div class="lesson-columns test-illustrated-summary"><div><p class="lead">Un’impostazione più leggera</p><ul class="cvedi-list"><li><span>Nel 1989 Nielsen propone «Usability Engineering at a Discount».</span></li><li><span>Piccoli cicli di osservazione e revisione senza laboratorio dedicato.</span></li><li><span>Costi storici riportati: 5.000–10.000 $ per ciclo.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/sessione.webp" alt="Una persona usa un computer durante un test; accanto, il facilitatore osserva e prende appunti. Sul tavolo sono presenti mouse e microfono." /></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Un’impostazione più leggera</p><ul class="cvedi-list"><li><span>Nel 1989 Nielsen propone «Usability Engineering at a Discount».</span></li><li><span>Piccoli cicli di osservazione e revisione senza laboratorio dedicato.</span></li><li><span>Costi storici riportati: 5.000–10.000 $ per ciclo.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/sessione.webp" alt="Una persona usa un computer durante un test; accanto, il facilitatore osserva e prende appunti. Sul tavolo sono presenti mouse e microfono." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Con l’espressione «usabilità a costi contenuti», Nielsen ha promosso un modo più leggero di introdurre la valutazione nel progetto. Il contributo richiamato risale al millenovecentottantanove.[pause]
@@ -1482,7 +1482,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illus
 
 # Why Usability Test? (2)
 
-<div class="lesson-columns test-illustrated-summary"><div><p class="lead">Progettare, osservare, rivedere</p><ul class="cvedi-list"><li><span>Le ipotesi di progetto incontrano l’uso delle persone.</span></li><li><span>Le variabili del contesto rendono difficile prevedere ogni interazione.</span></li><li><span>Ogni ciclo permette di correggere e verificare le scelte.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/iterazione.webp" alt="Ciclo fra bozza di interfaccia, osservazione di una persona e revisione del progetto, collegato da tre frecce." /></div><p class="aside test-import-source">Nielsen Norman Group</p>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Progettare, osservare, rivedere</p><ul class="cvedi-list"><li><span>Le ipotesi di progetto incontrano l’uso delle persone.</span></li><li><span>Le variabili del contesto rendono difficile prevedere ogni interazione.</span></li><li><span>Ogni ciclo permette di correggere e verificare le scelte.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/iterazione.webp" alt="Ciclo fra bozza di interfaccia, osservazione di una persona e revisione del progetto, collegato da tre frecce." /></div><p class="aside test-import-source">Nielsen Norman Group</p>
 
 <!--
 [calm, matter-of-fact delivery]Chi progetta deve coordinare contenuti, comportamento, dispositivi e persone con esperienze diverse. Possiamo anticipare molte difficoltà usando principi e conoscenze del contesto, ma rimangono ipotesi che devono incontrare l’uso.[pause]
@@ -1505,12 +1505,12 @@ localOnly: true
 sourceSlide: 50
 narrationAudio: "/audio/lezione-test-usabilita/56-test-usabilita-p50-1-ad08a29bd471.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/56-test-usabilita-p50-1-ad08a29bd471.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Why Usability Test? (3)
 
-<div class="test-import-copy"><p>Eseguire test con un solo utente è 100 volte meglio che con nessuno</p><p>Eseguire test funziona sempre e anche il test peggiore con l'utente peggiore vi mostrerà cose importanti che potete migliorare nel sito</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>Eseguire test con un solo utente è 100 volte meglio che con nessuno</p><p>Eseguire test funziona sempre e anche il test peggiore con l'utente peggiore vi mostrerà cose importanti che potete migliorare nel sito</p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/sessione.webp" alt="Una persona usa un computer durante un test; accanto, il facilitatore osserva e prende appunti. Sul tavolo sono presenti mouse e microfono." /></div>
 
 <!--
 [calm, matter-of-fact delivery]«Un utente è cento volte meglio di nessuno» è una formula volutamente incisiva. Non indica un rapporto misurato fra due risultati di ricerca: invita a cominciare a osservare invece di rimandare ogni prova.[pause]
@@ -1531,12 +1531,12 @@ localOnly: true
 sourceSlide: 51
 narrationAudio: "/audio/lezione-test-usabilita/57-test-usabilita-p51-1-cc5c76537414.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/57-test-usabilita-p51-1-cc5c76537414.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Why Usability Test? (4)
 
-<div class="test-import-copy"><p>Eseguire test con un solo utente all'inizio del progetto è meglio che eseguirli con 50 alla fine</p><p>Molti danno per scontato che i test comportano molto lavoro.</p><p>Ma se li trasformate in un un grosso lavoro, non riuscirete a eseguirli in tempo o sufficientemente spesso da poterne trarre il massimo vantaggio.</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>Eseguire test con un solo utente all'inizio del progetto è meglio che eseguirli con 50 alla fine</p><p>Molti danno per scontato che i test comportano molto lavoro.</p><p>Ma se li trasformate in un un grosso lavoro, non riuscirete a eseguirli in tempo o sufficientemente spesso da poterne trarre il massimo vantaggio.</p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/prototipo-precoce.webp" alt="Una persona prova un prototipo di carta mentre il facilitatore osserva; tre bozze richiamano la progressione del progetto." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Anche il confronto fra una persona all’inizio e cinquanta alla fine vuole mettere in evidenza il valore del momento in cui impariamo qualcosa. Se scopriamo presto che il percorso parte da una premessa sbagliata, possiamo cambiare una bozza con un investimento limitato.[pause]
@@ -1562,7 +1562,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illus
 
 # Why Usability Test? (4)
 
-<div class="lesson-columns test-illustrated-summary"><div><p class="lead">Testare quando si può ancora cambiare</p><ul class="cvedi-list"><li><span>Una prova semplice e precoce può orientare le decisioni.</span></li><li><span>Dopo il rilascio, le modifiche coinvolgono contenuti, processi e abitudini.</span></li><li><span>Anche piccoli cambiamenti possono avere effetti estesi.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/prototipo-precoce.webp" alt="Una persona prova un prototipo di carta mentre il facilitatore osserva; tre bozze richiamano la progressione del progetto." /></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Testare quando si può ancora cambiare</p><ul class="cvedi-list"><li><span>Una prova semplice e precoce può orientare le decisioni.</span></li><li><span>Dopo il rilascio, le modifiche coinvolgono contenuti, processi e abitudini.</span></li><li><span>Anche piccoli cambiamenti possono avere effetti estesi.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/prototipo-precoce.webp" alt="Una persona prova un prototipo di carta mentre il facilitatore osserva; tre bozze richiamano la progressione del progetto." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Una prova semplice può essere preziosa quando arriva in tempo per cambiare il progetto. Una sequenza di bozze può già mostrarci che cosa viene interpretato come primo passo, quali dati mancano e quale risultato la persona si aspetta.[pause]
@@ -1585,12 +1585,12 @@ localOnly: true
 sourceSlide: 51
 narrationAudio: "/audio/lezione-test-usabilita/59-test-usabilita-p51-3-40006d8a5397.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/59-test-usabilita-p51-3-40006d8a5397.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Why Usability Test? (4)
 
-<div class="test-import-copy"><p>Tutti gli errori che si possono correggere all'inizio del processo evitano molti problemi più avanti</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>Tutti gli errori che si possono correggere all'inizio del processo evitano molti problemi più avanti</p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/iterazione.webp" alt="Ciclo fra bozza di interfaccia, osservazione di una persona e revisione del progetto, collegato da tre frecce." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Correggere presto può evitare che una scelta problematica si propaghi. Se distinguiamo richiesta e conferma già nel primo flusso, possiamo mantenere la stessa distinzione nei riepiloghi, nelle notifiche e nei messaggi di assistenza.[pause]
@@ -1611,12 +1611,12 @@ localOnly: true
 sourceSlide: 52
 narrationAudio: "/audio/lezione-test-usabilita/60-test-usabilita-p52-1-9b1b6831aa78.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/60-test-usabilita-p52-1-9b1b6831aa78.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Usability testing: le componenti
 
-<div class="test-import-copy"><p>Gli elementi centrali nella maggior parte dei test di usabilità sono il facilitatore, i compiti e il partecipante</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>Gli elementi centrali nella maggior parte dei test di usabilità sono il facilitatore, i compiti e il partecipante</p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/sessione.webp" alt="Una persona usa un computer durante un test; accanto, il facilitatore osserva e prende appunti. Sul tavolo sono presenti mouse e microfono." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Torniamo ai tre elementi centrali: facilitatore, compiti e partecipante. Il facilitatore organizza la situazione e mantiene le condizioni adatte all’osservazione.[pause] Il compito rende concreto l’obiettivo. Il partecipante porta esperienza, aspettative e strategie.[pause]
@@ -1642,7 +1642,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide figure-sli
 
 # Usability testing: le componenti
 
-<LessonFigure src="/images/test-usabilita/ricostruite/componenti-test.svg" alt="Il facilitatore amministra i compiti e osserva e intervista il partecipante. Il partecipante esegue i compiti e dà feedback al facilitatore. Schema rielaborato da Nielsen Norman Group." /><p class="aside test-import-source">Nielsen Norman Group</p>
+<LessonFigure src="/images/test-usabilita/ricostruite/componenti-test.svg?v=ec7a654c4d3e" alt="Il facilitatore amministra i compiti e osserva e intervista il partecipante. Il partecipante esegue i compiti e dà feedback al facilitatore. Schema rielaborato da Nielsen Norman Group." /><p class="aside test-import-source">Nielsen Norman Group</p>
 
 <!--
 [calm, matter-of-fact delivery]Seguiamo le quattro relazioni del diagramma. Il facilitatore amministra i compiti: presenta la situazione e le istruzioni.[pause] Il partecipante li esegue attraverso il materiale che stiamo studiando.[pause]
@@ -1670,7 +1670,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-impor
 
 # Usability testing: il facilitatore (1)
 
-<div class="lesson-columns"><div><p>Il facilitatore guida il partecipante attraverso il processo di test. Dà istruzioni, risponde alle domande dei partecipanti e pone domande di follow-up</p><p>Il facilitatore lavora per garantire che il test fornisca dati validi e di alta qualità, senza influenzare accidentalmente il comportamento del partecipante. Raggiungere questo equilibrio è difficile e richiede formazione</p></div><LessonFigure src="/images/test-usabilita/ricostruite/ruolo-facilitatore.svg" alt="Facilitatore: Guida il partecipante lungo il processo. Schema rielaborato da Nielsen Norman Group." /></div><p class="aside test-import-source">Nielsen Norman Group</p>
+<div class="lesson-columns"><div><p>Il facilitatore guida il partecipante attraverso il processo di test. Dà istruzioni, risponde alle domande dei partecipanti e pone domande di follow-up</p><p>Il facilitatore lavora per garantire che il test fornisca dati validi e di alta qualità, senza influenzare accidentalmente il comportamento del partecipante. Raggiungere questo equilibrio è difficile e richiede formazione</p></div><LessonFigure src="/images/test-usabilita/ricostruite/ruolo-facilitatore.svg?v=81e9443719d8" alt="Facilitatore: Guida il partecipante lungo il processo. Schema rielaborato da Nielsen Norman Group." /></div><p class="aside test-import-source">Nielsen Norman Group</p>
 
 <!--
 [calm, matter-of-fact delivery]Il facilitatore guida la sessione e protegge le condizioni della prova. Deve spiegare come partecipare, rispondere ai dubbi sull’organizzazione e porre domande utili ad approfondire gli episodi.[pause]
@@ -1698,7 +1698,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-impor
 
 # Usability testing: il facilitatore (2)
 
-<div class="lesson-columns"><div><p>È necessario scegliere qualcuno che tenda a essere paziente, calmo, empatico e buon ascoltatore</p><p>A parte far sentire i partecipanti a loro agio e farli concentrare sulle loro attività, il compito principale del facilitatore è incoraggiarli a pensare il più possibile ad alta voce senza influenzare le loro azioni</p></div><LessonFigure src="/images/test-usabilita/ricostruite/ruolo-facilitatore.svg" alt="Facilitatore: Guida il partecipante lungo il processo. Schema rielaborato da Nielsen Norman Group." /></div><p class="aside test-import-source">Nielsen Norman Group</p>
+<div class="lesson-columns"><div><p>È necessario scegliere qualcuno che tenda a essere paziente, calmo, empatico e buon ascoltatore</p><p>A parte far sentire i partecipanti a loro agio e farli concentrare sulle loro attività, il compito principale del facilitatore è incoraggiarli a pensare il più possibile ad alta voce senza influenzare le loro azioni</p></div><LessonFigure src="/images/test-usabilita/ricostruite/ruolo-facilitatore.svg?v=81e9443719d8" alt="Facilitatore: Guida il partecipante lungo il processo. Schema rielaborato da Nielsen Norman Group." /></div><p class="aside test-import-source">Nielsen Norman Group</p>
 
 <!--
 [calm, matter-of-fact delivery]Pazienza, calma, ascolto ed empatia aiutano a creare una situazione in cui la persona possa mostrare dubbi e difficoltà. Se si sente giudicata, potrebbe cercare di difendere ogni scelta o chiedere continuamente conferma.[pause]
@@ -1726,7 +1726,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-impor
 
 # Usability testing: i compiti (1)
 
-<div class="lesson-columns"><div><p>I compiti in un test di usabilità sono attività realistiche che il partecipante potrebbe svolgere nella vita reale. Possono essere molto specifici o molto aperti, a seconda delle domande di ricerca e del tipo di test di usabilità.</p></div><LessonFigure src="/images/test-usabilita/ricostruite/ruolo-compiti.svg" alt="Compiti: Attività realistiche che il partecipante potrebbe svolgere nella vita reale. Schema rielaborato da Nielsen Norman Group." /></div><p class="aside test-import-source">Nielsen Norman Group</p>
+<div class="lesson-columns"><div><p>I compiti in un test di usabilità sono attività realistiche che il partecipante potrebbe svolgere nella vita reale. Possono essere molto specifici o molto aperti, a seconda delle domande di ricerca e del tipo di test di usabilità.</p></div><LessonFigure src="/images/test-usabilita/ricostruite/ruolo-compiti.svg?v=56f8fdf39445" alt="Compiti: Attività realistiche che il partecipante potrebbe svolgere nella vita reale. Schema rielaborato da Nielsen Norman Group." /></div><p class="aside test-import-source">Nielsen Norman Group</p>
 
 <!--
 [calm, matter-of-fact delivery]Un compito descrive un’attività che la persona potrebbe avere motivo di svolgere. Può essere molto specifico, come recuperare l’accesso a un account, oppure più aperto, come scegliere una visita compatibile con alcune condizioni.[pause]
@@ -1754,7 +1754,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-impor
 
 # Usability testing: i compiti (2)
 
-<div class="lesson-columns"><div><p>La formulazione delle attività è molto importante nei test di usabilità</p><p>Piccoli errori nella formulazione di un compito possono indurre il partecipante a fraintendere ciò che gli viene chiesto di fare o possono influenzare il modo in cui i partecipanti eseguono il compito (un fenomeno psicologico chiamato priming)</p></div><LessonFigure src="/images/test-usabilita/ricostruite/ruolo-compiti.svg" alt="Compiti: Attività realistiche che il partecipante potrebbe svolgere nella vita reale. Schema rielaborato da Nielsen Norman Group." /></div><p class="aside test-import-source">Nielsen Norman Group</p>
+<div class="lesson-columns"><div><p>La formulazione delle attività è molto importante nei test di usabilità</p><p>Piccoli errori nella formulazione di un compito possono indurre il partecipante a fraintendere ciò che gli viene chiesto di fare o possono influenzare il modo in cui i partecipanti eseguono il compito (un fenomeno psicologico chiamato priming)</p></div><LessonFigure src="/images/test-usabilita/ricostruite/ruolo-compiti.svg?v=56f8fdf39445" alt="Compiti: Attività realistiche che il partecipante potrebbe svolgere nella vita reale. Schema rielaborato da Nielsen Norman Group." /></div><p class="aside test-import-source">Nielsen Norman Group</p>
 
 <!--
 [calm, matter-of-fact delivery]La formulazione può suggerire involontariamente la soluzione. Se chiedo «Usa il filtro Prezzo per trovare una visita», ho già indicato sia il controllo sia la parola da cercare.[pause]
@@ -1782,7 +1782,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-impor
 
 # Usability testing: i compiti (3)
 
-<div class="lesson-columns"><div><p>Le istruzioni del compito possono essere consegnate al partecipante verbalmente (il facilitatore potrebbe leggerle) o possono essere consegnate scritte su fogli</p><p>Spesso si chiede ai partecipanti di leggere ad alta voce le istruzioni del compito per garantire la lettura completa delle istruzioni e affinché il facilitatore sappia quale attività sta eseguendo</p></div><LessonFigure src="/images/test-usabilita/ricostruite/ruolo-compiti.svg" alt="Compiti: Attività realistiche che il partecipante potrebbe svolgere nella vita reale. Schema rielaborato da Nielsen Norman Group." /></div><p class="aside test-import-source">Nielsen Norman Group</p>
+<div class="lesson-columns"><div><p>Le istruzioni del compito possono essere consegnate al partecipante verbalmente (il facilitatore potrebbe leggerle) o possono essere consegnate scritte su fogli</p><p>Spesso si chiede ai partecipanti di leggere ad alta voce le istruzioni del compito per garantire la lettura completa delle istruzioni e affinché il facilitatore sappia quale attività sta eseguendo</p></div><LessonFigure src="/images/test-usabilita/ricostruite/ruolo-compiti.svg?v=56f8fdf39445" alt="Compiti: Attività realistiche che il partecipante potrebbe svolgere nella vita reale. Schema rielaborato da Nielsen Norman Group." /></div><p class="aside test-import-source">Nielsen Norman Group</p>
 
 <!--
 [calm, matter-of-fact delivery]Possiamo presentare il compito a voce o per iscritto. La scelta deve permettere alla persona di comprenderlo e di ritrovare le condizioni mentre lavora, senza introdurre ostacoli inutili.[pause]
@@ -1810,7 +1810,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-impor
 
 # Usability testing: il partecipante
 
-<div class="lesson-columns"><div><p>Il partecipante dovrebbe essere un utente realistico del prodotto o servizio studiato. Ciò potrebbe significare che l’utente sta già utilizzando il prodotto o il servizio nella vita reale</p><p>In alternativa, in alcuni casi, il partecipante potrebbe semplicemente avere un background simile a quello del gruppo di utenti target o avere le stesse esigenze</p></div><LessonFigure src="/images/test-usabilita/ricostruite/ruolo-partecipante.svg" alt="Partecipante: Utente realistico del prodotto o servizio in fase di studio. Schema rielaborato da Nielsen Norman Group." /></div><p class="aside test-import-source">Nielsen Norman Group</p>
+<div class="lesson-columns"><div><p>Il partecipante dovrebbe essere un utente realistico del prodotto o servizio studiato. Ciò potrebbe significare che l’utente sta già utilizzando il prodotto o il servizio nella vita reale</p><p>In alternativa, in alcuni casi, il partecipante potrebbe semplicemente avere un background simile a quello del gruppo di utenti target o avere le stesse esigenze</p></div><LessonFigure src="/images/test-usabilita/ricostruite/ruolo-partecipante.svg?v=01fb73bb10ca" alt="Partecipante: Utente realistico del prodotto o servizio in fase di studio. Schema rielaborato da Nielsen Norman Group." /></div><p class="aside test-import-source">Nielsen Norman Group</p>
 
 <!--
 [calm, matter-of-fact delivery]Il partecipante deve avere un rapporto plausibile con il prodotto e con il compito. Può già usare il servizio oppure avere bisogni ed esperienze pertinenti, anche se lo incontra per la prima volta.[pause]
@@ -1838,7 +1838,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-impor
 
 # Usability testing: il partecipante
 
-<div class="lesson-columns"><div><p>Ai partecipanti viene spesso chiesto di pensare ad alta voce durante i test di usabilità (chiamato “metodo think-aloud”). Il facilitatore potrebbe chiedere ai partecipanti di narrare le loro azioni e pensieri mentre svolgono i compiti</p><p>L’obiettivo di questo approccio è comprendere i comportamenti, gli obiettivi, i pensieri e le motivazioni dei partecipanti</p></div><LessonFigure src="/images/test-usabilita/ricostruite/ruolo-partecipante.svg" alt="Partecipante: Utente realistico del prodotto o servizio in fase di studio. Schema rielaborato da Nielsen Norman Group." /></div><p class="aside test-import-source">Nielsen Norman Group</p>
+<div class="lesson-columns"><div><p>Ai partecipanti viene spesso chiesto di pensare ad alta voce durante i test di usabilità (chiamato “metodo think-aloud”). Il facilitatore potrebbe chiedere ai partecipanti di narrare le loro azioni e pensieri mentre svolgono i compiti</p><p>L’obiettivo di questo approccio è comprendere i comportamenti, gli obiettivi, i pensieri e le motivazioni dei partecipanti</p></div><LessonFigure src="/images/test-usabilita/ricostruite/ruolo-partecipante.svg?v=01fb73bb10ca" alt="Partecipante: Utente realistico del prodotto o servizio in fase di studio. Schema rielaborato da Nielsen Norman Group." /></div><p class="aside test-import-source">Nielsen Norman Group</p>
 
 <!--
 [calm, matter-of-fact delivery]Nel pensiero ad alta voce chiediamo alla persona di raccontare ciò che cerca, si aspetta e interpreta mentre svolge il compito. Potremmo sentire: «Cerco il totale perché voglio capire se rientra nella spesa».[pause]
@@ -1881,12 +1881,12 @@ localOnly: true
 sourceSlide: 62
 narrationAudio: "/audio/lezione-test-usabilita/70-test-usabilita-p62-1-c42fb08ec74e.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/70-test-usabilita-p62-1-c42fb08ec74e.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Quanto spesso si devono eseguire i test? (1)
 
-<div class="test-import-copy"><p>Una mattina al mese</p><ul class="cvedi-list"><li><span>Se li si mantiene semplici, si continua ad eseguirli. Una mattina al mese è più o meno il tempo che la maggior parte dei team possono permettersi di dedicare ai test. Se questi sono troppo complicati o richiedono troppo tempo, è molto più probabile che non troviate il tempo di eseguirli quando siete troppo occupati</span></li></ul><ul class="cvedi-list"><li><span>Offrono quello che serve. Osservando tre partecipanti, riconoscete abbastanza problemi da tenervi impegnati a correggere cose fino al mese successivo</span></li></ul></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>Una mattina al mese</p><ul class="cvedi-list"><li><span>Se li si mantiene semplici, si continua ad eseguirli. Una mattina al mese è più o meno il tempo che la maggior parte dei team possono permettersi di dedicare ai test. Se questi sono troppo complicati o richiedono troppo tempo, è molto più probabile che non troviate il tempo di eseguirli quando siete troppo occupati</span></li></ul><ul class="cvedi-list"><li><span>Offrono quello che serve. Osservando tre partecipanti, riconoscete abbastanza problemi da tenervi impegnati a correggere cose fino al mese successivo</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/calendario.webp" alt="Un calendario con un giorno evidenziato e una freccia circolare richiama la cadenza regolare dei test; accanto, una persona prova un computer." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Una mattina al mese è una proposta per rendere il test un’abitudine praticabile. Un appuntamento ricorrente può aiutare il gruppo a preparare materiali e lasciare tempo alle correzioni.[pause]
@@ -1909,12 +1909,12 @@ localOnly: true
 sourceSlide: 63
 narrationAudio: "/audio/lezione-test-usabilita/71-test-usabilita-p63-1-3d7f78b0ab05.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/71-test-usabilita-p63-1-3d7f78b0ab05.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Quanto spesso si devono eseguire i test? (2)
 
-<div class="test-import-copy"><p>Una mattina al mese</p><ul class="cvedi-list"><li><span>Evitano di dover decidere che cosa testare. Dovete scegliere un giorno del mese (come il terzo giovedì) e renderlo il giorno dedicato ai test. È molto meglio che basare la pianificazione dei test su obiettivi o scadenze (&quot;Eseguiremo i test quando la versione beta sarà pronta per il rilascio&quot;), perché questi spesso slittano e fanno slittare di conseguenza anche i test. Non preoccupatevi: avrete sempre qualcosa da testare ogni mese</span></li></ul></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>Una mattina al mese</p><ul class="cvedi-list"><li><span>Evitano di dover decidere che cosa testare. Dovete scegliere un giorno del mese (come il terzo giovedì) e renderlo il giorno dedicato ai test. È molto meglio che basare la pianificazione dei test su obiettivi o scadenze (&quot;Eseguiremo i test quando la versione beta sarà pronta per il rilascio&quot;), perché questi spesso slittano e fanno slittare di conseguenza anche i test. Non preoccupatevi: avrete sempre qualcosa da testare ogni mese</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/calendario.webp" alt="Un calendario con un giorno evidenziato e una freccia circolare richiama la cadenza regolare dei test; accanto, una persona prova un computer." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Fissare una data ricorrente riduce il rischio di rinviare continuamente il test alla prossima versione pronta. Le scadenze di sviluppo possono slittare; una domanda di ricerca può invece essere affrontata anche con materiali parziali, se adeguati.[pause]
@@ -1937,12 +1937,12 @@ localOnly: true
 sourceSlide: 63
 narrationAudio: "/audio/lezione-test-usabilita/72-test-usabilita-p63-2-7ce2f5ede146.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/72-test-usabilita-p63-2-7ce2f5ede146.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Quanto spesso si devono eseguire i test? (2)
 
-<div class="test-import-copy"><ul class="cvedi-list"><li><span>Aumentano le probabilità che la gente sia presente. Eseguirli tutti in una mattinata in base a un calendario prevedibile aumenta enormemente la possibilità che i membri del team trovino il tempo di venire e osservare almeno una sessione, cosa che è altamente desiderabile</span></li></ul></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><ul class="cvedi-list"><li><span>Aumentano le probabilità che la gente sia presente. Eseguirli tutti in una mattinata in base a un calendario prevedibile aumenta enormemente la possibilità che i membri del team trovino il tempo di venire e osservare almeno una sessione, cosa che è altamente desiderabile</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/calendario.webp" alt="Un calendario con un giorno evidenziato e una freccia circolare richiama la cadenza regolare dei test; accanto, una persona prova un computer." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Un calendario prevedibile aiuta anche gli osservatori a partecipare. Chi sviluppa, scrive i contenuti o decide le priorità può riservare il tempo necessario e vedere almeno una sessione.[pause]
@@ -1966,7 +1966,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illus
 
 # Quanti utenti servono? (1)
 
-<div class="lesson-columns test-illustrated-summary"><div><p class="lead">Trovare problemi e stimare risultati sono obiettivi diversi</p><ul class="cvedi-list"><li><span>I piccoli cicli qualitativi servono a osservare difficoltà e decidere modifiche.</span></li><li><span>Le misure quantitative richiedono campione, protocollo e analisi adeguati.</span></li><li><span>La proposta dei tre utenti riguarda il ciclo qualitativo descritto.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/qualitativo.webp" alt="Confronto fra osservazione individuale di un problema e analisi di dati aggregati di un gruppo, senza indicare dimensioni campionarie." /></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Trovare problemi e stimare risultati sono obiettivi diversi</p><ul class="cvedi-list"><li><span>I piccoli cicli qualitativi servono a osservare difficoltà e decidere modifiche.</span></li><li><span>Le misure quantitative richiedono campione, protocollo e analisi adeguati.</span></li><li><span>La proposta dei tre utenti riguarda il ciclo qualitativo descritto.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/qualitativo.webp" alt="Confronto fra osservazione individuale di un problema e analisi di dati aggregati di un gruppo, senza indicare dimensioni campionarie." /></div>
 
 <!--
 [calm, matter-of-fact delivery]La proposta di tre utenti riguarda piccoli cicli qualitativi orientati al miglioramento. Lo scopo è trovare e comprendere difficoltà nei compiti esplorati, per decidere una revisione.[pause]
@@ -1994,7 +1994,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illus
 
 # Quanti utenti servono? (2)
 
-<div class="lesson-columns test-illustrated-summary"><div><p class="lead">Concentrarsi sui problemi più gravi</p><ul class="cvedi-list"><li><span>Un ciclo di test non trova ogni possibile difficoltà.</span></li><li><span>Spesso emergono più problemi di quanti se ne possano risolvere.</span></li><li><span>Usare gli episodi osservati per scegliere le priorità di intervento.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/priorita.webp" alt="Due membri del team ordinano su una lavagna i problemi osservati, mettendo in evidenza una priorità." /></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Concentrarsi sui problemi più gravi</p><ul class="cvedi-list"><li><span>Un ciclo di test non trova ogni possibile difficoltà.</span></li><li><span>Spesso emergono più problemi di quanti se ne possano risolvere.</span></li><li><span>Usare gli episodi osservati per scegliere le priorità di intervento.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/priorita.webp" alt="Due membri del team ordinano su una lavagna i problemi osservati, mettendo in evidenza una priorità." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Non troveremo tutti i problemi in un unico ciclo. Ogni sessione esplora una parte dei possibili incontri fra persone, attività e contesti.[pause] Il fatto che una difficoltà non emerga lascia aperta la possibilità che si presenti in altre condizioni.[pause]
@@ -2017,12 +2017,12 @@ localOnly: true
 sourceSlide: 65
 narrationAudio: "/audio/lezione-test-usabilita/75-test-usabilita-p65-2-568923eaf525.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/75-test-usabilita-p65-2-568923eaf525.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Quanti utenti servono? (2)
 
-<div class="test-import-copy"><p>Inoltre, eseguirete un ciclo di test al mese. È molto più importante eseguire più cicli di test che cercare di ottenere tutto il possibile da ciascuno di essi</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>Inoltre, eseguirete un ciclo di test al mese. È molto più importante eseguire più cicli di test che cercare di ottenere tutto il possibile da ciascuno di essi</p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/iterazione.webp" alt="Ciclo fra bozza di interfaccia, osservazione di una persona e revisione del progetto, collegato da tre frecce." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Più cicli permettono di verificare il lavoro di revisione. Nel primo troviamo una difficoltà, cambiamo il progetto e nel successivo osserviamo la nuova versione.[pause]
@@ -2046,7 +2046,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illus
 
 # Quanti utenti servono?
 
-<div class="lesson-columns test-illustrated-summary"><div><p class="lead">Considerare esperienze diverse</p><ul class="cvedi-list"><li><span>Anche nello stesso settore, familiarità e linguaggio variano.</span></li><li><span>Chiarezza e comprensibilità aiutano sia i novizi sia gli esperti.</span></li><li><span>Il reclutamento deve comunque restare pertinente al compito studiato.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/partecipanti.webp" alt="Persone con esperienze e dispositivi diversi svolgono attività individuali con computer, smartphone e tablet." /></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Considerare esperienze diverse</p><ul class="cvedi-list"><li><span>Anche nello stesso settore, familiarità e linguaggio variano.</span></li><li><span>Chiarezza e comprensibilità aiutano sia i novizi sia gli esperti.</span></li><li><span>Il reclutamento deve comunque restare pertinente al compito studiato.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/partecipanti.webp" alt="Persone con esperienze e dispositivi diversi svolgono attività individuali con computer, smartphone e tablet." /></div>
 
 <!--
 [calm, matter-of-fact delivery]La slide invita a evitare un reclutamento eccessivamente stretto. Anche fra persone dello stesso settore esistono differenze di esperienza e familiarità con il linguaggio.[pause] Essere economisti, per esempio, non implica conoscere ogni sigla usata da un servizio.[pause]
@@ -2071,12 +2071,12 @@ localOnly: true
 sourceSlide: 66
 narrationAudio: "/audio/lezione-test-usabilita/77-test-usabilita-p66-2-7e6c6eda6ad4.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/77-test-usabilita-p66-2-7e6c6eda6ad4.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Quanti utenti servono?
 
-<div class="test-import-copy"><ul class="cvedi-list"><li><span>Raramente gli esperti si sentono offesi da qualcosa che è sufficientemente chiaro ai principianti. Tutti apprezzano la chiarezza (cioè quello che è veramente chiaro e non quello che è stato semplificato tanto da sembrare stupido). Se riesce a usarlo &quot;praticamente chiunque&quot;, ci riusciranno anche i vostri esperti</span></li></ul></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><ul class="cvedi-list"><li><span>Raramente gli esperti si sentono offesi da qualcosa che è sufficientemente chiaro ai principianti. Tutti apprezzano la chiarezza (cioè quello che è veramente chiaro e non quello che è stato semplificato tanto da sembrare stupido). Se riesce a usarlo &quot;praticamente chiunque&quot;, ci riusciranno anche i vostri esperti</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/partecipanti.webp" alt="Persone con esperienze e dispositivi diversi svolgono attività individuali con computer, smartphone e tablet." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Una spiegazione chiara può aiutare anche le persone esperte. Chiarezza significa usare termini precisi, rendere disponibili le condizioni e permettere di riconoscere le azioni.[pause]
@@ -2100,7 +2100,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illus
 
 # Dove si eseguono i test?
 
-<div class="lesson-columns test-illustrated-summary"><div><p class="lead">Uno spazio tranquillo e gli strumenti adatti</p><ul class="cvedi-list"><li><span>Un tavolo, due sedie e un dispositivo coerente con il compito.</span></li><li><span>Computer, tastiera, mouse, Internet e microfono nella configurazione descritta.</span></li><li><span>Condivisione dello schermo per gli osservatori e registrazione della sessione.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/sessione.webp" alt="Una persona usa un computer durante un test; accanto, il facilitatore osserva e prende appunti. Sul tavolo sono presenti mouse e microfono." /></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Uno spazio tranquillo e gli strumenti adatti</p><ul class="cvedi-list"><li><span>Un tavolo, due sedie e un dispositivo coerente con il compito.</span></li><li><span>Computer, tastiera, mouse, Internet e microfono nella configurazione descritta.</span></li><li><span>Condivisione dello schermo per gli osservatori e registrazione della sessione.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/sessione.webp" alt="Una persona usa un computer durante un test; accanto, il facilitatore osserva e prende appunti. Sul tavolo sono presenti mouse e microfono." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Per una prova in presenza serve uno spazio in cui la persona possa concentrarsi e usare il materiale previsto. Il computer, il mouse e la tastiera descritti nella slide sono una configurazione possibile; per un compito da telefono o con tecnologie assistive serviranno condizioni coerenti con quell’uso.[pause]
@@ -2157,12 +2157,12 @@ localOnly: true
 sourceSlide: 68
 narrationAudio: "/audio/lezione-test-usabilita/80-test-usabilita-p68-1-58f8949e1e31.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/80-test-usabilita-p68-1-58f8949e1e31.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Chi deve osservare? (1)
 
-<div class="test-import-copy"><p>Uno degli effetti più preziosi dei test di usabilità è quello che può produrre sugli osservatori. Per molti, si tratta di un'esperienza che trasforma e cambia radicalmente la loro idea degli utenti: all'improvviso &quot;capiscono&quot; che gli utenti non sono tutti come loro</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>Uno degli effetti più preziosi dei test di usabilità è quello che può produrre sugli osservatori. Per molti, si tratta di un'esperienza che trasforma e cambia radicalmente la loro idea degli utenti: all'improvviso &quot;capiscono&quot; che gli utenti non sono tutti come loro</p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/osservatori.webp" alt="Il team segue su un grande schermo un partecipante che svolge un compito; un’osservatrice prende appunti." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Osservare una sessione può cambiare il modo in cui il gruppo immagina le persone che useranno il servizio. Un percorso che sembrava ovvio diventa una sequenza di tentativi, interpretazioni e domande.[pause]
@@ -2186,7 +2186,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illus
 
 # Chi deve osservare? (2)
 
-<div class="lesson-columns test-illustrated-summary"><div><p class="lead">Far osservare chi prende decisioni</p><ul class="cvedi-list"><li><span>Coinvolgere team, stakeholder e responsabili nelle sessioni.</span></li><li><span>Seguire schermo e audio da un’altra stanza.</span></li><li><span>Predisporre computer, condivisione, monitor grande e altoparlanti.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/osservatori.webp" alt="Il team segue su un grande schermo un partecipante che svolge un compito; un’osservatrice prende appunti." /></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Far osservare chi prende decisioni</p><ul class="cvedi-list"><li><span>Coinvolgere team, stakeholder e responsabili nelle sessioni.</span></li><li><span>Seguire schermo e audio da un’altra stanza.</span></li><li><span>Predisporre computer, condivisione, monitor grande e altoparlanti.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/osservatori.webp" alt="Il team segue su un grande schermo un partecipante che svolge un compito; un’osservatrice prende appunti." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Invitare a osservare chi prende decisioni aiuta a condividere una base concreta per la revisione. Designer, sviluppatori e responsabili possono vedere lo stesso episodio e comprendere meglio perché una difficoltà richieda attenzione.[pause]
@@ -2209,12 +2209,12 @@ localOnly: true
 sourceSlide: 69
 narrationAudio: "/audio/lezione-test-usabilita/82-test-usabilita-p69-2-9a6baa5fb562.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/82-test-usabilita-p69-2-9a6baa5fb562.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Chi deve osservare? (2)
 
-<div class="test-import-copy"><p>Durante le pause tra una sessione di test e l'altra, gli osservatori devono scrivere i tre problemi di usabilità più gravi che hanno notato durante quella sessione, in modo poi da metterli in comune durante il debriefing</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>Durante le pause tra una sessione di test e l'altra, gli osservatori devono scrivere i tre problemi di usabilità più gravi che hanno notato durante quella sessione, in modo poi da metterli in comune durante il debriefing</p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/priorita.webp" alt="Due membri del team ordinano su una lavagna i problemi osservati, mettendo in evidenza una priorità." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Fra una sessione e l’altra, ogni osservatore può scegliere i tre problemi che considera più importanti. Per ciascuno annota anche l’episodio da cui deriva: che cosa stava cercando la persona, che cosa ha fatto e quale conseguenza ha incontrato.[pause]
@@ -2238,7 +2238,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illus
 
 # Cosa testare e quando testarlo? (1)
 
-<div class="lesson-columns test-illustrated-summary"><div><p class="lead">Iniziare prima che il progetto sia finito</p><ul class="cvedi-list"><li><span>Testare presto e continuare durante lo sviluppo.</span></li><li><span>Anche i siti della concorrenza possono aiutare a esplorare scelte e difficoltà.</span></li><li><span>Confrontare stile, organizzazione e funzionalità prima di costruire.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/prototipo-precoce.webp" alt="Una persona prova un prototipo di carta mentre il facilitatore osserva; tre bozze richiamano la progressione del progetto." /></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Iniziare prima che il progetto sia finito</p><ul class="cvedi-list"><li><span>Testare presto e continuare durante lo sviluppo.</span></li><li><span>Anche i siti della concorrenza possono aiutare a esplorare scelte e difficoltà.</span></li><li><span>Confrontare stile, organizzazione e funzionalità prima di costruire.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/prototipo-precoce.webp" alt="Una persona prova un prototipo di carta mentre il facilitatore osserva; tre bozze richiamano la progressione del progetto." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Possiamo iniziare a osservare prima di avere un nostro prototipo. Un servizio esistente con attività simili permette di esplorare come le persone cercano informazioni, interpretano le parole e confrontano le alternative.[pause]
@@ -2261,12 +2261,12 @@ localOnly: true
 sourceSlide: 70
 narrationAudio: "/audio/lezione-test-usabilita/84-test-usabilita-p70-2-0c394470e9fa.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/84-test-usabilita-p70-2-0c394470e9fa.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Cosa testare e quando testarlo? (1)
 
-<div class="test-import-copy"><p>Invitando tre partecipanti e guardandoli provare a eseguire alcune operazioni tipiche su uno o due siti della concorrenza, imparerete molto bene che cosa funziona e che cosa non funziona, senza dover progettare o costruire niente</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>Invitando tre partecipanti e guardandoli provare a eseguire alcune operazioni tipiche su uno o due siti della concorrenza, imparerete molto bene che cosa funziona e che cosa non funziona, senza dover progettare o costruire niente</p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/confronto-siti.webp" alt="Una persona prova due interfacce alternative mentre un ricercatore osserva e prende appunti." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Osservare alcuni compiti su servizi esistenti ci permette di imparare prima di costruire. Possiamo documentare quali informazioni vengono cercate, quali percorsi sono tentati e dove si crea un equivoco.[pause]
@@ -2285,12 +2285,12 @@ localOnly: true
 sourceSlide: 71
 narrationAudio: "/audio/lezione-test-usabilita/85-test-usabilita-p71-1-923bf54f160a.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/85-test-usabilita-p71-1-923bf54f160a.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Cosa testare e quando testarlo? (2)
 
-<div class="test-import-copy"><p>Se dovete riprogettare un sito esistente, anche in questo caso vi conviene eseguire un test prima di cominciare, per sapere cosa non funziona (e deve essere cambiato) e cosa funziona (in modo da non alterarlo)</p><p>Poi, nel corso del progetto, dovete continuare a testare tutto quello che produce il team, a cominciare dai primi schizzi e continuando con wireframe, composizioni di pagina, prototipi e infine pagine reali</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>Se dovete riprogettare un sito esistente, anche in questo caso vi conviene eseguire un test prima di cominciare, per sapere cosa non funziona (e deve essere cambiato) e cosa funziona (in modo da non alterarlo)</p><p>Poi, nel corso del progetto, dovete continuare a testare tutto quello che produce il team, a cominciare dai primi schizzi e continuando con wireframe, composizioni di pagina, prototipi e infine pagine reali</p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/prototipo-precoce.webp" alt="Una persona prova un prototipo di carta mentre il facilitatore osserva; tre bozze richiamano la progressione del progetto." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Quando riprogettiamo un servizio, osserviamo anche la versione esistente. Ci interessa capire quali difficoltà affrontare e quali elementi sostengono già il compito.[pause] Una revisione può introdurre problemi se cambia senza motivo una strada che funzionava.[pause]
@@ -2313,12 +2313,12 @@ localOnly: true
 sourceSlide: 72
 narrationAudio: "/audio/lezione-test-usabilita/86-test-usabilita-p72-1-1ed0da3d32af.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/86-test-usabilita-p72-1-1ed0da3d32af.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Come si scelgono le attività per i test? (1)
 
-<div class="test-import-copy"><p>Per ciascuna fase di test, dovete pensare i compiti che i partecipanti dovranno cercare di svolgere</p><p>Le attività che si testano in una determinata fase di test in parte dipendono da quello che è già pronto da testare</p><p>Se a vostra disposizione avete solo una bozza, per esempio, il compito può consistere semplicemente nel chiedere loro di guardarla e dire cosa ne pensano</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>Per ciascuna fase di test, dovete pensare i compiti che i partecipanti dovranno cercare di svolgere</p><p>Le attività che si testano in una determinata fase di test in parte dipendono da quello che è già pronto da testare</p><p>Se a vostra disposizione avete solo una bozza, per esempio, il compito può consistere semplicemente nel chiedere loro di guardarla e dire cosa ne pensano</p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/consegna.webp" alt="Una consegna su clipboard, una scheda e un computer rappresentano la preparazione di compiti chiari, con attenzione al tempo disponibile." /></div>
 
 <!--
 [calm, matter-of-fact delivery]I compiti dipendono anche da ciò che è pronto. Con una bozza possiamo chiedere che cosa viene compreso, quali informazioni si cercano e da dove si comincerebbe.[pause]
@@ -2337,12 +2337,12 @@ localOnly: true
 sourceSlide: 73
 narrationAudio: "/audio/lezione-test-usabilita/87-test-usabilita-p73-1-402187fb774f.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/87-test-usabilita-p73-1-402187fb774f.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Come si scelgono le attività per i test? (2)
 
-<div class="test-import-copy"><p>Se però avete più bozze da mostrare loro, iniziate redigendo un elenco dei compiti che gli utenti devono poter svolgere con quello che volete testare, a prescindere da cosa sia</p><p>Per esempio, se dovete testare il prototipo di un processo di login, le attività potrebbero essere:</p><ul class="cvedi-list"><li><span>1. Creare un account</span></li></ul><ul class="cvedi-list"><li><span>2. Effettuare il login usando un nome utente e una password esistenti</span></li></ul><ul class="cvedi-list"><li><span>3. Recuperare una password dimenticata</span></li></ul><ul class="cvedi-list"><li><span>4. Recuperare un nome utente dimenticato</span></li></ul><ul class="cvedi-list"><li><span>5. Cambiare la risposta di una domanda di sicurezza</span></li></ul></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Partire dalle azioni che la persona deve poter svolgere</p><ul class="cvedi-list"><li><span>Nel login: creare un account e accedere con credenziali esistenti.</span></li><li><span>Recuperare una password o un nome utente dimenticati.</span></li><li><span>Gestire la risposta alla domanda di sicurezza nell’esempio storico.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/consegna.webp" alt="Una consegna su clipboard, una scheda e un computer rappresentano la preparazione di compiti chiari, con attenzione al tempo disponibile." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Partiamo da un elenco delle attività che le persone devono poter svolgere. Nel caso dell’accesso, la slide distingue creazione dell’account, ingresso con credenziali esistenti e recupero delle informazioni dimenticate.[pause]
@@ -2365,12 +2365,12 @@ localOnly: true
 sourceSlide: 74
 narrationAudio: "/audio/lezione-test-usabilita/88-test-usabilita-p74-1-64efd2207f9f.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/88-test-usabilita-p74-1-64efd2207f9f.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Come si scelgono le attività per i test? (3)
 
-<div class="test-import-copy"><p>Calcolate un numero di attività adeguato per il tempo che avete a disposizione, tenendo presente che alcuni le svolgono più velocemente di quanto vi aspettiate</p><p>Quindi descrivete con cura ogni attività, in modo che i partecipanti possano capire esattamente cosa volete che facciano</p><p>Includete tutte le informazioni di cui hanno bisogno ma delle quali non disporranno, come i dati di login se devono usare un account demo</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>Calcolate un numero di attività adeguato per il tempo che avete a disposizione, tenendo presente che alcuni le svolgono più velocemente di quanto vi aspettiate</p><p>Quindi descrivete con cura ogni attività, in modo che i partecipanti possano capire esattamente cosa volete che facciano</p><p>Includete tutte le informazioni di cui hanno bisogno ma delle quali non disporranno, come i dati di login se devono usare un account demo</p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/calendario.webp" alt="Un calendario con un giorno evidenziato e una freccia circolare richiama la cadenza regolare dei test; accanto, una persona prova un computer." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Il numero delle attività deve lasciare tempo ai percorsi reali, alle esitazioni e agli approfondimenti. Prepariamo compiti prioritari e, se utile, attività aggiuntive per chi termina prima.[pause]
@@ -2425,12 +2425,12 @@ localOnly: true
 sourceSlide: 75
 narrationAudio: "/audio/lezione-test-usabilita/90-test-usabilita-p75-1-0ecc1ffc4385.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/90-test-usabilita-p75-1-0ecc1ffc4385.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Come si scelgono le attività per i test? (4)
 
-<div class="test-import-copy"><p>Per esempio:</p><p>Possiedi un account con nome utente delphi21 e password correcthorsebatterystaple. Su tutti i siti, per le domande di sicurezza usi sempre le stesse risposte, ma hai appena letto che questa non è una buona idea. Cambia la tua risposta in questo account.</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>Per esempio:</p><p>Possiedi un account con nome utente delphi21 e password correcthorsebatterystaple. Su tutti i siti, per le domande di sicurezza usi sempre le stesse risposte, ma hai appena letto che questa non è una buona idea. Cambia la tua risposta in questo account.</p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/sessione.webp" alt="Una persona usa un computer durante un test; accanto, il facilitatore osserva e prende appunti. Sul tavolo sono presenti mouse e microfono." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Questo esempio fornisce le informazioni di accesso e una ragione per modificare un’impostazione. La persona dispone quindi dei dati necessari e di un obiettivo, mentre deve trovare il percorso nell’interfaccia.[pause]
@@ -2449,12 +2449,12 @@ localOnly: true
 sourceSlide: 75
 narrationAudio: "/audio/lezione-test-usabilita/91-test-usabilita-p75-2-08d46bca4ba0.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/91-test-usabilita-p75-2-08d46bca4ba0.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Come si scelgono le attività per i test? (4)
 
-<div class="test-import-copy"><p>Spesso si riescono a ottenere risultati più rivelatori se si permette ai partecipanti di scegliere alcuni dettagli dell'attività. È molto meglio, per esempio, dire &quot;Trova il libro che vuoi comprare, o un libro che hai comprato recentemente&quot; che non &quot;Trova un libro di cucina che costi meno di 15&quot;. Questo aumenta il coinvolgimento emotivo e permette loro di usare maggiormente le conoscenze personali dei contenuti</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>Spesso si riescono a ottenere risultati più rivelatori se si permette ai partecipanti di scegliere alcuni dettagli dell'attività. È molto meglio, per esempio, dire &quot;Trova il libro che vuoi comprare, o un libro che hai comprato recentemente&quot; che non &quot;Trova un libro di cucina che costi meno di 15&quot;. Questo aumenta il coinvolgimento emotivo e permette loro di usare maggiormente le conoscenze personali dei contenuti</p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/partecipanti.webp" alt="Persone con esperienze e dispositivi diversi svolgono attività individuali con computer, smartphone e tablet." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Lasciare al partecipante alcuni dettagli può rendere l’attività più significativa. Cercare un libro che desidera davvero gli permette di usare conoscenze e criteri personali, invece di eseguire soltanto una ricerca assegnata.[pause]
@@ -2477,12 +2477,12 @@ localOnly: true
 sourceSlide: 76
 narrationAudio: "/audio/lezione-test-usabilita/92-test-usabilita-p76-1-ff4a12a52b99.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/92-test-usabilita-p76-1-ff4a12a52b99.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Cosa succede durante i test? (1)
 
-<div class="test-import-copy"><p>Un test tipico di un'ora può essere ripartito per esempio così:</p><ul class="cvedi-list"><li><span>1. Benvenuto (4 minuti). Si inizia spiegando come funziona il test in modo che il partecipante sappia cosa aspettarsi</span></li></ul><ul class="cvedi-list"><li><span>2. Le domande (2 minuti). Poi si fanno al partecipante un paio di domande su di lui. Questo aiuta a metterlo a proprio agio e permette di farsi un'idea del suo livello di esperienza con il computer e con il Web</span></li></ul></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>Un test tipico di un'ora può essere ripartito per esempio così:</p><ul class="cvedi-list"><li><span>1. Benvenuto (4 minuti). Si inizia spiegando come funziona il test in modo che il partecipante sappia cosa aspettarsi</span></li></ul><ul class="cvedi-list"><li><span>2. Le domande (2 minuti). Poi si fanno al partecipante un paio di domande su di lui. Questo aiuta a metterlo a proprio agio e permette di farsi un'idea del suo livello di esperienza con il computer e con il Web</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/accoglienza.webp" alt="Facilitatore e partecipante si incontrano in uno spazio tranquillo, con un computer e un taccuino pronti per la sessione." /></div>
 
 <!--
 [calm, matter-of-fact delivery]La sessione comincia con il benvenuto e una spiegazione del funzionamento. Il partecipante deve sapere che cosa faremo, quanto tempo prevediamo e chi osserverà.[pause] Riprendiamo le condizioni della partecipazione e l’eventuale registrazione.[pause]
@@ -2505,12 +2505,12 @@ localOnly: true
 sourceSlide: 76
 narrationAudio: "/audio/lezione-test-usabilita/93-test-usabilita-p76-2-39a946e73982.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/93-test-usabilita-p76-2-39a946e73982.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Cosa succede durante i test? (1)
 
-<div class="test-import-copy"><ul class="cvedi-list"><li><span>3. Il tour della home page (3 minuti). Quindi si apre la home page del sito che si deve testare e si chiede al partecipante di guardarsi intorno e di dire di che cosa parla. Questo permette di notare quanto è facile capire la home page e quando il partecipante conosca già l'ambito</span></li></ul></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><ul class="cvedi-list"><li><span>3. Il tour della home page (3 minuti). Quindi si apre la home page del sito che si deve testare e si chiede al partecipante di guardarsi intorno e di dire di che cosa parla. Questo permette di notare quanto è facile capire la home page e quando il partecipante conosca già l'ambito</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/comprensione.webp" alt="Una persona osserva la pagina iniziale di un servizio e si interroga sul suo significato." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Un primo giro della pagina iniziale può aiutarci a capire quale servizio la persona pensa di avere davanti. Possiamo chiedere: «Guardando questa pagina, che cosa pensi di poter fare qui?».[pause]
@@ -2534,7 +2534,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illus
 
 # Cosa succede durante i test? (2)
 
-<div class="lesson-columns test-illustrated-summary"><div><p class="lead">Lasciare che la persona svolga il compito</p><ul class="cvedi-list"><li><span>Le attività sono il cuore della sessione: circa 35 minuti nell’esempio.</span></li><li><span>Invitare a pensare ad alta voce, senza suggerire il percorso.</span></li><li><span>Evitare domande orientate e indizi.</span></li><li><span>Se serve intervenire per un blocco serio, annotare l’aiuto fornito.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/moderazione.webp" alt="Il partecipante lavora autonomamente al computer e pensa ad alta voce; il facilitatore ascolta senza indicare il percorso." /></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Lasciare che la persona svolga il compito</p><ul class="cvedi-list"><li><span>Le attività sono il cuore della sessione: circa 35 minuti nell’esempio.</span></li><li><span>Invitare a pensare ad alta voce, senza suggerire il percorso.</span></li><li><span>Evitare domande orientate e indizi.</span></li><li><span>Se serve intervenire per un blocco serio, annotare l’aiuto fornito.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/moderazione.webp" alt="Il partecipante lavora autonomamente al computer e pensa ad alta voce; il facilitatore ascolta senza indicare il percorso." /></div>
 
 <!--
 [calm, matter-of-fact delivery]La parte più ampia della sessione è dedicata ai compiti. Il facilitatore presenta la situazione e lascia che la persona affronti il percorso.[pause] Osserviamo dove comincia, quali informazioni cerca e quali alternative prende in considerazione.[pause]
@@ -2559,12 +2559,12 @@ localOnly: true
 sourceSlide: 77
 narrationAudio: "/audio/lezione-test-usabilita/95-test-usabilita-p77-2-13de608fb848.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/95-test-usabilita-p77-2-13de608fb848.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Cosa succede durante i test? (2)
 
-<div class="test-import-copy"><ul class="cvedi-list"><li><span>Se chiede aiuto, basta dire qualcosa come &quot;Che cosa faresti se io non ci fossi?&quot;</span></li></ul></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><ul class="cvedi-list"><li><span>Se chiede aiuto, basta dire qualcosa come &quot;Che cosa faresti se io non ci fossi?&quot;</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/moderazione.webp" alt="Il partecipante lavora autonomamente al computer e pensa ad alta voce; il facilitatore ascolta senza indicare il percorso." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Se la persona chiede aiuto, possiamo rispondere: «Che cosa faresti se io non ci fossi?». La domanda permette di esplorare una strategia senza indicare subito la soluzione.[pause]
@@ -2583,12 +2583,12 @@ localOnly: true
 sourceSlide: 78
 narrationAudio: "/audio/lezione-test-usabilita/96-test-usabilita-p78-1-ed81884246cc.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/96-test-usabilita-p78-1-ed81884246cc.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Cosa succede durante i test? (3)
 
-<div class="test-import-copy"><ul class="cvedi-list"><li><span>5. L'indagine (5 minuti). Dopo le attività, al partecipante si possono porre delle domande su tutto quello che è accaduto durante il test e tutte le domande che propone chi stava nella sala di osservazione</span></li></ul><ul class="cvedi-list"><li><span>6. Wrapping up (5 minuti). Infine, lo si ringrazia per l'aiuto, lo si paga e lo si accompagna alla porta</span></li></ul></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><ul class="cvedi-list"><li><span>5. L'indagine (5 minuti). Dopo le attività, al partecipante si possono porre delle domande su tutto quello che è accaduto durante il test e tutte le domande che propone chi stava nella sala di osservazione</span></li></ul><ul class="cvedi-list"><li><span>6. Wrapping up (5 minuti). Infine, lo si ringrazia per l'aiuto, lo si paga e lo si accompagna alla porta</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/accoglienza.webp" alt="Facilitatore e partecipante si incontrano in uno spazio tranquillo, con un computer e un taccuino pronti per la sessione." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Dopo le attività riprendiamo gli episodi che richiedono un chiarimento. Possiamo chiedere che cosa la persona si aspettava in un punto preciso o come ha interpretato il risultato, lasciando aperta la risposta.[pause]
@@ -2607,12 +2607,12 @@ localOnly: true
 sourceSlide: 79
 narrationAudio: "/audio/lezione-test-usabilita/97-test-usabilita-p79-1-57d7bdb9612d.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/97-test-usabilita-p79-1-57d7bdb9612d.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Problemi tipici
 
-<div class="test-import-copy"><h2>Agli utenti non è chiaro il concept Semplicemente non lo afferrano. Guardano il sito o una pagina e non sanno cosa farsene oppure se ne fanno un'idea ma sbagliata</h2><p></p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><h2>Agli utenti non è chiaro il concept Semplicemente non lo afferrano. Guardano il sito o una pagina e non sanno cosa farsene oppure se ne fanno un'idea ma sbagliata</h2><p></p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/comprensione.webp" alt="Una persona osserva la pagina iniziale di un servizio e si interroga sul suo significato." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Un primo problema tipico è la mancata comprensione del servizio. La persona vede la pagina ma non capisce a che cosa serva, oppure costruisce un’interpretazione diversa da quella prevista.[pause]
@@ -2631,12 +2631,12 @@ localOnly: true
 sourceSlide: 79
 narrationAudio: "/audio/lezione-test-usabilita/98-test-usabilita-p79-2-19cc665cb583.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/98-test-usabilita-p79-2-19cc665cb583.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Problemi tipici
 
-<div class="test-import-copy"><h2>Le parole che cercano non ci sono Questo di solito significa che non siete riusciti ad anticipare cosa avrebbero cercato oppure che le parole che usate per descrivere le cose non sono quelle che userebbero loro</h2><p></p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><h2>Le parole che cercano non ci sono Questo di solito significa che non siete riusciti ad anticipare cosa avrebbero cercato oppure che le parole che usate per descrivere le cose non sono quelle che userebbero loro</h2><p></p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/ricerca-parole.webp" alt="Una persona cerca un contenuto, ma i risultati e le categorie del sito non corrispondono a ciò che sta cercando." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Un’altra difficoltà riguarda il linguaggio. La persona cerca una parola che il progetto non usa, oppure incontra un termine al quale attribuisce un altro significato.[pause]
@@ -2655,12 +2655,12 @@ localOnly: true
 sourceSlide: 79
 narrationAudio: "/audio/lezione-test-usabilita/99-test-usabilita-p79-3-e5491abf3c48.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/99-test-usabilita-p79-3-e5491abf3c48.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Problemi tipici
 
-<div class="test-import-copy"><h2>C'è troppa carne al fuoco</h2><p>A volte quello che stanno cercando è proprio lì sulla pagina, ma non lo vedono. In questo caso, è necessario ridurre il &quot;rumore&quot; complessivo della pagina o alzare il volume delle cose che devono riuscire a vedere per farle risaltare maggiormente all'interno della gerarchia visiva</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><h2>C'è troppa carne al fuoco</h2><p>A volte quello che stanno cercando è proprio lì sulla pagina, ma non lo vedono. In questo caso, è necessario ridurre il &quot;rumore&quot; complessivo della pagina o alzare il volume delle cose che devono riuscire a vedere per farle risaltare maggiormente all'interno della gerarchia visiva</p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/gerarchia.webp" alt="Due interfacce confrontano molti elementi in competizione con una gerarchia più chiara e un’azione principale riconoscibile." /></div>
 
 <!--
 [calm, matter-of-fact delivery]A volte l’informazione c’è, ma perde visibilità nel contesto della pagina. Torniamo così a composizione e gerarchia: contrasto, prossimità e ordine contribuiscono a rendere riconoscibile ciò che serve.[pause]
@@ -2679,12 +2679,12 @@ localOnly: true
 sourceSlide: 80
 narrationAudio: "/audio/lezione-test-usabilita/100-test-usabilita-p80-1-fd6b9524252f.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/100-test-usabilita-p80-1-fd6b9524252f.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Il debriefing (1)
 
-<div class="test-import-copy"><p>Dopo ogni fase di test, il più presto possibile il team deve trovare il tempo di condividere le osservazioni e decidere quali problemi risolvere e come risolverli</p></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>Dopo ogni fase di test, il più presto possibile il team deve trovare il tempo di condividere le osservazioni e decidere quali problemi risolvere e come risolverli</p></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/priorita.webp" alt="Due membri del team ordinano su una lavagna i problemi osservati, mettendo in evidenza una priorità." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Il debriefing collega l’osservazione alla decisione. Appena possibile, chi ha seguito le sessioni mette in comune gli episodi e sceglie quali problemi affrontare.[pause]
@@ -2708,7 +2708,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illus
 
 # Il debriefing (2)
 
-<div class="lesson-columns test-illustrated-summary"><div><p class="lead">Dalle osservazioni a una lista di priorità</p><ul class="cvedi-list"><li><span>Raccogliere i problemi più seri segnalati dagli osservatori.</span></li><li><span>Unire gli episodi simili e annotare le ricorrenze.</span></li><li><span>Selezionare i problemi più gravi prima di decidere le soluzioni.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/priorita.webp" alt="Due membri del team ordinano su una lavagna i problemi osservati, mettendo in evidenza una priorità." /></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Dalle osservazioni a una lista di priorità</p><ul class="cvedi-list"><li><span>Raccogliere i problemi più seri segnalati dagli osservatori.</span></li><li><span>Unire gli episodi simili e annotare le ricorrenze.</span></li><li><span>Selezionare i problemi più gravi prima di decidere le soluzioni.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/priorita.webp" alt="Due membri del team ordinano su una lavagna i problemi osservati, mettendo in evidenza una priorità." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Cominciamo con un elenco comune dei problemi segnalati dagli osservatori. Ogni voce dovrebbe richiamare uno o più episodi: compito, difficoltà ed effetto sul risultato.[pause] Le formulazioni simili possono essere riunite, mantenendo i riferimenti alle sessioni.[pause]
@@ -2731,12 +2731,12 @@ localOnly: true
 sourceSlide: 81
 narrationAudio: "/audio/lezione-test-usabilita/102-test-usabilita-p81-2-3f9d64ddb12a.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/102-test-usabilita-p81-2-3f9d64ddb12a.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Il debriefing (2)
 
-<div class="test-import-copy"><ul class="cvedi-list"><li><span>3. Classificateli. Numerateli da 1 a 10, dove 1 è il peggiore. Poi copiateli in un nuovo elenco con il peggiore per primo, lasciando un certo margine tra di loro</span></li></ul><ul class="cvedi-list"><li><span>4. Create un elenco ordinato. Partendo dall'alto, scrivete un'idea vaga di come pensate di risolvere ciascun problema durante il mese successivo, chi dovrà occuparsene e le risorse che richiederà</span></li></ul></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><ul class="cvedi-list"><li><span>3. Classificateli. Numerateli da 1 a 10, dove 1 è il peggiore. Poi copiateli in un nuovo elenco con il peggiore per primo, lasciando un certo margine tra di loro</span></li></ul><ul class="cvedi-list"><li><span>4. Create un elenco ordinato. Partendo dall'alto, scrivete un'idea vaga di come pensate di risolvere ciascun problema durante il mese successivo, chi dovrà occuparsene e le risorse che richiederà</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/priorita.webp" alt="Due membri del team ordinano su una lavagna i problemi osservati, mettendo in evidenza una priorità." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Una volta scelte le criticità, le ordiniamo e associamo a ciascuna una prima ipotesi di intervento. Indichiamo chi se ne occuperà e quali risorse serviranno.[pause]
@@ -2785,12 +2785,12 @@ localOnly: true
 sourceSlide: 82
 narrationAudio: "/audio/lezione-test-usabilita/104-test-usabilita-p82-1-b5f6c38adb58.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/104-test-usabilita-p82-1-b5f6c38adb58.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Il debriefing
 
-<div class="test-import-copy"><p>Consigli sulla selezione dei problemi da risolvere (1)</p><ul class="cvedi-list"><li><span>Mantenete un elenco separato di &quot;soluzioni a portata di mano&quot;. Potete anche mantenere un elenco di cose che non sono problemi seri, ma sono molto facili da risolvere. E con molto facili, voglio dire cose che una persona può risolvere in meno di un'ora, senza dover chiedere il permesso di qualcuno che non è presente al debriefing</span></li></ul></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>Consigli sulla selezione dei problemi da risolvere (1)</p><ul class="cvedi-list"><li><span>Mantenete un elenco separato di &quot;soluzioni a portata di mano&quot;. Potete anche mantenere un elenco di cose che non sono problemi seri, ma sono molto facili da risolvere. E con molto facili, voglio dire cose che una persona può risolvere in meno di un'ora, senza dover chiedere il permesso di qualcuno che non è presente al debriefing</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/iterazione.webp" alt="Ciclo fra bozza di interfaccia, osservazione di una persona e revisione del progetto, collegato da tre frecce." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Possiamo tenere un elenco separato delle correzioni molto semplici: un termine incoerente, un collegamento sbagliato o una spiegazione mancante che sappiamo come sistemare.[pause]
@@ -2813,12 +2813,12 @@ localOnly: true
 sourceSlide: 82
 narrationAudio: "/audio/lezione-test-usabilita/105-test-usabilita-p82-2-e7c6ca233096.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/105-test-usabilita-p82-2-e7c6ca233096.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Il debriefing
 
-<div class="test-import-copy"><ul class="cvedi-list"><li><span>Resistete all'impulso di aggiungere cose. Quando dai test risulta evidente che gli utenti non ottengono qualcosa, la prima reazione del team di solito è aggiungere una spiegazione o delle istruzioni, per esempio. Ma molto spesso, piuttosto che aggiungere un'ulteriore distrazione, la soluzione giusta è togliere una cosa (o più cose) che rendono oscuro il significato</span></li></ul></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><ul class="cvedi-list"><li><span>Resistete all'impulso di aggiungere cose. Quando dai test risulta evidente che gli utenti non ottengono qualcosa, la prima reazione del team di solito è aggiungere una spiegazione o delle istruzioni, per esempio. Ma molto spesso, piuttosto che aggiungere un'ulteriore distrazione, la soluzione giusta è togliere una cosa (o più cose) che rendono oscuro il significato</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/gerarchia.webp" alt="Due interfacce confrontano molti elementi in competizione con una gerarchia più chiara e un’azione principale riconoscibile." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Quando manca comprensione, aggiungere una spiegazione è una possibilità. Prima chiediamoci però se l’informazione necessaria è oscurata da altri elementi o da parole incoerenti.[pause]
@@ -2842,7 +2842,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illus
 
 # Il debriefing
 
-<div class="lesson-columns test-illustrated-summary"><div><p class="lead">Approfondire le richieste di nuove funzioni</p><ul class="cvedi-list"><li><span>Chiedere come e quando verrebbe usata la funzione proposta.</span></li><li><span>Distinguere l’idea espressa dal bisogno che l’ha generata.</span></li><li><span>Valutare le proposte insieme agli episodi osservati.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/richieste.webp" alt="Una persona propone una nuova funzione; il ricercatore ascolta, chiede chiarimenti e annota il bisogno da approfondire." /></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Approfondire le richieste di nuove funzioni</p><ul class="cvedi-list"><li><span>Chiedere come e quando verrebbe usata la funzione proposta.</span></li><li><span>Distinguere l’idea espressa dal bisogno che l’ha generata.</span></li><li><span>Valutare le proposte insieme agli episodi osservati.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/richieste.webp" alt="Una persona propone una nuova funzione; il ricercatore ascolta, chiede chiarimenti e annota il bisogno da approfondire." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Le richieste di nuove funzioni sono informazioni da approfondire. Se una persona dice «Vorrei salvare questa ricerca», chiediamo in quale situazione le sarebbe utile e quale problema sta cercando di risolvere.[pause]
@@ -2865,12 +2865,12 @@ localOnly: true
 sourceSlide: 83
 narrationAudio: "/audio/lezione-test-usabilita/107-test-usabilita-p83-2-b25f69f5cf90.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/107-test-usabilita-p83-2-b25f69f5cf90.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Il debriefing
 
-<div class="test-import-copy"><ul class="cvedi-list"><li><span>Occasionalmente possono proporre ottime idee, ma in questi casi ve ne accorgete immediatamente, perché la prima cosa che vi viene in mente è &quot;Perché non ci abbiamo pensato?!&quot;</span></li></ul></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><ul class="cvedi-list"><li><span>Occasionalmente possono proporre ottime idee, ma in questi casi ve ne accorgete immediatamente, perché la prima cosa che vi viene in mente è &quot;Perché non ci abbiamo pensato?!&quot;</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/richieste.webp" alt="Una persona propone una nuova funzione; il ricercatore ascolta, chiede chiarimenti e annota il bisogno da approfondire." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Alcune proposte possono aprire una direzione che non avevamo considerato. Registriamole con il contesto: quale attività volevano sostenere e quale difficoltà le ha fatte emergere?[pause]
@@ -2889,12 +2889,12 @@ localOnly: true
 sourceSlide: 84
 narrationAudio: "/audio/lezione-test-usabilita/108-test-usabilita-p84-1-5fc5f38c554c.mp3"
 narrationCaptions: "/captions/lezione-test-usabilita/108-test-usabilita-p84-1-5fc5f38c554c.vtt"
-class: "content-slide lesson-slide test-usabilita-slide reading-slide"
+class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illustrated-reading"
 ---
 
 # Il debriefing
 
-<div class="test-import-copy"><p>Consigli sulla selezione dei problemi da risolvere (3)</p><ul class="cvedi-list"><li><span>Ignorare i problemi &quot;kayak&quot;. In tutti i test avete molte probabilità di vedere diversi casi nei quali gli utenti si perderanno momentaneamente ma riusciranno a tornare sulla strada giusta quasi immediatamente senza bisogno di aiuto. È un po' come quando ci si rovescia in kayak: se si gira di nuovo da solo abbastanza rapidamente, fa parte del cosiddetto divertimento</span></li></ul></div>
+<div class="lesson-columns test-illustrated-summary test-illustrated-original"><div class="test-import-copy"><p>Consigli sulla selezione dei problemi da risolvere (3)</p><ul class="cvedi-list"><li><span>Ignorare i problemi &quot;kayak&quot;. In tutti i test avete molte probabilità di vedere diversi casi nei quali gli utenti si perderanno momentaneamente ma riusciranno a tornare sulla strada giusta quasi immediatamente senza bisogno di aiuto. È un po' come quando ci si rovescia in kayak: se si gira di nuovo da solo abbastanza rapidamente, fa parte del cosiddetto divertimento</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/moderazione.webp" alt="Il partecipante lavora autonomamente al computer e pensa ad alta voce; il facilitatore ascolta senza indicare il percorso." /></div>
 
 <!--
 [calm, matter-of-fact delivery]La metafora del kayak descrive una difficoltà momentanea dalla quale la persona recupera rapidamente senza aiuto. La proposta è non assegnare a ogni esitazione la stessa priorità di un blocco.[pause]
@@ -2922,7 +2922,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illus
 
 # Il debriefing
 
-<div class="lesson-columns test-illustrated-summary"><div><p class="lead">Testare a distanza in tempo reale</p><ul class="cvedi-list"><li><span>La persona partecipa da casa o dal proprio ufficio.</span></li><li><span>Condivisione dello schermo e microfono permettono di osservare e dialogare.</span></li><li><span>Si possono coinvolgere persone lontane o difficili da raggiungere in presenza.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/remoto.webp" alt="Partecipante e facilitatore comunicano a distanza attraverso dispositivi e condivisione dello schermo." /></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Testare a distanza in tempo reale</p><ul class="cvedi-list"><li><span>La persona partecipa da casa o dal proprio ufficio.</span></li><li><span>Condivisione dello schermo e microfono permettono di osservare e dialogare.</span></li><li><span>Si possono coinvolgere persone lontane o difficili da raggiungere in presenza.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/remoto.webp" alt="Partecipante e facilitatore comunicano a distanza attraverso dispositivi e condivisione dello schermo." /></div>
 
 <!--
 [calm, matter-of-fact delivery]I test moderati possono svolgersi anche a distanza. La persona usa il materiale dal proprio ambiente e il facilitatore segue attraverso collegamento audio e condivisione dello schermo.[pause]
@@ -2952,7 +2952,7 @@ class: "content-slide lesson-slide test-usabilita-slide reading-slide test-illus
 
 # Il debriefing
 
-<div class="lesson-columns test-illustrated-summary"><div><p class="lead">Osservare una registrazione in un secondo momento</p><ul class="cvedi-list"><li><span>La persona svolge i compiti senza facilitatore presente in tempo reale.</span></li><li><span>Una piattaforma raccoglie video e risultati del percorso.</span></li><li><span>Il team esamina la registrazione; le istruzioni devono essere chiare fin dall’inizio.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/registrazione.webp" alt="Una persona svolge i compiti da sola al computer; registrazione e riproduzione del video rappresentano l’osservazione successiva." /></div>
+<div class="lesson-columns test-illustrated-summary"><div class="test-import-copy"><p class="lead">Osservare una registrazione in un secondo momento</p><ul class="cvedi-list"><li><span>La persona svolge i compiti senza facilitatore presente in tempo reale.</span></li><li><span>Una piattaforma raccoglie video e risultati del percorso.</span></li><li><span>Il team esamina la registrazione; le istruzioni devono essere chiare fin dall’inizio.</span></li></ul></div><LessonFigure src="/images/test-usabilita/illustrazioni-testo/registrazione.webp" alt="Una persona svolge i compiti da sola al computer; registrazione e riproduzione del video rappresentano l’osservazione successiva." /></div>
 
 <!--
 [calm, matter-of-fact delivery]Nel test remoto non moderato la persona riceve le istruzioni e affronta il percorso senza un facilitatore presente in tempo reale. Una piattaforma può raccogliere la registrazione e gli esiti previsti dallo studio.[pause]
