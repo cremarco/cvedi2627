@@ -57,6 +57,7 @@ test('each presentation imports only its own lesson and preserves every source s
         const sources = Object.keys(selected.markdownFiles).map(f => path.relative(slideRoot, f)).sort()
         assert.deepEqual(sources, ['slides.md', ...(deck.file ? [deck.file] : [])].sort(), `${deck.id}: other source files are never imported`)
         assert.equal(selected.headmatter.presenter, true)
+        assert.equal(selected.headmatter.title, deck.id === 'apertura' ? full.headmatter.title : `${full.headmatter.title} · ${deck.title}`, `${deck.id}: native synchronization has its own channel`)
         assert.equal(selected.headmatter.preloadImages, false, `${deck.id}: no global image preload`)
         total += selected.slides.length
       }

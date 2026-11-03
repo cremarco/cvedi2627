@@ -1,0 +1,71 @@
+WEBVTT
+
+1
+00:00:00.180 --> 00:00:04.260
+In questa tavola i colori ci aiutano a
+distinguere le parti.
+
+2
+00:00:04.260 --> 00:00:09.060
+Il campo magenta evidenzia una colonna:
+una porzione verticale che contribuisce a
+
+3
+00:00:09.060 --> 00:00:10.520
+suddividere la larghezza disponibile.
+
+4
+00:00:11.420 --> 00:00:15.820
+La fascia azzurra attraversa invece il
+reticolo in orizzontale e permette di
+
+5
+00:00:15.820 --> 00:00:17.260
+coordinare quote e altezze.
+
+6
+00:00:18.000 --> 00:00:22.500
+Il sottile intervallo verde fra due
+colonne è l'intercolonna, chiamata anche
+
+7
+00:00:22.500 --> 00:00:23.200
+gutter.
+
+8
+00:00:23.420 --> 00:00:26.180
+È uno spazio interno alla gabbia che
+separa colonne vicine.
+
+9
+00:00:26.920 --> 00:00:31.940
+Il margine sul bordo destro separa invece
+il campo utile dal limite della pagina.
+
+10
+00:00:31.940 --> 00:00:34.780
+Questa distinzione evita un errore di
+misura.
+
+11
+00:00:34.780 --> 00:00:38.480
+Non possiamo trattare il vuoto fra due
+colonne come se fosse uno dei margini
+
+12
+00:00:38.480 --> 00:00:40.920
+esterni, perché partecipa a un conteggio
+diverso.
+
+13
+00:00:41.700 --> 00:00:43.260
+Una volta riconosciute queste parti,
+
+14
+00:00:43.840 --> 00:00:47.720
+possiamo calcolare una griglia di colonne
+uguali senza confondere lo spazio del
+
+15
+00:00:47.720 --> 00:00:49.380
+contenuto con quello degli intervalli.

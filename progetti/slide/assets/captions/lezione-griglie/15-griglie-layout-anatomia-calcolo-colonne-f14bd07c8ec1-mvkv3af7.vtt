@@ -1,0 +1,72 @@
+WEBVTT
+
+1
+00:00:00.220 --> 00:00:03.040
+La formula segue un procedimento semplice.
+
+2
+00:00:03.040 --> 00:00:07.520
+Dalla larghezza totale togliamo il margine
+sinistro, quello destro e tutti gli
+
+3
+00:00:07.520 --> 00:00:12.280
+intervalli fra le colonne. Dividiamo poi
+lo spazio rimasto per il numero di colonne
+
+4
+00:00:12.280 --> 00:00:13.440
+uguali che vogliamo ottenere.
+
+5
+00:00:14.420 --> 00:00:17.120
+Nell'esempio il foglio misura
+centosettanta millimetri.
+
+6
+00:00:18.040 --> 00:00:22.840
+Sottraiamo quindici millimetri a sinistra,
+diciotto a destra e cinque per l'unica
+
+7
+00:00:22.840 --> 00:00:23.540
+intercolonna.
+
+8
+00:00:24.320 --> 00:00:27.300
+Restano centotrentadue millimetri
+destinati alle due colonne.
+
+9
+00:00:28.280 --> 00:00:31.480
+Dividendoli per due otteniamo sessantasei
+millimetri per ciascuna.
+
+10
+00:00:32.360 --> 00:00:36.980
+Per contare gli intervalli ricordate che
+stanno fra le colonne: due colonne hanno
+
+11
+00:00:36.980 --> 00:00:39.360
+un intervallo, tre colonne ne hanno due.
+
+12
+00:00:40.000 --> 00:00:42.740
+I margini esterni sono già stati sottratti
+separatamente.
+
+13
+00:00:43.760 --> 00:00:47.860
+Il calcolo distribuisce correttamente la
+larghezza, ma non dimostra ancora che il
+
+14
+00:00:47.860 --> 00:00:52.540
+testo si legga bene. Ora possiamo usare
+quelle misure per assegnare a un elemento
+
+15
+00:00:52.540 --> 00:00:56.685
+uno spazio più ampio, attraversando più
+colonne dello stesso reticolo.

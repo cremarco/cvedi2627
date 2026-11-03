@@ -1,0 +1,77 @@
+WEBVTT
+
+1
+00:00:00.160 --> 00:00:05.020
+Il confronto mantiene la stessa larghezza
+dichiarata, duecentoquaranta pixel, ma
+
+2
+00:00:05.020 --> 00:00:06.460
+cambia la convenzione di misura.
+
+3
+00:00:07.480 --> 00:00:11.640
+La proprietà box sizing stabilisce a quale
+riquadro si riferisce quella larghezza.
+
+4
+00:00:12.600 --> 00:00:17.840
+Il margine resta comunque esterno. Con
+border box i duecentoquaranta pixel
+
+5
+00:00:17.840 --> 00:00:19.060
+comprendono contenuto,
+
+6
+00:00:19.600 --> 00:00:20.760
+spazi interni e bordi.
+
+7
+00:00:21.720 --> 00:00:26.580
+Abbiamo sedici pixel di padding a sinistra
+e altrettanti a destra, più un pixel di
+
+8
+00:00:26.580 --> 00:00:31.400
+bordo per lato. Per trovare lo spazio del
+contenuto sottraiamo quindi trentadue
+
+9
+00:00:31.400 --> 00:00:35.580
+pixel e altri due: restano duecentosei
+pixel.
+
+10
+00:00:35.620 --> 00:00:39.520
+Con content box, invece, i
+duecentoquaranta pixel appartengono al
+
+11
+00:00:39.520 --> 00:00:43.920
+solo contenuto. Padding e bordi si
+aggiungono, e l'ingombro diventa
+
+12
+00:00:43.920 --> 00:00:48.920
+duecentosettantaquattro pixel. Sono le due
+situazioni rappresentate nel diagramma.
+
+13
+00:00:49.780 --> 00:00:53.200
+La stessa misura dichiarata può quindi
+produrre ingombri differenti.
+
+14
+00:00:54.120 --> 00:00:57.680
+Quando documentiamo un layout
+specifichiamo sempre da quale limite
+
+15
+00:00:57.680 --> 00:00:58.380
+misuriamo,
+
+16
+00:00:58.740 --> 00:01:02.820
+così il passaggio dal disegno alle regole
+non introduce distanze inattese.

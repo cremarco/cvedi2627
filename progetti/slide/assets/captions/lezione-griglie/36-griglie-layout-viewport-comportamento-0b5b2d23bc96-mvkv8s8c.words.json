@@ -1,0 +1,782 @@
+{
+  "alias": "griglie-layout-viewport-comportamento",
+  "words": [
+    {
+      "word": " Dal",
+      "start": 0.22,
+      "end": 0.22
+    },
+    {
+      "word": " foglio",
+      "start": 0.22,
+      "end": 0.58
+    },
+    {
+      "word": " allo",
+      "start": 0.58,
+      "end": 0.94
+    },
+    {
+      "word": " schermo",
+      "start": 0.94,
+      "end": 1.26
+    },
+    {
+      "word": " cambia",
+      "start": 1.26,
+      "end": 1.68
+    },
+    {
+      "word": " una",
+      "start": 1.68,
+      "end": 1.9
+    },
+    {
+      "word": " condizione",
+      "start": 1.9,
+      "end": 2.36
+    },
+    {
+      "word": " fondamentale:",
+      "start": 2.36,
+      "end": 3.84
+    },
+    {
+      "word": " non",
+      "start": 3.94,
+      "end": 3.94
+    },
+    {
+      "word": " conosciamo",
+      "start": 3.94,
+      "end": 4.52
+    },
+    {
+      "word": " una",
+      "start": 4.52,
+      "end": 4.86
+    },
+    {
+      "word": " sola",
+      "start": 4.94,
+      "end": 5.2
+    },
+    {
+      "word": " larghezza",
+      "start": 5.2,
+      "end": 5.66
+    },
+    {
+      "word": " stabile.",
+      "start": 5.66,
+      "end": 5.76
+    },
+    {
+      "word": " Il",
+      "start": 7.26,
+      "end": 7.26
+    },
+    {
+      "word": " viewport",
+      "start": 7.26,
+      "end": 7.76
+    },
+    {
+      "word": " è",
+      "start": 7.88,
+      "end": 8.02
+    },
+    {
+      "word": " l'area",
+      "start": 8.02,
+      "end": 8.32
+    },
+    {
+      "word": " nella",
+      "start": 8.32,
+      "end": 8.62
+    },
+    {
+      "word": " quale",
+      "start": 8.62,
+      "end": 8.86
+    },
+    {
+      "word": " il",
+      "start": 8.86,
+      "end": 8.98
+    },
+    {
+      "word": " browser",
+      "start": 8.98,
+      "end": 9.44
+    },
+    {
+      "word": " dispone",
+      "start": 9.44,
+      "end": 9.88
+    },
+    {
+      "word": " la",
+      "start": 9.88,
+      "end": 10.1
+    },
+    {
+      "word": " pagina.",
+      "start": 10.1,
+      "end": 10.98
+    },
+    {
+      "word": " La",
+      "start": 11.02,
+      "end": 11.02
+    },
+    {
+      "word": " sua",
+      "start": 11.02,
+      "end": 11.24
+    },
+    {
+      "word": " larghezza,",
+      "start": 11.24,
+      "end": 11.98
+    },
+    {
+      "word": " misurata",
+      "start": 11.98,
+      "end": 12.34
+    },
+    {
+      "word": " in",
+      "start": 12.34,
+      "end": 12.5
+    },
+    {
+      "word": " pixel",
+      "start": 12.76,
+      "end": 12.9
+    },
+    {
+      "word": " ci",
+      "start": 12.9,
+      "end": 13.08
+    },
+    {
+      "word": " esse",
+      "start": 13.08,
+      "end": 13.6
+    },
+    {
+      "word": " esse,",
+      "start": 13.6,
+      "end": 13.8
+    },
+    {
+      "word": " può",
+      "start": 14.18,
+      "end": 14.22
+    },
+    {
+      "word": " cambiare",
+      "start": 14.22,
+      "end": 14.64
+    },
+    {
+      "word": " con",
+      "start": 14.64,
+      "end": 14.8
+    },
+    {
+      "word": " la",
+      "start": 14.8,
+      "end": 15.06
+    },
+    {
+      "word": " finestra,",
+      "start": 15.06,
+      "end": 15.62
+    },
+    {
+      "word": " l'orientamento",
+      "start": 15.68,
+      "end": 16.36
+    },
+    {
+      "word": " e",
+      "start": 16.48,
+      "end": 16.58
+    },
+    {
+      "word": " lo",
+      "start": 16.58,
+      "end": 16.76
+    },
+    {
+      "word": " zoom",
+      "start": 16.76,
+      "end": 16.98
+    },
+    {
+      "word": " della",
+      "start": 16.98,
+      "end": 17.22
+    },
+    {
+      "word": " pagina.",
+      "start": 17.22,
+      "end": 17.32
+    },
+    {
+      "word": " I",
+      "start": 18.4,
+      "end": 18.48
+    },
+    {
+      "word": " confronti",
+      "start": 18.48,
+      "end": 19.08
+    },
+    {
+      "word": " mostrano",
+      "start": 19.08,
+      "end": 19.6
+    },
+    {
+      "word": " diverse",
+      "start": 19.6,
+      "end": 20.14
+    },
+    {
+      "word": " risposte",
+      "start": 20.14,
+      "end": 20.54
+    },
+    {
+      "word": " allo",
+      "start": 20.56,
+      "end": 20.86
+    },
+    {
+      "word": " spazio:",
+      "start": 20.86,
+      "end": 21.02
+    },
+    {
+      "word": " una",
+      "start": 21.72,
+      "end": 21.88
+    },
+    {
+      "word": " misura",
+      "start": 21.88,
+      "end": 22.24
+    },
+    {
+      "word": " può",
+      "start": 22.24,
+      "end": 22.48
+    },
+    {
+      "word": " restare",
+      "start": 22.48,
+      "end": 22.8
+    },
+    {
+      "word": " fissa,",
+      "start": 22.8,
+      "end": 23.0
+    },
+    {
+      "word": " un",
+      "start": 23.46,
+      "end": 23.64
+    },
+    {
+      "word": " campo",
+      "start": 23.66,
+      "end": 23.96
+    },
+    {
+      "word": " può",
+      "start": 24.08,
+      "end": 24.24
+    },
+    {
+      "word": " diventare",
+      "start": 24.24,
+      "end": 24.6
+    },
+    {
+      "word": " più",
+      "start": 24.7,
+      "end": 24.92
+    },
+    {
+      "word": " largo",
+      "start": 24.92,
+      "end": 25.16
+    },
+    {
+      "word": " o",
+      "start": 25.16,
+      "end": 25.38
+    },
+    {
+      "word": " più",
+      "start": 25.38,
+      "end": 25.82
+    },
+    {
+      "word": " stretto,",
+      "start": 25.82,
+      "end": 26.0
+    },
+    {
+      "word": " due",
+      "start": 26.34,
+      "end": 26.54
+    },
+    {
+      "word": " aree",
+      "start": 26.54,
+      "end": 26.86
+    },
+    {
+      "word": " affiancate",
+      "start": 26.86,
+      "end": 27.48
+    },
+    {
+      "word": " possono",
+      "start": 27.62,
+      "end": 27.94
+    },
+    {
+      "word": " impilarsi.",
+      "start": 27.94,
+      "end": 28.28
+    },
+    {
+      "word": " Progettare",
+      "start": 29.24,
+      "end": 29.68
+    },
+    {
+      "word": " un",
+      "start": 29.68,
+      "end": 29.86
+    },
+    {
+      "word": " layout",
+      "start": 29.86,
+      "end": 29.98
+    },
+    {
+      "word": " responsivo",
+      "start": 30.22,
+      "end": 31.04
+    },
+    {
+      "word": " significa",
+      "start": 31.04,
+      "end": 31.58
+    },
+    {
+      "word": " descrivere",
+      "start": 31.58,
+      "end": 32.2
+    },
+    {
+      "word": " queste",
+      "start": 32.2,
+      "end": 32.58
+    },
+    {
+      "word": " relazioni",
+      "start": 32.58,
+      "end": 33.24
+    },
+    {
+      "word": " e",
+      "start": 33.24,
+      "end": 33.46
+    },
+    {
+      "word": " i",
+      "start": 33.46,
+      "end": 33.52
+    },
+    {
+      "word": " loro",
+      "start": 33.52,
+      "end": 33.76
+    },
+    {
+      "word": " cambiamenti,",
+      "start": 33.76,
+      "end": 34.82
+    },
+    {
+      "word": " mantenendo",
+      "start": 34.92,
+      "end": 35.14
+    },
+    {
+      "word": " disponibili",
+      "start": 35.14,
+      "end": 35.8
+    },
+    {
+      "word": " i",
+      "start": 35.8,
+      "end": 36.08
+    },
+    {
+      "word": " contenuti.",
+      "start": 36.08,
+      "end": 37.18
+    },
+    {
+      "word": " Non",
+      "start": 37.24,
+      "end": 37.24
+    },
+    {
+      "word": " basta",
+      "start": 37.24,
+      "end": 37.62
+    },
+    {
+      "word": " quindi",
+      "start": 37.68,
+      "end": 38.0
+    },
+    {
+      "word": " disegnare",
+      "start": 38.0,
+      "end": 38.42
+    },
+    {
+      "word": " una",
+      "start": 38.42,
+      "end": 38.62
+    },
+    {
+      "word": " pagina",
+      "start": 38.62,
+      "end": 38.96
+    },
+    {
+      "word": " grande",
+      "start": 38.96,
+      "end": 39.42
+    },
+    {
+      "word": " e",
+      "start": 39.42,
+      "end": 39.62
+    },
+    {
+      "word": " una",
+      "start": 39.62,
+      "end": 39.92
+    },
+    {
+      "word": " piccola",
+      "start": 39.92,
+      "end": 40.28
+    },
+    {
+      "word": " come",
+      "start": 40.28,
+      "end": 40.54
+    },
+    {
+      "word": " due",
+      "start": 40.54,
+      "end": 40.84
+    },
+    {
+      "word": " immagini",
+      "start": 40.84,
+      "end": 41.22
+    },
+    {
+      "word": " indipendenti.",
+      "start": 41.22,
+      "end": 42.6
+    },
+    {
+      "word": " Dobbiamo",
+      "start": 42.66,
+      "end": 42.76
+    },
+    {
+      "word": " capire",
+      "start": 42.76,
+      "end": 43.22
+    },
+    {
+      "word": " che",
+      "start": 43.22,
+      "end": 43.36
+    },
+    {
+      "word": " cosa",
+      "start": 43.44,
+      "end": 43.68
+    },
+    {
+      "word": " succede",
+      "start": 43.68,
+      "end": 44.16
+    },
+    {
+      "word": " anche",
+      "start": 44.16,
+      "end": 44.58
+    },
+    {
+      "word": " fra",
+      "start": 44.58,
+      "end": 44.76
+    },
+    {
+      "word": " le",
+      "start": 44.76,
+      "end": 44.92
+    },
+    {
+      "word": " due",
+      "start": 44.92,
+      "end": 45.06
+    },
+    {
+      "word": " condizioni.",
+      "start": 45.06,
+      "end": 45.22
+    },
+    {
+      "word": " La",
+      "start": 46.36,
+      "end": 46.54
+    },
+    {
+      "word": " griglia",
+      "start": 46.54,
+      "end": 46.9
+    },
+    {
+      "word": " diventa",
+      "start": 46.9,
+      "end": 47.3
+    },
+    {
+      "word": " una",
+      "start": 47.3,
+      "end": 47.6
+    },
+    {
+      "word": " regola",
+      "start": 47.6,
+      "end": 47.82
+    },
+    {
+      "word": " di",
+      "start": 47.82,
+      "end": 48.1
+    },
+    {
+      "word": " comportamento:",
+      "start": 48.1,
+      "end": 49.3
+    },
+    {
+      "word": " indica",
+      "start": 49.48,
+      "end": 49.54
+    },
+    {
+      "word": " quali",
+      "start": 49.54,
+      "end": 49.9
+    },
+    {
+      "word": " elementi",
+      "start": 49.9,
+      "end": 50.38
+    },
+    {
+      "word": " crescono,",
+      "start": 50.38,
+      "end": 51.16
+    },
+    {
+      "word": " quali",
+      "start": 51.32,
+      "end": 51.36
+    },
+    {
+      "word": " hanno",
+      "start": 51.36,
+      "end": 51.6
+    },
+    {
+      "word": " limiti",
+      "start": 51.6,
+      "end": 52.12
+    },
+    {
+      "word": " e",
+      "start": 52.2,
+      "end": 52.34
+    },
+    {
+      "word": " quando",
+      "start": 52.44,
+      "end": 52.7
+    },
+    {
+      "word": " una",
+      "start": 52.7,
+      "end": 52.92
+    },
+    {
+      "word": " disposizione",
+      "start": 52.92,
+      "end": 53.6
+    },
+    {
+      "word": " deve",
+      "start": 53.6,
+      "end": 53.84
+    },
+    {
+      "word": " cambiare.",
+      "start": 53.84,
+      "end": 53.94
+    },
+    {
+      "word": " Cominciamo",
+      "start": 55.28,
+      "end": 55.44
+    },
+    {
+      "word": " dalla",
+      "start": 55.44,
+      "end": 55.7
+    },
+    {
+      "word": " relazione",
+      "start": 55.7,
+      "end": 56.3
+    },
+    {
+      "word": " fra",
+      "start": 56.38,
+      "end": 56.52
+    },
+    {
+      "word": " misure",
+      "start": 56.52,
+      "end": 56.86
+    },
+    {
+      "word": " costanti",
+      "start": 56.86,
+      "end": 57.54
+    },
+    {
+      "word": " e",
+      "start": 57.54,
+      "end": 57.74
+    },
+    {
+      "word": " misure",
+      "start": 57.74,
+      "end": 58.06
+    },
+    {
+      "word": " flessibili.",
+      "start": 58.06,
+      "end": 58.36
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.22,
+      "end": 4.52,
+      "text": "Dal foglio allo schermo cambia una\ncondizione fondamentale: non conosciamo"
+    },
+    {
+      "start": 4.52,
+      "end": 5.88,
+      "text": "una sola larghezza stabile."
+    },
+    {
+      "start": 7.26,
+      "end": 11.02,
+      "text": "Il viewport è l'area nella quale il\nbrowser dispone la pagina."
+    },
+    {
+      "start": 11.02,
+      "end": 15.68,
+      "text": "La sua larghezza, misurata in pixel ci\nesse esse, può cambiare con la finestra,"
+    },
+    {
+      "start": 15.68,
+      "end": 17.44,
+      "text": "l'orientamento e lo zoom della pagina."
+    },
+    {
+      "start": 18.4,
+      "end": 21.14,
+      "text": "I confronti mostrano diverse risposte allo\nspazio:"
+    },
+    {
+      "start": 21.72,
+      "end": 26.54,
+      "text": "una misura può restare fissa, un campo può\ndiventare più largo o più stretto, due"
+    },
+    {
+      "start": 26.54,
+      "end": 28.4,
+      "text": "aree affiancate possono impilarsi."
+    },
+    {
+      "start": 29.24,
+      "end": 33.76,
+      "text": "Progettare un layout responsivo significa\ndescrivere queste relazioni e i loro"
+    },
+    {
+      "start": 33.76,
+      "end": 37.24,
+      "text": "cambiamenti, mantenendo disponibili i\ncontenuti."
+    },
+    {
+      "start": 37.24,
+      "end": 41.22,
+      "text": "Non basta quindi disegnare una pagina\ngrande e una piccola come due immagini"
+    },
+    {
+      "start": 41.22,
+      "end": 45.34,
+      "text": "indipendenti. Dobbiamo capire che cosa\nsuccede anche fra le due condizioni."
+    },
+    {
+      "start": 46.36,
+      "end": 50.38,
+      "text": "La griglia diventa una regola di\ncomportamento: indica quali elementi"
+    },
+    {
+      "start": 50.38,
+      "end": 54.06,
+      "text": "crescono, quali hanno limiti e quando una\ndisposizione deve cambiare."
+    },
+    {
+      "start": 55.28,
+      "end": 58.48,
+      "text": "Cominciamo dalla relazione fra misure\ncostanti e misure flessibili."
+    }
+  ]
+}

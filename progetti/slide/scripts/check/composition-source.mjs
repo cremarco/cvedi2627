@@ -3,6 +3,7 @@ import { readFile, access, readdir } from 'node:fs/promises'
 import { createHash } from 'node:crypto'
 import { stripAudioDelivery, resolveSlideAudioSettings } from '../build/audio-delivery.mjs'
 import { normalizeTitle } from '../../utils/normalize-title.mjs'
+import { readLessonCaptions, lessonCaptionManifest } from '../build/lesson-captions.mjs'
 const read = async file => JSON.parse(await readFile(file, 'utf8'))
 const hash = async file => createHash('sha256').update(await readFile(file)).digest('hex')
 
@@ -10,6 +11,8 @@ const hash = async file => createHash('sha256').update(await readFile(file)).dig
 export async function checkCompositionSources(deck) {
   const base = 'progetti/slide/assets/booklet/lezione-composizione/'
   const manifest = await read(base + 'manifest.json')
+  assert.equal(manifest.captionSelectionSource, lessonCaptionManifest('composizione-gerarchia'))
+  const { manifest: captionSelection } = await readLessonCaptions('composizione-gerarchia')
   const plan = await read(manifest.editorialPlan)
   assert.equal(manifest.excludedSlidesSource, base + 'excluded-slides.json')
   assert.equal(plan.excludedSlidesSource, manifest.excludedSlidesSource)
@@ -109,6 +112,7 @@ export async function checkCompositionSources(deck) {
   let words = 0
   for (const [index, slide] of slides.entries()) {
     const expected = plan.slides[index], alias = expected.alias
+    assert.equal(slide.frontmatter.narrationCaptions, captionSelection.clips[alias]?.web, alias + ': captions follow the approved recordings')
     assert.equal(manifest.slides[index].narrationEnabled, expected.narrationEnabled)
     if (expected.narrationEnabled === false) assert.equal(selection.clips[alias], undefined, alias + ': intentionally disabled audio stays unselected')
     assert.equal(slide.frontmatter.routeAlias, alias)

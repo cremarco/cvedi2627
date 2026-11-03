@@ -7,15 +7,25 @@ const root = new URL('../../../../', import.meta.url)
 const json = async path => JSON.parse(await readFile(new URL(path, root), 'utf8'))
 const hash = value => createHash('sha256').update(value).digest('hex')
 const compact = value => value.replace(/\s+/gu, '')
-export const usabilityCaptionManifest = 'progetti/slide/assets/captions/lezione-test-usabilita/manifest.json'
+export const captionLessons = await json('progetti/slide/data/narration-lessons.json')
+export const lessonCaptionManifest = lesson => {
+  const specification = captionLessons.find(item => item.lesson === lesson)
+  assert.ok(specification, 'supported narration lesson')
+  return `progetti/slide/assets/captions/${specification.directory}/manifest.json`
+}
+export const usabilityCaptionManifest = lessonCaptionManifest('test-usabilita')
+export const readUsabilityCaptions = () => readLessonCaptions('test-usabilita')
 
 /** Validate the pinned audio, exact script, word alignment and deployable VTT together. */
-export async function readUsabilityCaptions() {
-  const manifest = await json(usabilityCaptionManifest)
+export async function readLessonCaptions(lesson) {
+  const specification = captionLessons.find(item => item.lesson === lesson)
+  const manifest = await json(lessonCaptionManifest(lesson))
+  const prefix = `progetti/slide/assets/captions/${specification.directory}/`
+  const webPrefix = `/captions/${specification.directory}/`
   assert.equal(manifest.version, 1)
-  assert.equal(manifest.lesson, 'test-usabilita')
-  assert.equal(manifest.audioSelectionSource, 'progetti/slide/assets/lezione-test-usabilita/audio-approved.json')
-  assert.equal(manifest.textSource, 'progetti/slide/assets/lezione-test-usabilita/speaker-notes-original.json')
+  assert.equal(manifest.lesson, lesson)
+  assert.equal(manifest.audioSelectionSource, specification.source + '/audio-approved.json')
+  assert.equal(manifest.textSource, specification.source + '/speaker-notes-original.json')
   const selection = await json(manifest.audioSelectionSource)
   const notes = await json(manifest.textSource)
   assert.deepEqual(Object.keys(manifest.clips), Object.keys(selection.clips), 'every selected audio has captions in lesson order')
@@ -23,8 +33,8 @@ export async function readUsabilityCaptions() {
   for (const [alias, clip] of Object.entries(manifest.clips)) {
     const audio = selection.clips[alias]
     const filename = audio.source.split('/').at(-1).replace(/\.mp3$/, '.vtt')
-    assert.equal(clip.source, 'progetti/slide/assets/captions/lezione-test-usabilita/' + filename)
-    assert.equal(clip.web, '/captions/lezione-test-usabilita/' + filename)
+    assert.equal(clip.source, prefix + filename)
+    assert.equal(clip.web, webPrefix + filename)
     assert.equal(clip.wordsSource, clip.source.replace(/\.vtt$/, '.words.json'))
     assert.equal(clip.audioSha256, audio.sha256, alias + ': captions belong to the approved audio')
     assert.equal(clip.durationSeconds, audio.durationSeconds)
@@ -37,6 +47,9 @@ export async function readUsabilityCaptions() {
     assert.equal(clip.cueCount, cues.length)
     assert.equal(clip.wordCount, words.length)
     assert.ok(cues.length > 0 && words.length > 0)
+    const instant = words.filter(word => word.start >= word.end).length
+    assert.equal(clip.zeroDurationWords, instant)
+    assert.ok(instant / words.length <= .08, alias + ': word alignment meets the generation quality threshold')
     assert.equal(compact(words.map(word => word.word).join('')), compact(notes[alias]))
     assert.equal(compact(cues.map(cue => cue.text).join('')), compact(notes[alias]), alias + ': the whole approved script is retained')
     let previousEnd = 0

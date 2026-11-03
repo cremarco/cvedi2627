@@ -1,0 +1,73 @@
+WEBVTT
+
+1
+00:00:00.220 --> 00:00:04.520
+Dal foglio allo schermo cambia una
+condizione fondamentale: non conosciamo
+
+2
+00:00:04.520 --> 00:00:05.880
+una sola larghezza stabile.
+
+3
+00:00:07.260 --> 00:00:11.020
+Il viewport è l'area nella quale il
+browser dispone la pagina.
+
+4
+00:00:11.020 --> 00:00:15.680
+La sua larghezza, misurata in pixel ci
+esse esse, può cambiare con la finestra,
+
+5
+00:00:15.680 --> 00:00:17.440
+l'orientamento e lo zoom della pagina.
+
+6
+00:00:18.400 --> 00:00:21.140
+I confronti mostrano diverse risposte allo
+spazio:
+
+7
+00:00:21.720 --> 00:00:26.540
+una misura può restare fissa, un campo può
+diventare più largo o più stretto, due
+
+8
+00:00:26.540 --> 00:00:28.400
+aree affiancate possono impilarsi.
+
+9
+00:00:29.240 --> 00:00:33.760
+Progettare un layout responsivo significa
+descrivere queste relazioni e i loro
+
+10
+00:00:33.760 --> 00:00:37.240
+cambiamenti, mantenendo disponibili i
+contenuti.
+
+11
+00:00:37.240 --> 00:00:41.220
+Non basta quindi disegnare una pagina
+grande e una piccola come due immagini
+
+12
+00:00:41.220 --> 00:00:45.340
+indipendenti. Dobbiamo capire che cosa
+succede anche fra le due condizioni.
+
+13
+00:00:46.360 --> 00:00:50.380
+La griglia diventa una regola di
+comportamento: indica quali elementi
+
+14
+00:00:50.380 --> 00:00:54.060
+crescono, quali hanno limiti e quando una
+disposizione deve cambiare.
+
+15
+00:00:55.280 --> 00:00:58.480
+Cominciamo dalla relazione fra misure
+costanti e misure flessibili.

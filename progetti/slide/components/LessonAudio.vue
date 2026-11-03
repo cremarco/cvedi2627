@@ -195,7 +195,7 @@ onBeforeUnmount(pause)
   position: absolute;
   z-index: 40;
   bottom: 22px;
-  left: 240px;
+  left: var(--lesson-caption-left, 240px);
   right: 240px;
   padding: 4px 16px;
   border-radius: 8px;

@@ -11,6 +11,8 @@ const outputs = [
   'progetti/slide/public/audio/lezione-composizione',
   'progetti/slide/public/audio/lezione-test-usabilita',
   'progetti/slide/public/captions/lezione-test-usabilita',
+  'progetti/slide/public/captions/lezione-griglie',
+  'progetti/slide/public/captions/lezione-composizione',
   'progetti/booklet/main.pdf', 'progetti/booklet/build/booklet.pdf',
   ...['aperture', '00-frontespizio-indice', '01-storia-del-design', '02-ricerca',
     '03-accessibilita', '04-gestalt', '05-colore', '06-tipografia', '07-griglia']

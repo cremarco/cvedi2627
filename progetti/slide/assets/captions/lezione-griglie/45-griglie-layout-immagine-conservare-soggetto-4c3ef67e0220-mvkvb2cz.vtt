@@ -1,0 +1,85 @@
+WEBVTT
+
+1
+00:00:00.160 --> 00:00:04.500
+Il comportamento del contenitore riguarda
+anche quello che possiamo vedere dentro
+
+2
+00:00:04.500 --> 00:00:07.800
+un’immagine. Nei tre campi compare lo
+stesso paesaggio,
+
+3
+00:00:08.360 --> 00:00:09.240
+ma il risultato cambia.
+
+4
+00:00:10.460 --> 00:00:12.240
+Nel primo l’immagine rimane intera:
+
+5
+00:00:13.060 --> 00:00:17.020
+possiamo riconoscere tutto il soggetto,
+anche se resta spazio libero.
+
+6
+00:00:17.020 --> 00:00:21.080
+Nel secondo il campo viene riempito con un
+ritaglio centrale, che esclude il
+
+7
+00:00:21.080 --> 00:00:21.780
+dettaglio laterale.
+
+8
+00:00:22.800 --> 00:00:25.980
+Nel terzo spostiamo l’inquadratura e
+recuperiamo quel dettaglio.
+
+9
+00:00:27.120 --> 00:00:31.360
+La proprietà chiamata object fit
+stabilisce come adattare l’immagine al
+
+10
+00:00:31.360 --> 00:00:37.380
+campo. Il valore contain conserva l’intera
+immagine mantenendone le proporzioni.
+
+11
+00:00:37.380 --> 00:00:41.700
+Il valore cover mantiene le proporzioni e
+riempie il campo, tagliando ciò che
+
+12
+00:00:41.700 --> 00:00:42.400
+eccede.
+
+13
+00:00:42.820 --> 00:00:46.160
+La proprietà object position permette di
+controllarne l’allineamento.
+
+14
+00:00:47.280 --> 00:00:50.880
+Per esempio, se il testo parla di un
+ingresso laterale, quell’ingresso deve
+
+15
+00:00:50.880 --> 00:00:51.600
+restare visibile.
+
+16
+00:00:52.440 --> 00:00:56.880
+Confrontate quindi immagine e didascalia,
+oltre ai bordi del riquadro.
+
+17
+00:00:56.880 --> 00:01:00.860
+Un ritaglio, per quanto ordinato, può
+eliminare proprio l’informazione che
+
+18
+00:01:00.860 --> 00:01:02.280
+stiamo cercando di comunicare.

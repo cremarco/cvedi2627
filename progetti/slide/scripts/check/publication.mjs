@@ -7,6 +7,7 @@ import path from 'node:path'
 import { publicationExtensions, localAssetDirectories, sharedLessonAssetDirectories } from '../../utils/publication.mjs'
 import { lessonDecks } from '../../utils/lesson-decks.mjs'
 import { readGridsManifest } from './grids-source.mjs'
+import { captionLessons, readLessonCaptions } from '../build/lesson-captions.mjs'
 
 const root = fileURLToPath(new URL('../../../..', import.meta.url))
 
@@ -219,6 +220,15 @@ export async function checkPublishedBuild(directory) {
     const bytes = await readFile(path.join(output, clip.web))
     assert.equal(createHash('sha256').update(bytes).digest('hex'), clip.sha256)
     assert.deepEqual(bytes, await readFile(path.join(root, clip.source)), `${alias}: original MP3 bytes are preserved`)
+  }
+  for (const { lesson, directory } of captionLessons.filter(item => !lessonDecks.find(deck => deck.id === item.lesson)?.audioLocalOnly && catalog.decks.some(deck => deck.id === item.lesson))) {
+    const { manifest, files } = await readLessonCaptions(lesson)
+    const destination = path.join(output, 'captions', directory)
+    assert.deepEqual((await readdir(destination)).sort(), [...files.keys()].sort(), lesson + ': exactly the selected caption files are published')
+    for (const [filename, bytes] of files)
+      assert.deepEqual(await readFile(path.join(destination, filename)), bytes, lesson + ': published subtitles and word timings preserve their verified bytes')
+    for (const clip of Object.values(manifest.clips))
+      assert.ok(references.includes(clip.web), lesson + ': published slides reference their subtitles')
   }
   assert.deepEqual(catalog.decks.filter(deck => deck.id.startsWith('esercitazione-')).map(deck => deck.id), ['esercitazione-01'], 'only the first exercise is registered online')
   const exercises = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/esercitazioni/manifest.json'), 'utf8'))

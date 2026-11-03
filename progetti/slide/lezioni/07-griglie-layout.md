@@ -9,6 +9,7 @@ routeAlias: "griglie-layout"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/01-griglie-layout-394fe9039c43-mvkuzqtr.mp3"
+narrationCaptions: "/captions/lezione-griglie/01-griglie-layout-394fe9039c43-mvkuzqtr.vtt"
 bookletFigures: []
 lessonNumber: 9
 ---
@@ -32,6 +33,7 @@ routeAlias: "griglie-layout-sintesi"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/02-griglie-layout-sintesi-1188cd9b4ba0-mvkuzt1o.mp3"
+narrationCaptions: "/captions/lezione-griglie/02-griglie-layout-sintesi-1188cd9b4ba0-mvkuzt1o.vtt"
 bookletFigures: []
 summaryStatement: "La griglia mette in relazione contenuti, spazio e priorità."
 summarySupport: "Dalla pagina al viewport: costruire regole, adattare il layout e verificarlo con testi, immagini e azioni reali."
@@ -60,6 +62,7 @@ routeAlias: "griglie-layout-obiettivi"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/03-griglie-layout-obiettivi-2194d1a072fc-mvkv01ud.mp3"
+narrationCaptions: "/captions/lezione-griglie/03-griglie-layout-obiettivi-2194d1a072fc-mvkv01ud.vtt"
 bookletFigures: []
 ---
 
@@ -86,6 +89,7 @@ routeAlias: "griglie-layout-relazioni-struttura"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/04-griglie-layout-relazioni-struttura-7c61577f9f8c-mvkv0c8x.mp3"
+narrationCaptions: "/captions/lezione-griglie/04-griglie-layout-relazioni-struttura-7c61577f9f8c-mvkv0c8x.vtt"
 bookletFigures: ["359"]
 ---
 
@@ -112,6 +116,7 @@ routeAlias: "griglie-layout-relazioni-appuntamenti"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/05-griglie-layout-relazioni-appuntamenti-c3f60318a5f1-mvkv0lo2.mp3"
+narrationCaptions: "/captions/lezione-griglie/05-griglie-layout-relazioni-appuntamenti-c3f60318a5f1-mvkv0lo2.vtt"
 bookletFigures: ["360"]
 ---
 
@@ -138,6 +143,7 @@ routeAlias: "griglie-layout-relazioni-griglia-layout-gerarchia"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/06-griglie-layout-relazioni-griglia-layout-gerarchia-20913ffe88f6-mvkv0vgd.mp3"
+narrationCaptions: "/captions/lezione-griglie/06-griglie-layout-relazioni-griglia-layout-gerarchia-20913ffe88f6-mvkv0vgd.vtt"
 bookletFigures: ["361"]
 ---
 
@@ -164,6 +170,7 @@ routeAlias: "griglie-layout-relazioni-bianco-misura"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/07-griglie-layout-relazioni-bianco-misura-8c290bfe9d74-mvkv14ev.mp3"
+narrationCaptions: "/captions/lezione-griglie/07-griglie-layout-relazioni-bianco-misura-8c290bfe9d74-mvkv14ev.vtt"
 bookletFigures: ["362"]
 ---
 
@@ -190,6 +197,7 @@ routeAlias: "griglie-layout-storia-metodo-esplicito"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/08-griglie-layout-storia-metodo-esplicito-876ec1acff57-mvkv1epo.mp3"
+narrationCaptions: "/captions/lezione-griglie/08-griglie-layout-storia-metodo-esplicito-876ec1acff57-mvkv1epo.vtt"
 bookletFigures: ["364"]
 ---
 
@@ -216,6 +224,7 @@ routeAlias: "griglie-layout-storia-musica-viva"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/09-griglie-layout-storia-musica-viva-9c12067f8607-mvkv1ocd.mp3"
+narrationCaptions: "/captions/lezione-griglie/09-griglie-layout-storia-musica-viva-9c12067f8607-mvkv1ocd.vtt"
 bookletFigures: ["365"]
 ---
 
@@ -242,6 +251,7 @@ routeAlias: "griglie-layout-storia-unigrid"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/10-griglie-layout-storia-unigrid-3743f6aa90c8-mvkv1z8b.mp3"
+narrationCaptions: "/captions/lezione-griglie/10-griglie-layout-storia-unigrid-3743f6aa90c8-mvkv1z8b.vtt"
 bookletFigures: ["366"]
 ---
 
@@ -268,6 +278,7 @@ routeAlias: "griglie-layout-storia-coordinare-variazioni"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/11-griglie-layout-storia-coordinare-variazioni-65410b5d849c-mvkv2a5o.mp3"
+narrationCaptions: "/captions/lezione-griglie/11-griglie-layout-storia-coordinare-variazioni-65410b5d849c-mvkv2a5o.vtt"
 bookletFigures: ["367"]
 ---
 
@@ -294,6 +305,7 @@ routeAlias: "griglie-layout-anatomia-campo-utile"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/12-griglie-layout-anatomia-campo-utile-20d425407ab0-mvkv2j52.mp3"
+narrationCaptions: "/captions/lezione-griglie/12-griglie-layout-anatomia-campo-utile-20d425407ab0-mvkv2j52.vtt"
 bookletFigures: ["369"]
 ---
 
@@ -320,6 +332,7 @@ routeAlias: "griglie-layout-anatomia-reticolo"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/13-griglie-layout-anatomia-reticolo-f2f7f7851d5d-mvkv2rld.mp3"
+narrationCaptions: "/captions/lezione-griglie/13-griglie-layout-anatomia-reticolo-f2f7f7851d5d-mvkv2rld.vtt"
 bookletFigures: ["370"]
 ---
 
@@ -346,6 +359,7 @@ routeAlias: "griglie-layout-anatomia-documento"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/14-griglie-layout-anatomia-documento-9ba07a7087ed-mvkv31x2.mp3"
+narrationCaptions: "/captions/lezione-griglie/14-griglie-layout-anatomia-documento-9ba07a7087ed-mvkv31x2.vtt"
 bookletFigures: ["2024-102-anatomia"]
 ---
 
@@ -372,6 +386,7 @@ routeAlias: "griglie-layout-anatomia-calcolo-colonne"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/15-griglie-layout-anatomia-calcolo-colonne-f14bd07c8ec1-mvkv3af7.mp3"
+narrationCaptions: "/captions/lezione-griglie/15-griglie-layout-anatomia-calcolo-colonne-f14bd07c8ec1-mvkv3af7.vtt"
 bookletFigures: ["371"]
 ---
 
@@ -418,6 +433,7 @@ routeAlias: "griglie-layout-anatomia-span"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/16-griglie-layout-anatomia-span-3720da05dc29-mvkv3jvw.mp3"
+narrationCaptions: "/captions/lezione-griglie/16-griglie-layout-anatomia-span-3720da05dc29-mvkv3jvw.vtt"
 bookletFigures: []
 ---
 
@@ -464,6 +480,7 @@ routeAlias: "griglie-layout-anatomia-spazi-esterni-interni"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/17-griglie-layout-anatomia-spazi-esterni-interni-c3b4f2b00d75-mvkv3vb2.mp3"
+narrationCaptions: "/captions/lezione-griglie/17-griglie-layout-anatomia-spazi-esterni-interni-c3b4f2b00d75-mvkv3vb2.vtt"
 bookletFigures: ["materiali-spazi"]
 ---
 
@@ -490,6 +507,7 @@ routeAlias: "griglie-layout-anatomia-box-sizing-confronto"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/18-griglie-layout-anatomia-box-sizing-confronto-fb0e1d2f066e-mvkv46qr.mp3"
+narrationCaptions: "/captions/lezione-griglie/18-griglie-layout-anatomia-box-sizing-confronto-fb0e1d2f066e-mvkv46qr.vtt"
 bookletFigures: []
 teachingFigures: ["didattica-box-sizing"]
 teachingSource: "progetti/slide/assets/slide-materials/griglie/manifest.json"
@@ -528,6 +546,7 @@ routeAlias: "griglie-layout-anatomia-linee-base"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/19-griglie-layout-anatomia-linee-base-cdc74b2e0752-mvkv4hak.mp3"
+narrationCaptions: "/captions/lezione-griglie/19-griglie-layout-anatomia-linee-base-cdc74b2e0752-mvkv4hak.vtt"
 bookletFigures: ["372"]
 ---
 
@@ -554,6 +573,7 @@ routeAlias: "griglie-layout-anatomia-contenuti-reali"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/20-griglie-layout-anatomia-contenuti-reali-36a8fe08c981-mvkv4qno.mp3"
+narrationCaptions: "/captions/lezione-griglie/20-griglie-layout-anatomia-contenuti-reali-36a8fe08c981-mvkv4qno.vtt"
 bookletFigures: ["373"]
 ---
 
@@ -580,6 +600,7 @@ routeAlias: "griglie-layout-tipologie-quattro-logiche"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/21-griglie-layout-tipologie-quattro-logiche-3e8aa91ed6d4-mvkv514r.mp3"
+narrationCaptions: "/captions/lezione-griglie/21-griglie-layout-tipologie-quattro-logiche-3e8aa91ed6d4-mvkv514r.vtt"
 bookletFigures: ["374"]
 ---
 
@@ -604,6 +625,7 @@ routeAlias: "griglie-layout-tipologie-blocco"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/22-griglie-layout-tipologie-blocco-aeb0ccf7cada-mvkv59er.mp3"
+narrationCaptions: "/captions/lezione-griglie/22-griglie-layout-tipologie-blocco-aeb0ccf7cada-mvkv59er.vtt"
 bookletFigures: ["375"]
 ---
 
@@ -628,6 +650,7 @@ routeAlias: "griglie-layout-tipologie-colonne"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/23-griglie-layout-tipologie-colonne-d2228d1cbf1e-mvkv5iwh.mp3"
+narrationCaptions: "/captions/lezione-griglie/23-griglie-layout-tipologie-colonne-d2228d1cbf1e-mvkv5iwh.vtt"
 bookletFigures: ["376"]
 ---
 
@@ -654,6 +677,7 @@ routeAlias: "griglie-layout-tipologie-ordine-colonne"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/24-griglie-layout-tipologie-ordine-colonne-04f6243cea44-mvkv5r7h.mp3"
+narrationCaptions: "/captions/lezione-griglie/24-griglie-layout-tipologie-ordine-colonne-04f6243cea44-mvkv5r7h.vtt"
 bookletFigures: []
 teachingFigures: ["didattica-ordine-colonne"]
 ---
@@ -679,6 +703,7 @@ routeAlias: "griglie-layout-tipologie-dodici-colonne"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/25-griglie-layout-tipologie-dodici-colonne-fcffb7b99d17-mvkv5ydz.mp3"
+narrationCaptions: "/captions/lezione-griglie/25-griglie-layout-tipologie-dodici-colonne-fcffb7b99d17-mvkv5ydz.vtt"
 bookletFigures: ["materiali-dodici"]
 ---
 
@@ -705,6 +730,7 @@ routeAlias: "griglie-layout-tipologie-due-assetti"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/26-griglie-layout-tipologie-due-assetti-d5cb38e63d15-mvkv67m8.mp3"
+narrationCaptions: "/captions/lezione-griglie/26-griglie-layout-tipologie-due-assetti-d5cb38e63d15-mvkv67m8.vtt"
 bookletFigures: ["377"]
 ---
 
@@ -729,6 +755,7 @@ routeAlias: "griglie-layout-tipologie-documento-editoriale"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/27-griglie-layout-tipologie-documento-editoriale-d79b13358245-mvkv6fme.mp3"
+narrationCaptions: "/captions/lezione-griglie/27-griglie-layout-tipologie-documento-editoriale-d79b13358245-mvkv6fme.vtt"
 bookletFigures: ["2024-103-editoriale"]
 ---
 
@@ -755,6 +782,7 @@ routeAlias: "griglie-layout-tipologie-modulare"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/28-griglie-layout-tipologie-modulare-75ee9be57208-mvkv6o9f.mp3"
+narrationCaptions: "/captions/lezione-griglie/28-griglie-layout-tipologie-modulare-75ee9be57208-mvkv6o9f.vtt"
 bookletFigures: ["378"]
 ---
 
@@ -781,6 +809,7 @@ routeAlias: "griglie-layout-tipologie-gerarchica"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/29-griglie-layout-tipologie-gerarchica-edf757b408a7-mvkv6y0i.mp3"
+narrationCaptions: "/captions/lezione-griglie/29-griglie-layout-tipologie-gerarchica-edf757b408a7-mvkv6y0i.vtt"
 bookletFigures: ["379"]
 ---
 
@@ -807,6 +836,7 @@ routeAlias: "griglie-layout-tipologie-dorso"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/30-griglie-layout-tipologie-dorso-5b591cc0b385-mvkv77tl.mp3"
+narrationCaptions: "/captions/lezione-griglie/30-griglie-layout-tipologie-dorso-5b591cc0b385-mvkv77tl.vtt"
 bookletFigures: ["380"]
 ---
 
@@ -833,6 +863,7 @@ routeAlias: "griglie-layout-terzi-aureo"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/31-griglie-layout-terzi-aureo-5d287f3df178-mvkv7h9p.mp3"
+narrationCaptions: "/captions/lezione-griglie/31-griglie-layout-terzi-aureo-5d287f3df178-mvkv7h9p.vtt"
 bookletFigures: ["389"]
 ---
 
@@ -859,6 +890,7 @@ routeAlias: "griglie-layout-aureo-leggere-rapporto"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/32-griglie-layout-aureo-leggere-rapporto-a2016cecf548-mvkv7pc9.mp3"
+narrationCaptions: "/captions/lezione-griglie/32-griglie-layout-aureo-leggere-rapporto-a2016cecf548-mvkv7pc9.vtt"
 bookletFigures: []
 teachingFigures: ["didattica-rapporto-aureo"]
 teachingSource: "progetti/slide/assets/slide-materials/griglie/manifest.json"
@@ -897,6 +929,7 @@ routeAlias: "griglie-layout-aureo-fibonacci"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/33-griglie-layout-aureo-fibonacci-b5340e2917a0-mvkv7ypq.mp3"
+narrationCaptions: "/captions/lezione-griglie/33-griglie-layout-aureo-fibonacci-b5340e2917a0-mvkv7ypq.vtt"
 bookletFigures: ["390"]
 ---
 
@@ -923,6 +956,7 @@ routeAlias: "griglie-layout-april-greiman"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/34-griglie-layout-april-greiman-9ae2a4e21363-mvkv8932.mp3"
+narrationCaptions: "/captions/lezione-griglie/34-griglie-layout-april-greiman-9ae2a4e21363-mvkv8932.vtt"
 bookletFigures: ["391"]
 ---
 
@@ -949,6 +983,7 @@ routeAlias: "griglie-layout-uscire-dalla-griglia"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/35-griglie-layout-uscire-dalla-griglia-958ef105aea5-mvkv8idf.mp3"
+narrationCaptions: "/captions/lezione-griglie/35-griglie-layout-uscire-dalla-griglia-958ef105aea5-mvkv8idf.vtt"
 bookletFigures: ["392"]
 ---
 
@@ -975,6 +1010,7 @@ routeAlias: "griglie-layout-viewport-comportamento"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/36-griglie-layout-viewport-comportamento-0b5b2d23bc96-mvkv8s8c.mp3"
+narrationCaptions: "/captions/lezione-griglie/36-griglie-layout-viewport-comportamento-0b5b2d23bc96-mvkv8s8c.vtt"
 bookletFigures: ["381"]
 ---
 
@@ -1001,6 +1037,7 @@ routeAlias: "griglie-layout-fisso-fluido-ibrido"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/37-griglie-layout-fisso-fluido-ibrido-d02441caaed6-mvkv91nk.mp3"
+narrationCaptions: "/captions/lezione-griglie/37-griglie-layout-fisso-fluido-ibrido-d02441caaed6-mvkv91nk.vtt"
 bookletFigures: ["382"]
 ---
 
@@ -1027,6 +1064,7 @@ routeAlias: "griglie-layout-contenitore-fluido-limite"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/38-griglie-layout-contenitore-fluido-limite-2bb159d429eb-mvkv9a4z.mp3"
+narrationCaptions: "/captions/lezione-griglie/38-griglie-layout-contenitore-fluido-limite-2bb159d429eb-mvkv9a4z.vtt"
 bookletFigures: ["materiali-contenitore"]
 ---
 
@@ -1063,6 +1101,7 @@ routeAlias: "griglie-layout-breakpoint-contenuto"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/39-griglie-layout-breakpoint-contenuto-d83e7cd2bbd4-mvkv9jy0.mp3"
+narrationCaptions: "/captions/lezione-griglie/39-griglie-layout-breakpoint-contenuto-d83e7cd2bbd4-mvkv9jy0.vtt"
 bookletFigures: ["383"]
 ---
 
@@ -1089,6 +1128,7 @@ routeAlias: "griglie-layout-query-viewport-contenitore"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/40-griglie-layout-query-viewport-contenitore-5a73a5227ef5-mvkv9u7x.mp3"
+narrationCaptions: "/captions/lezione-griglie/40-griglie-layout-query-viewport-contenitore-5a73a5227ef5-mvkv9u7x.vtt"
 bookletFigures: []
 teachingFigures: ["didattica-query-contenitore"]
 ---
@@ -1116,6 +1156,7 @@ routeAlias: "griglie-layout-golden-grid-system"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/41-griglie-layout-golden-grid-system-f390aaa042c1-mvkva2m1.mp3"
+narrationCaptions: "/captions/lezione-griglie/41-griglie-layout-golden-grid-system-f390aaa042c1-mvkva2m1.vtt"
 bookletFigures: ["384"]
 ---
 
@@ -1142,6 +1183,7 @@ routeAlias: "griglie-layout-ibm-2x-grid"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/42-griglie-layout-ibm-2x-grid-fbdd45a3d922-mvkvaau2.mp3"
+narrationCaptions: "/captions/lezione-griglie/42-griglie-layout-ibm-2x-grid-fbdd45a3d922-mvkvaau2.vtt"
 bookletFigures: ["385"]
 ---
 
@@ -1168,6 +1210,7 @@ routeAlias: "griglie-layout-griglia-componenti"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/43-griglie-layout-griglia-componenti-458cddbe8f3c-mvkvaj84.mp3"
+narrationCaptions: "/captions/lezione-griglie/43-griglie-layout-griglia-componenti-458cddbe8f3c-mvkvaj84.vtt"
 bookletFigures: ["386"]
 ---
 
@@ -1194,6 +1237,7 @@ routeAlias: "griglie-layout-grid-flexbox"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/44-griglie-layout-grid-flexbox-924182138cda-mvkvaqiy.mp3"
+narrationCaptions: "/captions/lezione-griglie/44-griglie-layout-grid-flexbox-924182138cda-mvkvaqiy.vtt"
 bookletFigures: []
 teachingFigures: ["didattica-grid-flexbox"]
 ---
@@ -1223,6 +1267,7 @@ routeAlias: "griglie-layout-immagine-conservare-soggetto"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/45-griglie-layout-immagine-conservare-soggetto-4c3ef67e0220-mvkvb2cz.mp3"
+narrationCaptions: "/captions/lezione-griglie/45-griglie-layout-immagine-conservare-soggetto-4c3ef67e0220-mvkvb2cz.vtt"
 bookletFigures: ["materiali-immagini"]
 ---
 
@@ -1249,6 +1294,7 @@ routeAlias: "griglie-layout-immagine-risoluzione-inquadratura"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/46-griglie-layout-immagine-risoluzione-inquadratura-e49f7fea162d-mvkvbc1d.mp3"
+narrationCaptions: "/captions/lezione-griglie/46-griglie-layout-immagine-risoluzione-inquadratura-e49f7fea162d-mvkvbc1d.vtt"
 bookletFigures: []
 teachingFigures: ["didattica-immagini-scelte"]
 ---
@@ -1276,6 +1322,7 @@ routeAlias: "griglie-layout-vogue-confronto-responsive"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/47-griglie-layout-vogue-confronto-responsive-ce05216aac3a-mvkvbkuk.mp3"
+narrationCaptions: "/captions/lezione-griglie/47-griglie-layout-vogue-confronto-responsive-ce05216aac3a-mvkvbkuk.vtt"
 bookletFigures: ["materiali-caso-responsive"]
 ---
 
@@ -1302,6 +1349,7 @@ routeAlias: "griglie-layout-ordine-visivo-lettura"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/48-griglie-layout-ordine-visivo-lettura-ce4af6f7cf39-mvkvbv0l.mp3"
+narrationCaptions: "/captions/lezione-griglie/48-griglie-layout-ordine-visivo-lettura-ce4af6f7cf39-mvkvbv0l.vtt"
 bookletFigures: ["387"]
 ---
 
@@ -1328,6 +1376,7 @@ routeAlias: "griglie-layout-wcag-reflow"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/49-griglie-layout-wcag-reflow-d7c2198b9829-mvkvc2xn.mp3"
+narrationCaptions: "/captions/lezione-griglie/49-griglie-layout-wcag-reflow-d7c2198b9829-mvkvc2xn.vtt"
 bookletFigures: ["388"]
 ---
 
@@ -1354,6 +1403,7 @@ routeAlias: "griglie-layout-wcag-resize-text"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/50-griglie-layout-wcag-resize-text-6061d0089a0f-mvkvcdp3.mp3"
+narrationCaptions: "/captions/lezione-griglie/50-griglie-layout-wcag-resize-text-6061d0089a0f-mvkvcdp3.vtt"
 bookletFigures: []
 ---
 
@@ -1380,6 +1430,7 @@ routeAlias: "griglie-layout-wcag-text-spacing"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/51-griglie-layout-wcag-text-spacing-225dd0153935-mvkvcmfw.mp3"
+narrationCaptions: "/captions/lezione-griglie/51-griglie-layout-wcag-text-spacing-225dd0153935-mvkvcmfw.vtt"
 bookletFigures: []
 ---
 
@@ -1410,6 +1461,7 @@ routeAlias: "griglie-layout-sara-priorita"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/52-griglie-layout-sara-priorita-64ef4bfe6c4e-mvkvcyhh.mp3"
+narrationCaptions: "/captions/lezione-griglie/52-griglie-layout-sara-priorita-64ef4bfe6c4e-mvkvcyhh.vtt"
 bookletFigures: ["394"]
 ---
 
@@ -1436,6 +1488,7 @@ routeAlias: "griglie-layout-sara-nuova-data"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/53-griglie-layout-sara-nuova-data-4342534684cc-mvkvd8be.mp3"
+narrationCaptions: "/captions/lezione-griglie/53-griglie-layout-sara-nuova-data-4342534684cc-mvkvd8be.vtt"
 bookletFigures: ["395"]
 ---
 
@@ -1462,6 +1515,7 @@ routeAlias: "griglie-layout-layout-flusso"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/54-griglie-layout-layout-flusso-f7684711a11b-mvkvdhuy.mp3"
+narrationCaptions: "/captions/lezione-griglie/54-griglie-layout-layout-flusso-f7684711a11b-mvkvdhuy.vtt"
 bookletFigures: ["400"]
 ---
 
@@ -1488,6 +1542,7 @@ routeAlias: "griglie-layout-materiali-esercizio"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/55-griglie-layout-materiali-esercizio-65832d3f83b1-mvkvdqmt.mp3"
+narrationCaptions: "/captions/lezione-griglie/55-griglie-layout-materiali-esercizio-65832d3f83b1-mvkvdqmt.vtt"
 bookletFigures: []
 teachingSource: "progetti/slide/assets/slide-materials/griglie/manifest.json"
 ---
@@ -1515,6 +1570,7 @@ routeAlias: "griglie-layout-materiali-immagine-formati"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/56-griglie-layout-materiali-immagine-formati-5b6a307e3d9f-mvkvdwvn.mp3"
+narrationCaptions: "/captions/lezione-griglie/56-griglie-layout-materiali-immagine-formati-5b6a307e3d9f-mvkvdwvn.vtt"
 bookletFigures: []
 teachingFigures: ["didattica-luce-e-spazio"]
 teachingSource: "progetti/slide/assets/slide-materials/griglie/manifest.json"
@@ -1543,6 +1599,7 @@ routeAlias: "griglie-layout-matrice-prove"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/57-griglie-layout-matrice-prove-5f9a6f69b642-mvkve4g8.mp3"
+narrationCaptions: "/captions/lezione-griglie/57-griglie-layout-matrice-prove-5f9a6f69b642-mvkve4g8.vtt"
 bookletFigures: ["398"]
 ---
 
@@ -1569,6 +1626,7 @@ routeAlias: "griglie-layout-esercizio-ricomposizione"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/58-griglie-layout-esercizio-ricomposizione-32e3acfe0728-mvkveeff.mp3"
+narrationCaptions: "/captions/lezione-griglie/58-griglie-layout-esercizio-ricomposizione-32e3acfe0728-mvkveeff.vtt"
 bookletFigures: ["397"]
 ---
 
@@ -1597,6 +1655,7 @@ routeAlias: "griglie-layout-esercizio-due-larghezze"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/59-griglie-layout-esercizio-due-larghezze-7e7e32cad874-mvkvepbe.mp3"
+narrationCaptions: "/captions/lezione-griglie/59-griglie-layout-esercizio-due-larghezze-7e7e32cad874-mvkvepbe.vtt"
 bookletFigures: []
 ---
 
@@ -1625,6 +1684,7 @@ routeAlias: "griglie-layout-errori-griglia"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/60-griglie-layout-errori-griglia-0e74ae52df39-mvkvez6e.mp3"
+narrationCaptions: "/captions/lezione-griglie/60-griglie-layout-errori-griglia-0e74ae52df39-mvkvez6e.vtt"
 bookletFigures: ["399"]
 ---
 
@@ -1653,6 +1713,7 @@ routeAlias: "griglie-layout-fonti-1"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/61-griglie-layout-fonti-1-67532d7f0d52-mvkvf92k.mp3"
+narrationCaptions: "/captions/lezione-griglie/61-griglie-layout-fonti-1-67532d7f0d52-mvkvf92k.vtt"
 bookletFigures: []
 ---
 
@@ -1675,6 +1736,7 @@ routeAlias: "griglie-layout-fonti-2"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/62-griglie-layout-fonti-2-be3cf472a7fa-mvkvfd9f.mp3"
+narrationCaptions: "/captions/lezione-griglie/62-griglie-layout-fonti-2-be3cf472a7fa-mvkvfd9f.vtt"
 bookletFigures: []
 ---
 
@@ -1697,6 +1759,7 @@ routeAlias: "griglie-layout-fonti-3"
 bookletChapter: 7
 bookletSource: "progetti/booklet/capitoli/07-griglia.typ"
 narrationAudio: "/audio/lezione-griglie/63-griglie-layout-fonti-3-142c72221580-mvkvfht3.mp3"
+narrationCaptions: "/captions/lezione-griglie/63-griglie-layout-fonti-3-142c72221580-mvkvfht3.vtt"
 bookletFigures: []
 ---
 

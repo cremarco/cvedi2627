@@ -4,7 +4,7 @@ import { copyFile, lstat, mkdir, readdir, readFile, rm, writeFile } from 'node:f
 import { createHash } from 'node:crypto'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { readUsabilityCaptions } from '../../progetti/slide/scripts/build/lesson-captions.mjs'
+import { captionLessons, readLessonCaptions } from '../../progetti/slide/scripts/build/lesson-captions.mjs'
 
 const root = fileURLToPath(new URL('../..', import.meta.url))
 const sourceDirectory = path.join(root, 'risorse-condivise/immagini')
@@ -15,11 +15,9 @@ const sourceFile = file => file.startsWith(slideFigurePrefix)
   ? path.join(slideFigureDirectory, file.slice(slideFigurePrefix.length))
   : path.join(sourceDirectory, file)
 const imageExtension = /\.(?:avif|gif|jpe?g|png|svg|webp)$/i
-const audioLessons = [
-  { directory: 'lezione-griglie', lesson: 'griglie-layout' },
-  { directory: 'lezione-composizione', lesson: 'composizione-gerarchia' },
-  { directory: 'lezione-test-usabilita', lesson: 'test-usabilita', selectionSource: 'progetti/slide/assets/lezione-test-usabilita/audio-approved.json' },
-]
+const audioLessons = captionLessons.map(({ lesson, directory, source }) => ({
+  lesson, directory, selectionSource: source + '/audio-approved.json',
+}))
 
 /** Espone soltanto gli audio approvati, senza esportare le prove precedenti. */
 export async function prepareSlideAudioAssets({ check = false } = {}) {
@@ -31,20 +29,27 @@ export async function prepareSlideAudioAssets({ check = false } = {}) {
 
 /** Mirror reviewed subtitle assets; inference is always a separate local command. */
 export async function prepareSlideCaptionAssets({ check = false } = {}) {
-  const { files } = await readUsabilityCaptions()
-  const output = path.join(root, 'progetti/slide/public/captions/lezione-test-usabilita')
-  if (check) {
-    const entries = await readdir(output, { withFileTypes: true })
-    if (entries.some(entry => !entry.isFile()) || JSON.stringify(entries.map(entry => entry.name).sort()) !== JSON.stringify([...files.keys()].sort()))
-      throw new Error('Mirror dei sottotitoli non aggiornato: eseguire pnpm prepare:assets.')
-    for (const [name, bytes] of files)
-      if (!bytes.equals(await readFile(path.join(output, name)))) throw new Error(`Sottotitoli diversi dall'originale: ${name}`)
-  } else {
-    await rm(output, { recursive: true, force: true })
-    await mkdir(output, { recursive: true })
-    for (const [name, bytes] of files) await writeFile(path.join(output, name), bytes)
+  // Validate every lesson before changing any of the generated mirrors.
+  const lessons = await Promise.all(captionLessons.map(async ({ lesson, directory }) => ({
+    directory, ...await readLessonCaptions(lesson),
+  })))
+  const prepared = []
+  for (const { directory, files } of lessons) {
+    const output = path.join(root, 'progetti/slide/public/captions', directory)
+    if (check) {
+      const entries = await readdir(output, { withFileTypes: true })
+      if (entries.some(entry => !entry.isFile()) || JSON.stringify(entries.map(entry => entry.name).sort()) !== JSON.stringify([...files.keys()].sort()))
+        throw new Error('Mirror dei sottotitoli non aggiornato: eseguire pnpm prepare:assets.')
+      for (const [name, bytes] of files)
+        if (!bytes.equals(await readFile(path.join(output, name)))) throw new Error(`Sottotitoli diversi dall'originale: ${name}`)
+    } else {
+      await rm(output, { recursive: true, force: true })
+      await mkdir(output, { recursive: true })
+      for (const [name, bytes] of files) await writeFile(path.join(output, name), bytes)
+    }
+    prepared.push(...[...files.keys()].map(name => directory + '/' + name))
   }
-  return [...files.keys()]
+  return prepared
 }
 
 async function prepareLessonAudioAssets({ directory, lesson, selectionSource = `progetti/slide/assets/booklet/${directory}/audio-approved.json` }, { check }) {

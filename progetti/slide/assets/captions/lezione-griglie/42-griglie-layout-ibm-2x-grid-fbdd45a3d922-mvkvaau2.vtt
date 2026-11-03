@@ -1,0 +1,78 @@
+WEBVTT
+
+1
+00:00:00.200 --> 00:00:04.480
+Un altro esempio viene da i bi emme e
+dalla griglia documentata nel sistema
+
+2
+00:00:04.480 --> 00:00:09.180
+Carbon. Il punto di partenza è una mini
+unità quadrata da otto pixel,
+
+3
+00:00:09.820 --> 00:00:13.460
+con rapporti costruiti moltiplicando o
+dividendo per due.
+
+4
+00:00:13.460 --> 00:00:18.320
+La documentazione consultata prevede
+configurazioni da quattro, otto o sedici
+
+5
+00:00:18.320 --> 00:00:19.020
+colonne.
+
+6
+00:00:19.440 --> 00:00:23.920
+Sono scelte specifiche di questo sistema,
+da non trasformare in misure obbligatorie
+
+7
+00:00:23.920 --> 00:00:24.620
+per ogni interfaccia.
+
+8
+00:00:25.520 --> 00:00:27.840
+Il diagramma mostra il principio di
+suddivisione:
+
+9
+00:00:28.500 --> 00:00:32.860
+una base comune coordina spazi e oggetti
+mentre il numero delle colonne può
+
+10
+00:00:32.860 --> 00:00:37.720
+cambiare. Una scala condivisa riduce le
+decisioni da ripetere, ma non descrive
+
+11
+00:00:37.720 --> 00:00:41.840
+ancora tutto il progetto. Occorre
+stabilire quante colonne occupa un
+
+12
+00:00:41.840 --> 00:00:42.540
+elemento,
+
+13
+00:00:42.920 --> 00:00:47.060
+quanto spazio lascia al proprio interno e
+come reagisce a testi diversi.
+
+14
+00:00:47.060 --> 00:00:49.240
+Siamo arrivati così al passaggio fra due
+scale:
+
+15
+00:00:49.940 --> 00:00:53.480
+la struttura della pagina assegna un campo
+al componente; il
+
+16
+00:00:53.960 --> 00:00:55.820
+componente deve poi organizzare ciò che
+contiene.

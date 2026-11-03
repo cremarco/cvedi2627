@@ -27,6 +27,7 @@ try {
   for (const page of [viewer, presenter, unrelated]) page.on('pageerror', error => errors.push(error.message))
   await unrelated.goto(`${base}lezioni/colore/#/1`)
   await unrelated.locator('.slidev-layout').first().waitFor()
+  const unrelatedURL = unrelated.url()
   await viewer.goto(`${base}#/indice-esercitazioni`)
   await presenter.goto(`${base}#/presenter/indice-esercitazioni`)
   const exercise = presenter.locator('a[href*="/lezioni/esercitazione-01/"]').first()
@@ -46,7 +47,7 @@ try {
   await presenter.waitForURL(`${base}#/presenter/indice-esercitazioni`)
   await viewer.waitForURL(`${base}#/indice-esercitazioni`)
   console.log('PASS: both windows return to the exercise menu')
-  assert.equal(new URL(unrelated.url()).pathname, new URL(`${base}lezioni/colore/`).pathname, 'other decks stay open')
+  assert.equal(unrelated.url(), unrelatedURL, 'other decks keep their slide as well as their document')
   await context.close()
   // A fresh session avoids carrying pending native updates into the next scenario.
   const theory = await browser.newContext({ reducedMotion: 'reduce' })
@@ -61,6 +62,49 @@ try {
   await theoryPresenter.waitForURL(`${base}lezioni/colore/#/presenter/**`)
   await theoryViewer.waitForURL(`${base}lezioni/colore/#/**`)
   console.log('PASS: theory lessons also preserve synchronized deck navigation')
+  await theory.close()
+
+  // Reproduce stale saved switches and a viewer that reloads or navigates
+  // independently. Neither may prevent the presenter from driving the lesson.
+  const lesson = await browser.newContext({ reducedMotion: 'reduce' })
+  lesson.setDefaultTimeout(12000)
+  lesson.setDefaultNavigationTimeout(15000)
+  await lesson.addInitScript(() => {
+    if (!sessionStorage.getItem('cvedi-sync-test')) {
+      localStorage.setItem('slidev-sync-directions', JSON.stringify({
+        presenterSend: false, presenterReceive: true, viewerSend: true, viewerReceive: false,
+      }))
+      sessionStorage.setItem('cvedi-sync-test', 'true')
+    }
+  })
+  const lessonViewer = await lesson.newPage(), lessonPresenter = await lesson.newPage()
+  for (const page of [lessonViewer, lessonPresenter]) page.on('pageerror', error => errors.push(error.message))
+  const lessonURL = `${base}lezioni/griglie-layout/`
+  await lessonViewer.goto(`${lessonURL}#/1`)
+  await lessonViewer.locator('.slidev-layout').first().waitFor()
+  await lessonPresenter.goto(`${lessonURL}#/presenter/1`)
+  await lessonPresenter.locator('.slidev-layout').first().waitFor()
+  for (const alias of ['griglie-layout-sintesi', 'griglie-layout-obiettivi', 'griglie-layout-relazioni-struttura']) {
+    await lessonPresenter.keyboard.press('ArrowDown')
+    await lessonPresenter.waitForURL(url => url.hash.split('?')[0] === `#/presenter/${alias}`)
+    await lessonViewer.waitForURL(url => url.hash.split('?')[0] === `#/${alias}`)
+  }
+  const presenterSlide = new URL(lessonPresenter.url()).hash.split('?')[0]
+  await lessonViewer.reload()
+  await lessonViewer.locator('.slidev-layout:visible').first().waitFor()
+  await lessonViewer.goto(`${lessonURL}#/1`)
+  await lessonViewer.locator('.slidev-layout:visible').first().waitFor()
+  // Allow delayed native navigation echoes to arrive before checking stability.
+  await lessonPresenter.waitForTimeout(500)
+  assert.equal(new URL(lessonPresenter.url()).hash.split('?')[0], presenterSlide, 'viewer navigation cannot rewind the presenter')
+  await lessonPresenter.keyboard.press('ArrowDown')
+  await lessonPresenter.waitForURL(url => url.hash.split('?')[0] === '#/presenter/griglie-layout-relazioni-appuntamenti')
+  await lessonViewer.waitForURL(url => url.hash.split('?')[0] === '#/griglie-layout-relazioni-appuntamenti')
+  await lessonPresenter.keyboard.press('ArrowUp')
+  await lessonPresenter.waitForURL(url => url.hash.split('?')[0] === presenterSlide)
+  await lessonViewer.waitForURL(url => url.hash.split('?')[0] === presenterSlide.replace('/presenter/', '/'))
+  console.log('PASS: presenter controls forward/back navigation despite stale settings and viewer reloads')
+  await lesson.close()
   assert.deepEqual(errors.filter(message => message !== 'Wake Lock permission request denied'), [])
 } finally {
   await browser?.close()

@@ -1,0 +1,837 @@
+{
+  "alias": "composizione-gerarchia-profondita",
+  "words": [
+    {
+      "word": " Nel",
+      "start": 0.18,
+      "end": 0.22
+    },
+    {
+      "word": " manifesto",
+      "start": 0.22,
+      "end": 1.0
+    },
+    {
+      "word": " la",
+      "start": 1.0,
+      "end": 1.14
+    },
+    {
+      "word": " parola",
+      "start": 1.14,
+      "end": 1.52
+    },
+    {
+      "word": " è",
+      "start": 1.52,
+      "end": 1.84
+    },
+    {
+      "word": " trattata",
+      "start": 1.98,
+      "end": 2.22
+    },
+    {
+      "word": " come",
+      "start": 2.22,
+      "end": 2.44
+    },
+    {
+      "word": " una",
+      "start": 2.44,
+      "end": 2.84
+    },
+    {
+      "word": " struttura",
+      "start": 2.84,
+      "end": 3.28
+    },
+    {
+      "word": " nello",
+      "start": 3.28,
+      "end": 3.74
+    },
+    {
+      "word": " spazio.",
+      "start": 3.74,
+      "end": 4.8
+    },
+    {
+      "word": " Osservate",
+      "start": 4.94,
+      "end": 5.18
+    },
+    {
+      "word": " la",
+      "start": 5.18,
+      "end": 5.34
+    },
+    {
+      "word": " variazione",
+      "start": 5.34,
+      "end": 5.82
+    },
+    {
+      "word": " d'ingombro",
+      "start": 5.82,
+      "end": 6.48
+    },
+    {
+      "word": " e",
+      "start": 6.48,
+      "end": 6.66
+    },
+    {
+      "word": " le",
+      "start": 6.66,
+      "end": 6.86
+    },
+    {
+      "word": " direzioni",
+      "start": 6.86,
+      "end": 7.26
+    },
+    {
+      "word": " dei",
+      "start": 7.26,
+      "end": 7.62
+    },
+    {
+      "word": " tratti:",
+      "start": 7.62,
+      "end": 8.38
+    },
+    {
+      "word": " il",
+      "start": 8.5,
+      "end": 8.5
+    },
+    {
+      "word": " campo",
+      "start": 8.5,
+      "end": 8.8
+    },
+    {
+      "word": " bidimensionale",
+      "start": 8.8,
+      "end": 9.7
+    },
+    {
+      "word": " suggerisce",
+      "start": 9.8,
+      "end": 10.26
+    },
+    {
+      "word": " una",
+      "start": 10.3,
+      "end": 10.54
+    },
+    {
+      "word": " profondità.",
+      "start": 10.54,
+      "end": 10.94
+    },
+    {
+      "word": " La",
+      "start": 11.84,
+      "end": 11.84
+    },
+    {
+      "word": " tipografia",
+      "start": 11.84,
+      "end": 12.46
+    },
+    {
+      "word": " svolge",
+      "start": 12.46,
+      "end": 12.82
+    },
+    {
+      "word": " quindi",
+      "start": 12.82,
+      "end": 13.24
+    },
+    {
+      "word": " anche",
+      "start": 13.24,
+      "end": 13.66
+    },
+    {
+      "word": " una",
+      "start": 13.66,
+      "end": 13.88
+    },
+    {
+      "word": " funzione",
+      "start": 13.88,
+      "end": 14.22
+    },
+    {
+      "word": " di",
+      "start": 14.22,
+      "end": 14.52
+    },
+    {
+      "word": " immagine.",
+      "start": 14.52,
+      "end": 14.62
+    },
+    {
+      "word": " Richiamiamo",
+      "start": 15.7,
+      "end": 15.98
+    },
+    {
+      "word": " un",
+      "start": 15.98,
+      "end": 16.14
+    },
+    {
+      "word": " punto",
+      "start": 16.14,
+      "end": 16.44
+    },
+    {
+      "word": " della",
+      "start": 16.44,
+      "end": 16.78
+    },
+    {
+      "word": " prospettiva",
+      "start": 16.92,
+      "end": 17.24
+    },
+    {
+      "word": " lineare.",
+      "start": 17.24,
+      "end": 17.58
+    },
+    {
+      "word": " Le",
+      "start": 18.38,
+      "end": 18.44
+    },
+    {
+      "word": " rette",
+      "start": 18.44,
+      "end": 18.7
+    },
+    {
+      "word": " parallele",
+      "start": 18.76,
+      "end": 19.2
+    },
+    {
+      "word": " della",
+      "start": 19.2,
+      "end": 19.6
+    },
+    {
+      "word": " scena",
+      "start": 19.64,
+      "end": 19.96
+    },
+    {
+      "word": " che",
+      "start": 19.96,
+      "end": 20.16
+    },
+    {
+      "word": " non",
+      "start": 20.16,
+      "end": 20.4
+    },
+    {
+      "word": " sono",
+      "start": 20.44,
+      "end": 20.74
+    },
+    {
+      "word": " parallele",
+      "start": 20.74,
+      "end": 21.14
+    },
+    {
+      "word": " al",
+      "start": 21.14,
+      "end": 21.36
+    },
+    {
+      "word": " piano",
+      "start": 21.36,
+      "end": 21.54
+    },
+    {
+      "word": " dell'immagine",
+      "start": 21.54,
+      "end": 22.28
+    },
+    {
+      "word": " convergono",
+      "start": 22.28,
+      "end": 23.12
+    },
+    {
+      "word": " verso",
+      "start": 23.12,
+      "end": 23.44
+    },
+    {
+      "word": " un",
+      "start": 23.44,
+      "end": 23.62
+    },
+    {
+      "word": " punto",
+      "start": 23.62,
+      "end": 23.96
+    },
+    {
+      "word": " di",
+      "start": 23.96,
+      "end": 24.3
+    },
+    {
+      "word": " fuga",
+      "start": 24.3,
+      "end": 24.34
+    },
+    {
+      "word": " comune;",
+      "start": 24.34,
+      "end": 25.32
+    },
+    {
+      "word": " quelle",
+      "start": 25.34,
+      "end": 25.52
+    },
+    {
+      "word": " parallele",
+      "start": 25.52,
+      "end": 26.02
+    },
+    {
+      "word": " a",
+      "start": 26.02,
+      "end": 26.18
+    },
+    {
+      "word": " quel",
+      "start": 26.18,
+      "end": 26.34
+    },
+    {
+      "word": " piano",
+      "start": 26.36,
+      "end": 26.72
+    },
+    {
+      "word": " restano",
+      "start": 26.72,
+      "end": 27.24
+    },
+    {
+      "word": " parallele",
+      "start": 27.72,
+      "end": 27.82
+    },
+    {
+      "word": " nella",
+      "start": 27.82,
+      "end": 28.18
+    },
+    {
+      "word": " rappresentazione.",
+      "start": 28.18,
+      "end": 28.64
+    },
+    {
+      "word": " A",
+      "start": 29.68,
+      "end": 29.82
+    },
+    {
+      "word": " parità",
+      "start": 29.82,
+      "end": 29.98
+    },
+    {
+      "word": " di",
+      "start": 30.12,
+      "end": 30.32
+    },
+    {
+      "word": " dimensioni",
+      "start": 30.32,
+      "end": 30.84
+    },
+    {
+      "word": " reali",
+      "start": 30.84,
+      "end": 31.34
+    },
+    {
+      "word": " e",
+      "start": 31.34,
+      "end": 31.52
+    },
+    {
+      "word": " condizioni",
+      "start": 31.64,
+      "end": 32.04
+    },
+    {
+      "word": " di",
+      "start": 32.04,
+      "end": 32.34
+    },
+    {
+      "word": " proiezione,",
+      "start": 32.34,
+      "end": 33.34
+    },
+    {
+      "word": " un",
+      "start": 33.42,
+      "end": 33.42
+    },
+    {
+      "word": " oggetto",
+      "start": 33.42,
+      "end": 33.72
+    },
+    {
+      "word": " vicino",
+      "start": 33.72,
+      "end": 34.32
+    },
+    {
+      "word": " occupa",
+      "start": 34.34,
+      "end": 34.74
+    },
+    {
+      "word": " un'area",
+      "start": 34.74,
+      "end": 35.12
+    },
+    {
+      "word": " visiva",
+      "start": 35.12,
+      "end": 35.5
+    },
+    {
+      "word": " maggiore.",
+      "start": 35.5,
+      "end": 35.72
+    },
+    {
+      "word": " Sono",
+      "start": 36.72,
+      "end": 36.72
+    },
+    {
+      "word": " rapporti",
+      "start": 36.72,
+      "end": 37.24
+    },
+    {
+      "word": " utili",
+      "start": 37.24,
+      "end": 37.62
+    },
+    {
+      "word": " per",
+      "start": 37.62,
+      "end": 37.86
+    },
+    {
+      "word": " descrivere",
+      "start": 37.86,
+      "end": 38.32
+    },
+    {
+      "word": " la",
+      "start": 38.32,
+      "end": 38.56
+    },
+    {
+      "word": " costruzione,",
+      "start": 38.56,
+      "end": 39.7
+    },
+    {
+      "word": " distinti",
+      "start": 40.06,
+      "end": 40.12
+    },
+    {
+      "word": " dalla",
+      "start": 40.12,
+      "end": 40.38
+    },
+    {
+      "word": " priorità",
+      "start": 40.44,
+      "end": 40.92
+    },
+    {
+      "word": " che",
+      "start": 41.0,
+      "end": 41.1
+    },
+    {
+      "word": " il",
+      "start": 41.1,
+      "end": 41.22
+    },
+    {
+      "word": " lettore",
+      "start": 41.22,
+      "end": 41.54
+    },
+    {
+      "word": " attribuisce",
+      "start": 41.54,
+      "end": 42.08
+    },
+    {
+      "word": " ai",
+      "start": 42.08,
+      "end": 42.22
+    },
+    {
+      "word": " contenuti.",
+      "start": 42.22,
+      "end": 43.24
+    },
+    {
+      "word": " Per",
+      "start": 43.32,
+      "end": 43.32
+    },
+    {
+      "word": " il",
+      "start": 43.32,
+      "end": 43.52
+    },
+    {
+      "word": " laboratorio",
+      "start": 43.52,
+      "end": 44.08
+    },
+    {
+      "word": " questa",
+      "start": 44.08,
+      "end": 44.38
+    },
+    {
+      "word": " possibilità",
+      "start": 44.46,
+      "end": 45.06
+    },
+    {
+      "word": " potrebbe",
+      "start": 45.06,
+      "end": 45.46
+    },
+    {
+      "word": " servire",
+      "start": 45.46,
+      "end": 45.88
+    },
+    {
+      "word": " a",
+      "start": 45.88,
+      "end": 46.0
+    },
+    {
+      "word": " mostrare",
+      "start": 46.04,
+      "end": 46.44
+    },
+    {
+      "word": " una",
+      "start": 46.44,
+      "end": 46.74
+    },
+    {
+      "word": " tecnica",
+      "start": 46.9,
+      "end": 47.1
+    },
+    {
+      "word": " fotografica",
+      "start": 47.18,
+      "end": 47.88
+    },
+    {
+      "word": " o",
+      "start": 47.88,
+      "end": 48.08
+    },
+    {
+      "word": " a",
+      "start": 48.08,
+      "end": 48.44
+    },
+    {
+      "word": " costruire",
+      "start": 48.44,
+      "end": 48.68
+    },
+    {
+      "word": " il",
+      "start": 48.68,
+      "end": 48.9
+    },
+    {
+      "word": " titolo.",
+      "start": 48.9,
+      "end": 49.82
+    },
+    {
+      "word": " Prima",
+      "start": 49.82,
+      "end": 49.88
+    },
+    {
+      "word": " di",
+      "start": 49.88,
+      "end": 50.18
+    },
+    {
+      "word": " sceglierla,",
+      "start": 50.18,
+      "end": 50.88
+    },
+    {
+      "word": " controlliamo",
+      "start": 50.88,
+      "end": 51.36
+    },
+    {
+      "word": " che",
+      "start": 51.36,
+      "end": 51.52
+    },
+    {
+      "word": " le",
+      "start": 51.52,
+      "end": 51.72
+    },
+    {
+      "word": " lettere",
+      "start": 51.72,
+      "end": 52.04
+    },
+    {
+      "word": " restino",
+      "start": 52.04,
+      "end": 52.52
+    },
+    {
+      "word": " riconoscibili",
+      "start": 52.52,
+      "end": 53.3
+    },
+    {
+      "word": " alla",
+      "start": 53.3,
+      "end": 53.58
+    },
+    {
+      "word": " scala",
+      "start": 53.58,
+      "end": 53.82
+    },
+    {
+      "word": " d'uso.",
+      "start": 53.82,
+      "end": 54.74
+    },
+    {
+      "word": " Dalla",
+      "start": 54.82,
+      "end": 54.88
+    },
+    {
+      "word": " profondità",
+      "start": 54.88,
+      "end": 55.42
+    },
+    {
+      "word": " rappresentata",
+      "start": 55.42,
+      "end": 56.26
+    },
+    {
+      "word": " passiamo",
+      "start": 56.26,
+      "end": 56.7
+    },
+    {
+      "word": " ora",
+      "start": 56.7,
+      "end": 57.06
+    },
+    {
+      "word": " a",
+      "start": 57.1,
+      "end": 57.2
+    },
+    {
+      "word": " un'altra",
+      "start": 57.2,
+      "end": 57.6
+    },
+    {
+      "word": " domanda:",
+      "start": 57.6,
+      "end": 57.8
+    },
+    {
+      "word": " che",
+      "start": 58.62,
+      "end": 58.7
+    },
+    {
+      "word": " cosa",
+      "start": 58.7,
+      "end": 59.0
+    },
+    {
+      "word": " permette",
+      "start": 59.02,
+      "end": 59.48
+    },
+    {
+      "word": " a",
+      "start": 59.48,
+      "end": 59.58
+    },
+    {
+      "word": " un",
+      "start": 59.58,
+      "end": 59.74
+    },
+    {
+      "word": " segnale",
+      "start": 59.96,
+      "end": 60.3
+    },
+    {
+      "word": " di",
+      "start": 60.3,
+      "end": 60.42
+    },
+    {
+      "word": " distinguersi",
+      "start": 60.42,
+      "end": 61.24
+    },
+    {
+      "word": " nel",
+      "start": 61.24,
+      "end": 61.38
+    },
+    {
+      "word": " proprio",
+      "start": 61.38,
+      "end": 61.64
+    },
+    {
+      "word": " ambiente?",
+      "start": 61.64,
+      "end": 62.04
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.18,
+      "end": 4.92,
+      "text": "Nel manifesto la parola è trattata come\nuna struttura nello spazio."
+    },
+    {
+      "start": 4.94,
+      "end": 8.8,
+      "text": "Osservate la variazione d'ingombro e le\ndirezioni dei tratti: il campo"
+    },
+    {
+      "start": 8.8,
+      "end": 11.06,
+      "text": "bidimensionale suggerisce una profondità."
+    },
+    {
+      "start": 11.84,
+      "end": 14.74,
+      "text": "La tipografia svolge quindi anche una\nfunzione di immagine."
+    },
+    {
+      "start": 15.7,
+      "end": 17.7,
+      "text": "Richiamiamo un punto della prospettiva\nlineare."
+    },
+    {
+      "start": 18.38,
+      "end": 22.28,
+      "text": "Le rette parallele della scena che non\nsono parallele al piano dell'immagine"
+    },
+    {
+      "start": 22.28,
+      "end": 27.36,
+      "text": "convergono verso un punto di fuga comune;\nquelle parallele a quel piano restano"
+    },
+    {
+      "start": 27.72,
+      "end": 28.76,
+      "text": "parallele nella rappresentazione."
+    },
+    {
+      "start": 29.68,
+      "end": 34.74,
+      "text": "A parità di dimensioni reali e condizioni\ndi proiezione, un oggetto vicino occupa"
+    },
+    {
+      "start": 34.74,
+      "end": 35.84,
+      "text": "un'area visiva maggiore."
+    },
+    {
+      "start": 36.72,
+      "end": 41.1,
+      "text": "Sono rapporti utili per descrivere la\ncostruzione, distinti dalla priorità che"
+    },
+    {
+      "start": 41.1,
+      "end": 43.32,
+      "text": "il lettore attribuisce ai contenuti."
+    },
+    {
+      "start": 43.32,
+      "end": 47.18,
+      "text": "Per il laboratorio questa possibilità\npotrebbe servire a mostrare una tecnica"
+    },
+    {
+      "start": 47.18,
+      "end": 49.82,
+      "text": "fotografica o a costruire il titolo."
+    },
+    {
+      "start": 49.82,
+      "end": 53.82,
+      "text": "Prima di sceglierla, controlliamo che le\nlettere restino riconoscibili alla scala"
+    },
+    {
+      "start": 53.82,
+      "end": 57.92,
+      "text": "d'uso. Dalla profondità rappresentata\npassiamo ora a un'altra domanda:"
+    },
+    {
+      "start": 58.62,
+      "end": 62.16,
+      "text": "che cosa permette a un segnale di\ndistinguersi nel proprio ambiente?"
+    }
+  ]
+}

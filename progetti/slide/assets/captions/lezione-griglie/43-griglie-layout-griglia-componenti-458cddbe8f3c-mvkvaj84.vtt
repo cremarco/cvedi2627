@@ -1,0 +1,61 @@
+WEBVTT
+
+1
+00:00:00.260 --> 00:00:03.200
+Prendiamo una scheda che occupa quattro
+colonne.
+
+2
+00:00:03.200 --> 00:00:04.800
+Sappiamo quanto spazio riceve dalla
+
+3
+00:00:05.440 --> 00:00:10.040
+pagina; ora dobbiamo organizzare titolo,
+descrizione, stato e azione al suo
+
+4
+00:00:10.040 --> 00:00:15.020
+interno. Osservate le due schede: la
+descrizione non ha la stessa lunghezza.
+
+5
+00:00:16.000 --> 00:00:19.620
+La soluzione deve accogliere questa
+differenza conservando un ordine
+
+6
+00:00:19.620 --> 00:00:20.320
+riconoscibile.
+
+7
+00:00:20.960 --> 00:00:22.440
+Il titolo introduce l’oggetto,
+
+8
+00:00:23.060 --> 00:00:27.780
+il testo lo spiega, lo stato aggiunge
+un’informazione e l’azione permette di
+
+9
+00:00:27.780 --> 00:00:28.480
+intervenire.
+
+10
+00:00:29.160 --> 00:00:33.320
+Se fissiamo l’altezza in base al testo più
+breve, quello lungo rischia di coprire il
+
+11
+00:00:33.320 --> 00:00:36.120
+comando oppure di essere tagliato.
+
+12
+00:00:36.120 --> 00:00:38.760
+Lasciare crescere il contenitore è una
+possibile risposta.
+
+13
+00:00:39.900 --> 00:00:43.940
+La stabilità delle relazioni interne conta
+quanto l’allineamento dei bordi.

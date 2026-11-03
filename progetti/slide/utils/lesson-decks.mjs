@@ -42,7 +42,12 @@ export function lessonDeckExtensions(id, filepath) {
     name: 'cvedi-lesson-deck',
     transformSlide(content, matter) {
       if (!isRoot) return
-      if (Object.hasOwn(matter, 'theme')) matter.preloadImages = false
+      if (Object.hasOwn(matter, 'theme')) {
+        matter.preloadImages = false
+        // Slidev's static synchronization channels are keyed by the deck title.
+        // Independent lessons must not share navigation, drawings or timers.
+        if (id !== 'apertura') matter.title = `${matter.title} · ${selected.title}`
+      }
       const keep = matter.src
         ? matter.src.replace(/^\.\//, '') === selected.file
         : (matter.lesson ?? 'presentazione-corso') === selected.lesson

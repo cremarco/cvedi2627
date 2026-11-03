@@ -9,6 +9,7 @@ routeAlias: "composizione-gerarchia"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/01-composizione-gerarchia-4e52f3ae2f04.mp3"
+narrationCaptions: "/captions/lezione-composizione/01-composizione-gerarchia-4e52f3ae2f04.vtt"
 bookletFigures: []
 lessonNumber: 10
 ---
@@ -34,6 +35,7 @@ routeAlias: "composizione-gerarchia-sintesi"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/02-composizione-gerarchia-sintesi-43583f3c659f.mp3"
+narrationCaptions: "/captions/lezione-composizione/02-composizione-gerarchia-sintesi-43583f3c659f.vtt"
 bookletFigures: []
 summaryStatement: "La composizione rende riconoscibili relazioni e priorità."
 summarySupport: "Immagini, parole e spazio collaborano con il compito del lettore."
@@ -62,6 +64,7 @@ routeAlias: "composizione-gerarchia-obiettivi"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/03-composizione-gerarchia-obiettivi-79b848025c1b.mp3"
+narrationCaptions: "/captions/lezione-composizione/03-composizione-gerarchia-obiettivi-79b848025c1b.vtt"
 bookletFigures: []
 ---
 
@@ -88,6 +91,7 @@ routeAlias: "composizione-gerarchia-domanda-lettore"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/04-composizione-gerarchia-domanda-lettore-5415133f4064.mp3"
+narrationCaptions: "/captions/lezione-composizione/04-composizione-gerarchia-domanda-lettore-5415133f4064.vtt"
 bookletFigures: []
 ---
 
@@ -114,6 +118,7 @@ routeAlias: "composizione-gerarchia-invito"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/05-composizione-gerarchia-invito-2ca00673c021.mp3"
+narrationCaptions: "/captions/lezione-composizione/05-composizione-gerarchia-invito-2ca00673c021.vtt"
 bookletFigures: ["invito"]
 ---
 
@@ -140,6 +145,7 @@ routeAlias: "composizione-gerarchia-differenze"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/06-composizione-gerarchia-differenze-4a6cabfb0268.mp3"
+narrationCaptions: "/captions/lezione-composizione/06-composizione-gerarchia-differenze-4a6cabfb0268.vtt"
 bookletFigures: []
 ---
 
@@ -166,6 +172,7 @@ routeAlias: "composizione-gerarchia-forme"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/07-composizione-gerarchia-forme-a693bdfed956.mp3"
+narrationCaptions: "/captions/lezione-composizione/07-composizione-gerarchia-forme-a693bdfed956.vtt"
 bookletFigures: ["quadrato","cerchio"]
 ---
 
@@ -192,6 +199,7 @@ routeAlias: "composizione-gerarchia-orientamento"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/08-composizione-gerarchia-orientamento-d6c254da13b2.mp3"
+narrationCaptions: "/captions/lezione-composizione/08-composizione-gerarchia-orientamento-d6c254da13b2.vtt"
 bookletFigures: ["triangolo","esagono"]
 ---
 
@@ -218,6 +226,7 @@ routeAlias: "composizione-gerarchia-suoni-forme"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/09-composizione-gerarchia-suoni-forme-43dd41221621.mp3"
+narrationCaptions: "/captions/lezione-composizione/09-composizione-gerarchia-suoni-forme-43dd41221621.vtt"
 bookletFigures: ["takete"]
 ---
 
@@ -244,6 +253,7 @@ routeAlias: "composizione-gerarchia-natura-texture"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/10-composizione-gerarchia-natura-texture-5f5ff2fbb480.mp3"
+narrationCaptions: "/captions/lezione-composizione/10-composizione-gerarchia-natura-texture-5f5ff2fbb480.vtt"
 bookletFigures: ["natura"]
 ---
 
@@ -270,6 +280,7 @@ routeAlias: "composizione-gerarchia-colore-atmosfera"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/11-composizione-gerarchia-colore-atmosfera-36db26ce0105.mp3"
+narrationCaptions: "/captions/lezione-composizione/11-composizione-gerarchia-colore-atmosfera-36db26ce0105.vtt"
 bookletFigures: ["paesaggio-xilografia"]
 ---
 
@@ -296,6 +307,7 @@ routeAlias: "composizione-gerarchia-funzione-immagine"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/12-composizione-gerarchia-funzione-immagine-5420cf1a0b62.mp3"
+narrationCaptions: "/captions/lezione-composizione/12-composizione-gerarchia-funzione-immagine-5420cf1a0b62.vtt"
 bookletFigures: []
 ---
 
@@ -322,6 +334,7 @@ routeAlias: "composizione-gerarchia-evocare"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/13-composizione-gerarchia-evocare-e8cbc62061d0.mp3"
+narrationCaptions: "/captions/lezione-composizione/13-composizione-gerarchia-evocare-e8cbc62061d0.vtt"
 bookletFigures: ["funzioni-immagini"]
 ---
 
@@ -348,6 +361,7 @@ routeAlias: "composizione-gerarchia-descrivere"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/14-composizione-gerarchia-descrivere-a1eaad544577.mp3"
+narrationCaptions: "/captions/lezione-composizione/14-composizione-gerarchia-descrivere-a1eaad544577.vtt"
 bookletFigures: ["funzione-descrittiva"]
 ---
 
@@ -374,6 +388,7 @@ routeAlias: "composizione-gerarchia-sintetizzare"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/15-composizione-gerarchia-sintetizzare-dee555da33a0.mp3"
+narrationCaptions: "/captions/lezione-composizione/15-composizione-gerarchia-sintetizzare-dee555da33a0.vtt"
 bookletFigures: ["funzione-sintetica"]
 ---
 
@@ -400,6 +415,7 @@ routeAlias: "composizione-gerarchia-fotografia-illustrazione"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/16-composizione-gerarchia-fotografia-illustrazione-703b5b22a429.mp3"
+narrationCaptions: "/captions/lezione-composizione/16-composizione-gerarchia-fotografia-illustrazione-703b5b22a429.vtt"
 bookletFigures: ["allbirds-headspace","headspace"]
 ---
 
@@ -426,6 +442,7 @@ routeAlias: "composizione-gerarchia-contesto"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/17-composizione-gerarchia-contesto-fee5549f5fd5.mp3"
+narrationCaptions: "/captions/lezione-composizione/17-composizione-gerarchia-contesto-fee5549f5fd5.vtt"
 bookletFigures: ["doisneau-widener","widener"]
 ---
 
@@ -452,6 +469,7 @@ routeAlias: "composizione-gerarchia-metafora"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/18-composizione-gerarchia-metafora-33be8a09ecdd.mp3"
+narrationCaptions: "/captions/lezione-composizione/18-composizione-gerarchia-metafora-33be8a09ecdd.vtt"
 bookletFigures: ["metafore"]
 ---
 
@@ -478,6 +496,7 @@ routeAlias: "composizione-gerarchia-icone"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/19-composizione-gerarchia-icone-942729a405f0.mp3"
+narrationCaptions: "/captions/lezione-composizione/19-composizione-gerarchia-icone-942729a405f0.vtt"
 bookletFigures: ["ibm-pittogrammi"]
 ---
 
@@ -504,6 +523,7 @@ routeAlias: "composizione-gerarchia-forma-racconto"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/20-composizione-gerarchia-forma-racconto-4c928b267c85.mp3"
+narrationCaptions: "/captions/lezione-composizione/20-composizione-gerarchia-forma-racconto-4c928b267c85.vtt"
 bookletFigures: ["up"]
 ---
 
@@ -530,6 +550,7 @@ routeAlias: "composizione-gerarchia-inquadrare"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/21-composizione-gerarchia-inquadrare-580e5960e398.mp3"
+narrationCaptions: "/captions/lezione-composizione/21-composizione-gerarchia-inquadrare-580e5960e398.vtt"
 bookletFigures: ["sguardo-spazio"]
 ---
 
@@ -556,6 +577,7 @@ routeAlias: "composizione-gerarchia-sguardo"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/22-composizione-gerarchia-sguardo-4caf60164383.mp3"
+narrationCaptions: "/captions/lezione-composizione/22-composizione-gerarchia-sguardo-4caf60164383.vtt"
 bookletFigures: ["sguardo-direzione"]
 ---
 
@@ -582,6 +604,7 @@ routeAlias: "composizione-gerarchia-taglio"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/23-composizione-gerarchia-taglio-0b67448e362e.mp3"
+narrationCaptions: "/captions/lezione-composizione/23-composizione-gerarchia-taglio-0b67448e362e.vtt"
 bookletFigures: []
 ---
 
@@ -608,6 +631,7 @@ routeAlias: "composizione-gerarchia-testo-immagine"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/24-composizione-gerarchia-testo-immagine-042a37ad5c7a.mp3"
+narrationCaptions: "/captions/lezione-composizione/24-composizione-gerarchia-testo-immagine-042a37ad5c7a.vtt"
 bookletFigures: []
 ---
 
@@ -634,6 +658,7 @@ routeAlias: "composizione-gerarchia-pieno-vuoto"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/25-composizione-gerarchia-pieno-vuoto-788f9367787b.mp3"
+narrationCaptions: "/captions/lezione-composizione/25-composizione-gerarchia-pieno-vuoto-788f9367787b.vtt"
 bookletFigures: ["pieno-vuoto","spartan-golf"]
 ---
 
@@ -660,6 +685,7 @@ routeAlias: "composizione-gerarchia-scala"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/26-composizione-gerarchia-scala-e5b3ca70b5c1.mp3"
+narrationCaptions: "/captions/lezione-composizione/26-composizione-gerarchia-scala-e5b3ca70b5c1.vtt"
 bookletFigures: ["julius-caesar"]
 ---
 
@@ -686,6 +712,7 @@ routeAlias: "composizione-gerarchia-contrasto"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/27-composizione-gerarchia-contrasto-c1c48b7698c1.mp3"
+narrationCaptions: "/captions/lezione-composizione/27-composizione-gerarchia-contrasto-c1c48b7698c1.vtt"
 bookletFigures: ["barbie-dune","dune"]
 ---
 
@@ -712,6 +739,7 @@ routeAlias: "composizione-gerarchia-gerarchia-tipografica"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/28-composizione-gerarchia-gerarchia-tipografica-d59ee2825255.mp3"
+narrationCaptions: "/captions/lezione-composizione/28-composizione-gerarchia-gerarchia-tipografica-d59ee2825255.vtt"
 bookletFigures: ["moma-tipografia"]
 ---
 
@@ -738,6 +766,7 @@ routeAlias: "composizione-gerarchia-prossimita"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/29-composizione-gerarchia-prossimita-eedf8e2a0cbe.mp3"
+narrationCaptions: "/captions/lezione-composizione/29-composizione-gerarchia-prossimita-eedf8e2a0cbe.vtt"
 bookletFigures: []
 ---
 
@@ -764,6 +793,7 @@ routeAlias: "composizione-gerarchia-riconoscimento"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/30-composizione-gerarchia-riconoscimento-358f175b4539.mp3"
+narrationCaptions: "/captions/lezione-composizione/30-composizione-gerarchia-riconoscimento-358f175b4539.vtt"
 bookletFigures: ["pareidolia-legno"]
 ---
 
@@ -790,6 +820,7 @@ routeAlias: "composizione-gerarchia-spazio-messaggio"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/31-composizione-gerarchia-spazio-messaggio-7f06bc793c20.mp3"
+narrationCaptions: "/captions/lezione-composizione/31-composizione-gerarchia-spazio-messaggio-7f06bc793c20.vtt"
 bookletFigures: ["melbourne"]
 ---
 
@@ -816,6 +847,7 @@ routeAlias: "composizione-gerarchia-allineamento"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/32-composizione-gerarchia-allineamento-375c908c433c.mp3"
+narrationCaptions: "/captions/lezione-composizione/32-composizione-gerarchia-allineamento-375c908c433c.vtt"
 bookletFigures: ["adidas"]
 ---
 
@@ -842,6 +874,7 @@ routeAlias: "composizione-gerarchia-centro-dispari"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/33-composizione-gerarchia-centro-dispari-656cc73cec99.mp3"
+narrationCaptions: "/captions/lezione-composizione/33-composizione-gerarchia-centro-dispari-656cc73cec99.vtt"
 bookletFigures: ["haagen-dazs"]
 ---
 
@@ -868,6 +901,7 @@ routeAlias: "composizione-gerarchia-equilibrio"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/34-composizione-gerarchia-equilibrio-9b0887a2bc01.mp3"
+narrationCaptions: "/captions/lezione-composizione/34-composizione-gerarchia-equilibrio-9b0887a2bc01.vtt"
 bookletFigures: ["equilibrio"]
 ---
 
@@ -894,6 +928,7 @@ routeAlias: "composizione-gerarchia-ritmo"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/35-composizione-gerarchia-ritmo-5f276896f12a.mp3"
+narrationCaptions: "/captions/lezione-composizione/35-composizione-gerarchia-ritmo-5f276896f12a.vtt"
 bookletFigures: ["cocacola"]
 ---
 
@@ -920,6 +955,7 @@ routeAlias: "composizione-gerarchia-direzioni"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/36-composizione-gerarchia-direzioni-8caeb5c024d2.mp3"
+narrationCaptions: "/captions/lezione-composizione/36-composizione-gerarchia-direzioni-8caeb5c024d2.vtt"
 bookletFigures: ["linee-direzione"]
 ---
 
@@ -946,6 +982,7 @@ routeAlias: "composizione-gerarchia-griglia-variazione"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/37-composizione-gerarchia-griglia-variazione-5ad4db7c084d.mp3"
+narrationCaptions: "/captions/lezione-composizione/37-composizione-gerarchia-griglia-variazione-5ad4db7c084d.vtt"
 bookletFigures: ["triennale"]
 ---
 
@@ -972,6 +1009,7 @@ routeAlias: "composizione-gerarchia-scher"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/38-composizione-gerarchia-scher-e6acac0cf3f7.mp3"
+narrationCaptions: "/captions/lezione-composizione/38-composizione-gerarchia-scher-e6acac0cf3f7.vtt"
 bookletFigures: ["manifesto-modulare","manifesto-denso"]
 ---
 
@@ -998,6 +1036,7 @@ routeAlias: "composizione-gerarchia-profondita"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/39-composizione-gerarchia-profondita-ac9f499d54b0.mp3"
+narrationCaptions: "/captions/lezione-composizione/39-composizione-gerarchia-profondita-ac9f499d54b0.vtt"
 bookletFigures: ["prospettiva-tipografica"]
 ---
 
@@ -1024,6 +1063,7 @@ routeAlias: "composizione-gerarchia-salienza"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/40-composizione-gerarchia-salienza-4567079751f8.mp3"
+narrationCaptions: "/captions/lezione-composizione/40-composizione-gerarchia-salienza-4567079751f8.vtt"
 bookletFigures: ["salienza"]
 ---
 
@@ -1050,6 +1090,7 @@ routeAlias: "composizione-gerarchia-attenzione-compito"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/41-composizione-gerarchia-attenzione-compito-e0e0f8b45257.mp3"
+narrationCaptions: "/captions/lezione-composizione/41-composizione-gerarchia-attenzione-compito-e0e0f8b45257.vtt"
 bookletFigures: []
 ---
 
@@ -1076,6 +1117,7 @@ routeAlias: "composizione-gerarchia-azioni"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/42-composizione-gerarchia-azioni-45f5fcaaf0ac.mp3"
+narrationCaptions: "/captions/lezione-composizione/42-composizione-gerarchia-azioni-45f5fcaaf0ac.vtt"
 bookletFigures: ["priorita"]
 ---
 
@@ -1102,6 +1144,7 @@ routeAlias: "composizione-gerarchia-tre-passaggi"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/43-composizione-gerarchia-tre-passaggi-d838825030e4.mp3"
+narrationCaptions: "/captions/lezione-composizione/43-composizione-gerarchia-tre-passaggi-d838825030e4.vtt"
 bookletFigures: []
 ---
 
@@ -1128,6 +1171,7 @@ routeAlias: "composizione-gerarchia-scelta"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/44-composizione-gerarchia-scelta-3981232e0863.mp3"
+narrationCaptions: "/captions/lezione-composizione/44-composizione-gerarchia-scelta-3981232e0863.vtt"
 bookletFigures: []
 ---
 
@@ -1154,6 +1198,7 @@ routeAlias: "composizione-gerarchia-bersaglio"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/45-composizione-gerarchia-bersaglio-b4c0fd10a5cb.mp3"
+narrationCaptions: "/captions/lezione-composizione/45-composizione-gerarchia-bersaglio-b4c0fd10a5cb.vtt"
 bookletFigures: []
 ---
 
@@ -1180,6 +1225,7 @@ routeAlias: "composizione-gerarchia-schema-z"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/46-composizione-gerarchia-schema-z-a05f26f8b0ee.mp3"
+narrationCaptions: "/captions/lezione-composizione/46-composizione-gerarchia-schema-z-a05f26f8b0ee.vtt"
 bookletFigures: ["aesop-percorso"]
 ---
 
@@ -1206,6 +1252,7 @@ routeAlias: "composizione-gerarchia-scansione-f"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/47-composizione-gerarchia-scansione-f-26e1ab2e30e0.mp3"
+narrationCaptions: "/captions/lezione-composizione/47-composizione-gerarchia-scansione-f-26e1ab2e30e0.vtt"
 bookletFigures: []
 ---
 
@@ -1232,6 +1279,7 @@ routeAlias: "composizione-gerarchia-schemi-evidenze"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/48-composizione-gerarchia-schemi-evidenze-ad02ce9f593c.mp3"
+narrationCaptions: "/captions/lezione-composizione/48-composizione-gerarchia-schemi-evidenze-ad02ce9f593c.vtt"
 bookletFigures: ["diesel-contrasto","diesel-seconda"]
 ---
 
@@ -1258,6 +1306,7 @@ routeAlias: "composizione-gerarchia-cenacolo"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/51-composizione-gerarchia-cenacolo-bbff933edd97.mp3"
+narrationCaptions: "/captions/lezione-composizione/51-composizione-gerarchia-cenacolo-bbff933edd97.vtt"
 bookletFigures: ["cenacolo"]
 ---
 
@@ -1284,6 +1333,7 @@ routeAlias: "composizione-gerarchia-budapest-centro"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/52-composizione-gerarchia-budapest-centro-384ef141a2ed.mp3"
+narrationCaptions: "/captions/lezione-composizione/52-composizione-gerarchia-budapest-centro-384ef141a2ed.vtt"
 bookletFigures: ["budapest"]
 ---
 
@@ -1310,6 +1360,7 @@ routeAlias: "composizione-gerarchia-cornice"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/53-composizione-gerarchia-cornice-b7ab7f22e951.mp3"
+narrationCaptions: "/captions/lezione-composizione/53-composizione-gerarchia-cornice-b7ab7f22e951.vtt"
 bookletFigures: ["budapest-cornice"]
 ---
 
@@ -1336,6 +1387,7 @@ routeAlias: "composizione-gerarchia-formato"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/54-composizione-gerarchia-formato-9d2f40e4b473.mp3"
+narrationCaptions: "/captions/lezione-composizione/54-composizione-gerarchia-formato-9d2f40e4b473.vtt"
 bookletFigures: ["budapest-spazio"]
 ---
 
@@ -1362,6 +1414,7 @@ routeAlias: "composizione-gerarchia-trasferimento"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/55-composizione-gerarchia-trasferimento-140cce029e41.mp3"
+narrationCaptions: "/captions/lezione-composizione/55-composizione-gerarchia-trasferimento-140cce029e41.vtt"
 bookletFigures: []
 ---
 
@@ -1388,6 +1441,7 @@ routeAlias: "composizione-gerarchia-concept"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/56-composizione-gerarchia-concept-deddb1fc3661.mp3"
+narrationCaptions: "/captions/lezione-composizione/56-composizione-gerarchia-concept-deddb1fc3661.vtt"
 bookletFigures: []
 ---
 
@@ -1414,6 +1468,7 @@ routeAlias: "composizione-gerarchia-riferimento-scelta-verifica"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/59-composizione-gerarchia-riferimento-scelta-verifica-3777f824813f.mp3"
+narrationCaptions: "/captions/lezione-composizione/59-composizione-gerarchia-riferimento-scelta-verifica-3777f824813f.vtt"
 bookletFigures: []
 ---
 
@@ -1440,6 +1495,7 @@ routeAlias: "composizione-gerarchia-variazione"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/56-composizione-gerarchia-variazione-f914857454ba.mp3"
+narrationCaptions: "/captions/lezione-composizione/56-composizione-gerarchia-variazione-f914857454ba.vtt"
 bookletFigures: ["invito-variazione"]
 ---
 
@@ -1466,6 +1522,7 @@ routeAlias: "composizione-gerarchia-squint"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/61-composizione-gerarchia-squint-da6744ecacb5.mp3"
+narrationCaptions: "/captions/lezione-composizione/61-composizione-gerarchia-squint-da6744ecacb5.vtt"
 bookletFigures: ["squint"]
 ---
 
@@ -1492,6 +1549,7 @@ routeAlias: "composizione-gerarchia-prova-compito"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/62-composizione-gerarchia-prova-compito-e50b17c23083.mp3"
+narrationCaptions: "/captions/lezione-composizione/62-composizione-gerarchia-prova-compito-e50b17c23083.vtt"
 bookletFigures: []
 ---
 
@@ -1518,6 +1576,7 @@ routeAlias: "composizione-gerarchia-invito-finale"
 bookletChapter: 8
 bookletSource: "progetti/booklet/capitoli/08-composizione-gerarchia.typ"
 narrationAudio: "/audio/lezione-composizione/59-composizione-gerarchia-invito-finale-9a25e9b60944.mp3"
+narrationCaptions: "/captions/lezione-composizione/59-composizione-gerarchia-invito-finale-9a25e9b60944.vtt"
 bookletFigures: ["invito-finale"]
 ---
 
