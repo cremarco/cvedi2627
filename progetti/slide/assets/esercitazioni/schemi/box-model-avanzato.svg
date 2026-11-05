@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="310" viewBox="0 0 1100 310" role="img" aria-labelledby="title desc">
+<title id="title">Le aree del box model</title><desc id="desc">Margin, border, padding e content sono quattro aree annidate. Il margine separa gli elementi, il padding separa il contenuto dal bordo.</desc>
+<rect width="1100" height="310" rx="14" fill="#18181b"/>
+<g fill="#71717a"><circle cx="25" cy="22" r="5"/><circle cx="43" cy="22" r="5"/><circle cx="61" cy="22" r="5"/></g>
+<g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="22" fill="#fafafa">
+<rect x="30" y="48" width="640" height="234" rx="8" fill="#27272a" stroke="#f9a8d4" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="48" y="79" fill="#f9a8d4">MARGIN</text>
+<rect x="75" y="94" width="550" height="163" rx="8" fill="#3f3f46" stroke="#fbbf24" stroke-width="4"/>
+<text x="91" y="124" fill="#fbbf24">BORDER</text>
+<rect x="120" y="139" width="460" height="93" rx="6" fill="#27272a" stroke="#a1a1aa"/>
+<text x="137" y="167">PADDING</text>
+<rect x="290" y="158" width="263" height="54" rx="5" fill="#18181b"/>
+<text x="421" y="192" text-anchor="middle">CONTENT</text>
+<text x="720" y="82" fill="#f9a8d4">Margin</text><text x="720" y="111" font-size="20">Spazio esterno al bordo</text>
+<text x="720" y="155" fill="#fbbf24">Border</text><text x="720" y="184" font-size="20">Bordo attorno al contenuto</text>
+<text x="720" y="228">Padding</text><text x="720" y="257" font-size="20">Spazio interno al bordo</text>
+</g></svg>

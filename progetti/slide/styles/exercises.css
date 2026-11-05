@@ -46,6 +46,26 @@
 .exercise-resources .link { color: var(--section-primary); }
 .slidev-layout.default .exercise-resource-hint { margin: 0; font-size: 18px; color: var(--theme-muted); }
 .slidev-layout.default .exercise-table :is(td, th) { padding: 12px 16px; font-size: 22px; white-space: pre-line; overflow-wrap: anywhere; }
+
+/* Display comparison keeps the descriptive column and three answers in proportion. */
+.exercise-display-comparison { margin: 0; width: 100%; }
+.exercise-display-table { width: 100%; table-layout: fixed; border-collapse: collapse; }
+.exercise-display-table col { width: 16%; }
+.exercise-display-table .exercise-display-description { width: 52%; }
+.slidev-layout.default .exercise-display-table :is(th, td) { padding: 10px 16px; font-size: 22px; line-height: 1.35; vertical-align: middle; }
+.exercise-display-table thead { background: var(--section-primary); color: white; }
+.slidev-layout.default .exercise-display-table thead th { padding-block: 16px; color: inherit; font-weight: 600; }
+.exercise-display-table thead code { padding: 0; background: transparent; color: inherit; border: 0; font: 500 19px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace; white-space: nowrap; }
+.exercise-display-table th:first-child { text-align: left; }
+.exercise-display-table thead th:first-child { border-top-left-radius: 8px; }
+.exercise-display-table thead th:last-child { border-top-right-radius: 8px; }
+.exercise-display-table tbody th { font-weight: 400; color: var(--theme-body); }
+.exercise-display-table :is(td, thead th:not(:first-child)) { text-align: center; }
+.exercise-display-table tbody tr { border-bottom: 1px solid var(--cvedi-rule); }
+.exercise-display-answer { display: inline-flex; align-items: baseline; justify-content: center; gap: 8px; color: var(--theme-body); white-space: nowrap; }
+.exercise-display-answer.is-yes { color: var(--section-primary); font-weight: 600; }
+.exercise-display-sign { width: 20px; text-align: center; }
+.slidev-layout.default .exercise-display-table caption { caption-side: bottom; padding-top: 12px; color: var(--theme-muted); font-size: 18px; line-height: 1.4; text-align: left; }
 .slidev-layout.default.index-slide .index-grid .index-button.btn:disabled { opacity: 1; background: var(--index-color); color: var(--color-primary-content); cursor: not-allowed; }
 @media print {
   .exercise-native-hint { display: none; }
@@ -139,6 +159,20 @@
 
 /* A standalone diagram uses the full reading area and shared image zoom. */
 .exercise-content--figure > .lesson-figure { flex: 0 0 420px; height: 420px; width: 100%; margin-inline: auto; }
+.slidev-layout.default .exercise-content--sizing > .exercise-copy p { font-size: 18px; line-height: 1.4; }
+.exercise-content--display-overview { display: grid; grid-template-columns: .85fr 1.15fr; gap: 24px 48px; align-items: center; }
+.exercise-content--display-overview > .exercise-copy:last-child { grid-column: 2; justify-self: end; }
+.slidev-layout.default .exercise-content--display-overview > .exercise-copy:last-child p { font-size: 18px; }
+.exercise-content--display-overview .exercise-inline-code { white-space: nowrap; overflow-wrap: normal; }
+.exercise-original-layout { display: grid; grid-template-columns: 1.05fr 1fr; gap: 48px; align-items: center; }
+.exercise-original-copy { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.exercise-original-mdn { font-size: 18px; margin-left: 16px; color: var(--section-primary); }
+.slidev-layout.default .exercise-original-copy h2 { margin: 0; font-size: 23px; line-height: 1.4; }
+.exercise-original-copy .exercise-code { margin: 0; }
+.exercise-original-copy .exercise-code::before { display: none; }
+.exercise-content[data-exercise="02"] { --exercise-css-selector: #91cbff; --exercise-css-property: var(--cvedi-pink-300); --exercise-css-value: var(--cvedi-gray-200); }
+.exercise-original-layout--stacked { grid-template-columns: 1fr; gap: 24px; }
+.exercise-original-layout--stacked > .exercise-code { margin: 0; }
 
 /* Static path examples compare destinations without linking to real image files. */
 .exercise-path-reference { margin: 0; }
@@ -169,3 +203,12 @@
 .exercise-resource-group--list .exercise-resources { display: block; padding-left: 1.2em; list-style-type: square; }
 .exercise-resource-group--list .list-row { display: list-item; padding: 6px 0; line-height: 1.42; }
 .exercise-resource-group--list .list-row::marker { color: var(--section-primary); }
+
+/* Original specificity examples, followed by their calculation on the next slide. */
+.exercise-specificity { display: flex; flex-direction: column; gap: 12px; }
+.exercise-specificity-row { display: grid; grid-template-columns: minmax(0, 1.3fr) 48px minmax(0, 1fr); gap: 24px; align-items: center; }
+.exercise-specificity .exercise-code { margin: 0; border-radius: var(--cvedi-radius); }
+.exercise-specificity .exercise-code::before { display: none; }
+.exercise-specificity-arrow { color: var(--section-primary); font-size: 36px; line-height: 1; text-align: center; }
+.slidev-layout.default .exercise-specificity-total { margin: 0; font-size: 23px; line-height: 1.4; white-space: nowrap; }
+.slidev-layout.default .exercise-specificity-note { margin: 0; color: var(--theme-body); font-size: 18px; line-height: 1.4; }

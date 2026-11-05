@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict'
 import { readFile, mkdir, writeFile, readdir, rm } from 'node:fs/promises'
 import { chromium } from 'playwright-chromium'
+import { lessonDecks } from '../../utils/lesson-decks.mjs'
 import { openSlide } from '../../../../scripts/check/browser.mjs'
 import { checkExerciseSources } from './exercise-sources.mjs'
 import { createServer } from 'node:http'
@@ -8,6 +9,7 @@ import { createRequire } from 'node:module'
 import { realpathSync } from 'node:fs'
 
 const manifest = JSON.parse(await readFile('progetti/slide/assets/esercitazioni/manifest.json', 'utf8'))
+const publishedExercises = lessonDecks.filter(deck => deck.id.startsWith('esercitazione-') && !deck.localOnly)
 const base = (process.env.EXERCISE_URL || 'http://localhost:3055').replace(/\/$/, '')
 const output = 'reports/esercitazioni'
 const indexesOnly = process.env.EXERCISE_INDEX_ONLY === '1'
@@ -31,9 +33,9 @@ try {
   const page = await browser.newPage({ viewport: { width: 1280, height: 720 }, reducedMotion: 'reduce' })
   for (const exercise of manifest.exercises) {
     const response = await page.request.get(`${published}/lezioni/${exercise.id}/`)
-    assert.equal(response.status(), exercise.number === 1 ? 200 : 404, `${exercise.id}: authorized publication status`)
+    assert.equal(response.status(), publishedExercises.some(deck => deck.id === exercise.id) ? 200 : 404, `${exercise.id}: authorized publication status`)
   }
-  report.publication = { site: publishedSite, base: publishedPrefix, unavailableExerciseUrls: manifest.exercises.length - 1 }
+  report.publication = { site: publishedSite, base: publishedPrefix, unavailableExerciseUrls: manifest.exercises.length - publishedExercises.length }
   page.on('pageerror', error => { if (error.message !== 'Wake Lock permission request denied') report.errors.push(error.message) })
   for (const [profile, viewport, media] of [
     ['desktop', { width: 1280, height: 720 }, 'screen'],
@@ -47,14 +49,15 @@ try {
     const localColors = await index.locator('.index-grid .btn').evaluateAll(nodes => nodes.map(node => getComputedStyle(node).backgroundColor))
     await page.screenshot({ path: `${output}/index-${profile}.png` })
     const publicIndex = await openSlide(page, published, 'indice-esercitazioni', { settle: true })
-    assert.equal(await publicIndex.locator('.index-grid a').count(), 1, 'the first exercise is linked online')
-    assert.equal(await publicIndex.locator('.index-grid button:disabled[aria-disabled="true"]').count(), 8, 'the eight unpublished exercises remain disabled')
+    assert.equal(await publicIndex.locator('.index-grid a').count(), publishedExercises.length, 'authorized exercises are linked online')
+    assert.equal(await publicIndex.locator('.index-grid button:disabled[aria-disabled="true"]').count(), manifest.exercises.length - publishedExercises.length, 'unpublished exercises remain disabled')
     assert.deepEqual(await publicIndex.locator('.index-grid .btn').evaluateAll(nodes => nodes.map(node => getComputedStyle(node).backgroundColor)), localColors, 'online index preserves the same ordered colors')
     await publicIndex.locator('button').first().evaluate(node => node.click())
     assert.ok(page.url().endsWith('#/indice-esercitazioni'), 'disabled controls cannot navigate')
     await page.screenshot({ path: `${output}/published-index-${profile}.png` })
     if (indexesOnly) continue
     for (const exercise of manifest.exercises) {
+      if (process.env.EXERCISE_NUMBER && exercise.number !== Number(process.env.EXERCISE_NUMBER)) continue
       const number = String(exercise.number).padStart(2, '0')
       const data = JSON.parse(await readFile(`progetti/slide/data/esercitazioni/${number}.json`, 'utf8'))
       const lessonBase = `${base}/lezioni/${exercise.id}`

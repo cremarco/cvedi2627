@@ -64,7 +64,7 @@ export async function checkExerciseSources() {
       assert.equal(await digest(archive.markdown), archive.markdownSha256, 'pre-reconstruction Markdown retained')
       imported = await json(archive.data)
       const expected = reviseExercise(curriculum.find(module => module.number === exercise.number)?.slides || imported.map(slide => rebuildImportedSlide(slide, number)), number)
-      for (const block of slides.flatMap(slide => slide.blocks).filter(block => block.kind === 'native' && !block.example.startsWith('framework:'))) {
+      for (const block of slides.flatMap(slide => slide.blocks.flatMap(block => block.kind === 'original-layout' && block.content.example ? [{ kind: 'native', example: block.content.example }] : [block])).filter(block => block.kind === 'native' && !block.example.startsWith('framework:'))) {
         assert.ok(nativeExamples[block.example], 'every retired figure has a native reconstruction')
         assert.ok(!/<img\b/i.test(nativeExamples[block.example].html), 'native reconstructions contain no raster teaching content')
       }
@@ -77,7 +77,7 @@ export async function checkExerciseSources() {
       }
     }
     if (exercise.currentMapping) {
-      assert.deepEqual([...new Set(exercise.currentMapping.flatMap(entry => entry.slides))], slides.map(slide => slide.number), 'current mapping covers the revised sequence')
+      assert.deepEqual([...new Set(exercise.currentMapping.flatMap(entry => entry.slides))].sort((a, b) => a - b), slides.map(slide => slide.number), 'current mapping covers every slide, including intentionally reordered source pages')
       for (const entry of exercise.currentMapping) assert.ok(entry.slides.every(no => (slides[no - 1].sourceSlides || [slides[no - 1].sourceSlide]).includes(entry.sourceSlide)), 'current destinations retain their source page')
     }
     for (const block of slides.flatMap(slide => slide.blocks).filter(block => block.kind === 'figure')) {

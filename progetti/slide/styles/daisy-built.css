@@ -3962,6 +3962,9 @@
       --cardtitle-fs: 1.375rem;
     }
   }
+  .block {
+    display: block;
+  }
   .flex {
     display: flex;
   }
@@ -3973,6 +3976,9 @@
   }
   .inline {
     display: inline;
+  }
+  .inline-block {
+    display: inline-block;
   }
   .table {
     display: table;
@@ -4092,6 +4098,17 @@
       --badge-bg: #0000;
       background-image: none;
       border-color: currentColor;
+    }
+    .table-zebra tbody tr:where(:nth-child(even)) {
+      background-color: var(--color-base-200);
+    }
+    .table-zebra tbody tr:where(:nth-child(even)) :where(.table-pin-cols tr th) {
+      background-color: var(--color-base-200);
+    }
+    @media (hover: hover) {
+      :is(:is(.table-zebra tbody tr.row-hover), .table-zebra tbody tr.row-hover:where(:nth-child(even))):hover {
+        background-color: var(--color-base-300);
+      }
     }
   }
   @layer daisyui.l1 {

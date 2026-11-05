@@ -71,6 +71,16 @@
       "sha256": "92ecc96113a223e506a03918a88568d7271911b74de4438d29c7b74fbff14d24",
       "historicalDiagram": "progetti/slide/assets/esercitazioni/native-rebuild/images/01-056-diagram.webp",
       "description": "Ricostruzione della sintassi CSS: selettore, proprietà, valore, dichiarazione e regola completa. La regola comprende il selettore e il blocco delle dichiarazioni."
+    },
+    {
+      "source": "box-model-avanzato.svg",
+      "web": "/images/esercitazioni/box-model-avanzato.svg",
+      "sha256": "679090778e22385f71943784b10037a70fccb1941014c699ce613e46952397d5",
+      "historicalSource": "progetti/slide/assets/esercitazioni/native-rebuild/02.json",
+      "sourceSlides": [
+        15
+      ],
+      "description": "Ricostruzione vettoriale delle aree del box model nella famiglia approvata delle esercitazioni."
     }
   ],
   "demos": [
@@ -160,5 +170,19 @@
     ],
     "historicalDiagram": "progetti/slide/assets/esercitazioni/native-rebuild/images/f7c30abe2a1b2b98dad2.jpg",
     "description": "Tre pagine semplici con menu comune, i tre layout dell’originale, footer, selettori di relazione e ::after per sottolineare la voce del menu della pagina attiva. Nessun codice mostrato nella pagina."
-  }
+  },
+  "archivedDiagrams": [
+    {
+      "source": "box-sizing-confronto.svg",
+      "web": "/images/esercitazioni/box-sizing-confronto.svg",
+      "sha256": "05099751a9118222080e33ef02bd0d1d570e0ef882eb4e2b3e434027f8c480c9",
+      "historicalDiagram": "progetti/slide/assets/esercitazioni/native-rebuild/images/e6e12663edf18cd33e89.png",
+      "sourceSlides": [
+        18
+      ],
+      "attribution": "Schema ricostruito dall’immagine accreditata a https://www.webriderz.com/ nella slide originale 18.",
+      "description": "Stessi box, dimensioni, dichiarazioni e legenda dell’originale, nella famiglia scura delle esercitazioni.",
+      "reason": "Sostituito nella slide 18 dal confronto codice e risultato HTML nativo."
+    }
+  ]
 }

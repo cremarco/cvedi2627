@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1136" height="440" viewBox="0 0 1136 440" role="img" aria-labelledby="title desc">
+<title id="title">CSS Box Sizing: content-box e border-box</title>
+<desc id="desc">Stessa width e height di 100px e padding di 10px. Content-box: contenuto di 100 per 100px, ingombro di 120 per 120px. Border-box: contenuto di 80 per 80px, ingombro di 100 per 100px. Nessun bordo CSS aggiuntivo. Ricostruzione dello schema accreditato a Webriderz nella slide originale 18.</desc>
+<rect width="1136" height="52" rx="8" fill="#18181b"/>
+<text x="568" y="34" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="26" fill="#fafafa">width: 100px;   height: 100px;   padding: 10px;</text>
+<rect y="72" width="544" height="322" rx="12" fill="#18181b"/>
+<rect x="592" y="72" width="544" height="322" rx="12" fill="#18181b"/>
+<g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" fill="#fafafa" text-anchor="middle">
+<g font-size="25"><text x="272" y="109">box-sizing: content-box;</text><text x="864" y="109">box-sizing: border-box;</text></g>
+<g stroke="#a1a1aa" fill="none" stroke-width="1.5">
+<path d="M164 154v-8h216v8 M149 160h-8v216h8"/>
+<path d="M774 172v-8h180v8 M759 178h-8v180h8"/>
+</g>
+<g font-size="26"><text x="272" y="139">120px</text><text x="90" y="277">120px</text><text x="864" y="157">100px</text><text x="700" y="277">100px</text></g>
+<rect x="164" y="160" width="216" height="216" fill="#f9a8d4"/>
+<rect x="182" y="178" width="180" height="180" fill="#fbbf24"/>
+<rect x="774" y="178" width="180" height="180" fill="#f9a8d4"/>
+<rect x="792" y="196" width="144" height="144" fill="#fbbf24"/>
+<g fill="none" stroke="#fafafa" stroke-width="1.5" stroke-dasharray="7 5"><rect x="164" y="160" width="216" height="216"/><rect x="774" y="178" width="180" height="180"/></g>
+<g fill="#18181b" font-size="28"><text x="272" y="278">100px</text><text x="864" y="278">80px</text></g>
+</g>
+<g font-family="Nunito Sans, Inter, sans-serif" font-size="24" fill="#334155"><circle cx="235" cy="424" r="9" fill="#f9a8d4"/><text x="255" y="432">Padding</text><circle cx="465" cy="424" r="9" fill="#fbbf24"/><text x="485" y="432">Area del contenuto</text><rect x="800" y="415" width="18" height="18" fill="none" stroke="#64748b" stroke-width="1.5" stroke-dasharray="5 3"/><text x="830" y="432">Limite del box</text></g>
+</svg>

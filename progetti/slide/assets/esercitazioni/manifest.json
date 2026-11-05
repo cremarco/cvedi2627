@@ -1290,7 +1290,7 @@
       "sha256": "fa1f7d02a0e12f421dd89a93ad80382107e4bb2acfcac31b821d1d6afc3aef59",
       "pdf": "progetti/slide/assets/esercitazioni/originali/02-html-css-avanzato.pdf",
       "pdfSha256": "6a97c3701f7c6641dcf27617f1dc9a7fe95513f84b93ec33ba3950311fe3dfc9",
-      "slideCount": 79,
+      "slideCount": 47,
       "mapping": [
         {
           "sourceSlide": 1,
@@ -1684,6 +1684,342 @@
           11,
           38
         ]
+      },
+      "currentMapping": [
+        {
+          "sourceSlide": 1,
+          "sourceTitle": "Corso di CVeDI (8 CFU)",
+          "slides": [
+            1
+          ]
+        },
+        {
+          "sourceSlide": 2,
+          "sourceTitle": "RIPASSO HTML E CSS",
+          "slides": [
+            2
+          ]
+        },
+        {
+          "sourceSlide": 3,
+          "sourceTitle": "SINTASSI ABBREVIATA E PRIORITÀ DEI CSS",
+          "slides": [
+            3
+          ]
+        },
+        {
+          "sourceSlide": 4,
+          "sourceTitle": "Proprietà e sintassi (estesa e abbreviata) - 1",
+          "slides": [
+            4
+          ]
+        },
+        {
+          "sourceSlide": 5,
+          "sourceTitle": "Proprietà e sintassi (estesa e abbreviata) - 2",
+          "slides": [
+            5
+          ]
+        },
+        {
+          "sourceSlide": 6,
+          "sourceTitle": "Proprietà e sintassi (estesa e abbreviata) - 3",
+          "slides": [
+            6
+          ]
+        },
+        {
+          "sourceSlide": 7,
+          "sourceTitle": "Proprietà e sintassi (estesa e abbreviata) - 4",
+          "slides": [
+            7
+          ]
+        },
+        {
+          "sourceSlide": 8,
+          "sourceTitle": "Gerarchia della specificità",
+          "slides": [
+            8
+          ]
+        },
+        {
+          "sourceSlide": 9,
+          "sourceTitle": "Gerarchia della specificità",
+          "slides": [
+            9
+          ]
+        },
+        {
+          "sourceSlide": 10,
+          "sourceTitle": "Nota",
+          "slides": [
+            10
+          ]
+        },
+        {
+          "sourceSlide": 11,
+          "sourceTitle": "ESERCIZIO 1",
+          "slides": [
+            11
+          ]
+        },
+        {
+          "sourceSlide": 12,
+          "sourceTitle": "BOX MODEL E FLUSSO",
+          "slides": [
+            12
+          ]
+        },
+        {
+          "sourceSlide": 13,
+          "sourceTitle": "La disposizione degli elementi nell’HTML",
+          "slides": [
+            17
+          ]
+        },
+        {
+          "sourceSlide": 14,
+          "sourceTitle": "La disposizione degli elementi nell’HTML",
+          "slides": []
+        },
+        {
+          "sourceSlide": 15,
+          "sourceTitle": "Cambiare la visualizzazione del flusso",
+          "slides": [
+            13
+          ]
+        },
+        {
+          "sourceSlide": 16,
+          "sourceTitle": "Box-sizing",
+          "slides": [
+            14
+          ]
+        },
+        {
+          "sourceSlide": 17,
+          "sourceTitle": "Box-sizing",
+          "slides": [
+            15
+          ]
+        },
+        {
+          "sourceSlide": 18,
+          "sourceTitle": "Box-sizing · esempio",
+          "slides": [
+            16
+          ]
+        },
+        {
+          "sourceSlide": 19,
+          "sourceTitle": "Cambiare la visualizzazione del flusso",
+          "slides": [
+            18
+          ]
+        },
+        {
+          "sourceSlide": 20,
+          "sourceTitle": "Cambiare la visualizzazione del flusso · esempio",
+          "slides": [
+            19
+          ]
+        },
+        {
+          "sourceSlide": 21,
+          "sourceTitle": "Cambiare il flusso",
+          "slides": [
+            20
+          ]
+        },
+        {
+          "sourceSlide": 22,
+          "sourceTitle": "Cambiare il flusso",
+          "slides": [
+            21
+          ]
+        },
+        {
+          "sourceSlide": 23,
+          "sourceTitle": "Cambiare il flusso",
+          "slides": [
+            22,
+            23
+          ]
+        },
+        {
+          "sourceSlide": 24,
+          "sourceTitle": "Posizionare gli elementi al centro della pagina",
+          "slides": [
+            24
+          ]
+        },
+        {
+          "sourceSlide": 25,
+          "sourceTitle": "ESERCIZIO 2",
+          "slides": [
+            44
+          ]
+        },
+        {
+          "sourceSlide": 26,
+          "sourceTitle": "ESERCIZIO 2 · esempio",
+          "slides": [
+            44
+          ]
+        },
+        {
+          "sourceSlide": 27,
+          "sourceTitle": "FLEXBOX",
+          "slides": [
+            25
+          ]
+        },
+        {
+          "sourceSlide": 28,
+          "sourceTitle": "Flexbox layout",
+          "slides": [
+            26
+          ]
+        },
+        {
+          "sourceSlide": 29,
+          "sourceTitle": "Proprietà per il genitore",
+          "slides": [
+            27
+          ]
+        },
+        {
+          "sourceSlide": 30,
+          "sourceTitle": "Proprietà per il genitore",
+          "slides": [
+            28
+          ]
+        },
+        {
+          "sourceSlide": 31,
+          "sourceTitle": "Proprietà per il genitore",
+          "slides": [
+            29
+          ]
+        },
+        {
+          "sourceSlide": 32,
+          "sourceTitle": "Proprietà per il genitore",
+          "slides": [
+            30
+          ]
+        },
+        {
+          "sourceSlide": 33,
+          "sourceTitle": "Proprietà per il genitore",
+          "slides": [
+            31
+          ]
+        },
+        {
+          "sourceSlide": 34,
+          "sourceTitle": "Proprietà per il genitore",
+          "slides": [
+            32,
+            33
+          ]
+        },
+        {
+          "sourceSlide": 35,
+          "sourceTitle": "Proprietà per il genitore",
+          "slides": [
+            34
+          ]
+        },
+        {
+          "sourceSlide": 36,
+          "sourceTitle": "Proprietà per il genitore",
+          "slides": [
+            35
+          ]
+        },
+        {
+          "sourceSlide": 37,
+          "sourceTitle": "align-items vs align-content",
+          "slides": [
+            36
+          ]
+        },
+        {
+          "sourceSlide": 38,
+          "sourceTitle": "Proprietà per i figli",
+          "slides": [
+            37
+          ]
+        },
+        {
+          "sourceSlide": 39,
+          "sourceTitle": "Proprietà per i figli",
+          "slides": [
+            38
+          ]
+        },
+        {
+          "sourceSlide": 40,
+          "sourceTitle": "Proprietà per i figli",
+          "slides": [
+            39
+          ]
+        },
+        {
+          "sourceSlide": 41,
+          "sourceTitle": "Proprietà per i figli",
+          "slides": [
+            40
+          ]
+        },
+        {
+          "sourceSlide": 42,
+          "sourceTitle": "Proprietà per i figli",
+          "slides": [
+            41
+          ]
+        },
+        {
+          "sourceSlide": 43,
+          "sourceTitle": "Proprietà per i figli",
+          "slides": [
+            42
+          ]
+        },
+        {
+          "sourceSlide": 44,
+          "sourceTitle": "Proprietà per i figli",
+          "slides": [
+            43
+          ]
+        },
+        {
+          "sourceSlide": 45,
+          "sourceTitle": "PER ESERCITARSI E APPROFONDIRE",
+          "slides": [
+            45
+          ]
+        },
+        {
+          "sourceSlide": 46,
+          "sourceTitle": "RIFERIMENTI UTILI",
+          "slides": [
+            46
+          ]
+        },
+        {
+          "sourceSlide": 47,
+          "sourceTitle": "FINE",
+          "slides": [
+            47
+          ]
+        }
+      ],
+      "editorialRevision": {
+        "specification": "progetti/slide/data/esercitazioni/advanced-revisions.mjs",
+        "reference": "01-html-css-base.md",
+        "nativeExamples": "progetti/slide/data/esercitazioni/advanced-examples.mjs"
       }
     },
     {
@@ -3732,7 +4068,7 @@
     }
   ],
   "sourceSlides": 349,
-  "slideCount": 492,
+  "slideCount": 460,
   "verification": {
     "summary": "reports/esercitazioni/verification.json",
     "sources": "reports/esercitazioni/source-report.json",

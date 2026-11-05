@@ -6,7 +6,10 @@
     "sourceSlide": 1,
     "number": 1,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      1
+    ]
   },
   {
     "kind": "content",
@@ -51,7 +54,10 @@
     "sourceSlide": 2,
     "number": 2,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      2
+    ]
   },
   {
     "kind": "divider",
@@ -60,31 +66,23 @@
     "sourceSlide": 3,
     "number": 3,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      3
+    ]
   },
   {
     "kind": "content",
-    "title": "Proprietà e sintassi (estesa e abbreviata) - 1",
+    "title": "Margini: sintassi estesa e abbreviata",
     "blocks": [
       {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Nelle definizione delle regole è possibile fare uso di proprietà singole e proprietà a sintassi abbreviata",
+            "text": "Le proprietà singole e la sintassi abbreviata possono descrivere lo stesso stile.",
             "runs": [
               {
-                "text": "Nelle definizione delle regole è possibile fare uso di "
-              },
-              {
-                "text": "proprietà singole",
-                "bold": true
-              },
-              {
-                "text": " e "
-              },
-              {
-                "text": "proprietà a sintassi abbreviata",
-                "bold": true
+                "text": "Le proprietà singole e la sintassi abbreviata possono descrivere lo stesso stile."
               }
             ],
             "bullet": false,
@@ -94,214 +92,40 @@
       },
       {
         "kind": "code",
-        "paragraphs": [
-          {
-            "text": "div {",
-            "runs": [
-              {
-                "text": "div",
-                "mono": true
-              },
-              {
-                "text": " {",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  margin-top: 10px;",
-            "runs": [
-              {
-                "text": "  margin-top: ",
-                "mono": true
-              },
-              {
-                "text": "10px",
-                "mono": true
-              },
-              {
-                "text": ";",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  margin-right: 5px;",
-            "runs": [
-              {
-                "text": "  margin-right: ",
-                "mono": true
-              },
-              {
-                "text": "5px",
-                "mono": true
-              },
-              {
-                "text": ";",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  margin-bottom: 10px;",
-            "runs": [
-              {
-                "text": "  margin-bottom: ",
-                "mono": true
-              },
-              {
-                "text": "10px",
-                "mono": true
-              },
-              {
-                "text": ";",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  margin-left: 5px;",
-            "runs": [
-              {
-                "text": "  margin-left: ",
-                "mono": true
-              },
-              {
-                "text": "5px",
-                "mono": true
-              },
-              {
-                "text": ";",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "}",
-            "runs": [
-              {
-                "text": "}",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "div {",
-            "runs": [
-              {
-                "text": "div",
-                "mono": true
-              },
-              {
-                "text": " {",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  /* top | right | bottom | left */",
-            "runs": [
-              {
-                "text": "  ",
-                "mono": true
-              },
-              {
-                "text": "/* top | right | bottom | left */",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  margin: 10px 5px 10px 5px;",
-            "runs": [
-              {
-                "text": "  margin: ",
-                "mono": true
-              },
-              {
-                "text": "10px",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "5px",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "10px",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "5px",
-                "mono": true
-              },
-              {
-                "text": ";",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "}",
-            "runs": [
-              {
-                "text": "}",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "div {\n  margin-top: 10px;\n  margin-right: 5px;\n  margin-bottom: 10px;\n  margin-left: 5px;\n}\ndiv {\n  /* top | right | bottom | left */\n  margin: 10px 5px 10px 5px;\n}"
+        "text": "div {\n  margin-top: 10px;\n  margin-right: 5px;\n  margin-bottom: 10px;\n  margin-left: 5px;\n}"
+      },
+      {
+        "kind": "code",
+        "text": "div {\n  /* top | right | bottom | left */\n  margin: 10px 5px 10px 5px;\n}"
       }
     ],
     "sourceSlide": 4,
     "number": 4,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      4
+    ],
+    "layout": "code-columns",
+    "sources": [
+      {
+        "title": "MDN · margin",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/margin"
+      }
+    ]
   },
   {
     "kind": "content",
-    "title": "Proprietà e sintassi (estesa e abbreviata) - 2",
+    "title": "Caratteri: sintassi estesa e abbreviata",
     "blocks": [
       {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Sono molte le proprietà che supportano la sintassi abbreviata:",
+            "text": "Le due regole esprimono lo stesso stile con una sintassi diversa.",
             "runs": [
               {
-                "text": "Sono molte le proprietà che supportano la sintassi abbreviata:"
+                "text": "Le due regole esprimono lo stesso stile con una sintassi diversa."
               }
             ],
             "bullet": false,
@@ -311,210 +135,40 @@
       },
       {
         "kind": "code",
-        "paragraphs": [
-          {
-            "text": "p {",
-            "runs": [
-              {
-                "text": "p",
-                "mono": true
-              },
-              {
-                "text": " {",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  font-style: italic;",
-            "runs": [
-              {
-                "text": "  font-style: italic;",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  font-weight: bold;",
-            "runs": [
-              {
-                "text": "  font-weight: bold;",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  font-size: .8em;",
-            "runs": [
-              {
-                "text": "  font-size: ",
-                "mono": true
-              },
-              {
-                "text": ".8em",
-                "mono": true
-              },
-              {
-                "text": ";",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  line-height: 1.2;",
-            "runs": [
-              {
-                "text": "  line-height: ",
-                "mono": true
-              },
-              {
-                "text": "1.2",
-                "mono": true
-              },
-              {
-                "text": ";",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  font-family: Arial, sans-serif;",
-            "runs": [
-              {
-                "text": "  font-family: ",
-                "mono": true
-              },
-              {
-                "text": "Arial",
-                "mono": true
-              },
-              {
-                "text": ", ",
-                "mono": true
-              },
-              {
-                "text": "sans-serif",
-                "mono": true
-              },
-              {
-                "text": ";",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "}",
-            "runs": [
-              {
-                "text": "}",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "p {",
-            "runs": [
-              {
-                "text": "p",
-                "mono": true
-              },
-              {
-                "text": " {",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  font: italic bold .8em/1.2 Arial, sans-serif;",
-            "runs": [
-              {
-                "text": "  font: italic bold ",
-                "mono": true
-              },
-              {
-                "text": ".8em",
-                "mono": true
-              },
-              {
-                "text": "/",
-                "mono": true
-              },
-              {
-                "text": "1.2",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "Arial",
-                "mono": true
-              },
-              {
-                "text": ", ",
-                "mono": true
-              },
-              {
-                "text": "sans-serif",
-                "mono": true
-              },
-              {
-                "text": ";",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "}",
-            "runs": [
-              {
-                "text": "}",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "p {\n  font-style: italic;\n  font-weight: bold;\n  font-size: .8em;\n  line-height: 1.2;\n  font-family: Arial, sans-serif;\n}\np {\n  font: italic bold .8em/1.2 Arial, sans-serif;\n}"
+        "text": "p {\n  font-style: italic;\n  font-weight: bold;\n  font-size: .8em;\n  line-height: 1.2;\n  font-family: Arial, sans-serif;\n}"
+      },
+      {
+        "kind": "code",
+        "text": "p {\n  font: italic bold .8em/1.2 Arial, sans-serif;\n}"
       }
     ],
     "sourceSlide": 5,
     "number": 5,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      5
+    ],
+    "layout": "code-columns",
+    "sources": [
+      {
+        "title": "MDN · font",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font"
+      }
+    ]
   },
   {
     "kind": "content",
-    "title": "Proprietà e sintassi (estesa e abbreviata) - 3",
+    "title": "Bordi: sintassi estesa e abbreviata",
     "blocks": [
       {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Sono molte le proprietà che supportano la sintassi abbreviata:",
+            "text": "Le due regole esprimono lo stesso stile con una sintassi diversa.",
             "runs": [
               {
-                "text": "Sono molte le proprietà che supportano la sintassi abbreviata:"
+                "text": "Le due regole esprimono lo stesso stile con una sintassi diversa."
               }
             ],
             "bullet": false,
@@ -524,164 +178,40 @@
       },
       {
         "kind": "code",
-        "paragraphs": [
-          {
-            "text": "div {",
-            "runs": [
-              {
-                "text": "div",
-                "mono": true
-              },
-              {
-                "text": " {",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  border-width: 1px;",
-            "runs": [
-              {
-                "text": "  border-width: ",
-                "mono": true
-              },
-              {
-                "text": "1px",
-                "mono": true
-              },
-              {
-                "text": ";",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  border-style: solid;",
-            "runs": [
-              {
-                "text": "  border-style: solid;",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  border-color: #000;",
-            "runs": [
-              {
-                "text": "  border-color: ",
-                "mono": true
-              },
-              {
-                "text": "#",
-                "mono": true
-              },
-              {
-                "text": "000",
-                "mono": true
-              },
-              {
-                "text": ";",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "}",
-            "runs": [
-              {
-                "text": "}",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "div {",
-            "runs": [
-              {
-                "text": "div",
-                "mono": true
-              },
-              {
-                "text": " {",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  border: 1px solid #000;",
-            "runs": [
-              {
-                "text": "  border: ",
-                "mono": true
-              },
-              {
-                "text": "1px",
-                "mono": true
-              },
-              {
-                "text": " solid ",
-                "mono": true
-              },
-              {
-                "text": "#",
-                "mono": true
-              },
-              {
-                "text": "000",
-                "mono": true
-              },
-              {
-                "text": ";",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "}",
-            "runs": [
-              {
-                "text": "}",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "div {\n  border-width: 1px;\n  border-style: solid;\n  border-color: #000;\n}\ndiv {\n  border: 1px solid #000;\n}"
+        "text": "div {\n  border-width: 1px;\n  border-style: solid;\n  border-color: #000;\n}"
+      },
+      {
+        "kind": "code",
+        "text": "div {\n  border: 1px solid #000;\n}"
       }
     ],
     "sourceSlide": 6,
     "number": 6,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      6
+    ],
+    "layout": "code-columns",
+    "sources": [
+      {
+        "title": "MDN · border",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border"
+      }
+    ]
   },
   {
     "kind": "content",
-    "title": "Proprietà e sintassi (estesa e abbreviata) - 4",
+    "title": "Sfondi: sintassi estesa e abbreviata",
     "blocks": [
       {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Sono molte le proprietà che supportano la sintassi abbreviata:",
+            "text": "Le due regole esprimono lo stesso stile con una sintassi diversa.",
             "runs": [
               {
-                "text": "Sono molte le proprietà che supportano la sintassi abbreviata:"
+                "text": "Le due regole esprimono lo stesso stile con una sintassi diversa."
               }
             ],
             "bullet": false,
@@ -691,166 +221,20 @@
       },
       {
         "kind": "code",
-        "paragraphs": [
-          {
-            "text": "div {",
-            "runs": [
-              {
-                "text": "div",
-                "mono": true
-              },
-              {
-                "text": " {",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  background-color: #000;",
-            "runs": [
-              {
-                "text": "  background-color: ",
-                "mono": true
-              },
-              {
-                "text": "#",
-                "mono": true
-              },
-              {
-                "text": "000",
-                "mono": true
-              },
-              {
-                "text": ";",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  background-image: url(images/bg.gif);",
-            "runs": [
-              {
-                "text": "  background-image: ",
-                "mono": true
-              },
-              {
-                "text": "url",
-                "mono": true
-              },
-              {
-                "text": "(images/bg.gif);",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  background-repeat: no-repeat;",
-            "runs": [
-              {
-                "text": "  background-repeat: no-repeat;",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  background-position: left top;",
-            "runs": [
-              {
-                "text": "  background-position: left top;",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "}",
-            "runs": [
-              {
-                "text": "}",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "div {",
-            "runs": [
-              {
-                "text": "div",
-                "mono": true
-              },
-              {
-                "text": " {",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  background: #000 url(images/bg.gif) no-repeat left top;",
-            "runs": [
-              {
-                "text": "  background: ",
-                "mono": true
-              },
-              {
-                "text": "#",
-                "mono": true
-              },
-              {
-                "text": "000",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "url",
-                "mono": true
-              },
-              {
-                "text": "(images/bg.gif) no-repeat left top;",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "}",
-            "runs": [
-              {
-                "text": "}",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "div {\n  background-color: #000;\n  background-image: url(images/bg.gif);\n  background-repeat: no-repeat;\n  background-position: left top;\n}\ndiv {\n  background: #000 url(images/bg.gif) no-repeat left top;\n}"
+        "text": "div {\n  background-color: #000;\n  background-image: url(images/bg.gif);\n  background-repeat: no-repeat;\n  background-position: left top;\n}"
+      },
+      {
+        "kind": "code",
+        "text": "div {\n  background: #000 url(images/bg.gif) no-repeat left top;\n}"
       },
       {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Attenzione!",
+            "text": "Attenzione: una proprietà abbreviata reimposta anche i valori omessi.",
             "runs": [
               {
-                "text": "Attenzione!",
-                "bold": true
+                "text": "Attenzione: una proprietà abbreviata reimposta anche i valori omessi."
               }
             ],
             "bullet": false,
@@ -862,35 +246,21 @@
     "sourceSlide": 7,
     "number": 7,
     "part": 1,
-    "parts": 2
-  },
-  {
-    "kind": "content",
-    "title": "Proprietà e sintassi (estesa e abbreviata) - 4",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "CSS Shorthand Syntax Considered an Anti-Pattern",
-            "runs": [
-              {
-                "text": "CSS Shorthand Syntax Considered an Anti-Pattern",
-                "bold": true,
-                "underline": true,
-                "href": "https://csswizardry.com/2016/12/css-shorthand-syntax-considered-an-anti-pattern/"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      }
+    "parts": 1,
+    "sourceSlides": [
+      7
     ],
-    "sourceSlide": 7,
-    "number": 8,
-    "part": 2,
-    "parts": 2
+    "layout": "code-columns",
+    "sources": [
+      {
+        "title": "MDN · background",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background"
+      },
+      {
+        "title": "CSS Shorthand Syntax Considered an Anti-Pattern",
+        "url": "https://csswizardry.com/2016/12/css-shorthand-syntax-considered-an-anti-pattern/"
+      }
+    ]
   },
   {
     "kind": "content",
@@ -929,22 +299,48 @@
             ],
             "bullet": false,
             "level": 0
-          },
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
           {
             "text": "Il selettore universale * (0)",
             "runs": [
               {
-                "text": "Il selettore universale * (0)"
+                "text": "Il selettore universale "
+              },
+              {
+                "text": "*",
+                "mono": true
+              },
+              {
+                "text": " (0)"
               }
             ],
             "bullet": true,
             "level": 0
           },
           {
-            "text": "I nomi dei tag: p, div, .. (1)",
+            "text": "I nomi dei tag: p, div, … (1)",
             "runs": [
               {
-                "text": "I nomi dei tag: p, div, .. (1)"
+                "text": "I nomi dei tag: "
+              },
+              {
+                "text": "p",
+                "mono": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ", … (1)"
               }
             ],
             "bullet": true,
@@ -961,20 +357,15 @@
             "level": 0
           },
           {
-            "text": "Id (100)",
+            "text": "ID (100)",
             "runs": [
               {
-                "text": "Id (100)"
+                "text": "ID (100)"
               }
             ],
             "bullet": true,
             "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "text",
-        "paragraphs": [
+          },
           {
             "text": "Stili inline (1000)",
             "runs": [
@@ -986,96 +377,19 @@
             "level": 0
           }
         ]
-      }
-    ],
-    "sourceSlide": 8,
-    "number": 9,
-    "part": 1,
-    "parts": 2
-  },
-  {
-    "kind": "content",
-    "title": "Gerarchia della specificità",
-    "blocks": [
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "ul#primary-nav li.active { ... }",
-            "runs": [
-              {
-                "text": "ul",
-                "mono": true
-              },
-              {
-                "text": "#primary-nav",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "li",
-                "mono": true
-              },
-              {
-                "text": ".active",
-                "mono": true
-              },
-              {
-                "text": " { ... }",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "ul#primary-nav li.active { ... }"
       },
       {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "ul.active > p.fake-class { ... }",
-            "runs": [
-              {
-                "text": "ul",
-                "mono": true
-              },
-              {
-                "text": ".active",
-                "mono": true
-              },
-              {
-                "text": " > ",
-                "mono": true
-              },
-              {
-                "text": "p",
-                "mono": true
-              },
-              {
-                "text": ".fake-class",
-                "mono": true
-              },
-              {
-                "text": " { ... }",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "ul.active > p.fake-class { ... }"
+        "kind": "specificity-examples",
+        "example": "question"
       }
     ],
     "sourceSlide": 8,
-    "number": 10,
-    "part": 2,
-    "parts": 2
+    "number": 8,
+    "part": 1,
+    "parts": 1,
+    "sourceSlides": [
+      8
+    ]
   },
   {
     "kind": "content",
@@ -1085,148 +399,127 @@
         "kind": "text",
         "paragraphs": [
           {
-            "text": "La specificità confronta tre conteggi, nell’ordine: ID; classi, attributi e pseudoclassi; tipi e pseudoelementi.",
+            "text": "Per capire quali dichiarazioni applicare, il browser segue una logica di specificità",
             "runs": [
               {
-                "text": "La specificità confronta tre conteggi, nell’ordine: ID; classi, attributi e pseudoclassi; tipi e pseudoelementi."
+                "text": "Per capire quali dichiarazioni applicare, il browser segue una logica di "
+              },
+              {
+                "text": "specificità",
+                "bold": true
               }
             ],
             "bullet": false,
             "level": 0
           },
           {
-            "text": "Si confrontano le colonne da sinistra, senza convertire la tupla in una somma. Il selettore universale non aggiunge specificità.",
+            "text": "Potete immaginare la specificità come un punteggio:",
             "runs": [
               {
-                "text": "Si confrontano le colonne da sinistra, senza convertire la tupla in una somma. Il selettore universale non aggiunge specificità."
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Gli stili inline prevalgono sulle normali dichiarazioni degli stylesheet nell’ambito della stessa origine e importanza.",
-            "runs": [
+                "text": "Potete immaginare la specificità come un "
+              },
               {
-                "text": "Gli stili inline prevalgono sulle normali dichiarazioni degli stylesheet nell’ambito della stessa origine e importanza."
+                "text": "punteggio",
+                "bold": true
+              },
+              {
+                "text": ":"
               }
             ],
             "bullet": false,
             "level": 0
           }
         ]
-      }
-    ],
-    "sourceSlide": 9,
-    "number": 11,
-    "part": 1,
-    "parts": 3,
-    "sources": [
-      {
-        "title": "MDN · specificità",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Specificity"
-      }
-    ],
-    "revision": "native-reconstruction"
-  },
-  {
-    "kind": "content",
-    "title": "Gerarchia della specificità",
-    "blocks": [
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "ul#primary-nav li.active { ... }",
-            "runs": [
-              {
-                "text": "ul",
-                "mono": true
-              },
-              {
-                "text": "#primary-nav",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "li",
-                "mono": true
-              },
-              {
-                "text": ".active",
-                "mono": true
-              },
-              {
-                "text": " { ... }",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "ul#primary-nav li.active { ... }"
       },
       {
-        "kind": "code",
+        "kind": "text",
         "paragraphs": [
           {
-            "text": "ul.active > p.fake-class { ... }",
+            "text": "Il selettore universale * (0)",
             "runs": [
               {
-                "text": "ul",
+                "text": "Il selettore universale "
+              },
+              {
+                "text": "*",
                 "mono": true
               },
               {
-                "text": ".active",
-                "mono": true
-              },
+                "text": " (0)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "I nomi dei tag: p, div, … (1)",
+            "runs": [
               {
-                "text": " > ",
-                "mono": true
+                "text": "I nomi dei tag: "
               },
               {
                 "text": "p",
                 "mono": true
               },
               {
-                "text": ".fake-class",
+                "text": ", "
+              },
+              {
+                "text": "div",
                 "mono": true
               },
               {
-                "text": " { ... }",
-                "mono": true
+                "text": ", … (1)"
               }
             ],
-            "bullet": false,
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Classi, pseudoclassi e selettori di attributo (10)",
+            "runs": [
+              {
+                "text": "Classi, pseudoclassi e selettori di attributo (10)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "ID (100)",
+            "runs": [
+              {
+                "text": "ID (100)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Stili inline (1000)",
+            "runs": [
+              {
+                "text": "Stili inline (1000)"
+              }
+            ],
+            "bullet": true,
             "level": 0
           }
-        ],
-        "text": "ul.active > p.fake-class { ... }"
-      }
-    ],
-    "sourceSlide": 9,
-    "number": 12,
-    "part": 2,
-    "parts": 3
-  },
-  {
-    "kind": "content",
-    "title": "Gerarchia della specificità",
-    "blocks": [
+        ]
+      },
       {
-        "kind": "native",
-        "example": "02-009-diagram.webp",
-        "caption": "Gli esempi della fonte sono mantenuti; la specificità è un confronto fra tuple, non una somma decimale."
+        "kind": "specificity-examples",
+        "example": "reveal"
       }
     ],
     "sourceSlide": 9,
-    "number": 13,
-    "part": 3,
-    "parts": 3
+    "number": 9,
+    "part": 1,
+    "parts": 1,
+    "revision": "native-reconstruction",
+    "sourceSlides": [
+      9
+    ]
   },
   {
     "kind": "content",
@@ -1280,9 +573,12 @@
       }
     ],
     "sourceSlide": 10,
-    "number": 14,
+    "number": 10,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      10
+    ]
   },
   {
     "kind": "content",
@@ -1320,10 +616,10 @@
             "level": 0
           },
           {
-            "text": "Utilizzate l’inspector di Chrome per controllare quale regola ha la priorità (tasto destro → esamina)",
+            "text": "Utilizzate l’inspector del browser per controllare quale regola ha la priorità (tasto destro → esamina)",
             "runs": [
               {
-                "text": "Utilizzate l’inspector di Chrome per controllare quale regola ha la priorità (tasto destro → esamina)"
+                "text": "Utilizzate l’inspector del browser per controllare quale regola ha la priorità (tasto destro → esamina)"
               }
             ],
             "bullet": true,
@@ -1355,138 +651,37 @@
       }
     ],
     "sourceSlide": 11,
-    "number": 15,
+    "number": 11,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      11
+    ]
   },
   {
     "kind": "divider",
     "title": "Box model e flusso",
     "blocks": [],
     "sourceSlide": 12,
-    "number": 16,
+    "number": 12,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      12
+    ]
   },
   {
     "kind": "content",
-    "title": "La disposizione degli elementi nell’HTML",
-    "blocks": [
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "div id=\"header\"",
-            "runs": [
-              {
-                "text": "div",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "id",
-                "mono": true
-              },
-              {
-                "text": "=",
-                "mono": true
-              },
-              {
-                "text": "\"header\"",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "div id=\"header\""
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "h1",
-            "runs": [
-              {
-                "text": "h1",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "h1"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "ul",
-            "runs": [
-              {
-                "text": "ul",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "ul"
-      }
-    ],
-    "sourceSlide": 13,
-    "number": 17,
-    "part": 1,
-    "parts": 3
-  },
-  {
-    "kind": "content",
-    "title": "La disposizione degli elementi nell’HTML",
+    "title": "Le quattro aree del box model",
     "blocks": [
       {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Una pagina HTML non  è altro che un insieme  di elementi (tag) che  si comportano come  blocchi rettangolari che si dispongono uno  sotto l’altro",
+            "text": "Il contenuto, il padding e il bordo determinano le dimensioni del box; il margine lo separa dagli altri elementi.",
             "runs": [
               {
-                "text": "Una pagina HTML non  è altro che un insieme  di elementi (tag) che  si comportano come  blocchi rettangolari che si dispongono uno  sotto l’altro"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Il flusso  dell’informazione",
-            "runs": [
-              {
-                "text": "Il flusso  dell’informazione"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "è sempre verticale  dall’alto verso il basso",
-            "runs": [
-              {
-                "text": "è sempre verticale  dall’alto verso il basso"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Gli elementi contenuti in altri elementi si  disporranno all’interno  del contenitore sempre uno sotto l’altro",
-            "runs": [
-              {
-                "text": "Gli elementi contenuti in altri elementi si  disporranno all’interno  del contenitore sempre uno sotto l’altro"
+                "text": "Il contenuto, il padding e il bordo determinano le dimensioni del box; il margine lo separa dagli altri elementi."
               }
             ],
             "bullet": false,
@@ -1495,674 +690,21 @@
         ]
       },
       {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "li <a>",
-            "runs": [
-              {
-                "text": "li ",
-                "mono": true
-              },
-              {
-                "text": "<",
-                "mono": true
-              },
-              {
-                "text": "a",
-                "mono": true
-              },
-              {
-                "text": ">",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "li <a>"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "li <a>",
-            "runs": [
-              {
-                "text": "li ",
-                "mono": true
-              },
-              {
-                "text": "<",
-                "mono": true
-              },
-              {
-                "text": "a",
-                "mono": true
-              },
-              {
-                "text": ">",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "li <a>"
-      }
-    ],
-    "sourceSlide": 13,
-    "number": 18,
-    "part": 2,
-    "parts": 3
-  },
-  {
-    "kind": "content",
-    "title": "La disposizione degli elementi nell’HTML",
-    "blocks": [
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "div id=\"main\"",
-            "runs": [
-              {
-                "text": "div",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "id",
-                "mono": true
-              },
-              {
-                "text": "=",
-                "mono": true
-              },
-              {
-                "text": "\"main\"",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "div id=\"main\""
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "h2",
-            "runs": [
-              {
-                "text": "h2",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "h2"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "p <span> ",
-            "runs": [
-              {
-                "text": "p ",
-                "mono": true
-              },
-              {
-                "text": "<",
-                "mono": true
-              },
-              {
-                "text": "span",
-                "mono": true
-              },
-              {
-                "text": ">",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "p <span>"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "p",
-            "runs": [
-              {
-                "text": "p",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "p"
-      }
-    ],
-    "sourceSlide": 13,
-    "number": 19,
-    "part": 3,
-    "parts": 3
-  },
-  {
-    "kind": "content",
-    "title": "La disposizione degli elementi nell’HTML",
-    "blocks": [
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "div id=\"header\"",
-            "runs": [
-              {
-                "text": "div",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "id",
-                "mono": true
-              },
-              {
-                "text": "=",
-                "mono": true
-              },
-              {
-                "text": "\"header\"",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "div id=\"header\""
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "h1",
-            "runs": [
-              {
-                "text": "h1",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "h1"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "ul",
-            "runs": [
-              {
-                "text": "ul",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "ul"
-      }
-    ],
-    "sourceSlide": 14,
-    "number": 20,
-    "part": 1,
-    "parts": 3
-  },
-  {
-    "kind": "content",
-    "title": "La disposizione degli elementi nell’HTML",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "Salvo diversamente  specificato, ogni elemento  di tipo blocco (nel disegno i rettangoli) avrà: ",
-            "runs": [
-              {
-                "text": "Salvo "
-              },
-              {
-                "text": "diversamente "
-              },
-              {
-                "text": " specificato, ogni elemento  di tipo blocco (nel disegno i rettangoli) avrà: "
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "width: 100% del  contenitore\nheight: insieme dei  contenuti",
-            "runs": [
-              {
-                "text": "width: 100% del  contenitore"
-              },
-              {
-                "text": "\n"
-              },
-              {
-                "text": "height: insieme dei  contenuti"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Per gli elementi inline (nel disegno tra < > ) non si possono specificare  width e height e  occuperanno la dimensione  dell’elemento",
-            "runs": [
-              {
-                "text": "Per gli elementi inline (nel disegno tra < > ) non si possono specificare  "
-              },
-              {
-                "text": "width "
-              },
-              {
-                "text": "e "
-              },
-              {
-                "text": "height "
-              },
-              {
-                "text": "e  occuperanno la dimensione  dell’elemento"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "li <a>",
-            "runs": [
-              {
-                "text": "li ",
-                "mono": true
-              },
-              {
-                "text": "<",
-                "mono": true
-              },
-              {
-                "text": "a",
-                "mono": true
-              },
-              {
-                "text": ">",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "li <a>"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "li <a>",
-            "runs": [
-              {
-                "text": "li ",
-                "mono": true
-              },
-              {
-                "text": "<",
-                "mono": true
-              },
-              {
-                "text": "a",
-                "mono": true
-              },
-              {
-                "text": ">",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "li <a>"
-      }
-    ],
-    "sourceSlide": 14,
-    "number": 21,
-    "part": 2,
-    "parts": 3
-  },
-  {
-    "kind": "content",
-    "title": "La disposizione degli elementi nell’HTML",
-    "blocks": [
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "div id=\"main\"",
-            "runs": [
-              {
-                "text": "div",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "id",
-                "mono": true
-              },
-              {
-                "text": "=",
-                "mono": true
-              },
-              {
-                "text": "\"main\"",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "div id=\"main\""
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "h2",
-            "runs": [
-              {
-                "text": "h2",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "h2"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "p <span> ",
-            "runs": [
-              {
-                "text": "p ",
-                "mono": true
-              },
-              {
-                "text": "<",
-                "mono": true
-              },
-              {
-                "text": "span",
-                "mono": true
-              },
-              {
-                "text": ">",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "p <span>"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "p",
-            "runs": [
-              {
-                "text": "p",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "p"
-      }
-    ],
-    "sourceSlide": 14,
-    "number": 22,
-    "part": 3,
-    "parts": 3
-  },
-  {
-    "kind": "content",
-    "title": "Cambiare la visualizzazione del flusso",
-    "blocks": [
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "MARGIN",
-            "runs": [
-              {
-                "text": "MARGIN",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "MARGIN"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "BORDER",
-            "runs": [
-              {
-                "text": "BORDER",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "BORDER"
-      },
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "BOX MODEL",
-            "runs": [
-              {
-                "text": "BOX MODEL",
-                "bold": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Width o height: per specificare larghezza o altezza del contenuto",
-            "runs": [
-              {
-                "text": "Width ",
-                "bold": true
-              },
-              {
-                "text": "o "
-              },
-              {
-                "text": "height",
-                "bold": true
-              },
-              {
-                "text": ": per specificare larghezza o altezza del contenuto"
-              }
-            ],
-            "bullet": true,
-            "level": 0
-          },
-          {
-            "text": "Padding: distanzia il contenuto dal suo border",
-            "runs": [
-              {
-                "text": "Padding",
-                "bold": true
-              },
-              {
-                "text": ": distanzia il contenuto dal suo border"
-              }
-            ],
-            "bullet": true,
-            "level": 0
-          },
-          {
-            "text": "Border: visualizza un bordo attorno al contenuto e lo formatta",
-            "runs": [
-              {
-                "text": "Border",
-                "bold": true
-              },
-              {
-                "text": ": visualizza un bordo attorno al contenuto e lo formatta"
-              }
-            ],
-            "bullet": true,
-            "level": 0
-          },
-          {
-            "text": "Margin: distanzia gli elementi tra di loro e li “sposta” all’interno del flusso",
-            "runs": [
-              {
-                "text": "Margin",
-                "bold": true
-              },
-              {
-                "text": ": distanzia gli elementi tra di loro e li “sposta” all’interno del flusso"
-              }
-            ],
-            "bullet": true,
-            "level": 0
-          }
-        ]
+        "kind": "figure",
+        "src": "/images/esercitazioni/box-model-avanzato.svg",
+        "showCaption": false,
+        "caption": "Il margine è esterno al bordo. Con content-box, larghezza del box = contenuto + padding laterali + bordi laterali.",
+        "alt": "Quattro rettangoli annidati: margin esterno, border, padding e content. Width e height misurano il contenuto con content-box; padding distanzia il contenuto dal bordo."
       }
     ],
     "sourceSlide": 15,
-    "number": 23,
+    "number": 13,
     "part": 1,
-    "parts": 2
-  },
-  {
-    "kind": "content",
-    "title": "Cambiare la visualizzazione del flusso",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "L’ingombro effettivo dell’elemento nella pagina è dato dalla somma delle  dimensioni di queste proprietà",
-            "runs": [
-              {
-                "text": "L’ingombro effettivo dell’elemento nella pagina è dato dalla somma delle  dimensioni di queste proprietà"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "PADDING",
-            "runs": [
-              {
-                "text": "PADDING",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "PADDING"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "CONTENT",
-            "runs": [
-              {
-                "text": "CONTENT",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "CONTENT"
-      }
+    "parts": 1,
+    "sourceSlides": [
+      15
     ],
-    "sourceSlide": 15,
-    "number": 24,
-    "part": 2,
-    "parts": 2
+    "layout": "diagram"
   },
   {
     "kind": "content",
@@ -2219,9 +761,12 @@
       }
     ],
     "sourceSlide": 16,
-    "number": 25,
+    "number": 14,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      16
+    ]
   },
   {
     "kind": "content",
@@ -2263,14 +808,33 @@
       }
     ],
     "sourceSlide": 17,
-    "number": 26,
+    "number": 15,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      17
+    ]
   },
   {
     "kind": "content",
     "title": "Box-sizing · esempio",
     "blocks": [
+      {
+        "kind": "tag-reference",
+        "arrangement": "example-result",
+        "items": [
+          {
+            "tags": [
+              "box-sizing"
+            ],
+            "title": "Stesse misure, ingombri diversi",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-sizing",
+            "example": ".box {\n  width: 100px;\n  height: 100px;\n  padding: 10px;\n}\n\n.content { box-sizing: content-box; }\n.border { box-sizing: border-box; }",
+            "traits": [],
+            "native": "advanced:sizing"
+          }
+        ]
+      },
       {
         "kind": "text",
         "paragraphs": [
@@ -2290,55 +854,59 @@
             "level": 0
           }
         ]
-      },
-      {
-        "kind": "native",
-        "example": "e6e12663edf18cd33e89.png",
-        "caption": "Stessa width: 100px e padding: 10px; senza bordi. Ricostruzione dello schema accreditato a webriderz.com nella fonte."
       }
     ],
     "sourceSlide": 18,
-    "number": 27,
+    "number": 16,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      18
+    ],
+    "layout": "sizing-example"
+  },
+  {
+    "kind": "content",
+    "title": "Il flusso degli elementi HTML",
+    "blocks": [
+      {
+        "kind": "tag-reference",
+        "arrangement": "example-result",
+        "items": [
+          {
+            "tags": [
+              "display"
+            ],
+            "title": "Flusso normale",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/display",
+            "example": "<div id=\"header\">\n  <h1>Titolo</h1>\n  <ul>\n    <li><a>Voce</a></li>\n    <li><a>Voce</a></li>\n  </ul>\n</div>\n<div id=\"main\">\n  <h2>Sottotitolo</h2>\n  <p>Testo <span>in linea</span></p>\n  <p>Testo</p>\n</div>",
+            "traits": [],
+            "introduction": [
+              {
+                "runs": [
+                  {
+                    "text": "Gli elementi block si dispongono uno sotto l’altro; gli elementi annidati seguono il flusso del proprio contenitore. Gli elementi inline partecipano alla riga di testo."
+                  }
+                ]
+              }
+            ],
+            "native": "advanced:flow"
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 13,
+    "number": 17,
+    "part": 1,
+    "parts": 1,
+    "sourceSlides": [
+      13
+    ]
   },
   {
     "kind": "content",
     "title": "Cambiare la visualizzazione del flusso",
     "blocks": [
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "div id=\"main\"",
-            "runs": [
-              {
-                "text": "div",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "id",
-                "mono": true
-              },
-              {
-                "text": "=",
-                "mono": true
-              },
-              {
-                "text": "\"main\"",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "div id=\"main\""
-      },
       {
         "kind": "text",
         "paragraphs": [
@@ -2358,13 +926,10 @@
             "runs": [
               {
                 "text": "display: none",
-                "bold": true
+                "mono": true
               },
               {
-                "text": "\n"
-              },
-              {
-                "text": "Nasconde gli elementi e li rimuove dal flusso"
+                "text": "\nNasconde gli elementi e li rimuove dal flusso"
               }
             ],
             "bullet": true,
@@ -2374,14 +939,25 @@
             "text": "display: inline | block | inline-block\nCambia il tipo di comportamento del blocco rispetto al suo normale comportamento",
             "runs": [
               {
-                "text": "display: inline | block | inline-block",
-                "bold": true
+                "text": "display: inline",
+                "mono": true
               },
               {
-                "text": "\n"
+                "text": " | "
               },
               {
-                "text": "Cambia il tipo di comportamento del blocco rispetto al suo normale comportamento"
+                "text": "block",
+                "mono": true
+              },
+              {
+                "text": " | "
+              },
+              {
+                "text": "inline-block",
+                "mono": true
+              },
+              {
+                "text": "\nCambia il tipo di comportamento del blocco rispetto al suo normale comportamento"
               }
             ],
             "bullet": true,
@@ -2390,122 +966,9 @@
         ]
       },
       {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "h2",
-            "runs": [
-              {
-                "text": "h2",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "h2"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "p <span> ",
-            "runs": [
-              {
-                "text": "p ",
-                "mono": true
-              },
-              {
-                "text": "<",
-                "mono": true
-              },
-              {
-                "text": "span",
-                "mono": true
-              },
-              {
-                "text": ">",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "p <span>"
-      }
-    ],
-    "sourceSlide": 19,
-    "number": 28,
-    "part": 1,
-    "parts": 2
-  },
-  {
-    "kind": "content",
-    "title": "Cambiare la visualizzazione del flusso",
-    "blocks": [
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "div class=\"inline\"",
-            "runs": [
-              {
-                "text": "div ",
-                "mono": true
-              },
-              {
-                "text": "class",
-                "mono": true
-              },
-              {
-                "text": "=",
-                "mono": true
-              },
-              {
-                "text": "\"inline\"",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "div class=\"inline\""
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "div class=\"inline\"",
-            "runs": [
-              {
-                "text": "div ",
-                "mono": true
-              },
-              {
-                "text": "class",
-                "mono": true
-              },
-              {
-                "text": "=",
-                "mono": true
-              },
-              {
-                "text": "\"inline\"",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "div class=\"inline\""
+        "kind": "native",
+        "example": "advanced:display",
+        "caption": ""
       },
       {
         "kind": "text",
@@ -2526,16 +989,20 @@
       }
     ],
     "sourceSlide": 19,
-    "number": 29,
-    "part": 2,
-    "parts": 2
+    "number": 18,
+    "part": 1,
+    "parts": 1,
+    "sourceSlides": [
+      19
+    ],
+    "layout": "display-overview"
   },
   {
     "kind": "content",
-    "title": "Cambiare la visualizzazione del flusso · esempio",
+    "title": "Inline, inline-block e block",
     "blocks": [
       {
-        "kind": "table",
+        "kind": "display-comparison",
         "rows": [
           [
             "Comportamento",
@@ -2579,768 +1046,264 @@
             "SI",
             "SI"
           ]
-        ]
-      },
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "Inline vs inline-block vs block",
-            "runs": [
-              {
-                "text": "Inline ",
-                "bold": true
-              },
-              {
-                "text": "vs inline-block vs ",
-                "bold": true
-              },
-              {
-                "text": "block",
-                "bold": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
+        ],
+        "caption": "Inline vs inline-block vs block"
       }
     ],
     "sourceSlide": 20,
-    "number": 30,
+    "number": 19,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      20
+    ]
   },
   {
     "kind": "content",
     "title": "Cambiare il flusso",
     "blocks": [
       {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "1",
-            "runs": [
-              {
-                "text": "1"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "div",
-            "runs": [
-              {
-                "text": "div",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "div"
-      },
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "FLOATING",
-            "runs": [
-              {
-                "text": "FLOATING",
-                "bold": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "float: left | right - Sposta un elemento a sinistra o  destra (1) e lascia scorrere i contenuti successivi attorno",
-            "runs": [
-              {
-                "text": "float: left | right",
-                "bold": true
-              },
-              {
-                "text": " - Sposta un elemento a sinistra o  destra (1) e lascia scorrere i contenuti successivi attorno"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "N.B. La sua larghezza diventerà la larghezza del suo contenuto  (1), a meno che non sia specificata (2-3)",
-            "runs": [
-              {
-                "text": "N.B.",
-                "bold": true
-              },
-              {
-                "text": " La sua larghezza diventerà la larghezza del suo contenuto  (1), a meno che non sia specificata (2-3)"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "p float: left",
-            "runs": [
-              {
-                "text": "p",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "float: left",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "p float: left"
+        "kind": "original-layout",
+        "content": {
+          "label": "FLOATING",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/float",
+          "paragraphs": [
+            {
+              "text": "float: left | right - Sposta un elemento a sinistra o  destra (1) e lascia scorrere i contenuti successivi attorno",
+              "runs": [
+                {
+                  "text": "float: left | right",
+                  "bold": true
+                },
+                {
+                  "text": " - Sposta un elemento a sinistra o  destra (1) e lascia scorrere i contenuti successivi attorno"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            },
+            {
+              "text": "N.B. La sua larghezza diventerà la larghezza del suo contenuto  (1), a meno che non sia specificata (2-3)",
+              "runs": [
+                {
+                  "text": "N.B.",
+                  "bold": true
+                },
+                {
+                  "text": " La sua larghezza diventerà la larghezza del suo contenuto  (1), a meno che non sia specificata (2-3)"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            }
+          ],
+          "code": null,
+          "example": "original:float"
+        }
       }
     ],
     "sourceSlide": 21,
-    "number": 31,
+    "number": 20,
     "part": 1,
-    "parts": 3
-  },
-  {
-    "kind": "content",
-    "title": "Cambiare il flusso",
-    "blocks": [
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": " p",
-            "runs": [
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "p",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "p"
-      },
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "2",
-            "runs": [
-              {
-                "text": "2"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "div",
-            "runs": [
-              {
-                "text": "div",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "div"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "p",
-            "runs": [
-              {
-                "text": "p",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "p"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "p float: left; width: 100%;",
-            "runs": [
-              {
-                "text": "p",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "float: left; width",
-                "mono": true
-              },
-              {
-                "text": ": 100%;",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "p float: left; width: 100%;"
-      },
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "3",
-            "runs": [
-              {
-                "text": "3"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      }
+    "parts": 1,
+    "sourceSlides": [
+      21
     ],
-    "sourceSlide": 21,
-    "number": 32,
-    "part": 2,
-    "parts": 3
+    "layout": "original"
   },
   {
     "kind": "content",
     "title": "Cambiare il flusso",
     "blocks": [
       {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "div",
-            "runs": [
-              {
-                "text": "div",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "div"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "p float: left; ",
-            "runs": [
-              {
-                "text": "p",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "float: left; ",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  width: 50%;",
-            "runs": [
-              {
-                "text": "  width: 50%;",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "p float: left; \n  width: 50%;"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "                       p",
-            "runs": [
-              {
-                "text": "                       ",
-                "mono": true
-              },
-              {
-                "text": "p",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "p"
-      }
-    ],
-    "sourceSlide": 21,
-    "number": 33,
-    "part": 3,
-    "parts": 3
-  },
-  {
-    "kind": "content",
-    "title": "Cambiare il flusso",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "FLOATING",
-            "runs": [
-              {
-                "text": "FLOATING",
-                "bold": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "N.B. L’elemento flottante viene rimosso dal flusso, quindi non causa la crescita del genitore! (4)",
-            "runs": [
-              {
-                "text": "N.B.",
-                "bold": true
-              },
-              {
-                "text": " L’elemento flottante viene rimosso dal flusso, quindi non causa la crescita del genitore! (4)"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "L’elemento flottante costringe i fratelli a posizionarsi accanto a lui, se c’è spazio",
-            "runs": [
-              {
-                "text": "L’elemento flottante costringe i fratelli a posizionarsi accanto a lui, se c’è spazio"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "clear: left | right | both - Spinge l’elemento sotto a un box floattante (5) (si applica solo agli elementi blocco)",
-            "runs": [
-              {
-                "text": "clear: left | right | both -",
-                "bold": true
-              },
-              {
-                "text": " Spinge l’elemento sotto a un box floattante (5) (si applica solo agli elementi blocco)"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "4",
-            "runs": [
-              {
-                "text": "4"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "div",
-            "runs": [
-              {
-                "text": "div",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "div"
+        "kind": "original-layout",
+        "content": {
+          "label": "FLOATING",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/clear",
+          "paragraphs": [
+            {
+              "text": "N.B. L’elemento flottante viene rimosso dal flusso, quindi non causa la crescita del genitore! (4)",
+              "runs": [
+                {
+                  "text": "N.B.",
+                  "bold": true
+                },
+                {
+                  "text": " L’elemento flottante viene rimosso dal flusso, quindi non causa la crescita del genitore! (4)"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            },
+            {
+              "text": "L’elemento flottante costringe i fratelli a posizionarsi accanto a lui, se c’è spazio",
+              "runs": [
+                {
+                  "text": "L’elemento flottante costringe i fratelli a posizionarsi accanto a lui, se c’è spazio"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            },
+            {
+              "text": "clear: left | right | both - Spinge l’elemento sotto a un box floattante (5) (si applica solo agli elementi blocco)",
+              "runs": [
+                {
+                  "text": "clear: left | right | both -",
+                  "bold": true
+                },
+                {
+                  "text": " Spinge l’elemento sotto a un box floattante (5) (si applica solo agli elementi blocco)"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            }
+          ],
+          "code": null,
+          "example": "original:clear"
+        }
       }
     ],
     "sourceSlide": 22,
-    "number": 34,
+    "number": 21,
     "part": 1,
-    "parts": 3
-  },
-  {
-    "kind": "content",
-    "title": "Cambiare il flusso",
-    "blocks": [
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "h1",
-            "runs": [
-              {
-                "text": "h",
-                "mono": true
-              },
-              {
-                "text": "1",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "h1"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "p float: left",
-            "runs": [
-              {
-                "text": "p ",
-                "mono": true
-              },
-              {
-                "text": "float: left",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  Width: 50%",
-            "runs": [
-              {
-                "text": "  Width: 50%",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "p float: left\n  Width: 50%"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "p float: left",
-            "runs": [
-              {
-                "text": "p ",
-                "mono": true
-              },
-              {
-                "text": "float: left",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  Width: 50%",
-            "runs": [
-              {
-                "text": "  Width: 50%",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "p float: left\n  Width: 50%"
-      },
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "5",
-            "runs": [
-              {
-                "text": "5"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "div",
-            "runs": [
-              {
-                "text": "div",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "div"
-      }
+    "parts": 1,
+    "sourceSlides": [
+      22
     ],
-    "sourceSlide": 22,
-    "number": 35,
-    "part": 2,
-    "parts": 3
+    "layout": "original"
   },
   {
     "kind": "content",
     "title": "Cambiare il flusso",
     "blocks": [
       {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "p float: left",
-            "runs": [
-              {
-                "text": "p ",
-                "mono": true
-              },
-              {
-                "text": "float: left",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  Width: 50%",
-            "runs": [
-              {
-                "text": "  Width: 50%",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "p float: left\n  Width: 50%"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "p clear=”both”",
-            "runs": [
-              {
-                "text": "p ",
-                "mono": true
-              },
-              {
-                "text": "clear=”both”",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "p clear=”both”"
-      }
-    ],
-    "sourceSlide": 22,
-    "number": 36,
-    "part": 3,
-    "parts": 3
-  },
-  {
-    "kind": "content",
-    "title": "Cambiare il flusso",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "Esempio interattivo",
-            "runs": [
-              {
-                "text": "Esempio interattivo",
-                "underline": true,
-                "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/position"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "POSITION",
-            "runs": [
-              {
-                "text": "POSITION",
-                "bold": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "position: static - valore di default, l’elemento è posizionato seguendo il flusso del documento",
-            "runs": [
-              {
-                "text": "position: static - ",
-                "bold": true
-              },
-              {
-                "text": "valore di default, l’elemento è posizionato seguendo il flusso del documento"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "position: relative - l’elemento è posizionato seguendo il flusso del documento e accetta top, right, bottom e left",
-            "runs": [
-              {
-                "text": "position: relative - ",
-                "bold": true
-              },
-              {
-                "text": "l’elemento è posizionato seguendo il flusso del documento e accetta top, right, bottom e left"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "position: absolute - l’elemento è rimosso dal flusso e la sua posizione è relativa al suo antenato più prossimo con position dichiarata o al body",
-            "runs": [
-              {
-                "text": "position: absolute - ",
-                "bold": true
-              },
-              {
-                "text": "l’elemento è rimosso dal flusso e la sua posizione è relativa al suo antenato più prossimo con position dichiarata o al body"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
+        "kind": "original-layout",
+        "content": {
+          "label": "POSITION",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/position",
+          "paragraphs": [
+            {
+              "text": "static segue il flusso normale e non applica gli offset. relative conserva il proprio spazio e accetta top, right, bottom e left.",
+              "runs": [
+                {
+                  "text": "static",
+                  "mono": true
+                },
+                {
+                  "text": " segue il flusso normale e non applica gli offset. "
+                },
+                {
+                  "text": "relative",
+                  "mono": true
+                },
+                {
+                  "text": " conserva il proprio spazio e accetta "
+                },
+                {
+                  "text": "top",
+                  "mono": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "right",
+                  "mono": true
+                },
+                {
+                  "text": ", "
+                },
+                {
+                  "text": "bottom",
+                  "mono": true
+                },
+                {
+                  "text": " e "
+                },
+                {
+                  "text": "left",
+                  "mono": true
+                },
+                {
+                  "text": "."
+                }
+              ]
+            }
+          ],
+          "code": null,
+          "example": "original:position-flow"
+        }
       }
     ],
     "sourceSlide": 23,
-    "number": 37,
+    "number": 22,
     "part": 1,
-    "parts": 2
-  },
-  {
-    "kind": "content",
-    "title": "Cambiare il flusso",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "position: fixed — l’elemento è rimosso dal flusso ed è normalmente posizionato rispetto al viewport. Alcune proprietà degli antenati possono cambiare il containing block.",
-            "runs": [
-              {
-                "text": "position: fixed — l’elemento è rimosso dal flusso ed è normalmente posizionato rispetto al viewport. Alcune proprietà degli antenati possono cambiare il containing block."
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "native",
-        "example": "02-023-diagram.webp",
-        "caption": "Il riquadro fixed è schematizzato rispetto al viewport dell’esempio; relative conserva il proprio posto nel flusso."
-      }
+    "parts": 1,
+    "sourceSlides": [
+      23
     ],
-    "sourceSlide": 23,
-    "number": 38,
-    "part": 2,
-    "parts": 2,
     "sources": [
       {
-        "title": "MDN · position",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/position"
+        "title": "Esempio interattivo",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/position"
       }
     ],
-    "revision": "native-reconstruction"
+    "layout": "original"
   },
   {
     "kind": "content",
-    "title": "Posizionare gli elementi al centro della pagina",
+    "title": "Cambiare il flusso",
+    "blocks": [
+      {
+        "kind": "original-layout",
+        "content": {
+          "label": "POSITION",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/position",
+          "paragraphs": [
+            {
+              "text": "absolute si riferisce al proprio containing block, spesso stabilito dall’antenato posizionato più vicino.",
+              "runs": [
+                {
+                  "text": "absolute",
+                  "mono": true
+                },
+                {
+                  "text": " si riferisce al proprio containing block, spesso stabilito dall’antenato posizionato più vicino."
+                }
+              ]
+            },
+            {
+              "text": "fixed si riferisce normalmente al viewport. Alcune proprietà degli antenati possono cambiare il containing block; entrambi escono dal flusso normale.",
+              "runs": [
+                {
+                  "text": "fixed",
+                  "mono": true
+                },
+                {
+                  "text": " si riferisce normalmente al viewport. Alcune proprietà degli antenati possono cambiare il containing block; entrambi escono dal flusso normale."
+                }
+              ]
+            }
+          ],
+          "code": null,
+          "example": "original:position-out"
+        }
+      }
+    ],
+    "sourceSlide": 23,
+    "number": 23,
+    "part": 1,
+    "parts": 1,
+    "sourceSlides": [
+      23
+    ],
+    "layout": "original"
+  },
+  {
+    "kind": "content",
+    "title": "Centrare elementi e testo",
     "blocks": [
       {
         "kind": "text",
@@ -3441,240 +1404,68 @@
       }
     ],
     "sourceSlide": 24,
-    "number": 39,
+    "number": 24,
     "part": 1,
-    "parts": 1
-  },
-  {
-    "kind": "content",
-    "title": "Esercizio 2",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "Replicate gli elementi che vedete nella slide successiva",
-            "runs": [
-              {
-                "text": "Replicate gli elementi che vedete nella slide successiva"
-              }
-            ],
-            "bullet": true,
-            "level": 0
-          },
-          {
-            "text": "Non è necessario che il layout sia responsive",
-            "runs": [
-              {
-                "text": "Non è necessario che il layout sia responsive"
-              }
-            ],
-            "bullet": true,
-            "level": 0
-          },
-          {
-            "text": "Cercate di sfruttare tutte le caratteristiche del box model viste fino ad ora",
-            "runs": [
-              {
-                "text": "Cercate di sfruttare tutte le caratteristiche del box model viste fino ad ora"
-              }
-            ],
-            "bullet": true,
-            "level": 0
-          },
-          {
-            "text": "Potete usare flex se lo ritenete più comodo",
-            "runs": [
-              {
-                "text": "Potete usare flex se lo ritenete più comodo"
-              }
-            ],
-            "bullet": true,
-            "level": 0
-          }
-        ]
-      }
-    ],
-    "sourceSlide": 25,
-    "number": 40,
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "kind": "content",
-    "title": "Esercizio 2 · esempio",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus. Proin id egestas turpis, quis semper est. Suspendisse fringilla dui eu egestas ",
-            "runs": [
-              {
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus. Proin id egestas turpis, quis semper est. Suspendisse fringilla dui eu egestas "
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "dignissim. Suspendisse commodo magna in enim consequat elementum. Aliquam vehicula diam vitae justo porta dapibus. Morbi ligula dui, sodales id mauris ac, congue convallis mauris. ",
-            "runs": [
-              {
-                "text": "dignissim. Suspendisse commodo magna in enim consequat elementum. Aliquam vehicula diam vitae justo porta dapibus. Morbi ligula dui, sodales id mauris ac, congue convallis mauris. "
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus. ",
-            "runs": [
-              {
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus. "
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      }
-    ],
-    "sourceSlide": 26,
-    "number": 41,
-    "part": 1,
-    "parts": 2
-  },
-  {
-    "kind": "content",
-    "title": "Esercizio 2 · esempio",
-    "blocks": [
-      {
-        "kind": "native",
-        "example": "02-026-diagram.webp",
-        "caption": "L’esercizio mostra il testo che scorre accanto a un elemento flottante."
-      }
-    ],
-    "sourceSlide": 26,
-    "number": 42,
-    "part": 2,
-    "parts": 2
+    "parts": 1,
+    "sourceSlides": [
+      24
+    ]
   },
   {
     "kind": "divider",
     "title": "Flexbox",
     "blocks": [],
     "sourceSlide": 27,
-    "number": 43,
+    "number": 25,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      27
+    ]
   },
   {
     "kind": "content",
     "title": "Flexbox layout",
     "blocks": [
       {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "Contenitore",
-            "runs": [
-              {
-                "text": "Contenitore",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "Contenitore"
-      },
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "Flexbox ha l’obiettivo di fornire un modo più efficiente di disporre, allineare, e distribuire lo spazio tra gli oggetti all’interno dei loro contenitori, anche quando le loro dimensioni sono sconosciute e/o dinamiche",
-            "runs": [
-              {
-                "text": "Flexbox ha l’obiettivo di fornire un modo più efficiente di disporre, allineare, e distribuire lo spazio tra gli oggetti all’interno dei loro contenitori, anche quando le loro dimensioni sono sconosciute e/o dinamiche"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "Oggetto",
-            "runs": [
-              {
-                "text": "Oggetto",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "Oggetto"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "Oggetto",
-            "runs": [
-              {
-                "text": "Oggetto",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "Oggetto"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "Oggetto",
-            "runs": [
-              {
-                "text": "Oggetto",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "Oggetto"
+        "kind": "original-layout",
+        "content": {
+          "label": null,
+          "paragraphs": [
+            {
+              "text": "Flexbox ha l’obiettivo di fornire un modo più efficiente di disporre, allineare, e distribuire lo spazio tra gli oggetti all’interno dei loro contenitori, anche quando le loro dimensioni sono sconosciute e/o dinamiche",
+              "runs": [
+                {
+                  "text": "Flexbox ha l’obiettivo di fornire un modo più efficiente di disporre, allineare, e distribuire lo spazio tra gli oggetti all’interno dei loro contenitori, anche quando le loro dimensioni sono sconosciute e/o dinamiche"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            }
+          ],
+          "code": null,
+          "example": "original:flex-container"
+        }
       }
     ],
     "sourceSlide": 28,
-    "number": 44,
+    "number": 26,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      28
+    ],
+    "sources": [
+      {
+        "title": "MDN · display",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/display"
+      }
+    ],
+    "layout": "original"
   },
   {
     "kind": "content",
-    "title": "Proprietà per il genitore",
+    "title": "Le proprietà del contenitore flex",
     "blocks": [
       {
         "kind": "text",
@@ -3758,1201 +1549,498 @@
       }
     ],
     "sourceSlide": 29,
-    "number": 45,
+    "number": 27,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      29
+    ]
   },
   {
     "kind": "content",
     "title": "Proprietà per il genitore",
     "blocks": [
       {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "flex-direction",
-            "runs": [
-              {
-                "text": "flex-direction",
-                "bold": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Stabilisce l’asse principale, ovvero la direzione degli oggetti nel container flex. Gli oggetti si dispongono principalmente su righe orizzontali o colonne verticali",
-            "runs": [
-              {
-                "text": "Stabilisce l’asse principale, ovvero la direzione degli oggetti nel container flex. Gli oggetti si dispongono principalmente su righe orizzontali o colonne verticali"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": ".container {",
-            "runs": [
-              {
-                "text": ".container",
-                "mono": true
-              },
-              {
-                "text": " {",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  flex-direction: row | row-reverse |",
-            "runs": [
-              {
-                "text": "  flex-direction: row | row-reverse |",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": " \t\t\t column | column-reverse;",
-            "runs": [
-              {
-                "text": " \t\t\t column | column-reverse;",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "}",
-            "runs": [
-              {
-                "text": "}",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": ".container {\n  flex-direction: row | row-reverse |\n \t\t\t column | column-reverse;\n}"
+        "kind": "original-layout",
+        "content": {
+          "label": "flex-direction",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-direction",
+          "paragraphs": [
+            {
+              "text": "Stabilisce l’asse principale, ovvero la direzione degli oggetti nel container flex. Gli oggetti si dispongono principalmente su righe orizzontali o colonne verticali",
+              "runs": [
+                {
+                  "text": "Stabilisce l’asse principale, ovvero la direzione degli oggetti nel container flex. Gli oggetti si dispongono principalmente su righe orizzontali o colonne verticali"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            }
+          ],
+          "code": ".container {\n  flex-direction: row | row-reverse |\n        column | column-reverse;\n}",
+          "example": "original:direction"
+        }
       }
     ],
     "sourceSlide": 30,
-    "number": 46,
+    "number": 28,
     "part": 1,
-    "parts": 2
-  },
-  {
-    "kind": "content",
-    "title": "Proprietà per il genitore",
-    "blocks": [
-      {
-        "kind": "native",
-        "example": "02-030-diagram.webp",
-        "caption": "Gli oggetti sono disposti lungo l’asse principale scelto da flex-direction."
-      }
+    "parts": 1,
+    "sourceSlides": [
+      30
     ],
-    "sourceSlide": 30,
-    "number": 47,
-    "part": 2,
-    "parts": 2
+    "layout": "original"
   },
   {
     "kind": "content",
     "title": "Proprietà per il genitore",
     "blocks": [
       {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "flex-wrap",
-            "runs": [
-              {
-                "text": "flex-wrap",
-                "bold": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Gli oggetti flex tenteranno di incastrarsi in una sola fila",
-            "runs": [
-              {
-                "text": "Gli oggetti flex tenteranno di incastrarsi in una sola fila"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Si può cambiare questo comportamento con flex-wrap: wrap",
-            "runs": [
-              {
-                "text": "Si può cambiare questo comportamento con "
-              },
-              {
-                "text": "flex-wrap: wrap",
-                "bold": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": ".container {",
-            "runs": [
-              {
-                "text": ".container",
-                "mono": true
-              },
-              {
-                "text": " {",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  flex-wrap: nowrap | wrap | wrap-reverse;",
-            "runs": [
-              {
-                "text": "  flex-wrap: nowrap | wrap | wrap-reverse;",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "}",
-            "runs": [
-              {
-                "text": "}",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": ".container {\n  flex-wrap: nowrap | wrap | wrap-reverse;\n}"
+        "kind": "original-layout",
+        "content": {
+          "label": "flex-wrap",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-wrap",
+          "paragraphs": [
+            {
+              "text": "Gli oggetti flex tenteranno di incastrarsi in una sola fila",
+              "runs": [
+                {
+                  "text": "Gli oggetti flex tenteranno di incastrarsi in una sola fila"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            },
+            {
+              "text": "Si può cambiare questo comportamento con flex-wrap: wrap",
+              "runs": [
+                {
+                  "text": "Si può cambiare questo comportamento con "
+                },
+                {
+                  "text": "flex-wrap: wrap",
+                  "bold": true
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            }
+          ],
+          "code": ".container {\n  flex-wrap: nowrap | wrap | wrap-reverse;\n}",
+          "example": "original:wrap"
+        }
       }
     ],
     "sourceSlide": 31,
-    "number": 48,
+    "number": 29,
     "part": 1,
-    "parts": 2
-  },
-  {
-    "kind": "content",
-    "title": "Proprietà per il genitore",
-    "blocks": [
-      {
-        "kind": "native",
-        "example": "02-031-diagram.webp",
-        "caption": "Gli stessi sei oggetti restano su una riga o vanno a capo."
-      }
+    "parts": 1,
+    "sourceSlides": [
+      31
     ],
-    "sourceSlide": 31,
-    "number": 49,
-    "part": 2,
-    "parts": 2
+    "layout": "original"
   },
   {
     "kind": "content",
     "title": "Proprietà per il genitore",
     "blocks": [
       {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "flex-flow",
-            "runs": [
-              {
-                "text": "flex-flow",
-                "bold": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Si tratta di una forma contratta che permette di definire direction e wrap in una sola dichiarazione",
-            "runs": [
-              {
-                "text": "Si tratta di una forma contratta che permette di definire direction e wrap in una sola dichiarazione"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": ".container {",
-            "runs": [
-              {
-                "text": ".container",
-                "mono": true
-              },
-              {
-                "text": " {",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  flex-flow: column wrap;",
-            "runs": [
-              {
-                "text": "  ",
-                "mono": true
-              },
-              {
-                "text": "flex-flow: column wrap;",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "}",
-            "runs": [
-              {
-                "text": "}",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": ".container {\n  flex-flow: column wrap;\n}"
+        "kind": "original-layout",
+        "content": {
+          "label": "flex-flow",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-flow",
+          "paragraphs": [
+            {
+              "text": "Si tratta di una forma contratta che permette di definire direction e wrap in una sola dichiarazione",
+              "runs": [
+                {
+                  "text": "Si tratta di una forma contratta che permette di definire direction e wrap in una sola dichiarazione"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            }
+          ],
+          "code": ".container {\n  flex-flow: column wrap;\n}",
+          "example": null
+        }
       }
     ],
     "sourceSlide": 32,
-    "number": 50,
+    "number": 30,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      32
+    ],
+    "layout": "original"
   },
   {
     "kind": "content",
     "title": "Proprietà per il genitore",
     "blocks": [
       {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "flex-start",
-            "runs": [
-              {
-                "text": "flex-start",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "flex-start"
-      },
+        "kind": "original-layout",
+        "content": {
+          "label": "justify-content",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/justify-content",
+          "paragraphs": [
+            {
+              "text": "Definisce l’allineamento lungo l’asse principale (quella orizzontale se la direzione è row). Aiuta a gestire lo spazio libero",
+              "runs": [
+                {
+                  "text": "Definisce l’allineamento lungo l’asse principale (quella orizzontale se la direzione è row). Aiuta a gestire lo spazio libero"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            },
+            {
+              "text": "Di default è impostato su flex-start",
+              "runs": [
+                {
+                  "text": "Di default è impostato su "
+                },
+                {
+                  "text": "flex-start",
+                  "bold": true
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            }
+          ],
+          "code": ".container {\n  justify-content:\n    flex-start | flex-end | center |\n    space-between | space-around |\n    space-evenly | start | end | left;\n}",
+          "example": "original:justify"
+        }
+      }
+    ],
+    "sourceSlide": 33,
+    "number": 31,
+    "part": 1,
+    "parts": 1,
+    "sourceSlides": [
+      33
+    ],
+    "layout": "original"
+  },
+  {
+    "kind": "content",
+    "title": "Justify-content: distribuire lo spazio",
+    "blocks": [
       {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "justify-content",
-            "runs": [
-              {
-                "text": "justify-content",
-                "bold": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Definisce l’allineamento lungo l’asse principale (quella orizzontale se la direzione è row). Aiuta a gestire lo spazio libero",
-            "runs": [
-              {
-                "text": "Definisce l’allineamento lungo l’asse principale (quella orizzontale se la direzione è row). Aiuta a gestire lo spazio libero"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Di default è impostato su flex-start",
-            "runs": [
-              {
-                "text": "Di default è impostato su "
-              },
-              {
-                "text": "flex-start",
-                "bold": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "flex-end",
-            "runs": [
-              {
-                "text": "flex-end",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "flex-end"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "center ",
-            "runs": [
-              {
-                "text": "center ",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "center"
-      }
-    ],
-    "sourceSlide": 33,
-    "number": 51,
-    "part": 1,
-    "parts": 3
-  },
-  {
-    "kind": "content",
-    "title": "Proprietà per il genitore",
-    "blocks": [
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": ".container {",
-            "runs": [
-              {
-                "text": ".container",
-                "mono": true
-              },
-              {
-                "text": " {",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  justify-content: flex-start | flex-end |",
-            "runs": [
-              {
-                "text": "  ",
-                "mono": true
-              },
-              {
-                "text": "justify-content: flex-start | flex-end |",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": " \t\t\t  center | space-between | ",
-            "runs": [
-              {
-                "text": " \t\t\t  center | space-between | ",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  space-around | ",
-            "runs": [
-              {
-                "text": "  space-around | ",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  space-evenly | start | ",
-            "runs": [
-              {
-                "text": "  space-evenly | start | ",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  end | left;",
-            "runs": [
-              {
-                "text": "  end | left;",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "}",
-            "runs": [
-              {
-                "text": "}",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": ".container {\n  justify-content: flex-start | flex-end |\n \t\t\t  center | space-between | \n  space-around | \n  space-evenly | start | \n  end | left;\n}"
-      }
-    ],
-    "sourceSlide": 33,
-    "number": 52,
-    "part": 2,
-    "parts": 3
-  },
-  {
-    "kind": "content",
-    "title": "Proprietà per il genitore",
-    "blocks": [
-      {
-        "kind": "native",
-        "example": "02-033-diagram.webp",
-        "caption": "L’allineamento cambia lungo l’asse principale."
-      }
-    ],
-    "sourceSlide": 33,
-    "number": 53,
-    "part": 3,
-    "parts": 3
-  },
-  {
-    "kind": "content",
-    "title": "Proprietà per il genitore",
-    "blocks": [
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "space-between",
+            "text": "space-between: primo e ultimo elemento sui margini, spazio uguale tra gli elementi",
             "runs": [
               {
                 "text": "space-between",
                 "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "space-between"
-      },
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "justify-content",
-            "runs": [
+              },
               {
-                "text": "justify-content",
-                "bold": true
+                "text": ": primo e ultimo elemento sui margini, spazio uguale tra gli elementi"
               }
             ],
-            "bullet": false,
+            "bullet": true,
             "level": 0
           },
           {
-            "text": "space-between dispone il primo e l’ultimo elemento all’inizio e alla fine della linea",
-            "runs": [
-              {
-                "text": "space-between",
-                "bold": true
-              },
-              {
-                "text": " dispone il primo e l’ultimo elemento all’inizio e alla fine della linea"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "space-around inserisce un’unità di spazio a destra e a sinistra di ogni elemento (es . il primo avrà  1 unità di spazio di distanza dai margini della linea, ma tra il primo e il secondo ci saranno 2 unità di spazio)",
-            "runs": [
-              {
-                "text": "space-around",
-                "bold": true
-              },
-              {
-                "text": " inserisce un’unità di spazio a destra e a sinistra di ogni elemento (es . il primo avrà  1 unità di spazio di distanza dai margini della linea, ma tra il primo e il secondo ci saranno 2 unità di spazio)"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "space-evenly assegna lo stesso spazio a destra e sinistra, anche agli elementi accanto ai margini",
-            "runs": [
-              {
-                "text": "space-evenly ",
-                "bold": true
-              },
-              {
-                "text": "assegna lo stesso spazio a destra e sinistra, anche agli elementi accanto ai margini"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      }
-    ],
-    "sourceSlide": 34,
-    "number": 54,
-    "part": 1,
-    "parts": 3
-  },
-  {
-    "kind": "content",
-    "title": "Proprietà per il genitore",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "https://codepen.io/team/css-tricks/pen/zzJMGJ",
-            "runs": [
-              {
-                "text": "https://codepen.io/team/css-tricks/pen/zzJMGJ",
-                "underline": true,
-                "href": "https://codepen.io/team/css-tricks/pen/zzJMGJ"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "space-around",
+            "text": "space-around: stesso spazio su entrambi i lati di ogni elemento; tra due elementi lo spazio è doppio rispetto ai margini",
             "runs": [
               {
                 "text": "space-around",
                 "mono": true
+              },
+              {
+                "text": ": stesso spazio su entrambi i lati di ogni elemento; tra due elementi lo spazio è doppio rispetto ai margini"
               }
             ],
-            "bullet": false,
+            "bullet": true,
             "level": 0
-          }
-        ],
-        "text": "space-around"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
+          },
           {
-            "text": "space-evenly",
+            "text": "space-evenly: stesso spazio tra gli elementi e sui margini",
             "runs": [
               {
                 "text": "space-evenly",
                 "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "space-evenly"
-      }
-    ],
-    "sourceSlide": 34,
-    "number": 55,
-    "part": 2,
-    "parts": 3
-  },
-  {
-    "kind": "content",
-    "title": "Proprietà per il genitore",
-    "blocks": [
-      {
-        "kind": "native",
-        "example": "02-034-diagram.webp",
-        "caption": "Confronta lo spazio fra gli oggetti e quello sui margini esterni."
-      }
-    ],
-    "sourceSlide": 34,
-    "number": 56,
-    "part": 3,
-    "parts": 3
-  },
-  {
-    "kind": "content",
-    "title": "Proprietà per il genitore",
-    "blocks": [
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "stretch ",
-            "runs": [
-              {
-                "text": "stretch ",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "stretch"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "flex-start",
-            "runs": [
-              {
-                "text": "flex-start",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "flex-start"
-      },
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "align-items",
-            "runs": [
-              {
-                "text": "align-items",
-                "bold": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Definisce il modo in cui gli oggetti sono disposti lungo l’asse perpendicolare (si tratta dell’asse verticale se la direzione è row). Di default è impostato su stretch",
-            "runs": [
-              {
-                "text": "Definisce il modo in cui gli oggetti sono disposti lungo l’asse perpendicolare (si tratta dell’asse verticale se la direzione è row). Di default è impostato su "
               },
               {
-                "text": "stretch",
-                "bold": true
+                "text": ": stesso spazio tra gli elementi e sui margini"
               }
             ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "baseline fa in modo che le linee di base del testo siano allineate",
-            "runs": [
-              {
-                "text": "baseline ",
-                "bold": true
-              },
-              {
-                "text": "fa in modo che le linee di base del testo siano allineate"
-              }
-            ],
-            "bullet": false,
+            "bullet": true,
             "level": 0
           }
         ]
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "flex-end",
-            "runs": [
-              {
-                "text": "flex-end",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "flex-end"
       }
     ],
-    "sourceSlide": 35,
-    "number": 57,
+    "sourceSlide": 34,
+    "number": 32,
     "part": 1,
-    "parts": 3
+    "parts": 1,
+    "sourceSlides": [
+      34
+    ],
+    "sources": [
+      {
+        "title": "https://codepen.io/team/css-tricks/pen/zzJMGJ",
+        "url": "https://codepen.io/team/css-tricks/pen/zzJMGJ"
+      }
+    ]
   },
   {
     "kind": "content",
     "title": "Proprietà per il genitore",
     "blocks": [
       {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "center ",
-            "runs": [
-              {
-                "text": "center ",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "center"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": ".container {",
-            "runs": [
-              {
-                "text": ".container",
-                "mono": true
-              },
-              {
-                "text": " {",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  align-items: stretch | flex-start |",
-            "runs": [
-              {
-                "text": "  a",
-                "mono": true
-              },
-              {
-                "text": "lign-items: stretch | flex-start |",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "   flex-end | center |",
-            "runs": [
-              {
-                "text": "   flex-end | center |",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "   baseline;",
-            "runs": [
-              {
-                "text": "   baseline;",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "}",
-            "runs": [
-              {
-                "text": "}",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": ".container {\n  align-items: stretch | flex-start |\n   flex-end | center |\n   baseline;\n}"
+        "kind": "original-layout",
+        "content": {
+          "label": "justify-content",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/justify-content",
+          "paragraphs": [
+            {
+              "text": "space-between dispone il primo e l’ultimo elemento all’inizio e alla fine della linea",
+              "runs": [
+                {
+                  "text": "space-between",
+                  "bold": true
+                },
+                {
+                  "text": " dispone il primo e l’ultimo elemento all’inizio e alla fine della linea"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            },
+            {
+              "text": "space-around inserisce un’unità di spazio a destra e a sinistra di ogni elemento (es . il primo avrà  1 unità di spazio di distanza dai margini della linea, ma tra il primo e il secondo ci saranno 2 unità di spazio)",
+              "runs": [
+                {
+                  "text": "space-around",
+                  "bold": true
+                },
+                {
+                  "text": " inserisce un’unità di spazio a destra e a sinistra di ogni elemento (es . il primo avrà  1 unità di spazio di distanza dai margini della linea, ma tra il primo e il secondo ci saranno 2 unità di spazio)"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            },
+            {
+              "text": "space-evenly assegna lo stesso spazio a destra e sinistra, anche agli elementi accanto ai margini",
+              "runs": [
+                {
+                  "text": "space-evenly ",
+                  "bold": true
+                },
+                {
+                  "text": "assegna lo stesso spazio a destra e sinistra, anche agli elementi accanto ai margini"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            }
+          ],
+          "code": null,
+          "example": "original:spacing"
+        }
       }
     ],
-    "sourceSlide": 35,
-    "number": 58,
-    "part": 2,
-    "parts": 3
-  },
-  {
-    "kind": "content",
-    "title": "Proprietà per il genitore",
-    "blocks": [
-      {
-        "kind": "native",
-        "example": "02-035-diagram.webp",
-        "caption": "L’allineamento cambia sull’asse trasversale del contenitore."
-      }
-    ],
-    "sourceSlide": 35,
-    "number": 59,
-    "part": 3,
-    "parts": 3
-  },
-  {
-    "kind": "content",
-    "title": "Proprietà per il genitore",
-    "blocks": [
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "flex-start",
-            "runs": [
-              {
-                "text": "flex-start",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "flex-start"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "flex-end",
-            "runs": [
-              {
-                "text": "flex-end",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "flex-end"
-      },
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "align-content",
-            "runs": [
-              {
-                "text": "align-content",
-                "bold": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Organizza le righe di elementi sull’asse perpendicolare",
-            "runs": [
-              {
-                "text": "Organizza le righe di elementi sull’asse perpendicolare"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Non ha effetto se c’è una sola riga",
-            "runs": [
-              {
-                "text": "Non ha effetto se c’è una sola riga"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "stretch ",
-            "runs": [
-              {
-                "text": "stretch ",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "stretch"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "space-between",
-            "runs": [
-              {
-                "text": "space-between",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "space-between"
-      }
-    ],
-    "sourceSlide": 36,
-    "number": 60,
+    "sourceSlide": 34,
+    "number": 33,
     "part": 1,
-    "parts": 3
+    "parts": 1,
+    "sourceSlides": [
+      34
+    ],
+    "layout": "original"
   },
   {
     "kind": "content",
     "title": "Proprietà per il genitore",
     "blocks": [
       {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": ".container {",
-            "runs": [
-              {
-                "text": ".container",
-                "mono": true
-              },
-              {
-                "text": " {",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  align-content: flex-start | flex-end |",
-            "runs": [
-              {
-                "text": "  ",
-                "mono": true
-              },
-              {
-                "text": "align-content: flex-start | flex-end |",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "center | space-between |",
-            "runs": [
-              {
-                "text": "center | space-between |",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "space-around |",
-            "runs": [
-              {
-                "text": "space-around |",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "space-evenly | stretch |",
-            "runs": [
-              {
-                "text": "space-evenly | stretch |",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "start | end | baseline;",
-            "runs": [
-              {
-                "text": "start | end | baseline;",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "}",
-            "runs": [
-              {
-                "text": "}",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": ".container {\n  align-content: flex-start | flex-end |\ncenter | space-between |\nspace-around |\nspace-evenly | stretch |\nstart | end | baseline;\n}"
+        "kind": "original-layout",
+        "content": {
+          "label": "align-items",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items",
+          "paragraphs": [
+            {
+              "text": "Definisce il modo in cui gli oggetti sono disposti lungo l’asse perpendicolare (si tratta dell’asse verticale se la direzione è row). Di default è impostato su stretch",
+              "runs": [
+                {
+                  "text": "Definisce il modo in cui gli oggetti sono disposti lungo l’asse perpendicolare (si tratta dell’asse verticale se la direzione è row). Di default è impostato su "
+                },
+                {
+                  "text": "stretch",
+                  "bold": true
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            },
+            {
+              "text": "baseline fa in modo che le linee di base del testo siano allineate",
+              "runs": [
+                {
+                  "text": "baseline ",
+                  "bold": true
+                },
+                {
+                  "text": "fa in modo che le linee di base del testo siano allineate"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            }
+          ],
+          "code": ".container {\n  align-items: stretch | flex-start |\n   flex-end | center |\n   baseline;\n}",
+          "example": "original:items"
+        }
       }
     ],
-    "sourceSlide": 36,
-    "number": 61,
-    "part": 2,
-    "parts": 3
+    "sourceSlide": 35,
+    "number": 34,
+    "part": 1,
+    "parts": 1,
+    "sourceSlides": [
+      35
+    ],
+    "layout": "original"
   },
   {
     "kind": "content",
     "title": "Proprietà per il genitore",
     "blocks": [
       {
-        "kind": "native",
-        "example": "02-036-diagram.webp",
-        "caption": "align-content distribuisce le righe quando il contenitore offre spazio trasversale."
+        "kind": "original-layout",
+        "content": {
+          "label": "align-content",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-content",
+          "paragraphs": [
+            {
+              "text": "Organizza le righe di elementi sull’asse perpendicolare",
+              "runs": [
+                {
+                  "text": "Organizza le righe di elementi sull’asse perpendicolare"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            },
+            {
+              "text": "Non ha effetto se c’è una sola riga",
+              "runs": [
+                {
+                  "text": "Non ha effetto se c’è una sola riga"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            }
+          ],
+          "code": ".container {\n  align-content: flex-start | flex-end |\ncenter | space-between |\nspace-around |\nspace-evenly | stretch |\nstart | end | baseline;\n}",
+          "example": "original:content"
+        }
       }
     ],
     "sourceSlide": 36,
-    "number": 62,
-    "part": 3,
-    "parts": 3
+    "number": 35,
+    "part": 1,
+    "parts": 1,
+    "sourceSlides": [
+      36
+    ],
+    "layout": "original"
   },
   {
     "kind": "content",
     "title": "align-items vs align-content",
     "blocks": [
       {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "La differenza si percepisce quando ci sono più righe ",
-            "runs": [
-              {
-                "text": "La differenza si percepisce quando ci sono più righe "
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "align-items dispone gli elementi rispetto alla riga (se viene impostato su flex-end, ad esempio, gli elementi si posizionano attaccandosi al fondo della riga)",
-            "runs": [
-              {
-                "text": "align-items",
-                "bold": true
-              },
-              {
-                "text": " dispone gli elementi rispetto alla riga (se viene impostato su flex-end, ad esempio, gli elementi si posizionano attaccandosi al fondo della riga)"
-              }
-            ],
-            "bullet": true,
-            "level": 0
-          },
-          {
-            "text": "align-content gestisce lo spazio tra una riga e le altre",
-            "runs": [
-              {
-                "text": "align-content",
-                "bold": true
-              },
-              {
-                "text": " gestisce lo spazio tra una riga e le altre"
-              }
-            ],
-            "bullet": true,
-            "level": 0
-          },
-          {
-            "text": "Provate a modificare le proprietà qua: https://codepen.io/asim-coder/pen/WrMNWR",
-            "runs": [
-              {
-                "text": "Provate a modificare le proprietà qua: "
-              },
-              {
-                "text": "https://codepen.io/asim-coder/pen/WrMNWR",
-                "underline": true,
-                "href": "https://codepen.io/asim-coder/pen/WrMNWR"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
+        "kind": "original-layout",
+        "content": {
+          "label": null,
+          "paragraphs": [
+            {
+              "text": "La differenza si percepisce quando ci sono più righe ",
+              "runs": [
+                {
+                  "text": "La differenza si percepisce quando ci sono più righe "
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            },
+            {
+              "text": "align-items dispone gli elementi rispetto alla riga (se viene impostato su flex-end, ad esempio, gli elementi si posizionano attaccandosi al fondo della riga)",
+              "runs": [
+                {
+                  "text": "align-items",
+                  "bold": true
+                },
+                {
+                  "text": " dispone gli elementi rispetto alla riga (se viene impostato su flex-end, ad esempio, gli elementi si posizionano attaccandosi al fondo della riga)"
+                }
+              ],
+              "bullet": true,
+              "level": 0
+            },
+            {
+              "text": "align-content gestisce lo spazio tra una riga e le altre",
+              "runs": [
+                {
+                  "text": "align-content",
+                  "bold": true
+                },
+                {
+                  "text": " gestisce lo spazio tra una riga e le altre"
+                }
+              ],
+              "bullet": true,
+              "level": 0
+            },
+            {
+              "text": "Provate a modificare le proprietà qua: https://codepen.io/asim-coder/pen/WrMNWR",
+              "runs": [
+                {
+                  "text": "Provate a modificare le proprietà qua: "
+                },
+                {
+                  "text": "https://codepen.io/asim-coder/pen/WrMNWR",
+                  "underline": true,
+                  "href": "https://codepen.io/asim-coder/pen/WrMNWR"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            }
+          ],
+          "code": null,
+          "example": "original:alignment"
+        }
       }
     ],
     "sourceSlide": 37,
-    "number": 63,
+    "number": 36,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      37
+    ],
+    "sources": [
+      {
+        "title": "MDN · display",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items"
+      }
+    ],
+    "layout": "original"
   },
   {
     "kind": "content",
-    "title": "Proprietà per i figli",
+    "title": "Le proprietà degli elementi flex",
     "blocks": [
       {
         "kind": "text",
@@ -5011,845 +2099,319 @@
       }
     ],
     "sourceSlide": 38,
-    "number": 64,
+    "number": 37,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      38
+    ]
   },
   {
     "kind": "content",
     "title": "Proprietà per i figli",
     "blocks": [
       {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "order",
-            "runs": [
-              {
-                "text": "order",
-                "bold": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Può modificare l’ordine in cui compaiono gli elementi. ",
-            "runs": [
-              {
-                "text": "Può modificare l’ordine in cui compaiono gli elementi. "
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Di base, questi si dispongono seguendo l’ordine in cui compaiono nel codice. ",
-            "runs": [
-              {
-                "text": "Di base, questi si dispongono seguendo l’ordine in cui compaiono nel codice. "
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Se un elemento ha, ad esempio, order: 4, questo tenterà di disporsi per quarto",
-            "runs": [
-              {
-                "text": "Se un elemento ha, ad esempio, "
-              },
-              {
-                "text": "order: 4",
-                "bold": true
-              },
-              {
-                "text": ", questo tenterà di disporsi per quarto"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": ".item {",
-            "runs": [
-              {
-                "text": ".item",
-                "mono": true
-              },
-              {
-                "text": " {",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  order: 4; /* default 0 */",
-            "runs": [
-              {
-                "text": "  ",
-                "mono": true
-              },
-              {
-                "text": "order: ",
-                "mono": true
-              },
-              {
-                "text": "4",
-                "mono": true
-              },
-              {
-                "text": "; ",
-                "mono": true
-              },
-              {
-                "text": "/* default 0 */",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "}",
-            "runs": [
-              {
-                "text": "}",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": ".item {\n  order: 4; /* default 0 */\n}"
+        "kind": "original-layout",
+        "content": {
+          "label": "order",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/order",
+          "paragraphs": [
+            {
+              "text": "Il valore iniziale è 0. Gli elementi sono ordinati per valore crescente; a parità di valore conservano l’ordine del documento.",
+              "runs": [
+                {
+                  "text": "Il valore iniziale è "
+                },
+                {
+                  "text": "0",
+                  "mono": true
+                },
+                {
+                  "text": ". Gli elementi sono ordinati per valore crescente; a parità di valore conservano l’ordine del documento."
+                }
+              ]
+            },
+            {
+              "text": "order: 4 non significa “quarto posto”. Cambia l’ordine visivo, lasciando invariati ordine del DOM e navigazione da tastiera.",
+              "runs": [
+                {
+                  "text": "order: 4",
+                  "mono": true
+                },
+                {
+                  "text": " non significa “quarto posto”. Cambia l’ordine visivo, lasciando invariati ordine del DOM e navigazione da tastiera."
+                }
+              ]
+            }
+          ],
+          "code": ".item {\n  order: 4; /* default 0 */\n}",
+          "example": null
+        }
       }
     ],
     "sourceSlide": 39,
-    "number": 65,
+    "number": 38,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      39
+    ],
+    "layout": "original"
   },
   {
     "kind": "content",
     "title": "Proprietà per i figli",
     "blocks": [
       {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "flex-grow",
-            "runs": [
-              {
-                "text": "flex-grow",
-                "bold": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Permette ad un oggetto di crescere, se necessario. Accetta un valore che funge da proporzione ",
-            "runs": [
-              {
-                "text": "Permette ad un oggetto di crescere, se necessario. Accetta un valore che funge da proporzione "
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Se tutti gli oggetti hanno flex-grow: 1, lo spazio sarà distribuito in modo equo. Un oggetto con valore 2 prenderà il doppio dello spazio",
-            "runs": [
-              {
-                "text": "Se tutti gli oggetti hanno "
-              },
-              {
-                "text": "flex-grow: 1",
-                "bold": true
-              },
-              {
-                "text": ", lo spazio sarà distribuito in modo equo. Un oggetto con valore 2 prenderà il doppio dello spazio"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "flex-grow: 4",
-            "runs": [
-              {
-                "text": "flex-grow: ",
-                "mono": true
-              },
-              {
-                "text": "4",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "flex-grow: 4"
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": ".item {",
-            "runs": [
-              {
-                "text": ".item",
-                "mono": true
-              },
-              {
-                "text": " {",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  flex-grow: 4; /* default 0 */",
-            "runs": [
-              {
-                "text": "  flex-grow: ",
-                "mono": true
-              },
-              {
-                "text": "4",
-                "mono": true
-              },
-              {
-                "text": "; ",
-                "mono": true
-              },
-              {
-                "text": "/* default 0 */",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "}",
-            "runs": [
-              {
-                "text": "}",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": ".item {\n  flex-grow: 4; /* default 0 */\n}"
+        "kind": "original-layout",
+        "content": {
+          "label": "flex-grow",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-grow",
+          "paragraphs": [
+            {
+              "text": "Il valore iniziale è 0. Un valore positivo permette di crescere: lo spazio libero è distribuito in proporzione ai fattori di crescita.",
+              "runs": [
+                {
+                  "text": "Il valore iniziale è "
+                },
+                {
+                  "text": "0",
+                  "mono": true
+                },
+                {
+                  "text": ". Un valore positivo permette di crescere: lo spazio libero è distribuito in proporzione ai fattori di crescita."
+                }
+              ]
+            },
+            {
+              "text": "Con basi uguali, un fattore 2 riceve il doppio dello spazio libero di un fattore 1, non necessariamente il doppio della larghezza finale.",
+              "runs": [
+                {
+                  "text": "Con basi uguali, un fattore "
+                },
+                {
+                  "text": "2",
+                  "mono": true
+                },
+                {
+                  "text": " riceve il doppio dello spazio libero di un fattore "
+                },
+                {
+                  "text": "1",
+                  "mono": true
+                },
+                {
+                  "text": ", non necessariamente il doppio della larghezza finale."
+                }
+              ]
+            }
+          ],
+          "code": ".item {\n  flex-grow: 4; /* default 0 */\n}",
+          "example": "original:grow"
+        }
       }
     ],
     "sourceSlide": 40,
-    "number": 66,
+    "number": 39,
     "part": 1,
-    "parts": 2
-  },
-  {
-    "kind": "content",
-    "title": "Proprietà per i figli",
-    "blocks": [
-      {
-        "kind": "native",
-        "example": "02-040-diagram.webp",
-        "caption": "Le proporzioni riguardano lo spazio libero distribuito agli elementi."
-      }
+    "parts": 1,
+    "sourceSlides": [
+      40
     ],
-    "sourceSlide": 40,
-    "number": 67,
-    "part": 2,
-    "parts": 2
+    "layout": "original"
   },
   {
     "kind": "content",
     "title": "Proprietà per i figli",
     "blocks": [
       {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "flex-shrink",
-            "runs": [
-              {
-                "text": "flex-shrink",
-                "bold": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Imposta il fattore di restringimento di un elemento ",
-            "runs": [
-              {
-                "text": "Imposta il fattore di restringimento di un elemento "
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Se la dimensione di tutti gli elementi è maggiore del loro contenitore, gli elementi si restringono per adattarsi secondo il valore impostato di flex-shrink",
-            "runs": [
-              {
-                "text": "Se la dimensione di tutti gli elementi è maggiore del loro contenitore, gli elementi si restringono per adattarsi secondo il valore impostato di flex-shrink"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Se shrink è 0, l’elemento non si restringe",
-            "runs": [
-              {
-                "text": "Se shrink è 0, l’elemento non si restringe"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": "flex-shrink: 0",
-            "runs": [
-              {
-                "text": "flex-shrink: ",
-                "mono": true
-              },
-              {
-                "text": "0",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": "flex-shrink: 0"
+        "kind": "original-layout",
+        "content": {
+          "label": "flex-shrink",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-shrink",
+          "paragraphs": [
+            {
+              "text": "Imposta il fattore di restringimento di un elemento ",
+              "runs": [
+                {
+                  "text": "Imposta il fattore di restringimento di un elemento "
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            },
+            {
+              "text": "Se la dimensione di tutti gli elementi è maggiore del loro contenitore, gli elementi si restringono per adattarsi secondo il valore impostato di flex-shrink",
+              "runs": [
+                {
+                  "text": "Se la dimensione di tutti gli elementi è maggiore del loro contenitore, gli elementi si restringono per adattarsi secondo il valore impostato di flex-shrink"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            },
+            {
+              "text": "Se shrink è 0, l’elemento non si restringe",
+              "runs": [
+                {
+                  "text": "Se shrink è 0, l’elemento non si restringe"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            }
+          ],
+          "code": ".item {\n  flex-shrink: 4; /* default 1 */\n}",
+          "example": "original:shrink"
+        }
       }
     ],
     "sourceSlide": 41,
-    "number": 68,
+    "number": 40,
     "part": 1,
-    "parts": 3
-  },
-  {
-    "kind": "content",
-    "title": "Proprietà per i figli",
-    "blocks": [
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": ".item {",
-            "runs": [
-              {
-                "text": ".item",
-                "mono": true
-              },
-              {
-                "text": " {",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  flex-shrink: 4; /* default 1 */",
-            "runs": [
-              {
-                "text": "  flex-",
-                "mono": true
-              },
-              {
-                "text": "shrink",
-                "mono": true
-              },
-              {
-                "text": ": ",
-                "mono": true
-              },
-              {
-                "text": "4",
-                "mono": true
-              },
-              {
-                "text": "; ",
-                "mono": true
-              },
-              {
-                "text": "/* default 1 */",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "}",
-            "runs": [
-              {
-                "text": "}",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": ".item {\n  flex-shrink: 4; /* default 1 */\n}"
-      }
+    "parts": 1,
+    "sourceSlides": [
+      41
     ],
-    "sourceSlide": 41,
-    "number": 69,
-    "part": 2,
-    "parts": 3
+    "layout": "original"
   },
   {
     "kind": "content",
     "title": "Proprietà per i figli",
     "blocks": [
       {
-        "kind": "native",
-        "example": "02-041-diagram.webp",
-        "caption": "L’elemento centrale conserva la propria base; gli altri assorbono la riduzione."
-      }
-    ],
-    "sourceSlide": 41,
-    "number": 70,
-    "part": 3,
-    "parts": 3
-  },
-  {
-    "kind": "content",
-    "title": "Proprietà per i figli",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "flex-basis",
-            "runs": [
-              {
-                "text": "flex-basis",
-                "bold": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Definisce la dimensione di default di un elemento prima che lo spazio rimanente del contenitore venga distribuito ",
-            "runs": [
-              {
-                "text": "Definisce la dimensione di default di un elemento prima che lo spazio rimanente del contenitore venga distribuito "
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Può essere una dimensione (20%, 5rem, etc.) o “auto”. In quest’ultimo caso vengono considerate le proprietà di larghezza e altezza dell’elemento",
-            "runs": [
-              {
-                "text": "Può essere una dimensione (20%, 5rem, etc.) o “auto”. In quest’ultimo caso vengono considerate le proprietà di larghezza e altezza dell’elemento"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": ".item {",
-            "runs": [
-              {
-                "text": ".item",
-                "mono": true
-              },
-              {
-                "text": " {",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  flex-basis: 20%; /* default auto */",
-            "runs": [
-              {
-                "text": "  ",
-                "mono": true
-              },
-              {
-                "text": "flex-basis",
-                "mono": true
-              },
-              {
-                "text": ": ",
-                "mono": true
-              },
-              {
-                "text": "20%",
-                "mono": true
-              },
-              {
-                "text": "; ",
-                "mono": true
-              },
-              {
-                "text": "/* default auto */",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "}",
-            "runs": [
-              {
-                "text": "}",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": ".item {\n  flex-basis: 20%; /* default auto */\n}"
+        "kind": "original-layout",
+        "content": {
+          "label": "flex-basis",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-basis",
+          "paragraphs": [
+            {
+              "text": "Definisce la dimensione di default di un elemento prima che lo spazio rimanente del contenitore venga distribuito ",
+              "runs": [
+                {
+                  "text": "Definisce la dimensione di default di un elemento prima che lo spazio rimanente del contenitore venga distribuito "
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            },
+            {
+              "text": "Può essere una dimensione (20%, 5rem, etc.) o “auto”. In quest’ultimo caso vengono considerate le proprietà di larghezza e altezza dell’elemento",
+              "runs": [
+                {
+                  "text": "Può essere una dimensione (20%, 5rem, etc.) o “auto”. In quest’ultimo caso vengono considerate le proprietà di larghezza e altezza dell’elemento"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            }
+          ],
+          "code": ".item {\n  flex-basis: 20%; /* default auto */\n}",
+          "example": null
+        }
       }
     ],
     "sourceSlide": 42,
-    "number": 71,
+    "number": 41,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      42
+    ],
+    "layout": "original"
   },
   {
     "kind": "content",
     "title": "Proprietà per i figli",
+    "blocks": [
+      {
+        "kind": "original-layout",
+        "content": {
+          "label": "flex-grow, flex-shrink, flex-basis",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex",
+          "paragraphs": [
+            {
+              "text": "flex-basis si utilizza molto spesso insieme alle altre due proprietà. La forma contratta flex vi permette di definire rispettivamente flex-grow, flex-shrink, flex-basis",
+              "runs": [
+                {
+                  "text": "flex-basis si utilizza molto spesso insieme alle altre due proprietà. La forma contratta flex vi permette di definire rispettivamente flex-grow, flex-shrink, flex-basis"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            }
+          ],
+          "code": ".item {\n  /* sarà minimo 200px, ma crescerà se ne avrà la possibilità */\n  flex: 1 0 200px;\n  /* sarà 200px al massimo e potrà contrarsi se necessario */\n  flex: 0 1 200px;\n  /* assumerà la dimensione dei contenuti e potrà crescere se avrà spazio */\n  flex: 1 0 auto;\n  /*default*/\n  flex: 0 1 auto;\n}",
+          "example": null
+        }
+      }
+    ],
+    "sourceSlide": 43,
+    "number": 42,
+    "part": 1,
+    "parts": 1,
+    "sourceSlides": [
+      43
+    ],
+    "layout": "original"
+  },
+  {
+    "kind": "content",
+    "title": "Proprietà per i figli",
+    "blocks": [
+      {
+        "kind": "original-layout",
+        "content": {
+          "label": "align-self",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-self",
+          "paragraphs": [
+            {
+              "text": "Permette di sovrascrivere, per un singolo elemento, la proprietà align-items impostata dal genitore",
+              "runs": [
+                {
+                  "text": "Permette di sovrascrivere, per un singolo elemento, la proprietà align-items impostata dal genitore"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            },
+            {
+              "text": "Ricordatevi che float, clear e vertical-align non avranno effetto su elementi flex",
+              "runs": [
+                {
+                  "text": "Ricordatevi che float, clear e vertical-align non avranno effetto su elementi flex"
+                }
+              ],
+              "bullet": false,
+              "level": 0
+            }
+          ],
+          "code": ".item {\n  align-self: auto | flex-start | flex-end | center | baseline | stretch;\n}",
+          "example": null
+        }
+      }
+    ],
+    "sourceSlide": 44,
+    "number": 43,
+    "part": 1,
+    "parts": 1,
+    "sourceSlides": [
+      44
+    ],
+    "layout": "original"
+  },
+  {
+    "kind": "content",
+    "title": "Esercizio 2 · Il sito con Flexbox",
     "blocks": [
       {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "flex-grow, flex-shrink, flex-basis",
+            "text": "Ripartite dal sito a tre pagine dell’esercizio 1, Home, Chi siamo e Contatti, e riorganizzate menu e gruppi di contenuti con Flexbox.",
             "runs": [
               {
-                "text": "flex-grow, flex-shrink, flex-basis",
-                "bold": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "flex-basis si utilizza molto spesso insieme alle altre due proprietà. La forma contratta flex vi permette di definire rispettivamente flex-grow, flex-shrink, flex-basis",
-            "runs": [
-              {
-                "text": "flex-basis si utilizza molto spesso insieme alle altre due proprietà. La forma contratta flex vi permette di definire rispettivamente flex-grow, flex-shrink, flex-basis"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      }
-    ],
-    "sourceSlide": 43,
-    "number": 72,
-    "part": 1,
-    "parts": 2
-  },
-  {
-    "kind": "content",
-    "title": "Proprietà per i figli",
-    "blocks": [
-      {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": ".item {",
-            "runs": [
-              {
-                "text": ".item",
-                "mono": true
-              },
-              {
-                "text": " {",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  /* sarà minimo 200px, ma crescerà se ne avrà la possibilità */",
-            "runs": [
-              {
-                "text": "  ",
-                "mono": true
-              },
-              {
-                "text": "/* sarà minimo 200px, ma crescerà se ne avrà la possibilità */",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  flex: 1 0 200px;",
-            "runs": [
-              {
-                "text": "  flex: ",
-                "mono": true
-              },
-              {
-                "text": "1",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "0",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "200px",
-                "mono": true
-              },
-              {
-                "text": ";",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  /* sarà 200px al massimo e potrà contrarsi se necessario */",
-            "runs": [
-              {
-                "text": "  ",
-                "mono": true
-              },
-              {
-                "text": "/* sarà 200px al massimo e potrà contrarsi se necessario */",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  flex: 0 1 200px;",
-            "runs": [
-              {
-                "text": "  flex: ",
-                "mono": true
-              },
-              {
-                "text": "0",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "1",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "200px",
-                "mono": true
-              },
-              {
-                "text": ";",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  /* assumerà la dimensione dei contenuti e potrà crescere se avrà spazio */",
-            "runs": [
-              {
-                "text": "  ",
-                "mono": true
-              },
-              {
-                "text": "/* assumerà la dimensione dei contenuti e potrà crescere se avrà spazio */",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  flex: 1 0 auto;",
-            "runs": [
-              {
-                "text": "  flex: ",
-                "mono": true
-              },
-              {
-                "text": "1",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "0",
-                "mono": true
-              },
-              {
-                "text": " auto;",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  /*default*/",
-            "runs": [
-              {
-                "text": "  ",
-                "mono": true
-              },
-              {
-                "text": "/*default*/",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  flex: 0 1 auto;",
-            "runs": [
-              {
-                "text": "  flex: ",
-                "mono": true
-              },
-              {
-                "text": "0",
-                "mono": true
-              },
-              {
-                "text": " ",
-                "mono": true
-              },
-              {
-                "text": "1",
-                "mono": true
-              },
-              {
-                "text": " auto;",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "}",
-            "runs": [
-              {
-                "text": "}",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": ".item {\n  /* sarà minimo 200px, ma crescerà se ne avrà la possibilità */\n  flex: 1 0 200px;\n  /* sarà 200px al massimo e potrà contrarsi se necessario */\n  flex: 0 1 200px;\n  /* assumerà la dimensione dei contenuti e potrà crescere se avrà spazio */\n  flex: 1 0 auto;\n  /*default*/\n  flex: 0 1 auto;\n}"
-      }
-    ],
-    "sourceSlide": 43,
-    "number": 73,
-    "part": 2,
-    "parts": 2
-  },
-  {
-    "kind": "content",
-    "title": "Proprietà per i figli",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "align-self",
-            "runs": [
-              {
-                "text": "align-self",
-                "bold": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Permette di sovrascrivere, per un singolo elemento, la proprietà align-items impostata dal genitore",
-            "runs": [
-              {
-                "text": "Permette di sovrascrivere, per un singolo elemento, la proprietà align-items impostata dal genitore"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Ricordatevi che float, clear e vertical-align non avranno effetto su elementi flex",
-            "runs": [
-              {
-                "text": "Ricordatevi che float, clear e vertical-align non avranno effetto su elementi flex"
+                "text": "Ripartite dal sito a tre pagine dell’esercizio 1, Home, Chi siamo e Contatti, e riorganizzate menu e gruppi di contenuti con Flexbox."
               }
             ],
             "bullet": false,
@@ -5858,120 +2420,132 @@
         ]
       },
       {
-        "kind": "code",
-        "paragraphs": [
-          {
-            "text": ".item {",
-            "runs": [
-              {
-                "text": ".item",
-                "mono": true
-              },
-              {
-                "text": " {",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "  align-self: auto | flex-start | flex-end | center | baseline | stretch;",
-            "runs": [
-              {
-                "text": "  ",
-                "mono": true
-              },
-              {
-                "text": "align-self: auto | flex-start | flex-end | center | baseline | stretch;",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "}",
-            "runs": [
-              {
-                "text": "}",
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ],
-        "text": ".item {\n  align-self: auto | flex-start | flex-end | center | baseline | stretch;\n}"
-      }
-    ],
-    "sourceSlide": 44,
-    "number": 74,
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "kind": "content",
-    "title": "Per esercitarsi e approfondire",
-    "blocks": [
-      {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Test your skills: Flexbox",
+            "text": "Conservate contenuti, collegamenti e footer; mantenete la voce attiva del menu evidenziata con ::after",
             "runs": [
               {
-                "text": "Test your skills: Flexbox",
-                "underline": true,
-                "href": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox_skills"
+                "text": "Conservate contenuti, collegamenti e footer; mantenete la voce attiva del menu evidenziata con "
+              },
+              {
+                "text": "::after",
+                "mono": true
               }
             ],
             "bullet": true,
             "level": 0
           },
           {
-            "text": "Basic concepts of flexbox",
+            "text": "Usate display: flex e gap nel menu e nei gruppi a due o tre colonne; gestite gli allineamenti con justify-content e align-items",
             "runs": [
               {
-                "text": "Basic concepts of flexbox",
-                "underline": true,
-                "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox"
+                "text": "Usate "
+              },
+              {
+                "text": "display: flex",
+                "mono": true
+              },
+              {
+                "text": " e "
+              },
+              {
+                "text": "gap",
+                "mono": true
+              },
+              {
+                "text": " nel menu e nei gruppi a due o tre colonne; gestite gli allineamenti con "
+              },
+              {
+                "text": "justify-content",
+                "mono": true
+              },
+              {
+                "text": " e "
+              },
+              {
+                "text": "align-items",
+                "mono": true
               }
             ],
             "bullet": true,
             "level": 0
           },
           {
-            "text": "What Happens When You Create A Flexbox Flex Container",
+            "text": "In almeno un gruppo, assegnate al contenuto principale il doppio dello spazio libero degli altri con flex o flex-grow",
             "runs": [
               {
-                "text": "What Happens When You Create A Flexbox Flex Container",
-                "underline": true,
-                "href": "https://www.smashingmagazine.com/2018/08/flexbox-display-flex-container/"
+                "text": "In almeno un gruppo, assegnate al contenuto principale il doppio dello spazio libero degli altri con "
+              },
+              {
+                "text": "flex",
+                "mono": true
+              },
+              {
+                "text": " o "
+              },
+              {
+                "text": "flex-grow",
+                "mono": true
               }
             ],
             "bullet": true,
             "level": 0
           },
           {
-            "text": "A Complete Guide to Flexbox",
+            "text": "Usate flex-wrap e flex-basis per far andare a capo i blocchi quando lo spazio non basta; verificate il risultato su una finestra ampia e una stretta",
             "runs": [
               {
-                "text": "A Complete Guide to Flexbox",
-                "underline": true,
-                "href": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+                "text": "Usate "
+              },
+              {
+                "text": "flex-wrap",
+                "mono": true
+              },
+              {
+                "text": " e "
+              },
+              {
+                "text": "flex-basis",
+                "mono": true
+              },
+              {
+                "text": " per far andare a capo i blocchi quando lo spazio non basta; verificate il risultato su una finestra ampia e una stretta"
               }
             ],
             "bullet": true,
             "level": 0
           }
         ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Riapri l’esempio dell’esercizio 1",
+            "runs": [
+              {
+                "text": "Riapri l’esempio dell’esercizio 1",
+                "href": "/images/esercitazioni/esercizio-01/index.html"
+              }
+            ]
+          }
+        ]
       }
     ],
-    "sourceSlide": 45,
-    "number": 75,
+    "sourceSlide": 25,
+    "number": 44,
     "part": 1,
-    "parts": 2
+    "parts": 1,
+    "sourceSlides": [
+      25,
+      26
+    ],
+    "adaptedFrom": {
+      "exercise": "01",
+      "slide": 64,
+      "file": "progetti/slide/esercitazioni/01-html-css-base.md"
+    }
   },
   {
     "kind": "content",
@@ -5996,89 +2570,18 @@
             "title": "A Complete Guide to Flexbox",
             "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
           }
-        ]
+        ],
+        "resourceLayout": "list",
+        "showHint": false
       }
     ],
     "sourceSlide": 45,
-    "number": 76,
-    "part": 2,
-    "parts": 2,
-    "revision": "native-reconstruction"
-  },
-  {
-    "kind": "content",
-    "title": "Riferimenti utili",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "HTML elements reference",
-            "runs": [
-              {
-                "text": "HTML elements reference",
-                "underline": true,
-                "href": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element"
-              }
-            ],
-            "bullet": true,
-            "level": 0
-          },
-          {
-            "text": "CSS selectors reference",
-            "runs": [
-              {
-                "text": "CSS selectors reference",
-                "underline": true,
-                "href": "https://www.w3schools.com/cssref/css_selectors.asp"
-              }
-            ],
-            "bullet": true,
-            "level": 0
-          },
-          {
-            "text": "CSS selector tester",
-            "runs": [
-              {
-                "text": "CSS selector tester",
-                "underline": true,
-                "href": "https://www.w3schools.com/cssref/trysel.asp"
-              }
-            ],
-            "bullet": true,
-            "level": 0
-          },
-          {
-            "text": "FreeCodeCamp",
-            "runs": [
-              {
-                "text": "FreeCodeCamp",
-                "underline": true,
-                "href": "https://www.freecodecamp.org/"
-              }
-            ],
-            "bullet": true,
-            "level": 0
-          },
-          {
-            "text": "Google",
-            "runs": [
-              {
-                "text": "Google",
-                "underline": true,
-                "href": "https://www.google.it/"
-              }
-            ],
-            "bullet": true,
-            "level": 0
-          }
-        ]
-      }
-    ],
-    "sourceSlide": 46,
-    "number": 77,
+    "number": 45,
     "part": 1,
-    "parts": 2
+    "parts": 1,
+    "sourceSlides": [
+      45
+    ]
   },
   {
     "kind": "content",
@@ -6107,22 +2610,29 @@
             "title": "Google",
             "url": "https://www.google.it/"
           }
-        ]
+        ],
+        "resourceLayout": "list",
+        "showHint": false
       }
     ],
     "sourceSlide": 46,
-    "number": 78,
-    "part": 2,
-    "parts": 2,
-    "revision": "native-reconstruction"
+    "number": 46,
+    "part": 1,
+    "parts": 1,
+    "sourceSlides": [
+      46
+    ]
   },
   {
     "kind": "closing",
     "title": "Fine esercitazione 02",
     "blocks": [],
     "sourceSlide": 47,
-    "number": 79,
+    "number": 47,
     "part": 1,
-    "parts": 1
+    "parts": 1,
+    "sourceSlides": [
+      47
+    ]
   }
 ]

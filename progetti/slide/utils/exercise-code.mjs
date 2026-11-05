@@ -36,11 +36,20 @@ export function highlightExerciseCode(source = '', language = exerciseCodeLangua
     themes: [theme], langs: [html, css, javascript, bash, json, diff],
     engine: createJavaScriptRegexEngine(),
   })
-  const lines = highlighter.codeToTokensBase(source, { lang: language, theme: theme.name })
+  const lines = highlighter.codeToTokensBase(source, { lang: language, theme: theme.name, includeExplanation: language === 'css' })
   const endings = source.match(/\r\n|\r|\n/g) || []
   const raw = lines.map((tokens, i) => tokens.map(token => token.content).join('') + (endings[i] || '')).join('')
   if (raw !== source) throw new Error('Syntax highlighting must preserve the exact source text')
   const colored = lines.map((tokens, i) => tokens.map(token => {
+    if (language === 'css' && token.explanation) return token.explanation.map(fragment => {
+      const scopes = fragment.scopes.map(scope => scope.scopeName)
+      const comment = scopes.some(scope => scope.startsWith('comment.'))
+      const role = comment ? null : scopes.includes('meta.selector.css') ? 'selector'
+        : scopes.includes('meta.property-name.css') ? 'property'
+          : scopes.includes('meta.property-value.css') && /[^\s|,():;{}]/.test(fragment.content) ? 'value' : null
+      const color = /^#[\da-f]{6}$/i.test(token.color || '') ? token.color : '#F0F3F6'
+      return `<span${role ? ` class="exercise-css-${role}"` : ''} style="color:${role ? `var(--exercise-css-${role},${color})` : color}">${escape(fragment.content)}</span>`
+    }).join('')
     const content = escape(token.content)
     return /^#[\da-f]{6}$/i.test(token.color || '') ? `<span style="color:${token.color}">${content}</span>` : content
   }).join('') + (endings[i] || '')).join('')

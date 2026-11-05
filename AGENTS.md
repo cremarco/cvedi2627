@@ -6,6 +6,8 @@ Il repository contiene cinque progetti in `progetti/`; consultare [la struttura]
 
 Leggere `PRODUCT.md` prima di creare o modificare contenuti, componenti, immagini o stili. Per le slide leggere anche [il contratto visivo](progetti/slide/docs/slidev/design.md), ricavato dalle lezioni 01–08, e [la guida operativa dei set](progetti/slide/docs/design-slidev.md). Per il booklet leggere anche `progetti/booklet/DESIGN.md`: è il contratto editoriale esclusivo del booklet, non delle slide o del sito. Le istruzioni esplicite dell’utente hanno precedenza; un cambiamento intenzionale del sistema del booklet aggiorna anche il documento.
 
+Per le slide delle esercitazioni, anche quando si interviene su dati, componenti, stili o generatori condivisi, leggere [le istruzioni dedicate](progetti/slide/esercitazioni/AGENTS.md). Il modello approvato dell'esercitazione 01 vale per le altre esercitazioni, senza estendersi alle lezioni teoriche o agli altri progetti.
+
 Per scrivere o impaginare i prossimi capitoli del booklet, applicare anche la sezione «Regole editoriali per i prossimi capitoli» di `progetti/booklet/DESIGN.md`, ricavata dai commenti Figma. Verificare insieme prosa, esempi, didascalie, fonti, ordine delle colonne e doppie pagine; una correzione ricorrente richiede un controllo dell’intero capitolo.
 
 ## Vincoli

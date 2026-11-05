@@ -10,7 +10,7 @@ import tokens from '../../../risorse-condivise/stili/tokens.css?raw'
 
 const props = defineProps<{ example: string; caption?: string }>()
 const { isActive, isPrinting, canAnimate } = useSlidePlayback()
-const { set } = useSlideSet()
+const { set, matter } = useSlideSet()
 const frame = ref<HTMLIFrameElement>()
 const figure = ref<HTMLElement>()
 const height = ref(396)
@@ -32,7 +32,8 @@ const document = computed(() => {
   if (!entry.value) throw new Error(`Esempio nativo sconosciuto: ${props.example}`)
   const palette = set.value.palette
   const theme = framework.value ? '' : tokens + `:root,[data-theme=light]{--color-primary:var(--cvedi-${palette}-base);--color-primary-content:#fff;--color-base-200:var(--cvedi-${palette}-surface);--color-base-300:var(--cvedi-${palette}-light);--color-base-content:var(--cvedi-body);--color-accent:var(--cvedi-${palette}-accent-light);--color-accent-content:var(--cvedi-gray-950);}`
-  return renderNativeDocument(entry.value, baseCSS, customCSS, theme)
+  const cssRoles = matter.value?.lesson === 'esercitazione-02' ? ':root{--exercise-css-selector:#91cbff;--exercise-css-property:var(--cvedi-pink-300);--exercise-css-value:var(--cvedi-gray-200)}' : ''
+  return renderNativeDocument(entry.value, baseCSS, customCSS, theme + cssRoles)
 })
 </script>
 

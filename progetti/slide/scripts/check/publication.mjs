@@ -133,11 +133,12 @@ export async function checkPublishedBuild(directory) {
   }
   const references = await bundleReferences(output)
   assert.ok(references.includes('data-exercise-slide'), 'authorized exercise content renderer is published')
-  for (const exercise of ['02', '03', '04', '05', '06', '07', '08', '09'])
+  for (const exercise of ['03', '04', '05', '06', '07', '08', '09'])
     assert.ok(!references.includes(`data/esercitazioni/${exercise}.json`), 'unpublished exercise JSON stays out of the bundle')
   const exerciseChunks = await readdir(path.join(output, 'lezioni/esercitazione-01/assets'))
-  assert.ok(exerciseChunks.some(file => /^01-.*\.js$/.test(file)), 'the authorized exercise JSON is emitted')
-  assert.ok(!exerciseChunks.some(file => /^0[2-9]-.*\.js$/.test(file)), 'other exercise JSON chunks are not emitted')
+  for (const number of ['01', '02'])
+    assert.ok(exerciseChunks.some(file => new RegExp(`^${number}-.*\\.js$`).test(file)), 'authorized exercise JSON is emitted')
+  assert.ok(!exerciseChunks.some(file => /^0[3-9]-.*\.js$/.test(file)), 'other exercise JSON chunks are not emitted')
   const catalog = JSON.parse(await readFile(path.join(output, 'decks.json'), 'utf8'))
   const curriculum = JSON.parse(await readFile(path.join(root, 'progetti/slide/data/ux-curriculum.json'), 'utf8'))
   for (const lesson of curriculum.archivedLessons) {
@@ -190,9 +191,9 @@ export async function checkPublishedBuild(directory) {
     assert.equal(createHash('sha256').update(bytes).digest('hex'), clip.sha256)
     assert.deepEqual(bytes, await readFile(path.join(root, clip.source)), `${alias}: original MP3 bytes are preserved`)
   }
-  assert.deepEqual(catalog.decks.filter(deck => deck.id.startsWith('esercitazione-')).map(deck => deck.id), ['esercitazione-01'], 'only the first exercise is registered online')
+  assert.deepEqual(catalog.decks.filter(deck => deck.id.startsWith('esercitazione-')).map(deck => deck.id), ['esercitazione-01', 'esercitazione-02'], 'only authorized exercises are registered online')
   const exercises = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/esercitazioni/manifest.json'), 'utf8'))
-  for (const exercise of exercises.exercises.filter(exercise => exercise.id !== 'esercitazione-01'))
+  for (const exercise of exercises.exercises.filter(exercise => lessonDecks.find(deck => deck.id === exercise.id)?.localOnly))
     await assert.rejects(access(path.join(output, 'lezioni', exercise.id)), { code: 'ENOENT' }, 'direct exercise paths are absent online')
   const exerciseAssets = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/esercitazioni/schemi/manifest.json'), 'utf8'))
   for (const asset of [...exerciseAssets.diagrams, ...exerciseAssets.screenshots, ...exerciseAssets.demos])
@@ -214,7 +215,7 @@ export async function checkPublishedBuild(directory) {
     assert.ok(references.includes(asset), `${id}: lesson card artwork is registered in the published bundle`)
     assert.deepEqual(await readFile(path.join(output, asset)), await readFile(path.join(root, 'progetti/slide/public', asset)), `${id}: lesson artwork preserves its source bytes`)
   }
-  return { output, publishedGridsSlides: grids.slideCount, publishedAudioClips: audioFiles.length + compositionFiles.length, publishedCompositionAudioClips: compositionFiles.length, publishedGridsFigures: selectedFigures.length, localAssetsExcluded: true, exerciseDecksExcluded: exercises.exercises.length - 1, publishedExerciseSlides: catalog.decks.find(deck => deck.id === 'esercitazione-01').slides.length }
+  return { output, publishedGridsSlides: grids.slideCount, publishedAudioClips: audioFiles.length + compositionFiles.length, publishedCompositionAudioClips: compositionFiles.length, publishedGridsFigures: selectedFigures.length, localAssetsExcluded: true, exerciseDecksExcluded: exercises.exercises.filter(exercise => lessonDecks.find(deck => deck.id === exercise.id)?.localOnly).length, publishedExerciseSlides: catalog.decks.filter(deck => deck.id.startsWith('esercitazione-')).reduce((sum, deck) => sum + deck.slides.length, 0) }
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

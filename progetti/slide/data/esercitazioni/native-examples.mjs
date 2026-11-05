@@ -1,6 +1,8 @@
 // Transcriptions and native reconstructions of the retained teaching figures.
 // Text and code remain DOM nodes; no source slide is used as a bitmap.
 import { browserMarketShare } from './browser-market-share.mjs'
+import { originalDiagrams } from './original-diagrams.mjs'
+import { advancedExamples } from './advanced-examples.mjs'
 import { highlightExerciseCode, exerciseCodeLanguage } from '../../utils/exercise-code.mjs'
 import { escapeHTML } from './native-document.mjs'
 export { escapeHTML, nativeCSS, renderNativeDocument } from './native-document.mjs'
@@ -73,6 +75,8 @@ export function rebuildImportedSlide(slide, exerciseNumber) {
 }
 
 export const nativeExamples = {
+  ...advancedExamples,
+  ...originalDiagrams,
   'bf9c59ac029ae9d4731f.png': record(columns('<div class="native-result"><strong>Client</strong><p>Browser</p></div>', '<div style="text-align:center;display:grid;gap:22px"><strong>HTTP</strong><span>Request →</span><span>← Response</span></div>', '<div class="native-result"><strong>Server</strong><p>Web server</p></div>'), 'Il browser invia una richiesta HTTP; il server restituisce una risposta.'),
   'browser-share-2026-09': record(`${label(`StatCounter · ${browserMarketShare.scope} · ${browserMarketShare.period}`)}<div class="native-bars">${browserMarketShare.values.map(([name, value]) => `<div><span>${e(name)}</span><span class="native-bar-track"><span style="width:${value}%"></span></span><strong>${value.toFixed(2).replace('.', ',')}%</strong></div>`).join('')}</div>`, ''),
   '728e55141fed182cd2c4.png': record(`${label('StatCounter · quota mondiale · settembre 2022–settembre 2023 (dato storico)')}<div class="native-bars">${[['Chrome',64.34],['Safari',19.54],['Edge',4.79],['Firefox',2.93],['Samsung Internet',2.57],['Opera',2.54],['UC Browser',.92],['Android',.69],['360 Safe Browser',.26],['Other',1.42]].map(([name,value]) => `<div><span>${name}</span><span class="native-bar-track"><span style="width:${value / .7}%"></span></span><strong>${value.toFixed(2).replace('.', ',')}%</strong></div>`).join('')}</div>`, 'Valori trascritti dalla figura StatCounter originale; non rappresentano quote attuali.'),
