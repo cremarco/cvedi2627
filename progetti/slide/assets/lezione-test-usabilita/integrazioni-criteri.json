@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "lesson": "test-usabilita",
+  "verifiedOn": "2026-11-02",
+  "caseSource": "progetti/slide/data/ux-service-prototype.json",
+  "scope": "Tre integrazioni selezionate: conclusione dei flussi, protezione del lavoro e dello stato, riduzione del carico operativo. Raccordo tra valutazione euristica e test; ISO come riferimento distinto. La trascrizione storica resta invariata.",
+  "sources": [
+    {
+      "id": "shneiderman",
+      "label": "Shneiderman · Eight Golden Rules",
+      "url": "https://www.cs.umd.edu/~ben/goldenrules.html",
+      "description": "Versione della sesta edizione di Designing the User Interface, 2016; conclusione delle sequenze di azioni."
+    },
+    {
+      "id": "tognazzini",
+      "label": "Tognazzini · First Principles of Interaction Design",
+      "url": "https://asktog.com/atc/principles-of-interaction-design/",
+      "description": "Revisione 2014; Protect Users’ Work, State: Track It e Anticipation."
+    },
+    {
+      "id": "bastien-scapin",
+      "label": "Bastien e Scapin · Ergonomic Criteria",
+      "url": "https://www.lirmm.fr/~mountaz/Dlib/Ens/1993-bastien-critereErgo.PDF",
+      "description": "Rapporto INRIA n. 156, 1993; carico di lavoro, azioni minime e compatibilità con il compito."
+    },
+    {
+      "id": "nng-evaluation",
+      "label": "Moran e Gordon · How to Conduct a Heuristic Evaluation",
+      "url": "https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/",
+      "description": "NN/g, 2023; valutazione euristica e ricerca con utenti come metodi complementari."
+    },
+    {
+      "id": "iso-9241-110",
+      "label": "ISO 9241-110:2020 · Interaction principles",
+      "url": "https://www.iso.org/standard/75258.html",
+      "description": "Standard sui principi dell’interazione, distinto dagli elenchi di euristiche."
+    }
+  ],
+  "slides": [
+    {
+      "id": "conclusione",
+      "alias": "test-usabilita-criterio-conclusione",
+      "kind": "criteria",
+      "afterSourcePage": 40,
+      "title": "Capire quando un flusso è concluso",
+      "minutes": 2,
+      "lead": "Shneiderman: la conclusione di una sequenza deve chiarire che cosa è stato completato e che cosa succede dopo.",
+      "panels": [
+        { "title": "Invio", "text": "Viola invia la richiesta per la visita scelta." },
+        { "title": "Attesa", "text": "Il servizio ha ricevuto la richiesta; il professionista deve ancora rispondere." },
+        { "title": "Conferma", "text": "La visita è confermata soltanto dopo l’accettazione del professionista." }
+      ],
+      "takeaway": "Nel caso Passo, completare l’invio della richiesta e ottenere la conferma della visita sono due risultati distinti.",
+      "question": "Da osservare: la persona comprende lo stato e sa quale sarà il passo successivo?",
+      "sources": ["shneiderman"]
+    },
+    {
+      "id": "lavoro-stato",
+      "alias": "test-usabilita-criterio-lavoro-stato",
+      "kind": "criteria",
+      "afterSourcePage": 40,
+      "title": "Proteggere il lavoro e conservare lo stato",
+      "minutes": 2,
+      "lead": "Tognazzini: proteggere ciò che la persona ha già fatto e rendere possibile riprendere il compito.",
+      "panels": [
+        { "title": "Errore nel modulo", "text": "Chiedere di correggere il campo errato, mantenendo i dati validi." },
+        { "title": "Ritorno alla ricerca", "text": "Conservare filtri e scelte pertinenti, senza ricominciare il confronto." },
+        { "title": "Interruzione", "text": "Rendere riconoscibile il punto da cui riprendere il percorso." }
+      ],
+      "takeaway": "Nel caso Passo, dopo un orario non più disponibile verifichiamo se Viola può cercare un’alternativa con i criteri già inseriti.",
+      "question": "Da osservare: quali informazioni si perdono e quale lavoro deve essere ripetuto?",
+      "sources": ["tognazzini"]
+    },
+    {
+      "id": "carico-operativo",
+      "alias": "test-usabilita-criterio-carico-operativo",
+      "kind": "criteria",
+      "afterSourcePage": 40,
+      "title": "Ridurre il lavoro richiesto dal compito",
+      "minutes": 2,
+      "lead": "Bastien e Scapin: valutare il carico di lavoro e la compatibilità dell’interfaccia con le attività dell’utente.",
+      "panels": [
+        { "title": "Reinserimenti", "text": "La persona deve ridigitare informazioni che ha già fornito?" },
+        { "title": "Confronti", "text": "Le informazioni necessarie si possono confrontare senza affidarsi alla memoria?" },
+        { "title": "Passaggi", "text": "Quali azioni sono necessarie al compito e quali possono essere evitate?" }
+      ],
+      "takeaway": "Nel caso Passo, orario, copertura e costo totale devono aiutare Viola a confrontare le visite prima della scelta.",
+      "question": "Da osservare: dove la persona ricopia, torna indietro o cerca informazioni mancanti?",
+      "sources": ["bastien-scapin"]
+    },
+    {
+      "id": "ispezione-test",
+      "alias": "test-usabilita-ispezione-e-test",
+      "kind": "criteria",
+      "afterSourcePage": 40,
+      "title": "Dall’ispezione alla prova con utenti",
+      "minutes": 1.5,
+      "lead": "I principi aiutano a prevedere criticità. I test permettono di osservare come le persone affrontano compiti realistici.",
+      "panels": [
+        { "title": "Valutazione euristica", "text": "I valutatori esaminano l’interfaccia rispetto a criteri espliciti e individuano potenziali problemi." },
+        { "title": "Test con utenti", "text": "I partecipanti svolgono i compiti; si osservano azioni, difficoltà, comprensione e risultati." }
+      ],
+      "takeaway": "Una criticità emersa nell’ispezione diventa una domanda di ricerca: il test può confermarla, precisarla o far emergere altri problemi.",
+      "question": "Caso Passo · Dopo l’invio: «Che cosa pensi che succederà alla tua richiesta?»",
+      "sources": ["nng-evaluation"]
+    },
+    {
+      "id": "fonti-criteri",
+      "alias": "test-usabilita-fonti-criteri",
+      "kind": "criteria-references",
+      "afterSourcePage": 86,
+      "title": "Principi e fonti di riferimento",
+      "minutes": 0.5,
+      "lead": "Fonti dei criteri aggiunti e del raccordo con i test. ISO 9241-110 è uno standard sui principi dell’interazione.",
+      "sources": ["shneiderman", "tognazzini", "bastien-scapin", "nng-evaluation", "iso-9241-110"]
+    }
+  ]
+}

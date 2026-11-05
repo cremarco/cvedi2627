@@ -1,0 +1,782 @@
+{
+  "alias": "composizione-gerarchia-equilibrio",
+  "words": [
+    {
+      "word": " Nel",
+      "start": 0.24,
+      "end": 0.26
+    },
+    {
+      "word": " primo",
+      "start": 0.26,
+      "end": 0.52
+    },
+    {
+      "word": " schema",
+      "start": 0.52,
+      "end": 1.0
+    },
+    {
+      "word": " i",
+      "start": 1.0,
+      "end": 1.28
+    },
+    {
+      "word": " dischi",
+      "start": 1.28,
+      "end": 1.54
+    },
+    {
+      "word": " uguali",
+      "start": 1.54,
+      "end": 2.02
+    },
+    {
+      "word": " si",
+      "start": 2.02,
+      "end": 2.38
+    },
+    {
+      "word": " corrispondono",
+      "start": 2.38,
+      "end": 2.94
+    },
+    {
+      "word": " rispetto",
+      "start": 3.28,
+      "end": 3.38
+    },
+    {
+      "word": " a",
+      "start": 3.38,
+      "end": 3.56
+    },
+    {
+      "word": " un",
+      "start": 3.56,
+      "end": 3.9
+    },
+    {
+      "word": " asse.",
+      "start": 3.9,
+      "end": 4.74
+    },
+    {
+      "word": " La",
+      "start": 4.9,
+      "end": 4.9
+    },
+    {
+      "word": " simmetria",
+      "start": 4.9,
+      "end": 5.42
+    },
+    {
+      "word": " rende",
+      "start": 5.42,
+      "end": 5.9
+    },
+    {
+      "word": " immediata",
+      "start": 5.9,
+      "end": 6.54
+    },
+    {
+      "word": " questa",
+      "start": 6.78,
+      "end": 6.88
+    },
+    {
+      "word": " relazione.",
+      "start": 6.88,
+      "end": 7.06
+    },
+    {
+      "word": " Nel",
+      "start": 8.24,
+      "end": 8.36
+    },
+    {
+      "word": " secondo",
+      "start": 8.36,
+      "end": 8.86
+    },
+    {
+      "word": " cambiano",
+      "start": 8.86,
+      "end": 9.36
+    },
+    {
+      "word": " sia",
+      "start": 9.36,
+      "end": 9.74
+    },
+    {
+      "word": " le",
+      "start": 9.74,
+      "end": 9.94
+    },
+    {
+      "word": " dimensioni",
+      "start": 9.94,
+      "end": 10.6
+    },
+    {
+      "word": " sia",
+      "start": 10.76,
+      "end": 10.9
+    },
+    {
+      "word": " le",
+      "start": 10.9,
+      "end": 11.26
+    },
+    {
+      "word": " distanze",
+      "start": 11.26,
+      "end": 11.5
+    },
+    {
+      "word": " dall'asse:",
+      "start": 11.5,
+      "end": 11.68
+    },
+    {
+      "word": " la",
+      "start": 12.7,
+      "end": 12.7
+    },
+    {
+      "word": " composizione",
+      "start": 12.7,
+      "end": 13.48
+    },
+    {
+      "word": " richiede",
+      "start": 13.48,
+      "end": 13.88
+    },
+    {
+      "word": " un",
+      "start": 13.88,
+      "end": 14.08
+    },
+    {
+      "word": " confronto",
+      "start": 14.08,
+      "end": 14.56
+    },
+    {
+      "word": " fra",
+      "start": 14.66,
+      "end": 14.8
+    },
+    {
+      "word": " elementi",
+      "start": 14.8,
+      "end": 15.22
+    },
+    {
+      "word": " differenti.",
+      "start": 15.22,
+      "end": 15.36
+    },
+    {
+      "word": " La",
+      "start": 16.52,
+      "end": 16.68
+    },
+    {
+      "word": " linea",
+      "start": 16.68,
+      "end": 17.12
+    },
+    {
+      "word": " è",
+      "start": 17.12,
+      "end": 17.28
+    },
+    {
+      "word": " un",
+      "start": 17.28,
+      "end": 17.56
+    },
+    {
+      "word": " riferimento",
+      "start": 17.56,
+      "end": 17.96
+    },
+    {
+      "word": " per",
+      "start": 18.04,
+      "end": 18.2
+    },
+    {
+      "word": " leggere",
+      "start": 18.2,
+      "end": 18.56
+    },
+    {
+      "word": " le",
+      "start": 18.56,
+      "end": 18.92
+    },
+    {
+      "word": " posizioni,",
+      "start": 18.92,
+      "end": 19.78
+    },
+    {
+      "word": " non",
+      "start": 19.78,
+      "end": 19.94
+    },
+    {
+      "word": " uno",
+      "start": 19.94,
+      "end": 20.16
+    },
+    {
+      "word": " strumento",
+      "start": 20.16,
+      "end": 20.66
+    },
+    {
+      "word": " che",
+      "start": 20.66,
+      "end": 20.96
+    },
+    {
+      "word": " misura",
+      "start": 20.96,
+      "end": 21.14
+    },
+    {
+      "word": " il",
+      "start": 21.14,
+      "end": 21.38
+    },
+    {
+      "word": " peso",
+      "start": 21.38,
+      "end": 21.56
+    },
+    {
+      "word": " percettivo.",
+      "start": 21.56,
+      "end": 21.66
+    },
+    {
+      "word": " In",
+      "start": 22.74,
+      "end": 22.86
+    },
+    {
+      "word": " una",
+      "start": 22.86,
+      "end": 23.08
+    },
+    {
+      "word": " pagina",
+      "start": 23.08,
+      "end": 23.38
+    },
+    {
+      "word": " reale",
+      "start": 23.38,
+      "end": 23.9
+    },
+    {
+      "word": " dovremmo",
+      "start": 23.9,
+      "end": 24.3
+    },
+    {
+      "word": " aggiungere",
+      "start": 24.3,
+      "end": 24.76
+    },
+    {
+      "word": " contenuto,",
+      "start": 24.76,
+      "end": 25.6
+    },
+    {
+      "word": " colore",
+      "start": 26.06,
+      "end": 26.16
+    },
+    {
+      "word": " e",
+      "start": 26.16,
+      "end": 26.4
+    },
+    {
+      "word": " significato",
+      "start": 26.4,
+      "end": 27.14
+    },
+    {
+      "word": " dei",
+      "start": 27.14,
+      "end": 27.34
+    },
+    {
+      "word": " soggetti.",
+      "start": 27.34,
+      "end": 27.52
+    },
+    {
+      "word": " Un",
+      "start": 28.4,
+      "end": 28.54
+    },
+    {
+      "word": " oggetto",
+      "start": 28.54,
+      "end": 28.9
+    },
+    {
+      "word": " piccolo",
+      "start": 28.9,
+      "end": 29.38
+    },
+    {
+      "word": " e",
+      "start": 29.38,
+      "end": 29.54
+    },
+    {
+      "word": " isolato",
+      "start": 29.54,
+      "end": 29.98
+    },
+    {
+      "word": " può",
+      "start": 30.08,
+      "end": 30.22
+    },
+    {
+      "word": " avere",
+      "start": 30.22,
+      "end": 30.5
+    },
+    {
+      "word": " molto",
+      "start": 30.5,
+      "end": 31.04
+    },
+    {
+      "word": " rilievo;",
+      "start": 31.76,
+      "end": 31.86
+    },
+    {
+      "word": " una",
+      "start": 31.86,
+      "end": 32.06
+    },
+    {
+      "word": " massa",
+      "start": 32.06,
+      "end": 32.34
+    },
+    {
+      "word": " ampia",
+      "start": 32.34,
+      "end": 32.72
+    },
+    {
+      "word": " può",
+      "start": 32.72,
+      "end": 33.02
+    },
+    {
+      "word": " confondersi",
+      "start": 33.02,
+      "end": 33.62
+    },
+    {
+      "word": " con",
+      "start": 33.62,
+      "end": 33.8
+    },
+    {
+      "word": " lo",
+      "start": 33.8,
+      "end": 34.02
+    },
+    {
+      "word": " sfondo.",
+      "start": 34.02,
+      "end": 35.06
+    },
+    {
+      "word": " L'equilibrio",
+      "start": 35.06,
+      "end": 35.5
+    },
+    {
+      "word": " può",
+      "start": 35.5,
+      "end": 35.74
+    },
+    {
+      "word": " essere",
+      "start": 35.74,
+      "end": 36.06
+    },
+    {
+      "word": " cercato",
+      "start": 36.1,
+      "end": 36.7
+    },
+    {
+      "word": " o",
+      "start": 36.7,
+      "end": 36.88
+    },
+    {
+      "word": " alterato",
+      "start": 36.88,
+      "end": 37.4
+    },
+    {
+      "word": " intenzionalmente",
+      "start": 37.4,
+      "end": 38.42
+    },
+    {
+      "word": " per",
+      "start": 38.42,
+      "end": 38.62
+    },
+    {
+      "word": " costruire",
+      "start": 38.86,
+      "end": 39.16
+    },
+    {
+      "word": " tensione.",
+      "start": 39.16,
+      "end": 40.42
+    },
+    {
+      "word": " Prima",
+      "start": 40.42,
+      "end": 40.46
+    },
+    {
+      "word": " di",
+      "start": 40.46,
+      "end": 40.64
+    },
+    {
+      "word": " rendere",
+      "start": 40.64,
+      "end": 41.0
+    },
+    {
+      "word": " simmetrico",
+      "start": 41.04,
+      "end": 41.5
+    },
+    {
+      "word": " un",
+      "start": 41.62,
+      "end": 41.72
+    },
+    {
+      "word": " layout,",
+      "start": 41.72,
+      "end": 41.94
+    },
+    {
+      "word": " chiediamoci",
+      "start": 42.66,
+      "end": 43.16
+    },
+    {
+      "word": " quale",
+      "start": 43.22,
+      "end": 43.46
+    },
+    {
+      "word": " relazione",
+      "start": 43.46,
+      "end": 44.12
+    },
+    {
+      "word": " sostiene",
+      "start": 44.12,
+      "end": 44.54
+    },
+    {
+      "word": " il",
+      "start": 44.54,
+      "end": 44.72
+    },
+    {
+      "word": " messaggio.",
+      "start": 44.72,
+      "end": 44.82
+    },
+    {
+      "word": " Nell'invito",
+      "start": 45.88,
+      "end": 46.4
+    },
+    {
+      "word": " una",
+      "start": 46.4,
+      "end": 46.74
+    },
+    {
+      "word": " fotografia",
+      "start": 46.84,
+      "end": 47.32
+    },
+    {
+      "word": " ampia",
+      "start": 47.32,
+      "end": 47.76
+    },
+    {
+      "word": " potrebbe",
+      "start": 47.76,
+      "end": 48.22
+    },
+    {
+      "word": " confrontarsi",
+      "start": 48.22,
+      "end": 48.94
+    },
+    {
+      "word": " con",
+      "start": 48.94,
+      "end": 49.16
+    },
+    {
+      "word": " un",
+      "start": 49.16,
+      "end": 49.3
+    },
+    {
+      "word": " titolo",
+      "start": 49.3,
+      "end": 49.6
+    },
+    {
+      "word": " breve",
+      "start": 49.6,
+      "end": 50.08
+    },
+    {
+      "word": " ma",
+      "start": 50.08,
+      "end": 50.32
+    },
+    {
+      "word": " contrastato.",
+      "start": 50.32,
+      "end": 51.5
+    },
+    {
+      "word": " La",
+      "start": 51.5,
+      "end": 51.6
+    },
+    {
+      "word": " composizione",
+      "start": 51.6,
+      "end": 52.34
+    },
+    {
+      "word": " va",
+      "start": 52.34,
+      "end": 52.5
+    },
+    {
+      "word": " giudicata",
+      "start": 52.5,
+      "end": 53.02
+    },
+    {
+      "word": " attraverso",
+      "start": 53.02,
+      "end": 53.5
+    },
+    {
+      "word": " questa",
+      "start": 53.5,
+      "end": 53.88
+    },
+    {
+      "word": " collaborazione",
+      "start": 53.98,
+      "end": 54.84
+    },
+    {
+      "word": " e",
+      "start": 55.06,
+      "end": 55.16
+    },
+    {
+      "word": " attraverso",
+      "start": 55.16,
+      "end": 55.72
+    },
+    {
+      "word": " la",
+      "start": 55.72,
+      "end": 55.96
+    },
+    {
+      "word": " riconoscibilità",
+      "start": 55.96,
+      "end": 56.76
+    },
+    {
+      "word": " delle",
+      "start": 56.76,
+      "end": 57.02
+    },
+    {
+      "word": " priorità,",
+      "start": 57.02,
+      "end": 57.32
+    },
+    {
+      "word": " non",
+      "start": 57.94,
+      "end": 58.06
+    },
+    {
+      "word": " soltanto",
+      "start": 58.06,
+      "end": 58.62
+    },
+    {
+      "word": " misurando",
+      "start": 58.62,
+      "end": 59.18
+    },
+    {
+      "word": " quanto",
+      "start": 59.18,
+      "end": 59.6
+    },
+    {
+      "word": " le",
+      "start": 59.6,
+      "end": 59.74
+    },
+    {
+      "word": " due",
+      "start": 59.74,
+      "end": 59.96
+    },
+    {
+      "word": " metà",
+      "start": 60.08,
+      "end": 60.26
+    },
+    {
+      "word": " si",
+      "start": 60.26,
+      "end": 60.36
+    },
+    {
+      "word": " somiglino.",
+      "start": 60.36,
+      "end": 60.98
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.24,
+      "end": 4.86,
+      "text": "Nel primo schema i dischi uguali si\ncorrispondono rispetto a un asse."
+    },
+    {
+      "start": 4.9,
+      "end": 7.18,
+      "text": "La simmetria rende immediata questa\nrelazione."
+    },
+    {
+      "start": 8.24,
+      "end": 11.8,
+      "text": "Nel secondo cambiano sia le dimensioni sia\nle distanze dall'asse:"
+    },
+    {
+      "start": 12.7,
+      "end": 15.48,
+      "text": "la composizione richiede un confronto fra\nelementi differenti."
+    },
+    {
+      "start": 16.52,
+      "end": 21.38,
+      "text": "La linea è un riferimento per leggere le\nposizioni, non uno strumento che misura il"
+    },
+    {
+      "start": 21.38,
+      "end": 22.08,
+      "text": "peso percettivo."
+    },
+    {
+      "start": 22.74,
+      "end": 27.34,
+      "text": "In una pagina reale dovremmo aggiungere\ncontenuto, colore e significato dei"
+    },
+    {
+      "start": 27.34,
+      "end": 28.04,
+      "text": "soggetti."
+    },
+    {
+      "start": 28.4,
+      "end": 31.16,
+      "text": "Un oggetto piccolo e isolato può avere\nmolto"
+    },
+    {
+      "start": 31.76,
+      "end": 35.06,
+      "text": "rilievo; una massa ampia può confondersi\ncon lo sfondo."
+    },
+    {
+      "start": 35.06,
+      "end": 40.42,
+      "text": "L'equilibrio può essere cercato o alterato\nintenzionalmente per costruire tensione."
+    },
+    {
+      "start": 40.42,
+      "end": 42.06,
+      "text": "Prima di rendere simmetrico un layout,"
+    },
+    {
+      "start": 42.66,
+      "end": 44.94,
+      "text": "chiediamoci quale relazione sostiene il\nmessaggio."
+    },
+    {
+      "start": 45.88,
+      "end": 50.32,
+      "text": "Nell'invito una fotografia ampia potrebbe\nconfrontarsi con un titolo breve ma"
+    },
+    {
+      "start": 50.32,
+      "end": 55.16,
+      "text": "contrastato. La composizione va giudicata\nattraverso questa collaborazione e"
+    },
+    {
+      "start": 55.16,
+      "end": 57.44,
+      "text": "attraverso la riconoscibilità delle\npriorità,"
+    },
+    {
+      "start": 57.94,
+      "end": 61.1,
+      "text": "non soltanto misurando quanto le due metà\nsi somiglino."
+    }
+  ]
+}

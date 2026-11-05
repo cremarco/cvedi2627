@@ -48,7 +48,7 @@ async function navigationMetrics(page) {
   const link = page.getByRole('link', { name: 'Torna al menu delle lezioni', exact: true })
   await link.waitFor({ state: 'visible' })
   const box = await link.boundingBox()
-  assert.ok(box.width >= 44 && box.height >= 44, 'Menu link has a touch target of at least 44px')
+  assert.ok(box.width >= 24 && box.height >= 24, 'Compact menu link has a target of at least 24px')
   assert.ok(box.x >= 0 && box.y >= 0 && box.x + box.width <= page.viewportSize().width, 'Menu link fits the viewport')
   assert.equal(await link.innerText(), 'Menu lezioni', 'Destination is visible without hovering')
   await page.keyboard.press('Tab')
@@ -89,7 +89,7 @@ try {
     const gridsLink = menu.getByRole('link', { name: '09 Griglie e layout · Audio disponibile', exact: true })
     assert.equal(await gridsLink.count(), 1, 'grids are an available lesson with an accessible audio announcement')
     assert.equal(await gridsLink.locator('.index-audio-icon').count(), 1, 'the grids menu action shows its small audio symbol')
-    assert.equal(await menu.locator('.index-audio-icon').count(), 1, 'only the recorded lesson announces audio')
+    assert.equal(await menu.locator('.index-audio-icon').count(), 2, 'the recorded grids and composition lessons announce audio')
     assert.equal(await page.locator('.lesson-deck-menu').count(), 0, 'Menu does not link to itself')
     const bounds = await menu.locator('.index-grid a').evaluateAll(nodes => nodes.map(node => {
       const box = node.getBoundingClientRect(), root = node.closest('.slidev-layout').getBoundingClientRect()

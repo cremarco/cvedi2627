@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1055" height="1491" viewBox="0 0 1055 1491" role="img" aria-labelledby="titolo descrizione">
+<title id="titolo">Processo UX e UI</title>
+<desc id="descrizione">Un percorso collega cinque nodi, torna al punto iniziale e si apre a una direzione nuova. Il fondo cyan distingue il capitolo; titolo e numero sono composti separatamente.</desc>
+<g data-palette="principale" fill="#53EAFD"><rect width="1055" height="1491"/></g>
+<g id="percorso" data-palette="inchiostro" fill="none" stroke="#2E3138" stroke-width="95" stroke-linejoin="round"><path d="M100 795H810V1240H170V1040H595"/></g>
+<g id="nodi" data-palette="carta" fill="#FFFFFF"><circle cx="170" cy="795" r="85"/><circle cx="490" cy="795" r="85"/><circle cx="810" cy="895" r="85"/><circle cx="690" cy="1240" r="85"/><circle cx="170" cy="1240" r="85"/></g>
+<g id="ritorno" data-palette="inchiostro" fill="#2E3138"><path d="M570 940L700 1040L570 1140Z"/></g>
+<g id="possibilita" data-palette="secondario" fill="#FFB86A"><circle cx="950" cy="135" r="62"/></g>
+</svg>

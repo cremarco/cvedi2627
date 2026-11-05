@@ -1,0 +1,207 @@
+{
+  "test-usabilita-componenti-usabilita": {
+    "title": "Che cosa osserviamo nell’usabilità",
+    "headers": [
+      "Componente",
+      "Domanda da esplorare"
+    ],
+    "widths": [
+      26,
+      74
+    ],
+    "rows": [
+      [
+        "Apprendibilità",
+        "Al primo uso, quanto è facile svolgere i compiti di base?"
+      ],
+      [
+        "Efficienza",
+        "Dopo aver imparato, quanto tempo richiede il compito?"
+      ],
+      [
+        "Memorabilità",
+        "Dopo una pausa, quanto è facile riprendere l’uso?"
+      ],
+      [
+        "Errori",
+        "Quali errori avvengono e come si riesce a recuperare?"
+      ],
+      [
+        "Soddisfazione",
+        "Come valuta la persona la propria esperienza?"
+      ]
+    ],
+    "note": "",
+    "caption": ""
+  },
+  "test-usabilita-p47-1": {
+    "title": "Test tradizionali e test fai da te",
+    "headers": [
+      "Aspetto",
+      "TEST TRADIZIONALI",
+      "TEST FAI DA TE"
+    ],
+    "widths": [
+      26,
+      37,
+      37
+    ],
+    "rows": [
+      [
+        "TEMPO NECESSARIO PER CIASCUN CICLO DI TEST",
+        "1-2 giorni di test, poi una settimana per preparare il briefing o il resoconto, seguiti da un breve processo per decidere cosa correggere",
+        "Una mattina al mese si devono eseguire il test e il resoconto e poi si decide cosa correggere. Nel pomeriggio, il test di usabilità è già finito"
+      ],
+      [
+        "QUANDO ESEGUIRE IL TEST?",
+        "Quando il sito è quasi finito",
+        "Continuamente, nel corso del processo di sviluppo"
+      ]
+    ],
+    "note": "",
+    "caption": ""
+  },
+  "test-usabilita-p47-2": {
+    "title": "Test tradizionali e test fai da te",
+    "headers": [
+      "Aspetto",
+      "TEST TRADIZIONALI",
+      "TEST FAI DA TE"
+    ],
+    "widths": [
+      26,
+      37,
+      37
+    ],
+    "rows": [
+      [
+        "NUMERO DI CICLI DI TEST",
+        "Generalmente, solo uno o due per progetto, per via del tempo necessario e del costo",
+        "Uno al mese"
+      ],
+      [
+        "NUMERO DI PARTECIPANTI IN CIASCUNA SERIE",
+        "Otto o più",
+        "Tre"
+      ],
+      [
+        "CHI DEVE GUARDARE?",
+        "Si devono cercare con attenzione persone che facciano parte del possibile pubblico di destinazione",
+        "Si deve cercare di coinvolgere tutti i membri del team, compresi stakeholder, manager e perfino i dirigenti nelle sessioni di test"
+      ]
+    ],
+    "note": "",
+    "caption": ""
+  },
+  "test-usabilita-p47-3": {
+    "title": "Test tradizionali e test fai da te",
+    "headers": [
+      "Aspetto",
+      "TEST TRADIZIONALI",
+      "TEST FAI DA TE"
+    ],
+    "widths": [
+      26,
+      37,
+      37
+    ],
+    "rows": [
+      [
+        "DOVE ESEGUIRE I TEST?",
+        "Fuori dall'ufficio, in locali che dispongono di una sala di osservazione con un vetro a specchio unidirezionale",
+        "In ufficio, con gli osservatori in una sala riunioni che osservano con un software di condivisione dello schermo"
+      ],
+      [
+        "IL RESOCONTO",
+        "Giornate intere di test fuori dall'ufficio significa che non molte persone potranno osservare i test \"in diretta\"",
+        "Mezza giornata di test in ufficio significa che più persone potranno vedere i test \"in diretta\""
+      ]
+    ],
+    "note": "",
+    "caption": ""
+  },
+  "test-usabilita-p47-4": {
+    "title": "Test tradizionali e test fai da te",
+    "headers": [
+      "Aspetto",
+      "TEST TRADIZIONALI",
+      "TEST FAI DA TE"
+    ],
+    "widths": [
+      26,
+      37,
+      37
+    ],
+    "rows": [
+      [
+        "CHI INDIVIDUA I PROBLEMI",
+        "Di solito, ad analizzare i risultati e a consigliare i cambiamenti da eseguire è la persona che esegue i test",
+        "L'intero team di sviluppo e le parti interessate si incontrano a pranzo il giorno stesso per condividere le osservazioni e decidere cosa correggere"
+      ],
+      [
+        "SCOPO PRINCIPALE",
+        "Individuare il maggior numero possibile di problemi (a volte centinaia) e poi classificarli e assegnarvi un indice di priorità basato sulla gravità",
+        "Individuare i 3 problemi di usabilità più gravi da discutere in fase di debriefing"
+      ]
+    ],
+    "note": "",
+    "caption": ""
+  },
+  "test-usabilita-p47-5": {
+    "title": "Test tradizionali e test fai da te",
+    "headers": [
+      "Aspetto",
+      "TEST TRADIZIONALI",
+      "TEST FAI DA TE"
+    ],
+    "widths": [
+      26,
+      37,
+      37
+    ],
+    "rows": [
+      [
+        "COSTI",
+        "Da $5.000 a $10.000 a ciclo, se si incarica qualcuno di eseguirli",
+        "Poche centinaia di dollari o meno a ciclo"
+      ]
+    ],
+    "note": "",
+    "caption": ""
+  },
+  "test-usabilita-gravita-problemi": {
+    "title": "Valutare la gravità dei problemi",
+    "headers": [
+      "Gravità",
+      "Significato della valutazione"
+    ],
+    "widths": [
+      26,
+      74
+    ],
+    "rows": [
+      [
+        "0 · Nessun problema",
+        "Non si considera un problema di usabilità."
+      ],
+      [
+        "1 · Cosmetico",
+        "Correggere se rimane tempo disponibile."
+      ],
+      [
+        "2 · Minore",
+        "Correggere con bassa priorità."
+      ],
+      [
+        "3 · Maggiore",
+        "Correggere con alta priorità."
+      ],
+      [
+        "4 · Catastrofico",
+        "Correggere prima del rilascio del prodotto."
+      ]
+    ],
+    "note": "",
+    "caption": ""
+  }
+}

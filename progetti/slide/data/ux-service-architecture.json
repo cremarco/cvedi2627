@@ -1,0 +1,41 @@
+{
+  "title": "Architettura di Passo",
+  "root": {
+    "title": "Passo · Fisioterapia a domicilio",
+    "description": "Informazioni e accesso al percorso"
+  },
+  "sections": [
+    {
+      "id": "servizi",
+      "title": "Il servizio",
+      "items": [
+        "Come funziona",
+        "Zone, orari e costi"
+      ]
+    },
+    {
+      "id": "richiedi",
+      "title": "Trova una visita",
+      "items": [
+        "Domicilio e CAP",
+        "Risultati e profili",
+        "Riepilogo e contatti"
+      ]
+    },
+    {
+      "id": "visite",
+      "title": "Le mie visite",
+      "items": [
+        "Richieste e appuntamenti",
+        "Stato e dettaglio",
+        "Modifica e annullamento"
+      ]
+    }
+  ],
+  "source": {
+    "asset": "/images/processo-ux-ui/sitemap.svg",
+    "file": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+    "function": "sitemap",
+    "note": "Schema sintetico dei tre raggruppamenti principali di Passo. Assistenza e informazioni comuni sono esplicitate nella sitemap completa."
+  }
+}

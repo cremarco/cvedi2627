@@ -5,6 +5,7 @@ import { createRequire } from 'node:module'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { stripAudioDelivery, resolveSlideAudioSettings } from '../build/audio-delivery.mjs'
+import { readLessonCaptions, lessonCaptionManifest } from '../build/lesson-captions.mjs'
 
 const root = fileURLToPath(new URL('../../../..', import.meta.url))
 export const gridsManifestPath = 'progetti/slide/assets/booklet/lezione-griglie/manifest.json'
@@ -13,6 +14,8 @@ export const readGridsManifest = async () => JSON.parse(await readFile(path.join
 /** Lesson 09 follows the current chapter, independently of the historical UX curriculum. */
 export async function checkGridsSources(deck) {
   const manifest = await readGridsManifest()
+  assert.equal(manifest.captionSelectionSource, lessonCaptionManifest('griglie-layout'))
+  const { manifest: captionSelection } = await readLessonCaptions('griglie-layout')
   assert.equal(manifest.lesson, 'griglie-layout', 'grids: explicit independent lesson identity')
   assert.equal(manifest.slideCount, 63, 'grids: nine intentionally redundant slides are excluded from the active lesson')
   assert.equal(manifest.minutes, 78, 'grids: the simplified lesson retains its worked examples and activity budgets')
@@ -114,6 +117,7 @@ export async function checkGridsSources(deck) {
   assert.deepEqual(audioFiles, selectedFiles.map(file => path.basename(file)).sort(), 'grids: previous MP3 files have been removed after the complete replacement')
   for (const [index, slide] of slides.entries()) {
     const alias = slide.frontmatter.routeAlias
+    assert.equal(slide.frontmatter.narrationCaptions, captionSelection.clips[alias]?.web, alias + ': captions follow the approved recordings')
     const clip = approvedAudio.clips[alias]
     assert.ok(clip, `${alias}: the slide has its approved narration audio`)
     assert.match(clip.source, /^progetti\/slide\/assets\/audio\/lezione-griglie\/[a-z0-9][a-z0-9._-]*\.mp3$/, `${alias}: the approved source is a canonical local MP3`)

@@ -1,0 +1,71 @@
+WEBVTT
+
+1
+00:00:00.240 --> 00:00:03.860
+Dopo aver scelto ciò che deve rimanere
+visibile, distinguiamo due problemi.
+
+2
+00:00:04.540 --> 00:00:09.760
+Il primo è la risoluzione: possiamo avere
+file con più o meno pixel che mostrano la
+
+3
+00:00:09.760 --> 00:00:11.680
+stessa scena, con la stessa inquadratura.
+
+4
+00:00:12.920 --> 00:00:17.420
+Nel linguaggio acca ti emme elle, possiamo
+indicare al browser quali file ha a
+
+5
+00:00:17.420 --> 00:00:20.360
+disposizione e quanto spazio prevediamo
+per l’immagine.
+
+6
+00:00:21.400 --> 00:00:26.140
+Lo spazio dichiarato guida la scelta del
+file, ma non imposta da solo la larghezza
+
+7
+00:00:26.140 --> 00:00:30.820
+dell’immagine nella pagina. Il secondo
+problema è compositivo.
+
+8
+00:00:30.820 --> 00:00:34.420
+Nel campo stretto può servire
+un’inquadratura diversa, che valorizzi il
+
+9
+00:00:34.420 --> 00:00:35.120
+soggetto.
+
+10
+00:00:35.580 --> 00:00:39.060
+L’elemento picture può proporre una
+sorgente dedicata a questa condizione.
+
+11
+00:00:40.340 --> 00:00:41.520
+Guardate il cerchio giallo:
+
+12
+00:00:42.000 --> 00:00:46.260
+una versione con più pixel migliora il
+dettaglio disponibile, ma non recupera un
+
+13
+00:00:46.260 --> 00:00:48.720
+soggetto escluso dal ritaglio.
+
+14
+00:00:48.720 --> 00:00:53.280
+Risoluzione e inquadratura richiedono
+quindi decisioni coordinate, con obiettivi
+
+15
+00:00:53.280 --> 00:00:53.980
+diversi.

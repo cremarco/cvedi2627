@@ -1,0 +1,545 @@
+{
+  "version": 1,
+  "lesson": "test-usabilita",
+  "palette": "ux-usability",
+  "paletteSource": "risorse-condivise/stili/tokens.css",
+  "colors": {
+    "primary": "#6e11b0",
+    "primarySoft": "#f3e8ff",
+    "accent": "#12d217",
+    "accentInk": "#1a6018",
+    "accentSoft": "#e8fce6"
+  },
+  "sourceManifest": "progetti/slide/assets/lezione-test-usabilita/immagini.json",
+  "generator": "progetti/slide/scripts/build/test-usabilita-figure.py",
+  "fonts": [
+    {
+      "file": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/cvedi-nunito-sans-400.ttf",
+      "sha256": "2653b541756b313585cebe56a5b72fd7c553bb10f82599108b502b731f9e714a"
+    },
+    {
+      "file": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/cvedi-nunito-sans-600.ttf",
+      "sha256": "fb0fe15688a95b40c4a1a35e4a94a0646ed6c48f57b442479eaf83f60e24e233"
+    },
+    {
+      "file": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/font/cvedi-nunito-sans-700.ttf",
+      "sha256": "e98c680cb1b713f8fe347729acb40c3fa3ace351530b05a9ecbaf4da5881c6ed"
+    }
+  ],
+  "preservedDocumentaryImages": [
+    "figura-12",
+    "figura-30"
+  ],
+  "images": [
+    {
+      "id": "esempio-15",
+      "sourcePage": 15,
+      "kind": "imagegen",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-15.png",
+      "originalSha256": "72c6d3264751d99f631be55a0bf1f4e25d893d7eb02cfeaf3b062505cdca7a65",
+      "web": "/images/test-usabilita/ricostruite/esempio-15.webp",
+      "sha256": "9edf29ad4a5c57cb65583b5e9a21abdee13bc472687db326d38b90377afc4f69",
+      "webSize": [
+        1942,
+        809
+      ],
+      "alt": "Tavola ridisegnata di confronto: affordance negli oggetti quotidiani e nell’interfaccia web.",
+      "rights": "Esempio nella presentazione originale; attribuzione dell’immagine non indicata nella fonte",
+      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/esempio-15.png",
+      "promptRegistry": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen.json",
+      "zoomClearanceRight": 56
+    },
+    {
+      "id": "esempio-18",
+      "sourcePage": 18,
+      "kind": "imagegen",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-18.png",
+      "originalSha256": "80062597fa5ac5c9f74562011b04b130dccf815105172b2bff4e63d64225a756",
+      "web": "/images/test-usabilita/ricostruite/esempio-18.webp",
+      "sha256": "0996b05f65d1ce829d2608ace67334d83b6450d9cda750b956b30a2f38e63ddb",
+      "webSize": [
+        1942,
+        809
+      ],
+      "alt": "Tavola ridisegnata di confronto: significanti negli oggetti quotidiani e nell’interfaccia web.",
+      "rights": "Esempio nella presentazione originale; attribuzione dell’immagine non indicata nella fonte",
+      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/esempio-18.png",
+      "promptRegistry": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen.json",
+      "zoomClearanceRight": 56
+    },
+    {
+      "id": "esempio-20",
+      "sourcePage": 20,
+      "kind": "imagegen",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-20-v2.png",
+      "originalSha256": "e66e5bdb59b20da546ce8c26d4f633fda9bd403ebff8d2c7ff028a2c355aff4f",
+      "web": "/images/test-usabilita/ricostruite/esempio-20.webp",
+      "sha256": "0c430ed7654386bc475a17fca89f2e3cfc43aaec51c604f9e568ea0e83f5fb9a",
+      "webSize": [
+        1942,
+        809
+      ],
+      "alt": "Tre interruttori allineati alle tre lampade corrispondenti: il comando centrale premuto accende la lampada centrale. A destra, meno e più diminuiscono o aumentano la quantità 33.",
+      "labels": [
+        "Quantità",
+        "33",
+        "Diminuisce",
+        "Aumenta"
+      ],
+      "archivedVersion": "progetti/slide/assets/lezione-test-usabilita/ricostruite/revisioni/esempio-20-v1.json",
+      "rights": "Esempio nella presentazione originale; attribuzione dell’immagine non indicata nella fonte",
+      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/esempio-20.png",
+      "promptRegistry": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen.json",
+      "zoomClearanceRight": 56
+    },
+    {
+      "id": "esempio-23",
+      "sourcePage": 23,
+      "kind": "imagegen",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-23-v2.png",
+      "originalSha256": "7d7d5e462431d0520afe428b16c712bded3f0ce0a4ef507c498f21b18676520d",
+      "web": "/images/test-usabilita/ricostruite/esempio-23.webp",
+      "sha256": "749c814f9782ac253eb9e2e9ddd771577331368978d6fa3f62efff98ca46cbc4",
+      "webSize": [
+        1942,
+        809
+      ],
+      "alt": "Confronto fra un vincolo fisico, la matita inserita nel temperamatite, e un vincolo digitale: quantità minima 1 con pulsante meno disattivato.",
+      "labels": [
+        "Quantità",
+        "Minimo 1",
+        "1",
+        "Il valore non può scendere sotto 1"
+      ],
+      "archivedVersion": "progetti/slide/assets/lezione-test-usabilita/ricostruite/revisioni/esempio-23-v1.json",
+      "rights": "Esempio nella presentazione originale; attribuzione dell’immagine non indicata nella fonte",
+      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/esempio-23.png",
+      "promptRegistry": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen.json",
+      "zoomClearanceRight": 56
+    },
+    {
+      "id": "esempio-26",
+      "sourcePage": 26,
+      "kind": "imagegen",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-26.png",
+      "originalSha256": "d05839679c0ea3e676b998fb401e9ddf9258e7f34145b384ba830a1711dc918d",
+      "web": "/images/test-usabilita/ricostruite/esempio-26.webp",
+      "sha256": "4e3d7128d09c4d73ab0acf5da953faf7f0be35f6ed3d4aadc61fecef70c9ceb0",
+      "webSize": [
+        1942,
+        809
+      ],
+      "alt": "Tavola ridisegnata di confronto: feedback negli oggetti quotidiani e nell’interfaccia web.",
+      "rights": "Esempio nella presentazione originale; attribuzione dell’immagine non indicata nella fonte",
+      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/esempio-26.png",
+      "promptRegistry": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen.json",
+      "zoomClearanceRight": 56
+    },
+    {
+      "id": "esempio-28",
+      "sourcePage": 28,
+      "kind": "imagegen",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-28.png",
+      "originalSha256": "cdf64ea044774c982bb70199b2276bece25c30601c3bee029d2d26e6bc53f51b",
+      "web": "/images/test-usabilita/ricostruite/esempio-28.webp",
+      "sha256": "b674d4b97e7a0c0fbaacea69613a1e5c332613170bd8ca51e2b6adaed683c5bf",
+      "webSize": [
+        1942,
+        809
+      ],
+      "alt": "Tavola ridisegnata di confronto: modello concettuale negli oggetti quotidiani e nell’interfaccia web.",
+      "rights": "Esempio nella presentazione originale; attribuzione dell’immagine non indicata nella fonte",
+      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/esempio-28.png",
+      "promptRegistry": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen.json",
+      "zoomClearanceRight": 56
+    },
+    {
+      "id": "figura-31",
+      "sourcePage": 31,
+      "kind": "imagegen",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/figura-31-v2.png",
+      "originalSha256": "f65ef50136f03ec5a394889c41284a9d85b46c102fa76b1dc79d81060fefd1f6",
+      "web": "/images/test-usabilita/ricostruite/figura-31.webp",
+      "sha256": "a54f0e8c9d79377346ca182c17aa218624658229b8002e6978c02066d860a096",
+      "webSize": [
+        1402,
+        1122
+      ],
+      "alt": "Due esempi distinti di feedback: caricamento di presentazione.pdf al 70% con comando Annulla; conferma separata del link di recupero inviato, con invito a controllare l’email. Ricostruzione didattica.",
+      "caption": "Ricostruzione didattica · due esempi indipendenti di feedback",
+      "labels": [
+        "IN CORSO",
+        "Caricamento del file",
+        "presentazione.pdf",
+        "70%",
+        "Annulla",
+        "AZIONE CONCLUSA",
+        "Link di recupero inviato",
+        "Controlla la tua email"
+      ],
+      "archivedVersion": "progetti/slide/assets/lezione-test-usabilita/ricostruite/revisioni/figura-31-v1.json",
+      "rights": "Immagine nella presentazione originale; attribuzione non indicata nella fonte",
+      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/figura-31.png",
+      "promptRegistry": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen.json",
+      "zoomClearanceRight": 56
+    },
+    {
+      "id": "figura-32",
+      "sourcePage": 32,
+      "kind": "native-svg",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/figura-32.source.svg",
+      "originalSha256": "b35086ffbae4ed71aaafaf2432d650f543e925117214760423e5956e70f9d664",
+      "web": "/images/test-usabilita/ricostruite/figura-32.svg",
+      "sha256": "e164846c27ee1a132660c57daed5504c55ea5e037bc60bbaf541cff2f6d9a855",
+      "webSize": [
+        560,
+        480
+      ],
+      "alt": "Menu di una libreria con categorie comprensibili: musica, film, serie TV, podcast, audiolibri e applicazioni. Ricostruzione didattica.",
+      "caption": "Ricostruzione didattica dell’esempio originale",
+      "rights": "Immagine nella presentazione originale; attribuzione non indicata nella fonte",
+      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/figura-32.png",
+      "labels": [
+        "Libreria",
+        "Musica",
+        "Film",
+        "Serie TV",
+        "Podcast",
+        "Audiolibri",
+        "Applicazioni"
+      ],
+      "relationships": [],
+      "zoomClearanceRight": 56
+    },
+    {
+      "id": "figura-33",
+      "sourcePage": 33,
+      "kind": "imagegen",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/figura-33-v2.png",
+      "originalSha256": "29eca02128e01159c9e6e5b57e6118c28de8f3a05193be77d709b42d418447f5",
+      "web": "/images/test-usabilita/ricostruite/figura-33.webp",
+      "sha256": "37e6da74e996a0abd93bb5e2a51d09ef0b82d7f66195e3a9efeba48ab1367f73",
+      "webSize": [
+        1536,
+        1024
+      ],
+      "alt": "Una mail con oggetto Prestito rinnovato può essere archiviata. Una freccia conduce alla conferma Messaggio archiviato con il comando Annulla in evidenza. Ricostruzione didattica.",
+      "caption": "Ricostruzione didattica · annullare un’azione",
+      "labels": [
+        "Posta in arrivo",
+        "Prestito rinnovato",
+        "Archivia",
+        "Messaggio archiviato",
+        "Annulla"
+      ],
+      "archivedVersion": "progetti/slide/assets/lezione-test-usabilita/ricostruite/revisioni/figura-33-v1.json",
+      "rights": "Immagine nella presentazione originale; attribuzione non indicata nella fonte",
+      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/figura-33.png",
+      "promptRegistry": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen.json",
+      "zoomClearanceRight": 56
+    },
+    {
+      "id": "figura-35",
+      "sourcePage": 35,
+      "kind": "native-svg",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/figura-35.source.svg",
+      "originalSha256": "d439ff4c928bceac05e7a6f0c91845bca8324765a9dac51e7eb0a5987ce1b030",
+      "web": "/images/test-usabilita/ricostruite/figura-35.svg",
+      "sha256": "9586e9c5df4211632bc3a541be0f2b38af7b84d345b556910f81973e2982dce4",
+      "webSize": [
+        560,
+        390
+      ],
+      "alt": "Prima di inviare una mail che cita un allegato assente, il sistema avvisa e offre Aggiungi file oppure Invia comunque. Ricostruzione didattica.",
+      "caption": "Ricostruzione didattica dell’esempio originale",
+      "rights": "Immagine nella presentazione originale; attribuzione non indicata nella fonte",
+      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/figura-35.png",
+      "labels": [
+        "Allegato mancante",
+        "Hai scritto «in allegato»,",
+        "ma non hai aggiunto file.",
+        "Vuoi inviare comunque?",
+        "Aggiungi file",
+        "Invia comunque"
+      ],
+      "relationships": [],
+      "zoomClearanceRight": 56
+    },
+    {
+      "id": "figura-36",
+      "sourcePage": 36,
+      "kind": "native-svg",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/figura-36.source.svg",
+      "originalSha256": "a9cd473549208e78c957ea127da766bbf9c7e591c40adf9eafc60e0c03e1bcf0",
+      "web": "/images/test-usabilita/ricostruite/figura-36.svg",
+      "sha256": "4d736003f13f1dd18572673eecc668f24edb3255d4578f19917d30430119ddf0",
+      "webSize": [
+        560,
+        450
+      ],
+      "alt": "Menu Apri recenti con documenti visibili da riconoscere, senza ricordarne il nome e digitarlo. Ricostruzione didattica.",
+      "caption": "Ricostruzione didattica dell’esempio originale",
+      "rights": "Immagine nella presentazione originale; attribuzione non indicata nella fonte",
+      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/figura-36.png",
+      "labels": [
+        "Nuovo",
+        "Apri…",
+        "Apri recenti",
+        "Chiudi",
+        "Salva",
+        "Lezione 12",
+        "Progetto UX",
+        "Appunti",
+        "Relazione"
+      ],
+      "relationships": [],
+      "zoomClearanceRight": 56
+    },
+    {
+      "id": "figura-37",
+      "sourcePage": 37,
+      "kind": "native-svg",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/figura-37.source.svg",
+      "originalSha256": "0bcb1470b116df9f56a8a1e0ed878763f9559b90bd1b43fd07924c8f905b3397",
+      "web": "/images/test-usabilita/ricostruite/figura-37.svg",
+      "sha256": "057f5edd093ca8f10e49d3b2313a59fcca4743b18d3a1aa42ac109cdf7f3e9bc",
+      "webSize": [
+        560,
+        350
+      ],
+      "alt": "Tre percorsi di accesso alle informazioni: link rapidi, categorie e contenuti visti di recente. Ricostruzione didattica.",
+      "caption": "Ricostruzione didattica dell’esempio originale",
+      "rights": "Immagine nella presentazione originale; attribuzione non indicata nella fonte",
+      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/figura-37.png",
+      "labels": [
+        "Link rapidi",
+        "Categorie",
+        "Visti di recente",
+        "Quartieri",
+        "Scuole",
+        "Trasporti",
+        "Mappa",
+        "Scuole",
+        "Quartieri",
+        "Mappa",
+        "Centro",
+        "Parco Nord",
+        "Scuole"
+      ],
+      "relationships": [],
+      "zoomClearanceRight": 56
+    },
+    {
+      "id": "figura-38",
+      "sourcePage": 38,
+      "original": "progetti/slide/assets/lezione-test-usabilita/screenshot-reali/google-homepage.jpg",
+      "sourceUrl": "https://www.google.com/?hl=it",
+      "capturedOn": "2026-11-02",
+      "capture": {
+        "tool": "Browser screenshot API",
+        "viewport": [
+          1280,
+          720
+        ],
+        "clip": {
+          "x": 274,
+          "y": 100,
+          "width": 730,
+          "height": 300
+        },
+        "pixelEditing": false
+      },
+      "alt": "Screenshot reale della pagina di ricerca Google in tema scuro: logo originale, campo di ricerca con strumenti aggiuntivi e pulsanti Cerca con Google e Mi sento fortunato.",
+      "caption": "Google · schermata reale",
+      "rights": "Interfaccia e marchio Google. Screenshot acquisito per il commento didattico.",
+      "archivedVersion": "progetti/slide/assets/lezione-test-usabilita/ricostruite/revisioni/figura-38-v1.json",
+      "kind": "documentary-screenshot",
+      "originalSha256": "6f68129323e2518a602d5420189c74fa697e9be5f3149267f52c26892e539bda",
+      "sha256": "b6e1332915f8cebee4024f09f138c888326912af87894eac7aab0018e9088025",
+      "webSize": [
+        730,
+        300
+      ],
+      "web": "/images/test-usabilita/screenshot-reali/google-homepage.webp",
+      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/figura-38.png",
+      "screenshotManifest": "progetti/slide/assets/lezione-test-usabilita/screenshot-reali/manifest.json",
+      "zoomClearanceRight": 0
+    },
+    {
+      "id": "figura-39",
+      "sourcePage": 39,
+      "kind": "imagegen",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/figura-39-v2.png",
+      "originalSha256": "71d3875371040ba9652f6f83574a61143ba22dec48e921f3f315e7919a254eaa",
+      "web": "/images/test-usabilita/ricostruite/figura-39.webp",
+      "sha256": "0f7539b52177eea90f07cdba3ab78fcf9d30f5f945aced58ae54008dd594584f",
+      "webSize": [
+        1586,
+        992
+      ],
+      "alt": "Modulo a due colonne: email test@email non valida e telefono vuoto. Messaggi grandi accanto a icone di avviso indicano come correggere ciascun campo; il pulsante Continua chiude il modulo. Ricostruzione didattica.",
+      "caption": "Ricostruzione didattica · recuperare dagli errori",
+      "labels": [
+        "Informazioni di contatto",
+        "Indirizzo email",
+        "test@email",
+        "Telefono",
+        "Inserisci un indirizzo valido.",
+        "Inserisci il numero di telefono.",
+        "Continua"
+      ],
+      "archivedVersion": "progetti/slide/assets/lezione-test-usabilita/ricostruite/revisioni/figura-39-v1.json",
+      "rights": "Immagine nella presentazione originale; attribuzione non indicata nella fonte",
+      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/figura-39.png",
+      "promptRegistry": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen.json",
+      "zoomClearanceRight": 56
+    },
+    {
+      "id": "componenti-test",
+      "sourcePage": 53,
+      "kind": "native-svg",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/componenti-test.source.svg",
+      "originalSha256": "2bc781aeb472a33573c46e6553f80ba561c633b5dd85912acb9dc1baadd235c6",
+      "web": "/images/test-usabilita/ricostruite/componenti-test.svg",
+      "sha256": "ec7a654c4d3edd00b9eaac2d1f11c3ce1b5a6f7063d00c5ca4cd39b28daa8bc5",
+      "webSize": [
+        1200,
+        540
+      ],
+      "alt": "Il facilitatore amministra i compiti e osserva e intervista il partecipante. Il partecipante esegue i compiti e dà feedback al facilitatore. Schema rielaborato da Nielsen Norman Group.",
+      "caption": null,
+      "rights": "Nielsen Norman Group · schema nella presentazione originale",
+      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/componenti-test.png",
+      "labels": [
+        "Osserva e intervista",
+        "Dà feedback",
+        "Amministra",
+        "Esegue",
+        "Facilitatore",
+        "Guida il partecipante",
+        "lungo il processo",
+        "Compiti",
+        "Attività realistiche che il",
+        "partecipante potrebbe svolgere",
+        "nella vita reale",
+        "Partecipante",
+        "Utente realistico del prodotto",
+        "o servizio in fase di studio"
+      ],
+      "relationships": [
+        {
+          "from": "facilitatore",
+          "to": "compiti",
+          "label": "Amministra"
+        },
+        {
+          "from": "partecipante",
+          "to": "compiti",
+          "label": "Esegue"
+        },
+        {
+          "from": "facilitatore",
+          "to": "partecipante",
+          "label": "Osserva e intervista"
+        },
+        {
+          "from": "partecipante",
+          "to": "facilitatore",
+          "label": "Dà feedback"
+        }
+      ],
+      "zoomClearanceRight": 56,
+      "iconManifest": "progetti/slide/assets/icons/heroicons/manifest.json",
+      "icons": [
+        "chat-bubble-left-right",
+        "clipboard-document-list",
+        "user"
+      ]
+    },
+    {
+      "id": "ruolo-facilitatore",
+      "sourcePage": 54,
+      "kind": "native-svg",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/ruolo-facilitatore.source.svg",
+      "originalSha256": "32ec109f7116155a97af4af36e6caec008cae4f32d85858655ad34eaf3a65811",
+      "web": "/images/test-usabilita/ricostruite/ruolo-facilitatore.svg",
+      "sha256": "81e9443719d8079be977417481efd5b24a3949b282b82851b750eae199940239",
+      "webSize": [
+        500,
+        440
+      ],
+      "alt": "Facilitatore: Guida il partecipante lungo il processo. Schema rielaborato da Nielsen Norman Group.",
+      "caption": null,
+      "rights": "Nielsen Norman Group · schema nella presentazione originale",
+      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/ruolo-facilitatore.png",
+      "labels": [
+        "Facilitatore",
+        "Guida il partecipante",
+        "lungo il processo"
+      ],
+      "relationships": [],
+      "zoomClearanceRight": 56,
+      "iconManifest": "progetti/slide/assets/icons/heroicons/manifest.json",
+      "icons": [
+        "chat-bubble-left-right"
+      ]
+    },
+    {
+      "id": "ruolo-compiti",
+      "sourcePage": 56,
+      "kind": "native-svg",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/ruolo-compiti.source.svg",
+      "originalSha256": "b7b63d85cdbfa524423d4c00e7d033496bcec095b59a279a0f185c99dfba04f8",
+      "web": "/images/test-usabilita/ricostruite/ruolo-compiti.svg",
+      "sha256": "56f8fdf394452c96ee0f6ce233bee99c9df20d166df82f3c3f194f8bbb2e76dc",
+      "webSize": [
+        500,
+        440
+      ],
+      "alt": "Compiti: Attività realistiche che il partecipante potrebbe svolgere nella vita reale. Schema rielaborato da Nielsen Norman Group.",
+      "caption": null,
+      "rights": "Nielsen Norman Group · schema nella presentazione originale",
+      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/ruolo-compiti.png",
+      "labels": [
+        "Compiti",
+        "Attività realistiche che il",
+        "partecipante potrebbe svolgere",
+        "nella vita reale"
+      ],
+      "relationships": [],
+      "zoomClearanceRight": 56,
+      "iconManifest": "progetti/slide/assets/icons/heroicons/manifest.json",
+      "icons": [
+        "clipboard-document-list"
+      ]
+    },
+    {
+      "id": "ruolo-partecipante",
+      "sourcePage": 59,
+      "kind": "native-svg",
+      "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/ruolo-partecipante.source.svg",
+      "originalSha256": "55d71e38983d3c11f6bd747b4a9f65f743df8871e522c5ea6b2b23bb533b09a5",
+      "web": "/images/test-usabilita/ricostruite/ruolo-partecipante.svg",
+      "sha256": "01fb73bb10ca4c0e6a45cc56589f6b3dbadfb67491298d317dab3a2c656ab257",
+      "webSize": [
+        500,
+        440
+      ],
+      "alt": "Partecipante: Utente realistico del prodotto o servizio in fase di studio. Schema rielaborato da Nielsen Norman Group.",
+      "caption": null,
+      "rights": "Nielsen Norman Group · schema nella presentazione originale",
+      "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/ruolo-partecipante.png",
+      "labels": [
+        "Partecipante",
+        "Utente realistico del prodotto",
+        "o servizio in fase di studio"
+      ],
+      "relationships": [],
+      "zoomClearanceRight": 56,
+      "iconManifest": "progetti/slide/assets/icons/heroicons/manifest.json",
+      "icons": [
+        "user"
+      ]
+    }
+  ]
+}

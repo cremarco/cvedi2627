@@ -1,0 +1,92 @@
+WEBVTT
+
+1
+00:00:00.160 --> 00:00:04.740
+Per costruire la pagina e organizzare le
+singole schede, scegliamo strumenti adatti
+
+2
+00:00:04.740 --> 00:00:10.020
+alle relazioni da mantenere. Grid e
+Flexbox sono due sistemi di layout del
+
+3
+00:00:10.020 --> 00:00:14.180
+linguaggio ci esse esse. Grid coordina
+righe e
+
+4
+00:00:14.680 --> 00:00:17.680
+colonne; Flexbox organizza soprattutto una
+direzione alla volta.
+
+5
+00:00:18.460 --> 00:00:21.280
+Una traccia Grid è lo spazio fra due linee
+adiacenti.
+
+6
+00:00:22.260 --> 00:00:26.920
+Nel confronto vediamo cinque schede
+distribuite su tre tracce uguali: tre
+
+7
+00:00:26.920 --> 00:00:28.760
+nella prima riga, due nella seconda.
+
+8
+00:00:29.580 --> 00:00:34.060
+Le ultime due conservano la larghezza
+delle precedenti e restano allineate alle
+
+9
+00:00:34.060 --> 00:00:38.600
+prime due colonne. Con Flexbox,
+nell’esempio, abbiamo consentito agli
+
+10
+00:00:38.600 --> 00:00:42.180
+elementi di crescere. La prima riga
+contiene ancora tre schede.
+
+11
+00:00:42.880 --> 00:00:46.220
+Nella seconda, però, le due schede si
+dividono tutto lo spazio disponibile.
+
+12
+00:00:47.400 --> 00:00:49.380
+Ogni riga distribuisce il proprio spazio.
+
+13
+00:00:50.160 --> 00:00:53.760
+Questo risultato dipende dalla
+configurazione scelta, non da un obbligo
+
+14
+00:00:53.760 --> 00:00:58.580
+di Flexbox. Per un catalogo può servire
+confrontare gli stessi campi lungo
+
+15
+00:00:58.580 --> 00:01:02.940
+verticali comuni. Per un gruppo di azioni
+può essere utile riempire ogni riga.
+
+16
+00:01:03.660 --> 00:01:08.300
+Scegliamo Grid o Flexbox in base agli
+allineamenti e alla distribuzione dello
+
+17
+00:01:08.460 --> 00:01:09.220
+spazio che vogliamo ottenere.
+
+18
+00:01:10.060 --> 00:01:14.540
+Non è necessario riprodurre nel codice
+ogni suddivisione della griglia usata nel
+
+19
+00:01:14.540 --> 00:01:15.280
+progetto grafico.

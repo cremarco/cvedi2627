@@ -105,7 +105,7 @@ try {
   await page.emulateMedia({ reducedMotion: 'reduce' })
   const fixtures = deck.slides.filter(slide => String(slide.frontmatter.class).split(/\s+/).includes('archive-wall-slide'))
   const exerciseIds = [...new Set(deck.slides.filter(slide => slide.frontmatter.exerciseNumber).map(slide => slide.frontmatter.lesson))]
-  fixtures.push(...['apertura', 'presentazione-corso', 'brief-progetto', 'approfondimenti', 'introduzione', ...curriculum.lessons.map(lesson => lesson.id), ...exerciseIds].map(lesson =>
+  fixtures.push(...['apertura', 'presentazione-corso', 'brief-progetto', 'approfondimenti', 'introduzione', ...curriculum.lessons.map(lesson => lesson.id), 'test-usabilita', ...exerciseIds].map(lesson =>
     deck.slides.find(slide => (slide.frontmatter.lesson ?? 'presentazione-corso') === lesson && !String(slide.frontmatter.class).split(/\s+/).includes('chapter-slide') && !String(slide.frontmatter.class).split(/\s+/).includes('cover-slide'))))
   for (const slide of fixtures) {
     assert.ok(slide, 'each visible set has a progress color fixture')

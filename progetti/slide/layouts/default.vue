@@ -41,7 +41,7 @@ const sectionNumber = computed(() => {
     <LessonHistoryPeriod v-if="historyPeriod && !isCover" :period="historyPeriod" />
     <span v-if="isChapter && (lessonNumber || matter.exerciseNumber || sectionNumber)" class="chapter-lesson-number absolute"><template v-if="matter.exerciseNumber">Esercitazione {{ String(matter.exerciseNumber).padStart(2, '0') }}</template><template v-else-if="lessonNumber">Lezione {{ String(lessonNumber).padStart(2, '0') }}</template><template v-else>{{ set.label }}</template><template v-if="sectionNumber"> · Sezione {{ String(sectionNumber).padStart(2, '0') }}</template></span>
     <slot />
-    <LessonAudio v-if="matter.narrationAudio" :src="String(matter.narrationAudio)" />
+    <LessonAudio v-if="matter.narrationAudio" :src="String(matter.narrationAudio)" :captions="matter.narrationCaptions ? String(matter.narrationCaptions) : undefined" />
     <footer v-if="!isCover" class="slide-footer">
       <span v-if="footer && !isCover && !isInteractive" class="slide-label"><AcronymText :text="footer" /></span>
       <span class="slide-index" :aria-label="`Slide ${pagination.page} di ${pagination.total}`">

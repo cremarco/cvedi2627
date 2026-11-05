@@ -1,0 +1,76 @@
+# Publications cited in the chapter. Preparatory course material stays in the asset manifest.
+uxDiPascale:
+  type: Book
+  author: "Di Pascale, Matteo"
+  title: "Manuale di sopravvivenza per UX designer: Guida pratica alla progettazione"
+  date: 2019
+  publisher: Hoepli
+  serial-number:
+    isbn: "9788820389192"
+
+uxIso210:
+  type: Report
+  author:
+    name: International Organization for Standardization
+  title: "Ergonomics of human-system interaction — Part 210: Human-centred design for interactive systems"
+  date: 2019
+  serial-number:
+    serial: ISO 9241-210:2019
+  url: https://www.iso.org/standard/77520.html
+
+uxDykes:
+  type: Web
+  author: "Dykes, Taylor"
+  title: Personas make users memorable
+  date: 2025-10-03
+  parent:
+    type: Web
+    title: Nielsen Norman Group
+  url: https://www.nngroup.com/articles/persona/
+
+uxGibbons:
+  type: Web
+  author: "Gibbons, Sarah"
+  title: Journey mapping 101
+  date: 2018-12-09
+  parent:
+    type: Web
+    title: Nielsen Norman Group
+  url: https://www.nngroup.com/articles/journey-mapping-101/
+
+uxMoran:
+  type: Web
+  author: "Moran, Kate"
+  title: Usability (user) testing 101
+  date: 2019-12-01
+  parent:
+    type: Web
+    title: Nielsen Norman Group
+  url: https://www.nngroup.com/articles/usability-testing-101/
+
+uxGothelf:
+  type: Web
+  author: "Gothelf, Jeff"
+  title: The Lean UX Canvas
+  date: 2016-12-16
+  url: https://jeffgothelf.com/blog/the-lean-ux-canvas/
+
+uxDekker:
+  type: Web
+  author: "Dekker, Jolanda"
+  title: "Wireframing NS. Less is more, the art of leaving out."
+  date: 2019-11-06
+  parent:
+    type: Web
+    title: Medium
+  url: https://medium.com/@jolandatdekker/wireframing-ns-less-is-more-the-art-of-leaving-out-4077fd9174c0
+
+uxSauers:
+  type: Web
+  author: "Sauers, Evan"
+  title: A client guide to wireframes
+  date: 2022-08-31
+  parent:
+    type: Web
+    title: JH Specialty
+  url: https://www.jhspecialty.com/blog/wireframes

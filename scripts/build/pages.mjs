@@ -25,6 +25,7 @@ await buildLessonDecks(path.join(output, 'slides'), `${base}slides/`)
 await checkPublishedBuild(path.join(output, 'slides'))
 await copyWebDesignExamples(path.join(output, webDesignExamplesDirectory))
 await copyIlmeteo(path.join(output, ilmeteoDirectory))
+await cp(path.join(root, 'progetti/fisioterapia/dist'), path.join(output, 'fisioterapia'), { recursive: true })
 
 // The PDF is generated manually at the end and is optional for publication.
 const pdf = path.join(root, 'cvedi-2026-2027.pdf')

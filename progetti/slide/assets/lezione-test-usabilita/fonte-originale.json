@@ -1,0 +1,1853 @@
+{
+  "file": "materiali/lezioni/2025-2026/08-usability-testing-contesto-culturale.pdf",
+  "sha256": "0aafcfaf2ad1cc5755444c08e81c214eb16a8af03ae731915f3ccd9942e9877a",
+  "collection": "materiali/lezioni/2025-2026",
+  "originalTitle": "CVeDI 2425 - Lezione 8 - Usability testing e contesto culturale ",
+  "physicalPages": [
+    8,
+    86
+  ],
+  "pageCount": 172,
+  "pages": [
+    {
+      "page": 8,
+      "originalText": "Principi di usabilità 8",
+      "title": "Principi di usabilità",
+      "blocks": [],
+      "kind": "section"
+    },
+    {
+      "page": 9,
+      "originalText": "Progettare user-friendly\n9\nUn prodotto user-friendly, come suggerisce il nome, è semplicemente un prodotto \nfacile da usare (usabile) \nPer progettare un’interfaccia user-friendly è fondamentale tenere sempre a mente che \nciò che è ovvio per noi non è per forza ovvio per tutti\n",
+      "title": "Progettare user-friendly",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un prodotto user-friendly, come suggerisce il nome, è semplicemente un prodotto facile da usare (usabile)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Per progettare un’interfaccia user-friendly è fondamentale tenere sempre a mente che ciò che è ovvio per noi non è per forza ovvio per tutti"
+        }
+      ],
+      "kind": "text"
+    },
+    {
+      "page": 10,
+      "originalText": "Progettare user-friendly\n10\nUn prodotto davvero user-friendly richiede uno sforzo minimo per essere utilizzato\nMinimizzare il carico cognitivo richiesto all’utente significa aiutarlo a concentrarsi su ciò \nche è davvero importante (per lui e per noi) \nSignifica anche portarlo con più probabilità alla fine di un flusso di interazione (e.g. su un \nsito di e-commerce portare l’utente a completare con successo il processo di acquisto \ntramite un flusso di azioni chiaro)\nUn prodotto usabile contribuisce anche a lasciare all’utente un’impressione positiva \nriguardo al proprio brand\nPerché è così importante?",
+      "title": "Progettare user-friendly",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Perché è così importante?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un prodotto davvero user-friendly richiede uno sforzo minimo per essere utilizzato"
+        },
+        {
+          "type": "paragraph",
+          "text": "Minimizzare il carico cognitivo richiesto all’utente significa aiutarlo a concentrarsi su ciò che è davvero importante (per lui e per noi)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Significa anche portarlo con più probabilità alla fine di un flusso di interazione (e.g. su un sito di e-commerce portare l’utente a completare con successo il processo di acquisto tramite un flusso di azioni chiaro)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un prodotto usabile contribuisce anche a lasciare all’utente un’impressione positiva riguardo al proprio brand"
+        }
+      ],
+      "kind": "text"
+    },
+    {
+      "page": 11,
+      "originalText": "I principi di \nDonald Norman\n11",
+      "title": "I principi di Donald Norman",
+      "blocks": [],
+      "kind": "section"
+    },
+    {
+      "page": 12,
+      "originalText": "I principi di Donald Norman\n12\nLo psicologo Donald Norman è tra le \nfigure più influenti quando si parla di \nusabilità e design (non solo per il \nweb)\nTeorico dello User-Centered Design, \nha illustrato una serie di principi per \nottimizzare l’usabilità\n",
+      "title": "I principi di Donald Norman",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Lo psicologo Donald Norman è tra le figure più influenti quando si parla di usabilità e design (non solo per il web)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Teorico dello User-Centered Design, ha illustrato una serie di principi per ottimizzare l’usabilità"
+        }
+      ],
+      "kind": "illustrated",
+      "figure": "figura-12"
+    },
+    {
+      "page": 13,
+      "originalText": "I principi di Donald Norman\n13\nNel 1988 Normal pubblica uno dei libri più famosi nel campo dell’usabilità, “La caffettiera \ndel masochista. Psicopatologia degli oggetti quotidiani”, nel quale teorizza alcuni \nprincipi fondamentali per una progettazione user-centered:\n❏ Affordance\n❏ Significanti\n❏ Mapping\n❏ Vincoli\n❏ Feedback\n❏ Modello concettuale\nI 6 principi fondamentali (di Norman) nell’interactive design ",
+      "title": "I principi di Donald Norman",
+      "blocks": [
+        {
+          "type": "subtitle",
+          "text": "I 6 principi fondamentali (di Norman) nell’interactive design"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nel 1988 Normal pubblica uno dei libri più famosi nel campo dell’usabilità, “La caffettiera del masochista. Psicopatologia degli oggetti quotidiani”, nel quale teorizza alcuni principi fondamentali per una progettazione user-centered:"
+        },
+        {
+          "type": "item",
+          "text": "❏ Affordance"
+        },
+        {
+          "type": "item",
+          "text": "❏ Significanti"
+        },
+        {
+          "type": "item",
+          "text": "❏ Mapping"
+        },
+        {
+          "type": "item",
+          "text": "❏ Vincoli"
+        },
+        {
+          "type": "item",
+          "text": "❏ Feedback"
+        },
+        {
+          "type": "item",
+          "text": "❏ Modello concettuale"
+        }
+      ],
+      "kind": "text"
+    },
+    {
+      "page": 14,
+      "originalText": "I principi di Donald Norman\n14\nL’affordance indica la relazione fra l’oggetto, per come appare, e come esso possa \nessere utilizzato\nLe affordance percepite ci aiutano a indovinare quali azioni siano possibili, senza \nbisogno di cartelli o istruzioni\nNel web design si traduce nella capacità degli elementi di un’interfaccia di essere \ncompresi nell’immediato senza dover aggiungere informazioni quali etichette, testi, call \nto action etc. (e.g. un bottone deve sembrare un elemento cliccabile a prescindere dal \nsuo testo)\nAffordance ",
+      "title": "I principi di Donald Norman",
+      "blocks": [
+        {
+          "type": "subtitle",
+          "text": "Affordance"
+        },
+        {
+          "type": "paragraph",
+          "text": "L’affordance indica la relazione fra l’oggetto, per come appare, e come esso possa essere utilizzato"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le affordance percepite ci aiutano a indovinare quali azioni siano possibili, senza bisogno di cartelli o istruzioni"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nel web design si traduce nella capacità degli elementi di un’interfaccia di essere compresi nell’immediato senza dover aggiungere informazioni quali etichette, testi, call to action etc. (e.g. un bottone deve sembrare un elemento cliccabile a prescindere dal suo testo)"
+        }
+      ],
+      "kind": "text"
+    },
+    {
+      "page": 15,
+      "originalText": "15\n",
+      "title": "Affordance · esempio",
+      "blocks": [],
+      "kind": "image",
+      "figure": "esempio-15"
+    },
+    {
+      "page": 16,
+      "originalText": "I principi di Donald Norman\n16\nI significanti segnalano quali azioni sono possibili e come eseguirle\nUn classico esempio è il maniglione antipanico di una porta, non serve conoscerlo e c’è \nun solo modo per usarlo\nNel web design i significanti sono legati principalmente ai testi che indicano l’azione \n(CTA) o le icone che la rappresentano\nSignificanti (1)",
+      "title": "I principi di Donald Norman",
+      "blocks": [
+        {
+          "type": "subtitle",
+          "text": "Significanti (1)"
+        },
+        {
+          "type": "paragraph",
+          "text": "I significanti segnalano quali azioni sono possibili e come eseguirle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un classico esempio è il maniglione antipanico di una porta, non serve conoscerlo e c’è un solo modo per usarlo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nel web design i significanti sono legati principalmente ai testi che indicano l’azione (CTA) o le icone che la rappresentano"
+        }
+      ],
+      "kind": "text"
+    },
+    {
+      "page": 17,
+      "originalText": "I principi di Donald Norman\n17\nAttenzione a non commettere questi errori comuni:\n❏ Usare testi troppo generici per le CTA: l’informazione, tramite i significanti, deve far \ncapire esattamente cosa succederà compiendo una determinata azione \n(Feedforward)\n❏ Essere eccessivamente creativi nella progettazione delle icone: l’icona è utile \nquando da sola rappresenta qualcosa in maniera inequivocabile; è necessario \nquindi seguire le logiche culturali, anche se a volte noiose (e.g. “Home” si \nrappresenta con una casa, non un palazzo o una fattoria, “Taglia” con delle forbici, \nnon un coltello o un seghetto)\nSignificanti (2)",
+      "title": "I principi di Donald Norman",
+      "blocks": [
+        {
+          "type": "subtitle",
+          "text": "Significanti (2)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Attenzione a non commettere questi errori comuni:"
+        },
+        {
+          "type": "item",
+          "text": "❏ Usare testi troppo generici per le CTA: l’informazione, tramite i significanti, deve far capire esattamente cosa succederà compiendo una determinata azione (Feedforward)"
+        },
+        {
+          "type": "item",
+          "text": "❏ Essere eccessivamente creativi nella progettazione delle icone: l’icona è utile quando da sola rappresenta qualcosa in maniera inequivocabile; è necessario quindi seguire le logiche culturali, anche se a volte noiose (e.g. “Home” si rappresenta con una casa, non un palazzo o una fattoria, “Taglia” con delle forbici, non un coltello o un seghetto)"
+        }
+      ],
+      "kind": "text"
+    },
+    {
+      "page": 18,
+      "originalText": "18\n",
+      "title": "Significanti · esempio",
+      "blocks": [],
+      "kind": "image",
+      "figure": "esempio-18"
+    },
+    {
+      "page": 19,
+      "originalText": "I principi di Donald Norman\n19\nIl principio del mapping si riferisce alla progettazione di controlli, in modo tale che \nriflettano il modo in cui si comportano\nNel web design il mapping è estremamente legato ai significanti ed è veicolato dalla \nposizione e dal comportamento degli elementi\nL’esempio più classico è lo scroll verticale in una schermata, ti dice dove ti trovi rispetto \nalla pagina e mentre lo trascini la pagina si sposta con la stessa velocità; il controllo e \nl’effetto hanno la stessa mappatura\nAllo stesso modo un pulsante incrementale lo troveremo in alto o a destra, mai dalle \nparti opposte\nMapping",
+      "title": "I principi di Donald Norman",
+      "blocks": [
+        {
+          "type": "subtitle",
+          "text": "Mapping"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il principio del mapping si riferisce alla progettazione di controlli, in modo tale che riflettano il modo in cui si comportano"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nel web design il mapping è estremamente legato ai significanti ed è veicolato dalla posizione e dal comportamento degli elementi"
+        },
+        {
+          "type": "paragraph",
+          "text": "L’esempio più classico è lo scroll verticale in una schermata, ti dice dove ti trovi rispetto alla pagina e mentre lo trascini la pagina si sposta con la stessa velocità; il controllo e l’effetto hanno la stessa mappatura"
+        },
+        {
+          "type": "paragraph",
+          "text": "Allo stesso modo un pulsante incrementale lo troveremo in alto o a destra, mai dalle parti opposte"
+        }
+      ],
+      "kind": "text"
+    },
+    {
+      "page": 20,
+      "originalText": "20\n",
+      "title": "Mapping · esempio",
+      "blocks": [],
+      "kind": "image",
+      "figure": "esempio-20"
+    },
+    {
+      "page": 21,
+      "originalText": "I principi di Donald Norman\n21\nI vincoli sono indizi che definiscono i paletti e gli obblighi che un designer deve rispettare \nper guidare l’azione e facilitare l’interpretazione\nSi possono dividere in quattro categorie: limiti fisici, culturali, semantici e logici\nVincoli (1)",
+      "title": "I principi di Donald Norman",
+      "blocks": [
+        {
+          "type": "subtitle",
+          "text": "Vincoli (1)"
+        },
+        {
+          "type": "paragraph",
+          "text": "I vincoli sono indizi che definiscono i paletti e gli obblighi che un designer deve rispettare per guidare l’azione e facilitare l’interpretazione"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si possono dividere in quattro categorie: limiti fisici, culturali, semantici e logici"
+        }
+      ],
+      "kind": "text"
+    },
+    {
+      "page": 22,
+      "originalText": "I principi di Donald Norman\n22\nIn un’interfaccia i vincoli possono essere ovvi, come quelli fisici della dimensione dello \nschermo, o più raffinati, come quelli logici di un’icona disattivata\nVincoli logici, utili all’usabilità, sono anche le immagini metà dentro lo schermo e metà \nfuori, che fanno intuire uno slideshow da scrollare\nOppure la visualizzazione degli step di un processo, ad esempio un checkout di un \ne-commerce, che permettono all’utente di capire immediatamente quanto manca alla \nfine\nVincoli (2)",
+      "title": "I principi di Donald Norman",
+      "blocks": [
+        {
+          "type": "subtitle",
+          "text": "Vincoli (2)"
+        },
+        {
+          "type": "paragraph",
+          "text": "In un’interfaccia i vincoli possono essere ovvi, come quelli fisici della dimensione dello schermo, o più raffinati, come quelli logici di un’icona disattivata"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vincoli logici, utili all’usabilità, sono anche le immagini metà dentro lo schermo e metà fuori, che fanno intuire uno slideshow da scrollare"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oppure la visualizzazione degli step di un processo, ad esempio un checkout di un e-commerce, che permettono all’utente di capire immediatamente quanto manca alla fine"
+        }
+      ],
+      "kind": "text"
+    },
+    {
+      "page": 23,
+      "originalText": "23\n",
+      "title": "Vincoli · esempio",
+      "blocks": [],
+      "kind": "image",
+      "figure": "esempio-23"
+    },
+    {
+      "page": 24,
+      "originalText": "I principi di Donald Norman\n24\nIl feedback è quel comportamento che comunica che l’azione è stata recepita, anche se \nmagari non ancora evasa\nIl feedback dev’essere immediato, anche un ritardo di un decimo di secondo può \nconfondere l’utente\nFeedback (1)",
+      "title": "I principi di Donald Norman",
+      "blocks": [
+        {
+          "type": "subtitle",
+          "text": "Feedback (1)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il feedback è quel comportamento che comunica che l’azione è stata recepita, anche se magari non ancora evasa"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il feedback dev’essere immediato, anche un ritardo di un decimo di secondo può confondere l’utente"
+        }
+      ],
+      "kind": "text"
+    },
+    {
+      "page": 25,
+      "originalText": "I principi di Donald Norman\n25\nNel web design troppo spesso i progettisti si dimenticano di fornire feedback \nCi si preoccupa di fare la pagina con l’azione e quella successiva di esito, ma dal \nmomento che l’utente preme Invia, cosa succede? \nIn assenza di chiari feedback l’utente, semplicemente, continuerà a ripetere una certa \nazione fintanto che non riceverà un’informazione di ritorno\nFeedback (2)",
+      "title": "I principi di Donald Norman",
+      "blocks": [
+        {
+          "type": "subtitle",
+          "text": "Feedback (2)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nel web design troppo spesso i progettisti si dimenticano di fornire feedback"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ci si preoccupa di fare la pagina con l’azione e quella successiva di esito, ma dal momento che l’utente preme Invia, cosa succede?"
+        },
+        {
+          "type": "paragraph",
+          "text": "In assenza di chiari feedback l’utente, semplicemente, continuerà a ripetere una certa azione fintanto che non riceverà un’informazione di ritorno"
+        }
+      ],
+      "kind": "text"
+    },
+    {
+      "page": 26,
+      "originalText": "26\n",
+      "title": "Feedback · esempio",
+      "blocks": [],
+      "kind": "image",
+      "figure": "esempio-26"
+    },
+    {
+      "page": 27,
+      "originalText": "I principi di Donald Norman\n27\nUn modello concettuale è la spiegazione, di solito molto semplificata, di come funziona \nuna cosa\nNel web design, i modelli ci permettono di associare un’azione, ovviamente virtuale, a \nqualcosa di concreto che già conosciamo, e che quindi aiuta la comprensione\nUn buon modello concettuale ci permette quindi di prevedere gli effetti delle nostre \nazioni\nModello concettuale",
+      "title": "I principi di Donald Norman",
+      "blocks": [
+        {
+          "type": "subtitle",
+          "text": "Modello concettuale"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un modello concettuale è la spiegazione, di solito molto semplificata, di come funziona una cosa"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nel web design, i modelli ci permettono di associare un’azione, ovviamente virtuale, a qualcosa di concreto che già conosciamo, e che quindi aiuta la comprensione"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un buon modello concettuale ci permette quindi di prevedere gli effetti delle nostre azioni"
+        }
+      ],
+      "kind": "text"
+    },
+    {
+      "page": 28,
+      "originalText": "28\n",
+      "title": "Modello concettuale · esempio",
+      "blocks": [],
+      "kind": "image",
+      "figure": "esempio-28"
+    },
+    {
+      "page": 29,
+      "originalText": "Le euristiche di \nJakob Nielsen\n29",
+      "title": "Le euristiche di Jakob Nielsen",
+      "blocks": [],
+      "kind": "section"
+    },
+    {
+      "page": 30,
+      "originalText": "Le euristiche di Jakob Nielsen\n30\nUno studio di importanza critica per \nl'usabilità venne effettuato \ndall’informatico danese Jakob \nNielsen, che sulla base delle analisi \ncondotte sui comportamenti degli \nutenti ha elaborato le cosiddette \neuristiche di Nielsen\nAlcuni aspetti critici, secondo lui, sono \nla visibilità dello stato del sistema, il \ncontrollo e la libertà sul contenuto del \nsito, la necessità di evitare elementi \ninutili, di garantire consistenza e \nsfruttare la familiarità \n",
+      "title": "Le euristiche di Jakob Nielsen",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Uno studio di importanza critica per l'usabilità venne effettuato dall’informatico danese Jakob Nielsen, che sulla base delle analisi condotte sui comportamenti degli utenti ha elaborato le cosiddette euristiche di Nielsen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alcuni aspetti critici, secondo lui, sono la visibilità dello stato del sistema, il controllo e la libertà sul contenuto del sito, la necessità di evitare elementi inutili, di garantire consistenza e sfruttare la familiarità"
+        }
+      ],
+      "kind": "illustrated",
+      "figure": "figura-30"
+    },
+    {
+      "page": 31,
+      "originalText": "Le euristiche di Nielsen\nIl sistema dovrebbe sempre \ninformare l’utente su cosa sta \nsuccedendo, attraverso feedback \nappropriati forniti in un tempo \nragionevole\n31\nVisibilità dello stato del sistema\n",
+      "title": "Le euristiche di Nielsen",
+      "blocks": [
+        {
+          "type": "subtitle",
+          "text": "Visibilità dello stato del sistema"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il sistema dovrebbe sempre informare l’utente su cosa sta succedendo, attraverso feedback appropriati forniti in un tempo ragionevole"
+        }
+      ],
+      "kind": "illustrated",
+      "figure": "figura-31"
+    },
+    {
+      "page": 32,
+      "originalText": "Le euristiche di Nielsen\nIl sistema dovrebbe parlare il \n“linguaggio” dell’utente, utilizzando \nfrasi e concetti familiari e non termini \ntecnici\nDovrebbe seguire le convenzioni del \nmondo reale\n32\nCorrispondenza tra sistema e mondo reale\n",
+      "title": "Le euristiche di Nielsen",
+      "blocks": [
+        {
+          "type": "subtitle",
+          "text": "Corrispondenza tra sistema e mondo reale"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il sistema dovrebbe parlare il “linguaggio” dell’utente, utilizzando frasi e concetti familiari e non termini tecnici"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dovrebbe seguire le convenzioni del mondo reale"
+        }
+      ],
+      "kind": "illustrated",
+      "figure": "figura-32"
+    },
+    {
+      "page": 33,
+      "originalText": "Le euristiche di Nielsen\nGli utenti devono poter navigare ed \neffettuare operazioni attraverso il \nsistema con facilità, ma anche avere \nuna chiara “uscita d’emergenza” per \nlasciare un eventuale stato non \nvoluto e tornare sulla giusta strada\n33\nControllo dell’utente e libertà\n",
+      "title": "Le euristiche di Nielsen",
+      "blocks": [
+        {
+          "type": "subtitle",
+          "text": "Controllo dell’utente e libertà"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gli utenti devono poter navigare ed effettuare operazioni attraverso il sistema con facilità, ma anche avere una chiara “uscita d’emergenza” per lasciare un eventuale stato non voluto e tornare sulla giusta strada"
+        }
+      ],
+      "kind": "illustrated",
+      "figure": "figura-33"
+    },
+    {
+      "page": 34,
+      "originalText": "Le euristiche di Nielsen\nI programmi dovrebbero adeguarsi alle convenzioni\nGli utenti dovrebbero poter contare sul fatto che le stesse parole, in programmi diversi, \nindicano cose simili (e.g. “Posta in arrivo”, “Posta in uscita”)\n34\nStandard e consistenza",
+      "title": "Le euristiche di Nielsen",
+      "blocks": [
+        {
+          "type": "subtitle",
+          "text": "Standard e consistenza"
+        },
+        {
+          "type": "paragraph",
+          "text": "I programmi dovrebbero adeguarsi alle convenzioni"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gli utenti dovrebbero poter contare sul fatto che le stesse parole, in programmi diversi, indicano cose simili (e.g. “Posta in arrivo”, “Posta in uscita”)"
+        }
+      ],
+      "kind": "text"
+    },
+    {
+      "page": 35,
+      "originalText": "Le euristiche di Nielsen\nAncor meglio dei buoni messaggi di \nerrore è una progettazione attenta \nche impedisce il verificarsi di un \nproblema\nEliminare le condizioni soggette a \nerrori o verificarle e presentare agli \nutenti un’opzione di conferma prima \ndi impegnarsi nell’azione\n35\nPrevenzione dell’errore\n",
+      "title": "Le euristiche di Nielsen",
+      "blocks": [
+        {
+          "type": "subtitle",
+          "text": "Prevenzione dell’errore"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ancor meglio dei buoni messaggi di errore è una progettazione attenta che impedisce il verificarsi di un problema"
+        },
+        {
+          "type": "paragraph",
+          "text": "Eliminare le condizioni soggette a errori o verificarle e presentare agli utenti un’opzione di conferma prima di impegnarsi nell’azione"
+        }
+      ],
+      "kind": "illustrated",
+      "figure": "figura-35"
+    },
+    {
+      "page": 36,
+      "originalText": "Le euristiche di Nielsen\nOpzioni e azioni devono essere visibili \nper evitare che l’utente si debba \nricordare le informazioni tra un utilizzo \ne un altro\n36\nRiconoscimento anziché ricordo\n",
+      "title": "Le euristiche di Nielsen",
+      "blocks": [
+        {
+          "type": "subtitle",
+          "text": "Riconoscimento anziché ricordo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Opzioni e azioni devono essere visibili per evitare che l’utente si debba ricordare le informazioni tra un utilizzo e un altro"
+        }
+      ],
+      "kind": "illustrated",
+      "figure": "figura-36"
+    },
+    {
+      "page": 37,
+      "originalText": "Le euristiche di Nielsen\nGli utenti più esperti devono poter \nutilizzare scorciatoie per velocizzare le \nproprie azioni \n37\nFlessibilità ed efficienza\n",
+      "title": "Le euristiche di Nielsen",
+      "blocks": [
+        {
+          "type": "subtitle",
+          "text": "Flessibilità ed efficienza"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gli utenti più esperti devono poter utilizzare scorciatoie per velocizzare le proprie azioni"
+        }
+      ],
+      "kind": "illustrated",
+      "figure": "figura-37"
+    },
+    {
+      "page": 38,
+      "originalText": "Le euristiche di Nielsen\nI testi non dovrebbero contenere \ninformazioni irrilevanti o comunque \npoco necessarie\nOgni ulteriore unità di informazioni \ninterferisce con i messaggi \ndavvero necessari e diminuisce\nla loro visibilità\n38\nEstetica e progettazione minimalista\n",
+      "title": "Le euristiche di Nielsen",
+      "blocks": [
+        {
+          "type": "subtitle",
+          "text": "Estetica e progettazione minimalista"
+        },
+        {
+          "type": "paragraph",
+          "text": "I testi non dovrebbero contenere informazioni irrilevanti o comunque poco necessarie"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ogni ulteriore unità di informazioni interferisce con i messaggi davvero necessari e diminuisce la loro visibilità"
+        }
+      ],
+      "kind": "illustrated",
+      "figure": "figura-38"
+    },
+    {
+      "page": 39,
+      "originalText": "Le euristiche di Nielsen\nI messaggi di errore non devono \ncontenere codici: devono piuttosto \nessere esplicativi e suggerire \nall’utente una soluzione in modo \ncostruttivo\n39\nRiconoscimento e risoluzione degli errori\n",
+      "title": "Le euristiche di Nielsen",
+      "blocks": [
+        {
+          "type": "subtitle",
+          "text": "Riconoscimento e risoluzione degli errori"
+        },
+        {
+          "type": "paragraph",
+          "text": "I messaggi di errore non devono contenere codici: devono piuttosto essere esplicativi e suggerire all’utente una soluzione in modo costruttivo"
+        }
+      ],
+      "kind": "illustrated",
+      "figure": "figura-39"
+    },
+    {
+      "page": 40,
+      "originalText": "Le euristiche di Nielsen\nA volte è utile dedicare una sezione del programma o della pagina ad esplicite \nspiegazioni dedicate all’utente, che possano aiutarlo a fruire il sito\nQueste informazioni dovrebbero essere facili da trovare e focalizzarsi su quali potrebbero \nessere i compiti che l’utente non sta riuscendo a svolgere \n40\nDocumentazione",
+      "title": "Le euristiche di Nielsen",
+      "blocks": [
+        {
+          "type": "subtitle",
+          "text": "Documentazione"
+        },
+        {
+          "type": "paragraph",
+          "text": "A volte è utile dedicare una sezione del programma o della pagina ad esplicite spiegazioni dedicate all’utente, che possano aiutarlo a fruire il sito"
+        },
+        {
+          "type": "paragraph",
+          "text": "Queste informazioni dovrebbero essere facili da trovare e focalizzarsi su quali potrebbero essere i compiti che l’utente non sta riuscendo a svolgere"
+        }
+      ],
+      "kind": "text"
+    },
+    {
+      "page": 41,
+      "originalText": "Test di usabilità 41",
+      "title": "Test di usabilità",
+      "blocks": [],
+      "kind": "section"
+    },
+    {
+      "page": 42,
+      "originalText": "Focus group: perché escluderlo? (1)\n42\nIn un focus group, un piccolo gruppo di persone (di solito da 5 a 10) si siedono intorno a \nun tavolo a parlare, per esempio delle loro opinioni sui prodotti, sulle esperienze che \nhanno avuto con essi o sulle loro reazioni ai nuovi concept\nI focus group sono ottimi per farsi rapidamente un'idea di cosa sentono e pensano gli \nutenti su un determinato prodotto",
+      "title": "Focus group: perché escluderlo? (1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In un focus group, un piccolo gruppo di persone (di solito da 5 a 10) si siedono intorno a un tavolo a parlare, per esempio delle loro opinioni sui prodotti, sulle esperienze che hanno avuto con essi o sulle loro reazioni ai nuovi concept"
+        },
+        {
+          "type": "paragraph",
+          "text": "I focus group sono ottimi per farsi rapidamente un'idea di cosa sentono e pensano gli utenti su un determinato prodotto"
+        }
+      ],
+      "kind": "text"
+    },
+    {
+      "page": 43,
+      "originalText": "Focus group: perché escluderlo? (2)\n43\nI focus group possono rendersi molto utili per determinare cosa vuole il pubblico, di \ncosa ha bisogno e cosa gli piace, in astratto\nVanno bene per testare se l'idea che sta dietro il vostro sito si capisce e se la value \nproposition è attraente, per scoprire di più su come le persone di solito risolvono i \nproblemi che il sito aiuterà ad affrontare e per sapere che cosa pensano di voi e della \nconcorrenza\nMa non vanno bene per capire se il sito funziona e come migliorarlo\n",
+      "title": "Focus group: perché escluderlo? (2)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I focus group possono rendersi molto utili per determinare cosa vuole il pubblico, di cosa ha bisogno e cosa gli piace, in astratto"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vanno bene per testare se l'idea che sta dietro il vostro sito si capisce e se la value proposition è attraente, per scoprire di più su come le persone di solito risolvono i problemi che il sito aiuterà ad affrontare e per sapere che cosa pensano di voi e della concorrenza"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ma non vanno bene per capire se il sito funziona e come migliorarlo"
+        }
+      ],
+      "kind": "text"
+    },
+    {
+      "page": 44,
+      "originalText": "Test di usabilità (1)\n44\nL’usability testing, noto anche come “User testing” è una metodologia di ricerca popolare \nnell’ambito della User Experience. \nSecondo il Nielsen Norman Group: In a usability-testing session, a researcher (called a \n“facilitator” or a “moderator”) asks a participant to perform tasks, usually using one or \nmore specific user interfaces. While the participant completes each task, the researcher \nobserves the participant’s behavior and listens for feedback\nConsistono nel guardare una sola persona per volta mentre cerca di usare qualcosa \n(che sia un sito web, un prototipo o solo le bozze di singole pagine) per eseguire azioni \ncomuni, perché si possano rilevare e correggere gli aspetti che la confondono o la \nfrustrano\n",
+      "title": "Test di usabilità (1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L’usability testing, noto anche come “User testing” è una metodologia di ricerca popolare nell’ambito della User Experience."
+        },
+        {
+          "type": "paragraph",
+          "text": "Secondo il Nielsen Norman Group: In a usability-testing session, a researcher (called a “facilitator” or a “moderator”) asks a participant to perform tasks, usually using one or more specific user interfaces. While the participant completes each task, the researcher observes the participant’s behavior and listens for feedback"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consistono nel guardare una sola persona per volta mentre cerca di usare qualcosa (che sia un sito web, un prototipo o solo le bozze di singole pagine) per eseguire azioni comuni, perché si possano rilevare e correggere gli aspetti che la confondono o la frustrano"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Nielsen Norman Group"
+    },
+    {
+      "page": 45,
+      "originalText": "Test di usabilità (2)\n45\nAll'inizio, però, i test di usabilità erano una proposta molto dispendiosa. Si doveva \ndisporre di un laboratorio di usabilità con una sala di osservazione dietro uno specchio \nunidirezionale e delle videocamere per registrare le reazioni dell'utente e lo schermo. Si \ndoveva pagare un professionista dell'usabilità perché pianificasse e organizzasse il test \ne si dovevano reclutare moltissimi partecipanti in modo da ottenere risultati \nstatisticamente significativi. Potevano costare da $20.000 a $50.000. E non li si faceva \nmolto spesso\n",
+      "title": "Test di usabilità (2)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "All'inizio, però, i test di usabilità erano una proposta molto dispendiosa. Si doveva disporre di un laboratorio di usabilità con una sala di osservazione dietro uno specchio unidirezionale e delle videocamere per registrare le reazioni dell'utente e lo schermo. Si doveva pagare un professionista dell'usabilità perché pianificasse e organizzasse il test e si dovevano reclutare moltissimi partecipanti in modo da ottenere risultati statisticamente significativi. Potevano costare da $20.000 a $50.000. E non li si faceva molto spesso"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 46,
+      "originalText": "Test di usabilità (3)\n46\nPoi, nel 1989, Jakob Nielsen scrisse un saggio dal titolo \"Usability Engineering at a \nDiscount\" e fece notare che non dovevano essere così\nNon c'era bisogno di un laboratorio di usabilità e si potevano ottenere gli stessi risultati \ncon meno partecipanti\nIl prezzo scese rapidamente a $5.000/$10.000 per un ciclo di test\n",
+      "title": "Test di usabilità (3)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Poi, nel 1989, Jakob Nielsen scrisse un saggio dal titolo \"Usability Engineering at a Discount\" e fece notare che non dovevano essere così"
+        },
+        {
+          "type": "paragraph",
+          "text": "Non c'era bisogno di un laboratorio di usabilità e si potevano ottenere gli stessi risultati con meno partecipanti"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il prezzo scese rapidamente a $5.000/$10.000 per un ciclo di test"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 47,
+      "originalText": "47\n TEST TRADIZIONALI TEST FAI DA TE\nTEMPO NECESSARIO PER \nCIASCUN CICLO DI TEST\n1-2 giorni di test, poi una settimana per preparare il briefing o il \nresoconto, seguiti da un breve processo per decidere cosa \ncorreggere\nUna mattina al mese si devono eseguire il test e il resoconto \ne poi si decide cosa correggere. Nel pomeriggio, il test di \nusabilità è già finito\nQUANDO ESEGUIRE IL TEST? Quando il sito è quasi finito Continuamente, nel corso del processo di sviluppo\nNUMERO DI CICLI DI TEST Generalmente, solo uno o due per progetto, per via del tempo \nnecessario e del costo Uno al mese\nNUMERO DI PARTECIPANTI IN \nCIASCUNA SERIE Otto o più Tre\nCHI DEVE GUARDARE? Si devono cercare con attenzione persone che facciano parte \ndel possibile pubblico di destinazione\nSi deve cercare di coinvolgere tutti i membri del team, \ncompresi stakeholder, manager e perfino i dirigenti nelle \nsessioni di test\nDOVE ESEGUIRE I TEST? Fuori dall'ufficio, in locali che dispongono di una sala di \nosservazione con un vetro a specchio unidirezionale\nIn ufficio, con gli osservatori in una sala riunioni che \nosservano con un software di condivisione dello schermo\nIL RESOCONTO Giornate intere di test fuori dall'ufficio significa che non molte \npersone potranno osservare i test \"in diretta\"\nMezza giornata di test in ufficio significa che più persone \npotranno vedere i test \"in diretta\"\nCHI INDIVIDUA I PROBLEMI\nDi solito, ad analizzare i risultati e a consigliare i cambiamenti da \neseguire è la persona che esegue i test\nL'intero team di sviluppo e le parti interessate si incontrano a \npranzo il giorno stesso per condividere le osservazioni e \ndecidere cosa correggere\nSCOPO PRINCIPALE\nIndividuare il maggior numero possibile di problemi (a volte \ncentinaia) e poi classificarli e assegnarvi un indice di priorità \nbasato sulla gravità\nIndividuare i 3 problemi di usabilità più gravi da discutere in \nfase di debriefing\nCOSTI Da $5.000 a $10.000 a ciclo, se si incarica qualcuno di eseguirli Poche centinaia di dollari o meno a ciclo",
+      "title": "Test tradizionali e test fai da te",
+      "blocks": [],
+      "kind": "table",
+      "rows": [
+        [
+          "TEMPO NECESSARIO PER CIASCUN CICLO DI TEST",
+          "1-2 giorni di test, poi una settimana per preparare il briefing o il resoconto, seguiti da un breve processo per decidere cosa correggere",
+          "Una mattina al mese si devono eseguire il test e il resoconto e poi si decide cosa correggere. Nel pomeriggio, il test di usabilità è già finito"
+        ],
+        [
+          "QUANDO ESEGUIRE IL TEST?",
+          "Quando il sito è quasi finito",
+          "Continuamente, nel corso del processo di sviluppo"
+        ],
+        [
+          "NUMERO DI CICLI DI TEST",
+          "Generalmente, solo uno o due per progetto, per via del tempo necessario e del costo",
+          "Uno al mese"
+        ],
+        [
+          "NUMERO DI PARTECIPANTI IN CIASCUNA SERIE",
+          "Otto o più",
+          "Tre"
+        ],
+        [
+          "CHI DEVE GUARDARE?",
+          "Si devono cercare con attenzione persone che facciano parte del possibile pubblico di destinazione",
+          "Si deve cercare di coinvolgere tutti i membri del team, compresi stakeholder, manager e perfino i dirigenti nelle sessioni di test"
+        ],
+        [
+          "DOVE ESEGUIRE I TEST?",
+          "Fuori dall'ufficio, in locali che dispongono di una sala di osservazione con un vetro a specchio unidirezionale",
+          "In ufficio, con gli osservatori in una sala riunioni che osservano con un software di condivisione dello schermo"
+        ],
+        [
+          "IL RESOCONTO",
+          "Giornate intere di test fuori dall'ufficio significa che non molte persone potranno osservare i test \"in diretta\"",
+          "Mezza giornata di test in ufficio significa che più persone potranno vedere i test \"in diretta\""
+        ],
+        [
+          "CHI INDIVIDUA I PROBLEMI",
+          "Di solito, ad analizzare i risultati e a consigliare i cambiamenti da eseguire è la persona che esegue i test",
+          "L'intero team di sviluppo e le parti interessate si incontrano a pranzo il giorno stesso per condividere le osservazioni e decidere cosa correggere"
+        ],
+        [
+          "SCOPO PRINCIPALE",
+          "Individuare il maggior numero possibile di problemi (a volte centinaia) e poi classificarli e assegnarvi un indice di priorità basato sulla gravità",
+          "Individuare i 3 problemi di usabilità più gravi da discutere in fase di debriefing"
+        ],
+        [
+          "COSTI",
+          "Da $5.000 a $10.000 a ciclo, se si incarica qualcuno di eseguirli",
+          "Poche centinaia di dollari o meno a ciclo"
+        ]
+      ],
+      "columns": [
+        "",
+        "TEST TRADIZIONALI",
+        "TEST FAI DA TE"
+      ]
+    },
+    {
+      "page": 48,
+      "originalText": "Why Usability Test? (1)\n48\nGli obiettivi dei test di usabilità variano in base allo studio, ma di solito includono:\nScoprire opportunità per \nmigliorare\nIndividuare i problemi nella \nprogettazione del prodotto o \ndel servizio\nConoscere il \ncomportamento e le \npreferenze dell’utente target",
+      "title": "Why Usability Test? (1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Gli obiettivi dei test di usabilità variano in base allo studio, ma di solito includono:"
+        }
+      ],
+      "kind": "objectives",
+      "cards": [
+        "Individuare i problemi nella progettazione del prodotto o del servizio",
+        "Scoprire opportunità per migliorare",
+        "Conoscere il comportamento e le preferenze dell’utente target"
+      ]
+    },
+    {
+      "page": 49,
+      "originalText": "Why Usability Test? (2)\n49\nAnche i migliori UX Designer non possono progettare un'esperienza utente perfetta senza \navvalersi di una progettazione iterativa guidata dall'osservazione degli utenti reali e \ndelle loro interazioni con il design\nCi sono molte variabili nella progettazione di un'interfaccia utente moderna e ce ne sono \nancora di più nel cervello umano. Il numero totale di combinazioni è enorme. L'unico \nmodo per ottenere una corretta progettazione UX è testarla\n",
+      "title": "Why Usability Test? (2)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Anche i migliori UX Designer non possono progettare un'esperienza utente perfetta senza avvalersi di una progettazione iterativa guidata dall'osservazione degli utenti reali e delle loro interazioni con il design"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ci sono molte variabili nella progettazione di un'interfaccia utente moderna e ce ne sono ancora di più nel cervello umano. Il numero totale di combinazioni è enorme. L'unico modo per ottenere una corretta progettazione UX è testarla"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Nielsen Norman Group"
+    },
+    {
+      "page": 50,
+      "originalText": "Why Usability Test? (3)\n50\nEseguire test funziona sempre e anche il test peggiore con l'utente peggiore vi mostrerà \ncose importanti che potete migliorare nel sito\nEseguire test con un solo utente è 100 volte meglio che con nessuno ",
+      "title": "Why Usability Test? (3)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Eseguire test con un solo utente è 100 volte meglio che con nessuno"
+        },
+        {
+          "type": "paragraph",
+          "text": "Eseguire test funziona sempre e anche il test peggiore con l'utente peggiore vi mostrerà cose importanti che potete migliorare nel sito"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 51,
+      "originalText": "Why Usability Test? (4)\n51\nMolti danno per scontato che i test comportano molto lavoro. Ma se li trasformate in un \nun grosso lavoro, non riuscirete a eseguirli in tempo o sufficientemente spesso da \npoterne trarre il massimo vantaggio. Un test semplice subito, quando siete ancora in \ntempo per applicare quello che vi suggerisce, quasi sempre è più prezioso di un test \nelaborato più tardi\nIn parte quello che normalmente si pensa dello sviluppo web è che cambiare le cose sia \nmolto facile, ma la verità è che, una volta che è in uso, spesso apportare modifiche \n(soprattutto grandi cambiamenti) a un sito non è così facile. Una certa percentuale di \nutenti resisterà a quasi tutti i tipi di cambiamenti e anche le modifiche apparentemente \nsemplici spesso risultano avere effetti di vasta portata. Tutti gli errori che si possono \ncorreggere all'inizio del processo evitano molti problemi più avanti\nEseguire test con un solo utente all'inizio del progetto è meglio che eseguirli con 50 alla \nfine",
+      "title": "Why Usability Test? (4)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Eseguire test con un solo utente all'inizio del progetto è meglio che eseguirli con 50 alla fine"
+        },
+        {
+          "type": "paragraph",
+          "text": "Molti danno per scontato che i test comportano molto lavoro. Ma se li trasformate in un un grosso lavoro, non riuscirete a eseguirli in tempo o sufficientemente spesso da poterne trarre il massimo vantaggio. Un test semplice subito, quando siete ancora in tempo per applicare quello che vi suggerisce, quasi sempre è più prezioso di un test elaborato più tardi In parte quello che normalmente si pensa dello sviluppo web è che cambiare le cose sia molto facile, ma la verità è che, una volta che è in uso, spesso apportare modifiche (soprattutto grandi cambiamenti) a un sito non è così facile. Una certa percentuale di utenti resisterà a quasi tutti i tipi di cambiamenti e anche le modifiche apparentemente semplici spesso risultano avere effetti di vasta portata. Tutti gli errori che si possono correggere all'inizio del processo evitano molti problemi più avanti"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 52,
+      "originalText": "Usability testing: le componenti\n52\nGli elementi centrali nella maggior parte dei test di usabilità sono il facilitatore, i compiti \ne il partecipante\n",
+      "title": "Usability testing: le componenti",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Gli elementi centrali nella maggior parte dei test di usabilità sono il facilitatore, i compiti e il partecipante"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 53,
+      "originalText": "53\nCompitiFacilitatore Partecipante\nOsserva e intervista\nDà feedback\nAmministra Performa\nAttività realistiche che il\nil partecipante potrebbe \neffettivamente\neffettuare nella vita reale\nGuida il partecipante lungo \nil processo\nUtente realistico del\nprodotto o servizio\nin fase di studio\n",
+      "title": "Usability testing: le componenti",
+      "blocks": [],
+      "kind": "diagram",
+      "figure": "componenti-test",
+      "figureText": "Osserva e intervista Dà feedback Amministra Performa Facilitatore Compiti Partecipante Guida il partecipante lungo Attività realistiche che il Utente realistico del il processo il partecipante potrebbe prodotto o servizio effettivamente in fase di studio effettuare nella vita reale",
+      "attribution": "Nielsen Norman Group"
+    },
+    {
+      "page": 54,
+      "originalText": "54\nFacilitatore\nGuida il partecipante lungo \nil processo\nUsability testing: il facilitatore (1)\nIl facilitatore guida il partecipante \nattraverso il processo di test. Dà \nistruzioni, risponde alle domande dei \npartecipanti e pone domande di \nfollow-up\nIl facilitatore lavora per garantire che \nil test fornisca dati validi e di alta \nqualità, senza influenzare \naccidentalmente il comportamento \ndel partecipante. Raggiungere questo \nequilibrio è difficile e richiede \nformazione\n",
+      "title": "Usability testing: il facilitatore (1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Il facilitatore guida il partecipante attraverso il processo di test. Dà istruzioni, risponde alle domande dei partecipanti e pone domande di follow-up"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il facilitatore lavora per garantire che il test fornisca dati validi e di alta qualità, senza influenzare accidentalmente il comportamento del partecipante. Raggiungere questo equilibrio è difficile e richiede formazione"
+        }
+      ],
+      "kind": "role",
+      "figure": "ruolo-facilitatore",
+      "figureText": "Facilitatore Guida il partecipante lungo il processo",
+      "attribution": "Nielsen Norman Group"
+    },
+    {
+      "page": 55,
+      "originalText": "55\nFacilitatore\nGuida il partecipante lungo \nil processo\nUsability testing: il facilitatore (2)\nÈ necessario scegliere qualcuno che \ntenda a essere paziente, calmo, \nempatico e buon ascoltatore\nA parte far sentire i partecipanti a loro \nagio e farli concentrare sulle loro \nattività, il compito principale del \nfacilitatore è incoraggiarli a pensare \nil più possibile ad alta voce senza \ninfluenzare le loro azioni\n",
+      "title": "Usability testing: il facilitatore (2)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "È necessario scegliere qualcuno che tenda a essere paziente, calmo, empatico e buon ascoltatore"
+        },
+        {
+          "type": "paragraph",
+          "text": "A parte far sentire i partecipanti a loro agio e farli concentrare sulle loro attività, il compito principale del facilitatore è incoraggiarli a pensare il più possibile ad alta voce senza influenzare le loro azioni"
+        }
+      ],
+      "kind": "role",
+      "figure": "ruolo-facilitatore",
+      "figureText": "Facilitatore Guida il partecipante lungo il processo",
+      "attribution": "Nielsen Norman Group"
+    },
+    {
+      "page": 56,
+      "originalText": "56\nUsability testing: i compiti (1)\nI compiti in un test di usabilità sono \nattività realistiche che il \npartecipante potrebbe svolgere nella \nvita reale. Possono essere molto \nspecifici o molto aperti, a seconda \ndelle domande di ricerca e del tipo di \ntest di usabilità. Compiti\nAttività realistiche che il\nil partecipante potrebbe \neffettivamente\neffettuare nella vita reale\n",
+      "title": "Usability testing: i compiti (1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I compiti in un test di usabilità sono attività realistiche che il partecipante potrebbe svolgere nella vita reale. Possono essere molto specifici o molto aperti, a seconda delle domande di ricerca e del tipo di test di usabilità."
+        }
+      ],
+      "kind": "role",
+      "figure": "ruolo-compiti",
+      "figureText": "Compiti Attività realistiche che il il partecipante potrebbe effettivamente effettuare nella vita reale",
+      "attribution": "Nielsen Norman Group"
+    },
+    {
+      "page": 57,
+      "originalText": "57\nUsability testing: i compiti (2)\nLa formulazione delle attività è molto \nimportante nei test di usabilità\nPiccoli errori nella formulazione di un \ncompito possono indurre il \npartecipante a fraintendere ciò che \ngli viene chiesto di fare o possono \ninfluenzare il modo in cui i \npartecipanti eseguono il compito (un \nfenomeno psicologico chiamato \npriming)\nCompiti\nAttività realistiche che il\nil partecipante potrebbe \neffettivamente\neffettuare nella vita reale\n",
+      "title": "Usability testing: i compiti (2)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La formulazione delle attività è molto importante nei test di usabilità"
+        },
+        {
+          "type": "paragraph",
+          "text": "Piccoli errori nella formulazione di un compito possono indurre il partecipante a fraintendere ciò che gli viene chiesto di fare o possono influenzare il modo in cui i partecipanti eseguono il compito (un fenomeno psicologico chiamato priming)"
+        }
+      ],
+      "kind": "role",
+      "figure": "ruolo-compiti",
+      "figureText": "Compiti Attività realistiche che il il partecipante potrebbe effettivamente effettuare nella vita reale",
+      "attribution": "Nielsen Norman Group"
+    },
+    {
+      "page": 58,
+      "originalText": "58\nUsability testing: i compiti (3)\nLe istruzioni del compito possono \nessere consegnate al partecipante \nverbalmente (il facilitatore potrebbe \nleggerle) o possono essere \nconsegnate scritte su fogli\nSpesso si chiede ai partecipanti di \nleggere ad alta voce le istruzioni del \ncompito per garantire la lettura \ncompleta delle istruzioni e affinché il \nfacilitatore sappia quale attività sta \neseguendo \nCompiti\nAttività realistiche che il\nil partecipante potrebbe \neffettivamente\neffettuare nella vita reale\n",
+      "title": "Usability testing: i compiti (3)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le istruzioni del compito possono essere consegnate al partecipante verbalmente (il facilitatore potrebbe leggerle) o possono essere consegnate scritte su fogli"
+        },
+        {
+          "type": "paragraph",
+          "text": "Spesso si chiede ai partecipanti di leggere ad alta voce le istruzioni del compito per garantire la lettura completa delle istruzioni e affinché il facilitatore sappia quale attività sta eseguendo"
+        }
+      ],
+      "kind": "role",
+      "figure": "ruolo-compiti",
+      "figureText": "Compiti Attività realistiche che il il partecipante potrebbe effettivamente effettuare nella vita reale",
+      "attribution": "Nielsen Norman Group"
+    },
+    {
+      "page": 59,
+      "originalText": "59\nUsability testing: il partecipante\nIl partecipante dovrebbe essere un \nutente realistico del prodotto o \nservizio studiato. Ciò potrebbe \nsignificare che l’utente sta già \nutilizzando il prodotto o il servizio nella \nvita reale\nIn alternativa, in alcuni casi, il \npartecipante potrebbe \nsemplicemente avere un \nbackground simile a quello del \ngruppo di utenti target o avere le \nstesse esigenze\nPartecipante\nUtente realistico del\nprodotto o servizio\nin fase di studio\n",
+      "title": "Usability testing: il partecipante",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Il partecipante dovrebbe essere un utente realistico del prodotto o servizio studiato. Ciò potrebbe significare che l’utente sta già utilizzando il prodotto o il servizio nella vita reale"
+        },
+        {
+          "type": "paragraph",
+          "text": "In alternativa, in alcuni casi, il partecipante potrebbe semplicemente avere un background simile a quello del gruppo di utenti target o avere le stesse esigenze"
+        }
+      ],
+      "kind": "role",
+      "figure": "ruolo-partecipante",
+      "figureText": "Partecipante Utente realistico del prodotto o servizio in fase di studio",
+      "attribution": "Nielsen Norman Group"
+    },
+    {
+      "page": 60,
+      "originalText": "60\nUsability testing: il partecipante\nAi partecipanti viene spesso chiesto \ndi pensare ad alta voce durante i test \ndi usabilità (chiamato “metodo \nthink-aloud”). Il facilitatore potrebbe \nchiedere ai partecipanti di narrare le \nloro azioni e pensieri mentre svolgono \ni compiti \nL’obiettivo di questo approccio è \ncomprendere i comportamenti, gli \nobiettivi, i pensieri e le motivazioni \ndei partecipanti\nPartecipante\nUtente realistico del\nprodotto o servizio\nin fase di studio\n",
+      "title": "Usability testing: il partecipante",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ai partecipanti viene spesso chiesto di pensare ad alta voce durante i test di usabilità (chiamato “metodo think-aloud”). Il facilitatore potrebbe chiedere ai partecipanti di narrare le loro azioni e pensieri mentre svolgono i compiti"
+        },
+        {
+          "type": "paragraph",
+          "text": "L’obiettivo di questo approccio è comprendere i comportamenti, gli obiettivi, i pensieri e le motivazioni dei partecipanti"
+        }
+      ],
+      "kind": "role",
+      "figure": "ruolo-partecipante",
+      "figureText": "Partecipante Utente realistico del prodotto o servizio in fase di studio",
+      "attribution": "Nielsen Norman Group"
+    },
+    {
+      "page": 61,
+      "originalText": "Come svolgere un \nUsability Testing?\n61",
+      "title": "Come svolgere un Usability Testing?",
+      "blocks": [],
+      "kind": "section"
+    },
+    {
+      "page": 62,
+      "originalText": "Quanto spesso si devono eseguire i test? (1)\n62\n❏ Se li si mantiene semplici, si continua ad eseguirli. Una mattina al mese è più o \nmeno il tempo che la maggior parte dei team possono permettersi di dedicare ai \ntest. Se questi sono troppo complicati o richiedono troppo tempo, è molto più \nprobabile che non troviate il tempo di eseguirli quando siete troppo occupati\n❏ Offrono quello che serve. Osservando tre partecipanti, riconoscete abbastanza \nproblemi da tenervi impegnati a correggere cose fino al mese successivo\nUna mattina al mese",
+      "title": "Quanto spesso si devono eseguire i test? (1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Una mattina al mese"
+        },
+        {
+          "type": "item",
+          "text": "❏ Se li si mantiene semplici, si continua ad eseguirli. Una mattina al mese è più o meno il tempo che la maggior parte dei team possono permettersi di dedicare ai test. Se questi sono troppo complicati o richiedono troppo tempo, è molto più probabile che non troviate il tempo di eseguirli quando siete troppo occupati"
+        },
+        {
+          "type": "item",
+          "text": "❏ Offrono quello che serve. Osservando tre partecipanti, riconoscete abbastanza problemi da tenervi impegnati a correggere cose fino al mese successivo"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 63,
+      "originalText": "Quanto spesso si devono eseguire i test? (2)\n63\n❏ Evitano di dover decidere che cosa testare. Dovete scegliere un giorno del mese \n(come il terzo giovedì) e renderlo il giorno dedicato ai test. È molto meglio che \nbasare la pianificazione dei test su obiettivi o scadenze (\"Eseguiremo i test quando \nla versione beta sarà pronta per il rilascio\"), perché questi spesso slittano e fanno \nslittare di conseguenza anche i test. Non preoccupatevi: avrete sempre qualcosa \nda testare ogni mese\n❏ Aumentano le probabilità che la gente sia presente. Eseguirli tutti in una mattinata \nin base a un calendario prevedibile aumenta enormemente la possibilità che i \nmembri del team trovino il tempo di venire e osservare almeno una sessione, cosa \nche è altamente desiderabile\nUna mattina al mese",
+      "title": "Quanto spesso si devono eseguire i test? (2)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Una mattina al mese"
+        },
+        {
+          "type": "item",
+          "text": "❏ Evitano di dover decidere che cosa testare. Dovete scegliere un giorno del mese (come il terzo giovedì) e renderlo il giorno dedicato ai test. È molto meglio che basare la pianificazione dei test su obiettivi o scadenze (\"Eseguiremo i test quando la versione beta sarà pronta per il rilascio\"), perché questi spesso slittano e fanno slittare di conseguenza anche i test. Non preoccupatevi: avrete sempre qualcosa da testare ogni mese"
+        },
+        {
+          "type": "item",
+          "text": "❏ Aumentano le probabilità che la gente sia presente. Eseguirli tutti in una mattinata in base a un calendario prevedibile aumenta enormemente la possibilità che i membri del team trovino il tempo di venire e osservare almeno una sessione, cosa che è altamente desiderabile"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 64,
+      "originalText": "Quanti utenti servono? (1)\n64\nLo scopo di questo tipo di test non è quello di dimostrare qualcosa. Dimostrare cose \nrichiede test quantitativi, con campioni di grande dimensione, un protocollo definito con \nchiarezza e seguito con rigore e la raccolta e l'analisi di molti dati\nI test fai da te sono un metodo qualitativo il cui scopo è migliorare quello che si sta \ncostruendo per identificare e risolvere problemi di usabilità\nIl processo non è rigoroso: si assegnano dei compiti agli utenti, li si osserva e si impara. I \nrisultati sono intuizioni attuabili, non prove\nTre utenti",
+      "title": "Quanti utenti servono? (1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tre utenti"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lo scopo di questo tipo di test non è quello di dimostrare qualcosa. Dimostrare cose richiede test quantitativi, con campioni di grande dimensione, un protocollo definito con chiarezza e seguito con rigore e la raccolta e l'analisi di molti dati"
+        },
+        {
+          "type": "paragraph",
+          "text": "I test fai da te sono un metodo qualitativo il cui scopo è migliorare quello che si sta costruendo per identificare e risolvere problemi di usabilità"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il processo non è rigoroso: si assegnano dei compiti agli utenti, li si osserva e si impara. I risultati sono intuizioni attuabili, non prove"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 65,
+      "originalText": "Quanti utenti servono? (2)\n65\nNon dovete trovare tutti i problemi. In realtà, non troverete mai tutti i problemi in nessuna \ncosa che testiate. E se lo faceste non servirebbe, per questo motivo: In mezza giornata, \ntrovate più problemi di quanti ne possiate risolvere in un mese!\nTroverete sempre più problemi di quanti non abbiate le risorse per risolvere e quindi è \nmolto importante che vi concentriate innanzitutto a correggere quelli più gravi \nE tre utenti hanno molte probabilità di trovare molti dei problemi più significativi che \nhanno a che fare con le attività che state testando\nInoltre, eseguirete un ciclo di test al mese. È molto più importante eseguire più cicli di \ntest che cercare di ottenere tutto il possibile da ciascuno di essi\nTre utenti",
+      "title": "Quanti utenti servono? (2)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tre utenti"
+        },
+        {
+          "type": "paragraph",
+          "text": "Non dovete trovare tutti i problemi. In realtà, non troverete mai tutti i problemi in nessuna cosa che testiate. E se lo faceste non servirebbe, per questo motivo: In mezza giornata, trovate più problemi di quanti ne possiate risolvere in un mese!"
+        },
+        {
+          "type": "paragraph",
+          "text": "Troverete sempre più problemi di quanti non abbiate le risorse per risolvere e quindi è molto importante che vi concentriate innanzitutto a correggere quelli più gravi"
+        },
+        {
+          "type": "paragraph",
+          "text": "E tre utenti hanno molte probabilità di trovare molti dei problemi più significativi che hanno a che fare con le attività che state testando"
+        },
+        {
+          "type": "paragraph",
+          "text": "Inoltre, eseguirete un ciclo di test al mese. È molto più importante eseguire più cicli di test che cercare di ottenere tutto il possibile da ciascuno di essi"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 66,
+      "originalText": "Quanti utenti servono?\n66\n❏ Di solito non conviene progettare un sito perché possa usarlo solo il pubblico di \ndestinazione. La conoscenza in un ambito è una caratteristica particolare e se \nprogettate un sito per gli economisti usando una terminologia che pensate che \ncapiscano tutti loro, scoprirete che un numero ridotto ma non trascurabile non sa di \ncosa state parlando. E, nella maggior parte dei casi, è necessario tenere in conto \ntanto i novizi quanto gli esperti\n❏ Sotto sotto siamo tutti principianti. Gratta gratta, sotto un esperto spesso troverete \nqualcuno che se la cava in qualche modo, ma a un livello superiore\n❏ Raramente gli esperti si sentono offesi da qualcosa che è sufficientemente chiaro \nai principianti. Tutti apprezzano la chiarezza (cioè quello che è veramente chiaro e \nnon quello che è stato semplificato tanto da sembrare stupido). Se riesce a usarlo \n\"praticamente chiunque\", ci riusciranno anche i vostri esperti\nReclutate con tranquillità senza selezionare troppo",
+      "title": "Quanti utenti servono?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Reclutate con tranquillità senza selezionare troppo"
+        },
+        {
+          "type": "item",
+          "text": "❏ Di solito non conviene progettare un sito perché possa usarlo solo il pubblico di destinazione. La conoscenza in un ambito è una caratteristica particolare e se progettate un sito per gli economisti usando una terminologia che pensate che capiscano tutti loro, scoprirete che un numero ridotto ma non trascurabile non sa di cosa state parlando. E, nella maggior parte dei casi, è necessario tenere in conto tanto i novizi quanto gli esperti"
+        },
+        {
+          "type": "item",
+          "text": "❏ Sotto sotto siamo tutti principianti. Gratta gratta, sotto un esperto spesso troverete qualcuno che se la cava in qualche modo, ma a un livello superiore"
+        },
+        {
+          "type": "item",
+          "text": "❏ Raramente gli esperti si sentono offesi da qualcosa che è sufficientemente chiaro ai principianti. Tutti apprezzano la chiarezza (cioè quello che è veramente chiaro e non quello che è stato semplificato tanto da sembrare stupido). Se riesce a usarlo \"praticamente chiunque\", ci riusciranno anche i vostri esperti"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 67,
+      "originalText": "Dove si eseguono i test?\n67\nPer eseguire i test, vi serve uno spazio tranquillo dove non essere interrotti (di solito un \nufficio o una sala riunioni) con un tavolo o una scrivania e due sedie. E vi serve un \ncomputer con accesso a Internet, un mouse, una tastiera e un microfono\nPer permettere a tutti i membri del team e a tutti coloro che sono interessati di osservare \ni test da un'altra stanza, potete usare un software per la condivisione dello schermo \nDovreste anche lanciare un software per la registrazione dello schermo per catturare \nquello che succede sullo schermo e quello che si dicono il facilitatore e il partecipante\n",
+      "title": "Dove si eseguono i test?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Per eseguire i test, vi serve uno spazio tranquillo dove non essere interrotti (di solito un ufficio o una sala riunioni) con un tavolo o una scrivania e due sedie. E vi serve un computer con accesso a Internet, un mouse, una tastiera e un microfono"
+        },
+        {
+          "type": "paragraph",
+          "text": "Per permettere a tutti i membri del team e a tutti coloro che sono interessati di osservare i test da un'altra stanza, potete usare un software per la condivisione dello schermo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dovreste anche lanciare un software per la registrazione dello schermo per catturare quello che succede sullo schermo e quello che si dicono il facilitatore e il partecipante"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 68,
+      "originalText": "Chi deve osservare? (1)\n68\nUno degli effetti più preziosi dei test di usabilità è quello che può produrre sugli \nosservatori. Per molti, si tratta di un'esperienza che trasforma e cambia radicalmente la \nloro idea degli utenti: all'improvviso \"capiscono\" che gli utenti non sono tutti come loro\n",
+      "title": "Chi deve osservare? (1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Uno degli effetti più preziosi dei test di usabilità è quello che può produrre sugli osservatori. Per molti, si tratta di un'esperienza che trasforma e cambia radicalmente la loro idea degli utenti: all'improvviso \"capiscono\" che gli utenti non sono tutti come loro"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 69,
+      "originalText": "Chi deve osservare? (2)\n69\nDovete cercare di fare il possibile per incoraggiare tutti (i membri del team, gli \nstakeholder, i manager e perfino i dirigenti) a venire a guardare le sessioni di test\nVi servono una sala di osservazione (di solito una sala riunioni), un computer con \nl'accesso a Internet, un software di condivisione dello schermo e un monitor molto \ngrande o un proiettore e una coppia di altoparlanti esterni in modo che tutti possano \nvedere e sentire cosa sta succedendo nella sala dei test\nDurante le pause tra una sessione di test e l'altra, gli osservatori devono scrivere i tre \nproblemi di usabilità più gravi che hanno notato durante quella sessione, in modo poi \nda metterli in comune durante il debriefing\n",
+      "title": "Chi deve osservare? (2)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dovete cercare di fare il possibile per incoraggiare tutti (i membri del team, gli stakeholder, i manager e perfino i dirigenti) a venire a guardare le sessioni di test"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi servono una sala di osservazione (di solito una sala riunioni), un computer con l'accesso a Internet, un software di condivisione dello schermo e un monitor molto grande o un proiettore e una coppia di altoparlanti esterni in modo che tutti possano vedere e sentire cosa sta succedendo nella sala dei test"
+        },
+        {
+          "type": "paragraph",
+          "text": "Durante le pause tra una sessione di test e l'altra, gli osservatori devono scrivere i tre problemi di usabilità più gravi che hanno notato durante quella sessione, in modo poi da metterli in comune durante il debriefing"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 70,
+      "originalText": "Cosa testare e quando testarlo? (1)\n70\nCome vi diranno tutti professionisti dell'usabilità, è importante iniziare a eseguire i test il \npiù presto possibile e continuare a eseguirli durante tutto il processo di sviluppo \nIn realtà, non è mai troppo presto per iniziare\nPerfino prima di cominciare a progettare il sito, per esempio, è una buona idea eseguire \nun test dei siti della concorrenza. Può trattarsi di veri e propri rivali, oppure \nsemplicemente di siti che hanno lo stesso stile, la stessa organizzazione o le stesse \nfunzionalità che si prevede di utilizzare \nInvitando tre partecipanti e guardandoli provare a eseguire alcune operazioni tipiche su \nuno o due siti della concorrenza, imparerete molto bene che cosa funziona e che cosa \nnon funziona, senza dover progettare o costruire niente\n",
+      "title": "Cosa testare e quando testarlo? (1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Come vi diranno tutti professionisti dell'usabilità, è importante iniziare a eseguire i test il più presto possibile e continuare a eseguirli durante tutto il processo di sviluppo"
+        },
+        {
+          "type": "paragraph",
+          "text": "In realtà, non è mai troppo presto per iniziare"
+        },
+        {
+          "type": "paragraph",
+          "text": "Perfino prima di cominciare a progettare il sito, per esempio, è una buona idea eseguire un test dei siti della concorrenza. Può trattarsi di veri e propri rivali, oppure semplicemente di siti che hanno lo stesso stile, la stessa organizzazione o le stesse funzionalità che si prevede di utilizzare"
+        },
+        {
+          "type": "paragraph",
+          "text": "Invitando tre partecipanti e guardandoli provare a eseguire alcune operazioni tipiche su uno o due siti della concorrenza, imparerete molto bene che cosa funziona e che cosa non funziona, senza dover progettare o costruire niente"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 71,
+      "originalText": "Cosa testare e quando testarlo? (2)\n71\nSe dovete riprogettare un sito esistente, anche in questo caso vi conviene eseguire un \ntest prima di cominciare, per sapere cosa non funziona (e deve essere cambiato) e \ncosa funziona (in modo da non alterarlo)\nPoi, nel corso del progetto, dovete continuare a testare tutto quello che produce il team, \na cominciare dai primi schizzi e continuando con wireframe, composizioni di pagina, \nprototipi e infine pagine reali\n",
+      "title": "Cosa testare e quando testarlo? (2)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Se dovete riprogettare un sito esistente, anche in questo caso vi conviene eseguire un test prima di cominciare, per sapere cosa non funziona (e deve essere cambiato) e cosa funziona (in modo da non alterarlo)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Poi, nel corso del progetto, dovete continuare a testare tutto quello che produce il team, a cominciare dai primi schizzi e continuando con wireframe, composizioni di pagina, prototipi e infine pagine reali"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 72,
+      "originalText": "Come si scelgono le attività per i test? (1)\n72\nPer ciascuna fase di test, dovete pensare i compiti che i partecipanti dovranno cercare \ndi svolgere\nLe attività che si testano in una determinata fase di test in parte dipendono da quello \nche è già pronto da testare\nSe a vostra disposizione avete solo una bozza, per esempio, il compito può consistere \nsemplicemente nel chiedere loro di guardarla e dire cosa ne pensano\n",
+      "title": "Come si scelgono le attività per i test? (1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Per ciascuna fase di test, dovete pensare i compiti che i partecipanti dovranno cercare di svolgere"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le attività che si testano in una determinata fase di test in parte dipendono da quello che è già pronto da testare"
+        },
+        {
+          "type": "paragraph",
+          "text": "Se a vostra disposizione avete solo una bozza, per esempio, il compito può consistere semplicemente nel chiedere loro di guardarla e dire cosa ne pensano"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 73,
+      "originalText": "Come si scelgono le attività per i test? (2)\n73\nSe però avete più bozze da mostrare loro, iniziate redigendo un elenco dei compiti che \ngli utenti devono poter svolgere con quello che volete testare, a prescindere da cosa \nsia \nPer esempio, se dovete testare il prototipo di un processo di login, le attività potrebbero \nessere: \n1. Creare un account\n2. Effettuare il login usando un nome utente e una password esistenti\n3. Recuperare una password dimenticata\n4. Recuperare un nome utente dimenticato\n5. Cambiare la risposta di una domanda di sicurezza\n",
+      "title": "Come si scelgono le attività per i test? (2)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Se però avete più bozze da mostrare loro, iniziate redigendo un elenco dei compiti che gli utenti devono poter svolgere con quello che volete testare, a prescindere da cosa sia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Per esempio, se dovete testare il prototipo di un processo di login, le attività potrebbero essere:"
+        },
+        {
+          "type": "item",
+          "text": "1. Creare un account"
+        },
+        {
+          "type": "item",
+          "text": "2. Effettuare il login usando un nome utente e una password esistenti"
+        },
+        {
+          "type": "item",
+          "text": "3. Recuperare una password dimenticata"
+        },
+        {
+          "type": "item",
+          "text": "4. Recuperare un nome utente dimenticato"
+        },
+        {
+          "type": "item",
+          "text": "5. Cambiare la risposta di una domanda di sicurezza"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 74,
+      "originalText": "Come si scelgono le attività per i test? (3)\n74\nCalcolate un numero di attività adeguato per il tempo che avete a disposizione, \ntenendo presente che alcuni le svolgono più velocemente di quanto vi aspettiate\nQuindi descrivete con cura ogni attività, in modo che i partecipanti possano capire \nesattamente cosa volete che facciano\n Includete tutte le informazioni di cui hanno bisogno ma delle quali non disporranno, \ncome i dati di login se devono usare un account demo\n",
+      "title": "Come si scelgono le attività per i test? (3)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Calcolate un numero di attività adeguato per il tempo che avete a disposizione, tenendo presente che alcuni le svolgono più velocemente di quanto vi aspettiate"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quindi descrivete con cura ogni attività, in modo che i partecipanti possano capire esattamente cosa volete che facciano"
+        },
+        {
+          "type": "paragraph",
+          "text": "Includete tutte le informazioni di cui hanno bisogno ma delle quali non disporranno, come i dati di login se devono usare un account demo"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 75,
+      "originalText": "Come si scelgono le attività per i test? (4)\n75\nPer esempio:\nPossiedi un account con nome utente delphi21 e password correcthorsebatterystaple. \nSu tutti i siti, per le domande di sicurezza usi sempre le stesse risposte, ma hai appena \nletto che questa non è una buona idea. Cambia la tua risposta in questo account.\nSpesso si riescono a ottenere risultati più rivelatori se si permette ai partecipanti di \nscegliere alcuni dettagli dell'attività. È molto meglio, per esempio, dire \"Trova il libro che \nvuoi comprare, o un libro che hai comprato recentemente\" che non \"Trova un libro di \ncucina che costi meno di 15\". Questo aumenta il coinvolgimento emotivo e permette \nloro di usare maggiormente le conoscenze personali dei contenuti\n",
+      "title": "Come si scelgono le attività per i test? (4)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Per esempio:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Possiedi un account con nome utente delphi21 e password correcthorsebatterystaple. Su tutti i siti, per le domande di sicurezza usi sempre le stesse risposte, ma hai appena letto che questa non è una buona idea. Cambia la tua risposta in questo account."
+        },
+        {
+          "type": "paragraph",
+          "text": "Spesso si riescono a ottenere risultati più rivelatori se si permette ai partecipanti di scegliere alcuni dettagli dell'attività. È molto meglio, per esempio, dire \"Trova il libro che vuoi comprare, o un libro che hai comprato recentemente\" che non \"Trova un libro di cucina che costi meno di 15\". Questo aumenta il coinvolgimento emotivo e permette loro di usare maggiormente le conoscenze personali dei contenuti"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 76,
+      "originalText": "Cosa succede durante i test? (1)\n76\nUn test tipico di un'ora può essere ripartito per esempio così:\n1. Benvenuto (4 minuti). Si inizia spiegando come funziona il test in modo che il \npartecipante sappia cosa aspettarsi\n2. Le domande (2 minuti). Poi si fanno al partecipante un paio di domande su di lui. \nQuesto aiuta a metterlo a proprio agio e permette di farsi un'idea del suo livello di \nesperienza con il computer e con il Web\n3. Il tour della home page (3 minuti). Quindi si apre la home page del sito che si deve \ntestare e si chiede al partecipante di guardarsi intorno e di dire di che cosa parla. \nQuesto permette di notare quanto è facile capire la home page e quando il \npartecipante conosca già l'ambito\n",
+      "title": "Cosa succede durante i test? (1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un test tipico di un'ora può essere ripartito per esempio così:"
+        },
+        {
+          "type": "item",
+          "text": "1. Benvenuto (4 minuti). Si inizia spiegando come funziona il test in modo che il partecipante sappia cosa aspettarsi"
+        },
+        {
+          "type": "item",
+          "text": "2. Le domande (2 minuti). Poi si fanno al partecipante un paio di domande su di lui. Questo aiuta a metterlo a proprio agio e permette di farsi un'idea del suo livello di esperienza con il computer e con il Web"
+        },
+        {
+          "type": "item",
+          "text": "3. Il tour della home page (3 minuti). Quindi si apre la home page del sito che si deve testare e si chiede al partecipante di guardarsi intorno e di dire di che cosa parla. Questo permette di notare quanto è facile capire la home page e quando il partecipante conosca già l'ambito"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 77,
+      "originalText": "Cosa succede durante i test? (2)\n77\n4. I compiti (35 minuti). Questo è il cuore del test: guardare il partecipante mentre \ntenta di svolgere una serie di compiti (o, in alcuni casi, solo un compito lungo). \nAncora una volta, ci si deve assicurare che il partecipante rimanga concentrato sui \nsuoi compiti e continui a pensare ad alta voce. Durante questa parte del test, è \nfondamentale che il partecipante possa lavorare senza influenzarlo. Non gli si \ndevono porre domande che possano guidarlo e non gli si deve offrire nessun indizio \no assistenza, a meno che non lo si veda irrimediabilmente bloccato e molto \nfrustrato. Se chiede aiuto, basta dire qualcosa come \"Che cosa faresti se io non ci \nfossi?\"\n",
+      "title": "Cosa succede durante i test? (2)",
+      "blocks": [
+        {
+          "type": "item",
+          "text": "4. I compiti (35 minuti). Questo è il cuore del test: guardare il partecipante mentre tenta di svolgere una serie di compiti (o, in alcuni casi, solo un compito lungo). Ancora una volta, ci si deve assicurare che il partecipante rimanga concentrato sui suoi compiti e continui a pensare ad alta voce. Durante questa parte del test, è fondamentale che il partecipante possa lavorare senza influenzarlo. Non gli si devono porre domande che possano guidarlo e non gli si deve offrire nessun indizio o assistenza, a meno che non lo si veda irrimediabilmente bloccato e molto frustrato. Se chiede aiuto, basta dire qualcosa come \"Che cosa faresti se io non ci fossi?\""
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 78,
+      "originalText": "Cosa succede durante i test? (3)\n78\n5. L'indagine (5 minuti). Dopo le attività, al partecipante si possono porre delle \ndomande su tutto quello che è accaduto durante il test e tutte le domande che \npropone chi stava nella sala di osservazione\n6. Wrapping up (5 minuti). Infine, lo si ringrazia per l'aiuto, lo si paga e lo si \naccompagna alla porta\n",
+      "title": "Cosa succede durante i test? (3)",
+      "blocks": [
+        {
+          "type": "item",
+          "text": "5. L'indagine (5 minuti). Dopo le attività, al partecipante si possono porre delle domande su tutto quello che è accaduto durante il test e tutte le domande che propone chi stava nella sala di osservazione"
+        },
+        {
+          "type": "item",
+          "text": "6. Wrapping up (5 minuti). Infine, lo si ringrazia per l'aiuto, lo si paga e lo si accompagna alla porta"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 79,
+      "originalText": "Problemi tipici \n79\nAgli utenti non è chiaro il concept\nSemplicemente non lo afferrano. Guardano il sito o una pagina e non \nsanno cosa farsene oppure se ne fanno un'idea ma sbagliata\nLe parole che cercano non ci sono \nQuesto di solito significa che non siete riusciti ad anticipare cosa \navrebbero cercato oppure che le parole che usate per descrivere le cose \nnon sono quelle che userebbero loro\nC'è troppa carne al fuoco\nA volte quello che stanno cercando è proprio lì sulla pagina, ma non lo \nvedono. In questo caso, è necessario ridurre il \"rumore\" complessivo \ndella pagina o alzare il volume delle cose che devono riuscire a vedere \nper farle risaltare maggiormente all'interno della gerarchia visiva",
+      "title": "Problemi tipici",
+      "blocks": [],
+      "kind": "problems",
+      "cards": [
+        {
+          "title": "Agli utenti non è chiaro il concept Semplicemente non lo afferrano. Guardano il sito o una pagina e non sanno cosa farsene oppure se ne fanno un'idea ma sbagliata",
+          "text": ""
+        },
+        {
+          "title": "Le parole che cercano non ci sono Questo di solito significa che non siete riusciti ad anticipare cosa avrebbero cercato oppure che le parole che usate per descrivere le cose non sono quelle che userebbero loro",
+          "text": ""
+        },
+        {
+          "title": "C'è troppa carne al fuoco",
+          "text": "A volte quello che stanno cercando è proprio lì sulla pagina, ma non lo vedono. In questo caso, è necessario ridurre il \"rumore\" complessivo della pagina o alzare il volume delle cose che devono riuscire a vedere per farle risaltare maggiormente all'interno della gerarchia visiva"
+        }
+      ],
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 80,
+      "originalText": "Il debriefing (1)\n80\nDopo ogni fase di test, il più presto possibile il team deve trovare il tempo di condividere \nle osservazioni e decidere quali problemi risolvere e come risolverli\n",
+      "title": "Il debriefing (1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dopo ogni fase di test, il più presto possibile il team deve trovare il tempo di condividere le osservazioni e decidere quali problemi risolvere e come risolverli"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 81,
+      "originalText": "Il debriefing (2)\n81\n1. Fate un elenco globale. Muovetevi per la sala dando a tutti la possibilità di dire \nquali sono i tre problemi più seri che hanno osservato (dei nove che hanno scritto, \ntre per ogni sessione). Scriveteli su una lavagna. Di solito, molti dicono \"Anch'io\" \nquando qualcuno esprime la sua opinione ed è possibile tenerne traccia \nsemplicemente aggiungendo dei segni di spunta\n2. Scegliete i dieci problemi più gravi. Potete raccogliere i voti in modo informale, ma \ndi solito potete cominciare con i problemi che hanno ottenuto più segni di spunta.\n3. Classificateli. Numerateli da 1 a 10, dove 1 è il peggiore. Poi copiateli in un nuovo \nelenco con il peggiore per primo, lasciando un certo margine tra di loro\n4. Create un elenco ordinato. Partendo dall'alto, scrivete un'idea vaga di come \npensate di risolvere ciascun problema durante il mese successivo, chi dovrà \noccuparsene e le risorse che richiederà\nConcentratevi sulla risoluzione dei problemi più gravi",
+      "title": "Il debriefing (2)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Concentratevi sulla risoluzione dei problemi più gravi"
+        },
+        {
+          "type": "item",
+          "text": "1. Fate un elenco globale. Muovetevi per la sala dando a tutti la possibilità di dire quali sono i tre problemi più seri che hanno osservato (dei nove che hanno scritto, tre per ogni sessione). Scriveteli su una lavagna. Di solito, molti dicono \"Anch'io\" quando qualcuno esprime la sua opinione ed è possibile tenerne traccia semplicemente aggiungendo dei segni di spunta"
+        },
+        {
+          "type": "item",
+          "text": "2. Scegliete i dieci problemi più gravi. Potete raccogliere i voti in modo informale, ma di solito potete cominciare con i problemi che hanno ottenuto più segni di spunta."
+        },
+        {
+          "type": "item",
+          "text": "3. Classificateli. Numerateli da 1 a 10, dove 1 è il peggiore. Poi copiateli in un nuovo elenco con il peggiore per primo, lasciando un certo margine tra di loro"
+        },
+        {
+          "type": "item",
+          "text": "4. Create un elenco ordinato. Partendo dall'alto, scrivete un'idea vaga di come pensate di risolvere ciascun problema durante il mese successivo, chi dovrà occuparsene e le risorse che richiederà"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 82,
+      "originalText": "Il debriefing\n82\n❏ Mantenete un elenco separato di \"soluzioni a portata di mano\". Potete anche \nmantenere un elenco di cose che non sono problemi seri, ma sono molto facili da \nrisolvere. E con molto facili, voglio dire cose che una persona può risolvere in meno \ndi un'ora, senza dover chiedere il permesso di qualcuno che non è presente al \ndebriefing\n❏ Resistete all'impulso di aggiungere cose. Quando dai test risulta evidente che gli \nutenti non ottengono qualcosa, la prima reazione del team di solito è aggiungere \nuna spiegazione o delle istruzioni, per esempio. Ma molto spesso, piuttosto che \naggiungere un'ulteriore distrazione, la soluzione giusta è togliere una cosa (o più \ncose) che rendono oscuro il significato\nConsigli sulla selezione dei problemi da risolvere (1)\n",
+      "title": "Il debriefing",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Consigli sulla selezione dei problemi da risolvere (1)"
+        },
+        {
+          "type": "item",
+          "text": "❏ Mantenete un elenco separato di \"soluzioni a portata di mano\". Potete anche mantenere un elenco di cose che non sono problemi seri, ma sono molto facili da risolvere. E con molto facili, voglio dire cose che una persona può risolvere in meno di un'ora, senza dover chiedere il permesso di qualcuno che non è presente al debriefing"
+        },
+        {
+          "type": "item",
+          "text": "❏ Resistete all'impulso di aggiungere cose. Quando dai test risulta evidente che gli utenti non ottengono qualcosa, la prima reazione del team di solito è aggiungere una spiegazione o delle istruzioni, per esempio. Ma molto spesso, piuttosto che aggiungere un'ulteriore distrazione, la soluzione giusta è togliere una cosa (o più cose) che rendono oscuro il significato"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 83,
+      "originalText": "Il debriefing\n83\n❏ Andateci piano con le richieste di \"nuove funzionalità\". Spesso i partecipanti \ndicono: \"Mi piacerebbe di più se potesse fare x\". Conviene prendere queste richieste \ndi nuove funzionalità con le pinze. Ho scoperto che se chiedete loro di descrivere \ncome dovrebbe funzionare quella funzionalità (durante la fase di indagine alla fine \ndel test), quasi sempre viene fuori che, prima che abbiano finito di descriverla, \ndicano qualcosa come \"Ma adesso che ci penso, probabilmente non la userei\". \nI partecipanti non sono designer. Occasionalmente possono proporre ottime idee, \nma in questi casi ve ne accorgete immediatamente, perché la prima cosa che vi \nviene in mente è \"Perché non ci abbiamo pensato?!\"\nConsigli sulla selezione dei problemi da risolvere (2)",
+      "title": "Il debriefing",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Consigli sulla selezione dei problemi da risolvere (2)"
+        },
+        {
+          "type": "item",
+          "text": "❏ Andateci piano con le richieste di \"nuove funzionalità\". Spesso i partecipanti dicono: \"Mi piacerebbe di più se potesse fare x\". Conviene prendere queste richieste di nuove funzionalità con le pinze. Ho scoperto che se chiedete loro di descrivere come dovrebbe funzionare quella funzionalità (durante la fase di indagine alla fine del test), quasi sempre viene fuori che, prima che abbiano finito di descriverla, dicano qualcosa come \"Ma adesso che ci penso, probabilmente non la userei\". I partecipanti non sono designer. Occasionalmente possono proporre ottime idee, ma in questi casi ve ne accorgete immediatamente, perché la prima cosa che vi viene in mente è \"Perché non ci abbiamo pensato?!\""
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 84,
+      "originalText": "Il debriefing\n84\n❏ Ignorare i problemi \"kayak\". In tutti i test avete molte probabilità di vedere diversi \ncasi nei quali gli utenti si perderanno momentaneamente ma riusciranno a \ntornare sulla strada giusta quasi immediatamente senza bisogno di aiuto. È un po' \ncome quando ci si rovescia in kayak: se si gira di nuovo da solo abbastanza \nrapidamente, fa parte del cosiddetto divertimento\nConsigli sulla selezione dei problemi da risolvere (3)\n",
+      "title": "Il debriefing",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Consigli sulla selezione dei problemi da risolvere (3)"
+        },
+        {
+          "type": "item",
+          "text": "❏ Ignorare i problemi \"kayak\". In tutti i test avete molte probabilità di vedere diversi casi nei quali gli utenti si perderanno momentaneamente ma riusciranno a tornare sulla strada giusta quasi immediatamente senza bisogno di aiuto. È un po' come quando ci si rovescia in kayak: se si gira di nuovo da solo abbastanza rapidamente, fa parte del cosiddetto divertimento"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 85,
+      "originalText": "Il debriefing\n85\nEcco altri modi per eseguire test che presentano notevoli vantaggi:\n❏ Eseguire test in remoto. La differenza è che, invece di venire nel vostro ufficio, i \npartecipanti svolgono il test nella comodità della loro casa o del loro ufficio, usando \nla condivisione dello schermo. Eliminare la necessità di viaggiare può rendere \nmolto più facile reclutare persone molto occupate e, cosa ancora più significativa, \nvi permette di includere nella vostra selezione \"praticamente chiunque\" e non solo \n\"chi vive vicino al vostro ufficio\". Non hanno bisogno di altro che di un accesso a \nInternet ad alta velocità e di un microfono\nStili di vita alternativi (1)\n",
+      "title": "Il debriefing",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Stili di vita alternativi (1)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ecco altri modi per eseguire test che presentano notevoli vantaggi:"
+        },
+        {
+          "type": "item",
+          "text": "❏ Eseguire test in remoto. La differenza è che, invece di venire nel vostro ufficio, i partecipanti svolgono il test nella comodità della loro casa o del loro ufficio, usando la condivisione dello schermo. Eliminare la necessità di viaggiare può rendere molto più facile reclutare persone molto occupate e, cosa ancora più significativa, vi permette di includere nella vostra selezione \"praticamente chiunque\" e non solo \"chi vive vicino al vostro ufficio\". Non hanno bisogno di altro che di un accesso a Internet ad alta velocità e di un microfono"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    },
+    {
+      "page": 86,
+      "originalText": "Il debriefing\n86\n❏ Non moderare i testi in remoto. Servizi come User Testing.com forniscono persone \nche si registrano mentre eseguono i test di usabilità. È sufficiente inviare le proprie \nattività e il link del sito, prototipo o app mobile. Nel giro di un'ora (in media), potete \nvedere il video di qualcuno che sta svolgendo le attività mentre pensa ad alta voce. \nNon potete interagire con il partecipante in tempo reale, ma è relativamente poco \ncostoso e da parte vostra non richiede quasi nessuno sforzo (in particolare di \nreclutamento). Tutto quello che dovete fare è guardare il video\nStili di vita alternativi (2)",
+      "title": "Il debriefing",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Stili di vita alternativi (2)"
+        },
+        {
+          "type": "item",
+          "text": "❏ Non moderare i testi in remoto. Servizi come User Testing.com forniscono persone che si registrano mentre eseguono i test di usabilità. È sufficiente inviare le proprie attività e il link del sito, prototipo o app mobile. Nel giro di un'ora (in media), potete vedere il video di qualcuno che sta svolgendo le attività mentre pensa ad alta voce. Non potete interagire con il partecipante in tempo reale, ma è relativamente poco costoso e da parte vostra non richiede quasi nessuno sforzo (in particolare di reclutamento). Tutto quello che dovete fare è guardare il video"
+        }
+      ],
+      "kind": "text",
+      "attribution": "Steve Krug · Don’t Make Me Think"
+    }
+  ],
+  "transcriptionChecks": [
+    {
+      "page": 8,
+      "completeText": true
+    },
+    {
+      "page": 9,
+      "completeText": true
+    },
+    {
+      "page": 10,
+      "completeText": true
+    },
+    {
+      "page": 11,
+      "completeText": true
+    },
+    {
+      "page": 12,
+      "completeText": true
+    },
+    {
+      "page": 13,
+      "completeText": true
+    },
+    {
+      "page": 14,
+      "completeText": true
+    },
+    {
+      "page": 15,
+      "completeText": true
+    },
+    {
+      "page": 16,
+      "completeText": true
+    },
+    {
+      "page": 17,
+      "completeText": true
+    },
+    {
+      "page": 18,
+      "completeText": true
+    },
+    {
+      "page": 19,
+      "completeText": true
+    },
+    {
+      "page": 20,
+      "completeText": true
+    },
+    {
+      "page": 21,
+      "completeText": true
+    },
+    {
+      "page": 22,
+      "completeText": true
+    },
+    {
+      "page": 23,
+      "completeText": true
+    },
+    {
+      "page": 24,
+      "completeText": true
+    },
+    {
+      "page": 25,
+      "completeText": true
+    },
+    {
+      "page": 26,
+      "completeText": true
+    },
+    {
+      "page": 27,
+      "completeText": true
+    },
+    {
+      "page": 28,
+      "completeText": true
+    },
+    {
+      "page": 29,
+      "completeText": true
+    },
+    {
+      "page": 30,
+      "completeText": true
+    },
+    {
+      "page": 31,
+      "completeText": true
+    },
+    {
+      "page": 32,
+      "completeText": true
+    },
+    {
+      "page": 33,
+      "completeText": true
+    },
+    {
+      "page": 34,
+      "completeText": true
+    },
+    {
+      "page": 35,
+      "completeText": true
+    },
+    {
+      "page": 36,
+      "completeText": true
+    },
+    {
+      "page": 37,
+      "completeText": true
+    },
+    {
+      "page": 38,
+      "completeText": true
+    },
+    {
+      "page": 39,
+      "completeText": true
+    },
+    {
+      "page": 40,
+      "completeText": true
+    },
+    {
+      "page": 41,
+      "completeText": true
+    },
+    {
+      "page": 42,
+      "completeText": true
+    },
+    {
+      "page": 43,
+      "completeText": true
+    },
+    {
+      "page": 44,
+      "completeText": true
+    },
+    {
+      "page": 45,
+      "completeText": true
+    },
+    {
+      "page": 46,
+      "completeText": true
+    },
+    {
+      "page": 47,
+      "completeText": true
+    },
+    {
+      "page": 48,
+      "completeText": true
+    },
+    {
+      "page": 49,
+      "completeText": true
+    },
+    {
+      "page": 50,
+      "completeText": true
+    },
+    {
+      "page": 51,
+      "completeText": true
+    },
+    {
+      "page": 52,
+      "completeText": true
+    },
+    {
+      "page": 53,
+      "completeText": true
+    },
+    {
+      "page": 54,
+      "completeText": true
+    },
+    {
+      "page": 55,
+      "completeText": true
+    },
+    {
+      "page": 56,
+      "completeText": true
+    },
+    {
+      "page": 57,
+      "completeText": true
+    },
+    {
+      "page": 58,
+      "completeText": true
+    },
+    {
+      "page": 59,
+      "completeText": true
+    },
+    {
+      "page": 60,
+      "completeText": true
+    },
+    {
+      "page": 61,
+      "completeText": true
+    },
+    {
+      "page": 62,
+      "completeText": true
+    },
+    {
+      "page": 63,
+      "completeText": true
+    },
+    {
+      "page": 64,
+      "completeText": true
+    },
+    {
+      "page": 65,
+      "completeText": true
+    },
+    {
+      "page": 66,
+      "completeText": true
+    },
+    {
+      "page": 67,
+      "completeText": true
+    },
+    {
+      "page": 68,
+      "completeText": true
+    },
+    {
+      "page": 69,
+      "completeText": true
+    },
+    {
+      "page": 70,
+      "completeText": true
+    },
+    {
+      "page": 71,
+      "completeText": true
+    },
+    {
+      "page": 72,
+      "completeText": true
+    },
+    {
+      "page": 73,
+      "completeText": true
+    },
+    {
+      "page": 74,
+      "completeText": true
+    },
+    {
+      "page": 75,
+      "completeText": true
+    },
+    {
+      "page": 76,
+      "completeText": true
+    },
+    {
+      "page": 77,
+      "completeText": true
+    },
+    {
+      "page": 78,
+      "completeText": true
+    },
+    {
+      "page": 79,
+      "completeText": true
+    },
+    {
+      "page": 80,
+      "completeText": true
+    },
+    {
+      "page": 81,
+      "completeText": true
+    },
+    {
+      "page": 82,
+      "completeText": true
+    },
+    {
+      "page": 83,
+      "completeText": true
+    },
+    {
+      "page": 84,
+      "completeText": true
+    },
+    {
+      "page": 85,
+      "completeText": true
+    },
+    {
+      "page": 86,
+      "completeText": true
+    }
+  ],
+  "excluded": [
+    {
+      "pages": [
+        1,
+        7
+      ],
+      "reason": "Apertura e richiamo al processo UX: fuori dalla sezione selezionata."
+    },
+    {
+      "pages": [
+        87,
+        172
+      ],
+      "reason": "Contesto culturale e chiusura: fuori dalla sezione selezionata."
+    }
+  ]
+}

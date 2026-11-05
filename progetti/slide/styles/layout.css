@@ -147,3 +147,5 @@
   font: 400 var(--cvedi-type-lead)/1.48 var(--theme-font);
   text-wrap: pretty;
 }
+/* Published viewers keep Slidev's keyboard and touch navigation without its toolbar. */
+html.cvedi-published #slide-container > div:has(> nav) { display: none; }

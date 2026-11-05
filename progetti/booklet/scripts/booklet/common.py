@@ -27,6 +27,7 @@ TARGETS = {
     "tipografia": (BOOKLET / "capitoli/06-tipografia.typ", BOOKLET / "build/anteprime/06-tipografia.pdf"),
     "griglia": (BOOKLET / "capitoli/07-griglia.typ", BOOKLET / "build/anteprime/07-griglia.pdf"),
     "composizione-gerarchia": (BOOKLET / "capitoli/08-composizione-gerarchia.typ", BOOKLET / "build/anteprime/08-composizione-gerarchia.pdf"),
+    "processo-ux-ui": (BOOKLET / "capitoli/09-processo-ux-ui.typ", BOOKLET / "build/anteprime/09-processo-ux-ui.pdf"),
 }
 PT_MM = 72 / 25.4
 

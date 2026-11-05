@@ -1,11 +1,11 @@
 import assert from 'node:assert/strict'
-import { mkdir, writeFile, readFile } from 'node:fs/promises'
+import { mkdir, writeFile } from 'node:fs/promises'
 import { chromium } from 'playwright-chromium'
 import { openSlide } from '../../../../scripts/check/browser.mjs'
 import { loadSlideDeck } from './deck.mjs'
 import { lessonDecks } from '../../utils/lesson-decks.mjs'
 
-// This suite owns the theory lessons 01–09 and their course materials.
+// This suite owns the theory lessons and their course materials.
 // Exercise covers intentionally reuse their metro routes and are checked by
 // the exercise suite, so they do not enter the unique-geometry comparison.
 // Fixtures follow identity rather than positions in the complete presentation.
@@ -15,8 +15,7 @@ const theorySlides = deck.slides.filter(slide => theoryOwners.has(slide.frontmat
 const fixtures = theorySlides.filter(slide => /\b(?:cover-slide|chapter-slide|closing-slide)\b/.test(slide.frontmatter.class ?? ''))
 const sectionDividers = theorySlides.filter(slide => slide.frontmatter.sectionDivider === true)
 const chapterCovers = fixtures.filter(slide => /\bchapter-slide\b/.test(slide.frontmatter.class ?? '') && slide.frontmatter.sectionDivider !== true)
-const curriculum = JSON.parse(await readFile(new URL('../../data/ux-curriculum.json', import.meta.url), 'utf8'))
-assert.equal(chapterCovers.length, 9 + curriculum.lessons.length, 'all original, UX and supplementary grids chapter openings remain present')
+assert.equal(chapterCovers.length, lessonDecks.filter(deck => deck.id !== 'apertura' && !deck.id.startsWith('esercitazione-')).length + 2, 'one opening per theory presentation, plus the two original course subsections')
 const typographyDividers = sectionDividers.filter(slide => slide.frontmatter.lesson === 'tipografia-griglie')
 const gridsDividers = sectionDividers.filter(slide => slide.frontmatter.lesson === 'griglie-layout')
 assert.equal(typographyDividers.length, 8, 'the typography-only lesson retains its eight section openings')

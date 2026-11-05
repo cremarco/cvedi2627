@@ -1,0 +1,75 @@
+WEBVTT
+
+1
+00:00:00.200 --> 00:00:04.300
+Un breakpoint è una soglia alla quale
+cambia una regola di layout.
+
+2
+00:00:04.300 --> 00:00:08.220
+Possiamo cercarlo partendo dagli ingombri,
+invece di associarlo subito a un modello
+
+3
+00:00:08.220 --> 00:00:12.860
+di telefono o tablet. Nell'esempio, due
+schede hanno bisogno di almeno
+
+4
+00:00:12.860 --> 00:00:17.300
+duecentoquaranta pixel ci esse esse
+ciascuna, compresi bordi e spazi interni.
+
+5
+00:00:18.240 --> 00:00:23.260
+Fra loro servono ventiquattro pixel e ai
+lati altri ventiquattro per parte.
+
+6
+00:00:23.260 --> 00:00:27.320
+Duecentoquaranta più duecentoquaranta fa
+quattrocentottanta.
+
+7
+00:00:27.320 --> 00:00:31.460
+Aggiungiamo ventiquattro pixel fra le
+schede e quarantotto per i margini: in
+
+8
+00:00:31.460 --> 00:00:33.460
+tutto cinquecentocinquantadue pixel.
+
+9
+00:00:34.400 --> 00:00:38.360
+Sotto questa larghezza del contenitore le
+due schede si impilano.
+
+10
+00:00:38.360 --> 00:00:42.120
+La soglia risolve questo caso, non ogni
+raccolta di schede.
+
+11
+00:00:42.220 --> 00:00:46.920
+Proviamo misure appena sotto e sopra,
+testi più lunghi e ingrandimento.
+
+12
+00:00:46.960 --> 00:00:51.600
+Ricordiamo anche che il pixel ci esse esse
+è un'unità logica, distinta dal singolo
+
+13
+00:00:51.600 --> 00:00:56.080
+pixel fisico dello schermo. Per applicare
+la regola dobbiamo infine dichiarare
+
+14
+00:00:56.080 --> 00:01:00.600
+rispetto a quale spazio misuriamo la
+soglia: l'intera finestra oppure il
+
+15
+00:01:00.600 --> 00:01:03.400
+contenitore effettivamente disponibile al
+componente?

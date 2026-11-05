@@ -1,0 +1,73 @@
+WEBVTT
+
+1
+00:00:00.300 --> 00:00:01.780
+La distinzione è visibile qui:
+
+2
+00:00:02.500 --> 00:00:06.740
+la finestra resta larga
+milleduecentottanta pixel ci esse esse, ma
+
+3
+00:00:06.740 --> 00:00:09.940
+contiene un campo da trecentoventi e uno
+da seicentoquaranta.
+
+4
+00:00:11.060 --> 00:00:15.560
+Le stesse schede si impilano nel primo e
+si affiancano nel secondo, usando la
+
+5
+00:00:15.560 --> 00:00:18.460
+soglia di cinquecentocinquantadue pixel
+appena calcolata.
+
+6
+00:00:19.220 --> 00:00:21.980
+Una media query sulla larghezza considera
+il viewport.
+
+7
+00:00:22.780 --> 00:00:27.040
+Una container query considera invece la
+larghezza del contenitore che ospita il
+
+8
+00:00:27.040 --> 00:00:30.000
+componente, se è stato predisposto per
+questo controllo.
+
+9
+00:00:30.460 --> 00:00:34.480
+Questo permette di adattare una scheda
+allo spazio che riceve dentro una barra
+
+10
+00:00:34.480 --> 00:00:38.140
+laterale oppure nell'area principale della
+stessa pagina.
+
+11
+00:00:38.140 --> 00:00:40.080
+Il contenuto e il criterio restano
+
+12
+00:00:40.680 --> 00:00:42.200
+uguali; cambia il riferimento della
+misura.
+
+13
+00:00:42.820 --> 00:00:46.160
+Perciò documentare soltanto un numero non
+basta.
+
+14
+00:00:46.160 --> 00:00:50.220
+Occorre precisare quale contenitore
+governa il cambiamento e verificare il
+
+15
+00:00:50.220 --> 00:00:52.380
+componente nei contesti in cui sarà usato.

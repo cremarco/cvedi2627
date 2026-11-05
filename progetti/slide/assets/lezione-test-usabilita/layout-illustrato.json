@@ -1,0 +1,772 @@
+{
+  "version": 1,
+  "lesson": "test-usabilita",
+  "reason": "Richieste dell’utente: affiancare immagini pertinenti a destra delle spiegazioni testuali della lezione, conservando gli originali e tutti i copioni.",
+  "source": "progetti/slide/assets/lezione-test-usabilita/fonte-originale.json",
+  "sceneManifest": "progetti/slide/assets/lezione-test-usabilita/illustrazioni-testo/manifest.json",
+  "slides": [
+    {
+      "lessonSlide": 5,
+      "scene": "scena-uso-semplice",
+      "alias": "test-usabilita-p9-1",
+      "sourcePage": 9,
+      "originalBlocksSha256": "cacdd1bec10d3b86b388ec97ce908cb34a1c01ad7ca8b2c8d5e3daed56d24be9",
+      "scriptSha256": "3398880e11ee2dcd37c9618c7f15e3438e6657e0fd9077338f2d249a28fbfacb",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 7,
+      "scene": "scena-uso-semplice",
+      "alias": "test-usabilita-p10-1",
+      "sourcePage": 10,
+      "originalBlocksSha256": "035015032c2e147e57329babc80bace22b9a3a0ecf9779efef2d53425b6f65f9",
+      "scriptSha256": "1a2fbd7b9a98be57db0e33e185bc24e78af04d62aea63e7861cea58ff93817a5",
+      "lead": "Ridurre lo sforzo per concentrarsi sul compito",
+      "items": [
+        "Minimizzare il carico cognitivo richiesto.",
+        "Accompagnare la persona fino alla fine del flusso.",
+        "Lasciare un’esperienza positiva del prodotto e del brand."
+      ]
+    },
+    {
+      "lessonSlide": 10,
+      "scene": "scena-uso-semplice",
+      "alias": "test-usabilita-p13-1",
+      "sourcePage": 13,
+      "originalBlocksSha256": "1a8b9d71d1ee6802ed1dcb43ed1c9437837b14764b4db7c10be08d190d1af626",
+      "scriptSha256": "c57a9709dcb0cfe84b47e374753a976717cae6feca187658eaff414393cceb05",
+      "lead": "Sei principi per progettare interazioni comprensibili",
+      "items": [
+        "Affordance e significanti.",
+        "Mapping e vincoli.",
+        "Feedback e modello concettuale."
+      ]
+    },
+    {
+      "lessonSlide": 11,
+      "scene": "esempio-15",
+      "alias": "test-usabilita-p14-1",
+      "sourcePage": 14,
+      "originalBlocksSha256": "aa89df63c2cbc23ea0ddf3217369916922feb08cb616b7145e1512e6bbcd76e9",
+      "scriptSha256": "3c06473bac82ccdc5a7268d963288bb34e94faa594e4b54564df1b6024937ba3",
+      "lead": "Affordance",
+      "items": [
+        "La relazione tra persona e oggetto rende possibili alcune azioni.",
+        "Le affordance percepite aiutano a riconoscere che cosa si può fare.",
+        "Nell’interfaccia, l’aspetto dei controlli contribuisce a suggerirne l’uso."
+      ]
+    },
+    {
+      "lessonSlide": 13,
+      "scene": "esempio-18",
+      "alias": "test-usabilita-p16-1",
+      "sourcePage": 16,
+      "originalBlocksSha256": "a9c9b65654da8dc2495d542129b1b99a9085b234f3da401d81140404cc8578ea",
+      "scriptSha256": "05317de26b85946de9716368327c9e0f0a73101b2aee35b1350b6226dda1a714",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 14,
+      "scene": "esempio-18",
+      "alias": "test-usabilita-p17-1",
+      "sourcePage": 17,
+      "originalBlocksSha256": "0fa8c00c400cf4f93609eb9ae0c37fe7ad5436e8466626e18eb3bbead60432e3",
+      "scriptSha256": "47cf3c3055b7809081a139bdf24226bc423ff41bfb83e614fbcf9cdb5aa862df",
+      "lead": "Significanti: far capire che cosa accadrà",
+      "items": [
+        "Usare testi delle azioni specifici e comprensibili.",
+        "Anticipare l’esito prima che la persona agisca: feedforward.",
+        "Rispettare le convenzioni delle icone, come casa per Home e forbici per Taglia."
+      ]
+    },
+    {
+      "lessonSlide": 16,
+      "scene": "esempio-20",
+      "alias": "test-usabilita-p19-1",
+      "sourcePage": 19,
+      "originalBlocksSha256": "b123a76b656916452b95a994b81da1f7c1edca019929d0f9f9757df86309ce89",
+      "scriptSha256": "81be0aae743dc1974df44183d108d999e54859af5a5abc37e5c4d4772bc9cbe1",
+      "lead": "Mapping: collegare comando ed effetto",
+      "items": [
+        "Posizione e comportamento dei controlli devono corrispondere al risultato.",
+        "Lo scorrimento collega posizione della pagina e movimento del controllo.",
+        "Anche la disposizione di più e meno contribuisce alla comprensione."
+      ]
+    },
+    {
+      "lessonSlide": 18,
+      "scene": "esempio-23",
+      "alias": "test-usabilita-p21-1",
+      "sourcePage": 21,
+      "originalBlocksSha256": "56d9b5075fa9f7f36ac84c7bcc0d8f03e286b5e08015fedb24523b2ae3b2b997",
+      "scriptSha256": "c78004dd675e680f90635604a3d77e12145378d01d9726afeb433ee10566a827",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 19,
+      "scene": "esempio-23",
+      "alias": "test-usabilita-p22-1",
+      "sourcePage": 22,
+      "originalBlocksSha256": "b308b3ace3b504bac74ceb4ad8d34943dfca29dcd0023e4fc152c64b416c58f9",
+      "scriptSha256": "29d6231c583e0a45d34daffd5179a2cf7c9b23e527e680e69e2a27a880e4e404",
+      "lead": "Vincoli nell’interfaccia",
+      "items": [
+        "Lo spazio dello schermo pone limiti fisici.",
+        "Un controllo disattivato segnala un vincolo logico.",
+        "Contenuti parzialmente visibili suggeriscono lo scorrimento.",
+        "Gli step mostrano la progressione del processo."
+      ]
+    },
+    {
+      "lessonSlide": 21,
+      "scene": "esempio-26",
+      "alias": "test-usabilita-p24-1",
+      "sourcePage": 24,
+      "originalBlocksSha256": "1ed57ecbec8bef41ffeb9700dbfc250c0ca84f5b2dff9aa0385c58ca96d5068d",
+      "scriptSha256": "62c4dae6b871a6e3073868d2355c29627e0bec080bb5e2854d1683ceadcae0fc",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 22,
+      "scene": "figura-31",
+      "alias": "test-usabilita-p25-1",
+      "sourcePage": 25,
+      "originalBlocksSha256": "28b55ab0285150ea3a412a611a1edafca8ac49fc5e8804b853d91bf6618d9de9",
+      "scriptSha256": "ba5b0a987e1e0dd9cd20c67c4161ed74baed441af7a560e9ca8b1416e2eb3c7d",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 24,
+      "scene": "esempio-28",
+      "alias": "test-usabilita-p27-1",
+      "sourcePage": 27,
+      "originalBlocksSha256": "9c13a3c1ebe373331c5fca2d0dc622c3427988bb57962e18d2e2b4caf1dc34b8",
+      "scriptSha256": "8808597b805efd998e8554e06e7a064dad9dc263c0b50039de95200bc70e213f",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 31,
+      "scene": "figura-32",
+      "alias": "test-usabilita-p34-1",
+      "sourcePage": 34,
+      "originalBlocksSha256": "c4340e6fb51c19d13cda5d7301870b2d12acc8385b24faef170535758987dd98",
+      "scriptSha256": "9c4df42c86bd06db34c944835fd133dd5c5e8d20682bf4fc876df99ab4c4128b",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 37,
+      "scene": "scena-guida",
+      "alias": "test-usabilita-p40-1",
+      "sourcePage": 40,
+      "originalBlocksSha256": "1f4ae60e1e4bb94bf015c91d6c7e9d5a5a0b95471c79fb9c0aad14ad8cefadd7",
+      "scriptSha256": "18bb0ee6cda5132f87fb3a61b320182997150e7f0efc4cb71a22f53846c8b82d",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 43,
+      "scene": "scena-focus-group",
+      "alias": "test-usabilita-p42-1",
+      "sourcePage": 42,
+      "originalBlocksSha256": "3944268d5c63351d9235921468b2aad182412a337781ae6590d3c0a223d7719f",
+      "scriptSha256": "7d352cfa89c8fc34120da32c4fa001627ab7a00a7870e0f3bd868ca5e94d3ae6",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 44,
+      "scene": "scena-focus-group",
+      "alias": "test-usabilita-p43-1",
+      "sourcePage": 43,
+      "originalBlocksSha256": "19da42ce7d43f999b826943645136dead3725d0896c5567fcc20dafb15b68f53",
+      "scriptSha256": "bf709e8fde4335fb8f8ac8a3e623818d74a884716bfe5c0649e8e72d1a54e0f6",
+      "lead": "Che cosa può dirci un focus group",
+      "items": [
+        "Esplora bisogni, preferenze e modi abituali di affrontare un problema.",
+        "Aiuta a discutere comprensibilità dell’idea e attrattiva della proposta.",
+        "Per capire come funziona l’interfaccia serve osservare le persone mentre la usano."
+      ]
+    },
+    {
+      "lessonSlide": 45,
+      "scene": "scena-sessione",
+      "alias": "test-usabilita-p44-1",
+      "sourcePage": 44,
+      "originalBlocksSha256": "f395d30bf904ed1ee0c1188e9722fdb85583cf128c38b1a5eaa025c721925b18",
+      "scriptSha256": "3a7f0660001b2a3622dd5683231500a6da1717d697001b0f05a544aff773a80d",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 46,
+      "scene": "scena-sessione",
+      "alias": "test-usabilita-p44-2",
+      "sourcePage": 44,
+      "originalBlocksSha256": "faa4641615a4ade5d5467ed14388855dc826cfdad29729b2740ccd695261aec4",
+      "scriptSha256": "528efae97066c8eba4d28ab56134b3f86a90c36a35d041fddb11840ee5e1ecec",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 47,
+      "scene": "scena-laboratorio",
+      "lead": "Un modello storico molto dispendioso",
+      "items": [
+        "Laboratorio con specchio unidirezionale e videocamere.",
+        "Pianificazione specialistica e reclutamento numeroso.",
+        "Studi ampi per ottenere misure statistiche.",
+        "Costi riportati: 20.000–50.000 $; test poco frequenti."
+      ],
+      "alias": "test-usabilita-p45-1",
+      "sourcePage": 45,
+      "originalBlocksSha256": "750ef7463db0890145252836de5d66bec379274d899021d5b13790482fbc4bb2",
+      "scriptSha256": "4264be1c238c447c58adeaad092a91f4a7b3486ce975440bf7b67f9770e91a39"
+    },
+    {
+      "lessonSlide": 48,
+      "scene": "scena-sessione",
+      "lead": "Un’impostazione più leggera",
+      "items": [
+        "Nel 1989 Nielsen propone «Usability Engineering at a Discount».",
+        "Piccoli cicli di osservazione e revisione senza laboratorio dedicato.",
+        "Costi storici riportati: 5.000–10.000 $ per ciclo."
+      ],
+      "alias": "test-usabilita-p46-1",
+      "sourcePage": 46,
+      "originalBlocksSha256": "9da1eaddcf3a101bc0830baae84e713fcc4c5aaf9d9186c1f82603401bda2fd4",
+      "scriptSha256": "ccdc7680c77ea15f7f3301e8339e57aa6045e9974c2a9b82a999d6f7ef1149a0"
+    },
+    {
+      "lessonSlide": 55,
+      "scene": "scena-iterazione",
+      "lead": "Progettare, osservare, rivedere",
+      "items": [
+        "Le ipotesi di progetto incontrano l’uso delle persone.",
+        "Le variabili del contesto rendono difficile prevedere ogni interazione.",
+        "Ogni ciclo permette di correggere e verificare le scelte."
+      ],
+      "alias": "test-usabilita-p49-1",
+      "sourcePage": 49,
+      "originalBlocksSha256": "f2802148f5a5e0e8c40dcf256e0254fb05efdfce1c229421cbb48697a9bffbf8",
+      "scriptSha256": "4d3687eead685d5d4fcb2ca6f762e4e647217b5dcccfdfd3b1e997cbe394f2fd"
+    },
+    {
+      "lessonSlide": 56,
+      "scene": "scena-sessione",
+      "alias": "test-usabilita-p50-1",
+      "sourcePage": 50,
+      "originalBlocksSha256": "d92e8752042e2420501826d77140a6cb4e287a76dbf7ab4c63ea1468154e07be",
+      "scriptSha256": "73b74853f0ba41318a7b4e195f8fd335dc199f52d4c0211327bceda091324bd8",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 57,
+      "scene": "scena-prototipo-precoce",
+      "alias": "test-usabilita-p51-1",
+      "sourcePage": 51,
+      "originalBlocksSha256": "9371ffaa942d79656580df880255ebce0e37123c1e5e64176d4b01e3a2bffb96",
+      "scriptSha256": "594bb8e3a936c05ea9b35eb556c42950df989be7de9cf9e566f21ea176000af9",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 58,
+      "scene": "scena-prototipo-precoce",
+      "lead": "Testare quando si può ancora cambiare",
+      "items": [
+        "Una prova semplice e precoce può orientare le decisioni.",
+        "Dopo il rilascio, le modifiche coinvolgono contenuti, processi e abitudini.",
+        "Anche piccoli cambiamenti possono avere effetti estesi."
+      ],
+      "alias": "test-usabilita-p51-2",
+      "sourcePage": 51,
+      "originalBlocksSha256": "dc604a7c85ce44f0cfbe26c032c840a7efcf400080f5fb465008da616d290d79",
+      "scriptSha256": "7d401fb2e9b8671154a2a98dcfa7fab88cfa68bd38fc0c1eb43e811537da8fe7"
+    },
+    {
+      "lessonSlide": 59,
+      "scene": "scena-iterazione",
+      "alias": "test-usabilita-p51-3",
+      "sourcePage": 51,
+      "originalBlocksSha256": "a4f514bf86ee293b73bd8d6f5e59c20fef0a6d77e71d6e71eb57721a78d4ac41",
+      "scriptSha256": "86f4da20f2cb1e8215cd71d63bb6711a709cf1fbb9f3a1a65abc66dee0022c22",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 60,
+      "scene": "scena-sessione",
+      "alias": "test-usabilita-p52-1",
+      "sourcePage": 52,
+      "originalBlocksSha256": "95e8fa668a2c72b3714b21afc827c8b5276e6620a471ec63913af7996a517af0",
+      "scriptSha256": "484fc7ec02c4e623aa1c9b998cf6ca3ccd4e17ee30a882f9ee8ca9e4f9978db3",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 70,
+      "scene": "scena-calendario",
+      "alias": "test-usabilita-p62-1",
+      "sourcePage": 62,
+      "originalBlocksSha256": "d1bd584bdf5c0b27d1571ab7f7ba0905cdb83c18398b19b9f30e84382cca4a06",
+      "scriptSha256": "3c9536b36a30d62e7a74588d33053d1eebfe4bdf95b05cc50a2aa20f81f55a03",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 71,
+      "scene": "scena-calendario",
+      "alias": "test-usabilita-p63-1",
+      "sourcePage": 63,
+      "originalBlocksSha256": "d2b990fa3fb3fe150dc3369277fa5e5d56d9e8a2679fe09f65a393dad87bd736",
+      "scriptSha256": "c2014eaa096f71d91f3d11105f22eb35c6e89c07402745f9632e6009b61c995c",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 72,
+      "scene": "scena-calendario",
+      "alias": "test-usabilita-p63-2",
+      "sourcePage": 63,
+      "originalBlocksSha256": "2f3224bba95094eac8863c1b19f2559e393455bab441f02028ea7c4a6475e3f2",
+      "scriptSha256": "b1cf7d2fafcb2193c605fac71425f8d73dc48252575673bf79378b976e0a4dbd",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 73,
+      "scene": "scena-qualitativo",
+      "lead": "Trovare problemi e stimare risultati sono obiettivi diversi",
+      "items": [
+        "I piccoli cicli qualitativi servono a osservare difficoltà e decidere modifiche.",
+        "Le misure quantitative richiedono campione, protocollo e analisi adeguati.",
+        "La proposta dei tre utenti riguarda il ciclo qualitativo descritto."
+      ],
+      "alias": "test-usabilita-p64-1",
+      "sourcePage": 64,
+      "originalBlocksSha256": "dfd0389d6785795bd746f7e80b321124f75c785cb5697b24887499ccb7232e25",
+      "scriptSha256": "85d2cf2b2f2742881f5d9fe4169233b2055174fa087202d68ab5f41447d4adf6"
+    },
+    {
+      "lessonSlide": 74,
+      "scene": "scena-priorita",
+      "lead": "Concentrarsi sui problemi più gravi",
+      "items": [
+        "Un ciclo di test non trova ogni possibile difficoltà.",
+        "Spesso emergono più problemi di quanti se ne possano risolvere.",
+        "Usare gli episodi osservati per scegliere le priorità di intervento."
+      ],
+      "alias": "test-usabilita-p65-1",
+      "sourcePage": 65,
+      "originalBlocksSha256": "6519a670963c96a2ebf2d7a0f8797c8bb577388e5c034afddf0de221f49bfc73",
+      "scriptSha256": "720c3e6f7a83a3068ab649d3357be3a5202404dc5d385afc9a48d98d828ded1e"
+    },
+    {
+      "lessonSlide": 75,
+      "scene": "scena-iterazione",
+      "alias": "test-usabilita-p65-2",
+      "sourcePage": 65,
+      "originalBlocksSha256": "777000b4f9dc898b853616ae1d8df3adfd13ff4c6afade599a76098fcc43f176",
+      "scriptSha256": "0f6c9b1b8c70cb6da955c2d6bb026175ff9a313f5e59f8eff1de1e336af013b2",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 76,
+      "scene": "scena-partecipanti",
+      "lead": "Considerare esperienze diverse",
+      "items": [
+        "Anche nello stesso settore, familiarità e linguaggio variano.",
+        "Chiarezza e comprensibilità aiutano sia i novizi sia gli esperti.",
+        "Il reclutamento deve comunque restare pertinente al compito studiato."
+      ],
+      "alias": "test-usabilita-p66-1",
+      "sourcePage": 66,
+      "originalBlocksSha256": "c8bfc692f4929c1a9b29d9e115479d5cd2ec76ccb85666510cef741608760e28",
+      "scriptSha256": "1163109dad25398e5cb117f13333e75a61f842bc2a882cf42e81bcdbd9087fc1"
+    },
+    {
+      "lessonSlide": 77,
+      "scene": "scena-partecipanti",
+      "alias": "test-usabilita-p66-2",
+      "sourcePage": 66,
+      "originalBlocksSha256": "5070a25c4257f2089b298336ce07271019ced252cf236e3dbe6a7dca538e66ac",
+      "scriptSha256": "dc973547c0cb797fafb39096f6fdea302c3f7bdd32bf11cadd35679d9f1620d8",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 78,
+      "scene": "scena-sessione",
+      "lead": "Uno spazio tranquillo e gli strumenti adatti",
+      "items": [
+        "Un tavolo, due sedie e un dispositivo coerente con il compito.",
+        "Computer, tastiera, mouse, Internet e microfono nella configurazione descritta.",
+        "Condivisione dello schermo per gli osservatori e registrazione della sessione."
+      ],
+      "alias": "test-usabilita-p67-1",
+      "sourcePage": 67,
+      "originalBlocksSha256": "017c6a98a8d938e80f2a053c741a9423e704aa19acb44a3c494bf0df10bc2731",
+      "scriptSha256": "09af931c5fb9585cf2b26c8f4835af350a2e02143393a5e7a3f49b647200055a"
+    },
+    {
+      "lessonSlide": 80,
+      "scene": "scena-osservatori",
+      "alias": "test-usabilita-p68-1",
+      "sourcePage": 68,
+      "originalBlocksSha256": "10da5ca4cce78a5b8aa88435a6bde9410b00dba15691604cd2666574bb9789a2",
+      "scriptSha256": "b894dd7bc578898a36057a6b8784bc497539e88602d8f0d87e615f108942f2d8",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 81,
+      "scene": "scena-osservatori",
+      "lead": "Far osservare chi prende decisioni",
+      "items": [
+        "Coinvolgere team, stakeholder e responsabili nelle sessioni.",
+        "Seguire schermo e audio da un’altra stanza.",
+        "Predisporre computer, condivisione, monitor grande e altoparlanti."
+      ],
+      "alias": "test-usabilita-p69-1",
+      "sourcePage": 69,
+      "originalBlocksSha256": "9a9ff18e65f9a933c93aa683203b68e6ae9a1bce29fa736ba5f830323b22c1fc",
+      "scriptSha256": "020f44317b27e30ef7488f22c5b415291dceaf625c95860a7eb25d2963aee087"
+    },
+    {
+      "lessonSlide": 82,
+      "scene": "scena-priorita",
+      "alias": "test-usabilita-p69-2",
+      "sourcePage": 69,
+      "originalBlocksSha256": "d5587c6882ab11f9083e9fc3cf1de758b59358de8c6b96a15bc5c126fea31cde",
+      "scriptSha256": "5ab064f96704d09a2ebe668aa1944a6b9fb54050752fb2a1fabe0018c6f42ce5",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 83,
+      "scene": "scena-prototipo-precoce",
+      "lead": "Iniziare prima che il progetto sia finito",
+      "items": [
+        "Testare presto e continuare durante lo sviluppo.",
+        "Anche i siti della concorrenza possono aiutare a esplorare scelte e difficoltà.",
+        "Confrontare stile, organizzazione e funzionalità prima di costruire."
+      ],
+      "alias": "test-usabilita-p70-1",
+      "sourcePage": 70,
+      "originalBlocksSha256": "d3627dbe4e40a18bbc72fc1e29a850c2831b044dfa6f27110f173b114a550099",
+      "scriptSha256": "c941dcb91ca80ef7c064b3a58060bc5bd2a0d3db90a811b3ed005e3eb7fd4720"
+    },
+    {
+      "lessonSlide": 84,
+      "scene": "scena-confronto-siti",
+      "alias": "test-usabilita-p70-2",
+      "sourcePage": 70,
+      "originalBlocksSha256": "f75842225c08a70aa22bb4601cc89d58fd2fd61d4e2997765eff9b25d70263f3",
+      "scriptSha256": "40281584c6d6a3f40863e187e16bae113b75550958ac2cd480e3ee07d1238c07",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 85,
+      "scene": "scena-prototipo-precoce",
+      "alias": "test-usabilita-p71-1",
+      "sourcePage": 71,
+      "originalBlocksSha256": "3dd6bae7ca5ed311bcad981d4099590c3b9a59bbbe88b4ccd82f3fd15c410f56",
+      "scriptSha256": "94aa3bfe12d942cde94b57a7b24a118e7f3a93b3838c195a2bc56c2910acb268",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 86,
+      "scene": "scena-consegna",
+      "alias": "test-usabilita-p72-1",
+      "sourcePage": 72,
+      "originalBlocksSha256": "a2874482716c124c6d5297c4eb87ee8d928548f215364b43b035e943359b672b",
+      "scriptSha256": "ba30fe89aaba694b73812a19611c3ced30f52ce7a6f9d963a41ededfebe341a7",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 87,
+      "scene": "scena-consegna",
+      "alias": "test-usabilita-p73-1",
+      "sourcePage": 73,
+      "originalBlocksSha256": "d0fa61f322e0e70eb6f3e68ea36c3a30b0a06becb2b5d55fbc4cb4824cd8ac0c",
+      "scriptSha256": "8a44c6fb8070e3eed5e7fd0ffdb2015e0ec0dfa17d74d67b4f438e506356d810",
+      "lead": "Partire dalle azioni che la persona deve poter svolgere",
+      "items": [
+        "Nel login: creare un account e accedere con credenziali esistenti.",
+        "Recuperare una password o un nome utente dimenticati.",
+        "Gestire la risposta alla domanda di sicurezza nell’esempio storico."
+      ]
+    },
+    {
+      "lessonSlide": 88,
+      "scene": "scena-calendario",
+      "alias": "test-usabilita-p74-1",
+      "sourcePage": 74,
+      "originalBlocksSha256": "c1c83aac86a5f4834575802845631fa48e99c112f5e83f51335a79437f0b7d23",
+      "scriptSha256": "9b9ff127956e020597fc8cf9d74ecb700e4131e746f39a488343d8131f37c3c5",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 90,
+      "scene": "scena-sessione",
+      "alias": "test-usabilita-p75-1",
+      "sourcePage": 75,
+      "originalBlocksSha256": "7870c6985708ae04a99058e8b9ead330a8a3fcaf3bdfd8ca6100fa6f3bd23cfe",
+      "scriptSha256": "615b3fb0b0a05cb2ab5741073a473d611a156d61011a87c125995efdce6b7ae0",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 91,
+      "scene": "scena-partecipanti",
+      "alias": "test-usabilita-p75-2",
+      "sourcePage": 75,
+      "originalBlocksSha256": "6663154b32dbee68c9c4024228eb71b2d7978d4783315be6450b2af187d1d829",
+      "scriptSha256": "0e48e64bfc2e28568c3451d019f56ef6d32fe7d5bbabfb142dd9e5c0c503a81d",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 92,
+      "scene": "scena-accoglienza",
+      "alias": "test-usabilita-p76-1",
+      "sourcePage": 76,
+      "originalBlocksSha256": "5002a3e406a0f344a4d7bbd016f900aec5530f3d7b95ab051c30354f518e080f",
+      "scriptSha256": "26ff9e9fad641efa67345897660cf7af9983776c43c59556decf16665359c0c7",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 93,
+      "scene": "scena-comprensione",
+      "alias": "test-usabilita-p76-2",
+      "sourcePage": 76,
+      "originalBlocksSha256": "98fc22468687ba59c3cf6416cc1372f8b87789aa52c78c7e09c59019214833de",
+      "scriptSha256": "d55f0c9d5a1108926614e80d71a31616aa3d0e85e171f13bf77e9c6f5aed3b88",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 94,
+      "scene": "scena-moderazione",
+      "lead": "Lasciare che la persona svolga il compito",
+      "items": [
+        "Le attività sono il cuore della sessione: circa 35 minuti nell’esempio.",
+        "Invitare a pensare ad alta voce, senza suggerire il percorso.",
+        "Evitare domande orientate e indizi.",
+        "Se serve intervenire per un blocco serio, annotare l’aiuto fornito."
+      ],
+      "alias": "test-usabilita-p77-1",
+      "sourcePage": 77,
+      "originalBlocksSha256": "1c547066ab3aa14321231e0b44c448ffb7df663e7301d5f3e9ac86dd18013de7",
+      "scriptSha256": "9c00f2bbf581aa3ee6b9d1e8b5541e81dc64c5f8c3cbb5140a6c61d8c59b06ef"
+    },
+    {
+      "lessonSlide": 95,
+      "scene": "scena-moderazione",
+      "alias": "test-usabilita-p77-2",
+      "sourcePage": 77,
+      "originalBlocksSha256": "698dad9ab968a84eaa6f8d662f7ea26a4bfcce1c734a69c9dc0fa5187744ebde",
+      "scriptSha256": "08246a644561672b731494a309e7fb2fa67d6080fef5ddbfbda8ad2e64c3d75f",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 96,
+      "scene": "scena-accoglienza",
+      "alias": "test-usabilita-p78-1",
+      "sourcePage": 78,
+      "originalBlocksSha256": "d1d5d77ccdc6ac34e8f1a903deee73ec975cfe6ce3d5928d8d5ac273240992e7",
+      "scriptSha256": "dcbfe7e638a68c41921e6556e03773b250359bac0c4e645fcd89ae7a5a82dcec",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 97,
+      "scene": "scena-comprensione",
+      "alias": "test-usabilita-p79-1",
+      "sourcePage": 79,
+      "originalBlocksSha256": "a190215851a50e52fd7232146ab51a3eb1538b102e4e78aee6b9c9db536fd8fc",
+      "scriptSha256": "b5328cc9ee7cdc66cb718c1b944b19daedd48c1aab7dda4474e92ccc533d899e",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 98,
+      "scene": "scena-ricerca-parole",
+      "alias": "test-usabilita-p79-2",
+      "sourcePage": 79,
+      "originalBlocksSha256": "f8394a44375548af4ba07cd1ddff417223cae243f7ec4dacb665cdf599ad9045",
+      "scriptSha256": "40d6061b43999bc59ac74b0e21d73742b311c0416a15071afdb1f85d5a6a54db",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 99,
+      "scene": "scena-gerarchia",
+      "alias": "test-usabilita-p79-3",
+      "sourcePage": 79,
+      "originalBlocksSha256": "fa7e29c671b71abf6b78e2b2b914ae1a0df6154122245b87828a9a9b07052450",
+      "scriptSha256": "0dc33d8005b49cd50e99434dd5c30deec943b5ced658bb21a43ce474a7a34f68",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 100,
+      "scene": "scena-priorita",
+      "alias": "test-usabilita-p80-1",
+      "sourcePage": 80,
+      "originalBlocksSha256": "cc7f3a06f0339d0269a3e3be16f01becc9cdcc61511ad60e9a56a9665faa0b0f",
+      "scriptSha256": "aab00f5acd109c0ae7cfc9a4a646b5ede5c595dbfa63ae57fa0c74c1e386f674",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 101,
+      "scene": "scena-priorita",
+      "lead": "Dalle osservazioni a una lista di priorità",
+      "items": [
+        "Raccogliere i problemi più seri segnalati dagli osservatori.",
+        "Unire gli episodi simili e annotare le ricorrenze.",
+        "Selezionare i problemi più gravi prima di decidere le soluzioni."
+      ],
+      "alias": "test-usabilita-p81-1",
+      "sourcePage": 81,
+      "originalBlocksSha256": "3823929d84fe4f5e6311cc02143648c8906309678975d83782342af99f6eceb1",
+      "scriptSha256": "f2b728693f8da1de46b332584044be8015c4368aab0a1b622c9177b7943a4445"
+    },
+    {
+      "lessonSlide": 102,
+      "scene": "scena-priorita",
+      "alias": "test-usabilita-p81-2",
+      "sourcePage": 81,
+      "originalBlocksSha256": "f6483d1ca9f0e54f814a8108bea214ede8850740bacb02d78bbbd3a7ab0a784a",
+      "scriptSha256": "be55d04f130213aeda0fbdba65987d455167c38d2c9ee69f9247afbdcf03fb50",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 104,
+      "scene": "scena-iterazione",
+      "alias": "test-usabilita-p82-1",
+      "sourcePage": 82,
+      "originalBlocksSha256": "b95119ad578bf4d15b6e7426c310a63c6687afad8f39632f6f87406d5eac5110",
+      "scriptSha256": "ab1755c9ac5c8e9b3ebafea8ca39fe212acc27ad62ebe476c99a30e475281218",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 105,
+      "scene": "scena-gerarchia",
+      "alias": "test-usabilita-p82-2",
+      "sourcePage": 82,
+      "originalBlocksSha256": "115d1a9f849b1c8e2ffaf25f5153c4846fb121677bbc3e0051c2a2d91a3ba51c",
+      "scriptSha256": "b0d8244d18f3ef8b3f895eac01b2d2bac154a5a5e6049af8311e537581422778",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 106,
+      "scene": "scena-richieste",
+      "lead": "Approfondire le richieste di nuove funzioni",
+      "items": [
+        "Chiedere come e quando verrebbe usata la funzione proposta.",
+        "Distinguere l’idea espressa dal bisogno che l’ha generata.",
+        "Valutare le proposte insieme agli episodi osservati."
+      ],
+      "alias": "test-usabilita-p83-1",
+      "sourcePage": 83,
+      "originalBlocksSha256": "c6543851aa0d49ef3b4c00147b1c8adc6d78f7a33764a97c5895702e23713f28",
+      "scriptSha256": "088227f524bae4c6e8d2cd1b6eb38835e7e619a23b3b35baf5ef0a2d085fd192"
+    },
+    {
+      "lessonSlide": 107,
+      "scene": "scena-richieste",
+      "alias": "test-usabilita-p83-2",
+      "sourcePage": 83,
+      "originalBlocksSha256": "ecc1f3340dce0d7413471f14e03c0a6416e5aa091d70b1f63cb9493ae9e9c7cd",
+      "scriptSha256": "b6ddddb3f86d4d0625aad9d66d17bc1c39b675c5c1629f217f0b266da3687f8b",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 108,
+      "scene": "scena-moderazione",
+      "alias": "test-usabilita-p84-1",
+      "sourcePage": 84,
+      "originalBlocksSha256": "a85cc039e9e39e44f5eed258a2bd2917d59b9d125019080a07afd3b338c7b9ac",
+      "scriptSha256": "f7fb6157d164164a80bba08cab985fa5cfbaf3caf30a891a063b6c2b3febd908",
+      "preserveOriginal": true
+    },
+    {
+      "lessonSlide": 109,
+      "scene": "scena-remoto",
+      "lead": "Testare a distanza in tempo reale",
+      "items": [
+        "La persona partecipa da casa o dal proprio ufficio.",
+        "Condivisione dello schermo e microfono permettono di osservare e dialogare.",
+        "Si possono coinvolgere persone lontane o difficili da raggiungere in presenza."
+      ],
+      "alias": "test-usabilita-p85-1",
+      "sourcePage": 85,
+      "originalBlocksSha256": "e6973135702069566dd5c571876643575197e4d1f34bbc0ddb43ad62d5fc25d5",
+      "scriptSha256": "eb2c03c33f67d1e34d0e7b1e85211d00146ea31fbf1e385e57eaab77af3176d8"
+    },
+    {
+      "lessonSlide": 110,
+      "scene": "scena-registrazione",
+      "lead": "Osservare una registrazione in un secondo momento",
+      "items": [
+        "La persona svolge i compiti senza facilitatore presente in tempo reale.",
+        "Una piattaforma raccoglie video e risultati del percorso.",
+        "Il team esamina la registrazione; le istruzioni devono essere chiare fin dall’inizio."
+      ],
+      "alias": "test-usabilita-p86-1",
+      "sourcePage": 86,
+      "originalBlocksSha256": "50c10bf26224d9be618498798760231833aeda7008a657462b7e7e0c243b5bc8",
+      "scriptSha256": "ec26b3cc01a5d81192d714ec68d144da2a0bc7ce12af68fd42754c6480cc669f"
+    }
+  ],
+  "review": {
+    "selectedSlides": [
+      5,
+      7,
+      10,
+      11,
+      13,
+      14,
+      16,
+      18,
+      19,
+      21,
+      22,
+      24,
+      31,
+      37,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ],
+    "criteria": "Tutte le spiegazioni di tipo text hanno un’immagine a destra. Testo originale visibile quando entra nella colonna; sintesi esplicita dove occorre spazio. Tabelle, indici, aperture e fonti mantengono la propria impaginazione."
+  }
+}

@@ -1,0 +1,942 @@
+{
+  "alias": "composizione-gerarchia-bersaglio",
+  "words": [
+    {
+      "word": " La",
+      "start": 0.24,
+      "end": 0.24
+    },
+    {
+      "word": " legge",
+      "start": 0.24,
+      "end": 0.52
+    },
+    {
+      "word": " di",
+      "start": 0.64,
+      "end": 0.74
+    },
+    {
+      "word": " Fitts",
+      "start": 0.74,
+      "end": 1.18
+    },
+    {
+      "word": " descrive",
+      "start": 1.2,
+      "end": 1.72
+    },
+    {
+      "word": " quanto",
+      "start": 1.72,
+      "end": 2.18
+    },
+    {
+      "word": " tempo",
+      "start": 2.18,
+      "end": 2.54
+    },
+    {
+      "word": " serve",
+      "start": 2.54,
+      "end": 2.96
+    },
+    {
+      "word": " per",
+      "start": 2.96,
+      "end": 3.2
+    },
+    {
+      "word": " raggiungere",
+      "start": 3.2,
+      "end": 3.64
+    },
+    {
+      "word": " un",
+      "start": 3.64,
+      "end": 3.88
+    },
+    {
+      "word": " bersaglio",
+      "start": 3.88,
+      "end": 4.34
+    },
+    {
+      "word": " con",
+      "start": 4.34,
+      "end": 4.58
+    },
+    {
+      "word": " un",
+      "start": 4.58,
+      "end": 4.8
+    },
+    {
+      "word": " movimento.",
+      "start": 4.8,
+      "end": 5.02
+    },
+    {
+      "word": " Con",
+      "start": 6.34,
+      "end": 6.34
+    },
+    {
+      "word": " il",
+      "start": 6.34,
+      "end": 6.48
+    },
+    {
+      "word": " mouse,",
+      "start": 6.48,
+      "end": 6.8
+    },
+    {
+      "word": " per",
+      "start": 7.02,
+      "end": 7.02
+    },
+    {
+      "word": " esempio,",
+      "start": 7.02,
+      "end": 7.78
+    },
+    {
+      "word": " un'area",
+      "start": 7.9,
+      "end": 8.08
+    },
+    {
+      "word": " cliccabile",
+      "start": 8.08,
+      "end": 8.68
+    },
+    {
+      "word": " lontana",
+      "start": 8.68,
+      "end": 9.3
+    },
+    {
+      "word": " e",
+      "start": 9.32,
+      "end": 9.44
+    },
+    {
+      "word": " stretta",
+      "start": 9.44,
+      "end": 10.06
+    },
+    {
+      "word": " richiede",
+      "start": 10.1,
+      "end": 10.5
+    },
+    {
+      "word": " in",
+      "start": 10.5,
+      "end": 10.7
+    },
+    {
+      "word": " genere",
+      "start": 10.7,
+      "end": 11.0
+    },
+    {
+      "word": " più",
+      "start": 11.0,
+      "end": 11.3
+    },
+    {
+      "word": " tempo",
+      "start": 11.38,
+      "end": 11.74
+    },
+    {
+      "word": " da",
+      "start": 11.74,
+      "end": 11.9
+    },
+    {
+      "word": " raggiungere",
+      "start": 11.9,
+      "end": 12.48
+    },
+    {
+      "word": " di",
+      "start": 12.48,
+      "end": 12.64
+    },
+    {
+      "word": " una",
+      "start": 12.64,
+      "end": 12.9
+    },
+    {
+      "word": " vicina",
+      "start": 12.9,
+      "end": 13.32
+    },
+    {
+      "word": " e",
+      "start": 13.46,
+      "end": 13.96
+    },
+    {
+      "word": " ampia:",
+      "start": 13.96,
+      "end": 14.56
+    },
+    {
+      "word": " occorre",
+      "start": 14.7,
+      "end": 14.74
+    },
+    {
+      "word": " spostare",
+      "start": 14.74,
+      "end": 15.22
+    },
+    {
+      "word": " di",
+      "start": 15.4,
+      "end": 15.5
+    },
+    {
+      "word": " più",
+      "start": 15.5,
+      "end": 15.62
+    },
+    {
+      "word": " il",
+      "start": 15.62,
+      "end": 15.86
+    },
+    {
+      "word": " puntatore",
+      "start": 15.86,
+      "end": 16.34
+    },
+    {
+      "word": " e",
+      "start": 16.52,
+      "end": 16.64
+    },
+    {
+      "word": " fermarlo",
+      "start": 16.68,
+      "end": 17.1
+    },
+    {
+      "word": " con",
+      "start": 17.1,
+      "end": 17.3
+    },
+    {
+      "word": " maggiore",
+      "start": 17.3,
+      "end": 17.64
+    },
+    {
+      "word": " precisione.",
+      "start": 17.64,
+      "end": 18.12
+    },
+    {
+      "word": " Nel",
+      "start": 19.12,
+      "end": 19.18
+    },
+    {
+      "word": " progetto",
+      "start": 19.18,
+      "end": 19.58
+    },
+    {
+      "word": " di",
+      "start": 19.58,
+      "end": 19.76
+    },
+    {
+      "word": " un'interfaccia",
+      "start": 19.76,
+      "end": 20.6
+    },
+    {
+      "word": " ci",
+      "start": 20.72,
+      "end": 20.82
+    },
+    {
+      "word": " porta",
+      "start": 20.82,
+      "end": 21.1
+    },
+    {
+      "word": " a",
+      "start": 21.22,
+      "end": 21.38
+    },
+    {
+      "word": " considerare",
+      "start": 21.38,
+      "end": 21.88
+    },
+    {
+      "word": " l'area",
+      "start": 21.88,
+      "end": 22.28
+    },
+    {
+      "word": " effettivamente",
+      "start": 22.36,
+      "end": 23.16
+    },
+    {
+      "word": " attivabile,",
+      "start": 23.16,
+      "end": 24.16
+    },
+    {
+      "word": " non",
+      "start": 24.16,
+      "end": 24.32
+    },
+    {
+      "word": " soltanto",
+      "start": 24.32,
+      "end": 24.8
+    },
+    {
+      "word": " la",
+      "start": 24.8,
+      "end": 25.0
+    },
+    {
+      "word": " dimensione",
+      "start": 25.0,
+      "end": 25.42
+    },
+    {
+      "word": " del",
+      "start": 25.42,
+      "end": 25.74
+    },
+    {
+      "word": " disegno.",
+      "start": 25.74,
+      "end": 26.9
+    },
+    {
+      "word": " Ingrandire",
+      "start": 27.0,
+      "end": 27.32
+    },
+    {
+      "word": " un",
+      "start": 27.32,
+      "end": 27.54
+    },
+    {
+      "word": " pittogramma",
+      "start": 27.54,
+      "end": 28.18
+    },
+    {
+      "word": " lascia",
+      "start": 28.28,
+      "end": 28.58
+    },
+    {
+      "word": " il",
+      "start": 28.58,
+      "end": 28.74
+    },
+    {
+      "word": " problema",
+      "start": 28.78,
+      "end": 29.14
+    },
+    {
+      "word": " irrisolto",
+      "start": 29.14,
+      "end": 29.78
+    },
+    {
+      "word": " se",
+      "start": 29.98,
+      "end": 30.08
+    },
+    {
+      "word": " il",
+      "start": 30.08,
+      "end": 30.16
+    },
+    {
+      "word": " bersaglio",
+      "start": 30.16,
+      "end": 30.62
+    },
+    {
+      "word": " resta",
+      "start": 30.62,
+      "end": 31.0
+    },
+    {
+      "word": " stretto.",
+      "start": 31.0,
+      "end": 32.34
+    },
+    {
+      "word": " Anche",
+      "start": 32.34,
+      "end": 32.36
+    },
+    {
+      "word": " il",
+      "start": 32.36,
+      "end": 32.48
+    },
+    {
+      "word": " punto",
+      "start": 32.5,
+      "end": 32.74
+    },
+    {
+      "word": " di",
+      "start": 32.74,
+      "end": 32.96
+    },
+    {
+      "word": " partenza",
+      "start": 32.96,
+      "end": 33.3
+    },
+    {
+      "word": " del",
+      "start": 33.3,
+      "end": 33.56
+    },
+    {
+      "word": " puntatore,",
+      "start": 33.56,
+      "end": 34.42
+    },
+    {
+      "word": " la",
+      "start": 34.62,
+      "end": 34.62
+    },
+    {
+      "word": " direzione",
+      "start": 34.62,
+      "end": 34.96
+    },
+    {
+      "word": " di",
+      "start": 34.96,
+      "end": 35.26
+    },
+    {
+      "word": " avvicinamento",
+      "start": 35.26,
+      "end": 35.88
+    },
+    {
+      "word": " e",
+      "start": 35.88,
+      "end": 36.1
+    },
+    {
+      "word": " il",
+      "start": 36.1,
+      "end": 36.32
+    },
+    {
+      "word": " dispositivo",
+      "start": 36.32,
+      "end": 37.06
+    },
+    {
+      "word": " modificano",
+      "start": 37.06,
+      "end": 37.74
+    },
+    {
+      "word": " le",
+      "start": 37.84,
+      "end": 37.94
+    },
+    {
+      "word": " condizioni.",
+      "start": 37.94,
+      "end": 39.3
+    },
+    {
+      "word": " Un",
+      "start": 39.36,
+      "end": 39.36
+    },
+    {
+      "word": " tocco",
+      "start": 39.36,
+      "end": 39.64
+    },
+    {
+      "word": " sul",
+      "start": 39.64,
+      "end": 39.88
+    },
+    {
+      "word": " telefono",
+      "start": 39.88,
+      "end": 40.4
+    },
+    {
+      "word": " e",
+      "start": 40.4,
+      "end": 40.58
+    },
+    {
+      "word": " un",
+      "start": 40.58,
+      "end": 40.7
+    },
+    {
+      "word": " movimento",
+      "start": 40.7,
+      "end": 41.14
+    },
+    {
+      "word": " con",
+      "start": 41.14,
+      "end": 41.4
+    },
+    {
+      "word": " il",
+      "start": 41.4,
+      "end": 41.46
+    },
+    {
+      "word": " mouse",
+      "start": 41.46,
+      "end": 41.86
+    },
+    {
+      "word": " non",
+      "start": 41.92,
+      "end": 42.2
+    },
+    {
+      "word": " sono",
+      "start": 42.2,
+      "end": 42.62
+    },
+    {
+      "word": " una",
+      "start": 42.62,
+      "end": 42.92
+    },
+    {
+      "word": " prova",
+      "start": 42.92,
+      "end": 43.0
+    },
+    {
+      "word": " identica.",
+      "start": 43.0,
+      "end": 43.18
+    },
+    {
+      "word": " Nel",
+      "start": 44.42,
+      "end": 44.42
+    },
+    {
+      "word": " caso",
+      "start": 44.46,
+      "end": 44.7
+    },
+    {
+      "word": " di",
+      "start": 44.7,
+      "end": 44.88
+    },
+    {
+      "word": " Sara,",
+      "start": 44.88,
+      "end": 45.48
+    },
+    {
+      "word": " dunque,",
+      "start": 45.48,
+      "end": 45.98
+    },
+    {
+      "word": " distinguiamo",
+      "start": 46.22,
+      "end": 46.5
+    },
+    {
+      "word": " riconoscibilità",
+      "start": 46.5,
+      "end": 47.5
+    },
+    {
+      "word": " del",
+      "start": 47.5,
+      "end": 47.76
+    },
+    {
+      "word": " comando",
+      "start": 47.78,
+      "end": 48.22
+    },
+    {
+      "word": " e",
+      "start": 48.22,
+      "end": 48.52
+    },
+    {
+      "word": " possibilità",
+      "start": 48.58,
+      "end": 49.2
+    },
+    {
+      "word": " di",
+      "start": 49.2,
+      "end": 49.4
+    },
+    {
+      "word": " attivarlo",
+      "start": 49.4,
+      "end": 49.88
+    },
+    {
+      "word": " senza",
+      "start": 49.88,
+      "end": 50.32
+    },
+    {
+      "word": " errori.",
+      "start": 50.32,
+      "end": 50.62
+    },
+    {
+      "word": " Le",
+      "start": 51.4,
+      "end": 51.52
+    },
+    {
+      "word": " misure",
+      "start": 51.52,
+      "end": 51.88
+    },
+    {
+      "word": " e",
+      "start": 51.88,
+      "end": 52.08
+    },
+    {
+      "word": " le",
+      "start": 52.08,
+      "end": 52.28
+    },
+    {
+      "word": " eccezioni",
+      "start": 52.46,
+      "end": 52.6
+    },
+    {
+      "word": " dei",
+      "start": 52.6,
+      "end": 52.84
+    },
+    {
+      "word": " bersagli",
+      "start": 52.84,
+      "end": 53.42
+    },
+    {
+      "word": " sono",
+      "start": 53.42,
+      "end": 53.76
+    },
+    {
+      "word": " sviluppate",
+      "start": 53.76,
+      "end": 54.34
+    },
+    {
+      "word": " nella",
+      "start": 54.36,
+      "end": 54.66
+    },
+    {
+      "word": " lezione",
+      "start": 54.66,
+      "end": 55.04
+    },
+    {
+      "word": " sull'accessibilità;",
+      "start": 55.04,
+      "end": 56.52
+    },
+    {
+      "word": " qui",
+      "start": 56.64,
+      "end": 56.82
+    },
+    {
+      "word": " le",
+      "start": 56.82,
+      "end": 57.12
+    },
+    {
+      "word": " coordiniamo",
+      "start": 57.16,
+      "end": 57.66
+    },
+    {
+      "word": " con",
+      "start": 57.66,
+      "end": 57.86
+    },
+    {
+      "word": " la",
+      "start": 57.86,
+      "end": 58.14
+    },
+    {
+      "word": " composizione.",
+      "start": 58.14,
+      "end": 58.38
+    },
+    {
+      "word": " Non",
+      "start": 59.38,
+      "end": 59.48
+    },
+    {
+      "word": " dobbiamo",
+      "start": 59.48,
+      "end": 59.96
+    },
+    {
+      "word": " sacrificare",
+      "start": 60.02,
+      "end": 60.74
+    },
+    {
+      "word": " leggibilità",
+      "start": 60.74,
+      "end": 61.58
+    },
+    {
+      "word": " e",
+      "start": 61.58,
+      "end": 61.72
+    },
+    {
+      "word": " disponibilità",
+      "start": 61.72,
+      "end": 62.56
+    },
+    {
+      "word": " delle",
+      "start": 62.56,
+      "end": 62.76
+    },
+    {
+      "word": " azioni",
+      "start": 62.76,
+      "end": 63.16
+    },
+    {
+      "word": " secondarie.",
+      "start": 63.16,
+      "end": 63.62
+    },
+    {
+      "word": " La",
+      "start": 64.32,
+      "end": 64.44
+    },
+    {
+      "word": " gerarchia",
+      "start": 64.44,
+      "end": 65.16
+    },
+    {
+      "word": " deve",
+      "start": 65.16,
+      "end": 65.4
+    },
+    {
+      "word": " aiutare",
+      "start": 65.4,
+      "end": 65.88
+    },
+    {
+      "word": " a",
+      "start": 65.88,
+      "end": 65.96
+    },
+    {
+      "word": " trovare",
+      "start": 65.98,
+      "end": 66.36
+    },
+    {
+      "word": " la",
+      "start": 66.36,
+      "end": 66.46
+    },
+    {
+      "word": " modifica",
+      "start": 66.46,
+      "end": 67.04
+    },
+    {
+      "word": " e",
+      "start": 67.04,
+      "end": 67.26
+    },
+    {
+      "word": " mantenere",
+      "start": 67.26,
+      "end": 67.82
+    },
+    {
+      "word": " una",
+      "start": 67.82,
+      "end": 67.98
+    },
+    {
+      "word": " disposizione",
+      "start": 67.98,
+      "end": 68.74
+    },
+    {
+      "word": " praticabile",
+      "start": 68.78,
+      "end": 69.46
+    },
+    {
+      "word": " per",
+      "start": 69.54,
+      "end": 69.74
+    },
+    {
+      "word": " tutte",
+      "start": 69.8,
+      "end": 70.08
+    },
+    {
+      "word": " le",
+      "start": 70.08,
+      "end": 70.24
+    },
+    {
+      "word": " alternative",
+      "start": 70.24,
+      "end": 70.72
+    },
+    {
+      "word": " necessarie.",
+      "start": 70.72,
+      "end": 71.18
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.24,
+      "end": 4.8,
+      "text": "La legge di Fitts descrive quanto tempo\nserve per raggiungere un bersaglio con un"
+    },
+    {
+      "start": 4.8,
+      "end": 5.5,
+      "text": "movimento."
+    },
+    {
+      "start": 6.34,
+      "end": 10.7,
+      "text": "Con il mouse, per esempio, un'area\ncliccabile lontana e stretta richiede in"
+    },
+    {
+      "start": 10.7,
+      "end": 15.86,
+      "text": "genere più tempo da raggiungere di una\nvicina e ampia: occorre spostare di più il"
+    },
+    {
+      "start": 15.86,
+      "end": 18.24,
+      "text": "puntatore e fermarlo con maggiore\nprecisione."
+    },
+    {
+      "start": 19.12,
+      "end": 23.16,
+      "text": "Nel progetto di un'interfaccia ci porta a\nconsiderare l'area effettivamente"
+    },
+    {
+      "start": 23.16,
+      "end": 27.0,
+      "text": "attivabile, non soltanto la dimensione del\ndisegno."
+    },
+    {
+      "start": 27.0,
+      "end": 31.0,
+      "text": "Ingrandire un pittogramma lascia il\nproblema irrisolto se il bersaglio resta"
+    },
+    {
+      "start": 31.0,
+      "end": 36.1,
+      "text": "stretto. Anche il punto di partenza del\npuntatore, la direzione di avvicinamento e"
+    },
+    {
+      "start": 36.1,
+      "end": 39.36,
+      "text": "il dispositivo modificano le condizioni."
+    },
+    {
+      "start": 39.36,
+      "end": 43.3,
+      "text": "Un tocco sul telefono e un movimento con\nil mouse non sono una prova identica."
+    },
+    {
+      "start": 44.42,
+      "end": 49.2,
+      "text": "Nel caso di Sara, dunque, distinguiamo\nriconoscibilità del comando e possibilità"
+    },
+    {
+      "start": 49.2,
+      "end": 50.74,
+      "text": "di attivarlo senza errori."
+    },
+    {
+      "start": 51.4,
+      "end": 55.04,
+      "text": "Le misure e le eccezioni dei bersagli sono\nsviluppate nella lezione"
+    },
+    {
+      "start": 55.04,
+      "end": 58.5,
+      "text": "sull'accessibilità; qui le coordiniamo con\nla composizione."
+    },
+    {
+      "start": 59.38,
+      "end": 63.74,
+      "text": "Non dobbiamo sacrificare leggibilità e\ndisponibilità delle azioni secondarie."
+    },
+    {
+      "start": 64.32,
+      "end": 68.78,
+      "text": "La gerarchia deve aiutare a trovare la\nmodifica e mantenere una disposizione"
+    },
+    {
+      "start": 68.78,
+      "end": 71.3,
+      "text": "praticabile per tutte le alternative\nnecessarie."
+    }
+  ]
+}

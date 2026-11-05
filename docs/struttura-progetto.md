@@ -1,6 +1,6 @@
 # Struttura del progetto
 
-Il repository contiene cinque progetti con strumenti e risorse proprie. Tutti i comandi `pnpm` si eseguono dalla radice, usando un unico `package.json` e un unico lockfile.
+Il repository contiene sei progetti con strumenti e risorse proprie. Tutti i comandi `pnpm` si eseguono dalla radice, usando un unico `package.json` e un unico lockfile.
 
 ```text
 progetti/
@@ -34,7 +34,7 @@ progetti/
 │   ├── assets/
 │   ├── styles/
 │   └── scripts/
-└── ilmeteo/              # Sito acquisito e versione riprogettata
+├── ilmeteo/              # Sito acquisito e versione riprogettata
     ├── originale/
     ├── redesign/
     ├── assets/
@@ -42,6 +42,11 @@ progetti/
     ├── sources/
     ├── archive/
     └── scripts/
+└── fisioterapia/          # Passo, servizio finale della lezione UX/UI
+    ├── assets/           # Originali ImageGen, prompt e derivati web
+    ├── data/             # Contenuti e stato delle richieste
+    ├── styles/           # Sorgente daisyUI e CSS compilato
+    └── scripts/          # Build, anteprima e controlli
 risorse-condivise/
 ├── immagini/             # Figure canoniche e manifest
 ├── font/                 # Font originali, licenze e provenienza
@@ -78,6 +83,7 @@ La sorgente dei token comuni a home e slide è `risorse-condivise/stili/tokens.c
 | Home | `pnpm css:home` | CSS compilato in `progetti/home/home.css` |
 | Caffè TTC | `pnpm build:caffe-ttc` | Pagine, dati e stili compilati dentro il progetto |
 | iLMeteo | `pnpm build:ilmeteo` | Stili, mappe e navigazione dentro il progetto |
+| Passo | `pnpm dev:fisioterapia` · `pnpm build:fisioterapia` | Anteprima sulla porta 3045, build statica e pubblicazione in `fisioterapia/` |
 | Booklet | `pnpm build:booklet` | Volume in `progetti/booklet/build/` |
 | Verifica booklet | `pnpm check:booklet` | Controlli CLI e rapporti in `reports/typst-booklet/check/` |
 | Ispezione booklet | `pnpm preview:booklet --pages 8-9` | PNG delle pagine fisiche richieste dal PDF già compilato |
@@ -97,6 +103,6 @@ Il [rapporto sui file non utilizzati](../reports/riorganizzazione/verifica-file-
 
 ## Percorsi pubblici e PDF
 
-La struttura locale mantiene gli URL pubblici: home alla radice `/cvedi2627/`, slide in `slides/`, Caffè TTC in `web-design-examples/` e iLMeteo in `ilmeteo/`. L’archivio degli studenti resta nel [repository autonomo](https://github.com/cremarco/cvedi-progetti).
+La struttura locale mantiene gli URL pubblici: home alla radice `/cvedi2627/`, slide in `slides/`, Caffè TTC in `web-design-examples/` iLMeteo in `ilmeteo/` e Passo in `fisioterapia/`. L’archivio degli studenti resta nel [repository autonomo](https://github.com/cremarco/cvedi-progetti).
 
 I PDF del booklet si compilano e verificano esclusivamente tramite CLI e si consultano in un lettore esterno. In Codex aprire soltanto i PNG esplicitamente richiesti, prodotti da `pnpm preview:booklet --pages 8-9`, al massimo otto pagine per volta e lato lungo massimo 1600 px, in `progetti/booklet/build/anteprime-ispezione/`. Non aprire o allegare i PDF, non creare collegamenti cliccabili ai PDF e non aggirare il hook di protezione. Le regole complete sono in [AGENTS.md](../AGENTS.md).

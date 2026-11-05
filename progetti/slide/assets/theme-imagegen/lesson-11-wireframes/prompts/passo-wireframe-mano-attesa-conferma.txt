@@ -1,0 +1,45 @@
+Use case: ui-mockup. Asset type: Italian teaching slide, paired bozzetti a mano of the existing Passo website.
+The supplied website screenshots are structural and content references. Create ONE large landscape 16:9 board, approximately 2048x1152, with exactly TWO equal browser/page panels side by side on plain white, left "attesa", right "conferma". This is a website, never phone mockups or device photography. No slide title, captions, arrows between panels or decorative framing.
+Style: Tratto a penna nero, lievemente irregolare, su carta bianca piana. Testi scritti a mano in stampatello semplice e molto leggibile. Solo bianco e nero, segni essenziali, rettangoli abbozzati. Nessuna ombra, fotografia, colore, righello o mano visibile.
+Keep the actual Passo information architecture and composition from the references. In each panel, a compact header has the wordmark "passo." and compact navigation: Il servizio, Trova una visita, Assistenza, Le mie visite. On booking pages show the four steps Cerca, Scegli, Controlla, Esito. Adapt spacing and line breaks for teaching legibility, preserving each screen's groups and columns. All UI texts must be Italian, large, dark and highly legible; prioritize the exact labels below. No lorem ipsum or invented buttons, ratings, reviews, payment or account login.
+LEFT SCREEN:
+{
+  "id": "attesa",
+  "title": "Richiesta inviata.",
+  "lines": [
+    "In attesa",
+    "Giulia Riva",
+    "17 novembre 2026 · 20:30",
+    "Via Esempio 12, Milano",
+    "45 minuti · 60 €",
+    "Spostamento incluso",
+    "La visita non è ancora confermata."
+  ],
+  "primary": "Le mie visite",
+  "secondary": "Annulla richiesta"
+}
+RIGHT SCREEN:
+{
+  "id": "conferma",
+  "title": "Il tuo prossimo passo è fissato.",
+  "lines": [
+    "Visita confermata",
+    "Giulia Riva ha accettato la visita.",
+    "17 novembre 2026 · 20:30",
+    "45 minuti · Totale 60 €",
+    "Via Esempio 12, Milano",
+    "Spostamento incluso",
+    "La visita attuale resta valida fino all’accettazione della modifica."
+  ],
+  "primary": "Modifica visita",
+  "secondary": "Annulla visita"
+}
+Composition details:
+Pending and confirmed: prominent written status above the heading; Giulia and the same visit facts in the left card; explanation and management actions on the right. Pending must explicitly say the visit is NOT yet confirmed. Confirmed shows acceptance and Modifica visita / Annulla visita; the original visit stays valid until a proposed change is accepted.
+Use ONLY black freehand pen lines and handwriting on flat white. Photo positions are rectangles with X marks and short labels. No colored fills, grayscale shading, photo textures, shadows or hands holding a sketchbook.
+Data invariants: Via Esempio 12, Milano; CAP 20121; 17 novembre 2026; Giulia Riva at 20:30 or 21:15; Luca Sala at 21:45; 45 minutes; 60 € total including travel. Submission creates a pending request; only professional acceptance confirms.
+
+Exact navigation rule: show the Cerca/Scegli/Controlla/Esito stepper ONLY on ricerca, risultati, dettaglio and riepilogo. Do NOT show a stepper on home, visits, pending or confirmed pages. The patient in the lower home content area is an elderly white-haired bearded MAN with a septum ring, as in the provided patient reference, not the female hero client.
+
+EDIT CORRECTION:
+Edit the supplied black-pen wireframe board with exactly these corrections. Keep the page panels, all text, sizes, positions and hand-drawn black-and-white style unchanged. REMOVE the four-step Cerca/Scegli/Controlla/Esito progress indicator from BOTH pending and confirmed panels. These status pages have no booking stepper in the final site. Keep the back links and everything else unchanged.

@@ -64,20 +64,41 @@ footer: "Lezioni"
 # Indice delle lezioni
 
 <div class="index-grid" aria-label="Capitoli delle lezioni">
-  <SlideAction to="presentazione-corso" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">01</span><span>Il corso</span></SlideAction>
+  <SlideAction to="presentazione-corso" calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">01</span><span>Il corso</span></SlideAction>
   <div class="join join-horizontal index-lesson-two" role="group" aria-label="Lezione 02 · Introduzione, brief e approfondimenti">
-    <SlideAction to="introduzione-teorica" class="join-item index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">02</span><span>Introduzione a UX e UI</span></SlideAction>
+    <SlideAction to="introduzione-teorica" calendar-date class="join-item index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">02</span><span>Introduzione a UX e UI</span></SlideAction>
     <SlideAction to="brief-progetto" class="join-item index-button" :show-arrow="false"><span>Brief di progetto · WHAT IF? 2050</span></SlideAction>
     <SlideAction to="approfondimenti" class="join-item index-button" :show-arrow="false"><span>Approfondimenti individuali · 20 tracce</span></SlideAction>
   </div>
-  <SlideAction to="storia-design" class="index-button index-lesson index-history" :show-arrow="false"><span class="index-chapter-number">03</span><span>Storia del design</span></SlideAction>
-  <SlideAction to="ricerca-inclusiva" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">04</span><span>Ricerca, contesto e inclusione</span></SlideAction>
-  <SlideAction to="percezione-gerarchia" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">05</span><span>Accessibilità e design inclusivo</span></SlideAction>
-  <SlideAction to="gestalt" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">06</span><span>Gestalt</span></SlideAction>
-  <SlideAction to="colore" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">07</span><span>Colore e significato</span></SlideAction>
-  <SlideAction to="tipografia-griglie" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">08</span><span>Tipografia</span></SlideAction>
-  <SlideAction to="griglie-layout" class="index-button index-lesson" :show-arrow="false" aria-label="09 Griglie e layout · Audio disponibile" title="Audio disponibile"><span class="index-chapter-number">09</span><span>Griglie e layout</span><HeroIcon name="speaker-wave" class="index-audio-icon ml-auto! size-[18px]! shrink-0" /></SlideAction>
-  <SlideAction to="composizione-gerarchia" class="index-button index-lesson" :show-arrow="false" aria-label="10 Composizione e gerarchia visiva · Audio disponibile" title="Audio disponibile"><span class="index-chapter-number">10</span><span>Composizione e gerarchia visiva</span><HeroIcon name="speaker-wave" class="index-audio-icon ml-auto! size-[18px]! shrink-0" /></SlideAction>
+  <SlideAction to="storia-design" calendar-date class="index-button index-lesson index-history" :show-arrow="false"><span class="index-chapter-number">03</span><span>Storia del design</span></SlideAction>
+  <SlideAction to="ricerca-inclusiva" calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">04</span><span>Ricerca, contesto e inclusione</span></SlideAction>
+  <SlideAction to="percezione-gerarchia" calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">05</span><span>Accessibilità e design inclusivo</span></SlideAction>
+  <SlideAction to="gestalt" calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">06</span><span>Gestalt</span></SlideAction>
+  <SlideAction to="colore" calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">07</span><span>Colore e significato</span></SlideAction>
+  <SlideAction to="tipografia-griglie" calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">08</span><span>Tipografia</span></SlideAction>
+  <SlideAction to="griglie-layout" calendar-date class="index-button index-lesson" :show-arrow="false" aria-label="09 Griglie e layout · Audio disponibile" title="Audio disponibile"><span class="index-chapter-number">09</span><span>Griglie e layout</span><HeroIcon name="speaker-wave" class="index-audio-icon ml-auto! size-[18px]! shrink-0" /></SlideAction>
+  <SlideAction to="composizione-gerarchia" calendar-date class="index-button index-lesson" :show-arrow="false" aria-label="10 Composizione e gerarchia visiva · Audio disponibile" title="Audio disponibile"><span class="index-chapter-number">10</span><span>Composizione e gerarchia visiva</span><HeroIcon name="speaker-wave" class="index-audio-icon ml-auto! size-[18px]! shrink-0" /></SlideAction>
+  <SlideAction to="processo-ux-ui" calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">11</span><span>Processo UX e UI</span></SlideAction>
+  <SlideAction to="test-usabilita" calendar-date class="index-button index-lesson" :show-arrow="false" aria-label="12 Test di usabilità">
+    <span class="index-chapter-number">12</span><span>Test di usabilità</span>
+    <LocalOnly>
+      <HeroIcon name="speaker-wave" class="index-audio-icon ml-auto! size-[18px]! shrink-0" />
+    </LocalOnly>
+  </SlideAction>
+</div>
+
+---
+layout: default
+class: index-slide course-section reading-slide
+lesson: apertura
+routeAlias: indice-lezioni-2
+footer: "Lezioni"
+---
+
+# Indice delle lezioni
+
+<div class="index-grid" aria-label="Altri capitoli delle lezioni">
+  <button type="button" disabled aria-disabled="true" class="btn btn-outline index-button index-lesson" style="--action-set-color: var(--cvedi-fuchsia-700); --action-set-deep: var(--cvedi-fuchsia-950)"><span class="index-chapter-number">13</span><span>UX e UI nei giochi</span></button>
 </div>
 
 ---
@@ -91,15 +112,15 @@ footer: "Esercitazioni"
 # Indice delle esercitazioni
 
 <div class="index-grid exercise-index-grid" aria-label="Presentazioni delle esercitazioni">
-  <SlideAction to="esercitazione-01" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">01</span><span>Ripasso HTML e CSS di base</span></SlideAction>
-  <SlideAction to="esercitazione-02" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">02</span><span>Ripasso HTML e CSS avanzato</span></SlideAction>
-  <SlideAction to="esercitazione-03" local-only class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">03</span><span>Nuove proprietà CSS, Grid e Srcset</span></SlideAction>
-  <SlideAction to="esercitazione-04" local-only class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">04</span><span>Interfacce responsive e approccio mobile-first</span></SlideAction>
-  <SlideAction to="esercitazione-05" local-only class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">05</span><span>Tailwind CSS: basi e layout</span></SlideAction>
-  <SlideAction to="esercitazione-06" local-only class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">06</span><span>daisyUI: componenti per le interfacce</span></SlideAction>
-  <SlideAction to="esercitazione-07" local-only class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">07</span><span>Temi con Tailwind CSS e daisyUI</span></SlideAction>
-  <SlideAction to="esercitazione-08" local-only class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">08</span><span>Git</span></SlideAction>
-  <SlideAction to="esercitazione-09" local-only class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">09</span><span>JavaScript e jQuery</span></SlideAction>
+  <SlideAction to="esercitazione-01" calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">01</span><span>Ripasso HTML e CSS di base</span></SlideAction>
+  <SlideAction to="esercitazione-02" calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">02</span><span>Ripasso HTML e CSS avanzato</span></SlideAction>
+  <SlideAction to="esercitazione-03" disabled calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">03</span><span>Nuove proprietà CSS, Grid e Srcset</span></SlideAction>
+  <SlideAction to="esercitazione-04" disabled calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">04</span><span>Interfacce responsive e approccio mobile-first</span></SlideAction>
+  <SlideAction to="esercitazione-05" disabled calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">05</span><span>Tailwind CSS: basi e layout</span></SlideAction>
+  <SlideAction to="esercitazione-06" disabled calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">06</span><span>daisyUI: componenti per le interfacce</span></SlideAction>
+  <SlideAction to="esercitazione-07" disabled calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">07</span><span>Temi con Tailwind CSS e daisyUI</span></SlideAction>
+  <SlideAction to="esercitazione-08" disabled calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">08</span><span>Git</span></SlideAction>
+  <SlideAction to="esercitazione-09" disabled calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">09</span><span>JavaScript e jQuery</span></SlideAction>
 </div>
 
 ---
@@ -303,7 +324,7 @@ footer: "2026/27"
 # Calendario · novembre e gennaio
 
 <CourseCalendar period="novemberJanuary" />
-<p class="calendar-note">Ore previste: <strong>35 di lezione</strong> e <strong>36 di esercitazione</strong>, secondo il calendario del corso.</p>
+<p class="calendar-note">Ore previste: <strong>36 di lezione</strong> e <strong>34 di esercitazione</strong>, secondo il calendario del corso.</p>
 
 ---
 layout: default
@@ -785,6 +806,14 @@ src: ./lezioni/07-griglie-layout.md
 
 ---
 src: ./lezioni/10-composizione-gerarchia.md
+---
+
+---
+src: ./lezioni/11-processo-ux-ui.md
+---
+
+---
+src: ./lezioni/12-test-usabilita.md
 ---
 
 ---

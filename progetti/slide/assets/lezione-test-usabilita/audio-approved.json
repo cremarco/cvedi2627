@@ -1,0 +1,667 @@
+{
+  "version": 1,
+  "lesson": "test-usabilita",
+  "clips": {
+    "test-usabilita": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/01-test-usabilita-fe7592d02bab.mp3",
+      "web": "/audio/lezione-test-usabilita/01-test-usabilita-fe7592d02bab.mp3",
+      "sha256": "733b56ff3b299da580d69ffdd679efc62259ce707afa9743c350c721119ce7ce",
+      "durationSeconds": 42.96
+    },
+    "test-usabilita-summary": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/02-test-usabilita-summary-1e9b665c61b6.mp3",
+      "web": "/audio/lezione-test-usabilita/02-test-usabilita-summary-1e9b665c61b6.mp3",
+      "sha256": "c8e8b5eea0a746576884be30eab8601f75dddafc99ac8aa7268a7c8a64281c41",
+      "durationSeconds": 52.72
+    },
+    "test-usabilita-opening-objectives": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/03-test-usabilita-opening-objectives-e135ebd140b9.mp3",
+      "web": "/audio/lezione-test-usabilita/03-test-usabilita-opening-objectives-e135ebd140b9.mp3",
+      "sha256": "276f2a08f293b6007f4cf8c162eb97e3a4c565b1aa2f0757f242beb7c3ad6c08",
+      "durationSeconds": 51.04
+    },
+    "test-usabilita-p8-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/04-test-usabilita-p8-1-b0be37b6abc5.mp3",
+      "web": "/audio/lezione-test-usabilita/04-test-usabilita-p8-1-b0be37b6abc5.mp3",
+      "sha256": "a8c0a3de000025470af944a8e6873e001c89a49b949d583992afc411f147c8ea",
+      "durationSeconds": 23.52
+    },
+    "test-usabilita-p9-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/05-test-usabilita-p9-1-1f6c67b6818c.mp3",
+      "web": "/audio/lezione-test-usabilita/05-test-usabilita-p9-1-1f6c67b6818c.mp3",
+      "sha256": "9a0428405fbabff38c9df85e27957b91aa049d2c3e8874e25f9422e8bbab69cd",
+      "durationSeconds": 53.68
+    },
+    "test-usabilita-componenti-usabilita": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/06-test-usabilita-componenti-usabilita-672150c90d3a.mp3",
+      "web": "/audio/lezione-test-usabilita/06-test-usabilita-componenti-usabilita-672150c90d3a.mp3",
+      "sha256": "e05b30fe6513cbc82a22050381439bb3620ed087ab1fe26ac798c1e3cec83126",
+      "durationSeconds": 80.88
+    },
+    "test-usabilita-p10-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/07-test-usabilita-p10-1-017ae01d0c42.mp3",
+      "web": "/audio/lezione-test-usabilita/07-test-usabilita-p10-1-017ae01d0c42.mp3",
+      "sha256": "f1632db04716ed74aac045f1315562f38e5d421248bccfb1879be01b3a7bd7a9",
+      "durationSeconds": 65.52
+    },
+    "test-usabilita-p11-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/08-test-usabilita-p11-1-5feed9561ca7.mp3",
+      "web": "/audio/lezione-test-usabilita/08-test-usabilita-p11-1-5feed9561ca7.mp3",
+      "sha256": "2742cbcacae70c82ed17638424222e46f5c0c51f24208d9b86f9e69d5d1ee99a",
+      "durationSeconds": 23.6
+    },
+    "test-usabilita-p12-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/09-test-usabilita-p12-1-f23a01aa2ab9.mp3",
+      "web": "/audio/lezione-test-usabilita/09-test-usabilita-p12-1-f23a01aa2ab9.mp3",
+      "sha256": "2406f9bc8d43a76e6d9f6fdfe141500d45d073e1a02f5f841a1d7538fe241bb5",
+      "durationSeconds": 51.68
+    },
+    "test-usabilita-p13-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/10-test-usabilita-p13-1-6d4e02f57818.mp3",
+      "web": "/audio/lezione-test-usabilita/10-test-usabilita-p13-1-6d4e02f57818.mp3",
+      "sha256": "0aedce1e88074a4a591b4d408ee09d228d0ccd30e63f687afd3e2918f91f16de",
+      "durationSeconds": 57.84
+    },
+    "test-usabilita-p14-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/11-test-usabilita-p14-1-36f69d70903c.mp3",
+      "web": "/audio/lezione-test-usabilita/11-test-usabilita-p14-1-36f69d70903c.mp3",
+      "sha256": "544508dde226532f8ec6f4fbff72ac015e378ee5a8f69ebabbfc50d05570aaf2",
+      "durationSeconds": 62.88
+    },
+    "test-usabilita-p15-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/12-test-usabilita-p15-1-ccf8290444ca.mp3",
+      "web": "/audio/lezione-test-usabilita/12-test-usabilita-p15-1-ccf8290444ca.mp3",
+      "sha256": "f6c15bc1d7658cc08a5ee773109490f67eb72c502f1f8a325e1c670986cb00a9",
+      "durationSeconds": 46.4
+    },
+    "test-usabilita-p16-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/13-test-usabilita-p16-1-4b663cbc3921.mp3",
+      "web": "/audio/lezione-test-usabilita/13-test-usabilita-p16-1-4b663cbc3921.mp3",
+      "sha256": "61f42368e00238b582f184e6d977b49165c481f3e45c7d3adb84572a2689d338",
+      "durationSeconds": 57.6
+    },
+    "test-usabilita-p17-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/14-test-usabilita-p17-1-2bfaef7e85c6.mp3",
+      "web": "/audio/lezione-test-usabilita/14-test-usabilita-p17-1-2bfaef7e85c6.mp3",
+      "sha256": "a7c2e1d4d21eee8dc3cadafddfbd90eebb26d13056c4fd3ba042d826cada4de1",
+      "durationSeconds": 79.92
+    },
+    "test-usabilita-p18-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/15-test-usabilita-p18-1-6a4d3b204308.mp3",
+      "web": "/audio/lezione-test-usabilita/15-test-usabilita-p18-1-6a4d3b204308.mp3",
+      "sha256": "0d58a0a919c289d30c9f03759a2595716d784a3a6eb12231e41bab63436367a6",
+      "durationSeconds": 46.16
+    },
+    "test-usabilita-p19-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/16-test-usabilita-p19-1-19f72669328d.mp3",
+      "web": "/audio/lezione-test-usabilita/16-test-usabilita-p19-1-19f72669328d.mp3",
+      "sha256": "10fbc9d4bf7c94ce9253f60678ac023461e6adb587a94cd6c0012e770905f920",
+      "durationSeconds": 74.8
+    },
+    "test-usabilita-p20-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/17-test-usabilita-p20-1-de8b64dde6ab.mp3",
+      "web": "/audio/lezione-test-usabilita/17-test-usabilita-p20-1-de8b64dde6ab.mp3",
+      "sha256": "1283c41e215f46e18c5f33ca3194ece97672ccd819e22871d522c0282fc455dc",
+      "durationSeconds": 48.64
+    },
+    "test-usabilita-p21-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/18-test-usabilita-p21-1-1775f9a2f551.mp3",
+      "web": "/audio/lezione-test-usabilita/18-test-usabilita-p21-1-1775f9a2f551.mp3",
+      "sha256": "0114d69be09ee66e75da847f586a891a8dadc851856af7377750a07eea895e49",
+      "durationSeconds": 50.8
+    },
+    "test-usabilita-p22-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/19-test-usabilita-p22-1-01583d9d5b01.mp3",
+      "web": "/audio/lezione-test-usabilita/19-test-usabilita-p22-1-01583d9d5b01.mp3",
+      "sha256": "ee412d03867617c31dd801937e7f88645ba08b0a59d899786796fac145f122cb",
+      "durationSeconds": 66.24
+    },
+    "test-usabilita-p23-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/20-test-usabilita-p23-1-c23e9120cbb4.mp3",
+      "web": "/audio/lezione-test-usabilita/20-test-usabilita-p23-1-c23e9120cbb4.mp3",
+      "sha256": "83618f31139a47cd04f2d383a1d4b9766a5fafd324ea2a3d0fc68fe2f4039f71",
+      "durationSeconds": 54.56
+    },
+    "test-usabilita-p24-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/21-test-usabilita-p24-1-311e0eb266ba.mp3",
+      "web": "/audio/lezione-test-usabilita/21-test-usabilita-p24-1-311e0eb266ba.mp3",
+      "sha256": "9609f175024933fca230dcd989f00adc866fa6fe5137192cff6ef7018830020e",
+      "durationSeconds": 48.08
+    },
+    "test-usabilita-p25-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/22-test-usabilita-p25-1-4b41bad8c2c3.mp3",
+      "web": "/audio/lezione-test-usabilita/22-test-usabilita-p25-1-4b41bad8c2c3.mp3",
+      "sha256": "846d211e5f58b260e596c6223f459e55046c195ffefefbad88afd01e03f68f95",
+      "durationSeconds": 52.72
+    },
+    "test-usabilita-p26-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/23-test-usabilita-p26-1-1b53c7a86237.mp3",
+      "web": "/audio/lezione-test-usabilita/23-test-usabilita-p26-1-1b53c7a86237.mp3",
+      "sha256": "8c216f5659f41fbeba5934acadf22e874100f4c23b816eccf3e3bf9535e78598",
+      "durationSeconds": 46.72
+    },
+    "test-usabilita-p27-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/24-test-usabilita-p27-1-e983224064db.mp3",
+      "web": "/audio/lezione-test-usabilita/24-test-usabilita-p27-1-e983224064db.mp3",
+      "sha256": "5ecb998896670728495aec4ea2a744c13cd973c1a6bcaec85e2a554fba1eacab",
+      "durationSeconds": 56.24
+    },
+    "test-usabilita-p28-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/25-test-usabilita-p28-1-775b6c4d644c.mp3",
+      "web": "/audio/lezione-test-usabilita/25-test-usabilita-p28-1-775b6c4d644c.mp3",
+      "sha256": "4b2e460ac4fc6096f9d2b36158b80b86afcf08080c919b90fde0aeec27c3faa0",
+      "durationSeconds": 54.56
+    },
+    "test-usabilita-p29-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/26-test-usabilita-p29-1-44513d17fbac.mp3",
+      "web": "/audio/lezione-test-usabilita/26-test-usabilita-p29-1-44513d17fbac.mp3",
+      "sha256": "065f8bca9a2407d14e6d04279640c41b2f718e6622c3cc3b3ac2f6bf26fc49c5",
+      "durationSeconds": 19.84
+    },
+    "test-usabilita-p30-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/27-test-usabilita-p30-1-280f0b1bfcc5.mp3",
+      "web": "/audio/lezione-test-usabilita/27-test-usabilita-p30-1-280f0b1bfcc5.mp3",
+      "sha256": "f091e22066fe2c9dbac75a536fae2290b5504f1c93db9b978469a0fa2beee2a4",
+      "durationSeconds": 61.68
+    },
+    "test-usabilita-p31-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/28-test-usabilita-p31-1-9bdeb233cfec.mp3",
+      "web": "/audio/lezione-test-usabilita/28-test-usabilita-p31-1-9bdeb233cfec.mp3",
+      "sha256": "beea0d1d7ef24a1f3e236f3ef18485be3ee56a494413d59effc705b191d482ca",
+      "durationSeconds": 50.24
+    },
+    "test-usabilita-p32-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/29-test-usabilita-p32-1-5d2abc428130.mp3",
+      "web": "/audio/lezione-test-usabilita/29-test-usabilita-p32-1-5d2abc428130.mp3",
+      "sha256": "e4b892a5c29b6dc3d33cb8e067a34dea541a62ab8031e21d86913c84db45d64c",
+      "durationSeconds": 51.12
+    },
+    "test-usabilita-p33-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/30-test-usabilita-p33-1-11bdf933cc8f.mp3",
+      "web": "/audio/lezione-test-usabilita/30-test-usabilita-p33-1-11bdf933cc8f.mp3",
+      "sha256": "bf436b5fdbf60f72694e9fb49c80f46b03768a3aa073b40408d0f9be4d9bcedb",
+      "durationSeconds": 49.6
+    },
+    "test-usabilita-p34-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/31-test-usabilita-p34-1-c5a5862e6910.mp3",
+      "web": "/audio/lezione-test-usabilita/31-test-usabilita-p34-1-c5a5862e6910.mp3",
+      "sha256": "695670487eed11274e1ee657cfe2369841703c30ee69141000eca7ca488271f0",
+      "durationSeconds": 51.92
+    },
+    "test-usabilita-p35-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/32-test-usabilita-p35-1-776ea37a298d.mp3",
+      "web": "/audio/lezione-test-usabilita/32-test-usabilita-p35-1-776ea37a298d.mp3",
+      "sha256": "39f30125e4514da5cc7f9771a58fbaa535d605ca86c8a2488357df441528e1c8",
+      "durationSeconds": 53.12
+    },
+    "test-usabilita-p36-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/33-test-usabilita-p36-1-1c697b770592.mp3",
+      "web": "/audio/lezione-test-usabilita/33-test-usabilita-p36-1-1c697b770592.mp3",
+      "sha256": "0a28bbb1a17db3bacd70e11781f72a5b425fd742e15cf3ee4eba98260675512a",
+      "durationSeconds": 52.32
+    },
+    "test-usabilita-p37-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/34-test-usabilita-p37-1-cd84859e2dec.mp3",
+      "web": "/audio/lezione-test-usabilita/34-test-usabilita-p37-1-cd84859e2dec.mp3",
+      "sha256": "f672018d4eb2369c4f1f472f87a928d99138e0149f36ec0357aabca79f37fb76",
+      "durationSeconds": 52.32
+    },
+    "test-usabilita-p38-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/35-test-usabilita-p38-1-10ccc0370884.mp3",
+      "web": "/audio/lezione-test-usabilita/35-test-usabilita-p38-1-10ccc0370884.mp3",
+      "sha256": "0e293ca0195d717ccdf67d2c015a44e93d9e094c247c536b2ba27bceb426451c",
+      "durationSeconds": 50.8
+    },
+    "test-usabilita-p39-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/36-test-usabilita-p39-1-4bfbf731d5b8.mp3",
+      "web": "/audio/lezione-test-usabilita/36-test-usabilita-p39-1-4bfbf731d5b8.mp3",
+      "sha256": "6baffb6030ef7084e804254ad44d9718c7422ee281680554acd84ae7ccf4d883",
+      "durationSeconds": 48.24
+    },
+    "test-usabilita-p40-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/37-test-usabilita-p40-1-d2646a1e1aa1.mp3",
+      "web": "/audio/lezione-test-usabilita/37-test-usabilita-p40-1-d2646a1e1aa1.mp3",
+      "sha256": "770769a8b51337ea443a80e6cc54ae4ac96eb71c6982f19b2e51947852678302",
+      "durationSeconds": 49.52
+    },
+    "test-usabilita-criterio-conclusione": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/38-test-usabilita-criterio-conclusione-c0c3982e5055.mp3",
+      "web": "/audio/lezione-test-usabilita/38-test-usabilita-criterio-conclusione-c0c3982e5055.mp3",
+      "sha256": "250414f2a4c5ecab3624012734060f4823b115188b42564ac76a3bff377ea504",
+      "durationSeconds": 76.4
+    },
+    "test-usabilita-criterio-lavoro-stato": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/39-test-usabilita-criterio-lavoro-stato-15ab10996873.mp3",
+      "web": "/audio/lezione-test-usabilita/39-test-usabilita-criterio-lavoro-stato-15ab10996873.mp3",
+      "sha256": "76115e2790f9ee6e29d2034e1eeb0672d65b49c16cc89f90607c534cc9e46f99",
+      "durationSeconds": 73.84
+    },
+    "test-usabilita-criterio-carico-operativo": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/40-test-usabilita-criterio-carico-operativo-637cbae7aaf0.mp3",
+      "web": "/audio/lezione-test-usabilita/40-test-usabilita-criterio-carico-operativo-637cbae7aaf0.mp3",
+      "sha256": "697e98492ad99801885460b0d58a8d42a60182d4b3c9e84e8cc9a4e184ba2fea",
+      "durationSeconds": 77.84
+    },
+    "test-usabilita-ispezione-e-test": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/41-test-usabilita-ispezione-e-test-1146a140cc42.mp3",
+      "web": "/audio/lezione-test-usabilita/41-test-usabilita-ispezione-e-test-1146a140cc42.mp3",
+      "sha256": "f6b771c6988c398be5f121edafaba440c81c7af10b61e0ac3cbc2ddbdcd2880a",
+      "durationSeconds": 81.44
+    },
+    "test-usabilita-p41-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/42-test-usabilita-p41-1-22237ac1af4c.mp3",
+      "web": "/audio/lezione-test-usabilita/42-test-usabilita-p41-1-22237ac1af4c.mp3",
+      "sha256": "07c41575dd6252478d7267a9db88bd30c8fb2cc80546db8a2b7518ab2c713629",
+      "durationSeconds": 21.28
+    },
+    "test-usabilita-p42-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/43-test-usabilita-p42-1-626b7b78563d.mp3",
+      "web": "/audio/lezione-test-usabilita/43-test-usabilita-p42-1-626b7b78563d.mp3",
+      "sha256": "857718a5b9167735a2be8f2deac9753faa285ff4090b5beb122565b236e62d65",
+      "durationSeconds": 47.36
+    },
+    "test-usabilita-p43-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/44-test-usabilita-p43-1-982db354ba37.mp3",
+      "web": "/audio/lezione-test-usabilita/44-test-usabilita-p43-1-982db354ba37.mp3",
+      "sha256": "b45a380d549e624e26f58354648822a6d8b11b3c22b3d24b0e04001bd600b06c",
+      "durationSeconds": 59.28
+    },
+    "test-usabilita-p44-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/45-test-usabilita-p44-1-edd6575dc0db.mp3",
+      "web": "/audio/lezione-test-usabilita/45-test-usabilita-p44-1-edd6575dc0db.mp3",
+      "sha256": "7d8cd2db4adcb52d5a4494888a0f4a2dd91059ba67c78102ef5f2ca29602cca1",
+      "durationSeconds": 62.4
+    },
+    "test-usabilita-p44-2": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/46-test-usabilita-p44-2-92cc094e88a8.mp3",
+      "web": "/audio/lezione-test-usabilita/46-test-usabilita-p44-2-92cc094e88a8.mp3",
+      "sha256": "4ad427641dd3219b534592aa9e78507ce4a91c252c535b6573c82d57ad78a839",
+      "durationSeconds": 48.48
+    },
+    "test-usabilita-p45-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/47-test-usabilita-p45-1-dbb25daff51a.mp3",
+      "web": "/audio/lezione-test-usabilita/47-test-usabilita-p45-1-dbb25daff51a.mp3",
+      "sha256": "1949cebf0b6d0c4a717b23eb709dd16cb986d0a67b4e881e451e41112fd4683b",
+      "durationSeconds": 63.44
+    },
+    "test-usabilita-p46-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/48-test-usabilita-p46-1-ccf153579475.mp3",
+      "web": "/audio/lezione-test-usabilita/48-test-usabilita-p46-1-ccf153579475.mp3",
+      "sha256": "2668e04d86e85e8d222412d34806c4465083d32b23623821c2efb33e190378d9",
+      "durationSeconds": 57.6
+    },
+    "test-usabilita-p47-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/49-test-usabilita-p47-1-2ca699cf5822.mp3",
+      "web": "/audio/lezione-test-usabilita/49-test-usabilita-p47-1-2ca699cf5822.mp3",
+      "sha256": "c552b5301a1e8ea7ce9e70d4d60553915faafa6e8d84bd9f180e09214f2ed774",
+      "durationSeconds": 47.92
+    },
+    "test-usabilita-p47-2": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/50-test-usabilita-p47-2-f6aeb5285553.mp3",
+      "web": "/audio/lezione-test-usabilita/50-test-usabilita-p47-2-f6aeb5285553.mp3",
+      "sha256": "1a5e9f5b498102114a4a1b94941613b485448495e7d6905413e86dab223fd40a",
+      "durationSeconds": 49.84
+    },
+    "test-usabilita-p47-3": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/51-test-usabilita-p47-3-77c42ef5de6d.mp3",
+      "web": "/audio/lezione-test-usabilita/51-test-usabilita-p47-3-77c42ef5de6d.mp3",
+      "sha256": "90345fbcdbecfc02494dc04e3e726d06dd44f16e44d2449824849ef6e3248b01",
+      "durationSeconds": 46.96
+    },
+    "test-usabilita-p47-4": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/52-test-usabilita-p47-4-90d791c380c1.mp3",
+      "web": "/audio/lezione-test-usabilita/52-test-usabilita-p47-4-90d791c380c1.mp3",
+      "sha256": "93176170f89d66cf0ad46ad62456ab44374f2f6108a4cfbe887ab93e2de01fb2",
+      "durationSeconds": 51.12
+    },
+    "test-usabilita-p47-5": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/53-test-usabilita-p47-5-58a4a46eae3a.mp3",
+      "web": "/audio/lezione-test-usabilita/53-test-usabilita-p47-5-58a4a46eae3a.mp3",
+      "sha256": "65ab256a7f7bb8a8a75d7f2bd74d287c54f2389445a2453f50c11d4e97dabaa0",
+      "durationSeconds": 45.12
+    },
+    "test-usabilita-p48-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/54-test-usabilita-p48-1-d5f35981cd0a.mp3",
+      "web": "/audio/lezione-test-usabilita/54-test-usabilita-p48-1-d5f35981cd0a.mp3",
+      "sha256": "031cfe751ad6dc04b41390fd81ce920e13681b8d2eb830b87879ae7468210816",
+      "durationSeconds": 56.32
+    },
+    "test-usabilita-p49-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/55-test-usabilita-p49-1-b38b37fb7035.mp3",
+      "web": "/audio/lezione-test-usabilita/55-test-usabilita-p49-1-b38b37fb7035.mp3",
+      "sha256": "6a346a005ad8cdce49b0823791ff71f902b0141fcb700e79dac180a656466764",
+      "durationSeconds": 61.92
+    },
+    "test-usabilita-p50-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/56-test-usabilita-p50-1-ad08a29bd471.mp3",
+      "web": "/audio/lezione-test-usabilita/56-test-usabilita-p50-1-ad08a29bd471.mp3",
+      "sha256": "dd49b2dae2b85898874a338d264da4f5c852d138f91b0de177489d110b041981",
+      "durationSeconds": 47.44
+    },
+    "test-usabilita-p51-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/57-test-usabilita-p51-1-cc5c76537414.mp3",
+      "web": "/audio/lezione-test-usabilita/57-test-usabilita-p51-1-cc5c76537414.mp3",
+      "sha256": "97c53fb8f3f616e183227c8c858028868fbe09e1a9db71a49491aad714072db3",
+      "durationSeconds": 43.84
+    },
+    "test-usabilita-p51-2": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/58-test-usabilita-p51-2-a4f713976af1.mp3",
+      "web": "/audio/lezione-test-usabilita/58-test-usabilita-p51-2-a4f713976af1.mp3",
+      "sha256": "027d35b408edde33960c4f739f59b93fd4c078215c6bc87721ab010435f88176",
+      "durationSeconds": 62.24
+    },
+    "test-usabilita-p51-3": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/59-test-usabilita-p51-3-40006d8a5397.mp3",
+      "web": "/audio/lezione-test-usabilita/59-test-usabilita-p51-3-40006d8a5397.mp3",
+      "sha256": "fca1647c85494144eed42d2a6c8af01de43483d5f593960ca6c722716fc17885",
+      "durationSeconds": 45.04
+    },
+    "test-usabilita-p52-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/60-test-usabilita-p52-1-9b1b6831aa78.mp3",
+      "web": "/audio/lezione-test-usabilita/60-test-usabilita-p52-1-9b1b6831aa78.mp3",
+      "sha256": "f80f0f43daaca9d03bcf4ecd745581416d8a857431c1130b312cb8c1275b3caa",
+      "durationSeconds": 54.48
+    },
+    "test-usabilita-p53-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/61-test-usabilita-p53-1-d20e4daf0828.mp3",
+      "web": "/audio/lezione-test-usabilita/61-test-usabilita-p53-1-d20e4daf0828.mp3",
+      "sha256": "ec926e54d1ead66105c44e65945dd1777aa7a5e186f73ee113f84ff45c73b0a2",
+      "durationSeconds": 53.6
+    },
+    "test-usabilita-p54-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/62-test-usabilita-p54-1-0e7c86926777.mp3",
+      "web": "/audio/lezione-test-usabilita/62-test-usabilita-p54-1-0e7c86926777.mp3",
+      "sha256": "70c4fd83af95028244179c76f66b57c98e3c76a0a70f7b3c63bb130d15eb6958",
+      "durationSeconds": 54
+    },
+    "test-usabilita-p55-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/63-test-usabilita-p55-1-7af90ae4b79e.mp3",
+      "web": "/audio/lezione-test-usabilita/63-test-usabilita-p55-1-7af90ae4b79e.mp3",
+      "sha256": "e188106e1183414f49ebee8bae939fdddc7dfb34028b5c57efaab8efbb531e8f",
+      "durationSeconds": 51.84
+    },
+    "test-usabilita-p56-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/64-test-usabilita-p56-1-e6a0e1acd1fc.mp3",
+      "web": "/audio/lezione-test-usabilita/64-test-usabilita-p56-1-e6a0e1acd1fc.mp3",
+      "sha256": "cc783b4d136992c52c2850b5975048d2153fd6d3023b6a0f3a37804ae5ae39c4",
+      "durationSeconds": 52.32
+    },
+    "test-usabilita-p57-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/65-test-usabilita-p57-1-aa03cdc57584.mp3",
+      "web": "/audio/lezione-test-usabilita/65-test-usabilita-p57-1-aa03cdc57584.mp3",
+      "sha256": "77e36e181d4b89373da4025de71f62651b93270d0fefe4334ee8304cc6243acf",
+      "durationSeconds": 51.68
+    },
+    "test-usabilita-p58-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/66-test-usabilita-p58-1-d70801cd9d1e.mp3",
+      "web": "/audio/lezione-test-usabilita/66-test-usabilita-p58-1-d70801cd9d1e.mp3",
+      "sha256": "fd73575113fe69eb748d02f44978ab3f6849026b83017484aa8935d69358c8b0",
+      "durationSeconds": 50.24
+    },
+    "test-usabilita-p59-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/67-test-usabilita-p59-1-aaa2636978cd.mp3",
+      "web": "/audio/lezione-test-usabilita/67-test-usabilita-p59-1-aaa2636978cd.mp3",
+      "sha256": "408b788efa165579f9105b3e403913f85188e9a54accbd40237696d0f37efcbe",
+      "durationSeconds": 52
+    },
+    "test-usabilita-p60-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/68-test-usabilita-p60-1-1e6bca7d03a0.mp3",
+      "web": "/audio/lezione-test-usabilita/68-test-usabilita-p60-1-1e6bca7d03a0.mp3",
+      "sha256": "5b224ac840d51249816dce6baa9cbb5ce74a2c37278c7ba26c1efe7761bfd1c1",
+      "durationSeconds": 31.04
+    },
+    "test-usabilita-p61-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/69-test-usabilita-p61-1-62cbbe78c1f7.mp3",
+      "web": "/audio/lezione-test-usabilita/69-test-usabilita-p61-1-62cbbe78c1f7.mp3",
+      "sha256": "197c2607dd29b0dc1e20cffd75dcfea038c8643b8dc7a62c697a954a438e6e59",
+      "durationSeconds": 19.12
+    },
+    "test-usabilita-p62-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/70-test-usabilita-p62-1-c42fb08ec74e.mp3",
+      "web": "/audio/lezione-test-usabilita/70-test-usabilita-p62-1-c42fb08ec74e.mp3",
+      "sha256": "e9b9c2f9583e9567c1d6b51b0915d2f65c6db4a57c56541556e43184943a49f8",
+      "durationSeconds": 48.72
+    },
+    "test-usabilita-p63-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/71-test-usabilita-p63-1-3d7f78b0ab05.mp3",
+      "web": "/audio/lezione-test-usabilita/71-test-usabilita-p63-1-3d7f78b0ab05.mp3",
+      "sha256": "1a16d781533d6d50106bacad35ca4bcf2b01960df3413139d4466934c2ef0b27",
+      "durationSeconds": 53.52
+    },
+    "test-usabilita-p63-2": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/72-test-usabilita-p63-2-7ce2f5ede146.mp3",
+      "web": "/audio/lezione-test-usabilita/72-test-usabilita-p63-2-7ce2f5ede146.mp3",
+      "sha256": "d03dc2013282ae5e314aefca63daf3be288cfc7080e4458ff69713666192d517",
+      "durationSeconds": 29.12
+    },
+    "test-usabilita-p64-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/73-test-usabilita-p64-1-03bb05ed28e6.mp3",
+      "web": "/audio/lezione-test-usabilita/73-test-usabilita-p64-1-03bb05ed28e6.mp3",
+      "sha256": "f01909bdc9af71a62fb2c0c4dd6910fb64c4b7479230dfcd3ebf7fa074e82744",
+      "durationSeconds": 56.96
+    },
+    "test-usabilita-p65-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/74-test-usabilita-p65-1-2a43c4d29fff.mp3",
+      "web": "/audio/lezione-test-usabilita/74-test-usabilita-p65-1-2a43c4d29fff.mp3",
+      "sha256": "1e681eb282b4657e50d2f981a19ab87d822c7501caf353186b699d9774ecb1fd",
+      "durationSeconds": 53.52
+    },
+    "test-usabilita-p65-2": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/75-test-usabilita-p65-2-568923eaf525.mp3",
+      "web": "/audio/lezione-test-usabilita/75-test-usabilita-p65-2-568923eaf525.mp3",
+      "sha256": "48ab0632569e4d4e7c31553a6a58568bac26bbc92cc9defd0a1191a6448904aa",
+      "durationSeconds": 29.52
+    },
+    "test-usabilita-p66-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/76-test-usabilita-p66-1-46f0bc241317.mp3",
+      "web": "/audio/lezione-test-usabilita/76-test-usabilita-p66-1-46f0bc241317.mp3",
+      "sha256": "b67809811734f35388eac059a92cfda3e38621ef027673afb0613c5c37c4b71c",
+      "durationSeconds": 68.88
+    },
+    "test-usabilita-p66-2": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/77-test-usabilita-p66-2-7e6c6eda6ad4.mp3",
+      "web": "/audio/lezione-test-usabilita/77-test-usabilita-p66-2-7e6c6eda6ad4.mp3",
+      "sha256": "19fffb4946ea7e91178307d7ef4bae1fbbc1a56a803af20e67f2e36db1336ea7",
+      "durationSeconds": 34.56
+    },
+    "test-usabilita-p67-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/78-test-usabilita-p67-1-05ae199f81b7.mp3",
+      "web": "/audio/lezione-test-usabilita/78-test-usabilita-p67-1-05ae199f81b7.mp3",
+      "sha256": "f3a2ec12654ccbad93f0a6438cd3667343de8e73b9f541757de99ca69aaf1bd9",
+      "durationSeconds": 59.28
+    },
+    "test-usabilita-preparazione-consenso": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/79-test-usabilita-preparazione-consenso-d7adc7131074.mp3",
+      "web": "/audio/lezione-test-usabilita/79-test-usabilita-preparazione-consenso-d7adc7131074.mp3",
+      "sha256": "048813f94a24ef4335f996953bbe4f0891286c1bdcb41b6b29fa8a5adf1ccf23",
+      "durationSeconds": 110.96
+    },
+    "test-usabilita-p68-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/80-test-usabilita-p68-1-58f8949e1e31.mp3",
+      "web": "/audio/lezione-test-usabilita/80-test-usabilita-p68-1-58f8949e1e31.mp3",
+      "sha256": "63084f054805203a72eea9b18790be3b371f879e72c4d83d88146903218b767b",
+      "durationSeconds": 34.4
+    },
+    "test-usabilita-p69-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/81-test-usabilita-p69-1-b6fea90914a8.mp3",
+      "web": "/audio/lezione-test-usabilita/81-test-usabilita-p69-1-b6fea90914a8.mp3",
+      "sha256": "7821762e533f61782c71a33acd0b8adc13f9eaf5c505f1e49bd570cd23df7b37",
+      "durationSeconds": 55.92
+    },
+    "test-usabilita-p69-2": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/82-test-usabilita-p69-2-9a6baa5fb562.mp3",
+      "web": "/audio/lezione-test-usabilita/82-test-usabilita-p69-2-9a6baa5fb562.mp3",
+      "sha256": "75b7b06be9e050e684b61936371513c939f338bb78eb012cd2200b16712847d2",
+      "durationSeconds": 31.28
+    },
+    "test-usabilita-p70-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/83-test-usabilita-p70-1-abf357f9619f.mp3",
+      "web": "/audio/lezione-test-usabilita/83-test-usabilita-p70-1-abf357f9619f.mp3",
+      "sha256": "bac5a0920fa128ba1dadfc51019208c15faa43efa02991a34d1b16fb381707f3",
+      "durationSeconds": 52.48
+    },
+    "test-usabilita-p70-2": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/84-test-usabilita-p70-2-0c394470e9fa.mp3",
+      "web": "/audio/lezione-test-usabilita/84-test-usabilita-p70-2-0c394470e9fa.mp3",
+      "sha256": "ba9a1c49f9007ebae4090374ca78529442d328acc05270f0f5b562150d0d6c0d",
+      "durationSeconds": 36.08
+    },
+    "test-usabilita-p71-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/85-test-usabilita-p71-1-923bf54f160a.mp3",
+      "web": "/audio/lezione-test-usabilita/85-test-usabilita-p71-1-923bf54f160a.mp3",
+      "sha256": "2fe8afbd7a04416590bfd2a9c37c94818d615bec0014e6bb7fe374c86ff27998",
+      "durationSeconds": 54.16
+    },
+    "test-usabilita-p72-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/86-test-usabilita-p72-1-1ed0da3d32af.mp3",
+      "web": "/audio/lezione-test-usabilita/86-test-usabilita-p72-1-1ed0da3d32af.mp3",
+      "sha256": "f607ca7b28af4c7a6b9240e14a200435f212ef10b6fe7b1bfae69f9c7904dbab",
+      "durationSeconds": 26.8
+    },
+    "test-usabilita-p73-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/87-test-usabilita-p73-1-402187fb774f.mp3",
+      "web": "/audio/lezione-test-usabilita/87-test-usabilita-p73-1-402187fb774f.mp3",
+      "sha256": "40f40ea16804429cbb884e2a31db1f7bfd46aaff8f61710640f8bcf231cb5bec",
+      "durationSeconds": 53.92
+    },
+    "test-usabilita-p74-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/88-test-usabilita-p74-1-64efd2207f9f.mp3",
+      "web": "/audio/lezione-test-usabilita/88-test-usabilita-p74-1-64efd2207f9f.mp3",
+      "sha256": "de5cfef16d0131f51c98def3634e4b1daf36c65991b138656df9bd6f60b01209",
+      "durationSeconds": 47.68
+    },
+    "test-usabilita-criteri-successo": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/89-test-usabilita-criteri-successo-441e6a11056f.mp3",
+      "web": "/audio/lezione-test-usabilita/89-test-usabilita-criteri-successo-441e6a11056f.mp3",
+      "sha256": "f5480fa05a87b0b1327bbdeb6c763a82a5dbe6f9d8b994a1d4221bb91c4ada4f",
+      "durationSeconds": 97.12
+    },
+    "test-usabilita-p75-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/90-test-usabilita-p75-1-0ecc1ffc4385.mp3",
+      "web": "/audio/lezione-test-usabilita/90-test-usabilita-p75-1-0ecc1ffc4385.mp3",
+      "sha256": "c8663d3457f1a235d85b13c3397a6d1c764a531907241e6d61c0c3a083c2d8e2",
+      "durationSeconds": 33.04
+    },
+    "test-usabilita-p75-2": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/91-test-usabilita-p75-2-08d46bca4ba0.mp3",
+      "web": "/audio/lezione-test-usabilita/91-test-usabilita-p75-2-08d46bca4ba0.mp3",
+      "sha256": "408d4ca2abd7bd860ea703f036b73324bf19f1dc4b8c5c84fb5d85807878c276",
+      "durationSeconds": 57.84
+    },
+    "test-usabilita-p76-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/92-test-usabilita-p76-1-ff4a12a52b99.mp3",
+      "web": "/audio/lezione-test-usabilita/92-test-usabilita-p76-1-ff4a12a52b99.mp3",
+      "sha256": "1434931fe4e5cb84e8e56b2fedffd03cf2b6d6a2cc6b08ae4a55b66ce4a0aea8",
+      "durationSeconds": 53.12
+    },
+    "test-usabilita-p76-2": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/93-test-usabilita-p76-2-39a946e73982.mp3",
+      "web": "/audio/lezione-test-usabilita/93-test-usabilita-p76-2-39a946e73982.mp3",
+      "sha256": "52f6593e86b13e73584e21d6f326b79946460080d63bd9b4e88ad55eefb1ad80",
+      "durationSeconds": 30.96
+    },
+    "test-usabilita-p77-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/94-test-usabilita-p77-1-9edb61bf6705.mp3",
+      "web": "/audio/lezione-test-usabilita/94-test-usabilita-p77-1-9edb61bf6705.mp3",
+      "sha256": "d15dd9bd3bdd931399b6338af0a8032edad5f89d897ff6796de531d696f8aa3e",
+      "durationSeconds": 67.12
+    },
+    "test-usabilita-p77-2": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/95-test-usabilita-p77-2-13de608fb848.mp3",
+      "web": "/audio/lezione-test-usabilita/95-test-usabilita-p77-2-13de608fb848.mp3",
+      "sha256": "9269012eb7c68806b1f9bd4252f49f1961323f7f70174d8994c04d80f9cfeb75",
+      "durationSeconds": 30.88
+    },
+    "test-usabilita-p78-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/96-test-usabilita-p78-1-ed81884246cc.mp3",
+      "web": "/audio/lezione-test-usabilita/96-test-usabilita-p78-1-ed81884246cc.mp3",
+      "sha256": "cf3661759456ef83a135f571fd45840457309a3f8210e667feeafb9e941d98df",
+      "durationSeconds": 31.28
+    },
+    "test-usabilita-p79-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/97-test-usabilita-p79-1-57d7bdb9612d.mp3",
+      "web": "/audio/lezione-test-usabilita/97-test-usabilita-p79-1-57d7bdb9612d.mp3",
+      "sha256": "b2fb9be70971c758f3957c2ce05df372c267680291484d5d04f4eda1158fe8c3",
+      "durationSeconds": 30.88
+    },
+    "test-usabilita-p79-2": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/98-test-usabilita-p79-2-19cc665cb583.mp3",
+      "web": "/audio/lezione-test-usabilita/98-test-usabilita-p79-2-19cc665cb583.mp3",
+      "sha256": "33531a18db3892ebb8653a787a2f18ea1e25c698a8d662fecf6ec04986b7ace8",
+      "durationSeconds": 30.8
+    },
+    "test-usabilita-p79-3": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/99-test-usabilita-p79-3-e5491abf3c48.mp3",
+      "web": "/audio/lezione-test-usabilita/99-test-usabilita-p79-3-e5491abf3c48.mp3",
+      "sha256": "e61dfc64e7c18f7f327c1fbf48aef146b98c2dbd67a29a208e19fcc09a1c063a",
+      "durationSeconds": 32.4
+    },
+    "test-usabilita-p80-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/100-test-usabilita-p80-1-fd6b9524252f.mp3",
+      "web": "/audio/lezione-test-usabilita/100-test-usabilita-p80-1-fd6b9524252f.mp3",
+      "sha256": "2eaff9b245b168aacf6278ee18f54073ecf34c5edd9dbc84881a4525ef9aa4b3",
+      "durationSeconds": 33.68
+    },
+    "test-usabilita-p81-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/101-test-usabilita-p81-1-faf5241019c1.mp3",
+      "web": "/audio/lezione-test-usabilita/101-test-usabilita-p81-1-faf5241019c1.mp3",
+      "sha256": "6b042c0fede7afb5ea6f7df229677e6b0e6f4ff09a572f5dbed3f6842d571fe0",
+      "durationSeconds": 63.04
+    },
+    "test-usabilita-p81-2": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/102-test-usabilita-p81-2-3f9d64ddb12a.mp3",
+      "web": "/audio/lezione-test-usabilita/102-test-usabilita-p81-2-3f9d64ddb12a.mp3",
+      "sha256": "d3394470b583f816ec9a92b907692ce62292690bbf8610521b074a18eb517a11",
+      "durationSeconds": 27.04
+    },
+    "test-usabilita-gravita-problemi": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/103-test-usabilita-gravita-problemi-2ff22806d2b9.mp3",
+      "web": "/audio/lezione-test-usabilita/103-test-usabilita-gravita-problemi-2ff22806d2b9.mp3",
+      "sha256": "51952935a4425494feeb4ac84b6fe39b7ef9f9ab60efa1f34b13377133fc552c",
+      "durationSeconds": 85.76
+    },
+    "test-usabilita-p82-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/104-test-usabilita-p82-1-b5f6c38adb58.mp3",
+      "web": "/audio/lezione-test-usabilita/104-test-usabilita-p82-1-b5f6c38adb58.mp3",
+      "sha256": "fce17db3a920c342316511347625d1191e7a6164c02a629f78e100da3e44d6b2",
+      "durationSeconds": 53.12
+    },
+    "test-usabilita-p82-2": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/105-test-usabilita-p82-2-e7c6ca233096.mp3",
+      "web": "/audio/lezione-test-usabilita/105-test-usabilita-p82-2-e7c6ca233096.mp3",
+      "sha256": "45bded3bcc4414b690b2236efc14add39d150522168ffaa35c8d7e6507943d2b",
+      "durationSeconds": 30.56
+    },
+    "test-usabilita-p83-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/106-test-usabilita-p83-1-a1fa67cbf9a9.mp3",
+      "web": "/audio/lezione-test-usabilita/106-test-usabilita-p83-1-a1fa67cbf9a9.mp3",
+      "sha256": "577488c3939a25523d635f8a3067ea6bef5112abab69365868c8640ac7ec37f6",
+      "durationSeconds": 69.04
+    },
+    "test-usabilita-p83-2": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/107-test-usabilita-p83-2-b25f69f5cf90.mp3",
+      "web": "/audio/lezione-test-usabilita/107-test-usabilita-p83-2-b25f69f5cf90.mp3",
+      "sha256": "4ba75d779908029cfd771db8335aee65655582709560130415d59a5fc9e03520",
+      "durationSeconds": 32.56
+    },
+    "test-usabilita-p84-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/108-test-usabilita-p84-1-5fc5f38c554c.mp3",
+      "web": "/audio/lezione-test-usabilita/108-test-usabilita-p84-1-5fc5f38c554c.mp3",
+      "sha256": "e840700b006fba1b0f885fdb84433ecdc0396b4c4dfb5757f53fdb7c1df85d78",
+      "durationSeconds": 54.4
+    },
+    "test-usabilita-p85-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/109-test-usabilita-p85-1-e95fa000fc46.mp3",
+      "web": "/audio/lezione-test-usabilita/109-test-usabilita-p85-1-e95fa000fc46.mp3",
+      "sha256": "92430652ab38bb5537a689882f1313e0d946ab0c74efb54afc431a067883856e",
+      "durationSeconds": 66.56
+    },
+    "test-usabilita-p86-1": {
+      "source": "progetti/slide/assets/audio/lezione-test-usabilita/110-test-usabilita-p86-1-4b15b49a42ed.mp3",
+      "web": "/audio/lezione-test-usabilita/110-test-usabilita-p86-1-4b15b49a42ed.mp3",
+      "sha256": "82a15a8b23dfa6608ad3caad9dae91af5ee8ccf57956a04dc279aff6f6a88950",
+      "durationSeconds": 71.36
+    }
+  },
+  "pendingGeneration": []
+}

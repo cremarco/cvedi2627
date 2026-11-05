@@ -1,0 +1,29 @@
+{
+  "selectedImage": {
+    "id": "esempio-20",
+    "sourcePage": 20,
+    "kind": "imagegen",
+    "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-20.png",
+    "originalSha256": "8a9a04fceec205ffef47b1626729baaacf0910aaf27afb01ef52113d30759f6e",
+    "web": "/images/test-usabilita/ricostruite/esempio-20.webp",
+    "sha256": "4af8ab8519dc3d2c1e4cb9bbab83e3dd383922aea48bde1ab531c4a19d84ad99",
+    "webSize": [
+      1942,
+      809
+    ],
+    "alt": "Tavola ridisegnata di confronto: mapping negli oggetti quotidiani e nell’interfaccia web.",
+    "rights": "Esempio nella presentazione originale; attribuzione dell’immagine non indicata nella fonte",
+    "historicalOriginal": "progetti/slide/assets/lezione-test-usabilita/originali/esempio-20.png",
+    "promptRegistry": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen.json",
+    "zoomClearanceRight": 56
+  },
+  "generation": {
+    "id": "esempio-20",
+    "prompt": "Ricrea la tavola didattica di riferimento per le slide universitarie italiane CVeDI. Stile della presentazione: illustrazione editoriale vettoriale pulita, superfici piatte, linee sottili ed essenziali, leggibilità eccellente. Formato molto orizzontale 2.4:1, due metà equivalenti separate solo dallo spazio; nessun riquadro esterno, nessun bordo, nessuna testata, nessun titolo della slide, nessun logo o firma. Fondo uniforme #f8fafc. Palette esclusiva viola scuro #6e11b0, lavanda #f3e8ff, bianco, grigio antracite #0f172a, Verde prato vivo #12d217 usato come accento. Oggetto quotidiano grande a sinistra; interfaccia web esemplificativa a destra. Molto spazio negativo, proporzioni generose, stile coerente tra oggetto e interfaccia; niente fotografia, texture, 3D lucido, gradienti, ombre o effetti skeuomorfici. Mantieni il concetto e il soggetto della tavola di riferimento, ridisegnali da zero. Tutte le parole in italiano, tipografia sans arrotondata simile a Nunito Sans, testi grandi e nitidi. Non aggiungere spiegazioni o didascalie. Lascia libero l'angolo in basso a destra per il comando di ingrandimento della slide. MAPPING: a sinistra una placca bianca a sei interruttori, disposti su due righe di tre, e una mano stilizzata con dito indice che preme l'interruttore centrale della riga superiore, evidenziato in Verde prato. A destra un unico controllo numerico orizzontale: pulsante viola «−», campo bianco con numero «33», pulsante viola «+». Distanze uniformi e relazione spaziale chiarissima. Nessun altro testo.",
+    "providerFile": "/Users/marco/.codex/generated_images/01a19c8a-1701-7cf0-b37f-3e4ef368b645/exec-7814856a-be9a-412d-8b3c-e47e649cbb9a.png",
+    "reference": "progetti/slide/assets/lezione-test-usabilita/originali/esempio-20.png",
+    "original": "progetti/slide/assets/lezione-test-usabilita/ricostruite/imagegen/esempio-20.png",
+    "tool": "image_gen",
+    "useCase": "style-transfer"
+  }
+}

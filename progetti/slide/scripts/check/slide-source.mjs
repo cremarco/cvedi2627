@@ -9,6 +9,8 @@ import { checkPublication } from './publication.mjs'
 import { checkExerciseSources } from './exercise-sources.mjs'
 import { checkGridsSources } from './grids-source.mjs'
 import { checkCompositionSources } from './composition-source.mjs'
+import { checkUxProcessSources } from './processo-ux-ui-source.mjs'
+import { checkUsabilitySources } from './test-usabilita-source.mjs'
 
 const root = fileURLToPath(new URL('../../../..', import.meta.url))
 
@@ -28,11 +30,11 @@ export async function checkSlideSources() {
   for (const file of Object.values(deck.markdownFiles)) assert.deepEqual(file.errors || [], [], `parse: ${file.filepath}`)
   assert.equal(deck.slides[0].frontmatter.presenter, true, 'presenter mode is available in development and builds')
   const notedSlides = deck.slides.filter(slide => slide.note?.trim())
-  const notedLessons = new Set(['tipografia-griglie', 'griglie-layout', 'composizione-gerarchia'])
+  const notedLessons = new Set(['tipografia-griglie', 'griglie-layout', 'composizione-gerarchia', 'test-usabilita'])
   for (const id of notedLessons)
-    assert.ok(deck.slides.filter(slide => slide.frontmatter.lesson === id).every(slide => slide.note?.trim()), `${id}: every active slide retains its requested speaker notes`)
-  assert.equal(notedSlides.length, deck.slides.filter(slide => notedLessons.has(slide.frontmatter.lesson)).length, 'all three requested lessons have complete speaker notes')
-  assert.ok(notedSlides.every(slide => notedLessons.has(slide.frontmatter.lesson)), 'speaker notes remain limited to the three requested lessons')
+    assert.ok(deck.slides.filter(slide => slide.frontmatter.lesson === id && slide.frontmatter.speakerNotesEnabled !== false).every(slide => slide.note?.trim()), `${id}: each enabled slide retains its requested speaker notes`)
+  assert.equal(notedSlides.length, deck.slides.filter(slide => notedLessons.has(slide.frontmatter.lesson) && slide.frontmatter.speakerNotesEnabled !== false).length, 'all requested lessons have complete speaker notes outside the excluded references')
+  assert.ok(notedSlides.every(slide => notedLessons.has(slide.frontmatter.lesson)), 'speaker notes remain limited to the requested lessons')
   const total = deck.slides.length
   const lesson = deck.slides.filter(slide => slide.frontmatter.lesson === 'introduzione')
   const history = deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design')
@@ -65,10 +67,14 @@ export async function checkSlideSources() {
   const addedGridsSlides = gridsReport.slides
   const compositionReport = await checkCompositionSources(deck)
   const addedCompositionSlides = compositionReport.slides
-  const addedOpeningSlides = 1
+  const processReport = await checkUxProcessSources(deck)
+  const addedProcessSlides = processReport.slides
+  const usabilityReport = await checkUsabilitySources(deck)
+  const addedUsabilitySlides = usabilityReport.slides
+  const addedOpeningSlides = 2
   const course = deck.slides.filter(slide => !slide.frontmatter.lesson)
 
-  const summaryLessonIds = ['presentazione-corso', 'introduzione', 'storia-design', ...curriculum.lessons.map(spec => spec.id), 'griglie-layout', 'composizione-gerarchia']
+  const summaryLessonIds = ['presentazione-corso', 'introduzione', 'storia-design', ...curriculum.lessons.map(spec => spec.id), 'griglie-layout', 'composizione-gerarchia', 'processo-ux-ui', 'test-usabilita']
   const summaries = deck.slides.filter(slide => slide.frontmatter.layout === 'summary')
   assert.equal(summaries.length, summaryLessonIds.length, 'one opening summary for each numbered lesson and the supplementary grids set')
   for (const id of summaryLessonIds) {
@@ -81,7 +87,7 @@ export async function checkSlideSources() {
     assert.ok(summary.frontmatter.summarySupport?.trim(), id + ': summary support is present')
     assert.match(summary.content.trim(), /^# [^\n]+$/, id + ': summary content remains one Markdown heading')
   }
-  assert.equal(total, 221 + addedSlides + addedUxSlides + addedExerciseSlides + addedOpeningSlides + addedGridsSlides + addedCompositionSlides, 'resolved deck includes topics, UX lessons, supplementary grids, exercise index and imported exercises')
+  assert.equal(total, 221 + addedSlides + addedUxSlides + addedExerciseSlides + addedOpeningSlides + addedGridsSlides + addedCompositionSlides + addedProcessSlides + addedUsabilitySlides, 'resolved deck includes topics, UX lessons, supplementary grids, exercise index, imported exercises and historical testing slides')
   assert.equal(lesson.length, 83, 'introduction: 83 slides')
   const lessonMinutes = set => set.reduce((sum, slide) => sum + slide.frontmatter.lessonMinutes, 0)
   assert.ok(Math.abs(lessonMinutes(lesson) - 120) < 1e-6, 'introduction: 120 minutes')
@@ -110,14 +116,14 @@ export async function checkSlideSources() {
   assert.equal(visibleDeck.slides.length, total, 'active chapters include every declared lesson and exercise')
   assert.equal(visibleDeck.slides.at(-2).frontmatter.lesson, exercises.exercises.at(-1).id, 'the exercises lead to the original closing')
   assert.equal(course.length, 40, 'course presentation: 40 slides, including closing')
-  assert.equal(course[0].index, 7, 'course presentation starts after the seven opening slides')
+  assert.equal(course[0].index, 8, 'course presentation starts after the eight opening slides')
   assert.equal(course[0].frontmatter.routeAlias, 'presentazione-corso', 'course alias opens its first slide')
   assert.deepEqual(deck.slides.filter(slide => slide.frontmatter.lesson === 'apertura').map(slide => slide.index),
-    [0, 1, 2, 3, 4, 5, 6], 'opening: seven preliminary slides including the exercise index')
+    [0, 1, 2, 3, 4, 5, 6, 7], 'opening: eight preliminary slides including the second lesson index and exercise index')
   assert.ok(Math.abs(lessonMinutes(history) - 120) < 1e-6, 'history: 120 minutes')
   assert.deepEqual(history.map(slide => slide.frontmatter.lessonSlide), Array.from({ length: history.length }, (_, i) => i + 1), 'history sequence')
   assert.equal(history[0].index, lesson.at(-1).index + 1, 'history immediately follows introduction')
-  assert.equal(history.at(-1).index, total - addedUxSlides - addedExerciseSlides - addedGridsSlides - addedCompositionSlides - 2, 'the preserved history chapter precedes the UX course, supplementary grids and exercises')
+  assert.equal(history.at(-1).index, total - addedUxSlides - addedExerciseSlides - addedGridsSlides - addedCompositionSlides - addedProcessSlides - addedUsabilitySlides - 2, 'the preserved history chapter precedes the UX course, supplementary grids, testing import and exercises')
   assert.equal(history[0].frontmatter.routeAlias, 'storia-design', 'stable history alias')
   assert.equal(deck.slides.filter(slide => slide.frontmatter.routeAlias === 'storia-design').length, 1, 'unique history alias')
   assert.equal(history.filter(slide => slide.frontmatter.class.includes('lesson-activity')).length, 3, 'history: three classroom activities')
@@ -204,8 +210,8 @@ export async function checkSlideSources() {
   assert.equal(uxSource.fileKey, 'WLdDzbdqP3P5rpYbK1OxYC', 'new lessons use the requested Figma file')
   assert.equal(uxSource.pageId, '2008:1741', 'new lessons use the requested UX chapter')
   assert.deepEqual(uxSource.pages.map(page => page.ordinal), Array.from({ length: 260 }, (_, i) => i + 1), 'all 260 source pages are preserved')
-  const uxLessonNumbers = [...curriculum.lessons.map(lesson => lesson.number), deck.slides.find(slide => slide.frontmatter.lesson === 'griglie-layout')?.frontmatter.lessonNumber, deck.slides.find(slide => slide.frontmatter.lesson === 'composizione-gerarchia')?.frontmatter.lessonNumber].sort((a, b) => a - b)
-  assert.deepEqual(uxLessonNumbers, Array.from({ length: curriculum.lessons.length + 2 }, (_, index) => index + 4), 'UX lessons and grids retain consecutive numbers after history')
+  const uxLessonNumbers = [...curriculum.lessons.map(lesson => lesson.number), ...['griglie-layout', 'composizione-gerarchia', 'processo-ux-ui', 'test-usabilita'].map(id => deck.slides.find(slide => slide.frontmatter.lesson === id)?.frontmatter.lessonNumber)].sort((a, b) => a - b)
+  assert.deepEqual(uxLessonNumbers, Array.from({ length: curriculum.lessons.length + 4 }, (_, index) => index + 4), 'UX lessons, grids and testing retain consecutive numbers after history')
   assert.deepEqual(curriculum.lessons.map(lesson => lesson.palette), ['green', 'emerald', 'teal', 'cyan', 'sky'], 'active UX curriculum preserves the palette sequence before lesson 09 Grids')
   const tokenSource = await readFile(path.join(root, 'risorse-condivise/stili/tokens.css'), 'utf8')
   const tokens = new Map([...tokenSource.matchAll(/--cvedi-([\w-]+):\s*([^;]+);/g)].map(([, name, value]) => [name, value]))
@@ -215,7 +221,7 @@ export async function checkSlideSources() {
   const setPalettes = [
     ['opening', 'indigo'], ['course', 'red'], ['introduction', 'orange'],
     ['brief', 'amber'], ['research', 'yellow'], ['history', 'lime'],
-    ['ux-grid', 'blue'], ['ux-composition', 'indigo'],
+    ['ux-grid', 'blue'], ['ux-composition', 'indigo'], ['ux-process', 'violet'], ['ux-usability', 'purple'],
     ...retainedLessons.map(lesson => [lesson.paletteAlias, lesson.palette]),
   ]
   const paletteRoles = { base: '800', canvas: '900', deep: '950', light: '100', surface: '50', accent: 'accent', 'accent-light': 'accent-light', 'accent-vivid': 'accent-vivid' }
@@ -545,7 +551,7 @@ export async function checkSlideSources() {
   ]
   assert.equal(brief.length, 25, 'standalone project brief: twenty-five slides')
   assert.deepEqual(brief.map(slide => slide.frontmatter.lessonSlide), Array.from({ length: 25 }, (_, i) => i + 1), 'project brief lesson sequence')
-  assert.deepEqual(brief.map(slide => slide.index), Array.from({ length: 25 }, (_, i) => 46 + i), 'project brief: consecutive slides 47–71')
+  assert.deepEqual(brief.map(slide => slide.index), Array.from({ length: 25 }, (_, i) => 47 + i), 'project brief: consecutive slides 48–72')
   assert.deepEqual(brief.map(slide => slide.frontmatter.routeAlias), briefAliases, 'project brief: stable aliases in lesson order')
   assert.equal(deck.slides[brief[0].index - 1].title, 'Contatti', 'course contacts precede project brief')
   assert.equal(brief.at(-1).index + 1, approfondimenti[0].index, 'topic section immediately follows project brief')
@@ -625,6 +631,14 @@ export async function checkSlideSources() {
   const perceptionIcons = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/theme-imagegen/lesson-05-icons/manifest.json'), 'utf8'))
   const typographyIcons = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/theme-imagegen/lesson-08-cards/manifest.json'), 'utf8'))
   const gridsIcons = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/theme-imagegen/lesson-09-cards/manifest.json'), 'utf8'))
+  const processIcons = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/booklet/lezione-processo-ux-ui/image-manifest.json'), 'utf8')).objectiveArtwork
+  const processCardIcons = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/booklet/lezione-processo-ux-ui/card-artwork.json'), 'utf8')).images
+  for (const icon of processCardIcons) {
+    assert.equal(artwork.assets[icon.id], icon.web, `${icon.id}: reused process motif is registered`)
+    assert.equal(createHash('sha256').update(await readFile(path.join(root, icon.source))).digest('hex'), icon.sourceSha256, `${icon.id}: original motif source retained`)
+    assert.equal(createHash('sha256').update(await readFile(path.join(slideRoot, 'public' + icon.web))).digest('hex'), icon.sha256, `${icon.id}: public motif pixels retained`)
+    assert.ok(icon.owners.length > 0, `${icon.id}: reused motif has an active owner`)
+  }
   const compositionIcons = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/theme-imagegen/lesson-10-cards/manifest.json'), 'utf8'))
   const paletteRefresh = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/theme-imagegen/card-palette-refresh/manifest.json'), 'utf8'))
   const refreshedCardFamilies = [
@@ -691,7 +705,7 @@ export async function checkSlideSources() {
   const activeOutline = outlineGenerations.jobs.filter(job => job.published)
   assert.equal(generations.jobs.length, generations.counts.images, 'complete shared illustration family')
   assert.equal(cardGenerations.jobs.length, cardGenerations.counts.images, 'complete selective card illustration family')
-  assert.equal(Object.keys(artwork.assets).length, cardGenerations.jobs.length + historyIcons.jobs.length + researchIcons.jobs.length + perceptionIcons.jobs.length + typographyIcons.jobs.length + gridsIcons.jobs.length + compositionIcons.jobs.length, 'only registered motifs populate the card catalog')
+  assert.equal(Object.keys(artwork.assets).length, cardGenerations.jobs.length + historyIcons.jobs.length + researchIcons.jobs.length + perceptionIcons.jobs.length + typographyIcons.jobs.length + gridsIcons.jobs.length + compositionIcons.jobs.length + processIcons.length + processCardIcons.length + usabilityReport.cardIllustrations, 'only registered motifs populate the card catalog')
   for (const generation of [...generations.jobs, ...cardGenerations.jobs, ...activeOutline, ...chapterGenerations.jobs, ...historyIcons.jobs]) {
     assert.equal(generation.status, 'complete', `generated asset ${generation.id}: selected`)
     assert.ok(generation.prompt.trim(), `generated asset ${generation.id}: prompt provenance`)
@@ -724,7 +738,7 @@ export async function checkSlideSources() {
     assert.ok(generation.publicationEncoding.pixelPreserved && generation.publicationEncoding.alphaPreserved, `outline illustration ${generation.id}: lossless publication`)
     assert.ok(generation.owners.length > 0, `outline illustration ${generation.id}: owning slide recorded`)
   }
-  const palette = { 'presentazione-corso': 'course', 'brief-progetto': 'brief', introduzione: 'introduction', 'storia-design': 'history', 'griglie-layout': 'griglie-layout', 'composizione-gerarchia': 'composizione-gerarchia', ...Object.fromEntries(curriculum.lessons.map(lesson => [lesson.id, lesson.id])) }
+  const palette = { 'presentazione-corso': 'course', 'brief-progetto': 'brief', introduzione: 'introduction', 'storia-design': 'history', 'griglie-layout': 'griglie-layout', 'composizione-gerarchia': 'composizione-gerarchia', 'processo-ux-ui': 'processo-ux-ui', 'test-usabilita': 'test-usabilita', ...Object.fromEntries(curriculum.lessons.map(lesson => [lesson.id, lesson.id])) }
   let illustratedCards = 0
   let directCards = 0
   let addedCards = 0
@@ -741,7 +755,7 @@ export async function checkSlideSources() {
       assert.ok(Object.hasOwn(artwork.mappings[family] ?? {}, title), `card ${card[1]}: explicit illustration decision`)
       assert.ok(id === null || (artwork.assets[id] && id.startsWith(`${family}-`)), `card ${card[1]}: intentionally plain or illustrated in the owning palette`)
       directCards++
-      if (uxLessonIds.has(slide.frontmatter.lesson) || ['storia-design', 'griglie-layout', 'composizione-gerarchia'].includes(slide.frontmatter.lesson)) addedCards++
+      if (uxLessonIds.has(slide.frontmatter.lesson) || ['storia-design', 'griglie-layout', 'composizione-gerarchia', 'processo-ux-ui', 'test-usabilita'].includes(slide.frontmatter.lesson)) addedCards++
       if (id) illustratedCards++
       if (id && legacyCardRegistry.has(id)) {
         const owners = activeRefreshedCardOwners.get(id) ?? []
@@ -764,6 +778,8 @@ export async function checkSlideSources() {
         assert.ok(gridsIcons.jobs.some(job => job.id === id && job.family === 'blue' && job.owners.some(owner => owner.lesson === 'griglie-layout' && owner.slideAlias === slide.frontmatter.routeAlias && normalizeTitle(owner.card) === title)), card[1] + ': grid objective has its own registered blue illustration')
         gridsCardUses++
       }
+      if (slide.frontmatter.lesson === 'processo-ux-ui' && id && processCardIcons.some(icon => icon.id === id))
+        assert.ok(processCardIcons.find(icon => icon.id === id).owners.some(owner => owner.slideAlias === slide.frontmatter.routeAlias && normalizeTitle(owner.card) === title), card[1] + ': reused process motif has the expected owner')
     }
   }
   assert.equal(directCards - addedCards, cardGenerations.counts.totalDirectCards, 'the existing card inventory is preserved')
@@ -771,8 +787,9 @@ export async function checkSlideSources() {
   assert.equal(typographyCardUses, typographyIcons.jobs.reduce((sum, job) => sum + job.owners.length, 0), 'the requested typography card illustrations have their active owners')
   assert.equal(gridsCardUses, 3, 'all three grid objectives have their requested illustrations')
   assert.equal(gridsCardUses, gridsIcons.jobs.length, 'one original illustration per grid objective')
-  assert.equal(illustratedCards, cardGenerations.counts.directCardUses + historyIcons.counts.directCardUses + researchCardUses + perceptionCardUses + typographyCardUses + gridsCardUses + compositionIcons.jobs.length, 'selected direct cards have semantic motifs')
-  assert.ok(illustratedCards - researchCardUses - perceptionCardUses > 0 && illustratedCards - researchCardUses - perceptionCardUses < (directCards - researchCardUses - perceptionCardUses) / 4, 'illustrations in the other lessons remain selective')
+  const processCardUses = processCardIcons.reduce((sum, icon) => sum + icon.owners.length, 0)
+  assert.equal(illustratedCards, cardGenerations.counts.directCardUses + historyIcons.counts.directCardUses + researchCardUses + perceptionCardUses + typographyCardUses + gridsCardUses + compositionIcons.jobs.length + processIcons.length + processCardUses + usabilityReport.illustratedCards, 'selected direct cards have semantic motifs')
+  assert.ok(illustratedCards - researchCardUses - perceptionCardUses - processIcons.length - processCardUses - usabilityReport.illustratedCards > 0 && illustratedCards - researchCardUses - perceptionCardUses - processIcons.length - processCardUses - usabilityReport.illustratedCards < (directCards - researchCardUses - perceptionCardUses - processIcons.length - processCardUses - usabilityReport.illustratedCards) / 4, 'illustrations in the preserved lessons remain selective')
   assert.deepEqual([...refreshedCards.keys()].sort(), [...activeRefreshedCardOwners.keys()].sort(), 'palette refresh covers exactly the active card motifs in its lessons')
   const ownerKey = owner => JSON.stringify([owner.lesson, owner.slide, owner.title, normalizeTitle(owner.card)])
   for (const [id, owners] of activeRefreshedCardOwners)
@@ -793,14 +810,14 @@ export async function checkSlideSources() {
     }
   }
   for (const asset of assets) {
-    const location = path.join(root, 'progetti/slide/public', asset.replace(/^\//, ''))
+    const location = path.join(root, 'progetti/slide/public', asset.split(/[?#]/u)[0].replace(/^\//, ''))
     assert.ok((await stat(location)).isFile(), `public asset: ${asset}`)
     assert.ok((await stat(location)).size > 0, `nonempty asset: ${asset}`)
   }
   const visibleHistory = visibleDeck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design')
   const publication = await checkPublication()
   const report = { slides: visibleDeck.slides.length, sourceSlides: total, course: course.length, introduction: lesson.length,
-    publication, exercises: exerciseReport, grids: gridsReport, composition: compositionReport,
+    publication, exercises: exerciseReport, grids: gridsReport, composition: compositionReport, uxProcess: processReport, usability: usabilityReport,
     history: visibleHistory.length, preservedHistory: history.length,
     lessonMinutes: [lesson, history].map(set => Math.round(lessonMinutes(set) * 1e6) / 1e6),
     publicImages: assets.size, uxExamples: uxExamples.length, bookletPages: booklet.pages.length,

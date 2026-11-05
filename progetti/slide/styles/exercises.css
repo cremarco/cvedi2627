@@ -66,7 +66,6 @@
 .exercise-display-answer.is-yes { color: var(--section-primary); font-weight: 600; }
 .exercise-display-sign { width: 20px; text-align: center; }
 .slidev-layout.default .exercise-display-table caption { caption-side: bottom; padding-top: 12px; color: var(--theme-muted); font-size: 18px; line-height: 1.4; text-align: left; }
-.slidev-layout.default.index-slide .index-grid .index-button.btn:disabled { opacity: 1; background: var(--index-color); color: var(--color-primary-content); cursor: not-allowed; }
 @media print {
   .exercise-native-hint { display: none; }
   .exercise-content .exercise-code { break-inside: avoid; }

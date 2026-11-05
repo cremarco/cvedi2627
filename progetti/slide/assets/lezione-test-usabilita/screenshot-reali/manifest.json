@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "lesson": "test-usabilita",
+  "images": [
+    {
+      "id": "figura-38",
+      "sourcePage": 38,
+      "original": "progetti/slide/assets/lezione-test-usabilita/screenshot-reali/google-homepage.jpg",
+      "sourceUrl": "https://www.google.com/?hl=it",
+      "capturedOn": "2026-11-02",
+      "capture": {
+        "tool": "Browser screenshot API",
+        "viewport": [
+          1280,
+          720
+        ],
+        "clip": {
+          "x": 274,
+          "y": 100,
+          "width": 730,
+          "height": 300
+        },
+        "pixelEditing": false
+      },
+      "alt": "Screenshot reale della pagina di ricerca Google in tema scuro: logo originale, campo di ricerca con strumenti aggiuntivi e pulsanti Cerca con Google e Mi sento fortunato.",
+      "caption": "Google · schermata reale",
+      "rights": "Interfaccia e marchio Google. Screenshot acquisito per il commento didattico.",
+      "archivedVersion": "progetti/slide/assets/lezione-test-usabilita/ricostruite/revisioni/figura-38-v1.json"
+    }
+  ]
+}

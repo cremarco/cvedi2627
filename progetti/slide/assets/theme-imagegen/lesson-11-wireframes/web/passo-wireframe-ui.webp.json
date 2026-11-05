@@ -1,0 +1,19 @@
+{
+  "prompt": "Use case: ui-mockup. Create ONE landscape 16:9 teaching board showing the SAME Passo review screen THREE times in equal columns, left black-pen hand sketch, center clean grayscale mid-fidelity, right final high-fidelity violet/Cedro Passo UI. Use the RIGHT review screen from each of the three supplied paired boards as the exact content and layout reference. Exclude the left detail screens. Above the three columns write only \"A mano\", \"Media fedeltà\", \"Alta fedeltà\". No overall title or caption. Each page retains the compact passo. header and the review's TWO-COLUMN composition: contacts form left, professional and visit summary right, with submission and edit actions. Ensure essential labels remain large and legible; adapt line breaks consistently across versions, not content. Reproduce these essential details verbatim: {\"id\":\"riepilogo\",\"title\":\"Un ultimo sguardo, poi ci incontriamo.\",\"lines\":[\"I tuoi contatti\",\"Nome e cognome\",\"Viola Esempio\",\"Email\",\"viola@example.com\",\"Telefono (facoltativo)\",\"Giulia Riva\",\"17 novembre 2026 · 20:30\",\"Via Esempio 12, Milano\",\"45 minuti · Totale 60 €\",\"Spostamento incluso\",\"Ho letto l’informativa privacy.\",\"L’invio apre una richiesta in attesa.\"],\"primary\":\"Invia richiesta\",\"secondary\":\"Modifica i dati\"}. Identity: Giulia Riva's actual portrait in the final high-fidelity screen only; photo placeholders in low and mid. Keep brand Nunito Sans, white and lavender, violet actions, 60 € including travel, 45 minutes. Submission explicitly creates a pending request, not an immediate confirmed visit. No invented payment, rating, login or other steps. Hand sketch remains flat black pen on white; mid grayscale digital only; final matches actual Passo. Approximately 2048x1152.",
+  "createdAt": "2026-10-30T13:30:42.996590+00:00",
+  "tool": "image_gen integrato",
+  "references": [
+    {
+      "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/passo-wireframe-mano-dettaglio-riepilogo.png",
+      "sha256": "6bbdb38b6c4fe2b58ae0a654145b75c02e1abb90787c1a38dbe7115ccc4c67e3"
+    },
+    {
+      "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/passo-wireframe-media-dettaglio-riepilogo.png",
+      "sha256": "cf3f9d032a2d2fdf9da90b0228ce11278383439caeeef94753ddbd51b3c3b484"
+    },
+    {
+      "file": "progetti/slide/assets/theme-imagegen/lesson-11-wireframes/originals/passo-wireframe-alta-dettaglio-riepilogo.png",
+      "sha256": "79f1666595dfb702b7777af1b3adca35f488b81efe4ece402c5d78d3d1b30b28"
+    }
+  ]
+}

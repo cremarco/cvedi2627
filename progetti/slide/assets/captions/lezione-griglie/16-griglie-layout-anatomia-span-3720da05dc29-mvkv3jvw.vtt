@@ -1,0 +1,83 @@
+WEBVTT
+
+1
+00:00:00.180 --> 00:00:04.160
+Un elemento che attraversa più colonne
+occupa anche gli intervalli interni
+
+2
+00:00:04.160 --> 00:00:05.380
+all'area che abbiamo riunito.
+
+3
+00:00:06.280 --> 00:00:09.300
+Pensate a un'immagine che si estende da
+una colonna alla successiva:
+
+4
+00:00:10.380 --> 00:00:13.880
+non lascia necessariamente una fessura
+vuota in corrispondenza dell'intercolonna.
+
+5
+00:00:14.920 --> 00:00:18.580
+Quello spazio entra nella sua larghezza
+complessiva.
+
+6
+00:00:18.620 --> 00:00:22.860
+Riprendiamo il caso precedente. Due
+colonne da sessantasei millimetri, con
+
+7
+00:00:22.860 --> 00:00:27.260
+cinque millimetri fra loro, formano
+un'area larga centotrentasette millimetri.
+
+8
+00:00:28.140 --> 00:00:29.880
+Sommiamo quindi sessantasei,
+
+9
+00:00:30.460 --> 00:00:31.400
+cinque e sessantasei.
+
+10
+00:00:32.200 --> 00:00:36.080
+Se moltiplicassimo soltanto la larghezza
+della colonna per due, otterremmo
+
+11
+00:00:36.080 --> 00:00:39.820
+centotrentadue e dimenticheremmo
+l'intervallo centrale.
+
+12
+00:00:39.840 --> 00:00:42.560
+La formula esprime questa somma per
+colonne uguali.
+
+13
+00:00:43.140 --> 00:00:46.940
+Con colonne asimmetriche dobbiamo invece
+sommare le diverse larghezze
+
+14
+00:00:46.940 --> 00:00:50.240
+effettivamente attraversate, insieme agli
+intervalli compresi.
+
+15
+00:00:50.980 --> 00:00:53.600
+I margini della pagina restano fuori
+dall'area.
+
+16
+00:00:54.340 --> 00:00:58.260
+Questo conteggio chiarisce lo spazio
+assegnato al contenuto; dobbiamo ora
+
+17
+00:00:58.260 --> 00:01:02.020
+distinguere anche le distanze esterne e
+interne ai singoli elementi.

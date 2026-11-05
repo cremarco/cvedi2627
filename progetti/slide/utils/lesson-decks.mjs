@@ -13,6 +13,8 @@ export const lessonDecks = [
   { id: 'tipografia-griglie', lesson: 'tipografia-griglie', alias: 'tipografia-griglie', title: 'Tipografia', file: 'lezioni/07-tipografia-griglie.md' },
   { id: 'griglie-layout', lesson: 'griglie-layout', alias: 'griglie-layout', title: 'Griglie e layout', file: 'lezioni/07-griglie-layout.md' },
   { id: 'composizione-gerarchia', lesson: 'composizione-gerarchia', alias: 'composizione-gerarchia', title: 'Composizione e gerarchia visiva', file: 'lezioni/10-composizione-gerarchia.md' },
+  { id: 'processo-ux-ui', lesson: 'processo-ux-ui', alias: 'processo-ux-ui', title: 'Processo UX e UI', file: 'lezioni/11-processo-ux-ui.md' },
+  { id: 'test-usabilita', lesson: 'test-usabilita', alias: 'test-usabilita', title: 'Test di usabilità', file: 'lezioni/12-test-usabilita.md', audioLocalOnly: true },
   { id: 'esercitazione-01', lesson: 'esercitazione-01', alias: 'esercitazione-01', title: "Esercitazione 1 - Ripasso HTML e CSS di base", file: 'esercitazioni/01-html-css-base.md' },
   { id: 'esercitazione-02', lesson: 'esercitazione-02', alias: 'esercitazione-02', title: "Esercitazione 2 - Ripasso HTML e CSS avanzato", file: 'esercitazioni/02-html-css-avanzato.md' },
   { id: 'esercitazione-03', lesson: 'esercitazione-03', alias: 'esercitazione-03', title: "Esercitazione 3 - Nuove proprietà CSS, Grid e Srcset", file: 'esercitazioni/03-css-grid-srcset.md', localOnly: true },
@@ -40,7 +42,12 @@ export function lessonDeckExtensions(id, filepath) {
     name: 'cvedi-lesson-deck',
     transformSlide(content, matter) {
       if (!isRoot) return
-      if (Object.hasOwn(matter, 'theme')) matter.preloadImages = false
+      if (Object.hasOwn(matter, 'theme')) {
+        matter.preloadImages = false
+        // Slidev's static synchronization channels are keyed by the deck title.
+        // Independent lessons must not share navigation, drawings or timers.
+        if (id !== 'apertura') matter.title = `${matter.title} · ${selected.title}`
+      }
       const keep = matter.src
         ? matter.src.replace(/^\.\//, '') === selected.file
         : (matter.lesson ?? 'presentazione-corso') === selected.lesson

@@ -67,6 +67,10 @@ export const coverRoutes = {
     { route: 'M -32 632 H304 Q320 632 332 620 L356 596 Q368 584 384 584 H1120 Q1152 584 1152 616 V636 Q1152 660 1176 660 H1208 Q1240 660 1240 628 V80', tone: 'track', stopProgress: 0.4565, duration: 730, delay: 0, stations: [{ x: 200, y: 632, delay: 160 }, { x: 824, y: 584, delay: 430 }, { x: 1240, y: 264, delay: 690, rotation: 90 }] },
     { route: 'M -32 576 H208 Q224 576 236 588 L284 636 Q296 648 312 648 H904 Q920 648 932 636 L968 600 Q980 588 996 588 H1064', tone: 'accent', duration: 550, delay: 120, stations: [] },
   ],
+  'ux-process': [
+    { route: 'M -32 600 H368 Q384 600 396 588 L432 552 Q444 540 460 540 H1040 Q1072 540 1072 572 V608 Q1072 640 1104 640 H1184 Q1216 640 1216 608 V112', tone: 'track', stopProgress: 0.45855349, duration: 730, delay: 0, stations: [{ x: 224, y: 600, delay: 160 }, { x: 800, y: 540, delay: 430 }, { x: 1216, y: 272, delay: 690, rotation: 90 }] },
+    { route: 'M -32 652 H296 Q312 652 324 640 L364 600 Q376 588 392 588 H944 Q960 588 972 576 L1008 540 Q1020 528 1036 528 H1120', tone: 'accent', duration: 550, delay: 120, stations: [] },
+  ],
   'ux-prototype': [
     { route: 'M -32 604 H568 Q584 604 596 592 L628 560 Q640 548 656 548 H1152 Q1184 548 1184 516 V168 Q1184 136 1216 136 H1312', tone: 'track', stopProgress: 0.50915, duration: 710, delay: 20, stations: [{ x: 272, y: 604, delay: 150 }, { x: 840, y: 548, delay: 430 }, { x: 1184, y: 280, delay: 680, rotation: 90 }] },
     { route: 'M 1312 644 H960 Q944 644 932 632 L896 596 Q884 584 868 584 H608', tone: 'accent', duration: 510, delay: 150, stations: [] },
@@ -74,6 +78,10 @@ export const coverRoutes = {
   'ux-test': [
     { route: 'M 1168 -32 V476 Q1168 508 1136 508 H992 Q976 508 964 520 L896 588 Q884 600 868 600 H-32', tone: 'track', stopProgress: 0.61875, duration: 720, delay: 10, reverse: true, stations: [{ x: 1168, y: 248, delay: 170, rotation: 90 }, { x: 640, y: 600, delay: 440 }, { x: 192, y: 600, delay: 690 }] },
     { route: 'M -32 636 H472 Q488 636 500 624 L548 576 Q560 564 576 564 H1016', tone: 'accent', duration: 550, delay: 120, stations: [] },
+  ],
+  'ux-usability': [
+    { route: 'M -32 624 H344 Q360 624 372 612 L420 564 Q432 552 448 552 H1016 Q1048 552 1048 584 V616 Q1048 648 1080 648 H1160 Q1192 648 1192 616 V112', tone: 'track', stopProgress: 0.456379, duration: 730, delay: 0, stations: [{ x: 216, y: 624, delay: 160 }, { x: 784, y: 552, delay: 430 }, { x: 1192, y: 272, delay: 690, rotation: 90 }] },
+    { route: 'M -32 568 H280 Q296 568 308 580 L356 628 Q368 640 384 640 H824 Q840 640 852 628 L912 568 Q924 556 940 556 H1064', tone: 'accent', duration: 550, delay: 120, stations: [] },
   ],
   closing: [
     { route: 'M -32 548 H528 Q544 548 556 560 L596 600 Q608 612 624 612 H1008 Q1024 612 1036 600 L1172 464 Q1184 452 1184 436 V248 Q1184 216 1216 216 H1312', tone: 'track', stopProgress: 0.53156, duration: 700, delay: 0, stations: [{ x: 352, y: 548, delay: 160 }, { x: 824, y: 612, delay: 400 }, { x: 1184, y: 336, delay: 670, rotation: 90 }] },

@@ -1,0 +1,77 @@
+WEBVTT
+
+1
+00:00:00.300 --> 00:00:04.000
+Fisso e fluido descrivono il comportamento
+di una misura.
+
+2
+00:00:04.000 --> 00:00:06.080
+Nel layout fisso una larghezza resta
+
+3
+00:00:06.960 --> 00:00:09.240
+costante; nel layout fluido segue lo
+spazio disponibile.
+
+4
+00:00:10.260 --> 00:00:14.260
+Nello stesso progetto possono convivere
+entrambi i comportamenti, creando un
+
+5
+00:00:14.260 --> 00:00:18.800
+assetto ibrido. Nel confronto, per
+esempio, il menu conserva la propria
+
+6
+00:00:18.800 --> 00:00:21.280
+larghezza mentre il campo principale si
+adatta.
+
+7
+00:00:21.900 --> 00:00:25.720
+Questa scelta può funzionare finché l'area
+dei contenuti mantiene una larghezza
+
+8
+00:00:25.720 --> 00:00:30.440
+sufficiente per leggere. Riducendo ancora
+la finestra, però, il menu potrebbe
+
+9
+00:00:30.440 --> 00:00:33.180
+lasciare troppo poco spazio alla lettura.
+
+10
+00:00:33.180 --> 00:00:37.360
+A quel punto non basta continuare a
+restringere il campo: serve cambiare la
+
+11
+00:00:37.360 --> 00:00:42.020
+disposizione della navigazione. La
+fluidità ha dunque bisogno di limiti e
+
+12
+00:00:42.020 --> 00:00:42.720
+regole:
+
+13
+00:00:43.160 --> 00:00:46.480
+larghezze minime, larghezze massime e
+ritorni a capo.
+
+14
+00:00:46.480 --> 00:00:50.080
+Il progetto responsivo può combinare
+questi strumenti con cambi di assetto.
+
+15
+00:00:50.780 --> 00:00:54.800
+Per capire quando servono, osserviamo
+prima un contenitore che cresce senza
+
+16
+00:00:54.800 --> 00:00:56.040
+superare una misura massima.

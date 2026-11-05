@@ -2,6 +2,7 @@
 // Content and source selection are data; the existing Slidev layouts own style.
 import { readFile, writeFile } from 'node:fs/promises'
 import { stripAudioDelivery } from './audio-delivery.mjs'
+import { readLessonCaptions, lessonCaptionManifest } from './lesson-captions.mjs'
 const root = new URL('../../../../', import.meta.url)
 const base = 'progetti/slide/assets/booklet/lezione-griglie/'
 const read = async file => JSON.parse(await readFile(new URL(file, root), 'utf8'))
@@ -11,6 +12,8 @@ const speakerNotesOriginalSource = base + 'speaker-notes-original.json'
 const notes = await read(notesSource)
 const audioSelectionSource = base + 'audio-approved.json'
 const audioSelection = await read(audioSelectionSource)
+const captionSelectionSource = lessonCaptionManifest('griglie-layout')
+const { manifest: captionSelection } = await readLessonCaptions('griglie-layout')
 const teaching = await read('progetti/slide/assets/slide-materials/griglie/manifest.json')
 const teachingCodes = new Set(teaching.images.map(image => image.code))
 const kit = await read(teaching.exerciseKit.source)
@@ -38,6 +41,7 @@ function append(slide, body, extra = {}) {
     lesson: 'griglie-layout', lessonSlide: number, lessonMinutes: slide.minutes,
     routeAlias: alias, bookletChapter: 7, bookletSource: plan.sourceFile,
     ...(audioSelection.clips[alias] ? { narrationAudio: audioSelection.clips[alias].web } : {}),
+    ...(captionSelection.clips[alias] ? { narrationCaptions: captionSelection.clips[alias].web } : {}),
     bookletFigures: (slide.figures ?? []).filter(code => !teachingCodes.has(code)),
     ...((slide.figures ?? []).some(code => teachingCodes.has(code)) ? { teachingFigures: slide.figures.filter(code => teachingCodes.has(code)) } : {}),
     ...(slide.origin ? { teachingSource: 'progetti/slide/assets/slide-materials/griglie/manifest.json' } : {}), ...extra }
@@ -104,7 +108,7 @@ const manifest = { version: 1, lesson: 'griglie-layout', sourceFile: plan.source
   editorialPlan: base + 'content-plan.json', generator: 'progetti/slide/scripts/build/griglie-slides.mjs',
   speakerNotesSource: notesSource,
   speakerNotesOriginalSource,
-  audioSelectionSource,
+  audioSelectionSource, captionSelectionSource,
   teachingMaterials: 'progetti/slide/assets/slide-materials/griglie/manifest.json',
   simplifiedContentArchive: base + 'simplification-archive.json',
   archivedSlides: 'progetti/slide/assets/booklet/lezione-08-tipografia/griglie-interfacce-archive.json',
@@ -124,6 +128,7 @@ doc += 'Le figure riusano gli originali del capitolo. Negli SVG per le slide, il
 doc += 'Le integrazioni didattiche originali sono distinte dalle figure del booklet: confronti su box model, ordine delle colonne, query, Grid/Flexbox, immagini e rapporto aureo, più il kit simulato «Luce e spazio». Sorgenti SVG, font, hash, riferimenti e contenuti del kit sono in `progetti/slide/assets/slide-materials/griglie/manifest.json`; il generatore è `progetti/slide/scripts/build/griglie-teaching-assets.py`. Non hanno folio o nodi Figma attribuiti.\n\n'
 doc += 'I nove passaggi accorpati o esclusi sono conservati in `simplification-archive.json`, con piano, mapping, Markdown e rimandi ai contenuti attivi. Fra questi restano gli schemi storici su responsive/adaptive, percentuali di attenzione e «Area aurea», insieme alla precedente lettura critica. Vogue rimane un confronto storico, non una descrizione del sito attuale; le immagini non consentono di ricostruire breakpoint, tracce CSS o voci nascoste. Reflow, ingrandimento e spaziatura restano prove distinte del prodotto implementato.\n\n'
 doc += 'Le 63 note del relatore autorizzate sono un copione italiano per sintesi vocale, conservato per alias in `speaker-notes.json` e inserito dal generatore nei commenti Slidev. Approfondiscono i contenuti attivi con il capitolo corrente, senza riattivare i passaggi archiviati. Numeri e formule sono pronunciabili, le attività invitano a sospendere l’audio e le fonti non vengono lette come indirizzi. Tutte le note includono direttamente `[calm, matter-of-fact delivery]` e pause più distese, con stabilità comune 0,90; rimuovendo i soli tag si recupera il testo integrale conservato in `speaker-notes-original.json`. Ogni slide dispone di una nuova registrazione coerente con queste note e di controlli di riproduzione condivisi. Dopo la verifica integrale dei 63 file, le registrazioni precedenti sono rimosse su richiesta; i relativi metadati restano separati in `archivedClips` del manifest audio. La selezione non contiene rigenerazioni in attesa. Il copione mira a circa 60 minuti di parlato; i 15 minuti di attività restano autonomi e il budget della presentazione resta 78 minuti.\n\n'
+doc += 'Le 63 registrazioni hanno sottotitoli WebVTT e tempi delle parole, allineati localmente con Whisper medium tramite stable-ts sul copione originale. La selezione dei sottotitoli è registrata nel manifest della lezione; il player condiviso offre CC e karaoke con il primario della slide. La build verifica e prepara il mirror senza eseguire Whisper.\n\n'
 doc += '| Slide | Titolo | Sezione della fonte | Figure |\n|---|---|---|---|\n'
 doc += mappings.map(slide => `| ${slide.lessonSlide} | ${slide.title} | ${slide.sourceHeading} | ${slide.figures.join(', ') || '—'} |`).join('\n')
 doc += '\n\nLe fonti primarie del capitolo sono in `progetti/booklet/bibliografia/07-griglia.yml`; i collegamenti didattici delle slide sono conservati nel piano editoriale. Le attribuzioni delle opere non vengono sostituite dalle fonti tecniche.\n'

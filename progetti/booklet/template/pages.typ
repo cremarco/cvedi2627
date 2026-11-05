@@ -5,6 +5,13 @@
   grid-width, grid-height, body-height)
 #import "editorial.typ": apparatus-title
 
+// Outlined SVG lettering stays outside the editorial reading order.
+// A foreground keeps the draft mark visible over artwork and full-bleed pages.
+#let draft-watermark() = if sys.inputs.at("draft", default: "true") == "true" {
+  pdf.artifact(align(center + horizon, rotate(35deg,
+    image(path("/progetti/booklet/assets/watermark-draft.svg"), width: 140mm))))
+}
+
 #let document-page(body) = {
   pagebreak(weak: true)
   page(columns: 1, margin: page-margins(), footer-descent: folio-drop)[

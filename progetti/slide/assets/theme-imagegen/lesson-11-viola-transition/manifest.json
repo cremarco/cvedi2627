@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "lesson": "processo-ux-ui",
+  "date": "2026-10-30",
+  "generationTool": "image_gen integrato",
+  "reference": {
+    "file": "progetti/slide/assets/theme-imagegen/lesson-11-cast/originals/viola.png",
+    "sha256": "8708eeb14c279dd98922a05d1ce056b8a8f15ba5b6193de89012e5c4d7cf94c4",
+    "code": "ritratto-viola"
+  },
+  "animation": {
+    "fromCode": "ritratto-viola",
+    "toCode": "viola-realistica",
+    "delayMs": 900,
+    "durationMs": 1800,
+    "loop": false,
+    "reducedMotion": "photo",
+    "print": "photo"
+  },
+  "conversion": "cwebp -lossless -exact; dimensioni, pixel e alpha conservati",
+  "images": [
+    {
+      "code": "viola-realistica",
+      "slideSlug": "partecipanti",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-11-viola-transition/originals/viola-realistica.png",
+      "originalSha256": "731629b94d9ff04a4498e483218d403dc6df9f4fee94870b8671166d3a05421b",
+      "derivative": "progetti/slide/assets/theme-imagegen/lesson-11-viola-transition/web/viola-realistica.webp",
+      "sha256": "0038a68ef95c8c4eed405456d28eee0a182ccae9572e10ea03582002a679bc56",
+      "prompt": "progetti/slide/assets/theme-imagegen/lesson-11-viola-transition/prompts/viola-realistica.txt",
+      "promptSha256": "b87842c667e64dd3eff372f80a599c0c006397ee39c5d8b78d1c50203f6b6998",
+      "caption": "Viola",
+      "alt": "Ritratto realistico di Viola con capelli castani e riflessi viola, cardigan viola, camicia bianca, telefono e borsa a tracolla.",
+      "rights": "CVeDI, 2026. Illustrazione generata con IA.",
+      "displayRights": "",
+      "generationTool": "image_gen integrato",
+      "transparentBackground": true
+    }
+  ]
+}

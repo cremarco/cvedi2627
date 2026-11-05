@@ -1,0 +1,517 @@
+{
+  "version": 1,
+  "lesson": "test-usabilita",
+  "mode": "built-in image_gen",
+  "rights": "Original AI-generated decorative illustrations for CVeDI.",
+  "styleReference": "progetti/slide/assets/theme-imagegen/lesson-10-cards/manifest.json",
+  "mappings": {
+    "individuare i problemi nella progettazione del prodotto o del servizio": "test-usabilita-problemi",
+    "scoprire opportunita per migliorare": "test-usabilita-migliorare",
+    "conoscere il comportamento e le preferenze dellutente target": "test-usabilita-persone",
+    "riconoscere le azioni": "test-usabilita-compito",
+    "prevedere le conseguenze": "test-usabilita-invio",
+    "correggere gli errori": "test-usabilita-problemi",
+    "invio": "test-usabilita-invio",
+    "attesa": "test-usabilita-attesa",
+    "conferma": "test-usabilita-conferma",
+    "errore nel modulo": "test-usabilita-protezione",
+    "ritorno alla ricerca": "test-usabilita-migliorare",
+    "interruzione": "test-usabilita-attesa",
+    "reinserimenti": "test-usabilita-protezione",
+    "confronti": "test-usabilita-confronti",
+    "passaggi": "test-usabilita-compito",
+    "valutazione euristica": "test-usabilita-problemi",
+    "test con utenti": "test-usabilita-persone",
+    "scegliere la situazione": "test-usabilita-compito",
+    "condurre la sessione": "test-usabilita-persone",
+    "migliorare il progetto": "test-usabilita-migliorare",
+    "provare il percorso": "test-usabilita-compito",
+    "informare la persona": "test-usabilita-persone",
+    "concordare luso dei dati": "test-usabilita-protezione",
+    "compito": "test-usabilita-compito",
+    "criterio di successo": "test-usabilita-invio",
+    "esito osservato": "test-usabilita-compito"
+  },
+  "images": [
+    {
+      "id": "test-usabilita-problemi",
+      "subject": "A white interface sheet with three broad purple content blocks, overlaid by a large magnifying glass. Within the glass a small grass-green warning triangle with no text or punctuation. Represents finding usability problems.",
+      "prompt": "Use case: productivity-visual. Create ONE standalone decorative editorial illustration for a CVeDI university lesson card, readable at 96px. Match the established family: bold uniform rounded dark-purple outlines, flat familiar compact forms, opaque white and pale purple interiors, subtle folded edge, no gradients or shadows. Palette exclusively purple-950 #3B0764 outlines, purple-800 #6B21A8, purple-100 #F3E8FF, white, and one vivid grass-green #21C900 accent. Square canvas, motif occupies 72%, at least 12% transparent margin around all edges. Actual transparent background. No words, letters, numbers, logos, watermarks, enclosing badge, halo or backdrop. A white interface sheet with three broad purple content blocks, overlaid by a large magnifying glass. Within the glass a small grass-green warning triangle with no text or punctuation. Represents finding usability problems.",
+      "promptFile": "progetti/slide/assets/lezione-test-usabilita/card-artwork/prompts/problemi.txt",
+      "original": "progetti/slide/assets/lezione-test-usabilita/card-artwork/originals/problemi.png",
+      "originalSha256": "60769647eaccbb694736045389e75fe44c92cdcafc0049bcbf191b471fa4f923",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-19f19270-a126-46c1-9620-201bff0fed32.png",
+      "web": "/images/test-usabilita/cards/problemi.webp",
+      "sha256": "6a176967984d083d33b27f15b6e963ecc6b78d3aa15a6d1658127ae44c322950",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ]
+      },
+      "owners": [
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-opening-objectives",
+          "lessonSlide": 3,
+          "card": "Individuare i problemi nella progettazione del prodotto o del servizio"
+        },
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-p8-1",
+          "lessonSlide": 4,
+          "card": "Correggere gli errori"
+        },
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-ispezione-e-test",
+          "lessonSlide": 41,
+          "card": "Valutazione euristica"
+        },
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-p48-1",
+          "lessonSlide": 54,
+          "card": "Individuare i problemi nella progettazione del prodotto o del servizio"
+        }
+      ],
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true,
+        "exact": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Compact purple/grass-green motif, transparent background, matching rounded outline family; reviewed at original and card size."
+      }
+    },
+    {
+      "id": "test-usabilita-migliorare",
+      "subject": "A white interface sheet, a purple pencil along one side and a broad grass-green curved arrow turning from one layout block toward a better aligned block. Represents improving a design through iteration.",
+      "prompt": "Use case: productivity-visual. Create ONE standalone decorative editorial illustration for a CVeDI university lesson card, readable at 96px. Match the established family: bold uniform rounded dark-purple outlines, flat familiar compact forms, opaque white and pale purple interiors, subtle folded edge, no gradients or shadows. Palette exclusively purple-950 #3B0764 outlines, purple-800 #6B21A8, purple-100 #F3E8FF, white, and one vivid grass-green #21C900 accent. Square canvas, motif occupies 72%, at least 12% transparent margin around all edges. Actual transparent background. No words, letters, numbers, logos, watermarks, enclosing badge, halo or backdrop. A white interface sheet, a purple pencil along one side and a broad grass-green curved arrow turning from one layout block toward a better aligned block. Represents improving a design through iteration.",
+      "promptFile": "progetti/slide/assets/lezione-test-usabilita/card-artwork/prompts/migliorare.txt",
+      "original": "progetti/slide/assets/lezione-test-usabilita/card-artwork/originals/migliorare.png",
+      "originalSha256": "e8c88a5801ad7d2a1cbe7f5179654471a1a979a8cd432250407ceddf1bf6be09",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-8314d5a3-28bd-49ef-b226-832d6bd21931.png",
+      "web": "/images/test-usabilita/cards/migliorare.webp",
+      "sha256": "19a94b2035bef562da5ce9b3428b66b8ccc5f18dd90c4b37cce3e4d6fff6d479",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ]
+      },
+      "owners": [
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-opening-objectives",
+          "lessonSlide": 3,
+          "card": "Scoprire opportunità per migliorare"
+        },
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-criterio-lavoro-stato",
+          "lessonSlide": 39,
+          "card": "Ritorno alla ricerca"
+        },
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-p41-1",
+          "lessonSlide": 42,
+          "card": "Migliorare il progetto"
+        },
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-p48-1",
+          "lessonSlide": 54,
+          "card": "Scoprire opportunità per migliorare"
+        }
+      ],
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true,
+        "exact": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Compact purple/grass-green motif, transparent background, matching rounded outline family; reviewed at original and card size."
+      }
+    },
+    {
+      "id": "test-usabilita-persone",
+      "subject": "Two compact human busts, heads without facial features, dark-purple outlines, one white and one pale purple torso, with a small grass-green speech bubble containing only two abstract purple horizontal marks. Represents understanding users and listening to experience.",
+      "prompt": "Use case: productivity-visual. Create ONE standalone decorative editorial illustration for a CVeDI university lesson card, readable at 96px. Match the established family: bold uniform rounded dark-purple outlines, flat familiar compact forms, opaque white and pale purple interiors, subtle folded edge, no gradients or shadows. Palette exclusively purple-950 #3B0764 outlines, purple-800 #6B21A8, purple-100 #F3E8FF, white, and one vivid grass-green #21C900 accent. Square canvas, motif occupies 72%, at least 12% transparent margin around all edges. Actual transparent background. No words, letters, numbers, logos, watermarks, enclosing badge, halo or backdrop. Two compact human busts, heads without facial features, dark-purple outlines, one white and one pale purple torso, with a small grass-green speech bubble containing only two abstract purple horizontal marks. Represents understanding users and listening to experience.",
+      "promptFile": "progetti/slide/assets/lezione-test-usabilita/card-artwork/prompts/persone.txt",
+      "original": "progetti/slide/assets/lezione-test-usabilita/card-artwork/originals/persone.png",
+      "originalSha256": "d80ef0c648423da43807a9a916726df999d6df0109ac2c7f18928b6b276e9ffa",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-5730fde5-8379-4c8f-9841-60faae5f6a7e.png",
+      "web": "/images/test-usabilita/cards/persone.webp",
+      "sha256": "7486184887cdb7d3d3e007db763e90a58eafd720463c38b96b5df8092927fb92",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ]
+      },
+      "owners": [
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-opening-objectives",
+          "lessonSlide": 3,
+          "card": "Conoscere il comportamento e le preferenze dell’utente target"
+        },
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-ispezione-e-test",
+          "lessonSlide": 41,
+          "card": "Test con utenti"
+        },
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-p41-1",
+          "lessonSlide": 42,
+          "card": "Condurre la sessione"
+        },
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-p48-1",
+          "lessonSlide": 54,
+          "card": "Conoscere il comportamento e le preferenze dell’utente target"
+        },
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-preparazione-consenso",
+          "lessonSlide": 79,
+          "card": "Informare la persona"
+        }
+      ],
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true,
+        "exact": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Compact purple/grass-green motif, transparent background, matching rounded outline family; reviewed at original and card size."
+      }
+    },
+    {
+      "id": "test-usabilita-invio",
+      "subject": "One white envelope with dark-purple folded flap, a small blank pale-purple sheet inside, and one grass-green arrow pointing outward to represent sending a request. Only these objects, compact centered silhouette.",
+      "prompt": "Use case: productivity-visual. Create ONE standalone decorative editorial illustration for a CVeDI university lesson card, readable at 96px. Match the established family: bold uniform rounded dark-purple outlines, flat familiar compact forms, opaque white and pale purple interiors, subtle folded edge, no gradients or shadows. Palette exclusively purple-950 #3B0764 outlines, purple-800 #6B21A8, purple-100 #F3E8FF, white, and one vivid grass-green #21C900 accent. Square canvas, motif occupies 72%, at least 12% transparent margin around all edges. Actual transparent background. No words, letters, numbers, logos, watermarks, enclosing badge, halo or backdrop. One white envelope with dark-purple folded flap, a small blank pale-purple sheet inside, and one grass-green arrow pointing outward to represent sending a request. Only these objects, compact centered silhouette.",
+      "promptFile": "progetti/slide/assets/lezione-test-usabilita/card-artwork/prompts/invio.txt",
+      "original": "progetti/slide/assets/lezione-test-usabilita/card-artwork/originals/invio.png",
+      "originalSha256": "fbde62e29c1b8128316f8a1eebcec7e42a51ba253d3deafa889e78b6147c1a38",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-9ba8d387-1ea5-4850-bca1-927374e9680b.png",
+      "web": "/images/test-usabilita/cards/invio.webp",
+      "sha256": "11e64a5a2f8806acfead95068642c6485d98ee0cb2d35d1f3993c225428cbbb9",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ]
+      },
+      "owners": [
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-p8-1",
+          "lessonSlide": 4,
+          "card": "Prevedere le conseguenze"
+        },
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-criterio-conclusione",
+          "lessonSlide": 38,
+          "card": "Invio"
+        },
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-criteri-successo",
+          "lessonSlide": 89,
+          "card": "Criterio di successo"
+        }
+      ],
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true,
+        "exact": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Compact purple/grass-green motif, transparent background, matching rounded outline family; reviewed at original and card size."
+      }
+    },
+    {
+      "id": "test-usabilita-attesa",
+      "subject": "One simple round white clock with thick dark-purple outline, purple hands and a grass-green partial progress arc around one side. Represents a request waiting for a response. No digits or tick text.",
+      "prompt": "Use case: productivity-visual. Create ONE standalone decorative editorial illustration for a CVeDI university lesson card, readable at 96px. Match the established family: bold uniform rounded dark-purple outlines, flat familiar compact forms, opaque white and pale purple interiors, subtle folded edge, no gradients or shadows. Palette exclusively purple-950 #3B0764 outlines, purple-800 #6B21A8, purple-100 #F3E8FF, white, and one vivid grass-green #21C900 accent. Square canvas, motif occupies 72%, at least 12% transparent margin around all edges. Actual transparent background. No words, letters, numbers, logos, watermarks, enclosing badge, halo or backdrop. One simple round white clock with thick dark-purple outline, purple hands and a grass-green partial progress arc around one side. Represents a request waiting for a response. No digits or tick text.",
+      "promptFile": "progetti/slide/assets/lezione-test-usabilita/card-artwork/prompts/attesa.txt",
+      "original": "progetti/slide/assets/lezione-test-usabilita/card-artwork/originals/attesa.png",
+      "originalSha256": "f1517934c513bbc8140ab4b52143de9bd6185dce0af81135ace8d5501c55d313",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-7abf8a23-c690-4551-b6db-5fdcb331b270.png",
+      "web": "/images/test-usabilita/cards/attesa.webp",
+      "sha256": "37ff8faa0b22abe97dde635dd1232dfd14a03c4fc2bca473a22caa6c3f0cf631",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ]
+      },
+      "owners": [
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-criterio-conclusione",
+          "lessonSlide": 38,
+          "card": "Attesa"
+        },
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-criterio-lavoro-stato",
+          "lessonSlide": 39,
+          "card": "Interruzione"
+        }
+      ],
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true,
+        "exact": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Compact purple/grass-green motif, transparent background, matching rounded outline family; reviewed at original and card size."
+      }
+    },
+    {
+      "id": "test-usabilita-conferma",
+      "subject": "One compact white calendar sheet with two purple binding tabs, simple pale-purple squares and a large grass-green check mark in the foreground. Represents confirmed completion.",
+      "prompt": "Use case: productivity-visual. Create ONE standalone decorative editorial illustration for a CVeDI university lesson card, readable at 96px. Match the established family: bold uniform rounded dark-purple outlines, flat familiar compact forms, opaque white and pale purple interiors, subtle folded edge, no gradients or shadows. Palette exclusively purple-950 #3B0764 outlines, purple-800 #6B21A8, purple-100 #F3E8FF, white, and one vivid grass-green #21C900 accent. Square canvas, motif occupies 72%, at least 12% transparent margin around all edges. Actual transparent background. No words, letters, numbers, logos, watermarks, enclosing badge, halo or backdrop. One compact white calendar sheet with two purple binding tabs, simple pale-purple squares and a large grass-green check mark in the foreground. Represents confirmed completion.",
+      "promptFile": "progetti/slide/assets/lezione-test-usabilita/card-artwork/prompts/conferma.txt",
+      "original": "progetti/slide/assets/lezione-test-usabilita/card-artwork/originals/conferma.png",
+      "originalSha256": "a32615e2e88d0d565e97e63a3c463895efe7305652135896c824a31ed368cbb3",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-cc409a55-a8f5-4fbe-8890-8ca3195019d5.png",
+      "web": "/images/test-usabilita/cards/conferma.webp",
+      "sha256": "042e205865e6aa77adab1dd5318f9e260fec74b33212fad5307563b1909ebb36",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ]
+      },
+      "owners": [
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-criterio-conclusione",
+          "lessonSlide": 38,
+          "card": "Conferma"
+        }
+      ],
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true,
+        "exact": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Compact purple/grass-green motif, transparent background, matching rounded outline family; reviewed at original and card size."
+      }
+    },
+    {
+      "id": "test-usabilita-protezione",
+      "subject": "One white data form with three short purple lines, overlapped by a grass-green shield containing a purple lock. Represents keeping valid data, protecting previous work and consented data use. No text.",
+      "prompt": "Use case: productivity-visual. Create ONE standalone decorative editorial illustration for a CVeDI university lesson card, readable at 96px. Match the established family: bold uniform rounded dark-purple outlines, flat familiar compact forms, opaque white and pale purple interiors, subtle folded edge, no gradients or shadows. Palette exclusively purple-950 #3B0764 outlines, purple-800 #6B21A8, purple-100 #F3E8FF, white, and one vivid grass-green #21C900 accent. Square canvas, motif occupies 72%, at least 12% transparent margin around all edges. Actual transparent background. No words, letters, numbers, logos, watermarks, enclosing badge, halo or backdrop. One white data form with three short purple lines, overlapped by a grass-green shield containing a purple lock. Represents keeping valid data, protecting previous work and consented data use. No text.",
+      "promptFile": "progetti/slide/assets/lezione-test-usabilita/card-artwork/prompts/protezione.txt",
+      "original": "progetti/slide/assets/lezione-test-usabilita/card-artwork/originals/protezione.png",
+      "originalSha256": "d1568a4683c0006b2e24b4eb1ad93508eb39fbdc9aa266fe316d02b87184ea0d",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-97d23905-3dc7-4ac2-a24a-9ed127a76ac1.png",
+      "web": "/images/test-usabilita/cards/protezione.webp",
+      "sha256": "6aaaa1ac378df1419b7d0407db3b6f40321a6a35886b9fa99e6b96dfeb545b99",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ]
+      },
+      "owners": [
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-criterio-lavoro-stato",
+          "lessonSlide": 39,
+          "card": "Errore nel modulo"
+        },
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-criterio-carico-operativo",
+          "lessonSlide": 40,
+          "card": "Reinserimenti"
+        },
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-preparazione-consenso",
+          "lessonSlide": 79,
+          "card": "Concordare l’uso dei dati"
+        }
+      ],
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true,
+        "exact": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Compact purple/grass-green motif, transparent background, matching rounded outline family; reviewed at original and card size."
+      }
+    },
+    {
+      "id": "test-usabilita-confronti",
+      "subject": "Two small white interface sheets side by side with broad purple content blocks, connected by one grass-green double-headed horizontal arrow. Represents comparing choices without relying on memory. No pencil.",
+      "prompt": "Use case: productivity-visual. Create ONE standalone decorative editorial illustration for a CVeDI university lesson card, readable at 96px. Match the established family: bold uniform rounded dark-purple outlines, flat familiar compact forms, opaque white and pale purple interiors, subtle folded edge, no gradients or shadows. Palette exclusively purple-950 #3B0764 outlines, purple-800 #6B21A8, purple-100 #F3E8FF, white, and one vivid grass-green #21C900 accent. Square canvas, motif occupies 72%, at least 12% transparent margin around all edges. Actual transparent background. No words, letters, numbers, logos, watermarks, enclosing badge, halo or backdrop. Two small white interface sheets side by side with broad purple content blocks, connected by one grass-green double-headed horizontal arrow. Represents comparing choices without relying on memory. No pencil.",
+      "promptFile": "progetti/slide/assets/lezione-test-usabilita/card-artwork/prompts/confronti.txt",
+      "original": "progetti/slide/assets/lezione-test-usabilita/card-artwork/originals/confronti.png",
+      "originalSha256": "5547cd90aea352340e23fd06d259b112c20b44b558b5031d29a894d57d0a0e97",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-7ecddb05-a010-4761-8132-f803b95c70e2.png",
+      "web": "/images/test-usabilita/cards/confronti.webp",
+      "sha256": "0ba5ce7a78faac616a947b68ba2cb096b60f49cc85538344bbd50228f6667e0b",
+      "dimensions": [
+        1262,
+        1246
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ]
+      },
+      "owners": [
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-criterio-carico-operativo",
+          "lessonSlide": 40,
+          "card": "Confronti"
+        }
+      ],
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true,
+        "exact": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Compact purple/grass-green motif, transparent background, matching rounded outline family; reviewed at original and card size."
+      }
+    },
+    {
+      "id": "test-usabilita-compito",
+      "subject": "One white clipboard with three purple horizontal task lines and three small square checkboxes, one marked with a grass-green check, plus a short broad purple path arrow at its side. Represents a realistic task and observing its outcome.",
+      "prompt": "Use case: productivity-visual. Create ONE standalone decorative editorial illustration for a CVeDI university lesson card, readable at 96px. Match the established family: bold uniform rounded dark-purple outlines, flat familiar compact forms, opaque white and pale purple interiors, subtle folded edge, no gradients or shadows. Palette exclusively purple-950 #3B0764 outlines, purple-800 #6B21A8, purple-100 #F3E8FF, white, and one vivid grass-green #21C900 accent. Square canvas, motif occupies 72%, at least 12% transparent margin around all edges. Actual transparent background. No words, letters, numbers, logos, watermarks, enclosing badge, halo or backdrop. One white clipboard with three purple horizontal task lines and three small square checkboxes, one marked with a grass-green check, plus a short broad purple path arrow at its side. Represents a realistic task and observing its outcome.",
+      "promptFile": "progetti/slide/assets/lezione-test-usabilita/card-artwork/prompts/compito.txt",
+      "original": "progetti/slide/assets/lezione-test-usabilita/card-artwork/originals/compito.png",
+      "originalSha256": "348cc57476094f044cebc81abe1960da1d1214a08ee378ddb497b6d3f3076f50",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a19da5-c263-7201-b9e5-130a9273b600/exec-12e2fe38-755a-4243-8155-a6192a89762a.png",
+      "web": "/images/test-usabilita/cards/compito.webp",
+      "sha256": "0dd99a68856d5ff9b6552f825b217172a4ca11a04fc810bf4ed83585bf70ba01",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ]
+      },
+      "owners": [
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-p8-1",
+          "lessonSlide": 4,
+          "card": "Riconoscere le azioni"
+        },
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-criterio-carico-operativo",
+          "lessonSlide": 40,
+          "card": "Passaggi"
+        },
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-p41-1",
+          "lessonSlide": 42,
+          "card": "Scegliere la situazione"
+        },
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-preparazione-consenso",
+          "lessonSlide": 79,
+          "card": "Provare il percorso"
+        },
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-criteri-successo",
+          "lessonSlide": 89,
+          "card": "Compito"
+        },
+        {
+          "lesson": "test-usabilita",
+          "slideAlias": "test-usabilita-criteri-successo",
+          "lessonSlide": 89,
+          "card": "Esito osservato"
+        }
+      ],
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true,
+        "exact": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Compact purple/grass-green motif, transparent background, matching rounded outline family; reviewed at original and card size."
+      }
+    }
+  ]
+}

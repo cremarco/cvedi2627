@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "lesson": "test-usabilita",
+  "verifiedOn": "2026-11-02",
+  "scope": "Copione richiesto per le 110 slide di contenuto; la slide finale delle fonti è esclusa, con originali separati e pause coerenti con le lezioni 09–10. Nessuna modifica a testi visibili, ordine, durata o attribuzioni; nessuna registrazione.",
+  "localReferences": [
+    "progetti/slide/assets/booklet/lezione-griglie/speaker-notes-original.json",
+    "progetti/slide/assets/booklet/lezione-composizione/speaker-notes-original.json",
+    "progetti/slide/assets/lezione-test-usabilita/fonte-originale.json",
+    "progetti/slide/assets/lezione-test-usabilita/integrazioni-criteri.json",
+    "progetti/slide/assets/lezione-test-usabilita/integrazioni-test.json",
+    "progetti/slide/assets/lezione-test-usabilita/ricostruite/manifest.json",
+    "progetti/slide/data/ux-service-prototype.json"
+  ],
+  "sources": [
+    {
+      "url": "https://jnd.org/affordances-and-design/",
+      "author": "Donald Norman",
+      "title": "Affordances and Design",
+      "slides": [
+        11,
+        12,
+        13,
+        19,
+        20
+      ],
+      "role": "Distingue possibilità di azione, percezione e convenzioni visive; il copione chiarisce le semplificazioni della trascrizione."
+    },
+    {
+      "url": "https://jnd.org/signifiers-not-affordances/",
+      "author": "Donald Norman",
+      "title": "Signifiers, not affordances",
+      "slides": [
+        10,
+        11,
+        13,
+        14
+      ],
+      "role": "Contestualizza la terminologia dei significanti come precisazione successiva, senza attribuire tutta la terminologia al libro del 1988."
+    },
+    {
+      "url": "https://www.nngroup.com/articles/response-times-3-important-limits/",
+      "author": "Jakob Nielsen",
+      "title": "Response Times: The 3 Important Limits",
+      "slides": [
+        21,
+        22,
+        23
+      ],
+      "role": "La soglia di 0,1 secondi è un riferimento percettivo, non un effetto certo di confusione; distingue riscontro e completamento."
+    },
+    {
+      "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/",
+      "author": "Jakob Nielsen",
+      "title": "Usability 101: Introduction to Usability",
+      "slides": [
+        6
+      ],
+      "role": "Cinque componenti; la memorabilità richiede ritorno dopo un periodo di non utilizzo."
+    },
+    {
+      "url": "https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/",
+      "author": "Jakob Nielsen",
+      "title": "Why You Only Need to Test with 5 Users",
+      "slides": [
+        50,
+        56,
+        57,
+        70,
+        73,
+        74,
+        75
+      ],
+      "role": "Piccoli cicli qualitativi e iterazione; il numero tre resta attribuito al modello pratico importato, senza universalizzarlo né usarlo per inferenza quantitativa."
+    },
+    {
+      "url": "https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/",
+      "author": "Jakob Nielsen",
+      "title": "Thinking Aloud: The #1 Usability Tool",
+      "slides": [
+        63,
+        68,
+        94,
+        95
+      ],
+      "role": "Pensiero ad alta voce, neutralità e limiti della situazione di prova."
+    },
+    {
+      "url": "https://www.nngroup.com/articles/usability-testing-101/",
+      "author": "Nielsen Norman Group",
+      "title": "Usability (User) Testing 101",
+      "slides": [
+        41,
+        43,
+        44,
+        45,
+        60,
+        61,
+        62,
+        64,
+        65,
+        66,
+        67,
+        109,
+        110
+      ],
+      "role": "Componenti, attività realistiche, conduzione e modalità; le definizioni complete e i casi provengono dai materiali locali."
+    }
+  ],
+  "editorialClarifications": [
+    {
+      "slides": [
+        10,
+        11,
+        13,
+        14,
+        16,
+        19,
+        20,
+        21
+      ],
+      "note": "Precisa la cronologia della terminologia; distingue vincoli e segnali, mapping e direzione convenzionale, feedback e soglia percettiva."
+    },
+    {
+      "slides": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "note": "Il confronto organizzativo e le cifre sono storici, non prezzi correnti o una tassonomia universale dei test."
+    },
+    {
+      "slides": [
+        55,
+        56,
+        57,
+        70,
+        71,
+        73,
+        74,
+        75,
+        76,
+        77
+      ],
+      "note": "Le formule enfatiche non sono effetti misurati; frequenza e numerosità dipendono da domanda, gruppi e compiti; ricerca qualitativa leggera resta metodica."
+    },
+    {
+      "slides": [
+        79,
+        87,
+        90,
+        91,
+        92,
+        94,
+        95,
+        96
+      ],
+      "note": "Dati fittizi, limiti del prototipo, partecipazione informata, aiuti documentati; domande di sicurezza considerate solo nel contesto storico, senza suggerimenti di autenticazione."
+    },
+    {
+      "slides": [
+        82,
+        89,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108
+      ],
+      "note": "Distingue completamento e comprensione, gravità e priorità, accordo degli osservatori e frequenza; richieste e recuperi sono analizzati, non scartati automaticamente."
+    },
+    {
+      "slides": [
+        110
+      ],
+      "note": "Il servizio commerciale e i tempi citati nelle slide sono riferimenti storici, senza raccomandazione o promessa attuale."
+    }
+  ],
+  "excludedAliases": [
+    "test-usabilita-fonti-criteri"
+  ],
+  "visualRevisions": [
+    {
+      "alias": "test-usabilita-p23-1",
+      "lessonSlide": 20,
+      "reason": "Nuovo esempio digitale con minimo 1, coerente con il vincolo fisico. Rigenerazione audio e sottotitoli autorizzata esplicitamente dall’utente.",
+      "previousScript": "progetti/slide/assets/lezione-test-usabilita/ricostruite/revisioni/esempio-23-v1-script.json"
+    },
+    {
+      "alias": "test-usabilita-p38-1",
+      "lessonSlide": 35,
+      "reason": "Screenshot reale Google al posto della ricostruzione. Copione aggiornato; rigenerazione del solo audio 35 e riallineamento locale dei sottotitoli autorizzati esplicitamente dall’utente. Impostazioni vocali precedenti conservate.",
+      "previousScript": "progetti/slide/assets/lezione-test-usabilita/ricostruite/revisioni/figura-38-v1-script.json",
+      "visualSource": "progetti/slide/assets/lezione-test-usabilita/screenshot-reali/manifest.json"
+    }
+  ]
+}

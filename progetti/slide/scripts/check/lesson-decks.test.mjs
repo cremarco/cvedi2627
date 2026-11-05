@@ -13,14 +13,19 @@ const { load, injectPreparserExtensionLoader } = await import(require.resolve('@
 const slideRoot = path.join(root, 'progetti/slide')
 const options = { roots: [slideRoot], userRoot: slideRoot, allowedRoots: [root] }
 
-test('the first exercise is published while the remaining exercises stay local', async () => {
+test('the first two exercises are published while the remaining exercises stay local', async () => {
   const curriculum = JSON.parse(await readFile(path.join(root, 'progetti/slide/data/ux-curriculum.json'), 'utf8'))
   const exercises = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/esercitazioni/manifest.json'), 'utf8'))
-  assert.deepEqual(lessonDecks.filter(deck => deck.localOnly).map(deck => deck.id), exercises.exercises.slice(2).map(exercise => exercise.id))
+  assert.deepEqual(lessonDecks.filter(deck => deck.localOnly && deck.id.startsWith('esercitazione-')).map(deck => deck.id), exercises.exercises.slice(2).map(exercise => exercise.id))
   const gridsIndex = lessonDecks.findIndex(deck => deck.id === 'griglie-layout')
   assert.equal(lessonDecks[gridsIndex - 1].id, 'tipografia-griglie', 'grids are a separate set immediately after typography')
   assert.equal(lessonDecks[gridsIndex + 1].id, 'composizione-gerarchia', 'composition follows grids')
-  assert.equal(lessonDecks[gridsIndex + 2].id, exercises.exercises[0].id, 'exercises follow the last active theory lesson')
+  assert.equal(lessonDecks[gridsIndex + 3].id, 'test-usabilita', 'the historical testing import follows lesson 11')
+  assert.equal(lessonDecks[gridsIndex + 3].localOnly, undefined, 'lesson 12 is published')
+  assert.equal(lessonDecks[gridsIndex + 3].audioLocalOnly, true, 'lesson 12 narration stays local')
+  assert.equal(lessonDecks[gridsIndex + 4].id, exercises.exercises[0].id, 'exercises follow the last active theory lesson')
+  assert.equal(lessonDecks[gridsIndex + 2].id, 'processo-ux-ui', 'lesson 11 follows composition')
+  assert.equal(lessonDecks[gridsIndex + 2].localOnly, undefined, 'lesson 11 is published')
   assert.equal(lessonDecks[gridsIndex + 1].file, 'lezioni/10-composizione-gerarchia.md')
   assert.equal(lessonDecks[gridsIndex + 1].localOnly, undefined, 'composition is published')
   assert.equal(lessonDecks[gridsIndex].file, 'lezioni/07-griglie-layout.md', 'grids have their own source file')
@@ -52,6 +57,7 @@ test('each presentation imports only its own lesson and preserves every source s
         const sources = Object.keys(selected.markdownFiles).map(f => path.relative(slideRoot, f)).sort()
         assert.deepEqual(sources, ['slides.md', ...(deck.file ? [deck.file] : [])].sort(), `${deck.id}: other source files are never imported`)
         assert.equal(selected.headmatter.presenter, true)
+        assert.equal(selected.headmatter.title, deck.id === 'apertura' ? full.headmatter.title : `${full.headmatter.title} · ${deck.title}`, `${deck.id}: native synchronization has its own channel`)
         assert.equal(selected.headmatter.preloadImages, false, `${deck.id}: no global image preload`)
         total += selected.slides.length
       }

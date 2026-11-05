@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "scenario": "Viola cerca una visita di fisioterapia a domicilio dopo le 20, verifica il totale e distingue richiesta e conferma.",
+  "serviceData": "progetti/slide/data/ux-service-prototype.json",
+  "insertionAfter": "wireframe-documento",
+  "levels": [
+    { "id": "mano", "title": "Bozzetti a mano", "description": "Tratto a penna nero, lievemente irregolare, su carta bianca piana. Testi scritti a mano in stampatello semplice e molto leggibile. Solo bianco e nero, segni essenziali, rettangoli abbozzati. Nessuna ombra, fotografia, colore, righello o mano visibile." },
+    { "id": "media", "title": "Media fedeltà", "description": "Wireframe digitale ordinato in scala di grigi. Stesse posizioni, dimensioni, contenuti e ordine dei bozzetti di riferimento. Linee rette, campi e pulsanti definiti, tipografia sans serif pulita e grande, gerarchia precisa. Niente colori di marca, fotografie o decorazioni." },
+    { "id": "alta", "title": "Alta fedeltà", "description": "Mockup UI rifinito e plausibile del sito, con esattamente le stesse posizioni, dimensioni, contenuti e ordine del wireframe di riferimento. Nunito Sans o sans serif vicina, superfici bianche e grigio chiarissimo, testo #0f172a, primario violetto #5B21B6 per azioni e titoli. Accento Cedro #D7EF66 usato con misura; soltanto lo stato confermato riceve questo accento, mentre attesa rimane neutra. Interfaccia accessibile, contrastata, sobria, senza gradienti, ombre decorative, fotografie o marchi inventati." }
+  ],
+  "pairs": [
+    {
+      "id": "ricerca-risultati",
+      "title": "Ricerca e risultati",
+      "caption": "Viola indica domicilio, giorno e fascia serale; confronta le proposte compatibili con il costo totale già visibile.",
+      "screens": [
+        { "id": "ricerca", "title": "Cerca una visita", "lines": ["Domicilio", "Via Esempio 12, Milano", "Giorno", "17 novembre 2026", "Fascia oraria", "Dopo le 20"], "primary": "Cerca disponibilità" },
+        { "id": "risultati", "title": "Risultati", "lines": ["17 novembre 2026 · Dopo le 20", "Giulia Riva", "A domicilio · 45 minuti", "Orari: 20:30 · 21:15", "Totale 60 €", "Spostamento incluso"], "primary": "Vedi visita" }
+      ]
+    },
+    {
+      "id": "dettaglio-riepilogo",
+      "title": "Dettaglio e riepilogo",
+      "caption": "Professionista, domicilio, data, durata e totale restano leggibili prima dell’invio. La visita richiede l’accettazione del professionista.",
+      "screens": [
+        { "id": "dettaglio", "title": "Visita a domicilio", "lines": ["Giulia Riva", "17 novembre 2026 · 20:30", "45 minuti", "Via Esempio 12, Milano", "Totale 60 €", "Spostamento incluso"], "primary": "Continua al riepilogo" },
+        { "id": "riepilogo", "title": "Riepilogo", "lines": ["Giulia Riva", "17 novembre 2026 · 20:30", "Via Esempio 12, Milano", "45 minuti · Totale 60 €", "Spostamento incluso", "Conferma dopo l’accettazione"], "primary": "Invia richiesta", "secondary": "Modifica i dati" }
+      ]
+    },
+    {
+      "id": "attesa-conferma",
+      "title": "Richiesta e conferma",
+      "caption": "L’invio apre una richiesta in attesa. Solo l’accettazione di Giulia conferma la visita, che può poi essere modificata o annullata.",
+      "screens": [
+        { "id": "attesa", "title": "Richiesta inviata", "lines": ["In attesa", "RIC-017", "Giulia Riva", "17 novembre 2026 · 20:30", "Totale 60 €", "La visita non è ancora confermata."], "primary": "Vai a Le mie visite" },
+        { "id": "conferma", "title": "Visita confermata", "lines": ["Accettata da Giulia Riva", "17 novembre 2026 · 20:30", "45 minuti · Totale 60 €", "Via Esempio 12, Milano", "Spostamento incluso"], "primary": "Modifica visita", "secondary": "Annulla visita" }
+      ]
+    }
+  ]
+}

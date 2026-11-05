@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "lesson": "processo-ux-ui",
+  "sourceKey": "smart-framework",
+  "variant": ["Specific", "Measurable", "Actionable", "Realistic", "Time-based"],
+  "status": "Proposta di primo ciclo da concordare: cinque partecipanti e due settimane sono scelte di pianificazione, non risultati osservati o soglie universali.",
+  "criteria": [
+    {
+      "letter": "S",
+      "term": "Specific",
+      "label": "Specifico",
+      "code": "smart-specifico",
+      "lead": "Precisiamo chi deve ottenere quale risultato e in quali condizioni.",
+      "rows": [
+        ["Richiesta vaga", "Carlo e Giovanni chiedono di rendere più semplice la prenotazione."],
+        ["Persona e contesto", "Viola cerca una visita a domicilio dopo le 20 nelle zone Centro e Nord."],
+        ["Risultato osservabile", "Trovare una visita compatibile e inviare la richiesta senza aiuto, riconoscendo costo totale e stato."]
+      ],
+      "note": "L’invio della richiesta è distinto dalla conferma: il professionista deve ancora accettare.",
+      "caption": "La richiesta di Carlo e Giovanni diventa un compito preciso per Viola.",
+      "alt": "S di SMART: dalla richiesta generica di Carlo e Giovanni a un compito per Viola, con domicilio, fascia dopo le 20 e invio della richiesta distinto dalla conferma."
+    },
+    {
+      "letter": "M",
+      "term": "Measurable",
+      "label": "Misurabile",
+      "code": "smart-misurabile",
+      "lead": "Decidiamo prima della prova che cosa contare e come riconoscere ciascun esito.",
+      "rows": [
+        ["Completamento", "La persona trova una visita compatibile e invia la richiesta? Annotare sì/no, ostacoli e aiuti."],
+        ["Costo compreso", "La persona riconosce il totale di 60 €, spostamento incluso? Chiederle di spiegarlo."],
+        ["Stato compreso", "La persona distingue richiesta inviata, attesa e visita confermata? Registrare la sua spiegazione."]
+      ],
+      "note": "Carlo e Giovanni propongono una prima prova con cinque persone con bisogni come Viola: conteggi su cinque ed episodi osservati formano la misura iniziale.",
+      "caption": "Completamento, costo e stato sono osservati con lo stesso compito e le stesse condizioni.",
+      "alt": "M di SMART: tre esiti da registrare nel percorso di Viola, senza risultati già attribuiti ai cinque partecipanti previsti: completamento senza aiuto, comprensione dei 60 euro e distinzione fra attesa e conferma."
+    },
+    {
+      "letter": "A",
+      "term": "Actionable",
+      "label": "Eseguibile",
+      "code": "smart-eseguibile",
+      "lead": "Colleghiamo l’obiettivo ad azioni concrete e a chi può realizzarle.",
+      "rows": [
+        ["Carlo e Giovanni", "Concordano zone coperte, fascia serale e responsabilità di aggiornamento degli orari."],
+        ["Progettazione", "Mostra copertura e totale prima dell’invio; distingue richiesta, attesa e conferma."],
+        ["Professionista", "Aggiorna gli orari disponibili e accetta la richiesta di visita a domicilio."]
+      ],
+      "note": "Per Viola possiamo rendere chiari scelta e invio. L’interfaccia da sola non crea disponibilità serale né garantisce l’accettazione.",
+      "caption": "Ogni intervento sul percorso di Viola ha un’azione e un responsabile.",
+      "alt": "A di SMART nella variante Actionable: Carlo e Giovanni concordano copertura e responsabilità, la progettazione chiarisce costo e stato, il professionista aggiorna gli orari e accetta le richieste di Viola."
+    },
+    {
+      "letter": "R",
+      "term": "Realistic",
+      "label": "Realistico",
+      "code": "smart-realistico",
+      "lead": "Confrontiamo la promessa con risorse, disponibilità e limiti del servizio.",
+      "panels": [
+        ["Promessa da ridimensionare", "Una visita confermata subito, a qualunque domicilio e a qualunque ora."],
+        ["Prima versione per Viola", "Zone Centro e Nord, dopo le 20; conferma soltanto dopo l’accettazione del professionista."]
+      ],
+      "rows": [
+        ["Risorse da concordare", "Carlo e Giovanni verificano copertura serale, referenti e disponibilità di cinque partecipanti alla prova."]
+      ],
+      "note": "Se mancano queste condizioni, rivedere perimetro o scadenza prima di promettere il risultato.",
+      "caption": "La prima versione limita la promessa alle condizioni che il servizio può sostenere.",
+      "alt": "R di SMART nella variante Realistic: la promessa di visite immediate ovunque viene confrontata con il perimetro Centro e Nord dopo le 20 per Viola; Carlo e Giovanni devono verificare risorse, copertura e partecipanti."
+    },
+    {
+      "letter": "T",
+      "term": "Time-based",
+      "label": "Definito nel tempo",
+      "code": "smart-tempo",
+      "lead": "Fissiamo una scadenza e un momento in cui riesaminare il risultato.",
+      "panels": [
+        ["Giorni 1–3", "Carlo e Giovanni concordano le condizioni del servizio e cinque partecipanti con bisogni come Viola."],
+        ["Giorni 4–10", "Osservare il compito: visita a domicilio dopo le 20, totale e riconoscimento dello stato."],
+        ["Entro il giorno 14", "Confrontare esiti ed episodi; scegliere il problema da affrontare nella revisione successiva."]
+      ],
+      "note": "Due settimane dall’avvio è la scadenza del progetto; dopo le 20 è un vincolo d’uso di Viola. La scansione è una proposta da concordare.",
+      "caption": "La scadenza del ciclo e l’orario della visita hanno ruoli diversi.",
+      "alt": "T di SMART: proposta di ciclo di due settimane per Carlo e Giovanni, con preparazione nei giorni 1–3, osservazioni nei giorni 4–10 e riesame entro il giorno 14. Il compito resta la visita di Viola dopo le 20."
+    }
+  ],
+  "summary": {
+    "code": "smart-obiettivo-completo",
+    "title": "Un obiettivo SMART per il primo ciclo",
+    "lead": "Le cinque parti precisano lo stesso obiettivo da concordare con Carlo e Giovanni.",
+    "goal": "Entro due settimane dall’avvio, provare il percorso con cinque persone che, come Viola, cercano una visita a domicilio dopo le 20 nelle zone Centro e Nord. Registrare quante inviano la richiesta senza aiuto e comprendono il totale di 60 € e la differenza fra attesa e conferma.",
+    "parts": [
+      ["S · Specifico", "Visita serale a domicilio per Viola."],
+      ["M · Misurabile", "Esiti e spiegazioni di cinque persone."],
+      ["A · Eseguibile", "Azioni e responsabilità assegnate."],
+      ["R · Realistico", "Zone e disponibilità da verificare."],
+      ["T · Nel tempo", "Riesame entro due settimane."]
+    ],
+    "caption": "La prima misura del percorso orienta l’obiettivo di miglioramento successivo.",
+    "alt": "Obiettivo SMART completo del primo ciclo di Carlo e Giovanni: entro due settimane osservare cinque persone con bisogni come Viola, registrando invio senza aiuto e comprensione di costo e stato; le cinque parti sono ricondotte al medesimo obiettivo."
+  }
+}

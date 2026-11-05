@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "name": "Viola",
+  "profile": "35 anni · lavora fino a tardi",
+  "quote": "«Posso sceglierla per casa mia? E dopo le 20?»",
+  "goal": "Ricevere una visita di fisioterapia a domicilio dopo le 20.",
+  "fields": [
+    {
+      "id": "context",
+      "title": "Contesto d’uso",
+      "text": "Cerca una visita a casa dopo il lavoro. Deve conciliare domicilio e orario."
+    },
+    {
+      "id": "needs",
+      "title": "Bisogni",
+      "text": "Conoscere zona servita, disponibilità, professionista, durata e costo totale."
+    },
+    {
+      "id": "behaviour",
+      "title": "Comportamenti",
+      "text": "Confronta le schede e torna alla lista se non riconosce copertura e orari."
+    },
+    {
+      "id": "obstacles",
+      "title": "Ostacoli",
+      "text": "Copertura poco visibile, totale ambiguo e richiesta scambiata per conferma."
+    }
+  ],
+  "openQuestion": "Come prenota oggi, quali informazioni cerca per prime e quando ha bisogno di assistenza?",
+  "source": {
+    "scenario": "progetti/slide/data/ux-service-case.json",
+    "profile": "progetti/slide/assets/slide-materials/processo-ux-ui/ricostruite/diagrammi.typ",
+    "portraitCode": "viola-realistica",
+    "replaces": "persona",
+    "status": "Profilo del caso narrativo del corso: comportamenti e ostacoli sono ipotesi di progetto da verificare con la ricerca."
+  }
+}

@@ -26,7 +26,7 @@ const rows = computed(() => calendar[props.period])
           <th scope="row">{{ row.date }}</th>
           <td>
             <span class="badge" :class="row.type === 'Annullata' ? 'badge-ghost' : 'badge-soft badge-primary'">
-              {{ row.type }}
+              {{ row.type }}<span v-if="row.delivery === 'remote'">{{ ' · Da remoto' }}</span>
             </span>
           </td>
           <td>{{ row.time }}</td>

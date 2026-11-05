@@ -1,0 +1,48 @@
+{
+  "title": "Sitemap di Passo",
+  "home": "Home · Passo",
+  "sections": [
+    {
+      "id": "servizio",
+      "title": "Il servizio",
+      "pages": [
+        "Come funziona",
+        "Zone, orari e costi"
+      ]
+    },
+    {
+      "id": "ricerca",
+      "title": "Trova una visita",
+      "pages": [
+        "Ricerca con domicilio e CAP",
+        "Risultati e profili",
+        "Dettaglio della visita",
+        "Contatti, riepilogo e invio"
+      ]
+    },
+    {
+      "id": "visite",
+      "title": "Le mie visite",
+      "pages": [
+        "Richieste sul dispositivo",
+        "Dettaglio e stato",
+        "Modifica e annullamento"
+      ]
+    },
+    {
+      "id": "assistenza",
+      "title": "Assistenza",
+      "pages": [
+        "Domande frequenti",
+        "Contatti e supporto"
+      ]
+    }
+  ],
+  "states": "Nel dettaglio: stato in attesa o confermato, modifica e annullamento.",
+  "footer": "Footer: privacy, cookie, accessibilità, condizioni e area professionista.",
+  "source": {
+    "case": "progetti/slide/data/ux-service-case.json",
+    "artifact": "IA-01",
+    "note": "Sitemap allineata al sito Passo realizzato. Le visite sono conservate sul dispositivo senza account. L’area professionista nel footer simula accettazione e rifiuto; assistenza prepara un messaggio senza inviarlo."
+  }
+}

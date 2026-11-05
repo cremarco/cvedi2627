@@ -1,7 +1,7 @@
 {
   "versione": 1,
   "aperture": "progetti/booklet/assets/aperture-imagegen-svg-v1",
-  "ambito": "Otto capitoli: le sei lezioni approvate, Griglie e layout e Composizione e gerarchia visiva. Il capitolo 08 integra le Pages Figma 3699:2475 e 2613:1113 e i materiali individuati nella ricognizione locale, su richiesta dell’utente.",
+  "ambito": "Nove capitoli: le sei lezioni approvate, Griglie e layout, Composizione e gerarchia visiva e Processo UX e UI. Il capitolo 09 segue le quattordici attività del capitolo 3 di Matteo di Pascale, con integrazioni dai materiali locali e dalle fonti primarie verificate, su richiesta dell’utente.",
   "capitoli": [
     {
       "numero": 1,
@@ -90,6 +90,16 @@
       "file": "capitoli/08-composizione-gerarchia.typ",
       "fonti": "bibliografia/08-composizione-gerarchia.yml",
       "stato": "completo"
+    },
+    {
+      "numero": 9,
+      "codice": "09",
+      "titolo": "Processo UX e UI",
+      "lezione": null,
+      "apertura_originale": 3,
+      "file": "capitoli/09-processo-ux-ui.typ",
+      "fonti": "bibliografia/09-processo-ux-ui.yml",
+      "stato": "in-revisione"
     }
   ]
 }

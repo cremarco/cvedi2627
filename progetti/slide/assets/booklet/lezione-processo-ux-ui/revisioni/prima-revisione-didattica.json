@@ -1,0 +1,1425 @@
+{
+  "version": 2,
+  "lesson": "processo-ux-ui",
+  "number": 11,
+  "title": "Processo UX e UI",
+  "palette": "violet",
+  "paletteAlias": "ux-process",
+  "localOnly": true,
+  "sourceFile": "progetti/booklet/capitoli/09-processo-ux-ui.typ",
+  "objectives": [
+    {
+      "title": "Fare le domande",
+      "text": "Collegare richiesta, bisogni e obiettivi alle informazioni da raccogliere.",
+      "icon": "domande"
+    },
+    {
+      "title": "Rappresentare il percorso",
+      "text": "Distinguere journey, flow, struttura, wireframe e prototipo.",
+      "icon": "percorsi"
+    },
+    {
+      "title": "Decidere con le prove",
+      "text": "Osservare il compito e motivare la revisione successiva.",
+      "icon": "prove"
+    }
+  ],
+  "slides": [
+    {
+      "slug": "apertura",
+      "alias": "processo-ux-ui",
+      "title": "Processo UX e UI",
+      "kind": "cover",
+      "lead": "",
+      "points": [],
+      "minutes": 0.5,
+      "step": null,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Un processo per prendere decisioni"
+    },
+    {
+      "slug": "sintesi",
+      "alias": "processo-ux-ui-sintesi",
+      "title": "Dal bisogno alla verifica",
+      "kind": "summary",
+      "lead": "Ogni attività serve a prendere una decisione.",
+      "points": [
+        "Il processo collega persone, obiettivi e scelte di progetto. Le prove permettono di rivedere ciò che avevamo dato per certo."
+      ],
+      "minutes": 1,
+      "step": null,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Un processo per prendere decisioni"
+    },
+    {
+      "slug": "obiettivi",
+      "alias": "processo-ux-ui-obiettivi",
+      "title": "Che cosa impareremo",
+      "kind": "objectives",
+      "lead": "",
+      "points": [],
+      "minutes": 1,
+      "step": null,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Un processo per prendere decisioni"
+    },
+    {
+      "slug": "ux-ui",
+      "alias": "processo-ux-ui-ux-ui",
+      "title": "Un’esperienza attraversa più schermate",
+      "kind": "text",
+      "lead": "La UX riguarda l’esperienza complessiva; la UI permette di agire e riconoscere le risposte.",
+      "points": [
+        "Una prenotazione dipende anche da disponibilità, conferma e assistenza",
+        "Testi, controlli e stati devono rendere comprensibile il servizio",
+        "Le scelte visive già studiate entrano nelle decisioni sul compito"
+      ],
+      "minutes": 1.5,
+      "step": null,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Un processo per prendere decisioni"
+    },
+    {
+      "slug": "caso",
+      "alias": "processo-ux-ui-caso",
+      "title": "Il caso di Carlo, Giovanni e Viola",
+      "kind": "text",
+      "lead": "Carlo e Giovanni vogliono un servizio che metta in contatto fisioterapisti e clienti.",
+      "points": [
+        "La prima scelta è fra sostenere un centro esistente e organizzare una rete di professionisti",
+        "Viola finisce tardi di lavorare e cerca una visita a domicilio dopo le 20",
+        "Il progetto deve rendere chiari zona coperta, orari, costo e conferma della visita"
+      ],
+      "minutes": 1.5,
+      "step": null,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Il caso dei fisioterapisti"
+    },
+    {
+      "slug": "attori-servizio",
+      "alias": "processo-ux-ui-attori-servizio",
+      "title": "Due lati dello stesso servizio",
+      "kind": "text",
+      "lead": "Viola deve trovare una visita; il professionista deve poterla offrire e confermare.",
+      "points": [
+        "Per chi prenota: compatibilità con domicilio e orario, costo comprensibile e riconoscimento dell’esito",
+        "Per chi offre la visita: zona raggiungibile, durata, agenda e gestione delle variazioni",
+        "Per chi gestisce: condizioni del servizio, assistenza e coerenza delle informazioni fra i due lati"
+      ],
+      "minutes": 1.5,
+      "step": null,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Il caso dei fisioterapisti",
+      "sourceKeys": []
+    },
+    {
+      "slug": "mappa",
+      "alias": "processo-ux-ui-mappa",
+      "title": "Quattordici attività, cinque nuclei",
+      "kind": "process-map",
+      "lead": "Seleziona un passo; usa le frecce per esplorare la mappa.",
+      "points": [],
+      "minutes": 2,
+      "step": null,
+      "figures": [
+        "processo"
+      ],
+      "references": [],
+      "sourceHeading": "Un processo per prendere decisioni"
+    },
+    {
+      "slug": "iterazione",
+      "alias": "processo-ux-ui-iterazione",
+      "title": "Una prova può cambiare la domanda",
+      "kind": "text",
+      "lead": "La sequenza si adatta al progetto e alle incertezze da affrontare.",
+      "points": [
+        "Un’intervista può mostrare che il bisogno iniziale era stato interpretato male",
+        "Una prova può richiedere di rivedere flusso, contenuti o condizioni del servizio",
+        "Per ogni revisione si conserva quale evidenza ha fatto cambiare la decisione"
+      ],
+      "minutes": 1.5,
+      "step": null,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Iterazione e responsabilità"
+    },
+    {
+      "slug": "brief",
+      "alias": "processo-ux-ui-brief",
+      "title": "01 · Intervista e brief",
+      "kind": "illustrated",
+      "lead": "Quale situazione vogliamo cambiare, per chi e con quali vincoli?",
+      "points": [
+        "Ricostruire la richiesta con committenti, professionisti, gestione delle prenotazioni e assistenza",
+        "Chiarire obiettivo, ambito, risorse, scadenze, vincoli e persone che prendono le decisioni",
+        "Restituire un brief condiviso con fatti, ipotesi, responsabilità e questioni ancora aperte"
+      ],
+      "minutes": 1.5,
+      "step": 1,
+      "figures": [
+        "illustrazione-brief"
+      ],
+      "references": [],
+      "sourceHeading": "Intervista agli stakeholder e brief"
+    },
+    {
+      "slug": "brief-documento",
+      "alias": "processo-ux-ui-brief-documento",
+      "title": "Dalla richiesta alle domande",
+      "kind": "teaching",
+      "lead": "“Serve un’app” apre il confronto: bisogni e condizioni vanno ancora chiariti.",
+      "points": [],
+      "minutes": 1.5,
+      "step": 1,
+      "figures": [
+        "brief"
+      ],
+      "references": [],
+      "sourceHeading": "Intervista agli stakeholder e brief"
+    },
+    {
+      "slug": "responsabilita",
+      "alias": "processo-ux-ui-responsabilita",
+      "title": "Vincoli e responsabilità",
+      "kind": "teaching",
+      "lead": "Una scelta dell’interfaccia può dipendere da una decisione organizzativa ancora aperta.",
+      "points": [],
+      "minutes": 1.5,
+      "step": 1,
+      "figures": [
+        "responsabilita"
+      ],
+      "references": [],
+      "sourceHeading": "Intervista agli stakeholder e brief",
+      "sourceKeys": []
+    },
+    {
+      "slug": "business",
+      "alias": "processo-ux-ui-business",
+      "title": "02 · Obiettivi di business",
+      "kind": "text",
+      "lead": "Quale cambiamento conta per l’organizzazione?",
+      "points": [
+        "Il centro può voler ridurre le chiamate; la piattaforma deve anche coordinare domanda e disponibilità",
+        "La consegna descrive ciò che si produce; il risultato descrive ciò che dovrebbe cambiare per il servizio",
+        "Concordare cosa misurare, da quale situazione si parte e quando riesaminare il risultato"
+      ],
+      "minutes": 1.5,
+      "step": 2,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Analisi degli obiettivi di business"
+    },
+    {
+      "slug": "obiettivo",
+      "alias": "processo-ux-ui-obiettivo",
+      "title": "Rendere osservabile un obiettivo",
+      "kind": "teaching",
+      "lead": "Specifico, misurabile, raggiungibile, pertinente e nel tempo: SMART aiuta a precisare il risultato.",
+      "points": [],
+      "minutes": 1.5,
+      "step": 2,
+      "figures": [
+        "obiettivi"
+      ],
+      "references": [],
+      "sourceHeading": "Analisi degli obiettivi di business"
+    },
+    {
+      "slug": "misure",
+      "alias": "processo-ux-ui-misure",
+      "title": "Misura, contesto e confronto",
+      "kind": "text",
+      "lead": "Una misura è utile quando sappiamo quale domanda permette di affrontare.",
+      "points": [
+        "Definire il risultato: per esempio, arrivare a una conferma comprensibile senza assistenza",
+        "Annotare compito, versione e condizioni; confrontare situazioni abbastanza simili",
+        "Associare completamento, errori e richieste d’aiuto alle osservazioni che aiutano a spiegarli"
+      ],
+      "minutes": 1.5,
+      "step": 2,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Analisi degli obiettivi di business",
+      "sourceKeys": [
+        "service-metrics"
+      ]
+    },
+    {
+      "slug": "competitor",
+      "alias": "processo-ux-ui-competitor",
+      "title": "03 · Analisi dei competitor",
+      "kind": "text",
+      "lead": "Quali alternative affrontano già lo stesso bisogno?",
+      "points": [
+        "Confrontare piattaforme, siti degli studi e prenotazione telefonica",
+        "Seguire lo stesso compito e annotare contenuti, vincoli e passaggi",
+        "Usare il confronto per formulare ipotesi da verificare nel proprio contesto"
+      ],
+      "minutes": 1.5,
+      "step": 3,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Analisi dei competitor"
+    },
+    {
+      "slug": "benchmark",
+      "alias": "processo-ux-ui-benchmark",
+      "title": "Confrontare il servizio oltre la grafica",
+      "kind": "teaching",
+      "lead": "Per Viola contano orario, domicilio e costo. Le celle sono domande, non risultati di una ricerca.",
+      "points": [],
+      "minutes": 1.5,
+      "step": 3,
+      "figures": [
+        "confronto-alternative"
+      ],
+      "references": [],
+      "sourceHeading": "Analisi dei competitor"
+    },
+    {
+      "slug": "opportunita",
+      "alias": "processo-ux-ui-opportunita",
+      "title": "Dal confronto a una scelta",
+      "kind": "text",
+      "lead": "Il benchmark produce domande e criteri da discutere nel proprio progetto.",
+      "points": [
+        "Annotazione: un servizio mostra la copertura solo dopo l’inserimento dei dati",
+        "Opportunità ipotizzata: anticipare la zona servita per evitare una scelta incompatibile",
+        "Verifica: osservare se le persone riconoscono prima che il servizio possa raggiungerle"
+      ],
+      "minutes": 1.5,
+      "step": 3,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Analisi dei competitor",
+      "sourceKeys": []
+    },
+    {
+      "slug": "problema",
+      "alias": "processo-ux-ui-problema",
+      "title": "04 · Definizione del problema",
+      "kind": "text",
+      "lead": "Chi incontra quale ostacolo, in quale situazione e con quali conseguenze?",
+      "points": [
+        "Persona: chi lavora fino a tardi; contesto: ricerca di una visita serale a domicilio",
+        "Ostacolo ipotizzato: non capire quali disponibilità siano compatibili con orario e indirizzo",
+        "Conseguenza: ricominciare la ricerca, chiedere assistenza o rinunciare alla prenotazione"
+      ],
+      "minutes": 1.5,
+      "step": 4,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Definizione dei problemi"
+    },
+    {
+      "slug": "ipotesi",
+      "alias": "processo-ux-ui-ipotesi",
+      "title": "Formulare un’ipotesi da provare",
+      "kind": "teaching",
+      "lead": "Collegare problema, proposta ed effetto atteso rende possibile rivedere la scelta.",
+      "points": [],
+      "minutes": 1.5,
+      "step": 4,
+      "figures": [
+        "ipotesi"
+      ],
+      "references": [],
+      "sourceHeading": "Definizione dei problemi",
+      "sourceKeys": []
+    },
+    {
+      "slug": "ricerca",
+      "alias": "processo-ux-ui-ricerca",
+      "title": "05 · User research",
+      "kind": "illustrated",
+      "lead": "Quale informazione potrebbe cambiare una decisione?",
+      "points": [
+        "Intervista: ricostruire episodi, ragioni e difficoltà",
+        "Osservazione: vedere il comportamento nelle condizioni pertinenti",
+        "Questionario: raccogliere risposte comparabili a domande definite"
+      ],
+      "minutes": 1.5,
+      "step": 5,
+      "figures": [
+        "illustrazione-ricerca"
+      ],
+      "references": [],
+      "sourceHeading": "User research"
+    },
+    {
+      "slug": "piano-ricerca",
+      "alias": "processo-ux-ui-piano-ricerca",
+      "title": "Preparare un piano di ricerca",
+      "kind": "text",
+      "lead": "Il piano chiarisce che cosa serve imparare e come la ricerca influirà sul progetto.",
+      "points": [
+        "Domanda: come vengono cercate oggi le visite compatibili con la fine della giornata lavorativa?",
+        "Partecipanti e metodo: persone con esperienze pertinenti; intervista su episodi e materiali reali",
+        "Risultato: una sintesi di bisogni e ostacoli da usare per rivedere il problema e i requisiti"
+      ],
+      "minutes": 1.5,
+      "step": 5,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "User research",
+      "sourceKeys": [
+        "research-plan"
+      ]
+    },
+    {
+      "slug": "domande",
+      "alias": "processo-ux-ui-domande",
+      "title": "Domande che fanno raccontare",
+      "kind": "text",
+      "lead": "Partire da un’esperienza recente permette di approfondire ciò che è successo.",
+      "points": [
+        "“Come hai cercato l’ultima visita? Quali alternative hai provato?”",
+        "“Quale informazione ti mancava quando hai scelto?”",
+        "Preparare partecipazione accessibile, informazione sull’uso dei dati e traccia neutra"
+      ],
+      "minutes": 1.5,
+      "step": 5,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "User research"
+    },
+    {
+      "slug": "partecipanti",
+      "alias": "processo-ux-ui-partecipanti",
+      "title": "Coinvolgere persone pertinenti",
+      "kind": "text",
+      "lead": "Le condizioni d’uso aiutano a decidere chi coinvolgere nella ricerca.",
+      "points": [
+        "Considerare esperienza del servizio, vincoli di orario e necessità di assistenza",
+        "Includere condizioni di accesso diverse e predisporre modalità di partecipazione accessibili",
+        "Annotare chi è stato coinvolto e quali prospettive restano ancora da esplorare"
+      ],
+      "minutes": 1.5,
+      "step": 5,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "User research",
+      "sourceKeys": [
+        "research-plan"
+      ]
+    },
+    {
+      "slug": "evidenze",
+      "alias": "processo-ux-ui-evidenze",
+      "title": "Dal comportamento alla prossima prova",
+      "kind": "teaching",
+      "lead": "Un’osservazione e la sua interpretazione sono informazioni diverse.",
+      "points": [],
+      "minutes": 2,
+      "step": 5,
+      "figures": [
+        "evidenze"
+      ],
+      "references": [],
+      "sourceHeading": "User research"
+    },
+    {
+      "slug": "sintesi-ricerca",
+      "alias": "processo-ux-ui-sintesi-ricerca",
+      "title": "Dagli appunti ai bisogni",
+      "kind": "text",
+      "lead": "La sintesi collega episodi osservati, ricorrenze e conseguenze per il progetto.",
+      "points": [
+        "Raccogliere osservazioni distinte, con riferimento alla sessione e al contesto",
+        "Raggruppare temi simili, mantenendo visibili differenze ed episodi che contraddicono l’interpretazione",
+        "Concordare che cosa cambia nel progetto e che cosa richiede un’altra domanda"
+      ],
+      "minutes": 1.5,
+      "step": 5,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "User research",
+      "sourceKeys": [
+        "research-analysis"
+      ]
+    },
+    {
+      "slug": "personas",
+      "alias": "processo-ux-ui-personas",
+      "title": "06 · User personas",
+      "kind": "text",
+      "lead": "Una persona rende ricordabili bisogni e comportamenti rilevanti per il progetto.",
+      "points": [
+        "Organizzare i profili intorno a obiettivi, comportamenti e vincoli emersi dalla ricerca",
+        "Mostrare quali osservazioni sostengono il profilo e quali caratteristiche restano ipotetiche",
+        "Usare la persona per discutere scelte concrete, aggiornandola quando cambiano le evidenze"
+      ],
+      "minutes": 1.5,
+      "step": 6,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "User personas"
+    },
+    {
+      "slug": "viola",
+      "alias": "processo-ux-ui-viola",
+      "title": "Che cosa cambia per Viola?",
+      "kind": "teaching",
+      "lead": "Il vincolo significativo è la visita serale a domicilio. L’età non determina le sue capacità digitali.",
+      "points": [],
+      "minutes": 1.5,
+      "step": 6,
+      "figures": [
+        "viola"
+      ],
+      "references": [],
+      "sourceHeading": "User personas"
+    },
+    {
+      "slug": "persona-documento",
+      "alias": "processo-ux-ui-persona-documento",
+      "title": "Leggere una scheda persona",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 2,
+      "step": 6,
+      "figures": [
+        "persona"
+      ],
+      "references": [],
+      "sourceHeading": "User personas"
+    },
+    {
+      "slug": "persona-decisioni",
+      "alias": "processo-ux-ui-persona-decisioni",
+      "title": "Usare una persona per decidere",
+      "kind": "text",
+      "lead": "Il profilo aiuta quando rende discutibile una scelta concreta.",
+      "points": [
+        "Scelta: richiedere l’account prima di mostrare le disponibilità",
+        "Domanda: Viola può capire se esiste una visita compatibile prima di investire tempo nella registrazione?",
+        "Ricerca e prova del percorso chiariscono il bisogno; età e fotografia non rispondono alla domanda"
+      ],
+      "minutes": 1.5,
+      "step": 6,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "User personas",
+      "sourceKeys": []
+    },
+    {
+      "slug": "journey",
+      "alias": "processo-ux-ui-journey",
+      "title": "07 · Customer journey",
+      "kind": "text",
+      "lead": "Quale percorso attraversa una persona per raggiungere un obiettivo?",
+      "points": [
+        "Dichiarare attore, scenario e risultato atteso",
+        "Collegare fasi, azioni e punti di contatto prima, durante e dopo l’app",
+        "Associare pensieri ed emozioni alle evidenze, oppure indicarli come ipotesi"
+      ],
+      "minutes": 1.5,
+      "step": 7,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Customer journey e user flow"
+    },
+    {
+      "slug": "journey-esempio",
+      "alias": "processo-ux-ui-journey-esempio",
+      "title": "Una porzione del viaggio di Viola",
+      "kind": "teaching",
+      "lead": "La mappa ipotetica collega cercare, confrontare e prenotare alle informazioni necessarie.",
+      "points": [],
+      "minutes": 2,
+      "step": 7,
+      "figures": [
+        "journey"
+      ],
+      "references": [],
+      "sourceHeading": "Customer journey e user flow"
+    },
+    {
+      "slug": "journey-responsabilita",
+      "alias": "processo-ux-ui-journey-responsabilita",
+      "title": "Il viaggio dipende anche dal servizio",
+      "kind": "teaching",
+      "lead": "I punti di contatto richiedono attività e responsabilità oltre le schermate.",
+      "points": [],
+      "minutes": 1.5,
+      "step": 7,
+      "figures": [
+        "journey-responsabilita"
+      ],
+      "references": [],
+      "sourceHeading": "Customer journey e user flow",
+      "sourceKeys": []
+    },
+    {
+      "slug": "user-flow",
+      "alias": "processo-ux-ui-user-flow",
+      "title": "07 · User flow",
+      "kind": "text",
+      "lead": "Che cosa accade quando la persona tenta di completare un compito?",
+      "points": [
+        "Rappresentare ingresso, azioni, scelte, condizioni ed esiti",
+        "Disegnare anche indisponibilità, correzioni e ritorni",
+        "Controllare che ogni passaggio disponga dei dati necessari"
+      ],
+      "minutes": 1.5,
+      "step": 7,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Customer journey e user flow"
+    },
+    {
+      "slug": "flow-esempio",
+      "alias": "processo-ux-ui-flow-esempio",
+      "title": "Prenotare comprende anche il recupero",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 2,
+      "step": 7,
+      "figures": [
+        "flow"
+      ],
+      "references": [],
+      "sourceHeading": "Customer journey e user flow"
+    },
+    {
+      "slug": "rami-recupero",
+      "alias": "processo-ux-ui-rami-recupero",
+      "title": "Rami alternativi e dati conservati",
+      "kind": "text",
+      "lead": "Ogni uscita dal percorso ideale richiede una possibilità di capire e proseguire.",
+      "points": [
+        "Nessun risultato: rendere modificabili i criteri e spiegare quali alternative restano",
+        "Dato da correggere: indicare il campo interessato e conservare le informazioni valide",
+        "Orario perso durante la conferma: comunicare l’indisponibilità e tornare alla scelta"
+      ],
+      "minutes": 1.5,
+      "step": 7,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Customer journey e user flow",
+      "sourceKeys": []
+    },
+    {
+      "slug": "mappe-diverse",
+      "alias": "processo-ux-ui-mappe-diverse",
+      "title": "Journey, flow e sitemap",
+      "kind": "text",
+      "lead": "Tre rappresentazioni rispondono a domande differenti.",
+      "points": [
+        "Journey: che cosa accade nel percorso fra canali e momenti del servizio?",
+        "Flow: quali azioni e condizioni portano all’esito del compito?",
+        "Sitemap: come sono raggruppati e collegati contenuti e sezioni?"
+      ],
+      "minutes": 1.5,
+      "step": 7,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Customer journey e user flow"
+    },
+    {
+      "slug": "brd",
+      "alias": "processo-ux-ui-brd",
+      "title": "08 · Documento dei requisiti",
+      "kind": "illustrated",
+      "lead": "Che cosa deve permettere il prodotto e quali accordi rimangono da prendere?",
+      "points": [
+        "Raccogliere problema, destinatari, risultati attesi, funzioni necessarie e vincoli del servizio",
+        "Per ogni requisito chiarire condizioni, priorità e comportamento che permetterà di verificarlo",
+        "Registrare accordi, responsabili, dipendenze e modifiche: il documento evolve con il progetto"
+      ],
+      "minutes": 1.5,
+      "step": 8,
+      "figures": [
+        "illustrazione-requisiti"
+      ],
+      "references": [],
+      "sourceHeading": "Business Requirements Document"
+    },
+    {
+      "slug": "requisito",
+      "alias": "processo-ux-ui-requisito",
+      "title": "Dal bisogno a un criterio verificabile",
+      "kind": "teaching",
+      "lead": "Il criterio precisa un comportamento atteso; il test dovrà osservare il compito complessivo.",
+      "points": [],
+      "minutes": 2,
+      "step": 8,
+      "figures": [
+        "requisiti"
+      ],
+      "references": [],
+      "sourceHeading": "Business Requirements Document"
+    },
+    {
+      "slug": "user-story",
+      "alias": "processo-ux-ui-user-story",
+      "title": "Bisogno, user story e accettazione",
+      "kind": "teaching",
+      "lead": "La storia chiarisce il valore per la persona; il criterio descrive un comportamento verificabile.",
+      "points": [],
+      "minutes": 1.5,
+      "step": 8,
+      "figures": [
+        "accettazione"
+      ],
+      "references": [],
+      "sourceHeading": "Business Requirements Document",
+      "sourceKeys": [
+        "user-stories"
+      ]
+    },
+    {
+      "slug": "attivita-requisito",
+      "alias": "processo-ux-ui-attivita-requisito",
+      "title": "Dal bisogno al requisito",
+      "kind": "activity",
+      "lead": "In coppia, scegliete un bisogno del caso di Viola e rendetelo verificabile.",
+      "points": [
+        "Separate ciò che sappiamo dal caso dalle vostre ipotesi",
+        "Scrivete un requisito, una condizione e un criterio osservabile",
+        "Indicate quale ricerca potrebbe far cambiare il requisito"
+      ],
+      "minutes": 8,
+      "step": null,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Business Requirements Document"
+    },
+    {
+      "slug": "architettura",
+      "alias": "processo-ux-ui-architettura",
+      "title": "09 · Architettura dell’informazione",
+      "kind": "text",
+      "lead": "Dove trova la persona contenuti e funzioni, e quali relazioni riconosce?",
+      "points": [
+        "Raggruppare informazioni usando categorie comprensibili",
+        "Dare nomi coerenti alle sezioni e distinguere livelli di dettaglio",
+        "Confrontare l’alberatura con i compiti emersi dalla ricerca"
+      ],
+      "minutes": 1.5,
+      "step": 9,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Architettura dell’informazione"
+    },
+    {
+      "slug": "sitemap",
+      "alias": "processo-ux-ui-sitemap",
+      "title": "Una struttura da discutere",
+      "kind": "teaching",
+      "lead": "Servizi, Prenota e Le mie visite raggruppano informazioni e funzioni. Il flow descrive le azioni.",
+      "points": [],
+      "minutes": 1.5,
+      "step": 9,
+      "figures": [
+        "sitemap"
+      ],
+      "references": [],
+      "sourceHeading": "Architettura dell’informazione"
+    },
+    {
+      "slug": "etichette-gruppi",
+      "alias": "processo-ux-ui-etichette-gruppi",
+      "title": "Verificare etichette e raggruppamenti",
+      "kind": "text",
+      "lead": "La struttura deve sostenere il modo in cui le persone cercano informazioni e azioni.",
+      "points": [
+        "Proporre un compito: “Dove cercheresti come modificare una visita?”",
+        "Osservare quale sezione viene scelta e come vengono interpretate le etichette",
+        "Confrontare l’ipotesi con i compiti reali, rivedendo nomi o gruppi quando la relazione resta ambigua"
+      ],
+      "minutes": 1.5,
+      "step": 9,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Architettura dell’informazione",
+      "sourceKeys": []
+    },
+    {
+      "slug": "wireframe",
+      "alias": "processo-ux-ui-wireframe",
+      "title": "10 · Wireframing",
+      "kind": "illustrated",
+      "lead": "Quali contenuti e azioni deve presentare ogni schermata?",
+      "points": [
+        "Partire da aree, gerarchia e relazioni; usare contenuti realistici dove servono",
+        "Rendere riconoscibili etichette, controlli e azione successiva",
+        "Annotare contenuti lunghi, stati vuoti, errori e possibilità di correzione"
+      ],
+      "minutes": 1.5,
+      "step": 10,
+      "figures": [
+        "illustrazione-wireframe"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing"
+    },
+    {
+      "slug": "wireframe-documento",
+      "alias": "processo-ux-ui-wireframe-documento",
+      "title": "Disegnare per capire una funzione",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 2,
+      "step": 10,
+      "figures": [
+        "wireframe-carta"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing"
+    },
+    {
+      "slug": "wireframe-progressione",
+      "alias": "processo-ux-ui-wireframe-progressione",
+      "title": "Dalle aree ai contenuti e alla UI",
+      "kind": "teaching",
+      "lead": "Tre versioni dello stesso esempio simulato. Il dettaglio cresce dove aiuta la decisione.",
+      "points": [],
+      "minutes": 2,
+      "step": 10,
+      "figures": [
+        "wireframe-ui"
+      ],
+      "references": [],
+      "sourceHeading": "Wireframing"
+    },
+    {
+      "slug": "contenuti-realistici",
+      "alias": "processo-ux-ui-contenuti-realistici",
+      "title": "Wireframe con contenuti realistici",
+      "kind": "text",
+      "lead": "Il contenuto permette di valutare ciò che un rettangolo vuoto lascia aperto.",
+      "points": [
+        "Usare un nome lungo, una durata, un indirizzo e un costo coerenti con lo scenario",
+        "Controllare ordine di lettura, etichette e relazione fra informazione e comando",
+        "Provare una condizione incompleta o un errore prima di rifinire la presentazione"
+      ],
+      "minutes": 1.5,
+      "step": 10,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Wireframing",
+      "sourceKeys": []
+    },
+    {
+      "slug": "prototipo",
+      "alias": "processo-ux-ui-prototipo",
+      "title": "11 · Prototipo e prima prova",
+      "kind": "text",
+      "lead": "Quale parte del comportamento dobbiamo poter osservare?",
+      "points": [
+        "Collegare le schermate necessarie al compito e ai suoi rami",
+        "Usare carta, schermate collegate o una versione parziale del servizio",
+        "Controllare la simulazione prima di coinvolgere i partecipanti"
+      ],
+      "minutes": 1.5,
+      "step": 11,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Prototipo a bassa fedeltà e test di usabilità"
+    },
+    {
+      "slug": "fedelta",
+      "alias": "processo-ux-ui-fedelta",
+      "title": "Quanto dettaglio serve alla domanda?",
+      "kind": "teaching",
+      "lead": "Fedeltà visiva e funzionamento sono dimensioni distinte del prototipo.",
+      "points": [],
+      "minutes": 1.5,
+      "step": 11,
+      "figures": [
+        "fedelta"
+      ],
+      "references": [],
+      "sourceHeading": "Prototipo a bassa fedeltà e test di usabilità"
+    },
+    {
+      "slug": "ambito-prototipo",
+      "alias": "processo-ux-ui-ambito-prototipo",
+      "title": "Prototipare quanto serve alla domanda",
+      "kind": "text",
+      "lead": "La simulazione deve rendere raggiungibili le parti che vogliamo osservare.",
+      "points": [
+        "Per la scelta serale servono ricerca, disponibilità, riepilogo ed esito",
+        "Per osservare un recupero deve essere possibile arrivare allo stato problematico",
+        "Dichiarare le parti simulate e distinguere un limite del prototipo da una difficoltà dell’interfaccia"
+      ],
+      "minutes": 1.5,
+      "step": 11,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Prototipo a bassa fedeltà e test di usabilità",
+      "sourceKeys": []
+    },
+    {
+      "slug": "usabilita",
+      "alias": "processo-ux-ui-usabilita",
+      "title": "11 · Preparare un test di usabilità",
+      "kind": "text",
+      "lead": "Una persona prova un compito; il gruppo osserva ciò che accade.",
+      "points": [
+        "Definire la domanda, chi coinvolgere, i compiti e la versione del prototipo da osservare",
+        "Separare la conduzione della sessione dalla raccolta di azioni, parole, aiuti ed esiti",
+        "Preparare consegna, materiali e prova pilota; concordare con la persona come si useranno i dati"
+      ],
+      "minutes": 1.5,
+      "step": 11,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Prototipo a bassa fedeltà e test di usabilità"
+    },
+    {
+      "slug": "compito",
+      "alias": "processo-ux-ui-compito",
+      "title": "Una consegna descrive l’obiettivo",
+      "kind": "text",
+      "lead": "“Trova una visita a domicilio dopo le 20 e prova a prenotarla.”",
+      "points": [
+        "La consegna lascia alla persona la scelta del percorso",
+        "“Premi Prenota e scegli il terzo orario” suggerisce già come procedere",
+        "Provare prima il protocollo permette di trovare istruzioni e collegamenti ambigui"
+      ],
+      "minutes": 1.5,
+      "step": 11,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Prototipo a bassa fedeltà e test di usabilità"
+    },
+    {
+      "slug": "piano-test",
+      "alias": "processo-ux-ui-piano-test",
+      "title": "La domanda organizza la prova",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 2,
+      "step": 11,
+      "figures": [
+        "test"
+      ],
+      "references": [],
+      "sourceHeading": "Prototipo a bassa fedeltà e test di usabilità"
+    },
+    {
+      "slug": "sessione",
+      "alias": "processo-ux-ui-sessione",
+      "title": "Una sessione dall’inizio alla fine",
+      "kind": "text",
+      "lead": "La conduzione permette di osservare il compito e interpretarlo nel suo contesto.",
+      "points": [
+        "Prima: presentare lo scopo, chiarire la partecipazione e introdurre lo scenario",
+        "Durante: proporre la consegna, osservare e registrare eventuali aiuti senza guidare le azioni",
+        "Dopo: approfondire dubbi, raccogliere il punto di vista della persona e confrontare le osservazioni"
+      ],
+      "minutes": 1.5,
+      "step": 11,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Prototipo a bassa fedeltà e test di usabilità",
+      "sourceKeys": []
+    },
+    {
+      "slug": "osservazione",
+      "alias": "processo-ux-ui-osservazione",
+      "title": "Che cosa abbiamo osservato?",
+      "kind": "text",
+      "lead": "Completamento autonomo, completamento con aiuto e interruzione sono esiti diversi.",
+      "points": [
+        "Annotare dove la persona procede, torna indietro, cambia strategia o chiede aiuto",
+        "Collegare commenti ed esitazioni alle azioni effettive e al risultato del compito",
+        "Scegliere partecipanti e numerosità in relazione alla domanda, ai gruppi e al metodo"
+      ],
+      "minutes": 1.5,
+      "step": 11,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Prototipo a bassa fedeltà e test di usabilità"
+    },
+    {
+      "slug": "registro-prova",
+      "alias": "processo-ux-ui-registro-prova",
+      "title": "Registrare un episodio di prova",
+      "kind": "teaching",
+      "lead": "La descrizione deve permettere al gruppo di tornare a ciò che è effettivamente accaduto.",
+      "points": [],
+      "minutes": 1.5,
+      "step": 11,
+      "figures": [
+        "registro-prova"
+      ],
+      "references": [],
+      "sourceHeading": "Prototipo a bassa fedeltà e test di usabilità",
+      "sourceKeys": [
+        "research-analysis"
+      ]
+    },
+    {
+      "slug": "iterazioni",
+      "alias": "processo-ux-ui-iterazioni",
+      "title": "12 · Iterazioni sui prototipi",
+      "kind": "text",
+      "lead": "Quale decisione cambia alla luce della prova?",
+      "points": [
+        "Rileggere gli episodi nel debriefing e separare il fatto osservato dalle sue spiegazioni possibili",
+        "Collegare la proposta di modifica a un problema preciso e a un effetto atteso",
+        "Ripetere la prova su una versione identificabile, conservando gli aspetti che rimangono incerti"
+      ],
+      "minutes": 1.5,
+      "step": 12,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Iterazioni sui prototipi"
+    },
+    {
+      "slug": "registro-revisione",
+      "alias": "processo-ux-ui-registro-revisione",
+      "title": "Un problema, un’ipotesi, una nuova prova",
+      "kind": "teaching",
+      "lead": "L’effetto della revisione rimane da osservare sulla versione successiva.",
+      "points": [],
+      "minutes": 2,
+      "step": 12,
+      "figures": [
+        "iterazione"
+      ],
+      "references": [],
+      "sourceHeading": "Iterazioni sui prototipi"
+    },
+    {
+      "slug": "priorita",
+      "alias": "processo-ux-ui-priorita",
+      "title": "Decidere che cosa correggere",
+      "kind": "text",
+      "lead": "La priorità dipende dal compito bloccato e dalle conseguenze dell’errore.",
+      "points": [
+        "Considerare persone coinvolte, gravità e frequenza nel campione osservato",
+        "Un comando poco visibile, un costo ambiguo e una visita indisponibile richiedono interventi diversi",
+        "Con pochi partecipanti, descrivere episodi e limiti senza generalizzare percentuali"
+      ],
+      "minutes": 1.5,
+      "step": 12,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Iterazioni sui prototipi"
+    },
+    {
+      "slug": "priorita-problemi",
+      "alias": "processo-ux-ui-priorita-problemi",
+      "title": "Dare una priorità ai problemi",
+      "kind": "teaching",
+      "lead": "Considerare che cosa si interrompe, quali conseguenze produce e come si può recuperare.",
+      "points": [],
+      "minutes": 1.5,
+      "step": 12,
+      "figures": [
+        "priorita-problemi"
+      ],
+      "references": [],
+      "sourceHeading": "Iterazioni sui prototipi",
+      "sourceKeys": []
+    },
+    {
+      "slug": "ui",
+      "alias": "processo-ux-ui-ui",
+      "title": "13 · UI e mockup",
+      "kind": "text",
+      "lead": "Come rendiamo leggibili struttura, azioni e identità del servizio?",
+      "points": [
+        "Griglia e composizione rendono riconoscibili informazioni, gruppi e priorità dell’azione",
+        "Tipografia, colore e immagini distinguono ruoli e sostengono l’identità del servizio",
+        "Progettare insieme aspetto, contenuti e stati dei componenti: attesa, errore, indisponibilità e conferma"
+      ],
+      "minutes": 1.5,
+      "step": 13,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "User Interface e mockup"
+    },
+    {
+      "slug": "mockup-documento",
+      "alias": "processo-ux-ui-mockup-documento",
+      "title": "Una struttura, una proposta visiva",
+      "kind": "image",
+      "lead": "",
+      "points": [],
+      "minutes": 2,
+      "step": 13,
+      "figures": [
+        "mockup"
+      ],
+      "references": [],
+      "sourceHeading": "User Interface e mockup"
+    },
+    {
+      "slug": "stati",
+      "alias": "processo-ux-ui-stati",
+      "title": "Progettare scelta, recupero ed esito",
+      "kind": "teaching",
+      "lead": "L’orario non più disponibile conserva i dati. La conferma comunica una condizione diversa.",
+      "points": [],
+      "minutes": 2,
+      "step": 13,
+      "figures": [
+        "stati"
+      ],
+      "references": [],
+      "sourceHeading": "User Interface e mockup"
+    },
+    {
+      "slug": "coerenza",
+      "alias": "processo-ux-ui-coerenza",
+      "title": "La UI comprende parole e comportamento",
+      "kind": "text",
+      "lead": "La coerenza permette di trasferire ciò che si impara da una parte all’altra del prodotto.",
+      "points": [
+        "Distinguere disponibilità, richiesta inviata e visita confermata",
+        "Associare ai colori testo, forma e stati riconoscibili",
+        "Provare nomi lunghi, ingrandimento del testo, tastiera e dimensioni d’uso"
+      ],
+      "minutes": 1.5,
+      "step": 13,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "User Interface e mockup"
+    },
+    {
+      "slug": "componenti",
+      "alias": "processo-ux-ui-componenti",
+      "title": "Componenti, varianti e contenuti",
+      "kind": "text",
+      "lead": "Un componente riutilizzabile conserva regole coerenti nelle situazioni previste.",
+      "points": [
+        "Definire etichetta, contenuto, azione e stati: disponibile, selezionato, in attesa e non disponibile",
+        "Controllare che messaggi e segnali visivi concordino con ciò che il servizio permette davvero",
+        "Provare varianti di contenuto e accesso, conservando riconoscibilità e possibilità di recupero"
+      ],
+      "minutes": 1.5,
+      "step": 13,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "User Interface e mockup",
+      "sourceKeys": []
+    },
+    {
+      "slug": "nuova-verifica",
+      "alias": "processo-ux-ui-nuova-verifica",
+      "title": "14 · Nuova verifica della soluzione",
+      "kind": "illustrated",
+      "lead": "La versione con UI deve sostenere i compiti e i percorsi già affrontati.",
+      "points": [
+        "Riprovare ricerca, scelta, riepilogo e riconoscimento dell’esito",
+        "Controllare recuperi e conseguenze delle modifiche",
+        "Il “test finale” è un momento del progetto: può aprire altre revisioni"
+      ],
+      "minutes": 1.5,
+      "step": 14,
+      "figures": [
+        "illustrazione-verifica"
+      ],
+      "references": [],
+      "sourceHeading": "Nuova verifica della soluzione"
+    },
+    {
+      "slug": "accessibilita",
+      "alias": "processo-ux-ui-accessibilita",
+      "title": "Valutare uso e accessibilità",
+      "kind": "text",
+      "lead": "La prova con le persone e la verifica rispetto agli standard si completano.",
+      "points": [
+        "Coinvolgere persone con disabilità permette di osservare barriere concrete",
+        "Il successo di alcuni compiti non dimostra la conformità dell’intero prodotto",
+        "Documentare partecipanti, condizioni, ambito ed evidenze della valutazione"
+      ],
+      "minutes": 1.5,
+      "step": 14,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Nuova verifica della soluzione"
+    },
+    {
+      "slug": "consegna",
+      "alias": "processo-ux-ui-consegna",
+      "title": "Consegna: aspetto, regole e questioni aperte",
+      "kind": "text",
+      "lead": "Chi sviluppa deve comprendere anche quando e perché una risposta appare.",
+      "points": [
+        "Condividere componenti, varianti, stati, testi, risorse e regole di adattamento",
+        "Specificare cosa attiva ogni stato, quali dati conserva e come la persona può proseguire",
+        "Associare criteri di accettazione, questioni aperte e responsabili alle decisioni da realizzare"
+      ],
+      "minutes": 1.5,
+      "step": null,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Conservare ciò che si è appreso"
+    },
+    {
+      "slug": "consegna-verificabile",
+      "alias": "processo-ux-ui-consegna-verificabile",
+      "title": "Una consegna verificabile",
+      "kind": "teaching",
+      "lead": "Descrivere uno stato significa collegare condizioni, risposta dell’interfaccia e comportamento atteso.",
+      "points": [],
+      "minutes": 1.5,
+      "step": null,
+      "figures": [
+        "consegna-stato"
+      ],
+      "references": [],
+      "sourceHeading": "Conservare ciò che si è appreso",
+      "sourceKeys": [
+        "user-stories"
+      ]
+    },
+    {
+      "slug": "servizio-reale",
+      "alias": "processo-ux-ui-servizio-reale",
+      "title": "Dal prototipo al servizio reale",
+      "kind": "text",
+      "lead": "Una simulazione rappresenta solo parte di dati, tempi e condizioni dell’uso.",
+      "points": [
+        "Dati e tempi reali possono produrre stati che la simulazione rappresentava solo in parte",
+        "Confrontare il prodotto realizzato con contenuti, percorsi e condizioni concordati",
+        "Collegare segnali di assistenza e interruzione a nuove domande di ricerca, senza dedurne subito la causa"
+      ],
+      "minutes": 1.5,
+      "step": null,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Dal progetto al servizio"
+    },
+    {
+      "slug": "ciclo",
+      "alias": "processo-ux-ui-ciclo",
+      "title": "Ipotesi, prova, apprendimento",
+      "kind": "teaching",
+      "lead": "Lean UX collega le assunzioni più rischiose a esperimenti e decisioni successive.",
+      "points": [],
+      "minutes": 2,
+      "step": null,
+      "figures": [
+        "ciclo"
+      ],
+      "references": [],
+      "sourceHeading": "Iterazione e Lean UX"
+    },
+    {
+      "slug": "scegliere",
+      "alias": "processo-ux-ui-scegliere",
+      "title": "Scegliere la prossima attività",
+      "kind": "text",
+      "lead": "Quale incertezza rende più fragile il progetto in questo momento?",
+      "points": [
+        "Bisogno poco chiaro: tornare alla ricerca",
+        "Percorso ambiguo: esplorare flow e prototipi",
+        "Esito non compreso: verificare contenuti, stati e condizioni del servizio"
+      ],
+      "minutes": 1.5,
+      "step": null,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Scegliere il lavoro necessario"
+    },
+    {
+      "slug": "attivita-prova",
+      "alias": "processo-ux-ui-attivita-prova",
+      "title": "Dal requisito alla prossima prova",
+      "kind": "activity",
+      "lead": "Riprendete il requisito della prima attività e preparate una prova circoscritta.",
+      "points": [
+        "Disegnate un flow con un ramo di recupero e tre schermate essenziali",
+        "Scrivete una consegna neutra e che cosa osservereste",
+        "Indicate quale risultato potrebbe contraddire la proposta e che cosa rivedreste"
+      ],
+      "minutes": 10,
+      "step": null,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Scegliere il lavoro necessario"
+    },
+    {
+      "slug": "restituzione",
+      "alias": "processo-ux-ui-restituzione",
+      "title": "Rendere discutibile la proposta",
+      "kind": "text",
+      "lead": "Confrontate i vostri elaborati con un’altra coppia.",
+      "points": [
+        "Quale evidenza sostiene il requisito e quale parte è ancora ipotetica?",
+        "Il prototipo permetterebbe davvero di rispondere alla domanda?",
+        "Quale attività riprendereste dopo la prova, con quale domanda e quale materiale?"
+      ],
+      "minutes": 3,
+      "step": null,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Scegliere il lavoro necessario"
+    },
+    {
+      "slug": "adattare",
+      "alias": "processo-ux-ui-adattare",
+      "title": "Adattare il processo al progetto",
+      "kind": "text",
+      "lead": "Ogni documento deve aiutare un confronto o una decisione.",
+      "points": [
+        "Stabilire che cosa serve imparare prima di scegliere lo strumento",
+        "Mantenere riconoscibili fonti, ipotesi e limiti del lavoro",
+        "Conservare ragioni delle scelte e questioni aperte per il ciclo successivo"
+      ],
+      "minutes": 1.5,
+      "step": null,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Scegliere il lavoro necessario"
+    },
+    {
+      "slug": "chiusura",
+      "alias": "processo-ux-ui-chiusura",
+      "title": "Dal bisogno alla scelta motivata",
+      "kind": "text",
+      "lead": "Comprendere, rappresentare e mettere alla prova.",
+      "points": [
+        "Il brief chiarisce il progetto; la ricerca può cambiarne il problema",
+        "Journey, flow e struttura rendono visibili relazioni diverse",
+        "Prototipo, UI e test trasformano le evidenze in revisioni verificabili"
+      ],
+      "minutes": 1,
+      "step": null,
+      "figures": [],
+      "references": [],
+      "sourceHeading": "Scegliere il lavoro necessario"
+    },
+    {
+      "slug": "risorse-operative",
+      "alias": "processo-ux-ui-fonti-libro",
+      "title": "Risorse · Dal bisogno alla decisione",
+      "kind": "references",
+      "lead": "",
+      "points": [],
+      "minutes": 0.5,
+      "step": null,
+      "figures": [],
+      "references": [
+        {
+          "label": "GOV.UK · Pianificare la ricerca",
+          "url": "https://www.gov.uk/service-manual/user-research/plan-user-research-for-your-service",
+          "note": "Domande, gruppi da coinvolgere e attività pertinenti."
+        },
+        {
+          "label": "GOV.UK · Analizzare una sessione",
+          "url": "https://www.gov.uk/service-manual/user-research/analyse-a-research-session",
+          "note": "Osservazioni, temi, conclusioni e azioni."
+        },
+        {
+          "label": "GOV.UK · Scrivere user story",
+          "url": "https://www.gov.uk/service-manual/agile-delivery/writing-user-stories",
+          "note": "Persona, bisogno, obiettivo e accettazione."
+        },
+        {
+          "label": "GOV.UK · Definire le misure del servizio",
+          "url": "https://www.gov.uk/service-manual/measuring-success/how-to-set-performance-metrics-for-your-service",
+          "note": "Obiettivi, indicatori, dati e contesto."
+        }
+      ],
+      "sourceHeading": "Scegliere il lavoro necessario"
+    },
+    {
+      "slug": "fonti-ricerca",
+      "alias": "processo-ux-ui-fonti-ricerca",
+      "title": "Fonti · Ricerca e rappresentazione",
+      "kind": "references",
+      "lead": "",
+      "points": [],
+      "minutes": 0.5,
+      "step": null,
+      "figures": [],
+      "references": [
+        {
+          "label": "GOV.UK Service Manual · Using in-depth interviews",
+          "url": "https://www.gov.uk/service-manual/user-research/using-in-depth-interviews",
+          "note": "Preparazione, domande aperte ed episodi concreti."
+        },
+        {
+          "label": "Dykes, T. (2025). Personas make users memorable. Nielsen Norman Group.",
+          "url": "https://www.nngroup.com/articles/persona/",
+          "note": "Profili fondati sulla ricerca e pertinenti al progetto."
+        },
+        {
+          "label": "Gibbons, S. (2018). Journey mapping 101. Nielsen Norman Group.",
+          "url": "https://www.nngroup.com/articles/journey-mapping-101/",
+          "note": "Attore, scenario, fasi e punti di contatto."
+        }
+      ],
+      "sourceHeading": "Fonti · Ricerca e rappresentazione"
+    },
+    {
+      "slug": "fonti-valutazione",
+      "alias": "processo-ux-ui-fonti-valutazione",
+      "title": "Fonti · Valutazione e apprendimento",
+      "kind": "references",
+      "lead": "",
+      "points": [],
+      "minutes": 0.5,
+      "step": null,
+      "figures": [],
+      "references": [
+        {
+          "label": "GOV.UK Service Manual · Using moderated usability testing",
+          "url": "https://www.gov.uk/service-manual/user-research/using-moderated-usability-testing",
+          "note": "Compiti realistici, sessione e osservazione."
+        },
+        {
+          "label": "W3C WAI · Involving users in evaluating web accessibility",
+          "url": "https://www.w3.org/WAI/test-evaluate/involving-users/",
+          "note": "Integrare la prova con le persone e la valutazione rispetto agli standard."
+        },
+        {
+          "label": "Gothelf, J. (2016). The Lean UX Canvas.",
+          "url": "https://jeffgothelf.com/blog/the-lean-ux-canvas/",
+          "note": "Problema, assunzioni, ipotesi ed esperimenti."
+        }
+      ],
+      "sourceHeading": "Fonti · Valutazione e apprendimento"
+    },
+    {
+      "slug": "fonti-figure",
+      "alias": "processo-ux-ui-fonti-figure",
+      "title": "Fonti · Documenti ed esempi",
+      "kind": "references",
+      "lead": "",
+      "points": [],
+      "minutes": 0.5,
+      "step": null,
+      "figures": [],
+      "references": [
+        {
+          "label": "Dekker, J. (2019). Wireframing NS. Less is more, the art of leaving out.",
+          "url": "https://medium.com/@jolandatdekker/wireframing-ns-less-is-more-the-art-of-leaving-out-4077fd9174c0",
+          "note": "Wireframe della funzione preferiti: analisi di un’app esistente."
+        },
+        {
+          "label": "Sauers, E. (2022). A client guide to wireframes. JH Specialty.",
+          "url": "https://www.jhspecialty.com/blog/wireframes",
+          "note": "Confronto WCC Properties fra struttura e proposta visiva."
+        },
+        {
+          "label": "Attribuzioni delle figure",
+          "url": null,
+          "note": "Scheda persona: Iulian Corunga. Diagrammi, documenti e schermate del caso: CVeDI, 2026. Gli esempi simulati sono indicati nelle rispettive didascalie. Le cinque illustrazioni di brief, ricerca, requisiti, wireframe e verifica sono generate con IA."
+        }
+      ],
+      "sourceHeading": "Fonti · Documenti ed esempi"
+    }
+  ],
+  "sourcePolicy": "Nessun richiamo visibile all’autore o al manuale. Provenienza e attribuzioni preparatorie sono conservate nei registri locali; gli esempi simulati sono riconoscibili."
+}

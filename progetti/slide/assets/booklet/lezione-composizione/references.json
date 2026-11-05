@@ -1,6 +1,6 @@
 {
   "source": "progetti/booklet/bibliografia/08-composizione-gerarchia.yml",
-  "sourceSha256": "aa659b1a643658b90341875e17ef76d7e1df6d9675943a8a8e9a50306de3e083",
+  "sourceSha256": "c3e2873d42b5992ca8212fc5bc9a140339ba9ac138b7b3cdc2c112dd16953719",
   "publications": {
     "compArnheim": {
       "type": "Book",
@@ -152,14 +152,6 @@
       "publisher": "Nielsen Norman Group",
       "url": "https://www.nngroup.com/articles/visual-hierarchy-ux-definition/"
     },
-    "compYang": {
-      "type": "Article",
-      "author": "Yang, Lillian",
-      "title": "Mood boards in UX: How and why to use them",
-      "date": "2023-02-26",
-      "publisher": "Nielsen Norman Group",
-      "url": "https://www.nngroup.com/articles/mood-boards/"
-    },
     "compUp": {
       "type": "Video",
       "affiliated": [
@@ -278,25 +270,6 @@
         "volume": 45,
         "issue": 3
       }
-    },
-    "compFagerholt": {
-      "type": "Thesis",
-      "author": [
-        "Fagerholt, Erik",
-        "Lorentzon, Magnus"
-      ],
-      "title": "Beyond the HUD: User interfaces for increased player immersion in FPS games",
-      "date": 2009,
-      "genre": "Master's thesis",
-      "publisher": "Chalmers University of Technology",
-      "url": "https://odr.chalmers.se/server/api/core/bitstreams/fd267f70-c295-4eae-ae01-af5db676e61d/content"
-    },
-    "compHodent": {
-      "type": "Article",
-      "author": "Hodent, Celia",
-      "title": "Understanding the success of Fortnite: A UX & psychology perspective",
-      "date": "2019-07-22",
-      "url": "https://celiahodent.com/understanding-the-success-of-fortnite-ux/"
     }
   }
 }

@@ -12,6 +12,8 @@ I nove passaggi accorpati o esclusi sono conservati in `simplification-archive.j
 
 Le 63 note del relatore autorizzate sono un copione italiano per sintesi vocale, conservato per alias in `speaker-notes.json` e inserito dal generatore nei commenti Slidev. Approfondiscono i contenuti attivi con il capitolo corrente, senza riattivare i passaggi archiviati. Numeri e formule sono pronunciabili, le attività invitano a sospendere l’audio e le fonti non vengono lette come indirizzi. Tutte le note includono direttamente `[calm, matter-of-fact delivery]` e pause più distese, con stabilità comune 0,90; rimuovendo i soli tag si recupera il testo integrale conservato in `speaker-notes-original.json`. Ogni slide dispone di una nuova registrazione coerente con queste note e di controlli di riproduzione condivisi. Dopo la verifica integrale dei 63 file, le registrazioni precedenti sono rimosse su richiesta; i relativi metadati restano separati in `archivedClips` del manifest audio. La selezione non contiene rigenerazioni in attesa. Il copione mira a circa 60 minuti di parlato; i 15 minuti di attività restano autonomi e il budget della presentazione resta 78 minuti.
 
+Le 63 registrazioni hanno sottotitoli WebVTT e tempi delle parole, allineati localmente con Whisper medium tramite stable-ts sul copione originale. La selezione dei sottotitoli è registrata nel manifest della lezione; il player condiviso offre CC e karaoke con il primario della slide. La build verifica e prepara il mirror senza eseguire Whisper.
+
 | Slide | Titolo | Sezione della fonte | Figure |
 |---|---|---|---|
 | 1 | Griglie e layout | Dallo spazio alla struttura | — |
