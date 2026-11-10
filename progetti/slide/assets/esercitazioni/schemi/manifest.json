@@ -250,17 +250,6 @@
       "sha256": "e33c06f581ed0b2b77bc9e593e6516e6b64b32045c2a5b40a0d74c1e887f3764",
       "author": "Materiale originale di Elia Guarnieri",
       "description": "../picture.jpg: immagine nella cartella genitore della pagina corrente."
-    },
-    {
-      "source": "../esempio-03/catture/home-desktop.webp",
-      "web": "/images/esercitazioni/sito-grid-responsive.webp",
-      "sha256": "bbfe81120a2125b73723260314ec9b9bc5e129f3b1b5291bd1a27fac259695ce",
-      "sourceKind": "browser-capture",
-      "capturedFrom": "/images/esercitazioni/esercizio-03/index.html",
-      "original": "../esempio-03/catture/home-desktop.png",
-      "generator": "progetti/slide/scripts/build/exercise-grid-site-preview.mjs",
-      "exercise": "03",
-      "description": "Schermata effettiva della home del sito con Grid e immagini responsive, viewport 1100 × 900, contenuti e colori del sito Flexbox precedente"
     }
   ],
   "exerciseDemo": {
@@ -303,5 +292,19 @@
       "format": "WebP",
       "generator": "progetti/slide/scripts/build/exercise-grid-site.mjs"
     }
-  }
+  },
+  "archivedScreenshots": [
+    {
+      "source": "../esempio-03/catture/home-desktop.webp",
+      "web": "/images/esercitazioni/sito-grid-responsive.webp",
+      "sha256": "bbfe81120a2125b73723260314ec9b9bc5e129f3b1b5291bd1a27fac259695ce",
+      "sourceKind": "browser-capture",
+      "capturedFrom": "/images/esercitazioni/esercizio-03/index.html",
+      "original": "../esempio-03/catture/home-desktop.png",
+      "generator": "progetti/slide/scripts/build/exercise-grid-site-preview.mjs",
+      "exercise": "03",
+      "description": "Schermata effettiva della home del sito con Grid e immagini responsive, viewport 1100 × 900, contenuti e colori del sito Flexbox precedente",
+      "reason": "Slide dedicata rimossa: la consegna collega già il sito completo."
+    }
+  ]
 }

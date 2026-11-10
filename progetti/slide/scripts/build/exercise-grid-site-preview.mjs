@@ -1,5 +1,5 @@
 import { chromium } from 'playwright-chromium'
-import { mkdir, readFile, writeFile, copyFile } from 'node:fs/promises'
+import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { spawnSync } from 'node:child_process'
 import { createHash } from 'node:crypto'
 const base = (process.env.EXERCISE_URL || 'http://localhost:3055').replace(/\/$/, '')
@@ -17,9 +17,10 @@ if (spawnSync('magick', [`${folder}/home-desktop.png`, '-quality', '90', output]
 const manifestPath = 'progetti/slide/assets/esercitazioni/schemi/manifest.json'
 const manifest = JSON.parse(await readFile(manifestPath, 'utf8'))
 const entry = { source: '../esempio-03/catture/home-desktop.webp', web: '/images/esercitazioni/sito-grid-responsive.webp', sha256: createHash('sha256').update(await readFile(output)).digest('hex'), sourceKind: 'browser-capture', capturedFrom: '/images/esercitazioni/esercizio-03/index.html', original: '../esempio-03/catture/home-desktop.png', generator: 'progetti/slide/scripts/build/exercise-grid-site-preview.mjs', exercise: '03', description: 'Schermata effettiva della home del sito con Grid e immagini responsive, viewport 1100 × 900, contenuti e colori del sito Flexbox precedente' }
-const index = manifest.screenshots.findIndex(asset => asset.web === entry.web)
-if (index < 0) manifest.screenshots.push(entry)
-else manifest.screenshots[index] = entry
+manifest.archivedScreenshots ??= []
+entry.reason = 'Slide dedicata rimossa: la consegna collega già il sito completo.'
+const index = manifest.archivedScreenshots.findIndex(asset => asset.web === entry.web)
+if (index < 0) manifest.archivedScreenshots.push(entry)
+else manifest.archivedScreenshots[index] = entry
 await writeFile(manifestPath, JSON.stringify(manifest, null, 2) + '\n')
-await copyFile(output, `progetti/slide/public${entry.web}`)
 console.log('Grid site screenshot captured and catalogued')

@@ -19,10 +19,10 @@
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Proprietà Css 2026",
+            "text": "Proprietà CSS 2026",
             "runs": [
               {
-                "text": "Proprietà Css 2026"
+                "text": "Proprietà CSS 2026"
               }
             ],
             "bullet": true,
@@ -112,25 +112,7 @@
             ],
             "bullet": false,
             "level": 0
-          }
-        ]
-      }
-    ],
-    "sourceSlide": 4,
-    "number": 4,
-    "part": 1,
-    "parts": 1,
-    "sourceSlides": [
-      4
-    ]
-  },
-  {
-    "kind": "content",
-    "title": "Prefissi e compatibilità",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
+          },
           {
             "text": "Tutte queste proprietà faranno parte, prima o poi, delle specifiche. Utilizzare i prefissi permette allo sviluppatore front-end di avere un \"accesso anticipato\" a esse, garantendo al contempo la compatibilità",
             "runs": [
@@ -160,7 +142,7 @@
       }
     ],
     "sourceSlide": 4,
-    "number": 5,
+    "number": 4,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -196,7 +178,7 @@
       }
     ],
     "sourceSlide": 5,
-    "number": 6,
+    "number": 5,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -261,7 +243,7 @@
       }
     ],
     "sourceSlide": 6,
-    "number": 7,
+    "number": 6,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -307,10 +289,26 @@
             "traits": []
           }
         ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Per approfondire",
+            "runs": [
+              {
+                "text": "Per approfondire",
+                "href": "https://www.bram.us/2021/07/08/the-large-small-and-dynamic-viewports/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
       }
     ],
     "sourceSlide": 7,
-    "number": 8,
+    "number": 7,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -363,7 +361,7 @@
       }
     ],
     "sourceSlide": 8,
-    "number": 9,
+    "number": 8,
     "part": 1,
     "parts": 1,
     "revision": "tailwind-daisyui-2026-10",
@@ -380,46 +378,27 @@
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Il modulo di nidificazione CSS definisce una sintassi per la nidificazione dei selettori, offrendo la possibilità di annidare una regola di stile all'interno di un'altra. La nidificazione CSS è diversa dai preprocessori CSS come Sass nel senso che viene analizzata dal browser anziché essere precompilata da un preprocessore CSS",
+            "text": "Con il nesting CSS una regola può essere annidata in un’altra: il browser la interpreta direttamente, senza la precompilazione richiesta da preprocessori come SASS.",
             "runs": [
               {
-                "text": "Il modulo di nidificazione CSS definisce una sintassi per la nidificazione dei selettori, offrendo la possibilità di annidare una regola di stile all'interno di un'altra. La nidificazione CSS è diversa dai preprocessori CSS come Sass nel senso che viene analizzata dal browser anziché essere precompilata da un preprocessore CSS"
+                "text": "Con il nesting CSS una regola può essere annidata in un’altra: il browser la interpreta direttamente, senza la precompilazione richiesta da preprocessori come SASS."
               }
             ],
             "bullet": false,
             "level": 0
           },
           {
-            "text": "La nidificazione CSS aiuta nella leggibilità, modularità e manutenibilità dei fogli di stile CSS. Inoltre, potenzialmente aiuta a ridurre le dimensioni dei file CSS, riducendo così la quantità di dati scaricati dagli utenti",
+            "text": "Raggruppare gli stili correlati rende il foglio più leggibile e più facile da mantenere, evitando di ripetere i selettori.",
             "runs": [
               {
-                "text": "La nidificazione CSS aiuta nella leggibilità, modularità e manutenibilità dei fogli di stile CSS. Inoltre, potenzialmente aiuta a ridurre le dimensioni dei file CSS, riducendo così la quantità di dati scaricati dagli utenti"
+                "text": "Raggruppare gli stili correlati rende il foglio più leggibile e più facile da mantenere, evitando di ripetere i selettori."
               }
             ],
             "bullet": false,
             "level": 0
           }
         ]
-      }
-    ],
-    "sourceSlide": 9,
-    "number": 10,
-    "part": 1,
-    "parts": 1,
-    "sourceSlides": [
-      9
-    ],
-    "sources": [
-      {
-        "title": "Per approfondire",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Nesting_selector"
-      }
-    ]
-  },
-  {
-    "kind": "content",
-    "title": "CSS Nesting · sintassi a confronto",
-    "blocks": [
+      },
       {
         "kind": "code",
         "paragraphs": [
@@ -614,7 +593,7 @@
       }
     ],
     "sourceSlide": 9,
-    "number": 11,
+    "number": 9,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -623,7 +602,7 @@
     "layout": "code-columns",
     "sources": [
       {
-        "title": "Per approfondire",
+        "title": "MDN",
         "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Nesting_selector"
       }
     ]
@@ -657,105 +636,11 @@
       }
     ],
     "sourceSlide": 10,
-    "number": 12,
+    "number": 10,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
       10
-    ]
-  },
-  {
-    "kind": "content",
-    "title": "Object-fit",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "La proprietà object-fit definisce il modo in cui un elemento si adatta all’altezza e alla larghezza del box che lo contiene ",
-            "runs": [
-              {
-                "text": "La proprietà "
-              },
-              {
-                "text": "object-fit",
-                "mono": true
-              },
-              {
-                "text": " definisce il modo in cui un elemento si adatta all’altezza e alla larghezza del box che lo contiene "
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Si utilizza su elementi come immagini e video, e permette di acquisire il controllo su come l’elemento si “schiaccia” o si “allarga” nel suo contenitore",
-            "runs": [
-              {
-                "text": "Si utilizza su elementi come "
-              },
-              {
-                "text": "immagini e video",
-                "bold": true
-              },
-              {
-                "text": ", e permette di acquisire il controllo su come l’elemento si “schiaccia” o si “allarga” nel suo contenitore"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Per modificare l'allineamento dell'elemento ridimensionato rispetto al suo contenitore si può usare la proprietà object-position",
-            "runs": [
-              {
-                "text": "Per modificare l'allineamento dell'elemento ridimensionato rispetto al suo contenitore si può usare la proprietà "
-              },
-              {
-                "text": "object-position",
-                "bold": true,
-                "mono": true
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Per approfondire la differenza tra background-image e object -fit",
-            "runs": [
-              {
-                "text": "Per approfondire la differenza tra "
-              },
-              {
-                "text": "background-image",
-                "mono": true
-              },
-              {
-                "text": " e object -fit"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      }
-    ],
-    "sourceSlide": 11,
-    "number": 13,
-    "part": 1,
-    "parts": 1,
-    "sourceSlides": [
-      11
-    ],
-    "sources": [
-      {
-        "title": "Try it",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit#try_it"
-      },
-      {
-        "title": "A Deep Dive Into object-fit And background-size In CSS",
-        "url": "https://www.smashingmagazine.com/2021/10/object-fit-background-size-css/"
-      }
     ]
   },
   {
@@ -772,24 +657,71 @@
             "title": "Adattare immagini e video",
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit",
             "example": "img {\n  height: 200px;\n  width: 200px;\n  object-fit: fill | contain | cover | none | scale-down\n}",
-            "introduction": [],
+            "introduction": [
+              {
+                "text": "La proprietà object-fit definisce il modo in cui un elemento si adatta all’altezza e alla larghezza del box che lo contiene ",
+                "runs": [
+                  {
+                    "text": "La proprietà "
+                  },
+                  {
+                    "text": "object-fit",
+                    "mono": true
+                  },
+                  {
+                    "text": " definisce il modo in cui un elemento si adatta all’altezza e alla larghezza del box che lo contiene "
+                  }
+                ],
+                "bullet": false,
+                "level": 0
+              },
+              {
+                "text": "Si utilizza su elementi come immagini e video, e permette di acquisire il controllo su come l’elemento si “schiaccia” o si “allarga” nel suo contenitore",
+                "runs": [
+                  {
+                    "text": "Si utilizza su elementi come "
+                  },
+                  {
+                    "text": "immagini e video",
+                    "bold": true
+                  },
+                  {
+                    "text": ", e permette di acquisire il controllo su come l’elemento si “schiaccia” o si “allarga” nel suo contenitore"
+                  }
+                ],
+                "bullet": false,
+                "level": 0
+              },
+              {
+                "text": "Per modificare l'allineamento dell'elemento ridimensionato rispetto al suo contenitore si può usare la proprietà object-position",
+                "runs": [
+                  {
+                    "text": "Per modificare l'allineamento dell'elemento ridimensionato rispetto al suo contenitore si può usare la proprietà "
+                  },
+                  {
+                    "text": "object-position",
+                    "bold": true,
+                    "mono": true
+                  }
+                ],
+                "bullet": false,
+                "level": 0
+              }
+            ],
             "traits": []
           }
-        ]
+        ],
+        "arrangement": "explanation-code"
       }
     ],
     "sourceSlide": 11,
-    "number": 14,
+    "number": 11,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
       11
     ],
     "sources": [
-      {
-        "title": "Try it",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit#try_it"
-      },
       {
         "title": "A Deep Dive Into object-fit And background-size In CSS",
         "url": "https://www.smashingmagazine.com/2021/10/object-fit-background-size-css/"
@@ -850,17 +782,13 @@
       }
     ],
     "sourceSlide": 12,
-    "number": 15,
+    "number": 12,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
       12
     ],
     "sources": [
-      {
-        "title": "Try it",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path#try_it"
-      },
       {
         "title": "Clippy — CSS clip-path maker",
         "url": "https://bennettfeely.com/clippy/"
@@ -947,17 +875,13 @@
       }
     ],
     "sourceSlide": 13,
-    "number": 16,
+    "number": 13,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
       13
     ],
     "sources": [
-      {
-        "title": "Try it",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio#try_it"
-      },
       {
         "title": "esempio",
         "url": "https://stackblitz.com/edit/web-platform-cx5rq5?file=index.html,styles.css,script.js"
@@ -1055,7 +979,7 @@
       }
     ],
     "sourceSlide": 14,
-    "number": 17,
+    "number": 14,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -1073,7 +997,7 @@
     "title": "Grid",
     "blocks": [],
     "sourceSlide": 15,
-    "number": 18,
+    "number": 15,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -1152,7 +1076,7 @@
       }
     ],
     "sourceSlide": 16,
-    "number": 19,
+    "number": 16,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -1246,7 +1170,7 @@
       }
     ],
     "sourceSlide": 17,
-    "number": 20,
+    "number": 17,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -1255,69 +1179,54 @@
   },
   {
     "kind": "content",
-    "title": "Definire righe e colonne",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "Queste proprietà definiscono le righe e le colonne della vostra griglia, grazie ad una lista di valori separati da uno spazio",
-            "runs": [
-              {
-                "text": "Queste proprietà definiscono le righe e le colonne della vostra griglia, grazie ad una lista di valori separati da uno spazio"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Ogni valore rappresenta le dimensioni della vostra colonna o della vostra riga",
-            "runs": [
-              {
-                "text": "Ogni valore rappresenta le dimensioni della vostra colonna o della vostra riga"
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          },
-          {
-            "text": "Gli spazi tra colonne e righe sono detti linee ",
-            "runs": [
-              {
-                "text": "Gli spazi tra colonne e righe sono detti linee "
-              }
-            ],
-            "bullet": false,
-            "level": 0
-          }
-        ]
-      }
-    ],
-    "sourceSlide": 18,
-    "number": 21,
-    "part": 1,
-    "parts": 1,
-    "sourceSlides": [
-      18
-    ]
-  },
-  {
-    "kind": "content",
     "title": "Grid · righe e colonne",
     "blocks": [
       {
         "kind": "tag-reference",
-        "arrangement": "example-result",
+        "arrangement": "explanation-figure",
         "items": [
           {
             "tags": [
-              "grid-template-columns"
+              "grid-template-columns",
+              "grid-template-rows"
             ],
             "title": "Righe e colonne",
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns",
             "example": ".container {\n  grid-template-columns:\n    auto auto auto auto;\n  grid-template-rows:\n    100px 250px 150px;\n}",
-            "introduction": [],
+            "introduction": [
+              {
+                "text": "Queste proprietà definiscono le righe e le colonne della vostra griglia, grazie ad una lista di valori separati da uno spazio",
+                "runs": [
+                  {
+                    "text": "Queste proprietà definiscono le righe e le colonne della vostra griglia, grazie ad una lista di valori separati da uno spazio"
+                  }
+                ],
+                "bullet": false,
+                "level": 0
+              },
+              {
+                "text": "Ogni valore rappresenta le dimensioni della vostra colonna o della vostra riga",
+                "runs": [
+                  {
+                    "text": "Ogni valore rappresenta le dimensioni della vostra colonna o della vostra riga"
+                  }
+                ],
+                "bullet": false,
+                "level": 0
+              },
+              {
+                "text": "Gli spazi tra colonne e righe sono detti linee ",
+                "runs": [
+                  {
+                    "text": "Gli spazi tra colonne e righe sono detti linee "
+                  }
+                ],
+                "bullet": false,
+                "level": 0
+              }
+            ],
             "traits": [],
+            "tagSeparator": " e ",
             "figure": {
               "src": "/images/esercitazioni/grid-righe-colonne.svg",
               "alt": "Griglia con quattro colonne uguali e tre righe di 100, 250 e 150 pixel. Cinque linee verticali rosa e quattro orizzontali ambra delimitano le celle.",
@@ -1328,7 +1237,7 @@
       }
     ],
     "sourceSlide": 18,
-    "number": 22,
+    "number": 18,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -1341,11 +1250,12 @@
     "blocks": [
       {
         "kind": "tag-reference",
-        "arrangement": "example-result",
+        "arrangement": "explanation-figure",
         "items": [
           {
             "tags": [
-              "grid-template-columns"
+              "grid-template-columns",
+              "grid-template-rows"
             ],
             "title": "Linee nominate",
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns",
@@ -1373,6 +1283,7 @@
               }
             ],
             "traits": [],
+            "tagSeparator": " e ",
             "figure": {
               "src": "/images/esercitazioni/grid-linee-nominate.svg",
               "alt": "Griglia con quattro colonne e tre righe. Le cinque linee verticali rosa sono col1, col2, col3, col4 e col5; le quattro linee orizzontali ambra sono row1, row2, row3 e row4.",
@@ -1383,7 +1294,7 @@
       }
     ],
     "sourceSlide": 19,
-    "number": 23,
+    "number": 19,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -1392,7 +1303,7 @@
   },
   {
     "kind": "content",
-    "title": "Grid · definire le aree",
+    "title": "Grid · assegnare le aree",
     "blocks": [
       {
         "kind": "tag-reference",
@@ -1403,6 +1314,7 @@
             ],
             "title": "Aree della griglia",
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas",
+            "example": ".container {\n  grid-template-columns:\n    auto auto auto auto;\n  grid-template-rows: 100px 250px 150px;\n  grid-template-areas:\n    \"header header header header\"\n    \"main main main side\"\n    \"footer footer footer side\";\n}\n\n.header { grid-area: header; }\n.main { grid-area: main; }",
             "introduction": [
               {
                 "text": "Questa proprietà permette di definire dei nomi arbitrari per le aree della vostra griglia",
@@ -1454,39 +1366,12 @@
             ],
             "traits": []
           }
-        ]
+        ],
+        "arrangement": "explanation-code"
       }
     ],
     "sourceSlide": 20,
-    "number": 24,
-    "part": 1,
-    "parts": 1,
-    "sourceSlides": [
-      20
-    ]
-  },
-  {
-    "kind": "content",
-    "title": "Grid · assegnare le aree",
-    "blocks": [
-      {
-        "kind": "tag-reference",
-        "items": [
-          {
-            "tags": [
-              "grid-template-areas"
-            ],
-            "title": "Sintassi delle aree",
-            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas",
-            "example": ".container {\n  grid-template-columns: auto auto auto auto;\n  grid-template-rows: 100px 250px 150px;\n  grid-template-areas:\n    \"header header header header\"\n    \"main main main side\"\n    \"footer footer footer side\";\n}\n\n.header { grid-area: header; }\n.main { grid-area: main; }",
-            "introduction": [],
-            "traits": []
-          }
-        ]
-      }
-    ],
-    "sourceSlide": 20,
-    "number": 25,
+    "number": 20,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -1512,7 +1397,8 @@
         "items": [
           {
             "tags": [
-              "column-gap"
+              "column-gap",
+              "row-gap"
             ],
             "title": "Spazi fra righe e colonne",
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap",
@@ -1539,13 +1425,14 @@
                 "level": 0
               }
             ],
-            "traits": []
+            "traits": [],
+            "tagSeparator": " e "
           }
         ]
       }
     ],
     "sourceSlide": 21,
-    "number": 26,
+    "number": 21,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -1592,7 +1479,7 @@
       }
     ],
     "sourceSlide": 22,
-    "number": 27,
+    "number": 22,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -1680,7 +1567,7 @@
       }
     ],
     "sourceSlide": 23,
-    "number": 28,
+    "number": 23,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -1725,7 +1612,7 @@
       }
     ],
     "sourceSlide": 24,
-    "number": 29,
+    "number": 24,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -1737,7 +1624,7 @@
     "title": "srcset",
     "blocks": [],
     "sourceSlide": 25,
-    "number": 30,
+    "number": 25,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -1818,7 +1705,7 @@
       }
     ],
     "sourceSlide": 26,
-    "number": 31,
+    "number": 26,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -1943,7 +1830,7 @@
       }
     ],
     "sourceSlide": 27,
-    "number": 32,
+    "number": 27,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -2094,7 +1981,7 @@
       }
     ],
     "sourceSlide": 28,
-    "number": 33,
+    "number": 28,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -2161,7 +2048,7 @@
       }
     ],
     "sourceSlide": 29,
-    "number": 34,
+    "number": 29,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -2269,7 +2156,7 @@
       }
     ],
     "sourceSlide": 30,
-    "number": 35,
+    "number": 30,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -2424,7 +2311,7 @@
       }
     ],
     "sourceSlide": 31,
-    "number": 36,
+    "number": 31,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -2619,7 +2506,7 @@
       }
     ],
     "sourceSlide": 32,
-    "number": 37,
+    "number": 32,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -2674,7 +2561,7 @@
       }
     ],
     "sourceSlide": 33,
-    "number": 38,
+    "number": 33,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -2702,7 +2589,7 @@
       }
     ],
     "sourceSlide": 34,
-    "number": 39,
+    "number": 34,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -2778,7 +2665,7 @@
       }
     ],
     "sourceSlide": 35,
-    "number": 40,
+    "number": 35,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -2796,7 +2683,7 @@
       }
     ],
     "sourceSlide": 36,
-    "number": 41,
+    "number": 36,
     "part": 1,
     "parts": 1,
     "sourceSlides": [
@@ -2809,7 +2696,7 @@
     "sourceSlide": null,
     "sourceSlides": [],
     "sourceKind": "course-assignment",
-    "number": 42,
+    "number": 37,
     "part": 1,
     "parts": 1,
     "adaptedFrom": [
@@ -2980,37 +2867,11 @@
     ]
   },
   {
-    "kind": "content",
-    "title": "Esercizio 2 · Il sito aggiornato",
-    "sourceSlide": null,
-    "sourceSlides": [],
-    "sourceKind": "course-assignment",
-    "number": 43,
-    "part": 1,
-    "parts": 1,
-    "layout": "screenshot",
-    "adaptedFrom": [
-      {
-        "exercise": "03",
-        "slide": 42
-      }
-    ],
-    "blocks": [
-      {
-        "kind": "figure",
-        "src": "/images/esercitazioni/sito-grid-responsive.webp",
-        "alt": "Evoluzione del sito precedente: menu Home, Chi siamo e Contatti, introduzione e immagine affiancate con Grid, tre blocchi sotto e footer blu.",
-        "caption": "Il sito precedente con layout Grid e un’immagine responsive. Su schermi stretti introduzione, immagine e blocchi si dispongono in una colonna.",
-        "showCaption": false
-      }
-    ]
-  },
-  {
     "kind": "closing",
     "title": "Fine esercitazione 03",
     "blocks": [],
     "sourceSlide": 37,
-    "number": 44,
+    "number": 38,
     "part": 1,
     "parts": 1,
     "sourceSlides": [

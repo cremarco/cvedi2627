@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 import { curriculum, sources as officialSources, examples } from '../../data/esercitazioni/framework-curriculum.mjs'
 import { reviseExercise } from '../../data/esercitazioni/editorial-revisions.mjs'
-import { gridRemovedCopy, gridTextRevision } from '../../data/esercitazioni/grid-revisions.mjs'
+import { gridRemovedCopy, gridRemovedLinks, gridTextRevision } from '../../data/esercitazioni/grid-revisions.mjs'
 import { workedExamples } from '../../data/esercitazioni/worked-examples.mjs'
 import { nativeExamples, rebuildImportedSlide } from '../../data/esercitazioni/native-examples.mjs'
 
@@ -26,6 +26,10 @@ export async function checkExerciseSources() {
   for (const asset of [...diagram.diagrams, ...(diagram.demos || []), ...(diagram.screenshots || [])]) {
     assert.equal(await digest(`progetti/slide/assets/esercitazioni/schemi/${asset.source}`), asset.sha256, 'authored diagram matches its manifest')
     assert.equal(await digest(`progetti/slide/public${asset.web}`), asset.sha256, 'local diagram mirror preserves its source')
+  }
+  for (const asset of diagram.archivedScreenshots || []) {
+    assert.equal(await digest(`progetti/slide/assets/esercitazioni/schemi/${asset.source}`), asset.sha256, 'retired screenshot preserves its captured bytes')
+    await readFile(path.join(root, 'progetti/slide/assets/esercitazioni/schemi', asset.original))
   }
   for (const image of archivedImages.values()) assert.equal(await digest(image.retained), image.sha256, 'retired documentary assets remain intact')
   const catalog = await json('progetti/slide/assets/esercitazioni/tailwind-daisyui/sources.json')
@@ -72,8 +76,9 @@ export async function checkExerciseSources() {
       assert.deepEqual(slides, expected, 'reconstruction matches the native specification and preserves other blocks')
       if (number === '03') {
         const rendered = JSON.stringify(slides)
-        for (const link of imported.flatMap(slide => slide.blocks.flatMap(block => (block.paragraphs || []).flatMap(p => p.runs.filter(run => run.href)))).filter(run => run.href !== 'https://tailwindcss.com/docs/padding'))
+        for (const link of imported.flatMap(slide => slide.blocks.flatMap(block => (block.paragraphs || []).flatMap(p => p.runs.filter(run => run.href)))).filter(run => !gridRemovedLinks.includes(run.href)))
           assert.ok(rendered.includes(link.href), 'exercise 03 retains every original outbound destination')
+        assert.ok(gridRemovedLinks.every(url => !rendered.includes(url)), 'exercise 03 omits the premature Tailwind reference and redundant MDN Try it links')
         assert.ok(!rendered.includes('https://tailwindcss.com/docs/padding') && !rendered.includes('2025'), 'exercise 03 omits the premature Tailwind reference and uses 2026')
         const compact = text => text.replace(/\s+/g, '')
         const strings = value => typeof value === 'string' ? [value] : value && typeof value === 'object' ? Object.values(value).flatMap(strings) : []
