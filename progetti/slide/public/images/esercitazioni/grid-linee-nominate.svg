@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" viewBox="0 0 720 460" role="img" aria-labelledby="title desc">
+<title id="title">Le linee nominate della griglia</title><desc id="desc">Quattro colonne uguali e tre righe proporzionali a 100, 250 e 150 pixel. Le cinque linee verticali sono rosa; le quattro orizzontali sono ambra. Nomi delle linee: col1–col5 e row1–row4.</desc>
+<rect width="720" height="460" rx="12" fill="#18181b"/>
+<path d="M0 48H720" stroke="#3f3f46"/>
+<g fill="#71717a"><circle cx="25" cy="24" r="5"/><circle cx="44" cy="24" r="5"/><circle cx="63" cy="24" r="5"/></g>
+<g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+<rect x="153" y="88" width="104" height="46" rx="4" fill="#3f3f46"/><text x="205" y="111" dominant-baseline="central" text-anchor="middle" fill="#fafafa" font-size="27">1</text>
+<rect x="273" y="88" width="104" height="46" rx="4" fill="#3f3f46"/><text x="325" y="111" dominant-baseline="central" text-anchor="middle" fill="#fafafa" font-size="27">2</text>
+<rect x="393" y="88" width="104" height="46" rx="4" fill="#3f3f46"/><text x="445" y="111" dominant-baseline="central" text-anchor="middle" fill="#fafafa" font-size="27">3</text>
+<rect x="513" y="88" width="104" height="46" rx="4" fill="#3f3f46"/><text x="565" y="111" dominant-baseline="central" text-anchor="middle" fill="#fafafa" font-size="27">4</text>
+<rect x="153" y="150" width="104" height="139" rx="4" fill="#3f3f46"/><text x="205" y="219.5" dominant-baseline="central" text-anchor="middle" fill="#fafafa" font-size="27">5</text>
+<rect x="273" y="150" width="104" height="139" rx="4" fill="#3f3f46"/><text x="325" y="219.5" dominant-baseline="central" text-anchor="middle" fill="#fafafa" font-size="27">6</text>
+<rect x="393" y="150" width="104" height="139" rx="4" fill="#3f3f46"/><text x="445" y="219.5" dominant-baseline="central" text-anchor="middle" fill="#fafafa" font-size="27">7</text>
+<rect x="513" y="150" width="104" height="139" rx="4" fill="#3f3f46"/><text x="565" y="219.5" dominant-baseline="central" text-anchor="middle" fill="#fafafa" font-size="27">8</text>
+<rect x="153" y="305" width="104" height="77" rx="4" fill="#3f3f46"/><text x="205" y="343.5" dominant-baseline="central" text-anchor="middle" fill="#fafafa" font-size="27">9</text>
+<rect x="273" y="305" width="104" height="77" rx="4" fill="#3f3f46"/><text x="325" y="343.5" dominant-baseline="central" text-anchor="middle" fill="#fafafa" font-size="27">10</text>
+<rect x="393" y="305" width="104" height="77" rx="4" fill="#3f3f46"/><text x="445" y="343.5" dominant-baseline="central" text-anchor="middle" fill="#fafafa" font-size="27">11</text>
+<rect x="513" y="305" width="104" height="77" rx="4" fill="#3f3f46"/><text x="565" y="343.5" dominant-baseline="central" text-anchor="middle" fill="#fafafa" font-size="27">12</text>
+<path d="M145 64V406" stroke="#f9a8d4" stroke-width="2"/><text x="145" y="438" text-anchor="middle" fill="#f9a8d4" font-size="26">col1</text>
+<path d="M265 64V406" stroke="#f9a8d4" stroke-width="2"/><text x="265" y="438" text-anchor="middle" fill="#f9a8d4" font-size="26">col2</text>
+<path d="M385 64V406" stroke="#f9a8d4" stroke-width="2"/><text x="385" y="438" text-anchor="middle" fill="#f9a8d4" font-size="26">col3</text>
+<path d="M505 64V406" stroke="#f9a8d4" stroke-width="2"/><text x="505" y="438" text-anchor="middle" fill="#f9a8d4" font-size="26">col4</text>
+<path d="M625 64V406" stroke="#f9a8d4" stroke-width="2"/><text x="625" y="438" text-anchor="middle" fill="#f9a8d4" font-size="26">col5</text>
+<path d="M136 80H660" stroke="#fbbf24" stroke-width="2"/><text x="119" y="80" dominant-baseline="central" text-anchor="end" fill="#fbbf24" font-size="26">row1</text>
+<path d="M136 142H660" stroke="#fbbf24" stroke-width="2"/><text x="119" y="142" dominant-baseline="central" text-anchor="end" fill="#fbbf24" font-size="26">row2</text>
+<path d="M136 297H660" stroke="#fbbf24" stroke-width="2"/><text x="119" y="297" dominant-baseline="central" text-anchor="end" fill="#fbbf24" font-size="26">row3</text>
+<path d="M136 390H660" stroke="#fbbf24" stroke-width="2"/><text x="119" y="390" dominant-baseline="central" text-anchor="end" fill="#fbbf24" font-size="26">row4</text>
+</g></svg>

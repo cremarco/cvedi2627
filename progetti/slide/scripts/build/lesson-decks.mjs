@@ -61,10 +61,19 @@ export async function buildLessonDecks(directory, base = '/') {
     await cp(path.join(root, 'progetti/slide/public', item.name), path.join(output, item.name), { recursive: true })
   }
   if (mode === 'build') for (const directory of localAssetDirectories) await rm(path.join(output, directory), { recursive: true, force: true })
-  const references = (await Promise.all(catalog.decks.map(async deck => {
+  let references = (await Promise.all(catalog.decks.map(async deck => {
     const dir = path.join(output, deckDirectory(deck.id), 'assets')
     return (await Promise.all((await readdir(dir)).filter(f => /\.(?:js|css)$/.test(f)).map(f => readFile(path.join(dir, f), 'utf8')))).join('\n')
   }))).join('\n')
+  // Linked teaching sites reference responsive images from HTML and CSS.
+  async function linkedDocuments(directory) {
+    const contents = await Promise.all((await readdir(directory, { withFileTypes: true })).map(item => {
+      const file = path.join(directory, item.name)
+      return item.isDirectory() ? linkedDocuments(file) : /\.(?:html|css)$/i.test(item.name) ? readFile(file, 'utf8') : ''
+    }))
+    return contents.join('\n')
+  }
+  references += '\n' + await linkedDocuments(path.join(output, 'images'))
   async function prune(directory) {
     for (const item of await readdir(directory, { withFileTypes: true })) {
       const file = path.join(directory, item.name)

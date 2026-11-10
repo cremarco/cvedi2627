@@ -81,6 +81,48 @@
         15
       ],
       "description": "Ricostruzione vettoriale delle aree del box model nella famiglia approvata delle esercitazioni."
+    },
+    {
+      "source": "grid-righe-colonne.svg",
+      "web": "/images/esercitazioni/grid-righe-colonne.svg",
+      "sha256": "e45514470d4fd458c63ceb303733d3a07103e07f2ac09f5e923a68a6e51b3904",
+      "historicalDiagram": "progetti/slide/assets/esercitazioni/native-rebuild/images/03-018-diagram.webp",
+      "sourceSlides": [
+        18
+      ],
+      "exercise": "03",
+      "generator": "progetti/slide/scripts/build/exercise-grid-diagrams.mjs",
+      "description": "Righe e colonne della griglia; quattro colonne uguali e tre righe nelle proporzioni 100:250:150, con linee verticali rosa e orizzontali ambra",
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "source": "grid-linee-nominate.svg",
+      "web": "/images/esercitazioni/grid-linee-nominate.svg",
+      "sha256": "9cff02a542ec0c4555f98479b84745e898206b3db990638cc356d7416a673d1a",
+      "historicalDiagram": "progetti/slide/assets/esercitazioni/native-rebuild/images/03-019-diagram.webp",
+      "sourceSlides": [
+        19
+      ],
+      "exercise": "03",
+      "generator": "progetti/slide/scripts/build/exercise-grid-diagrams.mjs",
+      "description": "Le linee nominate della griglia; quattro colonne uguali e tre righe nelle proporzioni 100:250:150, con linee verticali rosa e orizzontali ambra",
+      "labels": [
+        "col1",
+        "col2",
+        "col3",
+        "col4",
+        "col5",
+        "row1",
+        "row2",
+        "row3",
+        "row4"
+      ]
     }
   ],
   "demos": [
@@ -118,6 +160,54 @@
       "source": "../../../../../risorse-condivise/stili/tokens.css",
       "web": "/images/esercitazioni/esercizio-01/tokens.css",
       "sha256": "1434516ae811199f225289bf3bf365f5bfe36481a8b7208f163c9e84cb639fcd"
+    },
+    {
+      "source": "../esempio-03/index.html",
+      "web": "/images/esercitazioni/esercizio-03/index.html",
+      "sha256": "497dba053b9ad4cfb2c1edc3ffd8ce2f13ece4aac2844a57a52b1dce1f509fe4",
+      "exercise": "03"
+    },
+    {
+      "source": "../esempio-03/chi-siamo.html",
+      "web": "/images/esercitazioni/esercizio-03/chi-siamo.html",
+      "sha256": "102e40cc1e0b5e40ec223feaefbad12dc999bdacc46a014dc96fdb306f01e713",
+      "exercise": "03"
+    },
+    {
+      "source": "../esempio-03/contatti.html",
+      "web": "/images/esercitazioni/esercizio-03/contatti.html",
+      "sha256": "f395261e02c8a31c7a840f5426759484b9b0169253f976b3c60c59490846a1f6",
+      "exercise": "03"
+    },
+    {
+      "source": "../esempio-03/stile.css",
+      "web": "/images/esercitazioni/esercizio-03/stile.css",
+      "sha256": "0dd9c1775482b045e10ab3e30292d766b24e7504841b4591cfb0d9137c3521d9",
+      "exercise": "03"
+    },
+    {
+      "source": "../esempio-03/immagine-480.webp",
+      "web": "/images/esercitazioni/esercizio-03/immagine-480.webp",
+      "sha256": "d09090a6b0771a6c33d404105d33a139eb0bd9814e7ef48acc97536f53d08695",
+      "exercise": "03"
+    },
+    {
+      "source": "../esempio-03/immagine-960.webp",
+      "web": "/images/esercitazioni/esercizio-03/immagine-960.webp",
+      "sha256": "ec5c353a9dc7f9d3a6aed502b8cb42ed9fd0ceddfbbb9787bc6df48bdae43198",
+      "exercise": "03"
+    },
+    {
+      "source": "../esempio-03/immagine-1440.webp",
+      "web": "/images/esercitazioni/esercizio-03/immagine-1440.webp",
+      "sha256": "e30ce8c2b707e7debb787c9a9672c7b341d93de2aec7805bf48132d5ae40b72e",
+      "exercise": "03"
+    },
+    {
+      "source": "../../../../../risorse-condivise/stili/tokens.css",
+      "web": "/images/esercitazioni/esercizio-03/tokens.css",
+      "sha256": "1434516ae811199f225289bf3bf365f5bfe36481a8b7208f163c9e84cb639fcd",
+      "exercise": "03"
     }
   ],
   "screenshots": [
@@ -160,6 +250,17 @@
       "sha256": "e33c06f581ed0b2b77bc9e593e6516e6b64b32045c2a5b40a0d74c1e887f3764",
       "author": "Materiale originale di Elia Guarnieri",
       "description": "../picture.jpg: immagine nella cartella genitore della pagina corrente."
+    },
+    {
+      "source": "../esempio-03/catture/home-desktop.webp",
+      "web": "/images/esercitazioni/sito-grid-responsive.webp",
+      "sha256": "bbfe81120a2125b73723260314ec9b9bc5e129f3b1b5291bd1a27fac259695ce",
+      "sourceKind": "browser-capture",
+      "capturedFrom": "/images/esercitazioni/esercizio-03/index.html",
+      "original": "../esempio-03/catture/home-desktop.png",
+      "generator": "progetti/slide/scripts/build/exercise-grid-site-preview.mjs",
+      "exercise": "03",
+      "description": "Schermata effettiva della home del sito con Grid e immagini responsive, viewport 1100 × 900, contenuti e colori del sito Flexbox precedente"
     }
   ],
   "exerciseDemo": {
@@ -184,5 +285,23 @@
       "description": "Stessi box, dimensioni, dichiarazioni e legenda dell’originale, nella famiglia scura delle esercitazioni.",
       "reason": "Sostituito nella slide 18 dal confronto codice e risultato HTML nativo."
     }
-  ]
+  ],
+  "gridExerciseDemo": {
+    "entry": "/images/esercitazioni/esercizio-03/index.html",
+    "evolvesFrom": "progetti/slide/assets/esercitazioni/esempio-01",
+    "description": "Stessi testi, colori, menu Flexbox e tre pagine del sito precedente; layout con Grid e immagine responsive nella home.",
+    "image": {
+      "original": "image.svg",
+      "derivative": "../esempio-03/paesaggio.svg",
+      "adaptation": "Paesaggio geometrico conservato, con rimozione della cornice e dei controlli della finestra per l’impiego come immagine del sito",
+      "author": "Schema originale realizzato per CVeDI; contenuti della lezione di Elia Guarnieri",
+      "widths": [
+        480,
+        960,
+        1440
+      ],
+      "format": "WebP",
+      "generator": "progetti/slide/scripts/build/exercise-grid-site.mjs"
+    }
+  }
 }

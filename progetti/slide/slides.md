@@ -114,7 +114,7 @@ footer: "Esercitazioni"
 <div class="index-grid exercise-index-grid" aria-label="Presentazioni delle esercitazioni">
   <SlideAction to="esercitazione-01" calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">01</span><span>Ripasso HTML e CSS di base</span></SlideAction>
   <SlideAction to="esercitazione-02" calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">02</span><span>Ripasso HTML e CSS avanzato</span></SlideAction>
-  <SlideAction to="esercitazione-03" disabled calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">03</span><span>Nuove proprietà CSS, Grid e Srcset</span></SlideAction>
+  <SlideAction to="esercitazione-03" calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">03</span><span>Nuove proprietà CSS, Grid e Srcset</span></SlideAction>
   <SlideAction to="esercitazione-04" disabled calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">04</span><span>Interfacce responsive e approccio mobile-first</span></SlideAction>
   <SlideAction to="esercitazione-05" disabled calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">05</span><span>Tailwind CSS: basi e layout</span></SlideAction>
   <SlideAction to="esercitazione-06" disabled calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">06</span><span>daisyUI: componenti per le interfacce</span></SlideAction>
@@ -826,7 +826,6 @@ src: ./esercitazioni/02-html-css-avanzato.md
 
 ---
 src: ./esercitazioni/03-css-grid-srcset.md
-localOnly: true
 ---
 
 ---

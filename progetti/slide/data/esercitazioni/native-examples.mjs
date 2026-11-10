@@ -20,7 +20,7 @@ const table = (head, rows) => `<table class="table"><thead><tr>${head.map(h => `
 const record = (html, caption) => ({ html, caption })
 const tree = 'progetto/\n├── cartella/\n│   ├── file-corrente.html\n│   ├── picture.jpg\n│   └── images/picture.jpg\n├── images/picture.jpg\n└── picture.jpg'
 const filePath = (path, destination) => record(columns(code(`<img src="${path}" alt="Descrizione dell’immagine">`), `<div>${label('Documento di partenza: cartella/file-corrente.html')}${code(tree)}${label(destination)}</div>`), 'Il percorso è risolto a partire dal documento corrente o dalla radice del sito.')
-const grid = names => `<div class="native-grid-lines"><div class="native-grid">${items(12)}</div><div class="native-col-names">${(names ? ['col1', 'col2', 'col3', 'col4', 'col5'] : ['1', '2', '3', '4', '5']).map(value => `<span>${e(value)}</span>`).join('')}</div><p>${names ? 'row1 → row2 → row3 → row4' : 'Tre righe e quattro colonne; cinque linee verticali.'}</p></div>`
+const grid = names => `<div class="native-grid-lines" style="padding:10px 0"><div class="native-grid" style="height:210px">${items(12)}</div><div class="native-col-names">${(names ? ['col1', 'col2', 'col3', 'col4', 'col5'] : ['1', '2', '3', '4', '5']).map(value => `<span>${e(value)}</span>`).join('')}</div><p>${names ? 'row1 → row2 → row3 → row4' : 'Tre righe e quattro colonne; cinque linee verticali.'}</p></div>`
 const git = (steps, command, note = '') => record(`${flow(...steps)}${command ? code(command) : ''}${note ? `<p>${e(note)}</p>` : ''}`, 'Operazioni e relazioni ricostruite con testo e codice selezionabili dalla schermata originale.')
 
 const copy = (...paragraphs) => ({ kind: 'text', paragraphs: paragraphs.map(text => ({ text, runs: [{ text }], bullet: false, level: 0 })) })

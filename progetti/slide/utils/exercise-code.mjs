@@ -18,11 +18,11 @@ export function exerciseCodeLanguage(source = '') {
   if (/^(?:<!|<\/?[a-z])/i.test(code)) return 'html'
   if (/^(?:npm|pnpm|npx|git|curl|cd|mkdir|touch)\s/m.test(code)) return 'bash'
   if (/^(?:import\s|export\s|const\s|let\s|var\s|function\b|if\s*\(|for\s*\(|while\s*\(|\/\/|\$\(|jQuery\(|document\.|console\.|\.\w+\s*\()/m.test(code) || /=>|\bfunction\s*\(|\.addEventListener\(/.test(code)) return 'javascript'
-  if (/<\/?[a-z][^>]*>/i.test(code)) return 'html'
   if (/^[\[{]/.test(code)) {
     try { JSON.parse(code); return 'json' } catch { /* CSS and JS can also start with braces. */ }
   }
   if (/^@(?:import|plugin|theme|media|supports|layer|utility)\b/m.test(code) || /[^{}\n]+\{/.test(code) || /\/\*/.test(code) || /^[\w-]+\s*:\s*\S/.test(code)) return 'css'
+  if (/<\/?[a-z][^>]*>/i.test(code)) return 'html'
   return 'text'
 }
 

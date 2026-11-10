@@ -3,6 +3,7 @@ import { documentaryExamples } from './documentary-examples.mjs'
 import { tagReferenceBlocks } from './tag-references.mjs'
 import { browserMarketShare } from './browser-market-share.mjs'
 import { reviseAdvancedExercise } from './advanced-revisions.mjs'
+import { reviseGridExercise } from './grid-revisions.mjs'
 
 const mergedAway = [6, 8, 11, 13, 21, 23, 25, 29, 30, 32, 35, 37, 39, 40, 42, 43, 46, 58, 62, 63, 68, 69, 72, 73, 75, 76, 82, 84, 85, 87, 88, 90, 92, 93, 95, 96, 98, 99, 100, 102, 105, 107]
 export const revisedExerciseNumber = number => number - mergedAway.filter(removed => removed <= number).length
@@ -40,6 +41,7 @@ export function reviseExercise(slides, exercise) {
 }
 
 function reviseExerciseContent(slides, exercise) {
+  if (exercise === '03') return reviseGridExercise(slides)
   if (exercise === '02') return reviseAdvancedExercise(slides)
   if (exercise !== '01') return slides
   const revised = structuredClone(slides)

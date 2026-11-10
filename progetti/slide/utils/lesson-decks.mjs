@@ -17,7 +17,7 @@ export const lessonDecks = [
   { id: 'test-usabilita', lesson: 'test-usabilita', alias: 'test-usabilita', title: 'Test di usabilità', file: 'lezioni/12-test-usabilita.md', audioLocalOnly: true },
   { id: 'esercitazione-01', lesson: 'esercitazione-01', alias: 'esercitazione-01', title: "Esercitazione 1 - Ripasso HTML e CSS di base", file: 'esercitazioni/01-html-css-base.md' },
   { id: 'esercitazione-02', lesson: 'esercitazione-02', alias: 'esercitazione-02', title: "Esercitazione 2 - Ripasso HTML e CSS avanzato", file: 'esercitazioni/02-html-css-avanzato.md' },
-  { id: 'esercitazione-03', lesson: 'esercitazione-03', alias: 'esercitazione-03', title: "Esercitazione 3 - Nuove proprietà CSS, Grid e Srcset", file: 'esercitazioni/03-css-grid-srcset.md', localOnly: true },
+  { id: 'esercitazione-03', lesson: 'esercitazione-03', alias: 'esercitazione-03', title: "Esercitazione 3 - Nuove proprietà CSS, Grid e Srcset", file: 'esercitazioni/03-css-grid-srcset.md' },
   { id: 'esercitazione-04', lesson: 'esercitazione-04', alias: 'esercitazione-04', title: "Esercitazione 4 - Interfacce responsive e approccio mobile-first", file: 'esercitazioni/04-responsive-mobile-first.md', localOnly: true },
   { id: 'esercitazione-05', lesson: 'esercitazione-05', alias: 'esercitazione-05', title: "Esercitazione 5 - Tailwind CSS: basi e layout", file: 'esercitazioni/05-tailwind-css.md', localOnly: true },
   { id: 'esercitazione-06', lesson: 'esercitazione-06', alias: 'esercitazione-06', title: "Esercitazione 6 - daisyUI: componenti per le interfacce", file: 'esercitazioni/06-daisyui-componenti.md', localOnly: true },

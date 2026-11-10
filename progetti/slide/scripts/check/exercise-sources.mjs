@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 import { curriculum, sources as officialSources, examples } from '../../data/esercitazioni/framework-curriculum.mjs'
 import { reviseExercise } from '../../data/esercitazioni/editorial-revisions.mjs'
+import { gridRemovedCopy, gridTextRevision } from '../../data/esercitazioni/grid-revisions.mjs'
 import { workedExamples } from '../../data/esercitazioni/worked-examples.mjs'
 import { nativeExamples, rebuildImportedSlide } from '../../data/esercitazioni/native-examples.mjs'
 
@@ -69,24 +70,56 @@ export async function checkExerciseSources() {
         assert.ok(!/<img\b/i.test(nativeExamples[block.example].html), 'native reconstructions contain no raster teaching content')
       }
       assert.deepEqual(slides, expected, 'reconstruction matches the native specification and preserves other blocks')
+      if (number === '03') {
+        const rendered = JSON.stringify(slides)
+        for (const link of imported.flatMap(slide => slide.blocks.flatMap(block => (block.paragraphs || []).flatMap(p => p.runs.filter(run => run.href)))).filter(run => run.href !== 'https://tailwindcss.com/docs/padding'))
+          assert.ok(rendered.includes(link.href), 'exercise 03 retains every original outbound destination')
+        assert.ok(!rendered.includes('https://tailwindcss.com/docs/padding') && !rendered.includes('2025'), 'exercise 03 omits the premature Tailwind reference and uses 2026')
+        const compact = text => text.replace(/\s+/g, '')
+        const strings = value => typeof value === 'string' ? [value] : value && typeof value === 'object' ? Object.values(value).flatMap(strings) : []
+        for (const sourceSlide of new Set(imported.map(slide => slide.sourceSlide))) {
+          const original = imported.filter(slide => slide.sourceSlide === sourceSlide)
+          const current = slides.filter(slide => slide.sourceSlides.includes(sourceSlide))
+          const originalCode = original.flatMap(slide => slide.blocks.filter(block => block.kind === 'code').map(block => block.text)).join('\n').replace(/<!--[\s\S]*?-->/g, '').replaceAll('parentRule', '.parent-rule').replaceAll('childRule', '.child-rule')
+          const currentCode = current.flatMap(slide => slide.blocks.flatMap(block => block.kind === 'code' ? [block.text] : (block.items || []).flatMap(item => item.example ? [item.example] : []))).join('\n')
+          assert.equal(compact(currentCode), compact(originalCode), `03/${sourceSlide}: complete code preserved apart from whitespace and explanatory HTML comments`)
+          for (const paragraph of original.flatMap(slide => slide.blocks.filter(block => block.kind === 'text').flatMap(block => block.paragraphs))) {
+            if (paragraph.runs.some(run => run.href) || gridRemovedCopy.includes(paragraph.text.trim())) continue
+            assert.ok(normalize(strings(current).join(' ')).includes(normalize(gridTextRevision(paragraph.text)).replace(/[.,;:!?…]+$/, '')), `03/${sourceSlide}: original explanation preserved apart from requested editorial corrections`)
+          }
+        }
+      }
       assert.ok(slides.every(slide => slide.blocks.every(block => block.kind !== 'image')), 'active images use catalogued figures rather than untracked bitmap blocks')
       for (const slide of slides.filter(slide => slide.blocks.some(block => block.kind === 'resources'))) {
         const page = source.find(page => page.sourceSlide === slide.sourceSlide)
         const links = page.blocks.flatMap(block => block.paragraphs?.flatMap(paragraph => paragraph.runs.filter(run => run.href).map(run => ({ title: run.text, url: run.href }))) || [])
-        assert.deepEqual(slide.blocks.flatMap(block => block.resources || []), links, 'resource lists preserve the labels, order and destinations of their own source page')
+        const resources = slide.blocks.flatMap(block => block.resources || [])
+        if (number === '03') {
+          assert.deepEqual(resources.map(resource => resource.url), links.map(link => link.url), 'exercise 03 reference lists preserve source order and destinations')
+          assert.ok(resources.every(resource => resource.title.trim() && !/^https?:/.test(resource.title)), 'exercise 03 references use meaningful labels')
+          assert.ok(slide.blocks.every(block => block.kind !== 'resources' || block.resourceLayout === 'list' && block.showHint === false), 'exercise 03 references use the shared vertical list')
+        } else assert.deepEqual(resources, links, 'resource lists preserve the labels, order and destinations of their own source page')
       }
     }
     if (exercise.currentMapping) {
-      assert.deepEqual([...new Set(exercise.currentMapping.flatMap(entry => entry.slides))].sort((a, b) => a - b), slides.map(slide => slide.number), 'current mapping covers every slide, including intentionally reordered source pages')
+      for (const slide of slides.filter(slide => slide.sourceSlide === null)) {
+        assert.equal(slide.sourceKind, 'course-assignment', 'new exercise additions identify their authored role')
+        assert.deepEqual(slide.sourceSlides, [], 'new assignments do not claim historical source pages')
+        assert.ok(slide.adaptedFrom?.length, 'continued assignments identify the preceding exercises')
+      }
+      assert.deepEqual([...new Set(exercise.currentMapping.flatMap(entry => entry.slides))].sort((a, b) => a - b), slides.filter(slide => slide.sourceSlide !== null).map(slide => slide.number), 'current mapping covers every slide, including intentionally reordered source pages')
       for (const entry of exercise.currentMapping) assert.ok(entry.slides.every(no => (slides[no - 1].sourceSlides || [slides[no - 1].sourceSlide]).includes(entry.sourceSlide)), 'current destinations retain their source page')
     }
-    for (const block of slides.flatMap(slide => slide.blocks).filter(block => block.kind === 'figure')) {
+    for (const block of slides.flatMap(slide => slide.blocks.flatMap(block => [block, ...(block.items || []).flatMap(item => item.figure ? [{ kind: 'figure', ...item.figure }] : [])])).filter(block => block.kind === 'figure')) {
       assert.ok(block.alt, 'every figure retains alternative text')
       if (!(diagram.screenshots || []).some(asset => asset.web === block.src)) assert.ok(block.caption, 'new diagrams retain captions')
       const screenshot = (diagram.screenshots || []).find(asset => asset.web === block.src)
       if (screenshot) {
         assert.equal(await digest(`progetti/slide/public${block.src}`), screenshot.sha256, 'restored editor screenshot retains its exact archived bytes')
-        assert.ok(archivedImages.has(block.src), 'restored screenshots remain in the historical asset archive')
+        if (screenshot.sourceKind === 'browser-capture') {
+          assert.ok(screenshot.capturedFrom && screenshot.generator && screenshot.original, 'new site screenshots retain capture provenance')
+          await readFile(path.join(root, 'progetti/slide/assets/esercitazioni/schemi', screenshot.original))
+        } else assert.ok(archivedImages.has(block.src), 'restored screenshots remain in the historical asset archive')
       } else {
         const svg = await readFile(path.join(root, 'progetti/slide/public', block.src), 'utf8')
         assert.ok(svg.includes('<svg') && !/<image\b/.test(svg), 'new teaching diagrams are native vectors')

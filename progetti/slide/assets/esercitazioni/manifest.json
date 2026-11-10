@@ -2035,7 +2035,7 @@
       "sha256": "f8bad7bb480f807cff53a805e049319bdb31e2caacbc87b3007a8f6118259149",
       "pdf": "progetti/slide/assets/esercitazioni/originali/03-css-grid-srcset.pdf",
       "pdfSha256": "353ff0dae638d04bfdb0f808eb80efe28fdc07d7e6ec0d0702b564545649b8ca",
-      "slideCount": 50,
+      "slideCount": 44,
       "mapping": [
         {
           "sourceSlide": 1,
@@ -2343,6 +2343,276 @@
         "specification": "progetti/slide/data/esercitazioni/native-examples.mjs",
         "renderer": "progetti/slide/components/ExerciseNative.vue",
         "corrections": []
+      },
+      "currentMapping": [
+        {
+          "sourceSlide": 1,
+          "sourceTitle": "Corso di CVeDI (8 CFU)",
+          "slides": [
+            1
+          ]
+        },
+        {
+          "sourceSlide": 2,
+          "sourceTitle": "Nuove proprietà CSS, Grid e Srcset",
+          "slides": [
+            2
+          ]
+        },
+        {
+          "sourceSlide": 3,
+          "sourceTitle": "PROPRIETÀ CSS DA CONOSCERE NEL 2025",
+          "slides": [
+            3
+          ]
+        },
+        {
+          "sourceSlide": 4,
+          "sourceTitle": "Proprietà CSS, compatibilità e prefissi",
+          "slides": [
+            4,
+            5
+          ]
+        },
+        {
+          "sourceSlide": 5,
+          "sourceTitle": "Proprietà da tenere d’occhio",
+          "slides": [
+            6
+          ]
+        },
+        {
+          "sourceSlide": 6,
+          "sourceTitle": "Container Queries",
+          "slides": [
+            7
+          ]
+        },
+        {
+          "sourceSlide": 7,
+          "sourceTitle": "Dynamic Viewport Units",
+          "slides": [
+            8
+          ]
+        },
+        {
+          "sourceSlide": 8,
+          "sourceTitle": "Logical Properties",
+          "slides": [
+            9
+          ]
+        },
+        {
+          "sourceSlide": 9,
+          "sourceTitle": "CSS Nesting",
+          "slides": [
+            10,
+            11
+          ]
+        },
+        {
+          "sourceSlide": 10,
+          "sourceTitle": "Proprietà generalmente supportate",
+          "slides": [
+            12
+          ]
+        },
+        {
+          "sourceSlide": 11,
+          "sourceTitle": "Object-fit",
+          "slides": [
+            13,
+            14
+          ]
+        },
+        {
+          "sourceSlide": 12,
+          "sourceTitle": "Clip-path",
+          "slides": [
+            15
+          ]
+        },
+        {
+          "sourceSlide": 13,
+          "sourceTitle": "Aspect-ratio",
+          "slides": [
+            16
+          ]
+        },
+        {
+          "sourceSlide": 14,
+          "sourceTitle": "Columns",
+          "slides": [
+            17
+          ]
+        },
+        {
+          "sourceSlide": 15,
+          "sourceTitle": "GRID",
+          "slides": [
+            18
+          ]
+        },
+        {
+          "sourceSlide": 16,
+          "sourceTitle": "Cos’è grid",
+          "slides": [
+            19
+          ]
+        },
+        {
+          "sourceSlide": 17,
+          "sourceTitle": "Proprietà per il genitore",
+          "slides": [
+            20
+          ]
+        },
+        {
+          "sourceSlide": 18,
+          "sourceTitle": "grid-template-columns e grid-template-row",
+          "slides": [
+            21,
+            22
+          ]
+        },
+        {
+          "sourceSlide": 19,
+          "sourceTitle": "grid-template-columns e grid-template-row",
+          "slides": [
+            23
+          ]
+        },
+        {
+          "sourceSlide": 20,
+          "sourceTitle": "grid-template-areas",
+          "slides": [
+            24,
+            25
+          ]
+        },
+        {
+          "sourceSlide": 21,
+          "sourceTitle": "column-gap e row-gap",
+          "slides": [
+            26
+          ]
+        },
+        {
+          "sourceSlide": 22,
+          "sourceTitle": "Proprietà per i figli",
+          "slides": [
+            27
+          ]
+        },
+        {
+          "sourceSlide": 23,
+          "sourceTitle": "grid-column e grid-row",
+          "slides": [
+            28
+          ]
+        },
+        {
+          "sourceSlide": 24,
+          "sourceTitle": "grid-area",
+          "slides": [
+            29
+          ]
+        },
+        {
+          "sourceSlide": 25,
+          "sourceTitle": "srcset",
+          "slides": [
+            30
+          ]
+        },
+        {
+          "sourceSlide": 26,
+          "sourceTitle": "Cos’è srcset e perché usarlo",
+          "slides": [
+            31
+          ]
+        },
+        {
+          "sourceSlide": 27,
+          "sourceTitle": "La sintassi di srcset",
+          "slides": [
+            32
+          ]
+        },
+        {
+          "sourceSlide": 28,
+          "sourceTitle": "Implementare srcset con gli x-descriptors",
+          "slides": [
+            33
+          ]
+        },
+        {
+          "sourceSlide": 29,
+          "sourceTitle": "Limitazioni degli x-descriptors",
+          "slides": [
+            34
+          ]
+        },
+        {
+          "sourceSlide": 30,
+          "sourceTitle": "Srcset con i w-descriptors",
+          "slides": [
+            35
+          ]
+        },
+        {
+          "sourceSlide": 31,
+          "sourceTitle": "L’attributo sizes",
+          "slides": [
+            36
+          ]
+        },
+        {
+          "sourceSlide": 32,
+          "sourceTitle": "Implementare srcset con i w-descriptors e sizes",
+          "slides": [
+            37
+          ]
+        },
+        {
+          "sourceSlide": 33,
+          "sourceTitle": "Sizes",
+          "slides": [
+            38
+          ]
+        },
+        {
+          "sourceSlide": 34,
+          "sourceTitle": "Srcset refercence",
+          "slides": [
+            39
+          ]
+        },
+        {
+          "sourceSlide": 35,
+          "sourceTitle": "ESERCIZIO 1",
+          "slides": [
+            40
+          ]
+        },
+        {
+          "sourceSlide": 36,
+          "sourceTitle": "ESERCIZIO 1 · esempio",
+          "slides": [
+            41
+          ]
+        },
+        {
+          "sourceSlide": 37,
+          "sourceTitle": "FINE",
+          "slides": [
+            44
+          ]
+        }
+      ],
+      "editorialRevision": {
+        "specification": "progetti/slide/data/esercitazioni/grid-revisions.mjs",
+        "reference": "01-html-css-base.md"
       }
     },
     {
@@ -4068,7 +4338,7 @@
     }
   ],
   "sourceSlides": 349,
-  "slideCount": 460,
+  "slideCount": 454,
   "verification": {
     "summary": "reports/esercitazioni/verification.json",
     "sources": "reports/esercitazioni/source-report.json",
@@ -4620,7 +4890,7 @@
     "slides": 85,
     "specification": "progetti/slide/data/esercitazioni/native-examples.mjs",
     "renderer": "progetti/slide/components/ExerciseNative.vue",
-    "sourceBitmapsActive": 5,
+    "sourceBitmapsActive": 6,
     "verification": {
       "status": "passed",
       "nativeExamples": 101,

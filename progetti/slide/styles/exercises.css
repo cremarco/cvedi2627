@@ -133,6 +133,10 @@
 .exercise-tag-reference--example-result .exercise-tag-output-label { display: none; }
 .exercise-tag-preview { min-width: 0; }
 .exercise-tag-introduction p + p { margin-top: 12px !important; }
+/* Dense property explanations retain their scale beside the complete syntax. */
+.exercise-tag-reference--explanation-code { grid-template-columns: 1fr; }
+.exercise-tag-reference--explanation-code .exercise-tag-section { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 48px; align-items: center; }
+.exercise-tag-reference--explanation-code .exercise-tag-header { grid-column: 1 / -1; }
 .slidev-layout.default .exercise-tag-output :is(ul, ol) { margin: 0; padding-left: 1.4em; }
 .slidev-layout.default .exercise-tag-output ul { list-style-type: disc; }
 .slidev-layout.default .exercise-tag-output ol { list-style-type: decimal; }
@@ -144,6 +148,9 @@
 .exercise-tag-reference--matched .exercise-tag-section { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
 .exercise-tag-reference--matched .exercise-tag-preview { display: flex; align-items: center; padding: 12px 24px; box-sizing: border-box; background: var(--exercise-result-surface); }
+.exercise-tag-reference--matched .exercise-tag-preview--figure { padding: 0; background: transparent; }
+.exercise-tag-preview--figure > .lesson-figure { width: 100%; height: 350px; margin: 0; }
+.exercise-tag-preview--figure .lesson-figure-media { height: 100%; }
 
 .exercise-tag-reference--samples { grid-template-columns: 1fr; }
 .exercise-tag-reference--samples .exercise-tag-section { display: grid; gap: 16px 48px; }
@@ -169,7 +176,7 @@
 .slidev-layout.default .exercise-original-copy h2 { margin: 0; font-size: 23px; line-height: 1.4; }
 .exercise-original-copy .exercise-code { margin: 0; }
 .exercise-original-copy .exercise-code::before { display: none; }
-.exercise-content[data-exercise="02"] { --exercise-css-selector: #91cbff; --exercise-css-property: var(--cvedi-pink-300); --exercise-css-value: var(--cvedi-gray-200); }
+.exercise-content:is([data-exercise="02"], [data-exercise="03"]) { --exercise-css-selector: #91cbff; --exercise-css-property: var(--cvedi-pink-300); --exercise-css-value: var(--cvedi-gray-200); }
 .exercise-original-layout--stacked { grid-template-columns: 1fr; gap: 24px; }
 .exercise-original-layout--stacked > .exercise-code { margin: 0; }
 

@@ -13,10 +13,10 @@ const { load, injectPreparserExtensionLoader } = await import(require.resolve('@
 const slideRoot = path.join(root, 'progetti/slide')
 const options = { roots: [slideRoot], userRoot: slideRoot, allowedRoots: [root] }
 
-test('the first two exercises are published while the remaining exercises stay local', async () => {
+test('the first three exercises are published while the remaining exercises stay local', async () => {
   const curriculum = JSON.parse(await readFile(path.join(root, 'progetti/slide/data/ux-curriculum.json'), 'utf8'))
   const exercises = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/esercitazioni/manifest.json'), 'utf8'))
-  assert.deepEqual(lessonDecks.filter(deck => deck.localOnly && deck.id.startsWith('esercitazione-')).map(deck => deck.id), exercises.exercises.slice(2).map(exercise => exercise.id))
+  assert.deepEqual(lessonDecks.filter(deck => deck.localOnly && deck.id.startsWith('esercitazione-')).map(deck => deck.id), exercises.exercises.slice(3).map(exercise => exercise.id))
   const gridsIndex = lessonDecks.findIndex(deck => deck.id === 'griglie-layout')
   assert.equal(lessonDecks[gridsIndex - 1].id, 'tipografia-griglie', 'grids are a separate set immediately after typography')
   assert.equal(lessonDecks[gridsIndex + 1].id, 'composizione-gerarchia', 'composition follows grids')

@@ -13,7 +13,7 @@ import { highlightExerciseCode, exerciseCodeLanguage } from '../utils/exercise-c
 
 interface Run { text: string; href?: string; bold?: boolean; italic?: boolean; underline?: boolean; mono?: boolean }
 interface Paragraph { text: string; runs: Run[]; bullet?: boolean; level?: number }
-interface Block { kind: string; showCaption?: boolean; content?: OriginalLayout; resourceLayout?: 'list'; showHint?: boolean; items?: TagReference[]; paths?: PathReference[]; arrangement?: 'stacked-pair' | 'rows' | 'example-result' | 'samples' | 'grid'; sharedTraits?: string[]; opening?: string; closing?: string; labels?: string[]; text?: string; paragraphs?: Paragraph[]; rows?: string[][]; src?: string; crop?: [number, number, number, number]; alt?: string; caption?: string; example?: string; resources?: { title: string; url: string }[] }
+interface Block { kind: string; showCaption?: boolean; content?: OriginalLayout; resourceLayout?: 'list'; showHint?: boolean; items?: TagReference[]; paths?: PathReference[]; arrangement?: 'stacked-pair' | 'rows' | 'example-result' | 'explanation-code' | 'samples' | 'grid'; sharedTraits?: string[]; opening?: string; closing?: string; labels?: string[]; text?: string; paragraphs?: Paragraph[]; rows?: string[][]; src?: string; crop?: [number, number, number, number]; alt?: string; caption?: string; example?: string; resources?: { title: string; url: string }[] }
 interface ExerciseSlide { layout?: string; number: number; sourceSlide: number | null; sourceKind?: string; part: number; parts: number; kind: string; blocks: Block[]; sources?: { title: string; url: string }[]; credit?: string }
 // Preserve source runs while recognizing tags embedded in ordinary prose.
 function inlineRuns(runs: Run[]) {
@@ -25,6 +25,7 @@ const files = import.meta.env.PROD
   ? {
       '../data/esercitazioni/01.json': () => import('../data/esercitazioni/01.json').then(module => module.default),
       '../data/esercitazioni/02.json': () => import('../data/esercitazioni/02.json').then(module => module.default),
+      '../data/esercitazioni/03.json': () => import('../data/esercitazioni/03.json').then(module => module.default),
     }
   : import.meta.glob('../data/esercitazioni/*.json', { import: 'default' })
 const slides = shallowRef<ExerciseSlide[]>([])
