@@ -57,6 +57,14 @@ Intervenire nelle sorgenti pertinenti di `data/esercitazioni/` e nei generatori,
 
 Per modifiche alle slide eseguire `pnpm check:source` e `pnpm build`, quindi scegliere i controlli delle esercitazioni pertinenti, inclusi `check:exercises` e `check:exercise-native` quando cambiano risultati HTML. Verificare le slide modificate su desktop, viewport stretto e stampa in un'anteprima isolata, controllando leggibilità, riquadri, assenza di tagli, zoom, collegamenti e controlli interattivi. La sola assenza di overflow non dimostra che un esempio sia leggibile.
 
+### URL delle esercitazioni
+
+Le sole esercitazioni autonome usano `routerMode: history`, selezionato in `lessonDeckExtensions` tramite l’identità del deck. Gli altri set e la presentazione completa conservano `routerMode: hash` e i propri link. I collegamenti dell’indice usano `deckHref`; `deckLocation` distingue il documento dalla slide corrente per mantenere la sincronizzazione fra relatore e pubblico anche quando cambia il percorso.
+
+Esempi: `lezioni/esercitazione-03/42/` per una slide e `lezioni/esercitazione-03/presenter/1/` per il relatore. `writeExerciseHistoryEntries` genera copie dell’ingresso HTML per numeri, alias e viste native, senza fallback 404 globale. Il prefisso di hosting resta quello della build. Lo script `exerciseHashRedirectScript`, presente soltanto nelle pagine delle esercitazioni, converte i vecchi frammenti `#/` in percorsi e conserva i parametri della query. L’anteprima locale applica lo stesso adattamento. Il ritorno all’indice generale conserva il suo hash originario.
+
+`pnpm check:exercise-history` verifica su un server statico senza fallback apertura diretta, ricaricamento, compatibilità, avanti/indietro e conservazione degli indirizzi delle lezioni teoriche. `pnpm check:presenter` copre il cambio fra indice e deck e la sincronizzazione delle finestre. I test unitari dei percorsi sono inclusi in `pnpm check:decks`.
+
 ### Codice inline
 
 «Codice inline» è il nome concordato per l’evidenza con font monospaziato e sfondo grigio chiaro, token gray 200, applicata a tag HTML, proprietà e frammenti di codice dentro una frase. Quando l’utente richiede questo trattamento, usare `code` con la classe condivisa `exercise-inline-code`. Nella prosa delle esercitazioni i tag incorporati nei passaggi testuali sono riconosciuti senza modificare i contenuti; i blocchi di codice mantengono il proprio trattamento.

@@ -1,6 +1,7 @@
 /** Wait for rendered slide content rather than background prefetch/network idle. */
 export async function openSlide(page, base, target, { settle = false } = {}) {
-  await page.goto(`${base.replace(/\/$/, '')}/#/${target}`, { waitUntil: 'domcontentloaded' })
+  const route = /\/lezioni\/esercitazione-\d{2}\/?$/.test(new URL(base).pathname) ? `/${target}/` : `/#/${target}`
+  await page.goto(`${base.replace(/\/$/, '')}${route}`, { waitUntil: 'domcontentloaded' })
   const selector = typeof target === 'number'
     ? `.slidev-page-${target} .slidev-layout`
     : '.slidev-layout.is-active'

@@ -4,7 +4,7 @@ import { computed, useId } from 'vue'
 import { calendarDates } from '../utils/calendar-dates.mjs'
 import { useSlideSet } from '../composables/use-slide-set'
 import { slideSet } from '../utils/slide-sets'
-import { deckForTarget, deckDirectory } from '../utils/lesson-decks.mjs'
+import { deckForTarget, deckHref } from '../utils/lesson-decks.mjs'
 import HeroIcon from './HeroIcon.vue'
 
 const props = withDefaults(defineProps<{ to: string | number; showArrow?: boolean; localOnly?: boolean; disabled?: boolean; calendarDate?: boolean }>(), { showArrow: true, localOnly: false, disabled: false, calendarDate: false })
@@ -17,7 +17,7 @@ const destinationDeck = computed(() => typeof props.to === 'string' ? deckForTar
 const destinationHref = computed(() => {
   const owner = destinationDeck.value
   if (!import.meta.env.VITE_CVEDI_DECK || !owner || nav.value.slides.some(slide => slide.meta.slide.frontmatter.routeAlias === props.to)) return undefined
-  return `${import.meta.env.VITE_CVEDI_MENU_BASE || '/'}${deckDirectory(owner.id)}#/${props.to}`
+  return deckHref(owner.id, props.to, import.meta.env.VITE_CVEDI_MENU_BASE || '/')
 })
 function activate(event: MouseEvent) {
   if (disabled.value) { event.preventDefault(); return }

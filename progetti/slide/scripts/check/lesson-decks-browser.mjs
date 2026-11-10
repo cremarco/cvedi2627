@@ -7,6 +7,7 @@ import { readFile, mkdir, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { chromium } from 'playwright-chromium'
 import { openSlide } from '../../../../scripts/check/browser.mjs'
+import { deckHref } from '../../utils/lesson-decks.mjs'
 import { deckCatalog } from '../build/lesson-decks.mjs'
 import { lessonAssetInventory } from './lesson-deck-assets.mjs'
 
@@ -132,7 +133,7 @@ try {
     const menuTarget = exercise ? 'indice-esercitazioni' : 3
     const menu = await openSlide(page, base, menuTarget, { settle: true })
     phase = 'lesson'
-    await menu.locator(`a[href$="#/${deck.alias}"]`).click()
+    await menu.locator(`a[href="${deckHref(deck.id, deck.alias, new URL(base).pathname)}"]`).click()
     await page.waitForURL(`**/lezioni/${deck.id}/**`)
     await page.locator('.slidev-page-1 .slidev-layout').waitFor({ state: 'visible' })
     await assertOwner(page, deck.lesson)

@@ -1,3 +1,4 @@
+import { isExerciseDeck } from './exercise-history.mjs'
 /** Independent presentations; source files and lesson identities stay unchanged. */
 export const lessonDecks = [
   { id: 'apertura', lesson: 'apertura', alias: 'apertura', title: 'Lezioni', file: null },
@@ -31,6 +32,28 @@ export function lessonDeck(id) {
   return deck
 }
 export const deckDirectory = id => id === 'apertura' ? '' : `lezioni/${id}/`
+export function deckHref(id, target, base = '/') {
+  const root = base + deckDirectory(id)
+  if (!isExerciseDeck(id)) return root + '#/' + target
+  const [route, query] = String(target).split('?')
+  return root + route.replace(/\/$/, '') + '/' + (query ? '?' + query : '')
+}
+
+/** Resolve both exercise paths and existing hash routes within the same course. */
+export function deckLocation(href, base) {
+  const url = new URL(href)
+  if (url.origin !== base.origin) return
+  const deck = lessonDecks.find(deck => {
+    const root = base.pathname + deckDirectory(deck.id)
+    return isExerciseDeck(deck.id) ? url.pathname.startsWith(root) : url.pathname === root
+  })
+  if (!deck) return
+  const root = base.pathname + deckDirectory(deck.id)
+  const fragment = url.hash.startsWith('#/') ? url.hash.slice(2) : isExerciseDeck(deck.id) ? url.pathname.slice(root.length).replace(/\/$/, '') || '1' : undefined
+  if (fragment === undefined) return
+  const [route, query] = fragment.split('?')
+  return { deck, root, route, query }
+}
 export const deckForTarget = alias => lessonDecks.find(deck => deck.alias === alias || deck.id === alias)
 
 /** Disable unrelated imports before the parser opens their Markdown files. */
@@ -44,6 +67,7 @@ export function lessonDeckExtensions(id, filepath) {
       if (!isRoot) return
       if (Object.hasOwn(matter, 'theme')) {
         matter.preloadImages = false
+        if (isExerciseDeck(id)) matter.routerMode = 'history'
         // Slidev's static synchronization channels are keyed by the deck title.
         // Independent lessons must not share navigation, drawings or timers.
         if (id !== 'apertura') matter.title = `${matter.title} · ${selected.title}`

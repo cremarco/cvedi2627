@@ -3,6 +3,7 @@ import { createServer, connect } from 'node:net'
 import { request } from 'node:http'
 import { readFile } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
+import { isExerciseDeck, withExerciseHashRedirect } from './exercise-history.mjs'
 import { lessonDeck, lessonDecks } from './lesson-decks.mjs'
 import { legacyRedirectScript } from '../scripts/build/lesson-decks.mjs'
 const root = fileURLToPath(new URL('../', import.meta.url))
@@ -101,7 +102,15 @@ export function lessonDecksDevPlugin() {
               headers['cache-control'] = 'no-store'
               headers.vary = [...new Set([...(headers.vary || '').split(',').map(value => value.trim()).filter(Boolean), 'Referer'])].join(', ')
             }
-            res.writeHead(incoming.statusCode || 502, headers); incoming.pipe(res)
+            if (isExerciseDeck(found[1]) && String(headers['content-type']).includes('text/html')) {
+              delete headers['content-length']
+              const chunks = []
+              incoming.on('data', chunk => chunks.push(chunk))
+              incoming.on('end', () => {
+                res.writeHead(incoming.statusCode || 502, headers)
+                res.end(withExerciseHashRedirect(Buffer.concat(chunks).toString('utf8'), `/lezioni/${found[1]}/`))
+              })
+            } else { res.writeHead(incoming.statusCode || 502, headers); incoming.pipe(res) }
           })
           upstream.on('error', error => { res.writeHead(502); res.end(error.message) })
           req.pipe(upstream)

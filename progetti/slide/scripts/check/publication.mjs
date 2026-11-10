@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 import { publicationExtensions, localAssetDirectories, sharedLessonAssetDirectories } from '../../utils/publication.mjs'
 import { lessonDecks } from '../../utils/lesson-decks.mjs'
+import { exerciseHistoryPaths, isExerciseDeck } from '../../utils/exercise-history.mjs'
 import { readGridsManifest } from './grids-source.mjs'
 import { captionLessons, readLessonCaptions } from '../build/lesson-captions.mjs'
 
@@ -160,6 +161,13 @@ export async function checkPublishedBuild(directory) {
     assert.ok(exerciseChunks.some(file => new RegExp(`^${number}-.*\\.js$`).test(file)), 'authorized exercise JSON is emitted')
   assert.ok(!exerciseChunks.some(file => /^0[4-9]-.*\.js$/.test(file)), 'other exercise JSON chunks are not emitted')
   const catalog = JSON.parse(await readFile(path.join(output, 'decks.json'), 'utf8'))
+  for (const deck of catalog.decks.filter(deck => isExerciseDeck(deck.id))) {
+    const directory = path.join(output, 'lezioni', deck.id)
+    const entry = await readFile(path.join(directory, 'index.html'))
+    assert.ok(entry.toString().includes('id="cvedi-exercise-history"'), 'exercise entries retain old bookmark migration')
+    for (const route of exerciseHistoryPaths(deck.slides))
+      assert.deepEqual(await readFile(path.join(directory, route, 'index.html')), entry, 'every exercise route has a static entry for direct visits and refreshes')
+  }
   const curriculum = JSON.parse(await readFile(path.join(root, 'progetti/slide/data/ux-curriculum.json'), 'utf8'))
   for (const lesson of curriculum.archivedLessons) {
     assert.ok(catalog.decks.every(deck => deck.id !== lesson.id), `${lesson.id}: archived lesson is absent from the published catalog`)

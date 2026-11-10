@@ -4,6 +4,7 @@ import { readFile, writeFile, mkdir, readdir, rm, cp, realpath } from 'node:fs/p
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 import { lessonDecks, deckDirectory } from '../../utils/lesson-decks.mjs'
+import { exerciseHistoryPaths, isExerciseDeck, withExerciseHashRedirect } from '../../utils/exercise-history.mjs'
 import { publicationExtensions, localAssetDirectories } from '../../utils/publication.mjs'
 const root = fileURLToPath(new URL('../../../..', import.meta.url))
 const slideRoot = fileURLToPath(new URL('../..', import.meta.url))
@@ -31,7 +32,7 @@ export async function deckCatalog(mode = 'build') {
 }
 
 export function legacyRedirectScript(catalog, base) {
-  return `(()=>{const routes=${JSON.stringify(catalog.legacy)};let redirecting=false;function redirect(){if(redirecting)return;const fragment=decodeURIComponent(location.hash.replace(/^#\\//,'')),parts=fragment.split('?'),segments=parts[0].split('/'),route=routes[segments[0]];if(route&&route.deck!=='apertura'){redirecting=true;location.replace(${JSON.stringify(base)}+'lezioni/'+route.deck+'/#/'+route.target+(segments.length>1?'/'+segments.slice(1).join('/'):'')+(parts.length>1?'?'+parts.slice(1).join('?'):''))}}addEventListener('hashchange',redirect);redirect()})()`
+  return `(()=>{const routes=${JSON.stringify(catalog.legacy)};let redirecting=false;function redirect(){if(redirecting)return;const fragment=decodeURIComponent(location.hash.replace(/^#\\//,'')),parts=fragment.split('?'),segments=parts[0].split('/'),route=routes[segments[0]];if(route&&route.deck!=='apertura'){redirecting=true;location.replace(${JSON.stringify(base)}+'lezioni/'+route.deck+'/'+(route.deck.startsWith('esercitazione-')?'':'#/')+route.target+(segments.length>1?'/'+segments.slice(1).join('/'):'')+(parts.length>1?'?'+parts.slice(1).join('?'):''))}}addEventListener('hashchange',redirect);redirect()})()`
 }
 
 async function runBuild(deck, output, base, menuBase) {
@@ -39,6 +40,17 @@ async function runBuild(deck, output, base, menuBase) {
     cwd: slideRoot, stdio: 'inherit', env: { ...process.env, CVEDI_DECK: deck.id, CVEDI_SHARED_ASSETS: '1', VITE_CVEDI_DECK: deck.id, VITE_CVEDI_MENU_BASE: menuBase, VITE_CVEDI_ASSET_BASE: menuBase },
   })
   await new Promise((resolve, reject) => { child.on('error', reject); child.on('exit', code => code === 0 ? resolve() : reject(new Error(`${deck.id}: build failed (${code})`))) })
+}
+
+export async function writeExerciseHistoryEntries(directory, slides, base) {
+  const index = path.join(directory, 'index.html')
+  const html = withExerciseHashRedirect(await readFile(index, 'utf8'), base)
+  await writeFile(index, html)
+  for (const route of exerciseHistoryPaths(slides)) {
+    const entry = path.join(directory, route)
+    await mkdir(entry, { recursive: true })
+    await writeFile(path.join(entry, 'index.html'), html)
+  }
 }
 
 export async function buildLessonDecks(directory, base = '/') {
@@ -53,6 +65,7 @@ export async function buildLessonDecks(directory, base = '/') {
     const destination = path.join(output, deckDirectory(deck.id))
     await runBuild(deck, destination, base + deckDirectory(deck.id), base)
     const index = path.join(destination, 'index.html')
+    if (isExerciseDeck(deck.id)) await writeExerciseHistoryEntries(destination, deck.slides, base + deckDirectory(deck.id))
     if (deck.id === 'apertura') await writeFile(index, (await readFile(index, 'utf8')).replace('<head>', `<head><script id="cvedi-deck-redirect">${legacyRedirectScript(catalog, base)}</script>`))
   }
   // Media are copied once for the entire collection, never once per lesson.
