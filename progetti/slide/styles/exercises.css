@@ -137,6 +137,13 @@
 .exercise-tag-reference--explanation-code { grid-template-columns: 1fr; }
 .exercise-tag-reference--explanation-code .exercise-tag-section { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 48px; align-items: center; }
 .exercise-tag-reference--explanation-code .exercise-tag-header { grid-column: 1 / -1; }
+/* Explanation and syntax stay together beside a zoomable Grid diagram. */
+.exercise-tag-reference--explanation-figure { grid-template-columns: 1fr; }
+.exercise-tag-reference--explanation-figure .exercise-tag-section { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 48px; align-items: start; }
+.exercise-tag-reference--explanation-figure .exercise-tag-header { grid-column: 1 / -1; }
+.exercise-tag-reference--explanation-figure .exercise-tag-introduction { grid-column: 1; grid-row: 2; }
+.exercise-tag-reference--explanation-figure .exercise-code { grid-column: 1; grid-row: 3; min-height: 0; }
+.exercise-tag-reference--explanation-figure .exercise-tag-preview { grid-column: 2; grid-row: 2 / 4; align-self: center; }
 .slidev-layout.default .exercise-tag-output :is(ul, ol) { margin: 0; padding-left: 1.4em; }
 .slidev-layout.default .exercise-tag-output ul { list-style-type: disc; }
 .slidev-layout.default .exercise-tag-output ol { list-style-type: decimal; }

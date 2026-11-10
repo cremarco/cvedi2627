@@ -4,18 +4,18 @@ import ExerciseResultContent, { type ExampleResult } from './ExerciseResultConte
 import ExerciseNative from './ExerciseNative.vue'
 import LessonFigure from './LessonFigure.vue'
 import { highlightExerciseCode, exerciseCodeLanguage } from '../utils/exercise-code.mjs'
-export interface TagReference { tags: string[]; title: string; url: string; example?: string; traits: string[]; native?: string; figure?: { src: string; alt: string; caption: string }; introduction?: { runs: { text: string; bold?: boolean; mono?: boolean }[] }[]; result?: ExampleResult; samples?: { example: string; description: string; result: ExampleResult }[] }
-defineProps<{ items: TagReference[]; arrangement?: 'stacked-pair' | 'rows' | 'example-result' | 'explanation-code' | 'samples' | 'grid'; sharedTraits?: string[] }>()
+export interface TagReference { tags: string[]; tagSeparator?: string; title: string; url: string; example?: string; traits: string[]; native?: string; figure?: { src: string; alt: string; caption: string }; introduction?: { runs: { text: string; bold?: boolean; mono?: boolean }[] }[]; result?: ExampleResult; samples?: { example: string; description: string; result: ExampleResult }[] }
+defineProps<{ items: TagReference[]; arrangement?: 'stacked-pair' | 'rows' | 'example-result' | 'explanation-code' | 'explanation-figure' | 'samples' | 'grid'; sharedTraits?: string[] }>()
 const { set } = useSlideSet()
 const fragments = (text: string) => text.split(/(<\/?[a-z][^<>]*>|`[^`]+`)/gi).filter(Boolean).map(text => ({ text: text.startsWith('`') ? text.slice(1, -1) : text, code: /^<\/?[a-z][^<>]*>$/i.test(text) || text.startsWith('`') }))
 </script>
 
 <template>
-  <div :class="['exercise-tag-reference', { 'exercise-tag-reference--matched': arrangement === 'rows' || arrangement === 'samples' || (arrangement === 'example-result' && items.some(item => item.result || item.native || item.figure)), 'exercise-tag-reference--grid': arrangement === 'grid', 'exercise-tag-reference--explanation-code': arrangement === 'explanation-code', 'exercise-tag-reference--samples': arrangement === 'samples', 'exercise-tag-reference--example-result': arrangement === 'example-result', 'exercise-tag-reference--rows': arrangement === 'rows', 'exercise-tag-reference--stacked': arrangement === 'stacked-pair', 'exercise-tag-reference--results': items.some(item => item.result) }]" :style="{ '--tag-columns': items.length, '--exercise-result-surface': `var(--cvedi-${set.palette}-surface)` }">
+  <div :class="['exercise-tag-reference', { 'exercise-tag-reference--matched': arrangement === 'rows' || arrangement === 'samples' || (arrangement === 'example-result' && items.some(item => item.result || item.native || item.figure)), 'exercise-tag-reference--explanation-figure': arrangement === 'explanation-figure', 'exercise-tag-reference--grid': arrangement === 'grid', 'exercise-tag-reference--explanation-code': arrangement === 'explanation-code', 'exercise-tag-reference--samples': arrangement === 'samples', 'exercise-tag-reference--example-result': arrangement === 'example-result', 'exercise-tag-reference--rows': arrangement === 'rows', 'exercise-tag-reference--stacked': arrangement === 'stacked-pair', 'exercise-tag-reference--results': items.some(item => item.result) }]" :style="{ '--tag-columns': items.length, '--exercise-result-surface': `var(--cvedi-${set.palette}-surface)` }">
     <section v-for="item in items" :key="item.tags.join(',')" class="exercise-tag-section exercise-copy" :aria-label="item.title">
       <header class="exercise-tag-header">
         <div class="exercise-tag-identity">
-          <h2><template v-for="(tag, index) in item.tags" :key="tag"><span v-if="index" class="exercise-tag-range"> … </span><code class="exercise-inline-code">{{ tag }}</code></template></h2>
+          <h2><template v-for="(tag, index) in item.tags" :key="tag"><span v-if="index" class="exercise-tag-range">{{ item.tagSeparator ?? ' … ' }}</span><code class="exercise-inline-code">{{ tag }}</code></template></h2>
         </div>
         <p class="exercise-tag-role">{{ item.title }}</p>
         <a class="link exercise-tag-mdn" :href="item.url" :aria-label="`MDN: ${item.title}`" target="_blank" rel="noopener noreferrer">MDN<span class="sr-only"> (si apre in una nuova scheda)</span></a>
