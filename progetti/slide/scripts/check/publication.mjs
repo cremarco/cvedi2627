@@ -154,12 +154,16 @@ export async function checkPublishedBuild(directory) {
   }
   const references = await bundleReferences(output)
   assert.ok(references.includes('data-exercise-slide'), 'authorized exercise content renderer is published')
-  for (const exercise of ['04', '05', '06', '07', '08', '09'])
+  const exerciseDecks = lessonDecks.filter(deck => isExerciseDeck(deck.id))
+  const excluded = exerciseDecks.filter(deck => deck.localOnly).map(deck => deck.id.slice(-2))
+  const authorized = exerciseDecks.filter(deck => !deck.localOnly).map(deck => deck.id.slice(-2))
+  for (const exercise of excluded)
     assert.ok(!references.includes(`data/esercitazioni/${exercise}.json`), 'unpublished exercise JSON stays out of the bundle')
   const exerciseChunks = await readdir(path.join(output, 'lezioni/esercitazione-01/assets'))
-  for (const number of ['01', '02', '03'])
+  for (const number of authorized)
     assert.ok(exerciseChunks.some(file => new RegExp(`^${number}-.*\\.js$`).test(file)), 'authorized exercise JSON is emitted')
-  assert.ok(!exerciseChunks.some(file => /^0[4-9]-.*\.js$/.test(file)), 'other exercise JSON chunks are not emitted')
+  for (const number of excluded)
+    assert.ok(!exerciseChunks.some(file => new RegExp(`^${number}-.*\\.js$`).test(file)), 'other exercise JSON chunks are not emitted')
   const catalog = JSON.parse(await readFile(path.join(output, 'decks.json'), 'utf8'))
   for (const deck of catalog.decks.filter(deck => isExerciseDeck(deck.id))) {
     const directory = path.join(output, 'lezioni', deck.id)
@@ -239,7 +243,7 @@ export async function checkPublishedBuild(directory) {
     for (const clip of Object.values(manifest.clips))
       assert.ok(references.includes(clip.web), lesson + ': published slides reference their subtitles')
   }
-  assert.deepEqual(catalog.decks.filter(deck => deck.id.startsWith('esercitazione-')).map(deck => deck.id), ['esercitazione-01', 'esercitazione-02', 'esercitazione-03'], 'only authorized exercises are registered online')
+  assert.deepEqual(catalog.decks.filter(deck => deck.id.startsWith('esercitazione-')).map(deck => deck.id), exerciseDecks.filter(deck => !deck.localOnly).map(deck => deck.id), 'only authorized exercises are registered online')
   const exercises = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/esercitazioni/manifest.json'), 'utf8'))
   for (const exercise of exercises.exercises.filter(exercise => lessonDecks.find(deck => deck.id === exercise.id)?.localOnly))
     await assert.rejects(access(path.join(output, 'lezioni', exercise.id)), { code: 'ENOENT' }, 'direct exercise paths are absent online')
