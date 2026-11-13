@@ -123,6 +123,64 @@
         "row3",
         "row4"
       ]
+    },
+    {
+      "source": "responsive-responsive-adaptive.svg",
+      "web": "/images/esercitazioni/responsive-responsive-adaptive.svg",
+      "sha256": "c8bc7d9b2e48d898572514d6b4918feca262e326512dd5bd4bc6baa3ce3d89d9",
+      "exercise": "04",
+      "sourceSlides": [
+        6
+      ],
+      "original": "progetti/slide/assets/esercitazioni/originali/04-responsive-mobile-first.pdf",
+      "generator": "progetti/slide/scripts/build/exercise-responsive-diagrams.mjs",
+      "description": "Responsive e adaptive",
+      "references": [
+        "https://medium.com/react-camp/adaptive-responsive-reactive-62fb938d6191",
+        "https://web.dev/learn/design/intro/"
+      ],
+      "referenceImage": "riferimenti/responsive-adaptive-hybrid.png",
+      "referenceImageSha256": "508a39aed0487312dcf2625887e896a8c2c0648de7526ce96b3b2670b80c7425",
+      "note": "Ricostruzione dal riferimento allegato dall’utente, derivato dall’articolo: colonne Responsive e Adaptive; la colonna Hybrid del riferimento è esclusa su richiesta. X/Y/Z identificano le varianti concettuali del riferimento."
+    },
+    {
+      "source": "responsive-viewport.svg",
+      "web": "/images/esercitazioni/responsive-viewport.svg",
+      "sha256": "4999250995adfd2708bc2f73c2e5dd27f1ba484189f4ebc4e9a2dd08562f43f3",
+      "exercise": "04",
+      "sourceSlides": [
+        10
+      ],
+      "original": "progetti/slide/assets/esercitazioni/originali/04-responsive-mobile-first.pdf",
+      "generator": "progetti/slide/scripts/build/exercise-responsive-diagrams.mjs",
+      "description": "Con e senza meta viewport",
+      "references": [
+        "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta/name/viewport"
+      ]
+    },
+    {
+      "source": "responsive-layout-desktop.svg",
+      "web": "/images/esercitazioni/responsive-layout-desktop.svg",
+      "sha256": "d957c31b3331e2376e7211b63e6db302b179226007fdcebbc67ae50fb5124c45",
+      "exercise": "04",
+      "sourceSlides": [
+        32
+      ],
+      "original": "progetti/slide/assets/esercitazioni/originali/04-responsive-mobile-first.pdf",
+      "generator": "progetti/slide/scripts/build/exercise-responsive-diagrams.mjs",
+      "description": "Esercizio 3: layout desktop"
+    },
+    {
+      "source": "responsive-layout-mobile.svg",
+      "web": "/images/esercitazioni/responsive-layout-mobile.svg",
+      "sha256": "49e85995dd6be461b33d17b7c465174845369db88b41ff145cbaa3064df6548f",
+      "exercise": "04",
+      "sourceSlides": [
+        33
+      ],
+      "original": "progetti/slide/assets/esercitazioni/originali/04-responsive-mobile-first.pdf",
+      "generator": "progetti/slide/scripts/build/exercise-responsive-diagrams.mjs",
+      "description": "Esercizio 3: layout mobile"
     }
   ],
   "demos": [

@@ -73,6 +73,11 @@ try {
             assert.deepEqual(await root.locator('.exercise-sources a').evaluateAll(nodes => nodes.map(node => node.getAttribute('href'))), slide.sources.map(source => source.url), 'official references are linked in each new slide')
           }
         }
+        if (number === '04') {
+          const expected = [...new Set(JSON.stringify(slide).match(/https?:[^"\s]+/g) || [])]
+          const rendered = await root.locator('a[href]').evaluateAll(nodes => nodes.map(node => node.getAttribute('href')))
+          for (const url of expected) assert.ok(rendered.includes(url), `04/${slide.number}: reference is visible and linked: ${url}`)
+        }
         if (profile !== 'print' && !['cover', 'divider'].includes(slide.kind)) {
           const progress = page.locator(`.presentation-progress-rail[data-lesson="${exercise.id}"] progress`)
           assert.equal(await progress.getAttribute('max'), String(data.length))

@@ -47,7 +47,7 @@ for (const exercise of manifest.exercises) {
     exercise.currentMapping = exercise.mapping.map(entry => ({ ...entry, slides: [...new Set(entry.slides.map(no => revisedExerciseNumber(no)))] }))
     exercise.editorialRevision = { specification: 'progetti/slide/data/esercitazioni/editorial-revisions.mjs', merges: [{ originalSlides: [5, 6], destination: 5 }, { originalSlides: [7, 8], destination: 6 }, { originalSlides: [10, 11], destination: 8 }, { originalSlides: [12, 13], destination: 9 }, { originalSlides: [20, 21], destination: 16 }, { originalSlides: [22, 23], destination: 17 }, { originalSlides: [24, 25], destination: 18 }, { originalSlides: [28, 29, 30], destination: 21 }, { originalSlides: [31, 32], destination: 22 }, { originalSlides: [34, 35], destination: 24 }, { originalSlides: [36, 37], destination: 25 }, { originalSlides: [38, 39, 40], destination: 26 }, { originalSlides: [41, 42, 43], destination: 27 }, { originalSlides: [45, 46], destination: 29 }, { originalSlides: [57, 58], destination: 40 }, { originalSlides: [61, 62, 63], destination: 43 }, { originalSlides: [67, 68, 69], destination: 47 }, { originalSlides: [71, 72, 73], destination: 49 }, { originalSlides: [74, 75, 76], destination: 50 }, { originalSlides: [81, 82], destination: 55 }, { originalSlides: [83, 84, 85], destination: 56 }, { originalSlides: [86, 87, 88], destination: 57 }, { originalSlides: [89, 90], destination: 58 }, { originalSlides: [91, 92, 93], destination: 59 }, { originalSlides: [94, 95, 96], destination: 60 }, { originalSlides: [97, 98, 99, 100], destination: 61 }, { originalSlides: [101, 102], destination: 62 }, { originalSlides: [104, 105], destination: 64 }, { originalSlides: [106, 107], destination: 65 }], diagram: 'progetti/slide/assets/esercitazioni/schemi/manifest.json' }
   }
-  if (number === '02' || number === '03') {
+  if (number === '02' || number === '03' || number === '04') {
     exercise.slideCount = slides.length
     const markdown = slides.map(slide => {
       const cover = ['cover', 'divider'].includes(slide.kind)
@@ -58,7 +58,7 @@ for (const exercise of manifest.exercises) {
     }).join('\n')
     await writeFile(exercise.file, markdown)
     exercise.currentMapping = exercise.mapping.map(entry => ({ ...entry, slides: slides.filter(slide => slide.sourceSlides.includes(entry.sourceSlide)).map(slide => slide.number) }))
-    exercise.editorialRevision = { specification: `progetti/slide/data/esercitazioni/${number === '02' ? 'advanced' : 'grid'}-revisions.mjs`, reference: '01-html-css-base.md', ...(number === '02' ? { nativeExamples: 'progetti/slide/data/esercitazioni/advanced-examples.mjs' } : {}) }
+    exercise.editorialRevision = { specification: `progetti/slide/data/esercitazioni/${number === '02' ? 'advanced' : number === '03' ? 'grid' : 'responsive'}-revisions.mjs`, reference: '01-html-css-base.md', ...(number === '02' ? { nativeExamples: 'progetti/slide/data/esercitazioni/advanced-examples.mjs' } : {}) }
   }
   exercise.nativeRebuild.slides = before.filter(slide => slide.blocks.some(block => block.kind === 'image')).map(slide => slide.number)
   exercise.nativeRebuild.specification = 'progetti/slide/data/esercitazioni/native-examples.mjs'

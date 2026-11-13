@@ -13,7 +13,7 @@ import { highlightExerciseCode, exerciseCodeLanguage } from '../utils/exercise-c
 
 interface Run { text: string; href?: string; bold?: boolean; italic?: boolean; underline?: boolean; mono?: boolean }
 interface Paragraph { text: string; runs: Run[]; bullet?: boolean; level?: number }
-interface Block { kind: string; showCaption?: boolean; content?: OriginalLayout; resourceLayout?: 'list'; showHint?: boolean; items?: TagReference[]; paths?: PathReference[]; arrangement?: 'stacked-pair' | 'rows' | 'example-result' | 'explanation-code' | 'explanation-figure' | 'samples' | 'grid'; sharedTraits?: string[]; opening?: string; closing?: string; labels?: string[]; text?: string; paragraphs?: Paragraph[]; rows?: string[][]; src?: string; crop?: [number, number, number, number]; alt?: string; caption?: string; example?: string; resources?: { title: string; url: string }[] }
+interface Block { kind: string; italicCells?: string[]; codeColumns?: number[]; showCaption?: boolean; showDialogTitle?: boolean; content?: OriginalLayout; resourceLayout?: 'list'; showHint?: boolean; items?: TagReference[]; paths?: PathReference[]; arrangement?: 'stacked-pair' | 'rows' | 'example-result' | 'explanation-code' | 'explanation-figure' | 'samples' | 'grid'; sharedTraits?: string[]; opening?: string; closing?: string; labels?: string[]; text?: string; paragraphs?: Paragraph[]; rows?: string[][]; src?: string; crop?: [number, number, number, number]; alt?: string; caption?: string; example?: string; resources?: { title: string; url: string }[] }
 interface ExerciseSlide { layout?: string; number: number; sourceSlide: number | null; sourceKind?: string; part: number; parts: number; kind: string; blocks: Block[]; sources?: { title: string; url: string }[]; credit?: string }
 // Preserve source runs while recognizing tags embedded in ordinary prose.
 function inlineRuns(runs: Run[]) {
@@ -26,6 +26,7 @@ const files = import.meta.env.PROD
       '../data/esercitazioni/01.json': () => import('../data/esercitazioni/01.json').then(module => module.default),
       '../data/esercitazioni/02.json': () => import('../data/esercitazioni/02.json').then(module => module.default),
       '../data/esercitazioni/03.json': () => import('../data/esercitazioni/03.json').then(module => module.default),
+      '../data/esercitazioni/04.json': () => import('../data/esercitazioni/04.json').then(module => module.default),
     }
   : import.meta.glob('../data/esercitazioni/*.json', { import: 'default' })
 const slides = shallowRef<ExerciseSlide[]>([])
@@ -59,8 +60,8 @@ const content = computed(() => slides.value.find(slide => slide.number === props
           </component>
         </template>
       </div>
-      <table v-else-if="block.kind === 'table'" class="table exercise-table"><tbody><tr v-for="(row, y) in block.rows" :key="y"><component :is="y === 0 ? 'th' : 'td'" v-for="(cell, x) in row" :key="x" :scope="y === 0 ? 'col' : undefined">{{ cell }}</component></tr></tbody></table>
-      <LessonFigure v-else-if="block.kind === 'figure'" :src="block.src!" :alt="block.alt!" :caption="block.showCaption === false ? undefined : block.caption" :crop="block.crop" />
+      <table v-else-if="block.kind === 'table'" class="table exercise-table"><tbody><tr v-for="(row, y) in block.rows" :key="y"><component :is="y === 0 ? 'th' : 'td'" v-for="(cell, x) in row" :key="x" :scope="y === 0 ? 'col' : undefined"><em v-if="block.italicCells?.includes(cell)">{{ cell }}</em><code v-else-if="y > 0 && block.codeColumns?.includes(x)">{{ cell }}</code><template v-else>{{ cell }}</template></component></tr></tbody></table>
+      <LessonFigure v-else-if="block.kind === 'figure'" :src="block.src!" :alt="block.alt!" :caption="block.showCaption === false ? undefined : block.caption" :crop="block.crop" :show-dialog-title="block.showDialogTitle" />
       <ExerciseNative v-else-if="block.kind === 'native' && block.example" :example="block.example" :caption="block.caption" />
       <div v-else-if="block.kind === 'resources'" class="exercise-resource-group" :class="{ 'exercise-resource-group--list': block.resourceLayout === 'list' }">
         <ul class="list exercise-resources">

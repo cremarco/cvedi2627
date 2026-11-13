@@ -12,6 +12,7 @@ withDefaults(defineProps<{
   src: string
   alt: string
   caption?: string
+  showDialogTitle?: boolean
   panels?: number
   panelAspectRatio?: string
   verticalRange?: [number, number]
@@ -19,7 +20,7 @@ withDefaults(defineProps<{
   maxScale?: number
   zoomFullImage?: boolean
   replayLabel?: string
-}>(), { panels: 1, panelAspectRatio: '4 / 3', replayLabel: 'Ripeti l’animazione del diagramma' })
+}>(), { panels: 1, panelAspectRatio: '4 / 3', showDialogTitle: true, replayLabel: 'Ripeti l’animazione del diagramma' })
 
 const captionWidth = ref<string>()
 const imageHeight = ref<string>()
@@ -98,8 +99,8 @@ function syncDialogState() {
       @close="syncDialogState"
     >
       <div class="modal-box">
-        <header>
-          <p :id="`${dialogId}-title`"><AcronymText :text="caption || alt" /></p>
+        <header :style="showDialogTitle ? undefined : { justifyContent: 'flex-end' }">
+          <p :id="`${dialogId}-title`" :class="{ 'sr-only': !showDialogTitle }"><AcronymText :text="caption || alt" /></p>
           <form method="dialog">
             <button type="submit" class="btn btn-outline lesson-image-close" autofocus>
               <HeroIcon name="x-mark" stroke-width="1.8" />

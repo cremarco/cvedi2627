@@ -2623,7 +2623,7 @@
       "sha256": "7ee1e9f24b49bf46880b9dd601059545528a736e2c76e283a0327d0e02aaa8e4",
       "pdf": "progetti/slide/assets/esercitazioni/originali/04-responsive-mobile-first.pdf",
       "pdfSha256": "64af426a203ead34878db38a866417c16ba8912255a8cf33eb3d8735a7796f09",
-      "slideCount": 42,
+      "slideCount": 37,
       "mapping": [
         {
           "sourceSlide": 1,
@@ -2889,6 +2889,254 @@
         "specification": "progetti/slide/data/esercitazioni/native-examples.mjs",
         "renderer": "progetti/slide/components/ExerciseNative.vue",
         "corrections": []
+      },
+      "currentMapping": [
+        {
+          "sourceSlide": 1,
+          "sourceTitle": "Corso di CVeDI (8 CFU)",
+          "slides": [
+            1
+          ]
+        },
+        {
+          "sourceSlide": 2,
+          "sourceTitle": "Interfacce responsive e approccio mobile-first",
+          "slides": [
+            2
+          ]
+        },
+        {
+          "sourceSlide": 3,
+          "sourceTitle": "RESPONSIVE WEB DESIGN",
+          "slides": [
+            3
+          ]
+        },
+        {
+          "sourceSlide": 4,
+          "sourceTitle": "Responsive design",
+          "slides": [
+            4
+          ]
+        },
+        {
+          "sourceSlide": 5,
+          "sourceTitle": "I siti web su schermi piccoli",
+          "slides": [
+            5
+          ]
+        },
+        {
+          "sourceSlide": 6,
+          "sourceTitle": "I siti web su schermi piccoli · esempio",
+          "slides": [
+            6
+          ]
+        },
+        {
+          "sourceSlide": 7,
+          "sourceTitle": "VIEWPORT",
+          "slides": [
+            7
+          ]
+        },
+        {
+          "sourceSlide": 8,
+          "sourceTitle": "Il viewport",
+          "slides": [
+            8
+          ]
+        },
+        {
+          "sourceSlide": 9,
+          "sourceTitle": "Controllare il viewport",
+          "slides": [
+            9
+          ]
+        },
+        {
+          "sourceSlide": 10,
+          "sourceTitle": "Controllare il viewport · esempio",
+          "slides": [
+            10
+          ]
+        },
+        {
+          "sourceSlide": 11,
+          "sourceTitle": "MEDIA QUERIES",
+          "slides": [
+            11
+          ]
+        },
+        {
+          "sourceSlide": 12,
+          "sourceTitle": "La regola @media",
+          "slides": [
+            12
+          ]
+        },
+        {
+          "sourceSlide": 13,
+          "sourceTitle": "Nascondere gli elementi su mobile",
+          "slides": [
+            13
+          ]
+        },
+        {
+          "sourceSlide": 14,
+          "sourceTitle": "La sintassi di @media",
+          "slides": [
+            14
+          ]
+        },
+        {
+          "sourceSlide": 15,
+          "sourceTitle": "Mediatypes",
+          "slides": [
+            15
+          ]
+        },
+        {
+          "sourceSlide": 16,
+          "sourceTitle": "Mediafeatures",
+          "slides": [
+            16
+          ]
+        },
+        {
+          "sourceSlide": 17,
+          "sourceTitle": "Mobile first",
+          "slides": [
+            17,
+            18
+          ]
+        },
+        {
+          "sourceSlide": 18,
+          "sourceTitle": "Mobile first",
+          "slides": [
+            17
+          ]
+        },
+        {
+          "sourceSlide": 19,
+          "sourceTitle": "Mobile first · esempio",
+          "slides": [
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "sourceSlide": 20,
+          "sourceTitle": "ESERCIZIO 1",
+          "slides": [
+            22
+          ]
+        },
+        {
+          "sourceSlide": 21,
+          "sourceTitle": "UNITÀ DI MISURA RELATIVE",
+          "slides": [
+            23
+          ]
+        },
+        {
+          "sourceSlide": 22,
+          "sourceTitle": "Pixel e unità di misura relative",
+          "slides": [
+            24
+          ]
+        },
+        {
+          "sourceSlide": 23,
+          "sourceTitle": "Pixel e unità di misura relative",
+          "slides": [
+            25,
+            30
+          ]
+        },
+        {
+          "sourceSlide": 24,
+          "sourceTitle": "Percentuali",
+          "slides": [
+            26
+          ]
+        },
+        {
+          "sourceSlide": 25,
+          "sourceTitle": "Gli em e i rem",
+          "slides": [
+            27
+          ]
+        },
+        {
+          "sourceSlide": 26,
+          "sourceTitle": "Ereditarietà dell’em",
+          "slides": [
+            28
+          ]
+        },
+        {
+          "sourceSlide": 27,
+          "sourceTitle": "Viewport units",
+          "slides": [
+            29
+          ]
+        },
+        {
+          "sourceSlide": 28,
+          "sourceTitle": "Tipografia responsive",
+          "slides": [
+            31
+          ]
+        },
+        {
+          "sourceSlide": 29,
+          "sourceTitle": "Vari tipi di layout responsive",
+          "slides": [
+            32
+          ]
+        },
+        {
+          "sourceSlide": 30,
+          "sourceTitle": "ESERCIZIO 2",
+          "slides": [
+            33
+          ]
+        },
+        {
+          "sourceSlide": 31,
+          "sourceTitle": "ESERCIZIO 3",
+          "slides": [
+            34
+          ]
+        },
+        {
+          "sourceSlide": 32,
+          "sourceTitle": "ESERCIZIO 3 · esempio",
+          "slides": [
+            35
+          ]
+        },
+        {
+          "sourceSlide": 33,
+          "sourceTitle": "ESERCIZIO 3 · esempio",
+          "slides": [
+            36
+          ]
+        },
+        {
+          "sourceSlide": 34,
+          "sourceTitle": "FINE",
+          "slides": [
+            37
+          ]
+        }
+      ],
+      "editorialRevision": {
+        "specification": "progetti/slide/data/esercitazioni/responsive-revisions.mjs",
+        "reference": "01-html-css-base.md"
       }
     },
     {
@@ -4333,7 +4581,7 @@
     }
   ],
   "sourceSlides": 349,
-  "slideCount": 448,
+  "slideCount": 443,
   "verification": {
     "summary": "reports/esercitazioni/verification.json",
     "sources": "reports/esercitazioni/source-report.json",
