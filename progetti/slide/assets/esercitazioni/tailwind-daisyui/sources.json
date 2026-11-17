@@ -3,6 +3,81 @@
   "scope": "Tailwind CSS 4; daisyUI 5",
   "sources": [
     {
+      "id": "introWeight",
+      "title": "Tailwind · font-weight",
+      "url": "https://tailwindcss.com/docs/font-weight"
+    },
+    {
+      "id": "introBackground",
+      "title": "Tailwind · background-color",
+      "url": "https://tailwindcss.com/docs/background-color"
+    },
+    {
+      "id": "introTextColor",
+      "title": "Tailwind · color",
+      "url": "https://tailwindcss.com/docs/color"
+    },
+    {
+      "id": "introDisplay",
+      "title": "Tailwind · display",
+      "url": "https://tailwindcss.com/docs/display"
+    },
+    {
+      "id": "introAlign",
+      "title": "Tailwind · align-items",
+      "url": "https://tailwindcss.com/docs/align-items"
+    },
+    {
+      "id": "introEditor",
+      "title": "Tailwind · preparare l’editor",
+      "url": "https://tailwindcss.com/docs/editor-setup"
+    },
+    {
+      "id": "introStandalone",
+      "title": "Tailwind · CLI standalone",
+      "url": "https://tailwindcss.com/docs/installation/tailwind-cli"
+    },
+    {
+      "id": "introPlay",
+      "title": "Tailwind · playground",
+      "url": "https://play.tailwindcss.com"
+    },
+    {
+      "id": "introCDN",
+      "title": "Tailwind · Play CDN",
+      "url": "https://tailwindcss.com/docs/installation/play-cdn"
+    },
+    {
+      "id": "introTerminal",
+      "title": "VS Code · terminale",
+      "url": "https://code.visualstudio.com/docs/terminal/basics"
+    },
+    {
+      "id": "introCommandLine",
+      "title": "MDN · riga di comando",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line"
+    },
+    {
+      "id": "introWidth",
+      "title": "Tailwind · larghezza massima",
+      "url": "https://tailwindcss.com/docs/max-width"
+    },
+    {
+      "id": "introType",
+      "title": "Tailwind · dimensioni del testo",
+      "url": "https://tailwindcss.com/docs/font-size"
+    },
+    {
+      "id": "introMargin",
+      "title": "Tailwind · margini",
+      "url": "https://tailwindcss.com/docs/margin"
+    },
+    {
+      "id": "introColor",
+      "title": "Tailwind · colori",
+      "url": "https://tailwindcss.com/docs/colors"
+    },
+    {
       "id": "utilities",
       "title": "Tailwind · utility classes",
       "url": "https://tailwindcss.com/docs/styling-with-utility-classes"

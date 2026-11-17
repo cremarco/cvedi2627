@@ -3152,7 +3152,7 @@
       "sha256": "eb4ac2d8eb392cb4d57e54bd33adce3243915df81eb1d9b4fdc80560b75c155d",
       "pdf": "progetti/slide/assets/esercitazioni/originali/05-framework-bootstrap.pdf",
       "pdfSha256": "25b9efa6b1ff88de235645850586ef0353adab09d990c5b6586f5e99cd31f819",
-      "slideCount": 48,
+      "slideCount": 49,
       "mapping": [
         {
           "sourceSlide": 1,
@@ -3418,6 +3418,35 @@
         "specification": "progetti/slide/data/esercitazioni/native-examples.mjs",
         "renderer": "progetti/slide/components/ExerciseNative.vue",
         "corrections": []
+      },
+      "editorialRevision": {
+        "id": "tailwind-intro-2026-11",
+        "specification": "progetti/slide/data/esercitazioni/tailwind-intro.mjs",
+        "reference": "01-html-css-base.md",
+        "sourcesCheckedOn": "2026-11-16",
+        "path": [
+          "frameworks-to-css",
+          "tailwind-playground-cdn-terminal-installation",
+          "utilities-responsive-and-exercises"
+        ],
+        "originalExercisePages": [
+          5,
+          6,
+          9,
+          10,
+          12,
+          18,
+          20,
+          21,
+          22,
+          23,
+          24,
+          28,
+          29,
+          30,
+          31
+        ],
+        "archive": "progetti/slide/assets/esercitazioni/tailwind-intro/archivio"
       }
     },
     {
@@ -4581,7 +4610,7 @@
     }
   ],
   "sourceSlides": 349,
-  "slideCount": 443,
+  "slideCount": 444,
   "verification": {
     "summary": "reports/esercitazioni/verification.json",
     "sources": "reports/esercitazioni/source-report.json",
@@ -5089,7 +5118,7 @@
     "requested": "Sostituire Bootstrap con Tailwind CSS e daisyUI, arricchendo le slide con fonti online",
     "specification": "progetti/slide/data/esercitazioni/framework-curriculum.mjs",
     "catalog": "progetti/slide/assets/esercitazioni/tailwind-daisyui/sources.json",
-    "newSlides": 151,
+    "newSlides": 152,
     "archivedOriginalsUnchanged": true,
     "verification": {
       "status": "passed",

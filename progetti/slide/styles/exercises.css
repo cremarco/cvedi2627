@@ -243,3 +243,57 @@
 .exercise-content[data-exercise="04"][data-source-slide="17"] .exercise-table td code { background: transparent; padding: 0; color: inherit; font-size: 18px; white-space: nowrap; }
 .exercise-content[data-exercise="04"][data-source-slide="6"] > .lesson-figure { height: 490px; }
 .exercise-content[data-exercise="04"].exercise-content--code-columns > .exercise-sources { grid-column: 1 / -1; }
+
+.exercise-content--columns[data-exercise="05"] > .exercise-sources { grid-column: 1 / -1; }
+
+/* Exercise 05 uses the course table; code keeps its typographic role in cells. */
+.exercise-content[data-exercise="05"] > .lesson-table-figure { flex: 0 0 auto; }
+.exercise-content[data-exercise="05"] .lesson-native-table code {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: 400 19px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.exercise-content[data-exercise="05"].exercise-content--code-columns > .exercise-sources { grid-column: 1 / -1; }
+
+/* The merged library/framework comparison keeps source prose beside its figure. */
+.exercise-content--columns[data-exercise="05"]:has(> .lesson-figure) { grid-template-columns: .9fr 1.1fr; }
+.exercise-content--columns[data-exercise="05"] > .lesson-figure { width: 100%; height: 450px; margin: 0; }
+
+/* A visual prompt keeps executable examples readable without changing copied commands. */
+.exercise-content[data-exercise="05"] .exercise-terminal-command::before { content: '$ '; color: var(--cvedi-pink-300); }
+
+/* Exercise tables share the same rounded corners as the teaching code panels. */
+.exercise-content[data-exercise="05"] .lesson-table-figure .table.lesson-native-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--cvedi-rule);
+  border-radius: var(--radius-box, 8px);
+  overflow: hidden;
+}
+.slidev-layout.default .exercise-resource-link { margin: 0; font-size: 23px; line-height: 1.42; }
+
+.exercise-content[data-exercise="05"] .lesson-native-table :is(th, td) { border-radius: 0; }
+.exercise-content[data-exercise="05"] .lesson-native-table tbody tr:last-child > :is(th, td) { border-bottom: 0; }
+.exercise-content[data-exercise="05"] .exercise-code { border-radius: var(--radius-box, 8px); }
+
+/* Exercise 05: independent diagrams beside the retained comparison prose. */
+.exercise-content--columns[data-exercise="05"]:has(> .exercise-figure-group) { grid-template-columns: 1fr 1fr; gap: 24px 40px; }
+.exercise-figure-group { display: flex; flex-direction: column; gap: 20px; min-width: 0; }
+.exercise-figure-group > .lesson-figure { width: 100%; height: 200px; margin: 0; }
+.slidev-layout.default .exercise-citation { grid-column: 1 / -1; margin: 0; font-size: 16px; line-height: 1.4; overflow-wrap: anywhere; }
+.exercise-copy sup { font-size: .65em; line-height: 0; vertical-align: super; }
+
+/* Parallel approaches with separately labelled CSS and HTML files. */
+.exercise-content--comparison { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 28px; align-items: start; }
+.exercise-content--comparison > .exercise-copy { grid-column: 1 / -1; }
+.exercise-code-group, .exercise-code-file { min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+.exercise-code-group { gap: 16px; }
+.slidev-layout.default .exercise-code-group h2 { margin: 0; font-size: 23px; line-height: 1.4; }
+.slidev-layout.default .exercise-code-file h3 { margin: 0; font-size: 18px; line-height: 1.4; }
+.exercise-code-group .exercise-code { margin: 0; border-radius: var(--radius-box, 8px); }
+.exercise-code-group .exercise-code::before { display: none; }

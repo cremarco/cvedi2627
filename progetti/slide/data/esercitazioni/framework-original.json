@@ -1,0 +1,247 @@
+[
+  {
+    "kind": "content",
+    "title": "Cosa è una libreria",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "La complessità delle applicazioni odierne rende consigliabile combinare il proprio codice con porzioni di codice condiviso che aiutino ad agevolare lo sviluppo",
+            "runs": [
+              {
+                "text": "La complessità delle applicazioni odierne rende consigliabile combinare il proprio codice con porzioni di codice condiviso che aiutino ad agevolare lo sviluppo"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Lo scopo delle librerie è fornire una collezione di entità riutilizzabili, che lo sviluppatore può utilizzare per evitare di dover riscrivere ogni volta le stesse funzioni, facilitando così le operazioni di sviluppo e manutenzione",
+            "runs": [
+              {
+                "text": "Lo scopo delle "
+              },
+              {
+                "text": "librerie ",
+                "bold": true
+              },
+              {
+                "text": "è fornire una collezione di entità riutilizzabili, che lo sviluppatore può utilizzare per "
+              },
+              {
+                "text": "evitare di dover riscrivere",
+                "bold": true
+              },
+              {
+                "text": " ogni volta le stesse funzioni, facilitando così le operazioni di sviluppo e manutenzione"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 5,
+    "number": 5,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Cosa è un framework",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Quando si parla di applicazioni web, il framework può essere definito come una “cornice” applicabile ad un linguaggio",
+            "runs": [
+              {
+                "text": "Quando si parla di applicazioni web, il "
+              },
+              {
+                "text": "framework ",
+                "bold": true
+              },
+              {
+                "text": "può essere definito come una “"
+              },
+              {
+                "text": "cornice",
+                "bold": true
+              },
+              {
+                "text": "” applicabile ad un linguaggio"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Un framework è solitamente un sistema distribuito in cartelle e sotto forma di alcune porzioni di codice prestabilite che, connesse attraverso un design concettuale univoco, sono state create per la realizzazione di alcune specifiche funzioni",
+            "runs": [
+              {
+                "text": "Un framework è solitamente un sistema distribuito in cartelle e sotto forma di alcune porzioni di codice prestabilite che, connesse attraverso un "
+              },
+              {
+                "text": "design concettuale",
+                "bold": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "univoco",
+                "bold": true
+              },
+              {
+                "text": ", sono state create per la realizzazione di alcune specifiche funzioni"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 6,
+    "number": 6,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Librerie vs framework",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Oltre 10 anni fa l’informatico Martin Fowler ha pubblicato un influente articolo sull’inversione di controllo, che può essere vista come la principale differenza tra libreria e framework",
+            "runs": [
+              {
+                "text": "Oltre 10 anni fa l’informatico Martin Fowler ha pubblicato un influente articolo "
+              },
+              {
+                "text": "sull’inversione di controllo",
+                "bold": true
+              },
+              {
+                "text": ", che può essere vista come la principale differenza tra libreria e framework"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Quando utilizziamo una libreria, abbiamo noi il controllo di ciò che stiamo facendo. Quando lavoriamo con un framework, invece, è lui ad averlo: il flusso di controllo è già definito, e noi avremo semplicemente una serie di spazi da riempire con il nostro codice",
+            "runs": [
+              {
+                "text": "Quando utilizziamo una libreria, abbiamo noi il controllo di ciò che stiamo facendo. Quando lavoriamo con un framework, invece, è lui ad averlo: il flusso di controllo è già definito, e noi avremo semplicemente una serie di spazi da riempire con il nostro codice"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 9,
+    "number": 9,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Librerie vs framework",
+    "blocks": [
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/05-009-diagram.webp",
+        "alt": "Librerie vs framework. ",
+        "sourceDiagram": true
+      }
+    ],
+    "sourceSlide": 9,
+    "number": 10,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Esempi di librerie e framework per applicazioni web",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Librerie",
+            "runs": [
+              {
+                "text": "Librerie",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Front-end: jQuery/React",
+            "runs": [
+              {
+                "text": "Front-end: jQuery/React"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Framework",
+            "runs": [
+              {
+                "text": "Framework",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Back-end: Laravel (php), Django (python), Express (js)",
+            "runs": [
+              {
+                "text": "Back-end"
+              },
+              {
+                "text": ": Laravel (php), Django (python), Express (js)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Front-end: Angular/Vue (js)",
+            "runs": [
+              {
+                "text": "Front-end: Angular/Vue (js)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 10,
+    "number": 11,
+    "part": 1,
+    "parts": 1
+  }
+]

@@ -31,8 +31,8 @@ defineProps<{
       </thead>
       <tbody>
         <tr v-for="(row, index) in definition.rows" :key="index">
-          <th scope="row"><AcronymText :text="row[0]" /></th>
-          <td v-for="(cell, column) in row.slice(1)" :key="column"><AcronymText :text="cell" /></td>
+          <th scope="row"><slot name="cell" :text="row[0]" :column="0"><AcronymText :text="row[0]" /></slot></th>
+          <td v-for="(cell, column) in row.slice(1)" :key="column"><slot name="cell" :text="cell" :column="column + 1"><AcronymText :text="cell" /></slot></td>
         </tr>
       </tbody>
     </table>

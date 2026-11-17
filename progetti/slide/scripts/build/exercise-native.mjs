@@ -34,12 +34,20 @@ for (const exercise of manifest.exercises) {
     exercise.slideCount = slides.length
     const markdown = slides.map(slide => {
       const cover = ['cover', 'divider'].includes(slide.kind)
-      const matter = ['layout: default', `class: ${cover ? 'chapter-slide' : 'content-slide exercise-slide reading-slide'}`, `lesson: ${exercise.id}`, `lessonSlide: ${slide.number}`, `exerciseNumber: ${exercise.number}`, 'sourceKind: official-docs', `footer: Esercitazione ${number} · CVeDI 2026/27`]
+      const matter = ['layout: default', `class: ${cover ? 'chapter-slide' : 'content-slide exercise-slide reading-slide'}`, `lesson: ${exercise.id}`, `lessonSlide: ${slide.number}`, `exerciseNumber: ${exercise.number}`, `sourceKind: ${slide.sourceKind ?? 'official-docs'}`, `footer: Esercitazione ${number} · ${number === '05' ? 'Elia Guarnieri' : 'CVeDI 2026/27'}`]
       if (slide.number === 1) matter.push(`routeAlias: ${exercise.id}`)
-      const body = cover ? `<ChapterMetro section="${exercise.coverRoute ?? exercise.palette}" />\n\n# ${slide.title}\n\n<p>Materiali del corso · fonti ufficiali Tailwind CSS e daisyUI</p>` : `# ${slide.title}\n\n<ExerciseContent exercise="${number}" :slide="${slide.number}" />`
+      const coverCredit = number === '05' ? (slide.kind === 'cover' ? '\n\n<p>Elia Guarnieri · elia.guarnieri@unimib.it</p>' : '') : '\n\n<p>Materiali del corso · fonti ufficiali Tailwind CSS e daisyUI</p>'
+      const body = cover ? `<ChapterMetro section="${exercise.coverRoute ?? exercise.palette}" />\n\n# ${slide.title}${coverCredit}` : `# ${slide.title}\n\n<ExerciseContent exercise="${number}" :slide="${slide.number}" />`
       return `---\n${matter.join('\n')}\n---\n\n${body}\n`
     }).join('\n')
     await writeFile(exercise.file, markdown)
+    if (number === '05') exercise.editorialRevision = {
+      id: 'tailwind-intro-2026-11', specification: 'progetti/slide/data/esercitazioni/tailwind-intro.mjs',
+      reference: '01-html-css-base.md', sourcesCheckedOn: '2026-11-16',
+      path: ['frameworks-to-css', 'tailwind-playground-cdn-terminal-installation', 'utilities-responsive-and-exercises'],
+      originalExercisePages: [5, 6, 9, 10, 12, 18, 20, 21, 22, 23, 24, 28, 29, 30, 31],
+      archive: 'progetti/slide/assets/esercitazioni/tailwind-intro/archivio',
+    }
   }
   if (number === '01') {
     exercise.slideCount = slides.length

@@ -116,7 +116,7 @@ footer: "Esercitazioni"
   <SlideAction to="esercitazione-02" calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">02</span><span>Ripasso HTML e CSS avanzato</span></SlideAction>
   <SlideAction to="esercitazione-03" calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">03</span><span>Nuove proprietà CSS, Grid e Srcset</span></SlideAction>
   <SlideAction to="esercitazione-04" calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">04</span><span>Interfacce responsive e approccio mobile-first</span></SlideAction>
-  <SlideAction to="esercitazione-05" disabled calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">05</span><span>Tailwind CSS: basi e layout</span></SlideAction>
+  <SlideAction to="esercitazione-05" calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">05</span><span>Tailwind CSS: basi e layout</span></SlideAction>
   <SlideAction to="esercitazione-06" disabled calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">06</span><span>daisyUI: componenti per le interfacce</span></SlideAction>
   <SlideAction to="esercitazione-07" disabled calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">07</span><span>Temi con Tailwind CSS e daisyUI</span></SlideAction>
   <SlideAction to="esercitazione-08" disabled calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">08</span><span>Git</span></SlideAction>
@@ -834,7 +834,6 @@ src: ./esercitazioni/04-responsive-mobile-first.md
 
 ---
 src: ./esercitazioni/05-tailwind-css.md
-localOnly: true
 ---
 
 ---

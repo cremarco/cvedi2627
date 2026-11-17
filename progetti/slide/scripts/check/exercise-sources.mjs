@@ -27,6 +27,7 @@ export async function checkExerciseSources() {
     assert.equal(await digest(`progetti/slide/assets/esercitazioni/schemi/${asset.source}`), asset.sha256, 'authored diagram matches its manifest')
     assert.equal(await digest(`progetti/slide/public${asset.web}`), asset.sha256, 'local diagram mirror preserves its source')
   }
+  for (const asset of diagram.archivedDiagrams || []) assert.equal(await digest(`progetti/slide/assets/esercitazioni/schemi/${asset.source}`), asset.sha256, 'retired diagram preserves its captured bytes')
   for (const asset of diagram.archivedScreenshots || []) {
     assert.equal(await digest(`progetti/slide/assets/esercitazioni/schemi/${asset.source}`), asset.sha256, 'retired screenshot preserves its captured bytes')
     await readFile(path.join(root, 'progetti/slide/assets/esercitazioni/schemi', asset.original))
@@ -40,6 +41,9 @@ export async function checkExerciseSources() {
     assert.ok((await readFile(path.join(root, example.source), 'utf8')).includes(examples[example.id].html), 'catalogued HTML contains the current runnable example')
   }
   for (const example of workedExamples) {
+    // Module 05 was replaced by the beginner path. Its earlier examples remain
+    // hash-checked in the retained catalogue above, outside the active lesson.
+    if (example.module === 5) continue
     const slides = curriculum.find(module => module.number === example.module).slides
     const result = slides.findIndex(slide => slide.blocks.some(block => block.example === `framework:${example.id}`))
     assert.ok(result > 0 && example.observe && example.task, 'each worked example has an observation and guided task')
@@ -96,6 +100,15 @@ export async function checkExerciseSources() {
       }
       assert.ok(slides.every(slide => slide.blocks.every(block => block.kind !== 'image')), 'active images use catalogued figures rather than untracked bitmap blocks')
       for (const slide of slides.filter(slide => slide.blocks.some(block => block.kind === 'resources'))) {
+        if (slide.sourceKind === 'official-docs') {
+          const blocks = slide.blocks.filter(block => block.kind === 'resources')
+          assert.ok(blocks.every(block => (block.resourceLayout === 'list' || block.resourceLayout === 'plain' && block.resources.length === 1) && block.showHint === false), 'authored references use the shared list or a single plain link')
+          for (const resource of blocks.flatMap(block => block.resources)) {
+            assert.ok(resource.title.trim() && !/^https?:/.test(resource.title), 'authored references have meaningful labels')
+            if (resource.url.startsWith('/')) await readFile(`progetti/slide/public${resource.url}`)
+          }
+          continue
+        }
         const page = source.find(page => page.sourceSlide === slide.sourceSlide)
         const links = page.blocks.flatMap(block => block.paragraphs?.flatMap(paragraph => paragraph.runs.filter(run => run.href).map(run => ({ title: run.text, url: run.href }))) || [])
         const resources = slide.blocks.flatMap(block => block.resources || [])
@@ -115,7 +128,7 @@ export async function checkExerciseSources() {
       assert.deepEqual([...new Set(exercise.currentMapping.flatMap(entry => entry.slides))].sort((a, b) => a - b), slides.filter(slide => slide.sourceSlide !== null).map(slide => slide.number), 'current mapping covers every slide, including intentionally reordered source pages')
       for (const entry of exercise.currentMapping) assert.ok(entry.slides.every(no => (slides[no - 1].sourceSlides || [slides[no - 1].sourceSlide]).includes(entry.sourceSlide)), 'current destinations retain their source page')
     }
-    for (const block of slides.flatMap(slide => slide.blocks.flatMap(block => [block, ...(block.items || []).flatMap(item => item.figure ? [{ kind: 'figure', ...item.figure }] : [])])).filter(block => block.kind === 'figure')) {
+    for (const block of slides.flatMap(slide => slide.blocks.flatMap(block => [block, ...(block.figures || []).map(figure => ({ kind: 'figure', ...figure })), ...(block.items || []).flatMap(item => item.figure ? [{ kind: 'figure', ...item.figure }] : [])])).filter(block => block.kind === 'figure')) {
       assert.ok(block.alt, 'every figure retains alternative text')
       if (!(diagram.screenshots || []).some(asset => asset.web === block.src)) assert.ok(block.caption, 'new diagrams retain captions')
       const screenshot = (diagram.screenshots || []).find(asset => asset.web === block.src)
@@ -149,12 +162,45 @@ export async function checkExerciseSources() {
         preserved = archive
         const specification = curriculum.find(module => module.number === exercise.number)
         assert.deepEqual(slides, specification.slides, 'active course matches its authored specification')
-        assert.ok(slides.every(slide => slide.sourceSlide === null && slide.sourceKind === 'official-docs'), 'new slides do not claim historical source pages')
+        assert.ok(slides.every(slide => slide.sourceSlide === null && ['official-docs', 'retained-import'].includes(slide.sourceKind)), 'authored and explicitly retained slides identify their origin')
         for (const slide of slides.filter(slide => slide.kind !== 'cover')) {
+          if (slide.sourceKind === 'retained-import') {
+            assert.equal(number, '05')
+            assert.equal(slide.retainedFrom.file, exercise.archive.data)
+            const original = archive.find(entry => entry.number === slide.retainedFrom.number)
+            assert.equal(original.sourceSlide, slide.retainedFrom.sourceSlide)
+            assert.ok(original.sourceSlide >= 5 && original.sourceSlide <= 10)
+            assert.equal(slide.title, slide.retainedFrom.omittedBlocks ? 'Esempi di librerie e framework per applicazioni web' : original.title)
+            if (slide.retainedFrom.omittedBlocks) {
+              assert.equal(original.sourceSlide, 10)
+              assert.deepEqual(slide.retainedFrom.omittedBlocks, [1])
+              assert.deepEqual(slide.blocks, original.blocks.filter((block, index) => index !== 1), 'retained examples preserve the two requested categories exactly')
+            } else if (slide.retainedFrom.numbers) {
+              assert.deepEqual(slide.retainedFrom.numbers, [9, 10])
+              assert.equal(original.number, 9)
+              assert.deepEqual(slide.retainedFrom.editorialChanges, ['elapsed-years', 'fowler-citation', 'separate-diagrams'])
+              const expectedText = structuredClone(original.blocks)
+              expectedText[0].paragraphs[0].text = expectedText[0].paragraphs[0].text.replace('10 anni', '20 anni')
+              expectedText[0].paragraphs[0].runs[0].text = expectedText[0].paragraphs[0].runs[0].text.replace('10 anni', '20 anni')
+              const currentText = structuredClone(slide.blocks.filter(block => block.kind === 'text'))
+              const opening = currentText[0].paragraphs[0]
+              const citation = opening.runs.filter(run => run.superscript)
+              assert.deepEqual(citation, [{ text: '1', superscript: true, href: 'https://martinfowler.com/bliki/InversionOfControl.html' }])
+              opening.runs = opening.runs.filter(run => !run.superscript)
+              opening.text = opening.runs.map(run => run.text).join('')
+              assert.deepEqual(currentText, expectedText, 'comparison preserves original prose except the requested date and citation')
+              assert.ok(archive.find(entry => entry.number === 10).blocks.some(block => block.kind === 'image'))
+              assert.deepEqual(slide.blocks.find(block => block.kind === 'figure-group').figures.map(figure => figure.src), ['/images/esercitazioni/framework-controllo.svg', '/images/esercitazioni/librerie-controllo.svg'])
+              assert.ok(slide.blocks.find(block => block.kind === 'citation').paragraphs[0].text.includes('Fowler, M. (2005, 26 giugno).'))
+            } else if (original.blocks.some(block => block.kind === 'image')) {
+              assert.equal(slide.blocks[0].src, '/images/esercitazioni/librerie-framework.svg')
+            } else assert.deepEqual(slide.blocks, original.blocks, 'restored definitions, comparisons and examples preserve every source run')
+            continue
+          }
           assert.ok(slide.sources?.length, 'every new content slide identifies its sources')
           for (const source of slide.sources) {
             assert.ok(catalog.sources.some(entry => entry.url === source.url && entry.title === source.title))
-            assert.ok(['tailwindcss.com', 'daisyui.com', 'developer.mozilla.org', 'www.w3.org'].includes(new URL(source.url).hostname))
+            assert.ok(['tailwindcss.com', 'play.tailwindcss.com', 'daisyui.com', 'developer.mozilla.org', 'www.w3.org', 'nodejs.org', 'code.visualstudio.com', 'docs.npmjs.com', 'learn.microsoft.com', 'github.com'].includes(new URL(source.url).hostname))
           }
         }
       } else {
@@ -182,7 +228,9 @@ export async function checkExerciseSources() {
         await readFile(path.join(root, archivedImages.get(block.src)?.retained || `progetti/slide/public${block.src}`))
       }
     }
-    assert.ok(!/bootstrap|getbootstrap/i.test(JSON.stringify(slides)), 'active exercise content no longer teaches Bootstrap')
+    const activeContent = JSON.stringify(slides.map(({ retainedFrom, ...slide }) => slide))
+    assert.ok(!/bootstrap|getbootstrap/i.test(activeContent), 'active exercises do not teach Bootstrap')
+    if (number === '05') assert.ok(!/toolkit/i.test(activeContent), 'exercise 05 contains only the requested categories')
     assert.ok(!/bootstrap|getbootstrap/i.test(await readFile(path.join(root, exercise.file), 'utf8')), 'active Markdown uses updated titles')
     for (const block of slides.flatMap(slide => slide.blocks).filter(block => block.kind === 'image')) {
       assert.ok(block.alt?.trim(), 'each active figure has alternative text')

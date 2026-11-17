@@ -1,0 +1,33 @@
+Laboratorio aperto · Esercitazione 05
+
+Prima prova l’esempio nel playground: https://play.tailwindcss.com/ceF5gcvINn
+playground.json conserva HTML, CSS e URL della prova online.
+Per studiare le utility usa la scheda Laboratorio: https://play.tailwindcss.com/ciBuSF7cKr
+utility-playground.json ne conserva il codice.
+Per i prefissi responsive usa https://play.tailwindcss.com/IGLV053DD0
+responsive-playground.json ne conserva il codice.
+Poi le cartelle mostrano lo stesso esempio nel progetto.
+
+cdn: apri index.html nel browser. La Play CDN richiede Internet.
+locale: contiene lo stesso articolo con un collegamento al CSS locale.
+responsive: sviluppa l'articolo in una pagina con programma e menu laterale.
+
+Per lavorare su locale o responsive:
+1. Scarica la CLI standalone ufficiale per il tuo sistema:
+   macOS Apple: https://github.com/tailwindlabs/tailwindcss/releases/download/v4.3.5/tailwindcss-macos-arm64
+   macOS Intel: https://github.com/tailwindlabs/tailwindcss/releases/download/v4.3.5/tailwindcss-macos-x64
+   Windows x64: https://github.com/tailwindlabs/tailwindcss/releases/download/v4.3.5/tailwindcss-windows-x64.exe
+2. Sposta l’eseguibile nella cartella scelta, accanto a index.html e input.css.
+3. Rinominalo tailwindcss su macOS o tailwindcss.exe su Windows.
+4. Apri la cartella in VS Code e scegli Terminale → Nuovo terminale.
+5. Su macOS esegui una volta chmod +x ./tailwindcss
+6. Avvia il comando adatto al tuo sistema indicato in COMANDI.txt.
+7. Apri index.html nel browser. Dopo ogni modifica salva e ricarica.
+8. Ctrl+C interrompe la compilazione.
+
+output.css è incluso per poter vedere subito il risultato. Viene rigenerato dal comando.
+Per partire da zero usa il percorso delle slide dalla cartella della prova CDN.
+
+Fonti: https://tailwindcss.com/docs/installation/play-cdn
+https://tailwindcss.com/docs/installation/tailwind-cli
+Esempio originale CVeDI · Elia Guarnieri

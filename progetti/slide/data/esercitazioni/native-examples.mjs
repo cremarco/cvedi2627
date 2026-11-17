@@ -3,6 +3,7 @@
 import { browserMarketShare } from './browser-market-share.mjs'
 import { originalDiagrams } from './original-diagrams.mjs'
 import { advancedExamples } from './advanced-examples.mjs'
+import { introFragments } from './tailwind-intro.mjs'
 import { highlightExerciseCode, exerciseCodeLanguage } from '../../utils/exercise-code.mjs'
 import { escapeHTML } from './native-document.mjs'
 export { escapeHTML, nativeCSS, renderNativeDocument } from './native-document.mjs'
@@ -138,4 +139,14 @@ export const nativeExamples = {
   '08-035-diagram.webp': record(`${code('<<<<<<< HEAD\nModifiche locali\n=======\nModifiche remote\n>>>>>>> dev')}${flow('Confronta le due versioni','Scegli il contenuto corretto','Salva e completa il merge')}`, 'Le due versioni sono ricostruite come testo; i marcatori rendono esplicito il conflitto.'),
   '08-036-diagram.webp': record(columns(`${label('Modifiche locali')}${code('contenuto locale')}`,`${label('Modifiche remote')}${code('contenuto remoto')}`,`${label('Risultato del merge')}${code('contenuto riconciliato')}`), 'Tre aree separate riprendono il Merge Editor: due ingressi e un risultato da verificare.'),
   '08-038-diagram.webp': git(['Commit iniziale','Modifica ai contenuti','Correzione verificata'], 'git log --oneline', 'Aprendo un commit si possono leggere le modifiche introdotte in quel punto della storia.'),
+}
+
+// Exact HTML fragments are both the displayed source and the running result.
+const introStyles = `<style>html{font-size:16px}.native-result{color:var(--color-emerald-950);font-family:var(--font-sans)}.native-example-pair pre{display:block;width:100%;max-width:100%}.native-example-pair code{white-space:pre-wrap;overflow-wrap:anywhere}</style>`
+for (const name of ['first', 'spacing', 'color', 'type', 'container', 'flex', 'grid']) nativeExamples[`tailwind-intro:${name}`] = {
+  html: introStyles + matchedPair(introFragments[name], introFragments[name]),
+}
+nativeExamples['tailwind-intro:responsive-viewports'] = {
+  html: '<style>html{font-size:16px}</style>' + introFragments.responsive,
+  comparison: true,
 }

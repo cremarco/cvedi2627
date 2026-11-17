@@ -181,6 +181,24 @@
       "original": "progetti/slide/assets/esercitazioni/originali/04-responsive-mobile-first.pdf",
       "generator": "progetti/slide/scripts/build/exercise-responsive-diagrams.mjs",
       "description": "Esercizio 3: layout mobile"
+    },
+    {
+      "source": "framework-controllo.svg",
+      "web": "/images/esercitazioni/framework-controllo.svg",
+      "sha256": "e129c98bc5497abb3b11f91583333f5ac68fd2af169d166e73ac257acda35f3b",
+      "historicalDiagram": "progetti/slide/assets/esercitazioni/bootstrap-archive/images/05-009-diagram.webp",
+      "derivedFrom": "librerie-framework.svg",
+      "generator": "progetti/slide/scripts/build/exercise-framework-diagrams.mjs",
+      "description": "Framework: schema separato con etichette e relazioni originali."
+    },
+    {
+      "source": "librerie-controllo.svg",
+      "web": "/images/esercitazioni/librerie-controllo.svg",
+      "sha256": "17681888e0d8ae4f6128a508760d3b58ce5b41eaf03300c902cc05760766717e",
+      "historicalDiagram": "progetti/slide/assets/esercitazioni/bootstrap-archive/images/05-009-diagram.webp",
+      "derivedFrom": "librerie-framework.svg",
+      "generator": "progetti/slide/scripts/build/exercise-framework-diagrams.mjs",
+      "description": "Librerie: schema separato con etichette e relazioni originali."
     }
   ],
   "demos": [
@@ -331,6 +349,13 @@
       "attribution": "Schema ricostruito dall’immagine accreditata a https://www.webriderz.com/ nella slide originale 18.",
       "description": "Stessi box, dimensioni, dichiarazioni e legenda dell’originale, nella famiglia scura delle esercitazioni.",
       "reason": "Sostituito nella slide 18 dal confronto codice e risultato HTML nativo."
+    },
+    {
+      "source": "librerie-framework.svg",
+      "web": "/images/esercitazioni/librerie-framework.svg",
+      "sha256": "23f3379476b059d2f44c192ee2f2bd969a237de7f4a8bd7dd57f573fd3613a15",
+      "historicalDiagram": "progetti/slide/assets/esercitazioni/bootstrap-archive/images/05-009-diagram.webp",
+      "description": "Stesse etichette e relazioni della pagina originale 9, impilate per affiancare il testo nello stile scuro delle esercitazioni."
     }
   ],
   "gridExerciseDemo": {

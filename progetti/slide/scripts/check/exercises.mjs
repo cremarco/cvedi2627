@@ -69,8 +69,8 @@ try {
           await root.locator(`[data-exercise-slide="${slide.number}"]`).waitFor()
           assert.equal((await root.locator('.slide-index').textContent()).trim(), `${slide.number} / ${data.length}`, 'pagination stays inside the selected exercise')
           if (slide.sourceKind === 'official-docs') {
-            assert.deepEqual(await root.locator('.exercise-code code').allTextContents(), slide.blocks.filter(block => block.kind === 'code').map(block => block.text), 'new code examples preserve exact text and indentation')
-            assert.deepEqual(await root.locator('.exercise-sources a').evaluateAll(nodes => nodes.map(node => node.getAttribute('href'))), slide.sources.map(source => source.url), 'official references are linked in each new slide')
+            assert.deepEqual(await root.locator('.exercise-code code').allTextContents(), slide.blocks.flatMap(block => block.kind === 'code' ? [block.text] : block.kind === 'code-group' ? block.files.map(file => file.text) : []), 'new code examples preserve exact text and indentation')
+            assert.deepEqual(await root.locator('.exercise-sources a').evaluateAll(nodes => nodes.map(node => node.getAttribute('href'))), slide.showSources === false ? [] : slide.sources.map(source => source.url), 'official references are linked in each new slide')
           }
         }
         if (number === '04') {
@@ -87,8 +87,8 @@ try {
         const nativeIssues = []
         const resources = slide.blocks.flatMap(block => block.resources || [])
         if (resources.length) {
-          assert.deepEqual(await root.locator('.exercise-resources a').evaluateAll(nodes => nodes.map(node => ({ title: node.childNodes[0].textContent, url: node.getAttribute('href') }))), resources)
-          assert.equal(await root.locator('.exercise-resources a[target="_blank"][rel="noopener noreferrer"]').count(), resources.length, 'resource links open outside the isolated HTML examples')
+          assert.deepEqual(await root.locator('.exercise-resource-group a').evaluateAll(nodes => nodes.map(node => ({ title: node.childNodes[0].textContent, url: node.getAttribute('href') }))), resources)
+          assert.equal(await root.locator('.exercise-resource-group a[target="_blank"][rel="noopener noreferrer"]').count(), resources.length, 'resource links open outside the isolated HTML examples')
         }
         for (const handle of await root.locator('.exercise-native-frame').elementHandles()) {
           const frame = await handle.contentFrame()

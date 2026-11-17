@@ -1,0 +1,117 @@
+{
+  "id": "tailwind-intro-2026-11",
+  "checkedOn": "2026-11-16",
+  "specification": "progetti/slide/data/esercitazioni/tailwind-intro.mjs",
+  "generator": "progetti/slide/scripts/build/tailwind-intro.mjs",
+  "rights": "Esempio e prosa originali CVeDI · Elia Guarnieri. Documentazione ufficiale collegata nelle slide.",
+  "sourceExercise": {
+    "original": "progetti/slide/assets/esercitazioni/originali/05-framework-bootstrap.pptx",
+    "adaptedSections": [
+      "Librerie, toolkit e framework",
+      "Primo utilizzo via CDN",
+      "Layout responsive",
+      "Consegne 28–31"
+    ],
+    "figures": [
+      "responsive-layout-desktop.svg",
+      "responsive-layout-mobile.svg"
+    ]
+  },
+  "standalone": {
+    "version": "4.3.5",
+    "downloads": {
+      "macArm": "https://github.com/tailwindlabs/tailwindcss/releases/download/v4.3.5/tailwindcss-macos-arm64",
+      "macIntel": "https://github.com/tailwindlabs/tailwindcss/releases/download/v4.3.5/tailwindcss-macos-x64",
+      "windows": "https://github.com/tailwindlabs/tailwindcss/releases/download/v4.3.5/tailwindcss-windows-x64.exe"
+    }
+  },
+  "playground": {
+    "url": "https://play.tailwindcss.com/ceF5gcvINn",
+    "html": "<body class=\"font-sans text-emerald-950\">\n<article class=\"bg-emerald-50 p-4\">\n  <h1 class=\"text-xl font-bold\">\n    Laboratorio aperto\n  </h1>\n  <p class=\"mt-2\">Giovedì, ore 14</p>\n</article>\n</body>",
+    "css": "@import \"tailwindcss\";\n"
+  },
+  "utilityPlayground": {
+    "url": "https://play.tailwindcss.com/ciBuSF7cKr",
+    "html": "<main class=\"mx-auto max-w-sm p-4\">\n  <article class=\"bg-emerald-50 p-4 text-emerald-950\">\n    <header class=\"flex items-center justify-between\">\n      <h1 class=\"text-xl font-bold\">Laboratorio</h1>\n      <span>14:00</span>\n    </header>\n    <p class=\"mt-4\">Introduzione a Tailwind CSS.</p>\n    <div class=\"mt-4 grid grid-cols-2 gap-4\">\n      <p>Analisi</p>\n      <p>Prototipo</p>\n    </div>\n  </article>\n</main>",
+    "css": "@import \"tailwindcss\";\n"
+  },
+  "responsivePlayground": {
+    "url": "https://play.tailwindcss.com/IGLV053DD0",
+    "html": "<div class=\"mt-4 grid grid-cols-1 gap-4 md:grid-cols-3\">\n  <section class=\"bg-emerald-50 p-4 md:col-span-2\">Analisi · Prototipo · Test · Revisione</section>\n  <aside class=\"bg-emerald-100 p-4\">Menu</aside>\n</div>",
+    "css": "@import \"tailwindcss\";\n"
+  },
+  "archives": [
+    {
+      "file": "progetti/slide/assets/esercitazioni/tailwind-intro/archivio/05-prima-del-rifacimento.json",
+      "sha256": "54fccb36624d7b775cd45b94ec182279e376294002a80960ba26453a627d1f54"
+    },
+    {
+      "file": "progetti/slide/assets/esercitazioni/tailwind-intro/archivio/05-prima-del-rifacimento.md",
+      "sha256": "54f114b404f3f84b0ed9625da204ee46526c4add1f5949e9b0529347ad7f93d5"
+    },
+    {
+      "file": "progetti/slide/assets/esercitazioni/tailwind-intro/archivio/framework-curriculum.mjs",
+      "sha256": "8a9b9c7eda56ee8fd52c2ac0574a05499d1a9e4ea3ca504d7896798aecc73e14"
+    },
+    {
+      "file": "progetti/slide/assets/esercitazioni/tailwind-intro/archivio/tailwind-revisions.mjs",
+      "sha256": "ae140c2ba02c5ff70255b9bcce4f28ca5a61d8bed396fafb61776b6aa532efe7"
+    }
+  ],
+  "files": [
+    {
+      "source": "progetti/slide/assets/esercitazioni/tailwind-intro/esempio/cdn/index.html",
+      "web": "/images/esercitazioni/esercizio-05/cdn/index.html",
+      "sha256": "1d9cbb25f04f7bd20408639fd6370a163d5f8a3486cb39b945ee71c7ff86a1a1",
+      "generated": false
+    },
+    {
+      "source": "progetti/slide/assets/esercitazioni/tailwind-intro/esempio/locale/COMANDI.txt",
+      "web": "/images/esercitazioni/esercizio-05/locale/COMANDI.txt",
+      "sha256": "b78109b4859112a984aaa35d80a7ed2da83efa4e47a8f59ede589db916d26abe",
+      "generated": false
+    },
+    {
+      "source": "progetti/slide/assets/esercitazioni/tailwind-intro/esempio/locale/index.html",
+      "web": "/images/esercitazioni/esercizio-05/locale/index.html",
+      "sha256": "9d09732eb1fba6ae7a3bc37f3762aafdef7a83fdf1d96d2d175ac0cceb24eaf6",
+      "generated": false
+    },
+    {
+      "source": "progetti/slide/assets/esercitazioni/tailwind-intro/esempio/locale/input.css",
+      "web": "/images/esercitazioni/esercizio-05/locale/input.css",
+      "sha256": "42070e0b45bb201b2b838a52aaaa6e965f964e0b542d97f1fe517fe59c4b75a8",
+      "generated": false
+    },
+    {
+      "source": "progetti/slide/assets/esercitazioni/tailwind-intro/esempio/locale/output.css",
+      "web": "/images/esercitazioni/esercizio-05/locale/output.css",
+      "sha256": "fe2d8e9c5e6a27fa05315e51a7839cedd723765562e5805c61c8f8309cba3eec",
+      "generated": true
+    },
+    {
+      "source": "progetti/slide/assets/esercitazioni/tailwind-intro/esempio/responsive/COMANDI.txt",
+      "web": "/images/esercitazioni/esercizio-05/responsive/COMANDI.txt",
+      "sha256": "b78109b4859112a984aaa35d80a7ed2da83efa4e47a8f59ede589db916d26abe",
+      "generated": false
+    },
+    {
+      "source": "progetti/slide/assets/esercitazioni/tailwind-intro/esempio/responsive/index.html",
+      "web": "/images/esercitazioni/esercizio-05/responsive/index.html",
+      "sha256": "eef98d0d0b18e82924ef02692e33fed6328aeebcce1bfe11a7d7944d54f28e1e",
+      "generated": false
+    },
+    {
+      "source": "progetti/slide/assets/esercitazioni/tailwind-intro/esempio/responsive/input.css",
+      "web": "/images/esercitazioni/esercizio-05/responsive/input.css",
+      "sha256": "42070e0b45bb201b2b838a52aaaa6e965f964e0b542d97f1fe517fe59c4b75a8",
+      "generated": false
+    },
+    {
+      "source": "progetti/slide/assets/esercitazioni/tailwind-intro/esempio/responsive/output.css",
+      "web": "/images/esercitazioni/esercizio-05/responsive/output.css",
+      "sha256": "5023fabbb3d2d2d8e7dbef4749c9f664eedcb28b53180fff5017ada48a4a6c4e",
+      "generated": true
+    }
+  ]
+}

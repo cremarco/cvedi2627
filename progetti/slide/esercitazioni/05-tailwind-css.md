@@ -5,15 +5,15 @@ lesson: esercitazione-05
 lessonSlide: 1
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 routeAlias: esercitazione-05
 ---
 
 <ChapterMetro section="ux-perception" />
 
-# Tailwind CSS: basi e layout
+# Introduzione a Tailwind CSS
 
-<p>Materiali del corso · fonti ufficiali Tailwind CSS e daisyUI</p>
+<p>Elia Guarnieri · elia.guarnieri@unimib.it</p>
 
 ---
 layout: default
@@ -22,26 +22,26 @@ lesson: esercitazione-05
 lessonSlide: 2
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Dal CSS al progetto
+# Introduzione a Tailwind CSS
 
 <ExerciseContent exercise="05" :slide="2" />
 
 ---
 layout: default
-class: content-slide exercise-slide reading-slide
+class: chapter-slide
 lesson: esercitazione-05
 lessonSlide: 3
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Che cosa fa un framework CSS
+<ChapterMetro section="ux-perception" />
 
-<ExerciseContent exercise="05" :slide="3" />
+# Framework e librerie
 
 ---
 layout: default
@@ -49,11 +49,11 @@ class: content-slide exercise-slide reading-slide
 lesson: esercitazione-05
 lessonSlide: 4
 exerciseNumber: 5
-sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+sourceKind: retained-import
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Una utility, un compito
+# Cosa è una libreria
 
 <ExerciseContent exercise="05" :slide="4" />
 
@@ -63,11 +63,11 @@ class: content-slide exercise-slide reading-slide
 lesson: esercitazione-05
 lessonSlide: 5
 exerciseNumber: 5
-sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+sourceKind: retained-import
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Leggere una composizione
+# Cosa è un framework
 
 <ExerciseContent exercise="05" :slide="5" />
 
@@ -77,11 +77,11 @@ class: content-slide exercise-slide reading-slide
 lesson: esercitazione-05
 lessonSlide: 6
 exerciseNumber: 5
-sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+sourceKind: retained-import
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Una classe si può decodificare
+# Librerie vs framework
 
 <ExerciseContent exercise="05" :slide="6" />
 
@@ -91,11 +91,11 @@ class: content-slide exercise-slide reading-slide
 lesson: esercitazione-05
 lessonSlide: 7
 exerciseNumber: 5
-sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+sourceKind: retained-import
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Installare: percorso con la CLI
+# Esempi di librerie e framework per applicazioni web
 
 <ExerciseContent exercise="05" :slide="7" />
 
@@ -106,26 +106,26 @@ lesson: esercitazione-05
 lessonSlide: 8
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Il CSS di ingresso
+# Che cos’è un framework CSS
 
 <ExerciseContent exercise="05" :slide="8" />
 
 ---
 layout: default
-class: content-slide exercise-slide reading-slide
+class: chapter-slide
 lesson: esercitazione-05
 lessonSlide: 9
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Collegare il CSS compilato
+<ChapterMetro section="ux-perception" />
 
-<ExerciseContent exercise="05" :slide="9" />
+# Introduzione a Tailwind
 
 ---
 layout: default
@@ -134,10 +134,10 @@ lesson: esercitazione-05
 lessonSlide: 10
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Il primo contenuto
+# Che cos’è Tailwind CSS
 
 <ExerciseContent exercise="05" :slide="10" />
 
@@ -148,10 +148,10 @@ lesson: esercitazione-05
 lessonSlide: 11
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Risultato: utility in combinazione
+# Una classe, una decisione
 
 <ExerciseContent exercise="05" :slide="11" />
 
@@ -162,10 +162,10 @@ lesson: esercitazione-05
 lessonSlide: 12
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Preflight: la base cambia
+# Dal CSS alle utility
 
 <ExerciseContent exercise="05" :slide="12" />
 
@@ -176,10 +176,10 @@ lesson: esercitazione-05
 lessonSlide: 13
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Spazio: padding, margini e gap
+# Stati con le varianti
 
 <ExerciseContent exercise="05" :slide="13" />
 
@@ -190,10 +190,10 @@ lesson: esercitazione-05
 lessonSlide: 14
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Esempio · Padding e gap
+# Come viene preparato il CSS
 
 <ExerciseContent exercise="05" :slide="14" />
 
@@ -204,10 +204,10 @@ lesson: esercitazione-05
 lessonSlide: 15
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Prova · Padding e gap
+# Tre modi per usare Tailwind
 
 <ExerciseContent exercise="05" :slide="15" />
 
@@ -218,10 +218,10 @@ lesson: esercitazione-05
 lessonSlide: 16
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Flexbox: da colonna a riga
+# Proviamo Tailwind nel playground
 
 <ExerciseContent exercise="05" :slide="16" />
 
@@ -232,10 +232,10 @@ lesson: esercitazione-05
 lessonSlide: 17
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Risultato: una riga flessibile
+# Che cos’è una CDN
 
 <ExerciseContent exercise="05" :slide="17" />
 
@@ -246,10 +246,10 @@ lesson: esercitazione-05
 lessonSlide: 18
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Esempio · Distribuire lo spazio
+# CDN
 
 <ExerciseContent exercise="05" :slide="18" />
 
@@ -260,10 +260,10 @@ lesson: esercitazione-05
 lessonSlide: 19
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Prova · Distribuire lo spazio
+# Installare Tailwind sul computer
 
 <ExerciseContent exercise="05" :slide="19" />
 
@@ -274,10 +274,10 @@ lesson: esercitazione-05
 lessonSlide: 20
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Esempio · Far andare a capo
+# Che cos’è il terminale
 
 <ExerciseContent exercise="05" :slide="20" />
 
@@ -288,10 +288,10 @@ lesson: esercitazione-05
 lessonSlide: 21
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Prova · Far andare a capo
+# Apriamo il terminale in VS Code
 
 <ExerciseContent exercise="05" :slide="21" />
 
@@ -302,10 +302,10 @@ lesson: esercitazione-05
 lessonSlide: 22
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Grid: tre colonne quando c’è spazio
+# Prompt, comando e risposta
 
 <ExerciseContent exercise="05" :slide="22" />
 
@@ -316,10 +316,10 @@ lesson: esercitazione-05
 lessonSlide: 23
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Risultato: struttura in colonne
+# Dove siamo? Che cosa c’è qui?
 
 <ExerciseContent exercise="05" :slide="23" />
 
@@ -330,10 +330,10 @@ lesson: esercitazione-05
 lessonSlide: 24
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Esempio · Occupare più colonne
+# Leggere un percorso
 
 <ExerciseContent exercise="05" :slide="24" />
 
@@ -344,10 +344,10 @@ lesson: esercitazione-05
 lessonSlide: 25
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Prova · Occupare più colonne
+# Se qualcosa non funziona
 
 <ExerciseContent exercise="05" :slide="25" />
 
@@ -358,10 +358,10 @@ lesson: esercitazione-05
 lessonSlide: 26
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Mobile-first: la base non ha prefisso
+# Piccola prova nel terminale
 
 <ExerciseContent exercise="05" :slide="26" />
 
@@ -372,10 +372,10 @@ lesson: esercitazione-05
 lessonSlide: 27
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# I breakpoint predefiniti
+# La stessa pagina, un CSS locale
 
 <ExerciseContent exercise="05" :slide="27" />
 
@@ -386,10 +386,10 @@ lesson: esercitazione-05
 lessonSlide: 28
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Stesso contenuto, due disposizioni
+# 1 · Scarichiamo la CLI standalone
 
 <ExerciseContent exercise="05" :slide="28" />
 
@@ -400,10 +400,10 @@ lesson: esercitazione-05
 lessonSlide: 29
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Risultato: viewport ampio e stretto
+# 2 · Prepariamo l’eseguibile
 
 <ExerciseContent exercise="05" :slide="29" />
 
@@ -414,10 +414,10 @@ lesson: esercitazione-05
 lessonSlide: 30
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Esempio · Cambiare con il viewport
+# 3 · Creiamo il CSS di ingresso
 
 <ExerciseContent exercise="05" :slide="30" />
 
@@ -428,10 +428,10 @@ lesson: esercitazione-05
 lessonSlide: 31
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Prova · Cambiare con il viewport
+# 4 · Generiamo il CSS
 
 <ExerciseContent exercise="05" :slide="31" />
 
@@ -442,10 +442,10 @@ lesson: esercitazione-05
 lessonSlide: 32
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Contenere la larghezza
+# 5 · Sostituiamo il collegamento alla CDN
 
 <ExerciseContent exercise="05" :slide="32" />
 
@@ -456,10 +456,10 @@ lesson: esercitazione-05
 lessonSlide: 33
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# La tipografia è una gerarchia
+# 6 · Aggiorniamo il CSS a ogni modifica
 
 <ExerciseContent exercise="05" :slide="33" />
 
@@ -470,26 +470,26 @@ lesson: esercitazione-05
 lessonSlide: 34
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Titolo e paragrafo
+# Prepariamo l’editor
 
 <ExerciseContent exercise="05" :slide="34" />
 
 ---
 layout: default
-class: content-slide exercise-slide reading-slide
+class: chapter-slide
 lesson: esercitazione-05
 lessonSlide: 35
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Esempio · Costruire la gerarchia
+<ChapterMetro section="ux-perception" />
 
-<ExerciseContent exercise="05" :slide="35" />
+# Utility e layout responsive
 
 ---
 layout: default
@@ -498,10 +498,10 @@ lesson: esercitazione-05
 lessonSlide: 36
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Prova · Costruire la gerarchia
+# Spacing
 
 <ExerciseContent exercise="05" :slide="36" />
 
@@ -512,10 +512,10 @@ lesson: esercitazione-05
 lessonSlide: 37
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Hover e focus sono stati diversi
+# Typography
 
 <ExerciseContent exercise="05" :slide="37" />
 
@@ -526,10 +526,10 @@ lesson: esercitazione-05
 lessonSlide: 38
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Risultato: focus da tastiera
+# Colors
 
 <ExerciseContent exercise="05" :slide="38" />
 
@@ -540,10 +540,10 @@ lesson: esercitazione-05
 lessonSlide: 39
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Varianti e preferenze
+# Styling with utility classes
 
 <ExerciseContent exercise="05" :slide="39" />
 
@@ -554,10 +554,10 @@ lesson: esercitazione-05
 lessonSlide: 40
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Le classi devono essere riconoscibili
+# Sizing
 
 <ExerciseContent exercise="05" :slide="40" />
 
@@ -568,10 +568,10 @@ lesson: esercitazione-05
 lessonSlide: 41
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Una mappa statica di classi
+# Flexbox
 
 <ExerciseContent exercise="05" :slide="41" />
 
@@ -582,10 +582,10 @@ lesson: esercitazione-05
 lessonSlide: 42
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Valori specifici senza perdere la regola
+# Grid
 
 <ExerciseContent exercise="05" :slide="42" />
 
@@ -596,10 +596,10 @@ lesson: esercitazione-05
 lessonSlide: 43
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Token che producono utility
+# I breakpoint predefiniti
 
 <ExerciseContent exercise="05" :slide="43" />
 
@@ -610,10 +610,10 @@ lesson: esercitazione-05
 lessonSlide: 44
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Riuso: prima riconosci la ripetizione
+# Media query con Tailwind CSS
 
 <ExerciseContent exercise="05" :slide="44" />
 
@@ -624,10 +624,10 @@ lesson: esercitazione-05
 lessonSlide: 45
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Alternativa: integrazione con Vite
+# Esercizio
 
 <ExerciseContent exercise="05" :slide="45" />
 
@@ -638,10 +638,10 @@ lesson: esercitazione-05
 lessonSlide: 46
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Laboratorio · una scheda responsive
+# Il layout da riprodurre · desktop
 
 <ExerciseContent exercise="05" :slide="46" />
 
@@ -652,10 +652,10 @@ lesson: esercitazione-05
 lessonSlide: 47
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
-# Verifica prima di consegnare
+# Il layout da riprodurre · mobile
 
 <ExerciseContent exercise="05" :slide="47" />
 
@@ -666,9 +666,23 @@ lesson: esercitazione-05
 lessonSlide: 48
 exerciseNumber: 5
 sourceKind: official-docs
-footer: Esercitazione 05 · CVeDI 2026/27
+footer: Esercitazione 05 · Elia Guarnieri
+---
+
+# Riferimenti
+
+<ExerciseContent exercise="05" :slide="48" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-05
+lessonSlide: 49
+exerciseNumber: 5
+sourceKind: official-docs
+footer: Esercitazione 05 · Elia Guarnieri
 ---
 
 # Fine esercitazione 05
 
-<ExerciseContent exercise="05" :slide="48" />
+<ExerciseContent exercise="05" :slide="49" />

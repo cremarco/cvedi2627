@@ -3,6 +3,7 @@ import { readFile, mkdir, writeFile } from 'node:fs/promises'
 import { chromium } from 'playwright-chromium'
 import { nativeExamples, renderNativeDocument } from '../../data/esercitazioni/native-examples.mjs'
 import { examples } from '../../data/esercitazioni/framework-curriculum.mjs'
+import { introFragments } from '../../data/esercitazioni/tailwind-intro.mjs'
 
 const output = 'reports/native-exercises'
 await mkdir(output, { recursive: true })
@@ -16,6 +17,14 @@ try {
   for (const [name, entry] of Object.entries({ ...nativeExamples, ...Object.fromEntries(Object.entries(examples).map(([key, value]) => [`framework-${key}`, value])) })) {
     await page.setContent(renderNativeDocument(entry, base, custom))
     await page.evaluate(async () => { await document.fonts.ready; await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))) })
+    if (name.startsWith('tailwind-intro:') && !entry.comparison) {
+      assert.equal(await page.locator('.mockup-code code').textContent(), introFragments[name.slice(15)], 'paired code preserves the exact executable source')
+      const panels = await page.locator('.native-example-pair > section > div').evaluateAll(nodes => nodes.map(node => ({ width: node.getBoundingClientRect().width, height: node.getBoundingClientRect().height, clipped: node.scrollWidth > node.clientWidth + 1 })))
+      assert.equal(panels.length, 2)
+      assert.equal(panels[0].width, panels[1].width, 'paired panels have equal widths')
+      assert.equal(panels[0].height, panels[1].height, 'paired panels have equal heights')
+      assert.ok(panels.every(panel => !panel.clipped), 'paired code wraps within its panel')
+    }
     const metrics = await page.evaluate(() => {
       const issues = [], main = document.querySelector('main')
       if (main.scrollHeight > 396) issues.push(`content height ${main.scrollHeight}`)

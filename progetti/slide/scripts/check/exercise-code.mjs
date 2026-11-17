@@ -6,6 +6,9 @@ import { nativeExamples, renderNativeDocument } from '../../data/esercitazioni/n
 import { openSlide } from '../../../../scripts/check/browser.mjs'
 
 const data = await Promise.all(Array.from({ length: 9 }, (_, i) => readFile(`progetti/slide/data/esercitazioni/${String(i + 1).padStart(2, '0')}.json`, 'utf8').then(JSON.parse)))
+assert.equal(exerciseCodeLanguage('$ pwd\n/home/student\n$ '), 'terminal')
+assert.equal((highlightExerciseCode('$ pwd\r\n/home/student\r\n  $ ').match(/class="exercise-terminal-prompt"/g) || []).length, 2)
+assert.ok(!highlightExerciseCode('const $price = 5;\n$("button").on("click", fn)').includes('exercise-terminal-prompt'))
 const snippets = data.flatMap(slides => slides.flatMap(slide => slide.blocks.filter(block => block.kind === 'code').map(block => block.text)))
 snippets.push('<script>window.codeExecuted=true</script>\n<input onfocus="alert(1)" value="<&>">', 'const x = "<span>";\r\n\t// comment\r\n')
 const base = await readFile('progetti/slide/assets/esercitazioni/tailwind-daisyui/render.css', 'utf8')
@@ -26,7 +29,7 @@ try {
   const colors = await page.locator('main .mockup-code code span').evaluateAll(nodes => [...new Set(nodes.map(node => getComputedStyle(node).color))])
   assert.ok(colors.length >= 5, 'syntax receives distinct token colors')
   const contrasts = await page.locator('main .mockup-code').first().evaluate(panel => {
-    const rgb = color => color.match(/[\d.]+/g).slice(0, 3).map(Number)
+    const rgb = color => { canvas.fillStyle = color; canvas.fillRect(0, 0, 1, 1); return [...canvas.getImageData(0, 0, 1, 1).data].slice(0, 3) }
     const luminance = values => values.map(value => { const v = value / 255; return v <= .04045 ? v / 12.92 : ((v + .055) / 1.055) ** 2.4 }).reduce((sum, value, i) => sum + value * [.2126, .7152, .0722][i], 0)
     const canvas = document.createElement('canvas').getContext('2d', { willReadFrequently: true })
     canvas.fillStyle = getComputedStyle(panel).backgroundColor; canvas.fillRect(0, 0, 1, 1)
@@ -39,13 +42,13 @@ try {
 
   const firstCode = (exercise, language) => ({ exercise, slide: data[exercise - 1].find(slide => slide.blocks.some(block => block.kind === 'code' && exerciseCodeLanguage(block.text) === language)).number })
   const firstNativeCode = exercise => ({ exercise, slide: data[exercise - 1].find(slide => slide.blocks.some(block => block.kind === 'native' && nativeExamples[block.example]?.html.includes('mockup-code'))).number })
-  const cases = [firstCode(1, 'html'), firstCode(2, 'css'), firstCode(5, 'javascript'), { exercise: 6, slide: 29 }, firstCode(7, 'css'), firstNativeCode(1), firstNativeCode(8), firstCode(9, 'javascript')]
+  const cases = [firstCode(1, 'html'), firstCode(2, 'css'), firstCode(5, 'bash'), { exercise: 6, slide: 29 }, firstCode(7, 'css'), firstNativeCode(1), firstNativeCode(8), firstCode(9, 'javascript')]
   for (const [profile, viewport, media] of [['desktop', { width: 1280, height: 720 }, 'screen'], ['narrow', { width: 390, height: 844 }, 'screen'], ['print', { width: 1280, height: 720 }, 'print']]) {
     await page.setViewportSize(viewport)
     await page.emulateMedia({ media })
     for (const { exercise, slide } of cases) {
       const number = String(exercise).padStart(2, '0')
-      const root = await openSlide(page, `http://localhost:3035/lezioni/esercitazione-${number}`, slide, { settle: true })
+      const root = await openSlide(page, `${process.env.EXERCISE_URL || 'http://localhost:3035'}/lezioni/esercitazione-${number}`, slide, { settle: true })
       await root.locator(`[data-exercise-slide="${slide}"]`).waitFor()
       const expected = data[exercise - 1][slide - 1].blocks.filter(block => block.kind === 'code').map(block => block.text)
       assert.deepEqual(await root.locator('.exercise-code code').allTextContents(), expected)

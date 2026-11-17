@@ -1,42 +1,60 @@
 [
   {
-    "title": "Tailwind CSS: basi e layout",
+    "title": "Introduzione a Tailwind CSS",
     "kind": "cover",
+    "section": 0,
     "blocks": [],
+    "showSources": true,
     "sources": [],
     "number": 1,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "tailwind-intro-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Dal CSS al progetto",
+    "title": "Introduzione a Tailwind CSS",
     "kind": "content",
+    "section": 0,
     "blocks": [
       {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Obiettivo: comporre un’interfaccia responsive con utility, riconoscendo le proprietà CSS che ogni classe applica.",
+            "text": "Framework e librerie",
+            "bullet": true,
+            "level": 0,
             "runs": [
               {
-                "text": "Obiettivo: comporre un’interfaccia responsive con utility, riconoscendo le proprietà CSS che ogni classe applica."
+                "text": "Framework e librerie"
               }
             ]
           },
           {
-            "text": "Il percorso usa Tailwind CSS 4. Il codice degli esempi è originale e modificabile.",
+            "text": "Introduzione a Tailwind",
+            "bullet": true,
+            "level": 0,
             "runs": [
               {
-                "text": "Il percorso usa Tailwind CSS 4. Il codice degli esempi è originale e modificabile."
+                "text": "Introduzione a Tailwind"
+              }
+            ]
+          },
+          {
+            "text": "Utility e layout responsive",
+            "bullet": true,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Utility e layout responsive"
               }
             ]
           }
         ]
       }
     ],
+    "showSources": false,
     "sources": [
       {
         "id": "utilities",
@@ -47,246 +65,501 @@
     "number": 2,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "tailwind-intro-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Che cosa fa un framework CSS",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "Un insieme di convenzioni e strumenti organizza stili e riuso. HTML, cascata e layout del browser continuano a funzionare secondo le regole del web.",
-            "runs": [
-              {
-                "text": "Un insieme di convenzioni e strumenti organizza stili e riuso. HTML, cascata e layout del browser continuano a funzionare secondo le regole del web."
-              }
-            ]
-          },
-          {
-            "text": "Tailwind genera utility; nel modulo successivo daisyUI aggiunge classi per componenti.",
-            "runs": [
-              {
-                "text": "Tailwind genera utility; nel modulo successivo daisyUI aggiunge classi per componenti."
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "title": "Framework e librerie",
+    "kind": "divider",
+    "section": 1,
+    "blocks": [],
+    "showSources": true,
     "sources": [
       {
         "id": "utilities",
         "title": "Tailwind · utility classes",
         "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
-      },
-      {
-        "id": "use",
-        "title": "daisyUI · utilizzo",
-        "url": "https://daisyui.com/docs/use/"
       }
     ],
     "number": 3,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "tailwind-intro-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Una utility, un compito",
+    "title": "Cosa è una libreria",
     "kind": "content",
+    "section": 1,
     "blocks": [
       {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Le classi descrivono decisioni di stile: p-6 aggiunge padding, font-bold cambia il peso, grid abilita CSS Grid.",
+            "text": "La complessità delle applicazioni odierne rende consigliabile combinare il proprio codice con porzioni di codice condiviso che aiutino ad agevolare lo sviluppo",
             "runs": [
               {
-                "text": "Le classi descrivono decisioni di stile: p-6 aggiunge padding, font-bold cambia il peso, grid abilita CSS Grid."
+                "text": "La complessità delle applicazioni odierne rende consigliabile combinare il proprio codice con porzioni di codice condiviso che aiutino ad agevolare lo sviluppo"
               }
-            ]
+            ],
+            "bullet": false,
+            "level": 0
           },
           {
-            "text": "Leggi le classi per gruppi: layout, spazio, tipografia, colore e stati.",
+            "text": "Lo scopo delle librerie è fornire una collezione di entità riutilizzabili, che lo sviluppatore può utilizzare per evitare di dover riscrivere ogni volta le stesse funzioni, facilitando così le operazioni di sviluppo e manutenzione",
             "runs": [
               {
-                "text": "Leggi le classi per gruppi: layout, spazio, tipografia, colore e stati."
+                "text": "Lo scopo delle "
+              },
+              {
+                "text": "librerie ",
+                "bold": true
+              },
+              {
+                "text": "è fornire una collezione di entità riutilizzabili, che lo sviluppatore può utilizzare per "
+              },
+              {
+                "text": "evitare di dover riscrivere",
+                "bold": true
+              },
+              {
+                "text": " ogni volta le stesse funzioni, facilitando così le operazioni di sviluppo e manutenzione"
               }
-            ]
+            ],
+            "bullet": false,
+            "level": 0
           }
         ]
       }
     ],
-    "sources": [
-      {
-        "id": "utilities",
-        "title": "Tailwind · utility classes",
-        "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
-      }
-    ],
+    "showSources": true,
+    "sources": [],
+    "sourceKind": "retained-import",
+    "retainedFrom": {
+      "file": "progetti/slide/assets/esercitazioni/bootstrap-archive/05.json",
+      "number": 5,
+      "sourceSlide": 5
+    },
     "number": 4,
     "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "tailwind-intro-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Leggere una composizione",
+    "title": "Cosa è un framework",
     "kind": "content",
-    "blocks": [
-      {
-        "kind": "code",
-        "text": "<section class=\"grid gap-4 p-6\">\n  <h2 class=\"text-2xl font-bold\">Layout, spazio e tipografia</h2>\n</section>"
-      }
-    ],
-    "sources": [
-      {
-        "id": "utilities",
-        "title": "Tailwind · utility classes",
-        "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
-      }
-    ],
-    "number": 5,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Una classe si può decodificare",
-    "kind": "content",
+    "section": 1,
     "blocks": [
       {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "In md:grid-cols-2, md: è la condizione e grid-cols-2 è l’utility.",
+            "text": "Quando si parla di applicazioni web, il framework può essere definito come una “cornice” applicabile ad un linguaggio",
             "runs": [
               {
-                "text": "In md:grid-cols-2, md: è la condizione e grid-cols-2 è l’utility."
+                "text": "Quando si parla di applicazioni web, il "
+              },
+              {
+                "text": "framework ",
+                "bold": true
+              },
+              {
+                "text": "può essere definito come una “"
+              },
+              {
+                "text": "cornice",
+                "bold": true
+              },
+              {
+                "text": "” applicabile ad un linguaggio"
               }
-            ]
+            ],
+            "bullet": false,
+            "level": 0
           },
           {
-            "text": "La condizione non modifica il significato HTML dell’elemento: un titolo rimane un titolo perché usa h1, h2 e così via.",
+            "text": "Un framework è solitamente un sistema distribuito in cartelle e sotto forma di alcune porzioni di codice prestabilite che, connesse attraverso un design concettuale univoco, sono state create per la realizzazione di alcune specifiche funzioni",
             "runs": [
               {
-                "text": "La condizione non modifica il significato HTML dell’elemento: un titolo rimane un titolo perché usa h1, h2 e così via."
+                "text": "Un framework è solitamente un sistema distribuito in cartelle e sotto forma di alcune porzioni di codice prestabilite che, connesse attraverso un "
+              },
+              {
+                "text": "design concettuale",
+                "bold": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "univoco",
+                "bold": true
+              },
+              {
+                "text": ", sono state create per la realizzazione di alcune specifiche funzioni"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "showSources": true,
+    "sources": [],
+    "sourceKind": "retained-import",
+    "retainedFrom": {
+      "file": "progetti/slide/assets/esercitazioni/bootstrap-archive/05.json",
+      "number": 6,
+      "sourceSlide": 6
+    },
+    "number": 5,
+    "sourceSlide": null,
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Librerie vs framework",
+    "kind": "content",
+    "section": 1,
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Oltre 20 anni fa l’informatico Martin Fowler ha pubblicato un influente articolo sull’inversione di controllo1, che può essere vista come la principale differenza tra libreria e framework",
+            "runs": [
+              {
+                "text": "Oltre 20 anni fa l’informatico Martin Fowler ha pubblicato un influente articolo "
+              },
+              {
+                "text": "sull’inversione di controllo",
+                "bold": true
+              },
+              {
+                "text": "1",
+                "superscript": true,
+                "href": "https://martinfowler.com/bliki/InversionOfControl.html"
+              },
+              {
+                "text": ", che può essere vista come la principale differenza tra libreria e framework"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Quando utilizziamo una libreria, abbiamo noi il controllo di ciò che stiamo facendo. Quando lavoriamo con un framework, invece, è lui ad averlo: il flusso di controllo è già definito, e noi avremo semplicemente una serie di spazi da riempire con il nostro codice",
+            "runs": [
+              {
+                "text": "Quando utilizziamo una libreria, abbiamo noi il controllo di ciò che stiamo facendo. Quando lavoriamo con un framework, invece, è lui ad averlo: il flusso di controllo è già definito, e noi avremo semplicemente una serie di spazi da riempire con il nostro codice"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "figure-group",
+        "figures": [
+          {
+            "src": "/images/esercitazioni/framework-controllo.svg",
+            "caption": "Framework",
+            "alt": "Framework: Application è contenuta nel Framework, sopra Platform.",
+            "showDialogTitle": false
+          },
+          {
+            "src": "/images/esercitazioni/librerie-controllo.svg",
+            "caption": "Librerie",
+            "alt": "Librerie: Application è accanto a Library 1, Library 2 e Library 3, tutte sopra Platform.",
+            "showDialogTitle": false
+          }
+        ]
+      },
+      {
+        "kind": "citation",
+        "paragraphs": [
+          {
+            "text": "1. Fowler, M. (2005, 26 giugno). Inversion of control. MartinFowler.com. https://martinfowler.com/bliki/InversionOfControl.html",
+            "runs": [
+              {
+                "text": "1. Fowler, M. (2005, 26 giugno). "
+              },
+              {
+                "text": "Inversion of control.",
+                "italic": true
+              },
+              {
+                "text": " MartinFowler.com. "
+              },
+              {
+                "text": "https://martinfowler.com/bliki/InversionOfControl.html",
+                "href": "https://martinfowler.com/bliki/InversionOfControl.html"
               }
             ]
           }
         ]
       }
     ],
-    "sources": [
+    "showSources": true,
+    "sources": [],
+    "sourceKind": "retained-import",
+    "retainedFrom": {
+      "file": "progetti/slide/assets/esercitazioni/bootstrap-archive/05.json",
+      "number": 9,
+      "sourceSlide": 9,
+      "numbers": [
+        9,
+        10
+      ],
+      "editorialChanges": [
+        "elapsed-years",
+        "fowler-citation",
+        "separate-diagrams"
+      ]
+    },
+    "layout": "columns",
+    "number": 6,
+    "sourceSlide": null,
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempi di librerie e framework per applicazioni web",
+    "kind": "content",
+    "section": 1,
+    "blocks": [
       {
-        "id": "responsive",
-        "title": "Tailwind · responsive design",
-        "url": "https://tailwindcss.com/docs/responsive-design"
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Librerie",
+            "runs": [
+              {
+                "text": "Librerie",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Front-end: jQuery/React",
+            "runs": [
+              {
+                "text": "Front-end: jQuery/React"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
       },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Framework",
+            "runs": [
+              {
+                "text": "Framework",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Back-end: Laravel (php), Django (python), Express (js)",
+            "runs": [
+              {
+                "text": "Back-end"
+              },
+              {
+                "text": ": Laravel (php), Django (python), Express (js)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Front-end: Angular/Vue (js)",
+            "runs": [
+              {
+                "text": "Front-end: Angular/Vue (js)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "showSources": true,
+    "sources": [],
+    "sourceKind": "retained-import",
+    "retainedFrom": {
+      "file": "progetti/slide/assets/esercitazioni/bootstrap-archive/05.json",
+      "number": 11,
+      "sourceSlide": 10,
+      "omittedBlocks": [
+        1
+      ]
+    },
+    "number": 7,
+    "sourceSlide": null,
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Che cos’è un framework CSS",
+    "kind": "content",
+    "section": 1,
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Un framework CSS raccoglie regole, classi e convenzioni riutilizzabili per costruire l’aspetto delle pagine web.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Un framework CSS raccoglie regole, classi e convenzioni riutilizzabili per costruire l’aspetto delle pagine web."
+              }
+            ]
+          },
+          {
+            "text": "Le classi permettono di applicare stili per spaziature, testo, colori e layout. Le proprietà restano quelle del CSS che abbiamo già utilizzato.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Le classi permettono di applicare stili per spaziature, testo, colori e layout. Le proprietà restano quelle del CSS che abbiamo già utilizzato."
+              }
+            ]
+          },
+          {
+            "text": "Qui la struttura fornita dal framework riguarda gli stili: continuiamo a scegliere noi i tag, il contenuto e la disposizione della pagina.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Qui la struttura fornita dal framework riguarda gli stili: continuiamo a scegliere noi i tag, il contenuto e la disposizione della pagina."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "showSources": false,
+    "sources": [
       {
         "id": "utilities",
         "title": "Tailwind · utility classes",
         "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
-      }
-    ],
-    "number": 6,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Installare: percorso con la CLI",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "code",
-        "text": "npm install -D tailwindcss @tailwindcss/cli\n\nnpx @tailwindcss/cli -i ./src/input.css \\\n  -o ./public/output.css --watch"
-      }
-    ],
-    "sources": [
-      {
-        "id": "cli",
-        "title": "Tailwind · installazione CLI",
-        "url": "https://tailwindcss.com/docs/installation/tailwind-cli"
-      }
-    ],
-    "number": 7,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Il CSS di ingresso",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "code",
-        "text": "@import \"tailwindcss\";\n\n/* src/input.css: la CLI produce public/output.css. */"
-      }
-    ],
-    "sources": [
-      {
-        "id": "cli",
-        "title": "Tailwind · installazione CLI",
-        "url": "https://tailwindcss.com/docs/installation/tailwind-cli"
       }
     ],
     "number": 8,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "tailwind-intro-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Collegare il CSS compilato",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "code",
-        "text": "<!-- Nel documento public/index.html -->\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<link rel=\"stylesheet\" href=\"./output.css\">"
-      }
-    ],
+    "title": "Introduzione a Tailwind",
+    "kind": "divider",
+    "section": 2,
+    "blocks": [],
+    "showSources": true,
     "sources": [
       {
-        "id": "cli",
-        "title": "Tailwind · installazione CLI",
-        "url": "https://tailwindcss.com/docs/installation/tailwind-cli"
-      },
-      {
-        "id": "responsive",
-        "title": "Tailwind · responsive design",
-        "url": "https://tailwindcss.com/docs/responsive-design"
+        "id": "utilities",
+        "title": "Tailwind · utility classes",
+        "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
       }
     ],
     "number": 9,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "tailwind-intro-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Il primo contenuto",
+    "title": "Che cos’è Tailwind CSS",
     "kind": "content",
+    "section": 2,
     "blocks": [
       {
-        "kind": "code",
-        "text": "<article class=\"max-w-xl rounded-xl bg-emerald-50 p-6 text-emerald-950\">\n  <h2 class=\"text-2xl font-bold\">Laboratorio aperto</h2>\n  <p class=\"mt-3\">Porta una domanda e il tuo prototipo.</p>\n</article>"
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Tailwind CSS è un framework CSS open-source di tipo utility-first.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Tailwind CSS è un "
+              },
+              {
+                "text": "framework CSS open-source di tipo utility-first",
+                "bold": true
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "text": "Le utility class applicano scelte di stile, come uno spazio, un colore o un allineamento. Le proprietà CSS restano quelle che conosciamo già.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Le "
+              },
+              {
+                "text": "utility class",
+                "bold": true
+              },
+              {
+                "text": " applicano scelte di stile, come uno spazio, un colore o un allineamento. Le proprietà CSS restano quelle che conosciamo già."
+              }
+            ]
+          },
+          {
+            "text": "Utility-first significa partire da queste classi e combinarle nell’attributo class dell’HTML. Scegliamo noi struttura, contenuti e aspetto della pagina, riutilizzando gli stili forniti da Tailwind.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Utility-first",
+                "bold": true
+              },
+              {
+                "text": " significa partire da queste classi e combinarle nell’attributo "
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": " dell’HTML. Scegliamo noi struttura, contenuti e aspetto della pagina, riutilizzando gli stili forniti da Tailwind."
+              }
+            ]
+          }
+        ]
       }
     ],
+    "showSources": false,
     "sources": [
       {
         "id": "utilities",
@@ -297,753 +570,1824 @@
     "number": 10,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "tailwind-intro-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Risultato: utility in combinazione",
+    "title": "Una classe, una decisione",
     "kind": "content",
+    "section": 2,
     "blocks": [
       {
-        "kind": "native",
-        "caption": "Padding, misura del testo e gerarchia derivano da classi distinte.",
-        "example": "framework:first"
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Nel CSS scritto da noi definiamo la classe scheda. Con Tailwind usiamo p-4, che applica il padding.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Nel CSS scritto da noi definiamo la classe "
+              },
+              {
+                "text": "scheda",
+                "mono": true
+              },
+              {
+                "text": ". Con Tailwind usiamo "
+              },
+              {
+                "text": "p-4",
+                "mono": true
+              },
+              {
+                "text": ", che applica il padding."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "code-group",
+        "title": "CSS tradizionale",
+        "files": [
+          {
+            "label": "CSS",
+            "text": ".scheda { padding: 1rem; }"
+          },
+          {
+            "label": "HTML",
+            "text": "<article class=\"scheda\">\n  Laboratorio aperto\n</article>"
+          }
+        ]
+      },
+      {
+        "kind": "code-group",
+        "title": "Tailwind CSS",
+        "files": [
+          {
+            "label": "CSS",
+            "text": "@import \"tailwindcss\";"
+          },
+          {
+            "label": "HTML",
+            "text": "<article class=\"p-4\">\n  Laboratorio aperto\n</article>"
+          }
+        ]
       }
     ],
+    "showSources": false,
     "sources": [
       {
         "id": "utilities",
         "title": "Tailwind · utility classes",
         "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
+      },
+      {
+        "id": "spacing",
+        "title": "Tailwind · padding",
+        "url": "https://tailwindcss.com/docs/padding"
       }
     ],
+    "layout": "comparison",
     "number": 11,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "tailwind-intro-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Preflight: la base cambia",
+    "title": "Dal CSS alle utility",
     "kind": "content",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "L’import di Tailwind include Preflight. Tra gli effetti: rimozione dei margini predefiniti e titoli senza una gerarchia visiva automatica.",
-            "runs": [
-              {
-                "text": "L’import di Tailwind include Preflight. Tra gli effetti: rimozione dei margini predefiniti e titoli senza una gerarchia visiva automatica."
-              }
-            ]
-          },
-          {
-            "text": "La semantica resta nell’HTML; dimensione, peso e spazio dei titoli vanno scelti esplicitamente.",
-            "runs": [
-              {
-                "text": "La semantica resta nell’HTML; dimensione, peso e spazio dei titoli vanno scelti esplicitamente."
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "id": "preflight",
-        "title": "Tailwind · Preflight",
-        "url": "https://tailwindcss.com/docs/preflight"
-      }
-    ],
-    "number": 12,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Spazio: padding, margini e gap",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "p-* agisce all’interno; m-* all’esterno; gap-* separa gli elementi di un contenitore Flexbox o Grid.",
-            "runs": [
-              {
-                "text": "p-* agisce all’interno; m-* all’esterno; gap-* separa gli elementi di un contenitore Flexbox o Grid."
-              }
-            ]
-          },
-          {
-            "text": "Per il flusso logico usa anche ps-* e pe-*. Parti da una scala coerente e verifica gli spazi nel risultato.",
-            "runs": [
-              {
-                "text": "Per il flusso logico usa anche ps-* e pe-*. Parti da una scala coerente e verifica gli spazi nel risultato."
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "id": "spacing",
-        "title": "Tailwind · padding",
-        "url": "https://tailwindcss.com/docs/padding"
-      },
-      {
-        "id": "grid",
-        "title": "Tailwind · Grid",
-        "url": "https://tailwindcss.com/docs/grid-template-columns"
-      }
-    ],
-    "number": 13,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Esempio · Padding e gap",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "code",
-        "text": "<div class=\"grid items-start gap-6 sm:grid-cols-2\">\n  <section class=\"grid gap-2 bg-base-200 p-2\">\n    <p class=\"bg-base-100 p-2\">p-2 · gap-2</p>\n    <p class=\"bg-base-100 p-2\">Secondo elemento</p>\n  </section>\n  <section class=\"grid gap-6 bg-base-200 p-6\">\n    <p class=\"bg-base-100 p-2\">p-6 · gap-6</p>\n    <p class=\"bg-base-100 p-2\">Secondo elemento</p>\n  </section>\n</div>"
-      }
-    ],
-    "sources": [
-      {
-        "id": "spacing",
-        "title": "Tailwind · padding",
-        "url": "https://tailwindcss.com/docs/padding"
-      },
-      {
-        "id": "gap",
-        "title": "Tailwind · gap",
-        "url": "https://tailwindcss.com/docs/gap"
-      }
-    ],
-    "number": 14,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Prova · Padding e gap",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "native",
-        "caption": "Osserva: p-* separa il contenuto dal bordo; gap-* separa i figli. Prova: Porta soltanto gap-2 a gap-6: che cosa cambia?",
-        "example": "framework:spacingCompare"
-      }
-    ],
-    "sources": [
-      {
-        "id": "spacing",
-        "title": "Tailwind · padding",
-        "url": "https://tailwindcss.com/docs/padding"
-      },
-      {
-        "id": "gap",
-        "title": "Tailwind · gap",
-        "url": "https://tailwindcss.com/docs/gap"
-      }
-    ],
-    "number": 15,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Flexbox: da colonna a riga",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "code",
-        "text": "<div class=\"flex flex-col gap-4 sm:flex-row sm:items-center\">\n  <h2 class=\"text-2xl font-bold\">Laboratorio aperto</h2>\n  <p class=\"sm:ml-auto\">Giovedì, ore 14</p>\n</div>"
-      }
-    ],
-    "sources": [
-      {
-        "id": "flex",
-        "title": "Tailwind · Flexbox",
-        "url": "https://tailwindcss.com/docs/flex"
-      },
-      {
-        "id": "responsive",
-        "title": "Tailwind · responsive design",
-        "url": "https://tailwindcss.com/docs/responsive-design"
-      }
-    ],
-    "number": 16,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Risultato: una riga flessibile",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "native",
-        "caption": "Su questa larghezza il titolo e l’orario condividono una riga.",
-        "example": "framework:flex"
-      }
-    ],
-    "sources": [
-      {
-        "id": "flex",
-        "title": "Tailwind · Flexbox",
-        "url": "https://tailwindcss.com/docs/flex"
-      },
-      {
-        "id": "responsive",
-        "title": "Tailwind · responsive design",
-        "url": "https://tailwindcss.com/docs/responsive-design"
-      }
-    ],
-    "number": 17,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Esempio · Distribuire lo spazio",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "code",
-        "text": "<div class=\"grid gap-6\">\n  <div class=\"flex flex-wrap justify-center gap-3 bg-base-200 p-4\">\n    <span>justify-center</span><span>14:00</span>\n  </div>\n  <div class=\"flex flex-wrap justify-between gap-3 bg-base-200 p-4\">\n    <span>justify-between</span><span>14:00</span>\n  </div>\n</div>"
-      }
-    ],
-    "sources": [
-      {
-        "id": "justify",
-        "title": "Tailwind · justify-content",
-        "url": "https://tailwindcss.com/docs/justify-content"
-      },
-      {
-        "id": "flex",
-        "title": "Tailwind · Flexbox",
-        "url": "https://tailwindcss.com/docs/flex"
-      }
-    ],
-    "number": 18,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Prova · Distribuire lo spazio",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "native",
-        "caption": "Osserva: Gli elementi sono uguali; cambia la distribuzione dello spazio libero. Prova: Sostituisci justify-center con justify-end.",
-        "example": "framework:alignmentCompare"
-      }
-    ],
-    "sources": [
-      {
-        "id": "justify",
-        "title": "Tailwind · justify-content",
-        "url": "https://tailwindcss.com/docs/justify-content"
-      },
-      {
-        "id": "flex",
-        "title": "Tailwind · Flexbox",
-        "url": "https://tailwindcss.com/docs/flex"
-      }
-    ],
-    "number": 19,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Esempio · Far andare a capo",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "code",
-        "text": "<div class=\"mx-auto flex max-w-xl flex-wrap gap-4 bg-base-200 p-4\">\n  <p class=\"basis-64 grow bg-base-100 p-4\">Analisi</p>\n  <p class=\"basis-64 grow bg-base-100 p-4\">Prototipo</p>\n  <p class=\"basis-64 grow bg-base-100 p-4\">Verifica</p>\n</div>"
-      }
-    ],
-    "sources": [
-      {
-        "id": "wrap",
-        "title": "Tailwind · flex-wrap",
-        "url": "https://tailwindcss.com/docs/flex-wrap"
-      },
-      {
-        "id": "flex",
-        "title": "Tailwind · Flexbox",
-        "url": "https://tailwindcss.com/docs/flex"
-      }
-    ],
-    "number": 20,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Prova · Far andare a capo",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "native",
-        "caption": "Osserva: flex-wrap crea una nuova riga quando le basi dei tre elementi non entrano. Prova: Togli flex-wrap e confronta le larghezze degli elementi.",
-        "example": "framework:wrappingItems"
-      }
-    ],
-    "sources": [
-      {
-        "id": "wrap",
-        "title": "Tailwind · flex-wrap",
-        "url": "https://tailwindcss.com/docs/flex-wrap"
-      },
-      {
-        "id": "flex",
-        "title": "Tailwind · Flexbox",
-        "url": "https://tailwindcss.com/docs/flex"
-      }
-    ],
-    "number": 21,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Grid: tre colonne quando c’è spazio",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "code",
-        "text": "<div class=\"grid grid-cols-1 gap-4 md:grid-cols-3\">\n  <p class=\"rounded-lg bg-emerald-100 p-6\">Osserva</p>\n  <p class=\"rounded-lg bg-emerald-100 p-6\">Progetta</p>\n  <p class=\"rounded-lg bg-emerald-100 p-6\">Verifica</p>\n</div>"
-      }
-    ],
-    "sources": [
-      {
-        "id": "grid",
-        "title": "Tailwind · Grid",
-        "url": "https://tailwindcss.com/docs/grid-template-columns"
-      },
-      {
-        "id": "responsive",
-        "title": "Tailwind · responsive design",
-        "url": "https://tailwindcss.com/docs/responsive-design"
-      }
-    ],
-    "number": 22,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Risultato: struttura in colonne",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "native",
-        "caption": "Tre fasi condividono colonne e intervalli regolari.",
-        "example": "framework:grid"
-      }
-    ],
-    "sources": [
-      {
-        "id": "grid",
-        "title": "Tailwind · Grid",
-        "url": "https://tailwindcss.com/docs/grid-template-columns"
-      }
-    ],
-    "number": 23,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Esempio · Occupare più colonne",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "code",
-        "text": "<div class=\"grid grid-cols-1 gap-4 sm:grid-cols-3\">\n  <header class=\"bg-base-200 p-4 sm:col-span-3\">Laboratorio</header>\n  <aside class=\"bg-base-200 p-4\">Materiali</aside>\n  <section class=\"bg-base-300 p-4 sm:col-span-2\">Contenuto principale</section>\n  <footer class=\"bg-base-200 p-4 sm:col-span-3\">Contatti</footer>\n</div>"
-      }
-    ],
-    "sources": [
-      {
-        "id": "grid",
-        "title": "Tailwind · Grid",
-        "url": "https://tailwindcss.com/docs/grid-template-columns"
-      },
-      {
-        "id": "span",
-        "title": "Tailwind · grid-column",
-        "url": "https://tailwindcss.com/docs/grid-column"
-      }
-    ],
-    "number": 24,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Prova · Occupare più colonne",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "native",
-        "caption": "Osserva: Grid crea tre colonne; col-span-2 assegna due colonne al contenuto. Prova: Cambia col-span-2 in col-span-1 e osserva lo spazio libero.",
-        "example": "framework:gridSpans"
-      }
-    ],
-    "sources": [
-      {
-        "id": "grid",
-        "title": "Tailwind · Grid",
-        "url": "https://tailwindcss.com/docs/grid-template-columns"
-      },
-      {
-        "id": "span",
-        "title": "Tailwind · grid-column",
-        "url": "https://tailwindcss.com/docs/grid-column"
-      }
-    ],
-    "number": 25,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Mobile-first: la base non ha prefisso",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "Le utility senza prefisso valgono a ogni larghezza. md: aggiunge regole dalla soglia md in avanti.",
-            "runs": [
-              {
-                "text": "Le utility senza prefisso valgono a ogni larghezza. md: aggiunge regole dalla soglia md in avanti."
-              }
-            ]
-          },
-          {
-            "text": "sm: non significa “solo smartphone”. Scegli i breakpoint quando il contenuto richiede una disposizione diversa.",
-            "runs": [
-              {
-                "text": "sm: non significa “solo smartphone”. Scegli i breakpoint quando il contenuto richiede una disposizione diversa."
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "id": "responsive",
-        "title": "Tailwind · responsive design",
-        "url": "https://tailwindcss.com/docs/responsive-design"
-      }
-    ],
-    "number": 26,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "I breakpoint predefiniti",
-    "kind": "content",
+    "section": 2,
     "blocks": [
       {
         "kind": "table",
         "rows": [
           [
-            "Variante",
-            "Larghezza minima"
+            "Proprietà",
+            "Utility",
+            "CSS equivalente"
           ],
           [
-            "sm:",
-            "40rem · 640px"
+            "Padding",
+            "p-4",
+            "padding: 1rem"
           ],
           [
-            "md:",
-            "48rem · 768px"
+            "Bold",
+            "font-bold",
+            "font-weight: 700"
           ],
           [
-            "lg:",
-            "64rem · 1024px"
+            "Flexbox",
+            "flex",
+            "display: flex"
           ],
           [
-            "xl:",
-            "80rem · 1280px"
-          ],
-          [
-            "2xl:",
-            "96rem · 1536px"
+            "Gap",
+            "gap-4",
+            "gap: 1rem"
           ]
+        ],
+        "codeColumns": [
+          1,
+          2
         ]
-      }
-    ],
-    "sources": [
-      {
-        "id": "responsive",
-        "title": "Tailwind · responsive design",
-        "url": "https://tailwindcss.com/docs/responsive-design"
-      }
-    ],
-    "number": 27,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Stesso contenuto, due disposizioni",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "code",
-        "text": "<div class=\"grid grid-cols-1 gap-4 md:grid-cols-2\">\n  <p class=\"rounded-lg bg-emerald-100 p-6\">Programma</p>\n  <p class=\"rounded-lg bg-emerald-100 p-6\">Materiali</p>\n</div>"
-      }
-    ],
-    "sources": [
-      {
-        "id": "responsive",
-        "title": "Tailwind · responsive design",
-        "url": "https://tailwindcss.com/docs/responsive-design"
       },
-      {
-        "id": "grid",
-        "title": "Tailwind · Grid",
-        "url": "https://tailwindcss.com/docs/grid-template-columns"
-      }
-    ],
-    "number": 28,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Risultato: viewport ampio e stretto",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "native",
-        "caption": "Lo stesso HTML passa da due colonne a una; i viewport degli esempi sono reali.",
-        "example": "framework:responsive"
-      }
-    ],
-    "sources": [
-      {
-        "id": "responsive",
-        "title": "Tailwind · responsive design",
-        "url": "https://tailwindcss.com/docs/responsive-design"
-      }
-    ],
-    "number": 29,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Esempio · Cambiare con il viewport",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "code",
-        "text": "<section class=\"grid gap-4 bg-base-200 p-4\">\n  <h2 class=\"text-xl font-bold\">Prossimo laboratorio</h2>\n  <p>Giovedì, ore 14</p>\n  <p class=\"md:hidden\">Apri il programma per i dettagli.</p>\n  <p class=\"hidden md:block\">Aula 12 · porta computer e prototipo.</p>\n</section>"
-      }
-    ],
-    "sources": [
-      {
-        "id": "responsive",
-        "title": "Tailwind · responsive design",
-        "url": "https://tailwindcss.com/docs/responsive-design"
-      },
-      {
-        "id": "display",
-        "title": "Tailwind · display",
-        "url": "https://tailwindcss.com/docs/display"
-      }
-    ],
-    "number": 30,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Prova · Cambiare con il viewport",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "native",
-        "caption": "Osserva: Sotto md compare il messaggio compatto; da md compaiono i dettagli. Prova: Usa lg: al posto di md: e osserva il viewport da 780px.",
-        "example": "framework:responsiveVisibility"
-      }
-    ],
-    "sources": [
-      {
-        "id": "responsive",
-        "title": "Tailwind · responsive design",
-        "url": "https://tailwindcss.com/docs/responsive-design"
-      },
-      {
-        "id": "display",
-        "title": "Tailwind · display",
-        "url": "https://tailwindcss.com/docs/display"
-      }
-    ],
-    "number": 31,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Contenere la larghezza",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "code",
-        "text": "<main class=\"mx-auto w-full max-w-5xl px-4 sm:px-6\">\n  <p class=\"max-w-prose\">Una riga di testo con misura controllata.</p>\n</main>"
-      }
-    ],
-    "sources": [
-      {
-        "id": "utilities",
-        "title": "Tailwind · utility classes",
-        "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
-      },
-      {
-        "id": "responsive",
-        "title": "Tailwind · responsive design",
-        "url": "https://tailwindcss.com/docs/responsive-design"
-      }
-    ],
-    "number": 32,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "La tipografia è una gerarchia",
-    "kind": "content",
-    "blocks": [
       {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Dimensione, peso e interlinea hanno ruoli distinti. Un carattere grande non deve sostituire l’elemento semantico corretto.",
+            "text": "Una utility esprime una scelta di stile: può corrispondere a una o più dichiarazioni CSS. Combinando le classi costruiamo il nostro layout senza riscrivere ogni regola.",
+            "bullet": false,
+            "level": 0,
             "runs": [
               {
-                "text": "Dimensione, peso e interlinea hanno ruoli distinti. Un carattere grande non deve sostituire l’elemento semantico corretto."
-              }
-            ]
-          },
-          {
-            "text": "Controlla righe troppo lunghe, testo che va a capo e spazio fra titolo e paragrafo.",
-            "runs": [
-              {
-                "text": "Controlla righe troppo lunghe, testo che va a capo e spazio fra titolo e paragrafo."
+                "text": "Una utility esprime una scelta di stile: può corrispondere a una o più dichiarazioni CSS. Combinando le classi costruiamo il nostro layout senza riscrivere ogni regola."
               }
             ]
           }
         ]
       }
     ],
+    "showSources": false,
     "sources": [
       {
         "id": "utilities",
         "title": "Tailwind · utility classes",
         "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
+      },
+      {
+        "id": "spacing",
+        "title": "Tailwind · padding",
+        "url": "https://tailwindcss.com/docs/padding"
+      },
+      {
+        "id": "gap",
+        "title": "Tailwind · gap",
+        "url": "https://tailwindcss.com/docs/gap"
+      }
+    ],
+    "number": 12,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Stati con le varianti",
+    "kind": "content",
+    "section": 2,
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Un prefisso aggiunge una condizione: la utility si applica quando quella condizione è soddisfatta.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Un prefisso aggiunge una condizione: la utility si applica quando quella condizione è soddisfatta."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "table",
+        "rows": [
+          [
+            "Variante",
+            "Quando ha effetto"
+          ],
+          [
+            "hover:underline",
+            "Sottolineatura al passaggio del puntatore"
+          ],
+          [
+            "focus-visible:outline-2",
+            "Contorno per evidenziare il focus, per esempio usando la tastiera"
+          ],
+          [
+            "active:bg-emerald-100",
+            "Sfondo durante l’attivazione dell’elemento"
+          ]
+        ],
+        "codeColumns": [
+          0
+        ]
+      }
+    ],
+    "showSources": true,
+    "sources": [
+      {
+        "id": "states",
+        "title": "Tailwind · stati e varianti",
+        "url": "https://tailwindcss.com/docs/hover-focus-and-other-states"
+      }
+    ],
+    "number": 13,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Come viene preparato il CSS",
+    "kind": "content",
+    "section": 2,
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Uno strumento legge i file del progetto, riconosce le classi utilizzate e genera le utility corrispondenti nel file CSS finale.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Uno strumento legge i file del progetto, riconosce le classi utilizzate e "
+              },
+              {
+                "text": "genera le utility corrispondenti",
+                "bold": true
+              },
+              {
+                "text": " nel file CSS finale."
+              }
+            ]
+          },
+          {
+            "text": "In questo modo il progetto include gli stili di base e le utility necessarie, anziché un catalogo completo di classi precompilate. La dimensione del CSS dipende dalle classi usate.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "In questo modo il progetto include gli stili di base e le utility necessarie, anziché un catalogo completo di classi precompilate. La dimensione del CSS dipende dalle classi usate."
+              }
+            ]
+          },
+          {
+            "text": "Questo passaggio si chiama build, cioè generazione dei file da usare nel sito.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Questo passaggio si chiama "
+              },
+              {
+                "text": "build",
+                "bold": true
+              },
+              {
+                "text": ", cioè generazione dei file da usare nel sito."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "showSources": true,
+    "sources": [
+      {
+        "id": "detection",
+        "title": "Tailwind · rilevamento delle classi",
+        "url": "https://tailwindcss.com/docs/detecting-classes-in-source-files"
+      }
+    ],
+    "number": 14,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Tre modi per usare Tailwind",
+    "kind": "content",
+    "section": 2,
+    "blocks": [
+      {
+        "kind": "table",
+        "rows": [
+          [
+            "Modalità",
+            "Quando la usiamo"
+          ],
+          [
+            "Playground",
+            "Per imparare e provare le utility online, senza preparare un progetto"
+          ],
+          [
+            "CDN",
+            "Per integrare Tailwind rapidamente in un prototipo HTML"
+          ],
+          [
+            "Installazione locale",
+            "Per generare il CSS del progetto e prepararlo alla pubblicazione"
+          ]
+        ],
+        "codeColumns": []
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "introPlay",
+        "title": "Tailwind · playground",
+        "url": "https://play.tailwindcss.com"
+      },
+      {
+        "id": "introCDN",
+        "title": "Tailwind · Play CDN",
+        "url": "https://tailwindcss.com/docs/installation/play-cdn"
+      },
+      {
+        "id": "cli",
+        "title": "Tailwind · installazione CLI",
+        "url": "https://tailwindcss.com/docs/installation/tailwind-cli"
+      }
+    ],
+    "number": 15,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Proviamo Tailwind nel playground",
+    "kind": "content",
+    "section": 2,
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Un playground è un ambiente online in cui scrivere codice e vedere subito il risultato. Tailwind Play ha già gli strumenti necessari: per cominciare basta il browser.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Un "
+              },
+              {
+                "text": "playground",
+                "bold": true
+              },
+              {
+                "text": " è un ambiente online in cui scrivere codice e vedere subito il risultato. Tailwind Play ha già gli strumenti necessari: per cominciare basta il browser."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "resources",
+        "resourceLayout": "plain",
+        "showHint": false,
+        "resources": [
+          {
+            "title": "playground",
+            "url": "https://play.tailwindcss.com/ceF5gcvINn"
+          }
+        ]
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "introPlay",
+        "title": "Tailwind · playground",
+        "url": "https://play.tailwindcss.com"
+      }
+    ],
+    "number": 16,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Che cos’è una CDN",
+    "kind": "content",
+    "section": 2,
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Una Content Delivery Network è una rete di server da cui possiamo caricare risorse per la nostra pagina.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Una "
+              },
+              {
+                "text": "Content Delivery Network",
+                "bold": true
+              },
+              {
+                "text": " è una rete di server da cui possiamo caricare risorse per la nostra pagina."
+              }
+            ]
+          },
+          {
+            "text": "La Play CDN di Tailwind ci permette di provare le utility direttamente nel browser, senza installare strumenti sul computer.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "La Play CDN di Tailwind ci permette di provare le utility direttamente nel browser, senza installare strumenti sul computer."
+              }
+            ]
+          },
+          {
+            "text": "La usiamo per il fast prototyping, cioè per costruire e provare rapidamente un’idea.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "La usiamo per il "
+              },
+              {
+                "text": "fast prototyping",
+                "bold": true
+              },
+              {
+                "text": ", cioè per costruire e provare rapidamente un’idea."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "introCDN",
+        "title": "Tailwind · Play CDN",
+        "url": "https://tailwindcss.com/docs/installation/play-cdn"
+      }
+    ],
+    "number": 17,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "CDN",
+    "kind": "content",
+    "section": 2,
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Per usare Tailwind tramite CDN, il documento HTML deve contenere questo script nella sezione <head>. Lo script carica Tailwind nel browser e rende disponibili le utility nella pagina.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Per usare Tailwind tramite CDN, il documento HTML deve contenere questo script nella sezione "
+              },
+              {
+                "text": "<head>",
+                "mono": true
+              },
+              {
+                "text": ". Lo script carica Tailwind nel browser e rende disponibili le utility nella pagina."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "text": "<script src=\"https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4\"></script>"
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "introCDN",
+        "title": "Tailwind · Play CDN",
+        "url": "https://tailwindcss.com/docs/installation/play-cdn"
+      }
+    ],
+    "number": 18,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Installare Tailwind sul computer",
+    "kind": "content",
+    "section": 2,
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Per generare il CSS sul nostro computer useremo il terminale, una finestra in cui scrivere comandi.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Per generare il CSS sul nostro computer useremo il "
+              },
+              {
+                "text": "terminale",
+                "bold": true
+              },
+              {
+                "text": ", una finestra in cui scrivere comandi."
+              }
+            ]
+          },
+          {
+            "text": "Tailwind si può installare in vari modi. Noi useremo la CLI standalone: un programma contenuto in un solo file, immediato da preparare e senza dipendenze da installare.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Tailwind si può installare in vari modi. Noi useremo la "
+              },
+              {
+                "text": "CLI standalone",
+                "bold": true
+              },
+              {
+                "text": ": un programma contenuto in un solo file, immediato da preparare e senza dipendenze da installare."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "introStandalone",
+        "title": "Tailwind · CLI standalone",
+        "url": "https://tailwindcss.com/docs/installation/tailwind-cli"
+      }
+    ],
+    "number": 19,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Che cos’è il terminale",
+    "kind": "content",
+    "section": 2,
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "È una finestra in cui scriviamo istruzioni per il computer e leggiamo le risposte.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "È una finestra in cui scriviamo istruzioni per il computer e leggiamo le risposte."
+              }
+            ]
+          },
+          {
+            "text": "L’interprete dei comandi, detto shell, legge le istruzioni. In Windows useremo PowerShell; in macOS il terminale usa normalmente zsh.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "L’interprete dei comandi, detto "
+              },
+              {
+                "text": "shell",
+                "bold": true
+              },
+              {
+                "text": ", legge le istruzioni. In Windows useremo PowerShell; in macOS il terminale usa normalmente zsh."
+              }
+            ]
+          },
+          {
+            "text": "Per Tailwind lo useremo per avviare la generazione del CSS con un programma scaricato sul computer.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Per Tailwind lo useremo per avviare la generazione del CSS con un programma scaricato sul computer."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "showSources": true,
+    "sources": [
+      {
+        "id": "introCommandLine",
+        "title": "MDN · riga di comando",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line"
+      },
+      {
+        "id": "introTerminal",
+        "title": "VS Code · terminale",
+        "url": "https://code.visualstudio.com/docs/terminal/basics"
+      }
+    ],
+    "number": 20,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Apriamo il terminale in VS Code",
+    "kind": "content",
+    "section": 2,
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Creiamo la cartella laboratorio-tailwind e apriamola in VS Code",
+            "bullet": true,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Creiamo la cartella laboratorio-tailwind e apriamola in VS Code"
+              }
+            ]
+          },
+          {
+            "text": "Creiamo index.html e copiamo l’esempio del playground nel body del documento",
+            "bullet": true,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Creiamo index.html e copiamo l’esempio del playground nel body del documento"
+              }
+            ]
+          },
+          {
+            "text": "Scegliamo Terminale → Nuovo terminale",
+            "bullet": true,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Scegliamo Terminale → Nuovo terminale"
+              }
+            ]
+          },
+          {
+            "text": "Compare un pannello nella parte inferiore di VS Code",
+            "bullet": true,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Compare un pannello nella parte inferiore di VS Code"
+              }
+            ]
+          },
+          {
+            "text": "Il nuovo terminale parte normalmente dalla cartella aperta: controlliamo sempre il percorso",
+            "bullet": true,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Il nuovo terminale parte normalmente dalla cartella aperta: controlliamo sempre il percorso"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "introTerminal",
+        "title": "VS Code · terminale",
+        "url": "https://code.visualstudio.com/docs/terminal/basics"
+      }
+    ],
+    "number": 21,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prompt, comando e risposta",
+    "kind": "content",
+    "section": 2,
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Il prompt indica che la shell è pronta. Aspetto e percorso cambiano fra computer.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Il "
+              },
+              {
+                "text": "prompt",
+                "bold": true
+              },
+              {
+                "text": " indica che la shell è pronta. Aspetto e percorso cambiano fra computer."
+              }
+            ]
+          },
+          {
+            "text": "Digitiamo pwd dopo il prompt e premiamo Invio. La risposta indica la cartella corrente.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Digitiamo "
+              },
+              {
+                "text": "pwd",
+                "mono": true
+              },
+              {
+                "text": " dopo il prompt e premiamo Invio. La risposta indica la cartella corrente."
+              }
+            ]
+          },
+          {
+            "text": "Il simbolo $ è parte del prompt illustrato: il comando da digitare è soltanto pwd.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Il simbolo "
+              },
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": " è parte del prompt illustrato: il comando da digitare è soltanto "
+              },
+              {
+                "text": "pwd",
+                "mono": true
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "text": "$ pwd\n/Users/nome/laboratorio-tailwind"
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "introCommandLine",
+        "title": "MDN · riga di comando",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line"
+      }
+    ],
+    "number": 22,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Dove siamo? Che cosa c’è qui?",
+    "kind": "content",
+    "section": 2,
+    "blocks": [
+      {
+        "kind": "table",
+        "rows": [
+          [
+            "Comando",
+            "Che cosa fa"
+          ],
+          [
+            "pwd",
+            "Mostra il percorso della cartella corrente"
+          ],
+          [
+            "ls",
+            "Elenca file e cartelle presenti qui"
+          ],
+          [
+            "cd ..",
+            "Sposta nella cartella superiore"
+          ],
+          [
+            "cd laboratorio-tailwind",
+            "Entra nella sottocartella indicata"
+          ]
+        ],
+        "codeColumns": [
+          0
+        ]
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "introCommandLine",
+        "title": "MDN · riga di comando",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line"
+      },
+      {
+        "id": "introTerminal",
+        "title": "VS Code · terminale",
+        "url": "https://code.visualstudio.com/docs/terminal/basics"
+      }
+    ],
+    "number": 23,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Leggere un percorso",
+    "kind": "content",
+    "section": 2,
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "cd significa cambiare cartella. Il nome dopo lo spazio indica dove andare.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "cd",
+                "mono": true
+              },
+              {
+                "text": " significa cambiare cartella. Il nome dopo lo spazio indica dove andare."
+              }
+            ]
+          },
+          {
+            "text": ".. indica la cartella superiore. Un nome semplice indica una sottocartella della posizione corrente.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "..",
+                "mono": true
+              },
+              {
+                "text": " indica la cartella superiore. Un nome semplice indica una sottocartella della posizione corrente."
+              }
+            ]
+          },
+          {
+            "text": "Le virgolette tengono insieme un percorso che contiene spazi.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Le virgolette tengono insieme un percorso che contiene spazi."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "text": "cd ..\n\ncd laboratorio-tailwind\n\ncd \"Materiali del corso\""
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "introCommandLine",
+        "title": "MDN · riga di comando",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line"
+      }
+    ],
+    "number": 24,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Se qualcosa non funziona",
+    "kind": "content",
+    "section": 2,
+    "blocks": [
+      {
+        "kind": "table",
+        "rows": [
+          [
+            "Messaggio o situazione",
+            "Primo controllo"
+          ],
+          [
+            "Comando non trovato / non riconosciuto",
+            "Nome digitato e programma installato"
+          ],
+          [
+            "Percorso o file non trovato",
+            "Cartella corrente e nome del file"
+          ],
+          [
+            "Il prompt non ritorna",
+            "Il programma può essere ancora in esecuzione"
+          ]
+        ],
+        "codeColumns": []
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Con Ctrl+C chiediamo di interrompere il programma attivo. Per rilanciare un comando possiamo usare Freccia su e poi Invio.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Con "
+              },
+              {
+                "text": "Ctrl+C",
+                "bold": true
+              },
+              {
+                "text": " chiediamo di interrompere il programma attivo. Per rilanciare un comando possiamo usare Freccia su e poi Invio."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "introCommandLine",
+        "title": "MDN · riga di comando",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line"
+      },
+      {
+        "id": "introTerminal",
+        "title": "VS Code · terminale",
+        "url": "https://code.visualstudio.com/docs/terminal/basics"
+      }
+    ],
+    "number": 25,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Piccola prova nel terminale",
+    "kind": "content",
+    "section": 2,
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Esegui pwd e controlla che il percorso termini con laboratorio-tailwind",
+            "bullet": true,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Esegui pwd e controlla che il percorso termini con laboratorio-tailwind"
+              }
+            ]
+          },
+          {
+            "text": "Esegui ls e ritrova index.html",
+            "bullet": true,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Esegui ls e ritrova index.html"
+              }
+            ]
+          },
+          {
+            "text": "Esegui cd .. per uscire, poi cd laboratorio-tailwind per rientrare",
+            "bullet": true,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Esegui cd .. per uscire, poi cd laboratorio-tailwind per rientrare"
+              }
+            ]
+          },
+          {
+            "text": "Esegui di nuovo pwd: sei tornato nel progetto",
+            "bullet": true,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Esegui di nuovo pwd: sei tornato nel progetto"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "introCommandLine",
+        "title": "MDN · riga di comando",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line"
+      }
+    ],
+    "number": 26,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "La stessa pagina, un CSS locale",
+    "kind": "content",
+    "section": 2,
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Con la Play CDN il browser genera gli stili durante la prova.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Con la Play CDN il browser genera gli stili durante la prova."
+              }
+            ]
+          },
+          {
+            "text": "Con la CLI, Tailwind legge le classi nei file del progetto e genera output.css sul computer.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Con la CLI, Tailwind legge le classi nei file del progetto e genera "
+              },
+              {
+                "text": "output.css",
+                "mono": true
+              },
+              {
+                "text": " sul computer."
+              }
+            ]
+          },
+          {
+            "text": "Conserviamo l’articolo di Laboratorio aperto: cambierà il modo in cui gli stili arrivano alla pagina.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Conserviamo l’articolo di Laboratorio aperto: cambierà il modo in cui gli stili arrivano alla pagina."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "introCDN",
+        "title": "Tailwind · Play CDN",
+        "url": "https://tailwindcss.com/docs/installation/play-cdn"
+      }
+    ],
+    "number": 27,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "1 · Scarichiamo la CLI standalone",
+    "kind": "content",
+    "section": 2,
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "CLI significa interfaccia a riga di comando. La versione standalone è un programma completo in un solo file: lo scarichiamo e lo avviamo dal terminale.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "CLI",
+                "bold": true
+              },
+              {
+                "text": " significa interfaccia a riga di comando. La versione "
+              },
+              {
+                "text": "standalone",
+                "bold": true
+              },
+              {
+                "text": " è un programma completo in un solo file: lo scarichiamo e lo avviamo dal terminale."
+              }
+            ]
+          },
+          {
+            "text": "Apriamo la sezione Assets della pagina collegata e scegliamo il file per il nostro sistema.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Apriamo la sezione "
+              },
+              {
+                "text": "Assets",
+                "bold": true
+              },
+              {
+                "text": " della pagina collegata e scegliamo il file per il nostro sistema."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Mac: menu Apple → Informazioni su questo Mac. Con chip Apple Silicon scegliamo tailwindcss-macos-arm64; con processore Intel scegliamo tailwindcss-macos-x64",
+            "bullet": true,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Mac:",
+                "bold": true
+              },
+              {
+                "text": " menu Apple → Informazioni su questo Mac. Con chip Apple Silicon scegliamo "
+              },
+              {
+                "text": "tailwindcss-macos-arm64",
+                "mono": true
+              },
+              {
+                "text": "; con processore Intel scegliamo "
+              },
+              {
+                "text": "tailwindcss-macos-x64",
+                "mono": true
+              }
+            ]
+          },
+          {
+            "text": "Windows: Impostazioni → Sistema → Informazioni → Tipo sistema. Per Windows a 64 bit su processore x64 scegliamo tailwindcss-windows-x64.exe. Per Windows a 32 bit non è disponibile un eseguibile standalone",
+            "bullet": true,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Windows:",
+                "bold": true
+              },
+              {
+                "text": " Impostazioni → Sistema → Informazioni → Tipo sistema. Per Windows a 64 bit su processore x64 scegliamo "
+              },
+              {
+                "text": "tailwindcss-windows-x64.exe",
+                "mono": true
+              },
+              {
+                "text": ". Per Windows a 32 bit non è disponibile un eseguibile standalone"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "resources",
+        "resourceLayout": "plain",
+        "showHint": false,
+        "resources": [
+          {
+            "title": "Scarica tailwind",
+            "url": "https://github.com/tailwindlabs/tailwindcss/releases/tag/v4.3.5"
+          }
+        ]
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "introStandalone",
+        "title": "Tailwind · CLI standalone",
+        "url": "https://tailwindcss.com/docs/installation/tailwind-cli"
+      }
+    ],
+    "number": 28,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "2 · Prepariamo l’eseguibile",
+    "kind": "content",
+    "section": 2,
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Spostiamo il file scaricato nella cartella laboratorio-tailwind, accanto a index.html.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Spostiamo il file scaricato nella cartella "
+              },
+              {
+                "text": "laboratorio-tailwind",
+                "mono": true
+              },
+              {
+                "text": ", accanto a "
+              },
+              {
+                "text": "index.html",
+                "mono": true
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "text": "Rinominiamolo tailwindcss su Mac oppure tailwindcss.exe su Windows, mantenendo l’estensione .exe.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Rinominiamolo "
+              },
+              {
+                "text": "tailwindcss",
+                "mono": true
+              },
+              {
+                "text": " su Mac oppure "
+              },
+              {
+                "text": "tailwindcss.exe",
+                "mono": true
+              },
+              {
+                "text": " su Windows, mantenendo l’estensione "
+              },
+              {
+                "text": ".exe",
+                "mono": true
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "text": "Solo su Mac, eseguiamo questo comando una volta per renderlo eseguibile:",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Solo su Mac, eseguiamo questo comando una volta per renderlo eseguibile:"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "text": "chmod +x ./tailwindcss"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Nei prossimi comandi ./ su Mac e .\\ in PowerShell indicano il programma nella cartella corrente.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Nei prossimi comandi "
+              },
+              {
+                "text": "./",
+                "mono": true
+              },
+              {
+                "text": " su Mac e "
+              },
+              {
+                "text": ".\\",
+                "mono": true
+              },
+              {
+                "text": " in PowerShell indicano il programma nella cartella corrente."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "introStandalone",
+        "title": "Tailwind · CLI standalone",
+        "url": "https://tailwindcss.com/docs/installation/tailwind-cli"
+      },
+      {
+        "id": "introCommandLine",
+        "title": "MDN · riga di comando",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line"
+      }
+    ],
+    "number": 29,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "3 · Creiamo il CSS di ingresso",
+    "kind": "content",
+    "section": 2,
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "In VS Code creiamo input.css accanto a index.html e salviamolo.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "In VS Code creiamo "
+              },
+              {
+                "text": "input.css",
+                "mono": true
+              },
+              {
+                "text": " accanto a "
+              },
+              {
+                "text": "index.html",
+                "mono": true
+              },
+              {
+                "text": " e salviamolo."
+              }
+            ]
+          },
+          {
+            "text": "Questa istruzione importa Tailwind per la compilazione.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Questa istruzione importa Tailwind per la compilazione."
+              }
+            ]
+          },
+          {
+            "text": "input.css è la sorgente. output.css sarà il risultato generato.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "input.css",
+                "mono": true
+              },
+              {
+                "text": " è la sorgente. "
+              },
+              {
+                "text": "output.css",
+                "mono": true
+              },
+              {
+                "text": " sarà il risultato generato."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "text": "@import \"tailwindcss\";"
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "cli",
+        "title": "Tailwind · installazione CLI",
+        "url": "https://tailwindcss.com/docs/installation/tailwind-cli"
+      }
+    ],
+    "number": 30,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "4 · Generiamo il CSS",
+    "kind": "content",
+    "section": 2,
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Nel terminale controlliamo con pwd e ls di essere nella cartella con l’eseguibile, index.html e input.css.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Nel terminale controlliamo con "
+              },
+              {
+                "text": "pwd",
+                "mono": true
+              },
+              {
+                "text": " e "
+              },
+              {
+                "text": "ls",
+                "mono": true
+              },
+              {
+                "text": " di essere nella cartella con l’eseguibile, "
+              },
+              {
+                "text": "index.html",
+                "mono": true
+              },
+              {
+                "text": " e "
+              },
+              {
+                "text": "input.css",
+                "mono": true
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "text": "Eseguiamo il comando del nostro sistema. -i indica il file da leggere; -o indica il CSS da scrivere.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Eseguiamo il comando del nostro sistema. "
+              },
+              {
+                "text": "-i",
+                "mono": true
+              },
+              {
+                "text": " indica il file da leggere; "
+              },
+              {
+                "text": "-o",
+                "mono": true
+              },
+              {
+                "text": " indica il CSS da scrivere."
+              }
+            ]
+          },
+          {
+            "text": "Alla fine compare output.css, pronto da collegare alla pagina.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Alla fine compare "
+              },
+              {
+                "text": "output.css",
+                "mono": true
+              },
+              {
+                "text": ", pronto da collegare alla pagina."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "text": "# macOS\n./tailwindcss -i ./input.css -o ./output.css\n\n# Windows · PowerShell\n.\\tailwindcss.exe -i ./input.css -o ./output.css"
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "introStandalone",
+        "title": "Tailwind · CLI standalone",
+        "url": "https://tailwindcss.com/docs/installation/tailwind-cli"
+      }
+    ],
+    "number": 31,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "5 · Sostituiamo il collegamento alla CDN",
+    "kind": "content",
+    "section": 2,
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "In <head> togliamo lo script della Play CDN e inseriamo il collegamento al CSS generato. Il contenuto di <body> rimane identico.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "In "
+              },
+              {
+                "text": "<head>",
+                "mono": true
+              },
+              {
+                "text": " togliamo lo script della Play CDN e inseriamo il collegamento al CSS generato. Il contenuto di "
+              },
+              {
+                "text": "<body>",
+                "mono": true
+              },
+              {
+                "text": " rimane identico."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "text": "<!-- Collegamento precedente: da togliere -->\n<script src=\"https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4\"></script>\n\n<!-- Nuovo collegamento: da inserire -->\n<link rel=\"stylesheet\" href=\"./output.css\">"
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "introCDN",
+        "title": "Tailwind · Play CDN",
+        "url": "https://tailwindcss.com/docs/installation/play-cdn"
+      },
+      {
+        "id": "cli",
+        "title": "Tailwind · installazione CLI",
+        "url": "https://tailwindcss.com/docs/installation/tailwind-cli"
+      }
+    ],
+    "number": 32,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "6 · Aggiorniamo il CSS a ogni modifica",
+    "kind": "content",
+    "section": 2,
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "# macOS\n./tailwindcss -i ./input.css -o ./output.css --watch\n\n# Windows · PowerShell\n.\\tailwindcss.exe -i ./input.css -o ./output.css --watch"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "--watch lascia il programma attivo: quando salviamo i file, Tailwind aggiorna il CSS.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "--watch",
+                "mono": true
+              },
+              {
+                "text": " lascia il programma attivo: quando salviamo i file, Tailwind aggiorna il CSS."
+              }
+            ]
+          },
+          {
+            "text": "Il prompt rimane occupato finché il programma è in ascolto. Lo interrompiamo con Ctrl+C.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Il prompt rimane occupato finché il programma è in ascolto. Lo interrompiamo con "
+              },
+              {
+                "text": "Ctrl+C",
+                "bold": true
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "text": "Salviamo l’HTML e ricarichiamo il browser per vedere le modifiche.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Salviamo l’HTML e ricarichiamo il browser per vedere le modifiche."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "cli",
+        "title": "Tailwind · installazione CLI",
+        "url": "https://tailwindcss.com/docs/installation/tailwind-cli"
+      },
+      {
+        "id": "introTerminal",
+        "title": "VS Code · terminale",
+        "url": "https://code.visualstudio.com/docs/terminal/basics"
       }
     ],
     "number": 33,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "tailwind-intro-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Titolo e paragrafo",
+    "title": "Prepariamo l’editor",
     "kind": "content",
+    "section": 2,
     "blocks": [
       {
-        "kind": "code",
-        "text": "<h2 class=\"text-2xl font-bold leading-tight\">Materiali del laboratorio</h2>\n<p class=\"mt-4 max-w-prose text-lg leading-relaxed\">\n  Leggi il brief e prepara una prima ipotesi.\n</p>"
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "In VS Code installiamo Tailwind CSS IntelliSense, l’estensione ufficiale indicata dalla guida Tailwind.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "In VS Code installiamo "
+              },
+              {
+                "text": "Tailwind CSS IntelliSense",
+                "bold": true
+              },
+              {
+                "text": ", l’estensione ufficiale indicata dalla guida Tailwind."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Apriamo il pannello Estensioni dalla barra laterale di VS Code",
+            "bullet": true,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Apriamo il pannello Estensioni dalla barra laterale di VS Code"
+              }
+            ]
+          },
+          {
+            "text": "Cerchiamo Tailwind CSS IntelliSense e scegliamo Installa",
+            "bullet": true,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Cerchiamo Tailwind CSS IntelliSense e scegliamo Installa"
+              }
+            ]
+          },
+          {
+            "text": "Apriamo input.css, facciamo clic su CSS nella barra in basso e selezioniamo Tailwind CSS",
+            "bullet": true,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Apriamo input.css, facciamo clic su CSS nella barra in basso e selezioniamo Tailwind CSS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Questa modalità riconosce la sintassi e le direttive specifiche di Tailwind. Per generare il CSS continuiamo a usare la CLI standalone.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Questa modalità riconosce la sintassi e le direttive specifiche di Tailwind. Per generare il CSS continuiamo a usare la CLI standalone."
+              }
+            ]
+          }
+        ]
       }
     ],
+    "showSources": true,
     "sources": [
       {
-        "id": "utilities",
-        "title": "Tailwind · utility classes",
-        "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
+        "id": "introEditor",
+        "title": "Tailwind · preparare l’editor",
+        "url": "https://tailwindcss.com/docs/editor-setup"
       }
     ],
     "number": 34,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "tailwind-intro-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Esempio · Costruire la gerarchia",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "code",
-        "text": "<div class=\"grid gap-6 sm:grid-cols-2\">\n  <section class=\"bg-base-200 p-4\">\n    <h2 class=\"text-base font-normal\">Materiali del laboratorio</h2>\n    <p class=\"text-base\">Leggi il brief e prepara una domanda.</p>\n  </section>\n  <section class=\"bg-base-200 p-4\">\n    <h2 class=\"text-2xl font-bold leading-tight\">Materiali del laboratorio</h2>\n    <p class=\"mt-4 text-base leading-relaxed\">Leggi il brief e prepara una domanda.</p>\n  </section>\n</div>"
-      }
-    ],
+    "title": "Utility e layout responsive",
+    "kind": "divider",
+    "section": 3,
+    "blocks": [],
+    "showSources": true,
     "sources": [
       {
         "id": "utilities",
@@ -1054,20 +2398,199 @@
     "number": 35,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "tailwind-intro-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Prova · Costruire la gerarchia",
+    "title": "Spacing",
     "kind": "content",
+    "section": 3,
     "blocks": [
       {
-        "kind": "native",
-        "caption": "Osserva: La seconda versione distingue titolo, testo e distanza fra i blocchi. Prova: Togli font-bold: il titolo resta riconoscibile?",
-        "example": "framework:typeHierarchy"
+        "kind": "table",
+        "rows": [
+          [
+            "Classe",
+            "CSS"
+          ],
+          [
+            "p-4",
+            "padding: 1rem;"
+          ],
+          [
+            "mt-4",
+            "margin-top: 1rem;"
+          ]
+        ],
+        "codeColumns": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "code",
+        "text": "<article class=\"p-4\">\n  <p class=\"mt-4\">Introduzione a Tailwind CSS.</p>\n</article>"
       }
     ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "spacing",
+        "title": "Tailwind · padding",
+        "url": "https://tailwindcss.com/docs/padding"
+      },
+      {
+        "id": "introMargin",
+        "title": "Tailwind · margini",
+        "url": "https://tailwindcss.com/docs/margin"
+      }
+    ],
+    "number": 36,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Typography",
+    "kind": "content",
+    "section": 3,
+    "blocks": [
+      {
+        "kind": "table",
+        "rows": [
+          [
+            "Classe",
+            "CSS"
+          ],
+          [
+            "text-xl",
+            "font-size: 1.25rem; line-height: 1.75rem;"
+          ],
+          [
+            "font-bold",
+            "font-weight: 700;"
+          ]
+        ],
+        "codeColumns": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "code",
+        "text": "<h1 class=\"text-xl font-bold\">Laboratorio</h1>"
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "introType",
+        "title": "Tailwind · dimensioni del testo",
+        "url": "https://tailwindcss.com/docs/font-size"
+      },
+      {
+        "id": "introWeight",
+        "title": "Tailwind · font-weight",
+        "url": "https://tailwindcss.com/docs/font-weight"
+      }
+    ],
+    "number": 37,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Colors",
+    "kind": "content",
+    "section": 3,
+    "blocks": [
+      {
+        "kind": "table",
+        "rows": [
+          [
+            "Classe",
+            "CSS"
+          ],
+          [
+            "bg-emerald-50",
+            "background-color: var(--color-emerald-50);"
+          ],
+          [
+            "text-emerald-950",
+            "color: var(--color-emerald-950);"
+          ]
+        ],
+        "codeColumns": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "code",
+        "text": "<p class=\"bg-emerald-50 text-emerald-950\">Laboratorio</p>"
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "introBackground",
+        "title": "Tailwind · background-color",
+        "url": "https://tailwindcss.com/docs/background-color"
+      },
+      {
+        "id": "introTextColor",
+        "title": "Tailwind · color",
+        "url": "https://tailwindcss.com/docs/color"
+      }
+    ],
+    "number": 38,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Styling with utility classes",
+    "kind": "content",
+    "section": 3,
+    "blocks": [
+      {
+        "kind": "table",
+        "rows": [
+          [
+            "Classe",
+            "CSS"
+          ],
+          [
+            "bg-emerald-50",
+            "background-color: var(--color-emerald-50);"
+          ],
+          [
+            "p-4",
+            "padding: 1rem;"
+          ],
+          [
+            "text-emerald-950",
+            "color: var(--color-emerald-950);"
+          ]
+        ],
+        "codeColumns": [
+          0,
+          1
+        ]
+      },
+      {
+        "kind": "code",
+        "text": "<article class=\"bg-emerald-50 p-4 text-emerald-950\">\n  Laboratorio\n</article>"
+      }
+    ],
+    "showSources": false,
     "sources": [
       {
         "id": "utilities",
@@ -1075,303 +2598,437 @@
         "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
       }
     ],
-    "number": 36,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Hover e focus sono stati diversi",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "code",
-        "text": "<a href=\"#programma\"\n  class=\"rounded px-4 py-2 underline hover:no-underline\n    focus-visible:outline-2 focus-visible:outline-offset-4\">\n  Leggi il programma\n</a>"
-      }
-    ],
-    "sources": [
-      {
-        "id": "states",
-        "title": "Tailwind · stati e varianti",
-        "url": "https://tailwindcss.com/docs/hover-focus-and-other-states"
-      }
-    ],
-    "number": 37,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Risultato: focus da tastiera",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "native",
-        "caption": "Il contorno identifica il collegamento che riceve il focus.",
-        "example": "framework:focus"
-      }
-    ],
-    "sources": [
-      {
-        "id": "states",
-        "title": "Tailwind · stati e varianti",
-        "url": "https://tailwindcss.com/docs/hover-focus-and-other-states"
-      }
-    ],
-    "number": 38,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Varianti e preferenze",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "Le varianti possono dipendere da stati, media query e attributi. motion-reduce: permette di adattare gli effetti alle preferenze di movimento.",
-            "runs": [
-              {
-                "text": "Le varianti possono dipendere da stati, media query e attributi. motion-reduce: permette di adattare gli effetti alle preferenze di movimento."
-              }
-            ]
-          },
-          {
-            "text": "Definisci il risultato anche senza hover e verifica la navigazione da tastiera.",
-            "runs": [
-              {
-                "text": "Definisci il risultato anche senza hover e verifica la navigazione da tastiera."
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "id": "states",
-        "title": "Tailwind · stati e varianti",
-        "url": "https://tailwindcss.com/docs/hover-focus-and-other-states"
-      }
-    ],
     "number": 39,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "tailwind-intro-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Le classi devono essere riconoscibili",
+    "title": "Sizing",
     "kind": "content",
+    "section": 3,
     "blocks": [
       {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "Tailwind cerca nomi di classe completi nei sorgenti. Concatenare frammenti come bg- + colore + -600 può impedire la generazione dello stile.",
-            "runs": [
-              {
-                "text": "Tailwind cerca nomi di classe completi nei sorgenti. Concatenare frammenti come bg- + colore + -600 può impedire la generazione dello stile."
-              }
-            ]
-          },
-          {
-            "text": "Prepara una mappa di stringhe complete e registra esplicitamente i sorgenti esterni con @source quando necessario.",
-            "runs": [
-              {
-                "text": "Prepara una mappa di stringhe complete e registra esplicitamente i sorgenti esterni con @source quando necessario."
-              }
-            ]
-          }
+        "kind": "table",
+        "rows": [
+          [
+            "Classe",
+            "CSS"
+          ],
+          [
+            "max-w-sm",
+            "max-width: 24rem;"
+          ],
+          [
+            "mx-auto",
+            "margin-inline: auto;"
+          ]
+        ],
+        "codeColumns": [
+          0,
+          1
         ]
+      },
+      {
+        "kind": "code",
+        "text": "<main class=\"mx-auto max-w-sm\">Laboratorio</main>"
       }
     ],
+    "showSources": false,
     "sources": [
       {
-        "id": "detection",
-        "title": "Tailwind · rilevamento delle classi",
-        "url": "https://tailwindcss.com/docs/detecting-classes-in-source-files"
+        "id": "introWidth",
+        "title": "Tailwind · larghezza massima",
+        "url": "https://tailwindcss.com/docs/max-width"
+      },
+      {
+        "id": "introMargin",
+        "title": "Tailwind · margini",
+        "url": "https://tailwindcss.com/docs/margin"
       }
     ],
     "number": 40,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "tailwind-intro-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Una mappa statica di classi",
+    "title": "Flexbox",
     "kind": "content",
+    "section": 3,
     "blocks": [
       {
+        "kind": "table",
+        "rows": [
+          [
+            "Classe",
+            "CSS"
+          ],
+          [
+            "flex",
+            "display: flex;"
+          ],
+          [
+            "items-center",
+            "align-items: center;"
+          ],
+          [
+            "justify-between",
+            "justify-content: space-between;"
+          ]
+        ],
+        "codeColumns": [
+          0,
+          1
+        ]
+      },
+      {
         "kind": "code",
-        "text": "const stato = {\n  disponibile: \"bg-emerald-100 text-emerald-950\",\n  esaurito: \"bg-amber-100 text-amber-950\",\n};\n// Usa una delle stringhe complete, senza costruire il nome a pezzi."
+        "text": "<header class=\"flex items-center justify-between\">\n  <span>Laboratorio</span><span>14:00</span>\n</header>"
       }
     ],
+    "showSources": false,
     "sources": [
       {
-        "id": "detection",
-        "title": "Tailwind · rilevamento delle classi",
-        "url": "https://tailwindcss.com/docs/detecting-classes-in-source-files"
+        "id": "introDisplay",
+        "title": "Tailwind · display",
+        "url": "https://tailwindcss.com/docs/display"
+      },
+      {
+        "id": "introAlign",
+        "title": "Tailwind · align-items",
+        "url": "https://tailwindcss.com/docs/align-items"
+      },
+      {
+        "id": "justify",
+        "title": "Tailwind · justify-content",
+        "url": "https://tailwindcss.com/docs/justify-content"
       }
     ],
     "number": 41,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "tailwind-intro-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Valori specifici senza perdere la regola",
+    "title": "Grid",
     "kind": "content",
+    "section": 3,
     "blocks": [
       {
+        "kind": "table",
+        "rows": [
+          [
+            "Classe",
+            "CSS"
+          ],
+          [
+            "grid",
+            "display: grid;"
+          ],
+          [
+            "grid-cols-2",
+            "grid-template-columns: repeat(2, minmax(0, 1fr));"
+          ],
+          [
+            "gap-4",
+            "gap: 1rem;"
+          ]
+        ],
+        "codeColumns": [
+          0,
+          1
+        ]
+      },
+      {
         "kind": "code",
-        "text": "<div class=\"grid grid-cols-[auto_1fr] gap-4\">\n  <span>14:00</span><p>Laboratorio di interfacce</p>\n</div>\n<!-- Le parentesi quadre contengono un valore CSS specifico. -->"
+        "text": "<div class=\"grid grid-cols-2 gap-4\">\n  <p>Analisi</p><p>Prototipo</p>\n</div>"
       }
     ],
+    "showSources": false,
     "sources": [
       {
-        "id": "custom",
-        "title": "Tailwind · CSS personalizzato",
-        "url": "https://tailwindcss.com/docs/adding-custom-styles"
+        "id": "introDisplay",
+        "title": "Tailwind · display",
+        "url": "https://tailwindcss.com/docs/display"
+      },
+      {
+        "id": "grid",
+        "title": "Tailwind · Grid",
+        "url": "https://tailwindcss.com/docs/grid-template-columns"
+      },
+      {
+        "id": "gap",
+        "title": "Tailwind · gap",
+        "url": "https://tailwindcss.com/docs/gap"
       }
     ],
     "number": 42,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "tailwind-intro-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Token che producono utility",
+    "title": "I breakpoint predefiniti",
     "kind": "content",
+    "section": 3,
     "blocks": [
       {
-        "kind": "code",
-        "text": "@import \"tailwindcss\";\n@theme {\n  --color-laboratorio: oklch(45% 0.085 224);\n}\n/* Ora esistono utility come bg-laboratorio. */"
+        "kind": "table",
+        "rows": [
+          [
+            "Breakpoint prefix",
+            "Dispositivo indicativo",
+            "Larghezza minima",
+            "CSS"
+          ],
+          [
+            "none",
+            "Smartphone / default",
+            "0",
+            "Stili di base, senza @media"
+          ],
+          [
+            "sm",
+            "Smartphone ampio",
+            "40rem (640px)",
+            "@media (width >= 40rem)"
+          ],
+          [
+            "md",
+            "Tablet",
+            "48rem (768px)",
+            "@media (width >= 48rem)"
+          ],
+          [
+            "lg",
+            "Laptop",
+            "64rem (1024px)",
+            "@media (width >= 64rem)"
+          ],
+          [
+            "xl",
+            "Desktop",
+            "80rem (1280px)",
+            "@media (width >= 80rem)"
+          ],
+          [
+            "2xl",
+            "Desktop ampio",
+            "96rem (1536px)",
+            "@media (width >= 96rem)"
+          ]
+        ],
+        "codeColumns": [
+          0,
+          3
+        ],
+        "widths": [
+          18,
+          25,
+          22,
+          35
+        ],
+        "italicCells": [
+          "none"
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Dispositivi indicativi: conta la larghezza disponibile. Pixel calcolati con font iniziale di 16px.",
+            "bullet": false,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Dispositivi indicativi: conta la larghezza disponibile. Pixel calcolati con font iniziale di 16px."
+              }
+            ]
+          }
+        ]
       }
     ],
+    "showSources": true,
     "sources": [
       {
-        "id": "theme",
-        "title": "Tailwind · theme variables",
-        "url": "https://tailwindcss.com/docs/theme"
+        "id": "responsive",
+        "title": "Tailwind · responsive design",
+        "url": "https://tailwindcss.com/docs/responsive-design"
       }
     ],
     "number": 43,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "tailwind-intro-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Riuso: prima riconosci la ripetizione",
+    "title": "Media query con Tailwind CSS",
     "kind": "content",
+    "section": 3,
     "blocks": [
+      {
+        "kind": "table",
+        "rows": [
+          [
+            "Classe",
+            "CSS"
+          ],
+          [
+            "md:grid-cols-3",
+            "grid-template-columns: repeat(3, minmax(0, 1fr));"
+          ],
+          [
+            "md:col-span-2",
+            "grid-column: span 2 / span 2;"
+          ]
+        ],
+        "codeColumns": [
+          0,
+          1
+        ]
+      },
       {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Una sequenza di utility può essere estratta in un componente del progetto quando struttura e comportamento si ripetono.",
+            "text": "grid-cols-1 è la base; md: equivale a @media (width >= 48rem).",
+            "bullet": false,
+            "level": 0,
             "runs": [
               {
-                "text": "Una sequenza di utility può essere estratta in un componente del progetto quando struttura e comportamento si ripetono."
-              }
-            ]
-          },
-          {
-            "text": "Nel prossimo modulo useremo componenti CSS già definiti da daisyUI e utility Tailwind per il layout che li contiene.",
-            "runs": [
+                "text": "grid-cols-1",
+                "mono": true
+              },
               {
-                "text": "Nel prossimo modulo useremo componenti CSS già definiti da daisyUI e utility Tailwind per il layout che li contiene."
+                "text": " è la base; "
+              },
+              {
+                "text": "md:",
+                "mono": true
+              },
+              {
+                "text": " equivale a "
+              },
+              {
+                "text": "@media (width >= 48rem)",
+                "mono": true
+              },
+              {
+                "text": "."
               }
             ]
           }
         ]
-      }
-    ],
-    "sources": [
-      {
-        "id": "custom",
-        "title": "Tailwind · CSS personalizzato",
-        "url": "https://tailwindcss.com/docs/adding-custom-styles"
       },
       {
-        "id": "use",
-        "title": "daisyUI · utilizzo",
-        "url": "https://daisyui.com/docs/use/"
+        "kind": "code",
+        "text": "<div class=\"mt-4 grid grid-cols-1 gap-4 md:grid-cols-3\">\n  <section class=\"bg-emerald-50 p-4 md:col-span-2\">Analisi · Prototipo · Test · Revisione</section>\n  <aside class=\"bg-emerald-100 p-4\">Menu</aside>\n</div>"
+      },
+      {
+        "kind": "resources",
+        "resourceLayout": "plain",
+        "showHint": false,
+        "resources": [
+          {
+            "title": "playground",
+            "url": "https://play.tailwindcss.com/IGLV053DD0"
+          }
+        ]
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "responsive",
+        "title": "Tailwind · responsive design",
+        "url": "https://tailwindcss.com/docs/responsive-design"
       }
     ],
     "number": 44,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "tailwind-intro-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Alternativa: integrazione con Vite",
+    "title": "Esercizio",
     "kind": "content",
-    "blocks": [
-      {
-        "kind": "code",
-        "text": "import { defineConfig } from \"vite\";\nimport tailwindcss from \"@tailwindcss/vite\";\n\nexport default defineConfig({\n  plugins: [tailwindcss()],\n});\n// Installa tailwindcss e @tailwindcss/vite; importa il CSS nel progetto."
-      }
-    ],
-    "sources": [
-      {
-        "id": "vite",
-        "title": "Tailwind · Vite",
-        "url": "https://tailwindcss.com/docs/installation/using-vite"
-      }
-    ],
-    "number": 45,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Laboratorio · una scheda responsive",
-    "kind": "content",
+    "section": 3,
     "blocks": [
       {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "In 15 minuti costruisci una scheda per un laboratorio: titolo, descrizione, data e un collegamento descrittivo.",
+            "text": "Riprendi l’esercizio finale della quarta esercitazione e riproduci il layout delle due tavole successive utilizzando le utility di Tailwind CSS.",
+            "bullet": false,
+            "level": 0,
             "runs": [
               {
-                "text": "In 15 minuti costruisci una scheda per un laboratorio: titolo, descrizione, data e un collegamento descrittivo."
+                "text": "Riprendi l’esercizio finale della quarta esercitazione e riproduci il layout delle due tavole successive utilizzando le utility di Tailwind CSS."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Conserva contenuti, proporzioni e ordine delle regioni del layout originale",
+            "bullet": true,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Conserva contenuti, proporzioni e ordine delle regioni del layout originale"
               }
             ]
           },
           {
-            "text": "Usa una colonna come base e due aree affiancate quando il contenuto lo consente. Consegna HTML, CSS di ingresso e due screenshot.",
+            "text": "Segui un approccio mobile first e adatta la pagina da mobile a desktop",
+            "bullet": true,
+            "level": 0,
             "runs": [
               {
-                "text": "Usa una colonna come base e due aree affiancate quando il contenuto lo consente. Consegna HTML, CSS di ingresso e due screenshot."
+                "text": "Segui un approccio mobile first e adatta la pagina da mobile a desktop"
+              }
+            ]
+          },
+          {
+            "text": "La linea tratteggiata delimita la viewport e distingue i contenuti visibili subito da quelli raggiungibili scorrendo",
+            "bullet": true,
+            "level": 0,
+            "runs": [
+              {
+                "text": "La linea tratteggiata delimita la viewport e distingue i contenuti visibili subito da quelli raggiungibili scorrendo"
+              }
+            ]
+          },
+          {
+            "text": "Usa l’installazione locale di Tailwind per generare il CSS della pagina",
+            "bullet": true,
+            "level": 0,
+            "runs": [
+              {
+                "text": "Usa l’installazione locale di Tailwind per generare il CSS della pagina"
               }
             ]
           }
         ]
       }
     ],
+    "showSources": false,
     "sources": [
       {
         "id": "responsive",
@@ -1379,81 +3036,131 @@
         "url": "https://tailwindcss.com/docs/responsive-design"
       },
       {
+        "id": "grid",
+        "title": "Tailwind · Grid",
+        "url": "https://tailwindcss.com/docs/grid-template-columns"
+      },
+      {
+        "id": "cli",
+        "title": "Tailwind · installazione CLI",
+        "url": "https://tailwindcss.com/docs/installation/tailwind-cli"
+      }
+    ],
+    "number": 45,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Il layout da riprodurre · desktop",
+    "kind": "content",
+    "section": 3,
+    "blocks": [
+      {
+        "kind": "figure",
+        "src": "/images/esercitazioni/responsive-layout-desktop.svg",
+        "alt": "Tavola desktop: testata con titolo e testo, due voci, regioni 1, 2 e 3 e un’immagine. Misure relative e linea del fold guidano la ricostruzione.",
+        "caption": "Conserva proporzioni e contenuti della tavola. Il fold indica la parte visibile senza scorrere."
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "grid",
+        "title": "Tailwind · Grid",
+        "url": "https://tailwindcss.com/docs/grid-template-columns"
+      },
+      {
+        "id": "responsive",
+        "title": "Tailwind · responsive design",
+        "url": "https://tailwindcss.com/docs/responsive-design"
+      }
+    ],
+    "layout": "figure",
+    "number": 46,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Il layout da riprodurre · mobile",
+    "kind": "content",
+    "section": 3,
+    "blocks": [
+      {
+        "kind": "figure",
+        "src": "/images/esercitazioni/responsive-layout-mobile.svg",
+        "alt": "Tavola mobile: testata, voci, immagine e regioni 1, 2 e 3 in sequenza. La seconda colonna della tavola prosegue il flusso della prima.",
+        "caption": "Leggi la seconda colonna della tavola come prosecuzione della prima, non come due colonne della pagina mobile.",
+        "showDialogTitle": false
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
+        "id": "responsive",
+        "title": "Tailwind · responsive design",
+        "url": "https://tailwindcss.com/docs/responsive-design"
+      }
+    ],
+    "layout": "figure",
+    "number": 47,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-intro-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Riferimenti",
+    "kind": "content",
+    "section": 3,
+    "blocks": [
+      {
+        "kind": "resources",
+        "resourceLayout": "list",
+        "showHint": false,
+        "resources": [
+          {
+            "title": "Tailwind · installazione con la CLI",
+            "url": "https://tailwindcss.com/docs/installation/tailwind-cli"
+          },
+          {
+            "title": "Tailwind · utility e responsive",
+            "url": "https://tailwindcss.com/docs/responsive-design"
+          },
+          {
+            "title": "VS Code · usare il terminale",
+            "url": "https://code.visualstudio.com/docs/terminal/basics"
+          }
+        ]
+      }
+    ],
+    "showSources": false,
+    "sources": [
+      {
         "id": "utilities",
         "title": "Tailwind · utility classes",
         "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
       }
     ],
-    "number": 46,
+    "number": 48,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Verifica prima di consegnare",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "Il CSS compilato è collegato e le classi usate esistono? Il contenuto resta leggibile a 390px e a 1280px?",
-            "runs": [
-              {
-                "text": "Il CSS compilato è collegato e le classi usate esistono? Il contenuto resta leggibile a 390px e a 1280px?"
-              }
-            ]
-          },
-          {
-            "text": "Titoli, collegamenti e ordine di lettura hanno senso anche senza lo stile? Il focus è riconoscibile?",
-            "runs": [
-              {
-                "text": "Titoli, collegamenti e ordine di lettura hanno senso anche senza lo stile? Il focus è riconoscibile?"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "id": "detection",
-        "title": "Tailwind · rilevamento delle classi",
-        "url": "https://tailwindcss.com/docs/detecting-classes-in-source-files"
-      },
-      {
-        "id": "states",
-        "title": "Tailwind · stati e varianti",
-        "url": "https://tailwindcss.com/docs/hover-focus-and-other-states"
-      }
-    ],
-    "number": 47,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "tailwind-intro-2026-11",
     "part": 1,
     "parts": 1
   },
   {
     "title": "Fine esercitazione 05",
     "kind": "closing",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "Riprendi il codice degli esempi, modifica un parametro e confronta il risultato prima di procedere.",
-            "runs": [
-              {
-                "text": "Riprendi il codice degli esempi, modifica un parametro e confronta il risultato prima di procedere."
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "section": 3,
+    "blocks": [],
+    "showSources": false,
     "sources": [
       {
         "id": "utilities",
@@ -1461,16 +3168,16 @@
         "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
       },
       {
-        "id": "responsive",
-        "title": "Tailwind · responsive design",
-        "url": "https://tailwindcss.com/docs/responsive-design"
+        "id": "cli",
+        "title": "Tailwind · installazione CLI",
+        "url": "https://tailwindcss.com/docs/installation/tailwind-cli"
       }
     ],
-    "credit": "Rielaborazione didattica CVeDI · fonti ufficiali collegate",
-    "number": 48,
+    "credit": "Elia Guarnieri · elia.guarnieri@unimib.it",
+    "number": 49,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "tailwind-intro-2026-11",
     "part": 1,
     "parts": 1
   }

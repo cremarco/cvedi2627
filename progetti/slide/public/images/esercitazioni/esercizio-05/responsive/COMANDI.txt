@@ -1,0 +1,13 @@
+Scarica la CLI standalone per il tuo sistema e mettila in questa cartella.
+macOS: rinomina il file tailwindcss, poi esegui una volta chmod +x ./tailwindcss
+Windows: rinomina il file tailwindcss.exe, mantenendo l’estensione .exe.
+
+macOS:
+./tailwindcss -i ./input.css -o ./output.css
+./tailwindcss -i ./input.css -o ./output.css --watch
+
+Windows · PowerShell:
+.\tailwindcss.exe -i ./input.css -o ./output.css
+.\tailwindcss.exe -i ./input.css -o ./output.css --watch
+
+Ctrl+C interrompe la compilazione automatica.

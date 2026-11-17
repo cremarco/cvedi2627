@@ -1,0 +1,5 @@
+{
+  "url": "https://play.tailwindcss.com/ciBuSF7cKr",
+  "html": "<main class=\"mx-auto max-w-sm p-4\">\n  <article class=\"bg-emerald-50 p-4 text-emerald-950\">\n    <header class=\"flex items-center justify-between\">\n      <h1 class=\"text-xl font-bold\">Laboratorio</h1>\n      <span>14:00</span>\n    </header>\n    <p class=\"mt-4\">Introduzione a Tailwind CSS.</p>\n    <div class=\"mt-4 grid grid-cols-2 gap-4\">\n      <p>Analisi</p>\n      <p>Prototipo</p>\n    </div>\n  </article>\n</main>",
+  "css": "@import \"tailwindcss\";\n"
+}

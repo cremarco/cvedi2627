@@ -1,9 +1,11 @@
 // Original CVeDI teaching material. Official references checked 2026-10-21.
 // Content and runnable examples are independent of the Slidev presentation.
 import { workedExamples } from './worked-examples.mjs'
+import { createTailwindIntro, introSources } from './tailwind-intro.mjs'
 const tw = path => `https://tailwindcss.com/docs/${path}`
 const du = path => `https://daisyui.com/${path}/`
 export const sources = {
+  ...introSources,
   utilities: ['Tailwind · utility classes', tw('styling-with-utility-classes')],
   cli: ['Tailwind · installazione CLI', tw('installation/tailwind-cli')],
   vite: ['Tailwind · Vite', tw('installation/using-vite')],
@@ -243,44 +245,7 @@ const I = (title, example, alt, ...keys) => s(title, [{ kind: 'native', caption:
 const cover = title => s(title, [], [], 'cover')
 const end = (number, ...keys) => ({ ...s(`Fine esercitazione ${number}`, [text('Riprendi il codice degli esempi, modifica un parametro e confronta il risultato prima di procedere.')], keys, 'closing'), credit: 'Rielaborazione didattica CVeDI · fonti ufficiali collegate' })
 
-const tailwind = [
-  cover('Tailwind CSS: basi e layout'),
-  T('Dal CSS al progetto', ['Obiettivo: comporre un’interfaccia responsive con utility, riconoscendo le proprietà CSS che ogni classe applica.', 'Il percorso usa Tailwind CSS 4. Il codice degli esempi è originale e modificabile.'], 'utilities'),
-  T('Che cosa fa un framework CSS', ['Un insieme di convenzioni e strumenti organizza stili e riuso. HTML, cascata e layout del browser continuano a funzionare secondo le regole del web.', 'Tailwind genera utility; nel modulo successivo daisyUI aggiunge classi per componenti.'], 'utilities', 'use'),
-  T('Una utility, un compito', ['Le classi descrivono decisioni di stile: p-6 aggiunge padding, font-bold cambia il peso, grid abilita CSS Grid.', 'Leggi le classi per gruppi: layout, spazio, tipografia, colore e stati.'], 'utilities'),
-  C('Leggere una composizione', '<section class="grid gap-4 p-6">\n  <h2 class="text-2xl font-bold">Layout, spazio e tipografia</h2>\n</section>', 'utilities'),
-  T('Una classe si può decodificare', ['In md:grid-cols-2, md: è la condizione e grid-cols-2 è l’utility.', 'La condizione non modifica il significato HTML dell’elemento: un titolo rimane un titolo perché usa h1, h2 e così via.'], 'responsive', 'utilities'),
-  C('Installare: percorso con la CLI', 'npm install -D tailwindcss @tailwindcss/cli\n\nnpx @tailwindcss/cli -i ./src/input.css \\\n  -o ./public/output.css --watch', 'cli'),
-  C('Il CSS di ingresso', '@import "tailwindcss";\n\n/* src/input.css: la CLI produce public/output.css. */', 'cli'),
-  C('Collegare il CSS compilato', '<!-- Nel documento public/index.html -->\n<meta name="viewport" content="width=device-width, initial-scale=1.0">\n<link rel="stylesheet" href="./output.css">', 'cli', 'responsive'),
-  C('Il primo contenuto', snippets.first, 'utilities'),
-  I('Risultato: utility in combinazione', 'first', 'Padding, misura del testo e gerarchia derivano da classi distinte.', 'utilities'),
-  T('Preflight: la base cambia', ['L’import di Tailwind include Preflight. Tra gli effetti: rimozione dei margini predefiniti e titoli senza una gerarchia visiva automatica.', 'La semantica resta nell’HTML; dimensione, peso e spazio dei titoli vanno scelti esplicitamente.'], 'preflight'),
-  T('Spazio: padding, margini e gap', ['p-* agisce all’interno; m-* all’esterno; gap-* separa gli elementi di un contenitore Flexbox o Grid.', 'Per il flusso logico usa anche ps-* e pe-*. Parti da una scala coerente e verifica gli spazi nel risultato.'], 'spacing', 'grid'),
-  C('Flexbox: da colonna a riga', snippets.flex, 'flex', 'responsive'),
-  I('Risultato: una riga flessibile', 'flex', 'Su questa larghezza il titolo e l’orario condividono una riga.', 'flex', 'responsive'),
-  C('Grid: tre colonne quando c’è spazio', snippets.grid, 'grid', 'responsive'),
-  I('Risultato: struttura in colonne', 'grid', 'Tre fasi condividono colonne e intervalli regolari.', 'grid'),
-  T('Mobile-first: la base non ha prefisso', ['Le utility senza prefisso valgono a ogni larghezza. md: aggiunge regole dalla soglia md in avanti.', 'sm: non significa “solo smartphone”. Scegli i breakpoint quando il contenuto richiede una disposizione diversa.'], 'responsive'),
-  s('I breakpoint predefiniti', [{ kind: 'table', rows: [['Variante', 'Larghezza minima'], ['sm:', '40rem · 640px'], ['md:', '48rem · 768px'], ['lg:', '64rem · 1024px'], ['xl:', '80rem · 1280px'], ['2xl:', '96rem · 1536px']] }], ['responsive']),
-  C('Stesso contenuto, due disposizioni', snippets.responsive, 'responsive', 'grid'),
-  I('Risultato: viewport ampio e stretto', 'responsive', 'Lo stesso HTML passa da due colonne a una; i viewport degli esempi sono reali.', 'responsive'),
-  C('Contenere la larghezza', '<main class="mx-auto w-full max-w-5xl px-4 sm:px-6">\n  <p class="max-w-prose">Una riga di testo con misura controllata.</p>\n</main>', 'utilities', 'responsive'),
-  T('La tipografia è una gerarchia', ['Dimensione, peso e interlinea hanno ruoli distinti. Un carattere grande non deve sostituire l’elemento semantico corretto.', 'Controlla righe troppo lunghe, testo che va a capo e spazio fra titolo e paragrafo.'], 'utilities'),
-  C('Titolo e paragrafo', '<h2 class="text-2xl font-bold leading-tight">Materiali del laboratorio</h2>\n<p class="mt-4 max-w-prose text-lg leading-relaxed">\n  Leggi il brief e prepara una prima ipotesi.\n</p>', 'utilities'),
-  C('Hover e focus sono stati diversi', snippets.focus, 'states'),
-  I('Risultato: focus da tastiera', 'focus', 'Il contorno identifica il collegamento che riceve il focus.', 'states'),
-  T('Varianti e preferenze', ['Le varianti possono dipendere da stati, media query e attributi. motion-reduce: permette di adattare gli effetti alle preferenze di movimento.', 'Definisci il risultato anche senza hover e verifica la navigazione da tastiera.'], 'states'),
-  T('Le classi devono essere riconoscibili', ['Tailwind cerca nomi di classe completi nei sorgenti. Concatenare frammenti come bg- + colore + -600 può impedire la generazione dello stile.', 'Prepara una mappa di stringhe complete e registra esplicitamente i sorgenti esterni con @source quando necessario.'], 'detection'),
-  C('Una mappa statica di classi', 'const stato = {\n  disponibile: "bg-emerald-100 text-emerald-950",\n  esaurito: "bg-amber-100 text-amber-950",\n};\n// Usa una delle stringhe complete, senza costruire il nome a pezzi.', 'detection'),
-  C('Valori specifici senza perdere la regola', '<div class="grid grid-cols-[auto_1fr] gap-4">\n  <span>14:00</span><p>Laboratorio di interfacce</p>\n</div>\n<!-- Le parentesi quadre contengono un valore CSS specifico. -->', 'custom'),
-  C('Token che producono utility', '@import "tailwindcss";\n@theme {\n  --color-laboratorio: oklch(45% 0.085 224);\n}\n/* Ora esistono utility come bg-laboratorio. */', 'theme'),
-  T('Riuso: prima riconosci la ripetizione', ['Una sequenza di utility può essere estratta in un componente del progetto quando struttura e comportamento si ripetono.', 'Nel prossimo modulo useremo componenti CSS già definiti da daisyUI e utility Tailwind per il layout che li contiene.'], 'custom', 'use'),
-  C('Alternativa: integrazione con Vite', 'import { defineConfig } from "vite";\nimport tailwindcss from "@tailwindcss/vite";\n\nexport default defineConfig({\n  plugins: [tailwindcss()],\n});\n// Installa tailwindcss e @tailwindcss/vite; importa il CSS nel progetto.', 'vite'),
-  T('Laboratorio · una scheda responsive', ['In 15 minuti costruisci una scheda per un laboratorio: titolo, descrizione, data e un collegamento descrittivo.', 'Usa una colonna come base e due aree affiancate quando il contenuto lo consente. Consegna HTML, CSS di ingresso e due screenshot.'], 'responsive', 'utilities'),
-  T('Verifica prima di consegnare', ['Il CSS compilato è collegato e le classi usate esistono? Il contenuto resta leggibile a 390px e a 1280px?', 'Titoli, collegamenti e ordine di lettura hanno senso anche senza lo stile? Il focus è riconoscibile?'], 'detection', 'states'),
-  end('05', 'utilities', 'responsive'),
-]
+const tailwind = createTailwindIntro(sources)
 
 const daisy = [
   cover('daisyUI: componenti per le interfacce'),
@@ -371,7 +336,7 @@ export const curriculum = [
   { number: 7, title: 'Temi con Tailwind CSS e daisyUI', slug: 'temi-tailwind-daisyui', slides: themes },
 ]
 for (const module of curriculum) {
-  const additions = workedExamples.filter(example => example.module === module.number)
+  const additions = workedExamples.filter(example => example.module === module.number && module.number !== 5)
   const anchors = new Set(module.slides.map(slide => slide.title))
   for (const example of additions) if (!anchors.has(example.after)) throw new Error(`Missing worked-example anchor: ${example.after}`)
   module.slides = module.slides.flatMap(slide => [slide, ...additions.filter(example => example.after === slide.title).flatMap(example => [
@@ -379,4 +344,5 @@ for (const module of curriculum) {
     I(`Prova · ${example.title}`, example.id, `Osserva: ${example.observe} Prova: ${example.task}`, ...example.sources),
   ])])
 }
-for (const module of curriculum) module.slides.forEach((slide, index) => Object.assign(slide, { number: index + 1, sourceSlide: null, sourceKind: 'official-docs', revision: 'tailwind-daisyui-2026-10', part: 1, parts: 1 }))
+for (const module of curriculum) module.slides.forEach((slide, index) => Object.assign(slide, { number: index + 1, sourceSlide: null, sourceKind: slide.sourceKind ?? 'official-docs', revision: 'tailwind-daisyui-2026-10', part: 1, parts: 1 }))
+curriculum.find(module => module.number === 5).slides.forEach(slide => { slide.revision = 'tailwind-intro-2026-11' })
