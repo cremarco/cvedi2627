@@ -18,6 +18,7 @@ TARGETS = {
     "booklet": (BOOKLET / "main.typ", BOOKLET / "build/booklet.pdf"),
     "aperture": (BOOKLET / "anteprime/aperture.typ", BOOKLET / "build/anteprime/aperture.pdf"),
     "elenchi": (BOOKLET / "anteprime/elenchi.typ", BOOKLET / "build/anteprime/elenchi.pdf"),
+    "prova-posizionamento": (BOOKLET / "anteprime/prova-posizionamento.typ", BOOKLET / "build/anteprime/prova-posizionamento.pdf"),
     "frontespizio-indice": (BOOKLET / "capitoli/00-frontespizio-indice.typ", BOOKLET / "build/anteprime/00-frontespizio-indice.pdf"),
     "storia-del-design": (BOOKLET / "capitoli/01-storia-del-design.typ", BOOKLET / "build/anteprime/01-storia-del-design.pdf"),
     "ricerca": (BOOKLET / "capitoli/02-ricerca.typ", BOOKLET / "build/anteprime/02-ricerca.pdf"),
