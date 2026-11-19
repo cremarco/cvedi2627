@@ -199,6 +199,34 @@
       "derivedFrom": "librerie-framework.svg",
       "generator": "progetti/slide/scripts/build/exercise-framework-diagrams.mjs",
       "description": "Librerie: schema separato con etichette e relazioni originali."
+    },
+    {
+      "source": "responsive-layout-desktop-en.svg",
+      "web": "/images/esercitazioni/responsive-layout-desktop-en.svg",
+      "sha256": "36ba00f43c60cbec6e35b050f0c6da194c72c93c5c3f553339586163dfafcd7e",
+      "exercise": "04",
+      "sourceSlides": [
+        32
+      ],
+      "original": "progetti/slide/assets/esercitazioni/originali/04-responsive-mobile-first.pdf",
+      "generator": "progetti/slide/scripts/build/exercise-responsive-diagrams.mjs",
+      "description": "Exercise layout: desktop",
+      "derivedFrom": "responsive-layout-desktop.svg",
+      "language": "en"
+    },
+    {
+      "source": "responsive-layout-mobile-en.svg",
+      "web": "/images/esercitazioni/responsive-layout-mobile-en.svg",
+      "sha256": "800e5aa6870ebc9aef30b8c81ef5a6587617dae912c973e6987366961fed7ada",
+      "exercise": "04",
+      "sourceSlides": [
+        33
+      ],
+      "original": "progetti/slide/assets/esercitazioni/originali/04-responsive-mobile-first.pdf",
+      "generator": "progetti/slide/scripts/build/exercise-responsive-diagrams.mjs",
+      "description": "Exercise layout: mobile",
+      "derivedFrom": "responsive-layout-mobile.svg",
+      "language": "en"
     }
   ],
   "demos": [

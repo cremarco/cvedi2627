@@ -14,9 +14,14 @@
 .exercise-copy > div + div, .exercise-copy > ul + div, .exercise-copy > div + ul { margin-top: 12px; }
 .exercise-copy .exercise-list { margin: 0; padding-left: 1.2em; }
 .exercise-content .exercise-code {
+  --exercise-code-dot-step: 1.225rem;
   min-width: 0;
   padding: 12px 24px;
   print-color-adjust: exact;
+}
+.exercise-content .exercise-code::before {
+  background: currentColor;
+  box-shadow: var(--exercise-code-dot-step) 0, calc(2 * var(--exercise-code-dot-step)) 0;
 }
 /* daisyUI's max-content terminal width must wrap inside the teaching canvas. */
 .exercise-content .exercise-code pre { width: 100%; min-width: 0; max-width: 100%; margin: 0; padding: 0; white-space: pre-wrap; overflow-wrap: anywhere; font: 400 19px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace; }
@@ -85,7 +90,8 @@
 .exercise-annotated-code .exercise-code pre { font-size: inherit; white-space: pre; overflow-wrap: normal; }
 .exercise-code-labels { display: grid; grid-template-columns: var(--annotation-columns); padding-inline: 24px; margin-top: 24px; }
 .exercise-code-labels > span { justify-self: center; font: 400 23px/1.42 var(--cvedi-font-body); white-space: nowrap; }
-.exercise-code-labels > span:last-child { grid-column: 3; }
+.exercise-annotated-code--segments .exercise-code-labels { margin-top: 6px; color: var(--section-primary); }
+.exercise-annotated-code--segments .exercise-code-labels > span { font-weight: 700; }
 
 /* One context per slide; each tag reads as identity → usage → characteristics. */
 .exercise-tag-reference { display: grid; grid-template-columns: repeat(var(--tag-columns), minmax(0, 1fr)); gap: 48px; align-items: start; }
@@ -201,11 +207,19 @@
 .lesson-image-crop > img { display: block; position: absolute; max-width: none; max-height: none; }
 .exercise-content--columns { display: grid; grid-template-columns: .7fr 1.3fr; gap: 48px; align-items: center; }
 .exercise-content--columns .exercise-code::before { display: none; }
+.exercise-content--columns[data-exercise="06"] { grid-template-columns: .9fr 1.1fr; row-gap: 20px; }
+.exercise-content--columns[data-exercise="06"] > .exercise-code::before,
+.exercise-content--columns[data-exercise="06"] > .exercise-annotated-code .exercise-code::before { display: block; }
 
 /* Shared explanation followed by parallel CSS and HTML source panels. */
 .exercise-content--code-columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: stretch; gap: 20px 28px; }
-.exercise-content--code-columns > .exercise-copy { grid-column: 1 / -1; }
+.exercise-content--code-columns-wide-first { grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); }
+.exercise-content--code-columns > :is(.exercise-copy, .exercise-sources) { grid-column: 1 / -1; }
 .exercise-content--code-columns > .exercise-code { border-radius: 8px; }
+.exercise-content--code-columns > .exercise-code-group { grid-column: 1 / -1; display: grid; grid-template-columns: subgrid; column-gap: inherit; }
+.exercise-content--code-columns > .exercise-code-group .exercise-code { flex: 1; }
+.exercise-content--code-columns > .exercise-code-group .exercise-code--file-header { align-content: start; }
+.exercise-content--code-columns[data-exercise="06"]:not(.exercise-content--code-columns-wide-first) > .exercise-code-group pre { font-size: 17.5px; }
 
 /* Four selector families share the tag reference structure in a two-column grid. */
 .exercise-tag-reference--grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 48px; }
@@ -242,12 +256,11 @@
 .exercise-content[data-exercise="04"][data-source-slide="17"] .exercise-table :is(td, th) { padding: 10px 16px; font-variant-numeric: tabular-nums; }
 .exercise-content[data-exercise="04"][data-source-slide="17"] .exercise-table td code { background: transparent; padding: 0; color: inherit; font-size: 18px; white-space: nowrap; }
 .exercise-content[data-exercise="04"][data-source-slide="6"] > .lesson-figure { height: 490px; }
-.exercise-content[data-exercise="04"].exercise-content--code-columns > .exercise-sources { grid-column: 1 / -1; }
 
-.exercise-content--columns[data-exercise="05"] > .exercise-sources { grid-column: 1 / -1; }
+.exercise-content--columns:is([data-exercise="05"], [data-exercise="06"]) > .exercise-sources { grid-column: 1 / -1; }
 
 /* Exercise 05 uses the course table; code keeps its typographic role in cells. */
-.exercise-content[data-exercise="05"] > .lesson-table-figure { flex: 0 0 auto; }
+.exercise-content:is([data-exercise="05"], [data-exercise="06"]) > .lesson-table-figure { flex: 0 0 auto; }
 .exercise-content[data-exercise="05"] .lesson-native-table code {
   padding: 0;
   border: 0;
@@ -258,7 +271,6 @@
   overflow-wrap: anywhere;
 }
 
-.exercise-content[data-exercise="05"].exercise-content--code-columns > .exercise-sources { grid-column: 1 / -1; }
 
 /* The merged library/framework comparison keeps source prose beside its figure. */
 .exercise-content--columns[data-exercise="05"]:has(> .lesson-figure) { grid-template-columns: .9fr 1.1fr; }
@@ -268,7 +280,7 @@
 .exercise-content[data-exercise="05"] .exercise-terminal-command::before { content: '$ '; color: var(--cvedi-pink-300); }
 
 /* Exercise tables share the same rounded corners as the teaching code panels. */
-.exercise-content[data-exercise="05"] .lesson-table-figure .table.lesson-native-table {
+.exercise-content:is([data-exercise="05"], [data-exercise="06"]) .lesson-table-figure .table.lesson-native-table {
   border-collapse: separate;
   border-spacing: 0;
   border: 1px solid var(--cvedi-rule);
@@ -277,8 +289,8 @@
 }
 .slidev-layout.default .exercise-resource-link { margin: 0; font-size: 23px; line-height: 1.42; }
 
-.exercise-content[data-exercise="05"] .lesson-native-table :is(th, td) { border-radius: 0; }
-.exercise-content[data-exercise="05"] .lesson-native-table tbody tr:last-child > :is(th, td) { border-bottom: 0; }
+.exercise-content:is([data-exercise="05"], [data-exercise="06"]) .lesson-native-table :is(th, td) { border-radius: 0; }
+.exercise-content:is([data-exercise="05"], [data-exercise="06"]) .lesson-native-table tbody tr:last-child > :is(th, td) { border-bottom: 0; }
 .exercise-content[data-exercise="05"] .exercise-code { border-radius: var(--radius-box, 8px); }
 
 /* Exercise 05: independent diagrams beside the retained comparison prose. */
@@ -297,3 +309,19 @@
 .slidev-layout.default .exercise-code-file h3 { margin: 0; font-size: 18px; line-height: 1.4; }
 .exercise-code-group .exercise-code { margin: 0; border-radius: var(--radius-box, 8px); }
 .exercise-code-group .exercise-code::before { display: none; }
+.exercise-code-group .exercise-code--file-header {
+  display: grid;
+  grid-template-columns: calc(2 * var(--exercise-code-dot-step) + .75rem) minmax(0, 1fr);
+  align-items: center;
+  gap: 1rem 14px;
+}
+.exercise-code-group .exercise-code--file-header::before {
+  display: block;
+  margin: 0;
+}
+.exercise-code--file-header pre { grid-column: 1 / -1; }
+.exercise-code-file-title {
+  color: var(--cvedi-gray-400);
+  font: 400 16px/1.2 ui-monospace, monospace;
+  user-select: none;
+}

@@ -6,9 +6,10 @@ import { examples } from '../data/esercitazioni/framework-curriculum.mjs'
 import { nativeExamples, renderNativeDocument } from '../data/esercitazioni/native-examples.mjs'
 import baseCSS from '../assets/esercitazioni/tailwind-daisyui/render.css?raw'
 import customCSS from '../assets/esercitazioni/tailwind-daisyui/custom.css?raw'
+import themeExampleCSS from '../assets/esercitazioni/tailwind-daisyui/theme-exercise.css?raw'
 import tokens from '../../../risorse-condivise/stili/tokens.css?raw'
 
-const props = defineProps<{ example: string; caption?: string }>()
+const props = withDefaults(defineProps<{ example: string; caption?: string; showHint?: boolean }>(), { showHint: true })
 const { isActive, isPrinting, canAnimate } = useSlidePlayback()
 const { set, matter } = useSlideSet()
 const frame = ref<HTMLIFrameElement>()
@@ -33,7 +34,8 @@ const document = computed(() => {
   const palette = set.value.palette
   const theme = framework.value ? '' : tokens + `:root,[data-theme=light]{--color-primary:var(--cvedi-${palette}-base);--color-primary-content:#fff;--color-base-200:var(--cvedi-${palette}-surface);--color-base-300:var(--cvedi-${palette}-light);--color-base-content:var(--cvedi-body);--color-accent:var(--cvedi-${palette}-accent-light);--color-accent-content:var(--cvedi-gray-950);}`
   const cssRoles = matter.value?.lesson === 'esercitazione-02' ? ':root{--exercise-css-selector:#91cbff;--exercise-css-property:var(--cvedi-pink-300);--exercise-css-value:var(--cvedi-gray-200)}' : ''
-  return renderNativeDocument(entry.value, baseCSS, customCSS, theme + cssRoles)
+  const exampleStyles = props.example.startsWith('tailwind-theme:') ? themeExampleCSS : ''
+  return renderNativeDocument(entry.value, baseCSS, customCSS, theme + cssRoles + exampleStyles)
 })
 </script>
 
@@ -41,6 +43,6 @@ const document = computed(() => {
   <figure ref="figure" class="exercise-native" tabindex="-1" :data-native-example="example">
     <iframe v-if="isActive || isPrinting" ref="frame" :title="caption || entry.caption || 'Esempio HTML nativo'" :srcdoc="document" sandbox="allow-scripts allow-forms" class="exercise-native-frame" :style="{ height: `${height}px` }" @load="syncMotion" />
     <div v-else class="exercise-native-placeholder" aria-hidden="true" />
-    <figcaption v-if="caption !== '' && (caption || entry.caption || interactive)">{{ caption || entry.caption }}<span v-if="interactive" class="exercise-native-hint"> · <kbd class="kbd kbd-sm">Esc</kbd> torna alla slide</span></figcaption>
+    <figcaption v-if="caption !== '' && (caption || entry.caption || (interactive && showHint))">{{ caption || entry.caption }}<span v-if="interactive && showHint" class="exercise-native-hint"> · <kbd class="kbd kbd-sm">Esc</kbd> torna alla slide</span></figcaption>
   </figure>
 </template>

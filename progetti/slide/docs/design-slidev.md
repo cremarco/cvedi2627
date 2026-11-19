@@ -46,6 +46,7 @@ Questa sezione vale esclusivamente per le slide di `progetti/slide/esercitazioni
 - Per confrontare codice e risultato applicare [Esempio e risultato](#esempio-e-risultato). Usare un unico pannello di codice a tutta larghezza quando serve osservare soltanto la sintassi; testo a sinistra e codice a destra quando la spiegazione riguarda struttura o indentazione. Il confronto affiancato serve quando il risultato è parte della spiegazione
 - Per più casi confrontabili mantenere colonne, spaziature e allineamenti comuni. Raccogliere le caratteristiche condivise in un solo elenco sotto i casi, conservando accanto a ciascuno quelle specifiche
 - I link di contenuto, inclusi MDN ed «esempio», aprono una nuova scheda con `rel="noopener noreferrer"`. I comandi di navigazione del deck mantengono il proprio comportamento. Le slide di riferimenti usano una lista verticale a colonna singola con etichette significative, senza frasi di servizio sull'apertura dei link
+- Mostrare ogni fonte una sola volta per esercitazione, nella prima slide in cui aiuta a capire o approfondire un concetto. Conservare la provenienza nei dati anche per le slide successive. Prima di chiudere, controllare le fonti visibili di tutto il set, compresa l’eventuale slide dei riferimenti. Un’ancora distinta è utile se documenta un punto nuovo
 
 Le voci degli elenchi puntati e numerati terminano senza punteggiatura. La punteggiatura interna alle frasi resta invariata; codice ed esempi eseguibili conservano la propria sintassi.
 

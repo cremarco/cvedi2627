@@ -4,26 +4,45 @@ import { chromium } from 'playwright-chromium'
 import { nativeExamples, renderNativeDocument } from '../../data/esercitazioni/native-examples.mjs'
 import { examples } from '../../data/esercitazioni/framework-curriculum.mjs'
 import { introFragments } from '../../data/esercitazioni/tailwind-intro.mjs'
+import { themeExamples } from '../../data/esercitazioni/tailwind-theme.mjs'
 
 const output = 'reports/native-exercises'
 await mkdir(output, { recursive: true })
 const base = await readFile('progetti/slide/assets/esercitazioni/tailwind-daisyui/render.css', 'utf8')
 const custom = await readFile('progetti/slide/assets/esercitazioni/tailwind-daisyui/custom.css', 'utf8')
+const themeCSS = await readFile('progetti/slide/assets/esercitazioni/tailwind-daisyui/theme-exercise.css', 'utf8')
 const browser = await chromium.launch()
 const report = { status: 'running', examples: [], errors: [] }
 try {
   const page = await browser.newPage({ viewport: { width: 1136, height: 396 }, reducedMotion: 'reduce' })
   page.on('pageerror', error => report.errors.push(error.message))
   for (const [name, entry] of Object.entries({ ...nativeExamples, ...Object.fromEntries(Object.entries(examples).map(([key, value]) => [`framework-${key}`, value])) })) {
-    await page.setContent(renderNativeDocument(entry, base, custom))
+    const themeExample = name.startsWith('tailwind-theme:') ? themeExamples[name.slice('tailwind-theme:'.length)] : undefined
+    await page.setContent(renderNativeDocument(entry, base, custom, themeExample ? themeCSS : ''))
     await page.evaluate(async () => { await document.fonts.ready; await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))) })
-    if (name.startsWith('tailwind-intro:') && !entry.comparison) {
-      assert.equal(await page.locator('.mockup-code code').textContent(), introFragments[name.slice(15)], 'paired code preserves the exact executable source')
-      const panels = await page.locator('.native-example-pair > section > div').evaluateAll(nodes => nodes.map(node => ({ width: node.getBoundingClientRect().width, height: node.getBoundingClientRect().height, clipped: node.scrollWidth > node.clientWidth + 1 })))
-      assert.equal(panels.length, 2)
-      assert.equal(panels[0].width, panels[1].width, 'paired panels have equal widths')
-      assert.equal(panels[0].height, panels[1].height, 'paired panels have equal heights')
-      assert.ok(panels.every(panel => !panel.clipped), 'paired code wraps within its panel')
+    const pairedSource = themeExample?.source ?? (name.startsWith('tailwind-intro:') && !entry.comparison ? introFragments[name.slice(15)] : undefined)
+    const pairedSources = themeExample?.pairs?.map(pair => pair.source) ?? (pairedSource ? [pairedSource] : [])
+    if (pairedSources.length) {
+      const pairs = page.locator('.native-example-pair')
+      assert.equal(await pairs.count(), pairedSources.length)
+      assert.deepEqual(await pairs.locator('.mockup-code code').allTextContents(), pairedSources, 'paired code preserves the exact executable source')
+      for (const pair of await pairs.all()) {
+        const panels = await pair.locator(':scope > section > div').evaluateAll(nodes => nodes.map(node => ({ width: node.getBoundingClientRect().width, height: node.getBoundingClientRect().height, radius: getComputedStyle(node).borderRadius, clipped: node.scrollWidth > node.clientWidth + 1 })))
+        assert.equal(panels.length, 2)
+        if (themeExample?.wideCode || themeExample?.pairs) {
+          assert.ok(panels[0].width > panels[1].width, 'the color code has more room than its result')
+        } else {
+          assert.equal(panels[0].width, panels[1].width, 'paired panels have equal widths')
+        }
+        assert.equal(panels[0].height, panels[1].height, 'paired panels have equal heights')
+        assert.equal(panels[0].radius, panels[1].radius, 'paired panels have equal corner radii')
+        assert.ok(panels.every(panel => !panel.clipped), 'paired code wraps within its panel')
+      }
+    }
+    if (name === 'tailwind-theme:layer-priority') {
+      const radii = await page.locator('.native-result .workshop-card').evaluateAll(cards =>
+        cards.map(card => getComputedStyle(card).borderTopLeftRadius))
+      assert.deepEqual(radii, ['16px', '0px'], 'the generated utility overrides the component layer')
     }
     const metrics = await page.evaluate(() => {
       const issues = [], main = document.querySelector('main')

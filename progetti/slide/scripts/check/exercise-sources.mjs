@@ -3,7 +3,8 @@ import { readFile, readdir } from 'node:fs/promises'
 import { createHash } from 'node:crypto'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
-import { curriculum, sources as officialSources, examples } from '../../data/esercitazioni/framework-curriculum.mjs'
+import { componentDraft, curriculum, sources as officialSources, examples } from '../../data/esercitazioni/framework-curriculum.mjs'
+import { themeSources } from '../../data/esercitazioni/tailwind-theme.mjs'
 import { reviseExercise } from '../../data/esercitazioni/editorial-revisions.mjs'
 import { gridRemovedCopy, gridRemovedLinks, gridTextRevision } from '../../data/esercitazioni/grid-revisions.mjs'
 import { workedExamples } from '../../data/esercitazioni/worked-examples.mjs'
@@ -44,7 +45,7 @@ export async function checkExerciseSources() {
     // Module 05 was replaced by the beginner path. Its earlier examples remain
     // hash-checked in the retained catalogue above, outside the active lesson.
     if (example.module === 5) continue
-    const slides = curriculum.find(module => module.number === example.module).slides
+    const slides = (example.module === componentDraft.number ? componentDraft : curriculum.find(module => module.number === example.module)).slides
     const result = slides.findIndex(slide => slide.blocks.some(block => block.example === `framework:${example.id}`))
     assert.ok(result > 0 && example.observe && example.task, 'each worked example has an observation and guided task')
     assert.equal(slides[result - 1].blocks[0].text, example.html, 'the exact running HTML is shown immediately before its result')
@@ -199,6 +200,10 @@ export async function checkExerciseSources() {
           }
           assert.ok(slide.sources?.length, 'every new content slide identifies its sources')
           for (const source of slide.sources) {
+            if (number === '06') {
+              assert.deepEqual(themeSources[source.id], [source.title, source.url])
+              continue
+            }
             assert.ok(catalog.sources.some(entry => entry.url === source.url && entry.title === source.title))
             assert.ok(['tailwindcss.com', 'play.tailwindcss.com', 'daisyui.com', 'developer.mozilla.org', 'www.w3.org', 'nodejs.org', 'code.visualstudio.com', 'docs.npmjs.com', 'learn.microsoft.com', 'github.com'].includes(new URL(source.url).hostname))
           }

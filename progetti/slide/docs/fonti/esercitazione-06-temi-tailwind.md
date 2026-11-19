@@ -1,0 +1,57 @@
+# Fonti dell’esercitazione 06 · Temi con Tailwind CSS
+
+Fonti web consultate il 19 novembre 2026. Gli esempi numerici sono elaborazioni didattiche. I contenuti sulle custom properties riprendono il materiale CVeDI di Elia Guarnieri, dal blocco «Custom properties» della [settima esercitazione storica](../../assets/esercitazioni/bootstrap-archive/07.md) alla rielaborazione Tailwind della [settima esercitazione](../../esercitazioni/07-temi-tailwind-daisyui.md), slide 3–11.
+
+## Dalla custom property al tema
+
+- Una custom property CSS si dichiara con `--name`, segue la cascata e, nella forma non registrata, si eredita. Una dichiarazione in `:root` fornisce il valore predefinito per il documento. Una dichiarazione su un contenitore può cambiarlo per i suoi discendenti. [W3C · CSS Custom Properties, § 2](https://www.w3.org/TR/css-variables-1/#defining-variables).
+- In `padding-block: var(--local-space, 2rem)`, il fallback vale `2rem` quando la variabile è assente. Se contiene `red`, la sostituzione rende `padding-block` invalido dopo la cascata. La proprietà non si eredita, quindi si applica il suo valore iniziale `0`, anche se una dichiarazione precedente assegnava `3rem`. [MDN · Invalid custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties#invalid_custom_properties), [W3C · CSS Custom Properties, § 3](https://www.w3.org/TR/css-variables-1/#using-variables).
+- Se una custom property rimanda a un’altra, il browser calcola il riferimento dove è dichiarata prima di ereditarne il risultato. Il caso è rilevante quando un alias Tailwind in radice rimanda a un valore che cambia in una sezione. [W3C · CSS Custom Properties, § 2.3](https://www.w3.org/TR/css-variables-1/#cycles), [Tailwind CSS · Referencing other variables](https://tailwindcss.com/docs/theme#referencing-other-variables).
+
+## Colori CSS
+
+[MDN · Riferimento alle notazioni `<color>`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value).
+
+| Scrittura | Che cosa descrive |
+| --- | --- |
+| `#336699` e `rgb(51 102 153)` | Lo stesso colore sRGB, con i canali in esadecimale o in decimale. [CSS Color 4, § 5](https://www.w3.org/TR/css-color-4/#sRGB-space). |
+| `hsl(210 50% 40%)` | Lo stesso colore sRGB, espresso con tinta, saturazione e chiarezza HSL. Due tinte diverse con lo stesso `L` HSL possono apparire una molto più chiara dell’altra. [CSS Color 4, § 7](https://www.w3.org/TR/css-color-4/#the-hsl-notation). |
+| `oklch(49.931% 0.09866 250.433)` | Approssimazione dello stesso campione in OKLCH. `L` descrive la chiarezza percettiva, `C` la croma e `H` l’angolo di tinta. Il modello è progettato per rendere più regolari le variazioni percepite. [CSS Color 4, § 9](https://www.w3.org/TR/css-color-4/#ok-lab), [Björn Ottosson · Oklab](https://bottosson.github.io/posts/oklab/). |
+| `color(display-p3 0 1 0)` | Un verde definito dalle primarie Display P3. Display P3 rappresenta colori oltre il gamut sRGB. Un dispositivo con gamut più ristretto ne mostra un’approssimazione. [CSS Color 4, §§ 10.4 e 14](https://www.w3.org/TR/css-color-4/#predefined-display-p3). |
+
+Una scala con `C = 0.12`, `H = 250` e `L = 43%`, `53%`, `63%`, `73%` resta in sRGB. Con `L = 83%` e le altre coordinate identiche, la conversione produce un canale blu di circa 274 sulla scala 0–255. Il campione illustra quando serve ridurre la croma per rientrare in sRGB. I calcoli seguono le conversioni di Ottosson. Per i confronti in aula, mostrare i campioni e indicare le coordinate, perché l’aspetto dipende dall’output. [Ottosson · Conversioni tra sRGB lineare e Oklab](https://bottosson.github.io/posts/oklab/#converting-from-linear-srgb-to-oklab), [CSS Color 4 · Gamut mapping](https://www.w3.org/TR/css-color-4/#css-gamut-mapping).
+
+Il rapporto di contrasto WCAG si calcola sulla coppia testo e sfondo con la luminanza relativa. Il testo normale richiede 4,5:1 al livello AA, quello grande 3:1. Per esempio, il bianco su `hsl(60 100% 50%)` misura 1,07:1 e su `hsl(240 100% 50%)` misura 8,59:1, anche se i due sfondi hanno la stessa chiarezza HSL. Misurare le coppie in ogni tema e negli stati in cui i colori cambiano. Per i contorni essenziali e gli indicatori di stato dei controlli, valutare anche il criterio 1.4.11. [W3C WAI · Contrasto minimo](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html), [W3C WAI · Contrasto non testuale](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html).
+
+## Personalizzazione in Tailwind CSS 4
+
+| Esigenza | Scrittura | Risultato |
+| --- | --- | --- |
+| Valore puntuale | `bg-[#336699]` | Dichiara lo sfondo direttamente nel markup. [Tailwind CSS · Using arbitrary values](https://tailwindcss.com/docs/adding-custom-styles#using-arbitrary-values). |
+| Valore determinato dal contesto | `bg-(--card-bg)` | Equivale a `bg-[var(--card-bg)]`. La classe compare per intero nel sorgente e il browser risolve il valore. [Tailwind CSS · Background color](https://tailwindcss.com/docs/background-color#using-a-custom-value). |
+| Valore condiviso | `@theme { --color-brand: #336699; }` | Rende disponibili `bg-brand`, `text-brand`, `border-brand` e le altre utility del namespace `--color-*`. `@theme` si dichiara al livello superiore del foglio. [Tailwind CSS · Theme variables](https://tailwindcss.com/docs/theme#what-are-theme-variables). |
+| Ruolo con valori diversi per tema | `@theme inline { --color-action: var(--ui-action); }` | `bg-action` applica `background-color: var(--ui-action)`. Una regola sul contenitore cambia il valore che la utility risolve sull’elemento. [Tailwind CSS · Referencing other variables](https://tailwindcss.com/docs/colors#referencing-other-variables). |
+
+La scansione dei sorgenti cerca nomi di classe completi. Per un insieme finito di opzioni si possono mappare le opzioni a classi complete, come `bg-sky-700` e `bg-emerald-700`. Per un valore fornito a runtime si può tenere `bg-(--card-bg)` nel sorgente e aggiornare la custom property. Un valore composto nelle parentesi quadre usa `_` dove il CSS richiede uno spazio, per esempio `bg-[oklch(49.931%_0.09866_250.433)]`. [Tailwind CSS · Detecting classes](https://tailwindcss.com/docs/detecting-classes-in-source-files#dynamic-class-names), [Tailwind CSS · Using inline styles](https://tailwindcss.com/docs/styling-with-utility-classes#when-to-use-inline-styles), [Tailwind CSS · Handling whitespace](https://tailwindcss.com/docs/adding-custom-styles#handling-whitespace).
+
+Il namespace `--color-*` rende visibile il meccanismo. Una seconda prova può estenderlo a `--radius-panel` → `rounded-panel` oppure a `--font-body` → `font-body`. Per personalizzare un’utility predefinita si ridefinisce la relativa variabile. Se due progetti condividono davvero lo stesso tema, lo si può conservare in un foglio CSS importato da entrambi. [Tailwind CSS · Theme variable namespaces](https://tailwindcss.com/docs/theme#theme-variable-namespaces), [Tailwind CSS · Customizing your theme](https://tailwindcss.com/docs/theme#customizing-your-theme), [Tailwind CSS · Sharing across projects](https://tailwindcss.com/docs/theme#sharing-across-projects).
+
+## Layer e CSS personalizzato
+
+L’import di Tailwind dichiara l’ordine `theme`, `base`, `components`, `utilities`. Le variabili del tema appartengono a `theme`. `base` contiene Preflight e gli stili predefiniti degli elementi. Una classe in `components` può assegnare un raggio alla scheda, che la utility `rounded-none` sovrascrive nel layer `utilities`. La direttiva `@utility` registra nuove utility compatibili con le varianti. [Tailwind CSS · Using custom CSS](https://tailwindcss.com/docs/adding-custom-styles#using-custom-css), [Tailwind CSS · Adding custom utilities](https://tailwindcss.com/docs/adding-custom-styles#adding-custom-utilities), [Tailwind CSS · Preflight](https://tailwindcss.com/docs/preflight).
+
+Fra dichiarazioni normali della stessa origine, il layer dichiarato più tardi ha la precedenza. Le dichiarazioni normali fuori dai layer hanno priorità sulle dichiarazioni normali nei layer. Per quelle con `!important` la precedenza dei layer si inverte. [W3C · CSS Cascading and Inheritance Level 5](https://www.w3.org/TR/css-cascade-5/#layer-order).
+
+## Una palette usata nei componenti
+
+Spectrum separa i valori della palette dai ruoli ricorrenti nell’interfaccia. Una scala fornisce campioni come `blue-700`. I ruoli abbinano le decisioni che vanno verificate insieme, per esempio sfondo azione e testo sull’azione. Un tema associa valori diversi agli stessi ruoli. I nomi delle classi possono così descrivere il compito dell’elemento. La scelta di tenere una sola tabella breve di ruoli all’inizio del laboratorio è una proposta didattica ispirata a questo modello. [Adobe Spectrum · Design tokens](https://spectrum.adobe.com/page/design-tokens/), [Design Tokens Community Group · Design Tokens Format 2025.10](https://www.designtokens.org/tr/2025.10/format/).
+
+La scheda usa `bg-action text-on-action hover:bg-action-hover`. Nel tema chiaro il bianco su `oklch(55% 0.11 250)` misura 4,83:1. In hover lo sfondo `oklch(47% 0.11 250)` porta il rapporto a 6,81:1. Nel tema Dark `#182433` su `oklch(75% 0.10 250)` misura 7,09:1 e su `oklch(82% 0.08 250)` in hover misura 9,03:1. I rapporti derivano dalle coordinate convertite in sRGB lineare. [Ottosson · Oklab](https://bottosson.github.io/posts/oklab/), [W3C WAI · Rapporto di contrasto](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html#dfn-contrast-ratio).
+
+## Proposta per il laboratorio
+
+1. Riprendere una scheda dell’esercitazione 05. Estrarre lo sfondo in una custom property, controllarne l’eredità in DevTools e ridefinirla su un solo contenitore. [Esercitazione 05](../../esercitazioni/05-tailwind-css.md), [W3C · CSS Custom Properties](https://www.w3.org/TR/css-variables-1/).
+2. Leggere lo stesso campione in HEX, RGB, HSL e OKLCH. Far variare `L` in OKLCH per costruire tre o quattro campioni. Confrontare il risultato con la coppia giallo e blu alla stessa chiarezza HSL. [CSS Color 4](https://www.w3.org/TR/css-color-4/).
+3. Usare lo stesso colore con un arbitrary value, una custom property e una utility introdotta da `@theme`. Leggere nel CSS generato quale valore arriva alla proprietà finale. [Tailwind CSS · Adding custom styles](https://tailwindcss.com/docs/adding-custom-styles), [Tailwind CSS · Theme variables](https://tailwindcss.com/docs/theme).
+4. Dare un nome allo sfondo, al testo, all’azione e al testo sull’azione. Applicare un secondo tema a una sezione con `@theme inline` e override CSS. Tenere le classi della scheda identiche e verificare le coppie di contrasto, incluse le variazioni di stato. [Tailwind CSS · Colors](https://tailwindcss.com/docs/colors#referencing-other-variables), [Adobe Spectrum · Design tokens](https://spectrum.adobe.com/page/design-tokens/), [W3C WAI · Contrasto minimo](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html).
+5. Riservare circa 35 minuti per applicare il tema al layout finale della quinta esercitazione. Le tavole desktop e mobile mantengono la geometria originale con etichette in inglese. In `theme.css`, i nomi delle variabili descrivono il ruolo dei valori nella pagina. Per verificare il risultato, cambiare un valore condiviso, confrontare entrambe le viste e controllare contrasto e focus. [Esercitazione 05](../../esercitazioni/05-tailwind-css.md).

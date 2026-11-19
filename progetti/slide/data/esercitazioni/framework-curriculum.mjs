@@ -2,6 +2,7 @@
 // Content and runnable examples are independent of the Slidev presentation.
 import { workedExamples } from './worked-examples.mjs'
 import { createTailwindIntro, introSources } from './tailwind-intro.mjs'
+import { themeSlides, themeSlug, themeTitle } from './tailwind-theme.mjs'
 const tw = path => `https://tailwindcss.com/docs/${path}`
 const du = path => `https://daisyui.com/${path}/`
 export const sources = {
@@ -330,12 +331,13 @@ const themes = [
   end('07', 'themes', 'colors'),
 ]
 
-export const curriculum = [
+export const componentDraft = { number: 6, title: 'daisyUI: componenti per le interfacce', slug: 'daisyui-componenti', slides: daisy }
+const priorCurriculum = [
   { number: 5, title: 'Tailwind CSS: basi e layout', slug: 'tailwind-css', slides: tailwind },
-  { number: 6, title: 'daisyUI: componenti per le interfacce', slug: 'daisyui-componenti', slides: daisy },
+  componentDraft,
   { number: 7, title: 'Temi con Tailwind CSS e daisyUI', slug: 'temi-tailwind-daisyui', slides: themes },
 ]
-for (const module of curriculum) {
+for (const module of priorCurriculum) {
   const additions = workedExamples.filter(example => example.module === module.number && module.number !== 5)
   const anchors = new Set(module.slides.map(slide => slide.title))
   for (const example of additions) if (!anchors.has(example.after)) throw new Error(`Missing worked-example anchor: ${example.after}`)
@@ -344,5 +346,9 @@ for (const module of curriculum) {
     I(`Prova · ${example.title}`, example.id, `Osserva: ${example.observe} Prova: ${example.task}`, ...example.sources),
   ])])
 }
-for (const module of curriculum) module.slides.forEach((slide, index) => Object.assign(slide, { number: index + 1, sourceSlide: null, sourceKind: slide.sourceKind ?? 'official-docs', revision: 'tailwind-daisyui-2026-10', part: 1, parts: 1 }))
-curriculum.find(module => module.number === 5).slides.forEach(slide => { slide.revision = 'tailwind-intro-2026-11' })
+for (const module of priorCurriculum) module.slides.forEach((slide, index) => Object.assign(slide, { number: index + 1, sourceSlide: null, sourceKind: slide.sourceKind ?? 'official-docs', revision: 'tailwind-daisyui-2026-10', part: 1, parts: 1 }))
+tailwind.forEach(slide => { slide.revision = 'tailwind-intro-2026-11' })
+
+export const curriculum = priorCurriculum.map(module => module === componentDraft
+  ? { number: 6, title: themeTitle, slug: themeSlug, slides: themeSlides }
+  : module)

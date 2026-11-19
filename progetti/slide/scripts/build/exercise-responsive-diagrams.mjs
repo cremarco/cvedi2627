@@ -38,15 +38,22 @@ const figures = [
     rect(180,389,255,195)+[440,526].map(y=>`<circle cx="307" cy="${y-20}" r="24" fill="none" stroke="#fafafa"/>`+t(258,y+19,'Lorem ipsum',17)).join('')+
     rect(710,115,255,175)+t(725,150,'(IMMAGINE)',20)+rect(710,310,255,274)+[ [325,112,'1'],[451,51,'2'],[516,51,'3'] ].map(([y,h,n])=>rect(750,y,175,h,'#fbbf24')+t(830,y+32,n)).join('')+line(0,375,520,375,'#f9a8d4',true)+line(550,60,550,590,'#71717a')],
 ]
-for (const [name,sourceSlide,title,body] of figures) {
+const englishLayouts = figures.slice(2).map(([name, sourceSlide, , body]) => [
+  `${name}-en`, sourceSlide, name === 'layout-desktop' ? 'Exercise layout: desktop' : 'Exercise layout: mobile',
+  body.replaceAll('Titolo h1', 'Heading (h1)').replaceAll('(IMMAGINE)', '(IMAGE)')
+    .replaceAll('Prima parte', 'Part one').replaceAll('Segue', 'Continued'),
+  `responsive-${name}.svg`,
+])
+for (const [name,sourceSlide,title,body,derivedFrom] of [...figures, ...englishLayouts]) {
   const height = sourceSlide === 6 ? 840 : sourceSlide === 10 ? 665 : 610
   const width = sourceSlide === 6 ? 720 : sourceSlide === 10 ? 720 : 1100
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title"><title id="title">${title}</title><rect width="${width}" height="${height}" rx="12" fill="#18181b"/><path d="M0 43H1100" stroke="#3f3f46"/><g fill="#71717a"><circle cx="24" cy="22" r="5"/><circle cx="44" cy="22" r="5"/><circle cx="64" cy="22" r="5"/></g><g font-family="Arial, sans-serif">${body}</g></svg>\n`
   const source = `responsive-${name}.svg`
   await writeFile(`${directory}/${source}`, svg)
   const entry = { source, web: `/images/esercitazioni/${source}`, sha256: createHash('sha256').update(svg).digest('hex'), exercise: '04', sourceSlides: [sourceSlide], original: 'progetti/slide/assets/esercitazioni/originali/04-responsive-mobile-first.pdf', generator: 'progetti/slide/scripts/build/exercise-responsive-diagrams.mjs', description: title, ...(sourceSlide === 6 ? { references: ['https://medium.com/react-camp/adaptive-responsive-reactive-62fb938d6191', 'https://web.dev/learn/design/intro/'], referenceImage: 'riferimenti/responsive-adaptive-hybrid.png', referenceImageSha256: createHash('sha256').update(await readFile(`${directory}/riferimenti/responsive-adaptive-hybrid.png`)).digest('hex'), note: 'Ricostruzione dal riferimento allegato dall’utente, derivato dall’articolo: colonne Responsive e Adaptive; la colonna Hybrid del riferimento è esclusa su richiesta. X/Y/Z identificano le varianti concettuali del riferimento.' } : sourceSlide === 10 ? { references: ['https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta/name/viewport'] } : {}) }
+  if (derivedFrom) Object.assign(entry, { derivedFrom, language: 'en' })
   const index = manifest.diagrams.findIndex(asset=>asset.source===source)
   if(index<0) manifest.diagrams.push(entry); else manifest.diagrams[index]=entry
 }
 await writeFile(`${directory}/manifest.json`,JSON.stringify(manifest,null,2)+'\n')
-console.log('Exercise 04: four diagrams reconstructed; original PDF retained')
+console.log('Responsive diagrams and English layout variants generated; original PDF retained')

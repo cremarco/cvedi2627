@@ -3452,8 +3452,8 @@
     {
       "number": 6,
       "id": "esercitazione-06",
-      "slug": "daisyui-componenti",
-      "title": "Esercitazione 6 - daisyUI: componenti per le interfacce",
+      "slug": "temi-tailwind-css",
+      "title": "Esercitazione 6 - Temi con Tailwind CSS",
       "sourceId": "1v2owZopSuCOyxdVd_j8R1RXMXeL0d8-B_aHSUpMmhoc",
       "url": "https://docs.google.com/presentation/d/1v2owZopSuCOyxdVd_j8R1RXMXeL0d8-B_aHSUpMmhoc",
       "original": "progetti/slide/assets/esercitazioni/originali/06-bootstrap-componenti.pptx",
@@ -3462,7 +3462,7 @@
       "sha256": "38d0783c98476ee0b1dcd6b7608e5887eca80cb08152939fe03aa7d565410631",
       "pdf": "progetti/slide/assets/esercitazioni/originali/06-bootstrap-componenti.pdf",
       "pdfSha256": "931a2ef87a36b4a38d65669c8ef30b44385099eec0600cb2b62e3e5775cf550a",
-      "slideCount": 70,
+      "slideCount": 32,
       "mapping": [
         {
           "sourceSlide": 1,
@@ -3735,7 +3735,7 @@
           ]
         }
       ],
-      "file": "progetti/slide/esercitazioni/06-daisyui-componenti.md",
+      "file": "progetti/slide/esercitazioni/06-temi-tailwind-css.md",
       "archive": {
         "data": "progetti/slide/assets/esercitazioni/bootstrap-archive/06.json",
         "markdown": "progetti/slide/assets/esercitazioni/bootstrap-archive/06.md",
@@ -3747,11 +3747,11 @@
       "originalTitle": "Esercitazione 6 -  Altri elementi di Bootstrap: content, component, utilities",
       "mappingScope": "archived-import",
       "replacement": {
-        "id": "tailwind-daisyui-2026-10",
+        "id": "tailwind-theme-2026-11",
         "kind": "complete",
-        "specification": "progetti/slide/data/esercitazioni/framework-curriculum.mjs",
-        "catalog": "progetti/slide/assets/esercitazioni/tailwind-daisyui/sources.json",
-        "checkedOn": "2026-10-21"
+        "specification": "progetti/slide/data/esercitazioni/tailwind-theme.mjs",
+        "catalog": "progetti/slide/docs/fonti/esercitazione-06-temi-tailwind.md",
+        "checkedOn": "2026-11-19"
       },
       "nativeRebuild": {
         "archive": {
@@ -3780,6 +3780,26 @@
         "specification": "progetti/slide/data/esercitazioni/native-examples.mjs",
         "renderer": "progetti/slide/components/ExerciseNative.vue",
         "corrections": []
+      },
+      "editorialRevision": {
+        "reference": "01-html-css-base.md",
+        "adaptedFrom": {
+          "exercise": "07",
+          "slides": [
+            3,
+            4,
+            5,
+            6,
+            9,
+            12,
+            13
+          ]
+        },
+        "priorDraft": {
+          "specification": "progetti/slide/data/esercitazioni/framework-curriculum.mjs",
+          "export": "componentDraft",
+          "slideCount": 70
+        }
       }
     },
     {
@@ -4610,7 +4630,7 @@
     }
   ],
   "sourceSlides": 349,
-  "slideCount": 444,
+  "slideCount": 406,
   "verification": {
     "summary": "reports/esercitazioni/verification.json",
     "sources": "reports/esercitazioni/source-report.json",
@@ -5118,7 +5138,7 @@
     "requested": "Sostituire Bootstrap con Tailwind CSS e daisyUI, arricchendo le slide con fonti online",
     "specification": "progetti/slide/data/esercitazioni/framework-curriculum.mjs",
     "catalog": "progetti/slide/assets/esercitazioni/tailwind-daisyui/sources.json",
-    "newSlides": 152,
+    "newSlides": 114,
     "archivedOriginalsUnchanged": true,
     "verification": {
       "status": "passed",

@@ -4,6 +4,7 @@ import { browserMarketShare } from './browser-market-share.mjs'
 import { originalDiagrams } from './original-diagrams.mjs'
 import { advancedExamples } from './advanced-examples.mjs'
 import { introFragments } from './tailwind-intro.mjs'
+import { themeExamples } from './tailwind-theme.mjs'
 import { highlightExerciseCode, exerciseCodeLanguage } from '../../utils/exercise-code.mjs'
 import { escapeHTML } from './native-document.mjs'
 export { escapeHTML, nativeCSS, renderNativeDocument } from './native-document.mjs'
@@ -142,11 +143,45 @@ export const nativeExamples = {
 }
 
 // Exact HTML fragments are both the displayed source and the running result.
-const introStyles = `<style>html{font-size:16px}.native-result{color:var(--color-emerald-950);font-family:var(--font-sans)}.native-example-pair pre{display:block;width:100%;max-width:100%}.native-example-pair code{white-space:pre-wrap;overflow-wrap:anywhere}</style>`
+const pairedCodeStyles = '.native-example-pair pre{display:block;width:100%;max-width:100%}.native-example-pair code{white-space:pre-wrap;overflow-wrap:anywhere}'
+const introStyles = `<style>html{font-size:16px}.native-result{color:var(--color-emerald-950);font-family:var(--font-sans)}${pairedCodeStyles}</style>`
 for (const name of ['first', 'spacing', 'color', 'type', 'container', 'flex', 'grid']) nativeExamples[`tailwind-intro:${name}`] = {
   html: introStyles + matchedPair(introFragments[name], introFragments[name]),
 }
 nativeExamples['tailwind-intro:responsive-viewports'] = {
   html: '<style>html{font-size:16px}</style>' + introFragments.responsive,
   comparison: true,
+}
+
+const themeDemoStyles = `<style>
+html { font-size: 16px; }
+${pairedCodeStyles}
+.demo-swatches, .demo-cards { display: grid; width: 100%; gap: 12px; }
+.demo-swatches { grid-template-columns: repeat(2, minmax(0, 1fr)); text-align: center; }
+.demo-swatches span { display: block; height: 68px; border-radius: 6px; }
+.demo-swatches p { margin-top: 4px; }
+.demo-color-pairs { display: grid; gap: 8px; }
+.demo-wide-code .native-example-pair { grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); }
+.demo-color-pairs .mockup-code { padding-block: 8px; }
+.demo-color-pairs .mockup-code::before { display: none; }
+.demo-color-pairs pre { line-height: 1.2; }
+.demo-color-pairs .native-result { padding: 10px 18px; }
+.demo-color-swatch { display: grid; grid-template-columns: 72px minmax(0, 1fr); align-items: center; gap: 12px; width: 100%; }
+.demo-color-swatch > span:last-child { height: 46px; border-radius: 6px; }
+.demo-cards { gap: 8px; }
+.demo-cards > section { background: transparent; }
+.demo-cards .native-label { margin-bottom: 4px; }
+.demo-cards h2 { font-size: 20px; }
+@media print { .native-result { print-color-adjust: exact; } }
+</style>`
+for (const [id, { source, result, pairs, wideCode }] of Object.entries(themeExamples)) {
+  let content = pairs
+    ? `<div class="demo-color-pairs demo-wide-code">${pairs.map(pair => matchedPair(pair.source, pair.result)).join('')}</div>`
+    : matchedPair(source, result)
+  if (wideCode) content = `<div class="demo-wide-code">${content}</div>`
+  nativeExamples[`tailwind-theme:${id}`] = {
+    html: themeDemoStyles + content,
+    caption: 'Code and browser preview',
+    lang: 'en',
+  }
 }

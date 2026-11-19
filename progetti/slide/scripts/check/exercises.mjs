@@ -11,7 +11,7 @@ import { realpathSync } from 'node:fs'
 const manifest = JSON.parse(await readFile('progetti/slide/assets/esercitazioni/manifest.json', 'utf8'))
 const publishedExercises = lessonDecks.filter(deck => deck.id.startsWith('esercitazione-') && !deck.localOnly)
 const base = (process.env.EXERCISE_URL || 'http://localhost:3055').replace(/\/$/, '')
-const output = 'reports/esercitazioni'
+const output = process.env.EXERCISE_OUTPUT || 'reports/esercitazioni'
 const indexesOnly = process.env.EXERCISE_INDEX_ONLY === '1'
 const publishedSite = process.env.EXERCISE_SITE || 'progetti/slide/dist'
 const publishedPrefix = process.env.EXERCISE_BASE || '/'
@@ -69,8 +69,9 @@ try {
           await root.locator(`[data-exercise-slide="${slide.number}"]`).waitFor()
           assert.equal((await root.locator('.slide-index').textContent()).trim(), `${slide.number} / ${data.length}`, 'pagination stays inside the selected exercise')
           if (slide.sourceKind === 'official-docs') {
-            assert.deepEqual(await root.locator('.exercise-code code').allTextContents(), slide.blocks.flatMap(block => block.kind === 'code' ? [block.text] : block.kind === 'code-group' ? block.files.map(file => file.text) : []), 'new code examples preserve exact text and indentation')
-            assert.deepEqual(await root.locator('.exercise-sources a').evaluateAll(nodes => nodes.map(node => node.getAttribute('href'))), slide.showSources === false ? [] : slide.sources.map(source => source.url), 'official references are linked in each new slide')
+            assert.deepEqual(await root.locator('.exercise-code code').allTextContents(), slide.blocks.flatMap(block => ['code', 'annotated-code'].includes(block.kind) ? [block.text] : block.kind === 'code-group' ? block.files.map(file => file.text) : []), 'new code examples preserve exact text and indentation')
+            const visibleSources = slide.showSources === false ? [] : slide.sources.filter(source => source.visible !== false)
+            assert.deepEqual(await root.locator('.exercise-sources a').evaluateAll(nodes => nodes.map(node => node.getAttribute('href'))), visibleSources.map(source => source.url), 'the selected official references are visible')
           }
         }
         if (number === '04') {
@@ -105,6 +106,15 @@ try {
           const issues = []
           if (body && body.top < title.bottom + 15 * scale) issues.push('body overlaps title')
           if (body && body.bottom > (footer?.top ?? stage.bottom - 45 * scale) - 10 * scale) issues.push('body overlaps footer')
+          const table = root.querySelector('.exercise-content > .lesson-table-figure table')?.getBoundingClientRect()
+          if (table) {
+            for (const sibling of root.querySelectorAll('.exercise-content > :is(.exercise-copy, .exercise-sources)')) {
+              const bounds = sibling.getBoundingClientRect()
+              const overlapX = Math.min(bounds.right, table.right) - Math.max(bounds.left, table.left)
+              const overlapY = Math.min(bounds.bottom, table.bottom) - Math.max(bounds.top, table.top)
+              if (overlapX > 1 && overlapY > 1) issues.push('table overlaps copy or sources')
+            }
+          }
           const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT)
           for (let node = walker.nextNode(); node; node = walker.nextNode()) {
             if (!node.textContent.trim() || node.parentElement.closest('dialog, .slide-ribbon')) continue
@@ -129,8 +139,31 @@ try {
         report.slides.push({ exercise: number, slide: slide.number, profile, ...metrics })
       }
       if (profile === 'desktop') {
-        if (exercise.number === 6) {
-          const modalSlide = data.find(slide => slide.blocks.some(block => block.example === 'framework:modal'))
+        const themedSlide = data.find(slide => slide.blocks.some(block => block.example === 'tailwind-theme:card'))
+        if (themedSlide) {
+          const themeRoot = await openSlide(page, lessonBase, themedSlide.number, { settle: true })
+          const themeFrame = themeRoot.locator('.exercise-native-frame').contentFrame()
+          const cards = themeFrame.locator('.demo-cards article')
+          assert.equal(await cards.count(), 2)
+          const [light, dark] = await cards.evaluateAll(nodes => nodes.map(node => ({ classes: node.className, surface: getComputedStyle(node).backgroundColor })))
+          assert.equal(light.classes, dark.classes, 'both themes use the same Tailwind classes')
+          assert.notEqual(light.surface, dark.surface, 'the surrounding theme changes the surface')
+          const links = await themeFrame.getByRole('link', { name: 'View sessions' }).all()
+          for (const link of links) {
+            await page.mouse.move(0, 0)
+            const rest = await link.evaluate(node => getComputedStyle(node).backgroundColor)
+            await link.hover()
+            assert.notEqual(await link.evaluate(node => getComputedStyle(node).backgroundColor), rest, 'each theme supplies a hover color')
+          }
+          await links[0].focus()
+          await page.keyboard.press('Tab')
+          assert.equal(await links[1].evaluate(node => node.matches(':focus-visible') && getComputedStyle(node).outlineWidth === '2px'), true, 'the second link has a keyboard focus indicator')
+          await page.keyboard.press('Escape')
+          await page.waitForFunction(() => document.activeElement?.classList.contains('exercise-native'))
+          report.theme = { surfaces: [light.surface, dark.surface], hover: true, keyboardFocus: true }
+        }
+        const modalSlide = data.find(slide => slide.blocks.some(block => block.example === 'framework:modal'))
+        if (modalSlide) {
           const modalRoot = await openSlide(page, lessonBase, modalSlide.number, { settle: true })
           const modalFrame = modalRoot.locator('.exercise-native-frame').contentFrame()
           await modalFrame.locator('dialog').waitFor({ state: 'attached' })

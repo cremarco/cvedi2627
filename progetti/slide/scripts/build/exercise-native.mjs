@@ -1,9 +1,11 @@
 import { copyFile, mkdir, readFile, readdir, rename, writeFile } from 'node:fs/promises'
 import { dirname, basename } from 'node:path'
+import { execFileSync } from 'node:child_process'
 import { createHash } from 'node:crypto'
 import { rebuildImportedSlide, nativeCorrections } from '../../data/esercitazioni/native-examples.mjs'
 import { reviseExercise, reviseExerciseMarkdown, revisedExerciseNumber } from '../../data/esercitazioni/editorial-revisions.mjs'
-import { curriculum } from '../../data/esercitazioni/framework-curriculum.mjs'
+import { componentDraft, curriculum } from '../../data/esercitazioni/framework-curriculum.mjs'
+import { themeExampleStyles, themeRevision } from '../../data/esercitazioni/tailwind-theme.mjs'
 import { workedExamples } from '../../data/esercitazioni/worked-examples.mjs'
 
 const json = async file => JSON.parse(await readFile(file, 'utf8'))
@@ -11,6 +13,10 @@ const save = (file, value) => writeFile(file, JSON.stringify(value, null, 2) + '
 const digest = async file => createHash('sha256').update(await readFile(file)).digest('hex')
 const folder = 'progetti/slide/assets/esercitazioni/native-rebuild'
 const manifest = await json('progetti/slide/assets/esercitazioni/manifest.json')
+execFileSync(process.execPath, [
+  'node_modules/@tailwindcss/cli/dist/index.mjs', '-i', '-',
+  '-o', 'progetti/slide/assets/esercitazioni/tailwind-daisyui/theme-exercise.css', '--minify',
+], { input: themeExampleStyles })
 await mkdir(`${folder}/images`, { recursive: true })
 const diagram = await json('progetti/slide/assets/esercitazioni/schemi/manifest.json')
 await mkdir('progetti/slide/public/images/esercitazioni', { recursive: true })
@@ -31,12 +37,26 @@ for (const exercise of manifest.exercises) {
   const specification = curriculum.find(module => module.number === exercise.number)
   const slides = reviseExercise(specification ? structuredClone(specification.slides) : before.map(slide => rebuildImportedSlide(slide, number)), number)
   if (specification) {
+    if (number === '06') {
+      exercise.slug = specification.slug
+      exercise.title = `Esercitazione ${exercise.number} - ${specification.title}`
+      exercise.file = `progetti/slide/esercitazioni/${number}-${exercise.slug}.md`
+      exercise.replacement = {
+        id: themeRevision, kind: 'complete', specification: 'progetti/slide/data/esercitazioni/tailwind-theme.mjs',
+        catalog: 'progetti/slide/docs/fonti/esercitazione-06-temi-tailwind.md', checkedOn: '2026-11-19',
+      }
+      exercise.editorialRevision = {
+        reference: '01-html-css-base.md', adaptedFrom: { exercise: '07', slides: [3, 4, 5, 6, 9, 12, 13] },
+        priorDraft: { specification: 'progetti/slide/data/esercitazioni/framework-curriculum.mjs', export: 'componentDraft', slideCount: componentDraft.slides.length },
+      }
+    }
+    const courseAuthor = ['05', '06'].includes(number)
     exercise.slideCount = slides.length
     const markdown = slides.map(slide => {
       const cover = ['cover', 'divider'].includes(slide.kind)
-      const matter = ['layout: default', `class: ${cover ? 'chapter-slide' : 'content-slide exercise-slide reading-slide'}`, `lesson: ${exercise.id}`, `lessonSlide: ${slide.number}`, `exerciseNumber: ${exercise.number}`, `sourceKind: ${slide.sourceKind ?? 'official-docs'}`, `footer: Esercitazione ${number} · ${number === '05' ? 'Elia Guarnieri' : 'CVeDI 2026/27'}`]
+      const matter = ['layout: default', `class: ${cover ? 'chapter-slide' : 'content-slide exercise-slide reading-slide'}`, `lesson: ${exercise.id}`, `lessonSlide: ${slide.number}`, `exerciseNumber: ${exercise.number}`, `sourceKind: ${slide.sourceKind ?? 'official-docs'}`, `footer: Esercitazione ${number} · ${courseAuthor ? 'Elia Guarnieri' : 'CVeDI 2026/27'}`]
       if (slide.number === 1) matter.push(`routeAlias: ${exercise.id}`)
-      const coverCredit = number === '05' ? (slide.kind === 'cover' ? '\n\n<p>Elia Guarnieri · elia.guarnieri@unimib.it</p>' : '') : '\n\n<p>Materiali del corso · fonti ufficiali Tailwind CSS e daisyUI</p>'
+      const coverCredit = courseAuthor ? (slide.kind === 'cover' ? '\n\n<p>Elia Guarnieri · elia.guarnieri@unimib.it</p>' : '') : '\n\n<p>Materiali del corso · fonti ufficiali Tailwind CSS e daisyUI</p>'
       const body = cover ? `<ChapterMetro section="${exercise.coverRoute ?? exercise.palette}" />\n\n# ${slide.title}${coverCredit}` : `# ${slide.title}\n\n<ExerciseContent exercise="${number}" :slide="${slide.number}" />`
       return `---\n${matter.join('\n')}\n---\n\n${body}\n`
     }).join('\n')
