@@ -31,6 +31,7 @@ const files = import.meta.env.PROD
       '../data/esercitazioni/04.json': () => import('../data/esercitazioni/04.json').then(module => module.default),
       '../data/esercitazioni/05.json': () => import('../data/esercitazioni/05.json').then(module => module.default),
       '../data/esercitazioni/06.json': () => import('../data/esercitazioni/06.json').then(module => module.default),
+      '../data/esercitazioni/07.json': () => import('../data/esercitazioni/07.json').then(module => module.default),
     }
   : import.meta.glob('../data/esercitazioni/*.json', { import: 'default' })
 const slides = shallowRef<ExerciseSlide[]>([])

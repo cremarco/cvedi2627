@@ -1,6 +1,6 @@
 # Fonti dell’esercitazione 06 · Temi con Tailwind CSS
 
-Fonti web consultate il 19 novembre 2026. Gli esempi numerici sono elaborazioni didattiche. I contenuti sulle custom properties riprendono il materiale CVeDI di Elia Guarnieri, dal blocco «Custom properties» della [settima esercitazione storica](../../assets/esercitazioni/bootstrap-archive/07.md) alla rielaborazione Tailwind della [settima esercitazione](../../esercitazioni/07-temi-tailwind-daisyui.md), slide 3–11.
+Fonti web consultate il 19 novembre 2026. Gli esempi numerici sono elaborazioni didattiche. I contenuti sulle custom properties riprendono il materiale CVeDI di Elia Guarnieri, dal blocco «Custom properties» della [settima esercitazione storica](../../assets/esercitazioni/bootstrap-archive/07.md) alla prima rielaborazione Tailwind della settima esercitazione, conservata come `themeDraft` in [framework-curriculum.mjs](../../data/esercitazioni/framework-curriculum.mjs), slide 3–11.
 
 ## Dalla custom property al tema
 

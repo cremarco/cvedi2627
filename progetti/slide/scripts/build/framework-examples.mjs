@@ -8,7 +8,12 @@ const folder = 'progetti/slide/assets/esercitazioni/tailwind-daisyui'
 const manifest = JSON.parse(await readFile('progetti/slide/assets/esercitazioni/manifest.json', 'utf8'))
 await mkdir(`${folder}/examples`, { recursive: true })
 await mkdir(`${folder}/originals`, { recursive: true })
-const withSources = css => css.replace('@import "tailwindcss";', '@import "tailwindcss" source(none);\n@source "./examples";\n@source "../../../data/esercitazioni/native-examples.mjs";\n@source "../../../data/esercitazioni/tailwind-intro.mjs";\n@source "../../../data/esercitazioni/tailwind-doc-examples.mjs";')
+const withSources = css => css.replace('@import "tailwindcss";', `@import "tailwindcss" source(none);
+@source "./examples";
+@source "../../../data/esercitazioni/native-examples.mjs";
+@source "../../../data/esercitazioni/tailwind-intro.mjs";
+@source "../../../data/esercitazioni/tailwind-doc-examples.mjs";
+@source "../../../data/esercitazioni/daisy-workshop.mjs";`)
 const baseCSS = withSources(exampleThemeSetup)
 const customCSS = withSources(customTheme + '\n' + exampleThemeOverrides)
 for (const [key, example] of Object.entries(examples)) {

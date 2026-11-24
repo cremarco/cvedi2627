@@ -89,7 +89,7 @@ const directTheme = `@theme {
   --color-brand: ${blue};
   --radius-card: 0.875rem;
 }`
-const baseTheme = `:root {
+export const baseTheme = `:root {
   --blue-200: oklch(82% 0.08 250);
   --blue-300: oklch(75% 0.10 250);
   --blue-700: oklch(55% 0.11 250);
@@ -111,7 +111,7 @@ const roleUtilities = `@theme inline {
 const openingCard = introFragments.first
   .replace('Laboratorio aperto', 'Open Workshop')
   .replace('Giovedì, ore 14', 'Thursday at 2 pm')
-const dark = `[data-theme="dark"] {
+export const dark = `[data-theme="dark"] {
   --ui-surface: #182433;
   --ui-ink: white;
   --ui-action: var(--blue-300);

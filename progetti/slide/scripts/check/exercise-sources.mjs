@@ -3,7 +3,7 @@ import { readFile, readdir } from 'node:fs/promises'
 import { createHash } from 'node:crypto'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
-import { componentDraft, curriculum, sources as officialSources, examples } from '../../data/esercitazioni/framework-curriculum.mjs'
+import { componentDraft, curriculum, sources as officialSources, examples, themeDraft } from '../../data/esercitazioni/framework-curriculum.mjs'
 import { themeSources } from '../../data/esercitazioni/tailwind-theme.mjs'
 import { reviseExercise } from '../../data/esercitazioni/editorial-revisions.mjs'
 import { gridRemovedCopy, gridRemovedLinks, gridTextRevision } from '../../data/esercitazioni/grid-revisions.mjs'
@@ -45,7 +45,7 @@ export async function checkExerciseSources() {
     // Module 05 was replaced by the beginner path. Its earlier examples remain
     // hash-checked in the retained catalogue above, outside the active lesson.
     if (example.module === 5) continue
-    const slides = (example.module === componentDraft.number ? componentDraft : curriculum.find(module => module.number === example.module)).slides
+    const { slides } = [componentDraft, themeDraft].find(module => module.number === example.module)
     const result = slides.findIndex(slide => slide.blocks.some(block => block.example === `framework:${example.id}`))
     assert.ok(result > 0 && example.observe && example.task, 'each worked example has an observation and guided task')
     assert.equal(slides[result - 1].blocks[0].text, example.html, 'the exact running HTML is shown immediately before its result')
@@ -163,6 +163,16 @@ export async function checkExerciseSources() {
         preserved = archive
         const specification = curriculum.find(module => module.number === exercise.number)
         assert.deepEqual(slides, specification.slides, 'active course matches its authored specification')
+        if (number === '07') {
+          assert.equal(exercise.editorialRevision.priorDraft.slideCount, themeDraft.slides.length)
+          const visibleURLs = slides.filter(slide => slide.showSources !== false)
+            .flatMap(slide => slide.sources.filter(source => source.visible !== false).map(source => source.url))
+          assert.equal(new Set(visibleURLs).size, visibleURLs.length, 'exercise 07 shows each reference once')
+          const exercise06 = await json('progetti/slide/data/esercitazioni/06.json')
+          const drawingBlocks = deck => deck.filter(slide => slide.layout === 'figure')
+            .flatMap(slide => slide.blocks.map(({ caption, ...drawing }) => drawing))
+          assert.deepEqual(drawingBlocks(slides), drawingBlocks(exercise06), 'exercise 07 uses the previous layout references')
+        }
         assert.ok(slides.every(slide => slide.sourceSlide === null && ['official-docs', 'retained-import'].includes(slide.sourceKind)), 'authored and explicitly retained slides identify their origin')
         for (const slide of slides.filter(slide => slide.kind !== 'cover')) {
           if (slide.sourceKind === 'retained-import') {

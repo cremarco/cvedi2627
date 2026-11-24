@@ -4,7 +4,7 @@ import ExerciseResultContent, { type ExampleResult } from './ExerciseResultConte
 import ExerciseNative from './ExerciseNative.vue'
 import LessonFigure from './LessonFigure.vue'
 import { highlightExerciseCode, exerciseCodeLanguage } from '../utils/exercise-code.mjs'
-export interface TagReference { tags: string[]; tagSeparator?: string; title: string; url: string; example?: string; traits: string[]; native?: string; figure?: { src: string; alt: string; caption: string }; introduction?: { runs: { text: string; bold?: boolean; mono?: boolean }[] }[]; result?: ExampleResult; samples?: { example: string; description: string; result: ExampleResult }[] }
+export interface TagReference { tags: string[]; tagSeparator?: string; title: string; url: string; referenceLabel?: string; example?: string; traits: string[]; native?: string; figure?: { src: string; alt: string; caption: string }; introduction?: { runs: { text: string; bold?: boolean; mono?: boolean }[] }[]; result?: ExampleResult; samples?: { example: string; description: string; result: ExampleResult }[] }
 defineProps<{ items: TagReference[]; arrangement?: 'stacked-pair' | 'rows' | 'example-result' | 'explanation-code' | 'explanation-figure' | 'samples' | 'grid'; sharedTraits?: string[] }>()
 const { set } = useSlideSet()
 const fragments = (text: string) => text.split(/(<\/?[a-z][^<>]*>|`[^`]+`)/gi).filter(Boolean).map(text => ({ text: text.startsWith('`') ? text.slice(1, -1) : text, code: /^<\/?[a-z][^<>]*>$/i.test(text) || text.startsWith('`') }))
@@ -18,7 +18,7 @@ const fragments = (text: string) => text.split(/(<\/?[a-z][^<>]*>|`[^`]+`)/gi).f
           <h2><template v-for="(tag, index) in item.tags" :key="tag"><span v-if="index" class="exercise-tag-range">{{ item.tagSeparator ?? ' … ' }}</span><code class="exercise-inline-code">{{ tag }}</code></template></h2>
         </div>
         <p class="exercise-tag-role">{{ item.title }}</p>
-        <a class="link exercise-tag-mdn" :href="item.url" :aria-label="`MDN: ${item.title}`" target="_blank" rel="noopener noreferrer">MDN<span class="sr-only"> (si apre in una nuova scheda)</span></a>
+        <a class="link exercise-tag-mdn" :href="item.url" :aria-label="`${item.referenceLabel ?? 'MDN'}: ${item.title}`" target="_blank" rel="noopener noreferrer">{{ item.referenceLabel ?? 'MDN' }}<span class="sr-only"> (si apre in una nuova scheda)</span></a>
       </header>
       <div v-if="item.introduction?.length" class="exercise-tag-introduction"><p v-for="(paragraph, index) in item.introduction" :key="index"><template v-for="(run, r) in paragraph.runs" :key="r"><component v-for="(fragment, f) in fragments(run.text)" :is="fragment.code || run.mono ? 'code' : 'span'" :key="f" :class="{ 'font-semibold': run.bold, 'exercise-inline-code': fragment.code || run.mono }">{{ fragment.text }}</component></template></p></div>
       <div v-if="item.samples" class="exercise-tag-samples">

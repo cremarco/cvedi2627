@@ -3,10 +3,12 @@
 import { workedExamples } from './worked-examples.mjs'
 import { createTailwindIntro, introSources } from './tailwind-intro.mjs'
 import { themeSlides, themeSlug, themeTitle } from './tailwind-theme.mjs'
+import { createDaisyWorkshop, workshopSources, workshopTitle } from './daisy-workshop.mjs'
 const tw = path => `https://tailwindcss.com/docs/${path}`
 const du = path => `https://daisyui.com/${path}/`
 export const sources = {
   ...introSources,
+  ...workshopSources,
   utilities: ['Tailwind · utility classes', tw('styling-with-utility-classes')],
   cli: ['Tailwind · installazione CLI', tw('installation/tailwind-cli')],
   vite: ['Tailwind · Vite', tw('installation/using-vite')],
@@ -332,10 +334,11 @@ const themes = [
 ]
 
 export const componentDraft = { number: 6, title: 'daisyUI: componenti per le interfacce', slug: 'daisyui-componenti', slides: daisy }
+export const themeDraft = { number: 7, title: 'Temi con Tailwind CSS e daisyUI', slug: 'temi-tailwind-daisyui', slides: themes }
 const priorCurriculum = [
   { number: 5, title: 'Tailwind CSS: basi e layout', slug: 'tailwind-css', slides: tailwind },
   componentDraft,
-  { number: 7, title: 'Temi con Tailwind CSS e daisyUI', slug: 'temi-tailwind-daisyui', slides: themes },
+  themeDraft,
 ]
 for (const module of priorCurriculum) {
   const additions = workedExamples.filter(example => example.module === module.number && module.number !== 5)
@@ -351,4 +354,6 @@ tailwind.forEach(slide => { slide.revision = 'tailwind-intro-2026-11' })
 
 export const curriculum = priorCurriculum.map(module => module === componentDraft
   ? { number: 6, title: themeTitle, slug: themeSlug, slides: themeSlides }
-  : module)
+  : module === themeDraft
+    ? { ...themeDraft, title: workshopTitle, slides: createDaisyWorkshop(sources) }
+    : module)

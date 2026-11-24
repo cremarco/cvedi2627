@@ -11,7 +11,7 @@ routeAlias: esercitazione-07
 
 <ChapterMetro section="ux-color" />
 
-# Temi con Tailwind CSS e daisyUI
+# Componenti e temi con daisyUI
 
 <p>Materiali del corso · fonti ufficiali Tailwind CSS e daisyUI</p>
 
@@ -25,13 +25,13 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Dai valori ai ruoli
+# Componenti e temi con daisyUI
 
 <ExerciseContent exercise="07" :slide="2" />
 
 ---
 layout: default
-class: content-slide exercise-slide reading-slide
+class: chapter-slide
 lesson: esercitazione-07
 lessonSlide: 3
 exerciseNumber: 7
@@ -39,9 +39,9 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Una custom property è un valore CSS
+<ChapterMetro section="ux-color" />
 
-<ExerciseContent exercise="07" :slide="3" />
+# Utility e componenti
 
 ---
 layout: default
@@ -53,7 +53,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Dichiarare e usare una variabile
+# Utility
 
 <ExerciseContent exercise="07" :slide="4" />
 
@@ -67,7 +67,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Cambiare il valore in un contesto
+# Layer dei componenti
 
 <ExerciseContent exercise="07" :slide="5" />
 
@@ -81,7 +81,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Un fallback per un valore assente
+# Classe riusabile
 
 <ExerciseContent exercise="07" :slide="6" />
 
@@ -95,13 +95,13 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Esempio · Usare un valore di riserva
+# Libreria di componenti
 
 <ExerciseContent exercise="07" :slide="7" />
 
 ---
 layout: default
-class: content-slide exercise-slide reading-slide
+class: chapter-slide
 lesson: esercitazione-07
 lessonSlide: 8
 exerciseNumber: 7
@@ -109,9 +109,9 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Prova · Usare un valore di riserva
+<ChapterMetro section="ux-color" />
 
-<ExerciseContent exercise="07" :slide="8" />
+# Node.js e npm
 
 ---
 layout: default
@@ -123,7 +123,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Lo scope segue la struttura
+# Gli strumenti del progetto
 
 <ExerciseContent exercise="07" :slide="9" />
 
@@ -137,7 +137,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Esempio · Ereditare un valore
+# Runtime e pacchetti
 
 <ExerciseContent exercise="07" :slide="10" />
 
@@ -151,7 +151,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Prova · Ereditare un valore
+# Installazione di Node.js
 
 <ExerciseContent exercise="07" :slide="11" />
 
@@ -165,7 +165,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# :root e @theme hanno compiti diversi
+# Verifica dell’installazione
 
 <ExerciseContent exercise="07" :slide="12" />
 
@@ -179,7 +179,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Un token Tailwind
+# Cartella di lavoro
 
 <ExerciseContent exercise="07" :slide="13" />
 
@@ -193,7 +193,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Il tema daisyUI è un insieme di ruoli
+# Inizializzazione
 
 <ExerciseContent exercise="07" :slide="14" />
 
@@ -207,7 +207,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Esempio · Ruoli e colori fissi
+# package.json
 
 <ExerciseContent exercise="07" :slide="15" />
 
@@ -221,7 +221,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Prova · Ruoli e colori fissi
+# Tailwind CSS
 
 <ExerciseContent exercise="07" :slide="16" />
 
@@ -235,7 +235,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Abilitare due temi
+# Script npm
 
 <ExerciseContent exercise="07" :slide="17" />
 
@@ -249,13 +249,13 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Applicare il tema a una sezione
+# Avvio della compilazione
 
 <ExerciseContent exercise="07" :slide="18" />
 
 ---
 layout: default
-class: content-slide exercise-slide reading-slide
+class: chapter-slide
 lesson: esercitazione-07
 lessonSlide: 19
 exerciseNumber: 7
@@ -263,9 +263,9 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Due temi, gli stessi componenti
+<ChapterMetro section="ux-color" />
 
-<ExerciseContent exercise="07" :slide="19" />
+# Componenti e temi daisyUI
 
 ---
 layout: default
@@ -277,7 +277,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Scegliere le coppie di colore
+# Installazione di daisyUI
 
 <ExerciseContent exercise="07" :slide="20" />
 
@@ -291,7 +291,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Personalizzare un tema esistente
+# Configurazione del plugin
 
 <ExerciseContent exercise="07" :slide="21" />
 
@@ -305,7 +305,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Personalizzare la geometria
+# Temi daisyUI
 
 <ExerciseContent exercise="07" :slide="22" />
 
@@ -319,13 +319,13 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Esempio · Cambiare la geometria
+# Tema della pagina
 
 <ExerciseContent exercise="07" :slide="23" />
 
 ---
 layout: default
-class: content-slide exercise-slide reading-slide
+class: chapter-slide
 lesson: esercitazione-07
 lessonSlide: 24
 exerciseNumber: 7
@@ -333,9 +333,9 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Prova · Cambiare la geometria
+<ChapterMetro section="ux-color" />
 
-<ExerciseContent exercise="07" :slide="24" />
+# Personalizzazione
 
 ---
 layout: default
@@ -347,7 +347,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Risultato: primario e geometria
+# Il tema di Tailwind
 
 <ExerciseContent exercise="07" :slide="25" />
 
@@ -361,7 +361,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Cambiare tema è una scelta dell’interfaccia
+# Colori e ruoli
 
 <ExerciseContent exercise="07" :slide="26" />
 
@@ -375,7 +375,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Un controllo per il tema scuro
+# Palette
 
 <ExerciseContent exercise="07" :slide="27" />
 
@@ -389,7 +389,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Esempio · Provare il cambio di tema
+# Variabili del tema
 
 <ExerciseContent exercise="07" :slide="28" />
 
@@ -403,13 +403,13 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Prova · Provare il cambio di tema
+# Un tema personalizzato
 
 <ExerciseContent exercise="07" :slide="29" />
 
 ---
 layout: default
-class: content-slide exercise-slide reading-slide
+class: chapter-slide
 lesson: esercitazione-07
 lessonSlide: 30
 exerciseNumber: 7
@@ -417,9 +417,9 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Verificare il contrasto in entrambi i temi
+<ChapterMetro section="ux-color" />
 
-<ExerciseContent exercise="07" :slide="30" />
+# Componenti
 
 ---
 layout: default
@@ -431,7 +431,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Laboratorio · costruire una variante
+# Pulsante
 
 <ExerciseContent exercise="07" :slide="31" />
 
@@ -445,7 +445,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Rivedere il sistema
+# Campo di testo
 
 <ExerciseContent exercise="07" :slide="32" />
 
@@ -459,6 +459,62 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Fine esercitazione 07
+# Card
 
 <ExerciseContent exercise="07" :slide="33" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-07
+lessonSlide: 34
+exerciseNumber: 7
+sourceKind: official-docs
+footer: Esercitazione 07 · CVeDI 2026/27
+---
+
+# Esercizio
+
+<ExerciseContent exercise="07" :slide="34" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-07
+lessonSlide: 35
+exerciseNumber: 7
+sourceKind: official-docs
+footer: Esercitazione 07 · CVeDI 2026/27
+---
+
+# Esercizio
+
+<ExerciseContent exercise="07" :slide="35" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-07
+lessonSlide: 36
+exerciseNumber: 7
+sourceKind: official-docs
+footer: Esercitazione 07 · CVeDI 2026/27
+---
+
+# Layout di riferimento · mobile
+
+<ExerciseContent exercise="07" :slide="36" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-07
+lessonSlide: 37
+exerciseNumber: 7
+sourceKind: official-docs
+footer: Esercitazione 07 · CVeDI 2026/27
+---
+
+# Fine esercitazione 07
+
+<ExerciseContent exercise="07" :slide="37" />

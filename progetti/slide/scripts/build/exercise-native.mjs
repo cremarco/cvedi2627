@@ -4,8 +4,9 @@ import { execFileSync } from 'node:child_process'
 import { createHash } from 'node:crypto'
 import { rebuildImportedSlide, nativeCorrections } from '../../data/esercitazioni/native-examples.mjs'
 import { reviseExercise, reviseExerciseMarkdown, revisedExerciseNumber } from '../../data/esercitazioni/editorial-revisions.mjs'
-import { componentDraft, curriculum } from '../../data/esercitazioni/framework-curriculum.mjs'
+import { componentDraft, curriculum, themeDraft } from '../../data/esercitazioni/framework-curriculum.mjs'
 import { themeExampleStyles, themeRevision } from '../../data/esercitazioni/tailwind-theme.mjs'
+import { studioThemeCSS, studioThemePath, workshopRevision } from '../../data/esercitazioni/daisy-workshop.mjs'
 import { workedExamples } from '../../data/esercitazioni/worked-examples.mjs'
 
 const json = async file => JSON.parse(await readFile(file, 'utf8'))
@@ -20,6 +21,9 @@ execFileSync(process.execPath, [
 await mkdir(`${folder}/images`, { recursive: true })
 const diagram = await json('progetti/slide/assets/esercitazioni/schemi/manifest.json')
 await mkdir('progetti/slide/public/images/esercitazioni', { recursive: true })
+const studioThemeFile = `progetti/slide/public${studioThemePath}`
+await mkdir(dirname(studioThemeFile), { recursive: true })
+await writeFile(studioThemeFile, `${studioThemeCSS}\n`)
 for (const asset of [...diagram.diagrams, ...(diagram.demos || []), ...(diagram.screenshots || [])]) {
   await mkdir(dirname(`progetti/slide/public${asset.web}`), { recursive: true })
   await copyFile(`progetti/slide/assets/esercitazioni/schemi/${asset.source}`, `progetti/slide/public${asset.web}`)
@@ -50,13 +54,27 @@ for (const exercise of manifest.exercises) {
         priorDraft: { specification: 'progetti/slide/data/esercitazioni/framework-curriculum.mjs', export: 'componentDraft', slideCount: componentDraft.slides.length },
       }
     }
+    if (number === '07') {
+      exercise.title = `Esercitazione ${exercise.number} - ${specification.title}`
+      const workshopSpecification = 'progetti/slide/data/esercitazioni/daisy-workshop.mjs'
+      exercise.replacement = {
+        id: workshopRevision, kind: 'complete', specification: workshopSpecification,
+        catalog: 'progetti/slide/assets/esercitazioni/tailwind-daisyui/sources.json', checkedOn: '2026-11-23',
+      }
+      exercise.editorialRevision = {
+        reference: '01-html-css-base.md',
+        adaptedFrom: { exercise: '06', slides: [28, 29, 30, 31] },
+        priorDraft: { specification: 'progetti/slide/data/esercitazioni/framework-curriculum.mjs', export: 'themeDraft', slideCount: themeDraft.slides.length },
+      }
+    }
     const courseAuthor = ['05', '06'].includes(number)
+    const credit = courseAuthor ? 'Elia Guarnieri · elia.guarnieri@unimib.it' : 'Materiali del corso · fonti ufficiali Tailwind CSS e daisyUI'
     exercise.slideCount = slides.length
     const markdown = slides.map(slide => {
       const cover = ['cover', 'divider'].includes(slide.kind)
       const matter = ['layout: default', `class: ${cover ? 'chapter-slide' : 'content-slide exercise-slide reading-slide'}`, `lesson: ${exercise.id}`, `lessonSlide: ${slide.number}`, `exerciseNumber: ${exercise.number}`, `sourceKind: ${slide.sourceKind ?? 'official-docs'}`, `footer: Esercitazione ${number} · ${courseAuthor ? 'Elia Guarnieri' : 'CVeDI 2026/27'}`]
       if (slide.number === 1) matter.push(`routeAlias: ${exercise.id}`)
-      const coverCredit = courseAuthor ? (slide.kind === 'cover' ? '\n\n<p>Elia Guarnieri · elia.guarnieri@unimib.it</p>' : '') : '\n\n<p>Materiali del corso · fonti ufficiali Tailwind CSS e daisyUI</p>'
+      const coverCredit = slide.kind === 'cover' ? `\n\n<p>${credit}</p>` : ''
       const body = cover ? `<ChapterMetro section="${exercise.coverRoute ?? exercise.palette}" />\n\n# ${slide.title}${coverCredit}` : `# ${slide.title}\n\n<ExerciseContent exercise="${number}" :slide="${slide.number}" />`
       return `---\n${matter.join('\n')}\n---\n\n${body}\n`
     }).join('\n')

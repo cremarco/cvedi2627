@@ -18,7 +18,7 @@ const publishedPrefix = process.env.EXERCISE_BASE || '/'
 assert.ok(publishedPrefix.startsWith('/') && publishedPrefix.endsWith('/'), 'published base starts and ends with /')
 await mkdir(output, { recursive: true })
 if (!indexesOnly) for (const file of await readdir(output)) if (file.startsWith('failure-') || /^\d{2}-\d+-(desktop|narrow|print)\.png$/.test(file)) await rm(`${output}/${file}`)
-const report = { status: 'running', scope: indexesOnly ? 'indexes' : 'complete', sources: await checkExerciseSources(), slides: [], failures: [], errors: [] }
+const report = { status: 'running', scope: indexesOnly ? 'indexes' : 'complete', sources: await checkExerciseSources(), slides: [], failures: [], errors: [], interactions: [] }
 const browser = await chromium.launch()
 const require = createRequire(realpathSync('node_modules/@slidev/cli/package.json'))
 const serve = require('sirv')(publishedSite, { dev: true })
@@ -207,7 +207,7 @@ try {
           assert.equal(await formFrame.getByRole('status').textContent(), 'Dati ricevuti nell’esempio locale.', 'the real iframe sandbox permits the locally handled submit event')
           const formHandle = await formRoot.locator('.exercise-native-frame').elementHandle()
           await (await formHandle.contentFrame()).waitForFunction(() => document.querySelector('main').scrollHeight <= innerHeight)
-          report.interactions = ['dialog opens on request', 'Escape returns from the iframe to slide keyboard navigation', 'control arrow keys remain local', 'playback state reaches the isolated example', 'valid form confirms locally inside the actual sandbox']
+          report.interactions.push('dialog opens on request', 'Escape returns from the iframe to slide keyboard navigation', 'control arrow keys remain local', 'playback state reaches the isolated example', 'valid form confirms locally inside the actual sandbox')
           const actionSlide = data.find(slide => slide.blocks.some(block => block.example === 'framework:actionAndLink'))
           const actionRoot = await openSlide(page, lessonBase, actionSlide.number, { settle: true })
           const actionFrame = actionRoot.locator('.exercise-native-frame').contentFrame()
@@ -227,16 +227,35 @@ try {
           report.interactions.push('worked action, local link, radios and checkboxes run inside Slidev')
         }
         if (exercise.number === 7) {
-          const themeSlide = data.find(slide => slide.blocks.some(block => block.example === 'framework:themeSwitch'))
-          const themeRoot = await openSlide(page, lessonBase, themeSlide.number, { settle: true })
-          const themeFrame = themeRoot.locator('.exercise-native-frame').contentFrame()
-          const surface = themeFrame.locator('main > div')
-          const before = await surface.evaluate(node => getComputedStyle(node).backgroundColor)
-          await themeFrame.getByRole('checkbox', { name: 'Tema scuro', exact: true }).check()
-          assert.notEqual(await surface.evaluate(node => getComputedStyle(node).backgroundColor), before)
-          await themeFrame.getByRole('checkbox', { name: 'Tema scuro', exact: true }).uncheck()
-          assert.equal(await surface.evaluate(node => getComputedStyle(node).backgroundColor), before)
-          report.interactions.push('worked theme switch updates and restores the actual Slidev example')
+          const colors = data.find(slide => slide.blocks.some(block => block.example === 'daisy-workshop:roles'))
+          const colorsRoot = await openSlide(page, lessonBase, colors.number, { settle: true })
+          const colorsFrame = colorsRoot.locator('.exercise-native-frame').contentFrame()
+          const themedParagraphs = colorsFrame.locator('.native-result .bg-base-100')
+          await themedParagraphs.last().waitFor()
+          const backgrounds = await themedParagraphs.evaluateAll(paragraphs =>
+            paragraphs.map(paragraph => getComputedStyle(paragraph).backgroundColor))
+          assert.equal(backgrounds.length, 2)
+          assert.notEqual(backgrounds[0], backgrounds[1], 'the same utility reads the active theme color')
+
+          const componentFrame = async example => {
+            const entry = data.find(slide => slide.blocks.some(block => block.items?.some(item => item.native === example)))
+            const root = await openSlide(page, lessonBase, entry.number, { settle: true })
+            return root.locator('.exercise-native-frame').contentFrame()
+          }
+          const fieldFrame = await componentFrame('daisy-workshop:field')
+          const email = fieldFrame.getByLabel('Email', { exact: true })
+          await email.focus()
+          assert.ok(await email.evaluate(input => input.validity.valueMissing))
+          await email.fill('esempio@example.org')
+          assert.ok(await email.evaluate(input => input.validity.valid))
+
+          const actionFrame = await componentFrame('daisy-workshop:action')
+          const action = actionFrame.getByRole('button', { name: 'Iscriviti' })
+          await action.focus()
+          assert.ok(await action.evaluate(button => button.matches(':focus-visible') && getComputedStyle(button).outlineStyle !== 'none'))
+          await page.keyboard.press('Enter')
+          assert.match(await actionFrame.locator('output').textContent(), /esempio locale/)
+          report.interactions.push('semantic colors follow the active theme, the email field validates, and the button works from the keyboard')
         }
         const figureSlide = data.find(slide => slide.blocks.some(block => block.kind === 'image'))
         if (figureSlide) {

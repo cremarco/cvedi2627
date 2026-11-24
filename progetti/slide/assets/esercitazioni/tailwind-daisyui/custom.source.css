@@ -3,6 +3,7 @@
 @source "../../../data/esercitazioni/native-examples.mjs";
 @source "../../../data/esercitazioni/tailwind-intro.mjs";
 @source "../../../data/esercitazioni/tailwind-doc-examples.mjs";
+@source "../../../data/esercitazioni/daisy-workshop.mjs";
 @plugin "daisyui";
 @plugin "daisyui/theme" {
   name: "light";

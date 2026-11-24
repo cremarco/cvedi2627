@@ -5,6 +5,7 @@ import { originalDiagrams } from './original-diagrams.mjs'
 import { advancedExamples } from './advanced-examples.mjs'
 import { introFragments } from './tailwind-intro.mjs'
 import { themeExamples } from './tailwind-theme.mjs'
+import { workshopExamples, workshopExampleStyles } from './daisy-workshop.mjs'
 import { highlightExerciseCode, exerciseCodeLanguage } from '../../utils/exercise-code.mjs'
 import { escapeHTML } from './native-document.mjs'
 export { escapeHTML, nativeCSS, renderNativeDocument } from './native-document.mjs'
@@ -144,6 +145,11 @@ export const nativeExamples = {
 
 // Exact HTML fragments are both the displayed source and the running result.
 const pairedCodeStyles = '.native-example-pair pre{display:block;width:100%;max-width:100%}.native-example-pair code{white-space:pre-wrap;overflow-wrap:anywhere}'
+for (const [id, { source, result }] of Object.entries(workshopExamples)) {
+  nativeExamples[`daisy-workshop:${id}`] = {
+    html: `<style>${pairedCodeStyles}${workshopExampleStyles}</style>` + matchedPair(source, result),
+  }
+}
 const introStyles = `<style>html{font-size:16px}.native-result{color:var(--color-emerald-950);font-family:var(--font-sans)}${pairedCodeStyles}</style>`
 for (const name of ['first', 'spacing', 'color', 'type', 'container', 'flex', 'grid']) nativeExamples[`tailwind-intro:${name}`] = {
   html: introStyles + matchedPair(introFragments[name], introFragments[name]),

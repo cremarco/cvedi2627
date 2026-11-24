@@ -5,6 +5,7 @@ import { nativeExamples, renderNativeDocument } from '../../data/esercitazioni/n
 import { examples } from '../../data/esercitazioni/framework-curriculum.mjs'
 import { introFragments } from '../../data/esercitazioni/tailwind-intro.mjs'
 import { themeExamples } from '../../data/esercitazioni/tailwind-theme.mjs'
+import { workshopExamples } from '../../data/esercitazioni/daisy-workshop.mjs'
 
 const output = 'reports/native-exercises'
 await mkdir(output, { recursive: true })
@@ -20,7 +21,9 @@ try {
     const themeExample = name.startsWith('tailwind-theme:') ? themeExamples[name.slice('tailwind-theme:'.length)] : undefined
     await page.setContent(renderNativeDocument(entry, base, custom, themeExample ? themeCSS : ''))
     await page.evaluate(async () => { await document.fonts.ready; await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))) })
-    const pairedSource = themeExample?.source ?? (name.startsWith('tailwind-intro:') && !entry.comparison ? introFragments[name.slice(15)] : undefined)
+    const workshopExample = name.startsWith('daisy-workshop:') ? workshopExamples[name.split(':')[1]] : undefined
+    const pairedSource = themeExample?.source ?? workshopExample?.source
+      ?? (name.startsWith('tailwind-intro:') && !entry.comparison ? introFragments[name.slice(15)] : undefined)
     const pairedSources = themeExample?.pairs?.map(pair => pair.source) ?? (pairedSource ? [pairedSource] : [])
     if (pairedSources.length) {
       const pairs = page.locator('.native-example-pair')

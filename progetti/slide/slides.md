@@ -118,7 +118,7 @@ footer: "Esercitazioni"
   <SlideAction to="esercitazione-04" calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">04</span><span>Interfacce responsive e approccio mobile-first</span></SlideAction>
   <SlideAction to="esercitazione-05" calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">05</span><span>Tailwind CSS: basi e layout</span></SlideAction>
   <SlideAction to="esercitazione-06" calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">06</span><span>Temi con Tailwind CSS</span></SlideAction>
-  <SlideAction to="esercitazione-07" disabled calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">07</span><span>Temi con Tailwind CSS e daisyUI</span></SlideAction>
+  <SlideAction to="esercitazione-07" calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">07</span><span>Componenti e temi con daisyUI</span></SlideAction>
   <SlideAction to="esercitazione-08" disabled calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">08</span><span>Git</span></SlideAction>
   <SlideAction to="esercitazione-09" disabled calendar-date class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">09</span><span>JavaScript e jQuery</span></SlideAction>
 </div>
@@ -842,7 +842,6 @@ src: ./esercitazioni/06-temi-tailwind-css.md
 
 ---
 src: ./esercitazioni/07-temi-tailwind-daisyui.md
-localOnly: true
 ---
 
 ---

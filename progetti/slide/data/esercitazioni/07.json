@@ -1,627 +1,1527 @@
 [
   {
-    "title": "Temi con Tailwind CSS e daisyUI",
-    "kind": "cover",
+    "title": "Componenti e temi con daisyUI",
     "blocks": [],
+    "kind": "cover",
     "sources": [],
     "number": 1,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Dai valori ai ruoli",
-    "kind": "content",
+    "title": "Componenti e temi con daisyUI",
     "blocks": [
       {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Obiettivo: personalizzare un’interfaccia attraverso custom properties e ruoli cromatici coerenti.",
+            "text": "Utility e componenti",
             "runs": [
               {
-                "text": "Obiettivo: personalizzare un’interfaccia attraverso custom properties e ruoli cromatici coerenti."
+                "text": "Utility e componenti"
               }
-            ]
+            ],
+            "bullet": true
           },
           {
-            "text": "Riutilizza la pagina del laboratorio precedente e conserva stati, semantica e ordine di lettura mentre cambi tema.",
+            "text": "Node.js e npm",
             "runs": [
               {
-                "text": "Riutilizza la pagina del laboratorio precedente e conserva stati, semantica e ordine di lettura mentre cambi tema."
+                "text": "Node.js e npm"
               }
-            ]
+            ],
+            "bullet": true
+          },
+          {
+            "text": "Componenti e temi daisyUI",
+            "runs": [
+              {
+                "text": "Componenti e temi daisyUI"
+              }
+            ],
+            "bullet": true
           }
         ]
       }
     ],
+    "showSources": false,
+    "kind": "content",
     "sources": [
       {
-        "id": "variables",
-        "title": "MDN · custom properties",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
+        "id": "daisyIntro",
+        "title": "daisyUI · introduzione",
+        "url": "https://daisyui.com/docs/intro/",
+        "visible": false
       },
       {
-        "id": "colors",
-        "title": "daisyUI · colori semantici",
-        "url": "https://daisyui.com/docs/colors/"
+        "id": "cli",
+        "title": "Tailwind · installazione CLI",
+        "url": "https://tailwindcss.com/docs/installation/tailwind-cli",
+        "visible": false
+      },
+      {
+        "id": "themes",
+        "title": "daisyUI · temi",
+        "url": "https://daisyui.com/docs/themes/",
+        "visible": false
       }
     ],
     "number": 2,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Una custom property è un valore CSS",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "Il nome inizia con due trattini. La proprietà segue la cascata e può essere ereditata dagli elementi discendenti.",
-            "runs": [
-              {
-                "text": "Il nome inizia con due trattini. La proprietà segue la cascata e può essere ereditata dagli elementi discendenti."
-              }
-            ]
-          },
-          {
-            "text": "var() legge il valore nel contesto in cui viene usato. Il nome descrittivo rende esplicito il suo scopo.",
-            "runs": [
-              {
-                "text": "var() legge il valore nel contesto in cui viene usato. Il nome descrittivo rende esplicito il suo scopo."
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "title": "Utility e componenti",
+    "blocks": [],
+    "kind": "divider",
+    "showSources": false,
     "sources": [
       {
-        "id": "variables",
-        "title": "MDN · custom properties",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
+        "id": "daisyIntro",
+        "title": "daisyUI · introduzione",
+        "url": "https://daisyui.com/docs/intro/",
+        "visible": false
       }
     ],
     "number": 3,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Dichiarare e usare una variabile",
-    "kind": "content",
+    "title": "Utility",
     "blocks": [
       {
-        "kind": "code",
-        "text": ":root { --spazio-sezione: 2rem; }\n.sezione { padding-block: var(--spazio-sezione); }"
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "px-3 e py-2 impostano il padding. rounded-md imposta il border-radius.",
+            "runs": [
+              {
+                "text": "px-3",
+                "mono": true
+              },
+              {
+                "text": " e "
+              },
+              {
+                "text": "py-2",
+                "mono": true
+              },
+              {
+                "text": " impostano il "
+              },
+              {
+                "text": "padding",
+                "mono": true
+              },
+              {
+                "text": ". "
+              },
+              {
+                "text": "rounded-md",
+                "mono": true
+              },
+              {
+                "text": " imposta il "
+              },
+              {
+                "text": "border-radius",
+                "mono": true
+              },
+              {
+                "text": "."
+              }
+            ],
+            "bullet": false
+          },
+          {
+            "text": "bg-action e text-on-action impostano i colori.",
+            "runs": [
+              {
+                "text": "bg-action",
+                "mono": true
+              },
+              {
+                "text": " e "
+              },
+              {
+                "text": "text-on-action",
+                "mono": true
+              },
+              {
+                "text": " impostano i colori."
+              }
+            ],
+            "bullet": false
+          },
+          {
+            "text": "hover:bg-action-hover cambia il background-color in hover.",
+            "runs": [
+              {
+                "text": "hover:bg-action-hover",
+                "mono": true
+              },
+              {
+                "text": " cambia il "
+              },
+              {
+                "text": "background-color",
+                "mono": true
+              },
+              {
+                "text": " in "
+              },
+              {
+                "text": "hover",
+                "mono": true
+              },
+              {
+                "text": "."
+              }
+            ],
+            "bullet": false
+          }
+        ]
+      },
+      {
+        "kind": "code-group",
+        "fileHeaders": true,
+        "files": [
+          {
+            "label": "index.html",
+            "text": "<button type=\"submit\" class=\"rounded-md\n  bg-action px-3 py-2 text-on-action\n  hover:bg-action-hover\">\n  Iscriviti\n</button>"
+          }
+        ]
       }
     ],
+    "layout": "columns",
+    "showSources": false,
+    "kind": "content",
     "sources": [
       {
-        "id": "variables",
-        "title": "MDN · custom properties",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
+        "id": "utilities",
+        "title": "Tailwind · utility classes",
+        "url": "https://tailwindcss.com/docs/styling-with-utility-classes",
+        "visible": false
       }
     ],
     "number": 4,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Cambiare il valore in un contesto",
-    "kind": "content",
+    "title": "Layer dei componenti",
     "blocks": [
       {
-        "kind": "code",
-        "text": ":root { --spazio-sezione: 2rem; }\n.compact { --spazio-sezione: 1rem; }\n.sezione { padding-block: var(--spazio-sezione); }\n\n/* Una .sezione dentro .compact eredita il valore locale. */"
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Quando lo stesso pulsante compare in più punti, conviene tenere le regole in un posto solo. Tailwind usa @layer components per raggruppare le classi CSS dei componenti.",
+            "runs": [
+              {
+                "text": "Quando lo stesso pulsante compare in più punti, conviene tenere le regole in un posto solo. Tailwind usa "
+              },
+              {
+                "text": "@layer components",
+                "mono": true
+              },
+              {
+                "text": " per raggruppare le classi CSS dei componenti."
+              }
+            ],
+            "bullet": false
+          }
+        ]
+      },
+      {
+        "kind": "code-group",
+        "fileHeaders": true,
+        "files": [
+          {
+            "label": "input.css",
+            "text": "@layer components {\n  .submit-button {\n    padding: 0.5rem 0.75rem;\n    border-radius: var(--radius-md);\n    background-color: var(--ui-action);\n    color: var(--ui-on-action);\n\n    &:hover {\n      background-color: var(--ui-action-hover);\n    }\n  }\n}"
+          }
+        ]
       }
     ],
+    "showSources": false,
+    "kind": "content",
     "sources": [
       {
-        "id": "variables",
-        "title": "MDN · custom properties",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
+        "id": "custom",
+        "title": "Tailwind · CSS personalizzato",
+        "url": "https://tailwindcss.com/docs/adding-custom-styles",
+        "visible": false
       }
     ],
     "number": 5,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Un fallback per un valore assente",
-    "kind": "content",
+    "title": "Classe riusabile",
     "blocks": [
       {
-        "kind": "code",
-        "text": ".sezione {\n  padding-block: var(--spazio-sezione, 2rem);\n}\n/* Il fallback entra in gioco se la variabile non è disponibile. */"
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Nell’HTML basta la classe submit-button. Una modifica alla regola CSS aggiorna tutti i pulsanti che la usano.",
+            "runs": [
+              {
+                "text": "Nell’HTML basta la classe "
+              },
+              {
+                "text": "submit-button",
+                "mono": true
+              },
+              {
+                "text": ". Una modifica alla regola CSS aggiorna tutti i pulsanti che la usano."
+              }
+            ],
+            "bullet": false
+          }
+        ]
+      },
+      {
+        "kind": "code-group",
+        "fileHeaders": true,
+        "files": [
+          {
+            "label": "index.html",
+            "text": "<button type=\"submit\"\n  class=\"submit-button\">\n  Iscriviti\n</button>"
+          }
+        ]
       }
     ],
+    "layout": "columns",
+    "showSources": false,
+    "kind": "content",
     "sources": [
       {
-        "id": "variables",
-        "title": "MDN · custom properties",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
+        "id": "custom",
+        "title": "Tailwind · CSS personalizzato",
+        "url": "https://tailwindcss.com/docs/adding-custom-styles",
+        "visible": false
       }
     ],
     "number": 6,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Esempio · Usare un valore di riserva",
-    "kind": "content",
+    "title": "Libreria di componenti",
     "blocks": [
       {
-        "kind": "code",
-        "text": "<style>\n  .campione { background: var(--superficie, var(--color-base-200)); }\n</style>\n<div class=\"grid gap-6 sm:grid-cols-2\">\n  <p class=\"campione p-6\">Variabile assente: entra il fallback.</p>\n  <p class=\"campione p-6\" style=\"--superficie:var(--color-base-300)\">\n    Variabile presente: viene usato il valore locale.\n  </p>\n</div>"
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "daisyUI è una libreria di componenti per Tailwind. Fornisce classi pronte per pulsanti, campi e altri controlli, con stili coordinati dallo stesso tema.",
+            "runs": [
+              {
+                "text": "daisyUI è una libreria di componenti per Tailwind. Fornisce classi pronte per pulsanti, campi e altri controlli, con stili coordinati dallo stesso tema."
+              }
+            ],
+            "bullet": false
+          }
+        ]
+      },
+      {
+        "kind": "code-group",
+        "fileHeaders": true,
+        "files": [
+          {
+            "label": "CSS del progetto",
+            "text": "<button type=\"submit\"\n  class=\"submit-button\">\n  Iscriviti\n</button>"
+          },
+          {
+            "label": "daisyUI",
+            "text": "<button type=\"submit\"\n  class=\"btn btn-primary\">\n  Iscriviti\n</button>"
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "submit-button applica le regole definite in input.css. btn riunisce padding, border-radius e stile di hover. btn-primary usa il colore primary del tema.",
+            "runs": [
+              {
+                "text": "submit-button",
+                "mono": true
+              },
+              {
+                "text": " applica le regole definite in "
+              },
+              {
+                "text": "input.css",
+                "mono": true
+              },
+              {
+                "text": ". "
+              },
+              {
+                "text": "btn",
+                "mono": true
+              },
+              {
+                "text": " riunisce "
+              },
+              {
+                "text": "padding",
+                "mono": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "border-radius",
+                "mono": true
+              },
+              {
+                "text": " e stile di "
+              },
+              {
+                "text": "hover",
+                "mono": true
+              },
+              {
+                "text": ". "
+              },
+              {
+                "text": "btn-primary",
+                "mono": true
+              },
+              {
+                "text": " usa il colore "
+              },
+              {
+                "text": "primary",
+                "mono": true
+              },
+              {
+                "text": " del tema."
+              }
+            ],
+            "bullet": false
+          }
+        ]
       }
     ],
+    "layout": "code-columns",
+    "kind": "content",
     "sources": [
       {
-        "id": "variables",
-        "title": "MDN · custom properties",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
+        "id": "daisyIntro",
+        "title": "daisyUI · introduzione",
+        "url": "https://daisyui.com/docs/intro/"
       }
     ],
     "number": 7,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Prova · Usare un valore di riserva",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "native",
-        "caption": "Osserva: Senza --superficie viene usato base-200; il secondo riquadro ha un valore locale. Prova: Elimina --superficie dal secondo riquadro: quale fondo compare?",
-        "example": "framework:fallbackColor"
-      }
-    ],
+    "title": "Node.js e npm",
+    "blocks": [],
+    "kind": "divider",
+    "showSources": false,
     "sources": [
       {
-        "id": "variables",
-        "title": "MDN · custom properties",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
+        "id": "nodeRuntime",
+        "title": "Node.js",
+        "url": "https://nodejs.org/learn/getting-started/introduction-to-nodejs",
+        "visible": false
+      },
+      {
+        "id": "npmAbout",
+        "title": "npm",
+        "url": "https://docs.npmjs.com/about-npm/",
+        "visible": false
       }
     ],
     "number": 8,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Lo scope segue la struttura",
-    "kind": "content",
+    "title": "Gli strumenti del progetto",
     "blocks": [
       {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Una variabile su un contenitore può cambiare il valore per i discendenti senza riscrivere ogni regola.",
+            "text": "La CLI standalone di Tailwind basta per generare il CSS. Per installare librerie come daisyUI e gestirne le versioni, il progetto usa Node.js e il gestore di pacchetti npm.",
             "runs": [
               {
-                "text": "Una variabile su un contenitore può cambiare il valore per i discendenti senza riscrivere ogni regola."
+                "text": "La CLI standalone di Tailwind basta per generare il CSS. Per installare librerie come daisyUI e gestirne le versioni, il progetto usa Node.js e il gestore di pacchetti npm."
               }
-            ]
+            ],
+            "bullet": false
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Node.js esegue la CLI di Tailwind, che genera il file output.css usato dal browser",
+            "runs": [
+              {
+                "text": "Node.js esegue la CLI di Tailwind, che genera il file "
+              },
+              {
+                "text": "output.css",
+                "mono": true
+              },
+              {
+                "text": " usato dal browser"
+              }
+            ],
+            "bullet": true
           },
           {
-            "text": "Controlla dove la proprietà è definita e quale dichiarazione vince nella cascata; evita sovrascritture locali non documentate.",
+            "text": "npm installa Tailwind e daisyUI nella cartella del progetto",
             "runs": [
               {
-                "text": "Controlla dove la proprietà è definita e quale dichiarazione vince nella cascata; evita sovrascritture locali non documentate."
+                "text": "npm installa Tailwind e daisyUI nella cartella del progetto"
               }
-            ]
+            ],
+            "bullet": true
           }
         ]
       }
     ],
+    "showSources": false,
+    "kind": "content",
     "sources": [
       {
-        "id": "variables",
-        "title": "MDN · custom properties",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
+        "id": "cli",
+        "title": "Tailwind · installazione CLI",
+        "url": "https://tailwindcss.com/docs/installation/tailwind-cli",
+        "visible": false
+      },
+      {
+        "id": "config",
+        "title": "daisyUI · configurazione",
+        "url": "https://daisyui.com/docs/config/",
+        "visible": false
+      },
+      {
+        "id": "npmPackage",
+        "title": "npm · package.json",
+        "url": "https://docs.npmjs.com/cli/v11/configuring-npm/package-json/",
+        "visible": false
+      },
+      {
+        "id": "npmLock",
+        "title": "npm · package-lock.json",
+        "url": "https://docs.npmjs.com/cli/v11/configuring-npm/package-lock-json/",
+        "visible": false
       }
     ],
     "number": 9,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Esempio · Ereditare un valore",
-    "kind": "content",
+    "title": "Runtime e pacchetti",
     "blocks": [
       {
-        "kind": "code",
-        "text": "<style>.spazio { padding: var(--spazio); }</style>\n<div class=\"grid gap-6 sm:grid-cols-2\" style=\"--spazio:1.5rem\">\n  <article class=\"spazio bg-base-200\">\n    <h2 class=\"text-xl font-bold\">Valore ereditato</h2>\n    <p>--spazio: 1.5rem</p>\n  </article>\n  <article class=\"spazio bg-base-200\" style=\"--spazio:0.5rem\">\n    <h2 class=\"text-xl font-bold\">Valore locale</h2>\n    <p>--spazio: 0.5rem</p>\n  </article>\n</div>"
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Un runtime è l’ambiente in cui gira un programma. Il JavaScript di una pagina gira nel browser. Con Node.js, un programma JavaScript può girare anche dal terminale.",
+            "runs": [
+              {
+                "text": "Un runtime è l’ambiente in cui gira un programma. Il JavaScript di una pagina gira nel browser. Con Node.js, un programma JavaScript può girare anche dal terminale."
+              }
+            ],
+            "bullet": false
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Un pacchetto raccoglie i file di una libreria o di uno strumento. Un gestore come npm installa il pacchetto nella versione richiesta insieme alle sue dipendenze, cioè gli altri pacchetti necessari per farlo funzionare.",
+            "runs": [
+              {
+                "text": "Un pacchetto raccoglie i file di una libreria o di uno strumento. Un gestore come npm installa il pacchetto nella versione richiesta insieme alle sue dipendenze, cioè gli altri pacchetti necessari per farlo funzionare."
+              }
+            ],
+            "bullet": false
+          }
+        ]
       }
     ],
+    "kind": "content",
     "sources": [
       {
-        "id": "variables",
-        "title": "MDN · custom properties",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
+        "id": "nodeRuntime",
+        "title": "Node.js",
+        "url": "https://nodejs.org/learn/getting-started/introduction-to-nodejs"
+      },
+      {
+        "id": "npmAbout",
+        "title": "npm",
+        "url": "https://docs.npmjs.com/about-npm/"
       }
     ],
     "number": 10,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Prova · Ereditare un valore",
-    "kind": "content",
+    "title": "Installazione di Node.js",
     "blocks": [
       {
-        "kind": "native",
-        "caption": "Osserva: Il primo riquadro eredita 1.5rem; il secondo ridefinisce la variabile a 0.5rem. Prova: Togli la ridefinizione locale e confronta i due spazi.",
-        "example": "framework:inheritedSpacing"
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Dalla pagina di download, scegli la versione LTS (Long-Term Support). L’installer ufficiale include anche npm.",
+            "runs": [
+              {
+                "text": "Dalla pagina di download, scegli la versione LTS (Long-Term Support). L’installer ufficiale include anche npm."
+              }
+            ],
+            "bullet": false
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "macOS. Scarica il pacchetto .pkg e segui i passaggi dell’installer",
+            "runs": [
+              {
+                "text": "macOS. Scarica il pacchetto "
+              },
+              {
+                "text": ".pkg",
+                "mono": true
+              },
+              {
+                "text": " e segui i passaggi dell’installer"
+              }
+            ],
+            "bullet": true
+          },
+          {
+            "text": "Windows. Scarica Windows Installer .msi per il tuo tipo di sistema e mantieni le opzioni predefinite per npm e il PATH. Il tipo di sistema compare in Impostazioni → Sistema → Informazioni",
+            "runs": [
+              {
+                "text": "Windows. Scarica Windows Installer "
+              },
+              {
+                "text": ".msi",
+                "mono": true
+              },
+              {
+                "text": " per il tuo tipo di sistema e mantieni le opzioni predefinite per npm e il PATH. Il tipo di sistema compare in Impostazioni → Sistema → Informazioni"
+              }
+            ],
+            "bullet": true
+          }
+        ]
       }
     ],
+    "kind": "content",
     "sources": [
       {
-        "id": "variables",
-        "title": "MDN · custom properties",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
+        "id": "nodeDownload",
+        "title": "Download ufficiale di Node.js",
+        "url": "https://nodejs.org/en/download"
       }
     ],
     "number": 11,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": ":root e @theme hanno compiti diversi",
-    "kind": "content",
+    "title": "Verifica dell’installazione",
     "blocks": [
       {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Usa :root per una normale custom property. Usa @theme quando vuoi collegare un token alle utility di Tailwind.",
+            "text": "Apri un nuovo terminale dopo l’installazione. I due comandi mostrano le versioni di Node.js e npm.",
             "runs": [
               {
-                "text": "Usa :root per una normale custom property. Usa @theme quando vuoi collegare un token alle utility di Tailwind."
+                "text": "Apri un nuovo terminale dopo l’installazione. I due comandi mostrano le versioni di Node.js e npm."
               }
-            ]
-          },
+            ],
+            "bullet": false
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "text": "node -v\nnpm -v"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
           {
-            "text": "Un colore definito nel namespace --color-* genera le corrispondenti utility. Non tutte le variabili del progetto devono diventare utility.",
+            "text": "Se il terminale di VS Code non riconosce un comando, riapri VS Code per aggiornare il PATH.",
             "runs": [
               {
-                "text": "Un colore definito nel namespace --color-* genera le corrispondenti utility. Non tutte le variabili del progetto devono diventare utility."
+                "text": "Se il terminale di VS Code non riconosce un comando, riapri VS Code per aggiornare il PATH."
               }
-            ]
+            ],
+            "bullet": false
           }
         ]
       }
     ],
+    "kind": "content",
     "sources": [
       {
-        "id": "theme",
-        "title": "Tailwind · theme variables",
-        "url": "https://tailwindcss.com/docs/theme"
+        "id": "npmVersions",
+        "title": "npm · verifica delle versioni",
+        "url": "https://docs.npmjs.com/downloading-and-installing-node-js-and-npm/#checking-your-version-of-npm-and-nodejs"
       }
     ],
     "number": 12,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Un token Tailwind",
-    "kind": "content",
+    "title": "Cartella di lavoro",
     "blocks": [
       {
-        "kind": "code",
-        "text": "@import \"tailwindcss\";\n@theme {\n  --color-laboratorio: oklch(45% 0.085 224);\n}\n/* bg-laboratorio e text-laboratorio usano questo token. */"
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Per gli esempi servono una pagina index.html e un foglio di stile input.css nella stessa cartella.",
+            "runs": [
+              {
+                "text": "Per gli esempi servono una pagina "
+              },
+              {
+                "text": "index.html",
+                "mono": true
+              },
+              {
+                "text": " e un foglio di stile "
+              },
+              {
+                "text": "input.css",
+                "mono": true
+              },
+              {
+                "text": " nella stessa cartella."
+              }
+            ],
+            "bullet": false
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Apri la cartella in VS Code",
+            "runs": [
+              {
+                "text": "Apri la cartella in VS Code"
+              }
+            ],
+            "bullet": true
+          },
+          {
+            "text": "Scegli Terminale → Nuovo terminale",
+            "runs": [
+              {
+                "text": "Scegli Terminale → Nuovo terminale"
+              }
+            ],
+            "bullet": true
+          },
+          {
+            "text": "Usa ls per verificare che i due file siano nella cartella",
+            "runs": [
+              {
+                "text": "Usa "
+              },
+              {
+                "text": "ls",
+                "mono": true
+              },
+              {
+                "text": " per verificare che i due file siano nella cartella"
+              }
+            ],
+            "bullet": true
+          }
+        ]
       }
     ],
+    "showSources": false,
+    "kind": "content",
     "sources": [
       {
-        "id": "theme",
-        "title": "Tailwind · theme variables",
-        "url": "https://tailwindcss.com/docs/theme"
+        "id": "introTerminal",
+        "title": "VS Code · terminale",
+        "url": "https://code.visualstudio.com/docs/terminal/basics",
+        "visible": false
       }
     ],
     "number": 13,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Il tema daisyUI è un insieme di ruoli",
-    "kind": "content",
+    "title": "Inizializzazione",
     "blocks": [
       {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "I componenti leggono variabili semantiche: cambiare tema può aggiornare insieme superfici, testo e azioni.",
+            "text": "Esegui npm init nella cartella con index.html. npm chiede nome, versione e altri dettagli del pacchetto. Premi Invio per accettare il valore proposto.",
             "runs": [
               {
-                "text": "I componenti leggono variabili semantiche: cambiare tema può aggiornare insieme superfici, testo e azioni."
+                "text": "Esegui "
+              },
+              {
+                "text": "npm init",
+                "mono": true
+              },
+              {
+                "text": " nella cartella con "
+              },
+              {
+                "text": "index.html",
+                "mono": true
+              },
+              {
+                "text": ". npm chiede nome, versione e altri dettagli del pacchetto. Premi Invio per accettare il valore proposto."
               }
-            ]
-          },
+            ],
+            "bullet": false
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "text": "npm init"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
           {
-            "text": "Per sfruttarlo, usa classi come bg-base-100 e text-base-content nei contenitori del progetto.",
+            "text": "Dopo la conferma compare package.json nella cartella del progetto.",
             "runs": [
               {
-                "text": "Per sfruttarlo, usa classi come bg-base-100 e text-base-content nei contenitori del progetto."
+                "text": "Dopo la conferma compare "
+              },
+              {
+                "text": "package.json",
+                "mono": true
+              },
+              {
+                "text": " nella cartella del progetto."
               }
-            ]
+            ],
+            "bullet": false
           }
         ]
       }
     ],
+    "kind": "content",
     "sources": [
       {
-        "id": "colors",
-        "title": "daisyUI · colori semantici",
-        "url": "https://daisyui.com/docs/colors/"
+        "id": "npmInit",
+        "title": "npm · inizializzazione",
+        "url": "https://docs.npmjs.com/cli/v11/commands/npm-init/"
       }
     ],
     "number": 14,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Esempio · Ruoli e colori fissi",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "code",
-        "text": "<div class=\"grid gap-4 sm:grid-cols-2\">\n  <section data-theme=\"light\" class=\"grid gap-4 bg-base-100 p-4\">\n    <p class=\"bg-base-200 p-4 text-base-content\">Ruoli · tema chiaro</p>\n    <p class=\"bg-white p-4 text-black\">Colori fissi · bianco e nero</p>\n  </section>\n  <section data-theme=\"dark\" class=\"grid gap-4 bg-base-100 p-4\">\n    <p class=\"bg-base-200 p-4 text-base-content\">Ruoli · tema scuro</p>\n    <p class=\"bg-white p-4 text-black\">Colori fissi · bianco e nero</p>\n  </section>\n</div>"
-      }
-    ],
-    "sources": [
-      {
-        "id": "colors",
-        "title": "daisyUI · colori semantici",
-        "url": "https://daisyui.com/docs/colors/"
-      },
-      {
-        "id": "themes",
-        "title": "daisyUI · temi",
-        "url": "https://daisyui.com/docs/themes/"
-      }
-    ],
-    "number": 15,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Prova · Ruoli e colori fissi",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "native",
-        "caption": "Osserva: Le superfici base-* seguono il tema; bg-white e text-black restano uguali. Prova: Sostituisci i colori fissi con bg-base-200 e text-base-content.",
-        "example": "framework:semanticThemes"
-      }
-    ],
-    "sources": [
-      {
-        "id": "colors",
-        "title": "daisyUI · colori semantici",
-        "url": "https://daisyui.com/docs/colors/"
-      },
-      {
-        "id": "themes",
-        "title": "daisyUI · temi",
-        "url": "https://daisyui.com/docs/themes/"
-      }
-    ],
-    "number": 16,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Abilitare due temi",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "code",
-        "text": "@import \"tailwindcss\";\n@plugin \"daisyui\" { themes: light --default, dark; }\n@plugin \"daisyui/theme\" {\n  name: \"light\";\n  --color-secondary-content: oklch(12.9% 0.042 264.695);\n  --color-accent-content: oklch(26.2% 0.051 172.552);\n  --color-error: oklch(50.5% 0.213 27.518);\n  --color-error-content: oklch(100% 0 0);\n}\n@plugin \"daisyui/theme\" {\n  name: \"dark\";\n  --color-primary-content: oklch(100% 0 0);\n}"
-      }
-    ],
-    "sources": [
-      {
-        "id": "config",
-        "title": "daisyUI · configurazione",
-        "url": "https://daisyui.com/docs/config/"
-      },
-      {
-        "id": "themes",
-        "title": "daisyUI · temi",
-        "url": "https://daisyui.com/docs/themes/"
-      }
-    ],
-    "number": 17,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Applicare il tema a una sezione",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "code",
-        "text": "<div class=\"grid grid-cols-2 gap-4\">\n  <section data-theme=\"light\" class=\"bg-base-100 p-6 text-base-content\">\n    <h2 class=\"text-xl font-bold\">Tema chiaro</h2>\n    <button class=\"btn btn-primary mt-4\">Iscriviti</button>\n  </section>\n  <section data-theme=\"dark\" class=\"bg-base-100 p-6 text-base-content\">\n    <h2 class=\"text-xl font-bold\">Tema scuro</h2>\n    <button class=\"btn btn-primary mt-4\">Iscriviti</button>\n  </section>\n</div>"
-      }
-    ],
-    "sources": [
-      {
-        "id": "themes",
-        "title": "daisyUI · temi",
-        "url": "https://daisyui.com/docs/themes/"
-      }
-    ],
-    "number": 18,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Due temi, gli stessi componenti",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "native",
-        "caption": "Le due sezioni usano lo stesso ruolo primario su superfici differenti.",
-        "example": "framework:themes"
-      }
-    ],
-    "sources": [
-      {
-        "id": "themes",
-        "title": "daisyUI · temi",
-        "url": "https://daisyui.com/docs/themes/"
-      },
-      {
-        "id": "colors",
-        "title": "daisyUI · colori semantici",
-        "url": "https://daisyui.com/docs/colors/"
-      }
-    ],
-    "number": 19,
-    "sourceSlide": null,
-    "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
-    "part": 1,
-    "parts": 1
-  },
-  {
-    "title": "Scegliere le coppie di colore",
-    "kind": "content",
+    "title": "package.json",
     "blocks": [
       {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Definisci insieme superficie e contenuto: primary con primary-content, base-100 con base-content.",
+            "text": "Il file raccoglie le informazioni del progetto. name e version identificano il pacchetto. scripts associa un nome a ciascun comando di progetto.",
             "runs": [
               {
-                "text": "Definisci insieme superficie e contenuto: primary con primary-content, base-100 con base-content."
+                "text": "Il file raccoglie le informazioni del progetto. "
+              },
+              {
+                "text": "name",
+                "mono": true
+              },
+              {
+                "text": " e "
+              },
+              {
+                "text": "version",
+                "mono": true
+              },
+              {
+                "text": " identificano il pacchetto. "
+              },
+              {
+                "text": "scripts",
+                "mono": true
+              },
+              {
+                "text": " associa un nome a ciascun comando di progetto."
               }
-            ]
-          },
+            ],
+            "bullet": false
+          }
+        ]
+      },
+      {
+        "kind": "code-group",
+        "fileHeaders": true,
+        "files": [
           {
-            "text": "La configurazione degli esempi modifica secondary-content, accent-content, error ed error-content nel tema chiaro e primary-content nel tema scuro per rendere leggibili queste coppie. Verifica anche gli stati.",
-            "runs": [
-              {
-                "text": "La configurazione degli esempi modifica secondary-content, accent-content, error ed error-content nel tema chiaro e primary-content nel tema scuro per rendere leggibili queste coppie. Verifica anche gli stati."
-              }
-            ]
+            "label": "package.json · estratto",
+            "text": "{\n  \"name\": \"sito-esempio\",\n  \"version\": \"1.0.0\",\n  \"scripts\": {}\n}"
           }
         ]
       }
     ],
+    "kind": "content",
     "sources": [
       {
-        "id": "colors",
-        "title": "daisyUI · colori semantici",
-        "url": "https://daisyui.com/docs/colors/"
+        "id": "npmPackage",
+        "title": "npm · package.json",
+        "url": "https://docs.npmjs.com/cli/v11/configuring-npm/package-json/"
+      }
+    ],
+    "number": 15,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "daisy-workshop-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Tailwind CSS",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Per compilare Tailwind CSS è necessario installare due pacchetti come devDependencies, la sezione per gli strumenti di sviluppo. La sezione dependencies raccoglie i pacchetti che servono all’applicazione quando è in uso.",
+            "runs": [
+              {
+                "text": "Per compilare Tailwind CSS è necessario installare due pacchetti come "
+              },
+              {
+                "text": "devDependencies",
+                "mono": true
+              },
+              {
+                "text": ", la sezione per gli strumenti di sviluppo. La sezione "
+              },
+              {
+                "text": "dependencies",
+                "mono": true
+              },
+              {
+                "text": " raccoglie i pacchetti che servono all’applicazione quando è in uso."
+              }
+            ],
+            "bullet": false
+          }
+        ]
       },
       {
-        "id": "contrast",
-        "title": "W3C · contrasto del testo",
-        "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
+        "kind": "code",
+        "text": "npm install -D tailwindcss@4 @tailwindcss/cli@4"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "npm install installa i pacchetti, -D li aggiunge alle devDependencies di package.json",
+            "runs": [
+              {
+                "text": "npm install",
+                "mono": true
+              },
+              {
+                "text": " installa i pacchetti, "
+              },
+              {
+                "text": "-D",
+                "mono": true
+              },
+              {
+                "text": " li aggiunge alle "
+              },
+              {
+                "text": "devDependencies",
+                "mono": true
+              },
+              {
+                "text": " di "
+              },
+              {
+                "text": "package.json",
+                "mono": true
+              }
+            ],
+            "bullet": true
+          },
+          {
+            "text": "tailwindcss@4 contiene il framework, @tailwindcss/cli@4 fornisce il comando che genera il CSS",
+            "runs": [
+              {
+                "text": "tailwindcss@4",
+                "mono": true
+              },
+              {
+                "text": " contiene il framework, "
+              },
+              {
+                "text": "@tailwindcss/cli@4",
+                "mono": true
+              },
+              {
+                "text": " fornisce il comando che genera il CSS"
+              }
+            ],
+            "bullet": true
+          },
+          {
+            "text": "@4 seleziona la versione principale 4 per entrambi i pacchetti",
+            "runs": [
+              {
+                "text": "@4",
+                "mono": true
+              },
+              {
+                "text": " seleziona la versione principale 4 per entrambi i pacchetti"
+              }
+            ],
+            "bullet": true
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "npm salva i file in node_modules e registra le versioni esatte in package-lock.json. Il comando npm install può ricreare la cartella dai due file JSON del progetto.",
+            "runs": [
+              {
+                "text": "npm salva i file in "
+              },
+              {
+                "text": "node_modules",
+                "mono": true
+              },
+              {
+                "text": " e registra le versioni esatte in "
+              },
+              {
+                "text": "package-lock.json",
+                "mono": true
+              },
+              {
+                "text": ". Il comando "
+              },
+              {
+                "text": "npm install",
+                "mono": true
+              },
+              {
+                "text": " può ricreare la cartella dai due file JSON del progetto."
+              }
+            ],
+            "bullet": false
+          }
+        ]
+      }
+    ],
+    "kind": "content",
+    "sources": [
+      {
+        "id": "cli",
+        "title": "Tailwind · installazione CLI",
+        "url": "https://tailwindcss.com/docs/installation/tailwind-cli"
+      },
+      {
+        "id": "npmPackage",
+        "title": "npm · package.json",
+        "url": "https://docs.npmjs.com/cli/v11/configuring-npm/package-json/",
+        "visible": false
+      },
+      {
+        "id": "npmLock",
+        "title": "npm · package-lock.json",
+        "url": "https://docs.npmjs.com/cli/v11/configuring-npm/package-lock-json/"
+      }
+    ],
+    "number": 16,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "daisy-workshop-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Script npm",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "In package.json è possibile inserire comandi nella sezione scripts. A sinistra si scrive un nome a scelta, a destra il comando da eseguire.",
+            "runs": [
+              {
+                "text": "In "
+              },
+              {
+                "text": "package.json",
+                "mono": true
+              },
+              {
+                "text": " è possibile inserire comandi nella sezione "
+              },
+              {
+                "text": "scripts",
+                "mono": true
+              },
+              {
+                "text": ". A sinistra si scrive un nome a scelta, a destra il comando da eseguire."
+              }
+            ],
+            "bullet": false
+          }
+        ]
+      },
+      {
+        "kind": "code-group",
+        "fileHeaders": true,
+        "files": [
+          {
+            "label": "package.json · proprietà scripts",
+            "text": "{\n  \"scripts\": {\n    \"dev\": \"tailwindcss -i input.css -o output.css --watch\"\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "kind": "content",
+    "sources": [
+      {
+        "id": "npmScripts",
+        "title": "npm · scripts",
+        "url": "https://docs.npmjs.com/cli/v11/using-npm/scripts/"
+      }
+    ],
+    "number": 17,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "daisy-workshop-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Avvio della compilazione",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "In input.css serve @import \"tailwindcss\";. In index.html, il foglio di stile punta a output.css.",
+            "runs": [
+              {
+                "text": "In "
+              },
+              {
+                "text": "input.css",
+                "mono": true
+              },
+              {
+                "text": " serve "
+              },
+              {
+                "text": "@import \"tailwindcss\";",
+                "mono": true
+              },
+              {
+                "text": ". In "
+              },
+              {
+                "text": "index.html",
+                "mono": true
+              },
+              {
+                "text": ", il foglio di stile punta a "
+              },
+              {
+                "text": "output.css",
+                "mono": true
+              },
+              {
+                "text": "."
+              }
+            ],
+            "bullet": false
+          }
+        ]
+      },
+      {
+        "kind": "code-group",
+        "fileHeaders": true,
+        "files": [
+          {
+            "label": "Comando diretto",
+            "text": "npx tailwindcss -i input.css -o output.css --watch"
+          },
+          {
+            "label": "Con dev in scripts",
+            "text": "npm run dev"
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Entrambi i comandi generano output.css. Con --watch, Tailwind aggiorna il file a ogni modifica dei sorgenti. Ctrl+C interrompe il processo.",
+            "runs": [
+              {
+                "text": "Entrambi i comandi generano "
+              },
+              {
+                "text": "output.css",
+                "mono": true
+              },
+              {
+                "text": ". Con "
+              },
+              {
+                "text": "--watch",
+                "mono": true
+              },
+              {
+                "text": ", Tailwind aggiorna il file a ogni modifica dei sorgenti. "
+              },
+              {
+                "text": "Ctrl+C",
+                "mono": true
+              },
+              {
+                "text": " interrompe il processo."
+              }
+            ],
+            "bullet": false
+          }
+        ]
+      }
+    ],
+    "kind": "content",
+    "sources": [
+      {
+        "id": "cli",
+        "title": "Tailwind · installazione CLI",
+        "url": "https://tailwindcss.com/docs/installation/tailwind-cli",
+        "visible": false
+      },
+      {
+        "id": "npmScripts",
+        "title": "npm · scripts",
+        "url": "https://docs.npmjs.com/cli/v11/using-npm/scripts/",
+        "visible": false
+      }
+    ],
+    "number": 18,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "daisy-workshop-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Componenti e temi daisyUI",
+    "blocks": [],
+    "kind": "divider",
+    "showSources": false,
+    "sources": [
+      {
+        "id": "daisyCLI",
+        "title": "daisyUI · installazione con Tailwind CLI",
+        "url": "https://daisyui.com/docs/install/cli/",
+        "visible": false
+      },
+      {
+        "id": "themes",
+        "title": "daisyUI · temi",
+        "url": "https://daisyui.com/docs/themes/",
+        "visible": false
+      }
+    ],
+    "number": 19,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "daisy-workshop-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Installazione di daisyUI",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Esegui il comando nella cartella del progetto. Se npm run dev è attivo, interrompilo con Ctrl+C per liberare il terminale.",
+            "runs": [
+              {
+                "text": "Esegui il comando nella cartella del progetto. Se "
+              },
+              {
+                "text": "npm run dev",
+                "mono": true
+              },
+              {
+                "text": " è attivo, interrompilo con "
+              },
+              {
+                "text": "Ctrl+C",
+                "mono": true
+              },
+              {
+                "text": " per liberare il terminale."
+              }
+            ],
+            "bullet": false
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "text": "npm install -D daisyui@5"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "npm aggiunge daisyUI alle devDependencies e aggiorna il lockfile.",
+            "runs": [
+              {
+                "text": "npm aggiunge daisyUI alle "
+              },
+              {
+                "text": "devDependencies",
+                "mono": true
+              },
+              {
+                "text": " e aggiorna il lockfile."
+              }
+            ],
+            "bullet": false
+          }
+        ]
+      }
+    ],
+    "kind": "content",
+    "sources": [
+      {
+        "id": "daisyCLI",
+        "title": "daisyUI · installazione con Tailwind CLI",
+        "url": "https://daisyui.com/docs/install/cli/"
       }
     ],
     "number": 20,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Personalizzare un tema esistente",
-    "kind": "content",
+    "title": "Configurazione del plugin",
     "blocks": [
       {
-        "kind": "code",
-        "text": "@import \"tailwindcss\";\n@plugin \"daisyui\";\n@plugin \"daisyui/theme\" {\n  name: \"light\";\n  default: true;\n  --color-primary: oklch(45% 0.085 224);\n  --color-primary-content: oklch(98% 0 0);\n  --radius-box: 1rem;\n}"
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "In input.css, @plugin \"daisyui\"; carica il pacchetto installato con npm. Tailwind include nel CSS gli stili dei componenti usati nell’HTML.",
+            "runs": [
+              {
+                "text": "In "
+              },
+              {
+                "text": "input.css",
+                "mono": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "@plugin \"daisyui\";",
+                "mono": true
+              },
+              {
+                "text": " carica il pacchetto installato con npm. Tailwind include nel CSS gli stili dei componenti usati nell’HTML."
+              }
+            ],
+            "bullet": false
+          }
+        ]
+      },
+      {
+        "kind": "code-group",
+        "fileHeaders": true,
+        "files": [
+          {
+            "label": "input.css · inizio del file",
+            "text": "@import \"tailwindcss\";\n\n@plugin \"daisyui\";"
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Salva input.css e riavvia npm run dev. Le opzioni del plugin si possono inserire tra parentesi graffe al posto del punto e virgola.",
+            "runs": [
+              {
+                "text": "Salva "
+              },
+              {
+                "text": "input.css",
+                "mono": true
+              },
+              {
+                "text": " e riavvia "
+              },
+              {
+                "text": "npm run dev",
+                "mono": true
+              },
+              {
+                "text": ". Le opzioni del plugin si possono inserire tra parentesi graffe al posto del punto e virgola."
+              }
+            ],
+            "bullet": false
+          }
+        ]
       }
     ],
+    "kind": "content",
     "sources": [
       {
-        "id": "themes",
-        "title": "daisyUI · temi",
-        "url": "https://daisyui.com/docs/themes/"
+        "id": "daisyCLI",
+        "title": "daisyUI · installazione con Tailwind CLI",
+        "url": "https://daisyui.com/docs/install/cli/",
+        "visible": false
       }
     ],
     "number": 21,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Personalizzare la geometria",
-    "kind": "content",
+    "title": "Temi daisyUI",
     "blocks": [
       {
-        "kind": "code",
-        "text": "@plugin \"daisyui/theme\" {\n  name: \"light\";\n  --radius-box: 1rem;\n  --radius-field: 0.5rem;\n  --radius-selector: 0.25rem;\n}\n/* Gli altri valori del tema light restano ereditati. */"
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "L’opzione themes elenca i temi disponibili. --default indica il tema predefinito, --prefersdark quello da usare quando il sistema è in modalità scura.",
+            "runs": [
+              {
+                "text": "L’opzione "
+              },
+              {
+                "text": "themes",
+                "mono": true
+              },
+              {
+                "text": " elenca i temi disponibili. "
+              },
+              {
+                "text": "--default",
+                "mono": true
+              },
+              {
+                "text": " indica il tema predefinito, "
+              },
+              {
+                "text": "--prefersdark",
+                "mono": true
+              },
+              {
+                "text": " quello da usare quando il sistema è in modalità scura."
+              }
+            ],
+            "bullet": false
+          }
+        ]
+      },
+      {
+        "kind": "code-group",
+        "fileHeaders": true,
+        "files": [
+          {
+            "label": "input.css · configurazione di @plugin",
+            "text": "@plugin \"daisyui\" {\n  themes: light --default, dark --prefersdark;\n}"
+          }
+        ]
       }
     ],
+    "kind": "content",
     "sources": [
-      {
-        "id": "themes",
-        "title": "daisyUI · temi",
-        "url": "https://daisyui.com/docs/themes/"
-      },
       {
         "id": "config",
         "title": "daisyUI · configurazione",
@@ -631,381 +1531,777 @@
     "number": 22,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Esempio · Cambiare la geometria",
-    "kind": "content",
+    "title": "Tema della pagina",
     "blocks": [
       {
-        "kind": "code",
-        "text": "<div class=\"grid gap-6 sm:grid-cols-2\">\n  <article class=\"card card-border bg-base-100\" style=\"--radius-box:0rem\">\n    <div class=\"card-body\"><h2 class=\"card-title\">Raggio: 0rem</h2>\n      <p>Contenuto e gerarchia restano gli stessi.</p></div>\n  </article>\n  <article class=\"card card-border bg-base-100\" style=\"--radius-box:1rem\">\n    <div class=\"card-body\"><h2 class=\"card-title\">Raggio: 1rem</h2>\n      <p>Contenuto e gerarchia restano gli stessi.</p></div>\n  </article>\n</div>"
-      }
-    ],
-    "sources": [
-      {
-        "id": "themes",
-        "title": "daisyUI · temi",
-        "url": "https://daisyui.com/docs/themes/"
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "L’attributo data-theme sceglie uno dei temi abilitati. Su <html> vale per l’intera pagina. Su un contenitore, vale solo per quella parte della pagina.",
+            "runs": [
+              {
+                "text": "L’attributo "
+              },
+              {
+                "text": "data-theme",
+                "mono": true
+              },
+              {
+                "text": " sceglie uno dei temi abilitati. Su "
+              },
+              {
+                "text": "<html>",
+                "mono": true
+              },
+              {
+                "text": " vale per l’intera pagina. Su un contenitore, vale solo per quella parte della pagina."
+              }
+            ],
+            "bullet": false
+          }
+        ]
       },
       {
-        "id": "card",
-        "title": "daisyUI · Card",
-        "url": "https://daisyui.com/components/card/"
+        "kind": "code-group",
+        "fileHeaders": true,
+        "files": [
+          {
+            "label": "index.html · apertura del documento",
+            "text": "<html lang=\"it\" data-theme=\"dark\">"
+          }
+        ]
+      }
+    ],
+    "kind": "content",
+    "sources": [
+      {
+        "id": "daisyData",
+        "title": "MDN · attributi data-*",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/How_to/Use_data_attributes"
       }
     ],
     "number": 23,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Prova · Cambiare la geometria",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "native",
-        "caption": "Osserva: La struttura card è identica; --radius-box cambia gli angoli del contenitore. Prova: Prova 0.5rem al posto di 1rem.",
-        "example": "framework:radiusCompare"
-      }
-    ],
+    "title": "Personalizzazione",
+    "blocks": [],
+    "kind": "divider",
+    "showSources": false,
     "sources": [
       {
         "id": "themes",
         "title": "daisyUI · temi",
-        "url": "https://daisyui.com/docs/themes/"
-      },
-      {
-        "id": "card",
-        "title": "daisyUI · Card",
-        "url": "https://daisyui.com/components/card/"
+        "url": "https://daisyui.com/docs/themes/",
+        "visible": false
       }
     ],
     "number": 24,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Risultato: primario e geometria",
-    "kind": "content",
+    "title": "Il tema di Tailwind",
     "blocks": [
       {
-        "kind": "native",
-        "caption": "La card mantiene struttura e contenuti; cambiano primario e raggio del tema.",
-        "example": "framework:custom"
-      }
-    ],
-    "sources": [
-      {
-        "id": "themes",
-        "title": "daisyUI · temi",
-        "url": "https://daisyui.com/docs/themes/"
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "In Tailwind, @theme definisce valori che diventano disponibili nelle utility. Per esempio, --color-surface rende disponibile bg-surface per impostare il background-color.",
+            "runs": [
+              {
+                "text": "In Tailwind, "
+              },
+              {
+                "text": "@theme",
+                "mono": true
+              },
+              {
+                "text": " definisce valori che diventano disponibili nelle utility. Per esempio, "
+              },
+              {
+                "text": "--color-surface",
+                "mono": true
+              },
+              {
+                "text": " rende disponibile "
+              },
+              {
+                "text": "bg-surface",
+                "mono": true
+              },
+              {
+                "text": " per impostare il "
+              },
+              {
+                "text": "background-color",
+                "mono": true
+              },
+              {
+                "text": "."
+              }
+            ],
+            "bullet": false
+          }
+        ]
       },
       {
-        "id": "customize",
-        "title": "daisyUI · personalizzazione",
-        "url": "https://daisyui.com/docs/customize/"
+        "kind": "code-group",
+        "fileHeaders": true,
+        "files": [
+          {
+            "label": "input.css",
+            "text": "@theme {\n  --color-surface: #182433;\n  --color-ink: #fff;\n}"
+          },
+          {
+            "label": "index.html",
+            "text": "<p class=\"bg-surface text-ink\">\n  Un avviso\n</p>"
+          }
+        ]
+      }
+    ],
+    "layout": "code-columns",
+    "kind": "content",
+    "sources": [
+      {
+        "id": "tailwindThemeTokens",
+        "title": "Tailwind · variabili del tema",
+        "url": "https://tailwindcss.com/docs/theme#what-are-theme-variables"
       }
     ],
     "number": 25,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Cambiare tema è una scelta dell’interfaccia",
-    "kind": "content",
+    "title": "Colori e ruoli",
     "blocks": [
       {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Theme Controller può usare un controllo nativo per selezionare un tema già abilitato.",
+            "text": "Con daisyUI, utility e componenti condividono ruoli già definiti. base-100 è lo sfondo della superficie, base-content il testo su quella superficie. Ogni tema assegna valori a quei ruoli.",
             "runs": [
               {
-                "text": "Theme Controller può usare un controllo nativo per selezionare un tema già abilitato."
-              }
-            ]
-          },
-          {
-            "text": "La persistenza tra visite richiede una gestione aggiuntiva. Esplicita quale scelta appartiene all’utente e quale è il valore iniziale.",
-            "runs": [
+                "text": "Con daisyUI, utility e componenti condividono ruoli già definiti. "
+              },
               {
-                "text": "La persistenza tra visite richiede una gestione aggiuntiva. Esplicita quale scelta appartiene all’utente e quale è il valore iniziale."
+                "text": "base-100",
+                "mono": true
+              },
+              {
+                "text": " è lo sfondo della superficie, "
+              },
+              {
+                "text": "base-content",
+                "mono": true
+              },
+              {
+                "text": " il testo su quella superficie. Ogni tema assegna valori a quei ruoli."
               }
-            ]
+            ],
+            "bullet": false
           }
         ]
+      },
+      {
+        "kind": "native",
+        "example": "daisy-workshop:roles",
+        "caption": "Il primo paragrafo ha colori fissi. Il secondo usa i colori del tema attivo.",
+        "showHint": false
       }
     ],
+    "kind": "content",
     "sources": [
       {
-        "id": "controller",
-        "title": "daisyUI · Theme Controller",
-        "url": "https://daisyui.com/components/theme-controller/"
+        "id": "colors",
+        "title": "daisyUI · colori semantici",
+        "url": "https://daisyui.com/docs/colors/"
       }
     ],
     "number": 26,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Un controllo per il tema scuro",
-    "kind": "content",
+    "title": "Palette",
     "blocks": [
       {
-        "kind": "code",
-        "text": "<label class=\"flex items-center gap-3\">\n  <input type=\"checkbox\" value=\"dark\"\n    class=\"checkbox theme-controller\">\n  Usa il tema scuro\n</label>"
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Per cambiare la palette di un tema esistente, aggiungi un blocco @plugin \"daisyui/theme\" dopo @plugin \"daisyui\". Con name: \"light\"; si parte dal tema chiaro e si modificano i valori elencati nel blocco.",
+            "runs": [
+              {
+                "text": "Per cambiare la palette di un tema esistente, aggiungi un blocco "
+              },
+              {
+                "text": "@plugin \"daisyui/theme\"",
+                "mono": true
+              },
+              {
+                "text": " dopo "
+              },
+              {
+                "text": "@plugin \"daisyui\"",
+                "mono": true
+              },
+              {
+                "text": ". Con "
+              },
+              {
+                "text": "name: \"light\";",
+                "mono": true
+              },
+              {
+                "text": " si parte dal tema chiaro e si modificano i valori elencati nel blocco."
+              }
+            ],
+            "bullet": false
+          }
+        ]
+      },
+      {
+        "kind": "code-group",
+        "fileHeaders": true,
+        "files": [
+          {
+            "label": "input.css · light",
+            "text": "@plugin \"daisyui/theme\" {\n  name: \"light\";\n  default: true;\n  --color-base-100: #fff;\n  --color-base-content: #182433;\n  --color-primary: oklch(55% 0.11 250);\n  --color-primary-content: #fff;\n}"
+          },
+          {
+            "label": "input.css · dark",
+            "text": "@plugin \"daisyui/theme\" {\n  name: \"dark\";\n  prefersdark: true;\n  --color-base-100: #182433;\n  --color-base-content: #fff;\n  --color-primary: oklch(75% 0.10 250);\n  --color-primary-content: #182433;\n}"
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "--color-primary imposta il colore dell’azione principale, --color-primary-content il testo su quel colore. Le classi dell’HTML restano le stesse.",
+            "runs": [
+              {
+                "text": "--color-primary",
+                "mono": true
+              },
+              {
+                "text": " imposta il colore dell’azione principale, "
+              },
+              {
+                "text": "--color-primary-content",
+                "mono": true
+              },
+              {
+                "text": " il testo su quel colore. Le classi dell’HTML restano le stesse."
+              }
+            ],
+            "bullet": false
+          }
+        ]
       }
     ],
+    "layout": "code-columns",
+    "kind": "content",
     "sources": [
       {
-        "id": "controller",
-        "title": "daisyUI · Theme Controller",
-        "url": "https://daisyui.com/components/theme-controller/"
+        "id": "colors",
+        "title": "daisyUI · colori semantici",
+        "url": "https://daisyui.com/docs/colors/",
+        "visible": false
+      },
+      {
+        "id": "themes",
+        "title": "daisyUI · temi",
+        "url": "https://daisyui.com/docs/themes/"
       }
     ],
     "number": 27,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Esempio · Provare il cambio di tema",
-    "kind": "content",
+    "title": "Variabili del tema",
     "blocks": [
       {
-        "kind": "code",
-        "text": "<div class=\"grid gap-6 rounded-box bg-base-200 p-6 text-base-content\">\n  <label class=\"flex items-center gap-3\">\n    <input type=\"checkbox\" value=\"dark\" class=\"checkbox theme-controller\">\n    Tema scuro\n  </label>\n  <h2 class=\"text-xl font-bold\">Lo stesso laboratorio</h2>\n  <p>Contenuto e azioni mantengono il proprio significato.</p>\n  <button type=\"button\" class=\"btn btn-primary w-fit\">Iscriviti</button>\n</div>"
-      }
-    ],
-    "sources": [
-      {
-        "id": "controller",
-        "title": "daisyUI · Theme Controller",
-        "url": "https://daisyui.com/components/theme-controller/"
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Lo stesso blocco può controllare anche forma e dimensioni. --radius-box modifica il border-radius delle card, --radius-field quello di campi e pulsanti.",
+            "runs": [
+              {
+                "text": "Lo stesso blocco può controllare anche forma e dimensioni. "
+              },
+              {
+                "text": "--radius-box",
+                "mono": true
+              },
+              {
+                "text": " modifica il "
+              },
+              {
+                "text": "border-radius",
+                "mono": true
+              },
+              {
+                "text": " delle card, "
+              },
+              {
+                "text": "--radius-field",
+                "mono": true
+              },
+              {
+                "text": " quello di campi e pulsanti."
+              }
+            ],
+            "bullet": false
+          }
+        ]
       },
       {
-        "id": "colors",
-        "title": "daisyUI · colori semantici",
-        "url": "https://daisyui.com/docs/colors/"
+        "kind": "code-group",
+        "fileHeaders": true,
+        "files": [
+          {
+            "label": "input.css · light",
+            "text": "@plugin \"daisyui/theme\" {\n  name: \"light\";\n  default: true;\n  /* … */\n  --radius-box: 1rem;\n  --radius-field: 0.5rem;\n  --size-field: 0.25rem;\n  --border: 2px;\n}"
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "--size-field è l’unità di base per la dimensione dei controlli. --border imposta lo spessore dei contorni dei componenti che la usano.",
+            "runs": [
+              {
+                "text": "--size-field",
+                "mono": true
+              },
+              {
+                "text": " è l’unità di base per la dimensione dei controlli. "
+              },
+              {
+                "text": "--border",
+                "mono": true
+              },
+              {
+                "text": " imposta lo spessore dei contorni dei componenti che la usano."
+              }
+            ],
+            "bullet": false
+          }
+        ]
+      }
+    ],
+    "kind": "content",
+    "sources": [
+      {
+        "id": "daisyThemeVariables",
+        "title": "daisyUI · elenco delle variabili del tema",
+        "url": "https://daisyui.com/docs/themes/#how-to-add-a-new-custom-theme"
       }
     ],
     "number": 28,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Prova · Provare il cambio di tema",
-    "kind": "content",
+    "title": "Un tema personalizzato",
     "blocks": [
       {
-        "kind": "native",
-        "caption": "Osserva: Il controllo cambia le variabili lette da superficie, testo e pulsante. Prova: Seleziona e deseleziona “Tema scuro”: i contenuti cambiano?",
-        "example": "framework:themeSwitch"
-      }
-    ],
-    "sources": [
-      {
-        "id": "controller",
-        "title": "daisyUI · Theme Controller",
-        "url": "https://daisyui.com/components/theme-controller/"
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Aggiungi il blocco in input.css dopo @plugin \"daisyui\". CSS completo del tema Studio",
+            "runs": [
+              {
+                "text": "Aggiungi il blocco in "
+              },
+              {
+                "text": "input.css",
+                "mono": true
+              },
+              {
+                "text": " dopo "
+              },
+              {
+                "text": "@plugin \"daisyui\"",
+                "mono": true
+              },
+              {
+                "text": ". "
+              },
+              {
+                "text": "CSS completo del tema Studio",
+                "href": "/examples/esercitazione-07/studio-theme.css"
+              }
+            ],
+            "bullet": false
+          }
+        ]
       },
       {
-        "id": "colors",
-        "title": "daisyUI · colori semantici",
-        "url": "https://daisyui.com/docs/colors/"
+        "kind": "code-group",
+        "fileHeaders": true,
+        "files": [
+          {
+            "label": "input.css · estratto dal generatore",
+            "text": "@plugin \"daisyui/theme\" {\n  name: \"studio\";\n  --color-primary: oklch(40.723% 0.161 17.53);\n  --color-primary-content: oklch(88.144% 0.032 17.53);\n  --radius-field: 1rem;\n  /* … */\n}"
+          }
+        ]
+      },
+      {
+        "kind": "native",
+        "example": "daisy-workshop:studio",
+        "caption": "",
+        "showHint": false
+      }
+    ],
+    "kind": "content",
+    "sources": [
+      {
+        "id": "daisyThemeGenerator",
+        "title": "daisyUI · generatore di temi",
+        "url": "https://daisyui.com/theme-generator/"
+      },
+      {
+        "id": "daisyThemeVariables",
+        "title": "daisyUI · elenco delle variabili del tema",
+        "url": "https://daisyui.com/docs/themes/#how-to-add-a-new-custom-theme",
+        "visible": false
       }
     ],
     "number": 29,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Verificare il contrasto in entrambi i temi",
-    "kind": "content",
-    "blocks": [
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "Per il testo ordinario, WCAG 2.2 richiede almeno 4,5:1; per il testo grande la soglia è 3:1.",
-            "runs": [
-              {
-                "text": "Per il testo ordinario, WCAG 2.2 richiede almeno 4,5:1; per il testo grande la soglia è 3:1."
-              }
-            ]
-          },
-          {
-            "text": "Misura la coppia reale di testo e sfondo anche negli stati. Un nome come primary non garantisce da solo il contrasto.",
-            "runs": [
-              {
-                "text": "Misura la coppia reale di testo e sfondo anche negli stati. Un nome come primary non garantisce da solo il contrasto."
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "title": "Componenti",
+    "blocks": [],
+    "kind": "divider",
+    "showSources": false,
     "sources": [
       {
-        "id": "contrast",
-        "title": "W3C · contrasto del testo",
-        "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
+        "id": "daisyIntro",
+        "title": "daisyUI · introduzione",
+        "url": "https://daisyui.com/docs/intro/",
+        "visible": false
       }
     ],
     "number": 30,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Laboratorio · costruire una variante",
-    "kind": "content",
+    "title": "Pulsante",
     "blocks": [
       {
-        "kind": "text",
-        "paragraphs": [
+        "kind": "tag-reference",
+        "items": [
           {
-            "text": "In 15 minuti modifica il primario e la geometria della pagina del laboratorio. Aggiungi il selettore del tema.",
-            "runs": [
-              {
-                "text": "In 15 minuti modifica il primario e la geometria della pagina del laboratorio. Aggiungi il selettore del tema."
-              }
-            ]
-          },
-          {
-            "text": "Consegna due screenshot e annota tre coppie testo–sfondo verificate, includendo almeno uno stato di errore.",
-            "runs": [
-              {
-                "text": "Consegna due screenshot e annota tre coppie testo–sfondo verificate, includendo almeno uno stato di errore."
-              }
-            ]
+            "tags": [
+              "btn",
+              "btn-primary"
+            ],
+            "title": "Azione principale",
+            "traits": [
+              "`btn` applica lo stile di base al tag `<button>`",
+              "`btn-primary` usa i colori `primary` e `primary-content` del tema"
+            ],
+            "tagSeparator": " + ",
+            "url": "https://daisyui.com/components/button/",
+            "referenceLabel": "daisyUI",
+            "native": "daisy-workshop:action"
           }
         ]
       }
     ],
+    "kind": "content",
     "sources": [
       {
-        "id": "themes",
-        "title": "daisyUI · temi",
-        "url": "https://daisyui.com/docs/themes/"
-      },
-      {
-        "id": "contrast",
-        "title": "W3C · contrasto del testo",
-        "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
+        "id": "button",
+        "title": "daisyUI · Button",
+        "url": "https://daisyui.com/components/button/",
+        "visible": false
       }
     ],
     "number": 31,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Rivedere il sistema",
-    "kind": "content",
+    "title": "Campo di testo",
     "blocks": [
       {
-        "kind": "text",
-        "paragraphs": [
+        "kind": "tag-reference",
+        "items": [
           {
-            "text": "Il cambio tema conserva contenuti, focus e operazioni? Le etichette e i messaggi restano leggibili?",
-            "runs": [
-              {
-                "text": "Il cambio tema conserva contenuti, focus e operazioni? Le etichette e i messaggi restano leggibili?"
-              }
-            ]
-          },
-          {
-            "text": "Raccogli le scelte in pochi ruoli condivisi. Documenta le eccezioni prima di introdurre valori isolati nel markup.",
-            "runs": [
-              {
-                "text": "Raccogli le scelte in pochi ruoli condivisi. Documenta le eccezioni prima di introdurre valori isolati nel markup."
-              }
-            ]
+            "tags": [
+              "input"
+            ],
+            "title": "Campo email",
+            "traits": [
+              "`input` applica lo stile al campo e `w-full` ne estende la larghezza",
+              "`for` collega l’etichetta all’`id` del campo. Con `type=\"email\"` il browser controlla il formato"
+            ],
+            "tagSeparator": " + ",
+            "url": "https://daisyui.com/components/input/",
+            "referenceLabel": "daisyUI",
+            "native": "daisy-workshop:field"
           }
         ]
       }
     ],
+    "kind": "content",
     "sources": [
       {
-        "id": "colors",
-        "title": "daisyUI · colori semantici",
-        "url": "https://daisyui.com/docs/colors/"
-      },
-      {
-        "id": "controller",
-        "title": "daisyUI · Theme Controller",
-        "url": "https://daisyui.com/components/theme-controller/"
+        "id": "input",
+        "title": "daisyUI · Input",
+        "url": "https://daisyui.com/components/input/",
+        "visible": false
       }
     ],
     "number": 32,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   },
   {
-    "title": "Fine esercitazione 07",
-    "kind": "closing",
+    "title": "Card",
+    "blocks": [
+      {
+        "kind": "tag-reference",
+        "items": [
+          {
+            "tags": [
+              "card"
+            ],
+            "title": "Scheda informativa",
+            "traits": [
+              "`card-border` aggiunge il contorno. `border-base-content/50` gli assegna il colore del testo al 50% di opacità",
+              "`card-body` raggruppa i contenuti e `card-title` definisce lo stile del titolo"
+            ],
+            "tagSeparator": " + ",
+            "url": "https://daisyui.com/components/card/",
+            "referenceLabel": "daisyUI",
+            "native": "daisy-workshop:card"
+          }
+        ]
+      }
+    ],
+    "kind": "content",
+    "sources": [
+      {
+        "id": "card",
+        "title": "daisyUI · Card",
+        "url": "https://daisyui.com/components/card/",
+        "visible": false
+      }
+    ],
+    "number": 33,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "daisy-workshop-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esercizio",
     "blocks": [
       {
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Riprendi il codice degli esempi, modifica un parametro e confronta il risultato prima di procedere.",
+            "text": "Realizza una pagina con un modulo di iscrizione e un riquadro informativo. Usa le tavole come riferimento per il layout.",
             "runs": [
               {
-                "text": "Riprendi il codice degli esempi, modifica un parametro e confronta il risultato prima di procedere."
+                "text": "Realizza una pagina con un modulo di iscrizione e un riquadro informativo. Usa le tavole come riferimento per il layout."
               }
-            ]
+            ],
+            "bullet": false
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Installa daisyUI con npm e associa una palette a ciascun tema in input.css",
+            "runs": [
+              {
+                "text": "Installa daisyUI con npm e associa una palette a ciascun tema in "
+              },
+              {
+                "text": "input.css",
+                "mono": true
+              }
+            ],
+            "bullet": true
+          },
+          {
+            "text": "Aggiungi un pulsante e un campo con etichetta in una delle regioni",
+            "runs": [
+              {
+                "text": "Aggiungi un pulsante e un campo con etichetta in una delle regioni"
+              }
+            ],
+            "bullet": true
+          },
+          {
+            "text": "Mantieni il layout responsive in Tailwind e usa i colori del tema anche in un elemento personalizzato",
+            "runs": [
+              {
+                "text": "Mantieni il layout responsive in Tailwind e usa i colori del tema anche in un elemento personalizzato"
+              }
+            ],
+            "bullet": true
+          },
+          {
+            "text": "Esegui npm run dev per avviare il progetto",
+            "runs": [
+              {
+                "text": "Esegui "
+              },
+              {
+                "text": "npm run dev",
+                "mono": true
+              },
+              {
+                "text": " per avviare il progetto"
+              }
+            ],
+            "bullet": true
           }
         ]
       }
     ],
+    "showSources": false,
+    "kind": "content",
     "sources": [
       {
         "id": "themes",
         "title": "daisyUI · temi",
-        "url": "https://daisyui.com/docs/themes/"
-      },
-      {
-        "id": "colors",
-        "title": "daisyUI · colori semantici",
-        "url": "https://daisyui.com/docs/colors/"
+        "url": "https://daisyui.com/docs/themes/",
+        "visible": false
       }
     ],
-    "credit": "Rielaborazione didattica CVeDI · fonti ufficiali collegate",
-    "number": 33,
+    "number": 34,
     "sourceSlide": null,
     "sourceKind": "official-docs",
-    "revision": "tailwind-daisyui-2026-10",
+    "revision": "daisy-workshop-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esercizio",
+    "blocks": [
+      {
+        "kind": "figure",
+        "src": "/images/esercitazioni/responsive-layout-desktop-en.svg",
+        "alt": "Tavola desktop con testata, due voci laterali, tre regioni numerate e un’immagine.",
+        "caption": "La tavola indica le proporzioni da conservare. La linea tratteggiata delimita la viewport."
+      }
+    ],
+    "layout": "figure",
+    "showSources": false,
+    "kind": "content",
+    "sources": [
+      {
+        "id": "theme",
+        "title": "Tailwind · theme variables",
+        "url": "https://tailwindcss.com/docs/theme",
+        "visible": false
+      }
+    ],
+    "number": 35,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "daisy-workshop-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Layout di riferimento · mobile",
+    "blocks": [
+      {
+        "kind": "figure",
+        "src": "/images/esercitazioni/responsive-layout-mobile-en.svg",
+        "alt": "Tavola mobile con testata, due voci, immagine e regioni da 1 a 3 in sequenza.",
+        "caption": "La parte destra della tavola prosegue il flusso della parte sinistra.",
+        "showDialogTitle": false
+      }
+    ],
+    "layout": "figure",
+    "showSources": false,
+    "kind": "content",
+    "sources": [
+      {
+        "id": "theme",
+        "title": "Tailwind · theme variables",
+        "url": "https://tailwindcss.com/docs/theme",
+        "visible": false
+      }
+    ],
+    "number": 36,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "daisy-workshop-2026-11",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Fine esercitazione 07",
+    "blocks": [],
+    "kind": "closing",
+    "showSources": false,
+    "sources": [
+      {
+        "id": "themes",
+        "title": "daisyUI · temi",
+        "url": "https://daisyui.com/docs/themes/",
+        "visible": false
+      }
+    ],
+    "number": 37,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "daisy-workshop-2026-11",
     "part": 1,
     "parts": 1
   }

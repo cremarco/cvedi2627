@@ -3806,7 +3806,7 @@
       "number": 7,
       "id": "esercitazione-07",
       "slug": "temi-tailwind-daisyui",
-      "title": "Esercitazione 7 - Temi con Tailwind CSS e daisyUI",
+      "title": "Esercitazione 7 - Componenti e temi con daisyUI",
       "sourceId": "1YJV5T5COoNIng8mRunSjsr37Rj_MqYGPP9RMisrwAqI",
       "url": "https://docs.google.com/presentation/d/1YJV5T5COoNIng8mRunSjsr37Rj_MqYGPP9RMisrwAqI",
       "original": "progetti/slide/assets/esercitazioni/originali/07-bootstrap-custom-properties.pptx",
@@ -3815,7 +3815,7 @@
       "sha256": "f326ccfd0620dfc166e0557e9b98e674e261906e737c485ac7f2aead74dd0162",
       "pdf": "progetti/slide/assets/esercitazioni/originali/07-bootstrap-custom-properties.pdf",
       "pdfSha256": "59aac4b597ee5295951d7525a3e131b0274abda16fb8dfc5b12d20287ead24c2",
-      "slideCount": 33,
+      "slideCount": 37,
       "mapping": [
         {
           "sourceSlide": 1,
@@ -3955,11 +3955,11 @@
       "originalTitle": "Esercitazione 7 - Personalizzare Bootstrap con le custom properties",
       "mappingScope": "archived-import",
       "replacement": {
-        "id": "tailwind-daisyui-2026-10",
+        "id": "daisy-workshop-2026-11",
         "kind": "complete",
-        "specification": "progetti/slide/data/esercitazioni/framework-curriculum.mjs",
+        "specification": "progetti/slide/data/esercitazioni/daisy-workshop.mjs",
         "catalog": "progetti/slide/assets/esercitazioni/tailwind-daisyui/sources.json",
-        "checkedOn": "2026-10-21"
+        "checkedOn": "2026-11-23"
       },
       "nativeRebuild": {
         "archive": {
@@ -3975,6 +3975,23 @@
         "specification": "progetti/slide/data/esercitazioni/native-examples.mjs",
         "renderer": "progetti/slide/components/ExerciseNative.vue",
         "corrections": []
+      },
+      "editorialRevision": {
+        "reference": "01-html-css-base.md",
+        "adaptedFrom": {
+          "exercise": "06",
+          "slides": [
+            28,
+            29,
+            30,
+            31
+          ]
+        },
+        "priorDraft": {
+          "specification": "progetti/slide/data/esercitazioni/framework-curriculum.mjs",
+          "export": "themeDraft",
+          "slideCount": 33
+        }
       }
     },
     {
@@ -4630,7 +4647,7 @@
     }
   ],
   "sourceSlides": 349,
-  "slideCount": 406,
+  "slideCount": 410,
   "verification": {
     "summary": "reports/esercitazioni/verification.json",
     "sources": "reports/esercitazioni/source-report.json",
@@ -5138,7 +5155,7 @@
     "requested": "Sostituire Bootstrap con Tailwind CSS e daisyUI, arricchendo le slide con fonti online",
     "specification": "progetti/slide/data/esercitazioni/framework-curriculum.mjs",
     "catalog": "progetti/slide/assets/esercitazioni/tailwind-daisyui/sources.json",
-    "newSlides": 114,
+    "newSlides": 118,
     "archivedOriginalsUnchanged": true,
     "verification": {
       "status": "passed",

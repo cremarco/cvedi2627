@@ -78,6 +78,86 @@
       "url": "https://tailwindcss.com/docs/colors"
     },
     {
+      "id": "nodeRuntime",
+      "title": "Node.js",
+      "url": "https://nodejs.org/learn/getting-started/introduction-to-nodejs"
+    },
+    {
+      "id": "npmAbout",
+      "title": "npm",
+      "url": "https://docs.npmjs.com/about-npm/"
+    },
+    {
+      "id": "nodeDownload",
+      "title": "Download ufficiale di Node.js",
+      "url": "https://nodejs.org/en/download"
+    },
+    {
+      "id": "npmVersions",
+      "title": "npm · verifica delle versioni",
+      "url": "https://docs.npmjs.com/downloading-and-installing-node-js-and-npm/#checking-your-version-of-npm-and-nodejs"
+    },
+    {
+      "id": "npmInit",
+      "title": "npm · inizializzazione",
+      "url": "https://docs.npmjs.com/cli/v11/commands/npm-init/"
+    },
+    {
+      "id": "npmPackage",
+      "title": "npm · package.json",
+      "url": "https://docs.npmjs.com/cli/v11/configuring-npm/package-json/"
+    },
+    {
+      "id": "npmLock",
+      "title": "npm · package-lock.json",
+      "url": "https://docs.npmjs.com/cli/v11/configuring-npm/package-lock-json/"
+    },
+    {
+      "id": "npmScripts",
+      "title": "npm · scripts",
+      "url": "https://docs.npmjs.com/cli/v11/using-npm/scripts/"
+    },
+    {
+      "id": "daisyIntro",
+      "title": "daisyUI · introduzione",
+      "url": "https://daisyui.com/docs/intro/"
+    },
+    {
+      "id": "daisyCLI",
+      "title": "daisyUI · installazione con Tailwind CLI",
+      "url": "https://daisyui.com/docs/install/cli/"
+    },
+    {
+      "id": "tailwindThemeTokens",
+      "title": "Tailwind · variabili del tema",
+      "url": "https://tailwindcss.com/docs/theme#what-are-theme-variables"
+    },
+    {
+      "id": "daisyThemeVariables",
+      "title": "daisyUI · elenco delle variabili del tema",
+      "url": "https://daisyui.com/docs/themes/#how-to-add-a-new-custom-theme"
+    },
+    {
+      "id": "daisyThemeGenerator",
+      "title": "daisyUI · generatore di temi",
+      "url": "https://daisyui.com/theme-generator/"
+    },
+    {
+      "id": "daisyLabel",
+      "title": "MDN · elemento label",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/label"
+    },
+    {
+      "id": "daisyData",
+      "title": "MDN · attributi data-*",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/How_to/Use_data_attributes"
+    },
+    {
+      "id": "daisyFocus",
+      "title": "MDN · focus visibile",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:focus-visible"
+    },
+    {
       "id": "utilities",
       "title": "Tailwind · utility classes",
       "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
