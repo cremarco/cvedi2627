@@ -32,15 +32,23 @@
 
 *Il colore partecipa alla gerarchia già costruita con dimensione, posizione e spazio: permette di distinguere elementi, stabilire relazioni e caratterizzare il linguaggio visivo del progetto.*
 
-La psicologia del colore studia le relazioni tra percezione cromatica, associazioni ed emozioni. Non esiste però una corrispondenza fissa tra ogni colore e una specifica emozione o area del cervello: esperienza, cultura, contesto e composizione influenzano la risposta delle persone.
+La psicologia del colore studia le relazioni tra percezione cromatica, associazioni ed emozioni. Non esiste però una corrispondenza fissa tra ogni colore e una specifica emozione o area del cervello: esperienza, cultura, contesto e composizione sono determinanti nell'influenzare la risposta delle persone.
 
 La scelta di una palette va quindi collegata al compito e al pubblico emersi dalla ricerca, mantenendo leggibilità e segnali comprensibili. Quando il colore riguarda il testo, questa decisione si intreccia con la tipografia.
 
-Nella scelta distingui tre domande: come appare il colore nell’accostamento, quali associazioni richiama e quale funzione svolge. Un colore di marca caratterizza il prodotto; un colore di stato aiuta a riconoscere ciò che è avvenuto. Verifica entrambe le funzioni nella schermata concreta.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Quando scegli un colore, osserva come appare accanto agli altri, quali significati può evocare per il tuo pubblico e che cosa deve comunicare. Un colore di marca aiuta a riconoscere il prodotto, mentre un colore di stato può segnalare, per esempio, che un’azione è riuscita. Nella schermata finale, verifica che il colore svolga il ruolo che gli hai assegnato.»
+]
+#highlight(fill: rgb("FFF1A8"))[Nella scelta distingui tre domande: come appare il colore nell’accostamento, quali associazioni richiama e quale funzione svolge. Un colore di marca caratterizza il prodotto; un colore di stato aiuta a riconoscere ciò che è avvenuto. Verifica entrambe le funzioni nella schermata concreta.]
 
 === Le proprietà del colore
 
-Tonalità, saturazione e valore descrivono aspetti diversi di un colore. Nel modello HSV, $H$ individua la tinta sulla ruota, $S$ la saturazione e $V$ il valore. Confrontare serie in cui cambia un parametro alla volta aiuta a riconoscerne gli effetti nella composizione (@fig-colore-196).#website-note([Adobe, HSB, RGB e relazioni cromatiche.], "https://helpx.adobe.com/photoshop-elements/desktop/working-with-colors/color.html")
+Al colore possiamo attribuire delle proprietà; tonalità, saturazione e valore, per esempio, descrivono aspetti diversi di uno stesso colore. Nel modello HSV, $H$ individua la tinta sulla ruota, $S$ la saturazione e $V$ il valore. Confrontare serie in cui cambia un parametro alla volta aiuta a riconoscerne gli effetti nella composizione (@fig-colore-196).#website-note([Adobe, HSB, RGB e relazioni cromatiche.], "https://helpx.adobe.com/photoshop-elements/desktop/working-with-colors/color.html")
 
 #image-figure(path("/risorse-condivise/immagini/figure/colore/proprieta-hsv.png"),
   [Un parametro alla volta: variazioni di tonalità, saturazione e valore nel modello HSV.],
@@ -50,11 +58,11 @@ Tonalità, saturazione e valore descrivono aspetti diversi di un colore. Nel mod
   id: "fig-colore-196",
 )
 
-Il valore $V$ non coincide con la luminanza relativa usata dalle WCAG: due campioni con lo stesso $V$ possono avere contrasti molto diversi rispetto allo sfondo.
+Il valore $V$ non coincide con la luminanza relativa usata dalle WCAG: due campioni con lo stesso $V$ possono infatti avere contrasti molto diversi rispetto allo sfondo.
 
 === Colore emesso e colore stampato
 
-Uno schermo produce luce attraverso componenti rosse, verdi e blu: è la sintesi additiva RGB. Nella stampa, ciano, magenta e giallo assorbono parte della luce; il nero K completa il processo CMYK. RYB è un riferimento pittorico tradizionale, con primari differenti (@fig-colore-197).#website-note([Adobe, modi colore.], "https://helpx.adobe.com/photoshop/desktop/adjust-color/choose-colors/color-modes-in-photoshop.html")
+Nella progettazione cromatica, ci sono aspetti che vanno tenuti in considerazione. Uno schermo produce luce attraverso componenti rosse, verdi e blu: è la sintesi additiva RGB. Nella stampa, ciano, magenta e giallo assorbono parte della luce; il nero K completa il processo CMYK. RYB è un riferimento pittorico tradizionale, con primari differenti (@fig-colore-197).#website-note([Adobe, modi colore.], "https://helpx.adobe.com/photoshop/desktop/adjust-color/choose-colors/color-modes-in-photoshop.html")
 
 #image-figure(path("/risorse-condivise/immagini/figure/colore/modelli-rgb-cmy-ryb.png"),
   [Schemi illustrativi di RGB, CMY e primari RYB; le sovrapposizioni non simulano una prova di stampa.],
@@ -64,11 +72,19 @@ Uno schermo produce luce attraverso componenti rosse, verdi e blu: è la sintesi
   id: "fig-colore-197",
 )
 
-Il risultato dipende anche dallo spazio colore, dal profilo e dal supporto. Un colore visibile sullo schermo può non essere riproducibile nello stesso modo con gli inchiostri.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nel passaggio dallo schermo alla stampa, uno stesso colore può cambiare aspetto. La resa dipende dallo spazio colore, dal profilo usato per la conversione e dal materiale su cui si stampa. Alcuni colori visibili sullo schermo sono fuori dalla gamma riproducibile con gli inchiostri e il supporto scelti.»
+]
+#highlight(fill: rgb("FFF1A8"))[Il risultato dipende anche dallo spazio colore, dal profilo e dal supporto. Un colore visibile sullo schermo può non essere riproducibile nello stesso modo con gli inchiostri.]
 
 === Leggere la ruota cromatica
 
-La ruota dispone le tonalità lungo un percorso circolare. Il riferimento cambia le vicinanze e le opposizioni: nella ruota RGB/HSV rosso e ciano sono opposti; nel riferimento pittorico RYB lo sono rosso e verde. Le due costruzioni non vanno sovrapposte (@fig-colore-198).#website-note([Adobe, HSB, RGB e relazioni cromatiche.], "https://helpx.adobe.com/photoshop-elements/desktop/working-with-colors/color.html")
+La ruota cromatica è uno schema visivo che dispone le tonalità lungo un percorso circolare. Il riferimento cambia le vicinanze e le opposizioni: nella ruota RGB/HSV rosso e ciano sono opposti; nel riferimento pittorico RYB lo sono rosso e verde. Le due costruzioni non vanno sovrapposte (@fig-colore-198).#website-note([Adobe, HSB, RGB e relazioni cromatiche.], "https://helpx.adobe.com/photoshop-elements/desktop/working-with-colors/color.html")
 
 #image-figure(path("/risorse-condivise/immagini/figure/colore/ruote-hsv-ryb.png"),
   [Ruote cromatiche: RGB/HSV (a sinistra) e RYB tradizionale (a destra). Le terne grandi indicano i primari del riferimento.],
@@ -78,18 +94,34 @@ La ruota dispone le tonalità lungo un percorso circolare. Il riferimento cambia
   id: "fig-colore-198",
 )
 
-I diagrammi usano dodici campioni, punti selezionati più grandi e collegamenti geometrici. In HSV i passi di $H$ sono di 30°; la ruota RYB è uno schema tradizionale e non descrive la miscela reale di ogni pigmento.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Ogni ruota mostra dodici campioni. Nei diagrammi, i punti più grandi evidenziano le tinte selezionate e i segmenti mostrano come sono disposte sulla ruota. In HSV, la tonalità $H$ cambia di 30° da un campione al successivo. La ruota RYB segue una convenzione pittorica. Per sapere quale colore produce una miscela concreta, occorre considerare i pigmenti usati.»
+]
+#highlight(fill: rgb("FFF1A8"))[I diagrammi usano dodici campioni, punti selezionati più grandi e collegamenti geometrici. In HSV i passi di $H$ sono di 30°; la ruota RYB è uno schema tradizionale e non descrive la miscela reale di ogni pigmento.]
 
 === Monocromatico
 
-Uno schema monocromatico parte da una sola tinta e ne varia saturazione e valore. La continuità cromatica può unificare l’interfaccia; le differenze fra superfici, contenuti e azioni devono restare riconoscibili (@fig-colore-199).#website-note([Adobe Color, ruota cromatica e costruzione della palette.], "https://color.adobe.com/create/color-wheel")
+Uno schema monocromatico parte da una sola tinta e ne varia saturazione e valore. La continuità cromatica può unificare l’interfaccia ma le differenze fra superfici, contenuti e azioni devono restare riconoscibili (@fig-colore-199).#website-note([Adobe Color, ruota cromatica e costruzione della palette.], "https://color.adobe.com/create/color-wheel")
 
 #figure([#harmony-chart(path("/risorse-condivise/immagini/figure/colore/schema-monocromatico.svg"), alt: "Schema monocromatico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i tre campioni interni variano saturazione e valore.", legend: [Una sola tinta · $S$ e $V$ variano], palette-alt: "Campioni della palette cromatica originale.")],
   kind: image, supplement: [Figura], placement: top, scope: "column",
   caption: caption-content([Schema monocromatico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i tre campioni interni variano saturazione e valore.], rights: none),
 ) <fig-colore-199>
 
-I tre campioni interni mantengono $H = 210°$ e cambiano $S$ e $V$. Una palette monocromatica non impone a testo, sfondo e pulsanti la stessa intensità. Neutri e spazi vuoti contribuiscono alla gerarchia; ogni coppia di testo e sfondo richiede una verifica del contrasto.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «I tre campioni interni hanno la stessa tonalità ($H = 210°$) e si distinguono per saturazione ($S$) e valore ($V$). Puoi usare queste variazioni per dare un peso diverso a sfondo, testo e pulsanti. Anche i colori neutri e gli spazi vuoti aiutano a separare gli elementi. Verifica il contrasto di ogni testo rispetto allo sfondo su cui compare.»
+]
+#highlight(fill: rgb("FFF1A8"))[I tre campioni interni mantengono $H = 210°$ e cambiano $S$ e $V$. Una palette monocromatica non impone a testo, sfondo e pulsanti la stessa intensità. Neutri e spazi vuoti contribuiscono alla gerarchia; ogni coppia di testo e sfondo richiede una verifica del contrasto.]
 
 === Monocromatico: esempi
 
@@ -113,7 +145,15 @@ Smartwater e Netlife Research mostrano due dominanti molto diverse: blu nel prim
 
 Smartwater usa il blu per ambiente, acqua e prodotto, con dettagli chiari.
 
-Netlife Research concentra il campo sul verde; testo scuro e aree chiare distinguono navigazione e contenuti. Monocromatico descrive la prevalenza della palette, non ogni pixel delle immagini.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «La composizione si definisce monocromatica perché la maggior parte dei suoi elementi riprende le variazioni di una stessa tinta. Nelle immagini e nei dettagli possono comparire anche altri colori.»
+]
+Netlife Research concentra il campo sul verde; testo scuro e aree chiare distinguono navigazione e contenuti. #highlight(fill: rgb("FFF1A8"))[Monocromatico descrive la prevalenza della palette, non ogni pixel delle immagini.]
 
 === Analogo
 
@@ -124,11 +164,19 @@ Uno schema analogo seleziona tinte vicine sulla ruota. In questo esempio HSV, ci
   caption: caption-content([Schema analogo sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.], rights: none),
 ) <fig-colore-201>
 
-Scegli una dominante e usa le tinte adiacenti per superfici o accenti. Saturazione, valore e quantità aiutano a separare le funzioni. Se i colori hanno luminanza simile, un titolo o un controllo può restare poco leggibile anche in una palette coerente.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Lascia che una tinta prevalga e usa quelle vicine sulla ruota per distinguere superfici e dettagli. Regola quanto spazio occupa ciascuna tinta e quanto appare satura, chiara o scura in base al suo ruolo. Anche due tinte che si accordano bene possono avere una luminanza simile. Controlla che titoli e comandi si distinguano dalle superfici su cui compaiono.»
+]
+#highlight(fill: rgb("FFF1A8"))[Scegli una dominante e usa le tinte adiacenti per superfici o accenti. Saturazione, valore e quantità aiutano a separare le funzioni. Se i colori hanno luminanza simile, un titolo o un controllo può restare poco leggibile anche in una palette coerente.]
 
 === Analogo: esempi
 
-Boost accosta giallo e arancione; Omnium combina blu, violetto e ciano. Le schermate mostrano come famiglie vicine possano sostenere una dominante calda o fredda, variando anche saturazione e valore (@fig-colore-202 e @fig-colore-omnium).
+Il sito Boost preso ad esempio accosta giallo e arancione; Omnium combina blu, violetto e ciano. Le schermate mostrano come famiglie vicine possano sostenere una dominante calda o fredda, variando anche saturazione e valore (@fig-colore-202 e @fig-colore-omnium).
 
 #image-figure(path("/progetti/booklet/assets/figure-singole/colore/boost.svg"),
   [Boost. Screenshot storico; data di acquisizione non documentata. Campioni cromatici indicativi, non misurati.],
@@ -148,7 +196,15 @@ Boost accosta giallo e arancione; Omnium combina blu, violetto e ciano. Le scher
 
 Nel sito Boost il fondo e il prodotto mantengono passaggi caldi; il bianco evidenzia il titolo.
 
-In Omnium luce e volume dell’illustrazione sviluppano passaggi fra tinte vicine. I campioni sono indicativi: le ruote spiegano una relazione e non misurano gli screenshot.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «I campioni delle figure aiutano a riconoscere le famiglie di colore che prevalgono nelle schermate. Sono approssimazioni. La ruota mostra invece la posizione reciproca delle tinte in uno schema analogo.»
+]
+In Omnium luce e volume dell’illustrazione sviluppano passaggi fra tinte vicine. #highlight(fill: rgb("FFF1A8"))[I campioni sono indicativi: le ruote spiegano una relazione e non misurano gli screenshot.]
 
 === Complementare
 
@@ -159,7 +215,15 @@ Uno schema complementare accosta due tinte opposte sulla ruota adottata. Nell’
   caption: caption-content([Schema complementare sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.], rights: none),
 ) <fig-colore-203>
 
-Assegna quantità e funzioni diverse ai due colori: una dominante può occupare il fondo e l’opposto può identificare un accento. Verifica le coppie effettive di testo e superficie. I complementari cambiano con il riferimento: qui la costruzione è HSV.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Puoi usare un colore per le superfici più ampie, come lo sfondo, e riservare il suo opposto agli elementi da mettere in risalto. Controlla il contrasto tra i testi e le superfici su cui li collochi. In questo esempio la coppia è complementare sulla ruota HSV. Con un’altra ruota, la stessa tinta può avere un opposto diverso.»
+]
+#highlight(fill: rgb("FFF1A8"))[Assegna quantità e funzioni diverse ai due colori: una dominante può occupare il fondo e l’opposto può identificare un accento. Verifica le coppie effettive di testo e superficie. I complementari cambiano con il riferimento: qui la costruzione è HSV.]
 
 === Complementare: esempi
 
@@ -183,7 +247,15 @@ Série Découvertes e The Ancient World accostano campi blu a elementi arancioni
 
 Série Découvertes, presentata da WKND 91,9 FM, usa arancione e blu scuro con pesi differenti.
 
-The Ancient World combina blu petrolio e toni caldi del paesaggio. Una schermata fotografica contiene molte tinte: l’etichetta descrive la relazione generale.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «In The Ancient World, il blu petrolio si accosta ai toni caldi del paesaggio. È questo accostamento a richiamare lo schema complementare. Le altre sfumature della fotografia fanno parte della composizione e arricchiscono la palette.»
+]
+#highlight(fill: rgb("FFF1A8"))[The Ancient World combina blu petrolio e toni caldi del paesaggio. Una schermata fotografica contiene molte tinte: l’etichetta descrive la relazione generale.]
 
 === Complementare divergente
 
@@ -194,11 +266,27 @@ Lo schema complementare divergente usa una tinta e le due adiacenti al suo oppos
   caption: caption-content([Schema complementare divergente sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.], rights: none),
 ) <fig-colore-205>
 
-La base e i due accenti non devono competere con la stessa intensità. Varia saturazione, valore e quantità in funzione del contenuto. Prima di assegnare colori a errori, conferme o focus, controlla che tali stati restino distinguibili e siano spiegati anche dal testo.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Usa la tinta di base per dare unità alla composizione e dosa i due accenti secondo l’importanza degli elementi. Puoi regolare quanto spazio occupano, quanto sono saturi e quanto appaiono chiari o scuri. Nella schermata finale, verifica che errori, conferme e focus siano riconoscibili. Accompagna errori e conferme con un testo esplicito e rendi il focus visibile con un indicatore, per esempio un contorno ben distinguibile.»
+]
+#highlight(fill: rgb("FFF1A8"))[La base e i due accenti non devono competere con la stessa intensità. Varia saturazione, valore e quantità in funzione del contenuto. Prima di assegnare colori a errori, conferme o focus, controlla che tali stati restino distinguibili e siano spiegati anche dal testo.]
 
 === Complementare divergente: esempi
 
-Neverland e Skin Health Alliance permettono di osservare una dominante accompagnata da accenti su due famiglie diverse. Le palette reali usano sfumature attenuate e colori delle immagini: la relazione va letta come orientamento (@fig-colore-206 e @fig-colore-skin-health-alliance).
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nelle schermate, le tinte possono essere più tenui di quelle del diagramma e le immagini aggiungono altre sfumature. Lo schema aiuta a riconoscere il rapporto tra la tinta dominante e i due accenti.»
+]
+Gli screenshot di Neverland e Skin Health Alliance permettono di osservare una dominante accompagnata da accenti su due famiglie diverse. #highlight(fill: rgb("FFF1A8"))[Le palette reali usano sfumature attenuate e colori delle immagini: la relazione va letta come orientamento] (@fig-colore-206 e @fig-colore-skin-health-alliance).
 
 #image-figure(path("/progetti/booklet/assets/figure-singole/colore/neverland.svg"),
   [Neverland. Screenshot storico; data di acquisizione non documentata. Campioni cromatici indicativi, non misurati.],
@@ -222,14 +310,30 @@ Skin Health Alliance distribuisce viola chiaro, giallo e verde scuro fra fondo e
 
 === Triadico
 
-Uno schema triadico seleziona tre tinte equidistanti sulla ruota. Nel riferimento HSV gli intervalli sono di 120°. La geometria definisce la relazione fra le tinte; saturazione, valore e quantità restano scelte progettuali ulteriori (@fig-colore-207).#website-note([Adobe Color, ruota cromatica e costruzione della palette.], "https://color.adobe.com/create/color-wheel")
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Uno schema triadico, selezionatre tre tinte a uguale distanza sulla ruota. Nel modello HSV, tra una tinta e la successiva ci sono 120°. Una volta scelte le tinte, si può ancora decidere quanto renderle sature, quanto schiarirle o scurirle e quanto spazio assegnare a ciascuna.»
+]
+#highlight(fill: rgb("FFF1A8"))[Uno schema triadico seleziona tre tinte equidistanti sulla ruota. Nel riferimento HSV gli intervalli sono di 120°. La geometria definisce la relazione fra le tinte; saturazione, valore e quantità restano scelte progettuali ulteriori] (@fig-colore-207).#website-note([Adobe Color, ruota cromatica e costruzione della palette.], "https://color.adobe.com/create/color-wheel")
 
 #figure([#harmony-chart(path("/risorse-condivise/immagini/figure/colore/schema-triadico.svg"), alt: "Schema triadico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.", legend: [$H = 30°, 150°, 270°$ · intervalli di $120°$], palette-alt: "Campioni della palette cromatica originale.")],
   kind: image, supplement: [Figura], placement: top, scope: "column",
   caption: caption-content([Schema triadico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.], rights: none),
 ) <fig-colore-207>
 
-Scegli una tinta dominante e assegna alle altre ruoli riconoscibili. Una triade non richiede tre aree uguali o tre accenti ugualmente intensi. Verifica ogni coppia necessaria alla lettura e all’interazione: la distanza angolare non garantisce il contrasto.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Fai prevalere una delle tre tinte e assegna alle altre due un compito preciso, per esempio distinguere una superficie o mettere in risalto un comando. Varia la loro intensità e lo spazio che occupano in base alla gerarchia della pagina. Per verificare la leggibilità di un testo o la visibilità di un controllo, confrontalo direttamente con la superficie su cui compare.»
+]
+#highlight(fill: rgb("FFF1A8"))[Scegli una tinta dominante e assegna alle altre ruoli riconoscibili. Una triade non richiede tre aree uguali o tre accenti ugualmente intensi. Verifica ogni coppia necessaria alla lettura e all’interazione: la distanza angolare non garantisce il contrasto.]
 
 === Triadico: esempi
 
@@ -253,11 +357,27 @@ SecretKey richiama tre famiglie, viola, arancione e verde attenuato. SMI serve d
 
 In SecretKey viola e arancione costruiscono ambiente e accenti; il verde compare soprattutto nell’illustrazione.
 
-In SMI emergono viola e verde con un fondo bruno neutro. La lettura come triadico resta da verificare: lo screenshot da solo non dimostra tre intervalli di 120°.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nella schermata di SMI, il viola e il verde risaltano sul fondo bruno. Per stabilire se l’accostamento segue uno schema triadico, occorre individuare le tre tinte di riferimento della palette e verificare che si trovino a intervalli di 120° sulla ruota HSV.»
+]
+#highlight(fill: rgb("FFF1A8"))[In SMI emergono viola e verde con un fondo bruno neutro. La lettura come triadico resta da verificare: lo screenshot da solo non dimostra tre intervalli di 120°.]
 
 === Dalla palette ai ruoli
 
-Una palette diventa un sistema quando ogni colore ha un uso riconoscibile. Superficie, testo, azione, bordo e focus hanno esigenze differenti. I colori di marca possono coincidere con quelli di stato: testo, icone e posizione devono allora chiarire la funzione (@fig-colore-209).#website-note([GOV.UK Design System, Error summary.], "https://design-system.service.gov.uk/components/error-summary/")#website-note([GOV.UK Design System, Colour.], "https://design-system.service.gov.uk/styles/colour/")
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Per usare la palette in modo coerente, stabilisci quali colori servono per le superfici, i testi, i comandi, i bordi e l’indicatore di focus. Se una tinta del marchio serve anche a segnalare uno stato, chiarisci il suo significato con un testo esplicito, un’icona o la posizione del messaggio nella schermata.»
+]
+#highlight(fill: rgb("FFF1A8"))[Una palette diventa un sistema quando ogni colore ha un uso riconoscibile. Superficie, testo, azione, bordo e focus hanno esigenze differenti. I colori di marca possono coincidere con quelli di stato: testo, icone e posizione devono allora chiarire la funzione] (@fig-colore-209).#website-note([GOV.UK Design System, Error summary.], "https://design-system.service.gov.uk/components/error-summary/")#website-note([GOV.UK Design System, Colour.], "https://design-system.service.gov.uk/styles/colour/")
 
 #image-figure(path("/risorse-condivise/immagini/figure/colore/govuk-ruoli-cromatici-errore.svg"),
   [GOV.UK Design System: riepilogo, messaggio e bordo rendono riconoscibile l’errore insieme al testo. Screenshot dell’esempio ufficiale, 16 ottobre 2026.],
@@ -268,16 +388,40 @@ Una palette diventa un sistema quando ogni colore ha un uso riconoscibile. Super
   id: "fig-colore-209",
 )
 
-Nell’esempio GOV.UK il rosso accomuna riepilogo, messaggio e bordo del campo. Il testo specifica cosa correggere e il link conduce alla risposta: l’informazione resta comprensibile anche senza distinguere il colore. I campioni sopra lo screenshot ricordano ruoli diversi, non tutti presenti in questo stato.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nell’esempio di GOV.UK, il rosso collega il riepilogo degli errori, il messaggio vicino alla risposta e il bordo del campo da correggere. Il messaggio spiega che cosa correggere e il link nel riepilogo porta al punto del modulo dove intervenire. Questi segnali rendono l’errore comprensibile anche a chi fatica a distinguere il rosso. Sopra lo screenshot, i campioni illustrano anche altri ruoli della palette, come il focus.»
+]
+#highlight(fill: rgb("FFF1A8"))[Nell’esempio GOV.UK il rosso accomuna riepilogo, messaggio e bordo del campo. Il testo specifica cosa correggere e il link conduce alla risposta: l’informazione resta comprensibile anche senza distinguere il colore. I campioni sopra lo screenshot ricordano ruoli diversi, non tutti presenti in questo stato.]
 
 // Riprendono le due colonne per colori e identità visive.
 #set page(columns: 2)
 
 === Colori caldi e colori freddi
 
-Per convenzione si definiscono calde le tonalità vicine a rosso, arancio e giallo, e fredde quelle vicine a blu, verde e viola. La percezione di caldo e freddo dipende però anche dalle tonalità accostate.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «In genere si chiamano calde le tinte vicine al rosso, all’arancione e al giallo, e fredde quelle vicine al blu, al verde e al viola. L’impressione cambia con l’accostamento. Lo stesso verde, per esempio, può sembrare più caldo accanto a un blu e più freddo accanto a un giallo.»
+]
+#highlight(fill: rgb("FFF1A8"))[Per convenzione si definiscono calde le tonalità vicine a rosso, arancio e giallo, e fredde quelle vicine a blu, verde e viola. La percezione di caldo e freddo dipende però anche dalle tonalità accostate.]
 
-Bianco, nero e grigi sono colori acromatici. Un grigio può apparire più caldo o freddo in presenza di una dominante cromatica o per effetto dello sfondo. Anche saturazione e valore modificano l’effetto della tinta: confrontali mantenendo costanti gli altri parametri (@fig-colore-210).
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Bianco, nero e grigi si chiamano acromatici perché privi di tonalità. Lo stesso grigio può sembrare più caldo o più freddo a seconda del colore di sfondo e delle tinte che lo circondano. Anche saturazione e valore cambiano l’aspetto dei colori. Per capire che cosa cambia, confronta campioni della stessa tinta variando prima la saturazione e poi il valore, un parametro alla volta.»
+]
+#highlight(fill: rgb("FFF1A8"))[Bianco, nero e grigi sono colori acromatici. Un grigio può apparire più caldo o freddo in presenza di una dominante cromatica o per effetto dello sfondo. Anche saturazione e valore modificano l’effetto della tinta: confrontali mantenendo costanti gli altri parametri] (@fig-colore-210).
 
 #image-figure(path("/risorse-condivise/immagini/figure/colore/scena-colori-caldi-freddi.png"),
   [La stessa scena interpretata con colori caldi e colori freddi.],
@@ -289,9 +433,25 @@ Bianco, nero e grigi sono colori acromatici. Un grigio può apparire più caldo 
 
 === Rosso
 
-Il rosso può richiamare passione, energia, pericolo o urgenza, secondo il contesto culturale e comunicativo.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «A seconda della situazione e delle convenzioni del pubblico, il rosso può evocare passione o energia, oppure richiamare l’attenzione su un pericolo o su qualcosa di urgente.»
+]
+#highlight(fill: rgb("FFF1A8"))[Il rosso può richiamare passione, energia, pericolo o urgenza, secondo il contesto culturale e comunicativo.]
 
-Nel design può rendere evidente un elemento se contrasta con lo sfondo. Va usato in modo coerente: associare lo stesso colore a un’azione positiva e a un errore può creare ambiguità. Se colore di marca ed errore coincidono, testo, icone e posizione devono rendere riconoscibile la funzione (@fig-colore-211).
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Il rosso può far risaltare un elemento quando crea un contrasto sufficiente con lo sfondo. Usare lo stesso rosso per una conferma e per un errore può rendere ambigui i due stati. Quando il rosso del marchio serve anche per gli errori, rendi chiaro che cosa è successo con un messaggio esplicito, un’icona riconoscibile e una posizione coerente, per esempio vicino al campo da correggere.»
+]
+#highlight(fill: rgb("FFF1A8"))[Nel design può rendere evidente un elemento se contrasta con lo sfondo. Va usato in modo coerente: associare lo stesso colore a un’azione positiva e a un errore può creare ambiguità. Se colore di marca ed errore coincidono, testo, icone e posizione devono rendere riconoscibile la funzione] (@fig-colore-211).
 
 #image-figure(path("/risorse-condivise/immagini/figure/colore/marchi-rosso.png"),
   [Il rosso nelle identità visive di Adobe, Canon, Coca-Cola e Marvel.],
@@ -403,7 +563,15 @@ Nel design può differenziare un’identità visiva o dare rilievo a un elemento
 
 Il bianco può suggerire chiarezza, semplicità o purezza in alcuni contesti; in altri è associato al lutto. Il significato dipende dalle convenzioni del pubblico.
 
-Nel design è spesso usato come sfondo. La leggibilità dipende però dal contrasto con testo e controlli e dalla gestione dello spazio, non dal bianco in sé. La superficie bianca e lo spazio vuoto hanno ruoli distinti: distanze, bordi e accostamenti organizzano la composizione (@fig-colore-219).
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Il bianco è spesso usato come sfondo. Quando lo scegli, verifica che il testo si legga bene e che i controlli risaltino sulla superficie. Guarda anche come sono distribuiti gli elementi. Lo spazio vuoto è la parte della pagina lasciata libera, qualunque sia il colore dello sfondo. Insieme a bordi e accostamenti, le distanze aiutano a capire quali elementi appartengono allo stesso gruppo.»
+]
+#highlight(fill: rgb("FFF1A8"))[Nel design è spesso usato come sfondo. La leggibilità dipende però dal contrasto con testo e controlli e dalla gestione dello spazio, non dal bianco in sé. La superficie bianca e lo spazio vuoto hanno ruoli distinti: distanze, bordi e accostamenti organizzano la composizione] (@fig-colore-219).
 
 #image-figure(path("/risorse-condivise/immagini/figure/colore/marchi-bianco.png"),
   [Il bianco nei marchi di Armani Exchange e Apple su fondo scuro.],
@@ -468,11 +636,27 @@ Questa visualizzazione storica riunisce 84 significati e dieci categorie cultura
   id: "fig-colore-221",
 )
 
-Le categorie accorpano società, lingue e religioni differenti. Il grafico non misura preferenze individuali né l’efficacia di un’interfaccia. Usalo per formulare domande da verificare nel contesto del progetto.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Ogni categoria della mappa riunisce società, lingue e tradizioni religiose diverse. Se un’associazione ti sembra rilevante, trasformala in una domanda per il tuo progetto. Per esempio, chiedi alle persone a cui si rivolge l’interfaccia che cosa comunica quel colore nella schermata e osserva se le aiuta a capire come agire.»
+]
+#highlight(fill: rgb("FFF1A8"))[Le categorie accorpano società, lingue e religioni differenti. Il grafico non misura preferenze individuali né l’efficacia di un’interfaccia. Usalo per formulare domande da verificare nel contesto del progetto.]
 
 === Rosso e bianco: conta il contesto
 
-Uno stesso colore può cambiare significato secondo rito, oggetto e occasione. Le immagini d’archivio mostrano usi da interpretare attraverso fonti e contesto, senza dedurre l’identità delle persone dal colore (@fig-colore-222 e @fig-colore-abiti-bianchi).
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Per interpretare un colore, chiediti dove compare, su quale oggetto e in quale occasione. Le immagini d’archivio mostrano come il rosso e il bianco entrano in composizioni diverse. Per capire quale significato assumono e chi partecipa alla scena, servono informazioni sulla provenienza delle fotografie e sul contesto in cui sono state scattate.»
+]
+#highlight(fill: rgb("FFF1A8"))[Uno stesso colore può cambiare significato secondo rito, oggetto e occasione. Le immagini d’archivio mostrano usi da interpretare attraverso fonti e contesto, senza dedurre l’identità delle persone dal colore] (@fig-colore-222 e @fig-colore-abiti-bianchi).
 
 #image-figure(path("/progetti/booklet/assets/figure-singole/colore/lanterne-rosse.svg"),
   [Lanterne rosse. Autori, luoghi e date delle fotografie non indicati.],
@@ -490,9 +674,25 @@ Uno stesso colore può cambiare significato secondo rito, oggetto e occasione. L
   height: 110mm,
 )
 
-Nel Capodanno lunare cinese, lanterne e decorazioni rosse partecipano a una tradizione celebrativa e augurale. Questo uso non prescrive la palette di ogni prodotto rivolto a un pubblico cinese.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Durante il Capodanno lunare cinese, il rosso delle lanterne e delle decorazioni esprime un augurio legato alla festa. È un riferimento pertinente per una campagna dedicata a quella ricorrenza. Per altri prodotti e occasioni, scegli i colori a partire dal messaggio e dal pubblico a cui ti rivolgi.»
+]
+#highlight(fill: rgb("FFF1A8"))[Nel Capodanno lunare cinese, lanterne e decorazioni rosse partecipano a una tradizione celebrativa e augurale. Questo uso non prescrive la palette di ogni prodotto rivolto a un pubblico cinese.]
 
-In tradizioni funerarie cinesi documentate, gli abiti bianchi possono esprimere il lutto. Lo studio del festival dei Nove Imperatori mostra anche interpretazioni di purezza e variazioni locali. La foto non identifica da sola il rito rappresentato @coloreNineEmperor2023.#website-note([Smithsonian, Chinese Red (2016).], "https://asia-archive.si.edu/red/")#website-note([Nine Emperor Gods Festival Documentation and Research Project (2023), vol. 1, cap. 7, pp. 440, 486, 494.], "https://singaporeccc.org.sg/events/the-nine-emperor-gods-festival-in-singapore-heritage-culture-and-community/")
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «In alcune tradizioni funerarie cinesi gli abiti bianchi esprimono il lutto. Lo studio sul festival dei Nove Imperatori documenta anche usi del bianco legati alla purezza, con variazioni locali. Per identificare il rito di una fotografia occorrono informazioni sull’occasione e sul luogo in cui è stata scattata.»
+]
+#highlight(fill: rgb("FFF1A8"))[In tradizioni funerarie cinesi documentate, gli abiti bianchi possono esprimere il lutto. Lo studio del festival dei Nove Imperatori mostra anche interpretazioni di purezza e variazioni locali. La foto non identifica da sola il rito rappresentato] @coloreNineEmperor2023.#website-note([Smithsonian, Chinese Red (2016).], "https://asia-archive.si.edu/red/")#website-note([Nine Emperor Gods Festival Documentation and Research Project (2023), vol. 1, cap. 7, pp. 440, 486, 494.], "https://singaporeccc.org.sg/events/the-nine-emperor-gods-festival-in-singapore-heritage-culture-and-community/")
 
 // I casi IKEA mantengono la gabbia ordinaria.
 #set page(columns: 2)
@@ -515,7 +715,15 @@ Nella schermata storica IKEA per il Capodanno lunare, il riferimento culturale e
 
 Il sito non diventa interamente rosso. Nella stessa schermata compaiono superfici chiare, un riquadro arancio e una lampada blu: il colore celebrativo convive con la gerarchia dell’interfaccia.
 
-La collezione FÖSSTA, documentata da IKEA nel 2022, è un riferimento primario per il tema festivo. La cattura resta storica, con giorno non documentato; non rappresenta il sito attuale.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «La presentazione della collezione FÖSSTA pubblicata da IKEA nel 2022 conferma che i prodotti erano pensati per il Capodanno lunare. La schermata storica mostra come il tema compariva sul sito in quel periodo. La data esatta della cattura resta sconosciuta.»
+]
+#highlight(fill: rgb("FFF1A8"))[La collezione FÖSSTA, documentata da IKEA nel 2022, è un riferimento primario per il tema festivo. La cattura resta storica, con giorno non documentato; non rappresenta il sito attuale.]
 
 === Confrontare le campagne, poi verificare
 
@@ -532,7 +740,7 @@ La schermata storica svedese accosta offerte, risparmio energetico e piccoli pre
 
 Le due schermate appartengono allo stesso marchio, ma cambiano lingua, contenuti e campagna. Il confronto illustra scelte progettuali: non misura preferenze nazionali né dimostra l’effetto della localizzazione.
 
-Nel progetto distingui il colore di marca, il tema della campagna e i segnali funzionali. Confronta varianti dello stesso compito con il pubblico destinatario e osserva comprensione, errori e riconoscimento delle azioni.
+Quando progetti, distingui il colore di marca, il tema della campagna e i segnali funzionali. Confronta varianti dello stesso compito con il pubblico destinatario e osserva comprensione, errori e riconoscimento delle azioni.
 ]
 
 // Convenzioni, categorie linguistiche e applicazione culturale.
@@ -542,7 +750,15 @@ Nel progetto distingui il colore di marca, il tema della campagna e i segnali fu
 
 Nelle interfacce finanziarie, rosso e verde possono indicare andamenti opposti. Il significato operativo della tinta dipende dalla convenzione del prodotto e dalle abitudini del pubblico.#compact-note([CGSE, Trader Terminal User Manual (2021), § 5.1.4, PDF p. 13], ("https://cgse.com.hk/chines/sites/default/files/gtp-user-manual-trader-terminal-20211022b.pdf",), tag: ("https://cgse.com.hk/chines/sites/default/files/gtp-user-manual-trader-terminal-20211022b.pdf",)) <nota-url-05-18>#website-note([MagicTrader Plus Android v3.0 (2012), § 40e, PDF p. 21.], "https://www.cmbwinglungbank.com/wlb_corporate/files/hk/upload/about-us/service-guide/10.10.1.9.4-CnSecTeleStoQuoUsrGuiAnd.pdf")
 
-*Convenzione locale.* Il manuale MagicTrader Plus distingue lo stile di Hong Kong da quello della Cina continentale. Anche all’interno della stessa area geografica, prodotti e mercati possono adottare corrispondenze diverse: una sola convenzione «asiatica» non descrive questi casi.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «La distinzione tra Hong Kong e Cina continentale mostra che la stessa coppia di colori può essere letta in modi diversi anche in mercati vicini. Per interpretare i dati, verifica quale convenzione adotta quel prodotto e se permette di cambiarla.»
+]
+*Convenzione locale.* Il manuale MagicTrader Plus distingue lo stile di Hong Kong da quello della Cina continentale. #highlight(fill: rgb("FFF1A8"))[Anche all’interno della stessa area geografica, prodotti e mercati possono adottare corrispondenze diverse: una sola convenzione «asiatica» non descrive questi casi.]
 
 *Personalizzazione.* Il CGSE Trader Terminal permette di invertire i colori assegnati ad aumento e diminuzione. La coppia rosso–verde resta la stessa, mentre cambia ciò che ciascuna tinta comunica.
 
@@ -550,7 +766,15 @@ Nelle interfacce finanziarie, rosso e verde possono indicare andamenti opposti. 
 
 === Due convenzioni, due letture del grafico
 
-I due grafici del manuale CGSE mostrano convenzioni cromatiche opposte. Le etichette italiane rendono esplicita la corrispondenza fra andamento e colore (@fig-colore-225).#footnote(<nota-url-05-18>)
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Le etichette italiane aiutano a leggere le due configurazioni del manuale CGSE. Nel primo grafico il verde indica un aumento e il rosso una diminuzione. Nel secondo, il rosso indica l’aumento e il verde la diminuzione.»
+]
+#highlight(fill: rgb("FFF1A8"))[I due grafici del manuale CGSE mostrano convenzioni cromatiche opposte. Le etichette italiane rendono esplicita la corrispondenza fra andamento e colore] (@fig-colore-225).#footnote(<nota-url-05-18>)
 
 #image-figure(path("/risorse-condivise/immagini/figure/colore/cgse-convenzioni-grafici.svg"),
   [CGSE Trader Terminal, manuale 2021, §5.1.4, PDF p. 13. Screenshot storici originali CGSE / Infocast Finance; lettere e traduzione didattica aggiunte.],
@@ -561,23 +785,57 @@ I due grafici del manuale CGSE mostrano convenzioni cromatiche opposte. Le etich
   id: "fig-colore-225",
 )
 
-Il confronto documenta una funzione del prodotto nel 2021. Non misura le preferenze del pubblico. La legenda va letta prima di attribuire al rosso o al verde un valore positivo o negativo.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Il manuale del 2021 documenta la possibilità di scegliere tra due convenzioni del terminale. Per sapere quale preferiscano le persone servirebbe una verifica con il pubblico. Per leggere il grafico, parti dalla legenda e controlla quale andamento indica ciascun colore.»
+]
+#highlight(fill: rgb("FFF1A8"))[Il confronto documenta una funzione del prodotto nel 2021. Non misura le preferenze del pubblico. La legenda va letta prima di attribuire al rosso o al verde un valore positivo o negativo.]
 
 === Le parole organizzano anche il colore
 
-Le lingue non suddividono sempre lo spettro nello stesso modo. Nell’area dei blu, il russo distingue goluboy e siniy: il primo rimanda ai blu più chiari, il secondo ai blu più scuri (@fig-colore-226).
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Lingue diverse possono dare nomi diversi alle stesse gamme di colore. In inglese, _blue_ comprende sia i blu chiari sia quelli scuri. Il russo usa due termini comuni, _goluboy_ per i blu più chiari e _siniy_ per quelli più scuri.»
+  #linebreak()
+  Per la didascalia, usare «I campioni illustrano le gamme di blu chiamate _goluboy_ e _siniy_ in russo. La figura 1 dello studio di _Winawer_ et al. (2007) mostra i campioni usati nell’esperimento. La separazione tra le categorie è qui indicativa.»
+]
+#highlight(fill: rgb("FFF1A8"))[Le lingue non suddividono sempre lo spettro nello stesso modo. Nell’area dei blu, il russo distingue goluboy e siniy: il primo rimanda ai blu più chiari, il secondo ai blu più scuri] (@fig-colore-226).
 
 #image-figure(path("/risorse-condivise/immagini/figure/colore/lingua-categorie-blu.svg"),
-  [Campioni illustrativi per goluboy e siniy. Lo schema non riproduce gli stimoli né il confine sperimentale di _Winawer_ et al. (2007).],
+  [#highlight(fill: rgb("FFF1A8"))[Campioni illustrativi per goluboy e siniy. Lo schema non riproduce gli stimoli né il confine sperimentale di _Winawer_ et al. (2007).]],
   format: "due-colonne",
   alt: "Campioni illustrativi per goluboy e siniy. Lo schema non riproduce gli stimoli né il confine sperimentale di Winawer et al. (2007).",
   width: 137mm,
   id: "fig-colore-226",
 )
 
-#cite(<coloreWinawer2007>, form: "prose") hanno confrontato parlanti russi e inglesi in un compito rapido di discriminazione. I parlanti russi erano più veloci quando i colori appartenevano alle due categorie diverse; il vantaggio scompariva durante un’interferenza verbale, ma non durante quella spaziale.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nel 2007, _Winawer_ e colleghi hanno chiesto a parlanti russi e inglesi di scegliere, tra due campioni blu, quello identico a un campione di riferimento. I parlanti russi rispondevano più in fretta quando le due opzioni appartenevano a categorie diverse in russo. Il vantaggio scompariva quando dovevano anche ripetere mentalmente una serie di cifre e restava presente quando dovevano ricordare una disposizione di caselle. Nei parlanti inglesi non è emerso un vantaggio analogo.»
+]
+#highlight(fill: rgb("FFF1A8"))[#cite(<coloreWinawer2007>, form: "prose") hanno confrontato parlanti russi e inglesi in un compito rapido di discriminazione. I parlanti russi erano più veloci quando i colori appartenevano alle due categorie diverse; il vantaggio scompariva durante un’interferenza verbale, ma non durante quella spaziale.]
 
-Il risultato riguarda quel compito sperimentale. Nel progetto di un’interfaccia suggerisce di verificare anche i nomi dei campioni e delle categorie nella lingua del pubblico, senza ricavare una palette nazionale dallo studio.#website-note([_Winawer_ et al. (2007).], "https://doi.org/10.1073/pnas.0701644104")
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Lo studio suggerisce che i nomi appresi in una lingua possono influire sulla rapidità con cui distinguiamo tinte simili in un compito specifico. Se un’interfaccia chiede di riconoscere o scegliere un colore, verifica con il tuo pubblico che le etichette dei campioni e delle categorie siano comprensibili nella sua lingua. La scelta della palette richiede di considerare anche il compito e il contesto d’uso.»
+]
+#highlight(fill: rgb("FFF1A8"))[Il risultato riguarda quel compito sperimentale. Nel progetto di un’interfaccia suggerisce di verificare anche i nomi dei campioni e delle categorie nella lingua del pubblico, senza ricavare una palette nazionale dallo studio.]#website-note([_Winawer_ et al. (2007).], "https://doi.org/10.1073/pnas.0701644104")
 
 // I riferimenti culturali applicati e gli studi usano la gabbia ordinaria.
 #set page(columns: 2)
@@ -613,15 +871,39 @@ L’esempio mostra un’applicazione reale nella comunicazione di un’interfacc
 
 === Associazioni, preferenze e uso
 
-Associare, preferire e usare un colore sono domande diverse. Un’associazione culturale può suggerire un’ipotesi; non basta per stabilire quale palette piaccia o quale interfaccia funzioni meglio @coloreClarke2008.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Quando valuti un colore, chiediti che cosa evoca, quanto piace e se aiuta a svolgere il compito. Un’associazione culturale può suggerire un messaggio da mettere alla prova. Per capire quale palette piace, chiedi alle persone quali colori preferiscono. Per capire se la palette aiuta a usare l’interfaccia, osserva come svolgono il compito.»
+]
+#highlight(fill: rgb("FFF1A8"))[Associare, preferire e usare un colore sono domande diverse. Un’associazione culturale può suggerire un’ipotesi; non basta per stabilire quale palette piaccia o quale interfaccia funzioni meglio] @coloreClarke2008.
 
 *Associare.* Quale oggetto, idea o occasione richiama questo colore? Parti da domande aperte: dove lo incontri, che cosa ti fa pensare, quale messaggio ti aspetti?
 
-*Preferire.* Quanto piace a questa persona, in questa situazione? #cite(<coloreTaylor2013>, form: "prose") hanno osservato preferenze differenti fra i gruppi britannico e himba studiati. #cite(<coloreDavis2021>, form: "prose") hanno confrontato bambini di quattro contesti culturali: il rapporto fra genere e preferenza per il rosa variava fra i campioni. Questi risultati non forniscono una regola universale per scegliere una palette.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con « hanno rilevato preferenze cromatiche diverse nei due gruppi di adulti da loro studiati, britannici e himba (un popolo dell'Africa sudoccidentale)..»
+]
+*Preferire.* Quanto piace a questa persona, in questa situazione? #cite(<coloreTaylor2013>, form: "prose") #highlight(fill: rgb("FFF1A8"))[hanno osservato preferenze differenti fra i gruppi britannico e himba studiati.] #cite(<coloreDavis2021>, form: "prose") hanno confrontato bambini di quattro contesti culturali: il rapporto fra genere e preferenza per il rosa variava fra i campioni. Questi risultati non forniscono una regola universale per scegliere una palette.
 
 *Usare.* Il colore aiuta a trovare un comando e a capire uno stato? Osserva lo svolgimento dello stesso compito con il pubblico previsto: comprensione, errori e riconoscimento delle azioni richiedono prove sull’interfaccia.
 
-*Verificare.* Distingui messaggio, gusto e prestazione. Mantieni testo, simboli o forme per comunicare stati ed errori anche quando la sola differenza cromatica non viene riconosciuta.#website-note([_Taylor_ et al. (2013).], "https://doi.org/10.1037/a0030273")#website-note([_Davis_ et al. (2021).], "https://doi.org/10.1111/cdev.13528")#website-note([_Clarke_ e _Costall_ (2008).], "https://doi.org/10.1002/col.20435")
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Verifica separatamente che cosa le persone capiscono, quali colori preferiscono e come riescono a svolgere il compito. Per rendere riconoscibili gli stati e gli errori anche quando i colori si confondono, affianca alla tinta un testo, un simbolo o una forma. Per esempio, accanto a un campo con il bordo rosso, indica con un messaggio che cosa va corretto.»
+]
+*Verificare.* #highlight(fill: rgb("FFF1A8"))[Distingui messaggio, gusto e prestazione. Mantieni testo, simboli o forme per comunicare stati ed errori anche quando la sola differenza cromatica non viene riconosciuta.]#website-note([_Taylor_ et al. (2013).], "https://doi.org/10.1037/a0030273")#website-note([_Davis_ et al. (2021).], "https://doi.org/10.1111/cdev.13528")#website-note([_Clarke_ e _Costall_ (2008).], "https://doi.org/10.1002/col.20435")
 
 == Interaction of Color: lo studio di _Albers_
 
@@ -639,7 +921,7 @@ Gli esercizi di _Albers_ mostrano che l’aspetto di un colore cambia in relazio
 
 Questa relatività percettiva distingue il colore fisico dalla sua apparenza nella composizione. Non implica che la percezione sia soltanto soggettiva o che il colore sia sempre ingannevole.
 
-_Interaction of Color_ propone confronti pratici per sviluppare la sensibilità alle relazioni cromatiche. Osservare e modificare gli accostamenti è parte del metodo di apprendimento (@fig-colore-228).
+_Interaction of Color_ propone confronti pratici per sviluppare la sensibilità alle relazioni cromatiche. Osservare e modificare gli accostamenti è parte integrante del metodo di apprendimento (@fig-colore-228).
 
 #image-figure(path("/risorse-condivise/immagini/figure/colore/albers-interaction-of-color-copertina.png"),
   [Copertina di _Interaction of Color_ di _Josef Albers_.],
@@ -656,7 +938,15 @@ _Interaction of Color_ propone confronti pratici per sviluppare la sensibilità 
 _“I piccoli viola interni sono, di fatto, identici. Ma quello superiore sembra invece uguale al viola più chiaro sul fondo”_ @coloreAlbers2013.
 ]
 
-Confronta prima l’apparenza dei due campioni, poi verifica che il valore sia identico. Coprire temporaneamente gli sfondi aiuta a osservare la differenza fra il colore del campione e la sua apparenza. Nell’interfaccia, prova lo stesso testo o la stessa icona su superfici diverse (@fig-colore-229).#website-note([_Josef Albers_, Interazione del colore, Il Saggiatore, 2013; originale 1963.], "https://www.ilsaggiatore.com/libro/interazione-del-colore")<nota-url-05-30>
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Osserva i due piccoli rettangoli viola della tavola di _Albers_. Quello in alto risalta sul fondo scuro e sembra più chiaro di quello in basso, circondato da un viola più chiaro. I due rettangoli sono dello stesso colore. Per confrontarli, copri i fondi con un foglio neutro e lascia visibile una porzione di ciascun rettangolo. In un’interfaccia puoi fare una prova simile usando la stessa icona, con lo stesso colore, su due superfici diverse.»
+]
+#highlight(fill: rgb("FFF1A8"))[Confronta prima l’apparenza dei due campioni, poi verifica che il valore sia identico. Coprire temporaneamente gli sfondi aiuta a osservare la differenza fra il colore del campione e la sua apparenza. Nell’interfaccia, prova lo stesso testo o la stessa icona su superfici diverse] (@fig-colore-229).#website-note([_Josef Albers_, Interazione del colore, Il Saggiatore, 2013; originale 1963.], "https://www.ilsaggiatore.com/libro/interazione-del-colore")<nota-url-05-30>
 
 // Tavola originale a piena gabbia, senza note: la caption resta nativa.
 #image-figure(path("/risorse-condivise/immagini/figure/colore/albers-superfici-sovrapposte.svg"),
@@ -670,9 +960,25 @@ Confronta prima l’apparenza dei due campioni, poi verifica che il valore sia i
 
 === Gli sfondi invertiti
 
-Osservando con attenzione il tratto superiore che unisce le due X possiamo dedurre che il colore è uguale. Sembrano esserci soltanto due colori sulla tavola, ma in realtà ce ne sono tre, perché il colore della X non è uguale né a quello del rettangolo a sinistra, né a quello di destra @coloreAlbers2013.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nella tavola delle due X, quella in alto sembra tendere al verde sul fondo giallo, mentre quella in basso sembra più gialla sul fondo verdastro. Segui il piccolo tratto sul bordo destro, dove la linea passa da uno sfondo all’altro. Le due X sono tracciate con lo stesso colore. La tavola usa quindi tre colori, uno per ciascuno sfondo e un terzo per entrambe le X.»
+]
+#highlight(fill: rgb("FFF1A8"))[Osservando con attenzione il tratto superiore che unisce le due X possiamo dedurre che il colore è uguale. Sembrano esserci soltanto due colori sulla tavola, ma in realtà ce ne sono tre, perché il colore della X non è uguale né a quello del rettangolo a sinistra, né a quello di destra] @coloreAlbers2013.
 
-Segui il campione continuo attraverso i due sfondi oppure maschera una parte della tavola. L’esercizio rende visibile il rapporto fra campione e contesto. Quando cambi una superficie del progetto, ricontrolla anche gli elementi che vi si sovrappongono (@fig-colore-230).#footnote(<nota-url-05-30>)
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Confronta le due X prima con gli sfondi visibili, poi lasciando scoperto soltanto un breve tratto di ciascuna. Osserva quanto cambia la loro apparenza quando riduci la porzione di sfondo che vedi. Lo stesso accade in un’interfaccia. Se cambi lo sfondo di una scheda, controlla di nuovo che testo e icone risaltino sulla nuova superficie.»
+]
+#highlight(fill: rgb("FFF1A8"))[Segui il campione continuo attraverso i due sfondi oppure maschera una parte della tavola. L’esercizio rende visibile il rapporto fra campione e contesto. Quando cambi una superficie del progetto, ricontrolla anche gli elementi che vi si sovrappongono] (@fig-colore-230).#website-note([_Josef Albers_, Interazione del colore, Il Saggiatore, 2013; originale 1963.], "https://www.ilsaggiatore.com/libro/interazione-del-colore")
 
 // Tavola originale a piena gabbia, senza note: la caption resta nativa.
 #document-plate[
@@ -687,11 +993,35 @@ Segui il campione continuo attraverso i due sfondi oppure maschera una parte del
 
 === La sottrazione del colore
 
-Focalizzando lo sguardo sui singoli rettangoli interni, si nota come i loro colori siano differenti, benché a prima vista non sembri così.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nella tavola di _Albers_ ci sono due piccoli rettangoli, uno sul fondo rosso e l’altro sul fondo blu. A prima vista possono sembrare più simili di quanto appaiano quando li osservi senza i rispettivi sfondi.»
+]
+#highlight(fill: rgb("FFF1A8"))[Focalizzando lo sguardo sui singoli rettangoli interni, si nota come i loro colori siano differenti, benché a prima vista non sembri così.]
 
-I colori di fondo sembrano sottrarsi al colore dei piccoli rettangoli sovrapposti @coloreAlbers2013.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «_Albers_ parla di «sottrazione» perché ogni fondo modifica il colore che percepiamo nel rettangolo sovrapposto. I due fondi spostano l’apparenza dei campioni in direzioni che possono farli sembrare più simili.»
+]
+#highlight(fill: rgb("FFF1A8"))[I colori di fondo sembrano sottrarsi al colore dei piccoli rettangoli sovrapposti] @coloreAlbers2013.
 
-Qui «sottrazione» descrive una relazione percettiva fra campioni e sfondi. Non è la sintesi sottrattiva degli inchiostri CMYK. Confronta separatamente i campioni interni e poi torna all’insieme per osservare come cambia il giudizio sull’accostamento (@fig-colore-231).#footnote(<nota-url-05-30>)
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Confronta i due rettangoli al centro, poi guarda il bordo destro, dove i colori dei campioni sono accostati con gli sfondi scambiati. Puoi anche coprire i fondi lasciando visibile una porzione di ciascun rettangolo. L’esercizio riguarda il modo in cui lo sfondo cambia il colore percepito. Nella stampa CMYK, invece, si parla di sottrazione perché gli inchiostri assorbono parte della luce.»
+]
+#highlight(fill: rgb("FFF1A8"))[Qui «sottrazione» descrive una relazione percettiva fra campioni e sfondi. Non è la sintesi sottrattiva degli inchiostri CMYK. Confronta separatamente i campioni interni e poi torna all’insieme per osservare come cambia il giudizio sull’accostamento] (@fig-colore-231).#website-note([_Josef Albers_, Interazione del colore, Il Saggiatore, 2013; originale 1963.], "https://www.ilsaggiatore.com/libro/interazione-del-colore")
 
 // Tavola originale a piena gabbia, senza note: la caption resta nativa.
 #image-figure(path("/risorse-condivise/immagini/figure/colore/albers-campi-cromatici-quadrati.svg"),
@@ -706,11 +1036,35 @@ Qui «sottrazione» descrive una relazione percettiva fra campioni e sfondi. Non
 
 === Il contrasto successivo
 
-Fissate per circa 30 secondi il punto nel cerchio rosso, poi spostate lo sguardo sul cerchio bianco. Può comparire un’immagine residua di tonalità verde o azzurro-verde.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Fissa per circa 30 secondi il punto nero al centro del cerchio rosso in alto. Sposta subito lo sguardo sul punto nero del cerchio bianco in basso. Sul bianco può apparire per qualche istante una macchia verde o azzurro-verde con la forma del cerchio rosso. È l’immagine residua.»
+]
+#highlight(fill: rgb("FFF1A8"))[Fissate per circa 30 secondi il punto nel cerchio rosso, poi spostate lo sguardo sul cerchio bianco. Può comparire un’immagine residua di tonalità verde o azzurro-verde.]
 
-L’effetto dipende dall’adattamento del sistema visivo allo stimolo e dai meccanismi che elaborano le differenze cromatiche. Non significa che singole cellule “leggano” rosso, verde e blu come i pixel di uno schermo: la percezione nasce dall’elaborazione combinata dei segnali.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Durante la fissazione del cerchio rosso, il sistema visivo si adatta al colore. L’adattamento dura ancora per qualche istante dopo che lo sguardo si sposta sul cerchio bianco. Per questo una parte del cerchio può apparire colorata.»
+]
+#highlight(fill: rgb("FFF1A8"))[L’effetto dipende dall’adattamento del sistema visivo allo stimolo e dai meccanismi che elaborano le differenze cromatiche. Non significa che singole cellule “leggano” rosso, verde e blu come i pixel di uno schermo: la percezione nasce dall’elaborazione combinata dei segnali.]
 
-Il contrasto simultaneo riguarda colori presenti nello stesso momento; quello successivo emerge dopo l’esposizione a uno stimolo. Nell’esercizio conta quindi anche la sequenza di osservazione, oltre ai colori e allo sfondo (@fig-colore-232).
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nella tavola dei rettangoli, lo sfondo cambia l’aspetto del campione mentre li osservi insieme. È il contrasto simultaneo. Nell’esercizio dei cerchi, invece, il rosso guardato per primo influenza ciò che vedi dopo sul bianco. È il contrasto successivo. Per osservarlo, conta quindi l’ordine in cui guardi i due cerchi.»
+]
+#highlight(fill: rgb("FFF1A8"))[Il contrasto simultaneo riguarda colori presenti nello stesso momento; quello successivo emerge dopo l’esposizione a uno stimolo. Nell’esercizio conta quindi anche la sequenza di osservazione, oltre ai colori e allo sfondo] (@fig-colore-232).
 
 // Esercizio schematico compatto in una colonna, con caption nativa.
 #image-figure(path("/risorse-condivise/immagini/figure/colore/albers-forma-colore-sfondo.svg"),
@@ -769,9 +1123,25 @@ Le quote riguardano aree visive e non garantiscono leggibilità o gerarchia. Nel
 
 === Lasciati ispirare dalla natura
 
-Osserva l’armonia e il contrasto dei colori della natura per trovare ispirazione per le tue palette.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Quando cerchi un punto di partenza per una palette, osserva i colori di un paesaggio o di un dettaglio naturale. Nota quali tinte si ripetono, quali si fondono con lo sfondo e quali risaltano. Questi rapporti possono suggerirti quali colori usare come base e quali riservare agli accenti.»
+]
+#highlight(fill: rgb("FFF1A8"))[Osserva l’armonia e il contrasto dei colori della natura per trovare ispirazione per le tue palette.]
 
-Dall’immagine ricava una prima selezione, poi assegna superficie, testo e accento. Provali nei componenti: un accostamento efficace nella fotografia può richiedere modifiche per rendere leggibili informazioni e controlli (@fig-colore-235).
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Scegli alcuni colori dell’immagine e prova ad assegnare a ciascuno un ruolo, per esempio lo sfondo, il testo o un dettaglio da mettere in risalto. Applica poi la palette a una schermata. Se il testo si perde sul fondo o un pulsante è difficile da individuare, adatta i colori mantenendo il legame con l’immagine di partenza.»
+]
+#highlight(fill: rgb("FFF1A8"))[Dall’immagine ricava una prima selezione, poi assegna superficie, testo e accento. Provali nei componenti: un accostamento efficace nella fotografia può richiedere modifiche per rendere leggibili informazioni e controlli] (@fig-colore-235).
 
 #image-figure(path("/risorse-condivise/immagini/figure/colore/palette-ghiaccio-foresta-deserto-fiori.png"),
   [Palette cromatiche ricavate da ghiaccio, foresta, deserto e fiori.],
@@ -783,13 +1153,45 @@ Dall’immagine ricava una prima selezione, poi assegna superficie, testo e acce
 
 === Scegli il contrasto in base al contesto
 
-Il testo deve distinguersi chiaramente dallo sfondo. Nero su bianco può essere una scelta efficace; un grigio scuro può rendere il tono visivo più morbido, purché mantenga un contrasto adeguato.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Su fondo bianco, il nero offre un contrasto elevato e può essere una scelta efficace. Se cerchi un effetto visivo più morbido, prova un grigio scuro. Misura il contrasto di entrambe le combinazioni e osserva come si leggono nella schermata.»
+]
+#highlight(fill: rgb("FFF1A8"))[Il testo deve distinguersi chiaramente dallo sfondo. Nero su bianco può essere una scelta efficace; un grigio scuro può rendere il tono visivo più morbido, purché mantenga un contrasto adeguato.]
 
-Il comfort dipende anche da luminosità dello schermo, ambiente, dimensione dei caratteri e condizioni di visione. Verifica le combinazioni nel contesto d’uso e conserva i rapporti richiesti dalle WCAG.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «La sensazione di comfort può cambiare con la luminosità dello schermo, la luce dell’ambiente, la dimensione dei caratteri e le condizioni di visione. Prova il testo in condizioni simili a quelle d’uso e verifica che ogni combinazione rispetti le soglie di contrasto delle WCAG.»
+]
+#highlight(fill: rgb("FFF1A8"))[Il comfort dipende anche da luminosità dello schermo, ambiente, dimensione dei caratteri e condizioni di visione. Verifica le combinazioni nel contesto d’uso e conserva i rapporti richiesti dalle WCAG.]
 
-Le alternative mostrate sono punti di partenza da valutare, non una regola che vieta il nero puro.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Usa i campioni della figura per confrontare il nero puro con altre tonalità scure. Scegli la combinazione che si adatta al progetto e mantiene un contrasto sufficiente con lo sfondo.»
+]
+#highlight(fill: rgb("FFF1A8"))[Le alternative mostrate sono punti di partenza da valutare, non una regola che vieta il nero puro.]
 
-Al livello AA, le WCAG 2.2 richiedono almeno 4,5:1 per il testo ordinario e 3:1 per il testo grande. Le informazioni visive necessarie a riconoscere controlli, stati e grafici richiedono 3:1 rispetto ai colori adiacenti, con le eccezioni dei criteri. Le dimensioni del disegno non certificano da sole il testo grande (@fig-colore-236) @coloreWcag22.#website-note([W3C, WCAG 2.2, criterio 1.4.3, Contrasto (minimo).], "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html")#website-note([W3C, WCAG 2.2, criterio 1.4.11, Contrasto non testuale.], "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html")
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Al livello AA, le WCAG 2.2 richiedono di norma almeno 4,5:1 tra il testo e lo sfondo. Per il testo grande la soglia è 3:1. Per applicarla, controlla dimensione e peso dei caratteri così come appaiono nell’interfaccia, secondo la definizione delle WCAG. I segnali visivi necessari per riconoscere un controllo, capirne lo stato o leggere un grafico devono raggiungere almeno 3:1 rispetto ai colori adiacenti, salvo le eccezioni previste dai criteri.»
+]
+#highlight(fill: rgb("FFF1A8"))[Al livello AA, le WCAG 2.2 richiedono almeno 4,5:1 per il testo ordinario e 3:1 per il testo grande. Le informazioni visive necessarie a riconoscere controlli, stati e grafici richiedono 3:1 rispetto ai colori adiacenti, con le eccezioni dei criteri. Le dimensioni del disegno non certificano da sole il testo grande] (@fig-colore-236) @coloreWcag22.#website-note([W3C, WCAG 2.2, criterio 1.4.3, Contrasto (minimo).], "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html")#website-note([W3C, WCAG 2.2, criterio 1.4.11, Contrasto non testuale.], "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html")
 
 #image-figure(path("/risorse-condivise/immagini/figure/colore/alternative-nero-puro.png"),
   [Alternative al nero puro per il testo su fondo chiaro.],
@@ -818,10 +1220,20 @@ Nell’interfaccia, ombre leggermente tonalizzate possono contribuire alla coere
 
 === La stessa interfaccia in chiaro e scuro
 
-Nel passaggio fra tema chiaro e scuro conserva il ruolo dei colori e rivedine i valori. Superfici, testo, azioni e stati devono restare distinguibili. Una semplice inversione può alterare contrasto, accenti e percezione della profondità (@fig-colore-238).#website-note([IBM Carbon, Themes; documentazione.], "https://www.carbondesignsystem.com/building-blocks/foundations/themes/overview")
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Quando adatti una schermata dal tema chiaro a quello scuro, conserva la funzione di ogni colore e scegli valori adatti al nuovo sfondo. Controlla che i testi si leggano, che azioni e stati si distinguano e che le superfici sovrapposte mantengano una gerarchia riconoscibile. Una semplice inversione può cambiare queste relazioni anche quando il layout è identico.»
+  #linebreak()
+ 
+]
+#highlight(fill: rgb("FFF1A8"))[Nel passaggio fra tema chiaro e scuro conserva il ruolo dei colori e rivedine i valori. Superfici, testo, azioni e stati devono restare distinguibili. Una semplice inversione può alterare contrasto, accenti e percezione della profondità] (@fig-colore-238).#website-note([IBM Carbon, Themes; documentazione.], "https://www.carbondesignsystem.com/building-blocks/foundations/themes/overview")
 
 #image-figure(path("/risorse-condivise/immagini/figure/colore/carbon-temi-white-gray-100.svg"),
-  [Carbon Design System: lo stesso select nei temi White e Gray 100. I numeri nell’immagine rimandano ai ruoli documentati da IBM. Immagine ufficiale.],
+  [#highlight(fill: rgb("FFF1A8"))[Carbon Design System: lo stesso select nei temi White e Gray 100. I numeri nell’immagine rimandano ai ruoli documentati da IBM. Immagine ufficiale.]],
   format: "due-colonne",
   rights: [© IBM.],
   alt: "Carbon Design System: lo stesso select nei temi White e Gray 100. I numeri nell’immagine rimandano ai ruoli documentati da IBM. Immagine ufficiale.",
@@ -829,13 +1241,37 @@ Nel passaggio fra tema chiaro e scuro conserva il ruolo dei colori e rivedine i 
   id: "fig-colore-238",
 )
 
-Carbon conserva nomi e ruoli dei token e ne cambia i valori. Le annotazioni confrontano testo, icona, bordo, campo e sfondo.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «In Carbon, i token sono nomi che identificano un ruolo, come il colore del testo principale o dello sfondo della pagina. Il nome e il ruolo restano gli stessi nei due temi, mentre cambia il valore assegnato. Nel menu a tendina della figura, segui le annotazioni per confrontare testo, icona, bordo, campo e sfondo.»
+]
+#highlight(fill: rgb("FFF1A8"))[Carbon conserva nomi e ruoli dei token e ne cambia i valori. Le annotazioni confrontano testo, icona, bordo, campo e sfondo.]
 
-La scelta dipende dal contesto d’uso e dall’obiettivo. Nero e grigi neutri si abbinano a molte palette; i grigi tonalizzati possono rafforzare la coerenza del prodotto. In entrambi i casi il contrasto con lo sfondo va verificato.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Per scegliere i neutri, parti dall’effetto che cerchi nella schermata. Nero e grigi neutri si accostano facilmente a palette diverse. Un grigio con una lieve sfumatura della tinta dominante può legare meglio le superfici al resto della palette. In entrambi i casi, misura il contrasto con il fondo effettivo.»
+]
+#highlight(fill: rgb("FFF1A8"))[La scelta dipende dal contesto d’uso e dall’obiettivo. Nero e grigi neutri si abbinano a molte palette; i grigi tonalizzati possono rafforzare la coerenza del prodotto. In entrambi i casi il contrasto con lo sfondo va verificato.]
 
 === Dal riferimento alla schermata
 
-Una fotografia suggerisce una prima direzione cromatica. Seleziona poi i valori in base all’uso: superficie, testo, azione e accento. Nel caso simulato di _Sara_, il pulsante deve rendere chiara la conferma dello spostamento dell’appuntamento (@fig-colore-239).#footnote[
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Parti da una fotografia per scegliere una famiglia di colori. Adatta poi i campioni alla funzione che avranno nella schermata, distinguendo il colore delle superfici, dei testi, delle azioni e degli accenti. Nel caso simulato di _Sara_, il pulsante deve distinguersi e la scritta «Conferma spostamento» deve essere facile da leggere.»
+]
+#highlight(fill: rgb("FFF1A8"))[Una fotografia suggerisce una prima direzione cromatica. Seleziona poi i valori in base all’uso: superficie, testo, azione e accento. Nel caso simulato di _Sara_, il pulsante deve rendere chiara la conferma dello spostamento dell’appuntamento] (@fig-colore-239).#footnote[
   #set text(size: 7.5pt, variations: (opsz: 9))
   Adobe Color, ruota cromatica e costruzione della palette.
   #text(size: 7pt)[#link("https://color.adobe.com/create/color-wheel")]
@@ -845,16 +1281,34 @@ Una fotografia suggerisce una prima direzione cromatica. Seleziona poi i valori 
 ]
 
 #image-figure(path("/risorse-condivise/immagini/figure/colore/palette-fotografia-schermata-sara.svg"),
-  [Riferimento fotografico, palette adattata e confronto sul testo del pulsante. Caso simulato.],
+  [#highlight(fill: rgb("FFF1A8"))[Riferimento fotografico, palette adattata e confronto sul testo del pulsante. Caso simulato.]],
   format: "due-colonne",
   alt: "Riferimento fotografico, palette adattata e confronto sul testo del pulsante. Caso simulato.",
   width: 137mm,
   id: "fig-colore-239",
 )
 
-La palette è ispirata alla fotografia e adattata ai ruoli. La coppia iniziale bianco/verde chiaro è poco leggibile; un testo scuro aumenta il contrasto mantenendo la stessa campitura.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nel primo pulsante, il testo bianco si distingue poco dal fondo verde chiaro e il contrasto è di 1,53:1. Nella versione rivista, il fondo resta lo stesso e il testo diventa scuro. Il contrasto sale a 9,82:1, così la scritta «Conferma spostamento» risulta più leggibile.»
+  #linebreak()
+  Per la didascalia, usare «Nel caso simulato di _Sara_, la fotografia orienta la palette. Il confronto mostra come cambia il contrasto della scritta del pulsante quando si passa dal bianco a un colore scuro.»
+]
+#highlight(fill: rgb("FFF1A8"))[La palette è ispirata alla fotografia e adattata ai ruoli. La coppia iniziale bianco/verde chiaro è poco leggibile; un testo scuro aumenta il contrasto mantenendo la stessa campitura.]
 
-Per il testo, il colore è una parte della decisione: forma delle lettere, peso, dimensione e spaziatura determinano insieme come la gerarchia diventa leggibile. Queste relazioni guidano il passaggio alla tipografia del prototipo.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Il contrasto aiuta a leggere il testo. Le scelte tipografiche rendono più chiara la gerarchia del prototipo. La forma delle lettere, il peso, le dimensioni e la spaziatura aiutano a distinguere a colpo d’occhio titoli, informazioni e comandi.»
+]
+#highlight(fill: rgb("FFF1A8"))[Per il testo, il colore è una parte della decisione: forma delle lettere, peso, dimensione e spaziatura determinano insieme come la gerarchia diventa leggibile. Queste relazioni guidano il passaggio alla tipografia del prototipo.]
 
 // Chiusura del capitolo nella gabbia ordinaria.
 #set page(columns: 2)

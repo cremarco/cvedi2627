@@ -13,9 +13,25 @@
 // Fonte 198:3080 · C03 · 138 · SX — Ideazione: percezione e Gestalt
 == Ideazione: percezione e Gestalt
 
-*L’ideazione sviluppa più risposte al problema emerso dalla ricerca. Le alternative riguardano il funzionamento, i contenuti e la forma dell’esperienza.*
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Durante l’ideazione, si esplorano più soluzioni al problema individuato nella ricerca. Ogni proposta chiarisce che cosa può fare la persona, quali informazioni le servono e come presentarle nell’interfaccia.»
+]
+#highlight(fill: rgb("FFF1A8"))[*L’ideazione sviluppa più risposte al problema emerso dalla ricerca. Le alternative riguardano il funzionamento, i contenuti e la forma dell’esperienza.*]
 
-Nel caso di _Sara_, per esempio, si possono confrontare diversi modi di mostrare la data, la disponibilità e la conferma di una prenotazione. Per motivare queste scelte occorre capire come le persone percepiscono gli elementi, li raggruppano e riconoscono le relazioni fra loro. Il linguaggio visivo aiuta a dare forma alle proposte e a discuterle.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nel caso simulato del capitolo sulla ricerca, _Sara_ torna al calendario prima di confermare un appuntamento. Forse vuole ricontrollare data e ora. Da questa ipotesi partono due proposte da confrontare. Una mostra gli orari disponibili accanto al giorno selezionato e mantiene visibile la scelta nel calendario. L’altra riunisce data e ora in un riepilogo subito prima della conferma. I principi della Gestalt aiutano a decidere quali elementi avvicinare perché si leggano come informazioni dello stesso appuntamento.»
+]
+#highlight(fill: rgb("FFF1A8"))[Nel caso di _Sara_, per esempio, si possono confrontare diversi modi di mostrare la data, la disponibilità e la conferma di una prenotazione. Per motivare queste scelte occorre capire come le persone percepiscono gli elementi, li raggruppano e riconoscono le relazioni fra loro. Il linguaggio visivo aiuta a dare forma alle proposte e a discuterle.]
 
 Confrontare più alternative permette di scegliere quali sviluppare nei prototipi. Percezione, gerarchia e colore diventano così strumenti del progetto: le scelte vanno poi verificate osservando come le persone comprendono e usano l’interfaccia.
 
@@ -76,6 +92,15 @@ Nelle interfacce, la disposizione suggerisce quali elementi sono collegati: un�
 // Fonte 3894:2081 · C03 · 143 · DX — Le nove leggi della Gestalt
 === Le nove leggi
 
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Inserire prima dell’elenco «Le leggi della Gestalt sono nove e descrivono alcune tendenze con cui organizziamo ciò che vediamo.»
+]
+
 - Vicinanza (proximity)
 - Somiglianza (similarity)
 - Destino comune (common fate)
@@ -86,7 +111,15 @@ Nelle interfacce, la disposizione suggerisce quali elementi sono collegati: un�
 - Esperienza passata (past experience)
 - Regione comune (common region)
 
-La regione comune fu proposta da _Stephen E. Palmer_ nel 1992, dopo le formulazioni classiche della Gestalt @gestalt-palmer1992.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «La regione comune, ultima nell’elenco, fu proposta da _Stephen E. Palmer_ nel 1992 come principio di raggruppamento percettivo #cite(<gestalt-palmer1992>, supplement: [p. 438]). La sua formulazione risale a quasi settant’anni dopo gli studi classici di _Max Wertheimer_ @gestalt-wertheimer1923.»
+]
+#highlight(fill: rgb("FFF1A8"))[La regione comune fu proposta da _Stephen E. Palmer_ nel 1992, dopo le formulazioni classiche della Gestalt] @gestalt-palmer1992.
 
 
 ]
@@ -117,7 +150,7 @@ La vicinanza è un fattore di organizzazione percettiva: quando osserviamo più 
 
 Conta il rapporto fra le distanze, non una misura valida in ogni situazione. Per rendere distinguibili alcuni gruppi, lo spazio interno a ciascun gruppo dovrebbe essere inferiore a quello che lo separa dai gruppi vicini. Se tutti gli intervalli diventano simili, la suddivisione perde evidenza; se un elemento si avvicina a un altro insieme, può cambiare l’appartenenza che gli attribuiamo.
 
-La vicinanza non determina da sola ogni lettura. Colore, forma, allineamento e contenitori possono sostenere lo stesso raggruppamento oppure suggerirne uno diverso. Per comprendere un esempio, osserva quali elementi sembrano appartenersi e quali distanze producono questa impressione. Confronta poi configurazioni in cui cambiano soltanto gli intervalli: mantenere costanti dimensione, numero e aspetto degli elementi permette di riconoscere meglio il contributo della vicinanza (@fig-gestalt-75–#ref(<fig-gestalt-83>, supplement: none)).
+La vicinanza non determina da sola ogni lettura. Colore, forma, allineamento e contenitori possono sostenere lo stesso raggruppamento oppure suggerirne uno diverso. Per comprendere come funziona, individua gli elementi che ti sembrano formare un gruppo e quali distanze producono questa impressione. Confronta poi configurazioni in cui cambiano soltanto gli intervalli: mantenere costanti dimensione, numero e aspetto degli elementi permette di riconoscere meglio il contributo della vicinanza (@fig-gestalt-75–#ref(<fig-gestalt-83>, supplement: none)).
 
  @gestalt-wertheimer1923#website-note([_Wertheimer_ (1923).], "https://doi.org/10.1007/BF00410640")
 
@@ -145,7 +178,7 @@ Nel dettaglio di Netflix, «La mia lista» è vicina alla propria riga di locand
 // Fonte 3864:2018 · C03 · 147 · DX — Vicinanza: logo reale
 === Vicinanza: il logo Unilever
 
-I piccoli simboli sono separati, ma le distanze ridotte li fanno leggere come un insieme compatto. Prima riconosciamo la U, poi possiamo esplorare i singoli elementi. La vicinanza contribuisce all’unità del marchio insieme al colore comune e al contorno complessivo.
+Nel logo Unilever preso in esame i piccoli simboli sono separati, ma le distanze ridotte li fanno leggere come un insieme compatto. Prima riconosciamo la U, poi possiamo esplorare i singoli elementi. La vicinanza contribuisce all’unità del marchio insieme al colore comune e al contorno complessivo.
 
 #image-figure(path("/risorse-condivise/immagini/figure/gestalt/05-vicinanza-logo-reale.svg"),
   [Unilever: simboli distinti riuniti nella sagoma di una U.#website-note([Marchio Unilever. Fonte: Unilever, The logo. Lettura percettiva a fini.], "https://www.unilever.pk/our-company/the-logo/")],
@@ -286,7 +319,7 @@ Nella schermata di AppFlowy, le attività condividono il formato della scheda. L
 // Fonte 3864:2045 · C03 · 156 · SX — Somiglianza: logo reale
 === Somiglianza: il logo Audi
 
-I quattro anelli condividono forma circolare, dimensione e spessore. La ripetizione rende immediata la loro appartenenza allo stesso insieme, anche prima di conoscere il significato storico del marchio. La sovrapposizione e l’allineamento rafforzano questo raggruppamento.
+I quattro anelli del logo Audi condividono forma circolare, dimensione e spessore. La ripetizione rende immediata la loro appartenenza allo stesso insieme, anche prima di conoscere il significato storico del marchio. La sovrapposizione e l’allineamento contribuiscono a rafforzare  questo raggruppamento.
 
 #image-figure(path("/risorse-condivise/immagini/figure/gestalt/14-somiglianza-logo-reale.png"),
   [Audi: quattro anelli con forma e peso visivo comuni.#website-note([© AUDI AG. Audi logo: New Corporate Design, immagine AL090142.], "https://www.audi.com/en/photos/detail/audi-logo-new-corporate-design-1282")],
@@ -433,7 +466,7 @@ In una pagina stampata il fenomeno può essere documentato attraverso una sequen
 
 Nel web, il movimento condiviso può rendere riconoscibile una relazione durante una transizione. Un pannello e le sue voci possono aprirsi insieme; in un carousel, immagine, titolo e didascalia possono spostarsi mantenendo le proprie posizioni reciproche.
 
-I tre screenshot mostrano stati reali del carousel Bootstrap. La documentazione descrive la transizione animata fra le slide; le immagini statiche ne documentano gli stati, ma non dimostrano direzione, velocità o simultaneità del movimento. Per osservare il destino comune occorre riprodurre la transizione. I contenuti devono restare comprensibili anche con le animazioni ridotte.
+I tre screenshot portati ad esempio mostrano stati reali del carousel Bootstrap. La documentazione descrive la transizione animata fra le slide; le immagini statiche ne documentano gli stati, ma non dimostrano direzione, velocità o simultaneità del movimento. Per osservare il destino comune occorre riprodurre la transizione. I contenuti devono restare comprensibili anche con le animazioni ridotte.
 
 #image-figure(path("/risorse-condivise/immagini/figure/gestalt/24-destino-comune-nel-web.svg"),
   [Bootstrap: tre stati reali dello stesso carousel, in ordine di acquisizione. Per osservare il movimento condiviso occorre vedere la transizione animata.#website-note([Bootstrap 5.3, Carousel with captions · 14 ottobre 2026. Documentazione CC.], "https://getbootstrap.com/docs/5.3/components/carousel/")],
@@ -450,7 +483,7 @@ I tre screenshot mostrano stati reali del carousel Bootstrap. La documentazione 
 // Fonte 3864:2073 · C03 · 165 · DX — Destino comune: logo reale
 === Destino comune: il logo Google Dots
 
-Nel segmento “Thinking” i quattro punti ruotano nello stesso senso attorno a un centro comune, mantenendo quasi costanti distanze e configurazione. Il cambiamento coordinato li fa leggere come un unico gruppo in movimento. È una rotazione comune, non una traslazione con vettori paralleli. I fotogrammi documentano la sequenza; per osservare il movimento occorre aprire il filmato originale.
+Nel celebre segmento “Thinking” di Google Dots i quattro punti ruotano nello stesso senso attorno a un centro comune, mantenendo quasi costanti distanze e configurazione. Il cambiamento coordinato li fa leggere come un unico gruppo in movimento. È una rotazione comune, non una traslazione con vettori paralleli. I fotogrammi documentano la sequenza; per osservare il movimento occorre aprire il filmato originale.
 
 #image-figure(path("/risorse-condivise/immagini/figure/gestalt/25-destino-comune-logo-reale.svg"),
   [Google Dots, stato Thinking: viste complete e dettagli della stessa rotazione comune, a 6,5000 s; 6,6167 s; 6,7667 s.#website-note([Google, Evolving the Google Identity, 2015. Fotogrammi dall’animazione.], "https://design.google/library/evolving-google-identity")],
@@ -581,7 +614,15 @@ La buona continuazione va distinta dalla semplice connessione: una linea che col
 
 Nel web, allineamenti e percorsi regolari possono suggerire la prosecuzione di una serie e sostenere l’ordine delle informazioni. Un tracciato curvo può attraversare più aree mantenendo una direzione riconoscibile, anche quando testi e immagini cambiano posizione.
 
-Nel progetto Api&Bio, il percorso puntinato prosegue fra le illustrazioni. La continuità del tratto mette in relazione parti distanti della composizione. Lo screenshot documenta una soluzione storica del progetto, non il suo funzionamento attuale. Il percorso visivo suggerito non dimostra da solo l’ordine effettivo di lettura degli utenti.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nello screenshot storico di Api&Bio, una linea curva e puntinata attraversa la pagina. La curva invita a passare con lo sguardo da un’illustrazione all’altra e unisce così parti distanti della composizione. Per capire se le persone lo seguono davvero e in quale ordine leggono i contenuti, occorre osservare come usano la pagina.»
+]
+#highlight(fill: rgb("FFF1A8"))[Nel progetto Api&Bio, il percorso puntinato prosegue fra le illustrazioni. La continuità del tratto mette in relazione parti distanti della composizione. Lo screenshot documenta una soluzione storica del progetto, non il suo funzionamento attuale. Il percorso visivo suggerito non dimostra da solo l’ordine effettivo di lettura degli utenti.]
 
 #image-figure(path("/risorse-condivise/immagini/figure/gestalt/34-buona-continuazione-nel-web.png"),
   [Api&Bio, dettaglio dello screenshot storico: il tracciato curvo prosegue fra le illustrazioni. La vista completa è nella @fig-gestalt-110.],
@@ -598,7 +639,7 @@ Nel progetto Api&Bio, il percorso puntinato prosegue fra le illustrazioni. La co
 // Fonte 3864:2114 · C03 · 173 · DX — Buona continuazione: logo reale
 === Buona continuazione: il logo Coca-Cola
 
-Le curve e i raccordi della scrittura suggeriscono percorsi fluidi fra lettere e prolungamenti, anche nei punti più intrecciati. La buona continuazione contribuisce alla coesione del logotipo insieme alla familiarità con la parola. È una lettura della forma grafica: non descrive un percorso dello sguardo misurato.
+Prendendo in esame il logo Coca-Cola, vediamo come  curve e  raccordi della scrittura suggeriscono percorsi fluidi fra lettere e prolungamenti, anche nei punti più intrecciati. La buona continuazione contribuisce alla coesione del logotipo insieme alla familiarità con la parola. Resta inteso che si tratta di una lettura della forma grafica: non descrive un percorso dello sguardo misurato.
 
 #image-figure(path("/risorse-condivise/immagini/figure/gestalt/35-buona-continuazione-logo-reale.png"),
   [Coca-Cola: curve e raccordi suggeriscono percorsi continui nel logotipo.#website-note([Marchio Coca-Cola. Logotipo storico ideato da _Frank M. Robinson_. Fonte.], "https://www.coca-colacompany.com/about-us/history/coke-lore-trademark-chronology")],
@@ -698,7 +739,7 @@ Elementi disposti lungo un contorno chiuso o quasi chiuso tendono a essere organ
 
 La chiusura favorisce l’organizzazione di elementi che delimitano un’area o suggeriscono un contorno quasi completo. Archi separati, per esempio, possono apparire come parti di un cerchio anziché come frammenti indipendenti. La relazione dipende dalla disposizione dei tratti: spostarli o ruotarli può indebolire la figura d’insieme, anche quando numero, dimensione e forma dei singoli elementi restano invariati.
 
-Percepire una figura unitaria non significa necessariamente vedere tutti i bordi mancanti. Nella configurazione di _Kanizsa_, alcuni elementi induttori possono far apparire un triangolo con margini non disegnati: si parla di contorni illusori e di completamento modale. Se invece una superficie copre parte di un oggetto e lo percepiamo come continuo dietro l’ostacolo, il completamento è amodale: la parte nascosta non appare direttamente visibile.
+Percepire una figura unitaria non significa necessariamente vedere tutti i bordi mancanti. Nella configurazione di _Kanizsa_, ad esempio,  alcuni elementi induttori possono far apparire un triangolo con margini non disegnati: si parla di contorni illusori e di completamento modale. Se invece una superficie copre parte di un oggetto e lo percepiamo come continuo dietro l’ostacolo, il completamento è amodale: la parte nascosta non appare direttamente visibile.
 
 Questi fenomeni sono collegati all’organizzazione delle forme, ma non sono sinonimi. Per spiegare un esempio, chiediti se i frammenti delimitano un insieme, se compaiono margini illusori o se una parte viene interpretata come nascosta. Nel caso dei punti disposti in cerchio, lo schema mostra un contorno suggerito dalla disposizione. Il risultato non autorizza ad attribuire alla chiusura ogni immagine incompleta o ogni oggetto facilmente riconoscibile (@fig-gestalt-113–#ref(<fig-gestalt-121>, supplement: none)).
 
@@ -728,7 +769,7 @@ Lo screenshot reale della documentazione Bootstrap mostra uno spinner dal contor
 // Fonte 3864:2142 · C03 · 181 · DX — Chiusura: logo reale
 === Chiusura: il logo WWF
 
-Orecchie, occhi e zampe bastano a suggerire un panda. Il bianco della testa e del corpo non è delimitato ovunque da una linea: la percezione completa i contorni mancanti e ricostruisce una figura unitaria. Anche la conoscenza dell’animale contribuisce al riconoscimento.
+Nel logo WWF orecchie, occhi e zampe bastano a suggerire un panda. Il bianco della testa e del corpo non è delimitato ovunque da una linea: la percezione completa i contorni mancanti e ricostruisce una figura unitaria. Anche la conoscenza dell’animale contribuisce al riconoscimento.
 
 #image-figure(path("/risorse-condivise/immagini/figure/gestalt/43-chiusura-logo-reale.svg"),
   [WWF: il panda si completa oltre i tratti effettivamente disegnati.#website-note([WWF® e ©1986 Panda Symbol sono di proprietà di WWF. Tutti i diritti riservati.], "https://www.worldwildlife.org/about/history-of-wwfs-panda-logo/")],
@@ -867,7 +908,7 @@ Nella pagina iniziale di Wikipedia, il globo occupa il centro e i collegamenti a
 // Fonte 3864:2169 · C03 · 190 · SX — Simmetria: logo reale
 === Simmetria: il logo Volkswagen
 
-Le lettere V e W e il cerchio condividono un asse verticale. La corrispondenza fra lato destro e sinistro dà stabilità alla figura e aiuta a percepirla come un insieme ordinato. La simmetria riguarda la struttura dell’emblema, non la presenza di elementi identici affiancati.
+Nel logo Volkswagen le lettere V e W e il cerchio condividono un asse verticale. La corrispondenza fra lato destro e sinistro dà stabilità alla figura e aiuta a percepirla come un insieme ordinato. La simmetria riguarda la struttura dell’emblema, non la presenza di elementi identici affiancati.
 
 #image-figure(path("/risorse-condivise/immagini/figure/gestalt/52-simmetria-logo-reale.png"),
   [Volkswagen, 2019: un asse verticale organizza l’emblema.#website-note([© Volkswagen AG. Volkswagen unveils new brand design and logo,.], "https://www.volkswagen-newsroom.com/en/images/detail/volkswagen-unveils-new-brand-design-and-logo-30063")],
@@ -993,7 +1034,15 @@ L’organizzazione figura–sfondo riguarda il modo in cui attribuiamo forme e c
 
 Alcune configurazioni permettono letture alternative. Nel vaso di _Rubin_, il contorno può definire un vaso centrale oppure due profili laterali. Cambiando ciò che viene percepito come figura, cambia anche il significato attribuito agli stessi margini. Le letture possono alternarsi; non occorre affermare che tutte le persone le vedano con uguale facilità o che possano mantenere entrambe stabili nello stesso momento.
 
-Contrasto, dimensione relativa, contorni e contesto contribuiscono alla distinzione, ma nessun singolo segnale spiega ogni esempio. Lo spazio negativo di un marchio può diventare una forma riconoscibile quando il progetto ne definisce con precisione i margini. Per descrivere lo schema, indica quale area viene letta come figura e quale come sfondo; poi osserva se il rapporto può invertirsi. Evita di identificare automaticamente lo sfondo con il bianco e la figura con il colore più scuro (@fig-gestalt-132–#ref(<fig-gestalt-140>, supplement: none)).
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Per capire quale area emerge come figura, osserva insieme il contrasto, le dimensioni relative, i contorni e il contesto. In un marchio, anche lo spazio vuoto tra le lettere o le forme può diventare una figura se i suoi contorni delineano una sagoma riconoscibile. Quando analizzi un esempio, indica quale area percepisci come figura e quale come sfondo. Prova poi a invertire la lettura. Anche un’area chiara può emergere come figura.»
+]
+#highlight(fill: rgb("FFF1A8"))[Contrasto, dimensione relativa, contorni e contesto contribuiscono alla distinzione, ma nessun singolo segnale spiega ogni esempio. Lo spazio negativo di un marchio può diventare una forma riconoscibile quando il progetto ne definisce con precisione i margini. Per descrivere lo schema, indica quale area viene letta come figura e quale come sfondo; poi osserva se il rapporto può invertirsi. Evita di identificare automaticamente lo sfondo con il bianco e la figura con il colore più scuro] (@fig-gestalt-132–#ref(<fig-gestalt-140>, supplement: none)).
 
  @gestalt-rubin1915#website-note([_Rubin_ (1915).], "https://www.kb.dk/e-mat/dod/111408024790-bw.pdf")
 
@@ -1004,7 +1053,15 @@ Contrasto, dimensione relativa, contorni e contesto contribuiscono alla distinzi
 
 Nel web, contrasto, nitidezza e sovrapposizione possono distinguere il contenuto in primo piano dal contesto circostante. Una superficie che emerge davanti alla pagina suggerisce quale elemento richieda attenzione in quel momento.
 
-Nello screenshot di MDN Web Docs, il campo di ricerca rimane nitido mentre la pagina sottostante è oscurata e sfocata. Questa separazione visiva distingue figura e sfondo. La schermata non documenta da sola un comportamento modale: gestione del focus, tastiera e interazione con i contenuti sottostanti richiedono una verifica funzionale.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Per capire se la ricerca funziona come una finestra modale, provala nella pagina. Verifica dove va il focus all’apertura, se premendo Tab il focus rimane nell’area di ricerca e se è ancora possibile interagire con la pagina sottostante.»
+]
+Nello screenshot di MDN Web Docs, il campo di ricerca rimane nitido mentre la pagina sottostante è oscurata e sfocata. Questa separazione visiva distingue figura e sfondo. #highlight(fill: rgb("FFF1A8"))[La schermata non documenta da sola un comportamento modale: gestione del focus, tastiera e interazione con i contenuti sottostanti richiedono una verifica funzionale.]
 
 #image-figure(path("/risorse-condivise/immagini/figure/gestalt/61-figura-e-sfondo-nel-web.png"),
   [MDN: il campo di ricerca resta nitido davanti alla pagina oscurata e sfocata, separandosi dal contesto sottostante.#website-note([MDN Web Docs, ricerca sulla homepage · 14 ottobre 2026. © Mozilla e contributori.], "https://developer.mozilla.org/")],
@@ -1021,7 +1078,7 @@ Nello screenshot di MDN Web Docs, il campo di ricerca rimane nitido mentre la pa
 // Fonte 3864:2224 · C03 · 199 · DX — Figura e sfondo: logo reale
 === Figura e sfondo: il logo FedEx
 
-Lo spazio chiaro fra la E e la x ha il contorno di una freccia rivolta a destra. All’inizio può essere percepito come semplice sfondo del testo; quando lo riconosciamo, acquista una forma propria. Le lettere e lo spazio negativo partecipano così alla stessa composizione.
+Lo spazio chiaro fra la E e la x nel logo Fedex ha il contorno di una freccia rivolta a destra. All’inizio può essere percepito come semplice sfondo del testo; quando lo riconosciamo, acquista una forma propria. Le lettere e lo spazio negativo partecipano così alla stessa composizione.
 
 #image-figure(path("/risorse-condivise/immagini/figure/gestalt/62-figura-e-sfondo-logo-reale.png"),
   [FedEx: lo spazio fra E e x diventa una freccia.#website-note([Marchio FedEx · Brandfolder ufficiale, collective\_eng\_2c\_pos\_rgb.png, 15.], "https://brand.fedex.com/organizations/fedex/search")],
@@ -1129,7 +1186,7 @@ Conoscenze e associazioni apprese contribuiscono a riconoscere forme e significa
 
 L’esperienza passata contribuisce all’interpretazione di ciò che vediamo. Una disposizione di tratti può richiamare una lettera, un simbolo o un oggetto già conosciuto. Il riconoscimento dipende sia dalle caratteristiche presenti nell’immagine sia dalle conoscenze dell’osservatore. Una forma familiare per una persona può risultare poco significativa per chi non condivide lo stesso alfabeto, la stessa convenzione o lo stesso contesto culturale.
 
-Nello schema, un insieme di punti suggerisce una lettera incompleta. La disposizione sostiene il riconoscimento, mentre la conoscenza dell’alfabeto permette di attribuirle un nome. Ruotare la configurazione o modificare alcuni allineamenti può rendere la lettura meno immediata. Il confronto mostra una possibile influenza della familiarità; non dimostra che il riconoscimento derivi esclusivamente dall’esperienza, perché continuazione, chiusura e altre relazioni visive rimangono presenti.
+Nello schema portato ad esempio, un insieme di punti suggerisce una lettera incompleta. La disposizione sostiene il riconoscimento, mentre la conoscenza dell’alfabeto permette di attribuirle un nome. Ruotare la configurazione o modificare alcuni allineamenti può rendere la lettura meno immediata. Il confronto mostra una possibile influenza della familiarità; non dimostra che il riconoscimento derivi esclusivamente dall’esperienza, perché continuazione, chiusura e altre relazioni visive rimangono presenti.
 
 È utile distinguere questo contributo appreso dai fattori di raggruppamento formulati attraverso distanze, somiglianze e movimento. L’esperienza non va trattata come una regola che garantisce la stessa risposta in ogni pubblico. Per descrivere un esempio, esplicita quale conoscenza viene richiamata e quale interpretazione rende possibile. Un marchio noto, una convenzione d’interfaccia e una forma naturale familiare attivano conoscenze differenti, anche quando il riconoscimento sembra immediato (@fig-gestalt-141–#ref(<fig-gestalt-151>, supplement: none)).
 
@@ -1142,7 +1199,15 @@ Nello schema, un insieme di punti suggerisce una lettera incompleta. La disposiz
 
 Nel web, molte interpretazioni dipendono da convenzioni apprese: una lente può richiamare la ricerca, una sottolineatura un collegamento, il rosso una condizione di errore. La familiarità aiuta chi conosce già quel segno e lo ritrova in un contesto coerente.
 
-Nell’esempio reale del GOV.UK Design System, il rosso compare nel messaggio e nei bordi dei campi. Il testo esplicita il problema, così la segnalazione non dipende soltanto dal colore o dall’esperienza precedente. Le convenzioni vanno verificate con il pubblico previsto: la diffusione di un segno non garantisce una comprensione universale.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Anche quando un segno è molto diffuso, verifica che le persone a cui si rivolge il progetto ne comprendano il significato.»
+]
+Nell’esempio reale del GOV.UK Design System, il rosso compare nel messaggio e nei bordi dei campi. Il testo esplicita il problema, così la segnalazione non dipende soltanto dal colore o dall’esperienza precedente. #highlight(fill: rgb("FFF1A8"))[Le convenzioni vanno verificate con il pubblico previsto: la diffusione di un segno non garantisce una comprensione universale.]
 
 #image-figure(path("/risorse-condivise/immagini/figure/gestalt/70-esperienza-passata-nel-web.png"),
   [GOV.UK: messaggio e bordi rossi richiamano una convenzione di errore; il testo precisa il problema e integra il segnale cromatico.#website-note([GOV.UK Design System, Error message · screenshot del 14 ottobre 2026. Open.], "https://design-system.service.gov.uk/components/error-message/")],
@@ -1159,7 +1224,7 @@ Nell’esempio reale del GOV.UK Design System, il rosso compare nel messaggio e 
 // Fonte 3864:2252 · C03 · 207 · DX — Esperienza passata: logo reale
 === Esperienza passata: il logo Goodwill
 
-Chi conosce l’alfabeto latino può riconoscere nella figura una g minuscola; gli stessi tratti richiamano un volto sorridente. Il marchio mette in relazione due letture familiari. L’esperienza passata interviene soprattutto nel riconoscimento della lettera e dell’identità Goodwill, appresi nel tempo.
+Chi conosce l’alfabeto latino può riconoscere nella logo Goodwill una g minuscola; gli stessi tratti richiamano, al contempo, un volto sorridente. Il marchio mette in relazione non una, ma due letture familiari. L’esperienza passata interviene soprattutto nel riconoscimento della lettera e dell’identità Goodwill, appresi nel tempo.
 
 #image-figure(path("/risorse-condivise/immagini/figure/gestalt/71-esperienza-passata-logo-reale.svg"),
   [Goodwill: marchio regionale completo e dettaglio della Smiling G. La stessa g si legge come lettera e volto sorridente.#website-note([Marchio Goodwill. Smiling G: _Joseph Selame_, 1968. Asset: Goodwill.], "https://www.goodwillnynj.org/smiling-g-turns-50/")],
@@ -1292,7 +1357,15 @@ Elementi collocati dentro la stessa area delimitata tendono a essere percepiti c
 
 Una regione comune è un’area che comprende più elementi e li distingue da ciò che si trova all’esterno. Il confine può essere suggerito da un contorno o da una superficie visivamente distinta. Quando alcuni punti condividono la stessa regione, tendiamo a considerarli appartenenti a un insieme: il contenitore introduce una relazione ulteriore rispetto alla loro distanza o somiglianza.
 
-Per osservare il contributo della regione, confronta configurazioni con punti nelle medesime posizioni. Nel primo caso non compare alcun confine; nel secondo, un contorno raccoglie alcuni elementi. Il raggruppamento può cambiare pur mantenendo costanti gli intervalli. Se i confini attraversano gruppi suggeriti dalla vicinanza, i due segnali possono entrare in competizione. Il risultato va descritto in relazione alla configurazione concreta, senza attribuire sempre lo stesso peso a ciascun fattore.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Quando la vicinanza e il contorno suggeriscono gruppi diversi, osserva quali punti sembrano stare insieme. La disposizione dei punti e la posizione del contorno possono cambiare quale dei due segnali influisce di più sul raggruppamento.»
+]
+Per osservare il contributo della regione, confronta configurazioni con punti nelle medesime posizioni. Nel primo caso non compare alcun confine; nel secondo, un contorno raccoglie alcuni elementi. Il raggruppamento può cambiare pur mantenendo costanti gli intervalli. Se i confini attraversano gruppi suggeriti dalla vicinanza, i due segnali possono entrare in competizione. #highlight(fill: rgb("FFF1A8"))[Il risultato va descritto in relazione alla configurazione concreta, senza attribuire sempre lo stesso peso a ciascun fattore.]
 
 _Stephen E. Palmer_ propone la regione comune come principio di raggruppamento nel 1992, dopo le formulazioni classiche della Gestalt. È quindi un’aggiunta successiva alle leggi storiche. Qui interessa l’appartenenza di più elementi a una stessa area; nella chiusura interessa invece l’organizzazione di parti che suggeriscono il contorno di una figura (@fig-gestalt-152–#ref(<fig-gestalt-164>, supplement: none)).
 
@@ -1322,7 +1395,7 @@ Nella pagina Pricing di Notion, Free e Plus condividono una regione chiara; Busi
 // Fonte 3864:2197 · C03 · 216 · SX — Regione comune: logo reale
 === Regione comune: il logo LEGO
 
-Le quattro lettere sono contenute nella stessa superficie rossa, delimitata da un contorno quadrato. Questo campo comune le raccoglie in un’unità visiva distinta da ciò che circonda il marchio. Vicinanza, sovrapposizione e stile delle lettere contribuiscono a loro volta alla lettura.
+Un esempio di applicazione della regione comune è il logo LEGO. Le quattro lettere sono contenute nella stessa superficie rossa, delimitata da un contorno quadrato. Questo campo comune le raccoglie in un’unità visiva distinta da ciò che circonda il marchio. Vicinanza, sovrapposizione e stile delle lettere contribuiscono a loro volta alla lettura.
 
 #image-figure(path("/risorse-condivise/immagini/figure/gestalt/82-regione-comune-logo-reale.svg"),
   [LEGO: la superficie rossa riunisce il marchio in una regione comune.#website-note([LEGO e il logo LEGO sono marchi del LEGO Group. ©2026 The LEGO Group.], "https://www.lego.com/en-ch/aboutus/newsroom/lego-brand-logos-portfolio-assets")],
@@ -1459,9 +1532,17 @@ Le quattro lettere sono contenute nella stessa superficie rossa, delimitata da u
 
 Quando osserviamo una composizione, vicinanza, somiglianza e altri fattori agiscono insieme. Se suggeriscono lo stesso raggruppamento, lo rafforzano; se indicano relazioni diverse, entrano in conflitto. Il confronto seguente mantiene fisse le posizioni dei punti e cambia soltanto il colore, per mostrare come uno stesso insieme possa suggerire suddivisioni differenti (@fig-gestalt-165).
 
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Posizionare la @fig-gestalt-165 vicino al testo che descrive le righe A, B e C.
+]
 Nella riga A, gli intervalli fra i punti suggeriscono tre coppie. Nella riga B, i colori uguali confermano le coppie; nella riga C, la corrispondenza dei colori unisce punti che appartengono a coppie diverse.
 
-Quando i segnali concordano, il raggruppamento può risultare più evidente. Quando competono, la lettura dipende dalla configurazione complessiva: nessun fattore prevale sempre. Nel progetto conviene far concordare i segnali che esprimono la stessa relazione e verificare eventuali ambiguità nel compito.
+Quando i segnali concordano, il raggruppamento può risultare più evidente. Quando competono, la lettura dipende dalla configurazione complessiva: nessun fattore prevale sempre. Quando si progetta, conviene far concordare i segnali che esprimono la stessa relazione e verificare eventuali ambiguità nel compito.
 
 #image-figure(path("/risorse-condivise/immagini/figure/gestalt/93-quando-i-principi-interagiscono.svg"),
   [A. La vicinanza suggerisce coppie. B. Il colore sostiene le stesse coppie. C. Colore e vicinanza suggeriscono raggruppamenti diversi. @gestalt-wertheimer1938#website-note([_Wertheimer_ (1923/1938).], "https://psychclassics.yorku.ca/Wertheimer/Forms/forms.htm")],
@@ -1480,9 +1561,17 @@ Quando i segnali concordano, il raggruppamento può risultare più evidente. Qua
 
 _Essere vicini, condividere un’area e avere un collegamento visibile sono relazioni differenti (@fig-gestalt-166)._
 
-Il confronto conserva posizione e dimensione dei punti. Nei pannelli B e C compaiono rispettivamente regioni e collegamenti. La connessione degli elementi può suggerire un’unità anche senza ridurre la loro distanza.
+Il confronto preso in esame, conserva posizione e dimensione dei punti. Nei pannelli B e C compaiono rispettivamente regioni e collegamenti. La connessione degli elementi può suggerire un’unità anche senza ridurre la loro distanza.
 
-La buona continuazione riguarda invece la continuità di direzione dei contorni. La connectedness uniforme descrive la segmentazione dell’immagine in regioni con proprietà omogenee: va distinta dal raggruppamento di elementi già individuati.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Per la buona continuazione, tendiamo a leggere come un unico contorno i tratti che si raccordano senza bruschi cambi di direzione. La connessione uniforme spiega come riconosciamo una porzione dell’immagine come un’unica area quando è continua e ha un aspetto omogeneo, per esempio lo stesso colore. Nel pannello C, invece, i punti sono già riconoscibili come elementi distinti. Il tratto che li collega li fa percepire come una coppia.»
+]
+#highlight(fill: rgb("FFF1A8"))[La buona continuazione riguarda invece la continuità di direzione dei contorni. La connectedness uniforme descrive la segmentazione dell’immagine in regioni con proprietà omogenee: va distinta dal raggruppamento di elementi già individuati.]
 
 Nelle interfacce, osserva quale relazione viene espressa da un contenitore, da una linea o dalla spaziatura; non attribuirle tutte alla continuità.
 
@@ -1505,15 +1594,31 @@ _Una preferenza visiva, una prima impressione e il completamento di un compito m
 
 *Prime impressioni*
 
-_Möller_, _Brezing_ e _Unz_ studiano l’accettazione e la raccomandazione di siti mostrati per tre secondi. I risultati permettono quindi di discutere come organizzazione visiva e presenza sociale si colleghino alle prime impressioni in quel contesto. Non forniscono invece una misura generale della prestazione delle persone nello svolgimento di compiti.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Lo studio del 2012 di _Möller_, _Brezing_ e _Unz_ mostra come i principi della Gestalt possano influire sulla prima impressione di un sito. Dopo aver visto per tre secondi pagine di siti aziendali, i partecipanti valutavano più favorevolmente i siti che facevano maggiore uso della vicinanza e della regione comune ed erano più propensi a raccomandarli.»
+]
+#highlight(fill: rgb("FFF1A8"))[_Möller_, _Brezing_ e _Unz_ studiano l’accettazione e la raccomandazione di siti mostrati per tre secondi.] I risultati permettono quindi di discutere come organizzazione visiva e presenza sociale si colleghino alle prime impressioni in quel contesto. Non forniscono invece una misura generale della prestazione delle persone nello svolgimento di compiti.
 
 *Scelte osservate nei siti*
 
-_Kapllani_ ed _Elmimouni_ esaminano manualmente 60 siti, selezionati tra quelli molto visitati e i candidati ai Webby Awards 2018–2019. Osservano l’uso di somiglianza, simmetria e chiusura, descrivendo così scelte ricorrenti nel campione. Documentare queste scelte non permette però di concludere che una singola soluzione causi popolarità o maggiore usabilità.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Lo studio del 2020 di _Kapllani_ ed _Elmimouni_ aiuta a riconoscere come i principi della Gestalt vengono applicati nei siti esistenti. Esaminando 30 siti molto visitati e 30 candidati ai Webby Awards del 2018 e del 2019, gli autori rilevano elementi simili e strutture simmetriche, mentre la chiusura compare di rado. Per capire se queste scelte contribuiscono alla popolarità dei siti o ne facilitano l’uso servono verifiche dedicate.»
+]
+#highlight(fill: rgb("FFF1A8"))[_Kapllani_ ed _Elmimouni_ esaminano manualmente 60 siti, selezionati tra quelli molto visitati e i candidati ai Webby Awards 2018–2019. Osservano l’uso di somiglianza, simmetria e chiusura, descrivendo così scelte ricorrenti nel campione. Documentare queste scelte non permette però di concludere che una singola soluzione causi popolarità o maggiore usabilità.]
 
 *Dalla fonte alla proposta*
 
-Un risultato va interpretato considerando il compito, i partecipanti, la versione dell’interfaccia e la misura utilizzata nello studio. Questi elementi aiutano a capire in quale contesto sia stato ottenuto, prima di trasferirlo a una proposta. Anche questi esempi restano osservazioni e confronti didattici: diventano evidenze d’uso quando sono accompagnati da una prova documentata.
+Un risultato va interpretato considerando il compito, i partecipanti, la versione dell’interfaccia e la misura utilizzata nello studio. Questi elementi aiutano a capire in quale contesto sia stato ottenuto, prima di trasferirlo a una proposta. Anche questi esempi restano osservazioni e confronti didattici: diventano invece evidenze d’uso quando sono accompagnati da una prova documentata.
 
  @gestalt-moeller2012#website-note([_Möller_, _Brezing_ e _Unz_ (2012).], "https://doi.org/10.1080/0144929X.2011.642893") @gestalt-kapllani2020#website-note([_Kapllani_ ed _Elmimouni_ (2020).], "https://doi.org/10.1002/pra2.340")
 
@@ -1530,7 +1635,15 @@ La verifica parte da un compito concreto, come trovare un prodotto, associare un
 
 *Cambiare una relazione*
 
-Nel caso del modulo si possono confrontare due versioni dello stesso contenuto, variando soltanto la distanza fra etichetta e campo e conservando testi, dimensioni e funzioni. Il confronto rende esplicita la relazione messa alla prova. Quando cambiano più aspetti insieme, occorre descriverli tutti, evitando di attribuire il risultato a uno soltanto.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Per verificare se avvicinare le etichette ai rispettivi campi aiuta a capire dove inserire i dati, si possono preparare due versioni di un semplice modulo di prova. Si mantengono uguali i testi, le dimensioni e le funzioni e si cambia soltanto la distanza fra ogni etichetta e il suo campo. Se si modificano più aspetti insieme, occorre indicare quali sono e tenerne conto quando si interpreta il risultato.»
+]
+#highlight(fill: rgb("FFF1A8"))[Nel caso del modulo si possono confrontare due versioni dello stesso contenuto, variando soltanto la distanza fra etichetta e campo e conservando testi, dimensioni e funzioni. Il confronto rende esplicita la relazione messa alla prova. Quando cambiano più aspetti insieme, occorre descriverli tutti, evitando di attribuire il risultato a uno soltanto.]
 
 *Osservare e rivedere*
 

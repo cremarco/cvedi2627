@@ -31,7 +31,15 @@ Il design, in tutte le sue forme – architettura, moda, grafica – può ridare
 
 _John M. Culkin_ @culkin1967-tools.#website-note([_John M. Culkin_, “_A Schoolman’s Guide to Marshall McLuhan_”, Saturday Review, 18 marzo 1967, pp. 51–53, 70–72; citazione a p. 70.], "https://webspace.royalroads.ca/llefevre/wp-content/uploads/sites/258/2017/08/A-Schoolmans-Guide-to-Marshall-McLuhan-1.pdf")
 
-La storia della comunicazione visiva precede di molti millenni la nascita del graphic design come professione. Nella preistoria, pitture rupestri e incisioni su roccia permettevano già di rappresentare figure, attività e simboli.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare frase in: «Già nella preistoria, pitture rupestri e incisioni su roccia rappresentavano figure, attività e simboli.»
+]
+La storia della comunicazione visiva precede di molti millenni la nascita del graphic design come professione. #highlight(fill: rgb("FFF1A8"))[Nella preistoria, pitture rupestri e incisioni su roccia permettevano già di rappresentare figure, attività e simboli.]
 
 Esempi come le pitture di Lascaux e i petroglifi diffusi nel mondo testimoniano l’antico bisogno di comunicare attraverso immagini. Non sono opere di graphic design in senso moderno, ma fanno parte della storia più ampia dei linguaggi visivi.
 
@@ -43,6 +51,14 @@ Le origini della comunicazione scritta rappresentano un punto di svolta fondamen
 
 === I manoscritti miniati medievali
 
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare frase in: «..anticipando lo sviluppo del moderno rapporto tra parola e immagine»
+]
 #image-figure(path("/risorse-condivise/immagini/figure/storia-del-design/iniziale-n-scuola-medievale-docente.png"),
   none,
   format: "capolettera",
@@ -51,7 +67,7 @@ Le origini della comunicazione scritta rappresentano un punto di svolta fondamen
   width: 64pt,
   letter: "N",
 )[
-el Medioevo, una delle espressioni più importanti della comunicazione visiva fu rappresentata dai manoscritti miniati, codici copiati a mano e impreziositi da decorazioni, iniziali ornate e illustrazioni. Molti di essi erano legati alla sfera religiosa e venivano prodotti nei monasteri, dove copisti e miniatori lavoravano con grande precisione negli scriptoria. Accanto ai testi sacri, tuttavia, vennero realizzati anche manoscritti di argomento letterario, giuridico e scientifico. Attraverso la stretta unione tra scrittura e apparato figurativo, questi codici testimoniano una fase fondamentale nella storia della cultura visiva, anticipando lo sviluppo della moderna comunicazione tra parola e immagine (@fig-storia-libro-ore).#website-note([The Met, foglio di un _Libro d’ore_.], "https://www.metmuseum.org/art/collection/search/32837")
+el Medioevo, una delle espressioni più importanti della comunicazione visiva fu rappresentata dai manoscritti miniati, codici copiati a mano e impreziositi da decorazioni, iniziali ornate e illustrazioni. Molti di essi erano legati alla sfera religiosa e venivano prodotti nei monasteri, dove copisti e miniatori lavoravano con grande precisione negli scriptoria. Accanto ai testi sacri, tuttavia, vennero realizzati anche manoscritti di argomento letterario, giuridico e scientifico. Attraverso la stretta unione tra scrittura e apparato figurativo, questi codici testimoniano una fase fondamentale nella storia della cultura visiva, #highlight(fill: rgb("FFF1A8"))[anticipando lo sviluppo della moderna comunicazione tra parola e immagine] (@fig-storia-libro-ore).#website-note([The Met, foglio di un _Libro d’ore_.], "https://www.metmuseum.org/art/collection/search/32837")
 ]
 
 #image-figure(path("/risorse-condivise/immagini/figure/storia-del-design/libro-ore-foglio-miniato-1390-1400-met.jpg"),
@@ -94,7 +110,15 @@ La ricchezza del disegno e delle illustrazioni dei manoscritti persiani è ben v
 
 La stampa permise di riprodurre testi e immagini in più copie, trasformando la circolazione delle informazioni. In Cina, la *stampa xilografica* si sviluppò intorno al VII secolo: si inchiostrava una *matrice* di legno incisa in rilievo e la si premeva sulla carta. La disponibilità della carta favorì questa produzione. Le radici della stampa precedono quindi di molti secoli il suo sviluppo nell’Europa del Rinascimento.
 
-Tra il 1041 e il 1048, *_Bi Sheng_* sperimentò in Cina la stampa con caratteri mobili. In Corea, il *_Jikji_* del *1377* è il più antico libro conservato stampato con *caratteri mobili metallici*. Xilografia e caratteri mobili continuarono a coesistere: la scelta del procedimento dipendeva da testi, risorse e pratiche produttive. La stampa europea ebbe un proprio sviluppo tecnico e commerciale; non va presentata come l’origine mondiale dei caratteri mobili (@fig-storia-jikji).#website-note([Bibliothèque nationale de France, _Jikji_.], "https://www.bnf.fr/en/jikji-treasure-world-printing")
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare frase in: «In Europa la stampa a caratteri mobili si sviluppò secondo un percorso tecnico e commerciale specifico, distinto dalle esperienze già maturate in Asia.»
+]
+Tra il 1041 e il 1048, *_Bi Sheng_* sperimentò in Cina la stampa con caratteri mobili. In Corea, il *_Jikji_* del *1377* è il più antico libro conservato stampato con *caratteri mobili metallici*. Xilografia e caratteri mobili continuarono a coesistere: la scelta del procedimento dipendeva da testi, risorse e pratiche produttive. #highlight(fill: rgb("FFF1A8"))[La stampa europea ebbe un proprio sviluppo tecnico e commerciale; non va presentata come l’origine mondiale dei caratteri mobili] (@fig-storia-jikji).#website-note([Bibliothèque nationale de France, _Jikji_.], "https://www.bnf.fr/en/jikji-treasure-world-printing")
 
 #image-figure(path("/risorse-condivise/immagini/figure/storia-del-design/jikji-1377-secondo-volume-gallica.jpg"),
   [Pagine del _Jikji_, stampato a Cheongju, Corea, nel 1377. BnF, Coréen 109. Fonte: Gallica.],
@@ -148,7 +172,7 @@ La pagina conserva quindi pratiche della cultura manoscritta mentre cambia il mo
 
 #image-figure(path("/risorse-condivise/immagini/figure/storia-del-design/bibbia-gutenberg-pagina-miniata-1454-1455-loc.png"),
   [Pagina miniata della Bibbia di _Gutenberg_, ca. 1454–1455. Library of Congress, Prints and Photographs Division, LC-USZ62-51844. Riproduzione in bianco e nero.],
-  format: "due-colonne",
+  format: "una-colonna",
   id: "fig-storia-gutenberg",
   alt: "Pagina della Bibbia di Gutenberg con due colonne di testo, iniziali ingrandite e ornamento, riprodotta in bianco e nero.",
   rights: [Library of Congress: nessuna restrizione nota alla pubblicazione.],
@@ -185,7 +209,7 @@ Nel Seicento si diffusero le gazzette, periodici di informazione che contribuiro
 
 #image-figure(path("/risorse-condivise/immagini/figure/storia-del-design/gazzetta-mantova-1674-02-16.jpg"),
   [Gazzetta di Mantova del 16 febbraio 1674.],
-  format: "due-colonne",
+  format: "una-colonna",
   id: "fig-storia-gazzetta",
   alt: "Pagina della Gazzetta di Mantova del 16 febbraio 1674.",
   aspect-ratio: 960 / 1308,
@@ -227,7 +251,15 @@ Il manifesto divenne ancora più popolare grazie ai progressi nella *litografia*
 
 *Glossario — Editoria.* L’editoria comprende la produzione, la pubblicazione e la distribuzione di opere, mettendo in relazione autori e lettori. Il progetto editoriale cura i contenuti e la loro forma: caratteri, impaginazione, immagini, materiali e supporti contribuiscono alla qualità della lettura.
 
-*Produzione · Messaggio · Destinatari.*
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sezione non chiara.
+]
+#highlight(fill: rgb("FFF1A8"))[*Produzione · Messaggio · Destinatari.*]
 
 Produzione, messaggio e destinatari: tre dimensioni del progetto grafico.
 
@@ -377,7 +409,15 @@ Negli anni Venti, la Nuova Tipografia valorizzò *asimmetria*, gerarchie e integ
 
 // Tavola 21 · 2532:307
 
-=== Il Costruttivismo
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Integrare l’origine nella frase: «Nato nell’avanguardia artistica russa dei primi decenni del Novecento e affermatosi dopo la rivoluzione del 1917, il Costruttivismo propone…»
+]
+=== Il #highlight(fill: rgb("FFF1A8"))[Costruttivismo]
 
 Dopo la rivoluzione del 1917, il *Costruttivismo* propone un nuovo ruolo sociale per l’artista: un progettista che collega forme, materiali e produzione alla trasformazione della società. Manifesti, riviste e libri diventano strumenti di comunicazione collettiva, nei quali la tipografia partecipa alla costruzione del messaggio.#website-note([MoMA.], "https://www.moma.org/calendar/galleries/5948")#super[, ]#website-note([National Gallery of Art.], "https://www.nga.gov/artworks/93943-wendingen")
 
@@ -453,7 +493,16 @@ Negli anni Quaranta emerse *_Paul Rand_*, designer americano capace di un approc
 
 _Rand_ raccolse le proprie riflessioni sul progetto grafico in *_Thoughts on Design_* (1947) @rand1947-thoughts.#website-note([_Paul Rand_, Thoughts on Design, prima edizione del 1947: archivio dell’autore.], "https://www.paulrand.design/writing/books/thoughts-on-design-1st-edition.html") Il suo lavoro mette in relazione *forma e comunicazione*: colore, composizione e sintesi visiva contribuiscono alla chiarezza del messaggio.
 
-Fra i suoi *progetti storici* di identità aziendale compaiono Westinghouse, Yale, ABC, UPS e IBM. I marchi possono cambiare nel tempo: l’analisi deve considerare la versione del segno e le *regole* che ne guidano l’impiego sui diversi supporti.
+Fra i suoi *progetti storici* di identità aziendale compaiono Westinghouse, Yale, ABC, UPS e IBM.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare frase in: «I marchi possono essere ridisegnati nel tempo e adattati ai diversi usi. Per analizzarne uno, occorre indicare quale versione si sta osservando e in quali contesti viene applicata.»
+]
+#highlight(fill: rgb("FFF1A8"))[I marchi possono cambiare nel tempo: l’analisi deve considerare la versione del segno e le *regole* che ne guidano l’impiego sui diversi supporti.]
 
 #image-figure(path("/risorse-condivise/immagini/figure/storia-del-design/paul-rand-subway-posters-score-1947.png"),
   [Manifesto di _Paul Rand_ per promuovere la metro di New York (1947).],
@@ -500,7 +549,16 @@ Negli anni Cinquanta e Sessanta, lo stile tipografico svizzero privilegiò carat
 
 === L’identità come programma
 
-Nel 1962 _Otl Aicher_ e il *gruppo E5* della Hochschule für Gestaltung di Ulm avviano per Lufthansa il progetto 1400. Il segno della gru, disegnato nel 1918 da _Otto Firle_ per Deutsche Luft-Reederei, viene precisato e inserito in un *programma coordinato*.#website-note([Lufthansa.], "https://www.lufthansa.com/de/en/100-years/crane")#super[, ]#website-note([HfG-Archiv Ulm.], "https://hfg-archiv.museumulm.de/en/bequests/the-bequest-of-otl-aicher/")
+Nel 1962 _Otl Aicher_ e il *gruppo E5* della Hochschule für Gestaltung di Ulm avviano per Lufthansa il progetto 1400.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+ stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+ #set text(size: 9pt)
+ #set par(justify: false, leading: 1pt, spacing: 0pt)
+ #text(weight: 700)[Nota editoriale]
+ #linebreak()
+ Cambiare frase in: «Aicher e il gruppo E5 riprendono il simbolo della gru creato da _Otto Firle_ nel 1918 e ne definiscono l’uso coordinato nei materiali e nelle comunicazioni di Lufthansa.»
+]
+#highlight(fill: rgb("FFF1A8"))[Il segno della gru, disegnato nel 1918 da _Otto Firle_ per Deutsche Luft-Reederei, viene precisato e inserito in un *programma coordinato*.]#website-note([Lufthansa.], "https://www.lufthansa.com/de/en/100-years/crane")#super[, ]#website-note([HfG-Archiv Ulm.], "https://hfg-archiv.museumulm.de/en/bequests/the-bequest-of-otl-aicher/")
 
 Proporzioni, colori e regole di applicazione collegano aerei, biglietti, etichette per bagagli e architettura. Criteri condivisi mantengono riconoscibile l’identità su supporti diversi, realizzati e aggiornati da persone diverse.
 
@@ -519,11 +577,27 @@ Il caso mostra che il progetto riguarda anche la gestione dell’identità. Una 
 
 === Una famiglia per orientarsi
 
-Per i Giochi olimpici di Monaco del 1972, il *Dipartimento XI* diretto da _Otl Aicher_ coordina pubblicazioni, manifesti, biglietti e segnaletica. _Gerhard Joksch_ è responsabile dei pittogrammi sportivi; _Alfred Kern_ del design dell’informazione, dei pittogrammi informativi e della segnaletica @holt-monaco.#website-note([The Rainbow Games.], "https://www.otlaicher.de/en/articles/the-rainbow-games/")#super[, ]#website-note([Design as a team sport.], "https://www.otlaicher.de/en/articles/design-as-a-team-sport/")
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Armonizzare i tempi verbali di questo paragrafo con quelli dei paragrafi precedente e successivo.
+]
+#highlight(fill: rgb("FFF1A8"))[Per i Giochi olimpici di Monaco del 1972, il *Dipartimento XI* diretto da _Otl Aicher_ coordina pubblicazioni, manifesti, biglietti e segnaletica. _Gerhard Joksch_ è responsabile dei pittogrammi sportivi; _Alfred Kern_ del design dell’informazione, dei pittogrammi informativi e della segnaletica] @holt-monaco.#website-note([The Rainbow Games.], "https://www.otlaicher.de/en/articles/the-rainbow-games/")#super[, ]#website-note([Design as a team sport.], "https://www.otlaicher.de/en/articles/design-as-a-team-sport/")
 
-Colori, caratteri, formati e griglie creano una *parentela visiva*: le applicazioni variano conservando caratteristiche riconoscibili. La coerenza organizza quindi la diversità delle funzioni, dalla comunicazione dell’evento all’orientamento dei visitatori.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare i due paragrafi in: «Colori, caratteri, formati e griglie ricorrono su manifesti, biglietti e segnaletica, rendendo riconoscibili materiali con funzioni diverse. La segnaletica collega simboli e indicazioni ai luoghi, aiutando i visitatori a trovare una direzione o un servizio. I pittogrammi possono facilitare la comunicazione tra persone che parlano lingue diverse, ma il loro significato non è sempre immediato e va interpretato nel contesto. L’identità visiva dell’evento e il sistema di orientamento condividono così gli stessi elementi grafici, usati per esigenze diverse.»
+]
+#highlight(fill: rgb("FFF1A8"))[Colori, caratteri, formati e griglie creano una *parentela visiva*: le applicazioni variano conservando caratteristiche riconoscibili. La coerenza organizza quindi la diversità delle funzioni, dalla comunicazione dell’evento all’orientamento dei visitatori.]
 
-Simboli e informazioni vengono collegati ai luoghi in cui occorre scegliere una direzione o riconoscere un servizio. I pittogrammi mirano a superare le barriere linguistiche, senza garantire comprensione automatica: il significato va letto nel contesto. Identità e orientamento condividono così un linguaggio per compiti diversi (@fig-storia-monaco).
+#highlight(fill: rgb("FFF1A8"))[Simboli e informazioni vengono collegati ai luoghi in cui occorre scegliere una direzione o riconoscere un servizio. I pittogrammi mirano a superare le barriere linguistiche, senza garantire comprensione automatica: il significato va letto nel contesto. Identità e orientamento condividono così un linguaggio per compiti diversi] (@fig-storia-monaco).
 
 #image-figure(path("/risorse-condivise/immagini/figure/storia-del-design/monaco-1972-famiglia-visiva-orientamento.svg"),
   [Schema analitico: parentela visiva e compiti diversi. Caso storico: Dipartimento XI diretto da _Otl Aicher_, Monaco 1972. Fonti: IDZ, _The Rainbow Games_ e _Design as a team sport_.],
@@ -575,7 +649,15 @@ Prima del *desktop publishing*, molti layout venivano tracciati a mano. Testi co
 
 Nel 1984, *MacPaint*, programmato da _Bill Atkinson_ con il contributo progettuale di _Susan Kare_, mise a disposizione strumenti grafici azionati attraverso icone e mouse (@fig-storia-macpaint) @atkinsonHertzfeld2010-macpaint.#website-note([_Bill Atkinson_ e _Andy Hertzfeld_, intervista e dimostrazione di MacPaint, registrata il 6 maggio 2010; trascrizione Computer History Museum © 2015.], "https://archive.computerhistory.org/resources/access/text/2015/12/102743021-05-01-acc.pdf") *PostScript*, sviluppato da Adobe, descriveva testo e immagini per la stampa. Nel 1985, *PageMaker* e la stampante LaserWriter contribuirono alla diffusione del *desktop publishing* sul Macintosh.#website-note([Computer History Museum, Desktop Publishing.], "https://www.computerhistory.org/revolution/personal-computers/17/306")
 
-Il cambiamento riguardava il flusso di lavoro: il designer poteva modificare impaginazione e caratteri, confrontare varianti e preparare materiali digitali per la produzione. Le nuove possibilità alimentavano anche la sperimentazione: sovrapposizioni, frammentazioni e variazioni tipografiche diventavano parte del tono della pagina.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Evitare la ripetizione: l’idea che sovrapposizioni e frammentazioni contribuiscano al tono della pagina ricorre anche nel paragrafo successivo.
+]
+Il cambiamento riguardava il flusso di lavoro: il designer poteva modificare impaginazione e caratteri, confrontare varianti e preparare materiali digitali per la produzione. Le nuove possibilità alimentavano anche la sperimentazione: #highlight(fill: rgb("FFF1A8"))[sovrapposizioni, frammentazioni e variazioni tipografiche diventavano parte del tono della pagina.]
 
 #image-figure(path("/risorse-condivise/immagini/figure/storia-del-design/macpaint-macintosh-interfaccia-1984.png"),
   [MacPaint sul Macintosh, prima versione, 1984.],
@@ -589,7 +671,7 @@ Il cambiamento riguardava il flusso di lavoro: il designer poteva modificare imp
 
 === Tipografia espressiva
 
-Negli anni Novanta, *_David Carson_* portò una *tipografia* fortemente espressiva in riviste come _Beach Culture_ e _Ray Gun_. Sovrapposizioni, frammentazione e contrasti trasformavano la pagina in parte del *tono editoriale* (@fig-storia-ray-gun).
+Negli anni Novanta, *_David Carson_* portò una *tipografia* fortemente espressiva in riviste come _Beach Culture_ e _Ray Gun_. #highlight(fill: rgb("FFF1A8"))[Sovrapposizioni, frammentazione e contrasti trasformavano la pagina in parte del *tono editoriale*] (@fig-storia-ray-gun).
 
 #image-figure(path("/risorse-condivise/immagini/figure/storia-del-design/david-carson-ray-gun-copertina-1992.jpg"),
   [Copertina di “_Ray Gun_”, sotto la direzione artistica di _D. Carson_ (1992).],
@@ -659,7 +741,15 @@ La storia del design non è una successione di stili isolati. Un nuovo *mezzo* c
 
 - *Adattare* — Sistemi e contesti: il linguaggio cambia conservando il senso.
 
-Traccia di lettura delle trasformazioni del progetto. Elaborazione didattica; i passaggi possono coesistere.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con: «La traccia riassume quattro modi in cui il design affronta il progetto: riprodurre, coordinare, far interagire e adattare. Sono prospettive che possono sovrapporsi, non fasi successive.»
+]
+#highlight(fill: rgb("FFF1A8"))[Traccia di lettura delle trasformazioni del progetto. Elaborazione didattica; i passaggi possono coesistere.]
 
 
 // Testo continuo dalle tavole correnti 35–66. Non usa coordinate di impaginazione.
@@ -699,7 +789,7 @@ La schermata Smalltalk-80 (@fig-storia-36-1) documenta finestre e strumenti graf
 
 #image-figure(path("/risorse-condivise/immagini/figure/storia-del-design/smalltalk-80-interfaccia-finestre-1980.jpg"),
   [Smalltalk-80: finestre e strumenti grafici, circa 1980. PARC Library, Computer History Museum.],
-  format: "due-colonne",
+  format: "tutta-pagina",
   id: "fig-storia-36-1",
   rights: [© PARC (Palo Alto Research Center, Incorporated).],
   alt: "Smalltalk-80: finestre e strumenti grafici, circa 1980. PARC Library, Computer History Museum.",
@@ -709,7 +799,15 @@ La schermata Smalltalk-80 (@fig-storia-36-1) documenta finestre e strumenti graf
 
 === Il paradigma WIMP
 
-Il *paradigma WIMP* riunisce Windows, Icons, Menus e Pointer: finestre, icone, menu e puntatore. Questi elementi organizzano un linguaggio di interazione riconoscibile. Le metafore di scrivania, cartella e cestino offrono punti di riferimento, ma richiedono *apprendimento* e familiarità.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Il paradigma WIMP (Windows, Icons, Menus e Pointer) è un modello di interazione con il computer basato su quattro elementi fondamentali: finestre, icone, menu e puntatore. Questi elementi permettono all’utente di interagire con il sistema attraverso un’interfaccia grafica, utilizzando oggetti e azioni facilmente riconoscibili. Per rendere l’interazione più intuitiva, il paradigma riprende concetti familiari del mondo reale, come la scrivania, le cartelle e il cestino. Tuttavia, anche se queste metafore aiutano a comprendere il funzionamento del sistema, il loro utilizzo non è del tutto immediato e richiede comunque un certo grado di apprendimento e familiarità.»
+]
+#highlight(fill: rgb("FFF1A8"))[Il *paradigma WIMP* riunisce Windows, Icons, Menus e Pointer: finestre, icone, menu e puntatore. Questi elementi organizzano un linguaggio di interazione riconoscibile. Le metafore di scrivania, cartella e cestino offrono punti di riferimento, ma richiedono *apprendimento* e familiarità.]
 
 L’azione può essere collegata a un oggetto visibile e il risultato mostrato sullo schermo. Questo rapporto fra comando e *feedback* resta importante anche nelle interfacce touch, dove cambiano i gesti e le dimensioni dei controlli.
 
@@ -816,7 +914,15 @@ Leggi la gerarchia prodotta da titoli, link e regole del browser: il contenuto p
 
 Negli anni Duemila, blog, social network e piattaforme di condivisione cambiano il ruolo degli utenti: da semplici lettori diventano *protagonisti*, in grado di produrre e diffondere contenuti. Molte interfacce adottano uno stile riconoscibile, fatto di *gradienti*, ombre, pulsanti lucidi e angoli arrotondati.
 
-Queste scelte visive non definiscono il web 2.0. Un modello di partecipazione e uno stile grafico sono due cose distinte: la possibilità di pubblicare, commentare o collaborare riguarda il *funzionamento* del servizio, non il suo aspetto. Una piattaforma può essere pienamente partecipativa anche con un’interfaccia essenziale, così come un sito dall’aspetto «lucido» può non offrire alcuna forma di interazione.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «È importante sottolineare che il Web 2.0 non è definito dal suo aspetto grafico, ma soprattutto dal modo in cui gli utenti possono interagire con i contenuti e partecipare alla vita online. La possibilità di pubblicare informazioni, lasciare commenti, condividere materiali o collaborare con altre persone riguarda infatti le funzionalità offerte da un servizio, indipendentemente dal suo stile visivo.»
+]
+#highlight(fill: rgb("FFF1A8"))[Queste scelte visive non definiscono il web 2.0. Un modello di partecipazione e uno stile grafico sono due cose distinte: la possibilità di pubblicare, commentare o collaborare riguarda il *funzionamento* del servizio, non il suo aspetto. Una piattaforma può essere pienamente partecipativa anche con un’interfaccia essenziale, così come un sito dall’aspetto «lucido» può non offrire alcuna forma di interazione.]
 
 Il repertorio lucido non definisce il Web 2.0: partecipazione e aspetto dell’interfaccia sono dimensioni diverse. L’esempio della @fig-storia-41-1 riprende i dati del bar nelle diverse varianti.
 
@@ -972,11 +1078,19 @@ Ridurre i materiali simulati non elimina il bisogno di indizi: azioni e stati de
 
 // Tavole 47–48 · Material Design
 
-=== Material Design
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Nel titolo, aggiungere l’articolo «Il». Cambiare i due paragrafi in: «Il Material Design di Google si ispira al mondo reale e, in particolare, al comportamento di materiali come la carta. Gli elementi dell’interfaccia vengono rappresentati come superfici che possono sovrapporsi, proiettare ombre e muoversi, aiutando l’utente a comprendere come sono organizzati i contenuti e quali azioni può compiere. Anche le animazioni e i movimenti hanno una funzione precisa: rendono più chiari i cambiamenti che avvengono nell’interfaccia, ad esempio quando si apre un menu, si seleziona un elemento o si passa da una schermata all’altra.» Poi: «Attraverso regole comuni per colori, tipografia, componenti grafici e animazioni, il Material Design cerca di offrire un’esperienza visiva e di utilizzo coerente su dispositivi e applicazioni differenti. Non si tratta quindi soltanto di uno stile grafico, ma di un vero e proprio sistema di progettazione, in cui ogni elemento contribuisce a rendere l’interfaccia più comprensibile, prevedibile e facile da utilizzare.»
+]
+=== #highlight(fill: rgb("FFF1A8"))[Material Design]
 
-Presentato da Google nel 2014, *Material Design* organizza l’interfaccia come un sistema di superfici, livelli e movimenti. La carta è una metafora di partenza: ombre e sovrapposizioni indicano relazioni e possibilità d’azione. Il *movimento* spiega i passaggi tra stati. Componenti, tipografia e regole condivise mirano a rendere *coerenti* le esperienze su dispositivi diversi @jitkoff2014-material.#website-note([_Nicholas Jitkoff_, annuncio di Material Design, Google Developers Blog, 25 giugno 2014.], "https://developers.googleblog.com/en/this-is-material-design/")
+#highlight(fill: rgb("FFF1A8"))[Presentato da Google nel 2014, *Material Design* organizza l’interfaccia come un sistema di superfici, livelli e movimenti. La carta è una metafora di partenza: ombre e sovrapposizioni indicano relazioni e possibilità d’azione. Il *movimento* spiega i passaggi tra stati. Componenti, tipografia e regole condivise mirano a rendere *coerenti* le esperienze su dispositivi diversi] @jitkoff2014-material.#website-note([_Nicholas Jitkoff_, annuncio di Material Design, Google Developers Blog, 25 giugno 2014.], "https://developers.googleblog.com/en/this-is-material-design/")
 
-Superfici, gerarchie e transizioni appartengono a un sistema: la coerenza va verificata nell’uso. L’esempio della @fig-storia-47-1 riprende i dati del bar nelle diverse varianti.
+#highlight(fill: rgb("FFF1A8"))[Superfici, gerarchie e transizioni appartengono a un sistema: la coerenza va verificata nell’uso. L’esempio della @fig-storia-47-1 riprende i dati del bar nelle diverse varianti.]
 
 
 
@@ -1183,7 +1297,15 @@ Lo spazio negativo è una scelta: togliere elementi non significa togliere orien
 
 Con *Y2K* si indica una famiglia di richiami alla cultura visiva intorno al passaggio di millennio: cromature, bagliori, gradienti, pixel e finestre. Le reinterpretazioni contemporanee selezionano alcuni di questi caratteri senza riprodurre necessariamente una pagina storica. Per Spotify Wrapped 2023, il gruppo di design dichiarò un riferimento alle espressioni del primo internet, tradotte in un sistema attuale di layout stratificati e dinamici @spotify2023-wrapped.#website-note([Spotify Newsroom, intervista a _Louisa Ferguson_ sul progetto di Wrapped 2023, 29 novembre 2023.], "https://newsroom.spotify.com/2023-11-29/wrapped-design-marketing-brand-creative-inside-spotify/")
 
-Cromature e futurismo pop convivono con richiami al primo internet: sono repertori da rileggere, non date obbligate. L’esempio della @fig-storia-55-1 riprende i dati del bar nelle diverse varianti.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Elementi grafici dall’aspetto metallico e cromato, suggestioni futuristiche e richiami all’estetica dei primi anni di Internet possono convivere nel design contemporaneo. Non sono stili necessariamente legati a un preciso periodo storico, ma fonti di ispirazione che possono essere reinterpretate e combinate in modi nuovi e originali.»
+]
+#highlight(fill: rgb("FFF1A8"))[Cromature e futurismo pop convivono con richiami al primo internet: sono repertori da rileggere, non date obbligate.] L’esempio della @fig-storia-55-1 riprende i dati del bar nelle diverse varianti.
 
 
 
@@ -1290,7 +1412,15 @@ Coordinare la densità è parte del progetto. Arngren, catalogo online norvegese
 
 Nel web, il brutalismo presenta spesso strutture esplicite, caratteri utilitari e un’apparenza poco rifinita. Il neobrutalismo ne rielabora la forza visiva con *bordi* spessi, *ombre* nette, grandi titoli e colori accesi. La homepage di Gumroad offre un esempio di questa seconda direzione @sheikh2025-neobrutalismo.#website-note([_Hayat Sheikh_, Neobrutalism: Definition and Best Practices, Nielsen Norman Group, 11 aprile 2025.], "https://www.nngroup.com/articles/neobrutalism/") Un’identità marcata richiede comunque gerarchie, spazi e stati chiari: un contrasto cromatico vistoso non garantisce un contrasto sufficiente per leggere.
 
-Nel neobrutalismo bordi e ombre diventano segni espliciti. Il contrasto espressivo non garantisce la leggibilità. L’esempio della @fig-storia-59-1 riprende i dati del bar nelle diverse varianti.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Nel neobrutalismo, bordi marcati, ombre nette e forti contrasti diventano elementi distintivi dell’interfaccia, contribuendo a creare uno stile grafico deciso e immediatamente riconoscibile. Tuttavia, un design visivamente d’impatto non è necessariamente facile da leggere o utilizzare: è importante che le scelte estetiche non compromettano la chiarezza dei contenuti, la leggibilità dei testi e l’accessibilità dell’interfaccia.»
+]
+#highlight(fill: rgb("FFF1A8"))[Nel neobrutalismo bordi e ombre diventano segni espliciti. Il contrasto espressivo non garantisce la leggibilità.] L’esempio della @fig-storia-59-1 riprende i dati del bar nelle diverse varianti.
 
 
 
@@ -1340,7 +1470,15 @@ Nel neobrutalismo bordi e ombre diventano segni espliciti. Il contrasto espressi
 
 == Possibili direzioni future
 
-Il futuro delle interfacce non coincide con un unico nuovo stile. Gli esempi già disponibili suggeriscono *direzioni diverse*: tipografia più adattabile, materiali che comunicano profondità, strumenti generati su richiesta e pagine attente alle risorse. Sono punti di partenza, non previsioni certe.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Il futuro delle interfacce digitali non sembra andare verso un unico stile grafico dominante, ma verso soluzioni sempre più diversificate, capaci di adattarsi alle esigenze degli utenti e ai contesti di utilizzo. Alcune tendenze già osservabili mostrano, ad esempio, un uso più flessibile della tipografia, con testi che si adattano a schermi e situazioni differenti, oppure l'impiego di effetti visivi, trasparenze e materiali digitali che aiutano a comunicare la profondità e l'organizzazione degli elementi sullo schermo. #parbreak() Un'altra direzione interessante riguarda le interfacce generate o modificate attraverso l'intelligenza artificiale, che potrebbero adattare strumenti, contenuti e funzionalità alle richieste specifiche di ogni utente. Parallelamente, cresce l'attenzione verso una progettazione più sostenibile, con siti e applicazioni che consumano meno risorse, richiedono meno dati e funzionano in modo efficiente anche su dispositivi meno potenti. #parbreak() Questi esempi non rappresentano previsioni certe, ma possibili direzioni di evoluzione del web design. Ci ricordano soprattutto che progettare le interfacce del futuro non significherà soltanto scegliere nuovi colori, forme o effetti grafici, ma ripensare il modo in cui le persone interagiscono con la tecnologia.»
+]
+#highlight(fill: rgb("FFF1A8"))[Il futuro delle interfacce non coincide con un unico nuovo stile. Gli esempi già disponibili suggeriscono *direzioni diverse*: tipografia più adattabile, materiali che comunicano profondità, strumenti generati su richiesta e pagine attente alle risorse. Sono punti di partenza, non previsioni certe.]
 
 Una scelta visiva è davvero efficace quando nasce da un *contesto d’uso* preciso e quando se ne possono verificare gli effetti. Per valutarla, conviene porsi tre domande: che cosa aiuta l’utente a capire? Quale azione gli rende più evidente? E, soprattutto, quali costi o difficoltà comporta? Un’interfaccia non è ben progettata perché è esteticamente gradevole, ma perché le sue scelte grafiche, messe alla prova, migliorano il modo in cui le persone la usano.
 
@@ -1358,9 +1496,18 @@ Scenari progettuali, osservati a ottobre 2026
 
 === Tipografia adattabile ed espressiva
 
-I *caratteri variabili* permettono di modificare peso, larghezza e altre qualità delle lettere entro gli assi previsti dal progetto. *Roboto Flex* mostra come una famiglia possa adattare titoli e testi a ruoli differenti.#compact-note(text("Migrating to variable fonts"), "https://codelabs.developers.google.com/migrating-variable-fonts", tag: text("codelabs.developers.google.com/migrating-variable-fonts")) Material 3 Expressive combina invece forme, colore e movimento per dare maggiore identità alle interfacce @google-expressive.#website-note([Google Design, Better, Easier, Emotional UX: ricerca e limiti contestuali di Material 3 Expressive.], "https://design.google/library/expressive-material-design-google-research") Una possibile direzione è un linguaggio visivo che cambia con lo spazio e le *preferenze* della persona, mantenendo gerarchie riconoscibili. L’espressività richiede misura: deformazioni e animazioni non devono ostacolare la lettura.
+I *caratteri variabili* permettono di modificare peso, larghezza e altre qualità delle lettere entro gli assi previsti dal progetto. *Roboto Flex* mostra come una famiglia possa adattare titoli e testi a ruoli differenti.#compact-note(text("Migrating to variable fonts"), "https://codelabs.developers.google.com/migrating-variable-fonts", tag: text("codelabs.developers.google.com/migrating-variable-fonts")) Material 3 Expressive combina invece forme, colore e movimento per dare maggiore identità alle interfacce @google-expressive.#website-note([Google Design, Better, Easier, Emotional UX: ricerca e limiti contestuali di Material 3 Expressive.], "https://design.google/library/expressive-material-design-google-research") Una possibile direzione è un linguaggio visivo che cambia con lo spazio e le *preferenze* della persona, mantenendo gerarchie riconoscibili.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «La tipografia può diventare un elemento espressivo del design, andando oltre la semplice funzione di rendere leggibili i testi. Attraverso variazioni nella forma, nelle dimensioni e nel movimento delle lettere, è possibile creare interfacce più dinamiche, originali e capaci di attirare l’attenzione. Tuttavia, queste possibilità devono essere utilizzate con equilibrio: animazioni troppo elaborate o deformazioni eccessive dei caratteri rischiano di rendere i contenuti difficili da leggere e comprendere. Per questo è importante mantenere una gerarchia visiva chiara e coerente, che permetta agli utenti di distinguere facilmente titoli, sottotitoli e testi, anche quando la tipografia assume forme più creative e sperimentali.»
+]
+#highlight(fill: rgb("FFF1A8"))[L’espressività richiede misura: deformazioni e animazioni non devono ostacolare la lettura.]
 
-Una gerarchia stabile permette di adattare il carattere delle lettere senza disorientare. Espressività, deformazioni e movimento vanno dosati per proteggere la lettura. La @fig-storia-62-1 mostra il laboratorio Caffè TTC su schermo ampio; la @fig-storia-62-2 documenta gli assi di Roboto Flex.
+#highlight(fill: rgb("FFF1A8"))[Una gerarchia stabile permette di adattare il carattere delle lettere senza disorientare. Espressività, deformazioni e movimento vanno dosati per proteggere la lettura.] La @fig-storia-62-1 mostra il laboratorio Caffè TTC su schermo ampio; la @fig-storia-62-2 documenta gli assi di Roboto Flex.
 
 
 
@@ -1385,7 +1532,16 @@ Una gerarchia stabile permette di adattare il carattere delle lettere senza diso
 
 === Profondità e materiali dinamici
 
-La *profondità* può distinguere contenuti, strumenti e stati dell’interfaccia. *Liquid Glass* organizza controlli e navigazione sopra il contenuto con un materiale dinamico.#compact-note([#text("Materials")#text("; ")Liquid Glass, chiaro; Liquid Glass, scuro], ("https://developer.apple.com/design/human-interface-guidelines/materials",), tag: (text("developer.apple.com/…/materials"),)) <nota-url-01-106> Nelle linee guida di *visionOS*, finestre e volumi occupano uno spazio percepibile attraverso distanza, occlusione e ombre.#compact-note(text("Spatial layout"), "https://developer.apple.com/design/human-interface-guidelines/spatial-layout/", tag: text("developer.apple.com/…/spatial-layout")) Questi esempi aprono una possibile direzione: superfici capaci di adattarsi al contesto e comunicare relazioni. La tridimensionalità serve quando chiarisce il compito. Testi sospesi, livelli eccessivi o trasparenze indiscriminate possono aumentare fatica e ambiguità.
+La *profondità* può distinguere contenuti, strumenti e stati dell’interfaccia. *Liquid Glass* organizza controlli e navigazione sopra il contenuto con un materiale dinamico.#compact-note([#text("Materials")#text("; ")Liquid Glass, chiaro; Liquid Glass, scuro], ("https://developer.apple.com/design/human-interface-guidelines/materials",), tag: (text("developer.apple.com/…/materials"),)) <nota-url-01-106> Nelle linee guida di *visionOS*, finestre e volumi occupano uno spazio percepibile attraverso distanza, occlusione e ombre.#compact-note(text("Spatial layout"), "https://developer.apple.com/design/human-interface-guidelines/spatial-layout/", tag: text("developer.apple.com/…/spatial-layout"))
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Questi esempi mostrano come le interfacce digitali potrebbero evolversi verso superfici sempre più dinamiche e adattabili, capaci di modificare il proprio aspetto in base al contesto e di aiutare l’utente a comprendere meglio l’organizzazione dei contenuti. L’uso della profondità, delle sovrapposizioni e degli effetti tridimensionali può infatti rendere più evidenti le relazioni tra gli elementi, distinguere le informazioni principali da quelle secondarie e suggerire quali azioni è possibile compiere. #parbreak() Tuttavia, la tridimensionalità dovrebbe avere una funzione pratica e non soltanto decorativa. Testi che sembrano sospesi nello spazio, troppi livelli sovrapposti o un uso eccessivo delle trasparenze possono rendere l’interfaccia più complessa e faticosa da utilizzare. L’obiettivo è quindi trovare un equilibrio tra innovazione visiva e semplicità d’uso, sfruttando questi effetti solo quando contribuiscono a rendere l’esperienza più chiara, intuitiva e accessibile.»
+]
+#highlight(fill: rgb("FFF1A8"))[Questi esempi aprono una possibile direzione: superfici capaci di adattarsi al contesto e comunicare relazioni. La tridimensionalità serve quando chiarisce il compito. Testi sospesi, livelli eccessivi o trasparenze indiscriminate possono aumentare fatica e ambiguità.]
 
 L’ipotesi Caffè TTC (@fig-storia-63-1) viene affiancata agli esempi documentari di Liquid Glass (@fig-storia-63-2, @fig-storia-63-3) e visionOS (@fig-storia-63-4, @fig-storia-63-5).
 
@@ -1437,7 +1593,15 @@ L’ipotesi Caffè TTC (@fig-storia-63-1) viene affiancata agli esempi documenta
 
 Un’*interfaccia generativa* può costruire strumenti e visualizzazioni in risposta a una richiesta, invece di restituire soltanto testo. Gli esperimenti di *Google Research* mostrano pagine, giochi e simulazioni creati in funzione del compito @leviathan2025-generative. La possibile evoluzione riguarda anche lo stile: la stessa informazione potrebbe assumere forme diverse per una persona o un contesto. La ricerca segnala però tempi di generazione e inesattezze. Occorrono *controlli stabili*, indicazioni sulla provenienza dei contenuti e possibilità di correggere il risultato senza perdere orientamento.
 
-La persona verifica e corregge la proposta prima di confermare. Stato, provenienza e recupero dagli errori devono restare leggibili; tempi di generazione ed errori richiedono attenzione. La conversazione simulata della @fig-storia-generativa mostra come richieste successive compongano la pagina; la @fig-storia-64-1 documenta gli esperimenti di Google Research.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Quando un’interfaccia utilizza l’intelligenza artificiale per generare contenuti, suggerire soluzioni o svolgere determinate operazioni, è importante che l’utente mantenga sempre il controllo sul risultato. Le proposte generate dal sistema dovrebbero quindi poter essere esaminate, modificate e corrette prima di essere confermate o utilizzate. #parbreak() È altrettanto importante prevedere strumenti che permettano di correggere eventuali errori, annullare le azioni o tornare a una situazione precedente. Anche i tempi di attesa necessari alla generazione dei contenuti devono essere gestiti con attenzione, informando l’utente sullo stato dell’elaborazione e segnalando eventuali problemi. L’obiettivo è rendere l’interazione con l’intelligenza artificiale comprensibile, affidabile e sempre sotto il controllo della persona.»
+]
+#highlight(fill: rgb("FFF1A8"))[La persona verifica e corregge la proposta prima di confermare. Stato, provenienza e recupero dagli errori devono restare leggibili; tempi di generazione ed errori richiedono attenzione.] La conversazione simulata della @fig-storia-generativa mostra come richieste successive compongano la pagina; la @fig-storia-64-1 documenta gli esperimenti di Google Research.
 
 
 
@@ -1461,7 +1625,15 @@ La persona verifica e corregge la proposta prima di confermare. Stato, provenien
 
 === Un’estetica attenta alle risorse
 
-La *leggerezza* può diventare una scelta visiva oltre che tecnica: immagini selezionate, tipografia ottimizzata e movimento proporzionato rendono più intenzionale la pagina. Le *Web Sustainability Guidelines* collegano esperienza, sviluppo e infrastrutture; a ottobre 2026 sono ancora una bozza W3C @w3c2026-sostenibilita.#website-note([W3C, Web Sustainability Guidelines, Group Note Draft del 24 settembre 2026; non una Recommendation.], "https://www.w3.org/TR/2026/DNOTE-web-sustainability-guidelines-20260924/") *Low-tech Magazine* offre un caso concreto: sito statico, immagini retinate e server alimentato dal sole @dedecker2018-lowtech.#website-note([_Kris De Decker_, _Marie Otsuka_ e _Roel Roscam Abbing_, How to Build a Low-tech Website?, 24 settembre 2018.], "https://solar.lowtechmagazine.com/2018/09/how-to-build-a-low-tech-website/") Non esiste però un’estetica automaticamente sostenibile. Vanno misurati risorse e risultati, mantenendo accessibilità e qualità del servizio; un sito solare può anche andare offline.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Paragrafo non chiaro. Cambiare in: «La sostenibilità sta diventando un tema importante anche nella progettazione delle interfacce web. Un sito ben progettato, infatti, non dovrebbe essere soltanto bello e facile da utilizzare, ma anche efficiente, evitando di consumare risorse inutilmente. Questo significa, ad esempio, scegliere con attenzione le immagini, ottimizzarne le dimensioni, utilizzare caratteri tipografici che non rallentino il caricamento delle pagine e limitare animazioni ed effetti grafici quando non sono realmente necessari. #parbreak() Queste scelte non riguardano soltanto gli aspetti tecnici, ma possono influenzare anche lo stile visivo di un sito. Un'interfaccia più essenziale, con immagini leggere, pochi elementi decorativi e contenuti ben organizzati, può risultare piacevole e riconoscibile senza richiedere grandi quantità di dati o potenza di elaborazione. #parbreak() Anche il W3C, l'organizzazione che sviluppa gli standard del Web, si occupa di questi temi attraverso le Web Sustainability Guidelines, un insieme di indicazioni per ridurre l'impatto ambientale dei siti web, considerando sia la progettazione delle interfacce sia lo sviluppo del software e le infrastrutture necessarie al loro funzionamento. A ottobre 2026, queste linee guida erano ancora in fase di elaborazione e non costituivano uno standard definitivo. #parbreak() Un esempio interessante è il sito di Low-tech Magazine, progettato per ridurre al minimo il consumo di risorse. Il sito utilizza pagine statiche, immagini elaborate per essere più leggere e un server alimentato da energia solare. Questa scelta ha però una conseguenza particolare: quando l'energia disponibile non è sufficiente, il sito può diventare temporaneamente irraggiungibile. #parbreak() Questo esempio dimostra che progettare un web più sostenibile significa trovare un equilibrio tra consumi, qualità del servizio e bisogni degli utenti. Non basta adottare una grafica minimalista per rendere un sito automaticamente sostenibile: occorre valutare concretamente quante risorse utilizza, quanto è efficiente e se continua a garantire una buona esperienza d'uso, anche in termini di accessibilità e affidabilità.»
+]
+#highlight(fill: rgb("FFF1A8"))[La *leggerezza* può diventare una scelta visiva oltre che tecnica: immagini selezionate, tipografia ottimizzata e movimento proporzionato rendono più intenzionale la pagina. Le *Web Sustainability Guidelines* collegano esperienza, sviluppo e infrastrutture; a ottobre 2026 sono ancora una bozza W3C @w3c2026-sostenibilita.#website-note([W3C, Web Sustainability Guidelines, Group Note Draft del 24 settembre 2026; non una Recommendation.], "https://www.w3.org/TR/2026/DNOTE-web-sustainability-guidelines-20260924/") *Low-tech Magazine* offre un caso concreto: sito statico, immagini retinate e server alimentato dal sole @dedecker2018-lowtech.#website-note([_Kris De Decker_, _Marie Otsuka_ e _Roel Roscam Abbing_, How to Build a Low-tech Website?, 24 settembre 2018.], "https://solar.lowtechmagazine.com/2018/09/how-to-build-a-low-tech-website/") Non esiste però un’estetica automaticamente sostenibile. Vanno misurati risorse e risultati, mantenendo accessibilità e qualità del servizio; un sito solare può anche andare offline.]
 
 Menu e orari restano disponibili come testo e collegamenti. Nella variante Primissimo web non vengono caricate immagini. Il risultato va verificato su connessioni lente e con tecnologie assistive, mantenendo qualità e disponibilità del servizio. Le @fig-storia-65-1 e @fig-storia-65-2 distinguono l’ipotesi Caffè TTC dal sito solare documentato.
 
@@ -1487,7 +1659,15 @@ Menu e orari restano disponibili come testo e collegamenti. Nella variante Primi
 
 === Una scelta, non una moda
 
-Uno stile visivo non risolve da solo un problema di interazione. La storia mostra che tecnologie, media e pratiche d’uso cambiano insieme: alcune *convenzioni* restano, altre si trasformano. Per scegliere un linguaggio utile al progetto, occorre confrontare identità, *comprensione* e *condizioni reali d’uso*. Gli esempi di questo capitolo sono strumenti di lettura, non un catalogo di ricette.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «La scelta di uno stile grafico non è sufficiente, da sola, a rendere un’interfaccia efficace e facile da utilizzare. Come abbiamo visto ripercorrendo la storia del web design, l’evoluzione delle interfacce è sempre stata influenzata dai cambiamenti tecnologici, dai nuovi strumenti disponibili e dalle abitudini degli utenti. Alcune soluzioni, come l’organizzazione dei contenuti attraverso menu, pulsanti e collegamenti, si sono consolidate nel tempo, mentre altre sono state progressivamente trasformate o sostituite per rispondere a esigenze differenti. #parbreak() Per questo motivo, progettare un’interfaccia non significa semplicemente scegliere uno stile visivo di tendenza, ma individuare le soluzioni più adatte agli obiettivi del progetto e alle persone che lo utilizzeranno. È necessario trovare un equilibrio tra l’identità visiva che si vuole comunicare, la chiarezza con cui vengono presentati contenuti e funzionalità e le condizioni concrete di utilizzo, come il tipo di dispositivo, le capacità degli utenti e il contesto in cui avviene l’interazione. #parbreak() Gli stili e gli esempi analizzati in questo capitolo non devono quindi essere considerati modelli da copiare o regole da applicare indistintamente, ma riferimenti utili per comprendere come si è evoluto il design delle interfacce e per compiere scelte progettuali più consapevoli.»
+]
+#highlight(fill: rgb("FFF1A8"))[Uno stile visivo non risolve da solo un problema di interazione. La storia mostra che tecnologie, media e pratiche d’uso cambiano insieme: alcune *convenzioni* restano, altre si trasformano. Per scegliere un linguaggio utile al progetto, occorre confrontare identità, *comprensione* e *condizioni reali d’uso*. Gli esempi di questo capitolo sono strumenti di lettura, non un catalogo di ricette.]
 
 *Compito* — Quale azione deve riconoscere e compiere la persona?
 

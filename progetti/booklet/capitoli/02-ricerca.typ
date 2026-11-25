@@ -31,11 +31,21 @@ Episodi, motivazioni e difficoltà raccontate. Usa domande aperte e neutrali; ch
 
 Azioni, strumenti, interruzioni e contesto. Osserva il processo reale, quando possibile e con consenso.
 
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire in: «Una domanda di ricerca: “In un servizio che permette di prenotare e modificare appuntamenti, come fanno le persone a controllare la data e a cambiarla quando necessario?” Per approfondire il tema durante un’intervista, si può chiedere: “Pensa all’ultima volta in cui hai dovuto spostare un appuntamento. Che cosa hai fatto, dall’inizio alla fine? Quali passaggi o informazioni ti sono stati utili? Hai incontrato difficoltà?” È un esempio didattico di domanda d’intervista, non una risposta raccolta.»
+]
 #strong[Una domanda di ricerca]
 
-Come viene controllata e modificata la data dell’appuntamento?
+#highlight(fill: rgb("FFF1A8"))[Come viene controllata e modificata la data dell’appuntamento?]
 
-Per iniziare l’intervista: «Raccontami l’ultima volta che hai dovuto spostare un appuntamento». È una proposta di domanda, non una risposta raccolta.
+#strong[Una possibile domanda d’intervista]
+
+#highlight(fill: rgb("FFF1A8"))[Per iniziare l’intervista: «Raccontami l’ultima volta che hai dovuto spostare un appuntamento». È una proposta di domanda, non una risposta raccolta.]
 
 Prepara una traccia, ma lascia spazio a temi inattesi. Separa azioni osservate e racconti. Le risposte orientano ciò che vale la pena approfondire: non confermano automaticamente la soluzione immaginata.
 
@@ -71,7 +81,16 @@ In uno studio reale, confronta episodi di più partecipanti e conserva anche i c
 
 Nel 1980 #emph[Geert Hofstede] pubblicò #emph[Culture’s Consequences], presentando quattro dimensioni per confrontare i valori culturali tra Paesi: distanza dal potere (PDI), individualismo/collettivismo (IDV), mascolinità/femminilità (MAS, da Masculinity) e avversione all’incertezza (UAI).
 
-L’orientamento a lungo termine (LTO) fu aggiunto con #emph[Michael Bond] nel 1988/1991; indulgenza/restrizione (IVR), con #emph[Michael Minkov] nel 2010. Gli schemi usano indici relativi di The Culture Factor, verificati il 25 ottobre 2026: dati aggregati, non percentuali né profili individuali. IDV e LTO sono stati aggiornati nel 2023; le rilevazioni provengono da anni diversi. @hofstede2011-cultures. #compact-note([_Hofstede_, 2011; The Culture Factor, dati e FAQ; The Culture Factor, PDI], ("https://doi.org/10.9707/2307-0919.1014", "https://www.theculturefactor.com/country-comparison-tool", "https://www.theculturefactor.com/frequently-asked-questions",), tag: ("https://doi.org/10.9707/2307-0919.1014", "https://www.theculturefactor.com/country-comparison-tool", "https://www.theculturefactor.com/frequently-asked-questions",)) <nota-url-02-3>
+L’orientamento a lungo termine (LTO) fu aggiunto con #emph[Michael Bond] nel 1988/1991; indulgenza/restrizione (IVR), con #emph[Michael Minkov] nel 2010.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Gli schemi riportano i punteggi relativi pubblicati da The Culture Factor, consultati il 25 ottobre 2026. Sono dati aggregati: non esprimono percentuali e non descrivono i singoli individui. I punteggi IDV e LTO sono stati aggiornati nel 2023; gli altri si basano su rilevazioni raccolte in anni differenti.»
+]
+#highlight(fill: rgb("FFF1A8"))[Gli schemi usano indici relativi di The Culture Factor, verificati il 25 ottobre 2026: dati aggregati, non percentuali né profili individuali. IDV e LTO sono stati aggiornati nel 2023; le rilevazioni provengono da anni diversi.] @hofstede2011-cultures. #compact-note([_Hofstede_, 2011; The Culture Factor, dati e FAQ; The Culture Factor, PDI], ("https://doi.org/10.9707/2307-0919.1014", "https://www.theculturefactor.com/country-comparison-tool", "https://www.theculturefactor.com/frequently-asked-questions",), tag: ("https://doi.org/10.9707/2307-0919.1014", "https://www.theculturefactor.com/country-comparison-tool", "https://www.theculturefactor.com/frequently-asked-questions",)) <nota-url-02-3>
 
 Una differenza visiva tra siti è un’osservazione; la sua spiegazione culturale resta un’ipotesi. @brewer2014-ecological.#website-note([_Brewer_ e _Venaik_, 2014.], "https://doi.org/10.1177/0170840613517602")
 
@@ -80,7 +99,15 @@ Una differenza visiva tra siti è un’osservazione; la sua spiegazione cultural
 
 La distanza dal potere (PDI, Power Distance Index) descrive quanto i membri meno potenti di istituzioni e organizzazioni si aspettano e accettano una distribuzione diseguale del potere. Nel confronto tra società, punteggi alti indicano maggiore accettazione delle gerarchie; punteggi bassi, una maggiore aspettativa di rapporti paritari e consultazione.
 
-Per il design, il tema diventa una domanda: come viene riconosciuta l’autorevolezza di un servizio? Ruoli, competenze, fonti e tono possono essere esplorati con gli utenti. Il punteggio nazionale non stabilisce quanta guida serva né quanto debba essere libera la navigazione. @hofstede2011-cultures.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Nel progettare un servizio, la distanza dal potere può offrire uno spunto per capire come le persone ne riconoscono l’autorevolezza: quali ruoli, competenze, fonti e tono ispirano fiducia? I punteggi nazionali forniscono un riferimento generale, ma non dicono quanta guida o libertà di navigazione preferiscano le singole persone. Queste scelte vanno quindi esplorate con gli utenti.»
+]
+#highlight(fill: rgb("FFF1A8"))[Per il design, il tema diventa una domanda: come viene riconosciuta l’autorevolezza di un servizio? Ruoli, competenze, fonti e tono possono essere esplorati con gli utenti. Il punteggio nazionale non stabilisce quanta guida serva né quanto debba essere libera la navigazione.] @hofstede2011-cultures.
 
 Le condizioni di confronto dei campioni richiedono cautela anche quando si usa il Values Survey Module @hofstede-minkov2013-vsm.#website-note([_Hofstede_ e _Minkov_, 2013, manuale VSM.], "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf")
 
@@ -113,7 +140,15 @@ La metafora nella @fig-ricerca-pdi-metafora mette a confronto i due poli: Relazi
 
 Quanto viene accettata una distribuzione diseguale del potere? Un indice basso segnala aspettative più paritarie; uno alto, maggiore accettazione delle gerarchie (@fig-ricerca-pdi-dati).
 
-Nella ricerca UX, verifica quali ruoli, competenze e segnali rendono autorevole il servizio per i suoi pubblici. #compact-note([_Hofstede_, 2011; The Culture Factor, dati e FAQ; The Culture Factor, PDI], ("https://doi.org/10.9707/2307-0919.1014", "https://www.theculturefactor.com/country-comparison-tool", "https://www.theculturefactor.com/frequently-asked-questions",), tag: ("https://doi.org/10.9707/2307-0919.1014", "https://www.theculturefactor.com/country-comparison-tool", "https://www.theculturefactor.com/frequently-asked-questions",)) <nota-ricerca-pdi-locale>
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Nella ricerca UX, indaga quali ruoli, competenze e segnali aiutano le persone a riconoscere come autorevole un servizio.»
+]
+#highlight(fill: rgb("FFF1A8"))[Nella ricerca UX, verifica quali ruoli, competenze e segnali rendono autorevole il servizio per i suoi pubblici.] #compact-note([_Hofstede_, 2011; The Culture Factor, dati e FAQ; The Culture Factor, PDI], ("https://doi.org/10.9707/2307-0919.1014", "https://www.theculturefactor.com/country-comparison-tool", "https://www.theculturefactor.com/frequently-asked-questions",), tag: ("https://doi.org/10.9707/2307-0919.1014", "https://www.theculturefactor.com/country-comparison-tool", "https://www.theculturefactor.com/frequently-asked-questions",)) <nota-ricerca-pdi-locale>
 
 #figure([
   #metadata((
@@ -236,7 +271,15 @@ La @fig-ricerca-hofstede-amsterdam-masterweek-2024 mostra Amsterdam · incontri 
 
 L’individualismo (IDV, Individualism Index) descrive il rapporto tra la persona e i gruppi a cui appartiene. Nel modello di _Hofstede_, punteggi alti indicano legami sociali meno vincolanti e maggiore responsabilità verso sé stessi e la famiglia più vicina; punteggi bassi danno più peso ad appartenenze durature, lealtà e obblighi reciproci.
 
-Per il design può essere utile esplorare come le persone collegano obiettivi personali, decisioni condivise e relazioni. L’indice nazionale non misura egoismo, bisogno di personalizzazione o attenzione alla privacy: la condivisione dei dati richiede domande specifiche sul servizio e sul contesto. @hofstede2011-cultures.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Per progettare un servizio, è utile capire quali attività le persone preferiscono svolgere da sole e quali, invece, vogliono condividere con altre persone. L’indice IDV descrive una tendenza generale riferita a un paese, ma non permette di prevedere le preferenze dei singoli, per esempio sulla personalizzazione del servizio o sulla privacy. Questi aspetti vanno verificati direttamente con gli utenti, chiedendo quali informazioni sono disposti a condividere con il servizio e in quali condizioni.»
+]
+#highlight(fill: rgb("FFF1A8"))[Per il design può essere utile esplorare come le persone collegano obiettivi personali, decisioni condivise e relazioni. L’indice nazionale non misura egoismo, bisogno di personalizzazione o attenzione alla privacy: la condivisione dei dati richiede domande specifiche sul servizio e sul contesto.] @hofstede2011-cultures.
 
 *Individualismo*
 
@@ -258,7 +301,7 @@ La metafora nella @fig-ricerca-idv-metafora mette a confronto i due poli: Appart
 
 #image-figure(path("/progetti/booklet/assets/dimensioni-culturali-orange-300/originali/idv.png"),
   [Individualismo e collettivismo · IDV],
-  format: "una-colonna",
+  format: "tutta-pagina",
   id: "fig-ricerca-idv-metafora",
   alt: "Il gruppo e i percorsi separati evocano legami collettivi e autonomia. Le due metà illustrano i poli IDV; non stabiliscono come ogni persona prende decisioni.",
   height: 110mm,
@@ -267,7 +310,15 @@ La metafora nella @fig-ricerca-idv-metafora mette a confronto i due poli: Appart
 
 Quanto sono vincolanti i legami con i gruppi? Il polo collettivistico valorizza appartenenza e obblighi reciproci; quello individualistico, autonomia e legami meno vincolanti (@fig-ricerca-idv-dati).
 
-Nella ricerca UX, esplora chi partecipa alle decisioni e quali responsabilità personali o condivise emergono nel servizio. #website-note([The Culture Factor, IDV.], "https://www.theculturefactor.com/country-comparison-tool")
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Nella ricerca UX, chiedi chi partecipa alle decisioni legate al servizio e quali responsabilità ciascuno preferisce assumersi o condividere.»
+]
+#highlight(fill: rgb("FFF1A8"))[Nella ricerca UX, esplora chi partecipa alle decisioni e quali responsabilità personali o condivise emergono nel servizio.] #website-note([The Culture Factor, IDV.], "https://www.theculturefactor.com/country-comparison-tool")
 
 #figure([
   #metadata((
@@ -284,9 +335,17 @@ Nella ricerca UX, esplora chi partecipa alle decisioni e quali responsabilità p
 
 #block(sticky: true)[#strong[Greyhound]]
 
-La schermata di Greyhound mette in primo piano la ricerca di un viaggio. L’accesso al profilo, il recupero della prenotazione, la ricerca della fermata e il tracciamento del bus affiancano l’invito a scaricare l’app tramite codice QR.
+La schermata di Greyhound qui presa in esame mette in primo piano la ricerca di un viaggio. L’accesso al profilo, il recupero della prenotazione, la ricerca della fermata e il tracciamento del bus affiancano l’invito a scaricare l’app tramite codice QR.
 
-Sono funzioni legate a compiti personali del viaggiatore. Offrono un caso per chiedersi chi organizza il viaggio e quali decisioni condivide con altre persone. La loro presenza non dimostra un orientamento individualistico del pubblico: conta anche la natura del servizio (@fig-ricerca-c03-015-01).
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «La ricerca del viaggio, il recupero della prenotazione e il tracciamento del bus sono attività che il viaggiatore può svolgere individualmente. La schermata invita a chiedersi se le persone pianificano il viaggio da sole oppure insieme ad altri, per esempio concordando la destinazione o gli orari. Queste funzioni, da sole, non dimostrano un orientamento individualistico del pubblico: dipendono anche dal tipo di servizio.»
+]
+#highlight(fill: rgb("FFF1A8"))[Sono funzioni legate a compiti personali del viaggiatore. Offrono un caso per chiedersi chi organizza il viaggio e quali decisioni condivide con altre persone. La loro presenza non dimostra un orientamento individualistico del pubblico: conta anche la natura del servizio] (@fig-ricerca-c03-015-01).
 
 #image-figure(path("/risorse-condivise/immagini/figure/ricerca/c03-015-01.jpeg"),
   [Ricerca del viaggio, prenotazione e app organizzano compiti del viaggiatore. L’IDV suggerisce di indagare chi decide e con chi condivide il viaggio; queste funzioni dipendono anche dalla natura del servizio.
@@ -304,7 +363,15 @@ Homepage di Greyhound: ricerca del viaggio e servizi per l’utente · screensho
 
 Nella schermata di Kowloon Motor Bus, a Hong Kong, compaiono il viaggio con animali domestici, una fotografia dello staff, assistenza e contatti telefonici. L’acquisto del biglietto resta tra le azioni principali.
 
-Questi elementi permettono di discutere come un servizio rappresenti clienti, personale e relazioni di supporto. Per interpretarli occorre conoscere destinatari e obiettivi della comunicazione: una fotografia di gruppo o l’uso del plurale non bastano a dimostrare valori collettivistici degli utenti (@fig-ricerca-c03-016-01).
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «La schermata mostra come il servizio si rivolge a clienti e personale e quali forme di assistenza mette in evidenza. Per interpretare queste scelte bisogna considerare a chi è destinata la comunicazione e che cosa vuole ottenere. Una foto di gruppo o l’uso del plurale descrivono il modo in cui il servizio si presenta, ma non bastano a stabilire se i suoi utenti condividano valori collettivistici.»
+]
+#highlight(fill: rgb("FFF1A8"))[Questi elementi permettono di discutere come un servizio rappresenti clienti, personale e relazioni di supporto. Per interpretarli occorre conoscere destinatari e obiettivi della comunicazione: una fotografia di gruppo o l’uso del plurale non bastano a dimostrare valori collettivistici degli utenti] (@fig-ricerca-c03-016-01).
 
 #image-figure(path("/risorse-condivise/immagini/figure/ricerca/c03-016-01.jpeg"),
   [Il banner per animali, la fotografia dello staff e i contatti affiancano il viaggio. Per l’IDV, esploriamo quali relazioni sostiene il servizio; fotografie di gruppo e plurali non provano valori collettivistici.
@@ -407,7 +474,15 @@ La @fig-ricerca-hofstede-kmb-assistenza-2024 mostra KMB · assistenza ai viaggia
 
 La sigla MAS (masculinity) riprende il nome storico della dimensione «mascolinità/femminilità». The Culture Factor la chiama oggi «motivazione al risultato e al successo», mantenendone punteggi e significato. Il confronto riguarda il peso di competizione, risultati e successo materiale rispetto a cooperazione, cura e qualità della vita.
 
-Il nome storico riflette la terminologia di _Hofstede_. L’indice descrive valori a livello sociale; non misura il genere o le emozioni dei singoli utenti. Per il design suggerisce domande su come vengono interpretati messaggi di prestazione, riconoscimento, relazioni e benessere condiviso. @hofstede2011-cultures.
+Il nome storico riflette la terminologia di _Hofstede_. #block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «L’indice descrive tendenze culturali generali e non permette di dedurre il genere o le emozioni delle singole persone. Può però aiutare a formulare domande per la ricerca: come interpretano gli utenti i messaggi che mettono in primo piano risultati e prestazioni? Quale importanza attribuiscono al riconoscimento personale, alle relazioni e al benessere condiviso?»
+]
+#highlight(fill: rgb("FFF1A8"))[L’indice descrive valori a livello sociale; non misura il genere o le emozioni dei singoli utenti. Per il design suggerisce domande su come vengono interpretati messaggi di prestazione, riconoscimento, relazioni e benessere condiviso.] @hofstede2011-cultures.
 
 *Competizione e risultati*
 
@@ -436,9 +511,25 @@ La metafora nella @fig-ricerca-mas-metafora mette a confronto i due poli: Cooper
   aspect-ratio: (1086, 1448).at(0) / (1086, 1448).at(1),
 )
 
-Quali valori ricevono riconoscimento: cooperazione e qualità della vita, oppure competizione e successo? MAS (masculinity) è il nome storico della dimensione; The Culture Factor usa oggi «motivazione al risultato e al successo» (@fig-ricerca-mas-dati).
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Osservando i messaggi e le immagini di un servizio, possiamo chiederci quali valori mettono in evidenza: la collaborazione e la qualità della vita, oppure la competizione e il successo individuale? MAS è la sigla del nome storico della dimensione, “mascolinità”; oggi The Culture Factor la definisce “motivazione al risultato e al successo”.»
+]
+#highlight(fill: rgb("FFF1A8"))[Quali valori ricevono riconoscimento: cooperazione e qualità della vita, oppure competizione e successo? MAS (masculinity) è il nome storico della dimensione; The Culture Factor usa oggi «motivazione al risultato e al successo».] (@fig-ricerca-mas-dati).
 
-Nella ricerca UX, verifica quali valori esprimono messaggi e immagini e come vengono interpretati dalle persone coinvolte. #website-note([The Culture Factor, MAS.], "https://www.theculturefactor.com/country-comparison-tool")
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Nella ricerca UX, chiedi alle persone quali valori riconoscono nei messaggi e nelle immagini del servizio e che cosa suscitano in loro. In questo modo puoi capire se vengono percepiti come importanti la competizione, la collaborazione, il successo o il benessere condiviso.»
+]
+#highlight(fill: rgb("FFF1A8"))[Nella ricerca UX, verifica quali valori esprimono messaggi e immagini e come vengono interpretati dalle persone coinvolte.] #website-note([The Culture Factor, MAS.], "https://www.theculturefactor.com/country-comparison-tool")
 
 #figure([
   #metadata((
@@ -457,7 +548,15 @@ Nella ricerca UX, verifica quali valori esprimono messaggi e immagini e come ven
 
 Nella schermata del sito web del governo giapponese, notizie e anteprime presentano obiettivi raggiunti, investimenti e contributi del Paese a temi globali.
 
-Per discutere il MAS, osserviamo quali valori emergono e chiediamoci quale spazio ricevano anche sostenibilità e qualità della vita. La funzione del sito e il pubblico previsto sono centrali: la promozione di un Paese può spiegare l’enfasi sui suoi successi. Il confronto richiede contenuti e periodi di pubblicazione comparabili (@fig-ricerca-c03-019-01).
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Per leggere questa schermata attraverso il MAS, osserviamo quali risultati e successi mette in risalto e se dà spazio anche alla sostenibilità e alla qualità della vita. Ricordiamo però che si tratta del sito di un governo: presentare i successi del Paese può essere parte della sua funzione. Per confrontarlo con altri siti, è quindi importante considerare pagine con scopi simili e pubblicate in periodi comparabili.»
+]
+#highlight(fill: rgb("FFF1A8"))[Per discutere il MAS, osserviamo quali valori emergono e chiediamoci quale spazio ricevano anche sostenibilità e qualità della vita. La funzione del sito e il pubblico previsto sono centrali: la promozione di un Paese può spiegare l’enfasi sui suoi successi. Il confronto richiede contenuti e periodi di pubblicazione comparabili] (@fig-ricerca-c03-019-01).
 
 #image-figure(path("/risorse-condivise/immagini/figure/ricerca/c03-019-01.jpeg"),
   [Notizie e anteprime raccontano contributi, attività e temi del Paese. Il MAS invita a confrontare riconoscimento dei risultati e qualità della vita, considerando anche finalità editoriali, destinatari e periodo della pagina.
@@ -475,7 +574,15 @@ Homepage del sito del governo giapponese · screenshot storico.],
 
 Nella schermata del sito del governo svedese, la notizia iniziale riguarda la comunità LGBTQ+; altre immagini mostrano relazioni tra generazioni e attività di sostegno reciproco. Cura e benessere collettivo sono temi utili per discutere il polo della cooperazione e della qualità della vita del MAS.
 
-La selezione editoriale documenta però ciò che questa pagina sceglie di mostrare. Per interpretarla insieme all’esempio giapponese vanno considerati finalità, destinatari e momento della pubblicazione, oltre ai valori evocati dalle immagini (@fig-ricerca-c03-020-01).
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «La schermata mostra una selezione di contenuti scelta dal sito, non tutti i valori presenti nella società svedese. Per confrontarla con quella del governo giapponese, consideriamo che cosa comunica ciascun sito, a chi si rivolge e quando è stata pubblicata la pagina. Le immagini possono suggerire temi di cura e benessere condiviso, ma vanno lette nel contesto della comunicazione.»
+]
+#highlight(fill: rgb("FFF1A8"))[La selezione editoriale documenta però ciò che questa pagina sceglie di mostrare. Per interpretarla insieme all’esempio giapponese vanno considerati finalità, destinatari e momento della pubblicazione, oltre ai valori evocati dalle immagini] (@fig-ricerca-c03-020-01).
 
 #image-figure(path("/risorse-condivise/immagini/figure/ricerca/c03-020-01.jpeg"),
   [Diritti LGBTQ+ e immagini di cura rendono visibili temi di benessere condiviso. Nel MAS sono spunti sul polo della cooperazione; una selezione editoriale non descrive tutti i valori della società.
@@ -549,7 +656,15 @@ La @fig-ricerca-hofstede-norvegia-2024 mostra Norvegia · documento storico. Alt
 
 L’avversione all’incertezza (UAI, Uncertainty Avoidance Index) indica quanto, in una società, le situazioni ambigue o sconosciute sono vissute come una minaccia. Punteggi alti segnalano un maggiore disagio verso l’ambiguità; punteggi bassi, una maggiore tolleranza. L’indice descrive una tendenza collettiva: non misura l’avversione al rischio, la creatività o il rispetto delle regole delle singole persone.
 
-Nella progettazione offre uno spunto per indagare quanto contino familiarità, prevedibilità e interpretazione di elementi nuovi. La ricerca deve però distinguere queste aspettative dagli effetti di esperienza, compito e posta in gioco. Alcune soluzioni, come prezzi chiari, feedback tempestivi e possibilità di recuperare dagli errori, sono utili a pubblici diversi. @hofstede2011-cultures.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «L’UAI può aiutare a formulare domande per la ricerca, ma non permette di prevedere le reazioni di ogni persona. Possiamo chiedere agli utenti quanto li aiutino elementi familiari e indicazioni chiare e come vivano la presenza di novità o ambiguità. Per interpretare le risposte, consideriamo anche l’esperienza delle persone, il compito da svolgere e le possibili conseguenze delle loro azioni. In ogni caso, prezzi comprensibili, feedback tempestivi e la possibilità di correggere gli errori rendono il servizio più chiaro per persone con aspettative diverse.»
+]
+#highlight(fill: rgb("FFF1A8"))[Nella progettazione offre uno spunto per indagare quanto contino familiarità, prevedibilità e interpretazione di elementi nuovi. La ricerca deve però distinguere queste aspettative dagli effetti di esperienza, compito e posta in gioco. Alcune soluzioni, come prezzi chiari, feedback tempestivi e possibilità di recuperare dagli errori, sono utili a pubblici diversi.] @hofstede2011-cultures.
 
 *Alta avversione all’incertezza*
 
@@ -597,7 +712,7 @@ Nella ricerca UX, osserva quali passaggi risultano ambigui e quali informazioni 
 
 #block(sticky: true)[#strong[KFC Bielorussia]]
 
-Nella schermata di KFC in Bielorussia, prezzi e percentuali di sconto compaiono in una struttura regolare; il menu dei prodotti è disponibile nella stessa pagina. Sono informazioni che possono sostenere il confronto tra offerte.
+Nella schermata di KFC in Bielorussia presa in esame, prezzi e percentuali di sconto compaiono in una struttura regolare; il menu dei prodotti è disponibile nella stessa pagina. Sono informazioni che possono sostenere il confronto tra offerte.
 
 Per discutere lo UAI possiamo chiedere quali dubbi restino prima dell’acquisto e se questi contenuti aiutino a risolverli. Promozioni e organizzazione del menu dipendono anche da obiettivi commerciali: la schermata, da sola, non rivela il disagio degli utenti verso l’ambiguità (@fig-ricerca-c03-023-01).
 
@@ -616,7 +731,15 @@ Homepage di KFC in Bielorussia · screenshot storico.],
 
 Nella schermata di KFC in Danimarca, lo slogan, la fotografia del prodotto e il prezzo «49» danno rilievo a una promozione. Seguono sezioni per ordinare online e per le opportunità di lavoro.
 
-Il confronto sullo UAI invita a verificare quali informazioni rendano l’offerta comprensibile e quali dubbi restino prima della scelta. La campagna e il compito incidono sulle informazioni necessarie: una fotografia ampia o la quantità di contenuti non misurano il disagio verso l’ambiguità del pubblico (@fig-ricerca-c03-024-01).
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Per leggere questa schermata attraverso lo UAI, chiediamoci quali informazioni aiutino le persone a capire la promozione e a decidere se aderire, e quali dubbi possano restare. Le informazioni necessarie dipendono sia dalla campagna sia dal compito: la quantità di contenuti o la dimensione di una fotografia, da sole, non rivelano quanto il pubblico sia a disagio di fronte all’incertezza.»
+]
+#highlight(fill: rgb("FFF1A8"))[Il confronto sullo UAI invita a verificare quali informazioni rendano l’offerta comprensibile e quali dubbi restino prima della scelta. La campagna e il compito incidono sulle informazioni necessarie: una fotografia ampia o la quantità di contenuti non misurano il disagio verso l’ambiguità del pubblico] (@fig-ricerca-c03-024-01).
 
 #image-figure(path("/risorse-condivise/immagini/figure/ricerca/c03-024-01.jpeg"),
   [La fotografia principale, lo slogan e il prezzo concentrano l’attenzione sull’offerta. Lo UAI suggerisce di chiedere quali informazioni servano prima della scelta; pochi contenuti non dimostrano maggiore tolleranza dell’ambiguità.
@@ -631,7 +754,15 @@ Homepage di KFC in Danimarca · screenshot storico.],
 
 #block(sticky: true)[#strong[Documenti e confronti]]
 
-I documenti KFC della Russia e della Bielorussia sono distinti: confrontare prezzi, punti e informazioni senza confondere i mercati.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Le schermate di KFC in Russia e in Bielorussia si riferiscono a mercati diversi. Nel confrontarle, esaminiamo separatamente prezzi, programmi punti e informazioni, senza attribuire a un Paese i dati dell’altro.»
+]
+#highlight(fill: rgb("FFF1A8"))[I documenti KFC della Russia e della Bielorussia sono distinti: confrontare prezzi, punti e informazioni senza confondere i mercati.]
 
 La @fig-ricerca-online-kfc-bielorussia-20261009 mostra KFC Bielorussia. Prima schermata del sito ufficiale · 9 ottobre 2026. #website-note([KFC Bielorussia.], "https://kfc.by/")
 
@@ -707,7 +838,15 @@ La @fig-ricerca-hofstede-kfc-danimarca-2024 mostra KFC Danimarca · menu e offer
 
 L’orientamento a lungo termine (LTO, Long-Term Orientation Index) confronta il peso dato alla preparazione del futuro con quello attribuito a tradizioni e obblighi legati al presente e al passato. Nel modello, il polo a lungo termine valorizza adattamento, perseveranza e parsimonia; quello a breve termine richiama continuità con le tradizioni, reputazione e adempimento degli obblighi sociali.
 
-Per il design può suggerire domande su come le persone valutano continuità e cambiamento nel tempo. Non misura una preferenza per sconti o acquisti immediati: contano anche risorse disponibili, necessità e caratteristiche del servizio. @hofstede2011-cultures.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «L’LTO può aiutare a formulare domande su come le persone guardano al futuro e su quale equilibrio preferiscono tra continuità e cambiamento. Non permette però di dedurre che qualcuno preferisca sconti o acquisti immediati: queste scelte dipendono anche dalle risorse disponibili, dalle necessità e dal tipo di servizio.»
+]
+#highlight(fill: rgb("FFF1A8"))[Per il design può suggerire domande su come le persone valutano continuità e cambiamento nel tempo. Non misura una preferenza per sconti o acquisti immediati: contano anche risorse disponibili, necessità e caratteristiche del servizio.] @hofstede2011-cultures.
 
 *Orientamento a lungo termine*
 
@@ -725,7 +864,7 @@ Ipotesi per la ricerca:
 - Come vengono interpretati impegni e responsabilità presenti?
 - Quali continuità con le pratiche abituali contano nell’uso del servizio?
 
-La metafora nella @fig-ricerca-lto-metafora mette a confronto i due poli: Continuità con norme e tradizioni e Adattamento e preparazione del futuro.
+La metafora nella @fig-ricerca-lto-metafora  mette a confronto i due poli: Continuità con norme e tradizioni e Adattamento e orientamento al futuro.
 
 #image-figure(path("/progetti/booklet/assets/dimensioni-culturali-orange-300/originali/lto.png"),
   [Orientamento a lungo termine · LTO],
@@ -738,7 +877,15 @@ La metafora nella @fig-ricerca-lto-metafora mette a confronto i due poli: Contin
 
 Quale peso hanno tradizioni e norme rispetto ad adattamento e preparazione del futuro? Il polo a lungo termine valorizza pragmatismo, perseveranza e parsimonia (@fig-ricerca-lto-dati).
 
-Nella ricerca UX, esplora come le persone valutano benefici futuri, impegni presenti e cambiamenti nelle pratiche del servizio. #website-note([The Culture Factor, LTO.], "https://www.theculturefactor.com/country-comparison-tool")
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Nella ricerca UX, chiedi quali vantaggi le persone si aspettano nel tempo, quali impegni sono disposte ad assumersi nel presente e come considerano i cambiamenti nelle abitudini richiesti dal servizio.»
+]
+#highlight(fill: rgb("FFF1A8"))[Nella ricerca UX, esplora come le persone valutano benefici futuri, impegni presenti e cambiamenti nelle pratiche del servizio.] #website-note([The Culture Factor, LTO.], "https://www.theculturefactor.com/country-comparison-tool")
 
 #figure([
   #metadata((
@@ -757,7 +904,15 @@ Nella ricerca UX, esplora come le persone valutano benefici futuri, impegni pres
 
 Lo screenshot del sito Kinder per il mercato cinese apre con una scena di gioco fra un adulto e un bambino. Seguono tre schede illustrate e una sezione che presenta diversi prodotti del marchio.
 
-Nel confronto sul LTO, queste scelte editoriali suggeriscono domande: quali aspetti della crescita e del benessere vengono percepiti? Quali impegni presenti o futuri sono esplicitamente comprensibili? Per rispondere servono anche il testo tradotto correttamente e la ricerca con il pubblico previsto (@fig-ricerca-c03-027-01).
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Questa schermata può essere usata per chiedere alle persone quali messaggi riconoscono nelle immagini e nei contenuti e che cosa comprendono riguardo alla crescita e al benessere. È importante verificare anche se le informazioni su impegni e prospettive future sono chiare. Prima di trarre conclusioni, occorre tradurre correttamente i testi e confrontarsi con persone appartenenti al pubblico a cui il sito si rivolge.»
+]
+#highlight(fill: rgb("FFF1A8"))[Nel confronto sul LTO, queste scelte editoriali suggeriscono domande: quali aspetti della crescita e del benessere vengono percepiti? Quali impegni presenti o futuri sono esplicitamente comprensibili? Per rispondere servono anche il testo tradotto correttamente e la ricerca con il pubblico previsto] (@fig-ricerca-c03-027-01).
 
 #image-figure(path("/risorse-condivise/immagini/figure/ricerca/c03-027-01.jpeg"),
   [La scena di gioco, le schede illustrate e i prodotti collegano la marca alla vita quotidiana. Per il LTO, verifichiamo quali temi di crescita e continuità siano effettivamente compresi.
@@ -772,7 +927,7 @@ Homepage di Kinder per il mercato cinese. Screenshot storico.],
 
 #block(sticky: true)[#strong[Kinder Stati Uniti]]
 
-La schermata di Kinder per il mercato statunitense privilegia prodotti e promozioni.
+La schermata di Kinder per il mercato statunitense privilegia invece prodotti e promozioni.
 
 Nella versione mostrata, l’homepage presenta l'arrivo di un nuovo prodotto sul mercato americano e le notizie sottostanti focalizzano la propria attenzione sui prodotti dell'azienda. Più sotto, dove nel sito cinese c'era una sezione dedicata allo sport per bambini, l'azienda presenta la collaborazione per le proprie sorpresine con la celebre serie «Stranger Things» (@fig-ricerca-c03-028-01).
 
@@ -857,7 +1012,15 @@ La @fig-ricerca-hofstede-kinder-usa-2024 mostra Kinder USA · novità e prodotti
 
 === Indulgenza e restrizione · IVR
 
-Quanto spazio viene riconosciuto al godersi la vita? La restrizione enfatizza il controllo attraverso norme sociali; l’indulgenza ammette una gratificazione relativamente libera (@fig-ricerca-ivr-dati). @hofstede2011-cultures.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «L’IVR descrive quanto una società lasci spazio alla gratificazione e al godimento della vita. Nel polo dell’indulgenza, le norme sociali permettono più liberamente di soddisfare desideri e dedicarsi al tempo libero; nel polo della restrizione, il comportamento è maggiormente regolato da norme e aspettative sociali.»
+]
+#highlight(fill: rgb("FFF1A8"))[Quanto spazio viene riconosciuto al godersi la vita? La restrizione enfatizza il controllo attraverso norme sociali; l’indulgenza ammette una gratificazione relativamente libera] (@fig-ricerca-ivr-dati). @hofstede2011-cultures.
 
 La metafora nella @fig-ricerca-ivr-metafora mette a confronto i due poli: Controllo mediante norme sociali e Gratificazione relativamente libera.
 
@@ -870,7 +1033,15 @@ La metafora nella @fig-ricerca-ivr-metafora mette a confronto i due poli: Contro
   aspect-ratio: (1086, 1448).at(0) / (1086, 1448).at(1),
 )
 
-Nella ricerca UX, verifica quali attività e messaggi risultano appropriati nel contesto d’uso e quali vincoli sociali incidono sul servizio. #website-note([The Culture Factor, IVR.], "https://www.theculturefactor.com/country-comparison-tool")
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Nella ricerca UX, chiedi alle persone quali attività e messaggi considerano adatti alla situazione e quali regole o aspettative sociali influenzano il loro uso del servizio.»
+]
+#highlight(fill: rgb("FFF1A8"))[Nella ricerca UX, verifica quali attività e messaggi risultano appropriati nel contesto d’uso e quali vincoli sociali incidono sul servizio.] #website-note([The Culture Factor, IVR.], "https://www.theculturefactor.com/country-comparison-tool")
 
 #figure([
   #metadata((
@@ -887,7 +1058,15 @@ Nella ricerca UX, verifica quali attività e messaggi risultano appropriati nel 
 
 #block(sticky: true)[#strong[Documenti e confronti]]
 
-Le pagine slovena e slovacca di McDonald’s sono usate qui come esercizio interpretativo: osservare i temi evocati non permette di calcolare un indice IVR. I medesimi documenti saranno ripresi nel caso di localizzazione, con una domanda diversa.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Le pagine di McDonald’s per la Slovenia e la Slovacchia servono qui per esercitarsi a leggere i contenuti alla luce dei temi dell’IVR, come svago, gratificazione e regole. Gli esempi non consentono di ricavare o calcolare un indice per questi Paesi. Le stesse pagine saranno riprese nella sezione sulla localizzazione, dove il confronto riguarderà invece le scelte di adattamento ai diversi mercati.»
+]
+#highlight(fill: rgb("FFF1A8"))[Le pagine slovena e slovacca di McDonald’s sono usate qui come esercizio interpretativo: osservare i temi evocati non permette di calcolare un indice IVR. I medesimi documenti saranno ripresi nel caso di localizzazione, con una domanda diversa.]
 
 La @fig-ricerca-c03-036-02 mostra IVR · osservare svago e piaceri. Esercizio: quali messaggi riguardano svago e gratificazione? Lo screenshot non misura IVR.
 
@@ -919,9 +1098,17 @@ La @fig-ricerca-c03-036-01 mostra IVR · osservare regole e condizioni. Esercizi
 
 == Identità e adattamento nei mercati
 
-McDonald’s è qui un buon esempio di attenzione al contesto: le pagine locali mantengono la stessa identità, ma adattano lingua, campagne, offerta e accessi al servizio. Gli screenshot storici rendono visibili scelte diverse per pubblici e occasioni d’uso differenti.
+McDonald’s è qui un buon esempio di attenzione al contesto: le pagine locali mantengono la stessa identità, ma adattano lingua, campagne, offerta e accessi al servizio. Gli screenshot storici manifestano scelte diverse per pubblici e occasioni d’uso differenti.
 
-Il valore del caso è questa combinazione di continuità e adattamento. I modelli culturali offrono una chiave di lettura, mentre l’efficacia delle singole scelte va verificata con gli utenti (@fig-ricerca-c03-029-01). @brewer2014-ecological.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Questo caso mostra come McDonald’s possa mantenere un’identità riconoscibile e, allo stesso tempo, adattare le pagine ai diversi mercati. I modelli culturali aiutano a formulare ipotesi sulle scelte osservate, ma per capire se funzionano davvero occorre verificarle con le persone che usano il servizio.»
+]
+#highlight(fill: rgb("FFF1A8"))[Il valore del caso è questa combinazione di continuità e adattamento. I modelli culturali offrono una chiave di lettura, mentre l’efficacia delle singole scelte va verificata con gli utenti] (@fig-ricerca-c03-029-01). @brewer2014-ecological.
 
 #image-figure(path("/risorse-condivise/immagini/figure/ricerca/c03-029-01.jpeg"),
   [Gli archi e il giallo mantengono riconoscibile McDonald’s. Le pagine successive mostrano come questa identità comune accompagni messaggi, offerte e servizi adattati ai diversi mercati. Screenshot storico.],
@@ -1052,9 +1239,27 @@ Nella @fig-ricerca-hofstede-mcd-paesi-bassi-2024 osserviamo McDonald’s Paesi B
 
 Stati Uniti e Turchia mostrano come una marca possa cambiare gli accenti della comunicazione. Premi e vantaggi personali sono centrali nello screenshot del sito statunitense; ricorrenza nazionale, offerte per la famiglia e canali social lo sono invece in quello del sito turco.
 
-L’#strong[IDV] aiuta a riflettere sul rapporto tra #strong[individuo e gruppo]. Tuttavia, le campagne pubblicitarie vanno considerate come #strong[scelte progettuali legate a uno specifico contesto] e non possono essere utilizzate per misurare il livello di individualismo dei singoli utenti (@fig-ricerca-figma-mcd-176).
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «L’IDV offre uno spunto per riflettere su come un servizio si rivolge alle persone e ai gruppi. Le campagne pubblicitarie, però, sono scelte progettate per uno specifico mercato e contesto: non indicano quanto siano individualiste le singole persone.»
+]
+#highlight(fill: rgb("FFF1A8"))[L’#strong[IDV] aiuta a riflettere sul rapporto tra #strong[individuo e gruppo]. Tuttavia, le campagne pubblicitarie vanno considerate come #strong[scelte progettuali legate a uno specifico contesto] e non possono essere utilizzate per misurare il livello di individualismo dei singoli utenti] (@fig-ricerca-figma-mcd-176).
 
-La #strong[homepage statunitense] mette in primo piano il panino #strong[McRib] e collega la promozione ai servizi digitali di McDonald’s. Sezioni come #strong[My Rewards], «Earn Points», «Order in the App», «Order McDelivery Now» e «Get App Deals» associano il prodotto a #strong[premi, ordinazione e vantaggi riservati agli utenti dell’app]. La pagina costruisce quindi il percorso intorno a #strong[benefici concreti per il cliente], integrando promozione e servizi. È un esempio di localizzazione efficace del percorso: per valutarne l’efficacia, possiamo osservare #strong[chi prende le decisioni di acquisto e in che modo vengono utilizzati questi incentivi].
+La #strong[homepage statunitense] mette in primo piano il panino #strong[McRib] e collega la promozione ai servizi digitali di McDonald’s. Sezioni come #strong[My Rewards], «Earn Points», «Order in the App», «Order McDelivery Now» e «Get App Deals» associano il prodotto a #strong[premi, ordinazione e vantaggi riservati agli utenti dell’app]. #highlight(fill: rgb("FFF1A8"))[La pagina costruisce quindi il percorso intorno a #strong[benefici concreti per il cliente], integrando promozione e servizi.]
+
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire i passaggi qui evidenziati in giallo con: «La pagina costruisce quindi il percorso intorno a #strong[benefici concreti per il cliente], integrando promozione e servizi, ma, per stabilire se questo percorso è efficace, occorre osservare come le persone decidono cosa acquistare e se premi e vantaggi dell’app influiscono sulle loro scelte.»
+]
+#highlight(fill: rgb("FFF1A8"))[È un esempio di localizzazione efficace del percorso: per valutarne l’efficacia, possiamo osservare #strong[chi prende le decisioni di acquisto e in che modo vengono utilizzati questi incentivi].]
 
 La @fig-ricerca-figma-mcd-176 conserva la pagina completa a cui si riferisce questa lettura.
 
@@ -1084,7 +1289,15 @@ La @fig-ricerca-figma-mcd-177 conserva la pagina completa a cui si riferisce que
   id: "fig-ricerca-figma-mcd-177",
 )
 
-L’Italia è un ulteriore mercato: lo screenshot italiano e il documento statunitense non sono intercambiabili. Lingua, campagne e servizi vanno osservati nella versione effettivamente riprodotta.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Anche la versione italiana rappresenta un mercato specifico. Nel confrontare la sua schermata con quella statunitense, consideriamo ciò che mostra ciascun documento: lingua, campagne e servizi possono variare da un mercato all’altro.»
+]
+#highlight(fill: rgb("FFF1A8"))[L’Italia è un ulteriore mercato: lo screenshot italiano e il documento statunitense non sono intercambiabili. Lingua, campagne e servizi vanno osservati nella versione effettivamente riprodotta.]
 
 Nella @fig-ricerca-online-mcd-italia-20261009 osserviamo McDonald’s · Italia: prima schermata del sito ufficiale · 9 ottobre 2026. #website-note([McDonald’s · Italia.], "https://www.mcdonalds.it/")
 
@@ -1274,7 +1487,15 @@ La @fig-ricerca-figma-mcd-181 conserva la pagina completa a cui si riferisce que
   id: "fig-ricerca-figma-mcd-181",
 )
 
-Il documento giapponese presenta un mercato distinto da quello indiano. Il confronto osserva prezzi, promozioni e informazioni; queste scelte commerciali non misurano da sole l’avversione all’incertezza dei singoli utenti.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «La schermata giapponese riguarda un mercato diverso da quello indiano. Possiamo confrontare prezzi, promozioni e informazioni presenti nei due documenti, ma queste scelte commerciali non bastano a stabilire quanto i singoli utenti siano a proprio agio con l’incertezza.»
+]
+#highlight(fill: rgb("FFF1A8"))[Il documento giapponese presenta un mercato distinto da quello indiano. Il confronto osserva prezzi, promozioni e informazioni; queste scelte commerciali non misurano da sole l’avversione all’incertezza dei singoli utenti.]
 
 Nella @fig-ricerca-online-mcd-giappone-20261009 osserviamo McDonald’s · Giappone: prima schermata del sito ufficiale · 9 ottobre 2026. #website-note([McDonald’s · Giappone.], "https://www.mcdonalds.co.jp/")
 
@@ -1328,21 +1549,42 @@ Nella @fig-ricerca-c03-038-02 osserviamo McDonald’s · India occidentale: imma
 
 Nella @fig-ricerca-hofstede-mcd-india-2024 osserviamo McDonald’s India: confronta campagne, contenuti e servizi.
 
-#image-figure(path("/risorse-condivise/immagini/figure/ricerca/hofstede-mcd-india-2024.jpg"),
-  [Promozione iniziale e scheda del panino combinano un linguaggio di campagna con informazioni sugli ingredienti. Lo screenshot mostra il contenuto locale; le animazioni sono descritte nella fonte del caso. Documento storico; data della cattura non attestata.],
-  format: "due-colonne",
-  rights: none,
-  alt: "Promozione iniziale e scheda del panino combinano un linguaggio di campagna con informazioni sugli ingredienti. Lo screenshot mostra il contenuto locale; le animazioni sono descritte nella fonte del caso. Documento storico; data della cattura non attestata.",
-  height: 285pt,
-  aspect-ratio: 2.18181818,
-  constrain: false,
-  id: "fig-ricerca-hofstede-mcd-india-2024",
-)
+#[
+  #show figure.caption: it => [
+    #block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+      stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+      #set text(size: 9pt)
+      #set par(justify: false, leading: 1pt, spacing: 0pt)
+      #text(weight: 700)[Nota editoriale]
+      #linebreak()
+      Questa figura è un doppione della #ref(<fig-ricerca-figma-mcd-181>, supplement: [figura]).
+    ]
+    #it
+  ]
+  #image-figure(path("/risorse-condivise/immagini/figure/ricerca/hofstede-mcd-india-2024.jpg"),
+    [Promozione iniziale e scheda del panino combinano un linguaggio di campagna con informazioni sugli ingredienti. Lo screenshot mostra il contenuto locale; le animazioni sono descritte nella fonte del caso. Documento storico; data della cattura non attestata.],
+    format: "due-colonne",
+    rights: none,
+    alt: "Promozione iniziale e scheda del panino combinano un linguaggio di campagna con informazioni sugli ingredienti. Lo screenshot mostra il contenuto locale; le animazioni sono descritte nella fonte del caso. Documento storico; data della cattura non attestata.",
+    height: 285pt,
+    aspect-ratio: 2.18181818,
+    constrain: false,
+    id: "fig-ricerca-hofstede-mcd-india-2024",
+  )
+]
 
 
 === Cina e Australia
 
-La #strong[homepage cinese] affianca prodotti, campagne, contenuti dedicati a #strong[McCafé], servizi dell’app e informazioni sull’#strong[origine delle materie prime]. La pagina presenta così l’offerta insieme a temi legati alla qualità dei prodotti e alle attività dell’azienda. Si tratta di un adattamento positivo perché #strong[amplia e modifica i contenuti comunicati dalla marca in funzione del contesto locale], mantenendone al tempo stesso riconoscibile l’identità. La prospettiva dell’#strong[LTO] può aiutare a discutere il valore attribuito alla continuità e ai benefici nel tempo, ma la selezione dei contenuti della homepage non permette di stabilire quale sia l’orientamento temporale dei singoli utenti (@fig-ricerca-figma-mcd-183).
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire in: «L’LTO può aiutare a chiedersi come la pagina comunica la continuità e i benefici nel tempo. Tuttavia, i contenuti scelti per la homepage riflettono una decisione editoriale e non permettono di stabilire quale orientamento temporale abbiano i singoli utenti.»
+]
+La #strong[homepage cinese] affianca prodotti, campagne, contenuti dedicati a #strong[McCafé], servizi dell’app e informazioni sull’#strong[origine delle materie prime]. La pagina presenta così l’offerta insieme a temi legati alla qualità dei prodotti e alle attività dell’azienda. Si tratta di un adattamento positivo perché #strong[amplia e modifica i contenuti comunicati dalla marca in funzione del contesto locale], mantenendone al tempo stesso riconoscibile l’identità. #highlight(fill: rgb("FFF1A8"))[La prospettiva dell’#strong[LTO] può aiutare a discutere il valore attribuito alla continuità e ai benefici nel tempo, ma la selezione dei contenuti della homepage non permette di stabilire quale sia l’orientamento temporale dei singoli utenti] (@fig-ricerca-figma-mcd-183).
 
 La @fig-ricerca-figma-mcd-183 conserva la pagina completa a cui si riferisce questa lettura.
 
@@ -1356,7 +1598,15 @@ La @fig-ricerca-figma-mcd-183 conserva la pagina completa a cui si riferisce que
   height: 110mm,
 )
 
-L’Australia completa il confronto fra mercati. La cattura del 9 ottobre 2026 e lo screenshot storico restano documenti distinti; né la presenza di offerte né la durata di una campagna consentono di attribuire ai visitatori un orientamento temporale.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Il mercato australiano amplia il confronto, ma i due materiali vanno tenuti distinti: uno è una cattura del sito realizzata il 9 ottobre 2026, l’altro uno screenshot storico. Possiamo descrivere le offerte mostrate e gli eventuali riferimenti alla durata delle campagne, ma questi elementi non bastano a dedurre l’orientamento temporale dei visitatori.»
+]
+#highlight(fill: rgb("FFF1A8"))[L’Australia completa il confronto fra mercati. La cattura del 9 ottobre 2026 e lo screenshot storico restano documenti distinti; né la presenza di offerte né la durata di una campagna consentono di attribuire ai visitatori un orientamento temporale.]
 
 La @fig-ricerca-online-mcd-cina-20261009 riprende il documento già osservato: qui il confronto riguarda la localizzazione dei messaggi.
 
@@ -1387,7 +1637,15 @@ Nella @fig-ricerca-c03-040-02 osserviamo McDonald’s · Australia: offerte, ord
   height: 110mm,
 )
 
-Una lettura utile conserva insieme ciò che è osservabile e ciò che resta da verificare. Le differenze fra pagine diventano domande su obiettivi, contesto, contenuti e condizioni d’uso. Interviste e osservazioni permettono poi di tornare a quelle domande con evidenze legate alle persone e al servizio.
+#block(above: 0pt, below: 10pt, width: 100%, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Cambiare in: «Nell’analizzare queste pagine, distinguiamo ciò che possiamo osservare dalle ipotesi che richiedono ulteriori verifiche. Le differenze tra i siti aiutano a formulare domande sugli obiettivi, sul contesto, sui contenuti e sulle condizioni d’uso. Interviste e osservazioni permettono poi di approfondirle raccogliendo evidenze dalle persone e dal loro rapporto con il servizio.»
+]
+#highlight(fill: rgb("FFF1A8"))[Una lettura utile conserva insieme ciò che è osservabile e ciò che resta da verificare. Le differenze fra pagine diventano domande su obiettivi, contesto, contenuti e condizioni d’uso. Interviste e osservazioni permettono poi di tornare a quelle domande con evidenze legate alle persone e al servizio.]
 
 
 ]

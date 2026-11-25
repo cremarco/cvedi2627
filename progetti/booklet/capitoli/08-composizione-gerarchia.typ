@@ -181,19 +181,46 @@ La presenza di differenze fra persone e gruppi invita a distinguere una regolari
 ), pages: 2)[
 === Forme naturali e texture
 
-L’osservazione può estendersi dalle geometrie regolari alle strutture naturali e alle superfici. Foglie, fiori e conchiglie offrono simmetrie, ramificazioni, ripetizioni e spirali; studiarle può guidare l’ideazione, come mostrano le figure #ref(<fig-comp-forme-naturali>, supplement: none), #ref(<fig-comp-fiore>, supplement: none) e #ref(<fig-comp-conchiglia>, supplement: none). Le proporzioni naturali variano e il richiamo alla natura non prova la sostenibilità del prodotto: per valutarla occorrono informazioni sulle sue caratteristiche.
+L’osservazione può estendersi dalle geometrie regolari alle strutture naturali e alle superfici. Foglie, fiori e conchiglie offrono simmetrie, ramificazioni, ripetizioni e spirali; studiarle può guidare l’ideazione, come mostrano le figure #ref(<fig-comp-forme-naturali>, supplement: none), #ref(<fig-comp-fiore>, supplement: none) e #ref(<fig-comp-conchiglia>, supplement: none). 
 
 Dalla struttura di una forma si passa alla qualità visibile della sua superficie. La texture descrive l’organizzazione visibile di una superficie: venature, grana, trama, rilievi o ripetizioni. Una fotografia del legno mostra differenze di colore e luminosità dalle quali possiamo immaginare una qualità tattile; una campitura digitale può riprenderle senza possedere quel materiale. Distinguere superficie fisica e sua rappresentazione aiuta a leggere il rapporto fra confezione, fotografia e interfaccia.
 
-In una pagina, una texture può unificare uno sfondo oppure introdurre un contrasto con un’area liscia. Il suo dettaglio va però confrontato con testo e controlli. Se la trama compete con le lettere o simula un rilievo ambiguo, può ostacolare la lettura del comando. La verifica riguarda la composizione alla dimensione d’uso, non il solo campione ingrandito. Materialità, luce e spazio vanno considerati insieme @compArnheim.
+#block(breakable: false)[
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Osserva la composizione alla scala in cui verrà usata, con testi e controlli al loro posto. Valuta insieme la resa del materiale, la luce e lo spazio intorno agli elementi.»
+]
+In una pagina, una texture può unificare uno sfondo oppure introdurre un contrasto con un’area liscia. Il suo dettaglio va però confrontato con testo e controlli. Se la trama compete con le lettere o simula un rilievo ambiguo, può ostacolare la lettura del comando. #highlight(fill: rgb("FFF1A8"))[La verifica riguarda la composizione alla dimensione d’uso, non il solo campione ingrandito. Materialità, luce e spazio vanno considerati insieme] @compArnheim.
+
+]
 
 === Il colore nella composizione
 
 Forma e superficie partecipano al messaggio insieme al colore. Il capitolo sul colore ne ha distinto proprietà, associazioni culturali e ruoli funzionali; qui interessa come la palette collabori con soggetti, parole e luce per costruire un’atmosfera. Più avanti ne osserveremo l’uso per distinguere le priorità.
 
-I colori possono assumere significati culturali e qualità espressive che cambiano con il contesto. Luminosità, saturazione, contrasto e colori circostanti ne modificano la presenza. Il rosso può richiamare festa, fortuna, pericolo o divieto secondo le convenzioni; può suggerire energia e urgenza, ma risalta soltanto in relazione all’ambiente cromatico. Il blu può richiamare istituzioni, tecnologia o malinconia, e contribuire a impressioni di calma, distanza o stabilità.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Il rilievo di un colore dipende dalla sua luminosità, dalla saturazione e dal contrasto con le tinte circostanti.»
+]
+I colori possono assumere significati culturali e qualità espressive che cambiano con il contesto. #highlight(fill: rgb("FFF1A8"))[Luminosità, saturazione, contrasto e colori circostanti ne modificano la presenza.] Il rosso può richiamare festa, fortuna, pericolo o divieto secondo le convenzioni; può suggerire energia e urgenza, ma risalta soltanto in relazione all’ambiente cromatico. Il blu può richiamare istituzioni, tecnologia o malinconia, e contribuire a impressioni di calma, distanza o stabilità.
 
-Queste associazioni sono possibilità progettuali. Nel paesaggio della @fig-comp-paesaggio-xilografia, osserviamo il rapporto fra il soggetto e le campiture, senza trasformare ogni tinta in un’emozione obbligatoria. La palette partecipa a un messaggio più ampio, che comprende soggetti, parole, luce e composizione.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nella xilografia della @fig-comp-paesaggio-xilografia, la cima chiara del monte Fuji risalta tra campiture blu di diversa intensità. Il colore contribuisce all’atmosfera insieme al soggetto, alla luce e alla disposizione delle forme. In altre composizioni, anche le parole orientano il significato della palette.»
+]
+#highlight(fill: rgb("FFF1A8"))[Queste associazioni sono possibilità progettuali. Nel paesaggio della @fig-comp-paesaggio-xilografia, osserviamo il rapporto fra il soggetto e le campiture, senza trasformare ogni tinta in un’emozione obbligatoria. La palette partecipa a un messaggio più ampio, che comprende soggetti, parole, luce e composizione.]
 ]
 
 == Immagini, segni e significato
@@ -254,15 +281,15 @@ La scelta comincia dalla funzione: che cosa deve permettere di capire quell’im
   alt: "Funzione sintetica: piccoli segni identificano categorie.",
 )
 
-In un tutorial può mostrare il risultato di un passaggio; in una ricetta può permettere di confrontare una consistenza; in un catalogo può documentare una finitura. La fotografia d’ambiente di un ristorante aiuta invece a immaginare lo spazio, ma non sostituisce l’indirizzo o gli orari. Questa distinzione evita di affidare a un’atmosfera informazioni operative che richiedono parole precise.
+In un tutorial l'immagine può mostrare il risultato di un passaggio; in una ricetta può permettere di confrontare una consistenza; in un catalogo può documentare una finitura. La fotografia d’ambiente di un ristorante aiuta invece a immaginare lo spazio, ma non sostituisce l’indirizzo o gli orari. Questa distinzione evita di affidare a un’atmosfera informazioni operative che richiedono parole precise.
 
-In un portfolio l’immagine può essere l’oggetto stesso della consultazione: il lettore deve esaminare il lavoro, non soltanto percepire uno stile. In una scheda prodotto, viste generali e dettagli possono rispondere a domande complementari su proporzioni, materiali e uso. Prima di aggiungere una nuova fotografia, è utile stabilire quale informazione renda disponibile rispetto a quelle già presenti.
+In un portfolio l’immagine può essere l’oggetto stesso della consultazione: il lettore deve esaminare il lavoro, non soltanto percepire uno stile. In una scheda prodotto, viste generali e dettagli possono rispondere a domande complementari su proporzioni, materiali e uso. Prima di aggiungere una nuova fotografia, è utile stabilire quale informazione aggiunga rispetto a quelle già presenti.
 
 === Fotografia o illustrazione
 
-Una volta definito che cosa comunicare, si sceglie come rappresentarlo. Fotografia e illustrazione offrono possibilità diverse da confrontare rispetto alla stessa funzione.
+Una volta definito che cosa comunicare, si sceglie come rappresentarlo. Fotografia e illustrazione offrono possibilità diverse,  da confrontare rispetto alla stessa funzione.
 
-Le figure @fig-comp-allbirds-headspace e @fig-comp-headspace mostrano due scelte: Allbirds mette in scena persone, prodotto e ambiente; Headspace costruisce personaggi e situazioni con forme e colori coerenti.#website-note([Allbirds, sito ufficiale; la figura conserva una versione storica.], "https://www.allbirds.com/")#website-note([Headspace, sito ufficiale; la figura conserva una versione storica.], "https://www.headspace.com/")
+La @fig-comp-allbirds-headspace e la @fig-comp-headspace mostrano due scelte: Allbirds mette in scena persone, prodotto e ambiente; Headspace costruisce personaggi e situazioni con forme e colori coerenti.#website-note([Allbirds, sito ufficiale; la figura conserva una versione storica.], "https://www.allbirds.com/")#website-note([Headspace, sito ufficiale; la figura conserva una versione storica.], "https://www.headspace.com/")
 
 #image-figure(path("/progetti/booklet/assets/figure-singole/composizione/allbirds.png"),
   [Allbirds: fotografia ambientata nella comunicazione del prodotto.],
@@ -308,7 +335,15 @@ La scelta del mezzo lascia aperta una seconda domanda: su quali indizi si costru
 
 Descrivere chi o che cosa è visibile viene prima dell’attribuire un’intenzione. Un gruppo di persone non documenta da solo un consenso; un volto sorridente non prova la soddisfazione per un servizio. La distinzione fra riconoscimento, convenzione e interpretazione è centrale nell’analisi delle immagini @compPolidoro.
 
-Quando cambia il contesto, può cambiare anche la funzione del segno. Una stella può indicare un preferito, una valutazione o una categoria di servizio. Il disegno comune non rende equivalenti queste azioni. Testo vicino, posizione, stato selezionato e comportamento del controllo precisano il significato nella singola interfaccia.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «La stessa stella può avere un significato diverso da una schermata all’altra. L’etichetta e la posizione chiariscono a che cosa serve. Se la stella è un controllo, il suo stato e l’effetto della sua attivazione aiutano a capire quale azione compie.»
+]
+Quando cambia il contesto, può cambiare anche la funzione del segno. Una stella può indicare un preferito, una valutazione o una categoria di servizio. #highlight(fill: rgb("FFF1A8"))[Il disegno comune non rende equivalenti queste azioni. Testo vicino, posizione, stato selezionato e comportamento del controllo precisano il significato nella singola interfaccia.]
 
 === Metafore visive
 
@@ -325,13 +360,35 @@ Il rapporto fra ciò che si vede e ciò che si intende può diventare una scelta
   caption: caption-content([Due immagini per l’ipotetico messaggio «Una pausa caffè per ripartire»: a. la batteria sostituisce la tazza; b. tazza e batteria sono fuse. Il riferimento all’energia è figurato e dipende dal contesto del messaggio.], rights: none),
 )#label("fig-comp-" + "metafore")
 
-Nella @fig-comp-metafore, la batteria rappresenta figurativamente una pausa caffè attraverso l’idea del ricaricarsi. La variante a sostituisce il soggetto; la variante b mantiene la tazza e le aggiunge le barre della batteria. La frase accompagna la lettura e delimita il senso del confronto: non si tratta di una descrizione letterale delle proprietà della bevanda.
+Nella @fig-comp-metafore, la batteria rappresenta figurativamente una pausa caffè attraverso l’idea del ricaricarsi. La variante *a* sostituisce il soggetto; la variante *b* mantiene la tazza e le aggiunge le barre della batteria. La frase accompagna la lettura e delimita il senso del confronto.
 
-Nelle interfacce, cartelle, cestini e scrivanie richiamano oggetti e attività conosciuti per rendere rappresentabili organizzazione e azioni. La metafora offre un orientamento iniziale, ma non esaurisce il funzionamento del sistema. Un cestino digitale può consentire il ripristino; un invio può avere conseguenze diverse dal gesto quotidiano al quale somiglia. Il testo del comando deve chiarire l’azione effettiva.
+#block(breakable: false)[
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Alcuni cestini digitali permettono di recuperare un file dopo averlo rimosso. Un’icona di invio può ricordare il gesto di spedire una lettera, ma l’azione dipende dall’interfaccia. Usa etichette che dicano che cosa succederà, come «Sposta nel cestino», «Elimina definitivamente» o «Invia il messaggio».»
+]
+Nelle interfacce, cartelle, cestini e scrivanie richiamano oggetti e attività conosciuti per rendere rappresentabili organizzazione e azioni. La metafora offre un orientamento iniziale, ma non esaurisce il funzionamento del sistema. #highlight(fill: rgb("FFF1A8"))[Un cestino digitale può consentire il ripristino; un invio può avere conseguenze diverse dal gesto quotidiano al quale somiglia. Il testo del comando deve chiarire l’azione effettiva.]
+
+]
 
 === Icone e pittogrammi
 
-Quando un segno serve a individuare un’azione, la relazione con il significato deve essere leggibile anche alla scala del controllo. Per questo occorre distinguere il ruolo operativo di un’icona da quello di un’immagine illustrativa: possono avere scale, dettagli e funzioni differenti. Nel confronto IBM della @fig-comp-ibm-pittogrammi, il pittogramma sostiene il contenuto di una card; impiegato in una lista al posto delle icone di interfaccia, lo stesso tipo di segno non è adatto al ruolo previsto dal sistema.#website-note([IBM Design Language, Pictograms: Usage.], "https://www.ibm.com/design/language/iconography/pictograms/usage/")
+#block(breakable: false)[
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nella @fig-comp-ibm-pittogrammi, il pannello a mostra un pittogramma che illustra il contenuto di una scheda. Nel pannello b, segni dello stesso tipo occupano il posto delle icone accanto alle voci di un elenco. Per quel compito, il sistema IBM prevede icone di interfaccia progettate per essere riconoscibili alla scala del controllo.»
+]
+Quando un segno serve a individuare un’azione, la relazione con il significato deve essere leggibile anche alla scala del controllo. Per questo occorre distinguere il ruolo operativo di un’icona da quello di un’immagine illustrativa: possono avere scale, dettagli e funzioni differenti. #highlight(fill: rgb("FFF1A8"))[Nel confronto IBM della @fig-comp-ibm-pittogrammi, il pittogramma sostiene il contenuto di una card; impiegato in una lista al posto delle icone di interfaccia, lo stesso tipo di segno non è adatto al ruolo previsto dal sistema.]#website-note([IBM Design Language, Pictograms: Usage.], "https://www.ibm.com/design/language/iconography/pictograms/usage/")
+
+]
 
 #figure(block(width: 100%)[
   #set par(justify: false, leading: 0pt, spacing: 0pt)
@@ -349,7 +406,7 @@ Quando un segno serve a individuare un’azione, la relazione con il significato
     rights: [© IBM. Esempi della documentazione ufficiale.]),
 )#label("fig-comp-ibm-pittogrammi")
 
-Per un controllo serve un segno riconoscibile nel contesto e distinguibile da quelli che indicano altre azioni. Aumentare i dettagli non aumenta necessariamente la chiarezza: alcuni scompaiono a dimensioni ridotte, mentre altri rendono due icone quasi uguali. Coerenza di tratto, proporzioni e ingombro permette di leggere una famiglia; l’etichetta può chiarire ciò che il disegno lascia ambiguo.
+Per un controllo serve un segno riconoscibile nel contesto e distinguibile da quelli che indicano altre azioni. Aumentare i dettagli non aumenta necessariamente la chiarezza: alcuni scompaiono a dimensioni ridotte, mentre altri rendono due icone quasi uguali. Coerenza di tratto, proporzioni e ingombro permettono di leggere una famiglia; l’etichetta può chiarire ciò che il disegno lascia ambiguo.
 
 La prova consiste nel chiedere quale azione ci si aspetta dal controllo e poi confrontare la risposta con il suo funzionamento. Un’icona non è automaticamente un linguaggio universale. Come nel capitolo sull’accessibilità, la funzione guida anche l’alternativa testuale. Segno, etichetta e nome accessibile devono comunicare la stessa azione; il nome accessibile ne conserva lo scopo anche quando l’immagine non viene percepita.#website-note([W3C WAI, Functional Images.], "https://www.w3.org/WAI/tutorials/images/functional/")
 
@@ -357,7 +414,7 @@ La prova consiste nel chiedere quale azione ci si aspetta dal controllo e poi co
 
 Le icone mostrano quanto il significato dipenda dall’uso del segno. Il confronto con un racconto amplia questa osservazione: permette di vedere come geometrie, comportamenti e contesto collaborino, senza attribuire un valore fisso a ogni forma.
 
-Nel film _Up_ @compUp, il profilo di _Carl Fredricksen_ è costruito attraverso volumi squadrati, mentre _Russell_ presenta contorni più arrotondati. Le due immagini della @fig-comp-up mostrano questa differenza. È una scelta di caratterizzazione all’interno dell’opera; non dimostra che ogni quadrato comunichi rigidità o che ogni cerchio rappresenti bontà.#website-note([Pixar Animation Studios, Up: personaggi e mondo del film.], "https://www.pixar.com/upfilm")
+Nel film _Up_ @compUp, il profilo di _Carl Fredricksen_ è costruito attraverso volumi squadrati, mentre _Russell_ presenta contorni più arrotondati. Le due immagini della @fig-comp-up mostrano questa differenza. Naturalmente di tratta di una scelta di caratterizzazione all’interno dell’opera; non dimostra che ogni quadrato comunichi rigidità o che ogni cerchio rappresenti bontà.#website-note([Pixar Animation Studios, Up: personaggi e mondo del film.], "https://www.pixar.com/upfilm")
 
 #figure(block(width: 100%)[
   #set text(size: 10pt, weight: 400, variations: (opsz: 18))
@@ -389,7 +446,15 @@ La lettura della forma cambia con gesti, voce, azioni e sviluppo narrativo. Anch
 
 Scelte le immagini e chiarita la loro funzione, bisogna decidere che cosa entra nel campo visibile e come si collega alle parole. La griglia offre riferimenti di collocazione; inquadratura, taglio e distanza precisano le relazioni che il lettore può riconoscere.
 
-Lo spazio è l’area o la distanza fra gli elementi di una composizione. Avvicinare, separare o lasciare vuota una zona rende visibili relazioni e differenze. Lo spazio negativo, o bianco, non deve necessariamente essere bianco: è lo spazio privo del contenuto che assume il ruolo di figura in quel passaggio.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Lo spazio negativo è l’area che circonda o separa gli elementi in primo piano. Può avere qualsiasi colore. A volte i contorni degli elementi delimitano una sagoma riconoscibile e una parte dello sfondo emerge a sua volta come figura.»
+]
+Lo spazio è l’area o la distanza fra gli elementi di una composizione. Avvicinare, separare o lasciare vuota una zona rende visibili relazioni e differenze. #highlight(fill: rgb("FFF1A8"))[Lo spazio negativo, o bianco, non deve necessariamente essere bianco: è lo spazio privo del contenuto che assume il ruolo di figura in quel passaggio.]
 
 === Inquadratura e direzione
 
@@ -431,7 +496,15 @@ Per adattare una composizione a schermi diversi, si controllano insieme soggetto
 
 Lo spazio non serve soltanto a separare immagine e testo: può partecipare alla forma riconosciuta. Riprendiamo così il rapporto fra figura e sfondo studiato nella Gestalt, osservando come diventi una risorsa per costruire il messaggio.
 
-Nelle figure @fig-comp-pieno-vuoto e @fig-comp-spartan-golf, _Negative Spaces_, di _Tang Yau Hoong_, e il concept _Spartan Golf_, di _Richard Fonteneau_ (2010), mostrano come il rapporto fra margini e campiture possa suggerire più forme. Nel secondo si riconoscono un golfista e un richiamo all’elmo. La familiarità sostiene l’interpretazione: non occorre attribuire ogni sagoma riconoscibile alla chiusura.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «In _Spartan Golf_, la familiarità con la figura del golfista e con il profilo di un elmo aiuta a riconoscerli. La chiusura può contribuire quando i contorni sono interrotti e lo sguardo li completa.»
+]
+Nelle figure @fig-comp-pieno-vuoto e @fig-comp-spartan-golf, _Negative Spaces_, di _Tang Yau Hoong_, e il concept _Spartan Golf_, di _Richard Fonteneau_ (2010), mostrano come il rapporto fra margini e campiture possa suggerire più forme. Nel secondo si riconoscono un golfista e un richiamo all’elmo. #highlight(fill: rgb("FFF1A8"))[La familiarità sostiene l’interpretazione: non occorre attribuire ogni sagoma riconoscibile alla chiusura.]
 
 #image-figure(path("/progetti/booklet/assets/figure-singole/composizione/negative-spaces.png"),
   [_Negative Spaces_, di _Tang Yau Hoong_.],
@@ -477,7 +550,15 @@ La scala descrive la dimensione di un elemento rispetto agli altri o a un riferi
 
 La scala agisce insieme alle differenze rispetto all’ambiente circostante. Il contrasto mette in relazione elementi differenti: chiaro e scuro, grande e piccolo, ruvido e liscio. Può creare un punto focale e rendere riconoscibile la struttura. Un colore saturo risalta se si distingue dall’ambiente; il contrasto di luminosità permette di distinguere testo e controlli, mentre differenze di tonalità possono separare gruppi.
 
-Le locandine di _Barbie_ (@fig-comp-barbie-dune) e _Dune_ (@fig-comp-dune) mostrano due palette che sostengono atmosfere visive differenti e collaborano con i soggetti e le scritte. Non occorre dedurre dai colori, da soli, l’intero significato dei film. Anche un trattamento in due colori, o _duotone_, rimappa i toni dell’immagine e ne cambia le relazioni con il resto della pagina.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Per leggere le due locandine, osserva come i colori si combinano con i personaggi, le ambientazioni e le scritte. Un _duotone_ è un trattamento che trasferisce i toni chiari e scuri della fotografia in una gamma costruita con due colori. Cambia così il modo in cui l’immagine si accorda con lo sfondo e con gli altri elementi della pagina.»
+]
+Le locandine di _Barbie_ (@fig-comp-barbie-dune) e _Dune_ (@fig-comp-dune) mostrano due palette che sostengono atmosfere visive differenti e collaborano con i soggetti e le scritte. #highlight(fill: rgb("FFF1A8"))[Non occorre dedurre dai colori, da soli, l’intero significato dei film. Anche un trattamento in due colori, o _duotone_, rimappa i toni dell’immagine e ne cambia le relazioni con il resto della pagina.]
 
 // Stack two independent figures in one column, with separate captions and IDs.
 #keep-together(columns: 1)[
@@ -509,7 +590,7 @@ Nel testo, scala e contrasto devono sostenere i ruoli già definiti nel capitolo
 
 Nel _MoMA Poster Series_, di _Rebecca Nolte_, dimensioni, pesi e disposizione distinguono i testi della @fig-comp-moma-tipografia. È un esercizio tipografico sul calendario espositivo.
 
-Il progetto non documenta una commissione ufficiale del museo. Pochi stili coerenti aiutano a riconoscere la funzione dei blocchi; variazioni arbitrarie costringono a ricostruire la struttura. La gerarchia tipografica organizza il contenuto anche quando il lettore non segue tutte le righe. Nel digitale, il ruolo del titolo deve restare riconoscibile anche nella struttura del documento e nella consultazione con tecnologie assistive, come discusso nell’accessibilità.
+Pochi stili coerenti aiutano a riconoscere la funzione dei blocchi; variazioni arbitrarie costringono a ricostruire la struttura. La gerarchia tipografica organizza il contenuto anche quando il lettore non segue tutte le righe. Nel digitale, il ruolo del titolo deve restare riconoscibile anche nella struttura del documento e nella consultazione con tecnologie assistive, come discusso nell’accessibilità.
 
 #image-figure(path("/risorse-condivise/fonti/booklet/capitolo-3/originals/c03-102-01-source-01.jpeg"),
   [_Rebecca Nolte_, _MoMA Poster Series_, 2014: esercizio tipografico sul calendario espositivo 2013. Dimensioni, pesi e disposizione distinguono le informazioni.],
@@ -523,7 +604,15 @@ Il progetto non documenta una commissione ufficiale del museo. Pochi stili coere
 
 === Spaziatura e prossimità
 
-Distinguere i testi non basta se resta incerta la loro appartenenza. La vicinanza studiata nella Gestalt diventa una scelta di spaziatura: intervalli interni, distanze fra gruppi e margini devono confermare le associazioni di contenuto. Un’interruzione maggiore può segnalare un cambio di argomento; una distanza minore può tenere unita un’etichetta al suo valore. Non esiste una quantità di vuoto valida per ogni progetto: una pagina densa e una composizione essenziale richiedono scelte diverse.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «La quantità di contenuti e le relazioni tra gli elementi guidano la scelta degli spazi. In una pagina densa, intervalli più ampi tra i gruppi aiutano a separarli. In una composizione essenziale, lo spazio attorno a un elemento può farlo risaltare.»
+]
+Distinguere i testi non basta se resta incerta la loro appartenenza. La vicinanza studiata nella Gestalt diventa una scelta di spaziatura: intervalli interni, distanze fra gruppi e margini devono confermare le associazioni di contenuto. Un’interruzione maggiore può segnalare un cambio di argomento; una distanza minore può tenere unita un’etichetta al suo valore. #highlight(fill: rgb("FFF1A8"))[Non esiste una quantità di vuoto valida per ogni progetto: una pagina densa e una composizione essenziale richiedono scelte diverse.]
 
 La prossimità suggerisce una relazione fra elementi vicini. In un modulo, un’etichetta deve essere associabile al proprio campo; una distanza ambigua può farla sembrare riferita al campo successivo. La verifica considera anche i testi più lunghi e i messaggi di errore, perché questi possono modificare gli intervalli originari.
 
@@ -557,7 +646,18 @@ Nel manifesto del Melbourne Food & Wine Festival della @fig-comp-melbourne, il r
 
 === Allineamento
 
-Le distanze definiscono gruppi; i riferimenti comuni permettono di collegarli attraverso la pagina. Allineare rende riconoscibili bordi, assi e linee di base condivisi fra testo e immagini. Nei testi lunghi, una bandiera coerente con la direzione di lettura offre un riferimento costante all’inizio delle righe.
+#block(breakable: false)[
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nei testi lunghi, allineare le righe sul lato da cui inizia la lettura dà un riferimento costante. In italiano, l’allineamento a bandiera sinistra mantiene fermo il margine di partenza e lascia irregolare quello destro. Chi legge ritrova così lo stesso punto di riferimento a ogni ritorno a capo.»
+]
+Le distanze definiscono gruppi; i riferimenti comuni permettono di collegarli attraverso la pagina. Allineare rende riconoscibili bordi, assi e linee di base condivisi fra testo e immagini. #highlight(fill: rgb("FFF1A8"))[Nei testi lunghi, una bandiera coerente con la direzione di lettura offre un riferimento costante all’inizio delle righe.]
+
+]
 
 La composizione centrata della campagna Adidas, nella @fig-comp-adidas, mette in relazione testo e immagine attraverso un asse. Un allineamento diverso risponderebbe a un’altra intenzione. L’asse organizza le relazioni visibili; il suo rapporto con l’esplorazione effettiva della pagina richiede una verifica, che riprenderemo parlando di attenzione.
 
@@ -573,9 +673,17 @@ La composizione centrata della campagna Adidas, nella @fig-comp-adidas, mette in
 
 === Dispari, centro ed equilibrio
 
-Scelti gli assi, occorre valutare come gli elementi distribuiscano il proprio peso attorno a essi. Un gruppo dispari permette di collocare un elemento al centro e distribuire gli altri ai suoi lati. La strategia può rendere riconoscibile un soggetto principale, ma funziona soltanto se dimensioni, distanze e contrasti sostengono quella relazione. Un oggetto laterale più brillante può prevalere sul centro geometrico.
+Scelti gli assi, occorre valutare come gli elementi distribuiscano il proprio peso attorno a essi. Un gruppo dispari permette di collocare un elemento al centro e distribuire gli altri ai suoi lati. La strategia può rendere riconoscibile un soggetto principale, ma funziona soltanto se dimensioni, distanze e contrasti sostengono quella relazione. Un oggetto laterale più brillante, però, può prevalere sul centro geometrico.
 
-La campagna Häagen-Dazs della @fig-comp-haagen-dazs usa una composizione dispari. Osservare il rapporto fra i prodotti aiuta a discutere il centro e l’equilibrio; il numero, da solo, non garantisce bellezza o chiarezza. In una lista funzionale, aggiungere un elemento soltanto per ottenere un numero dispari introdurrebbe un criterio estraneo al contenuto.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nella @fig-comp-haagen-dazs, cinque confezioni formano un gruppo. Le diverse inclinazioni e le sovrapposizioni distribuiscono il peso visivo intorno alla confezione di vaniglia. Osserva come questi rapporti contribuiscano all’equilibrio. In un elenco di azioni o informazioni, il numero di voci dipende da ciò che serve a chi lo consulta.»
+]
+#highlight(fill: rgb("FFF1A8"))[La campagna Häagen-Dazs della @fig-comp-haagen-dazs usa una composizione dispari. Osservare il rapporto fra i prodotti aiuta a discutere il centro e l’equilibrio; il numero, da solo, non garantisce bellezza o chiarezza. In una lista funzionale, aggiungere un elemento soltanto per ottenere un numero dispari introdurrebbe un criterio estraneo al contenuto.]
 
 #image-figure(path("/risorse-condivise/fonti/booklet/capitolo-3/originals/c03-114-01-source-01.png"),
   [Campagna Häagen-Dazs: prodotti disposti secondo una composizione dispari.],
@@ -672,7 +780,7 @@ Le composizioni decentrate possono costruire tensione ed equilibrio; quelle cent
 
 Nel manifesto _The Public Theater, 95–96 Season_, di _Paula Scher_, nella @fig-comp-manifesto-denso, pesi, inclinazioni e spaziature costruiscono un impianto espressivo e denso. Non è un esempio di griglia regolare: il ritmo tipografico distingue le informazioni anche attraverso direzioni contrastanti. Il confronto mostra che una gerarchia può emergere da relazioni differenti, senza richiedere che tutte le composizioni abbiano lo stesso ordine geometrico.
 
-Rompere la griglia richiede quindi una decisione precisa. Disperdere gli elementi senza una relazione con il messaggio può rendere più difficile la lettura: la libertà compositiva conserva i vincoli di associazioni comprensibili, testo leggibile e priorità coerenti con il contenuto.
+Rompere la griglia richiede quindi una decisione precisa. Disperdere gli elementi senza una relazione con il messaggio può rendere più difficile la lettura: la libertà compositiva deve quindi conservare i vincoli di associazioni comprensibili, testo leggibile e priorità coerenti con il contenuto.
 
 === Prospettiva e profondità
 
@@ -696,7 +804,7 @@ Gli strumenti appena esaminati descrivono le priorità proposte dalla composizio
 
 === Salienza e ricerca visiva
 
-Cominciamo da ciò che rende un elemento distinguibile, per confrontarlo poi con ciò che la persona sta cercando. La _salienza_ è il rilievo di un elemento rispetto al campo circostante. Una differenza di colore, orientamento o dimensione può renderlo più distinguibile; l’effetto dipende da quali differenze sono già presenti. Nel confronto simulato della @fig-comp-salienza, un disco diverso interrompe una serie regolare nel campo a, mentre nel campo b numerose variazioni competono.
+Cominciamo da ciò che rende un elemento distinguibile, per confrontarlo poi con ciò che la persona sta cercando. La _salienza_ è il rilievo di un elemento rispetto al campo circostante. Una differenza di colore, orientamento o dimensione può renderlo più distinguibile; l’effetto dipende da quali differenze sono già presenti. Nel confronto simulato della @fig-comp-salienza, un disco diverso interrompe una serie regolare nel campo _a_, mentre nel campo _b_ numerose variazioni competono.
 
 #figure(block(width: 100%)[
   #set text(size: 10pt, weight: 400, variations: (opsz: 18))
@@ -709,7 +817,15 @@ Cominciamo da ciò che rende un elemento distinguibile, per confrontarlo poi con
 
 Per _Anne Treisman_ e _Garry Gelade_, distinguere caratteristiche e combinarle in oggetti riconoscibili richiede processi differenti @compTreisman.
 
-Nei loro esperimenti, cercare combinazioni di caratteristiche richiedeva condizioni diverse dalla ricerca basata su una sola differenza. Il diagramma propone una domanda progettuale, senza riprodurre quei dati sperimentali.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «_Treisman_ e _Gelade_ hanno confrontato la ricerca di un elemento distinguibile per una sola caratteristica con la ricerca di un elemento definito da una combinazione, per esempio colore e forma. Il diagramma è una simulazione didattica. Usalo per chiederti se il segnale che vuoi far emergere resta riconoscibile quando intorno ci sono altre differenze.»
+]
+#highlight(fill: rgb("FFF1A8"))[Nei loro esperimenti, cercare combinazioni di caratteristiche richiedeva condizioni diverse dalla ricerca basata su una sola differenza. Il diagramma propone una domanda progettuale, senza riprodurre quei dati sperimentali.]
 
 Il modello _Guided Search 6.0_, di _Jeremy M. Wolfe_, considera una guida dell’attenzione che integra caratteristiche dello stimolo, obiettivi, esperienza precedente e conoscenza della scena @compWolfe. Una priorità visiva dipende quindi anche da ciò che la persona cerca. Il contrasto può facilitare la distinzione, ma non stabilisce da solo l’ordine completo della consultazione.
 
@@ -726,17 +842,41 @@ Il rilievo visivo diventa utile al compito quando i segnali sostengono priorità
   caption: caption-content([Due versioni simulate di un appuntamento. Il compito è spostare la visita: a. tre azioni con identica enfasi; b. modifica, indicazioni e annullamento ricevono pesi differenti. «Annulla» resta leggibile e disponibile.], rights: none),
 )#label("fig-comp-" + "priorita")
 
-Nella @fig-comp-priorita, il compito è spostare una visita. La versione a enfatizza ugualmente modifica, indicazioni e annullamento. Nella b risalta la modifica; indirizzo e annullamento restano leggibili. La differenza suggerisce un’ipotesi sulla priorità visiva, da verificare osservando se la persona riesce a spostare la visita.
+Nella @fig-comp-priorita, il compito è spostare una visita. La versione _a_ enfatizza ugualmente modifica, indicazioni e annullamento. Nella _b_ risalta la modifica; indirizzo e annullamento restano leggibili. La differenza suggerisce un’ipotesi sulla priorità visiva, da verificare osservando se la persona riesce a spostare la visita.
 
-Anche il significato dell’azione conta. Un comando distruttivo molto evidente può attirare l’attenzione nella direzione sbagliata. Per valutare la gerarchia bisogna chiedere che cosa la persona si aspetta di ottenere, osservare eventuali errori e verificare che i segnali non inducano un’associazione scorretta fra comando e contenuto.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Dai più risalto all’azione che serve per il compito. Se la persona vuole spostare una visita, mettere in primo piano «Annulla» può indurla a iniziare dall’azione sbagliata.»
+]
+#highlight(fill: rgb("FFF1A8"))[Anche il significato dell’azione conta. Un comando distruttivo molto evidente può attirare l’attenzione nella direzione sbagliata.] Per valutare la gerarchia bisogna chiedere che cosa la persona si aspetta di ottenere, osservare eventuali errori e verificare che i segnali non inducano un’associazione scorretta fra comando e contenuto.
 
 === Vedere, scegliere, raggiungere
 
 L’enfasi grafica interviene su una parte del compito. Dopo aver individuato un comando, la persona deve comprenderlo, scegliere una risposta e raggiungere il bersaglio con il dispositivo disponibile. Questi passaggi pongono problemi differenti: un pulsante evidente può avere un’etichetta ambigua oppure un’area cliccabile troppo piccola.
 
-La legge di _Hick–Hyman_ collega il tempo di reazione all’incertezza fra le risposte possibili in compiti sperimentali di scelta. Conta anche la probabilità delle alternative, oltre al loro numero @compHick @compHyman.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Negli esperimenti di _Hick_ e _Hyman_, il tempo di reazione tendeva ad aumentare quando era meno prevedibile quale risposta sarebbe servita. L’incertezza dipendeva dal numero di alternative e dalla probabilità con cui ciascuna si presentava.»
+]
+#highlight(fill: rgb("FFF1A8"))[La legge di _Hick–Hyman_ collega il tempo di reazione all’incertezza fra le risposte possibili in compiti sperimentali di scelta. Conta anche la probabilità delle alternative, oltre al loro numero] @compHick @compHyman.
 
-Nel progetto di un menu, questo invita a rendere prevedibili gruppi ed etichette e a distinguere le azioni pertinenti. Il modello riguarda condizioni controllate; un elenco di voci familiari, una ricerca per nome e una decisione d’acquisto richiedono confronti diversi. Il numero di pulsanti, da solo, non consente di prevedere il tempo necessario a decidere.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «In un menu, raggruppa le voci per compito, usa etichette prevedibili e fai emergere le azioni più pertinenti. Per capire quanto tempo richiede una scelta, osserva il compito concreto. Ritrovare una voce familiare, cercare un nome e confrontare due acquisti richiedono passaggi diversi, anche se sullo schermo compare lo stesso numero di pulsanti.»
+]
+#highlight(fill: rgb("FFF1A8"))[Nel progetto di un menu, questo invita a rendere prevedibili gruppi ed etichette e a distinguere le azioni pertinenti. Il modello riguarda condizioni controllate; un elenco di voci familiari, una ricerca per nome e una decisione d’acquisto richiedono confronti diversi. Il numero di pulsanti, da solo, non consente di prevedere il tempo necessario a decidere.]
 
 La legge di _Fitts_ mette invece in relazione il tempo del movimento con la distanza dal bersaglio e con la precisione richiesta per raggiungerlo @compFitts @compMacKenzie. Nell’interfaccia, dimensione del segno e area attivabile possono essere differenti. Ingrandire soltanto il pittogramma lascia irrisolto il problema se il bersaglio effettivo resta stretto. Anche la posizione iniziale del puntatore, la direzione di avvicinamento e il dispositivo vanno considerati nella prova.
 
@@ -748,7 +888,15 @@ Dalla competizione fra singoli segnali passiamo alla distribuzione complessiva d
 
 Lo schema a Z propone un percorso orizzontale nella parte superiore, un passaggio diagonale e un secondo percorso orizzontale più in basso. Può servire a ragionare sulla distribuzione di pochi blocchi, per esempio identità, messaggio e invito all’azione. Non rappresenta una traiettoria obbligata dello sguardo.
 
-La @fig-comp-aesop-percorso mostra una versione storica della homepage Aesop. I blocchi possono essere discussi attraverso quello schema, ma l’immagine non registra movimenti oculari. Il percorso effettivo dipende dal contenuto, dal compito, dalla direzione di lettura e dalle priorità della persona.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nella schermata storica di _Aesop_ della @fig-comp-aesop-percorso, la navigazione corre lungo la fascia superiore. Più in basso, il titolo «Esperienza» è a sinistra e la fotografia dei prodotti a destra. Lo schema a Z offre un modo per leggere questa disposizione. L’ordine in cui le persone guardano la pagina va osservato durante l’uso e può variare con il contenuto, il compito e le abitudini di lettura. Chi cerca un prodotto, per esempio, potrebbe andare subito al comando «Cerca».»
+]
+#highlight(fill: rgb("FFF1A8"))[La @fig-comp-aesop-percorso mostra una versione storica della homepage _Aesop_. I blocchi possono essere discussi attraverso quello schema, ma l’immagine non registra movimenti oculari. Il percorso effettivo dipende dal contenuto, dal compito, dalla direzione di lettura e dalle priorità della persona.]
 
 #image-figure(path("/risorse-condivise/immagini/figure/composizione/aesop-percorso.svg"),
   [Homepage di Aesop: distribuzione dei blocchi nella versione documentata. Lo schema a Z è una lettura compositiva, non una misurazione dello sguardo.],
@@ -790,7 +938,15 @@ Dopo aver distinto strumenti compositivi e comportamento del lettore, possiamo o
 
 === Dall’arte alla pagina
 
-Un’opera con un centro evidente permette di mettere in relazione posizione, direzioni e racconto, prima di chiedersi che cosa possa essere trasferito a una pagina informativa.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nell’_Ultima Cena_ possiamo chiederci quale figura emerge e come la sua posizione e le linee dell’ambiente le diano rilievo nel racconto. In una pagina informativa, la domanda di progetto è simile. Quale informazione deve trovare per prima chi legge e come possono aiutarlo la posizione, gli allineamenti e lo spazio intorno?»
+]
+#highlight(fill: rgb("FFF1A8"))[Un’opera con un centro evidente permette di mettere in relazione posizione, direzioni e racconto, prima di chiedersi che cosa possa essere trasferito a una pagina informativa.]
 
 Nell’_Ultima Cena_, di _Leonardo da Vinci_, la figura di Cristo occupa una posizione centrale e le linee dell’ambiente sostengono una costruzione prospettica. La @fig-comp-cenacolo mostra una riproduzione annotata: le frecce e il rettangolo rossi sono segni sovrapposti alla fotografia, utili a distinguere un’osservazione sulla composizione dal documento dell’opera.#website-note([Museo del Cenacolo Vinciano, sito istituzionale.], "https://cenacolovinciano.org/")
 
@@ -810,7 +966,7 @@ L’invito della @fig-comp-invito permette di riportare questa osservazione su u
 
 === Un caso cinematografico
 
-Il cinema amplia il confronto perché permette di osservare composizioni diverse all’interno dello stesso racconto. _The Grand Budapest Hotel_, di _Wes Anderson_ @compBudapest, riunisce forma, spazio, colore e priorità in più inquadrature: il caso serve a leggere come queste relazioni cambino insieme. Le immagini non sono considerate come un repertorio di emozioni automatiche: mostrano relazioni che possono essere descritte e interpretate nel contesto del film.#website-note([Searchlight Pictures, The Grand Budapest Hotel: film, clip e materiali ufficiali.], "https://www.searchlightpictures.com/thegrandbudapesthotel/")
+Il cinema amplia il confronto perché permette di osservare composizioni diverse all’interno dello stesso racconto. _The Grand Budapest Hotel_, di _Wes Anderson_ @compBudapest, riunisce forma, spazio, colore e priorità in più inquadrature: il caso serve a leggere come queste relazioni cambino insieme. #website-note([Searchlight Pictures, The Grand Budapest Hotel: film, clip e materiali ufficiali.], "https://www.searchlightpictures.com/thegrandbudapesthotel/")
 
 #image-figure(path("/risorse-condivise/immagini/figure/composizione/budapest-simmetria-1.png"),
   [_The Grand Budapest Hotel_, 2014: le due figure principali condividono il centro e sono affiancate da figure secondarie.],
@@ -841,11 +997,11 @@ Il cinema amplia il confronto perché permette di osservare composizioni diverse
 
 Nella @fig-comp-budapest, le figure principali condividono il centro e sono messe in relazione con quelle ai lati. Nella @fig-comp-budapest-cornice, le sbarre definiscono una cornice interna che delimita ulteriormente il campo visibile. Nella @fig-comp-budapest-spazio, l’ampiezza della sala lascia i personaggi piccoli rispetto all’ambiente: la scala riguarda anche la quantità di spazio che li circonda.
 
-Il film varia anche il rapporto fra larghezza e altezza del quadro: 1,37:1 per il racconto degli anni Trenta, 2,40:1 per quello degli anni Sessanta e 1,85:1 per le cornici temporali più recenti.#website-note([The Criterion Collection, scheda dell’edizione approvata dal regista; formati 1,37:1, 1,85:1 e 2,40:1.], "https://www.criterion.com/films/29601-the-grand-budapest-hotel") Il formato aiuta così a distinguere i livelli del racconto. Nell’intervista a _Wes Anderson_, la scelta è ricondotta anche alle convenzioni cinematografiche delle diverse epoche @compOsenlund.
+Il film varia anche il rapporto fra larghezza e altezza del quadro: 1,37:1 per il racconto degli anni Trenta, 2,40:1 per quello degli anni Sessanta e 1,85:1 per le cornici temporali più recenti.#website-note([The Criterion Collection, scheda dell’edizione approvata dal regista; formati 1,37:1, 1,85:1 e 2,40:1.], "https://www.criterion.com/films/29601-the-grand-budapest-hotel") Il formato aiuta così a distinguere i livelli del racconto. Nell’intervista a _Wes Anderson_, si evince come la scelta è ricondotta anche alle convenzioni cinematografiche delle diverse epoche @compOsenlund.
 
-Il caso riprende così la scelta del campo visibile: cambiare formato modifica la composizione e un ritaglio può eliminare relazioni necessarie. Una cornice interna può essere costruita da finestre, porte o elementi scenici. Rispetto alla semplice riduzione dell’immagine, mantiene leggibile una relazione fra il soggetto e ciò che lo circonda. Nel film, montaggio, durata, suono e azioni modificano la lettura delle singole inquadrature; un fotogramma permette di esaminare una composizione, ma non restituisce da solo l’esperienza della sequenza.
+Il caso riprende così la scelta del campo visibile: cambiare formato modifica la composizione e un ritaglio può eliminare relazioni necessarie. Una cornice interna può essere costruita da finestre, porte o elementi scenici. Rispetto alla semplice riduzione dell’immagine, mantiene leggibile una relazione fra il soggetto e ciò che lo circonda. Nel film, montaggio, durata, suono e azioni modificano la lettura delle singole inquadrature; un fotogramma permette di esaminare una composizione, ma non restituisce da solo l’esperienza dell'intera sequenza.
 
-Il caso suggerisce anche un trasferimento prudente al progetto digitale: distinguere soggetto e contesto, assegnare un peso allo spazio e verificare quali elementi incorniciano un’informazione. Non occorre rendere ogni pagina simmetrica per applicare queste osservazioni.
+Quanto osservato suggerisce anche un trasferimento prudente al progetto digitale: distinguere soggetto e contesto, assegnare un peso allo spazio e verificare quali elementi incorniciano un’informazione. 
 
 
 == Progettare, confrontare, verificare
@@ -854,9 +1010,17 @@ L’analisi dei casi diventa ora un metodo per motivare le proprie scelte. La do
 
 === Dall’idea guida alle scelte visive
 
-Per coordinare gli strumenti esaminati serve una direzione da discutere rispetto al problema. Il _concept visivo_ è l’idea guida che mette in relazione le scelte espressive del progetto. Non coincide con un colore o con uno slogan: permette di motivare insieme immagini, forme, tipografia e tono delle parole. Può evolvere mentre si confrontano le proposte con contenuti, destinatari e vincoli.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Il _concept visivo_ è l’idea che dà una direzione comune alle scelte del progetto. Il concept parte da ciò che il progetto deve comunicare e orienta la scelta delle immagini, delle forme, dei caratteri e del tono delle parole. Può evolvere quando le proposte vengono messe alla prova con contenuti reali, esigenze del pubblico e vincoli del progetto.»
+]
+#highlight(fill: rgb("FFF1A8"))[Per coordinare gli strumenti esaminati serve una direzione da discutere rispetto al problema. Il _concept visivo_ è l’idea guida che mette in relazione le scelte espressive del progetto. Non coincide con un colore o con uno slogan: permette di motivare insieme immagini, forme, tipografia e tono delle parole. Può evolvere mentre si confrontano le proposte con contenuti, destinatari e vincoli.]
 
-Per il laboratorio di fotografia della @fig-comp-invito, «sperimentare con la luce» può diventare un’ipotesi di concept: fotografie che mettono a confronto luci e ombre, tagli che isolano un dettaglio e parole che invitano a osservare. Ogni scelta deve avere una ragione riconoscibile. Una campitura molto espressiva che rende illeggibile l’orario ostacolerebbe comunque la funzione dell’invito.
+Per l'esempio del laboratorio di fotografia della @fig-comp-invito, «sperimentare con la luce» può diventare un’ipotesi di concept: fotografie che mettono a confronto luci e ombre, tagli che isolano un dettaglio e parole che invitano a osservare. Ogni scelta deve avere una ragione riconoscibile. Una campitura molto espressiva che rende illeggibile l’orario ostacolerebbe comunque la funzione dell’invito.
 
 === Dai riferimenti alle decisioni
 
@@ -868,11 +1032,27 @@ Un riferimento diventa operativo quando si collega a una scelta da provare. Una 
 
 Nel laboratorio di fotografia della @fig-comp-invito, il concept «sperimentare con la luce» può suggerire immagini con contrasti marcati. Una scelta concreta è riservare quei contrasti alla fotografia e dare al testo uno sfondo uniforme. La verifica riguarda la lettura di data, luogo e iscrizione. Un riferimento visivo diventa così un’ipotesi motivata, che può essere modificata quando rende più difficile trovare le informazioni necessarie.
 
-Questo registro aiuta anche a confrontare una prima proposta con il risultato successivo: permette di distinguere ciò che è stato mantenuto, ciò che è cambiato e il motivo della revisione. La somiglianza stilistica fra un riferimento e una schermata, da sola, non documenta il processo attraverso il quale è stato progettato un prodotto.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Annotare il riferimento, la scelta e la verifica prevista aiuta a ricostruire il percorso del progetto. Confrontando le versioni si vede quali scelte sono state mantenute, quali sono cambiate e perché. Le annotazioni spiegano anche come alcuni elementi del riferimento sono entrati nella schermata.»
+]
+#highlight(fill: rgb("FFF1A8"))[Questo registro aiuta anche a confrontare una prima proposta con il risultato successivo: permette di distinguere ciò che è stato mantenuto, ciò che è cambiato e il motivo della revisione. La somiglianza stilistica fra un riferimento e una schermata, da sola, non documenta il processo attraverso il quale è stato progettato un prodotto.]
 
 === Costruire una variazione motivata
 
-#block(breakable: false, above: 4pt, below: 10pt)[Dai riferimenti si passa a una composizione da confrontare, riprendendo la variazione di una scelta alla volta già praticata in tipografia e griglia. Si conserva una versione iniziale e se ne modifica una relazione: scala del titolo, spazio fra gruppi, posizione dell’immagine o peso del comando. Mantenere riconoscibile ciò che cambia aiuta a discutere il risultato.]
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Dopo aver tradotto i riferimenti in una prima composizione, conservala per il confronto. Come negli esempi di tipografia e griglia, prepara una variante cambiando una sola scelta alla volta. Puoi ingrandire il titolo, aumentare lo spazio tra due gruppi, spostare l’immagine o dare più risalto al comando. Con il resto invariato, è più facile discutere che cosa produce la modifica.»
+]
+#block(breakable: false, above: 4pt, below: 10pt)[#highlight(fill: rgb("FFF1A8"))[Dai riferimenti si passa a una composizione da confrontare, riprendendo la variazione di una scelta alla volta già praticata in tipografia e griglia. Si conserva una versione iniziale e se ne modifica una relazione: scala del titolo, spazio fra gruppi, posizione dell’immagine o peso del comando. Mantenere riconoscibile ciò che cambia aiuta a discutere il risultato.]]
 
 Se testo, immagini, colori e struttura variano tutti insieme, diventa più difficile comprendere quale scelta abbia prodotto un miglioramento o un problema.
 
@@ -926,7 +1106,15 @@ La @fig-comp-invito-finale riunisce le scelte in una proposta per il laboratorio
 
 Il titolo identifica l’attività; la frase più piccola precisa la direzione espressiva. Un allineamento comune collega le righe, mentre lo spazio separa il gruppo del giorno e dell’orario da quello del luogo e dell’indirizzo. I dati restano sulla zona scura e uniforme, lontano dalle parti più articolate della fotografia. Il verde lime distingue l’iscrizione; la gratuità resta vicina all’azione.
 
-Queste relazioni propongono delle priorità, senza imporre un percorso degli occhi. La verifica consiste nel riconoscere l’attività, trovare quando e dove si svolge e capire come iscriversi. Il comando rappresentato appartiene a un’immagine dimostrativa: un invito digitale funzionante richiederebbe un controllo accessibile e un collegamento effettivo. La composizione è una proposta da provare, non il risultato di una verifica già svolta.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nell’invito, dimensioni, distanze e contrasti danno rilievo a informazioni diverse. Per capire se le priorità sono chiare, mostra la proposta a una persona e chiedile che cosa si svolge, quando e dove, e come farebbe a iscriversi. Questa prova riguarda la comprensione dell’invito. Nella versione digitale funzionante, verifica anche che «Iscriviti» sia raggiungibile da tastiera e conduca alla procedura di iscrizione.»
+]
+#highlight(fill: rgb("FFF1A8"))[Queste relazioni propongono delle priorità, senza imporre un percorso degli occhi. La verifica consiste nel riconoscere l’attività, trovare quando e dove si svolge e capire come iscriversi. Il comando rappresentato appartiene a un’immagine dimostrativa: un invito digitale funzionante richiederebbe un controllo accessibile e un collegamento effettivo. La composizione è una proposta da provare, non il risultato di una verifica già svolta.]
 
 ]
 

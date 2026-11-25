@@ -17,12 +17,12 @@
 }
 
 // Uncomment only the chapters to include in the volume.
-// #include-chapter(1) // Storia del design visivo
-// #include-chapter(2) // Ricerca, persone e culture
-// #include-chapter(3) // Accessibilità e inclusione
+#include-chapter(1) // Storia del design visivo
+#include-chapter(2) // Ricerca, persone e culture
+#include-chapter(3) // Accessibilità e inclusione
 // #include-chapter(4) // Percezione e Gestalt
 // #include-chapter(5) // Colore e significato
 // #include-chapter(6) // Tipografia e lettura
 // #include-chapter(7) // Griglie e layout
-//#include-chapter(8) // Composizione e gerarchia visiva
-#include-chapter(9) // Processo UX e UI
+// #include-chapter(8) // Composizione e gerarchia visiva
+// #include-chapter(9) // Processo UX e UI

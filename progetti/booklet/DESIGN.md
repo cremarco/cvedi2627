@@ -422,6 +422,8 @@ Le voci sono disposte in regioni indipendenti dalla misurazione Meander, con alt
 
 Per l’annuncio **Olivetti Lettera 32**, il commento Figma #379 richiede il bordo sinistro del foglio. Nella ricomposizione a 11/13,5 pt, questa composizione fissa inizia su pagina pari (`start-page: "even"`), a sinistra nella coppia aperta, così il lato al vivo coincide con il bordo esterno del volume. L’opzione `bleed-left: true` di `format: "sagoma-pagina"` allinea il primo pixel visibile dell’alpha; soltanto il margine trasparente dell’asset oltrepassa il foglio. L’immagine conserva larghezza di 240 pt, proporzioni, originale e didascalia; la prosa segue il profilo con 8 pt di rispetto e le note restano nella fascia ordinaria. Dopo modifiche a monte, il componente raggiunge automaticamente la prossima pagina pari: l’eventuale pagina necessaria alla parità appartiene a questa composizione specifica.
 
+Le note editoriali di modifica sono visibili nel PDF, collocate subito prima del passaggio interessato; il testo esatto da cambiare è evidenziato nel corpo. La nota riporta la proposta senza applicarla al testo, salvo richiesta esplicita dell’utente.
+
 I commenti si verificano insieme al bersaglio e al testo corrente prima dell’importazione del relativo capitolo. Il registro `reports/typst-booklet/commenti-importazione.json` comprende 111 commenti: 95 riletti dal vivo e 16 storici non riverificati. L’audit resta parziale e non implica una verifica di tutti i commenti. Nessuna modifica a Figma è inclusa in questa trasposizione. Il contratto delle misure Figma resta documentato sopra; le modifiche intenzionali alla nuova edizione Typst sono dichiarate qui e non attestano aggiornamenti grafici già applicati ai frame originali.
 
 

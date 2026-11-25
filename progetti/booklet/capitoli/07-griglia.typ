@@ -73,7 +73,15 @@ Osserviamo una pagina di appuntamenti. Il nome del servizio identifica l'oggetto
 
 Nella @fig-griglia-360, date e azioni ritornano sulle stesse verticali. Il lettore può confrontare più appuntamenti senza ricostruire ogni volta la struttura. Il bianco fra le righe separa record distinti; quello più breve fra etichetta e valore li tiene uniti.
 
-Questo assetto non dimostra da solo una maggiore velocità di esecuzione. Formula una scelta verificabile: si può chiedere a una persona di individuare una data e osservare esitazioni, errori e percorso seguito. Una griglia diventa utile quando sostiene un compito riconoscibile.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Questo assetto non dimostra da solo una maggiore velocità di esecuzione. Per capire se gli allineamenti della lista aiutano, per esempio, a trovare un appuntamento, chiedi a una persona di individuare una data precisa. Osserva dove cerca, in quali punti esita e se sceglie la riga sbagliata. Se vuoi sapere se la griglia fa anche risparmiare tempo, confronta i tempi dello stesso compito in due versioni della lista.»
+]
+#highlight(fill: rgb("FFF1A8"))[Questo assetto non dimostra da solo una maggiore velocità di esecuzione. Formula una scelta verificabile: si può chiedere a una persona di individuare una data e osservare esitazioni, errori e percorso seguito. Una griglia diventa utile quando sostiene un compito riconoscibile.]
 
 === Griglia, layout e gerarchia
 
@@ -92,9 +100,25 @@ La griglia descrive possibilità di collocazione; il layout è la disposizione c
 
 La gerarchia stabilisce invece le priorità fra i contenuti. Dimensione, peso, posizione, contrasto e distanza contribuiscono a distinguere un titolo da una nota.
 
-Un allineamento perfetto non risolve una pagina in cui tutti i contenuti chiedono la stessa attenzione.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Allineare gli elementi mette ordine nella pagina. Per guidare la lettura serve anche una gerarchia visiva che faccia risaltare le informazioni da leggere per prime.»
+]
+#highlight(fill: rgb("FFF1A8"))[Un allineamento perfetto non risolve una pagina in cui tutti i contenuti chiedono la stessa attenzione.]
 
-La @fig-griglia-361 mostra tre occupazioni dello stesso reticolo: il campo colorato si estende su tre, due o quattro colonne. Titolo e righe schematiche mantengono i propri riferimenti. La griglia rende possibili queste variazioni; la gerarchia dipende da come vengono usate nel layout.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nei tre layout della @fig-griglia-361, il titolo e le righe di testo conservano gli stessi riferimenti sulla griglia a sei colonne. A cambiare è il campo colorato, che occupa rispettivamente tre, due e quattro colonne. Aumentando o riducendo lo spazio che gli assegni, puoi dargli più o meno rilievo rispetto al testo.»
+]
+#highlight(fill: rgb("FFF1A8"))[La @fig-griglia-361 mostra tre occupazioni dello stesso reticolo: il campo colorato si estende su tre, due o quattro colonne. Titolo e righe schematiche mantengono i propri riferimenti. La griglia rende possibili queste variazioni; la gerarchia dipende da come vengono usate nel layout.]
 
 === Il bianco ha una misura
 
@@ -109,11 +133,35 @@ La @fig-griglia-361 mostra tre occupazioni dello stesso reticolo: il campo color
   scope: "parent",
 )
 
-Il margine distingue il contenuto dal bordo della pagina. L'intercolonna separa flussi di lettura vicini. Lo spazio dentro un controllo tiene il testo lontano dal suo limite. Sono distanze diverse, che rispondono a problemi diversi.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Lo spazio interno è la distanza tra il testo di un pulsante e il bordo del pulsante stesso.»
+]
+Il margine distingue il contenuto dal bordo della pagina. L'intercolonna separa flussi di lettura vicini. #highlight(fill: rgb("FFF1A8"))[Lo spazio dentro un controllo tiene il testo lontano dal suo limite.] Sono distanze diverse, che rispondono a problemi diversi.
 
-Una scala di spaziatura permette di ripetere rapporti coerenti. Nella @fig-griglia-362, le distanze sono in rapporto 1:2:4: 8 dentro il gruppo, 16 fra gruppi, 32 fra sezioni. Sono unità convenzionali del diagramma; in un progetto vanno tradotte in misure esplicite. I valori sono una scelta dell'esempio, non una regola universale.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Una scala di spaziatura dà misure che puoi riusare in tutta la pagina. Nella @fig-griglia-362 si usano 8 unità tra gli elementi di uno stesso gruppo, 16 tra gruppi e 32 tra sezioni. Ogni distanza è il doppio della precedente. Scegli l’unità di misura e adatta i valori al formato e ai contenuti del progetto.»
+]
+#highlight(fill: rgb("FFF1A8"))[Una scala di spaziatura permette di ripetere rapporti coerenti. Nella @fig-griglia-362, le distanze sono in rapporto 1:2:4: 8 dentro il gruppo, 16 fra gruppi, 32 fra sezioni. Sono unità convenzionali del diagramma; in un progetto vanno tradotte in misure esplicite. I valori sono una scelta dell'esempio, non una regola universale.]
 
-La verifica deve includere anche ciò che cambia: un titolo su due righe, un'etichetta tradotta, un messaggio di errore. Se il sistema accetta soltanto testi corti, il suo ordine è fragile. Si correggono le regole e lo spazio disponibile, senza ridurre automaticamente il corpo per conservare l'aspetto iniziale.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Prova il layout con testi di lunghezze diverse. Controlla che ci sia spazio per un titolo su due righe, un’etichetta più lunga dopo la traduzione e un messaggio di errore. Se qualcosa non entra, rivedi prima lo spazio assegnato e il modo in cui il contenuto può andare a capo. Riduci la dimensione del testo solo se resta leggibile e mantiene il suo ruolo nella pagina.»
+]
+#highlight(fill: rgb("FFF1A8"))[La verifica deve includere anche ciò che cambia: un titolo su due righe, un'etichetta tradotta, un messaggio di errore. Se il sistema accetta soltanto testi corti, il suo ordine è fragile. Si correggono le regole e lo spazio disponibile, senza ridurre automaticamente il corpo per conservare l'aspetto iniziale.]
 ]
 #[
 
@@ -121,7 +169,15 @@ La verifica deve includere anche ciò che cambia: un titolo su due righe, un'eti
 
 == Una storia di sistemi e scelte
 
-Dalla pagina ripetibile ai sistemi di pubblicazione, la griglia diventa un modo per prendere e condividere decisioni.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Quando più pagine usano gli stessi margini, colonne e allineamenti, quelle scelte possono diventare regole condivise per un’intera serie di pubblicazioni. Chi lavora alla serie può applicarle a contenuti diversi e decidere insieme quando adattarle.»
+]
+#highlight(fill: rgb("FFF1A8"))[Dalla pagina ripetibile ai sistemi di pubblicazione, la griglia diventa un modo per prendere e condividere decisioni.]
 
 #image-figure(path("/risorse-condivise/immagini/figure/griglia/diagrammi/363-storia-sistemi.svg"),
   [Tre ambiti di progetto: pagina editoriale, sistema di pubblicazioni e interfaccia adattabile.],
@@ -134,7 +190,15 @@ Dalla pagina ripetibile ai sistemi di pubblicazione, la griglia diventa un modo 
   scope: "parent",
 )
 
-Margini e colonne coordinano da tempo testo, annotazioni e immagini. La griglia moderna rende esplicite e condivisibili queste scelte, senza costituire un'invenzione riconducibile a una sola data o persona.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Da tempo si usano margini e colonne per disporre testi, annotazioni e immagini sulla pagina. La griglia moderna rende esplicite queste relazioni, così chi progetta può descriverle, discuterle e applicarle a più pagine. È il risultato di una lunga evoluzione delle pratiche editoriali.»
+]
+#highlight(fill: rgb("FFF1A8"))[Margini e colonne coordinano da tempo testo, annotazioni e immagini. La griglia moderna rende esplicite e condivisibili queste scelte, senza costituire un'invenzione riconducibile a una sola data o persona.]
 
 Seguono tre esempi: _Musica Viva_ (1957), Unigrid (dal 1977) e il manuale di _Josef Müller-Brockmann_ (1981). La @fig-griglia-363 collega pagina, sistema e interfaccia: ambiti che si influenzano e continuano a coesistere.
 
@@ -155,7 +219,15 @@ In _Grid systems in graphic design_, pubblicato da Arthur Niggli nel 1981, _Jose
 
 La @fig-griglia-364 confronta due scelte: distribuire oggetti isolati oppure costruire una famiglia di allineamenti che possa ospitare pagine diverse.
 
-È uno schema di lettura del metodo, non una riproduzione delle tavole del libro.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Il diagramma è una sintesi didattica del metodo descritto nel libro. Mostra come gli stessi allineamenti possano dare ordine a pagine con contenuti diversi.»
+]
+#highlight(fill: rgb("FFF1A8"))[È uno schema di lettura del metodo, non una riproduzione delle tavole del libro.]
 
 La ripetizione rende confrontabili le decisioni. Si può descrivere perché una figura occupa due colonne e perché una didascalia segue un'altra misura. Questo rende il progetto discutibile e modificabile, senza trasformare il reticolo in un vincolo da rispettare a ogni costo. La forma del contenuto può richiedere un'altra griglia o una deroga riconoscibile.
 
@@ -173,7 +245,15 @@ La ripetizione rende confrontabili le decisioni. Si può descrivere perché una 
 
 Nel manifesto _Musica Viva_ di _Josef Müller-Brockmann_, le informazioni del concerto occupano quattro campi verticali nella parte superiore. In basso, segni obliqui di lunghezza e spessore diversi introducono un ritmo distinto. La @fig-griglia-365 conserva l'opera intera.#website-note([Scheda dell'opera, MoMA.], "https://www.moma.org/collection/works/4885")
 
-Si osservano gli inizi dei blocchi, le pause fra gruppi e il rapporto fra testo fitto e superficie libera. Queste relazioni sono leggibili nell'immagine; non equivalgono alla ricostruzione del reticolo originale dell'autore.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nel manifesto si può osservare come i blocchi si allineano e come il vuoto li separa. »
+]
+Si osservano gli inizi dei blocchi, le pause fra gruppi e il rapporto fra testo fitto e superficie libera. #highlight(fill: rgb("FFF1A8"))[Queste relazioni sono leggibili nell'immagine; non equivalgono alla ricostruzione del reticolo originale dell'autore.]
 
 === Unigrid: un sistema editoriale
 
@@ -187,7 +267,15 @@ Si osservano gli inizi dei blocchi, le pause fra gruppi e il rapporto fra testo 
   height: 110mm,
 )
 
-Nel 1977 _Vincent Gleason_, responsabile delle pubblicazioni del National Park Service, coinvolge _Massimo Vignelli_ nella definizione di Unigrid. Il sistema coordina formati, pieghe, tipografia e produzione delle brochure. Il primo esempio per un parco è quello di Clara Barton, del 1978.#website-note([National Park Service, storia di Unigrid.], "https://www.nps.gov/subjects/hfc/a-brief-history-of-the-unigrid.htm")
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «La prima brochure per un parco realizzata con Unigrid fu quella di Clara Barton, pubblicata nel 1978.»
+]
+Nel 1977 _Vincent Gleason_, responsabile delle pubblicazioni del National Park Service, coinvolge _Massimo Vignelli_ nella definizione di Unigrid. Il sistema coordina formati, pieghe, tipografia e produzione delle brochure. #highlight(fill: rgb("FFF1A8"))[Il primo esempio per un parco è quello di Clara Barton, del 1978.]#website-note([National Park Service, storia di Unigrid.], "https://www.nps.gov/subjects/hfc/a-brief-history-of-the-unigrid.htm")
 
 I pannelli di base misurano 4 × 8¼ pollici. Formati e combinazioni possono cambiare, mantenendo una riconoscibilità comune. Nella @fig-griglia-366 si osservano testata, colonne, cronologia e mappa della brochure originale.
 
@@ -206,9 +294,25 @@ I pannelli di base misurano 4 × 8¼ pollici. Formati e combinazioni possono cam
 
 Un sistema editoriale deve accogliere contenuti differenti: una mappa richiede un campo continuo, una cronologia dispone eventi in sequenza, un testo lungo richiede una misura leggibile. Unigrid consente composizioni diverse all'interno di regole comuni.
 
-La @fig-griglia-367 usa tre pannelli per mostrare questa logica. La testata torna alla stessa quota; i campi sottostanti cambiano disposizione. Le etichette indicano possibili destinazioni dei pannelli: sono schemi di ingombro, non mappe, cronologie o brochure reali del National Park Service.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Le etichette suggeriscono come usare lo spazio sotto la testata. Un campo ampio può ospitare una mappa, una sequenza di blocchi può accogliere una cronologia. Il diagramma è un esempio didattico costruito a partire dalla logica di Unigrid.»
+]
+La @fig-griglia-367 usa tre pannelli per mostrare questa logica. La testata torna alla stessa quota; i campi sottostanti cambiano disposizione. #highlight(fill: rgb("FFF1A8"))[Le etichette indicano possibili destinazioni dei pannelli: sono schemi di ingombro, non mappe, cronologie o brochure reali del National Park Service.]
 
-La coerenza si riconosce nei riferimenti che ritornano: il bordo del titolo, un intervallo fra fasce, la posizione dei dati di servizio. Per valutare il sistema non basta sovrapporre due pagine: bisogna controllare che i contenuti diversi possano trovare spazio senza perdere il proprio significato.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Metti a confronto due pagine e cerca i riferimenti che ritornano. Il titolo può partire dallo stesso bordo, le fasce possono mantenere la stessa distanza e i dati di servizio possono restare nella stessa posizione. Prova poi a inserire contenuti diversi e verifica che una mappa resti leggibile, che la cronologia conservi il suo ordine e che le informazioni di servizio si trovino facilmente.»
+]
+#highlight(fill: rgb("FFF1A8"))[La coerenza si riconosce nei riferimenti che ritornano: il bordo del titolo, un intervallo fra fasce, la posizione dei dati di servizio. Per valutare il sistema non basta sovrapporre due pagine: bisogna controllare che i contenuti diversi possano trovare spazio senza perdere il proprio significato.]
 
 === Che cosa passa allo schermo
 
@@ -336,11 +440,35 @@ Il margine della pagina è il campo fra il bordo del supporto e la gabbia. Nel w
 
 Nella @fig-griglia-materiali-spazi, il campo esterno separa la raccolta dal bordo; l'intervallo centrale distingue due schede; lo spazio interno tiene titolo e testo lontani dal limite della propria scheda. Le tre distanze hanno compiti differenti, anche quando condividono la stessa misura.
 
-In una griglia CSS, `gap` può definire gli intervalli fra le tracce. Il `padding` appartiene all'interno del singolo elemento. Aumentare il primo separa le schede; aumentare il secondo, a parità di ingombro esterno, riduce lo spazio disponibile per i contenuti della scheda. Una distanza aggiunta in entrambi i punti si somma: non va contata una sola volta perché nel disegno appariva come un unico vuoto.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «In una griglia CSS, `gap` regola lo spazio tra le righe o le colonne e quindi separa le schede che le riempiono. Il `padding` crea spazio tra il contenuto di una scheda e il suo bordo. Se la larghezza esterna resta fissa, più `padding` lascia meno spazio al testo. Per misurare la distanza tra i contenuti di due schede affiancate, considera sia il `gap` sia lo spazio interno di entrambe le schede, oltre agli eventuali bordi.»
+]
+#highlight(fill: rgb("FFF1A8"))[In una griglia CSS, `gap` può definire gli intervalli fra le tracce. Il `padding` appartiene all'interno del singolo elemento. Aumentare il primo separa le schede; aumentare il secondo, a parità di ingombro esterno, riduce lo spazio disponibile per i contenuti della scheda. Una distanza aggiunta in entrambi i punti si somma: non va contata una sola volta perché nel disegno appariva come un unico vuoto.]
 
-Anche la larghezza dichiarata richiede una convenzione. Con `box-sizing: border-box`, una misura di 240 px CSS comprende contenuto, padding e bordo, ma esclude il margine. Con 16 px di padding e un bordo di 1 px per lato, al contenuto restano $240 - 2 times 16 - 2 times 1 = 206 thin "px"$. Con `content-box`, la larghezza dichiarata riguarda invece il solo contenuto #cite(<grigliaBoxSizing>).#website-note([W3C, box-sizing e limiti del riquadro.], "https://www.w3.org/TR/css-sizing-3/#box-sizing")
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «La proprietà `box-sizing` stabilisce da quali bordi si misura la larghezza. Con `border-box`, una scheda larga 240 pixel CSS comprende il contenuto, il `padding` e il bordo. Il margine rimane all’esterno. Con 16 pixel di `padding` e 1 pixel di bordo su ogni lato, per il contenuto restano $240 - 2 times 16 - 2 times 1 = 206 thin "px"$. Con `content-box`, i 240 pixel spettano al contenuto e il `padding` e i bordi si aggiungono all’esterno.»
+]
+#highlight(fill: rgb("FFF1A8"))[Anche la larghezza dichiarata richiede una convenzione. Con `box-sizing: border-box`, una misura di 240 px CSS comprende contenuto, padding e bordo, ma esclude il margine. Con 16 px di padding e un bordo di 1 px per lato, al contenuto restano $240 - 2 times 16 - 2 times 1 = 206 thin "px"$. Con `content-box`, la larghezza dichiarata riguarda invece il solo contenuto] #cite(<grigliaBoxSizing>).#website-note([W3C, box-sizing e limiti del riquadro.], "https://www.w3.org/TR/css-sizing-3/#box-sizing")
 
-Un campo colorato nel progetto indica un'area visiva; non rivela quale elemento HTML o proprietà CSS la produca. Si documentano perciò sia la distanza desiderata, sia il riquadro dal quale viene misurata.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Un campo colorato nel disegno aiuta a individuare l’area a cui ti riferisci. Quando descrivi il layout per chi lo implementa, indica quale distanza vuoi ottenere e tra quali limiti va misurata. Per esempio, misura lo spazio tra due schede da bordo a bordo e lo spazio interno dal bordo al contenuto.»
+]
+#highlight(fill: rgb("FFF1A8"))[Un campo colorato nel progetto indica un'area visiva; non rivela quale elemento HTML o proprietà CSS la produca. Si documentano perciò sia la distanza desiderata, sia il riquadro dal quale viene misurata.]
 
 === La griglia delle linee di base
 
@@ -403,7 +531,15 @@ La griglia si sceglie in funzione della lettura: continuità del testo, confront
 
 Le tipologie di griglia descrivono logiche di organizzazione. Una struttura a blocco concentra la lettura in un campo principale; una struttura a colonne consente flussi affiancati; una modulare aggiunge suddivisioni orizzontali; una gerarchica stabilisce aree di misura diversa secondo le priorità.
 
-La @fig-griglia-374 confronta queste quattro logiche attraverso campi di testo e immagine schematici. Le categorie possono combinarsi: una pagina modulare può avere un'area dominante e una gabbia a colonne può accogliere un testo continuo. Servono a descrivere le scelte, non a classificare ogni pagina in modo esclusivo.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Le quattro logiche possono convivere nella stessa pagina. Una griglia modulare, per esempio, può lasciare più spazio all’immagine principale. Una griglia a colonne può guidare la lettura di un testo continuo. Usa queste categorie per spiegare quali scelte organizzano la pagina.»
+]
+La @fig-griglia-374 confronta queste quattro logiche attraverso campi di testo e immagine schematici. #highlight(fill: rgb("FFF1A8"))[Le categorie possono combinarsi: una pagina modulare può avere un'area dominante e una gabbia a colonne può accogliere un testo continuo. Servono a descrivere le scelte, non a classificare ogni pagina in modo esclusivo.]
 
 // La prosa descrive una lettura su una sola colonna: la variante riguarda questo passaggio.
 #set page(columns: 1)
@@ -469,11 +605,27 @@ Dodici è divisibile per due, tre e quattro. Una stessa struttura può quindi os
 
 Le dodici unità sono possibilità di occupazione, non l'obbligo di mostrare dodici schede. Un titolo può attraversare l'intera larghezza mentre tre appuntamenti occupano quattro unità ciascuno. La scelta dipende da ciò che deve entrare: data, servizio e azione hanno bisogno di una misura leggibile, oltre che di una divisione esatta.
 
-Gli intervalli interni a un campo fanno parte della sua larghezza, come nella formula dello span. Un'area su sei colonne comprende cinque intercolonne; il vuoto che la separa dall'area successiva resta distinto. Per due campi uguali separati da un gutter, non si assegna a ciascuno metà della larghezza totale per poi aggiungere ancora l'intervallo.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Lo _span_ indica quante colonne attraversa un elemento. Con colonne uguali, la sua larghezza è $s = k c + (k - 1) g$, dove $k$ è il numero di colonne occupate, $c$ la larghezza di una colonna e $g$ la larghezza dell’intercolonna. Un campo su sei colonne comprende quindi sei colonne e cinque intervalli interni. Se due campi uguali sono affiancati, sottrai dalla larghezza totale lo spazio che li separa prima di dividere il resto a metà.»
+]
+#highlight(fill: rgb("FFF1A8"))[Gli intervalli interni a un campo fanno parte della sua larghezza, come nella formula dello span. Un'area su sei colonne comprende cinque intercolonne; il vuoto che la separa dall'area successiva resta distinto. Per due campi uguali separati da un gutter, non si assegna a ciascuno metà della larghezza totale per poi aggiungere ancora l'intervallo.]
 
 Non esiste una sequenza universale di dodici colonne su desktop, otto su tablet e quattro su telefono. La 2x Grid di IBM, discussa più avanti, usa configurazioni da quattro, otto o sedici colonne. Queste convenzioni appartengono ai rispettivi sistemi; il contenuto può richiedere altre scelte.
 
-Bootstrap 5.3 propone invece dodici colonne per impostazione predefinita, con occupazioni e cambi di disposizione configurabili. Il suo sistema principale chiamato _grid_ è costruito con Flexbox: il nome non indica automaticamente l'uso della tecnologia CSS Grid.#website-note([Bootstrap 5.3, struttura e funzionamento del sistema a griglia.], "https://getbootstrap.com/docs/5.3/layout/grid/") <sito-grigliaBootstrap> Prima di adottarlo si controlla come dimensiona colonne e gutter, così la griglia del disegno e quella implementata descrivono le stesse relazioni.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Bootstrap 5.3 divide la riga in dodici colonne per impostazione predefinita. Il numero di colonne occupate da un elemento si può impostare in base alla larghezza disponibile. La griglia predefinita usa Flexbox, un modello CSS che dispone gli elementi di un contenitore lungo un asse principale, orizzontale o verticale, e distribuisce lo spazio disponibile. CSS Grid è un altro modello e permette di coordinare righe e colonne insieme. Prima di adottare Bootstrap, confronta larghezze delle colonne e spazi fra loro con le misure del progetto.»
+]
+#highlight(fill: rgb("FFF1A8"))[Bootstrap 5.3 propone invece dodici colonne per impostazione predefinita, con occupazioni e cambi di disposizione configurabili. Il suo sistema principale chiamato _grid_ è costruito con Flexbox: il nome non indica automaticamente l'uso della tecnologia CSS Grid.]#website-note([Bootstrap 5.3, struttura e funzionamento del sistema a griglia.], "https://getbootstrap.com/docs/5.3/layout/grid/") <sito-grigliaBootstrap> #highlight(fill: rgb("FFF1A8"))[Prima di adottarlo si controlla come dimensiona colonne e gutter, così la griglia del disegno e quella implementata descrivono le stesse relazioni.]
 
 // Stesso documento sui due fogli: un solo numero e una sola didascalia.
 #image-figure(path("/risorse-condivise/immagini/figure/griglia/diagrammi/377-confronto-doppia-pagina.svg"),
@@ -487,7 +639,7 @@ Bootstrap 5.3 propone invece dodici colonne per impostazione predefinita, con oc
 // Fonte Figma 4954:66 · folio 524.
 === Gli stessi contenuti, due assetti
 
-Una pagina racconta una mostra immaginaria attraverso titolo, presentazione, programma e immagine. Nel primo assetto, due campi di pari larghezza accostano testo e immagine; il programma segue sotto. La prosa resta una sequenza unica.
+Nell'esempio qui riportato, una pagina racconta una mostra immaginaria attraverso titolo, presentazione, programma e immagine. Nel primo assetto, due campi di pari larghezza accostano testo e immagine; il programma segue sotto. La prosa resta una sequenza unica.
 
 La @fig-griglia-377 continua sulla pagina destra. Il contenuto resta uguale: cambia la distribuzione dello spazio. Il confronto riguarda il layout, non due versioni abbreviate del testo.
 
@@ -567,11 +719,19 @@ Prima di introdurre una nuova misura conviene chiedersi quale differenza esprima
   scope: "parent",
 )
 
-Un libro aperto mostra due pagine insieme. Margini interni, posizione dei folio e rapporti fra immagini devono essere valutati anche in questa unità. Una figura sul dorso è una composizione unica, divisa dal limite fisico della rilegatura.
+Prendiamo ora in esame un libro aperto che mostra due pagine insieme. Margini interni, posizione dei folio e rapporti fra immagini devono essere valutati anche in questa unità. Una figura sul dorso è una composizione unica, divisa dal limite fisico della rilegatura.
 
 La @fig-griglia-380 mette a confronto un dettaglio essenziale sul dorso e lo stesso dettaglio spostato in un campo leggibile. Le due metà mantengono scala e quota; il soggetto viene collocato in modo da non dipendere dalla parte meno visibile.
 
-La parità dei folio conta: la pagina pari è a sinistra, quella dispari a destra. Dopo un inserimento si ricontrollano tutti gli accoppiamenti interessati. Due immagini vicine nel file di lavoro non formano una doppia pagina di stampa se la numerazione le colloca su lati incompatibili.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «In un libro impaginato da sinistra a destra, ogni doppia pagina interna abbina una pagina pari a sinistra alla dispari successiva a destra. Se inserisci una pagina, controlla di nuovo quali fogli si fronteggiano. Due metà consecutive nel file possono finire sul fronte e sul retro dello stesso foglio anziché incontrarsi al dorso.»
+]
+#highlight(fill: rgb("FFF1A8"))[La parità dei folio conta: la pagina pari è a sinistra, quella dispari a destra. Dopo un inserimento si ricontrollano tutti gli accoppiamenti interessati. Due immagini vicine nel file di lavoro non formano una doppia pagina di stampa se la numerazione le colloca su lati incompatibili.]
 ]
 #[
 // Testi nativi della fonte corrente: prosa, corsivi, note e rimandi rimangono modificabili.
@@ -592,9 +752,25 @@ Sullo schermo la griglia descrive un comportamento: come si ridistribuiscono i c
   scope: "parent",
 )
 
-Il viewport è l'area nella quale il browser dispone la pagina. Per il layout conta la larghezza disponibile in pixel CSS, che può cambiare con finestra, orientamento e zoom della pagina.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Il _viewport_ è l’area del browser in cui viene mostrata la pagina. Per il layout conta la sua larghezza espressa in pixel CSS. Le dimensioni della finestra, l’orientamento del dispositivo e lo zoom della pagina possono cambiare questa misura.»
+]
+#highlight(fill: rgb("FFF1A8"))[Il viewport è l'area nella quale il browser dispone la pagina. Per il layout conta la larghezza disponibile in pixel CSS, che può cambiare con finestra, orientamento e zoom della pagina.]
 
-La @fig-griglia-381 mostra ogni esempio in due larghezze: una misura resta fissa, una varia in modo fluido, due campi si ricompongono in verticale. Il progetto responsivo può combinare fluidità e cambi di disposizione: non è una categoria separata dal layout fluido.#website-note([Google, macro layout responsivi.], "https://web.dev/learn/design/macro-layouts") <sito-grigliaMacro>
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Un layout responsivo può cambiare in due modi. Finché c’è spazio, la larghezza dei campi può variare in modo fluido. Quando i campi diventano troppo stretti per stare affiancati, il layout può disporli uno sotto l’altro.»
+]
+La @fig-griglia-381 mostra ogni esempio in due larghezze: una misura resta fissa, una varia in modo fluido, due campi si ricompongono in verticale. #highlight(fill: rgb("FFF1A8"))[Il progetto responsivo può combinare fluidità e cambi di disposizione: non è una categoria separata dal layout fluido.]#website-note([Google, macro layout responsivi.], "https://web.dev/learn/design/macro-layouts") <sito-grigliaMacro>
 
 #figure(align(center, image(path("/risorse-condivise/immagini/figure/griglia/edizione-2024/griglia-web-desktop-tablet-telefono.png"), width: calc.min(grid-width, 320pt * 1.6600265604249669), alt: "Schema di un reticolo su monitor, tablet e telefono. Le viste mostrano organizzazioni del contenuto a larghezze differenti.")),
   kind: image, placement: top, scope: "parent",
@@ -628,7 +804,18 @@ Si chiama spesso adattivo un layout che passa fra poche larghezze prefissate, re
 Minimi, massimi e ritorno a capo pongono limiti alla fluidità: evitano righe troppo lunghe e campi troppo stretti.
 
 // Il confronto conserva l'infografica storica e ne esplicita il limite concettuale.
-La @fig-griglia-2024-105-responsive-adaptive presenta un confronto storico fra responsive e adaptive. L'associazione fra responsive e client-side, adaptive e server-side semplifica eccessivamente il tema: fluidità e configurazioni predisposte non determinano da sole dove venga eseguito il codice.
+#block(breakable: false)[
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «La figura storica associa _responsive_ al codice eseguito dal browser e _adaptive_ al codice eseguito sul server. Qui i termini descrivono come cambia il layout al variare dello spazio disponibile. Un layout può ridimensionarsi in modo continuo o passare fra configurazioni prestabilite. La scelta di dove eseguire il codice è una decisione distinta.»
+]
+La @fig-griglia-2024-105-responsive-adaptive presenta un confronto storico fra responsive e adaptive. #highlight(fill: rgb("FFF1A8"))[L'associazione fra responsive e client-side, adaptive e server-side semplifica eccessivamente il tema: fluidità e configurazioni predisposte non determinano da sole dove venga eseguito il codice.]
+
+]
 
 #context {
   let scale = grid-width / 790
@@ -677,7 +864,7 @@ La @fig-griglia-materiali-contenitore confronta due condizioni. Con $V = 720 thi
 
 La proprietà CSS `max-width` pone un limite alla larghezza. Non sceglie da sola né la centratura né i margini e non richiede necessariamente una media query.#website-note([MDN, larghezza massima di un elemento.], "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/max-width") <sito-grigliaMaxwidth> La disposizione delle schede può quindi restare uguale mentre cambia la larghezza del contenitore: raggiungere il massimo non equivale a introdurre un breakpoint.
 
-I numeri dell'esempio non sono una misura consigliata per ogni sito. Si scelgono insieme a leggibilità delle righe, dettaglio delle immagini e spazio necessario ai controlli.
+I numeri dell'esempio non sono una misura consigliata per ogni sito. Vanno scelti in base a leggibilità delle righe, dettaglio delle immagini e spazio necessario ai controlli.
 
 // Fonte Figma 4954:73 · folio 531.
 === Scegliere i punti di cambiamento
@@ -695,13 +882,40 @@ I numeri dell'esempio non sono una misura consigliata per ogni sito. Si scelgono
   scope: "parent",
 )
 
-Un breakpoint è una soglia alla quale cambia una regola di layout. Si cerca dove il contenuto smette di funzionare, senza assumere che ogni categoria di dispositivo richieda una soglia propria.#website-note([Google, media query e adattamento.], "https://web.dev/learn/design/media-queries") <sito-grigliaBreakpoints>
+#block(breakable: false)[
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Per scegliere la soglia, restringi lo spazio finché il contenuto perde leggibilità o i controlli diventano difficili da usare. Per esempio, due schede possono passare a una sola colonna quando le date e i pulsanti iniziano a comprimersi. La soglia deriva dallo spazio richiesto dal contenuto.»
+]
+Un breakpoint è una soglia alla quale cambia una regola di layout. #highlight(fill: rgb("FFF1A8"))[Si cerca dove il contenuto smette di funzionare, senza assumere che ogni categoria di dispositivo richieda una soglia propria.]#website-note([Google, media query e adattamento.], "https://web.dev/learn/design/media-queries") <sito-grigliaBreakpoints>
+
+]
 
 Nella @fig-griglia-383, due schede richiedono almeno 240 px CSS ciascuna, compresi bordi e spazi interni; l'intervallo è 24 e i margini laterali sono 24. Servono 552 px nel contenitore. Sotto questa larghezza le schede si impilano. La soglia coincide con quella del viewport soltanto se il contenitore ne occupa tutta la larghezza.
 
-Il pixel CSS è un'unità logica e può corrispondere a più pixel fisici dello schermo.#website-note([W3C, unità CSS e pixel del dispositivo.], "https://www.w3.org/TR/css-values-3/#absolute-lengths") Si provano larghezze appena sotto e sopra la soglia, testi lunghi e ingrandimento: 552 px risolve questo esempio, non ogni interfaccia.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Prova il layout a larghezze appena inferiori e superiori a 552 pixel CSS. Ripeti la prova con testi più lunghi e con lo zoom attivo per controllare che informazioni e comandi restino utilizzabili. In questo esempio la soglia deriva dallo spazio necessario per le due schede, l’intervallo fra loro e i margini laterali.»
+]
+Il pixel CSS è un'unità logica e può corrispondere a più pixel fisici dello schermo.#website-note([W3C, unità CSS e pixel del dispositivo.], "https://www.w3.org/TR/css-values-3/#absolute-lengths") #highlight(fill: rgb("FFF1A8"))[Si provano larghezze appena sotto e sopra la soglia, testi lunghi e ingrandimento: 552 px risolve questo esempio, non ogni interfaccia.]
 
-Una media query sulla larghezza considera il viewport; una container query sulle dimensioni considera un contenitore antenato predisposto.#website-note([MDN, query sulle dimensioni dei contenitori.], "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries") <sito-grigliaContainer> La stessa scheda può così assumere assetti diversi in una barra laterale e nel campo principale della stessa finestra. Si documentano la soglia e il contenitore di riferimento.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Una _media query_ sulla larghezza verifica quanto spazio offre il viewport. Una _container query_ sulle dimensioni verifica lo spazio di un contenitore che racchiude la scheda ed è stato predisposto a questo scopo. Nella stessa finestra, una scheda può quindi disporre i contenuti in verticale nella barra laterale e affiancarli nel campo principale. Annota la soglia e specifica se si riferisce al viewport o al contenitore.»
+]
+#highlight(fill: rgb("FFF1A8"))[Una media query sulla larghezza considera il viewport; una container query sulle dimensioni considera un contenitore antenato predisposto.]#website-note([MDN, query sulle dimensioni dei contenitori.], "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries") <sito-grigliaContainer> #highlight(fill: rgb("FFF1A8"))[La stessa scheda può così assumere assetti diversi in una barra laterale e nel campo principale della stessa finestra. Si documentano la soglia e il contenitore di riferimento.]
 
 // Fonte Figma 4954:74 · folio 532.
 === Golden Grid System
@@ -721,7 +935,15 @@ Il Golden Grid System di _Joni Korpi_ è un esempio storico di griglia fluida e 
 
 La @fig-griglia-384 rende visibile l'accorpamento. I gruppi diventano più larghi mentre diminuisce il loro numero. Il nome del sistema non implica che la suddivisione segua la sezione aurea.
 
-Il repository originale è archiviato: è utile per comprendere una logica progettuale e leggere le scelte del codice, senza assumere che costituisca la soluzione necessaria per un nuovo prodotto.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nel repository archiviato si può ancora leggere il codice originale di _Korpi_ e vedere come il sistema raggruppava le colonne al variare dello spazio. Per un nuovo progetto, il caso offre un principio da mettere alla prova con i propri contenuti.»
+]
+#highlight(fill: rgb("FFF1A8"))[Il repository originale è archiviato: è utile per comprendere una logica progettuale e leggere le scelte del codice, senza assumere che costituisca la soluzione necessaria per un nuovo prodotto.]
 
 #figure(align(center, image(path("/risorse-condivise/immagini/figure/griglia/edizione-2024/golden-grid-system-joni-korpi.jpg"), width: calc.min(grid-width, 320pt * 1.413854351687389), alt: "Golden Grid System di Joni Korpi: schermata storica del progetto. Colonne, intervalli e linee di base sono resi visibili nella composizione.")),
   kind: image, placement: top, scope: "parent",
@@ -744,7 +966,15 @@ La @fig-griglia-2024-101-ggs mostra la presentazione originale del Golden Grid S
   scope: "column",
 )
 
-La 2x Grid di IBM usa una mini unità quadrata di 8 pixel e rapporti costruiti moltiplicando o dividendo per due. Il sistema descrive griglie fisse, fluide e ibride. Nella documentazione Carbon consultata, i breakpoint prevedono 4, 8 o 16 colonne.#website-note([IBM Carbon, 2x Grid.], "https://www.carbondesignsystem.com/building-blocks/foundations/2x-grid/overview") <sito-grigliaCarbon>
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Carbon, il sistema di progettazione di IBM, usa la 2x Grid per coordinare la disposizione della pagina e le misure dei componenti. La base è un quadrato di 8 pixel. Le misure fisse, come margini e spazi interni, si costruiscono con multipli di 8. Le colonne fluide si ottengono dividendo lo spazio disponibile. Un layout ibrido combina misure fisse e fluide. Alle diverse soglie di larghezza, Carbon usa griglie da 4, 8 o 16 colonne. Una scheda può così occupare l’intera riga su una griglia stretta e affiancarsi a un’altra su una griglia più larga, mantenendo gli stessi riferimenti per le spaziature.»
+]
+#highlight(fill: rgb("FFF1A8"))[La 2x Grid di IBM usa una mini unità quadrata di 8 pixel e rapporti costruiti moltiplicando o dividendo per due. Il sistema descrive griglie fisse, fluide e ibride. Nella documentazione Carbon consultata, i breakpoint prevedono 4, 8 o 16 colonne.]#website-note([IBM Carbon, 2x Grid.], "https://www.carbondesignsystem.com/building-blocks/foundations/2x-grid/overview") <sito-grigliaCarbon>
 
 La @fig-griglia-385 mostra il principio di suddivisione, non tutte le specifiche del sistema. La misura di base coordina spazi e oggetti, mentre il numero di colonne può cambiare con la larghezza.
 
@@ -804,9 +1034,25 @@ Con `object-fit: contain` l'immagine mantiene le proporzioni e resta interamente
 
 === Risoluzione e inquadratura sono due scelte
 
-Una fotografia può essere disponibile in più risoluzioni pur mostrando la stessa scena. In HTML, `srcset` descrive le risorse candidate; con descrittori di larghezza, `sizes` comunica lo spazio di visualizzazione previsto. Il browser usa queste informazioni nella scelta della risorsa. `sizes` non assegna la larghezza CSS dell'immagine #cite(<grigliaImages>).#website-note([WHATWG, immagini adattabili nello standard HTML.], "https://html.spec.whatwg.org/multipage/images.html#adaptive-images")
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Puoi preparare più file con la stessa inquadratura e larghezze diverse in pixel. In HTML, `srcset` elenca i file tra cui il browser può scegliere. Se per ciascun file indichi la sua larghezza in pixel, con `sizes` descrivi quanto spazio prevedi di dare alla foto nel layout. Il browser usa queste informazioni per scegliere il file da caricare. La larghezza a cui la foto viene mostrata si imposta nel CSS.»
+]
+#highlight(fill: rgb("FFF1A8"))[Una fotografia può essere disponibile in più risoluzioni pur mostrando la stessa scena. In HTML, `srcset` descrive le risorse candidate; con descrittori di larghezza, `sizes` comunica lo spazio di visualizzazione previsto. Il browser usa queste informazioni nella scelta della risorsa. `sizes` non assegna la larghezza CSS dell'immagine] #cite(<grigliaImages>).#website-note([WHATWG, immagini adattabili nello standard HTML.], "https://html.spec.whatwg.org/multipage/images.html#adaptive-images")
 
-Un caso diverso richiede un taglio dedicato: una fotografia d'insieme per il campo largo e un dettaglio riconoscibile per quello stretto. L'elemento `picture` può proporre sorgenti condizionate per questa direzione artistica. Fornire più pixel non recupera una parte del soggetto esclusa dal ritaglio.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Per offrire inquadrature diverse, puoi usare `picture` e indicare quando mostrare ciascuna versione. Per esempio, su una schermata ampia puoi mostrare tutto il paesaggio e su una stretta scegliere un taglio che conservi il soggetto laterale. Un file con più pixel può rendere più dettagliata l’inquadratura scelta. Per recuperare il soggetto occorre cambiare il ritaglio.»
+]
+Un caso diverso richiede un taglio dedicato: una fotografia d'insieme per il campo largo e un dettaglio riconoscibile per quello stretto. #highlight(fill: rgb("FFF1A8"))[L'elemento `picture` può proporre sorgenti condizionate per questa direzione artistica. Fornire più pixel non recupera una parte del soggetto esclusa dal ritaglio.]
 
 Si provano insieme formato, risorsa e testo vicino. Se un'immagine spiega dove si trova un ingresso, quel punto deve restare visibile anche nella variante stretta. Se una didascalia confronta due oggetti, un ritaglio che ne conserva soltanto uno interrompe il discorso. La scelta dell'inquadratura appartiene quindi al progetto dei contenuti, oltre che alla gestione dello spazio.
 ]
@@ -829,7 +1075,15 @@ Spostare un elemento con CSS Grid può cambiare la posizione visiva senza cambia
 
 Nella @fig-griglia-387 i numeri identificano la sequenza 1–2–3, conservata quando i campi si impilano. L'ordine nel documento va progettato a partire dal significato; il posizionamento visivo non deve compensare una sequenza logica sbagliata.
 
-Si verifica sull'interfaccia implementata: si legge la sequenza del documento, si percorrono i controlli con la tastiera e si confrontano entrambi con la disposizione visiva. I numeri del diagramma esplicitano una decisione; il disegno da solo non verifica il comportamento reale.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «I numeri del diagramma mostrano l’ordine previsto dal progetto. Verificalo nella pagina funzionante. Controlla in quale sequenza si leggono i contenuti nel documento HTML e usa Tab per vedere in che ordine il focus raggiunge i controlli. Confronta entrambe le sequenze con la disposizione sullo schermo, anche quando i campi si impilano.»
+]
+#highlight(fill: rgb("FFF1A8"))[Si verifica sull'interfaccia implementata: si legge la sequenza del documento, si percorrono i controlli con la tastiera e si confrontano entrambi con la disposizione visiva. I numeri del diagramma esplicitano una decisione; il disegno da solo non verifica il comportamento reale.]
 
 // Fonte Figma 4954:78 · folio 536.
 === Reflow e testo che cresce <griglia-reflow>
@@ -851,7 +1105,15 @@ Nella @fig-griglia-388 lo stesso messaggio entra in un contenitore fisso e in un
 
 Il criterio 1.4.4 Resize Text (AA) richiede testo ingrandibile fino al 200% con le normali funzioni del browser, senza richiedere tecnologie assistive e senza perdita di contenuti o funzionalità, salvo sottotitoli dei media e immagini di testo.#website-note([W3C WAI, 1.4.4 Resize Text (AA).], "https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html") <sito-grigliaResize> Il criterio 1.4.12 Text Spacing (AA), nei contenuti che supportano tali proprietà, prova insieme questi valori minimi: interlinea 1,5 volte il corpo, spazio dopo i paragrafi 2 volte, fra lettere 0,12 e fra parole 0,16 volte.#website-note([W3C WAI, 1.4.12 Text Spacing (AA).], "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html") <sito-grigliaSpacing>
 
-Si modificano queste quattro proprietà senza cambiare gli altri stili. Questi valori verificano l'adattamento alle preferenze dell'utente; non prescrivono lo stile iniziale. Reflow, ingrandimento e spaziatura sono prove distinte, da eseguire sul prodotto funzionante.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Per la prova di spaziatura, applica insieme i quattro valori indicati e lascia invariati gli altri stili. Controlla che i testi restino leggibili e che i comandi funzionino anche con le nuove distanze. Parti dallo stile già definito. Questi valori servono a verificare come la pagina si adatta alle impostazioni di chi la usa. Sul prodotto funzionante, esegui separatamente le tre prove di spaziatura, ingrandimento del testo e reflow.»
+]
+#highlight(fill: rgb("FFF1A8"))[Si modificano queste quattro proprietà senza cambiare gli altri stili. Questi valori verificano l'adattamento alle preferenze dell'utente; non prescrivono lo stile iniziale. Reflow, ingrandimento e spaziatura sono prove distinte, da eseguire sul prodotto funzionante.]
 ]
 #[
 // Testi nativi della fonte corrente: prosa, corsivi, note e rimandi rimangono modificabili.
@@ -859,7 +1121,15 @@ Si modificano queste quattro proprietà senza cambiare gli altri stili. Questi v
 // Fonte Figma 4954:79 · folio 537.
 == Proporzioni e rottura
 
-Una regola compositiva è un'ipotesi da mettere alla prova. Anche la sua deroga deve avere un ruolo leggibile.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Prova una regola di composizione con i contenuti reali e osserva se aiuta a riconoscere le priorità della pagina. Se un elemento esce dalla griglia, chiediti che cosa rende più chiaro quel cambiamento. Per esempio, un’immagine più ampia può segnalare l’inizio di una nuova sezione.»
+]
+#highlight(fill: rgb("FFF1A8"))[Una regola compositiva è un'ipotesi da mettere alla prova. Anche la sua deroga deve avere un ruolo leggibile.]
 
 #image-figure(path("/risorse-condivise/immagini/figure/griglia/diagrammi/389-terzi-sezione-aurea.svg"),
   [Terzi e divisioni auree a confronto. Sono costruzioni geometriche diverse, qui applicate allo stesso campo.],
@@ -872,9 +1142,25 @@ Una regola compositiva è un'ipotesi da mettere alla prova. Anche la sua deroga 
   scope: "parent",
 )
 
-Le proporzioni possono fornire un punto di partenza per dividere un campo. Terzi, metà e rapporti asimmetrici producono possibilità diverse; nessuno di essi stabilisce da solo dove debbano trovarsi i contenuti.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Per iniziare a comporre la pagina, puoi dividere lo spazio in metà, in terzi o in campi di larghezze diverse. Prova a collocare gli stessi titoli, testi e immagini nei diversi schemi. Scegli la divisione che dà a ciascun elemento lo spazio necessario e rende evidente che cosa leggere per primo.»
+]
+#highlight(fill: rgb("FFF1A8"))[Le proporzioni possono fornire un punto di partenza per dividere un campo. Terzi, metà e rapporti asimmetrici producono possibilità diverse; nessuno di essi stabilisce da solo dove debbano trovarsi i contenuti.]
 
-La @fig-griglia-389 confronta divisioni in terzi e divisioni auree sullo stesso rettangolo. Le linee non coincidono: i terzi corrispondono a circa 33,3% e 66,7%, le divisioni auree a circa 38,2% e 61,8%.#website-note([Adobe, uso e limiti della regola dei terzi.], "https://www.adobe.com/creativecloud/photography/technique/rule-of-thirds.html") <sito-grigliaThirds>
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «La @fig-griglia-389 applica due suddivisioni allo stesso rettangolo. Con la regola dei terzi, le linee cadono circa al 33,3% e al 66,7% del lato considerato. Nella suddivisione aurea, cadono circa al 38,2% e al 61,8%. Confronta le posizioni delle guide per vedere come ciascuna costruzione ripartisce lo spazio.»
+]
+#highlight(fill: rgb("FFF1A8"))[La @fig-griglia-389 confronta divisioni in terzi e divisioni auree sullo stesso rettangolo. Le linee non coincidono: i terzi corrispondono a circa 33,3% e 66,7%, le divisioni auree a circa 38,2% e 61,8%.]#website-note([Adobe, uso e limiti della regola dei terzi.], "https://www.adobe.com/creativecloud/photography/technique/rule-of-thirds.html") <sito-grigliaThirds>
 
 // I due originali restano distinti; la spiegazione segnala le affermazioni non dimostrate.
 #figure(align(center, image(path("/risorse-condivise/immagini/figure/griglia/edizione-2024/regola-terzi-percentuali-louis-nguyen.jpg"), width: calc.min(column-width, 320pt * 1.2587412587412588), alt: "Schema storico della regola dei terzi. Le percentuali riportate non sono accompagnate da dati o metodo: non costituiscono una regola generale della lettura.")),
@@ -882,14 +1168,30 @@ La @fig-griglia-389 confronta divisioni in terzi e divisioni auree sullo stesso 
   caption: caption-content([Schema storico della regola dei terzi. Le percentuali riportate non sono accompagnate da dati o metodo: non costituiscono una regola generale della lettura.], rights: [Fotografia attribuita a Louis Nguyen.]),
 )#label("fig-griglia-2024-107-attenzione")
 
-Il documento non indica una ricerca a sostegno delle percentuali della @fig-griglia-2024-107-attenzione. Quei numeri non possono essere assunti come distribuzione generale dell'attenzione visiva.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «La @fig-griglia-2024-107-attenzione assegna una percentuale a ciascun punto, senza indicare da quale ricerca provengano i valori o come siano stati misurati. Puoi usare la figura per individuare le intersezioni dei terzi. Per sapere dove si concentra davvero lo sguardo, servono osservazioni sulla composizione che si vuole valutare.»
+]
+#highlight(fill: rgb("FFF1A8"))[Il documento non indica una ricerca a sostegno delle percentuali della @fig-griglia-2024-107-attenzione. Quei numeri non possono essere assunti come distribuzione generale dell'attenzione visiva.]
 
 #figure(align(center, image(path("/risorse-condivise/immagini/figure/griglia/edizione-2024/regola-terzi-area-aurea.jpg"), width: calc.min(grid-width, 320pt * 1.5562579013906448), alt: "Schema dei punti d’intersezione dei terzi. La dicitura «Area aurea» appartiene all’originale: il reticolo raffigura divisioni in terzi, non la sezione aurea.")),
   kind: image, placement: top, scope: "parent",
   caption: caption-content([Schema dei punti d’intersezione dei terzi. La dicitura «Area aurea» appartiene all’originale: il reticolo raffigura divisioni in terzi, non la sezione aurea.], rights: none),
 )#label("fig-griglia-2024-107-terzi")
 
-La @fig-griglia-2024-107-terzi indica le quattro intersezioni dei terzi come punti di forza, ma chiama impropriamente «Area aurea» il campo centrale. Il confronto geometrico precedente permette di distinguere le due costruzioni.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nella @fig-griglia-2024-107-terzi, i quattro punti evidenziati sono gli incroci delle linee dei terzi. Anche il riquadro centrale nasce da quelle linee. La dicitura «Area aurea» è quindi impropria. Le guide della sezione aurea si trovano in posizioni diverse, come mostra il confronto precedente.»
+]
+#highlight(fill: rgb("FFF1A8"))[La @fig-griglia-2024-107-terzi indica le quattro intersezioni dei terzi come punti di forza, ma chiama impropriamente «Area aurea» il campo centrale. Il confronto geometrico precedente permette di distinguere le due costruzioni.]
 
 // Fonte Figma 4954:80 · folio 538.
 === Aureo, _Fibonacci_ e spirale
@@ -943,9 +1245,17 @@ La @fig-griglia-2024-106-aureo affianca rettangoli e andamento a spirale in una 
   caption: caption-content([_April Greiman_, DOES IT MAKE SENSE?, Design Quarterly 133, 1986. Vista complessiva e dettaglio del rapporto fra pixel, immagine e segni.], rights: [Opera di April Greiman. Immagine: MoMA, dono della designer. Nessuna licenza aperta dichiarata.]),
 )#label("fig-griglia-391")
 
-In _DOES IT MAKE SENSE?_, per _Design Quarterly_ 133, _April Greiman_ combina nel 1986 corpo digitalizzato, immagini, segni e testi con scale differenti. L'opera si ripiega nel formato della rivista; la testimonianza dell'autrice descrive il passaggio da video a pixel.#website-note([MoMA, scheda e testimonianza di _April Greiman_.], "https://www.moma.org/audio/playlist/297/4835")
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Per il numero 133 di _Design Quarterly_, nel 1986 _April Greiman_ realizza _DOES IT MAKE SENSE?_, un autoritratto che si apre in un grande foglio e si ripiega nel formato della rivista. Nel foglio aperto, la figura del corpo convive con immagini, segni e testi di dimensioni diverse. Nella testimonianza raccolta dal MoMA, _Greiman_ racconta come ha trasformato l’immagine video in pixel. Nel dettaglio della tavola, osserva come quella trama entra nella composizione accanto ai segni e ai testi.»
+]
+#highlight(fill: rgb("FFF1A8"))[In _DOES IT MAKE SENSE?_, per _Design Quarterly_ 133, _April Greiman_ combina nel 1986 corpo digitalizzato, immagini, segni e testi con scale differenti. L'opera si ripiega nel formato della rivista; la testimonianza dell'autrice descrive il passaggio da video a pixel.]#website-note([MoMA, scheda e testimonianza di _April Greiman_.], "https://www.moma.org/audio/playlist/297/4835")
 
-Nella @fig-griglia-391, il corpo attraversa il campo mentre immagini e segni introducono altri centri di attenzione. Questa lettura osserva sovrapposizioni e cambi di scala; non dimostra che l'opera sia priva di struttura.
+Nella @fig-griglia-391, il corpo attraversa il campo mentre immagini e segni introducono altri centri di attenzione.
 
 // Fonte Figma 4954:82 · folio 540.
 === Uscire dalla griglia con uno scopo
@@ -961,11 +1271,11 @@ Nella @fig-griglia-391, il corpo attraversa il campo mentre immagini e segni int
   scope: "column",
 )
 
-Una deroga è leggibile quando si riconosce il sistema dal quale si allontana. Un titolo può superare una colonna per introdurre una sezione; una figura può andare al vivo per rendere visibile un dettaglio; un elemento inclinato può segnalare un cambio di registro.
+Uscire dalla griglia è possibile, ma una deroga è leggibile quando si riconosce il sistema dal quale si allontana. Un titolo può superare una colonna per introdurre una sezione; una figura può andare al vivo per rendere visibile un dettaglio; un elemento inclinato può segnalare un cambio di registro.
 
 La @fig-griglia-392 conserva margini, corpo e allineamenti del testo, mentre un solo elemento attraversa due campi. L'eccezione ha un oggetto preciso. Se ogni elemento introduce una misura diversa, diventa difficile riconoscere sia la regola sia la sua deroga.
 
-Dopo la variazione si verifica ancora la lettura: il titolo resta associato al paragrafo, la didascalia resta vicina alla figura e nessun dettaglio necessario cade nel taglio o nel dorso. L'intenzione espressiva non elimina questi vincoli; li rende parte della scelta.
+Dopo la variazione va verificata ancora la lettura: il titolo resta associato al paragrafo, la didascalia resta vicina alla figura e nessun dettaglio necessario cade nel taglio o nel dorso. L'intenzione espressiva non elimina questi vincoli; li rende parte della scelta.
 ]
 #[
 // Testi nativi della fonte corrente: prosa, corsivi, note e rimandi rimangono modificabili.
@@ -1060,13 +1370,29 @@ Si prova su rapporti di schermo differenti, con sottotitoli e messaggi di lunghe
   caption: caption-content([Vogue Italia: confronto storico fra desktop e telefono, documentato nel 2023–2024. I contenuti affiancati passano a una sequenza verticale; la sovrapposizione delle due viste appartiene al montaggio originale.], rights: [Schermate del sito Vogue Italia. Licenza non indicata nella fonte.]),
 )#label("fig-griglia-materiali-caso-responsive")
 
-Le schermate storiche di Vogue Italia nella @fig-griglia-materiali-caso-responsive mostrano gli stessi contenuti editoriali in due disposizioni. La data di cattura non è attestata. Le viste permettono di leggere quella composizione, senza descrivere necessariamente il sito attuale.
+Le schermate storiche di Vogue Italia nella @fig-griglia-materiali-caso-responsive mostrano gli stessi contenuti editoriali in due disposizioni.  
 
 Sul desktop la testata occupa un campo largo e il contenuto di copertina è affiancato al contributo _In the bag_. Nella vista per telefono la testata è più compatta e il secondo contributo compare sotto la copertina. Il titolo va su più righe. Si conservano soggetti e ruoli riconoscibili, mentre cambia la distribuzione dello spazio.
 
-La riga di categorie visibile sul desktop non compare nella vista per telefono. L'icona del menu è però già presente in entrambe: queste immagini non dimostrano la trasformazione di una navigazione estesa in un'icona. Per verificare le voci disponibili e il loro ordine servirebbe anche aprire il menu.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «L’icona del menu compare sia nella schermata desktop sia in quella per telefono. Per capire se sul telefono le categorie sono raccolte nel menu e in quale ordine appaiono, bisognerebbe aprirlo in entrambe le versioni.»
+]
+La riga di categorie visibile sul desktop non compare nella vista per telefono. #highlight(fill: rgb("FFF1A8"))[L'icona del menu è però già presente in entrambe: queste immagini non dimostrano la trasformazione di una navigazione estesa in un'icona. Per verificare le voci disponibili e il loro ordine servirebbe anche aprire il menu.]
 
-Il confronto permette di osservare allineamenti, occupazioni e successioni, ma non rivela il numero esatto delle tracce CSS o il breakpoint usato. Le due viste sono parzialmente sovrapposte nel montaggio; ciò che resta coperto non può essere ricostruito dalla sola immagine. Si annotano queste limitazioni prima di proporre una griglia capace di riprodurre le relazioni osservate con altri contenuti.
+#block(above: 0pt, below: 10pt, width: 100%, sticky: true, breakable: false, fill: rgb("FFF1F1"),
+  stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  Sostituire con «Nelle parti visibili del montaggio, osserva dove si allineano i contenuti, quanto spazio occupano e in quale ordine compaiono. Per conoscere il numero di tracce CSS e la larghezza alla quale cambia la disposizione, servirebbe esaminare il codice della versione mostrata. Per vedere ciò che la sovrapposizione nasconde, servirebbero le due schermate separate. Usa le relazioni visibili per proporre una griglia e mettila alla prova con altri contenuti.»
+]
+#highlight(fill: rgb("FFF1A8"))[Il confronto permette di osservare allineamenti, occupazioni e successioni, ma non rivela il numero esatto delle tracce CSS o il breakpoint usato. Le due viste sono parzialmente sovrapposte nel montaggio; ciò che resta coperto non può essere ricostruito dalla sola immagine. Si annotano queste limitazioni prima di proporre una griglia capace di riprodurre le relazioni osservate con altri contenuti.]
 
 // Fonte Figma 4954:87 · folio 545.
 #image-figure(path("/risorse-condivise/immagini/figure/griglia/diagrammi/397-esercizio-griglia.svg"),
@@ -1082,7 +1408,7 @@ Il confronto permette di osservare allineamenti, occupazioni e successioni, ma n
 
 #exercise(id: "ricomposizione", title: [Un esercizio di ricomposizione])[
 
-Si prepara un piccolo insieme di contenuti: titolo di un incontro, presentazione di circa 80 parole, tre appuntamenti, un'immagine e una nota di servizio. Il materiale resta uguale in tutte le varianti.
+Proviamo ora ad applicare quanto esposto in un esempio pratico. Si prepara un piccolo insieme di contenuti: titolo di un incontro, presentazione di circa 80 parole, tre appuntamenti, un'immagine e una nota di servizio. Il materiale resta uguale in tutte le varianti.
 
 La @fig-griglia-397 propone tre vincoli di partenza: una colonna continua, una gabbia a sei unità e una struttura modulare. Ogni soluzione deve indicare il primo ingresso, l'ordine di lettura e la posizione della nota. Una variante può usare una doppia pagina, purché la parità sia corretta.
 
