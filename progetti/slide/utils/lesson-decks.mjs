@@ -23,7 +23,7 @@ export const lessonDecks = [
   { id: 'esercitazione-05', lesson: 'esercitazione-05', alias: 'esercitazione-05', title: "Esercitazione 5 - Tailwind CSS: basi e layout", file: 'esercitazioni/05-tailwind-css.md' },
   { id: 'esercitazione-06', lesson: 'esercitazione-06', alias: 'esercitazione-06', title: 'Esercitazione 6 - Temi con Tailwind CSS', file: 'esercitazioni/06-temi-tailwind-css.md' },
   { id: 'esercitazione-07', lesson: 'esercitazione-07', alias: 'esercitazione-07', title: "Esercitazione 7 - Componenti e temi con daisyUI", file: 'esercitazioni/07-temi-tailwind-daisyui.md' },
-  { id: 'esercitazione-08', lesson: 'esercitazione-08', alias: 'esercitazione-08', title: "Esercitazione 8 - Git", file: 'esercitazioni/08-git.md', localOnly: true },
+  { id: 'esercitazione-08', lesson: 'esercitazione-08', alias: 'esercitazione-08', title: "Esercitazione 8 - Git", file: 'esercitazioni/08-git.md' },
   { id: 'esercitazione-09', lesson: 'esercitazione-09', alias: 'esercitazione-09', title: "Esercitazione 9 - JavaScript e jQuery", file: 'esercitazioni/09-javascript-jquery.md', localOnly: true },
 ]
 export function lessonDeck(id) {

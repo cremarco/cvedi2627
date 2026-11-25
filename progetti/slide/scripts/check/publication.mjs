@@ -251,7 +251,13 @@ export async function checkPublishedBuild(directory) {
   for (const asset of [...exerciseAssets.diagrams, ...exerciseAssets.screenshots, ...exerciseAssets.demos])
     assert.deepEqual(await readFile(path.join(output, asset.web)), await readFile(path.join(root, 'progetti/slide/public', asset.web)), `published exercise asset: ${asset.web}`)
   assert.ok(!references.includes('framework:flexbox'), 'unpublished framework examples stay out of public bundles')
-  assert.ok(!references.includes('08-024-diagram.webp'), 'unpublished native examples stay out of public bundles')
+  assert.ok(!references.includes('08-024-diagram.webp'), 'superseded Git figures stay out of public bundles')
+  const git = exercises.exercises.find(exercise => exercise.id === 'esercitazione-08')
+  for (const figure of Object.values(git.editorialRevision.figures)) {
+    assert.ok(references.includes(figure.src), `published Git slides reference ${figure.src}`)
+    const bytes = await readFile(path.join(output, figure.src))
+    assert.equal(createHash('sha256').update(bytes).digest('hex'), figure.sha256, `published Git image: ${figure.src}`)
+  }
   for (const directory of localAssetDirectories)
     assert.ok(!references.includes('/' + directory + '/'), 'no published code references local figures')
   for (const directory of [...sharedLessonAssetDirectories, 'images/tipografia', 'images/font-previews']) {

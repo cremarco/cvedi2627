@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 355" role="img" aria-labelledby="title description">
+  <title id="title">Flusso di lavoro Git</title>
+  <desc id="description">Quattro aree, dalla cartella di lavoro al remoto. Le frecce rosa mostrano add, commit e push. Quelle ambra mostrano fetch, merge e pull.</desc>
+  <defs>
+    <marker id="forward" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1 1l7 4-7 4" fill="none" stroke="#ffadd2" stroke-linecap="round" stroke-width="2"/>
+    </marker>
+    <marker id="return" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1 1l7 4-7 4" fill="none" stroke="#ffd076" stroke-linecap="round" stroke-width="2"/>
+    </marker>
+    <g id="window">
+      <rect width="240" height="90" rx="12" fill="#282932"/>
+    </g>
+  </defs>
+  <rect width="1120" height="355" rx="16" fill="#17181e"/>
+  <g stroke="#545662" stroke-width="2">
+    <path d="M146 114v214M422 114v94M698 114v158M974 114v214"/>
+  </g>
+  <use href="#window" x="26" y="24"/>
+  <use href="#window" x="302" y="24"/>
+  <use href="#window" x="578" y="24"/>
+  <use href="#window" x="854" y="24"/>
+  <g fill="#f5f5f7" font-family="system-ui, sans-serif" font-size="22" font-weight="600" text-anchor="middle">
+    <text x="146" y="76">Working Directory</text>
+    <text x="422" y="76">Staging Area</text>
+    <text x="698" y="64">Local Repo<tspan x="698" dy="26">(HEAD)</tspan></text>
+    <text x="974" y="64">Remote Repo<tspan x="974" dy="26">(MAIN)</tspan></text>
+  </g>
+  <g fill="none" stroke-width="3">
+    <path d="M154 177h260" stroke="#ffadd2" marker-end="url(#forward)"/>
+    <path d="M430 177h260" stroke="#ffadd2" marker-end="url(#forward)"/>
+    <path d="M706 177h260" stroke="#ffadd2" marker-end="url(#forward)"/>
+    <path d="M966 243H706" stroke="#ffd076" marker-end="url(#return)"/>
+    <path d="M690 243H154" stroke="#ffd076" marker-end="url(#return)"/>
+    <path d="M966 308H154" stroke="#ffd076" marker-end="url(#return)"/>
+  </g>
+  <g font-family="ui-monospace, monospace" font-size="21" text-anchor="middle">
+    <g fill="#ffadd2">
+      <text x="284" y="163">Git Add</text>
+      <text x="560" y="163">Git Commit</text>
+      <text x="836" y="163">Git Push</text>
+    </g>
+    <g fill="#ffd076">
+      <text x="422" y="229">Git Merge</text>
+      <text x="836" y="229">Git Fetch</text>
+      <text x="560" y="294">Git Pull</text>
+    </g>
+  </g>
+</svg>

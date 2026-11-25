@@ -13,7 +13,7 @@ import ExerciseOriginalLayout, { type OriginalLayout } from './ExerciseOriginalL
 import ExerciseDisplayTable from './ExerciseDisplayTable.vue'
 import { highlightExerciseCode, exerciseCodeLanguage } from '../utils/exercise-code.mjs'
 
-interface Run { superscript?: boolean; text: string; href?: string; bold?: boolean; italic?: boolean; underline?: boolean; mono?: boolean }
+interface Run { shortcut?: string[]; superscript?: boolean; text: string; href?: string; bold?: boolean; italic?: boolean; underline?: boolean; mono?: boolean }
 interface Paragraph { text: string; runs: Run[]; bullet?: boolean; level?: number }
 interface Block { segments?: { text: string; label?: string }[]; fileHeaders?: boolean; figures?: { src: string; alt: string; showDialogTitle?: boolean }[]; files?: { label: string; text: string }[]; title?: string; kind: string; widths?: number[]; italicCells?: string[]; codeColumns?: number[]; showCaption?: boolean; showDialogTitle?: boolean; content?: OriginalLayout; resourceLayout?: 'list' | 'plain'; showHint?: boolean; items?: TagReference[]; paths?: PathReference[]; arrangement?: 'stacked-pair' | 'rows' | 'example-result' | 'explanation-code' | 'explanation-figure' | 'samples' | 'grid'; sharedTraits?: string[]; opening?: string; closing?: string; labels?: string[]; text?: string; paragraphs?: Paragraph[]; rows?: string[][]; src?: string; crop?: [number, number, number, number]; alt?: string; caption?: string; example?: string; resources?: { title: string; url: string }[] }
 interface ExerciseSlide { showSources?: boolean; title: string; layout?: string; number: number; sourceSlide: number | null; sourceKind?: string; part: number; parts: number; kind: string; blocks: Block[]; sources?: { title: string; url: string; visible?: boolean }[]; credit?: string }
@@ -32,6 +32,7 @@ const files = import.meta.env.PROD
       '../data/esercitazioni/05.json': () => import('../data/esercitazioni/05.json').then(module => module.default),
       '../data/esercitazioni/06.json': () => import('../data/esercitazioni/06.json').then(module => module.default),
       '../data/esercitazioni/07.json': () => import('../data/esercitazioni/07.json').then(module => module.default),
+      '../data/esercitazioni/08.json': () => import('../data/esercitazioni/08.json').then(module => module.default),
     }
   : import.meta.glob('../data/esercitazioni/*.json', { import: 'default' })
 const slides = shallowRef<ExerciseSlide[]>([])
@@ -45,7 +46,7 @@ const visibleSources = computed(() => content.value?.showSources === false ? [] 
 </script>
 
 <template>
-  <div v-if="content" :class="['exercise-content', { 'exercise-content--diagram': content.layout === 'diagram', 'exercise-content--figure': content.layout === 'figure', 'exercise-content--sizing': content.layout === 'sizing-example', 'exercise-content--display-overview': content.layout === 'display-overview', 'exercise-content--screenshot': content.layout === 'screenshot', 'exercise-content--columns': content.layout === 'columns', 'exercise-content--code-columns': ['code-columns', 'code-columns-wide-first'].includes(content.layout ?? ''), 'exercise-content--code-columns-wide-first': content.layout === 'code-columns-wide-first', 'exercise-content--comparison': content.layout === 'comparison' }]" :data-exercise="exercise" :data-exercise-slide="content.number" :data-source-slide="content.sourceSlide" :data-source-kind="content.sourceKind">
+  <div v-if="content" :class="['exercise-content', { 'exercise-content--diagram': ['diagram', 'wide-diagram'].includes(content.layout ?? ''), 'exercise-content--wide-diagram': content.layout === 'wide-diagram', 'exercise-content--figure': content.layout === 'figure', 'exercise-content--sizing': content.layout === 'sizing-example', 'exercise-content--display-overview': content.layout === 'display-overview', 'exercise-content--screenshot': content.layout === 'screenshot', 'exercise-content--columns': content.layout === 'columns', 'exercise-content--code-columns': ['code-columns', 'code-columns-wide-first'].includes(content.layout ?? ''), 'exercise-content--code-columns-wide-first': content.layout === 'code-columns-wide-first', 'exercise-content--comparison': content.layout === 'comparison' }]" :data-exercise="exercise" :data-exercise-slide="content.number" :data-source-slide="content.sourceSlide" :data-source-kind="content.sourceKind">
     <span v-if="content.parts > 1" class="badge badge-outline exercise-continuation" :aria-label="`Parte ${content.part} di ${content.parts}`">{{ content.part }} / {{ content.parts }}</span>
     <template v-for="(block, index) in content.blocks" :key="index">
       <ExerciseOriginalLayout v-if="block.kind === 'original-layout'" :content="block.content!" />
@@ -76,7 +77,12 @@ const visibleSources = computed(() => content.value?.showSources === false ? [] 
           <component :is="paragraph.bullet ? 'ul' : 'div'" :class="{ 'exercise-list': paragraph.bullet }">
             <component :is="paragraph.bullet ? 'li' : 'p'">
               <template v-for="(run, r) in inlineRuns(paragraph.runs)" :key="r">
-                <sup v-if="run.superscript"><a class="link" :href="run.href" target="_blank" rel="noopener noreferrer">{{ run.text }}</a></sup>
+                <span v-if="run.shortcut" class="exercise-shortcut">
+                  <template v-for="(key, i) in run.shortcut" :key="key">
+                    <span v-if="i"> → </span><kbd class="kbd"><template v-if="key === '⋯'"><span aria-hidden="true">⋯</span><span class="sr-only">Altre azioni</span></template><template v-else>{{ key }}</template></kbd>
+                  </template>
+                </span>
+                <sup v-else-if="run.superscript"><a class="link" :href="run.href" target="_blank" rel="noopener noreferrer">{{ run.text }}</a></sup>
                 <component v-else :is="run.href ? 'a' : run.mono ? 'code' : 'span'" :href="run.href ? publicAsset(run.href) : undefined" :target="run.href ? '_blank' : undefined" :rel="run.href ? 'noopener noreferrer' : undefined" :class="{ 'font-semibold': run.bold, italic: run.italic, underline: run.underline, link: run.href, 'exercise-inline-code': run.mono }">{{ run.text }}</component>
               </template>
             </component>

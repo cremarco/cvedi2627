@@ -4007,7 +4007,7 @@
       "sha256": "cdc56f62efa3659d8a19d5909aca0c84cd8dfb8ea5a3b9d659d162db7ac7dff7",
       "pdf": "progetti/slide/assets/esercitazioni/originali/08-git.pdf",
       "pdfSha256": "114c31bfb5376e976ca269a317ab8b68270db97d9fb24facc01d3115894e7476",
-      "slideCount": 60,
+      "slideCount": 44,
       "mapping": [
         {
           "sourceSlide": 1,
@@ -4337,9 +4337,552 @@
         ],
         "specification": "progetti/slide/data/esercitazioni/native-examples.mjs",
         "renderer": "progetti/slide/components/ExerciseNative.vue",
-        "corrections": [
-          57
-        ]
+        "corrections": []
+      },
+      "currentMapping": [
+        {
+          "sourceSlide": 1,
+          "sourceTitle": "Corso di CVeDI (8 CFU)",
+          "slides": [
+            1
+          ]
+        },
+        {
+          "sourceSlide": 2,
+          "sourceTitle": "Git, open source distributed version control system",
+          "slides": [
+            2
+          ]
+        },
+        {
+          "sourceSlide": 3,
+          "sourceTitle": "Cosa è un VCS",
+          "slides": [
+            3
+          ]
+        },
+        {
+          "sourceSlide": 4,
+          "sourceTitle": "Version Control System (VCS)",
+          "slides": [
+            4
+          ]
+        },
+        {
+          "sourceSlide": 5,
+          "sourceTitle": "Version Control System (VCS)",
+          "slides": [
+            5
+          ]
+        },
+        {
+          "sourceSlide": 6,
+          "sourceTitle": "Tipi di VCS",
+          "slides": [
+            6
+          ]
+        },
+        {
+          "sourceSlide": 7,
+          "sourceTitle": "Quale scegliere?",
+          "slides": [
+            7
+          ]
+        },
+        {
+          "sourceSlide": 8,
+          "sourceTitle": "Git",
+          "slides": [
+            8
+          ]
+        },
+        {
+          "sourceSlide": 9,
+          "sourceTitle": "Git",
+          "slides": [
+            9
+          ]
+        },
+        {
+          "sourceSlide": 10,
+          "sourceTitle": "Principali caratteristiche di Git",
+          "slides": [
+            10,
+            11
+          ]
+        },
+        {
+          "sourceSlide": 11,
+          "sourceTitle": "Flusso di lavoro - concetti chiave",
+          "slides": [
+            12
+          ]
+        },
+        {
+          "sourceSlide": 12,
+          "sourceTitle": "Flusso di lavoro - azioni base",
+          "slides": [
+            13,
+            14
+          ]
+        },
+        {
+          "sourceSlide": 13,
+          "sourceTitle": "Flusso di lavoro - stati del file",
+          "slides": [
+            15
+          ]
+        },
+        {
+          "sourceSlide": 14,
+          "sourceTitle": "Flusso di lavoro - completo",
+          "slides": [
+            16
+          ]
+        },
+        {
+          "sourceSlide": 15,
+          "sourceTitle": "INSTALLARE GIT",
+          "slides": [
+            17
+          ]
+        },
+        {
+          "sourceSlide": 16,
+          "sourceTitle": "Installare Git",
+          "slides": [
+            18
+          ]
+        },
+        {
+          "sourceSlide": 17,
+          "sourceTitle": "Installare Git",
+          "slides": [
+            19,
+            20
+          ]
+        },
+        {
+          "sourceSlide": 18,
+          "sourceTitle": "Git GUI Client",
+          "slides": [
+            21
+          ]
+        },
+        {
+          "sourceSlide": 19,
+          "sourceTitle": "Git in VSCode",
+          "slides": [
+            22
+          ]
+        },
+        {
+          "sourceSlide": 20,
+          "sourceTitle": "Inizializzare un repository",
+          "slides": [
+            23
+          ]
+        },
+        {
+          "sourceSlide": 21,
+          "sourceTitle": "Staging e Commit",
+          "slides": [
+            25
+          ]
+        },
+        {
+          "sourceSlide": 22,
+          "sourceTitle": "Annullare ultimo commit",
+          "slides": [
+            26
+          ]
+        },
+        {
+          "sourceSlide": 23,
+          "sourceTitle": "Diff e Restore",
+          "slides": [
+            27
+          ]
+        },
+        {
+          "sourceSlide": 24,
+          "sourceTitle": "Branch",
+          "slides": [
+            28
+          ]
+        },
+        {
+          "sourceSlide": 25,
+          "sourceTitle": "New Branch",
+          "slides": [
+            29
+          ]
+        },
+        {
+          "sourceSlide": 26,
+          "sourceTitle": "Checkout",
+          "slides": [
+            30
+          ]
+        },
+        {
+          "sourceSlide": 27,
+          "sourceTitle": "Merge",
+          "slides": [
+            31
+          ]
+        },
+        {
+          "sourceSlide": 28,
+          "sourceTitle": "Merge",
+          "slides": [
+            32
+          ]
+        },
+        {
+          "sourceSlide": 29,
+          "sourceTitle": "Git nel Cloud",
+          "slides": [
+            33
+          ]
+        },
+        {
+          "sourceSlide": 30,
+          "sourceTitle": "Git e Github",
+          "slides": [
+            34
+          ]
+        },
+        {
+          "sourceSlide": 31,
+          "sourceTitle": "Caricare il repository su Github",
+          "slides": [
+            35
+          ]
+        },
+        {
+          "sourceSlide": 32,
+          "sourceTitle": "Caricare il repository su Github",
+          "slides": [
+            36
+          ]
+        },
+        {
+          "sourceSlide": 33,
+          "sourceTitle": "Stato di sincronizzazione",
+          "slides": [
+            37
+          ]
+        },
+        {
+          "sourceSlide": 34,
+          "sourceTitle": "Risolvere conflitti di Merge",
+          "slides": [
+            38
+          ]
+        },
+        {
+          "sourceSlide": 35,
+          "sourceTitle": "Risolvere inline",
+          "slides": [
+            39
+          ]
+        },
+        {
+          "sourceSlide": 36,
+          "sourceTitle": "Risolvere nel Merge Editor",
+          "slides": [
+            40
+          ]
+        },
+        {
+          "sourceSlide": 37,
+          "sourceTitle": "Risolvere nel Merge Editor",
+          "slides": [
+            41
+          ]
+        },
+        {
+          "sourceSlide": 38,
+          "sourceTitle": "La history",
+          "slides": [
+            42
+          ]
+        },
+        {
+          "sourceSlide": 39,
+          "sourceTitle": "Un po’ di reference",
+          "slides": [
+            43
+          ]
+        },
+        {
+          "sourceSlide": 40,
+          "sourceTitle": "FINE",
+          "slides": [
+            44
+          ]
+        }
+      ],
+      "editorialRevision": {
+        "specification": "progetti/slide/data/esercitazioni/git-revisions.mjs",
+        "reference": "01-html-css-base.md",
+        "figures": {
+          "/images/esercitazioni/0f344dec0d2c041537da.png": {
+            "original": "/images/esercitazioni/0f344dec0d2c041537da.png",
+            "sourceSlide": 14,
+            "src": "/images/esercitazioni/git/flusso-git.svg",
+            "kind": "diagram",
+            "credit": "Elia Guarnieri · Esercitazione 08",
+            "source": "progetti/slide/assets/esercitazioni/git/flusso-git.svg",
+            "originalSha256": "0f344dec0d2c041537da5033c4e6c0b41c67396f6e03d050332eea0e1f388731",
+            "sha256": "2c19a2b61de0ba76c0def6fff1a4a73cd95673f8db5fa514a58562f9d9136f3a"
+          },
+          "/images/esercitazioni/bcea17b47b9c20105db3.png": {
+            "original": "/images/esercitazioni/bcea17b47b9c20105db3.png",
+            "sourceSlide": 20,
+            "src": "/images/esercitazioni/git/vscode/20.webp",
+            "kind": "capture",
+            "credit": "Elia Guarnieri · Esercitazione 08",
+            "captures": [
+              {
+                "source": "progetti/slide/assets/esercitazioni/git/vscode-originali/20.png",
+                "sha256": "d4f7feea421c00da5f38fb5faa3a400b00bffb4fb5fd6ce7e9d0a7fecd1932c0",
+                "method": "macOS · Acquisisci finestra selezionata"
+              }
+            ],
+            "source": "progetti/slide/assets/esercitazioni/git/vscode/20.webp",
+            "originalSha256": "bcea17b47b9c20105db3355505f30d4f23a9724bc7a75ebeec6e331b4a772d56",
+            "sha256": "73cf49b5aa89d6c9cdd29b1370a1c1337836d581cd235b85ddf0f8fcd05292c6"
+          },
+          "/images/esercitazioni/08-021-diagram.webp": {
+            "original": "/images/esercitazioni/08-021-diagram.webp",
+            "sourceSlide": 21,
+            "src": "/images/esercitazioni/git/vscode/21.webp",
+            "kind": "capture",
+            "credit": "Elia Guarnieri · Esercitazione 08",
+            "captures": [
+              {
+                "source": "progetti/slide/assets/esercitazioni/git/vscode-originali/21-prima.png",
+                "sha256": "5db0b8937e2db3bacad86f00cabe97133cc57732ab6ede6f4bd7a11d8bd5cd61",
+                "method": "macOS · Acquisisci finestra selezionata"
+              },
+              {
+                "source": "progetti/slide/assets/esercitazioni/git/vscode-originali/21.png",
+                "sha256": "d43475c53d1b15906f1e69d0177a83ede51400a9e96e1f3bd92000324ab7d086",
+                "method": "macOS · Acquisisci finestra selezionata"
+              }
+            ],
+            "source": "progetti/slide/assets/esercitazioni/git/vscode/21.webp",
+            "originalSha256": "88679759bab46f4d23881c1d24e9d9e544bd8d9882e57ae373acb6e2ac892e39",
+            "sha256": "9889bc5745362ba1aa38cebba00a1c37f1d926aee7e3b753d1db1c428464d50b"
+          },
+          "/images/esercitazioni/08-022-diagram.webp": {
+            "original": "/images/esercitazioni/08-022-diagram.webp",
+            "sourceSlide": 22,
+            "src": "/images/esercitazioni/git/vscode/22.webp",
+            "kind": "capture",
+            "credit": "Elia Guarnieri · Esercitazione 08",
+            "captures": [
+              {
+                "source": "progetti/slide/assets/esercitazioni/git/vscode-originali/22.png",
+                "sha256": "b7719d2c0b0653ea948aeba0dd06f9d0b6daaa501be8234221ac0039257fb55b",
+                "method": "macOS · Acquisisci finestra selezionata"
+              },
+              {
+                "source": "progetti/slide/assets/esercitazioni/git/vscode-originali/22-menu.png",
+                "sha256": "e2b203ae52deebeccaf11eff79c0b6e8528b1dbc1ccbe5381844772046327d9e",
+                "method": "macOS · area della finestra e menu contestuale"
+              }
+            ],
+            "source": "progetti/slide/assets/esercitazioni/git/vscode/22.webp",
+            "originalSha256": "f86a8b119261c67741bfb246b49e8e3616167cdd2f22ac2ac11e9b26f2e4b519",
+            "sha256": "9223583f9767746ad84af5a40cee3616adcf7fe78036552533ddba764be80f86"
+          },
+          "/images/esercitazioni/da81bf54e0a7da4bc8e5.png": {
+            "original": "/images/esercitazioni/da81bf54e0a7da4bc8e5.png",
+            "sourceSlide": 23,
+            "src": "/images/esercitazioni/git/vscode/23.webp",
+            "kind": "capture",
+            "credit": "Elia Guarnieri · Esercitazione 08",
+            "captures": [
+              {
+                "source": "progetti/slide/assets/esercitazioni/git/vscode-originali/23.png",
+                "sha256": "15e6e421c5cbbf0fdac2f968b18ef9eb017d806da84208f062d34cfef09927ce",
+                "method": "macOS · Acquisisci finestra selezionata"
+              }
+            ],
+            "source": "progetti/slide/assets/esercitazioni/git/vscode/23.webp",
+            "originalSha256": "da81bf54e0a7da4bc8e538467d7d9405f1a23e63dd1730412815b3e5062645a6",
+            "sha256": "47483215ea5c50d99a1ce6a5f6a8f1030ce3f38571adfc3052fead9a9d0d57cb"
+          },
+          "/images/esercitazioni/08-024-diagram.webp": {
+            "original": "/images/esercitazioni/08-024-diagram.webp",
+            "sourceSlide": 24,
+            "src": "/images/esercitazioni/git/vscode/24.webp",
+            "kind": "capture",
+            "credit": "Elia Guarnieri · Esercitazione 08",
+            "captures": [
+              {
+                "source": "progetti/slide/assets/esercitazioni/git/vscode-originali/24.png",
+                "sha256": "27594058f5f94df6fdfb64983ed2e4d25d2b80dd4a922d57809957a7aa935e0b",
+                "method": "macOS · Acquisisci finestra selezionata"
+              }
+            ],
+            "source": "progetti/slide/assets/esercitazioni/git/vscode/24.webp",
+            "originalSha256": "d5eed0f55736b839ae3bc519ad5d0542c9fcac8d2b5b99b0ac6bcd9621ea2c9d",
+            "sha256": "63bd50d8d22044446ddd08260278cecdafb3a5b65b2c1755175f714e2da434ad"
+          },
+          "/images/esercitazioni/b9d423dd0e9c83338bbb.png": {
+            "original": "/images/esercitazioni/b9d423dd0e9c83338bbb.png",
+            "sourceSlide": 25,
+            "src": "/images/esercitazioni/git/vscode/25.webp",
+            "kind": "capture",
+            "credit": "Elia Guarnieri · Esercitazione 08",
+            "captures": [
+              {
+                "source": "progetti/slide/assets/esercitazioni/git/vscode-originali/25.png",
+                "sha256": "0ff6f072867f58679366b457f3da81436620bae212583210ff59a7198ce7c83b",
+                "method": "macOS · Acquisisci finestra selezionata"
+              }
+            ],
+            "source": "progetti/slide/assets/esercitazioni/git/vscode/25.webp",
+            "originalSha256": "b9d423dd0e9c83338bbb73b1461f5d078f8ca9a0334917e7cfad8efd1bbd4797",
+            "sha256": "fadfcb79dd4466a004f6c9399a67b73e4fd8c92b0a5639f2a2965b5af0d18541"
+          },
+          "/images/esercitazioni/08-026-diagram.webp": {
+            "original": "/images/esercitazioni/08-026-diagram.webp",
+            "sourceSlide": 26,
+            "src": "/images/esercitazioni/git/vscode/26.webp",
+            "kind": "capture",
+            "credit": "Elia Guarnieri · Esercitazione 08",
+            "captures": [
+              {
+                "source": "progetti/slide/assets/esercitazioni/git/vscode-originali/26.png",
+                "sha256": "9b78bd49e2eee57ab61923c900fd8d471c5ec29e5ee44a52b66fd7c580957189",
+                "method": "macOS · Acquisisci finestra selezionata"
+              }
+            ],
+            "source": "progetti/slide/assets/esercitazioni/git/vscode/26.webp",
+            "originalSha256": "0627080b9f9fbd62ea51df7ec0ed18dede20ccb73140dbb061d26a93d6161b5a",
+            "sha256": "6704a99cd20b78cfa66df57061ebfafbbd178b3d587a9554129d7d2fecddcc83"
+          },
+          "/images/esercitazioni/08-027-diagram.webp": {
+            "original": "/images/esercitazioni/08-027-diagram.webp",
+            "sourceSlide": 27,
+            "src": "/images/esercitazioni/git/vscode/27.webp",
+            "kind": "capture",
+            "credit": "Elia Guarnieri · Esercitazione 08",
+            "captures": [
+              {
+                "source": "progetti/slide/assets/esercitazioni/git/vscode-originali/27.png",
+                "sha256": "e7b03362517a845963b12b1efd77b579dae96c175a2513a61d0b4c902ce87159",
+                "method": "macOS · Acquisisci finestra selezionata"
+              },
+              {
+                "source": "progetti/slide/assets/esercitazioni/git/vscode-originali/27-menu.png",
+                "sha256": "33dc92b3869a38d91c9f0a770fdbe070c5070eb8262c18c58da95825929fcd01",
+                "method": "macOS · area della finestra e menu contestuale"
+              }
+            ],
+            "source": "progetti/slide/assets/esercitazioni/git/vscode/27.webp",
+            "originalSha256": "4b43e005a10b6ebc56a41a200c2cce1987863374489894ef3be56583f6941307",
+            "sha256": "67864bc2352330e772c45ec090c79092dcb100adb7b64ed686934eac5b020a49"
+          },
+          "/images/esercitazioni/08-031-diagram.webp": {
+            "original": "/images/esercitazioni/08-031-diagram.webp",
+            "sourceSlide": 31,
+            "src": "/images/esercitazioni/git/08-031-diagram.webp",
+            "kind": "screenshot",
+            "credit": "Elia Guarnieri · Esercitazione 08",
+            "source": "progetti/slide/assets/esercitazioni/native-rebuild/images/08-031-diagram.webp",
+            "originalSha256": "88808a62014a53a13141356995da74fdc9991d87d2314adc150482477bdc7985",
+            "sha256": "88808a62014a53a13141356995da74fdc9991d87d2314adc150482477bdc7985"
+          },
+          "/images/esercitazioni/08-032-diagram.webp": {
+            "original": "/images/esercitazioni/08-032-diagram.webp",
+            "sourceSlide": 32,
+            "src": "/images/esercitazioni/git/vscode/32.webp",
+            "kind": "capture",
+            "credit": "Elia Guarnieri · Esercitazione 08",
+            "captures": [
+              {
+                "source": "progetti/slide/assets/esercitazioni/git/vscode-originali/32.png",
+                "sha256": "2a3e0bb48f225091b041b732ce0f7c3b711d9ee042a00a05baf529c991c2f71c",
+                "method": "macOS · Acquisisci finestra selezionata"
+              },
+              {
+                "source": "progetti/slide/assets/esercitazioni/git/vscode-originali/32-menu.png",
+                "sha256": "421ca24a1ba1b2354ea35dc447a385ae30f47fcbe5d969aeddf6481af75b6bdf",
+                "method": "macOS · area della finestra e menu contestuale"
+              }
+            ],
+            "source": "progetti/slide/assets/esercitazioni/git/vscode/32.webp",
+            "originalSha256": "6e32bb3957fc0c2930579e7d963b8ca02e0812c28f4c5eecc82f1a4c347d1284",
+            "sha256": "2b6a15de227fe36ce6ef07f771f68eaefd78aa5e783d0d7f5794e172a311c31a"
+          },
+          "/images/esercitazioni/08-033-diagram.webp": {
+            "original": "/images/esercitazioni/08-033-diagram.webp",
+            "sourceSlide": 33,
+            "src": "/images/esercitazioni/git/vscode/33.webp",
+            "kind": "capture",
+            "credit": "Elia Guarnieri · Esercitazione 08",
+            "captures": [
+              {
+                "source": "progetti/slide/assets/esercitazioni/git/vscode-originali/33.png",
+                "sha256": "15402abe7add76c63b000276babf5a0853fdea88889d9e87a9684350fd219de1",
+                "method": "macOS · Acquisisci finestra selezionata"
+              }
+            ],
+            "source": "progetti/slide/assets/esercitazioni/git/vscode/33.webp",
+            "originalSha256": "10d978c37d78f3fee98276d1d8af26eee92b7d963ebbe3556e65d79033c4081d",
+            "sha256": "3e836ba1378c9a7297ad332dc10c164f1553f7b02f58beabccc5354d80952d40"
+          },
+          "/images/esercitazioni/08-035-diagram.webp": {
+            "original": "/images/esercitazioni/08-035-diagram.webp",
+            "sourceSlide": 35,
+            "src": "/images/esercitazioni/git/vscode/35.webp",
+            "kind": "capture",
+            "credit": "Elia Guarnieri · Esercitazione 08",
+            "captures": [
+              {
+                "source": "progetti/slide/assets/esercitazioni/git/vscode-originali/35.png",
+                "sha256": "db989d2d8519b7efac49ca567653ba8f8e887e68567f2853b1035f80fdb00e87",
+                "method": "macOS · Acquisisci finestra selezionata"
+              }
+            ],
+            "source": "progetti/slide/assets/esercitazioni/git/vscode/35.webp",
+            "originalSha256": "9986e61ac1f5b2b94576c1d9e3d98be94bdefb0c05124e7599e2c4ccd44066e9",
+            "sha256": "3e68830d077beda6917d2a0c9077116e11d03f61282bfaab6aab21c66f10d154"
+          },
+          "/images/esercitazioni/08-036-diagram.webp": {
+            "original": "/images/esercitazioni/08-036-diagram.webp",
+            "sourceSlide": 36,
+            "src": "/images/esercitazioni/git/vscode/36.webp",
+            "kind": "capture",
+            "credit": "Elia Guarnieri · Esercitazione 08",
+            "captures": [
+              {
+                "source": "progetti/slide/assets/esercitazioni/git/vscode-originali/36.png",
+                "sha256": "46b613039d80ddcf232d29240b9a3d5a5e10519a2f81143db0d635fc6f30a2c9",
+                "method": "macOS · Acquisisci finestra selezionata"
+              }
+            ],
+            "source": "progetti/slide/assets/esercitazioni/git/vscode/36.webp",
+            "originalSha256": "40f0014c9b602a24a50920343a9866d52cd3a547e9110cc2991008d92a05e5d8",
+            "sha256": "199bba4710aa334b431fd9e70a2cb7784a05e91f5894d692a717745c59bb9a32"
+          },
+          "/images/esercitazioni/08-038-diagram.webp": {
+            "original": "/images/esercitazioni/08-038-diagram.webp",
+            "sourceSlide": 38,
+            "src": "/images/esercitazioni/git/08-038-diagram.webp",
+            "kind": "screenshot",
+            "credit": "Elia Guarnieri · Esercitazione 08",
+            "source": "progetti/slide/assets/esercitazioni/native-rebuild/images/08-038-diagram.webp",
+            "originalSha256": "ceb2bb5dc6f8dba1b1216a2d44b7140abf4b0f349bdbc637e846592883b33120",
+            "sha256": "ceb2bb5dc6f8dba1b1216a2d44b7140abf4b0f349bdbc637e846592883b33120"
+          }
+        }
       }
     },
     {
@@ -4647,7 +5190,7 @@
     }
   ],
   "sourceSlides": 349,
-  "slideCount": 410,
+  "slideCount": 394,
   "verification": {
     "summary": "reports/esercitazioni/verification.json",
     "sources": "reports/esercitazioni/source-report.json",

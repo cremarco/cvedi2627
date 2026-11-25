@@ -1,0 +1,112 @@
+{
+  "20": {
+    "size": [1220, 870],
+    "fragments": [{"file":"20.png","crop":[0,0,1220,870],"at":[0,0]}],
+    "alt": "Il pannello Source Control di VS Code mostra Initialize Repository e Publish to GitHub prima dell’inizializzazione."
+  },
+  "21": {
+    "size": [2370, 670],
+    "fragments": [
+      {"file":"21-prima.png","crop":[5,80,1170,590],"at":[0,80]},
+      {"file":"21.png","crop":[5,80,1170,590],"at":[1200,80]}
+    ],
+    "labels": [
+      {"text":"Prima dello staging","at":[12,16]},
+      {"text":"Dopo lo staging","at":[1212,16]}
+    ],
+    "alt": "In Changes il file index.html ha un pulsante +. Dopo averlo premuto, il file appare in Staged Changes con il messaggio di commit compilato."
+  },
+  "22": {
+    "size": [1810, 570],
+    "fragments": [
+      {"file":"22.png","crop":[555,200,1050,570],"at":[0,0]},
+      {"file":"22-menu.png","crop":[1135,280,405,460],"at":[580,80]},
+      {"file":"22-menu.png","crop":[1135,425,405,156],"resize":[729,281],"at":[1081,145]}
+    ],
+    "alt": "Il menu del repository in VS Code mostra il sottomenu Commit con Undo Last Commit evidenziato."
+  },
+  "23": {
+    "size": [2530, 870],
+    "fragments": [{"file":"23.png","crop":[0,55,2530,870],"at":[0,0]}],
+    "alt": "Source Control mostra le azioni sul file index.html. Nel diff affiancato la versione precedente è a sinistra, la modifica è a destra."
+  },
+  "24": {
+    "size": [2065, 600],
+    "fragments": [{"file":"24.png","crop":[460,140,1655,600],"at":[410,0]}],
+    "labels": [
+      {"text":"Branch attuale","at":[608,9],"control":[921,126,76,24]},
+      {"text":"Operazioni sui branch","at":[10,297],"to":[495,326]},
+      {"text":"Tutti i branch locali","at":[10,461],"to":[495,491]}
+    ],
+    "alt": "Il branch attuale è main. Il selettore mostra le operazioni sui branch in alto e i branch locali sotto."
+  },
+  "25": {
+    "size": [1565, 540],
+    "fragments": [{"file":"25.png","crop":[470,125,1565,540],"at":[0,0]}],
+    "alt": "Il campo Branch name è aperto in VS Code e contiene dev, il nome del nuovo branch."
+  },
+  "26": {
+    "size": [2065, 710],
+    "fragments": [{"file":"26.png","crop":[460,140,1655,710],"at":[410,0]}],
+    "labels": [
+      {"text":"Branch attuale · dev","at":[522,9],"control":[925,126,71,24]},
+      {"text":"Seleziona main","at":[12,583],"control":[620,600,158,27]}
+    ],
+    "alt": "Il branch attuale è dev. Nel selettore di checkout è evidenziato main."
+  },
+  "27": {
+    "size": [1810, 570],
+    "fragments": [
+      {"file":"27.png","crop":[555,200,1050,570],"at":[0,0]},
+      {"file":"27-menu.png","crop":[1135,280,405,460],"at":[580,80]},
+      {"file":"27-menu.png","crop":[1135,425,405,156],"resize":[729,281],"at":[1081,145]}
+    ],
+    "alt": "Con main attivo, il menu del repository mostra Branch e il comando Merge… evidenziato."
+  },
+  "32": {
+    "size": [1810, 570],
+    "fragments": [
+      {"file":"32.png","crop":[555,200,1050,570],"at":[0,0]},
+      {"file":"32-menu.png","crop":[1135,280,405,460],"at":[580,80]},
+      {"file":"32-menu.png","crop":[1135,425,405,156],"resize":[729,281],"at":[1081,145]}
+    ],
+    "labels": [
+      {"text":"Pubblica il branch","at":[25,8],"via":[[476,21]],"control":[510,65,23,23]}
+    ],
+    "controls": [[1507,339,130,30]],
+    "alt": "Il menu Remote mostra Add Remote… e la freccia indica la nuvoletta per pubblicare il branch."
+  },
+  "33": {
+    "size": [715, 170],
+    "fragments": [{"file":"33.png","crop":[0,1326,715,54],"at":[0,116]}],
+    "labels": [{"text":"Stato di sincronizzazione","at":[22,15],"control":[320,137,87,27]}],
+    "alt": "La barra di stato mostra main con 0 commit in entrata e 1 in uscita. La freccia punta all’indicatore di sincronizzazione."
+  },
+  "35": {
+    "size": [1710, 923],
+    "fragments": [
+      {"file":"35.png","crop":[1190,84,1340,760],"at":[370,0]},
+      {"file":"35.png","crop":[1190,1120,1340,163],"at":[370,760]}
+    ],
+    "labels": [
+      {"text":"Modifiche locali","at":[12,431],"to":[510,511]},
+      {"text":"Modifiche remote","at":[12,671],"to":[510,625],"color":"#ffadd2"}
+    ],
+    "controls": [[1352,838,184,37]],
+    "alt": "Nel conflitto inline, il contenuto locale appare sotto Current Change e quello remoto nel blocco Incoming Change. È visibile Resolve in Merge Editor."
+  },
+  "36": {
+    "size": [1364, 1050],
+    "fragments": [
+      {"file":"36.png","crop":[1166,84,1364,785],"at":[0,76]},
+      {"file":"36.png","crop":[1166,1110,1364,188],"at":[0,862]}
+    ],
+    "labels": [
+      {"text":"Modifiche remote","at":[10,8],"via":[[10,85]],"to":[21,181],"color":"#ffadd2"},
+      {"text":"Modifiche locali","at":[744,8],"via":[[691,80]],"to":[691,187]},
+      {"text":"Risultato del merge","at":[20,873],"via":[[65,840]],"to":[115,746]}
+    ],
+    "controls": [[1150,953,137,43]],
+    "alt": "Nel Merge Editor di VS Code il pannello Incoming a sinistra mostra le modifiche remote, Current a destra le modifiche locali e Result in basso il risultato."
+  }
+}

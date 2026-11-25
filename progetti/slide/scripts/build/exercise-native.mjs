@@ -7,6 +7,7 @@ import { reviseExercise, reviseExerciseMarkdown, revisedExerciseNumber } from '.
 import { componentDraft, curriculum, themeDraft } from '../../data/esercitazioni/framework-curriculum.mjs'
 import { themeExampleStyles, themeRevision } from '../../data/esercitazioni/tailwind-theme.mjs'
 import { studioThemeCSS, studioThemePath, workshopRevision } from '../../data/esercitazioni/daisy-workshop.mjs'
+import { gitFigures, reviseGitExercise } from '../../data/esercitazioni/git-revisions.mjs'
 import { workedExamples } from '../../data/esercitazioni/worked-examples.mjs'
 
 const json = async file => JSON.parse(await readFile(file, 'utf8'))
@@ -39,7 +40,9 @@ for (const exercise of manifest.exercises) {
   }
   const before = await json(exercise.nativeRebuild.archive.data)
   const specification = curriculum.find(module => module.number === exercise.number)
-  const slides = reviseExercise(specification ? structuredClone(specification.slides) : before.map(slide => rebuildImportedSlide(slide, number)), number)
+  const gitSource = number === '08' ? await json('progetti/slide/assets/esercitazioni/08-source.json') : undefined
+  const slides = gitSource ? reviseGitExercise(gitSource)
+    : reviseExercise(specification ? structuredClone(specification.slides) : before.map(slide => rebuildImportedSlide(slide, number)), number)
   if (specification) {
     if (number === '06') {
       exercise.slug = specification.slug
@@ -93,23 +96,48 @@ for (const exercise of manifest.exercises) {
     exercise.currentMapping = exercise.mapping.map(entry => ({ ...entry, slides: [...new Set(entry.slides.map(no => revisedExerciseNumber(no)))] }))
     exercise.editorialRevision = { specification: 'progetti/slide/data/esercitazioni/editorial-revisions.mjs', merges: [{ originalSlides: [5, 6], destination: 5 }, { originalSlides: [7, 8], destination: 6 }, { originalSlides: [10, 11], destination: 8 }, { originalSlides: [12, 13], destination: 9 }, { originalSlides: [20, 21], destination: 16 }, { originalSlides: [22, 23], destination: 17 }, { originalSlides: [24, 25], destination: 18 }, { originalSlides: [28, 29, 30], destination: 21 }, { originalSlides: [31, 32], destination: 22 }, { originalSlides: [34, 35], destination: 24 }, { originalSlides: [36, 37], destination: 25 }, { originalSlides: [38, 39, 40], destination: 26 }, { originalSlides: [41, 42, 43], destination: 27 }, { originalSlides: [45, 46], destination: 29 }, { originalSlides: [57, 58], destination: 40 }, { originalSlides: [61, 62, 63], destination: 43 }, { originalSlides: [67, 68, 69], destination: 47 }, { originalSlides: [71, 72, 73], destination: 49 }, { originalSlides: [74, 75, 76], destination: 50 }, { originalSlides: [81, 82], destination: 55 }, { originalSlides: [83, 84, 85], destination: 56 }, { originalSlides: [86, 87, 88], destination: 57 }, { originalSlides: [89, 90], destination: 58 }, { originalSlides: [91, 92, 93], destination: 59 }, { originalSlides: [94, 95, 96], destination: 60 }, { originalSlides: [97, 98, 99, 100], destination: 61 }, { originalSlides: [101, 102], destination: 62 }, { originalSlides: [104, 105], destination: 64 }, { originalSlides: [106, 107], destination: 65 }], diagram: 'progetti/slide/assets/esercitazioni/schemi/manifest.json' }
   }
-  if (number === '02' || number === '03' || number === '04') {
+  if (['02', '03', '04', '08'].includes(number)) {
     exercise.slideCount = slides.length
     const markdown = slides.map(slide => {
       const cover = ['cover', 'divider'].includes(slide.kind)
       const matter = ['layout: default', `class: ${cover ? 'chapter-slide' : 'content-slide exercise-slide reading-slide'}`, `lesson: ${exercise.id}`, `lessonSlide: ${slide.number}`, `exerciseNumber: ${exercise.number}`, `sourceSlide: ${slide.sourceSlide}`, `sourceSlides: [${slide.sourceSlides.join(', ')}]`, `footer: Esercitazione ${number} · Elia Guarnieri`]
       if (slide.number === 1) matter.push(`routeAlias: ${exercise.id}`)
-      const body = cover ? `<ChapterMetro section="${exercise.palette}" />\n\n# ${slide.title}${slide.number === 1 ? '\n\n<p>Elia Guarnieri · elia.guarnieri@unimib.it</p>' : ''}` : `# ${slide.title}\n\n<ExerciseContent exercise="${number}" :slide="${slide.number}" />`
+      if (gitSource && slide.sourceKind) matter.push(`sourceKind: ${slide.sourceKind}`)
+      const coverDetails = slide.number === 1 ? '\n\n<p>Elia Guarnieri · elia.guarnieri@unimib.it</p>' : ''
+      const title = gitSource ? slide.title.replace(/ \[(\d+)\]$/, ' &#91;$1&#93;') : slide.title
+      const body = cover ? `<ChapterMetro section="${exercise.palette}" />\n\n# ${title}${coverDetails}` : `# ${title}\n\n<ExerciseContent exercise="${number}" :slide="${slide.number}" />`
       return `---\n${matter.join('\n')}\n---\n\n${body}\n`
     }).join('\n')
     await writeFile(exercise.file, markdown)
     exercise.currentMapping = exercise.mapping.map(entry => ({ ...entry, slides: slides.filter(slide => slide.sourceSlides.includes(entry.sourceSlide)).map(slide => slide.number) }))
-    exercise.editorialRevision = { specification: `progetti/slide/data/esercitazioni/${number === '02' ? 'advanced' : number === '03' ? 'grid' : 'responsive'}-revisions.mjs`, reference: '01-html-css-base.md', ...(number === '02' ? { nativeExamples: 'progetti/slide/data/esercitazioni/advanced-examples.mjs' } : {}) }
+    exercise.editorialRevision = { specification: `progetti/slide/data/esercitazioni/${{ '02': 'advanced', '03': 'grid', '04': 'responsive', '08': 'git' }[number]}-revisions.mjs`, reference: '01-html-css-base.md', ...(number === '02' ? { nativeExamples: 'progetti/slide/data/esercitazioni/advanced-examples.mjs' } : {}) }
+  }
+  if (gitSource) {
+    const figures = gitFigures(gitSource)
+    for (const figure of Object.values(figures)) {
+      const original = manifest.archivedImages.find(image => image.web === figure.original)
+      const destination = `progetti/slide/public${figure.src}`
+      await mkdir(dirname(destination), { recursive: true })
+      if (!original) throw new Error(`Missing original Git figure: ${figure.original}`)
+      const gitAssets = 'progetti/slide/assets/esercitazioni/git'
+      figure.source = figure.kind === 'diagram' ? `${gitAssets}/flusso-git.svg`
+        : figure.kind === 'capture' ? `${gitAssets}/vscode/${figure.sourceSlide}.webp` : original.retained
+      figure.originalSha256 = original.sha256
+      if (figure.captures) {
+        figure.captures = await Promise.all(figure.captures.map(async file => {
+          const source = `${gitAssets}/vscode-originali/${file}`
+          return { source, sha256: await digest(source), method: file.endsWith('-menu.png') ? 'macOS · area della finestra e menu contestuale' : 'macOS · Acquisisci finestra selezionata' }
+        }))
+      }
+      await copyFile(figure.source, destination)
+      figure.sha256 = await digest(destination)
+    }
+    exercise.editorialRevision.figures = figures
   }
   exercise.nativeRebuild.slides = before.filter(slide => slide.blocks.some(block => block.kind === 'image')).map(slide => slide.number)
   exercise.nativeRebuild.specification = 'progetti/slide/data/esercitazioni/native-examples.mjs'
   exercise.nativeRebuild.renderer = 'progetti/slide/components/ExerciseNative.vue'
-  exercise.nativeRebuild.corrections = Object.keys(nativeCorrections).filter(key => key.startsWith(number + '/')).map(key => Number(key.split('/')[1]))
+  exercise.nativeRebuild.corrections = (gitSource ? [] : Object.keys(nativeCorrections)).filter(key => key.startsWith(number + '/')).map(key => Number(key.split('/')[1]))
   rebuilt += exercise.nativeRebuild.slides.length
   await save(`progetti/slide/data/esercitazioni/${number}.json`, slides)
 }

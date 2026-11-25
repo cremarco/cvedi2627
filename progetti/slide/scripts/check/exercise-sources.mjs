@@ -6,6 +6,7 @@ import path from 'node:path'
 import { componentDraft, curriculum, sources as officialSources, examples, themeDraft } from '../../data/esercitazioni/framework-curriculum.mjs'
 import { themeSources } from '../../data/esercitazioni/tailwind-theme.mjs'
 import { reviseExercise } from '../../data/esercitazioni/editorial-revisions.mjs'
+import { reviseGitExercise } from '../../data/esercitazioni/git-revisions.mjs'
 import { gridRemovedCopy, gridRemovedLinks, gridTextRevision } from '../../data/esercitazioni/grid-revisions.mjs'
 import { workedExamples } from '../../data/esercitazioni/worked-examples.mjs'
 import { nativeExamples, rebuildImportedSlide } from '../../data/esercitazioni/native-examples.mjs'
@@ -73,7 +74,7 @@ export async function checkExerciseSources() {
       assert.equal(await digest(archive.data), archive.dataSha256, 'pre-reconstruction content retained')
       assert.equal(await digest(archive.markdown), archive.markdownSha256, 'pre-reconstruction Markdown retained')
       imported = await json(archive.data)
-      const expected = reviseExercise(curriculum.find(module => module.number === exercise.number)?.slides || imported.map(slide => rebuildImportedSlide(slide, number)), number)
+      const expected = number === '08' ? reviseGitExercise(source) : reviseExercise(curriculum.find(module => module.number === exercise.number)?.slides || imported.map(slide => rebuildImportedSlide(slide, number)), number)
       for (const block of slides.flatMap(slide => slide.blocks.flatMap(block => block.kind === 'original-layout' && block.content.example ? [{ kind: 'native', example: block.content.example }] : [block])).filter(block => block.kind === 'native' && !block.example.startsWith('framework:'))) {
         assert.ok(nativeExamples[block.example], 'every retired figure has a native reconstruction')
         assert.ok(!/<img\b/i.test(nativeExamples[block.example].html), 'native reconstructions contain no raster teaching content')
@@ -120,17 +121,53 @@ export async function checkExerciseSources() {
         } else assert.deepEqual(resources, links, 'resource lists preserve the labels, order and destinations of their own source page')
       }
     }
+    if (number === '08') {
+      assert.deepEqual([...new Set(slides.filter(slide => slide.sourceSlide !== null).map(slide => slide.sourceSlide))], source.map(page => page.sourceSlide), 'Git retains the original page order')
+      const revisedTextPages = new Set([1, 17, 21, 22, 27, 32, 40])
+      for (const page of source) {
+        const parts = slides.filter(slide => slide.sourceSlide === page.sourceSlide)
+        if (![1, 40].includes(page.sourceSlide))
+          assert.ok(parts.every(slide => slide.title.replace(/ \[\d+\]$/, '') === page.title), 'Git keeps the original titles')
+        const paragraphs = blocks => blocks.filter(block => block.kind === 'text').flatMap(block => block.paragraphs)
+        if (!revisedTextPages.has(page.sourceSlide))
+          assert.deepEqual(paragraphs(parts.flatMap(slide => slide.blocks)), paragraphs(page.blocks), 'Git preserves original text and links outside the requested edits')
+        if (page.sourceSlide !== 1)
+          assert.deepEqual(parts.flatMap(slide => slide.blocks.filter(block => block.kind === 'figure').map(block => block.src)),
+            page.blocks.filter(block => block.kind === 'image').map(block => exercise.editorialRevision.figures[block.src].src), 'Git keeps every original figure slot')
+      }
+    }
     if (exercise.currentMapping) {
       for (const slide of slides.filter(slide => slide.sourceSlide === null)) {
-        assert.equal(slide.sourceKind, 'course-assignment', 'new exercise additions identify their authored role')
-        assert.deepEqual(slide.sourceSlides, [], 'new assignments do not claim historical source pages')
-        assert.ok(slide.adaptedFrom?.length, 'continued assignments identify the preceding exercises')
+        assert.deepEqual(slide.sourceSlides, [], 'new additions do not claim historical source pages')
+        if (number === '08') {
+          assert.equal(slide.sourceKind, 'course-addition')
+          assert.equal(slides[slide.number - 2].sourceSlide, 20, 'the gitignore extension follows repository initialization')
+        } else {
+          assert.equal(slide.sourceKind, 'course-assignment', 'new exercise additions identify their authored role')
+          assert.ok(slide.adaptedFrom?.length, 'continued assignments identify the preceding exercises')
+        }
       }
       assert.deepEqual([...new Set(exercise.currentMapping.flatMap(entry => entry.slides))].sort((a, b) => a - b), slides.filter(slide => slide.sourceSlide !== null).map(slide => slide.number), 'current mapping covers every slide, including intentionally reordered source pages')
       for (const entry of exercise.currentMapping) assert.ok(entry.slides.every(no => (slides[no - 1].sourceSlides || [slides[no - 1].sourceSlide]).includes(entry.sourceSlide)), 'current destinations retain their source page')
     }
     for (const block of slides.flatMap(slide => slide.blocks.flatMap(block => [block, ...(block.figures || []).map(figure => ({ kind: 'figure', ...figure })), ...(block.items || []).flatMap(item => item.figure ? [{ kind: 'figure', ...item.figure }] : [])])).filter(block => block.kind === 'figure')) {
       assert.ok(block.alt, 'every figure retains alternative text')
+      const localFigure = number === '08' && Object.values(exercise.editorialRevision.figures).find(asset => asset.src === block.src)
+      if (localFigure) {
+        const original = archivedImages.get(localFigure.original)
+        assert.equal(original.sha256, localFigure.originalSha256, 'Git figure retains the original hash')
+        assert.equal(await digest(localFigure.source), localFigure.sha256)
+        assert.equal(await digest(`progetti/slide/public${block.src}`), localFigure.sha256)
+        if (localFigure.kind === 'capture') {
+          assert.ok(localFigure.captures.length > 0, 'Git screenshot links to its macOS captures')
+          for (const capture of localFigure.captures) assert.equal(await digest(capture.source), capture.sha256)
+          continue
+        }
+        if (localFigure.kind === 'screenshot') {
+          assert.equal(localFigure.sha256, original.sha256, 'Git screenshots preserve the original bytes')
+          continue
+        }
+      }
       if (!(diagram.screenshots || []).some(asset => asset.web === block.src)) assert.ok(block.caption, 'new diagrams retain captions')
       const screenshot = (diagram.screenshots || []).find(asset => asset.web === block.src)
       if (screenshot) {
@@ -143,7 +180,7 @@ export async function checkExerciseSources() {
         const svg = await readFile(path.join(root, 'progetti/slide/public', block.src), 'utf8')
         assert.ok(svg.includes('<svg') && !/<image\b/.test(svg), 'new teaching diagrams are native vectors')
       }
-      usedImages.add(path.basename(block.src))
+      if (!localFigure) usedImages.add(path.basename(block.src))
     }
     for (const item of slides.flatMap(slide => slide.blocks).flatMap(block => block.items || [])) {
       if (item.result?.tag === 'img') {
