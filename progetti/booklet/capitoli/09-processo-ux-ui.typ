@@ -10,18 +10,31 @@
   wireframe-progression, prototype-states, test-plan, iteration-record, learning-loop,
 )
 
+#let review-note(body) = block(above: 0pt, below: 10pt, width: 100%,
+  fill: rgb("FFF1F1"), stroke: (left: 2pt + rgb("FFA2A2")), inset: 8pt,
+  sticky: true, breakable: false,
+)[
+  #set text(size: 9pt)
+  #set par(justify: false, leading: 1pt, spacing: 0pt)
+  #text(weight: 700)[Nota editoriale]
+  #linebreak()
+  #body
+]
+
 #let content = [
 == Un processo per prendere decisioni
 
-Scegliere colori, caratteri e immagini richiede di sapere che cosa deve permettere di fare il prodotto. Una schermata può apparire ordinata e risultare inadatta al problema: mostra informazioni non pertinenti, richiede un dato che la persona non possiede oppure propone un servizio che non è disponibile nel suo contesto. Il processo di progettazione dell’esperienza collega la comprensione di queste condizioni alla costruzione e alla verifica delle soluzioni.
+Scegliere colori, caratteri e immagini richiede di sapere che cosa deve permettere di fare il prodotto. Una schermata può apparire ordinata e risultare inadatta al problema: mostrare informazioni non pertinenti, richiedere un dato che la persona non possiede oppure proporre un servizio che non è disponibile nel suo contesto. Il processo di progettazione dell’esperienza collega la comprensione di queste condizioni alla costruzione e alla verifica delle soluzioni.
 
 Il lavoro sulla User Experience, abbreviata in *UX*, riguarda l’esperienza complessiva del prodotto o del servizio. La User Interface, o *UI*, è l’insieme dei mezzi con cui la persona impartisce comandi e riceve risposte. Le due prospettive si incontrano quando un bisogno diventa un percorso utilizzabile: le informazioni da trovare, le azioni disponibili, le parole dei comandi e gli esiti riconoscibili devono collaborare.
 
 Questo capitolo segue le quattordici attività presentate da _Matteo di Pascale_ nel capitolo «Il processo UX completo» del _Manuale di sopravvivenza per UX designer_ @uxDiPascale.#website-note([Scheda editoriale del volume, prima edizione 2019.], "https://www.hoepli.it/libro/manuale-di-sopravvivenza-per-ux-designer/9788820389192.html") Le attività sono raccolte in cinque nuclei: impostare il progetto, comprendere persone e problemi, organizzare l’esperienza, strutturare il prodotto, provare e affinare la soluzione. Il raggruppamento aiuta a leggere le relazioni, mantenendo riconoscibili i quattordici passaggi della fonte.
 
-La @fig-ux-processo offre una vista complessiva. Ogni attività affronta una domanda, impiega strumenti appropriati e produce qualcosa che permette una decisione: un brief, una sintesi delle evidenze, un percorso, una struttura, un prototipo. Il valore del documento dipende da ciò che rende comprensibile e verificabile, oltre che dalla qualità della sua rappresentazione.
+#review-note[Sia un brief sia un prototipo sono utili quando aiutano il gruppo a capire una proposta e a verificare su quali informazioni si fonda. Una presentazione chiara facilita entrambe le cose.]
+La @fig-ux-processo offre una vista complessiva. Ogni attività affronta una domanda, impiega strumenti appropriati e produce qualcosa che permette una decisione: un brief, una sintesi delle evidenze, un percorso, una struttura, un prototipo. #highlight(fill: rgb("FFF1A8"))[Il valore del documento dipende da ciò che rende comprensibile e verificabile, oltre che dalla qualità della sua rappresentazione.]
 
-Un criterio accompagna tutto il percorso: quale decisione possiamo prendere con le informazioni disponibili e che cosa dobbiamo ancora verificare? La risposta orienta il livello di dettaglio dei materiali e il confronto fra le persone coinvolte. Il registro delle revisioni conserva questo legame.
+#review-note[La decisione da prendere e le domande ancora aperte indicano al gruppo quanto dettaglio serve nei materiali e quali aspetti discutere insieme. Nel registro delle revisioni, ogni scelta resta collegata a ciò che la giustifica e a ciò che occorre ancora verificare.]
+Un criterio accompagna tutto il percorso: quale decisione possiamo prendere con le informazioni disponibili e che cosa dobbiamo ancora verificare? #highlight(fill: rgb("FFF1A8"))[La risposta orienta il livello di dettaglio dei materiali e il confronto fra le persone coinvolte. Il registro delle revisioni conserva questo legame.]
 
 #figure(process-map(), kind: image, placement: top, scope: "parent",
   caption: caption-content([Quattordici attività raccolte in cinque nuclei. I numeri identificano i passaggi descritti da _Di Pascale_; i ritorni possono riaprire sia il problema sia la soluzione. @uxDiPascale]),
@@ -31,15 +44,17 @@ Un criterio accompagna tutto il percorso: quale decisione possiamo prendere con 
 
 L’autore presenta il percorso come un canovaccio adattabile @uxDiPascale. Le attività possono sovrapporsi, cambiare ordine ed essere ripetute. Un test può mostrare che la difficoltà attribuita a un pulsante nasce da una condizione del servizio; un’intervista può suggerire di modificare la domanda iniziale. Tornare su una decisione significa usare ciò che si è appreso per correggere il progetto.
 
-La progettazione centrata sull’essere umano accompagna il ciclo di vita dei sistemi interattivi, secondo l’ambito della norma ISO 9241-210:2019 @uxIso210.#website-note([ISO 9241-210:2019, principi e attività di progettazione centrata sull’essere umano.], "https://www.iso.org/standard/77520.html") Il coinvolgimento delle persone e la valutazione delle soluzioni attraversano quindi il lavoro. Le quattordici attività sono una lettura operativa del processo, distinta dall’articolazione dello standard.
+#review-note[La norma ISO 9241-210:2019 descrive come applicare la progettazione centrata sull’essere umano lungo il ciclo di vita dei sistemi interattivi]
+#review-note[Coinvolgere le persone che useranno il sistema e valutare le soluzioni con loro sono attività che si ripetono nelle diverse fasi del progetto. I quattordici passaggi di questo capitolo, tratti da _Matteo di Pascale_, propongono un modo di organizzare il lavoro. La norma segue una propria articolazione.]
+#highlight(fill: rgb("FFF1A8"))[La progettazione centrata sull’essere umano accompagna il ciclo di vita dei sistemi interattivi, secondo l’ambito della norma ISO 9241-210:2019] @uxIso210.#website-note([ISO 9241-210:2019, principi e attività di progettazione centrata sull’essere umano.], "https://www.iso.org/standard/77520.html") #highlight(fill: rgb("FFF1A8"))[Il coinvolgimento delle persone e la valutazione delle soluzioni attraversano quindi il lavoro. Le quattordici attività sono una lettura operativa del processo, distinta dall’articolazione dello standard.]
 
 Le responsabilità non coincidono necessariamente con altrettante figure professionali. Ricercatori, progettisti dell’interazione, visual designer, responsabili del prodotto e sviluppatori possono contribuire alle stesse decisioni da prospettive diverse. Occorre rendere esplicito chi raccoglie un’informazione, chi la interpreta, chi decide e chi dovrà realizzare o mantenere la soluzione. La collaborazione diventa più concreta quando le persone discutono lo stesso problema attraverso materiali condivisi.
 
 === Il caso dei fisioterapisti
 
-Nel caso narrativo del libro, _Carlo_ e _Giovanni_ chiedono un’app che metta in contatto fisioterapisti e clienti. Il progetto cambia significato a seconda che debba sostenere un centro esistente oppure mettere in relazione professionisti indipendenti e persone che cercano una visita. _Viola_, trentacinquenne che lavora fino a tardi, ha bisogno di una visita a domicilio dopo le 20 @uxDiPascale.
+Nel caso narrativo riportato nel libro come esempio, _Carlo_ e _Giovanni_ chiedono un’app che metta in contatto fisioterapisti e clienti. Il progetto cambia significato a seconda che debba sostenere un centro esistente oppure mettere in relazione professionisti indipendenti e persone che cercano una visita. _Viola_, trentacinquenne che lavora fino a tardi, ha bisogno di una visita a domicilio dopo le 20 @uxDiPascale.
 
-Seguiremo questo caso per osservare come una richiesta si trasformi in domande, requisiti e proposte. I documenti e le schermate costruiti per gli esempi sviluppano ipotesi del caso: nomi dei campi, costi, date, disponibilità ed esiti delle prove sono simulati. Servono a rendere discutibili le scelte; la loro presenza non attesta una ricerca realmente svolta o un servizio disponibile.
+Seguiremo questo caso per osservare come una richiesta si trasformi in domande, requisiti e proposte. I documenti e le schermate costruiti per gli esempi sviluppano ipotesi del caso: nomi dei campi, costi, date, disponibilità ed esiti delle prove sono simulati. Servono a rendere discutibili le scelte; la loro presenza non attesta una ricerca realmente svolta o un servizio davvero disponibile.
 
 == Impostare il progetto
 
@@ -87,7 +102,8 @@ Conviene definire prima gli aspetti da confrontare: persone servite, copertura, 
 
 Un catalogo di colori e pulsanti dice poco sulle ragioni delle scelte. È più utile annotare che un servizio mostra la copertura prima di richiedere dati personali oppure che distingue una richiesta in attesa da una visita confermata. Queste osservazioni diventano ipotesi trasferibili al proprio progetto, da verificare con le persone interessate.
 
-L’analisi non dimostra automaticamente che una soluzione funzioni bene: la diffusione di un’interfaccia e la sua qualità d’uso sono informazioni differenti. Il risultato del confronto dovrebbe rendere visibili opportunità, limiti e interrogativi. Copiare un percorso senza conoscerne le condizioni può trasferire anche i suoi problemi.
+#review-note[Scoprire che un’interfaccia è molto diffusa aiuta a capire quali soluzioni si incontrano più spesso. Per capire se chi la usa riesce a svolgere bene i propri compiti, occorrono osservazioni o prove dedicate.]
+#highlight(fill: rgb("FFF1A8"))[L’analisi non dimostra automaticamente che una soluzione funzioni bene: la diffusione di un’interfaccia e la sua qualità d’uso sono informazioni differenti.] Il risultato del confronto dovrebbe rendere visibili opportunità, limiti e interrogativi. Copiare un percorso senza conoscerne le condizioni può trasferire anche i suoi problemi.
 
 == Comprendere persone e problemi
 
@@ -109,11 +125,12 @@ Quando emergono problemi differenti, si registrano separatamente. Una persona pu
 
 Il quinto passaggio raccoglie informazioni sulle persone, sui loro comportamenti e sui contesti @uxDiPascale. La *user research*, o ricerca con gli utenti, parte da domande che possono cambiare una decisione. «Come hai prenotato l’ultima visita?» permette di ricostruire un’esperienza; «Useresti la nostra app?» raccoglie una previsione e può favorire una risposta compiacente.
 
-Si sceglie il metodo in relazione alla domanda. Un’intervista permette di approfondire episodi, motivazioni e difficoltà; l’osservazione aiuta a vedere ciò che accade nel contesto; un questionario raccoglie risposte comparabili a domande definite. Questi metodi producono informazioni diverse. Un insieme di risposte a scelta multipla non ricostruisce da solo le ragioni di un comportamento.
+#review-note[Ogni metodo risponde a domande diverse. Le risposte a scelta multipla, per esempio, mostrano quanto spesso viene indicata un’opzione. Per capire perché le persone si comportano in un certo modo, può servire approfondire le loro risposte con un’intervista o osservare il contesto in cui agiscono.]
+Si sceglie il metodo in relazione alla domanda. Un’intervista permette di approfondire episodi, motivazioni e difficoltà; l’osservazione aiuta a vedere ciò che accade nel contesto; un questionario raccoglie risposte comparabili a domande definite. #highlight(fill: rgb("FFF1A8"))[Questi metodi producono informazioni diverse. Un insieme di risposte a scelta multipla non ricostruisce da solo le ragioni di un comportamento.]
 
 Le indicazioni del GOV.UK Service Manual invitano a preparare una traccia e a favorire racconti concreti con domande aperte e neutrali.#website-note([GOV.UK Service Manual, preparazione e conduzione delle interviste in profondità.], "https://www.gov.uk/service-manual/user-research/using-in-depth-interviews") Per il servizio dei fisioterapisti possiamo chiedere come sia stata cercata l’ultima disponibilità, quali informazioni siano mancate e che cosa abbia fatto cambiare scelta. La traccia orienta l’incontro lasciando spazio a elementi non previsti.
 
-La selezione delle persone deve essere coerente con il bisogno e con il contesto. Coinvolgere soltanto colleghi che conoscono il progetto può lasciare invisibili difficoltà importanti. Occorre considerare anche chi usa strumenti assistivi, chi ha poca familiarità con il servizio e chi dipende dall’aiuto di un’altra persona. La pianificazione esplicita gruppi, domande e attività, aggiornandosi quando emergono nuove conoscenze.#website-note([GOV.UK Service Manual, pianificazione della ricerca e individuazione dei gruppi da coinvolgere.], "https://www.gov.uk/service-manual/user-research/plan-user-research-for-your-service")
+La selezione delle persone deve essere coerente con il bisogno e con il contesto. Coinvolgere soltanto colleghi che conoscono il progetto rischia di non far emergere difficoltà importanti. Occorre considerare anche chi usa strumenti assistivi, chi ha poca familiarità con il servizio e chi dipende dall’aiuto di un’altra persona. La pianificazione esplicita gruppi, domande e attività, aggiornandosi quando emergono nuove conoscenze.#website-note([GOV.UK Service Manual, pianificazione della ricerca e individuazione dei gruppi da coinvolgere.], "https://www.gov.uk/service-manual/user-research/plan-user-research-for-your-service")
 
 Durante la raccolta si separano parole e azioni osservate dalle interpretazioni del gruppo. «La persona ha cercato l’orario nella scheda del professionista» è un’osservazione; «non capisce i calendari» è un’interpretazione molto più ampia. Il registro della @fig-ux-evidenze mostra come una spiegazione provvisoria possa diventare una decisione da provare, senza assumere che sia già corretta.
 
@@ -121,13 +138,16 @@ Durante la raccolta si separano parole e azioni osservate dalle interpretazioni 
   caption: caption-content([Osservazione, interpretazione, decisione e nuova domanda nel caso simulato. La distinzione permette di conservare anche spiegazioni alternative.]),
 ) <fig-ux-evidenze>
 
-Le persone devono sapere che cosa accadrà e come saranno usate le informazioni raccolte. Si concordano le modalità di partecipazione e di eventuale registrazione, limitando i dati a quelli necessari alla ricerca. Appunti e materiali vanno organizzati in modo che il gruppo possa ritrovare l’episodio dal quale deriva una conclusione.
+#review-note[Quando il gruppo formula una conclusione, dovrebbe poter risalire all’episodio su cui si basa. Nei materiali di ricerca, conviene quindi collegare ogni conclusione agli appunti o alle osservazioni pertinenti.]
+Le persone devono sapere che cosa accadrà e come saranno usate le informazioni raccolte. Si concordano le modalità di partecipazione e di eventuale registrazione, limitando i dati a quelli necessari alla ricerca. #highlight(fill: rgb("FFF1A8"))[Appunti e materiali vanno organizzati in modo che il gruppo possa ritrovare l’episodio dal quale deriva una conclusione.]
 
-La sintesi cerca ricorrenze e differenze: quali bisogni sono condivisi, quali riguardano una condizione specifica, quali ipotesi iniziali sono state contraddette? Le evidenze possono richiedere di rivedere il problema o gli obiettivi. Il numero di documenti prodotti non sostituisce questo passaggio interpretativo.
+#review-note[Mettere a confronto gli episodi aiuta a riconoscere quali bisogni ricorrono, quali emergono solo in certe condizioni e quali ipotesi iniziali vengono messe in dubbio. Se quanto osservato cambia la comprensione del problema, il gruppo può ridefinirlo o rivedere gli obiettivi. Il valore della sintesi sta nelle conclusioni che il gruppo riesce a motivare, anche con pochi documenti.]
+#highlight(fill: rgb("FFF1A8"))[La sintesi cerca ricorrenze e differenze: quali bisogni sono condivisi, quali riguardano una condizione specifica, quali ipotesi iniziali sono state contraddette? Le evidenze possono richiedere di rivedere il problema o gli obiettivi. Il numero di documenti prodotti non sostituisce questo passaggio interpretativo.]
 
 === User personas
 
-Il sesto passaggio costruisce rappresentazioni sintetiche delle persone per cui si progetta @uxDiPascale. Una *persona* è un profilo fittizio che rende riconoscibili caratteristiche pertinenti di un gruppo di utenti. Per sostenere decisioni attendibili, bisogni, comportamenti e condizioni d’uso devono derivare dalla ricerca; dettagli inventati possono rendere la scheda vivace senza renderla più utile @uxDykes.
+#review-note[i dettagli inventati possono rendere il profilo più vivido. Per orientare il progetto, però, contano le informazioni che la ricerca ha mostrato essere pertinenti]
+Il sesto passaggio costruisce rappresentazioni sintetiche delle persone per cui si progetta @uxDiPascale. Una *persona* è un profilo fittizio che rende riconoscibili caratteristiche pertinenti di un gruppo di utenti. Per sostenere decisioni attendibili, bisogni, comportamenti e condizioni d’uso devono derivare dalla ricerca; #highlight(fill: rgb("FFF1A8"))[dettagli inventati possono rendere la scheda vivace senza renderla più utile] @uxDykes.
 
 Nel caso del libro, _Viola_ rende concreto il bisogno di una visita serale a domicilio. Il dato significativo per la decisione è il rapporto fra orario, luogo e possibilità di scegliere. L’età, da sola, non permette di dedurre abilità digitali, disponibilità economica o preferenze visive. Il profilo della @fig-ux-viola esplicita il vincolo del compito e le domande ancora aperte.
 
@@ -135,7 +155,8 @@ Nel caso del libro, _Viola_ rende concreto il bisogno di una visita serale a dom
   caption: caption-content([Il profilo narrativo di _Viola_ e le sue implicazioni progettuali. La scheda sviluppa il caso di _Di Pascale_; non rappresenta una persona reclutata o un segmento validato. @uxDiPascale]),
 ) <fig-ux-viola>
 
-Una scheda può includere obiettivi, comportamenti ricorrenti, ostacoli, strumenti usati e condizioni nelle quali il servizio viene incontrato. La selezione delle informazioni dipende dal progetto. Un elemento biografico merita spazio quando aiuta a capire una scelta o a ricordare un bisogno pertinente @uxDykes.#website-note([Taylor Dykes, definizione e uso delle personas nella progettazione.], "https://www.nngroup.com/articles/persona/")
+#review-note[Per decidere che cosa includere nella scheda, si parte dalle scelte che il profilo dovrà aiutare a compiere. Si possono descrivere gli obiettivi, le abitudini, gli ostacoli, gli strumenti usati e le situazioni in cui la persona entra in contatto con il servizio. Un dettaglio biografico è utile quando spiega un comportamento o aiuta il gruppo a tenere presente un bisogno rilevante]
+#highlight(fill: rgb("FFF1A8"))[Una scheda può includere obiettivi, comportamenti ricorrenti, ostacoli, strumenti usati e condizioni nelle quali il servizio viene incontrato. La selezione delle informazioni dipende dal progetto. Un elemento biografico merita spazio quando aiuta a capire una scelta o a ricordare un bisogno pertinente] @uxDykes.#website-note([Taylor Dykes, definizione e uso delle personas nella progettazione.], "https://www.nngroup.com/articles/persona/")
 
 Nella @fig-ux-persona-documento, la scheda di _Claudia_ collega l’acquisto di biglietti ferroviari al suo lavoro di assistente d’ufficio: deve gestire prenotazioni per gruppi di persone. Il rapporto fra attività, bisogno e difficoltà è più utile della sola descrizione anagrafica. La figura permette di osservare la forma del documento; la sua grafica non certifica come siano stati raccolti i dati.
 
@@ -163,7 +184,8 @@ Per _Viola_, il viaggio può iniziare quando cerca un professionista, continuare
   caption: caption-content([Una porzione della journey ipotetica di _Viola_. Fasi, azioni, punti di contatto e domande restano distinguibili; le opportunità sono proposte da verificare.]),
 ) <fig-ux-journey>
 
-Una mappa dovrebbe chiarire attore, scenario e obiettivo. La stessa organizzazione può sostenere viaggi diversi per chi prenota e per chi offre una prestazione. Le emozioni riportate devono essere collegate a dati o dichiarate come ipotesi: una curva disegnata non è una misurazione psicologica @uxGibbons.#website-note([Sarah Gibbons, componenti e impieghi delle journey map.], "https://www.nngroup.com/articles/journey-mapping-101/")
+#review-note[Quando la mappa descrive un’emozione, occorre indicare da quale dato è stata ricavata oppure presentarla come un’ipotesi da verificare. La curva rende visibile questa lettura dell’esperienza, senza misurare lo stato psicologico della persona]
+Una mappa dovrebbe chiarire attore, scenario e obiettivo. La stessa organizzazione può sostenere viaggi diversi per chi prenota e per chi offre una prestazione. #highlight(fill: rgb("FFF1A8"))[Le emozioni riportate devono essere collegate a dati o dichiarate come ipotesi: una curva disegnata non è una misurazione psicologica] @uxGibbons.#website-note([Sarah Gibbons, componenti e impieghi delle journey map.], "https://www.nngroup.com/articles/journey-mapping-101/")
 
 Lo *user flow* entra invece nella sequenza di azioni necessarie a un compito. Rappresenta punti d’ingresso, scelte, condizioni, passaggi ed esiti. Per prenotare una visita si può partire dalla ricerca, impostare zona e giorno, verificare la disponibilità, scegliere, rileggere e confermare. I rami alternativi sono necessari quanto il percorso che va a buon fine.
 
@@ -173,15 +195,18 @@ Nella @fig-ux-flow la mancanza di disponibilità permette di rivedere i criteri.
   caption: caption-content([Schema del compito di prenotazione. I ritorni indicano possibilità di recupero nel caso simulato, oltre alla prosecuzione verso il riepilogo.]),
 ) <fig-ux-flow>
 
-Journey e flow si completano. La prima aiuta a individuare un ostacolo fra canali, per esempio una conferma non riconosciuta; il secondo permette di esaminare che cosa accada durante la prenotazione. La struttura delle pagine sarà affrontata con l’architettura dell’informazione. Separare questi punti di vista rende più precisa la discussione e aiuta a scegliere quale rappresentazione usare.
+#review-note[L’architettura dell’informazione risponde a un’altra domanda: come organizzare contenuti e pagine perché le persone trovino ciò che cercano? Distinguere questa domanda da quelle sul viaggio complessivo e sui passaggi della prenotazione aiuta il gruppo a scegliere quale rappresentazione discutere.]
+Journey e flow si completano. La prima aiuta a individuare un ostacolo fra canali, per esempio una conferma non riconosciuta; il secondo permette di esaminare che cosa accada durante la prenotazione. #highlight(fill: rgb("FFF1A8"))[La struttura delle pagine sarà affrontata con l’architettura dell’informazione. Separare questi punti di vista rende più precisa la discussione e aiuta a scegliere quale rappresentazione usare.]
 
 === Business Requirements Document
 
 L’ottavo passaggio raccoglie e condivide quanto il prodotto deve permettere di fare @uxDiPascale. Il *Business Requirements Document*, abbreviato in *BRD*, è un documento dei requisiti che mette in relazione problema, obiettivi, persone, funzioni e vincoli. La sua estensione dipende dal progetto: deve essere abbastanza chiaro da sostenere un accordo, un confronto e le decisioni successive.
 
-Nel caso dei fisioterapisti, «permettere di cercare una visita a domicilio in una fascia oraria» esprime una capacità richiesta al servizio. Il requisito deve poi chiarire condizioni e conseguenze: la disponibilità si riferisce all’indirizzo selezionato? Il costo comprende lo spostamento? La persona invia una richiesta oppure ottiene subito una conferma? Domande non risolte in questa fase riappariranno nel calendario, nel riepilogo o nei messaggi.
+#review-note[Per tradurre questa capacità in una funzione, il gruppo deve chiarire quali orari mostrare per l’indirizzo scelto, se il prezzo comprende lo spostamento e che cosa succede quando la persona prenota: invia una richiesta o riceve subito una conferma? Le risposte determinano che cosa mostrare nel calendario, nel riepilogo e nei messaggi.]
+Nel caso dei fisioterapisti, «permettere di cercare una visita a domicilio in una fascia oraria» esprime una capacità richiesta al servizio. #highlight(fill: rgb("FFF1A8"))[Il requisito deve poi chiarire condizioni e conseguenze: la disponibilità si riferisce all’indirizzo selezionato? Il costo comprende lo spostamento? La persona invia una richiesta oppure ottiene subito una conferma? Domande non risolte in questa fase riappariranno nel calendario, nel riepilogo o nei messaggi.]
 
-La @fig-ux-requisiti collega un bisogno a un requisito e a un criterio osservabile. Il criterio aiuta a verificare una parte del comportamento: il riepilogo deve conservare giorno, orario e domicilio scelti. Da solo non garantisce l’intera qualità dell’esperienza, ma rende discutibile un’aspettativa concreta.
+#review-note[Il gruppo ha così un esito preciso da discutere dopo la prova. Per valutare l’esperienza nel suo insieme occorre verificare anche gli altri passaggi.]
+La @fig-ux-requisiti collega un bisogno a un requisito e a un criterio osservabile. Il criterio aiuta a verificare una parte del comportamento: il riepilogo deve conservare giorno, orario e domicilio scelti. #highlight(fill: rgb("FFF1A8"))[Da solo non garantisce l’intera qualità dell’esperienza, ma rende discutibile un’aspettativa concreta.]
 
 #figure(requirements-record(), kind: image, placement: top, scope: "parent",
   caption: caption-content([Un requisito del caso simulato, con condizioni, criterio, priorità e domanda ancora aperta. Il documento rende esplicito che cosa debba essere verificato.]),
@@ -189,9 +214,11 @@ La @fig-ux-requisiti collega un bisogno a un requisito e a un criterio osservabi
 
 È utile distinguere ciò che è necessario per il primo percorso da ciò che può essere sviluppato dopo. La priorità deve avere una ragione: senza la copertura del domicilio non si può valutare una visita pertinente; una funzione di suggerimento può invece essere rinviata. La discussione considera valore per le persone, obiettivi dell’organizzazione, dipendenze e risorse.
 
-Il documento include anche esclusioni e assunzioni. Se la prima versione non gestisce pagamenti, il prototipo non deve dare l’impressione che una transazione sia stata eseguita. Se l’aggiornamento delle disponibilità è ancora un’ipotesi tecnica, va segnalato a chi progetta e sviluppa. Data, versione e responsabilità delle decisioni aiutano il gruppo a capire quale accordo sia attuale.
+#review-note[Nel documento si indicano anche le funzioni escluse e le ipotesi ancora da verificare. Se i pagamenti sono fuori dalla prima versione, il prototipo deve fermarsi prima di qualsiasi messaggio di avvenuto pagamento. Se resta da capire come aggiornare gli orari disponibili, occorre segnalarlo a chi progetta e a chi sviluppa. Indicare la data, la versione e chi ha preso la decisione aiuta il gruppo a riconoscere l’accordo in vigore.]
+#highlight(fill: rgb("FFF1A8"))[Il documento include anche esclusioni e assunzioni. Se la prima versione non gestisce pagamenti, il prototipo non deve dare l’impressione che una transazione sia stata eseguita. Se l’aggiornamento delle disponibilità è ancora un’ipotesi tecnica, va segnalato a chi progetta e sviluppa. Data, versione e responsabilità delle decisioni aiutano il gruppo a capire quale accordo sia attuale.]
 
-Un requisito può cambiare quando una prova mostra un bisogno diverso o una dipendenza non considerata. La revisione conserva il motivo del cambiamento e ne valuta le conseguenze su struttura, flussi e interfaccia. L’allineamento non consiste nel rendere immutabile un documento, ma nel rendere comprensibile la decisione corrente.
+#review-note[Quando un requisito cambia, tutte le persone coinvolte devono poter capire quale decisione è in vigore e perché è stata presa.]
+Un requisito può cambiare quando una prova mostra un bisogno diverso o una dipendenza non considerata. La revisione conserva il motivo del cambiamento e ne valuta le conseguenze su struttura, flussi e interfaccia. #highlight(fill: rgb("FFF1A8"))[L’allineamento non consiste nel rendere immutabile un documento, ma nel rendere comprensibile la decisione corrente.]
 
 == Strutturare il prodotto
 
@@ -231,19 +258,21 @@ La @fig-ux-wireframe-documento mostra la ricostruzione di una funzione dell’ap
   height: 105mm,
 )
 
-Nel caso di _Viola_, la progressione della @fig-ux-wireframe-ui parte dalle aree e aggiunge contenuti e azione. La terza versione introduce la UI; il confronto mantiene riconoscibili le informazioni centrali. Non si tratta di livelli obbligatori da attraversare uno dopo l’altro: possiamo aumentare il dettaglio soltanto dove serve a rispondere a una domanda.
+Nel caso di _Viola_, la progressione della @fig-ux-wireframe-ui parte dalle aree e aggiunge contenuti e azione. La terza versione introduce la UI; il confronto mantiene riconoscibili le informazioni centrali. Non si tratta di livelli obbligatori da attraversare uno dopo l’altro: possiamo aumentare il dettaglio soltanto dove serve a rispondere a una domanda specifica.
 
 #figure(wireframe-progression(), kind: image, placement: top, scope: "parent",
   caption: caption-content([Tre livelli del medesimo esempio simulato: a. aree della schermata; b. contenuti e comando; c. proposta di UI. Data, durata e costo sono ipotetici.]),
 ) <fig-ux-wireframe-ui>
 
-Il wireframe deve contemplare anche contenuti lunghi, assenza di risultati, possibilità di correzione e condizioni d’uso pertinenti. Una schermata con soli rettangoli vuoti può discutere la distribuzione delle masse, ma non permette di valutare se la persona comprenda un’etichetta. La fedeltà va scelta rispetto alla prova, non alla presunta inferiorità di una rappresentazione semplice.
+#review-note[Uno schema fatto di rettangoli vuoti basta per discutere come sono distribuiti gli elementi nella pagina. Se si vuole capire se chi usa il servizio comprende un’etichetta, occorre mostrare le parole che leggerà. La domanda della prova stabilisce quindi quanto dettaglio serve nel wireframe.]
+Il wireframe deve contemplare anche contenuti lunghi, assenza di risultati, possibilità di correzione e condizioni d’uso pertinenti. #highlight(fill: rgb("FFF1A8"))[Una schermata con soli rettangoli vuoti può discutere la distribuzione delle masse, ma non permette di valutare se la persona comprenda un’etichetta. La fedeltà va scelta rispetto alla prova, non alla presunta inferiorità di una rappresentazione semplice.]
 
 Prima di rifinire il disegno si controlla che il percorso conservi le informazioni necessarie. _Viola_ deve poter riconoscere il domicilio e l’orario prima di confermare. Se un ritorno alla ricerca cancella tutte le scelte, il problema riguarda il funzionamento del compito oltre che la disposizione degli elementi.
 
 == Provare e affinare la soluzione
 
-Le quattro attività successive rendono la proposta utilizzabile in una prova, ne osservano gli effetti, introducono revisioni e sviluppano l’interfaccia. La verifica può riaprire una decisione di qualsiasi parte del percorso. Il gruppo deve conservare il legame fra domanda, versione provata, osservazione e scelta successiva.
+#review-note[Per spiegare una scelta successiva, il gruppo deve poter ritrovare la domanda da cui è partito, la versione che ha provato e le osservazioni che hanno orientato la decisione.]
+Le quattro attività successive rendono la proposta utilizzabile in una prova, ne osservano gli effetti, introducono revisioni e sviluppano l’interfaccia. La verifica può riaprire una decisione di qualsiasi parte del percorso. #highlight(fill: rgb("FFF1A8"))[Il gruppo deve conservare il legame fra domanda, versione provata, osservazione e scelta successiva.]
 
 === Prototipo a bassa fedeltà e test di usabilità
 
@@ -251,27 +280,29 @@ L’undicesimo passaggio collega prototipazione e osservazione dell’uso @uxDiP
 
 Un wireframe e un prototipo rispondono a esigenze differenti: il primo descrive una struttura, il secondo permette di simulare un comportamento. Un prototipo può usare wireframe poco rifiniti oppure una UI dettagliata. Fedeltà visiva e funzionamento sono dimensioni distinte: un’immagine molto realistica può non reagire a nessuna azione, mentre una simulazione essenziale può permettere una sequenza completa.
 
-Si definisce prima la domanda. Se vogliamo capire se _Viola_ trovi una disponibilità serale, devono funzionare le parti necessarie a cercare e confrontare gli orari. Non occorre costruire ogni sezione del servizio. Se la domanda riguarda un errore o una conferma, quel ramo deve poter essere raggiunto e compreso.
+#review-note[Per verificare se _Viola_ riesce a trovare un appuntamento serale, basta costruire il percorso che le permette di cercare e confrontare gli orari. Se invece la prova riguarda un errore o una conferma, il prototipo deve consentirle di arrivare a quel punto e capire che cosa è successo.]
+Si definisce prima la domanda. #highlight(fill: rgb("FFF1A8"))[Se vogliamo capire se _Viola_ trovi una disponibilità serale, devono funzionare le parti necessarie a cercare e confrontare gli orari. Non occorre costruire ogni sezione del servizio. Se la domanda riguarda un errore o una conferma, quel ramo deve poter essere raggiunto e compreso.]
 
-Nel test di usabilità una persona prova a svolgere un compito e un ricercatore ne osserva il comportamento @uxMoran. Tre elementi centrali sono partecipante, compito e facilitazione. La @fig-ux-test raccoglie una possibile preparazione: la consegna chiarisce il risultato da raggiungere e le osservazioni riguardano ciò che accade durante il tentativo.
+Nel test di usabilità una persona prova a svolgere un compito e un ricercatore ne osserva il comportamento @uxMoran. Tre elementi centrali sono *partecipante*, *compito* e *facilitazione*. La @fig-ux-test rappresenta una possibile preparazione: la consegna chiarisce il risultato da raggiungere e le osservazioni riguardano ciò che accade durante il tentativo.
 
 #figure(test-plan(), kind: image, placement: top, scope: "parent",
   caption: caption-content([Preparazione di una prova sul percorso simulato. La domanda orienta partecipante, compito, osservazioni e modalità di facilitazione.]),
 ) <fig-ux-test>
 
-«Trova una visita a domicilio dopo le 20 e prova a prenotarla» propone un obiettivo. «Premi il pulsante in basso e scegli il terzo orario» suggerisce invece il percorso. Una consegna che indica le azioni può nascondere le difficoltà che vorremmo osservare. Il GOV.UK Service Manual raccomanda compiti realistici, pertinenti e privi di suggerimenti sulla risposta.#website-note([GOV.UK Service Manual, preparazione dei compiti e conduzione dei test moderati.], "https://www.gov.uk/service-manual/user-research/using-moderated-usability-testing")
+«Trova una visita a domicilio dopo le 20 e prova a prenotarla» propone un obiettivo. «Premi il pulsante in basso e scegli il terzo orario» suggerisce invece il percorso. Una consegna che indica le azioni non è consigliabile, in quanto può nascondere le difficoltà che vorremmo osservare. Il GOV.UK Service Manual raccomanda compiti realistici, pertinenti e privi di suggerimenti sulla risposta.#website-note([GOV.UK Service Manual, preparazione dei compiti e conduzione dei test moderati.], "https://www.gov.uk/service-manual/user-research/using-moderated-usability-testing")
 
 Il facilitatore presenta la prova, mette la persona a proprio agio e osserva senza trasformare ogni esitazione in un aiuto. Se interviene, l’intervento va registrato: completare con assistenza e completare autonomamente sono esiti differenti. L’osservatore annota percorso, parole, ostacoli e risultato, conservando la versione del prototipo e il compito proposto.
 
-Chiedere di pensare ad alta voce può aiutare a comprendere dubbi e interpretazioni, ma i commenti non esauriscono l’osservazione. La persona può dichiarare che una schermata sia chiara e incontrare poi difficoltà nel suo uso. Il comportamento, le spiegazioni e l’esito vanno considerati insieme @uxMoran.#website-note([Kate Moran, elementi e finalità dei test di usabilità.], "https://www.nngroup.com/articles/usability-testing-101/")
+Chiedere di pensare ad alta voce può aiutare a comprendere dubbi e interpretazioni, ma i commenti non esauriscono l’osservazione. La persona può dichiarare che una schermata sia chiara e incontrare poi difficoltà nel suo uso. Il comportamento, le spiegazioni e l’esito vanno quindi considerati insieme @uxMoran.#website-note([Kate Moran, elementi e finalità dei test di usabilità.], "https://www.nngroup.com/articles/usability-testing-101/")
 
-Il numero dei partecipanti dipende dalla domanda, dai gruppi e dal metodo. L’esempio del libro, nel quale quattro persone su cinque non trovano il comando di prenotazione, mostra un problema del caso narrativo @uxDiPascale. Non stabilisce quanti partecipanti servano per ogni studio o quale percentuale si possa generalizzare a una popolazione.
+Il numero dei partecipanti dipende dalla domanda, dai gruppi e dal metodo. L’esempio riportato nel libro di Di Pascale, nel quale quattro persone su cinque non trovano il comando di prenotazione, mostra un problema del caso narrativo @uxDiPascale. Non stabilisce quanti partecipanti servano per ogni studio o quale percentuale si possa generalizzare a una popolazione.
 
 Prima di coinvolgere le persone si prova il protocollo: i collegamenti necessari funzionano? La consegna è comprensibile? Il prototipo consente il recupero previsto? Una limitazione della simulazione può essere scambiata per un problema del prodotto. Annotarla permette di interpretare la prova e di decidere che cosa debba essere verificato di nuovo.
 
 === Iterazioni sui prototipi
 
-Il dodicesimo passaggio traduce quanto osservato in una revisione da sottoporre a nuova prova @uxDiPascale. Il *debriefing* è il momento in cui il gruppo confronta gli episodi e concorda priorità e passi successivi. La discussione parte da ciò che è accaduto, mantenendo separata la descrizione dalla spiegazione.
+#review-note[Nel dodicesimo passaggio il gruppo usa le osservazioni della prova per decidere che cosa modificare, poi mette alla prova la versione rivista]
+#highlight(fill: rgb("FFF1A8"))[Il dodicesimo passaggio traduce quanto osservato in una revisione da sottoporre a nuova prova] @uxDiPascale. Il *debriefing* è il momento in cui il gruppo confronta gli episodi e concorda priorità e passi successivi. La discussione parte da ciò che è accaduto, mantenendo separata la descrizione dalla spiegazione.
 
 Nel caso simulato della @fig-ux-iterazione, una persona legge la scheda ma non avvia la prenotazione. L’etichetta del comando potrebbe essere poco chiara; potrebbero però mancare informazioni necessarie alla scelta oppure la persona potrebbe interpretare diversamente il servizio. Ingrandire il pulsante senza considerare queste alternative rischia di modificare il segnale sbagliato.
 
@@ -279,21 +310,23 @@ Nel caso simulato della @fig-ux-iterazione, una persona legge la scheda ma non a
   caption: caption-content([Un registro di revisione nel caso simulato. Il comportamento osservato sostiene una domanda; la spiegazione e il miglioramento atteso restano da mettere alla prova.]),
 ) <fig-ux-iterazione>
 
-Le priorità considerano quali obiettivi vengono bloccati, quali conseguenze produce l’errore e quali persone possono incontrarlo. La frequenza è un’informazione utile, ma un problema raro può avere conseguenze importanti. Con pochi partecipanti conviene descrivere gli episodi e i limiti dell’osservazione, evitando percentuali presentate come stime generali.
+Le priorità considerano quali obiettivi vengono bloccati, quali conseguenze produce l’errore e quali persone possono incontrarlo. La frequenza è un’informazione utile, ma anche un problema raro può avere conseguenze importanti. Con pochi partecipanti conviene descrivere gli episodi e i limiti dell’osservazione, evitando percentuali presentate come stime generali.
 
-Una decisione di revisione conserva il collegamento con l’episodio: versione provata, punto del percorso, osservazione, ipotesi, modifica e nuova domanda. Questo registro aiuta a spiegare perché una scelta sia cambiata e impedisce che la stessa discussione ricominci senza le informazioni precedenti.
+Una decisione di revisione deve conservare il collegamento con l’episodio: versione provata, punto del percorso, osservazione, ipotesi, modifica e nuova domanda. Questo registro aiuta a spiegare perché una scelta sia cambiata e impedisce che la stessa discussione ricominci senza le informazioni precedenti.
 
-La nuova versione viene confrontata con un compito coerente con la domanda. Se cambiamo contemporaneamente etichetta, posizione, contenuto e percorso, può essere più difficile capire quali modifiche abbiano inciso sul risultato. A volte una revisione ampia è necessaria; in quel caso si dichiara il suo ambito e si osserva nuovamente il percorso complessivo.
+La nuova versione viene poi confrontata con un compito coerente con la domanda. Se cambiamo contemporaneamente etichetta, posizione, contenuto e percorso, può essere più difficile capire quali modifiche abbiano inciso sul risultato. A volte una revisione ampia è necessaria; in quel caso si dichiara il suo ambito e si osserva nuovamente il percorso complessivo.
 
-Iterare può significare anche abbandonare una soluzione. Se emerge che la visita serale non può essere confermata automaticamente, occorre ripensare il servizio e le promesse dell’interfaccia. Un messaggio più chiaro aiuta a descrivere la condizione, ma non crea una disponibilità che l’organizzazione non può offrire.
+#review-note[Il messaggio può spiegare a _Viola_ che la visita serale è ancora da confermare. Per offrirle davvero quell’orario, il servizio deve poter contare su un fisioterapista disponibile.]
+Iterare può significare anche abbandonare una soluzione. Se emerge che la visita serale non può essere confermata automaticamente, occorre ripensare il servizio e le promesse dell’interfaccia. #highlight(fill: rgb("FFF1A8"))[Un messaggio più chiaro aiuta a descrivere la condizione, ma non crea una disponibilità che l’organizzazione non può offrire.]
 
 === User Interface e mockup
 
 Il tredicesimo passaggio sviluppa la presentazione dell’interfaccia e le sue scelte visive @uxDiPascale. Il *mockup* è una rappresentazione dell’aspetto della schermata: mostra contenuti, immagini, colori, tipografia e componenti con un dettaglio sufficiente a discuterne la resa. Può essere statico; quando viene collegato ad altre schermate può contribuire a un prototipo.
 
-Nel percorso descritto dal libro, la UI segue una prima verifica della struttura. Il suo sviluppo può comunque accompagnare altre attività: una prova di etichette, contrasto o dimensioni può essere necessaria prima che tutti i flussi siano consolidati. La collocazione del passaggio aiuta a leggere il caso, senza imporre che le decisioni visive inizino tutte nello stesso momento.
+La UI segue una prima verifica della struttura. Il suo sviluppo può comunque accompagnare altre attività: una prova di etichette, contrasto o dimensioni può essere necessaria prima che tutti i flussi siano consolidati. La collocazione del passaggio aiuta a leggere il caso, senza imporre che le decisioni visive inizino tutte nello stesso momento.
 
-La griglia stabilisce riferimenti; la tipografia distingue ruoli; colore e immagini sostengono significati e priorità; la composizione coordina queste relazioni. Nel caso di _Viola_, giorno, orario, domicilio e costo devono restare riconoscibili mentre il comando propone l’azione successiva. Un trattamento espressivo può contribuire all’identità del servizio, purché non ostacoli la lettura e l’uso.
+#review-note[Le scelte visive possono dare al servizio un’identità riconoscibile, purché le informazioni restino leggibili e le azioni facili da individuare e usare.]
+La griglia stabilisce riferimenti; la tipografia distingue ruoli; colore e immagini sostengono significati e priorità; la composizione coordina queste relazioni. Nel caso di _Viola_, giorno, orario, domicilio e costo devono restare riconoscibili mentre il comando propone l’azione successiva. #highlight(fill: rgb("FFF1A8"))[Un trattamento espressivo può contribuire all’identità del servizio, purché non ostacoli la lettura e l’uso.]
 
 Il confronto documentario della @fig-ux-mockup-documento mostra la testata di una pagina immobiliare in wireframe e nella proposta visiva. Titolo e comando mantengono una relazione riconoscibile; fotografia, marchio, colori e trattamento tipografico precisano il carattere della pagina. La somiglianza della struttura permette di discutere ciò che cambia, senza dedurne l’esito di una prova con utenti.
 
@@ -322,7 +355,8 @@ Il quattordicesimo passaggio sottopone a prova la versione che integra struttura
 
 La prova riprende i compiti prioritari e considera gli stati che potrebbero interromperli. Per _Viola_ occorre trovare una visita pertinente, verificare informazioni e condizioni, confermare e riconoscere l’esito. Si controlla anche che una modifica introdotta per risolvere un problema non ne abbia creato un altro: un comando più evidente può far procedere troppo presto se le condizioni sono diventate meno leggibili.
 
-La valutazione con le persone e i controlli di accessibilità affrontano aspetti complementari. Coinvolgere persone con disabilità permette di osservare barriere concrete; il loro completamento di alcuni compiti non dimostra da solo la conformità dell’intero prodotto ai requisiti applicabili. Il W3C raccomanda di combinare valutazione con utenti e verifica rispetto agli standard.#website-note([W3C WAI, coinvolgimento delle persone nella valutazione dell’accessibilità e integrazione con gli standard.], "https://www.w3.org/WAI/test-evaluate/involving-users/")
+#review-note[Le prove con persone con disabilità aiutano a vedere quali barriere incontrano mentre svolgono compiti concreti. La verifica rispetto agli standard serve a controllare tutti i requisiti applicabili al prodotto, anche quelli che riguardano aspetti al di fuori dei compiti osservati. Il W3C raccomanda di affiancare i due approcci.]
+#highlight(fill: rgb("FFF1A8"))[La valutazione con le persone e i controlli di accessibilità affrontano aspetti complementari. Coinvolgere persone con disabilità permette di osservare barriere concrete; il loro completamento di alcuni compiti non dimostra da solo la conformità dell’intero prodotto ai requisiti applicabili. Il W3C raccomanda di combinare valutazione con utenti e verifica rispetto agli standard.]#website-note([W3C WAI, coinvolgimento delle persone nella valutazione dell’accessibilità e integrazione con gli standard.], "https://www.w3.org/WAI/test-evaluate/involving-users/")
 
 Il resoconto identifica versione, compiti, partecipanti, condizioni, esiti e limiti. Indica quali problemi sono stati affrontati, quali restano aperti e che cosa debba essere verificato durante lo sviluppo. Un’approvazione interna o una preferenza estetica non sostituiscono queste informazioni.
 
@@ -330,7 +364,7 @@ La consegna può includere componenti, stati, testi, regole di comportamento, ri
 
 == Dal progetto al servizio
 
-Le quattordici attività aiutano a seguire il passaggio dal brief alla verifica, ma la vita del servizio continua. L’implementazione traduce le scelte in un sistema funzionante; il rilascio introduce contenuti e condizioni che una simulazione può rappresentare soltanto in parte. La conoscenza raccolta deve rimanere disponibile a chi osserva e migliora il prodotto.
+Le quattordici attività aiutano a seguire il passaggio dal brief alla verifica, ma il processo non si ferma qui. L’implementazione traduce le scelte in un sistema funzionante; il rilascio introduce contenuti e condizioni che una simulazione può rappresentare soltanto in parte. La conoscenza raccolta deve sempre rimanere disponibile a chi osserva e migliora il prodotto.
 
 === Conservare ciò che si è appreso
 
@@ -340,7 +374,8 @@ Il passaggio fra progettazione e sviluppo è più chiaro quando i materiali most
 
 Nel servizio dei fisioterapisti, una disponibilità rimossa nel momento della conferma è una condizione da gestire. Il prototipo può mostrarne l’esito previsto; l’implementazione deve poi verificare come dati e tempi reali producano quel comportamento. La progettazione resta coinvolta nel confronto fra promessa del servizio e risposta effettiva.
 
-Conservare le ragioni di una decisione aiuta anche le revisioni successive. Un cambiamento di personale non dovrebbe far perdere il motivo per cui un’informazione viene mostrata prima di un’altra. Il registro delle prove e delle questioni aperte sostiene questa continuità meglio di una raccolta di sole schermate definitive.
+#review-note[Chi entra nel gruppo in un secondo momento dovrebbe poter ricostruire, per esempio, perché l’interfaccia mostra un’informazione prima di un’altra.]
+Conservare le ragioni di una decisione aiuta anche le revisioni successive. #highlight(fill: rgb("FFF1A8"))[Un cambiamento di personale non dovrebbe far perdere il motivo per cui un’informazione viene mostrata prima di un’altra.] Il registro delle prove e delle questioni aperte sostiene questa continuità meglio di una raccolta di sole schermate definitive.
 
 === Iterazione e Lean UX
 
@@ -352,15 +387,17 @@ La @fig-ux-ciclo sintetizza questa relazione. Per il caso di _Viola_, un’ipote
   caption: caption-content([Ipotesi, prova e apprendimento in un ciclo di revisione. La visualizzazione sintetizza il rapporto fra domanda, esperimento e decisione, senza prescrivere una durata o un numero di iterazioni.]),
 ) <fig-ux-ciclo>
 
-Una raccolta di documenti può essere utile al gruppo, ma non dimostra che il bisogno sia stato soddisfatto. Dopo il rilascio si possono osservare richieste di assistenza, interruzioni dei percorsi ed esiti dei compiti. Questi segnali aiutano a formulare nuove domande; per comprenderne le cause può essere necessario tornare alla ricerca con le persone.
+#review-note[I documenti aiutano il gruppo a ricostruire come si è arrivati alla soluzione. Per capire se questa risponde al bisogno, occorre osservare come le persone usano il servizio.]
+#highlight(fill: rgb("FFF1A8"))[Una raccolta di documenti può essere utile al gruppo, ma non dimostra che il bisogno sia stato soddisfatto.] Dopo il rilascio si possono osservare richieste di assistenza, interruzioni dei percorsi ed esiti dei compiti. Questi segnali aiutano a formulare nuove domande; per comprenderne le cause può essere necessario tornare alla ricerca con le persone.
 
 La collaborazione rende possibile intervenire. Chi gestisce il servizio conosce condizioni che potrebbero non essere visibili nei dati dell’interfaccia; chi sviluppa può individuare una dipendenza; chi progetta può mettere in relazione il problema con una scelta di contenuto o di interazione. Il ciclo collega queste conoscenze a una decisione verificabile.
 
 === Scegliere il lavoro necessario
 
-Adattare il processo significa valutare quali incertezze affrontare, con quali strumenti e in quale ordine. Un servizio esistente può richiedere prima l’osservazione del percorso attuale; una proposta nuova può richiedere di comprendere se il problema individuato esista. La stessa sequenza di documenti non risponde automaticamente a entrambe le situazioni.
+Adattare il processo significa valutare quali incertezze affrontare, con quali strumenti e in quale ordine. Un servizio esistente può richiedere prima l’osservazione del percorso attuale; una proposta nuova può richiedere di comprendere se il problema individuato esista davvero.
 
-Il livello di dettaglio deve permettere una decisione. Un disegno essenziale può essere sufficiente a confrontare due percorsi; una domanda sul messaggio di conferma richiede invece parole precise e uno stato raggiungibile. Tempo e risorse orientano la scelta del lavoro, mantenendo esplicito ciò che la prova permette e ciò che lascia aperto.
+#review-note[Si parte dalla decisione che la prova deve aiutare a prendere. Per confrontare due percorsi può bastare uno schema. Per verificare se il messaggio di conferma è chiaro, occorre scriverlo come lo vedrà la persona e costruire il passaggio che lo mostra. Tempo e risorse aiutano a stabilire fin dove arrivare, a patto di chiarire che cosa la prova può verificare e quali domande restano aperte.]
+#highlight(fill: rgb("FFF1A8"))[Il livello di dettaglio deve permettere una decisione. Un disegno essenziale può essere sufficiente a confrontare due percorsi; una domanda sul messaggio di conferma richiede invece parole precise e uno stato raggiungibile. Tempo e risorse orientano la scelta del lavoro, mantenendo esplicito ciò che la prova permette e ciò che lascia aperto.]
 
 La domanda iniziale ritorna così alla fine del capitolo: che cosa abbiamo imparato sulle persone, sul servizio e sulla soluzione? Il processo UX e UI rende queste conoscenze utilizzabili. Il suo risultato comprende il prodotto e la capacità del gruppo di motivare, verificare e rivedere le proprie scelte.
 
