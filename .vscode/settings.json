@@ -1,10 +1,5 @@
 {
   "tinymist.rootPath": "${workspaceFolder}",
   "tinymist.fontPaths": ["risorse-condivise/font/editoriali"],
-  "tinymist.systemFonts": false,
-  "tinymist.preview.refresh": "onType",
-  "[typst]": {
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 1000
-  }
+  "tinymist.systemFonts": false
 }
